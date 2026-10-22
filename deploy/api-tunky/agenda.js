@@ -145,7 +145,7 @@ module.exports = function makeAgenda({ DATA_DIR, json: jsonBase, clean }) {
   // ---- asistente con IA: recuperación en el servidor + gateway ai.tunky.net (token solo en el .env del VPS) ----
   const AI_TOKEN = process.env.AGENDA_AI_TOKEN || "";
   const AI_URL = process.env.AGENDA_AI_URL || "https://ai.tunky.net/v1/chat";
-  const AI_MODEL = process.env.AGENDA_AI_MODEL || "openai/gpt-oss-120b:free";
+  const AI_MODEL = process.env.AGENDA_AI_MODEL || "openai/gpt-oss-20b:free"; // "GPT básico": rápido y gratuito
   const AI_DIA = +(process.env.AGENDA_AI_MAX_DIA || 800);
   const INDICE_URL = "https://unimauro.github.io/agenda-legislativa-tech/data/indice.json";
   let IDX = [], idxT = 0, usoDia = { d: "", n: 0 };
@@ -162,7 +162,8 @@ module.exports = function makeAgenda({ DATA_DIR, json: jsonBase, clean }) {
   }
   const STOP = new Set("de la el los las y o a en que con por para del un una se su sus es al lo como mas sobre hay cual cuales me mi te tu le les esta este estas estos ley leyes propuesta propuestas proponen propone quien quienes cuanto cuesta algo tema dime quiero saber hola gracias".split(" "));
   const SIN = { robo: ["hurto", "imei"], celular: ["movil", "imei", "linea"], celulares: ["movil", "imei", "linea"], estafa: ["fraude", "suplantacion"], estafas: ["fraude", "suplantacion"],
-    internet: ["banda", "conectividad"], colegio: ["escuela", "educacion"], colegios: ["escuela", "educacion"], hospital: ["salud"], trabajo: ["empleo", "laboral"], chamba: ["empleo", "laboral"], ninos: ["menores", "adolescentes"] };
+    internet: ["banda", "conectividad"], cuenta: ["fraude", "banco", "pago"], banco: ["fraude", "financier"], vacien: ["fraude"], plata: ["fraude", "pago"],
+    yape: ["pago", "billetera"], chip: ["sim", "linea"], hackearon: ["ciberataque", "suplantacion"], llamadas: ["llamada", "spam"], colegio: ["escuela", "educacion"], colegios: ["escuela", "educacion"], hospital: ["salud"], trabajo: ["empleo", "laboral"], chamba: ["empleo", "laboral"], ninos: ["menores", "adolescentes"] };
   function recuperar(L, q, k = 6) {
     const ws = norm(q).split(/[^a-z0-9ñ]+/).filter((w) => w.length > 2 && !STOP.has(w)).flatMap((w) => [w, ...(SIN[w] || [])]);
     const idm = q.toUpperCase().match(/\b(IA|CIB|GOB|CON|ECO|TAL|SOB|DER)-?(\d{1,2})\b/);
@@ -177,8 +178,8 @@ module.exports = function makeAgenda({ DATA_DIR, json: jsonBase, clean }) {
     (p.ent || []).length ? `Quién la implementa: ${(p.ent || []).slice(0, 6).map((e) => e[0] + " (" + e[1] + ")").join(", ")}` : "",
     `Costo fiscal: ${p.costo_fiscal}${p.imp && p.imp.costo ? " — " + p.imp.costo : ""}`, p.imp && p.imp.bs ? `Beneficio social: ${p.imp.bs}` : "",
     `Comisión: ${p.comision_sugerida} · Plazo: ${p.plazo}`].filter(Boolean).join("\n");
-  async function llamarIA(messages, model) {
-    const r = await fetch(AI_URL, { method: "POST", signal: AbortSignal.timeout(25000),
+  async function llamarIA(messages, model, ms) {
+    const r = await fetch(AI_URL, { method: "POST", signal: AbortSignal.timeout(ms),
       headers: { "Content-Type": "application/json", "X-Client-Token": AI_TOKEN, Origin: "https://unimauro.github.io" },
       body: JSON.stringify(model ? { project: "agenda-tech", messages, model } : { project: "agenda-tech", messages }) });
     const j = await r.json().catch(() => ({}));
@@ -217,13 +218,18 @@ module.exports = function makeAgenda({ DATA_DIR, json: jsonBase, clean }) {
       if (q.length < 2) return json(res, 400, { ok: false, error: "Escribe tu pregunta." });
       const hist = (Array.isArray(b.hist) ? b.hist : []).slice(-4).map((m) => (m && m.r === "a" ? "Asistente: " : "Ciudadano: ") + txt(m && m.t, 500)).join("\n");
       const L = await indice();
-      const ctx = recuperar(L, q + " " + hist.slice(-300));
-      const contenido = `PROPUESTAS DE LA AGENDA (únicas fuentes válidas; si la respuesta no está aquí, dilo):\n\n${ctx.length ? ctx.map(ficha).join("\n\n") : "(ninguna propuesta coincide con la pregunta)"}\n\n` +
-        (hist ? `CONVERSACIÓN PREVIA:\n${hist}\n\n` : "") + `PREGUNTA DEL CIUDADANO: ${q}`;
+      const ctx = recuperar(L, q + " " + hist.slice(-300)).slice(0, 5);
+      const contenido = `NOTAS INTERNAS para responder (no las menciones como "fichas", "fuentes" ni "contexto"; si la respuesta no está en ellas, dilo con honestidad):\n\n` +
+        `${ctx.length ? ctx.map(ficha).join("\n\n") : "(no hay una propuesta de la agenda sobre esto)"}\n\n` +
+        (hist ? `LO QUE YA HABLARON:\n${hist}\n\n` : "") +
+        `CÓMO RESPONDER: como una persona cercana que conversa, en español peruano sencillo, tuteando. Empieza conectando con lo que la persona siente o necesita. ` +
+        `De 3 a 5 frases cortas, sin tablas ni listas largas ni títulos. Menciona el código de la propuesta (ej. CIB-05) de forma natural. ` +
+        `Si sirve, di qué cambiaría en su vida diaria, quién se encargaría y si le cuesta o no al Estado. Termina con una pregunta corta o una sugerencia útil.\n\n` +
+        `LO QUE PREGUNTA LA PERSONA: ${q}`;
       usoDia.n++;
       let reply;
-      try { reply = await llamarIA([{ role: "user", content: contenido }], AI_MODEL); }
-      catch (e) { try { reply = await llamarIA([{ role: "user", content: contenido }]); } catch (e2) { return json(res, 502, { ok: false, error: "El asistente no respondió." }); } }
+      try { reply = await llamarIA([{ role: "user", content: contenido }], AI_MODEL, 15000); }
+      catch (e) { try { reply = await llamarIA([{ role: "user", content: contenido }], null, 12000); } catch (e2) { return json(res, 502, { ok: false, error: "El asistente no respondió." }); } }
       return json(res, 200, { ok: true, reply: txt(reply, 2500), ids: ctx.map((p) => p.id) });
     },
 

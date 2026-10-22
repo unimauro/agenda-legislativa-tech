@@ -287,6 +287,68 @@ def bloques_v2(p):
     return "".join(out)
 
 
+CORTO = {"Exposición de motivos — el problema": "El problema", "Efecto de la vigencia sobre la legislación nacional": "Efecto de la vigencia",
+         "Impacto económico: detalle y supuestos": "Impacto económico", "¿Qué opinas de esta propuesta?": "Opina", "Indicador de éxito al 2031": "Meta 2031"}
+
+
+def con_sidebar(html_doc, p, props):
+    """Sidebar de navegación: índice de la página (scrollspy) + todas las propuestas por eje; en móvil, panel plegable."""
+    import re
+    import unicodedata
+    toc, usados = [], set()
+
+    def slug(t):
+        t = unicodedata.normalize("NFD", html.unescape(t)).encode("ascii", "ignore").decode().lower()
+        b = re.sub(r"[^a-z0-9]+", "-", t).strip("-")[:40] or "s"
+        k, i = b, 2
+        while k in usados:
+            k, i = f"{b}-{i}", i + 1
+        usados.add(k)
+        return k
+
+    def poner_id(m):
+        attrs, titulo = m.group(1) or "", m.group(2)
+        ya = re.search(r'id="([^"]+)"', attrs)
+        sid = ya.group(1) if ya else slug(titulo)
+        txt = html.unescape(re.sub(r"<[^>]+>", "", titulo))
+        toc.append((sid, CORTO.get(txt, txt)))
+        return f'<section{attrs if ya else attrs + f" id={chr(34)}{sid}{chr(34)}"}><h2>{titulo}</h2>'
+
+    html_doc = re.sub(r"<section([^>]*)><h2>(.*?)</h2>", poner_id, html_doc)
+    indice = "".join(f'<li><a href="#{e(i)}">{e(t)}</a></li>' for i, t in toc)
+    grupos = ""
+    for eje, (nombre, color) in EJES.items():
+        lista = [q for q in props if q["eje"] == eje]
+        if not lista:
+            continue
+        items = "".join(f'<a href="{e(q["id"])}.html"{" class=" + chr(34) + "on" + chr(34) + " aria-current=" + chr(34) + "page" + chr(34) if q["id"] == p["id"] else ""}>'
+                        f'<b>{e(q["id"])}</b> {e(q["titulo_corto"])}</a>' for q in lista)
+        grupos += f'<details class="side-eje" style="--c:{color}"{" open" if eje == p["eje"] else ""}><summary>{e(nombre)} <span>{len(lista)}</span></summary><div>{items}</div></details>'
+    aside = f"""<aside class="side" id="side" aria-label="Navegación">
+  <a class="side-back" href="../#propuestas">← Todas las propuestas</a>
+  <div class="side-blk"><h3>En esta página</h3><ol class="side-toc">{indice}</ol></div>
+  <div class="side-blk"><h3>Propuestas</h3><input id="side-q" type="search" placeholder="Filtrar…" aria-label="Filtrar propuestas">{grupos}</div>
+  <div class="side-blk side-acts"><a href="../pdf/{e(p['id'])}.pdf" download>⬇️ PDF</a><a href="../docx/{e(p['id'])}.docx" download>📝 Word</a><a href="../#chat">💬 Asistente</a></div>
+</aside>"""
+    html_doc = html_doc.replace('<span class="spacer"></span><button class="ghost" id="theme"',
+                                '<span class="spacer"></span><button class="ghost side-toggle" id="side-btn" aria-expanded="false" aria-controls="side">☰ Índice</button><button class="ghost" id="theme"', 1)
+    html_doc = html_doc.replace('<main class="wrap narrow">', f'<div class="read-bar" id="read-bar"></div><div class="doc-layout">{aside}<main class="doc-main">', 1)
+    js = """<button class="to-top" id="to-top" aria-label="Volver arriba">↑</button>
+<script>(function(){const side=document.getElementById('side'),btn=document.getElementById('side-btn');
+btn.onclick=()=>{const o=side.classList.toggle('open');btn.setAttribute('aria-expanded',o)};
+side.addEventListener('click',e=>{if(e.target.closest('a')&&innerWidth<980){side.classList.remove('open');btn.setAttribute('aria-expanded',false)}});
+const links=[...side.querySelectorAll('.side-toc a')],secs=links.map(a=>document.getElementById(a.getAttribute('href').slice(1))).filter(Boolean);
+const io=new IntersectionObserver(es=>es.forEach(en=>{if(en.isIntersecting)links.forEach(a=>a.classList.toggle('on',a.getAttribute('href')==='#'+en.target.id))}),{rootMargin:'-20% 0px -70% 0px'});
+secs.forEach(s=>io.observe(s));
+const q=document.getElementById('side-q');q.oninput=()=>{const v=q.value.normalize('NFD').replace(/[\\u0300-\\u036f]/g,'').toLowerCase();
+side.querySelectorAll('.side-eje').forEach(d=>{let n=0;d.querySelectorAll('a').forEach(a=>{const ok=a.textContent.normalize('NFD').replace(/[\\u0300-\\u036f]/g,'').toLowerCase().includes(v);a.hidden=!ok;n+=ok});d.hidden=!n;if(v)d.open=true})};
+const cur=side.querySelector('.side-eje a.on');if(cur&&innerWidth>=980&&cur.offsetTop>side.clientHeight-40)side.scrollTop=cur.offsetTop-side.clientHeight/2;
+const bar=document.getElementById('read-bar'),top=document.getElementById('to-top');
+addEventListener('scroll',()=>{const h=document.documentElement,pc=h.scrollTop/(h.scrollHeight-h.clientHeight);bar.style.width=(pc*100)+'%';top.classList.toggle('on',h.scrollTop>900)},{passive:true});
+top.onclick=()=>scrollTo({top:0,behavior:'smooth'});})();</script>"""
+    return html_doc.replace("</main>", "</main></div>" + js, 1)
+
+
 def pagina(p, plan, prev, nxt):
     eje_nom, color = EJES[p["eje"]]
     url = f"{BASE}p/{p['id']}.html"
@@ -559,7 +621,7 @@ def main():
     for i, p in enumerate(props):
         prev = props[i - 1]["id"] if i else None
         nxt = props[i + 1]["id"] if i + 1 < len(props) else None
-        (ROOT / f"p/{p['id']}.html").write_text(pagina(p, plan, prev, nxt))
+        (ROOT / f"p/{p['id']}.html").write_text(con_sidebar(pagina(p, plan, prev, nxt), p, props))
     urls = [BASE] + [f"{BASE}p/{p['id']}.html" for p in props]
     (ROOT / "sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
                                      + "".join(f"<url><loc>{u}</loc><lastmod>{HOY}</lastmod></url>\n" for u in urls) + "</urlset>\n")

@@ -245,3 +245,36 @@ mark{background:color-mix(in srgb,#facc15 45%,transparent);color:inherit;border-
 .cm{border-bottom:1px solid var(--border);padding:8px 0}
 .cm p{margin:4px 0 0;font-size:13.5px}
 .comentar{margin-top:30px}
+/* ---- sidebar de propuesta ---- */
+.read-bar{position:fixed;top:0;left:0;height:3px;width:0;background:var(--eje,var(--accent));z-index:30;transition:width .1s}
+.doc-layout{display:grid;grid-template-columns:270px minmax(0,1fr);gap:36px;max-width:1200px;margin:0 auto;padding:0 16px}
+.doc-main{min-width:0;max-width:840px}
+.side{position:sticky;top:64px;align-self:start;max-height:calc(100vh - 80px);overflow:auto;padding:18px 4px 24px 0;font-size:13.5px;scrollbar-width:thin}
+.side h3{font:700 11px/1 var(--sans);text-transform:uppercase;letter-spacing:.09em;color:var(--muted);margin:0 0 8px}
+.side-blk{margin-top:18px}
+.side-back{display:inline-block;font-weight:600;text-decoration:none;color:var(--text);padding:6px 10px;border:1px solid var(--border);border-radius:10px}
+.side-toc{list-style:none;margin:0;padding:0;border-left:2px solid var(--border)}
+.side-toc a{display:block;padding:4px 10px;margin-left:-2px;border-left:2px solid transparent;color:var(--muted);text-decoration:none;line-height:1.35}
+.side-toc a:hover{color:var(--text)}
+.side-toc a.on{color:var(--eje,var(--accent));border-left-color:var(--eje,var(--accent));font-weight:600}
+.side input{width:100%;font:inherit;font-size:13px;padding:7px 9px;border-radius:9px;border:1px solid var(--border);background:var(--surface);color:var(--text);margin-bottom:8px}
+.side-eje{border-left:3px solid var(--c);margin-bottom:6px;border-radius:4px}
+.side-eje summary{cursor:pointer;padding:5px 8px;font-weight:600;font-size:12.5px;list-style:none;display:flex;justify-content:space-between;gap:6px}
+.side-eje summary::-webkit-details-marker{display:none}
+.side-eje summary span{color:var(--muted);font-weight:500}
+.side-eje div a{display:block;padding:4px 8px 4px 12px;color:var(--text);text-decoration:none;font-size:12.5px;line-height:1.3;border-radius:6px}
+.side-eje div a b{font:600 11px var(--mono);color:var(--c)}
+.side-eje div a:hover{background:var(--surface2)}
+.side-eje div a.on{background:color-mix(in srgb,var(--c) 16%,transparent);font-weight:600}
+.side-acts{display:flex;flex-wrap:wrap;gap:6px}
+.side-acts a{font-size:12.5px;text-decoration:none;color:var(--text);border:1px solid var(--border);border-radius:9px;padding:6px 9px;background:var(--surface)}
+.side-toggle{display:none}
+.to-top{position:fixed;right:16px;bottom:16px;width:44px;height:44px;border-radius:50%;border:1px solid var(--border);background:var(--surface);color:var(--text);font-size:18px;box-shadow:var(--shadow);opacity:0;pointer-events:none;transition:opacity .2s;z-index:25}
+.to-top.on{opacity:1;pointer-events:auto}
+@media (max-width:979px){
+  .doc-layout{grid-template-columns:1fr;gap:0}
+  .side-toggle{display:inline-flex}
+  .side{display:none;position:fixed;top:52px;left:0;right:0;max-height:calc(100vh - 52px);background:var(--bg);border-bottom:1px solid var(--border);padding:12px 16px 20px;z-index:22;box-shadow:0 12px 30px rgba(0,0,0,.25)}
+  .side.open{display:block}
+}
+@media print{.side,.read-bar,.to-top,.side-toggle{display:none !important}.doc-layout{display:block}}

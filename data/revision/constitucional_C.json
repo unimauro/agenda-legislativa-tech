@@ -123,7 +123,7 @@
  {
   "id": "SOB-05",
   "especialidad": "constitucional",
-  "veredicto": "observaciones",
+  "veredicto": "observaciones_graves",
   "resumen": "Desarrolla adecuadamente la dignidad, la intimidad y la autodeterminación informativa (arts. 1, 2.6 y 2.7) y la no discriminación (art. 2.2). Presenta vacíos constitucionalmente relevantes: no regula el consentimiento de menores e incapaces, la prohibición en seguros incide en contratos vigentes (art. 62), la autoridad sancionadora frente a aseguradoras y empleadores queda indeterminada, la remisión a la Ley 27811 es impropia para recursos genéticos humanos y la ley misma podría requerir consulta previa legislativa por su art. 8.",
   "hallazgos": [
    {
@@ -219,6 +219,244 @@
     "ubicacion": "Artículo 9 y Exposición de motivos",
     "problema": "La cita del art. 8 (acuerdos comerciales) y del art. 38 (compra pública de innovación) de la Ley 32069 no pudo verificarse en esta revisión; un error de numeración sería de severidad alta en técnica legislativa.",
     "correccion": "Verificar ambos artículos en el texto oficial de la Ley 32069 (El Peruano) y en el Reglamento aprobado por D.S. 009-2025-EF antes de la versión final."
+   }
+  ]
+ },
+ {
+  "id": "DER-01",
+  "especialidad": "constitucional",
+  "veredicto": "observaciones",
+  "resumen": "Desarrolla correctamente el debido proceso, la tutela jurisdiccional y la publicidad (art. 139.3, 139.4 y 139.14) y advierte que la incorporación del art. 155-J a la LOPJ exige votación de ley orgánica. Deben corregirse la gratuidad general de copias, que incide en los ingresos propios y la autonomía presupuestal del Poder Judicial (arts. 138 y 145), la transmisión de audiencias sin salvaguardas de intimidad y presunción de inocencia, y la ambigüedad sobre qué parte de la ley tiene carácter orgánico.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 8.2",
+    "problema": "La gratuidad general de copias digitales para todas las partes suprime ingresos por aranceles judiciales que forman parte de los recursos directamente recaudados del pliego Poder Judicial, cuyo presupuesto propone y sustenta el propio Poder Judicial (art. 145 de la Constitución). La gratuidad constitucional se predica de quienes no tienen recursos (art. 139.16). Una reducción de ingresos impuesta sin coordinación afecta la autonomía presupuestal y debe evaluarse bajo la STC 00018-2023-PI/TC (Sentencia 158/2026) en cuanto a la sostenibilidad fiscal.",
+    "correccion": "Redactar: «8.2 El acceso y la descarga en línea del expediente judicial electrónico por las partes y sus abogados no están sujetos al pago de tasas. Las copias certificadas se rigen por el cuadro de aranceles judiciales; están exoneradas las personas que gozan de auxilio judicial conforme al Código Procesal Civil.» Agregar en la exposición de motivos la opinión del Poder Judicial (art. 107, segundo párrafo, de la Constitución)."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 9.1",
+    "problema": "La transmisión de audiencias virtuales como regla de publicidad no distingue el derecho a la intimidad, a la imagen y a la presunción de inocencia de imputados, testigos y víctimas (arts. 2.7 y 2.24.e de la Constitución), ni el interés superior del niño (art. 4). La publicidad del art. 139.4 se satisface con el acceso del público, no exige difusión masiva.",
+    "correccion": "Redactar: «9.1 La publicidad de las audiencias virtuales se garantiza permitiendo el acceso del público en los casos en que no exista reserva conforme a ley. La transmisión o difusión de la grabación requiere resolución motivada que pondere el interés público con la intimidad, la imagen y la presunción de inocencia de los intervinientes; no se transmiten ni difunden las declaraciones de víctimas, niñas, niños y adolescentes ni de testigos protegidos.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 11 y efecto_vigencia",
+    "problema": "El art. 155-J remite a 'la ley de la materia', que es la propia ley ordinaria; no queda claro si toda la ley debe aprobarse con la votación calificada del art. 106 (mayoría del número legal de miembros de cada cámara, según la Ley 31988) o solo el art. 11. La regulación de la estructura y funcionamiento del Poder Judicial es materia de ley orgánica; las garantías procesales, no. La ambigüedad genera riesgo de vicio formal.",
+    "correccion": "En efecto_vigencia: «El artículo 11 modifica la Ley Orgánica del Poder Judicial y, por ello, la ley se somete en su integridad a la votación prevista en el artículo 106 de la Constitución, a fin de evitar cuestionamientos sobre el carácter orgánico de los artículos 4 a 9.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 4.3",
+    "problema": "La participación remota de víctimas y testigos para evitar confrontación es legítima, pero en el proceso penal debe preservar el derecho del imputado a interrogar a los testigos de cargo (art. 139.14 de la Constitución; art. 8.2.f de la Convención Americana).",
+    "correccion": "Agregar: «En los procesos penales, la medida garantiza que la defensa pueda interrogar al declarante en tiempo real.»"
+   }
+  ]
+ },
+ {
+  "id": "DER-02",
+  "especialidad": "constitucional",
+  "veredicto": "observaciones",
+  "resumen": "Es compatible con el art. 2.8 de la Constitución y con la Decisión 351 de la CAN, de aplicación directa y preferente: la regla de autoría humana coincide con el art. 3 de la Decisión, que define al autor como persona física, y la excepción de minería de datos está acotada a la investigación sin fines comerciales conforme a la regla de los tres pasos (art. 21). Deben corregirse la presunción sobre la reserva de derechos, que puede leerse como licencia tácita, la falta de graduación de sanciones y el registro con declaración obligatoria, que no puede volverse una formalidad constitutiva.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 6 (art. 221.2 del D. Leg. 822)",
+    "problema": "Si toda reproducción para entrenamiento ajena al art. 220 requiere autorización (221.1), la presunción de conocimiento de la reserva legible por máquina carece de función propia y, leída a contrario, sugiere que la falta de reserva equivale a autorización tácita. Ello contradice el derecho exclusivo de autorizar (arts. 13 y 21 de la Decisión 351) y la exigencia de autorización previa y por escrito del D. Leg. 822 (art. 37). Una licencia tácita por omisión sería una excepción no prevista que no supera la regla de los tres pasos.",
+    "correccion": "Redactar el 221.2: «221.2 La ausencia de una reserva de derechos expresada por medios legibles por máquina no constituye autorización ni licencia. La existencia de dicha reserva se considera a efectos de determinar la buena fe y la cuantía de la indemnización por infracción.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 8 (art. 223 del D. Leg. 822)",
+    "problema": "Califica las infracciones como leve y grave, pero remite a 'las sanciones previstas en la presente ley', cuyo régimen (art. 186 y siguientes del D. Leg. 822) no distingue por gravedad y alcanza multas de hasta 180 UIT, entre otras sanciones. Sin una escala propia para cada categoría se vulneran los principios de legalidad y tipicidad de la sanción (art. 2.24.d de la Constitución; art. 248.1 y 248.4 del TUO de la Ley 27444) y el de razonabilidad.",
+    "correccion": "Agregar: «223.4 La infracción leve se sanciona con amonestación o multa de hasta diez (10) UIT, y la grave con multa de más de diez (10) hasta cincuenta (50) UIT, graduadas conforme al numeral 3 del artículo 248 del Texto Único Ordenado de la Ley 27444.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 4 (art. 219.3 del D. Leg. 822)",
+    "problema": "La protección del derecho de autor no está subordinada a ninguna formalidad (art. 52 de la Decisión 351; art. 3 del D. Leg. 822). La declaración en el registro es admisible si se deja claro que su omisión o inexactitud no afecta la existencia del derecho, y no puede generar presunciones adversas automáticas.",
+    "correccion": "Agregar al 219.3: «La omisión o inexactitud de la declaración no afecta la protección que corresponda conforme a la presente ley, sin perjuicio de la nulidad del registro obtenido con declaración falsa.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 5 (art. 220.1 del D. Leg. 822)",
+    "problema": "Restringir la excepción a instituciones excluye a los investigadores individuales que trabajan con fines no comerciales, sin justificación objetiva (igualdad, art. 2.2). El criterio determinante es la finalidad no comercial.",
+    "correccion": "Sustituir «realizada por universidades, organismos de investigación, bibliotecas, archivos y museos» por «realizada por universidades, organismos de investigación, bibliotecas, archivos y museos, o por investigadores individuales que actúen sin fines comerciales,»."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 2 y efecto_vigencia",
+    "problema": "Debe comprobarse que el D. Leg. 1724 (7-feb-2026), que incorporó el Título XIV, no añadió numerales al art. 2 del D. Leg. 822, pues los numerales 56 a 58 podrían estar ocupados. La existencia del D. Leg. 1724 sí fue verificada.",
+    "correccion": "Verificar en SPIJ el último numeral del art. 2 y renumerar si fuera necesario."
+   }
+  ]
+ },
+ {
+  "id": "DER-03",
+  "especialidad": "constitucional",
+  "veredicto": "observaciones",
+  "resumen": "Diseño respetuoso del art. 2.4 de la Constitución y del art. 13 de la Convención Americana: no habilita a la Administración a retirar contenidos, excluye la supervisión general y se limita a transparencia y debido proceso privado. Persisten tres riesgos: la amplitud de la publicidad 'temática' sujeta a repositorio y verificación previa de identidad, que puede inhibir el discurso político y el anónimo; la posibilidad de que el INDECOPI, al sancionar el art. 4, termine revisando el mérito de las decisiones de moderación (control indirecto de contenidos); y la coordinación con la competencia del JNE sobre propaganda electoral.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 6.1 y 6.3",
+    "problema": "Incluir en el repositorio, con verificación previa de identidad, todo anuncio pagado sobre 'asuntos sometidos a decisión de los poderes públicos' abarca la publicidad de ONG, gremios, sindicatos, colectivos y personas naturales sobre cualquier política pública, en todo momento. Es una restricción al discurso político, el más protegido, que exige estricta necesidad y proporcionalidad (art. 2.4 de la Constitución; art. 13.2 de la Convención Americana). Además, la verificación de identidad como condición previa a la difusión funciona como requisito habilitante de la expresión. La transparencia de la propaganda de organizaciones políticas y candidatos sí tiene justificación clara (control del financiamiento, Ley 28094).",
+    "correccion": "Redactar el 6.1: «6.1 El proveedor mantiene un repositorio público… de los anuncios pagados dirigidos al público en el territorio nacional que: a) sean contratados por organizaciones políticas, candidatos, promotores de mecanismos de la Ley 26300 o autoridades en ejercicio; o b) durante un proceso electoral o de consulta popular, desde su convocatoria hasta la proclamación de resultados, promuevan o desincentiven el voto por una candidatura u opción.» Agregar al 6.3: «La verificación se limita a constatar la identidad y el domicilio del contratante y se realiza en un plazo que no impida la difusión oportuna; no comprende la revisión del contenido.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 10.1 y 10.2",
+    "problema": "Al tipificar como grave el incumplimiento del art. 4, el INDECOPI podría evaluar si una decisión de retiro o de reducción de alcance fue 'correcta', lo que equivaldría a que la Administración valore el contenido, contra el propio art. 3.2 y la prohibición de que el Estado condicione la línea editorial de un intermediario. Asimismo, 'de manera inmediata' y la excepción 'salvo que ello frustre una investigación' son indeterminados para fines sancionadores (tipicidad, art. 248.4 del TUO de la Ley 27444).",
+    "correccion": "Agregar el numeral: «10.4 La supervisión del artículo 4 se limita a verificar la existencia de reglas publicadas, la comunicación al usuario y el funcionamiento del reclamo con revisión humana dentro del plazo. La autoridad no evalúa el mérito de la decisión de moderación ni puede ordenar la reposición o el retiro de contenidos.» En el 4.2, sustituir «de manera inmediata» por «dentro de las veinticuatro horas siguientes a la adopción de la medida» y «salvo que ello frustre una investigación penal o una orden judicial» por «salvo que una orden judicial o fiscal disponga expresamente la reserva»."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 6.4 y efecto_vigencia",
+    "problema": "Durante los procesos electorales, la fiscalización de la propaganda corresponde al JNE y a los Jurados Electorales Especiales (art. 178 de la Constitución y Ley 26859), y la ONPE controla el financiamiento (Ley 28094). El texto solo da acceso a la ONPE, sin prever el acceso del JNE, lo que podría fragmentar el control. La propuesta acierta al no asignar funciones nuevas que exijan modificar leyes orgánicas.",
+    "correccion": "Redactar el 6.4: «La Oficina Nacional de Procesos Electorales y el Jurado Nacional de Elecciones acceden al repositorio en ejercicio de sus competencias de control del financiamiento y de fiscalización de la propaganda electoral, respectivamente, sin que la presente ley les atribuya funciones nuevas.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 8",
+    "problema": "El acceso de investigadores a datos 'públicamente accesibles' incluye datos personales de usuarios. Para que sea compatible con la autodeterminación informativa (art. 2.6), deben fijarse en la ley la finalidad, la prohibición de reidentificación y de perfilado individual, y la responsabilidad del investigador.",
+    "correccion": "Agregar: «Los investigadores acreditados no pueden usar los datos para perfilar ni identificar a usuarios individuales que no sean figuras públicas, ni cederlos a terceros, y responden como responsables del tratamiento conforme a la Ley 29733.»"
+   }
+  ]
+ },
+ {
+  "id": "DER-04",
+  "especialidad": "constitucional",
+  "veredicto": "observaciones_graves",
+  "resumen": "La ponderación legal entre la desindexación y la libertad de información (art. 2.4), el resguardo de las hemerotecas y la protección del secreto de las comunicaciones de terceros (art. 2.10) son acertados. Es grave que el art. 3.2 permita que un decreto supremo fije cuándo se extingue la presunción de interés público sobre la función pública y la corrupción: esto limita un derecho fundamental por norma infralegal y choca con los arts. 39, 41 (imprescriptibilidad en los supuestos más graves) y 2.5. También deben garantizarse la defensa del editor del sitio de origen y una excepción de parodia y uso creativo para las recreaciones sintéticas.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 3.2 y Disposición Complementaria Final Primera",
+    "problema": "Delega en el reglamento el plazo tras el cual decae la presunción de interés público de la información sobre función pública, uso de recursos públicos y delitos contra la administración pública. Toda limitación de la libertad de información debe establecerse por ley y ser proporcional (art. 2.4 y art. 2.24.a de la Constitución; art. 13.2 de la Convención Americana: restricciones 'expresamente fijadas por la ley'). Además, el art. 41 de la Constitución, reformado por la Ley 30650, duplica la prescripción en los delitos contra la administración pública y declara imprescriptibles los supuestos más graves, lo que revela un interés público constitucional permanente que un decreto supremo no puede extinguir.",
+    "correccion": "Redactar el 3.2: «3.2 Se presume el interés público de la información sobre el ejercicio de la función pública, el uso de recursos públicos y los procesos por delitos contra la administración pública. La presunción no decae por el solo transcurso del tiempo respecto de quienes ejercieron cargos de elección popular, de confianza o de dirección, y solo puede desvirtuarse cuando exista sentencia absolutoria o sobreseimiento firmes y la información no se refiera a hechos acreditados en ejercicio del cargo.» En la DCF Primera, suprimir «incluido el plazo de presunción de interés público del numeral 3.2»."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 4.1 y 4.2",
+    "problema": "La desindexación afecta la libertad de información del medio o editor de origen y el derecho del público a recibir información. Que el aviso al sitio de origen pueda omitirse por 'oposición fundada del titular' y que su intervención ante la ANPD sea solo facultativa priva al editor de la posibilidad de defender la difusión (debido proceso, art. 139.3, aplicable en sede administrativa).",
+    "correccion": "Redactar: «4.1 … Cuando desindexe un enlace, informa de ello al responsable del sitio de origen, sin revelar datos del titular distintos de los que figuran en el contenido. 4.2 … El responsable del sitio de origen puede solicitar al proveedor la revisión de la desindexación y, de mantenerse, acudir a la Autoridad Nacional de Protección de Datos Personales, que lo incorpora como tercero con legítimo interés en el procedimiento trilateral.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 8 (tercer párrafo del art. 15 del Código Civil)",
+    "problema": "La exigencia absoluta de asentimiento para toda representación sintética de una persona fallecida excluye las excepciones del segundo párrafo, aplicables a la imagen real (notoriedad, interés público, fines culturales), y alcanza la sátira, la parodia, el documental histórico y la creación artística, protegidos por los arts. 2.4 y 2.8 de la Constitución. La restricción es desproporcionada respecto de personajes históricos o públicos.",
+    "correccion": "Redactar: «La generación, mediante sistemas de inteligencia artificial u otras técnicas, de imágenes, voces o representaciones sintéticas que simulen a una persona fallecida con fines comerciales o publicitarios, o que puedan inducir a error sobre su autenticidad, requiere el asentimiento previsto en el primer párrafo y no procede si la persona lo prohibió en vida. No se requiere asentimiento para usos de parodia, sátira, crítica, investigación histórica o creación artística que se identifiquen claramente como sintéticos y no atenten contra el honor de la persona.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 6.1",
+    "problema": "Permitir a los deudos ejercer la supresión de datos del fallecido sin límites puede afectar archivos históricos, periodísticos y registros públicos, que tienen fundamento en los arts. 2.4 y 21 de la Constitución.",
+    "correccion": "Agregar: «La supresión no procede respecto de datos contenidos en archivos periodísticos, históricos o de registros públicos, ni cuando exista interés público en su conservación.»"
+   }
+  ]
+ },
+ {
+  "id": "DER-05",
+  "especialidad": "constitucional",
+  "veredicto": "observaciones",
+  "resumen": "Concreta el art. 23 de la Constitución (ninguna relación laboral puede rebajar la dignidad del trabajador) y la línea del TC sobre los límites del poder de control del empleador sobre los medios de comunicación del trabajador (STC 1058-2004-AA/TC). Deben cerrarse dos vacíos: la fiscalización en el sector público, donde la competencia de SUNAFIL no alcanza a todos los regímenes, y la activación remota de cámara y micrófono en el domicilio del teletrabajador, que con un simple aviso no protege la inviolabilidad del domicilio.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 2 y Artículo 9.1",
+    "problema": "La ley se aplica a entidades públicas 'cualquiera sea el régimen laboral', pero encarga a SUNAFIL la fiscalización bajo la Ley 28806. La competencia inspectiva de SUNAFIL en entidades públicas está limitada por su ley de creación (Ley 29981) y no comprende de manera general a los servidores de los regímenes de los D. Leg. 276 y 1057 y de la Ley 30057, cuyo control corresponde al sistema de gestión de recursos humanos (SERVIR) y al régimen disciplinario. Sin una regla expresa, las prohibiciones del art. 6 quedarían sin autoridad sancionadora para buena parte del sector público (legalidad de la potestad sancionadora, art. 248.1 del TUO de la Ley 27444).",
+    "correccion": "Agregar el numeral: «9.4 En las entidades públicas, respecto de los servidores no comprendidos en la competencia de la Superintendencia Nacional de Fiscalización Laboral, el incumplimiento de los artículos 4 y 6 constituye falta disciplinaria del funcionario que lo disponga o ejecute, conforme a la Ley 30057, Ley del Servicio Civil, sin perjuicio de la competencia de la Autoridad Nacional de Protección de Datos Personales.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 6, literal a)",
+    "problema": "En el teletrabajo, la cámara y el micrófono operan dentro del domicilio. Permitir su activación remota con un 'aviso simultáneo' no protege la inviolabilidad del domicilio (art. 2.9) ni la intimidad familiar (art. 2.7), pues afecta también a terceros convivientes que no son parte de la relación laboral.",
+    "correccion": "Redactar: «a) Activar remotamente la cámara o el micrófono de un dispositivo; su uso solo procede por acción de la propia persona trabajadora, para reuniones o actividades previamente convocadas.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 7.1",
+    "problema": "La regla de exclusión es coherente con la doctrina de la prueba prohibida, pero solo se refiere a sanciones y extinción del vínculo. Debe aclararse que se aplica en sede judicial y administrativa, y que tampoco sirve para fundar evaluaciones de desempeño o no renovaciones de contratos a plazo.",
+    "correccion": "Redactar: «7.1 La información obtenida mediante monitoreo digital no informado conforme al artículo 4 o mediante prácticas prohibidas por el artículo 6 carece de efecto en cualquier procedimiento disciplinario, administrativo o judicial en perjuicio de la persona trabajadora, y no puede sustentar sanciones, evaluaciones de desempeño, la no renovación del contrato ni la extinción del vínculo laboral.»"
+   }
+  ]
+ },
+ {
+  "id": "DER-06",
+  "especialidad": "constitucional",
+  "veredicto": "conforme",
+  "resumen": "Respeta el carácter voluntario y consensual del arbitraje (art. 139.1 de la Constitución; STC 6167-2005-PHC/TC) y el acceso a la tutela (art. 139.3). La negociación obligatoria para proveedores medianos y grandes es una carga proporcional que protege a los consumidores (art. 65). Solo se recomienda precisar que la negociación no es requisito previo para acudir a otras vías y definir el efecto de los acuerdos.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 4 (art. 148-A.3 del Código)",
+    "problema": "Atribuye a los acuerdos de la negociación asistida, en la que no interviene un tercero, 'los efectos del artículo 144', que según la doctrina regula el incumplimiento del laudo arbitral (no se pudo verificar el texto vigente en esta revisión). Equiparar un acuerdo bilateral a un laudo, con efectos de cosa juzgada o con sanción agravada por incumplimiento, sin un tercero que controle la voluntad del consumidor, puede afectar el debido proceso y la libertad contractual.",
+    "correccion": "Redactar: «148-A.3 Los acuerdos alcanzados en la plataforma constan en acta electrónica, obligan a las partes y su incumplimiento por el proveedor constituye infracción sancionable conforme al artículo 110. El acta de conciliación o mediación tiene mérito de título ejecutivo.» Verificar el texto vigente del art. 144 antes del dictamen."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 4 (art. 148-A.2 del Código)",
+    "problema": "No aclara que la etapa de negociación sea facultativa para el consumidor. Si se interpretara como requisito de procedibilidad del procedimiento administrativo o de la vía judicial, restringiría el acceso a la tutela (art. 139.3).",
+    "correccion": "Agregar: «El uso de la plataforma es facultativo para el consumidor y no constituye requisito para presentar un reclamo, una denuncia administrativa ni una demanda judicial; los plazos de prescripción se suspenden mientras dure la negociación.»"
+   }
+  ]
+ },
+ {
+  "id": "DER-07",
+  "especialidad": "constitucional",
+  "veredicto": "observaciones",
+  "resumen": "Las medidas son judiciales, motivadas, específicas y posteriores a la difusión, por lo que no constituyen censura previa (art. 2.4) y cumplen el deber estatal de debida diligencia frente a la violencia de género (Convención de Belém do Pará). Deben ajustarse la prohibición de crear perfiles que 'refieran' a la víctima, que es una restricción anticipada de expresión demasiado amplia; el derecho de defensa de los proveedores y de los terceros alcanzados por la orden; y la separación entre la conservación y el acceso a datos de comunicaciones (art. 2.10).",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3 (art. 22-D, literal b)",
+    "problema": "Prohibir crear o utilizar perfiles o cuentas que 'refieran a la víctima' impone una restricción anticipada e indeterminada a toda expresión futura del denunciado sobre una persona, incluidas las legítimas (defensa pública, información veraz). El art. 2.4 de la Constitución y el art. 13.2 de la Convención Americana prohíben la censura previa; la medida es válida si se limita a conductas de suplantación, contacto u hostigamiento.",
+    "correccion": "Redactar: «b) Prohibición de crear o utilizar perfiles, cuentas o identidades que suplanten a la víctima, y de utilizar cualquier cuenta para contactarla, hostigarla, amenazarla o difundir sus datos personales o contenido íntimo.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3 (art. 22-D, literal a) y Artículo 4.1",
+    "problema": "Las órdenes de retiro y desindexación se dirigen a proveedores y pueden alcanzar contenido publicado por terceros que no son parte del proceso especial de la Ley 30364, que se tramita con celeridad y, a menudo, sin audiencia del afectado. Sin una vía de oposición posterior se afecta el derecho de defensa (art. 139.14) de esos terceros y del proveedor, y existe riesgo de retiro de contenido que no es íntimo (p. ej., información periodística sobre el caso).",
+    "correccion": "Agregar al art. 22-D: «El proveedor o el tercero que publicó el contenido pueden formular oposición ante el mismo juzgado dentro de los cinco días hábiles de notificados, sin efecto suspensivo cuando se trate de contenido íntimo o sexual. Las medidas no alcanzan la información periodística de interés público que no reproduzca contenido íntimo ni datos que permitan ubicar a la víctima.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 6.1",
+    "problema": "La conservación inmediata de datos a pedido de la PNP o del Ministerio Público es compatible con el Convenio de Budapest (art. 16), pero debe quedar claro que la entrega o el acceso al contenido de las comunicaciones y a los datos de tráfico requiere autorización judicial (art. 2.10 de la Constitución).",
+    "correccion": "Agregar: «La conservación no implica la entrega de los datos; el acceso al contenido de las comunicaciones y a los datos de tráfico requiere mandato judicial motivado conforme al Código Procesal Penal.»"
+   }
+  ]
+ },
+ {
+  "id": "DER-08",
+  "especialidad": "constitucional",
+  "veredicto": "observaciones_graves",
+  "resumen": "La adhesión digital desarrolla el art. 31 de la Constitución, y la protección de los datos de los adherentes y el mantenimiento de la vía manuscrita son acertados. Sin embargo, el art. 31 reserva a la ley orgánica las condiciones y procedimientos de los derechos de participación, y las nuevas funciones de la ONPE y el RENIEC, así como las condiciones para ampliar el voto digital, inciden en sus leyes orgánicas y en la Ley Orgánica de Elecciones sin modificarlas expresamente. Además, debe respetarse la regla de anticipación de las normas electorales y recabarse la opinión de los organismos electorales.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 6 y efecto_vigencia",
+    "problema": "Condicionar la ampliación del voto digital a informes previos de la ONPE y del JNE modifica en sustancia el régimen del voto digital de la Ley 32270, incorporado a la Ley 26859, Ley Orgánica de Elecciones (arts. 223-A y siguientes), y su Primera Disposición Complementaria Final. Hacerlo desde una ley que solo dice modificar la Ley 26300, sin modificación expresa de la ley orgánica, infringe la reserva del art. 106 y el criterio de coordinación 3. Asimismo, asignar a la ONPE la administración de una plataforma y al RENIEC la verificación en línea sin tocar sus leyes orgánicas (Ley 26487 y Ley 26497) incumple la regla de modificación expresa.",
+    "correccion": "Reformular el art. 6 como «Incorporación del artículo 223-H a la Ley 26859, Ley Orgánica de Elecciones», con el mismo texto, e incorporar como literales en el art. 5 de la Ley 26487 y en el art. 7 de la Ley 26497 las funciones de «administrar la plataforma de adhesión digital a los mecanismos de participación y control ciudadanos» y de «verificar en línea la identidad de los adherentes digitales», respectivamente. Título: «…modificando la Ley 26300, la Ley 26859, la Ley 26487 y la Ley 26497». Mantener en efecto_vigencia que se requiere la votación del art. 106 en ambas cámaras."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Disposición Complementaria Final Primera",
+    "problema": "Solo excluye los procesos 'en curso'. Las normas sobre procesos electorales y consultas populares deben estar vigentes con anticipación suficiente para no alterar las reglas de juego (seguridad jurídica electoral; la Ley 26859 fija una regla de vigencia anticipada de las normas electorales, cuyo texto vigente debe verificarse). La recolección de firmas para revocatorias o iniciativas se inicia mucho antes de la convocatoria.",
+    "correccion": "Redactar: «La adhesión digital se aplica a las iniciativas y solicitudes cuyo procedimiento de recolección se inicie después de la puesta en funcionamiento de la plataforma, que la ONPE comunica en el diario oficial, y en ningún caso a procesos de consulta popular convocados o cuya fecha de convocatoria esté a menos de un año, conforme a la regla de vigencia de las normas electorales de la Ley 26859.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Exposición de motivos",
+    "problema": "El JNE tiene iniciativa legislativa en materia electoral (art. 178 de la Constitución) y la ONPE y el RENIEC son organismos autónomos (art. 177). Su opinión técnica previa resulta indispensable para dictaminar una medida que les asigna funciones y plataformas, y para evaluar la sostenibilidad presupuestal (costo_fiscal medio).",
+    "correccion": "Agregar: «Antes del dictamen se solicita opinión al Jurado Nacional de Elecciones, a la Oficina Nacional de Procesos Electorales y al Registro Nacional de Identificación y Estado Civil, así como informe del Ministerio de Economía y Finanzas sobre la fuente de financiamiento.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 3.2",
+    "problema": "Prohibir toda publicación individualizada de los adherentes protege su intimidad e ideología (art. 2.3 y 2.6), pero debe compatibilizarse con el control de autenticidad: el propio ciudadano debe poder verificar si su identidad fue usada para una adhesión.",
+    "correccion": "Agregar: «Todo ciudadano puede consultar, con autenticación, si figura como adherente de una iniciativa o solicitud y denunciar el uso indebido de su identidad.»"
    }
   ]
  }

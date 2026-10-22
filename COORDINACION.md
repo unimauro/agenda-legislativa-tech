@@ -76,3 +76,21 @@ propuesta, debe poder aplicarse sola: usa "el instrumento que haga sus veces" o 
 | Periodo de actualizaciones de seguridad | CIB-07 | TAL-12 remite |
 | Puestos digitales en SERVIR | GOB-14 (familia de talento digital) | CIB-12 = subfamilia de ciberseguridad dentro de GOB-14 |
 | DNI digital/billetera | CIB-08 parte del D.S. 098-2025-PCM vigente, solo agrega lo que falta | — |
+
+## Decisiones para los ejes SOB y DER (fase C)
+Principio: las 84 propuestas ya revisadas y publicadas MANTIENEN su materia; las nuevas (SOB/DER) se adaptan y remiten.
+
+| Materia | Dueño | SOB/DER… |
+|---|---|---|
+| Reconocimiento de emociones y geolocalización en el trabajo; decisiones automatizadas en el empleo | IA-13 | DER-05 remite a IA-13 en esos puntos, usa las mismas excepciones y gravedades; DER-05 regula el resto del monitoreo digital y EXCLUYE el registro técnico de eventos de seguridad (EDR, DLP, logs) no usado para evaluar desempeño; fiscaliza SUNAFIL (privado) y SERVIR (público) según arts. 25-26 Ley 31572 |
+| Repositorio de publicidad política pagada y contenido sintético electoral | IA-07 (JNE/JEE) | DER-03 NO crea otro repositorio político: regula transparencia general de grandes plataformas (moderación, recomendación, publicidad no electoral) y remite a IA-07; prohíbe que Indecopi juzgue el mérito de decisiones de moderación |
+| Punto único de contacto / representante legal de plataformas | DER-03 | IA-07, DER-07 y CIB-10 se entienden referidas a él (no se modifican ahora) |
+| Reidentificación (prohibición y sanción) y entornos seguros de datos | IA-10 (ANPD) | SOB-05 remite; el INS solo sanciona registro, ética y transferencias; los datos genómicos son datos personales sensibles aunque estén seudonimizados; nada de Ley 27811 (Decisión 391 CAN excluye material humano) |
+| Desindexación y datos de personas fallecidas | DER-04 | Disposiciones patrimoniales solo por testamento; la presunción de interés público de información sobre función pública/corrupción NO decae por el paso del tiempo ni por decreto supremo |
+| Adhesión digital a iniciativas ciudadanas | DER-08 | Modifica Ley 26859 (art. 223-H) y leyes orgánicas de ONPE/RENIEC con votación orgánica; admite DNIe (CIB-08) y firma remota (CIB-09); auditoría de sistemas electorales remite a CIB-13 |
+| Criptografía poscuántica | SOB-06 (hoja de ruta) | Inventario de defensa/inteligencia queda en MINDEF/DINI; RENIEC con plan propio para el DNIe |
+| Consulta al mercado en compras | SOB-08 vía numeral nuevo del art. 47 de la Ley 32069 (no ley paralela) | GOB-04 innovación, GOB-03 software, IA-14 cláusulas IA; excluir compras de defensa/inteligencia/orden interno de la publicidad anticipada |
+| Drones | SOB-03 | Normas ASTM F3411 / EN 4709-002 para identificación remota; habilitar a autoridades competentes para neutralizar drones no autorizados sobre activos críticos |
+| Carga de vehículos eléctricos | SOB-04 | Parte del DS 036-2023-EM (OCPP ya existe); requisitos de ciberseguridad mínimos; multas por art. 110 del Código del Consumidor |
+| ZEEP | SOB-02 | Solo solicitudes nuevas (estabilidad art. 25 Ley 32449; la autorización es indefinida); proceso mínimo fijado en la ley |
+| Trazabilidad de minerales | TAL-09 | SOB-01 remite |

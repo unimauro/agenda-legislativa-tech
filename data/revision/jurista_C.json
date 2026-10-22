@@ -1,0 +1,774 @@
+[
+ {
+  "id": "SOB-01",
+  "especialidad": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Ley marco bien construida: no crea organismos, gasto ni beneficios tributarios, y salvaguarda el régimen de concesiones. Las observaciones son de técnica legislativa: una cita constitucional que no corresponde, la falta de cita del TUO de la Ley General de Minería y un artículo de financiamiento que debería ir en las disposiciones finales.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 1",
+    "problema": "Invoca el artículo 88 de la Constitución, que regula el régimen agrario («El Estado apoya preferentemente el desarrollo agrario») y no guarda relación con los recursos minerales. El fundamento constitucional pertinente es el artículo 66 (recursos naturales, patrimonio de la Nación; ley orgánica) y, para la promoción de la ciencia y la tecnología, el artículo 14.",
+    "correccion": "Sustituir «en el marco de los artículos 66 y 88 de la Constitución Política del Perú» por «en el marco de los artículos 14 y 66 de la Constitución Política del Perú»."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 2, literales a) y b)",
+    "problema": "Las definiciones hablan de «sustancia mineral» sin remitir al régimen que la regula. Esto abre la puerta a que se discuta si la lista alcanza sustancias no concesibles o recursos regulados por normas especiales, como hidrocarburos o materiales radiactivos.",
+    "correccion": "Añadir al final del artículo 2: «Los términos no definidos se interpretan conforme al Texto Único Ordenado de la Ley General de Minería, aprobado por el Decreto Supremo 014-92-EM.» Incluir esa norma en «efecto_vigencia»."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 11",
+    "problema": "La Guía de redacción ubica las reglas de financiamiento en las disposiciones complementarias finales, no en el articulado sustantivo. El artículo 11 rompe el orden: parte sustantiva y luego DCF.",
+    "correccion": "Trasladar el artículo 11 como Disposición Complementaria Final Cuarta «Financiamiento» y renumerar las disposiciones."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Disposición Complementaria Final Primera",
+    "problema": "El plazo se computa «desde su entrada en vigor». La fórmula recomendada fija el día de inicio del cómputo.",
+    "correccion": "Redactar: «…en un plazo de ciento veinte días hábiles contados a partir del día siguiente de la publicación de la presente ley…»."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ninguna (ley especial complementaria)",
+    "Concordancia: TUO de la Ley General de Minería, D.S. 014-92-EM",
+    "Ley 26821 (complementa)",
+    "Ley 31250 (complementa)",
+    "Ley 28090 y Ley 28271 (concordancia, sin modificar)"
+   ],
+   "entidades_implicadas": [
+    "MINEM: refrenda la lista y elabora el estudio de brechas (rectora)",
+    "INGEMMET: informe técnico e información geocientífica (ejecutora)",
+    "CONCYTEC: agenda de I+D+i del Sinacti (rectora del Sinacti)",
+    "PRODUCE, MINAM y MEF: opinión y estudio de brechas (consultivas)",
+    "IPEN: seguridad radiológica (supervisora)",
+    "RREE y MINCETUR: cooperación internacional",
+    "Universidades, CITE y titulares mineros: convenios (beneficiarios y regulados)"
+   ]
+  }
+ },
+ {
+  "id": "SOB-02",
+  "especialidad": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Persigue un fin legítimo: vincular el gasto tributario de las ZEEP a transformación efectiva. Pero agrega requisitos al procedimiento de acreditación de la Ley 32449 sin modificarla de forma expresa. Además, la consecuencia del plan de proveedores en la renovación queda librada al reglamento, lo que tensiona la reserva de ley tributaria (art. 74).",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículos 3 y 4",
+    "problema": "Los artículos 3 y 4 agregan requisitos («matriz de procesos», «plan de desarrollo de proveedores») al procedimiento de acreditación del artículo 4 de la Ley 32449 sin modificar ese artículo. Quedan dos regímenes paralelos para un mismo acto. Además, el acceso a un régimen tributario especial y su renovación son elementos vinculados al beneficio (art. 74 de la Constitución; STC 0042-2004-AI/TC: la remisión al reglamento solo cabe si la ley fija los parámetros).",
+    "correccion": "Reformular los artículos 3 y 4 como «Artículo 2. Incorporación del artículo 4-A a la Ley 32449» con texto íntegro, previa verificación en SPIJ de que esa numeración está libre. El nuevo artículo debe fijar en la ley los criterios de la matriz (los del numeral 3.1) y decir con precisión qué efecto tiene el plan en la renovación. Por ejemplo: «La falta de presentación del plan impide la renovación; el incumplimiento de sus metas indicativas no impide la renovación, pero obliga a presentar un plan de mejora»."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 9 y Disposición Complementaria Final Primera",
+    "problema": "Las remisiones al artículo 4 (acreditación) y al artículo 25 (estabilidad) de la Ley 32449, y al D.S. 005-2026-MINCETUR como su reglamento, no pudieron cotejarse con el texto oficial. Una remisión mal numerada a una ley tributaria genera inseguridad sobre el régimen aplicable.",
+    "correccion": "Antes del dictamen, cotejar en SPIJ o El Peruano los artículos 4 y 25 de la Ley 32449 y el número del decreto supremo reglamentario. Si no coinciden, sustituirlos por la referencia correcta o por «las disposiciones de la Ley 32449 sobre acreditación y estabilidad»."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 3.1",
+    "problema": "La competencia para aprobar la matriz se atribuye al Ministerio de la Producción «en coordinación con» el MINCETUR, sin indicar el instrumento. Si la Ley 32449 atribuye la acreditación a otro órgano, se genera una superposición.",
+    "correccion": "Precisar: «…aprueba, mediante resolución ministerial, previa opinión favorable del Ministerio de Comercio Exterior y Turismo y del Ministerio de Economía y Finanzas…»."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 10",
+    "problema": "El financiamiento figura en el articulado sustantivo.",
+    "correccion": "Trasladarlo a una Disposición Complementaria Final."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 32449, art. 4-A (incorpora; numeración por verificar)",
+    "Reglamento de la Ley 32449, D.S. 005-2026-MINCETUR (adecua; número por verificar)",
+    "Ley 30224 y D. Leg. 1278 (concordancia)"
+   ],
+   "entidades_implicadas": [
+    "PRODUCE: aprueba la matriz de procesos (reglamentadora)",
+    "MINCETUR: recibe reportes, publica datos agregados y evalúa el régimen (supervisora)",
+    "MEF: estimación del gasto tributario y evaluación quinquenal (consultiva)",
+    "INACAL: acreditación de laboratorios (ejecutora)",
+    "SUNAT: reserva tributaria en la información agregada",
+    "Usuarios de las ZEEP: manufactura electrónica (regulados)"
+   ]
+  }
+ },
+ {
+  "id": "SOB-03",
+  "especialidad": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Técnica correcta: «Se modifica/Se incorpora» con texto íntegro, y tipificación en la ley con autoridad competente. Se verificó la numeración contra el texto original de la Ley 30740 (El Peruano, 22-mar-2018: arts. 1 a 7 y cuatro DCF), y los artículos 4-A, 5-A, 5-B y 7-A están libres; no se halló modificación posterior, aunque conviene confirmarlo en SPIJ. Las observaciones se refieren a categorías no definidas en la ley, a la pérdida de la concordancia con la Ley 27261 y el RISA y a la remisión genérica al régimen de plaguicidas.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3 (nuevo art. 4-A.1 de la Ley 30740) y artículo 4 (nuevo art. 6.1)",
+    "problema": "La obligación de identificación remota y una infracción grave se construyen sobre las «categorías específica y certificada». Esas categorías no existen en la Ley 30740, que solo distingue el uso recreativo o aerodeportivo del resto (arts. 2.2 y 3). Remitir a categorías que no define la ley lesiona el principio de tipicidad (TUO de la Ley 27444, D.S. 006-2026-JUS, art. 248.4).",
+    "correccion": "Incorporar en el artículo 4-A.1: «Para efectos de la presente ley, las operaciones de RPAS se clasifican en las categorías abierta, específica y certificada en función del riesgo operacional, de acuerdo con los criterios de peso, tipo de operación y zona que establece el reglamento, en concordancia con los estándares de la OACI.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 4 (nuevo art. 6 de la Ley 30740)",
+    "problema": "El texto vigente del artículo 6 remite a la Ley 27261, a su reglamento y al Reglamento de Infracciones y Sanciones Aeronáuticas (RISA). El texto propuesto elimina esa remisión y fija su propia escala, de modo que quedan dos regímenes para conductas aeronáuticas. Además, la Tercera DCF de la Ley 30740, que ordena adecuar el RISA, queda sin correlato.",
+    "correccion": "Agregar al numeral 6.3: «En lo no previsto en el presente artículo, se aplican la Ley 27261, Ley de Aeronáutica Civil del Perú, y el Reglamento de Infracciones y Sanciones Aeronáuticas.» Y en la DCF Primera ordenar también la adecuación del RISA."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3 (nuevo art. 5-B.1)",
+    "problema": "La remisión a la «normativa de plaguicidas de uso agrícola» es genérica. La competencia del SENASA para registrar aplicadores y sancionar proviene del Decreto Legislativo 1059, Ley General de Sanidad Agraria, y de su reglamento en materia de plaguicidas químicos de uso agrícola. Sin una base legal expresa, la potestad sancionadora del numeral 6.3 queda débil.",
+    "correccion": "Redactar: «…y el registro del aplicador ante el Servicio Nacional de Sanidad Agraria (SENASA), conforme al Decreto Legislativo 1059, Ley General de Sanidad Agraria, y sus normas reglamentarias en materia de plaguicidas de uso agrícola.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Disposición Complementaria Final Primera",
+    "problema": "El Reglamento de la Ley 30740 se cita como «Decreto Supremo 012-2026-MTC», número que no pudo verificarse. Si es erróneo, la remisión a una norma inexistente sería observable.",
+    "correccion": "Cotejar el número en El Peruano. Si no se confirma, redactar: «…adecúa el reglamento de la Ley 30740…» sin consignar el número."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 7",
+    "problema": "La regla de protección de datos no se incorpora a la Ley 30740, por lo que queda en una norma suelta.",
+    "correccion": "Incorporar el contenido como numeral 5-A.3 de la Ley 30740 (operaciones de emergencia), con la regla general de remisión a la Ley 29733."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 30740, arts. 4, 6 y 7 (modifica, texto íntegro)",
+    "Ley 30740, arts. 4-A, 5-A, 5-B y 7-A (incorpora; numeración verificada como libre contra el texto original de 2018)",
+    "Reglamento de la Ley 30740 (adecua)",
+    "RISA, R.M. 361-2011-MTC/02 (adecua)",
+    "D. Leg. 1059, Ley General de Sanidad Agraria (concordancia)"
+   ],
+   "entidades_implicadas": [
+    "MTC-DGAC: registro, identificación remota, licencias, mapa de zonas y sanción aeronáutica (rectora y sancionadora)",
+    "SENASA (MIDAGRI): registro de aplicadores, distancias de seguridad y sanción (sancionadora)",
+    "INDECI y entidades del SINAGERD: protocolo y operaciones de emergencia (ejecutoras)",
+    "CORPAC: servicios de tránsito y gestión digital (ejecutora)",
+    "Cuerpo General de Bomberos Voluntarios del Perú (ejecutora)",
+    "Ministerio de Cultura: daños al patrimonio (sancionadora)",
+    "ANPD: tratamiento de imágenes y datos (supervisora)",
+    "Operadores de RPAS (regulados)"
+   ]
+  }
+ },
+ {
+  "id": "SOB-04",
+  "especialidad": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Eleva a rango de ley reglas útiles. Sin embargo, se enmarca en un decreto supremo, lo que invierte la jerarquía. Además, regula el derecho del propietario en la propiedad horizontal fuera de la Ley 27157 y crea para el Indecopi una escala de multas distinta de la del Código de Protección y Defensa del Consumidor para conductas que ese Código ya tipifica.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 9.2 y 9.3",
+    "problema": "El Indecopi sanciona con la escala del artículo 110 del Código de Protección y Defensa del Consumidor (hasta 450 UIT). La ley fija una escala propia de hasta 50 UIT para conductas que el Indecopi conocería, como no informar el precio o no permitir el pago, y que el Código ya cubre bajo el deber de información y la idoneidad. Coexistirían dos escalas para el mismo hecho y la misma autoridad.",
+    "correccion": "Limitar la escala del artículo 9.2 a las infracciones de competencia del OSINERGMIN y redactar en el 9.3: «Las infracciones relativas a la información de precios y al pago constituyen infracción al Código de Protección y Defensa del Consumidor y se sancionan conforme a su artículo 110.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 6",
+    "problema": "El derecho a instalar un punto de carga en un estacionamiento exclusivo modifica, en los hechos, las reglas sobre bienes comunes y sobre las atribuciones de la junta de propietarios del régimen de la Ley 27157. Regularlo fuera de esa ley dispersa el régimen de propiedad horizontal.",
+    "correccion": "Reformular como «Artículo X. Incorporación del artículo 40-A a la Ley 27157», con texto íntegro y previa verificación en SPIJ de que esa numeración está libre en el Título III. Ordenar en una DCF la adecuación del TUO de su reglamento (D.S. 035-2006-VIVIENDA)."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 1",
+    "problema": "Que una ley se dicte «en el marco del Decreto Supremo 022-2020-EM y su reglamento» invierte la jerarquía normativa (art. 51 de la Constitución): el reglamento se subordina a la ley y no al revés.",
+    "correccion": "Sustituir por: «…en el marco del Decreto Ley 25844, Ley de Concesiones Eléctricas, la Ley 29571 y la Ley 27157. Las normas reglamentarias sobre infraestructura de carga se adecúan a la presente ley.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Disposición Complementaria Final Primera",
+    "problema": "Se ordena adecuar el D.S. 036-2023-EM, número no verificado, sin encargar la reglamentación de la ley.",
+    "correccion": "Redactar: «El Poder Ejecutivo reglamenta la presente ley y adecúa las normas reglamentarias sobre infraestructura de carga…». Verificar el número del decreto antes de citarlo."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 27157, art. 40-A (incorpora; numeración por verificar)",
+    "Reglamento Nacional de Edificaciones (adecua, art. 7)",
+    "D.S. 022-2020-EM y su reglamento (adecua)",
+    "Régimen de RAEE y REP, D. Leg. 1278 y su reglamento (adecua)",
+    "Ley 29571 (concordancia)"
+   ],
+   "entidades_implicadas": [
+    "MINEM: normas técnicas y reglamentación (rectora)",
+    "OSINERGMIN: registro, datos abiertos y sanción por seguridad, registro e interoperabilidad (supervisora y sancionadora)",
+    "INDECOPI: información de precios y pago (sancionadora)",
+    "INACAL: normas técnicas de conectores",
+    "MVCS: RNE (reglamentadora)",
+    "MINAM: REP de baterías (reglamentadora)",
+    "Juntas de propietarios y operadores de puntos de carga (regulados)"
+   ]
+  }
+ },
+ {
+  "id": "SOB-05",
+  "especialidad": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Regulación necesaria y en general bien tipificada, con autoridades competentes y non bis in idem. Hay que corregir tres puntos: la remisión a la Ley 27811, que no comprende material genético humano; la potestad sancionadora de la SBS y de la SUNAFIL, que queda sin base expresa; y un régimen de consentimiento y revocación que debe articularse con la Ley 29733.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 8.2",
+    "problema": "La Ley 27811 protege los conocimientos colectivos de los pueblos indígenas vinculados a los recursos biológicos. El régimen andino de acceso a recursos genéticos (Decisión 391) excluye expresamente los recursos genéticos humanos. Invocarla para el reparto de beneficios derivados de muestras humanas es una remisión impropia y deja sin fuente la obligación.",
+    "correccion": "Sustituir el numeral 8.2 por: «Los acuerdos de transferencia prevén la participación justa y equitativa de los pueblos indígenas u originarios en los beneficios derivados de la investigación, en los términos que establece el reglamento, en concordancia con el Convenio 169 de la OIT y la Ley 29785 en lo que resulte aplicable.» Retirar la Ley 27811 de «efecto_vigencia» o citarla solo para los conocimientos colectivos asociados."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 10.3",
+    "problema": "La SBS solo «supervisa» el artículo 6.2, sin que la ley diga quién sanciona ni con qué escala. La infracción del artículo 6.1 asignada a la SUNAFIL no se incorpora a la Ley 28806 ni se ordena adecuar su reglamento. Las infracciones del artículo 10.1 (discriminación genética) quedan sin autoridad sancionadora clara para empleadores y aseguradoras (TUO de la Ley 27444, art. 248.1 y 248.4).",
+    "correccion": "Redactar el 10.3 así: «…la Superintendencia de Banca, Seguros y AFP sanciona el incumplimiento del numeral 6.2 conforme a su reglamento de infracciones y sanciones; la Superintendencia Nacional de Fiscalización Laboral sanciona el incumplimiento del numeral 6.1 como infracción muy grave en materia de relaciones laborales…». Agregar una DCF que ordene adecuar el Reglamento de la Ley General de Inspección del Trabajo (D.S. 019-2006-TR) y el reglamento de sanciones de la SBS en 90 días hábiles. Anotar en «efecto_vigencia» que no se modifica la Ley 26702."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 4.3",
+    "problema": "La revocación con efecto de «destrucción o anonimización» no dice quién elige. Además, la excepción para resultados publicados debe extenderse a los análisis ya realizados, conforme al principio de irretroactividad de la revocación del consentimiento previsto en la Ley 29733.",
+    "correccion": "Redactar: «…con efecto, a elección del titular, de destrucción de la muestra o anonimización irreversible de la muestra y de sus datos. La revocación no afecta los análisis ya realizados ni los resultados publicados en forma anonimizada.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 11",
+    "problema": "El financiamiento figura en el articulado sustantivo.",
+    "correccion": "Trasladarlo a una Disposición Complementaria Final."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ninguna modificación expresa; nueva ley especial",
+    "Reglamento de la Ley 28806, D.S. 019-2006-TR (adecuar: infracción por discriminación genética)",
+    "Reglamento de infracciones y sanciones de la SBS (adecuar)",
+    "Ley 26842, Ley 29733 y su Reglamento D.S. 016-2024-JUS (concordancia)",
+    "Ley 29811 y Ley 31111 (sin modificar)"
+   ],
+   "entidades_implicadas": [
+    "MINSA e INS: Registro Nacional de Biobancos y sanción por registro, ética y transferencias (rectora y sancionadora)",
+    "ANPD/MINJUSDH: datos genéticos sensibles (sancionadora)",
+    "SBS: seguros, art. 6.2 (supervisora y sancionadora)",
+    "SUNAFIL: empleadores, art. 6.1 (sancionadora)",
+    "Comités de ética en investigación (ejecutores)",
+    "Organizaciones representativas de pueblos indígenas (consultivas)",
+    "Biobancos públicos y privados (regulados)"
+   ]
+  }
+ },
+ {
+  "id": "SOB-06",
+  "especialidad": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Ley de planificación correcta: metas indicativas sujetas a disponibilidad presupuestal, sin organismos nuevos y con reglamentación del Poder Ejecutivo. Falta precisar qué obligaciones alcanzan a los prestadores privados de certificación, incluir al RENIEC como entidad de certificación del Estado y fundar la reserva del inventario en una excepción legal precisa.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 2.1 y artículo 4.1",
+    "problema": "El ámbito incluye a los «prestadores de servicios de certificación digital acreditados», que son en su mayoría privados. El artículo 4 obliga a «cada entidad», sin decir si el inventario y su remisión a la SGTD alcanzan a esos privados. Una obligación indeterminada no es exigible y no puede sustentar sanción.",
+    "correccion": "Redactar el artículo 2.1 así: «La presente ley se aplica a las entidades comprendidas en el artículo I del Título Preliminar del TUO de la Ley 27444, aprobado por D.S. 006-2026-JUS. A los prestadores de servicios de certificación digital acreditados les es aplicable únicamente el artículo 7.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3.1 y artículo 7",
+    "problema": "Se omite al RENIEC. En la Infraestructura Oficial de Firma Electrónica (Ley 27269 y su reglamento), el RENIEC es la Entidad de Certificación Nacional para el Estado Peruano y emite los certificados del DNI electrónico, que el artículo 5.b) prioriza. Sin su participación, la hoja de ruta no alcanza el núcleo de la firma digital del Estado.",
+    "correccion": "Agregar en el artículo 3.1: «…y con el Registro Nacional de Identificación y Estado Civil (RENIEC), en su calidad de Entidad de Certificación Nacional para el Estado Peruano…». Agregar un numeral 7.3: «El RENIEC incorpora en su hoja de migración los certificados del documento nacional de identidad electrónico.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 4.3",
+    "problema": "La reserva del inventario se funda genéricamente en el «Texto Único Ordenado de la Ley 27806», sin decir cuál excepción ni con qué decreto supremo se aprobó el TUO. Las excepciones al derecho de acceso son de interpretación restrictiva y deben estar expresamente previstas en una ley.",
+    "correccion": "Redactar: «El inventario constituye información exceptuada del derecho de acceso a la información pública, conforme al numeral 6 del artículo 17 del Texto Único Ordenado de la Ley 27806, aprobado por Decreto Supremo 021-2019-JUS, en lo que pueda comprometer la seguridad de los sistemas…». Cotejar la numeración vigente."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 11 y Disposiciones Complementarias Finales",
+    "problema": "El financiamiento figura en el articulado, y la reglamentación (DCF Segunda) va después de la hoja de ruta (DCF Primera), cuando su plazo de doce meses depende de la ley y no del reglamento.",
+    "correccion": "Trasladar el artículo 11 a una DCF. Ordenar las DCF así: Primera «Reglamentación», Segunda «Hoja de ruta», Tercera «Financiamiento»."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ninguna modificación expresa; ley especial",
+    "Reglamento de la Ley 27269 (adecua: requisitos de acreditación)",
+    "TUO de la Ley 27806, D.S. 021-2019-JUS, art. 17.6 (concordancia)",
+    "D. Leg. 1412, D.U. 007-2020, Ley 32069 y Ley 31250 (concordancia)"
+   ],
+   "entidades_implicadas": [
+    "PCM-SGTD: hoja de ruta, recepción de inventarios e informe anual (rectora)",
+    "INDECOPI: Autoridad Administrativa Competente de la IOFE (reglamentadora)",
+    "RENIEC: ECERNEP y certificados del DNIe (ejecutora; omitido)",
+    "MINDEF: comunicaciones de defensa (consultiva)",
+    "CONCYTEC: tecnologías cuánticas en el Sinacti (rectora del Sinacti)",
+    "OECE: especificaciones en las contrataciones (concordancia)",
+    "Entidades públicas: inventario y migración (sujetos obligados)",
+    "Prestadores de servicios de certificación acreditados (regulados, art. 7)"
+   ]
+  }
+ },
+ {
+  "id": "SOB-07",
+  "especialidad": "jurista",
+  "veredicto": "conforme",
+  "resumen": "Ley promocional sin gasto obligatorio, con remisiones correctas al D. Leg. 1228 (CITE), al TUO D.S. 013-2013-PRODUCE y a la Ley 29783. Solo tiene observaciones menores de técnica: un artículo sin contenido normativo y el financiamiento ubicado en el articulado.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 9",
+    "problema": "El artículo declara que la ley «no establece reglas especiales». Un artículo sin mandato, prohibición ni permiso carece de contenido normativo, y la Guía de redacción recomienda suprimirlo.",
+    "correccion": "Suprimir el artículo 9 y llevar la aclaración a la exposición de motivos y a «efecto_vigencia»."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 11",
+    "problema": "El financiamiento figura en el articulado sustantivo.",
+    "correccion": "Trasladarlo a una Disposición Complementaria Final y renumerar."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Disposición Complementaria Final Primera",
+    "problema": "El plazo de reglamentación no fija el día de inicio del cómputo.",
+    "correccion": "Agregar: «…contados a partir del día siguiente de la publicación de la presente ley»."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ninguna; complementa el D. Leg. 1228 y su reglamento, el TUO D.S. 013-2013-PRODUCE, la Ley 29783 y la Ley 30224"
+   ],
+   "entidades_implicadas": [
+    "PRODUCE: metodología de diagnóstico y priorización en ProInnóvate (rectora)",
+    "ITP y red CITE: servicios, directorio e indicadores (ejecutora)",
+    "MINEDU e institutos de educación superior tecnológica: formación modular",
+    "MTPE: lineamientos de SST en la interacción persona-robot (reglamentadora)",
+    "INACAL: normas técnicas de seguridad de robots",
+    "MIPYME manufactureras (beneficiarias)"
+   ]
+  }
+ },
+ {
+  "id": "SOB-08",
+  "especialidad": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Se verificó contra el texto oficial de la Ley 32069 que el artículo 8 regula la sujeción a acuerdos comerciales y el artículo 38 la compra pública de innovación: las remisiones son correctas. El problema es que la «consulta abierta al mercado» duplica la «interacción con el mercado» del artículo 47 sin modificarlo, y que la división en lotes debe conciliarse con la prohibición de fraccionamiento.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 5.1",
+    "problema": "El artículo 47 de la Ley 32069 ya regula la «interacción con el mercado» para determinar la oferta, perfeccionar el requerimiento y estimar el presupuesto, y remite su desarrollo al reglamento (47.2). Crear por ley especial una «consulta abierta al mercado» paralela genera dos procedimientos para el mismo fin y dudas sobre cuál prevalece.",
+    "correccion": "Reformular el artículo 5 como modificación expresa: «Se modifica el artículo 47 de la Ley 32069, con el texto siguiente: …», incorporando un numeral 47.3: «En la contratación de bienes y servicios tecnológicos cuyo valor estimado supere el umbral que fija el reglamento, la interacción con el mercado es pública y abierta, y su resultado se publica en la Pladicop.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 6.1",
+    "problema": "La obligación de dividir en lotes y de motivar la decisión de no hacerlo no se articula con la regla sobre fraccionamiento de la Ley 32069. Esa omisión puede exponer a los funcionarios a cuestionamientos de control por dividir una contratación.",
+    "correccion": "Añadir al 6.1: «La división en lotes dentro de un mismo procedimiento de selección no constituye fraccionamiento en los términos de la Ley 32069.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 4.1",
+    "problema": "La previsión anual de demanda tecnológica no se vincula al instrumento de planificación vigente de la Ley 32069 (programación multianual de bienes, servicios y obras), lo que puede generar un documento adicional desconectado.",
+    "correccion": "Redactar: «…una previsión anual de su demanda de bienes y servicios tecnológicos, derivada de su programación multianual de bienes, servicios y obras…»."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "efecto_vigencia y normas_relacionadas",
+    "problema": "Las referencias al «Decreto Legislativo 1414» como norma de núcleos ejecutores de compras y al «artículo 30 de la Ley 30230» como norma de creación del Fondo MIPYME no pudieron verificarse y podrían estar mal numeradas.",
+    "correccion": "Cotejar en SPIJ. Si no se confirma, citar la norma por su denominación sin número de artículo o suprimir la referencia."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 32069, art. 47 (modifica, incorpora el numeral 47.3)",
+    "Reglamento de la Ley 32069, D.S. 009-2025-EF (adecua)",
+    "Ley 31578 (concordancia)"
+   ],
+   "entidades_implicadas": [
+    "MEF: rector del sistema de abastecimiento y reglamentación (reglamentadora)",
+    "OECE: Pladicop e indicadores (supervisora)",
+    "Perú Compras: catálogos electrónicos (ejecutora)",
+    "PRODUCE: desarrollo de proveedores (ejecutora)",
+    "Entidades contratantes (sujetos obligados)",
+    "Proveedores MIPYME tecnológicos (beneficiarios)"
+   ]
+  }
+ },
+ {
+  "id": "DER-01",
+  "especialidad": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Garantías procesales pertinentes y bien delimitadas. Hay cuatro problemas: el artículo 155-J se ubica en el capítulo de notificaciones de la LOPJ; la regla de prevalencia frente a los códigos procesales es indeterminada; la gratuidad de las copias puede implicar exonerar tasas judiciales sin informe del MEF; y la remisión del 155-J a «la ley de la materia» es circular.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 11 (art. 155-J de la LOPJ)",
+    "problema": "Los artículos 155-A a 155-I, incorporados por la Ley 30229, regulan la notificación electrónica. Ubicar allí una regla sobre modalidad de audiencias rompe la sistemática de la LOPJ. Además, no se pudo confirmar que el 155-J esté libre: no aparece en las fuentes consultadas, pero no se tuvo acceso al TUO actualizado en SPIJ.",
+    "correccion": "Confirmar en SPIJ que el 155-J está libre. Por sistemática, se prefiere incorporarlo en el capítulo de las actuaciones judiciales: «Artículo 11. Incorporación del artículo 131-A al TUO de la LOPJ…», previa verificación de que ese número también está libre. Si se mantiene el 155-J, titular el artículo «Audiencias por medios tecnológicos» y limitarlo a la regla de modalidad."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 11 (texto del 155-J)",
+    "problema": "El artículo incorporado remite a «las garantías establecidas en la ley de la materia», fórmula indeterminada. Una vez incorporada a la LOPJ, la remisión no identifica a la propia ley especial.",
+    "correccion": "Sustituir por: «…se rigen por las garantías establecidas en la Ley [número], Ley que establece garantías para las audiencias judiciales por medios tecnológicos y el acceso al expediente judicial electrónico.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 2.1",
+    "problema": "La cláusula de que los códigos procesales «prevalecen en lo que resulten más garantistas» es indeterminada: no dice para quién se mide el carácter garantista (imputado, víctima, demandante). Choca con reglas especiales vigentes sobre videoconferencia en el proceso penal.",
+    "correccion": "Redactar: «2.1 La presente ley se aplica a los órganos jurisdiccionales del Poder Judicial en todos los procesos. Las disposiciones de los códigos procesales sobre audiencias por medios tecnológicos se aplican de manera preferente; la presente ley se aplica en lo no previsto por ellos y como estándar mínimo de garantías.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 8.2",
+    "problema": "La gratuidad de las «copias digitales» puede comprender las copias certificadas, que hoy están gravadas con tasas judiciales. Eximir de una tasa es un beneficio tributario y requiere informe previo del MEF (art. 79 de la Constitución; COORDINACION, criterio 4). Además, afecta recursos directamente recaudados del pliego Poder Judicial.",
+    "correccion": "Redactar: «8.2 La visualización y descarga de las piezas del expediente judicial electrónico por las partes, sin certificación, es gratuita. La expedición de copias certificadas se rige por las tasas judiciales vigentes.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 9.2",
+    "problema": "Se prohíbe difundir grabaciones reservadas sin prever la consecuencia jurídica.",
+    "correccion": "Agregar: «…sin perjuicio de las medidas disciplinarias previstas en el artículo 9 del TUO de la LOPJ y de las responsabilidades civiles y penales que correspondan.»"
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "TUO de la LOPJ, D.S. 017-93-JUS, art. 155-J o 131-A (incorpora; numeración por verificar en SPIJ; requiere votación de ley orgánica)",
+    "Resoluciones administrativas del CEPJ sobre audiencias virtuales y expediente judicial electrónico (adecua)",
+    "Ley 29733 (concordancia)"
+   ],
+   "entidades_implicadas": [
+    "Poder Judicial: Consejo Ejecutivo (reglamentadora) y Gerencia General (ejecutora: plataforma, bitácora y puntos de acceso)",
+    "Órganos jurisdiccionales (ejecutores)",
+    "Gobiernos locales y entidades con convenio: puntos de acceso (colaboradoras)",
+    "ANPD: tratamiento de grabaciones (supervisora)",
+    "MEF: informe si se mantiene la exoneración de tasas"
+   ]
+  }
+ },
+ {
+  "id": "DER-02",
+  "especialidad": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Se verificó en WIPO Lex que el D. Leg. 1724 (7-feb-2026) incorporó el numeral 55 del artículo 2 y el Título XIV (arts. 208 a 218) al D. Leg. 822, por lo que los numerales 56 a 58 y el Título XV (arts. 219 a 224) son correlativos y correctos. La excepción de minería de textos se ajusta al artículo 21 de la Decisión 351. Falta armonizar el órgano sancionador con el artículo 217 del D. Leg. 822 y precisar la escala aplicable.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 8 (art. 223.3 del D. Leg. 822)",
+    "problema": "El artículo 223.3 atribuye las infracciones de transparencia a la «Comisión de Derecho de Autor». El artículo 217, incorporado por el D. Leg. 1724 en el mismo D. Leg. 822, designa a la Dirección de Derecho de Autor del Indecopi como autoridad para el régimen de proveedores de servicios de internet. Dos órganos distintos para obligaciones informativas análogas de proveedores digitales generan riesgo de conflicto de competencia.",
+    "correccion": "Cotejar la estructura vigente de órganos del Indecopi. Redactar el 223.3: «El órgano competente en materia de derecho de autor del Indecopi, conforme a su norma de organización y funciones, conoce las infracciones previstas en este artículo y aplica las sanciones del artículo 186…»."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 8 (art. 223.1 y 223.2)",
+    "problema": "Se califican las infracciones como leves y graves, pero el D. Leg. 822 no tiene una escala por gravedad: el artículo 186 prevé amonestación y multa de hasta 180 UIT, entre otras. Calificar sin asociar una escala deja la graduación sin base legal (TUO Ley 27444, art. 248.3 y 248.4).",
+    "correccion": "Agregar un numeral 223.4: «Las infracciones leves se sancionan con amonestación o multa de hasta diez (10) UIT, y las graves con multa de más de diez (10) hasta cien (100) UIT, conforme a los criterios de graduación del artículo 186.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 3",
+    "problema": "El artículo 3 «incorpora el Título XV… conforme al texto de los artículos 4 a 9» y los artículos 4 a 9 transcriben cada artículo por separado. La Guía de redacción recomienda un único artículo de incorporación con el texto íntegro del título.",
+    "correccion": "Fusionar los artículos 3 a 9 en «Artículo 3. Incorporación del Título XV al Decreto Legislativo 822. Se incorpora el Título XV, “De la inteligencia artificial”, que comprende los artículos 219 a 224, con el texto siguiente: …» y renumerar."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Disposición Complementaria Final Primera",
+    "problema": "El Indecopi aprueba «lineamientos» que precisan obligaciones exigibles bajo sanción. El mandato debe indicar el instrumento y su publicación.",
+    "correccion": "Redactar: «…aprueba, mediante resolución de su Consejo Directivo publicada en el diario oficial El Peruano, …»."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "D. Leg. 822, art. 2, numerales 56, 57 y 58 (incorpora; correlativos verificados tras el numeral 55 del D. Leg. 1724)",
+    "D. Leg. 822, Título XV, arts. 219 a 224 (incorpora; correlativos verificados tras el art. 218)",
+    "Decisión 351 de la CAN, art. 21 (prevalece)",
+    "Ley 31814 (concordancia)"
+   ],
+   "entidades_implicadas": [
+    "INDECOPI: Dirección de Derecho de Autor (registro y lineamientos) y órgano resolutivo competente (sancionador)",
+    "Sociedades de gestión colectiva (licencias)",
+    "Universidades, bibliotecas, archivos y museos (beneficiarios)",
+    "Proveedores de modelos de IA de propósito general (regulados)"
+   ]
+  }
+ },
+ {
+  "id": "DER-03",
+  "especialidad": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "La ley cuida la prohibición de censura previa y se limita a deberes de transparencia. Sin embargo, deja obligaciones supervisadas sin infracción tipificada (arts. 5.2 y 8), no dice quién acredita a los investigadores y atribuye al Indecopi deberes ajenos a la relación de consumo sin designar el órgano resolutivo.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 10.1 y 10.2",
+    "problema": "Se encarga a la ANPD supervisar el artículo 5.2 (opción sin perfilado) «conforme a la Ley 29733», pero ni el artículo 38 de esa ley ni su reglamento (D.S. 016-2024-JUS) tipifican esa conducta de modo específico. El artículo 8 (acceso de investigadores) se supervisa sin infracción tipificada. Supervisar sin tipo no permite sancionar (TUO Ley 27444, art. 248.4).",
+    "correccion": "Agregar al 10.2: «Constituye infracción grave el incumplimiento del numeral 5.2 y del artículo 8.» Y en el 10.3: «La infracción del numeral 5.2 se sanciona por la ANPD con la escala del artículo 39 de la Ley 29733.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 8",
+    "problema": "Los investigadores se acreditan «conforme al reglamento», sin que la ley diga qué entidad acredita. Esto deja la determinación del acceso a datos de empresas privadas a la discrecionalidad reglamentaria y sin control.",
+    "correccion": "Redactar: «…a investigadores de universidades licenciadas y centros de investigación registrados en el CONCYTEC, que acrediten ante el Indecopi un protocolo de investigación, medidas de seguridad y un compromiso de confidencialidad, conforme al reglamento…»."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 10.1",
+    "problema": "Se atribuye la supervisión a «los órganos de protección al consumidor» del Indecopi, aunque el repositorio político (art. 6) y el acceso de investigadores (art. 8) no son relaciones de consumo. La competencia debe atribuirse expresamente al órgano resolutivo, sin apoyarse en el Código.",
+    "correccion": "Redactar: «El Indecopi, a través de la Comisión de Protección al Consumidor en primera instancia y de la Sala especializada en segunda instancia, es competente para supervisar y sancionar el cumplimiento de los artículos…, aun cuando no exista relación de consumo.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Disposiciones Complementarias Finales",
+    "problema": "El orden es Reglamentación, Vigencia diferida, Financiamiento y Evaluación. Las DCF deben agruparse con la vigencia al inicio o al final, de manera consistente con el resto del paquete.",
+    "correccion": "Reordenar: Primera «Reglamentación», Segunda «Financiamiento», Tercera «Evaluación», Cuarta «Vigencia diferida»."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ninguna modificación expresa; ley especial",
+    "Ley 29733, art. 38 (convendría incorporar infracción por falta de opción no perfilada si se opta por modificar)",
+    "Ley 29571, art. 110 (escala aplicable)",
+    "Ley 28094 (concordancia, sin modificar)"
+   ],
+   "entidades_implicadas": [
+    "INDECOPI: Comisión de Protección al Consumidor y Sala (supervisora y sancionadora)",
+    "ANPD/MINJUSDH: art. 5.2 (sancionadora)",
+    "ONPE: acceso al repositorio (beneficiaria; sin nuevas funciones)",
+    "CONCYTEC: registro de centros de investigación (consultiva)",
+    "Plataformas y buscadores con 3 millones o más de usuarios mensuales (regulados)"
+   ]
+  }
+ },
+ {
+  "id": "DER-04",
+  "especialidad": "jurista",
+  "veredicto": "observaciones_graves",
+  "resumen": "El texto íntegro propuesto para el artículo 15 del Código Civil reproduce correctamente los dos párrafos vigentes. Sin embargo, el artículo 5.2 permite que una herramienta en línea del proveedor prevalezca sobre el testamento, lo que contradice el régimen de revocación testamentaria del Código Civil. Además, los deberes de los proveedores no están tipificados.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 5.2",
+    "problema": "Si las instrucciones del testamento y las de la herramienta del proveedor se contradicen, «prevalece la instrucción de fecha posterior». Como el artículo 5.1 incluye la «transferencia» de contenidos y el artículo 7 reconoce contenidos patrimoniales, una herramienta privada podría revocar disposiciones testamentarias. Eso contradice los artículos 798 y 799 del Código Civil: la revocación del testamento solo se hace con las formalidades testamentarias.",
+    "correccion": "Redactar: «5.2 Las instrucciones sobre datos personales, conmemoración o eliminación de cuentas pueden constar en testamento o en las herramientas que el proveedor ponga a disposición; en caso de contradicción entre estas, prevalece la de fecha posterior. Las disposiciones sobre contenidos digitales de valor patrimonial solo pueden constar en testamento y se rigen por el Libro IV del Código Civil.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 8 (tercer párrafo del art. 15 del Código Civil)",
+    "problema": "No queda claro si las excepciones del segundo párrafo (notoriedad, interés público, fines didácticos o culturales) se aplican a las representaciones sintéticas. Interpretadas en sentido amplio, permitirían recrear con IA a personas notorias fallecidas sin asentimiento.",
+    "correccion": "Redactar: «La generación, mediante sistemas de inteligencia artificial u otras técnicas, de imágenes, voces o representaciones sintéticas que simulen a una persona fallecida requiere el asentimiento previsto en el primer párrafo, aun en los supuestos del segundo párrafo, salvo fines periodísticos, de investigación o de crítica que no induzcan a error sobre su autenticidad. No procede si la persona lo prohibió en vida.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 9",
+    "problema": "La ANPD supervisa los artículos 2 a 6 y el numeral 5.3 «conforme al régimen sancionador de la Ley 29733». Ese régimen no tipifica la omisión de ofrecer la herramienta del 5.3 ni el incumplimiento del plazo de 20 días del 4.1 por los buscadores (TUO Ley 27444, art. 248.4).",
+    "correccion": "Agregar: «Constituyen infracciones leves no implementar la herramienta del numeral 5.3 y no resolver la solicitud en el plazo del numeral 4.1, y se sancionan conforme al artículo 39 de la Ley 29733.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículos 2 a 7",
+    "problema": "El derecho a la desindexación y el ejercicio de derechos por herederos son derechos del titular de datos. Por sistemática corresponden a la Ley 29733 (Título III), no a una ley especial dispersa.",
+    "correccion": "Reformular los artículos 2 a 4 como incorporación del artículo 20-A a la Ley 29733 y el artículo 6 como incorporación del artículo 22-A, con texto íntegro y previa verificación de numeración en SPIJ."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Código Civil, D. Leg. 295, art. 15 (modifica, texto íntegro; párrafos 1 y 2 coinciden con el texto vigente)",
+    "Ley 29733, arts. 20-A y 22-A (incorporar; recomendado)",
+    "Reglamento de la Ley 29733, D.S. 016-2024-JUS (adecua)",
+    "Código Civil, arts. 798-799 (respetar; no modificar)"
+   ],
+   "entidades_implicadas": [
+    "ANPD/MINJUSDH: tutela de desindexación y supervisión (sancionadora)",
+    "MINJUSDH: reglamentación (reglamentadora)",
+    "Poder Judicial: controversias patrimoniales, imagen y voz, y acceso a comunicaciones (ejecutor)",
+    "Notarios: testamentos con instrucciones digitales",
+    "Buscadores y servicios digitales con cuentas (regulados)"
+   ]
+  }
+ },
+ {
+  "id": "DER-05",
+  "especialidad": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Límites razonables al poder de dirección, con prohibiciones concretas y doble autoridad articulada por el non bis in idem. Pero el ámbito incluye a entidades públicas de cualquier régimen laboral y solo asigna la fiscalización a la SUNAFIL, cuya competencia no alcanza a todos los regímenes del servicio civil. Además, el texto incorporado a la Ley 31572 remite a una ley sin identificarla.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 2 y artículo 9.1",
+    "problema": "El artículo 2 comprende a «entidades públicas, cualquiera sea el régimen laboral», pero la fiscalización se encarga solo a la SUNAFIL (Ley 29981). La inspección de la SUNAFIL en el sector público tiene límites por régimen (D. Leg. 276, Ley 30057 y CAS), y la potestad disciplinaria y de rectoría sobre el servicio civil corresponde a SERVIR. Para parte del ámbito no habría autoridad competente.",
+    "correccion": "Agregar un numeral 9.4: «En las entidades públicas, la Autoridad Nacional del Servicio Civil (SERVIR) supervisa el cumplimiento de los artículos 4, 6 y 7.1 respecto de los servidores no comprendidos en el ámbito de la SUNAFIL. El incumplimiento constituye falta administrativa del funcionario responsable conforme a la Ley 30057.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 8 (texto del art. 5 de la Ley 31572)",
+    "problema": "El texto incorporado a la Ley del Teletrabajo remite a «la ley que regula la vigilancia y el monitoreo digital de las personas trabajadoras». Esa fórmula indeterminada no identifica la norma y puede leerse como remisión a una ley futura.",
+    "correccion": "Sustituir por: «…se sujetan a la Ley [número], Ley que regula la vigilancia y el monitoreo digital de las personas trabajadoras…». La Comisión de Redacción completa el número al publicar."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 9.1",
+    "problema": "La ley califica las infracciones como grave y muy grave, pero la Ley 28806 remite la tipificación detallada a su reglamento. La DCF Primera ordena adecuarlo sin plazo propio ni mención al D.S. 019-2006-TR.",
+    "correccion": "En la DCF Primera: «…y modifica el Reglamento de la Ley General de Inspección del Trabajo, aprobado por Decreto Supremo 019-2006-TR, para tipificar las infracciones del artículo 9, en el mismo plazo.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 7.3",
+    "problema": "La remisión a «la ley que regule la gestión algorítmica» alude a una norma inexistente (propuesta IA-13). Si esta ley se aprueba sola, la remisión queda vacía.",
+    "correccion": "Redactar: «…se rigen por el artículo 23 de la Ley 29733 y por las normas especiales sobre gestión algorítmica en las relaciones laborales.»"
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 31572, art. 5 (modifica, texto íntegro; cotejar el texto vigente en el consolidado)",
+    "Reglamento de la Ley 28806, D.S. 019-2006-TR (adecua: infracciones)",
+    "Ley 29733 y su reglamento (concordancia)",
+    "Ley 30057 (concordancia: faltas de servidores)"
+   ],
+   "entidades_implicadas": [
+    "MTPE: reglamentación (reglamentadora)",
+    "SUNAFIL: fiscalización de empleadores privados (sancionadora)",
+    "SERVIR: entidades públicas fuera del ámbito de la SUNAFIL (supervisora; omitida)",
+    "ANPD/MINJUSDH: tratamiento de datos y evaluación de impacto (sancionadora)",
+    "Organizaciones sindicales y representantes de los trabajadores (consultivos)",
+    "Empleadores, empresas de tercerización e intermediación (regulados)"
+   ]
+  }
+ },
+ {
+  "id": "DER-06",
+  "especialidad": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Propuesta útil que preserva la voluntariedad del arbitraje. Las remisiones internas al Código no pudieron cotejarse con su texto consolidado, que no estaba disponible en las fuentes oficiales consultadas. Las de los artículos 143 y 144, que se usan para dar efectos al acta y para la actuación de oficio, son dudosas: según la doctrina, el artículo 144 regula el incumplimiento del laudo, y la actuación de oficio se funda en las reglas del procedimiento sancionador. La numeración 144-A y 148-A sigue sin confirmarse.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 4 (art. 148-A.3 y 148-A.4 del Código)",
+    "problema": "El numeral 148-A.3 da al acta «los efectos del artículo 144», que según la doctrina regula el incumplimiento del laudo arbitral, no los acuerdos conciliatorios. El 148-A.4 funda la actuación de oficio en defensa del interés colectivo en el «artículo 143». La facultad de iniciar procedimientos de oficio está en las reglas del procedimiento sancionador del Código (art. 107), y la defensa de intereses colectivos en el régimen de los arts. 130-131. Una remisión equivocada deja sin efecto práctico el acuerdo.",
+    "correccion": "Cotejar los arts. 105-107, 130-131 y 137-148 en el texto consolidado de SPIJ. Redactar sin remisión numérica dudosa: «148-A.3 Los acuerdos alcanzados en la plataforma constan en acta electrónica con firma digital o mecanismo de autenticación equivalente; su incumplimiento constituye infracción sancionable conforme al artículo 110 del presente Código. 148-A.4 El uso de la plataforma no impide a la autoridad iniciar procedimientos sancionadores de oficio.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículos 2, 3 y 4",
+    "problema": "No se pudo verificar que el artículo 140 sea el que regula el «carácter voluntario», ni que los números 144-A y 148-A estén libres. Si el texto íntegro del artículo 140 no coincide con su materia vigente, la modificación suprimiría una regla distinta.",
+    "correccion": "Antes del dictamen, cotejar en SPIJ el texto vigente de los arts. 137 a 150 del Código. Si 148-A estuviera ocupado o su capítulo no fuera el de los mecanismos alternativos, ubicar la plataforma como artículo siguiente al último del capítulo de solución de conflictos (por ejemplo, 149-A). Ajustar «efecto_vigencia»."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 6",
+    "problema": "Al remitir al numeral 1.2 del artículo IV del Título Preliminar se omite la condición de que el producto o servicio no forme parte del giro propio del negocio del microempresario, lo que amplía de hecho el concepto de consumidor.",
+    "correccion": "Redactar: «…los microempresarios que, conforme al numeral 1.2 del artículo IV del Título Preliminar del Código, evidencien asimetría informativa respecto de productos o servicios que no formen parte del giro propio de su negocio.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículos 5, 7, 9 y 10",
+    "problema": "La obligación de registro, la interoperabilidad, la información pública y la infracción quedan fuera del Código, a diferencia de los artículos 144-A y 148-A. El régimen de una misma plataforma se divide en dos cuerpos normativos.",
+    "correccion": "Incorporar su contenido como numerales 148-A.5 a 148-A.8 del Código, o como artículo 148-B, y dejar en la ley solo las disposiciones complementarias."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 29571, art. 140 (modifica; materia por cotejar)",
+    "Ley 29571, arts. 144-A y 148-A (incorpora; numeración por verificar en SPIJ)",
+    "Reglamento del Sistema de Arbitraje de Consumo, D.S. 103-2019-PCM (adecua)",
+    "Reglamento del Libro de Reclamaciones (adecua: interoperabilidad, art. 7)"
+   ],
+   "entidades_implicadas": [
+    "INDECOPI como Autoridad Nacional de Protección del Consumidor: plataforma, información y sanción (rectora y sancionadora)",
+    "Juntas arbitrales de consumo (ejecutoras)",
+    "PCM: refrenda el reglamento",
+    "MINJUSDH: conciliación en línea entre MYPE (evalúa y propone)",
+    "Proveedores de comercio electrónico no MYPE (regulados)"
+   ]
+  }
+ },
+ {
+  "id": "DER-07",
+  "especialidad": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Medidas pertinentes, con garantías contra el bloqueo general. Sin embargo, la numeración 22-D salta una letra si el 22-C no existe en la ley vigente. El apercibimiento a los proveedores se apoya en el artículo 24 de la Ley 30364, previsto para la persona agresora, y la conservación de datos a pedido directo de la PNP debe canalizarse por el fiscal.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3 (art. 22-D de la Ley 30364)",
+    "problema": "Los artículos 22-A y 22-B existen. La propia propuesta reconoce que el 22-C solo fue materia de iniciativas, no de ley. Si el 22-C no existe, incorporar el 22-D salta una letra, lo que contradice la regla de correlatividad de la Guía de redacción. No se pudo cotejar el texto consolidado vigente.",
+    "correccion": "Verificar en SPIJ el último artículo con letra después del 22. Si el 22-C está libre, renumerar a «Artículo 22-C. Medidas de protección en entornos digitales» y ajustar las remisiones de los artículos 4, 9 y 1, y de «efecto_vigencia»."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 4.3",
+    "problema": "El incumplimiento de los proveedores se remite al «artículo 24 de la Ley 30364», que tipifica como resistencia o desobediencia el incumplimiento de la medida por quien está obligado a ella, típicamente la persona agresora. Los proveedores son terceros no emplazados, y la responsabilidad penal es personal. Falta un apremio eficaz contra la persona jurídica.",
+    "correccion": "Redactar: «4.3 Ante el incumplimiento injustificado, el juzgado puede imponer al proveedor multas compulsivas y progresivas, conforme al artículo 53 del Código Procesal Civil, de aplicación supletoria, y pone el hecho en conocimiento del Ministerio Público para la determinación de la responsabilidad de los representantes conforme al artículo 368 del Código Penal.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 6.1",
+    "problema": "Se faculta a la Policía Nacional a requerir directamente a los proveedores la conservación de datos por noventa días. En el proceso penal, la conducción de la investigación y los requerimientos a terceros corresponden al Ministerio Público (art. 159 de la Constitución). La conservación debe distinguirse con claridad del acceso, que exige mandato judicial (art. 2.10).",
+    "correccion": "Redactar: «6.1 El Ministerio Público, de oficio o a solicitud de la Policía Nacional del Perú, puede requerir a los proveedores la conservación inmediata de los datos informáticos y del contenido… La conservación no autoriza el acceso a su contenido, que requiere mandato judicial conforme al numeral 10 del artículo 2 de la Constitución.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 2 (párrafo final del art. 8 de la Ley 30364)",
+    "problema": "Se incorpora un «párrafo final» con «[...]» sin reproducir el texto íntegro del artículo 8. La Guía de redacción exige el texto íntegro del artículo modificado.",
+    "correccion": "Redactar «Se modifica el artículo 8 de la Ley 30364…» y transcribir íntegramente sus literales a) a d), incluido el nuevo párrafo final, cotejados con el texto vigente en SPIJ."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 30364, art. 8 (modifica, texto íntegro)",
+    "Ley 30364, art. 22-C o 22-D (incorpora; letra por verificar en SPIJ)",
+    "Reglamento de la Ley 30364, D.S. 009-2016-MIMP y modificatorias, incluida la del D.S. 002-2025-MIMP (adecua)",
+    "Código Procesal Civil, art. 53 (aplicación supletoria)"
+   ],
+   "entidades_implicadas": [
+    "Juzgados de familia o los que hagan sus veces: medidas 22-C/22-D (ejecutores)",
+    "Ministerio Público: preservación de evidencia y persecución (ejecutor)",
+    "PNP: recepción de denuncias y pedidos de preservación al fiscal (ejecutora)",
+    "MIMP: reglamentación, atención especializada y registros (rectora)",
+    "Proveedores de servicios digitales y plataformas (regulados)"
+   ]
+  }
+ },
+ {
+  "id": "DER-08",
+  "especialidad": "jurista",
+  "veredicto": "observaciones_graves",
+  "resumen": "Se cotejó el texto original de la Ley 26300: el art. 4 regula la relación de firmas, el 6 la verificación por la autoridad electoral, el 8 la habilitación de suscriptores y el 9 los personeros, por lo que las remisiones del 6-A son coherentes. No se pudo verificar en el texto consolidado que el 6-A esté libre. Lo grave es el artículo 6: condiciona la ampliación del voto digital regulado en la Ley Orgánica de Elecciones (arts. 223-A y siguientes, Ley 32270) mediante un artículo autónomo, sin modificar expresamente esa ley orgánica.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 6",
+    "problema": "Las condiciones para ampliar el voto digital (informe de la ONPE, informe del JNE, carácter voluntario) alteran el régimen de la Ley 26859, Ley Orgánica de Elecciones, y de la Primera DCF de la Ley 32270. Esa materia está reservada a ley orgánica (arts. 31 y 106 de la Constitución) y debe modificarse expresamente (COORDINACION, criterio 3). Una regla autónoma en una ley que modifica la Ley 26300 crea un régimen paralelo de dudosa jerarquía y puede ser inaplicada si no alcanza la votación calificada.",
+    "correccion": "Sustituir el artículo 6 por: «Artículo 6. Incorporación del artículo 223-H a la Ley 26859, Ley Orgánica de Elecciones. Se incorpora el artículo 223-H… con el texto siguiente: “Artículo 223-H. Condiciones para la ampliación del voto digital. …”», previa verificación en SPIJ de que el 223-H es el siguiente número libre tras los incorporados por la Ley 32270. Mantener en «efecto_vigencia» la exigencia de votación de ley orgánica."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 2 (art. 6-A de la Ley 26300)",
+    "problema": "No se pudo confirmar en el texto consolidado que el número 6-A esté libre tras las modificaciones de la Ley 26300 (entre otras, la Ley 30315). Además, la forma de la adhesión (firma digital frente a firma manuscrita y huella) es materia del artículo 4, que regula la relación de firmas; el artículo 6 regula la verificación.",
+    "correccion": "Verificar la numeración en SPIJ. Por sistemática, preferir «Artículo 4-A. Adhesión digital», a continuación del artículo 4, si está libre, y ajustar las remisiones internas."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículos 3 y 5",
+    "problema": "Las reglas de protección de datos de los adherentes y de auditoría de la plataforma se dejan fuera de la Ley 26300, en una norma suelta que sus operadores (ONPE y JNE) consultarán junto con la ley de la materia.",
+    "correccion": "Incorporarlas como numerales 6-A.6 a 6-A.9 (o 4-A.6 a 4-A.9) del artículo incorporado, con texto íntegro."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Disposición Complementaria Final Segunda",
+    "problema": "Se fija costo_fiscal «medio» con la fórmula «sin demandar recursos adicionales al Tesoro Público». Conforme al criterio transversal 1 de COORDINACION, debe declararse la coordinación con el Poder Ejecutivo y el informe previo del MEF.",
+    "correccion": "Agregar: «La implementación requiere coordinación con el Poder Ejecutivo y fuente de financiamiento identificada; la plataforma se habilita en función de la disponibilidad presupuestal de los pliegos ONPE y RENIEC.»"
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 26300, art. 6-A o 4-A (incorpora; numeración por verificar en el texto consolidado)",
+    "Ley 26859, Ley Orgánica de Elecciones, art. 223-H (incorporar; votación de ley orgánica)",
+    "Ley 32270, Primera DCF (concordancia)",
+    "Ley 27269 y Ley 29733 (concordancia)"
+   ],
+   "entidades_implicadas": [
+    "ONPE: plataforma de adhesión y evaluación de pilotos (ejecutora; ley orgánica 26487)",
+    "RENIEC: verificación de identidad y certificados del DNIe (ejecutora; ley orgánica 26497)",
+    "JNE: fiscalización de la plataforma y del piloto (supervisora)",
+    "Promotores y personeros técnicos (beneficiarios)",
+    "ANPD: datos de adherentes (supervisora)",
+    "MEF: informe previo (financiadora)"
+   ]
+  }
+ }
+]

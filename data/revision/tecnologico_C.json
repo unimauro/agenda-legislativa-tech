@@ -234,7 +234,7 @@
  {
   "id": "SOB-06",
   "especialidad": "derecho_tecnologico",
-  "veredicto": "observaciones",
+  "veredicto": "observaciones_graves",
   "resumen": "Técnicamente bien fundada (FIPS 203/204, NIST IR 8547, Public Law 117-260) y con metas razonables (2032/2035, coherentes con el calendario NIST de desaprobación 2030 y retiro 2035). Omite a RENIEC como ECERNEP y emisor del DNIe, cuyo chip es el activo criptográfico más difícil de migrar; debe exigir agilidad e hibridación, cubrir la criptografía simétrica y la preservación a largo plazo con estándares precisos, y evitar que la promoción de comunicaciones cuánticas se lea como sustituto de la PQC.",
   "hallazgos": [
    {
@@ -354,6 +354,347 @@
     "SGTD — lineamientos de formatos abiertos para salida de contratos"
    ],
    "impacto_economico": "Las cláusulas de salida reducen el costo de cambio de proveedor, principal fuente de sobreprecio en renovaciones de software; no son cuantificables con información pública."
+  }
+ },
+ {
+  "id": "DER-01",
+  "especialidad": "derecho_tecnologico",
+  "veredicto": "observaciones",
+  "resumen": "Garantías procesales bien elegidas (canal reservado abogado-cliente, falla de conexión no imputable, bitácora de accesos). Técnicamente le faltan dos piezas: la integridad verificable de las grabaciones (hash y sello de tiempo) frente a la manipulación y los contenidos sintéticos, y un estándar de identificación remota más robusto que exhibir el DNI ante la cámara. También debe exigir que la plataforma conserve registros técnicos de conexión que sirvan de prueba de la falla.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 5, literal f), y Artículo 9.3",
+    "problema": "La 'grabación íntegra' no garantiza por sí misma que el archivo no haya sido editado. Con herramientas de edición e IA generativa, una grabación sin mecanismo de integridad pierde valor probatorio en la instancia superior o en una nulidad. El estándar técnico es calcular una función resumen criptográfica (p. ej., SHA-256) al cierre de la audiencia y sellarla con un sello de tiempo de un prestador acreditado (Ley 27269), registrando la cadena de custodia.",
+    "correccion": "Sustituir el literal f) por: 'f) La grabación íntegra de la audiencia, su incorporación al expediente judicial electrónico y la preservación de su integridad mediante la generación, al cierre de la audiencia, de un código resumen criptográfico y un sello de tiempo emitidos conforme a la Ley 27269, Ley de Firmas y Certificados Digitales; toda copia entregada a las partes permite verificar dicha integridad.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 5, literal a)",
+    "problema": "La 'verificación del documento de identidad' en videoconferencia suele reducirse a mostrar el DNI ante la cámara, mecanismo vulnerable a suplantación (documento ajeno, video manipulado en tiempo real). El Estado dispone de mecanismos de autenticación de mayor nivel: certificado del DNIe, la plataforma de autenticación del Estado y la verificación biométrica con el RENIEC. Para partes y abogados, que ya se autentican en la casilla electrónica, el estándar puede elevarse sin costo.",
+    "correccion": "Sustituir el literal a) por: 'a) La identificación fehaciente de los intervinientes mediante los mecanismos de autenticación digital del Estado o del Poder Judicial, la verificación biométrica con el Registro Nacional de Identificación y Estado Civil cuando esté disponible, o, en su defecto, la exhibición del documento de identidad con verificación por el especialista de audiencia.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 6.1",
+    "problema": "'Acreditada por cualquier medio idóneo' pone la carga en la parte, que difícilmente puede probar una caída de red. La plataforma registra técnicamente las conexiones, desconexiones y calidad de cada participante; esa bitácora es la prueba objetiva y debe conservarse.",
+    "correccion": "Añadir el 6.3: 'La plataforma de audiencias conserva el registro técnico de conexión y desconexión de cada interviniente, que se incorpora al expediente a pedido de parte y constituye medio de prueba de la interrupción.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 9.3",
+    "problema": "'Cifrado de las comunicaciones' no distingue entre cifrado en tránsito (exigible) y cifrado de extremo a extremo (incompatible con la grabación por el órgano jurisdiccional). Además, el canal reservado del art. 5.c) sí requiere cifrado y exclusión de grabación verificable.",
+    "correccion": "Redactar: '9.3 La plataforma garantiza el cifrado de las comunicaciones en tránsito y de las grabaciones en reposo, y que el canal reservado del literal c) del artículo 5 no sea grabado ni accesible al órgano jurisdiccional ni a terceros [...]'."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 27269 (concordancia: sello de tiempo)"
+   ],
+   "entidades_implicadas": [
+    "RENIEC — verificación biométrica/identidad digital",
+    "INDECOPI — acreditación de prestadores de sellado de tiempo"
+   ],
+   "impacto_economico": "El sellado de integridad es de costo marginal (procesamiento automático) y reduce nulidades por cuestionamiento de grabaciones."
+  }
+ },
+ {
+  "id": "DER-02",
+  "especialidad": "derecho_tecnologico",
+  "veredicto": "observaciones_graves",
+  "resumen": "Bien encaminada (autoría humana, TDM para investigación según art. 3 de la Directiva (UE) 2019/790, resumen de entrenamiento según art. 53.1.d) del AI Act). Tiene tres problemas técnicos serios: la exención de código abierto contradice el modelo que cita (el AI Act no exime del resumen de entrenamiento a los modelos abiertos); el art. 221.2 regula una reserva legible por máquina sin que exista una excepción comercial que esa reserva limite, y admite como 'legible por máquina' las condiciones de uso en lenguaje natural; y las definiciones de sistema y de modelo de propósito general divergen del Reglamento de la Ley 31814 y carecen de un criterio objetivo para delimitar a los obligados.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 7 (art. 222.3 incorporado)",
+    "problema": "El art. 53.2 del Reglamento (UE) 2024/1689 exime a los modelos de código abierto únicamente de las obligaciones de las letras a) y b) del art. 53.1 (documentación técnica para la autoridad y para proveedores posteriores), pero NO de la letra c) (política de derechos de autor) ni de la d) (resumen del contenido de entrenamiento). La propuesta exime a los modelos abiertos justamente del resumen (literal a) del 222.1), invirtiendo el modelo comparado que invoca y vaciando la obligación para buena parte de los modelos distribuidos (pesos abiertos). Publicar los parámetros no informa sobre los datos de entrenamiento.",
+    "correccion": "Sustituir el 222.3 por: '222.3 Las microempresas pueden cumplir el literal a) del numeral 222.1 mediante el formato simplificado que apruebe el Indecopi. Los modelos publicados bajo licencias libres y de código abierto no están exceptuados de las obligaciones del presente artículo.' Corregir la exposición de motivos y el costo_beneficio para reflejar el art. 53.2 del AI Act."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 6 (art. 221 incorporado)",
+    "problema": "(i) Incoherencia de diseño: la reserva de derechos 'legible por máquina' es el mecanismo del art. 4.3 de la Directiva (UE) 2019/790 para excluir obras de una excepción de TDM GENERAL (incluida la comercial). La propuesta no crea esa excepción: todo uso fuera del art. 220 ya requiere autorización (221.1), y la excepción del art. 220 no admite reserva. El 221.2 queda sin función normativa. (ii) Técnicamente, las 'condiciones de uso del sitio' no son legibles por máquina; los rastreadores no pueden interpretarlas. Los mecanismos técnicos reconocidos son robots.txt (RFC 9309), el TDM Reservation Protocol (TDMRep, W3C Community Group) y el vocabulario de preferencias de uso de IA en desarrollo en el IETF (grupo de trabajo AIPREF).",
+    "correccion": "Sustituir el 221.2 por: '221.2 La reserva de derechos expresada por el titular mediante protocolos o metadatos legibles por máquina reconocidos por el Indecopi se presume conocida por quien realiza la reproducción automatizada, para efectos de la determinación de la buena o mala fe y de la indemnización. La reserva expresada solo en lenguaje natural se valora conforme a las reglas generales de prueba.' En la DCF Primera mantener la remisión a lineamientos sobre protocolos, mencionando como referencia RFC 9309 y TDMRep."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 2 (numerales 56 y 57 del art. 2 del D.L. 822)",
+    "problema": "(i) La definición de 'sistema de IA' es una versión recortada de la definición OCDE (2023) y del art. 3.1 del AI Act: omite los objetivos explícitos o implícitos y los distintos niveles de autonomía y adaptabilidad, y difiere de la del Reglamento de la Ley 31814 (D.S. 115-2025-PCM), generando dos definiciones legales de IA en el ordenamiento. (ii) 'Modelo de propósito general' definido por 'grandes volúmenes de datos' no permite saber quién está obligado: el AI Act (art. 3.63) usa 'generalidad significativa' y las directrices de la Comisión Europea (julio de 2025) emplean como indicador un umbral de cómputo de entrenamiento de 10^23 FLOP con capacidad de generar texto, imagen o audio.",
+    "correccion": "Numeral 56: 'Sistema de inteligencia artificial: el definido en el Reglamento de la Ley 31814, Ley que promueve el uso de la inteligencia artificial en favor del desarrollo económico y social del país.' Numeral 57: 'Modelo de inteligencia artificial de propósito general: modelo de inteligencia artificial que presenta un grado significativo de generalidad y es capaz de realizar de manera competente una amplia variedad de tareas distintas, con independencia de la forma en que se comercialice, conforme a los criterios técnicos indicativos, incluidos umbrales de capacidad de cómputo de entrenamiento, que apruebe el Indecopi en los lineamientos de la Primera Disposición Complementaria Final.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 7 (art. 222.1) y Artículo 8 (art. 223)",
+    "problema": "Los obligados son mayoritariamente proveedores extranjeros sin domicilio en el Perú; la ley no establece representante ni canal de notificación, por lo que la sanción del 223 sería en la práctica inejecutable. Además, el 222.2 asume equivalencia con 'normativa de otra jurisdicción' sin precisar: el estándar de referencia es la plantilla de resumen público del contenido de entrenamiento publicada por la Comisión Europea (julio de 2025).",
+    "correccion": "Añadir al 222.1 el literal d): 'd) La designación de un representante o de un canal electrónico para notificaciones del Indecopi.' En el 222.2 precisar: 'Se considera equivalente el resumen elaborado conforme a la plantilla aprobada en aplicación del artículo 53.1.d) del Reglamento (UE) 2024/1689.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 2 (numerales 56-58)",
+    "problema": "La numeración 56-58 presupone que el art. 2 del D.L. 822 tiene 55 numerales tras el D.L. 1724 (El Peruano, 7-feb-2026). No se pudo verificar en esta revisión el último numeral vigente; si el D.L. 1724 no añadió definiciones, los numerales serían otros.",
+    "correccion": "Cotejar en SPIJ el texto consolidado del art. 2 del D.L. 822 y ajustar la numeración antes del dictamen."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "D.S. 115-2025-PCM (remisión a su definición de sistema de IA)"
+   ],
+   "entidades_implicadas": [
+    "Indecopi — Dirección y Comisión de Derecho de Autor (lineamientos y supervisión)"
+   ],
+   "impacto_economico": "Eliminar la exención de código abierto no eleva costos de forma relevante: los principales desarrolladores de modelos abiertos ya publican resúmenes para el mercado europeo."
+  }
+ },
+ {
+  "id": "DER-03",
+  "especialidad": "derecho_tecnologico",
+  "veredicto": "observaciones",
+  "resumen": "Buen trasplante de las obligaciones procedimentales del DSA (arts. 17, 20, 24, 38, 39, 40) con salvaguardas contra la censura. El umbral de 3 millones de usuarios es proporcional al de 45 millones del DSA respecto de la población. Ajustes técnicos: no aplicar la motivación individual a los cambios de ranking de los motores de búsqueda, exceptuar spam y redes inauténticas, definir la métrica de usuarios activos y advertir el efecto no deseado del Reglamento (UE) 2024/900 (retirada de publicidad política por grandes plataformas).",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 2.1 y Artículo 4.2",
+    "problema": "El art. 17 del DSA (motivación de decisiones) se aplica a servicios de alojamiento, no a los motores de búsqueda. Aplicado a un buscador, 'restringir su visibilidad o alcance' comprende cada variación algorítmica del orden de resultados, lo que es técnicamente imposible de notificar y llevaría a notificar a millones de sitios. Además, el art. 17 del DSA exceptúa el contenido comercial engañoso de gran volumen; sin una excepción equivalente, notificar al detalle cada bloqueo de spam o de redes de bots entrega a los atacantes la información para evadir los filtros.",
+    "correccion": "Añadir al art. 4 el numeral 4.4: '4.4 Respecto de los motores de búsqueda, el numeral 4.2 se aplica únicamente a la eliminación o desindexación de resultados por aplicación de sus reglas, y no a la ordenación de los resultados. No se requiere comunicación individual cuando la medida recaiga sobre contenido comercial engañoso de gran volumen, cuentas automatizadas o redes de comportamiento inauténtico coordinado; en tales casos se informa de forma agregada conforme al artículo 7.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 2.1 y 2.3",
+    "problema": "'Usuarios activos' sin metodología permite que cada proveedor elija el método que lo deje bajo el umbral (cuentas registradas, sesiones, receptores de contenido). El DSA (art. 24.2 y considerando 77) exige una metodología y faculta a la autoridad a designar con base en otra información.",
+    "correccion": "Añadir al 2.3: 'El reglamento establece la metodología de cálculo de los usuarios activos mensuales, que considera a los destinatarios efectivamente expuestos al servicio y excluye las cuentas automatizadas identificadas. El Indecopi puede determinar que un proveedor supera el umbral con base en información pública o de terceros, previa audiencia.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 6.1",
+    "problema": "El ámbito comprende los anuncios sobre 'asuntos sometidos a decisión de los poderes públicos' (publicidad temática), cuya clasificación automatizada es imprecisa. Tras la aplicación del Reglamento (UE) 2024/900, grandes plataformas anunciaron que dejan de aceptar publicidad política en la UE desde octubre de 2025; una definición muy amplia puede reproducir ese efecto, que perjudica a candidatos y organizaciones con menos recursos. El texto debe ofrecer una definición acotada y criterios objetivos.",
+    "correccion": "Sustituir en el 6.1 'o asuntos sometidos a decisión de los poderes públicos' por 'o propuestas normativas o de política pública cuando el anuncio sea contratado por una organización política, un candidato, una autoridad o un tercero en su favor, o se difunda durante un proceso electoral o de consulta'. Añadir al art. 6 el numeral 6.5: 'El reglamento precisa criterios objetivos de clasificación y un procedimiento de corrección de clasificaciones erróneas.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 8",
+    "problema": "El acceso a datos 'públicamente accesibles' corresponde al art. 40.12 del DSA; no habilita técnicamente nada si el proveedor no ofrece una interfaz (API) ni permite la extracción automatizada. Sin precisión, el proveedor puede cumplir formalmente bloqueando los rastreadores.",
+    "correccion": "Añadir: 'Para tal efecto, el proveedor ofrece una interfaz de programación o permite la extracción automatizada razonable de dichos datos por los investigadores acreditados, sin costo o a costo de recuperación.'"
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [],
+   "entidades_implicadas": [
+    "Indecopi — designación y supervisión",
+    "ANPD — art. 5.2",
+    "ONPE — acceso al repositorio"
+   ],
+   "impacto_economico": "Las grandes plataformas ya cuentan con repositorios y reportes del DSA; el costo marginal de una versión peruana es bajo. El riesgo económico relevante es la retirada de publicidad política si la definición es amplia."
+  }
+ },
+ {
+  "id": "DER-04",
+  "especialidad": "derecho_tecnologico",
+  "veredicto": "observaciones",
+  "resumen": "Los criterios de ponderación y la protección de hemerotecas están bien construidos (Costeja, C-131/12; LOPDGDD arts. 3, 93, 96). Faltan precisiones técnicas: el alcance territorial de la desindexación (C-507/17, Google c. CNIL), la imposibilidad de entregar contenidos cifrados de extremo a extremo o activos virtuales en autocustodia, la carga desproporcionada de la herramienta del 5.3 para todo proveedor, y que la regla de recreaciones sintéticas no quede neutralizada por las excepciones de notoriedad del propio art. 15.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 2.1 y 2.2",
+    "problema": "No se define el alcance territorial: si la desindexación comprende todas las versiones del buscador (global), solo la versión peruana, o las consultas realizadas desde el Perú (geobloqueo). El TJUE (C-507/17, Google LLC c. CNIL, 2019) resolvió que el derecho de la UE no exige desindexación mundial y aceptó el geobloqueo. Sin regla, la ANPD enfrentará litigios de alcance y conflictos con la libertad de información en otros países.",
+    "correccion": "Añadir el 2.3: '2.3 La desindexación comprende los resultados mostrados a las consultas realizadas desde el territorio nacional, cualquiera sea la versión del motor de búsqueda utilizada, mediante medidas técnicas razonables de geolocalización.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 7.1 y 7.2",
+    "problema": "(i) El proveedor no puede entregar contenidos que almacena con cifrado de extremo a extremo o de conocimiento cero (sin acceso a las claves), ni activos virtuales en billeteras de autocustodia, donde no existe proveedor. (ii) La entrega de 'archivos' de una cuenta mezcla contenidos propios con comunicaciones de terceros (adjuntos de correo, fotos compartidas); la separación técnica no siempre es posible.",
+    "correccion": "Añadir el 7.3: '7.3 La obligación del numeral 7.2 se cumple en la medida en que sea técnicamente posible; no obliga al proveedor a descifrar contenidos protegidos con claves que no posee ni a vulnerar el cifrado. Respecto de activos virtuales, la obligación recae en los proveedores de servicios de activos virtuales que los custodien.' Precisar en el 7.2 que los archivos adjuntos a comunicaciones con terceros siguen la regla del 6.2."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 5.3 y Disposición Complementaria Final Tercera",
+    "problema": "Obliga a 'todos' los proveedores de servicios digitales que gestionen cuentas (incluidas pymes, tiendas en línea, apps locales) a desarrollar una herramienta de instrucciones digitales en 12 meses. Es desproporcionado y genera fragmentación: la persona tendría que registrar instrucciones en cada servicio. Las instrucciones por testamento y la designación por herramientas de grandes proveedores son suficientes.",
+    "correccion": "Sustituir el 5.3 por: '5.3 Los proveedores de servicios digitales con un número de usuarios en el país igual o superior al que fije el reglamento ofrecen una herramienta gratuita para registrar instrucciones digitales y designar contactos. Los demás proveedores atienden las instrucciones que consten en testamento o en documento con firma digital o certificada.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 8 (art. 15 del Código Civil, tercer párrafo)",
+    "problema": "No queda claro si las excepciones del segundo párrafo (notoriedad, interés público, fines culturales) alcanzan a las recreaciones sintéticas. Si alcanzan, cualquier persona notoria fallecida podría ser recreada sin asentimiento (p. ej., en publicidad); si no alcanzan, se impediría la sátira, la ficción histórica o el documental. Tampoco exige rotular el contenido como sintético, cuando el art. 50.4 del AI Act exige revelar el carácter artificial de las ultrafalsificaciones.",
+    "correccion": "Sustituir el tercer párrafo por: 'La generación, mediante sistemas de inteligencia artificial u otras técnicas, de imágenes, voces o representaciones sintéticas que simulen a una persona fallecida requiere el asentimiento previsto en el primer párrafo y no procede si la persona lo prohibió en vida. No se requiere asentimiento para fines periodísticos, de crítica, parodia, sátira, investigación o creación artística sin fines publicitarios, siempre que se revele de forma clara el carácter sintético del contenido. En ningún caso procede su uso publicitario sin asentimiento.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 2.2",
+    "problema": "La regla limita la desindexación a búsquedas por nombre. Los buscadores por reconocimiento facial (búsqueda inversa de rostros) identifican a la persona por su imagen, con el mismo efecto que la búsqueda por nombre.",
+    "correccion": "En el 2.1 sustituir 'a partir de su nombre' por 'a partir de su nombre o de su imagen facial'."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Reglamento de la Ley 29733, D.S. 016-2024-JUS, art. 86.5 (alcance territorial)"
+   ],
+   "entidades_implicadas": [
+    "SBS — registro de proveedores de servicios de activos virtuales (custodios)"
+   ],
+   "impacto_economico": "Limitar el 5.3 a grandes proveedores evita costos de desarrollo a miles de pymes digitales sin reducir la protección efectiva."
+  }
+ },
+ {
+  "id": "DER-05",
+  "especialidad": "derecho_tecnologico",
+  "veredicto": "observaciones_graves",
+  "resumen": "Catálogo de prácticas prohibidas coherente con el comparado (la prohibición de inferencia de emociones replica el art. 5.1.f) del AI Act). Pero la definición de 'monitoreo digital' es tan amplia que comprende los registros técnicos de seguridad informática (EDR, DLP, registros de acceso), y la prohibición de monitoreo fuera de jornada (art. 6.e y art. 5 modificado de la Ley 31572) haría ilícito mantener la ciberseguridad de los equipos corporativos 24/7, en contradicción con los deberes de seguridad de la Ley 29733 y de notificación de incidentes. También debe distinguir el rastreo de activos (vehículos, equipos) del de personas.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 3.1, Artículo 6, literal e), y Artículo 8 (art. 5 de la Ley 31572)",
+    "problema": "El art. 3.1 define monitoreo como toda recopilación de información sobre la 'actividad' del trabajador mediante tecnologías digitales, lo que incluye los registros de autenticación, los agentes de detección y respuesta (EDR), la prevención de fuga de datos (DLP) y los registros de acceso a sistemas. Estas herramientas operan de forma continua y su función es de seguridad, no de evaluación del desempeño. El art. 6.e) prohíbe monitorear 'fuera de su jornada' y el nuevo art. 5 de la Ley 31572 ordena que las herramientas 'no pueden operar fuera de la jornada laboral', con lo cual un empleador que mantiene activo el antivirus/EDR en una laptop corporativa o registra un acceso nocturno a su VPN incurriría en infracción muy grave. Ello contradice el deber de seguridad del art. 16 de la Ley 29733 y su reglamento (D.S. 016-2024-JUS), y las obligaciones de detección y notificación de incidentes de seguridad digital.",
+    "correccion": "Añadir el numeral 3.3: '3.3 No constituye monitoreo digital, para efectos de los artículos 4 y 6, literal e), el registro técnico de eventos de seguridad de los sistemas, cuentas y equipos del empleador destinado exclusivamente a la protección de la información y a la detección y respuesta frente a incidentes, siempre que no se utilice para evaluar el desempeño ni la conducta de la persona trabajadora, salvo en la investigación de un incidente de seguridad concreto, y que se informe en la política del artículo 4.' En el art. 8, sustituir 'y no pueden operar fuera de la jornada laboral' por 'y no pueden utilizarse para supervisar a la persona trabajadora fuera de la jornada laboral, sin perjuicio del numeral 3.3 de dicha ley'."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 6, literal e)",
+    "problema": "Para trabajadores móviles (transporte, reparto, ventas), la geolocalización es del vehículo o del equipo, que puede quedar asignado fuera de la jornada; la prohibición absoluta impide la recuperación de vehículos robados y la seguridad del propio trabajador (botón de pánico). El problema no es la geolocalización del activo, sino su uso para vigilar a la persona en su tiempo libre.",
+    "correccion": "Añadir al literal e): '...salvo la localización de vehículos o equipos del empleador cuando sea necesaria para su seguridad o recuperación ante robo, en cuyo caso la información solo se consulta ante un evento de seguridad y no se utiliza para supervisar a la persona trabajadora. Cuando el vehículo o equipo se asigne para uso personal fuera de la jornada, el trabajador puede desactivar la localización salvo dichas finalidades.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 6, literal a)",
+    "problema": "Permitir la activación remota de cámara o micrófono con 'aviso simultáneo' legitima la videovigilancia continua del domicilio del teletrabajador (el aviso es fácil de cumplir y no limita la intrusión). En teletrabajo, la cámara capta el hogar y a terceros (familiares, menores), cuya privacidad no está bajo el poder de dirección del empleador.",
+    "correccion": "Sustituir el literal a) por: 'a) Activar remotamente la cámara o el micrófono de un dispositivo de la persona trabajadora o utilizarlos para la observación continua de su lugar de trabajo cuando este sea su domicilio. La cámara y el micrófono solo se usan en comunicaciones iniciadas o aceptadas por la persona trabajadora.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 6, literal c)",
+    "problema": "La prohibición coincide con el art. 5.1.f) del Reglamento (UE) 2024/1689 (AI Act), que prohíbe inferir emociones en el lugar de trabajo salvo por razones médicas o de seguridad; citar ese referente fortalece la exposición. Conviene además precisar que la excepción de 'seguridad' es la física (p. ej., detección de somnolencia del conductor), no la de evaluación del desempeño.",
+    "correccion": "Redactar el literal c): '...salvo por razones médicas o de seguridad física de las personas, tales como la detección de fatiga o somnolencia en la conducción de vehículos o maquinaria, con evaluación de impacto previa.' Incorporar el AI Act, art. 5.1.f), en referencias internacionales."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 31572, art. 5 (texto corregido)",
+    "Reglamento de la Ley General de Inspección del Trabajo, D.S. 019-2006-TR (tipificación)"
+   ],
+   "entidades_implicadas": [
+    "SUNAFIL — fiscalización laboral",
+    "ANPD — evaluación de impacto y tratamiento de datos"
+   ],
+   "impacto_economico": "Sin la excepción de seguridad, las empresas tendrían que desactivar controles de ciberseguridad fuera de jornada, elevando su exposición a ransomware; la corrección elimina ese costo oculto."
+  }
+ },
+ {
+  "id": "DER-06",
+  "especialidad": "derecho_tecnologico",
+  "veredicto": "observaciones",
+  "resumen": "Diseño técnicamente sensato (etapa de negociación obligatoria para medianas y grandes, arbitraje voluntario e íntegramente electrónico, Notas Técnicas CNUDMI 2016). La lección comparada más relevante no está citada: la plataforma europea de resolución de litigios en línea fue cerrada en 2025 por bajo uso, precisamente porque la participación del comerciante era voluntaria. Faltan reglas sobre marketplaces y vendedores extranjeros, sobre el formato de interoperabilidad con los Libros de Reclamaciones descentralizados y sobre la autenticación de las partes.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 5.1",
+    "problema": "Buena parte del comercio electrónico de consumo se realiza en marketplaces y plataformas extranjeras sin establecimiento en el Perú. Si el obligado es solo 'el proveedor' que no es MYPE, quedan fuera los marketplaces (que intermedian a vendedores pequeños) y los vendedores extranjeros, que son los que generan mayor número de reclamos transfronterizos. El Reglamento (UE) 2024/3228 derogó el Reglamento (UE) 524/2013 y cerró la plataforma ODR europea (julio de 2025) tras constatar su escasa utilización por la baja participación de comerciantes; la experiencia confirma que la obligación debe alcanzar a quien controla la relación con el consumidor.",
+    "correccion": "Sustituir el 5.1 por: '5.1 Están obligados a registrarse en la plataforma y a participar de buena fe en la etapa de negociación asistida: a) los proveedores que ofrecen productos o servicios por medios electrónicos y no califican como micro o pequeña empresa; b) los operadores de mercados en línea, respecto de las transacciones realizadas a través de ellos, cuando el vendedor no responda en el plazo; y c) los proveedores sin domicilio en el país que dirijan su oferta a consumidores en el territorio nacional y superen el volumen de operaciones que fije el reglamento, mediante un representante o canal electrónico.' Citar el Reglamento (UE) 2024/3228 en referencias internacionales."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 7",
+    "problema": "El Libro de Reclamaciones virtual lo implementa cada proveedor en su propio sistema; no es un sistema centralizado del Indecopi. La 'interoperabilidad' que permita escalar un reclamo 'sin volver a ingresar la información' exige un formato de datos y una interfaz común que hoy no existen; sin ellos, la regla no es ejecutable.",
+    "correccion": "Sustituir el art. 7 por: 'El Indecopi aprueba un formato estándar abierto de datos del reclamo y un código único de reclamo que el proveedor obligado incluye en la constancia del Libro de Reclamaciones virtual, de modo que el consumidor pueda escalar el reclamo a la plataforma mediante dicho código. Los proveedores obligados que dispongan de Libro de Reclamaciones virtual habilitan la transmisión de los datos del reclamo a la plataforma, a solicitud del consumidor, en el plazo que fije el reglamento.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 3 (art. 144-A incorporado)",
+    "problema": "No precisa cómo se autentican las partes ni cómo se garantiza la integridad del expediente arbitral electrónico; la eficacia del laudo como título de ejecución depende de ello.",
+    "correccion": "Añadir al 144-A.1: 'Las partes se autentican mediante los mecanismos de identidad digital del Estado o firma digital; el expediente se conserva con medidas que garanticen su integridad y trazabilidad.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 4 (art. 148-A incorporado)",
+    "problema": "Las plataformas ODR modernas usan propuestas automatizadas de solución y asistentes con IA. Sin una regla, una propuesta automatizada aceptada por un consumidor sin información suficiente podría tener los efectos del art. 144.",
+    "correccion": "Añadir el 148-A.5: 'Cuando la plataforma emplee herramientas automatizadas para proponer soluciones, se informa de ello a las partes; ningún acuerdo se celebra sin la aceptación expresa del consumidor, quien puede solicitar la intervención de un conciliador o mediador humano.'"
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "D.S. 011-2011-PCM, Reglamento del Libro de Reclamaciones (adecuación: código único y formato)"
+   ],
+   "entidades_implicadas": [
+    "Indecopi — plataforma y estándar de datos",
+    "SGTD — autenticación mediante identidad digital del Estado"
+   ],
+   "impacto_economico": "Un formato estándar y un código único de reclamo son de bajo costo para proveedores medianos y grandes y evitan que la plataforma replique datos manualmente."
+  }
+ },
+ {
+  "id": "DER-07",
+  "especialidad": "derecho_tecnologico",
+  "veredicto": "observaciones",
+  "resumen": "Medidas pertinentes y realistas: 24 h para contenido íntimo es más exigente que las 48 h del TAKE IT DOWN Act (EE. UU., 2025) y la conservación de 90 días prorrogables coincide con el art. 16 del Convenio de Budapest, del que el Perú es parte. Requiere ajustes técnicos: las órdenes de retiro no pueden ejecutarse sobre mensajería cifrada de extremo a extremo, el canal de reporte sin orden judicial necesita verificación y protección contra solicitudes abusivas, y las medidas sobre cuentas deben describirse en términos ejecutables (cierre de sesiones, desvinculación de dispositivos).",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3 (art. 22-D, literal a) y Artículo 4.1",
+    "problema": "En servicios de mensajería con cifrado de extremo a extremo, el proveedor no puede acceder ni retirar el contenido de los chats; una orden de 'retiro' en 24 horas es de imposible cumplimiento técnico y puede derivar en pedidos de debilitar el cifrado, con riesgo para todos los usuarios. Lo ejecutable en esos servicios es la suspensión de la cuenta difusora, la eliminación de canales o grupos públicos y la conservación de metadatos.",
+    "correccion": "Añadir al art. 22-D un párrafo: 'Respecto de servicios de comunicación interpersonal cifrados de extremo a extremo, las medidas se cumplen mediante la suspensión o cancelación de la cuenta de la persona agresora, el retiro del contenido en canales o grupos de acceso abierto y la conservación de los datos disponibles, sin que pueda exigirse el acceso al contenido cifrado ni la alteración del cifrado.' En el art. 9 añadir: 'ni la obligación de debilitar el cifrado de las comunicaciones'."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 5.1",
+    "problema": "El retiro sin orden judicial no tiene plazo ni salvaguardas contra el abuso (solicitudes falsas para retirar contenidos lícitos, p. ej., periodísticos), crítica documentada respecto del TAKE IT DOWN Act. Tampoco prevé verificar que el solicitante es la persona representada.",
+    "correccion": "Sustituir el 5.1 por: '5.1 [...] un canal de reporte en español, gratuito y prioritario, para solicitar el retiro de contenido íntimo o sexual, real o generado artificialmente, difundido sin su consentimiento, aun sin orden judicial. El proveedor verifica de forma razonable que el solicitante es la persona representada o su representante, resuelve con revisión humana en un plazo máximo de cuarenta y ocho horas e informa al usuario que publicó el contenido, quien puede pedir la revisión de la decisión. La presentación de solicitudes a sabiendas falsas genera responsabilidad conforme a ley.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 3 (art. 22-D, literal c)",
+    "problema": "'Devolución o cambio de credenciales' es insuficiente: el agresor puede mantener acceso mediante sesiones abiertas, dispositivos vinculados, aplicaciones de terceros autorizadas o métodos de recuperación de cuenta a su nombre.",
+    "correccion": "Sustituir el literal c) por: 'c) Cese inmediato de todo acceso de la persona agresora a las cuentas y dispositivos de la víctima, para lo cual los proveedores, a solicitud de la víctima, cierran las sesiones activas, desvinculan dispositivos y aplicaciones de terceros, y eliminan los métodos de recuperación o de segundo factor asociados a la persona agresora.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 5.2",
+    "problema": "Las huellas perceptuales (p. ej., PDQ, PhotoDNA; iniciativa StopNCII, que genera el hash en el dispositivo de la víctima sin subir la imagen) son eficaces contra recargas del mismo contenido, pero no detectan nuevas versiones generadas artificialmente de la misma víctima. Debe preferirse que el hash se genere sin transferir la imagen íntima.",
+    "correccion": "Redactar: '5.2 Los proveedores pueden emplear tecnologías de coincidencia de huellas digitales de contenido, preferentemente generadas en el dispositivo de la víctima sin transmitir la imagen, para impedir la nueva difusión del contenido retirado [...]'."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Convenio sobre la Ciberdelincuencia (Budapest), art. 16 — concordancia del art. 6.1"
+   ],
+   "entidades_implicadas": [
+    "PNP — División de Investigación de Delitos de Alta Tecnología (preservación y peritaje)"
+   ],
+   "impacto_economico": "Las medidas de cuenta (cierre de sesiones, desvinculación) son funciones ya existentes en los grandes servicios; el costo marginal es operativo."
+  }
+ },
+ {
+  "id": "DER-08",
+  "especialidad": "derecho_tecnologico",
+  "veredicto": "observaciones",
+  "resumen": "Buena solución de privacidad (los promotores solo ven el conteo) y prudente con el voto digital (evaluación pública antes de ampliar). Técnicamente, atar la adhesión al certificado del DNIe limita el uso real (requiere lector o NFC, PIN y middleware) y omite el DNI digital y los mecanismos de autenticación del Estado de nivel alto; y las condiciones para ampliar el voto remoto son solo procedimentales, sin los requisitos técnicos de verificabilidad y resistencia a la coerción del comparado (Recomendación CM/Rec(2017)5 del Consejo de Europa; Ordenanza suiza de voto electrónico).",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 2 (art. 6-A.1 incorporado)",
+    "problema": "La firma con el certificado del DNIe exige lector de tarjeta o teléfono con NFC compatible, conocer el PIN y software intermediario; de las ~9,3 millones de personas con DNIe, una fracción reducida lo ha utilizado para firmar. Limitar la adhesión a ese mecanismo (o a otro certificado del RENIEC) excluye mecanismos equivalentes de identidad digital de nivel alto ya previstos en el marco de identidad digital (incluido el DNI digital del D.S. 098-2025-PCM), lo que contradice la neutralidad tecnológica y reduce el beneficio esperado.",
+    "correccion": "Sustituir el 6-A.1 por: '6-A.1 Los ciudadanos pueden adherirse [...] mediante firma digital generada con el certificado del documento nacional de identidad electrónico u otro certificado digital emitido en la Infraestructura Oficial de Firma Electrónica, o mediante el documento nacional de identidad digital u otro mecanismo de autenticación de nivel de seguridad alto reconocido por el Registro Nacional de Identificación y Estado Civil, a través de la plataforma oficial que habilita la Oficina Nacional de Procesos Electorales.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 6",
+    "problema": "Las condiciones para ampliar el voto digital remoto son informes (participación, incidencias, auditorías), pero no exigen propiedades técnicas mínimas. El comparado exige: verificabilidad individual (el elector comprueba que su voto se registró como lo emitió) y universal (cualquiera comprueba el escrutinio), secreto y resistencia a la coerción, publicación del código fuente para revisión y pruebas públicas de intrusión (Recomendación CM/Rec(2017)5 del Consejo de Europa; Ordenanza de la Cancillería Federal suiza sobre voto electrónico, VEleS). Sin estos requisitos, el informe puede ser favorable aunque el sistema no sea verificable.",
+    "correccion": "Añadir el 6.4: '6.4 La ampliación del voto digital por medios remotos requiere, además, que el sistema: a) permita al elector verificar que su voto fue registrado conforme a su voluntad sin poder demostrarlo a terceros; b) permita la verificación pública del escrutinio sin vulnerar el secreto del voto; c) haya puesto su código fuente y documentación a disposición para revisión independiente; y d) haya superado pruebas públicas de intrusión, conforme a las normas que regulen las auditorías de los sistemas electorales.' Coordinar con CIB-13."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 2 (art. 6-A.4 y 6-A.5) y Artículo 3.3",
+    "problema": "La revocación de la adhesión y la supresión de datos al concluir el procedimiento deben ser compatibles con la auditoría: si se suprime todo, no puede verificarse ex post el conteo. Técnicamente se resuelve conservando una prueba criptográfica (registro firmado con resúmenes) sin datos personales en claro.",
+    "correccion": "Añadir al 3.3: 'Para fines de auditoría se conserva un registro de las adhesiones firmado y sellado en el tiempo que permita verificar el cómputo sin revelar la identidad de los adherentes.'"
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 26859, arts. 223-A a 223-G (concordancia)",
+    "Ley 26497 (RENIEC) y Ley 26487 (ONPE) — votación de ley orgánica ya advertida"
+   ],
+   "entidades_implicadas": [
+    "RENIEC — autenticación y certificados",
+    "ONPE — plataforma",
+    "JNE — fiscalización"
+   ],
+   "impacto_economico": "Admitir el DNI digital y la autenticación de nivel alto eleva el uso potencial sin costo adicional para el ciudadano; la verificabilidad del voto remoto tiene costo de desarrollo y auditoría que debe presupuestarse antes de cualquier ampliación."
   }
  }
 ]

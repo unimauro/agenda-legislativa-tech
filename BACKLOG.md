@@ -44,9 +44,7 @@ propuestas no tienen `revision_atendida` NO se publican salvo `--borradores`.
   página de privacidad y GA4 solo con consentimiento.
 
 ## SIGUIENTE (en orden)
-000. [ ] **Redesplegar la API v2** (foro + endurecimiento + panel): `bash deploy/api-tunky/deploy.sh`. Luego borrar en el
-     VPS los respaldos viejos de prueba `data/agenda-*.jsonl` si existen. Riesgo residual aceptado: inflar votos rotando
-     el identificador de dispositivo (tope 5 por red y propuesta).
+000. [x] API v2 desplegada y re-probada (22-oct): 413, PII rechazada, ids/parent validados, cabeceras del panel, X-Forwarded-For no falsificable (429 al intento 11), El Loro intacto. Riesgo residual aceptado: inflar votos rotando el identificador de dispositivo (tope 5 por red y propuesta).
 00. [x] **(HECHO 22-oct por Carlos, verificado: CORS, votos, admin 403, El Loro intacto)** DESPLEGAR el módulo en api.tunky.net (el clasificador bloqueó el deploy a producción desde la sesión):
     `bash deploy/api-tunky/deploy.sh` (respalda server.js, `node -c` antes de reconstruir, prueba /agenda/resumen).
     Código: `deploy/api-tunky/agenda.js` + `patch.py` (añade 2 líneas tras makeCounter en src/server.js).

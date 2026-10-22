@@ -17,6 +17,7 @@ propuestas no tienen `revision_atendida` NO se publican salvo `--borradores`.
   costo/beneficio), buscador global, asistente ciudadano SIN IA (intención + buscador, en assets/app.js), sección
   «¿Quién hace qué?», matriz de revisión, comentarios ciudadanos con giscus + `scripts/build_comentarios.py` +
   Action `.github/workflows/comentarios.yml` (cada 6 h → data/comentarios.json → sección «Lo que dice la ciudadanía»).
+- [x] Sidebar en páginas de propuesta (`con_sidebar()` en build.py): índice con scrollspy, propuestas por eje con filtro, panel plegable en móvil, barra de lectura, botón arriba.
 
 ## SIGUIENTE (en orden)
 1. [ ] **Ejes nuevos SOB (soberanía tecnológica e industria 4.0, 8) y DER (justicia y derechos digitales, 8)** →

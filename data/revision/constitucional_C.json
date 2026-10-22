@@ -1,0 +1,225 @@
+[
+ {
+  "id": "SOB-01",
+  "especialidad": "constitucional",
+  "veredicto": "observaciones",
+  "resumen": "Propuesta compatible con los arts. 66, 88 y 118.8 de la Constitución: no altera el régimen de concesiones (Ley 26821, ley orgánica) ni crea beneficios tributarios, y su art. 3.3 salva expresamente los derechos adquiridos. Deben añadirse la salvaguarda de consulta previa para las medidas de reaprovechamiento de relaves y precisar que la cooperación internacional se ejerce dentro de las competencias del Poder Ejecutivo en política exterior.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 7.1",
+    "problema": "Las adecuaciones reglamentarias para reaprovechar relaves y pasivos pueden constituir medidas administrativas susceptibles de afectar directamente derechos colectivos de pueblos indígenas u originarios cuando los depósitos o pasivos se ubiquen en sus territorios. El artículo solo alude a 'participación ciudadana', que es un mecanismo distinto de la consulta previa exigida por el art. 6 del Convenio 169 de la OIT (con rango constitucional según el TC) y por la Ley 29785.",
+    "correccion": "Redactar el 7.1 así: «7.1 El Ministerio de Energía y Minas evalúa y, de ser el caso, propone las adecuaciones reglamentarias necesarias para el reaprovechamiento de relaves, desmontes y pasivos ambientales mineros con contenido de minerales críticos, con las garantías ambientales y de participación ciudadana aplicables y, cuando corresponda, previa consulta a los pueblos indígenas u originarios conforme a la Ley 29785, Ley del derecho a la consulta previa a los pueblos indígenas u originarios, reconocido en el Convenio 169 de la Organización Internacional del Trabajo.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 10",
+    "problema": "La dirección de la política exterior y la celebración de tratados corresponden al Presidente de la República (arts. 118.11 y 57 de la Constitución). Atribuir al MINEM la promoción de 'acuerdos' sin precisar que se trata de instrumentos interinstitucionales o de propuestas al órgano competente puede leerse como una habilitación para negociar tratados.",
+    "correccion": "Sustituir el inicio por: «El Ministerio de Energía y Minas, en coordinación con el Ministerio de Relaciones Exteriores, que conduce la negociación conforme a sus competencias, y con el Ministerio de Comercio Exterior y Turismo, promueve instrumentos de cooperación interinstitucional y propone al Poder Ejecutivo acuerdos internacionales en materia de cadenas de suministro de minerales críticos…» y mantener el resto."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "costo_beneficio",
+    "problema": "Afirma que la ley 'no impone gasto nuevo' y a la vez estima S/ 1–2,5 millones anuales para la lista y el estudio bienal (art. 8.1, que además obliga al MEF). Bajo el criterio de la STC 00018-2023-PI/TC (Sentencia 158/2026) la imposición de una función recurrente con costo debe declararse sujeta a coordinación con el Ejecutivo y a informe de sostenibilidad fiscal.",
+    "correccion": "Reemplazar la primera frase por: «La ley no crea pliegos ni fondos; la elaboración de la lista y del estudio bienal tiene un costo estimado de S/ 1–2,5 millones anuales que se atiende con reasignaciones dentro de los presupuestos institucionales del INGEMMET, el MINEM y el CONCYTEC, sujeto a disponibilidad presupuestal, y requiere coordinación con el Poder Ejecutivo, fuente de financiamiento identificada e informe previo de sostenibilidad fiscal del MEF antes del dictamen.»"
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 29785 (concordancia, no modifica)"
+   ],
+   "entidades_implicadas": [
+    "Ministerio de Cultura — Viceministerio de Interculturalidad, órgano técnico especializado en consulta previa"
+   ]
+  }
+ },
+ {
+  "id": "SOB-02",
+  "especialidad": "constitucional",
+  "veredicto": "observaciones_graves",
+  "resumen": "El objetivo (exigir transformación real para acceder al régimen ZEEP sin ampliar beneficios) es constitucionalmente legítimo, pero el texto presupone una 'renovación de la acreditación' que la Ley 32449 no prevé (art. 10.1: la autorización del usuario es indefinida), y la aplicación de nuevos requisitos a usuarios ya acogidos colisiona con la estabilidad del art. 25 de esa ley y con el art. 62 de la Constitución. Además, la definición de quién accede al beneficio no puede quedar íntegramente en una matriz aprobada por resolución ministerial (reserva de ley relativa del art. 74).",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 4.2 y Artículo 9",
+    "problema": "Ambos artículos condicionan efectos a la 'renovación de la acreditación', figura inexistente: el art. 10.1 de la Ley 32449 dispone que la autorización del operador privado o usuario de la ZEEP es indefinida, y solo prevé evaluaciones periódicas y suspensión o cancelación por las causales del reglamento (art. 10.2). La regla es inaplicable y, si se pretendiera usar las metas 'indicativas' como causal de cancelación, se crearía una sanción encubierta sin tipicidad (art. 2.24.d de la Constitución; art. 248.4 del TUO de la Ley 27444). A su vez, el art. 25 de la Ley 32449 impide aplicar cambios en la legislación tributaria a quienes se acogieron al régimen, y alterar las condiciones de acceso de usuarios ya autorizados afectaría la seguridad jurídica y, de existir contrato con el operador, el art. 62 de la Constitución.",
+    "correccion": "Art. 4.2: «4.2 El incumplimiento de las metas indicativas no genera sanción ni constituye causal de suspensión o cancelación de la autorización; se informa en el reporte anual previsto en el artículo 6.» Art. 9, segunda oración: «Respeta la estabilidad tributaria y aduanera prevista en el artículo 25 de la Ley 32449. Los criterios del artículo 3 y el plan del artículo 4 se aplican únicamente a las solicitudes de acreditación de procesos presentadas a partir de la entrada en vigor del reglamento; a los usuarios autorizados con anterioridad solo les es exigible el reporte del artículo 6, sin afectar la autorización ni el tratamiento tributario y aduanero al que se acogieron.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3.1 y 3.3",
+    "problema": "La acreditación del valor agregado determina el acceso a un tratamiento tributario especial; por tanto, delimita un elemento esencial del beneficio (sujeto/actividad beneficiada). El art. 74 de la Constitución admite colaboración reglamentaria (reserva de ley relativa, STC 2762-2002-AA/TC y STC 0042-2004-AI/TC), pero exige que la ley fije los parámetros. Remitir los 'niveles de transformación' a una matriz aprobada por PRODUCE, sin fijar en la ley el umbral mínimo, deja la determinación del ámbito del beneficio a una norma infralegal. Además, el art. 4 de la Ley 32449 atribuye la acreditación al MINCETUR y al sector vinculado; la ley no puede convertir a PRODUCE en aprobador exclusivo sin modificar expresamente ese artículo.",
+    "correccion": "Redactar el 3.1: «3.1 Para la acreditación prevista en el artículo 4 de la Ley 32449, se considera que la manufactura o ensamblaje electrónico genera valor agregado cuando el usuario realiza en la ZEEP, como mínimo, dos de los siguientes procesos: a) montaje superficial o inserción de componentes en tarjetas; b) pruebas funcionales y de calidad; c) programación y validación de firmware; d) integración y calibración de sistemas; e) diseño e ingeniería. El Ministerio de Comercio Exterior y Turismo y el Ministerio de la Producción, como sector vinculado, aprueban mediante resolución ministerial conjunta la matriz que desarrolla dichos procesos, sin establecer requisitos adicionales a los previstos en la presente ley.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 6.2 y Artículo 7.1",
+    "problema": "La publicación 'por ZEEP' puede permitir identificar a un contribuyente cuando una zona tenga uno o dos usuarios, vulnerando la reserva tributaria (art. 2.5 de la Constitución; art. 85 del Código Tributario) y el secreto comercial.",
+    "correccion": "Agregar al 6.2 y al 7.1: «No se publica información de ninguna celda o agregado que comprenda menos de tres usuarios o en el que un solo usuario represente más del ochenta por ciento del total.»"
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 32449, art. 4 (solo si se quiere atribuir la matriz a PRODUCE; requiere modificación expresa)"
+   ],
+   "entidades_implicadas": [
+    "MINCETUR — acreditadora (art. 4 Ley 32449)",
+    "SUNAT — reserva tributaria"
+   ]
+  }
+ },
+ {
+  "id": "SOB-03",
+  "especialidad": "constitucional",
+  "veredicto": "observaciones",
+  "resumen": "La tipificación en la ley de las infracciones corrige un déficit de legalidad sancionadora de la Ley 30740 y el régimen de emergencias es razonable. Deben ajustarse la remisión al reglamento para escoger entre sanciones de distinta naturaleza (incluido el comiso, que afecta la propiedad), la habilitación a CORPAC para competir con privados en servicios de tránsito digital (subsidiariedad, art. 60) y las garantías de intimidad frente a la captación de imágenes.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 4 (art. 6.2 de la Ley 30740 modificado)",
+    "problema": "Para las infracciones muy graves la ley prevé multa, suspensión, cancelación de licencia y comiso 'según el reglamento', sin criterios para elegir o acumular sanciones. El comiso es una privación de la propiedad (art. 70 de la Constitución) y la elección discrecional de la sanción por norma infralegal debilita los principios de legalidad y razonabilidad (art. 248.1 y 248.3 del TUO de la Ley 27444, aprobado por D.S. 006-2026-JUS).",
+    "correccion": "Sustituir el final del 6.2 por: «…y las muy graves, con multa de más de cinco (5) hasta veinte (20) UIT. Adicionalmente, en caso de reincidencia o de haberse puesto en peligro efectivo la seguridad de una operación aérea tripulada o la integridad de personas, se impone la suspensión de la licencia hasta por un (1) año o su cancelación y, como medida accesoria, el comiso de la RPA utilizada. La graduación se efectúa conforme a los criterios del numeral 3 del artículo 248 del Texto Único Ordenado de la Ley 27444.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 6 (art. 7-A.2 de la Ley 30740 incorporado)",
+    "problema": "Habilitar a CORPAC, empresa del Estado, a prestar servicios digitales de tránsito en concurrencia con proveedores privados certificados exige, conforme al art. 60 de la Constitución, autorización por ley expresa sustentada en razones de alto interés público o manifiesta conveniencia nacional (STC 0034-2004-PI/TC; STC 7339-2006-PA/TC). La ley es expresa, pero la exposición de motivos no contiene esa justificación.",
+    "correccion": "Redactar el 7-A.2: «7-A.2 Dichos servicios son prestados por proveedores certificados por la DGAC en condiciones no discriminatorias. La Corporación Peruana de Aeropuertos y Aviación Comercial (CORPAC) presta los servicios de información y coordinación con el tránsito aéreo tripulado que forman parte de los servicios de navegación aérea a su cargo y, de manera subsidiaria, los demás servicios en las zonas donde no exista oferta privada, por razones de seguridad operacional y alto interés público.» Agregar la justificación en la exposición de motivos."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 7",
+    "problema": "El art. 7 regula la captación de datos en emergencias, pero no la captación de imágenes de domicilios y espacios privados en operaciones ordinarias, que compromete la intimidad y la inviolabilidad del domicilio (arts. 2.7 y 2.9 de la Constitución). La remisión genérica a la Ley 29733 no cubre la captación incidental sin tratamiento ulterior.",
+    "correccion": "Agregar: «Está prohibido captar intencionalmente imágenes o sonidos del interior de domicilios o de espacios privados sin consentimiento del titular o mandato judicial. La infracción se considera muy grave a efectos del artículo 6, sin perjuicio de la responsabilidad penal.» e incluir esa conducta en el literal c) del 6.1."
+   }
+  ]
+ },
+ {
+  "id": "SOB-04",
+  "especialidad": "constitucional",
+  "veredicto": "observaciones",
+  "resumen": "Las reglas de interoperabilidad y transparencia son intervenciones proporcionales en la libertad de empresa (art. 59) en favor de los consumidores (art. 65). El derecho a instalar cargadores en condominios es una limitación legítima de la propiedad común, pero debe resguardar los bienes comunes y exigir el consentimiento del propietario cuando instala un poseedor; además el objeto no puede enmarcarse en un decreto supremo.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 6.1 y 6.2",
+    "problema": "El derecho a instalar se reconoce al 'propietario o poseedor' y presume la conformidad de la junta si no se opone en 30 días, aun cuando la instalación atraviese o utilice bienes y áreas comunes (montantes, tableros, ductos), que son copropiedad de todos los propietarios (art. 70 de la Constitución; Ley 27157). Permitir al poseedor no propietario (p. ej., arrendatario) intervenir en el inmueble sin autorización del propietario afecta el derecho de propiedad de este. La limitación es razonable solo si se ciñe a lo necesario y se asegura la reversión y la tarificación individual.",
+    "correccion": "Redactar el 6.1: «6.1 En las edificaciones sujetas al régimen de unidades inmobiliarias de propiedad exclusiva y de propiedad común regulado por la Ley 27157, el propietario de un estacionamiento de uso exclusivo, o su poseedor con autorización escrita del propietario, puede instalar, a su costo, un punto de carga para uso propio con medición individual del consumo, previa comunicación escrita a la junta de propietarios acompañada del proyecto suscrito por profesional habilitado. La instalación solo puede ocupar bienes comunes en la medida indispensable, por el recorrido que señale la junta, y el propietario está obligado a reponer los bienes comunes a su estado anterior al retirarla.» Agregar al 6.2: «La junta puede, en el mismo plazo, establecer condiciones razonables de recorrido, seguridad y seguro.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 1",
+    "problema": "Una ley no puede enmarcarse 'en el marco del Decreto Supremo 022-2020-EM'; ello invierte la jerarquía normativa (art. 51 de la Constitución). Además, debe verificarse si el D.S. 036-2023-EM sigue vigente o fue sustituido por un reglamento posterior (la prensa sectorial reporta un 'nuevo reglamento' en julio de 2026; no se pudo verificar su número).",
+    "correccion": "Sustituir «en el marco del Decreto Supremo 022-2020-EM y su reglamento» por «en el marco del Decreto Ley 25844, Ley de Concesiones Eléctricas, y de la Ley 29571, Código de Protección y Defensa del Consumidor. El Decreto Supremo 022-2020-EM y su reglamento se adecúan a la presente ley.» y actualizar la cita del reglamento tras verificar en El Peruano."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 9.1 literal c)",
+    "problema": "'No cumplir las condiciones de seguridad eléctrica' es una tipificación en blanco; la colaboración reglamentaria es admisible (art. 248.4 del TUO de la Ley 27444) solo si la ley identifica el núcleo de la conducta.",
+    "correccion": "Redactar: «c) Muy grave: operar puntos de carga de acceso público sin registro, o sin contar con la protección diferencial, puesta a tierra o certificado de conformidad de la instalación exigidos por el Código Nacional de Electricidad y el reglamento.»"
+   }
+  ]
+ },
+ {
+  "id": "SOB-05",
+  "especialidad": "constitucional",
+  "veredicto": "observaciones",
+  "resumen": "Desarrolla adecuadamente la dignidad, la intimidad y la autodeterminación informativa (arts. 1, 2.6 y 2.7) y la no discriminación (art. 2.2). Presenta vacíos constitucionalmente relevantes: no regula el consentimiento de menores e incapaces, la prohibición en seguros incide en contratos vigentes (art. 62), la autoridad sancionadora frente a aseguradoras y empleadores queda indeterminada, la remisión a la Ley 27811 es impropia para recursos genéticos humanos y la ley misma podría requerir consulta previa legislativa por su art. 8.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 10.3",
+    "problema": "El art. 10.1.b tipifica como muy grave el uso discriminatorio de información genética (art. 6), pero el 10.3 no atribuye a ninguna autoridad la potestad de sancionarlo: a la SBS solo le encarga 'supervisar' sin modificar la Ley 26702 (que, por coordinación, se trata como norma que exige votación calificada) y a SUNAFIL le atribuye el control del 6.1 sin incorporar la infracción a la Ley 28806 ni a su escala de multas, distinta de la de 20–100 UIT. La potestad sancionadora solo puede ejercerse por la autoridad a la que la ley la atribuye expresamente (art. 248.1 del TUO de la Ley 27444; principio de legalidad, art. 2.24.d de la Constitución). Tal como está, la infracción es inaplicable.",
+    "correccion": "Redactar el 10.3: «10.3 El INS sanciona las infracciones relativas al registro, la ética y las transferencias. La Autoridad Nacional de Protección de Datos Personales sanciona las infracciones relativas al tratamiento de datos personales, incluido el uso de información genética prohibido por el artículo 6 por empleadores y empresas de seguros, aplicando la escala del numeral 10.2. La Superintendencia Nacional de Fiscalización Laboral y la Superintendencia de Banca, Seguros y AFP comunican a la Autoridad Nacional de Protección de Datos Personales los hechos que conozcan en el ejercicio de sus funciones.» Alternativamente, incorporar la infracción en la Ley 28806 y modificar la Ley 26702 con la votación que corresponda, anotándolo en efecto_vigencia."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 6.2",
+    "problema": "La prohibición de usar información genética para fijar primas o denegar cobertura en seguros de vida y salud es legítima (art. 2.2), pero aplicada a pólizas vigentes modifica contratos celebrados, lo que vulnera el art. 62 de la Constitución ('los términos contractuales no pueden ser modificados por leyes u otras disposiciones de cualquier clase').",
+    "correccion": "Agregar al 6.2: «Esta disposición se aplica a los contratos de seguro que se celebren o renueven a partir de la entrada en vigor de la presente ley.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 4",
+    "problema": "No regula el consentimiento de niñas, niños, adolescentes y personas con capacidad de ejercicio restringida, ni la reconfirmación del consentimiento al alcanzar la mayoría de edad. Tratándose de datos sensibles e irrevocablemente identificatorios, la omisión desprotege el interés superior del niño (art. 4 de la Constitución) y la autodeterminación informativa.",
+    "correccion": "Agregar el numeral: «4.5 En el caso de niñas, niños y adolescentes, el consentimiento lo otorgan sus representantes legales, con el asentimiento del menor conforme a su edad y madurez; al alcanzar la mayoría de edad, el biobanco le informa y le permite revocar el consentimiento. Para personas con discapacidad se aplican los apoyos y salvaguardias del Código Civil.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 8 y Exposición de motivos",
+    "problema": "(i) El art. 8 crea un régimen que afecta directamente derechos colectivos de los pueblos indígenas (identidad, integridad cultural, participación en beneficios); conforme al art. 6.1.a del Convenio 169 de la OIT y la jurisprudencia del TC (STC 0022-2009-PI/TC), las medidas legislativas que les afectan directamente deben consultarse, por lo que el procedimiento parlamentario debe prever esa consulta o la exposición de motivos debe justificar por qué no procede. (ii) La remisión a la Ley 27811 es impropia: esa ley protege conocimientos colectivos vinculados a recursos biológicos, y el régimen andino de acceso a recursos genéticos (Decisión 391, art. 4) excluye expresamente los recursos genéticos humanos.",
+    "correccion": "Sustituir en el 8.2 «en concordancia con la Ley 27811 y los tratados vigentes» por «conforme al reglamento, que se aprueba previa consulta a los pueblos indígenas u originarios conforme a la Ley 29785». Agregar en la exposición de motivos un acápite que solicite la opinión del Ministerio de Cultura sobre la afectación directa y, de corresponder, la realización de consulta previa de la medida legislativa antes del dictamen."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 4.3",
+    "problema": "La revocación con 'efecto de destrucción o anonimización' debe ser opción del titular; imponer la anonimización en lugar de la destrucción contra su voluntad limita el derecho de cancelación (Ley 29733).",
+    "correccion": "Redactar: «…con efecto, a elección del titular, de destrucción de la muestra y supresión de sus datos o de su anonimización irreversible, salvo respecto de resultados ya publicados en forma anonimizada o integrados en análisis agregados de los que no puedan extraerse.»"
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 28806 (incorpora infracción, si se opta por SUNAFIL)",
+    "Ley 26702 (solo si se atribuye potestad sancionadora a la SBS; votación calificada)"
+   ],
+   "entidades_implicadas": [
+    "ANPD/MINJUSDH — sancionadora",
+    "Ministerio de Cultura — consulta previa"
+   ]
+  }
+ },
+ {
+  "id": "SOB-06",
+  "especialidad": "constitucional",
+  "veredicto": "conforme",
+  "resumen": "Propuesta constitucionalmente conforme: las metas son indicativas y sujetas a disponibilidad presupuestal (compatible con el art. 79 y la STC 00018-2023-PI/TC), no crea órganos y respeta la autonomía de los organismos constitucionales. Se sugiere extender la cláusula de autonomía a los poderes Legislativo y Judicial y precisar el fundamento legal de la reserva del inventario.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 2.2",
+    "problema": "El ámbito del art. I del TUO de la Ley 27444 incluye a los poderes Legislativo y Judicial; la cláusula de adhesión por convenio solo comprende a los organismos constitucionalmente autónomos, lo que somete a dichos poderes a una hoja de ruta aprobada por resolución de un órgano de la PCM, en tensión con la separación de poderes (art. 43) y la autonomía del Poder Judicial (art. 138 y su Ley Orgánica).",
+    "correccion": "Redactar: «2.2 El Poder Legislativo, el Poder Judicial y los organismos constitucionalmente autónomos aplican la presente ley conforme a su autonomía, aprueban su propio plan de migración tomando como referencia la hoja de ruta nacional y pueden adherirse a ella mediante convenio con la Presidencia del Consejo de Ministros.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 4.3",
+    "problema": "Las excepciones al acceso a la información pública deben estar previstas en ley y ser interpretadas restrictivamente (art. 2.5 de la Constitución). Calificar el inventario como 'reservada' sin indicar la causal ni el plazo lo hace impreciso, pues las causales de reserva del TUO de la Ley 27806 son taxativas.",
+    "correccion": "Redactar: «4.3 La información del inventario cuya divulgación permita identificar vulnerabilidades explotables de los sistemas constituye excepción al ejercicio del derecho de acceso a la información pública conforme al artículo 2, numeral 5, de la Constitución, mientras subsista dicho riesgo y por un plazo máximo de cinco años renovable. La Secretaría publica indicadores agregados de avance.»"
+   }
+  ]
+ },
+ {
+  "id": "SOB-07",
+  "especialidad": "constitucional",
+  "veredicto": "conforme",
+  "resumen": "Medida de promoción compatible con los arts. 58, 59 y 14 de la Constitución, sin gasto imperativo (las celdas son meta indicativa) y sin órganos nuevos. Solo se recomienda explicitar el carácter subsidiario de los servicios de integración de los CITE públicos (art. 60).",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 3.1 literal c)",
+    "problema": "La 'asistencia técnica para la selección, integración y puesta en marcha' prestada por CITE públicos puede solaparse con la actividad empresarial de los integradores privados que el art. 5 busca promover. Conforme al art. 60 de la Constitución, la actividad empresarial del Estado es subsidiaria.",
+    "correccion": "Agregar al final del 3.1: «Los CITE públicos no ejecutan proyectos de integración a escala comercial; la asistencia del literal c) comprende el acompañamiento técnico y la verificación, y la implementación se encarga preferentemente a integradores privados.»"
+   }
+  ]
+ },
+ {
+  "id": "SOB-08",
+  "especialidad": "constitucional",
+  "veredicto": "conforme",
+  "resumen": "Diseño correcto desde el trato nacional: no establece preferencias por origen (arts. 55 y 63 de la Constitución; acuerdos comerciales) y la prohibición de exigir domicilio refuerza la igualdad y la libre concurrencia del art. 76. Observaciones menores de precisión.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 3",
+    "problema": "La expresión 'en las contrataciones cubiertas por dichos acuerdos' puede leerse a contrario como habilitación de preferencias por nacionalidad o domicilio en contrataciones no cubiertas, lo que chocaría con la igualdad de trato a la inversión nacional y extranjera (art. 63 de la Constitución) y con la igualdad ante la ley (art. 2.2).",
+    "correccion": "Redactar: «Ninguna disposición de la presente ley autoriza márgenes de preferencia, puntajes adicionales o requisitos basados en el origen de los bienes o en la nacionalidad o domicilio de los proveedores. Lo dispuesto no afecta los regímenes previstos en leyes especiales vigentes, como la Ley 31578.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 9 y Exposición de motivos",
+    "problema": "La cita del art. 8 (acuerdos comerciales) y del art. 38 (compra pública de innovación) de la Ley 32069 no pudo verificarse en esta revisión; un error de numeración sería de severidad alta en técnica legislativa.",
+    "correccion": "Verificar ambos artículos en el texto oficial de la Ley 32069 (El Peruano) y en el Reglamento aprobado por D.S. 009-2025-EF antes de la versión final."
+   }
+  ]
+ }
+]

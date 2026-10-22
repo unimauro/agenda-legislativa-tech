@@ -420,12 +420,16 @@ def pagina(p, plan, prev, nxt):
 <section><h2>Referencias internacionales</h2>{links(p.get('referencias_internacionales'), 'norma')}</section>
 <section><h2>Fuentes</h2>{links(p.get('fuentes'))}</section>
 <section class="comentar" id="comentarios"><h2>¿Qué opinas de esta propuesta?</h2>
-<p class="muted">Deja tu comentario o reacciona (👍 apoyo · 👎 rechazo). Los comentarios quedan públicos y trazados en
-<a href="https://github.com/unimauro/agenda-legislativa-tech/discussions" target="_blank" rel="noopener">GitHub Discussions</a> y se consolidan en el tablero. Requiere una cuenta de GitHub.</p>
+<p class="muted">Apoya o rechaza esta propuesta y deja tu comentario. No necesitas cuenta; todo queda registrado y se consolida en la página <a href="../ciudadania.html">Ciudadanía</a>.</p>
+<div class="participa" id="participa" hidden></div>
+<script src="../assets/participa.js"></script>
+<script>Participa.montar(document.getElementById('participa'), '{e(p['id'])}');</script>
+<details class="gh-alt"><summary>O comenta con tu cuenta de GitHub</summary>
 <script src="https://giscus.app/client.js" data-repo="unimauro/agenda-legislativa-tech" data-repo-id="R_kgDOVTPOaQ"
  data-category="Announcements" data-category-id="DIC_kwDOVTPOac4DJV9_" data-mapping="specific" data-term="{e(p['id'])}"
  data-strict="1" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="preferred_color_scheme"
  data-lang="es" data-loading="lazy" crossorigin="anonymous" async></script>
+</details>
 </section>
 <p class="disclaimer">Propuesta ciudadana de libre uso para cualquier congresista, bancada o colectivo que quiera presentarla. No es un proyecto de ley presentado ni tiene número en el Congreso. Cítala y mejórala.</p>
 <nav class="pager">{nav}</nav>
@@ -644,7 +648,20 @@ def datos_divididos(props, plan, salida):
                                            " ".join((n.get("norma") or "") for n in p.get("normas_relacionadas", []))]) for p in props})
     dump("actores.json", [[p["id"], x.get("sigla") or "", x.get("entidad"), x.get("rol"), x.get("responsabilidad")]
                           for p in props for x in (p.get("implicados") or {}).get("entidades", [])])
-    dump("contexto.json", {"antecedentes": salida["antecedentes"], "contexto": salida["contexto"], "marco": salida["marco"]})
+    dump("contexto.json", {"contexto": salida["contexto"], "marco": salida["marco"]})  # antecedentes: data/antecedentes.json (perezoso)
+    pr = opcional("prioridad.json") or {}
+    vivos = {p["id"] for p in props}
+    ola1 = next(iter((pr.get("olas") or {}).values()), {}).get("ids", [])
+    dump("home.json", {
+        "meta": {k: meta[k] for k in ("actualizado", "total", "ejes", "n_articulos", "n_normas", "n_entidades")},
+        "kpi": {"nulo": sum(1 for p in props if p.get("costo_fiscal") == "nulo"), "revisadas": sum(1 for p in props if p.get("revision_atendida"))},
+        "nodos": [[p["id"], p["eje"], p["titulo_corto"], p.get("prioridad"), p.get("costo_fiscal")] for p in props],
+        "score": {r["id"]: r["score"] for r in pr.get("ranking", []) if r["id"] in vivos},
+        "ola": {i: k for k, o in (pr.get("olas") or {}).items() for i in o.get("ids", []) if i in vivos},
+        "olas": {k: {"nombre": o["nombre"]} for k, o in (pr.get("olas") or {}).items()},
+        "ola1": [i for i in ola1 if i in vivos],
+        "aristas": [a for a in pr.get("aristas", []) if a[0] in vivos and a[1] in vivos],
+    })
 
 
 def main():

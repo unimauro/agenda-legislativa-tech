@@ -334,3 +334,27 @@ section.block.first{border-top:0;padding-top:28px}
 .rel-wrap{margin-top:18px}
 .rel-wrap summary{cursor:pointer;font-weight:600}
 .rel-wrap .related{margin-top:10px}
+/* ---- participación (api.tunky.net) ---- */
+.hp{position:absolute !important;left:-9999px !important;width:1px;height:1px;opacity:0}
+.votos{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:8px 0 14px}
+.voto{border:1px solid var(--border);background:var(--surface);color:var(--text);border-radius:999px;padding:9px 16px;font-weight:600;font-size:15px}
+.voto b{margin-left:4px}
+.voto.up.on{background:#10b981;border-color:#10b981;color:#fff}
+.voto.down.on{background:var(--accent);border-color:var(--accent);color:#fff}
+.voto:disabled{opacity:.6}
+.votos-nota{font-size:12px}
+.coms h3{font-size:17px;margin:14px 0 8px}
+.com-f,.prop-f{display:grid;gap:10px}
+.com-f input,.com-f textarea,.prop-f input,.prop-f textarea,.prop-f select{width:100%;font:inherit;font-size:15px;padding:10px 12px;border-radius:10px;border:1px solid var(--border);background:var(--bg);color:var(--text)}
+.prop-f label{display:grid;gap:5px;font-size:13.5px;font-weight:600}
+.prop-f label.chk{display:flex;gap:8px;align-items:flex-start;font-weight:500}
+.prop-f label.chk input{width:auto;margin-top:3px}
+.f2{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+@media (max-width:600px){.f2{grid-template-columns:1fr}}
+.com-acts{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.com-legal{font-size:12px;margin:0}
+.com-list{margin-top:10px}
+.centinela{text-align:center;margin:14px 0}
+.gh-alt{margin-top:16px}
+.gh-alt summary{cursor:pointer;color:var(--muted);font-size:13.5px}
+.ciud .participa{margin-top:10px;border-top:1px dashed var(--border);padding-top:6px}

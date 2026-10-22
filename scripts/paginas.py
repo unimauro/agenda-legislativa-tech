@@ -95,7 +95,8 @@ def shell(page, titulo, desc, cuerpo, scripts=""):
   <form id="chat-f"><input id="chat-q" placeholder="Escribe tu pregunta…" maxlength="400" autocomplete="off" aria-label="Tu pregunta"><button class="btn" type="submit">Enviar</button></form>
   <p class="chat-note">Respuestas armadas a partir de las propuestas. No es asesoría legal.</p>
 </aside>
-{scripts}<script src="assets/app.js"></script>
+{scripts}<script src="assets/participa.js"></script>
+<script src="assets/app.js"></script>
 </body>
 </html>
 """
@@ -212,25 +213,41 @@ def generar(root, total):
   </section>
 """, CHART),
         "ciudadania": ("Ciudadanía · Propón una ley · Agenda Legislativa Tech",
-                       "Propón tu propia ley tech, opina sobre las propuestas y mira qué dice la ciudadanía. Todo queda trazado y público.",
+                       "Propón tu propia ley tech, apoya o rechaza las propuestas y comenta. Sin cuenta, todo queda registrado y público.",
                        """  <section class="block first" id="proponer">
     <h1 class="page-h">Propón una ley</h1>
     <div class="cta-card">
-      <div><h2>Tu idea puede ser la próxima propuesta</h2>
-        <p>Llena el formulario (título, problema, qué propones, a quién beneficia). Queda <b>registrado y público</b>; pasa por la misma
-          revisión que las demás (constitucional, técnica legislativa, costo para el Estado) y, si procede, se incorpora a la agenda.</p>
+      <form id="prop-f" class="prop-f" hidden>
+        <h2>Tu idea puede ser la próxima propuesta</h2>
+        <label>Título de la ley *<input name="titulo" required minlength="10" maxlength="220" placeholder="Ley que garantiza internet gratuito en las bibliotecas municipales"></label>
+        <label>Eje temático<select name="eje"><option>Inteligencia artificial y datos</option><option>Ciberseguridad e identidad digital</option><option>Gobierno digital y transparencia</option>
+          <option>Conectividad, telecom y espacio</option><option>Economía digital, startups y CTI</option><option>Talento, educación y tech sectorial</option>
+          <option>Soberanía tecnológica e industria 4.0</option><option>Justicia y derechos digitales</option><option>Otro</option></select></label>
+        <label>¿Qué problema resuelve? *<textarea name="problema" required minlength="20" maxlength="2500" rows="4" placeholder="Describe el problema; si tienes datos, menciona la fuente."></textarea></label>
+        <label>¿Qué propones? *<textarea name="propuesta" required minlength="20" maxlength="3500" rows="5" placeholder="La idea central o, si puedes, los artículos."></textarea></label>
+        <label>¿A quién beneficia?<textarea name="beneficiarios" maxlength="800" rows="2"></textarea></label>
+        <div class="f2"><label>¿Qué entidades la implementarían?<input name="entidades" maxlength="400" placeholder="MTC, MINEDU, municipalidades…"></label>
+          <label>¿Le costaría dinero al Estado?<select name="costo"><option>No / casi nada</option><option>Poco (presupuesto actual)</option><option>Bastante (presupuesto nuevo)</option><option>No sé</option></select></label></div>
+        <div class="f2"><label>Región<input name="region" maxlength="40" placeholder="Cusco"></label><label>Nombre o seudónimo (opcional)<input name="autor" maxlength="80"></label></div>
+        <input name="website" tabindex="-1" autocomplete="off" class="hp" aria-hidden="true">
+        <label class="chk"><input type="checkbox" name="acepto" required> Acepto que se publique con licencia CC BY 4.0 y no incluye datos personales de terceros.</label>
+        <div class="com-acts"><button class="btn" type="submit">🗳️ Enviar propuesta</button><span class="muted" id="prop-msg" aria-live="polite"></span></div>
+        <p class="muted com-legal">Se registra con fecha y pasa por revisión (constitucional, técnica, costo para el Estado). Solo se publica tras la revisión. No necesitas cuenta.</p>
+      </form>
+      <div id="prop-gh"><h2>Tu idea puede ser la próxima propuesta</h2>
+        <p>Llena el formulario: queda <b>registrado y público</b>, pasa por la misma revisión que las demás y, si procede, se incorpora a la agenda.</p>
+        <a class="btn" id="form-link" href="https://github.com/unimauro/agenda-legislativa-tech/issues/new?template=propuesta-ciudadana.yml" target="_blank" rel="noopener">🗳️ Proponer una ley (GitHub)</a></div>
+      <div><div class="kpis" id="cd-kpis"></div>
         <ol class="mini-steps"><li><b>Recibida</b> — queda registrada con fecha.</li><li><b>En revisión</b> — se evalúa viabilidad y duplicidad.</li>
           <li><b>Publicada</b> — aparece aquí para recibir apoyo.</li><li><b>Incorporada</b> — se redacta como propuesta formal con articulado.</li></ol>
-        <a class="btn" id="form-link" href="https://github.com/unimauro/agenda-legislativa-tech/issues/new?template=propuesta-ciudadana.yml" target="_blank" rel="noopener">🗳️ Proponer una ley</a>
-        <p class="muted" style="font-size:12.5px">Requiere una cuenta gratuita de GitHub (así cada propuesta queda trazada y no se pierde).</p></div>
-      <div class="kpis" id="cd-kpis"></div>
+        <p class="muted" style="font-size:12.5px">¿Tienes cuenta de GitHub? También puedes <a id="form-link2" href="https://github.com/unimauro/agenda-legislativa-tech/issues/new?template=propuesta-ciudadana.yml" target="_blank" rel="noopener">proponer por GitHub</a>.</p></div>
     </div>
   </section>
-  <section class="block" id="ciudadanas"><h2>Propuestas de la ciudadanía</h2><p class="sub">Solo se muestran las aprobadas para publicación (filtro de spam y datos personales).</p><div id="cd-list"></div></section>
+  <section class="block" id="ciudadanas"><h2>Propuestas de la ciudadanía</h2><p class="sub">Solo se muestran las aprobadas tras revisión. Apoya las que te convenzan.</p><div id="cd-list"></div></section>
   <section class="block" id="ciudadania">
     <h2>Lo que dice la ciudadanía</h2>
-    <p class="sub">Comentarios y reacciones (👍 apoyo · 👎 rechazo) en cada propuesta, consolidados automáticamente cada 6 horas.</p>
-    <div class="grid2"><div class="card"><h3>Más comentadas</h3><div class="tbl-scroll" id="cm-rank"></div></div>
+    <p class="sub">Apoyos (👍), rechazos (👎) y comentarios en cada propuesta de la agenda, en tiempo real.</p>
+    <div class="grid2"><div class="card"><h3>Más apoyadas y comentadas</h3><div class="tbl-scroll" id="cm-rank"></div></div>
       <div class="card"><h3>Comentarios recientes</h3><div class="tbl-scroll" id="cm-feed"></div></div></div>
   </section>
 """, ""),
@@ -246,7 +263,38 @@ def generar(root, total):
   <section class="block" id="antecedentes"><h2>Lo que pasó en el Congreso 2021–2026</h2><p class="sub" id="ant-sub"></p><div id="ant"></div></section>
 """, ""),
     }
+    (root / "admin.html").write_text(ADMIN_HTML)
     for k, (t, d, cuerpo, scripts) in paginas.items():
         (root / ("index.html" if k == "index" else f"{k}.html")).write_text(shell(k, t, d, cuerpo, scripts))
     urls = [BASE] + [BASE + f"{k}.html" for k in paginas if k != "index"]
     return urls
+
+
+ADMIN_HTML = """<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow"><title>Moderación · Agenda Legislativa Tech</title><link rel="stylesheet" href="assets/style.css">
+<script>try{const t=localStorage.getItem('theme');if(t)document.documentElement.dataset.theme=t}catch(_){}</script></head>
+<body><main class="wrap" style="padding-top:24px"><h1 class="page-h">Moderación</h1>
+<p class="muted">Panel privado. El token se guarda solo en esta pestaña (sessionStorage) y nunca está en el código del sitio.</p>
+<form id="tk" class="com-acts"><input id="tok" type="password" placeholder="ADMIN_TOKEN de api.tunky.net" class="search-wide" style="max-width:420px"><button class="btn">Entrar</button><span id="st" class="muted"></span></form>
+<div class="eje-pills" style="margin-top:14px"><button class="eje-pill on" data-t="propuestas">Propuestas</button><button class="eje-pill" data-t="comentarios">Comentarios</button></div>
+<div id="out"></div></main>
+<script src="assets/participa.js"></script>
+<script>
+const E=Participa.esc;let tipo='propuestas';const tok=()=>sessionStorage.getItem('agenda_tok')||'';
+document.getElementById('tk').onsubmit=e=>{e.preventDefault();sessionStorage.setItem('agenda_tok',document.getElementById('tok').value);cargar()};
+document.querySelectorAll('[data-t]').forEach(b=>b.onclick=()=>{tipo=b.dataset.t;document.querySelectorAll('[data-t]').forEach(x=>x.classList.toggle('on',x===b));cargar()});
+async function cargar(){const st=document.getElementById('st');if(!tok())return;st.textContent='Cargando…';
+ const j=await Participa.pedir('/admin/listar',{token:tok(),tipo});if(!j.ok){st.textContent='⚠️ '+j.error;return}st.textContent=j.items.length+' registros';
+ const out=document.getElementById('out');
+ if(tipo==='comentarios'){out.innerHTML='<table class="tbl"><tr><th>#</th><th>Propuesta</th><th>Comentario</th><th></th></tr>'+j.items.map(c=>`<tr style="opacity:${c.oculto?.45:1}"><td>${c.id}<br><small class=muted>${E(c.ts.slice(0,16))}</small></td><td>${E(c.pid)}</td><td><b>${E(c.nombre)}</b> <small class=muted>${E(c.iphash)}</small><br>${E(c.texto)}</td><td><button class="chip" data-oc="${c.id}" data-v="${!c.oculto}">${c.oculto?'Mostrar':'Ocultar'}</button></td></tr>`).join('')+'</table>';
+  out.querySelectorAll('[data-oc]').forEach(b=>b.onclick=async()=>{await Participa.pedir('/admin/ocultar',{token:tok(),id:+b.dataset.oc,oculto:b.dataset.v==='true'});cargar()});return}
+ const EST=['recibida','en-revision','publicada','incorporada','archivada'];
+ out.innerHTML=j.items.map(p=>`<details class="prop" ${p.estado==='recibida'?'open':''}><summary><span class="pid">C-${p.id}</span><div><h3>${E(p.titulo)}</h3><div class="tagline"><span class="pill">${E(p.estado)}</span><span class="pill">${E(p.eje)}</span><span class="pill">${E(p.region||'')}</span><span class="pill">${E(p.ts.slice(0,10))}</span></div></div></summary>
+ <div class="body"><h4>Problema</h4><p>${E(p.problema)}</p><h4>Propuesta</h4><p>${E(p.propuesta)}</p><h4>Beneficia</h4><p>${E(p.beneficiarios)}</p><h4>Entidades · costo</h4><p>${E(p.entidades)} · ${E(p.costo)}</p>
+ <p class=muted>Autor: ${E(p.autor||'—')} · ${E(p.iphash)}</p><input class="search-wide" placeholder="Nota (opcional)" data-nota="${p.id}" value="${E(p.nota_admin||'')}">
+ <div class="acts">${EST.map(s=>`<button class="chip${s===p.estado?' on':''}" data-id="${p.id}" data-e="${s}">${s}</button>`).join('')}</div></div></details>`).join('');
+ out.querySelectorAll('[data-e]').forEach(b=>b.onclick=async()=>{const nota=out.querySelector(`[data-nota="${b.dataset.id}"]`).value;const r=await Participa.pedir('/admin/estado',{token:tok(),id:+b.dataset.id,estado:b.dataset.e,nota});if(!r.ok)alertar(r.error);cargar()});}
+function alertar(t){document.getElementById('st').textContent='⚠️ '+t}
+cargar();
+</script></body></html>
+"""

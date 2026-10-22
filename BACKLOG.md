@@ -29,7 +29,17 @@ propuestas no tienen `revision_atendida` NO se publican salvo `--borradores`.
   `scripts/build_ciudadanas.py` → `data/ciudadanas.json` (solo muestra las etiquetadas `publicada`). Action
   `participacion.yml` refresca comentarios + ciudadanas cada 6 h y ante eventos de issues.
 
+- [x] v4 (22-oct-2026): participación sin cuenta vía **api.tunky.net/agenda/*** (solo Agenda Legislativa; tablas
+  `agenda_propuestas`, `agenda_comentarios`, `agenda_votos` en api-tunky-db; IP solo como hash): proponer ley, votar
+  👍/👎 por dispositivo, comentar; moderación en `admin.html` (token ADMIN_TOKEN en el cuerpo, sessionStorage). Front:
+  `assets/participa.js`; si la API no responde, cae a GitHub (issues/giscus). Carga liviana: `data/home.json` (~12 KB)
+  para portada/visión, `indice.json` perezoso para buscador/asistente, listado paginado (20), antecedentes perezosos.
+
 ## SIGUIENTE (en orden)
+00. [ ] **DESPLEGAR el módulo en api.tunky.net** (el clasificador bloqueó el deploy a producción desde la sesión):
+    `bash deploy/api-tunky/deploy.sh` (respalda server.js, `node -c` antes de reconstruir, prueba /agenda/resumen).
+    Código: `deploy/api-tunky/agenda.js` + `patch.py` (añade 2 líneas tras makeCounter en src/server.js).
+    Hasta entonces el sitio funciona en modo GitHub (formulario de issues + giscus).
 0. [ ] **Moderar propuestas ciudadanas**: revisar issues con etiqueta `recibida`; poner `en-revision`/`publicada`/
    `archivada`. Las que se incorporen: redactarlas como propuesta formal (SCHEMA v2) y pasarlas por REVISION.md.
 0b. [ ] **Vacíos de la Visión 2036** (`data/prioridad.json` → vacios, 30): convertir los más votados por los lentes en

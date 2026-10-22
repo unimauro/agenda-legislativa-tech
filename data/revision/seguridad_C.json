@@ -1,0 +1,597 @@
+[
+ {
+  "id": "SOB-01",
+  "especialidad": "seguridad",
+  "veredicto": "conforme",
+  "resumen": "Propuesta de política minera e investigación sin riesgos de seguridad digital relevantes. Solo conviene precisar que la apertura de información geocientífica respete la reserva sobre minerales radiactivos y que la lista de minerales estratégicos no se convierta en un mapa de vulnerabilidades de suministro para la defensa.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 4.2",
+    "problema": "La publicación abierta y georreferenciada de toda la información geocientífica no distingue las ocurrencias de minerales con contenido radiactivo (uranio, torio asociados a tierras raras), cuya localización exacta está sujeta a controles de seguridad física y salvaguardias del régimen del IPEN.",
+    "correccion": "Agregar al final del numeral 4.2: «La información sobre la ubicación precisa de ocurrencias de minerales con contenido radiactivo se publica con el nivel de detalle que determine el IPEN conforme a su régimen de seguridad física y salvaguardias.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 3.2",
+    "problema": "La publicación de la metodología y de los riesgos de suministro de los minerales calificados como «estratégicos» por su relevancia para la defensa (art. 2 b) puede revelar dependencias críticas de las cadenas de defensa.",
+    "correccion": "Agregar al numeral 3.2: «La información sobre dependencias de suministro vinculadas a la defensa nacional que califique como reservada conforme al TUO de la Ley 27806 se excluye de la publicación y se comunica al Ministerio de Defensa.»"
+   }
+  ],
+  "aportes": {
+   "entidades_implicadas": [
+    "IPEN — seguridad física y salvaguardias de materiales radiactivos",
+    "MINDEF — dependencias de suministro para la defensa"
+   ]
+  }
+ },
+ {
+  "id": "SOB-02",
+  "especialidad": "seguridad",
+  "veredicto": "observaciones",
+  "resumen": "La matriz de valor agregado premia la «programación y validación de firmware» en ZEEP sin exigir controles de integridad, lo que abre un punto de inserción en la cadena de suministro de dispositivos que se venderán en el país y podrían llegar a compras públicas. El art. 8 remite a requisitos de seguridad de dispositivos conectados que hoy no existen con rango normativo.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3.1 y Artículo 8",
+    "problema": "Valorar la programación de firmware como proceso de valor agregado sin exigir trazabilidad crea un riesgo de cadena de suministro (inserción de funciones no documentadas o firmware alterado) en equipos de telecomunicaciones, sensores y equipos informáticos. El art. 8 remite a «requisitos de seguridad digital de dispositivos conectados que establezca la normativa vigente», pero no existe hoy ese régimen con carácter obligatorio (es materia de la propuesta CIB-07), por lo que la remisión queda vacía.",
+    "correccion": "Agregar el numeral 3.4: «La acreditación de procesos de programación o carga de firmware exige que el usuario mantenga un registro de las versiones de firmware cargadas, su firma criptográfica o verificación de integridad y la lista de componentes de software (SBOM), disponible para la autoridad competente y para los compradores públicos que lo requieran.» Y en el art. 8 sustituir «que establezca la normativa vigente» por «que establezca la ley de la materia sobre seguridad de dispositivos conectados o, en su defecto, el Marco de Confianza Digital (D.U. 007-2020 y D.S. 126-2025-PCM)»."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 8",
+    "problema": "Omite la homologación de equipos de telecomunicaciones ante el MTC, requisito previo para comercializar en el país equipos con radiofrecuencia fabricados en ZEEP.",
+    "correccion": "Agregar al art. 8: «Los equipos y aparatos de telecomunicaciones destinados al mercado nacional se sujetan a la homologación del Ministerio de Transportes y Comunicaciones conforme al TUO de la Ley de Telecomunicaciones y su reglamento.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 6.2",
+    "problema": "Los reportes anuales por usuario de ZEEP contienen datos de proveedores y capacidades que, en el caso de componentes para equipos de seguridad o defensa, pueden revelar dependencias críticas.",
+    "correccion": "Agregar: «No se publica información que permita identificar proveedores de componentes destinados a sistemas de defensa, orden interno o activos críticos nacionales.»"
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "TUO Ley de Telecomunicaciones — homologación (concordancia, sin modificar)"
+   ],
+   "entidades_implicadas": [
+    "MTC — homologación de equipos",
+    "CNSD/SGTD-PCM — requisitos de seguridad de dispositivos"
+   ]
+  }
+ },
+ {
+  "id": "SOB-03",
+  "especialidad": "seguridad",
+  "veredicto": "observaciones_graves",
+  "resumen": "Avanza en registro, identificación remota y gestión digital del tránsito, pero ignora la protección de infraestructura crítica, aeropuertos y penales frente a drones (detección y neutralización por autoridad competente), no exceptúa de la identificación remota a operaciones de seguridad del Estado y no fija requisitos de ciberseguridad a los proveedores de servicios digitales de tránsito, que concentrarán datos de vuelo en tiempo real.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 6 (art. 7-A incorporado) — omisión",
+    "problema": "La ley regula zonas prohibidas pero no habilita a ninguna autoridad a detectar, identificar y, en su caso, neutralizar RPA que operen sin autorización sobre aeropuertos, establecimientos penitenciarios, instalaciones militares o activos críticos nacionales. Sin base legal, el uso de inhibidores o medios de mitigación vulnera el régimen del espectro (TUO de la Ley de Telecomunicaciones) y puede afectar a terceros; con ello queda sin respuesta legal un riesgo de seguridad conocido (contrabando en penales, interferencia con aeronaves tripuladas, vigilancia de instalaciones).",
+    "correccion": "Incorporar el artículo 7-B: «Artículo 7-B. Protección frente a RPA no autorizadas. 7-B.1 La Policía Nacional del Perú, las Fuerzas Armadas en las zonas y casos que establece la ley, el Instituto Nacional Penitenciario en sus establecimientos y los operadores aeroportuarios en coordinación con la DGAC pueden emplear medios de detección e identificación de RPA. 7-B.2 El uso de medios de mitigación o neutralización, incluidos los que afecten el espectro radioeléctrico, solo procede por las autoridades que determine el reglamento, en zonas prohibidas o restringidas, con autorización del Ministerio de Transportes y Comunicaciones respecto del uso del espectro, bajo criterios de necesidad y proporcionalidad y con registro de cada intervención.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3 (art. 4-A incorporado)",
+    "problema": "La identificación remota obligatoria para todas las categorías específica y certificada revelaría la posición y la estación de pilotaje de operaciones de la PNP, FFAA, INPE o inteligencia. Además, el 4-A.2 limita el uso de la señal a autoridades, pero la identificación remota por difusión (broadcast) es recibible por cualquiera, por lo que la restricción es inaplicable tal como está redactada y expone la ubicación de pilotos civiles.",
+    "correccion": "Agregar el numeral 4-A.3: «Están exceptuadas de transmitir la identificación remota las operaciones de RPAS de las Fuerzas Armadas, la Policía Nacional del Perú, el Instituto Nacional Penitenciario y los órganos del Sistema de Inteligencia Nacional en ejercicio de sus funciones, que se coordinan con la DGAC y el proveedor de servicios de tránsito por canales reservados.» Y reemplazar el 4-A.2 por: «La identificación remota por red solo es accesible a las autoridades competentes. La difundida localmente no incluye datos personales del titular; queda prohibido utilizarla para localizar o acosar a pilotos u operadores, conducta que se sanciona conforme al artículo 6.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 6 (art. 7-A.2 incorporado)",
+    "problema": "Los proveedores de servicios digitales de tránsito (privados certificados) concentrarán en tiempo real datos de vuelo, autorizaciones y zonas, incluidas operaciones de emergencia; la ley no exige seguridad de la información, integridad de los datos de zonas geográficas (su alteración puede dirigir RPA a zonas prohibidas), notificación de incidentes ni condiciones sobre el control y la ubicación de esos datos.",
+    "correccion": "Agregar el numeral 7-A.4: «La certificación de proveedores de servicios digitales de tránsito exige un sistema de gestión de seguridad de la información, la integridad y autenticidad de los datos de zonas geográficas y autorizaciones, la notificación de incidentes de seguridad digital conforme al Marco de Confianza Digital (D.U. 007-2020 y D.S. 126-2025-PCM) y el tratamiento de los datos de vuelo conforme a la clasificación de la información pública y a la Ley 29733.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3 (art. 5-A incorporado) y Artículo 7",
+    "problema": "Las entidades del SINAGERD y quienes contraten operarán RPAS sobre zonas de desastre y, con frecuencia, sobre infraestructura crítica (puentes, centrales, redes). Muchos equipos comerciales sincronizan imágenes y telemetría con servidores del fabricante en el extranjero, lo que expone información de infraestructura crítica sin control del Estado.",
+    "correccion": "Agregar el numeral 5-A.3: «Las RPAS operadas por entidades públicas o por encargo de estas se configuran para que las imágenes, la telemetría y los registros de vuelo no se transmitan a servidores de terceros ajenos a la entidad, salvo autorización expresa conforme a la clasificación de la información; las imágenes de activos críticos nacionales se custodian conforme a su régimen.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 6 (art. 7-A.3 incorporado)",
+    "problema": "El mapa abierto de zonas es necesario para el cumplimiento, pero describir la naturaleza de cada zona (p. ej., instalación de inteligencia) revela información sensible aun si la información «secreta» se reserva.",
+    "correccion": "Agregar: «El mapa publica el polígono, altitud y tipo de restricción, sin describir la naturaleza de las instalaciones de defensa, inteligencia u orden interno que la motivan.»"
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 30740 (incorpora art. 7-B)",
+    "TUO Ley de Telecomunicaciones — uso de medios de mitigación en espectro (concordancia)"
+   ],
+   "entidades_implicadas": [
+    "PNP, FFAA, INPE — detección/mitigación de RPA",
+    "MTC — espectro y DGAC",
+    "CORPAC — servicios de tránsito",
+    "CNSD-PCM — incidentes de proveedores de tránsito"
+   ],
+   "impacto_economico": "Sistemas de detección en penales y aeropuertos: costo de inversión variable; se programa como meta indicativa sujeta a disponibilidad presupuestal. La ley solo habilita."
+  }
+ },
+ {
+  "id": "SOB-04",
+  "especialidad": "seguridad",
+  "veredicto": "observaciones_graves",
+  "resumen": "Obliga a que los cargadores públicos sean gestionables remotamente por protocolos abiertos (en la práctica OCPP) sin exigir ningún requisito de ciberseguridad ni asignar supervisión en esa materia. Una flota conectada administrada por pocas plataformas centrales puede, si se compromete, manipular la carga de forma simultánea y afectar la red eléctrica, además de exponer datos de movilidad de los usuarios.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 3.1 y Artículo 9.3",
+    "problema": "El art. 3.1 exige «protocolos de comunicación abiertos que permitan su gestión remota» pero no exige autenticación mutua, cifrado, firma del firmware ni gestión segura de certificados. El riesgo crece con la escala que la ley busca: un atacante que comprometa un sistema central de gestión o la comunicación con los cargadores puede encender o apagar carga de forma coordinada y desestabilizar la red de distribución, o inhabilitar la flota. El OSINERGMIN solo supervisa seguridad eléctrica, registro e interoperabilidad, y nadie queda a cargo de la ciberseguridad.",
+    "correccion": "Sustituir el numeral 3.1 por: «3.1 Los puntos de carga de acceso público que se instalen a partir de la vigencia del reglamento utilizan conectores conformes a las normas técnicas que establezca el Ministerio de Energía y Minas en coordinación con el INACAL, y protocolos de comunicación abiertos que permitan su gestión remota por distintos sistemas, en versiones que soporten autenticación mutua del punto de carga y del sistema de gestión, comunicaciones cifradas, actualizaciones de firmware firmadas y registro de eventos de seguridad.» Incorporar el numeral 3.3: «Los operadores que gestionen remotamente puntos de carga con una potencia agregada superior a la que fije el reglamento notifican los incidentes de seguridad digital conforme al Marco de Confianza Digital (D.U. 007-2020 y D.S. 126-2025-PCM) y mantienen la capacidad de operar localmente ante la pérdida de comunicación.» En el 9.1 c) agregar «o sin cumplir los requisitos de seguridad de las comunicaciones del artículo 3.1»."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 5.2 y omisión sobre datos de sesión",
+    "problema": "Las sesiones de carga (identificador del usuario o vehículo, hora, ubicación) revelan patrones de desplazamiento y domicilio; la ley publica disponibilidad en tiempo real (adecuado) pero no limita el tratamiento ni la conservación de los datos de sesión por operadores y plataformas de pago.",
+    "correccion": "Agregar el numeral 5.3: «Los datos de las sesiones de carga asociados a personas identificables se tratan conforme a la Ley 29733, solo para la facturación, la seguridad y la operación, y se conservan por el plazo que fije el reglamento. La información publicada conforme al numeral 5.2 no incluye datos de sesiones individuales.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 4.1",
+    "problema": "El pago ad hoc en cargadores desatendidos introduce terminales de pago expuestos a manipulación física (skimming).",
+    "correccion": "Agregar al 4.1: «Los medios de pago en puntos de carga desatendidos cumplen los estándares de seguridad de la industria de tarjetas de pago y las disposiciones de la Superintendencia de Banca, Seguros y AFP aplicables.»"
+   }
+  ],
+  "aportes": {
+   "entidades_implicadas": [
+    "OSINERGMIN — supervisión, incluida seguridad de comunicaciones",
+    "CNSD-PCM — incidentes",
+    "COES — estabilidad del sistema ante cargas gestionadas remotamente",
+    "ANPD — datos de sesiones"
+   ],
+   "impacto_economico": "El costo de exigir versiones seguras del protocolo es marginal si se exige desde la instalación (los equipos actuales ya las soportan); adecuar después es mucho más caro."
+  }
+ },
+ {
+  "id": "SOB-05",
+  "especialidad": "seguridad",
+  "veredicto": "observaciones_graves",
+  "resumen": "Base sólida (seudonimización, bitácora, prohibición de reidentificación, no discriminación), pero ignora tres riesgos graves: el acceso policial o fiscal a biobancos de investigación con fines forenses, la imposibilidad técnica de anonimizar datos genómicos (el art. 4.3 presume que basta anonimizar) y la transferencia del biobanco como activo en liquidación o fusión. Faltan además reglas mínimas de seguridad e incidentes y un control reforzado de transferencias a gran escala.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 2.2 — omisión",
+    "problema": "La ley excluye las bases forenses, pero no impide que la Policía o el Ministerio Público accedan a muestras o datos de biobancos de investigación (incluida la búsqueda familiar), lo que desnaturaliza el consentimiento, expone a parientes que no consintieron y desalienta la participación.",
+    "correccion": "Agregar el numeral 2.4: «Las muestras y datos de los biobancos regulados por la presente ley no pueden ser utilizados con fines de investigación criminal, identificación forense o búsqueda de parientes, salvo mandato judicial motivado, en investigaciones por delitos sancionados con pena privativa de libertad no menor de diez años o para identificar a personas desaparecidas o fallecidas, y siempre que no exista otro medio. El biobanco informa al titular cuando cese la reserva de la investigación.»"
+   },
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 4.3, Artículo 5 y Artículo 9",
+    "problema": "El genoma es identificante por naturaleza: los datos genómicos no pueden considerarse anonimizados por la sola supresión de identificadores, y existen técnicas de reidentificación por cruce con bases genealógicas. El art. 4.3 (revocación con efecto de «anonimización») y el art. 9 (reutilización) parten de una anonimización que no es técnicamente sostenible, lo que deja datos sensibles (art. 2.5 de la Ley 29733) fuera de las garantías.",
+    "correccion": "En el 4.3 sustituir «con efecto de destrucción o anonimización de la muestra y de sus datos» por «con efecto de destrucción de la muestra y supresión de sus datos genómicos individuales, salvo los ya incorporados en resultados agregados o publicados». Agregar el 5.4: «Los datos genómicos individuales se consideran datos personales sensibles aun cuando se hayan suprimido los identificadores directos; solo se publican en forma agregada con técnicas que impidan la reidentificación, evaluadas por el comité de ética.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3.2 — seguridad de la información",
+    "problema": "«Medidas de seguridad de la información» es genérico. No se exigen cifrado, segregación de la clave de seudonimización, autenticación robusta ni notificación de brechas a la ANPD, al INS y a los titulares.",
+    "correccion": "Incorporar el artículo 5-A: «Seguridad. Los biobancos aplican, como mínimo: cifrado de los datos en reposo y en tránsito; custodia de la clave de seudonimización por personal distinto del que accede a los datos; autenticación de múltiple factor y bitácora inalterable de accesos; y notificación de los incidentes que afecten datos genéticos a la ANPD y al INS en el plazo del Reglamento de la Ley 29733 y del Marco de Confianza Digital (D.U. 007-2020 y D.S. 126-2025-PCM), así como a los titulares afectados.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 7 — transferencias a gran escala y nube",
+    "problema": "La sola comunicación al registro no basta para transferencias de datos genómicos poblacionales (miles de genomas o pueblos indígenas), cuyo valor estratégico y riesgo agregado son altos. Tampoco se aclara que el procesamiento en nube extranjera es transferencia.",
+    "correccion": "Agregar el 7.4: «Requieren autorización previa del INS, con opinión de la ANPD, las transferencias de datos genómicos que superen el número de titulares que fije el reglamento o que comprendan muestras de pueblos indígenas u originarios. El almacenamiento o procesamiento en servicios ubicados fuera del país constituye transferencia para efectos del presente artículo.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Omisión — cambio de control del biobanco",
+    "problema": "En liquidación, quiebra, fusión o venta, las colecciones pueden transferirse como activo a terceros con otras finalidades, como ocurrió en un caso internacional de 2025 con una empresa de genética de consumo.",
+    "correccion": "Agregar el 7.5: «En caso de disolución, liquidación, fusión o transferencia del biobanco, las muestras y datos solo pueden transferirse a otro biobanco inscrito que asuma las mismas finalidades y garantías, previa comunicación al INS y a los titulares, quienes pueden revocar su consentimiento; en defecto de adquirente idóneo, se destruyen o se transfieren al INS.»"
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 29733 (concordancia: datos genómicos como sensibles aun seudonimizados)"
+   ],
+   "entidades_implicadas": [
+    "INS — registro y autorización de transferencias",
+    "ANPD — datos sensibles e incidentes",
+    "Poder Judicial / Ministerio Público — acceso excepcional"
+   ],
+   "impacto_economico": "Las medidas mínimas (cifrado, MFA, bitácora) son de bajo costo frente al daño de una brecha genómica, que es irreversible porque el dato no puede cambiarse."
+  }
+ },
+ {
+  "id": "SOB-06",
+  "especialidad": "seguridad",
+  "veredicto": "observaciones",
+  "resumen": "Propuesta técnicamente acertada (inventario, priorización por confidencialidad de largo plazo, agilidad criptográfica, metas alineadas con referentes internacionales). Debe evitar que el inventario de sistemas de defensa e inteligencia se concentre en una secretaría civil, en contra de la Ley 30999 y del régimen de inteligencia, reforzar la clasificación y custodia del inventario agregado y prever una transición híbrida y la adhesión efectiva de RENIEC como emisor de la PKI del DNIe.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 4.2",
+    "problema": "Remitir a la SGTD los inventarios criptográficos de todas las entidades, incluidos los sistemas de comunicaciones de seguridad y defensa nacional (art. 5 d), concentra en un solo repositorio civil el mapa de debilidades criptográficas del Estado y desconoce la competencia del Ministerio de Defensa y del Comando Conjunto en ciberdefensa (Ley 30999 y su reglamento, D.S. 017-2024-PCM) y la reserva del Sistema de Inteligencia Nacional (D.Leg. 1141).",
+    "correccion": "Agregar el numeral 4.4: «Los inventarios de los sistemas de defensa nacional y del Sistema de Inteligencia Nacional se elaboran y custodian por el Ministerio de Defensa y la Dirección Nacional de Inteligencia, respectivamente, conforme a la Ley 30999 y al Decreto Legislativo 1141, que remiten a la Secretaría de Gobierno y Transformación Digital únicamente indicadores agregados de avance.» Y en el 4.3 sustituir «tiene carácter de información reservada en lo que pueda comprometer» por «tiene carácter de información clasificada conforme al TUO de la Ley 27806; se remite por canales cifrados, se almacena con control de acceso por necesidad de conocer y bitácora, y la Secretaría solo publica indicadores agregados»."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 2.2",
+    "problema": "RENIEC (emisor de los certificados del DNIe, entidad de certificación del Estado), BCRP, ONPE y JNE operan la criptografía de mayor impacto y vida útil; dejarlos en adhesión voluntaria deja fuera de la hoja de ruta la identidad digital, priorizada por el propio art. 5 b).",
+    "correccion": "Sustituir el 2.2 por: «Los organismos constitucionalmente autónomos aprueban, conforme a su autonomía, su propio plan de migración compatible con la hoja de ruta nacional e informan anualmente a la Secretaría de Gobierno y Transformación Digital indicadores agregados de avance.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3.2",
+    "problema": "La hoja de ruta no exige un periodo de transición híbrido (algoritmos clásicos y poscuánticos combinados) ni prohíbe algoritmos propietarios no evaluados públicamente, prácticas recomendadas por las agencias de referencia para mitigar fallas de implementación de algoritmos nuevos.",
+    "correccion": "Agregar al 3.2: «La hoja de ruta prioriza algoritmos estandarizados y evaluados públicamente, admite esquemas híbridos durante la transición y no recomienda algoritmos propietarios o no publicados.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 5 c)",
+    "problema": "Las infraestructuras críticas privadas (banca, energía, telecomunicaciones) están fuera del ámbito del art. 2; solo se prioriza lo público que las soporta.",
+    "correccion": "Agregar una Disposición Complementaria Final: «Los reguladores sectoriales promueven, en el marco de sus competencias, que los operadores de activos críticos nacionales adopten planes de migración compatibles con la hoja de ruta.»"
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 30999 y D.S. 017-2024-PCM (concordancia)",
+    "D.Leg. 1141 (concordancia)",
+    "Ley 27269 y su reglamento (resellado)"
+   ],
+   "entidades_implicadas": [
+    "SGTD-PCM / CNSD",
+    "MINDEF / CCFFAA — inventario de defensa",
+    "DINI — sistemas de inteligencia",
+    "RENIEC — ECERNEP, certificados del DNIe",
+    "INDECOPI — IOFE"
+   ],
+   "impacto_economico": "Integrar la migración en los ciclos de renovación reduce el costo; el mayor costo evitable es tener que reemplazar equipos sin agilidad criptográfica comprados después de la ley."
+  }
+ },
+ {
+  "id": "SOB-07",
+  "especialidad": "seguridad",
+  "veredicto": "observaciones",
+  "resumen": "Promueve conectar plantas de MIPYME (internet industrial de las cosas, gemelos digitales, robots) sin incluir la ciberseguridad industrial en el diagnóstico, la asistencia técnica ni la formación, lo que crea superficie de ataque en empresas sin capacidad de defensa. Debe incorporarse la seguridad de sistemas de control (serie IEC 62443) y proteger los datos del autodiagnóstico.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículos 3.1, 4.1 y 7",
+    "problema": "Integrar robots, sensores conectados y sistemas de producción basados en datos en MIPYME sin criterios de seguridad de tecnología operacional deja equipos expuestos a internet con credenciales por defecto, ransomware que detiene la producción y riesgos de seguridad física cuando se manipula un robot. Ni el diagnóstico de madurez, ni la asistencia técnica, ni los programas modulares mencionan la ciberseguridad industrial.",
+    "correccion": "En el 3.1 c) agregar «, incluida la configuración segura y la segmentación de redes de los sistemas de control». En el 4.1 agregar «La metodología incluye una dimensión de ciberseguridad industrial basada en las normas técnicas de seguridad de sistemas de automatización y control industrial (serie IEC 62443) o las NTP que las adopten». En el art. 7 agregar «y ciberseguridad de sistemas de control industrial»."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 4.2",
+    "problema": "La herramienta de autodiagnóstico en línea recopila información sensible de las empresas (procesos, equipos, brechas), atractiva para competidores o atacantes.",
+    "correccion": "Agregar: «Los datos individuales del autodiagnóstico son confidenciales, se tratan solo para la finalidad de la ley y no se comunican a terceros sin consentimiento de la empresa.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 5",
+    "problema": "El directorio de integradores no considera competencias de seguridad, que son decisivas para la MIPYME que contrata la integración.",
+    "correccion": "Agregar: «El directorio puede indicar las certificaciones de seguridad de la información o de ciberseguridad industrial que declaren los integradores.»"
+   }
+  ],
+  "aportes": {
+   "entidades_implicadas": [
+    "INACAL — NTP de seguridad industrial (IEC 62443) y de robots",
+    "CNSD-PCM — alertas para MIPYME"
+   ]
+  }
+ },
+ {
+  "id": "SOB-08",
+  "especialidad": "seguridad",
+  "veredicto": "observaciones_graves",
+  "resumen": "La publicación anticipada y las consultas abiertas de toda la demanda tecnológica del Estado, sin excepción por seguridad, revelan qué entidades carecen de qué controles (p. ej., una entidad que planea adquirir su primera solución de detección de intrusiones) y anticipan compras de defensa, inteligencia y orden interno. Debe excluirse ese ámbito y permitirse descripciones genéricas, e incorporarse criterios de seguridad de la cadena de suministro compatibles con los acuerdos comerciales.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículos 4 y 5",
+    "problema": "La previsión anual con «descripción funcional» y las consultas al mercado de productos y servicios de ciberseguridad, criptografía, vigilancia o comunicaciones seguras revelan brechas y planes de seguridad de cada entidad, información útil para atacantes y para operaciones de inteligencia extranjera. La ley no prevé excepción para las contrataciones de defensa, inteligencia y orden interno ni para los componentes de seguridad de activos críticos.",
+    "correccion": "Agregar el artículo 4-A: «Excepciones por seguridad. No se publican en la previsión del artículo 4 ni se someten a la consulta abierta del artículo 5: a) las contrataciones vinculadas a la defensa nacional, la inteligencia y el orden interno que tengan carácter secreto, secreto militar o de orden interno conforme a la Ley 32069 y al TUO de la Ley 27806; b) las contrataciones de soluciones de seguridad digital y criptografía de cualquier entidad, respecto de las cuales solo se publica una descripción genérica de la categoría, sin indicar la tecnología, el alcance ni los sistemas que protege.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículos 3 y 7",
+    "problema": "La ley prohíbe con acierto el requisito de domicilio y admite soporte mediante subcontratistas, pero no prevé criterios de riesgo de cadena de suministro (acceso remoto de soporte a sistemas críticos, control extranjero de proveedores, actualizaciones). Los acuerdos comerciales suscritos por el Perú contienen excepciones de seguridad esencial que permiten esos criterios cuando se basan en riesgo y no en el origen como tal.",
+    "correccion": "Agregar el numeral 7.2: «Para sistemas que soporten activos críticos nacionales o información clasificada, los requerimientos pueden exigir evaluación de riesgos de la cadena de suministro, control y registro del acceso remoto de soporte, ubicación de los datos conforme a su clasificación y verificación de integridad de las actualizaciones, en aplicación de las excepciones de seguridad esencial de los acuerdos comerciales y con informe técnico del Centro Nacional de Seguridad Digital.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 9",
+    "problema": "Los indicadores abiertos por procedimiento podrían, en conjunto con la previsión, identificar proveedores de seguridad de entidades sensibles.",
+    "correccion": "Agregar: «Los indicadores excluyen las contrataciones comprendidas en el artículo 4-A.»"
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 32069 (concordancia con contrataciones secretas y supuestos excluidos)"
+   ],
+   "entidades_implicadas": [
+    "OECE / Pladicop",
+    "CNSD-PCM — informe de riesgo de cadena de suministro",
+    "MINDEF, MININTER, DINI — contrataciones reservadas"
+   ]
+  }
+ },
+ {
+  "id": "DER-01",
+  "especialidad": "seguridad",
+  "veredicto": "observaciones_graves",
+  "resumen": "Las garantías procesales son adecuadas, pero la identificación por exhibición del DNI ante la cámara es vulnerable a la suplantación (documentos falsificados, video sintético), las grabaciones carecen de garantías de integridad y el acceso en línea a las grabaciones permite que la contraparte descargue y difunda declaraciones de víctimas no reservadas. Se requiere autenticación robusta, sellado de las grabaciones y control de copias.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 5 a) y Artículo 8.1",
+    "problema": "«Verificación del documento de identidad» ante la cámara no acredita identidad: un DNI puede falsificarse en imagen y el rostro suplantarse con video sintético en tiempo real. La suplantación de partes, testigos o abogados en audiencias virtuales permite fraude procesal; el acceso en línea al expediente tampoco exige autenticación robusta, y las cuentas de abogados comprometidas exponen expedientes completos.",
+    "correccion": "Sustituir el literal a) por: «a) La identificación fehaciente de los intervinientes mediante autenticación con el DNI electrónico, la plataforma de identidad digital del Estado o las credenciales de la casilla electrónica del Poder Judicial con segundo factor; cuando no sea posible, mediante verificación biométrica contra la base del RENIEC o comparecencia en un punto de acceso judicial. Ante duda razonable sobre la identidad, el juez dispone la comparecencia presencial.» Agregar al 8.1: «El acceso requiere autenticación de múltiple factor.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 5 f) y Artículo 9.3",
+    "problema": "La grabación íntegra es prueba, pero la ley no exige garantías de integridad: sin huella criptográfica y sellado de tiempo al cierre de la audiencia, una grabación alterada o sustituida (incluso con contenido sintético) es difícil de impugnar.",
+    "correccion": "Agregar al literal f): «, a la que se asigna al cierre de la audiencia una huella criptográfica y un sello de tiempo emitido por un prestador acreditado, que se registran en el expediente. Toda copia entregada a las partes permite verificar su correspondencia con el original.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 8.1 y Artículo 9.2",
+    "problema": "El acceso «permanente» y la copia gratuita de grabaciones incluyen declaraciones de víctimas de violencia y de niñas, niños y adolescentes (art. 4.3) en procesos no declarados reservados; la contraparte puede descargarlas y difundirlas, con revictimización. La prohibición del 9.2 solo cubre audiencias reservadas.",
+    "correccion": "Agregar el numeral 8.4: «Las grabaciones de declaraciones de víctimas de violencia, de niñas, niños y adolescentes y de testigos protegidos solo pueden visualizarse en la plataforma, sin descarga, con marca de agua que identifique al usuario que accede, salvo autorización judicial motivada.» Y en el 9.2 extender la prohibición de difusión a dichas grabaciones."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 5 c)",
+    "problema": "El canal privado abogado-cliente «sin grabación» no garantiza que el proveedor de la plataforma de videoconferencia no lo registre ni lo procese (transcripción automática, analítica).",
+    "correccion": "Agregar: «; el canal no es grabado, transcrito ni analizado por el Poder Judicial ni por el proveedor de la plataforma, lo que se establece contractualmente y se verifica en la configuración técnica»."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 7.2",
+    "problema": "Los puntos de acceso en locales municipales pueden conservar sesiones, archivos o grabaciones en equipos compartidos.",
+    "correccion": "Agregar al 7.2: «Los equipos se configuran para no conservar credenciales, archivos ni grabaciones al finalizar cada sesión.»"
+   }
+  ],
+  "aportes": {
+   "entidades_implicadas": [
+    "Poder Judicial — Gerencia de Tecnologías de la Información",
+    "RENIEC — autenticación y verificación biométrica",
+    "Prestadores acreditados por INDECOPI — sellado de tiempo"
+   ],
+   "impacto_economico": "La autenticación con DNIe e ID Gob.pe reutiliza infraestructura existente; el sellado de tiempo tiene costo unitario bajo."
+  }
+ },
+ {
+  "id": "DER-02",
+  "especialidad": "seguridad",
+  "veredicto": "conforme",
+  "resumen": "Materia de derecho de autor sin riesgos de seguridad significativos. Solo cabe precisar que las copias para minería de textos que contengan datos personales se sujetan a la Ley 29733 y que la excepción comprende la investigación en seguridad de la información.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 5 (art. 220.2 incorporado)",
+    "problema": "Los corpus para minería de textos suelen incluir datos personales; «medidas de seguridad adecuadas» no remite al régimen de protección de datos.",
+    "correccion": "Agregar al 220.2: «Cuando las copias contengan datos personales, su tratamiento y sus medidas de seguridad se sujetan a la Ley 29733 y su reglamento.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 5 (art. 220.1 incorporado)",
+    "problema": "No es claro si la «investigación científica» comprende la investigación en ciberseguridad (análisis de grandes conjuntos de código o de contenido malicioso con fines defensivos).",
+    "correccion": "Precisar en la exposición de motivos que la investigación científica comprende la investigación en seguridad de la información realizada por las instituciones del 220.1."
+   }
+  ],
+  "aportes": {}
+ },
+ {
+  "id": "DER-03",
+  "especialidad": "seguridad",
+  "veredicto": "observaciones",
+  "resumen": "Buen diseño de transparencia con garantía contra la censura. Desde la seguridad conviene evitar que la notificación detallada de cada medida de moderación sirva para evadir la detección de redes de cuentas falsas, spam o malware, y reforzar las salvaguardas del acceso de investigadores a datos.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 4.2",
+    "problema": "Exigir que se comunique «la regla aplicada» y «los hechos considerados» en todos los casos permite a operadores de redes de cuentas inauténticas, fraude, spam o distribución de malware aprender los criterios de detección y evadirlos. La excepción solo cubre investigaciones penales u órdenes judiciales.",
+    "correccion": "Agregar al 4.2: «El proveedor puede limitar el detalle de la comunicación cuando se trate de cuentas automatizadas o inauténticas, fraude, spam o distribución de software malicioso, o cuando revelarlo permita eludir sus sistemas de detección, sin perjuicio del reclamo del numeral 4.3.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 8",
+    "problema": "El acceso de investigadores a datos a escala sin requisitos mínimos de seguridad repite el riesgo de casos internacionales de uso indebido de datos obtenidos con fines académicos.",
+    "correccion": "Sustituir la frase final por: «con salvaguardas de seguridad que comprenden, como mínimo, la acreditación de la institución, un plan de gestión de datos, la prohibición de reidentificación, de cesión y de uso comercial, la supresión al concluir el estudio y la protección de datos personales conforme a la Ley 29733.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 6.2",
+    "problema": "Publicar la identidad del anunciante cuando es persona natural que paga montos menores expone datos personales más allá de lo necesario para el control.",
+    "correccion": "Agregar: «Cuando el anunciante sea persona natural, se publica su nombre y la organización a la que apoya, sin otros datos personales.»"
+   }
+  ],
+  "aportes": {
+   "entidades_implicadas": [
+    "ANPD — salvaguardas del acceso de investigadores"
+   ]
+  }
+ },
+ {
+  "id": "DER-04",
+  "especialidad": "seguridad",
+  "veredicto": "observaciones_graves",
+  "resumen": "La regulación de la herencia digital abre un vector de toma de cuentas: con un certificado de defunción falso y un vínculo alegado, un tercero puede ejercer derechos sobre los datos de una persona viva. Faltan verificación contra el RENIEC, notificación a contactos designados y un periodo de espera, así como reglas para entregar contenidos y activos virtuales sin transmitir credenciales y para excluir cuentas institucionales del Estado.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 6.1 y Artículo 5",
+    "problema": "«Acreditando el fallecimiento y el vínculo» sin verificación oficial permite usar actas de defunción o partidas falsificadas para obtener acceso, supresión o control de cuentas de personas vivas (ingeniería social contra los proveedores). La ley no exige verificación ni prevé mecanismos de alerta.",
+    "correccion": "Agregar el numeral 6.3: «El responsable verifica el fallecimiento mediante consulta al Registro Nacional de Identificación y Estado Civil y la identidad del solicitante con su documento de identidad. Antes de ejecutar la solicitud, notifica a la cuenta y a los contactos designados conforme al artículo 5, y solo procede transcurrido el plazo que fije el reglamento sin oposición fundada. El RENIEC habilita el servicio de verificación en línea de defunciones para los responsables del tratamiento.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 7.2",
+    "problema": "La entrega de contenidos y «saldos y activos virtuales» no precisa que no se entregan credenciales (contraseñas, claves privadas, factores de autenticación), ni el canal de entrega, lo que facilita el acceso no controlado a cuentas vinculadas y el robo de activos.",
+    "correccion": "Agregar al 7.2: «La entrega se realiza mediante exportación de los contenidos o transferencia de los saldos a cuentas de los sucesores, por canal seguro y previa verificación de la inscripción en el Registro de Sucesiones. El proveedor no entrega contraseñas, claves ni factores de autenticación del causante.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículos 5 a 7 — omisión",
+    "problema": "Las cuentas, dispositivos y correos institucionales de servidores públicos fallecidos pueden contener información clasificada o datos de terceros; la ley no los excluye.",
+    "correccion": "Agregar el artículo 7-A: «Lo dispuesto en los artículos 5 a 7 no comprende las cuentas, dispositivos y contenidos institucionales proporcionados por el empleador o por una entidad pública, ni la información clasificada conforme al TUO de la Ley 27806, que se rigen por las normas de la entidad.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 5.3",
+    "problema": "La herramienta para registrar instrucciones digitales puede ser modificada por quien comprometa la cuenta.",
+    "correccion": "Agregar: «La designación o modificación de instrucciones exige reautenticación del titular y se le notifica por un canal alternativo.»"
+   }
+  ],
+  "aportes": {
+   "entidades_implicadas": [
+    "RENIEC — servicio de verificación de defunciones",
+    "SUNARP — Registro de Sucesiones"
+   ]
+  }
+ },
+ {
+  "id": "DER-05",
+  "especialidad": "seguridad",
+  "veredicto": "observaciones_graves",
+  "resumen": "Protege bien la intimidad, pero la definición amplia de monitoreo y las prohibiciones de los literales b) y e) del art. 6 alcanzan la telemetría de seguridad (detección y respuesta en equipos, registros de acceso, prevención de fuga de datos), que funciona de forma continua y es exigida por el Marco de Confianza Digital y por la ISO/IEC 27001. Debe distinguirse el monitoreo de seguridad de los sistemas, limitado y no usado para evaluar el rendimiento, del monitoreo de la persona.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 3.1 y Artículo 6 b) y e)",
+    "problema": "La telemetría de seguridad de equipos y cuentas de trabajo (registros de autenticación, detección de software malicioso, alertas de exfiltración) es «recopilación de información sobre la actividad» (art. 3.1) y opera fuera de la jornada; el art. 6 e) la prohibiría y el 7.1 impediría usar su evidencia ante incidentes internos. Ello contradice las obligaciones de monitoreo y gestión de incidentes del Marco de Confianza Digital (D.U. 007-2020 y D.S. 126-2025-PCM) y el control de seguimiento de actividades de la NTP-ISO/IEC 27001, y debilita la defensa de las entidades públicas.",
+    "correccion": "Incorporar el numeral 3.3: «No constituye monitoreo digital de la persona trabajadora el registro técnico de eventos de seguridad de los sistemas, equipos y cuentas de trabajo (autenticaciones, alertas de software malicioso, accesos a información clasificada, transferencias anómalas de datos) realizado con la finalidad exclusiva de proteger la seguridad de la información, siempre que: a) se informe en la política del artículo 4; b) no incluya el contenido de comunicaciones ni capturas de pantalla, salvo durante la investigación de un incidente determinado; c) no se utilice para medir el rendimiento; y d) se conserve por el plazo necesario para la gestión de incidentes. Su información puede sustentar medidas disciplinarias solo cuando acredite un incidente de seguridad o una infracción a la política de seguridad de la información.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 4 y Artículo 5",
+    "problema": "Los datos de monitoreo (capturas, biometría, geolocalización) se concentran a menudo en servicios en la nube de terceros y son un objetivo atractivo para atacantes; la ley no exige seguridad, plazos máximos ni control de los encargados.",
+    "correccion": "Agregar el numeral 4.3: «El empleador asegura que los datos de monitoreo se cifren, que el acceso sea restringido y registrado, que los encargados del tratamiento cumplan la Ley 29733, incluido el régimen de flujo transfronterizo, y que se supriman al vencer el plazo de conservación declarado, el cual no excede el que fije el reglamento.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 2",
+    "problema": "El ámbito incluye a las Fuerzas Armadas, la PNP y los órganos del Sistema de Inteligencia Nacional, cuyo personal con acceso a información clasificada está sujeto a medidas de contrainteligencia y seguridad que pueden exceder los límites generales.",
+    "correccion": "Agregar el numeral 2.2: «El monitoreo vinculado a la protección de información clasificada y a la contrainteligencia en las Fuerzas Armadas, la Policía Nacional del Perú y los órganos del Sistema de Inteligencia Nacional se rige por su normativa especial, que respeta los principios del artículo 3.2 y la prohibición del literal d) del artículo 6.»"
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 31572, art. 5 (ya previsto)"
+   ],
+   "entidades_implicadas": [
+    "SUNAFIL",
+    "ANPD",
+    "SGTD-PCM — coherencia con el Marco de Confianza Digital"
+   ]
+  }
+ },
+ {
+  "id": "DER-06",
+  "especialidad": "seguridad",
+  "veredicto": "observaciones",
+  "resumen": "Una plataforma estatal de resolución de disputas y el enlace obligatorio en sitios de proveedores crean un vector de suplantación (páginas falsas del Indecopi para robar datos o cobrar) y requieren autenticación de las partes para que los acuerdos y laudos electrónicos sean oponibles.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3 (art. 144-A incorporado) y Artículo 4 (art. 148-A incorporado)",
+    "problema": "El acta electrónica y el laudo producen efectos de título ejecutivo; si la plataforma no autentica con robustez al consumidor y al representante del proveedor, un tercero puede suplantar a una parte y celebrar acuerdos o desistimientos.",
+    "correccion": "Agregar al 148-A.1: «Las partes acceden a la plataforma mediante la plataforma de identidad digital del Estado, el DNI electrónico o un mecanismo de autenticación de nivel equivalente; los representantes de proveedores acreditan sus facultades en la plataforma.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 5.2",
+    "problema": "Obligar a miles de proveedores a publicar un enlace a la plataforma favorece la difusión de enlaces falsos que imitan al Indecopi (suplantación), en especial en comercio electrónico.",
+    "correccion": "Agregar: «El enlace dirige exclusivamente a un dominio oficial gob.pe del Indecopi; la plataforma no solicita pagos ni datos de tarjetas y así lo informa de forma visible.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 7",
+    "problema": "La interoperabilidad con el Libro de Reclamaciones virtual transfiere datos personales entre sistemas de proveedores y del Estado sin garantías específicas.",
+    "correccion": "Agregar: «La interoperabilidad se realiza mediante la Plataforma de Interoperabilidad del Estado o canales cifrados y autenticados, transfiriendo solo los datos necesarios.»"
+   }
+  ],
+  "aportes": {
+   "entidades_implicadas": [
+    "Indecopi",
+    "SGTD-PCM — ID Gob.pe y Plataforma de Interoperabilidad del Estado"
+   ]
+  }
+ },
+ {
+  "id": "DER-07",
+  "especialidad": "seguridad",
+  "veredicto": "observaciones_graves",
+  "resumen": "Avance importante (medidas digitales, preservación de evidencia, huellas de contenido), pero la ley ignora la custodia del contenido íntimo que la víctima entrega a la PNP y al Ministerio Público: sin reglas de acceso restringido, cifrado, extracción limitada del dispositivo y destrucción, el propio Estado puede convertirse en punto de nueva filtración. Faltan además garantías de cadena de custodia y la autenticación de las órdenes que se notifican electrónicamente a los proveedores.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 6 — omisión sobre custodia de evidencia",
+    "problema": "La víctima entrega capturas, enlaces o su propio teléfono con contenido íntimo; la ley no limita la extracción al material pertinente, no exige custodia cifrada con acceso restringido y bitácora, ni ordena la devolución del dispositivo y la destrucción de las copias al concluir el proceso. Ello expone a revictimización y a filtraciones internas, y la Ley 29733 no basta porque no regula la cadena de custodia penal.",
+    "correccion": "Incorporar el numeral 6.3: «La Policía Nacional del Perú y el Ministerio Público: a) limitan la extracción de datos del dispositivo de la víctima a lo pertinente al hecho, con su consentimiento informado, y lo devuelven en el plazo más breve; b) preservan la evidencia con huella criptográfica y registro de cadena de custodia; c) custodian el contenido íntimo en almacenamiento cifrado, con acceso restringido al personal a cargo del caso y bitácora de accesos; d) no incorporan copias del contenido íntimo a expedientes accesibles a terceros, salvo resolución judicial, y prefieren su descripción o huella; y e) destruyen las copias al concluir el proceso, salvo mandato judicial. La difusión del contenido por quien lo custodia se comunica al Ministerio Público.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3 (art. 22-D, párrafo final) y Artículo 4.2",
+    "problema": "Las órdenes de retiro notificadas electrónicamente a proveedores pueden ser falsificadas para obtener el retiro de contenidos lícitos o datos de cuentas; la ley no exige un canal autenticado ni la verificación de la orden.",
+    "correccion": "Sustituir el párrafo final por: «La medida identifica con precisión el contenido o la cuenta y se notifica electrónicamente a los proveedores con firma digital del órgano jurisdiccional, a través del canal designado conforme al artículo 4.2 de la ley; el proveedor puede verificar su autenticidad en línea antes de ejecutarla.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 5.2",
+    "problema": "Las tecnologías de coincidencia de huellas pueden exigir que la víctima vuelva a enviar el contenido íntimo a cada plataforma, lo que multiplica su exposición.",
+    "correccion": "Agregar al 5.2: «La huella se genera, siempre que sea técnicamente posible, en el dispositivo de la víctima o por el servicio de atención del Estado, sin que el contenido se transmita ni se almacene; las plataformas solo reciben y conservan la huella.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 7",
+    "problema": "La orientación especializada no menciona la detección de programas de vigilancia instalados en los dispositivos de la víctima, frecuente en esta forma de violencia.",
+    "correccion": "Agregar: «incluida la orientación para detectar y retirar programas de vigilancia y asegurar cuentas y dispositivos, sin destruir evidencia»."
+   }
+  ],
+  "aportes": {
+   "entidades_implicadas": [
+    "PNP — División de Investigación de Delitos de Alta Tecnología",
+    "Ministerio Público — peritaje informático y cadena de custodia",
+    "MIMP — Centros Emergencia Mujer"
+   ],
+   "impacto_economico": "La custodia cifrada y con bitácora puede implementarse sobre la infraestructura existente; el costo de una filtración institucional es alto en términos de revictimización y responsabilidad del Estado."
+  }
+ },
+ {
+  "id": "DER-08",
+  "especialidad": "seguridad",
+  "veredicto": "observaciones",
+  "resumen": "La firma con certificado del DNIe ofrece mayor garantía que el planillón físico, y la ley acierta al no entregar datos a los promotores y al exigir auditoría. Falta tratar la adhesión como dato sensible (revela opinión política), garantizar que el ciudadano firme exactamente el texto de la iniciativa, fijar el nivel de garantía de la firma remota y exigir una evaluación de seguridad independiente antes de ampliar el voto digital.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 2 (art. 6-A.1 incorporado)",
+    "problema": "La ley no exige que la firma recaiga sobre una representación inequívoca de la iniciativa (texto y código); una plataforma comprometida o una interfaz engañosa puede hacer firmar un documento distinto del mostrado. Tampoco fija el nivel de garantía cuando se use «otro certificado» emitido en la nube en lugar del chip del DNIe.",
+    "correccion": "Agregar el 6-A.6: «La firma recae sobre el código de la iniciativa y la huella criptográfica de su texto íntegro, que se muestran al adherente antes de firmar. La firma con certificados distintos del contenido en el chip del DNI electrónico requiere autenticación de nivel alto conforme al Marco de Confianza Digital (D.U. 007-2020 y D.S. 126-2025-PCM).»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3",
+    "problema": "La adhesión revela opinión política, dato sensible conforme al art. 2.5 de la Ley 29733; la ley no lo califica así ni exige cifrado, separación de funciones ni evitar que el RENIEC conozca la iniciativa a la que se adhiere cada ciudadano.",
+    "correccion": "Agregar el 3.4: «La adhesión constituye dato sensible. La plataforma cifra los registros, separa la verificación de identidad del cómputo y registra todo acceso. El RENIEC solo recibe la información necesaria para verificar la identidad y la vigencia del certificado, sin conocer la iniciativa a la que se adhiere el ciudadano.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 5.1 y Artículo 6",
+    "problema": "La auditoría queda a cargo de quien decida la ONPE y la ampliación del voto digital solo exige informes de la propia ONPE y del JNE; no hay evaluación independiente ni posibilidad de reporte de vulnerabilidades por terceros de buena fe.",
+    "correccion": "Agregar al 5.1: «La auditoría la realiza un tercero independiente con experiencia acreditada en seguridad de sistemas electorales. La ONPE habilita un canal de divulgación coordinada de vulnerabilidades; quien reporte de buena fe conforme a sus reglas no es pasible de responsabilidad.» Agregar al 6.1 como contenido mínimo: «una evaluación de seguridad independiente que incluya la verificabilidad del voto por el elector y la auditabilidad de los resultados»."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 2 (art. 6-A.4 incorporado)",
+    "problema": "La adhesión remota facilita la compra o la coacción de adhesiones (p. ej., en el empleo), lo que la revocabilidad mitiga solo en parte.",
+    "correccion": "Agregar al 3.2: «Constituye infracción condicionar beneficios, empleo o servicios a la adhesión o exigir la prueba de haberse adherido.»"
+   }
+  ],
+  "aportes": {
+   "entidades_implicadas": [
+    "ONPE — plataforma",
+    "RENIEC — verificación de identidad y certificados",
+    "JNE — fiscalización",
+    "SGTD-PCM — niveles de autenticación"
+   ]
+  }
+ }
+]

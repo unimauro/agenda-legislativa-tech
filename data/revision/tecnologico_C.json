@@ -1,0 +1,359 @@
+[
+ {
+  "id": "SOB-01",
+  "especialidad": "derecho_tecnologico",
+  "veredicto": "observaciones",
+  "resumen": "Propuesta técnicamente prudente: no crea fondos, beneficios ni reservas, y alinea la lista con la lógica del Reglamento (UE) 2024/1252 (importancia económica + riesgo de suministro, revisión trienal). Requiere precisar la metodología (indicadores cuantitativos), proteger la información geológica confidencial de titulares en los convenios del art. 6 y armonizar 'mineral estratégico' con el uso comparado para no generar expectativas de reserva estatal.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 2, literales a) y b), y Artículo 3.2",
+    "problema": "Las definiciones son cualitativas ('importancia... alta', 'riesgos de concentración') y el art. 3.2 no exige indicadores medibles. El Reglamento (UE) 2024/1252 (art. 4 y Anexo II) usa dos indicadores cuantificados (importancia económica y riesgo de suministro, con índice Herfindahl-Hirschman ponderado por gobernanza) y umbrales; el USGS (Energy Act of 2020, sec. 7002) usa una metodología pública con índice de riesgo. Sin indicadores, la lista es discrecional y difícil de revisar o impugnar técnicamente. Además, en la UE las 'materias primas estratégicas' son un SUBCONJUNTO de las fundamentales definido por su relevancia para tecnologías estratégicas (transición, digital, defensa/aeroespacial); la redacción 'además, resulta relevante para la seguridad, la defensa o la autonomía tecnológica' es coherente, pero debe decir expresamente que es un subconjunto.",
+    "correccion": "Sustituir el art. 3.2 por: '3.2 La metodología, aprobada por resolución ministerial del Ministerio de Energía y Minas y publicada con sus datos de base, emplea como mínimo: a) un indicador de importancia económica y tecnológica; b) un indicador de riesgo de suministro que considere la concentración de la producción y de la refinación mundial y la dependencia de importaciones; c) el potencial geológico nacional; y d) la relevancia para la transición energética y las tecnologías digitales. Fija umbrales de inclusión y se revisa cada tres años.' En el art. 2.b) reemplazar 'sustancia mineral que, además,' por 'mineral crítico que, además,'."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 6 (convenios de acceso a muestras) y Artículo 4.2",
+    "problema": "El art. 4.2 limita la publicación abierta a la información 'generada con fondos públicos', pero el art. 6 permite que universidades, CITE e INGEMMET accedan a muestras, relaves e instalaciones de titulares mineros. Los resultados de caracterización de esas muestras pueden contener información geológica de reservas con valor comercial y confidencial, protegida por el TUO de la Ley General de Minería y por el régimen de secreto empresarial (excepción del art. 17.2 del TUO de la Ley 27806). Sin regla expresa, el art. 4.2 podría leerse como obligación de publicar resultados obtenidos en convenios financiados parcialmente con fondos públicos.",
+    "correccion": "Añadir el numeral 6.3: '6.3 Los convenios regulan la confidencialidad de la información geológica y de reservas del titular. La publicación prevista en el artículo 4.2 no comprende la información obtenida de muestras o instalaciones del titular, salvo su consentimiento o su agregación sin identificación del yacimiento.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 5.1",
+    "problema": "La agenda de I+D omite líneas tecnológicamente relevantes para el caso peruano: el litio de Falchani (Puno) está asociado a rocas volcánicas con uranio (lo que el art. 9 reconoce) y requiere procesos de lixiviación específicos; además, la recuperación de subproductos de la fundición y refinación de cobre (molibdeno, renio, telurio, selenio, galio, germanio, indio) es la vía de menor costo para minerales críticos en el país.",
+    "correccion": "En el art. 5.1, después de 'la separación de tierras raras', insertar: ', la recuperación de subproductos de la concentración, fundición y refinación de metales base, el procesamiento de litio asociado a minerales radiactivos con las garantías del artículo 9'."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "TUO de la Ley General de Minería, D.S. 014-92-EM (concordancia: confidencialidad de información de titulares)"
+   ],
+   "entidades_implicadas": [
+    "IPEN — opinión técnica cuando el mineral se asocie a material radiactivo (art. 9)",
+    "OSINERGMIN/OEFA — fiscalización en reaprovechamiento de relaves (art. 7)"
+   ],
+   "impacto_economico": "La revisión trienal con metodología cuantitativa reutiliza datos del USGS y de la UE; el costo incremental real es de 2–3 especialistas en el INGEMMET. La mayor fuente de valor a corto plazo son los subproductos de refinación, que no requieren nueva minería."
+  }
+ },
+ {
+  "id": "SOB-02",
+  "especialidad": "derecho_tecnologico",
+  "veredicto": "observaciones",
+  "resumen": "El enfoque de matriz de procesos para distinguir ensamblaje SKD/CKD de manufactura con valor tecnológico es correcto y comparable con los criterios de origen y transformación sustancial. Debe definirse con referencias técnicas verificables (SMT, pruebas, firmware) y no con criterios de 'naturaleza del producto' que reproducen la ambigüedad; además, el art. 8 alude a 'requisitos de seguridad digital de dispositivos' que hoy no existen con rango normativo, y la publicación por ZEEP puede revelar datos individuales si hay un solo usuario.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3.1 y 3.2",
+    "problema": "La matriz usa categorías técnicas correctas (montaje superficial, pruebas, firmware, integración, diseño), pero no las vincula a evidencia verificable ni a niveles. El art. 3.2 excluye 'la simple unión de partes de conjuntos completos importados' sin definir el umbral entre CKD (completely knocked down) y ensamblaje de tarjetas: un usuario puede importar tarjetas ya pobladas (PCBA) y solo realizar el ensamblaje final, que es técnicamente 'integración'. Esto deja intacto el riesgo que la exposición de motivos describe.",
+    "correccion": "Sustituir el art. 3.1 por: '3.1 [...] aprueba una matriz de procesos de manufactura electrónica organizada en niveles, en la que cada proceso se acredita con evidencia verificable (equipamiento instalado, registros de producción y de pruebas, personal técnico asignado). Para efectos de la matriz, constituyen procesos de nivel básico la integración de tarjetas o módulos importados ya poblados; de nivel intermedio, el montaje superficial o por inserción de componentes en tarjetas de circuito impreso, las pruebas funcionales en línea y la programación y validación de firmware; y de nivel avanzado, el diseño de hardware o firmware, la ingeniería de pruebas y la fabricación de tarjetas o componentes.' En el art. 3.2 añadir: 'La matriz establece el nivel mínimo exigible para la acreditación.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 8",
+    "problema": "Remite a 'los requisitos de seguridad digital de dispositivos conectados que establezca la normativa vigente', pero en el Perú no existe un régimen general vigente de requisitos de ciberseguridad para dispositivos IoT (la homologación del MTC se refiere a parámetros radioeléctricos). La remisión es vacía y puede crear la falsa apariencia de una obligación. El comparado relevante es el Reglamento (UE) 2024/2847 (Cyber Resilience Act) y la norma ETSI EN 303 645.",
+    "correccion": "Sustituir la segunda parte del art. 8 por: '...y, cuando se trate de dispositivos con conectividad, a la homologación de equipos de telecomunicaciones a cargo del Ministerio de Transportes y Comunicaciones y a los requisitos de seguridad digital que se aprueben conforme a la ley de la materia.' Coordinar con la propuesta que regule el periodo de actualizaciones de seguridad (CIB-07)."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 6.2",
+    "problema": "La publicación 'agregada por sector y por ZEEP' revela datos individuales cuando en una ZEEP opera un solo usuario del sector (situación probable en los primeros años, p. ej., una única ZEEP con un único ensamblador). Esto puede vulnerar la reserva tributaria (art. 2.5 de la Constitución; art. 85 del Código Tributario) y el secreto comercial, que el propio artículo quiere proteger.",
+    "correccion": "Añadir al art. 6.2: 'No se publica la información de una celda que agregue menos de tres usuarios o en la que un solo usuario represente más del 80% del valor; en ese caso se agrega al nivel superior.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 5",
+    "problema": "Los ensayos mencionados son correctos (EMC, seguridad eléctrica, eficiencia), pero omiten los ensayos de radiofrecuencia exigidos para la homologación del MTC y la acreditación conforme a ISO/IEC 17025, que es la norma que hace reconocibles los resultados en el extranjero.",
+    "correccion": "Redactar: 'El INACAL [...] promueve la acreditación, conforme a la norma ISO/IEC 17025, de laboratorios [...] en compatibilidad electromagnética, radiofrecuencia, seguridad eléctrica y eficiencia energética [...]'."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "D.S. 005-2026-MINCETUR (adecuación de la acreditación de procesos)"
+   ],
+   "entidades_implicadas": [
+    "MTC — homologación de equipos de telecomunicaciones",
+    "SUNAT — insumo de información sobre uso de beneficios"
+   ],
+   "impacto_economico": "Un umbral de nivel intermedio (SMT + pruebas + firmware) exige inversión en líneas SMT (orden de US$ 0,5–2 millones por línea, según configuración; estimación referencial), lo que puede reducir el número de usuarios pero eleva el empleo técnico por unidad de gasto tributario."
+  }
+ },
+ {
+  "id": "SOB-03",
+  "especialidad": "derecho_tecnologico",
+  "veredicto": "observaciones",
+  "resumen": "Cubre vacíos reales del D.S. 012-2026-MTC (emergencias, aplicación agrícola, identificación remota, UTM). Sin embargo, la identificación remota se refiere a 'estándares de la OACI' que no existen como norma técnica específica, restringe el uso de una señal que técnicamente es de difusión abierta, y la tipificación de infracciones debe coordinarse con el Reglamento de Infracciones y Sanciones Aeronáuticas que el propio D.S. 012-2026-MTC ordena actualizar. El régimen de emergencias depende de una declaratoria formal que llega tarde en la respuesta inicial.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3 (art. 4-A.1 incorporado)",
+    "problema": "La OACI no ha aprobado una norma (SARP) específica de identificación remota para RPAS de categorías abierta/específica; sus Model UAS Regulations son orientativas. Los estándares técnicos operativos son ASTM F3411-22a (Remote ID y seguimiento), ASD-STAN EN 4709-002 (UE, Reglamento Delegado (UE) 2019/945) y el formato del 14 CFR Part 89 de la FAA. Una remisión exclusiva a la OACI deja sin base técnica la especificación y puede impedir el uso de módulos comerciales disponibles (art. transitorio). Además, el texto exige 'número de registro'; los estándares transmiten número de serie del equipo o ID de operador, y el vínculo con el registro se hace en la base de datos de la autoridad.",
+    "correccion": "Sustituir el final del 4-A.1 por: '...una señal de identificación remota por difusión directa y, cuando la DGAC lo disponga, por red, que permita conocer, como mínimo, el identificador de la aeronave o del operador, su posición, altitud, velocidad y la ubicación de la estación de pilotaje o del punto de despegue, conforme a las especificaciones que apruebe la DGAC con base en estándares internacionales reconocidos, tales como los de la Organización de Aviación Civil Internacional, ASTM F3411 o EN 4709-002, sin exigir un fabricante o tecnología determinados.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3 (art. 4-A.2 incorporado)",
+    "problema": "La identificación remota por difusión (Bluetooth/Wi-Fi Beacon) es, por diseño, recibible por cualquier teléfono; prohibir que 'solo las autoridades' utilicen la información es técnicamente inejecutable y, leído literalmente, convertiría en infractor a cualquier ciudadano que vea la señal en una aplicación. Lo que debe protegerse es la vinculación del identificador con los datos personales del registro y la ubicación del piloto.",
+    "correccion": "Reemplazar el 4-A.2 por: '4-A.2 La información difundida no contiene datos personales del propietario ni del piloto. La vinculación del identificador con los datos del registro solo puede ser efectuada por las autoridades aeronáuticas, policiales, fiscales y judiciales en el ejercicio de sus funciones. Está prohibido utilizar la ubicación de la estación de pilotaje para hostigar o agredir al piloto.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3 (art. 5-A.1 incorporado)",
+    "problema": "Condicionar la operación sin autorización previa a 'la vigencia de un estado de emergencia o de una emergencia declarada conforme a la Ley 29664' excluye la fase de respuesta inmediata (primeras horas de un huaico, búsqueda de personas desaparecidas, incendio forestal), que ocurre antes de cualquier declaratoria por decreto supremo. Además, en espacio aéreo controlado la coordinación operativa en tiempo real corresponde a la dependencia ATS de CORPAC, no a la DGAC como autoridad administrativa; un plazo de 'dos horas' para una resolución administrativa es inadecuado para búsqueda y rescate.",
+    "correccion": "Redactar: '5-A.1 [...] pueden operar RPAS [...] durante una emergencia o desastre en curso, registrada por el Centro de Operaciones de Emergencia competente, o durante la vigencia de un estado de emergencia, mediante comunicación previa electrónica a la DGAC [...]. En espacio aéreo controlado, la operación se coordina directamente con la dependencia de servicios de tránsito aéreo competente, que la autoriza o deniega en tiempo real conforme al protocolo; en zonas prohibidas se requiere autorización de la DGAC, que resuelve en un plazo máximo de dos horas.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 4 (art. 6 modificado) y Disposición Complementaria Final Primera",
+    "problema": "El D.S. 012-2026-MTC dispone que el MTC actualice en un plazo de dos años el Reglamento de Infracciones y Sanciones Aeronáuticas para incluir conductas vinculadas a RPA/RPAS. La ley fija su propio catálogo y escala sin articularse con dicho reglamento ni con el régimen sancionador de la Ley 27261, lo que puede generar doble tipificación y escalas incongruentes (p. ej., poner en peligro una aeronave tripulada sancionado con máximo 20 UIT por esta ley y con otra escala por la Ley 27261).",
+    "correccion": "Añadir al art. 6 el numeral 6.5: 'Las infracciones tipificadas en el presente artículo se incorporan al Reglamento de Infracciones y Sanciones Aeronáuticas; cuando una misma conducta esté tipificada en la Ley 27261, se aplica la sanción prevista en la presente ley como norma especial.' Y en la DCF Primera agregar: 'y adecúa el Reglamento de Infracciones y Sanciones Aeronáuticas'."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3 (art. 5-B incorporado)",
+    "problema": "La aplicación de plaguicidas con drones no solo requiere registro del aplicador: el producto debe tener autorizado en su etiqueta el uso por vía aérea y las dosis/volúmenes de aplicación (ULV), conforme a la Decisión 804 de la Comunidad Andina y al Reglamento del Sistema Nacional de Plaguicidas de Uso Agrícola. Además, la DCF Primera refiere al 'Ministerio de Desarrollo Agrario y Riego', denominación correcta, pero SENASA es el que aprueba las condiciones; falta el refrendo del MINAM si se regulan distancias respecto de áreas naturales protegidas.",
+    "correccion": "Añadir al 5-B.1: '...y solo puede emplear productos cuyo registro autorice la aplicación aérea, conforme a la Decisión 804 de la Comunidad Andina y a la normativa nacional de plaguicidas de uso agrícola.' En el 5-B.2 agregar: 'previa opinión del Servicio Nacional de Áreas Naturales Protegidas por el Estado respecto de dichas áreas'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 6 (art. 7-A incorporado)",
+    "problema": "El marco UTM/U-space requiere espectro para enlaces de mando y control (C2) y para servicios de red; omitir al órgano de gestión del espectro deja una dependencia sin asignar. El comparado correcto es el Reglamento de Ejecución (UE) 2021/664 (U-space), que conviene citar en referencias internacionales.",
+    "correccion": "Añadir el numeral 7-A.4: 'El Ministerio de Transportes y Comunicaciones, a través del órgano competente en gestión del espectro, identifica las bandas de frecuencias para los enlaces de mando y control y los servicios digitales de tránsito.' Incorporar en referencias internacionales el Reglamento de Ejecución (UE) 2021/664."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Reglamento de Infracciones y Sanciones Aeronáuticas (adecuación)",
+    "Decisión 804 CAN y Reglamento del Sistema Nacional de Plaguicidas de Uso Agrícola (concordancia)"
+   ],
+   "entidades_implicadas": [
+    "CORPAC — proveedor ATS y potencial proveedor UTM",
+    "SERNANP — opinión en distancias de aplicación",
+    "INDECI/COEN — registro de la emergencia en curso"
+   ],
+   "impacto_economico": "Módulos de identificación remota de difusión cuestan en el mercado internacional del orden de US$ 30–300 por unidad (referencial); la gradualidad de 24 meses es razonable. Un servicio UTM inicial puede operarse en régimen de ensayo sin inversión pública si se habilita a proveedores privados certificados."
+  }
+ },
+ {
+  "id": "SOB-04",
+  "especialidad": "derecho_tecnologico",
+  "veredicto": "observaciones",
+  "resumen": "Correctamente construida sobre el D.S. 022-2020-EM y el D.S. 036-2023-EM (reglamento de la infraestructura de carga, publicado el 31-dic-2023) y alineada con el Reglamento (UE) 2023/1804 (AFIR). Requiere precisar el estándar de protocolo abierto (OCPP/OCPI) sin rigidez, evitar que el mandato de conectores deje fuera tecnologías presentes en el parque peruano, escalonar el pago ad hoc por potencia y fijar la seguridad eléctrica y la medición en el derecho de instalación en condominios.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3.1",
+    "problema": "'Protocolos de comunicación abiertos' es correcto como principio de neutralidad, pero sin referencia mínima permite que se invoque cualquier API propietaria publicada. El estándar de facto para gestión remota punto–sistema es OCPP (Open Charge Alliance; versiones 1.6J y 2.0.1, esta última en proceso de estandarización como IEC 63584) y para itinerancia entre operadores OCPI; el AFIR (art. 5 y Reglamento Delegado (UE) 2025/656) los usa como referencia. En conectores, el D.S. 036-2023-EM ya fija estándares de carga: la ley debe remitirse a ellos y no abrir un segundo proceso con el INACAL que pueda desalinear la norma, y debe permitir conectores adicionales (p. ej., GB/T, presente en el parque de marcas chinas) siempre que exista al menos un conector estándar.",
+    "correccion": "Sustituir el art. 3.1 por: '3.1 Los puntos de carga de acceso público que se instalen a partir de la vigencia del reglamento cuentan con, al menos, un conector de los estándares aprobados en el reglamento de la infraestructura de carga, sin perjuicio de conectores adicionales, y utilizan protocolos de comunicación abiertos, públicamente documentados y de libre implementación, que permitan su gestión remota y la itinerancia entre operadores. El reglamento indica los protocolos de referencia y sus versiones mínimas.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 4.1 y Disposición Complementaria Transitoria Única",
+    "problema": "Exigir pago ad hoc con 'medio de pago electrónico de uso general' a todos los puntos públicos, incluidos los cargadores AC de baja potencia existentes, impone el reacondicionamiento con lectores de tarjeta en 12 meses. El AFIR (art. 5.1) distingue: lector de tarjetas o dispositivo sin contacto para puntos nuevos ≥ 50 kW, y admite códigos QR/enlace web para los de menor potencia. Sin escalonamiento, el costo puede llevar a retirar cargadores lentos existentes (efecto no deseado).",
+    "correccion": "Redactar: '4.1 [...] El pago ad hoc puede realizarse mediante lector de tarjetas, dispositivo sin contacto o código de acceso a una página de pago sin registro previo. Para los puntos de carga nuevos con potencia igual o superior a la que fije el reglamento, se exige lector de tarjetas o dispositivo sin contacto.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 6.1 y 6.3",
+    "problema": "El derecho de instalación no exige el cumplimiento del Código Nacional de Electricidad – Utilización ni una medición individual del consumo. Si el cargador se conecta al tablero de áreas comunes, el consumo lo paga la junta (conflicto que la ley quiere evitar); un cargador de 7,4 kW sin gestión de carga puede superar la potencia contratada del edificio cuando varios propietarios ejercen el derecho.",
+    "correccion": "Sustituir el 6.1 por: '6.1 [...] puede instalar, a su costo, un punto de carga para uso propio, conectado a su suministro individual o con medidor propio, conforme al Código Nacional de Electricidad – Utilización, previa comunicación [...] acompañada del proyecto suscrito por ingeniero electricista o mecánico-electricista habilitado.' Añadir el 6.4: 'Cuando la capacidad eléctrica del edificio sea limitada, la junta puede exigir un sistema de gestión dinámica de carga, sin que ello constituya oposición.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 5.2",
+    "problema": "La disponibilidad 'en tiempo real' requiere que el operador transmita estado del punto a OSINERGMIN mediante una interfaz definida; sin estándar de datos, cada operador enviará formatos distintos. El comparado (AFIR art. 20; Reglamento Delegado (UE) 2022/670) exige formato DATEX II o equivalente abierto a través de un punto de acceso nacional.",
+    "correccion": "Añadir al 5.2: 'El OSINERGMIN aprueba el formato abierto de intercambio de datos y la interfaz de transmisión, pudiendo adoptar el modelo de datos de OCPI o equivalente.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 8",
+    "problema": "Las baterías de tracción en el régimen de REP del D.L. 1278 son correctas, pero el régimen especial de RAEE (D.S. 009-2019-MINAM) no está diseñado para baterías de alta tensión con riesgos de embalamiento térmico; la ley debe ordenar condiciones de seguridad para transporte y almacenamiento y priorizar la 'segunda vida' con trazabilidad (pasaporte de batería, cf. Reglamento (UE) 2023/1542).",
+    "correccion": "Añadir: '...priorizando su reutilización, reacondicionamiento para segunda vida, reciclaje y recuperación de materiales, con condiciones de seguridad para su transporte y almacenamiento y la trazabilidad de cada batería desde su importación.' Citar el Reglamento (UE) 2023/1542 en referencias internacionales."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "D.S. 036-2023-EM (adecuación: protocolos, pago ad hoc, datos)",
+    "Código Nacional de Electricidad – Utilización (concordancia, art. 6)",
+    "D.S. 009-2019-MINAM, Régimen especial de RAEE (adecuación para baterías de tracción)"
+   ],
+   "entidades_implicadas": [
+    "Municipalidades — licencias de edificación e instalación (D.S. 036-2023-EM las involucra en fiscalización)"
+   ],
+   "impacto_economico": "Escalonar el pago ad hoc por potencia evita reacondicionar cargadores AC con lectores (orden de US$ 300–800 por unidad, referencial); la gestión dinámica de carga en edificios evita ampliaciones de potencia contratada."
+  }
+ },
+ {
+  "id": "SOB-05",
+  "especialidad": "derecho_tecnologico",
+  "veredicto": "observaciones_graves",
+  "resumen": "Necesaria y bien orientada (consentimiento amplio con control ético, seudonimización, acuerdos de transferencia), pero parte de una premisa técnica errónea: trata los datos genómicos como anonimizables, cuando un genoma es intrínsecamente identificante. Además apoya la participación en beneficios de pueblos indígenas en la Ley 27811, que no comprende material genético humano, y deja fuera a los servicios comerciales de genética directa al consumidor y la cesión de colecciones en fusiones o insolvencia.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículos 4.3, 5.2 y 9",
+    "problema": "La ley prevé como efecto de la revocación la 'destrucción o anonimización' y prohíbe reidentificar datos 'anonimizados'. Los datos genómicos individuales (secuencias, genotipos densos) no pueden anonimizarse en sentido técnico: bastan decenas de SNP independientes para identificar a una persona, y se ha demostrado la reidentificación por inferencia de apellido con bases genealógicas (Gymrek et al., Science 339, 2013) y la identificación de terceros por familiares en bases de genealogía. Tratar estos datos como anonimizados los sacaría del ámbito de la Ley 29733 (que no se aplica a datos anonimizados) y desprotegería a los titulares y a sus parientes biológicos.",
+    "correccion": "Añadir al art. 5 el numeral 5.4: 'Los datos genómicos individuales se consideran datos personales aun cuando hayan sido seudonimizados; solo se consideran anonimizados los resultados agregados que, conforme a la evaluación de riesgo de reidentificación que apruebe el reglamento, no permitan inferir información de individuos ni de sus familiares biológicos.' En el art. 4.3 sustituir 'con efecto de destrucción o anonimización de la muestra y de sus datos' por 'con efecto de destrucción de la muestra y de exclusión de sus datos de nuevos análisis y transferencias, salvo respecto de resultados agregados ya generados o publicados'."
+   },
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 8.2",
+    "problema": "La Ley 27811 regula los conocimientos colectivos de los pueblos indígenas vinculados a recursos BIOLÓGICOS; el material genético humano está excluido del régimen de acceso a recursos genéticos (Decisión 391 de la CAN, art. 4, literal c) y del Protocolo de Nagoya. Basar la participación en beneficios en la Ley 27811 crea una remisión inaplicable que la autoridad no podrá ejecutar.",
+    "correccion": "Sustituir el 8.2 por: '8.2 Los acuerdos de transferencia que comprendan muestras o datos de pueblos indígenas u originarios prevén la participación justa y equitativa en los beneficios derivados, en las modalidades que acuerden con sus organizaciones representativas, en concordancia con el Convenio 169 de la OIT y la Declaración Internacional sobre los Datos Genéticos Humanos de la UNESCO. El reglamento establece contenidos mínimos de dichos acuerdos.' Retirar la Ley 27811 de 'efecto_vigencia' o indicar que se cita solo por analogía."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 2.1",
+    "problema": "El ámbito se limita a fines de 'investigación o salud pública'. Quedan fuera las empresas de pruebas genéticas directas al consumidor (ancestría, bienestar) que operan en el Perú o desde el extranjero, cuya base de datos es el principal riesgo de reutilización comercial y de venta en procesos de insolvencia (caso 23andMe, EE. UU., 2025). Tampoco se regula la cesión de una colección en una fusión, adquisición o liquidación.",
+    "correccion": "Añadir el numeral 2.4: '2.4 Los artículos 5, 6 y 7 y el régimen sancionador se aplican también a quienes ofrezcan en el territorio nacional servicios de análisis genético directos al consumidor.' Y en el art. 7 incorporar el 7.4: 'La cesión de una colección de muestras o datos genéticos por fusión, escisión, adquisición, quiebra o liquidación requiere comunicación previa al Registro Nacional de Biobancos y al titular de los datos, quien puede ejercer la revocación del artículo 4.3; el cesionario queda sujeto a las mismas finalidades y consentimientos.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 6.2 y Artículo 10.3",
+    "problema": "(i) Los seguros de salud no los ofrecen solo las empresas de seguros supervisadas por la SBS: las EPS y demás IAFAS son supervisadas por SUSALUD (D.L. 1158); sin incluirla, la prohibición no tiene supervisor para buena parte del mercado. (ii) La referencia comparada es imprecisa: GINA (EE. UU.) prohíbe el uso de información genética en seguros de SALUD y empleo, no en seguros de vida; el Reino Unido usa un código con umbrales para vida. Prohibir todo uso en seguros de vida de cualquier monto puede generar selección adversa en pólizas de alto valor (efecto no deseado que el MEF/SBS objetará).",
+    "correccion": "En el 10.3 agregar: 'la Superintendencia Nacional de Salud supervisa el cumplimiento del artículo 6.2 por las Instituciones Administradoras de Fondos de Aseguramiento en Salud'. En el 6.2 añadir: 'En seguros de vida, la prohibición se aplica a las pólizas con suma asegurada inferior al umbral que fije la Superintendencia de Banca, Seguros y AFP, la que en ningún caso puede autorizar la exigencia de pruebas genéticas predictivas.' Corregir en la exposición la descripción de GINA (salud y empleo)."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 9 y Artículo 3.2",
+    "problema": "'Entornos seguros de acceso a datos' es correcto, pero faltan referencias técnicas para acceso controlado interoperable: los marcos de la Global Alliance for Genomics and Health (Framework for Responsible Sharing; Data Use Ontology; GA4GH Passports) y el modelo de entornos de tratamiento seguro del Reglamento (UE) 2025/327 (Espacio Europeo de Datos de Salud). Además, la inscripción de comités de ética debe remitirse al registro que el INS ya administra para ensayos clínicos para no duplicar.",
+    "correccion": "Añadir al art. 9: 'El reglamento adopta estándares abiertos internacionales de descripción de condiciones de uso y de autorización de acceso que permitan la interoperabilidad con repositorios extranjeros.' En el 3.2 precisar: 'comité de ética en investigación inscrito en el registro que administra el INS'."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "D.L. 1158 (SUSALUD) — concordancia para IAFAS",
+    "Reglamento de Ensayos Clínicos (D.S. 021-2017-SA) — concordancia con registro de comités de ética"
+   ],
+   "entidades_implicadas": [
+    "SUSALUD — supervisora del art. 6.2 respecto de IAFAS",
+    "SERNANP/MINAM no aplican: excluir de referencias a bioseguridad OVM salvo concordancia"
+   ],
+   "impacto_economico": "Extender el ámbito a pruebas directas al consumidor no genera gasto público adicional relevante y reduce el riesgo de transferencias masivas no controladas de datos genéticos de peruanos."
+  }
+ },
+ {
+  "id": "SOB-06",
+  "especialidad": "derecho_tecnologico",
+  "veredicto": "observaciones",
+  "resumen": "Técnicamente bien fundada (FIPS 203/204, NIST IR 8547, Public Law 117-260) y con metas razonables (2032/2035, coherentes con el calendario NIST de desaprobación 2030 y retiro 2035). Omite a RENIEC como ECERNEP y emisor del DNIe, cuyo chip es el activo criptográfico más difícil de migrar; debe exigir agilidad e hibridación, cubrir la criptografía simétrica y la preservación a largo plazo con estándares precisos, y evitar que la promoción de comunicaciones cuánticas se lea como sustituto de la PQC.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 3.1, Artículo 5 b) y Artículo 7",
+    "problema": "No se menciona al RENIEC, que es la Entidad de Certificación Nacional para el Estado Peruano (ECERNEP) y la Entidad de Registro de la IOFE, y emite el DNI electrónico, cuyos certificados de autenticación y firma residen en un chip con algoritmos RSA/ECC. La migración del DNIe exige sustituir físicamente las tarjetas (ciclo de 8 años) y los lectores/middleware; sin incluir al RENIEC en la hoja de ruta y en la priorización, la meta de 2032 para 'identidad digital y firma digital' es inviable. El RENIEC es organismo constitucionalmente autónomo (art. 2.2 de la propuesta), por lo que su adhesión no puede quedar como mera facultad.",
+    "correccion": "En el art. 3.1 añadir 'y con el Registro Nacional de Identificación y Estado Civil (RENIEC), en su calidad de Entidad de Certificación Nacional para el Estado Peruano'. Incorporar el art. 7.3: '7.3 El RENIEC, en el marco de su autonomía y de la Ley 27269, aprueba y publica un plan de migración de los certificados del documento nacional de identidad electrónico y de la ECERNEP, compatible con la hoja de ruta, que prevea la emisión de nuevos documentos con capacidad criptográfica poscuántica o híbrida en sus ciclos ordinarios de renovación.' (Precisar que por tocar un organismo constitucionalmente autónomo debe verificarse si se requiere modificar su ley orgánica, Ley 26497.)"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3.2",
+    "problema": "La hoja de ruta 'establece los algoritmos y estándares recomendados', pero la ley no fija principios mínimos que la comunidad técnica considera esenciales: (i) uso de esquemas híbridos (clásico + poscuántico) durante la transición, recomendados por ANSSI (Francia) y BSI (Alemania) y ya desplegados en TLS (X25519MLKEM768); (ii) agilidad criptográfica; y (iii) revisión de la criptografía simétrica y de hash (AES-256, SHA-384 o superiores), que el art. 4 excluye del inventario al limitarlo a clave pública.",
+    "correccion": "Sustituir el 3.2 por: '3.2 La hoja de ruta establece, con base en estándares internacionales abiertos, tales como los publicados por el NIST, la ISO/IEC y el IETF: a) los algoritmos de establecimiento de claves y de firma resistentes a la computación cuántica; b) el uso de esquemas híbridos durante la transición, cuando corresponda; c) las longitudes mínimas de claves simétricas y funciones resumen; d) las fases, criterios de priorización y mecanismos de seguimiento. Se actualiza cada dos años.' En el art. 4.1 sustituir 'que emplean criptografía de clave pública' por 'que emplean criptografía, con énfasis en la de clave pública'."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 7.2",
+    "problema": "'Mecanismos de preservación, resellado o refirma conforme al reglamento' es correcto en concepto pero impreciso. Los estándares aplicables son las firmas con formato de larga duración (CAdES/XAdES/PAdES nivel LTA, ETSI EN 319 122/132/142), los registros de evidencia (RFC 4998, Evidence Record Syntax) y los servicios de preservación (ETSI TS 119 511/512). Además, deben resellarse los documentos firmados con algoritmos vulnerables ANTES de que estos se consideren rotos; si se espera, el resello ya no prueba la integridad.",
+    "correccion": "Redactar: '7.2 Los documentos firmados digitalmente conservan su validez jurídica. Las entidades que custodian documentos firmados de conservación prolongada aplican, antes de que los algoritmos empleados sean declarados inseguros en la hoja de ruta, sellos de tiempo o registros de evidencia con algoritmos vigentes, conforme a los estándares técnicos de preservación de firmas que apruebe el INDECOPI.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 9",
+    "problema": "La promoción de 'comunicaciones' cuánticas (QKD) puede leerse como alternativa a la migración a PQC. Las agencias de seguridad (NSA, ANSSI, BSI, NCSC) no recomiendan la QKD como sustituto: no autentica por sí misma, exige enlaces dedicados y tiene limitaciones de distancia.",
+    "correccion": "Añadir al final del art. 9: 'La investigación en distribución cuántica de claves no sustituye la migración a algoritmos poscuánticos prevista en la presente ley.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 4.2 y 4.3",
+    "problema": "Plazo de 18 meses posterior a la hoja de ruta (es decir, ~30 meses desde la vigencia) es realista, pero la ley no aprovecha victorias tempranas sin costo: la habilitación del intercambio de claves híbrido en servidores TLS de dominios gob.pe ya es soportada por navegadores y bibliotecas actuales. Además, el inventario consolidado en la SGTD es un activo de alto valor para atacantes; debe exigirse su custodia cifrada y control de acceso.",
+    "correccion": "Añadir el 4.4: 'La Secretaría custodia los inventarios con controles de acceso, cifrado y registro de accesos.' Añadir al art. 8: 'La hoja de ruta prioriza la habilitación del establecimiento de claves híbrido o poscuántico en los servicios web públicos, en la medida en que el software disponible lo permita.'"
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 26497, Ley Orgánica del RENIEC (verificar si se requiere habilitación expresa)",
+    "Reglamento de la Ley 27269, D.S. 052-2008-PCM (requisitos de acreditación)"
+   ],
+   "entidades_implicadas": [
+    "RENIEC — ECERNEP y emisor del DNIe",
+    "Ministerio de Defensa / Comando Conjunto — Ley 30999 de Ciberdefensa (comunicaciones de defensa)"
+   ],
+   "impacto_economico": "El componente más costoso es la sustitución del DNIe y de lectores; si se acopla al ciclo ordinario de renovación, el sobrecosto se limita a la diferencia de chip. El inventario y la hoja de ruta (S/ 3–9 millones) son razonables como orden de magnitud."
+  }
+ },
+ {
+  "id": "SOB-07",
+  "especialidad": "derecho_tecnologico",
+  "veredicto": "observaciones",
+  "resumen": "Propuesta viable y sin duplicidades relevantes: usa la red CITE (D.L. 1228), ProInnóvate y metas indicativas. Las observaciones son de precisión técnica: falta exigir interoperabilidad abierta (evitar dependencia de un fabricante en las celdas de demostración), ciberseguridad industrial (la conexión IIoT abre superficie de ataque en MIPYME sin capacidades) y referencias a las normas de seguridad de robots vigentes.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3.1, literal a), y Artículo 5",
+    "problema": "Las celdas de demostración, si se adquieren de un solo fabricante con protocolos propietarios, inducen a la MIPYME a adoptar ese ecosistema y vulneran la neutralidad tecnológica que exige la propia contratación pública. La interoperabilidad industrial cuenta con estándares abiertos (OPC UA, IEC 62541; MQTT, ISO/IEC 20922).",
+    "correccion": "Añadir al art. 3 el numeral 3.4: 'Las celdas de demostración se configuran, en lo posible, con equipos de distintos fabricantes y con protocolos de comunicación industrial abiertos e interoperables, de modo que no se induzca la adopción de una marca determinada.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3.1, literales b) y c)",
+    "problema": "La conexión de máquinas a redes (IIoT, gemelos digitales) expone a la MIPYME a ransomware y sabotaje de sistemas OT, sin que el diagnóstico ni la asistencia técnica incluyan ciberseguridad industrial. Es un efecto no deseado previsible.",
+    "correccion": "En el literal b) añadir 'incluida la ciberseguridad de los sistemas de control industrial', y en el literal c) añadir 'con medidas básicas de ciberseguridad conforme a la serie de normas IEC 62443 o las normas técnicas peruanas equivalentes'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 8",
+    "problema": "'Normas internacionales de seguridad de robots' es genérico; las de referencia son ISO 10218-1 y 10218-2 (edición 2025, que integra los requisitos de robots colaborativos antes contenidos en ISO/TS 15066). Precisarlo facilita al INACAL priorizar su adopción como NTP.",
+    "correccion": "Sustituir el final del art. 8 por: '...promueve la adopción de normas técnicas peruanas armonizadas con las normas ISO 10218 sobre seguridad de robots industriales y de aplicaciones colaborativas y con la serie IEC 62443 sobre ciberseguridad industrial.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 4.1",
+    "problema": "'Alineada con referencias internacionales' no identifica ninguna; existen índices abiertos y comparables (Smart Industry Readiness Index — SIRI, del Singapore EDB/INCIT; acatech Industrie 4.0 Maturity Index). Adoptar uno abierto permite comparar la línea de base peruana. Además, los diagnósticos individuales contienen información empresarial confidencial.",
+    "correccion": "Añadir al 4.1: '...tomando como referencia índices internacionales abiertos de madurez de la manufactura. Los resultados individuales son confidenciales y solo se usan en forma agregada o con autorización de la empresa.'"
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [],
+   "entidades_implicadas": [
+    "INACAL — adopción de NTP ISO 10218 e IEC 62443",
+    "SGTD/CNSD — orientación en ciberseguridad para MIPYME"
+   ],
+   "impacto_economico": "Una celda de demostración multifabricante cuesta del orden de S/ 1–3 millones (referencial); el rango S/ 4–12 millones para 2027-2031 es coherente con 3–4 celdas."
+  }
+ },
+ {
+  "id": "SOB-08",
+  "especialidad": "derecho_tecnologico",
+  "veredicto": "observaciones",
+  "resumen": "Diseño compatible con los acuerdos comerciales y con buenas prácticas (especificaciones funcionales, lotes, consultas al mercado). Desde la técnica tecnológica falta: exceptuar de la publicación anticipada la demanda sensible de seguridad digital, defensa e inteligencia; exigir cláusulas de salida y portabilidad para evitar dependencia de proveedor; y articular la 'consulta abierta' con las figuras de interacción con el mercado ya previstas en la Ley 32069 y su reglamento para no duplicar.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 4.1",
+    "problema": "Publicar en formato abierto la previsión anual con descripción funcional y cantidades de equipamiento de comunicaciones, sensores y software de las entidades de defensa, inteligencia, PNP, INPE o de operadores de activos críticos revela a atacantes la arquitectura tecnológica prevista y sus plazos de renovación (riesgo de seguridad).",
+    "correccion": "Añadir el 4.3: 'No se publica la previsión de contrataciones calificadas como secretas, reservadas o confidenciales conforme al TUO de la Ley 27806, ni la que permita inferir vulnerabilidades o la arquitectura de seguridad de sistemas de entidades de defensa, orden interno, inteligencia o de activos críticos nacionales; en tales casos se publica solo el monto agregado.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 5.2 (nuevo numeral) ",
+    "problema": "La ley promueve la competencia en la adjudicación, pero no impide que, una vez contratado, el Estado quede cautivo del proveedor por formatos cerrados, ausencia de documentación o costos de salida, lo que anula el efecto procompetitivo en las siguientes convocatorias (dependencia de proveedor). Es la causa principal de 'postores únicos' en renovaciones de software.",
+    "correccion": "Añadir el numeral 5.3: '5.3 Los contratos de software y servicios digitales incluyen obligaciones de entrega de los datos de la entidad en formatos abiertos y documentados, de documentación técnica suficiente y de asistencia para la transición a un nuevo proveedor al término del contrato.' Concordar con la propuesta de titularidad del software financiado con fondos públicos (GOB-03)."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 5.1",
+    "problema": "La Ley 32069 y su reglamento (D.S. 009-2025-EF) ya prevén actuaciones previas de interacción con el mercado para la determinación del requerimiento y del valor estimado; crear una 'consulta abierta al mercado' adicional sin articulación puede duplicar etapas. No se verificó en esta revisión el artículo exacto; el editor debe constatarlo.",
+    "correccion": "Redactar: '5.1 Para contrataciones de bienes y servicios tecnológicos cuyo valor estimado supere el umbral que fije el reglamento, la interacción con el mercado prevista en la Ley 32069 y su reglamento se realiza mediante consulta abierta publicada en la Pladicop, con publicación de su resultado.'"
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "D.S. 009-2025-EF, Reglamento de la Ley 32069 (adecuación)"
+   ],
+   "entidades_implicadas": [
+    "Perú Compras — catálogos electrónicos (art. 8.2)",
+    "SGTD — lineamientos de formatos abiertos para salida de contratos"
+   ],
+   "impacto_economico": "Las cláusulas de salida reducen el costo de cambio de proveedor, principal fuente de sobreprecio en renovaciones de software; no son cuantificables con información pública."
+  }
+ }
+]

@@ -28,22 +28,30 @@
   $("#sh-copy").onclick = async (ev) => { try { await navigator.clipboard.writeText(url); ev.target.textContent = "✅ Copiado"; } catch (_) { ev.target.textContent = url; } };
 
   // ---- datos livianos (todas las páginas) + prioridad (si existe)
-  const [D, PR] = await Promise.all([json("data/indice.json"), json("data/prioridad.json")]);
-  if (!D) return;
-  const P = D.propuestas, EJES = D.meta.ejes, PLAN = D.plan2050;
+  // portada y visión: resumen liviano (home.json); listados: índice completo; buscador/asistente: índice perezoso
+  const LIVIANO = PAGE === "index" || PAGE === "vision";
+  const [D, PRfull, H] = await Promise.all([LIVIANO ? null : json("data/indice.json"), PAGE === "vision" ? json("data/prioridad.json") : null, LIVIANO ? json("data/home.json") : null]);
+  if (!D && !H) return;
+  const EJES = (D || H).meta.ejes, PLAN = D ? D.plan2050 : {};
+  let P = D ? D.propuestas : H.nodos.map(([id, eje, titulo_corto, prioridad, costo_fiscal]) => ({ id, eje, titulo_corto, prioridad, costo_fiscal }));
+  const PR = PRfull || (H && Object.keys(H.score).length ? { ranking: Object.entries(H.score).map(([id, score]) => ({ id, score })), aristas: H.aristas,
+    olas: Object.fromEntries(Object.entries(H.olas).map(([k, o]) => [k, { nombre: o.nombre, ids: Object.keys(H.ola).filter((i) => H.ola[i] === k) }])) } : null);
   const ejeById = Object.fromEntries(EJES.map((e) => [e.id, e]));
-  const byId = Object.fromEntries(P.map((p) => [p.id, p]));
+  let byId = Object.fromEntries(P.map((p) => [p.id, p]));
+  let FULL = D ? D.propuestas : null;
+  const cargarIndice = async () => { if (!FULL) { const d = await json("data/indice.json"); FULL = d ? d.propuestas : []; prep(FULL); } return FULL; };
   const score = Object.fromEntries(((PR && PR.ranking) || []).map((r) => [r.id, r.score]));
   const ola = {};
   Object.entries((PR && PR.olas) || {}).forEach(([k, o]) => (o.ids || []).forEach((id) => (ola[id] = k)));
-  $("#upd").textContent = D.meta.actualizado;
+  $("#upd").textContent = (D || H).meta.actualizado;
   const L = (p) => `<a href="p/${p.id}.html"><b>${p.id}</b></a> ${esc(p.titulo_corto)}`;
   const ejeTag = (p) => `<span class="pid" style="color:${ejeById[p.eje].color}">${esc(p.id)}</span>`;
 
   // ---- buscador (índice + texto completo perezoso)
   let TX = null;
-  const cargarTexto = async () => { if (!TX) { const t = await json("data/texto.json"); TX = {}; P.forEach((p) => (TX[p.id] = { raw: (t && t[p.id]) || "", n: norm((t && t[p.id]) || "") })); } return TX; };
-  P.forEach((p) => { p._t = norm([p.id, p.titulo, p.titulo_corto].join(" ")); p._s = norm([p.sumilla, p.tags.join(" "), p.arts.join(" "), p.ent.map((e) => e[0]).join(" ")].join(" ")); });
+  function prep(L) { L.forEach((p) => { p._t = norm([p.id, p.titulo, p.titulo_corto].join(" ")); p._s = norm([p.sumilla, (p.tags || []).join(" "), (p.arts || []).join(" "), (p.ent || []).map((e) => e[0]).join(" ")].join(" ")); }); }
+  if (FULL) prep(FULL);
+  const cargarTexto = async () => { const L = await cargarIndice(); if (!TX) { const t = await json("data/texto.json"); TX = {}; L.forEach((p) => (TX[p.id] = { raw: (t && t[p.id]) || "", n: norm((t && t[p.id]) || "") })); } return TX; };
   const STOP = new Set("de la el los las y o a en que con por para del un una se su sus es al lo como mas sobre hay cual cuales me mi te tu le les esta este estas estos ley leyes propuesta propuestas proponen propone ayudaria ayuda quien quienes cuanto cuesta costaria algo alguna alguno tema temas dime quiero saber".split(" "));
   const SINON = { robo: ["hurto", "imei", "sustraccion"], celular: ["movil", "imei", "linea", "sim"], celulares: ["movil", "imei", "linea", "sim"],
     estafa: ["fraude", "suplantacion"], estafas: ["fraude", "suplantacion"], internet: ["banda", "conectividad"], colegio: ["escuela", "educacion"],
@@ -54,7 +62,7 @@
   function buscar(q, k = 12) {
     const ws = palabras(q).flatMap((w) => [w, ...(SINON[w] || [])]);
     if (!ws.length) return [];
-    return P.map((p) => {
+    return (FULL || []).map((p) => {
       let sc = 0;
       for (const w of ws) {
         const r = raiz(w);
@@ -101,16 +109,17 @@
   function responder(q) {
     const nq = norm(q);
     const idm = q.toUpperCase().match(/\b(IA|CIB|GOB|CON|ECO|TAL|SOB|DER)-?(\d{1,2})\b/);
-    let foco = idm ? byId[`${idm[1]}-${idm[2].padStart(2, "0")}`] : null;
+    const F = Object.fromEntries((FULL || []).map((p) => [p.id, p]));
+    let foco = idm ? F[`${idm[1]}-${idm[2].padStart(2, "0")}`] : null;
     if (/propong|proponer|mi propia|mi idea|registrar/.test(nq)) return 'Puedes proponer tu propia ley en <a href="ciudadania.html">Ciudadanía → Propón una ley</a>: queda registrada, se revisa y, si procede, se incorpora a la agenda.';
     if (/present|tramit|congresista|diputad|senad|firmas|como se aprueba/.test(nq) && !idm)
       return 'Se presenta en la <b>Cámara de Diputados</b> (un diputado, el Ejecutivo o con firmas ciudadanas: 0.3% del padrón), va a comisión (hasta 60 días hábiles), al Pleno y luego al <b>Senado</b>. Paso a paso en <a href="tramite.html">Cómo se tramita</a>.';
     if (/urgent|primero|priori|crecer|crecimiento|import/.test(nq) && !idm && Object.keys(score).length) {
-      const t = P.filter((p) => ola[p.id] === Object.keys(PR.olas)[0]).sort((a, b) => (score[b.id] || 0) - (score[a.id] || 0)).slice(0, 6);
+      const t = (FULL || []).filter((p) => ola[p.id] === Object.keys(PR.olas)[0]).sort((a, b) => (score[b.id] || 0) - (score[a.id] || 0)).slice(0, 6);
       return `Para liderar el crecimiento al 2036, el panel prospectivo recomienda empezar por:<br>${t.map((p) => "• " + L(p)).join("<br>")}<br>Detalle en <a href="vision.html">Visión 2036</a>.`;
     }
     if (/(no|nada|cero|sin)\s.*(cuest|cost|gast)|gratis|costo nulo/.test(nq)) {
-      const n = P.filter((p) => p.costo_fiscal === "nulo");
+      const n = (FULL || []).filter((p) => p.costo_fiscal === "nulo");
       return `${n.length} propuestas tienen <b>costo fiscal nulo</b>. Algunas:<br>` + n.slice(0, 6).map((p) => "• " + L(p)).join("<br>") + '<br>Fíltralas en <a href="propuestas.html">Propuestas</a>.';
     }
     const r = buscar(q, 4);
@@ -164,10 +173,10 @@
 
   // ================= páginas =================
   if (PAGE === "index") {
-    const m = D.meta;
+    const m = H.meta;
     $("#kpis").innerHTML = [[P.length, "propuestas de ley"], [m.n_articulos, "artículos redactados"], [m.n_normas, "normas vigentes que se modifican"],
-      [m.n_entidades, "entidades implicadas"], [Math.round((100 * P.filter((p) => p.costo_fiscal === "nulo").length) / P.length) + "%", "sin costo fiscal"],
-      [P.filter((p) => p.aten[1]).length, "revisadas por 5 especialidades"]].map(([b, s]) => `<div class="kpi"><b>${esc(b)}</b><span>${esc(s)}</span></div>`).join("");
+      [m.n_entidades, "entidades implicadas"], [Math.round((100 * H.kpi.nulo) / P.length) + "%", "sin costo fiscal"],
+      [H.kpi.revisadas, "revisadas por 5 especialidades"]].map(([b, s]) => `<div class="kpi"><b>${esc(b)}</b><span>${esc(s)}</span></div>`).join("");
     const ICON = { ia: "🧠", ciber: "🛡️", gob: "🏛️", conect: "📡", econ: "🚀", talento: "🎓", sober: "⚙️", derechos: "⚖️" };
     $("#ejes-grid").innerHTML = EJES.filter((e) => P.some((p) => p.eje === e.id)).map((e) => {
       const ps = P.filter((p) => p.eje === e.id);
@@ -200,11 +209,30 @@
         (!st.costo || p.costo_fiscal === st.costo) && q.every((w) => (p._t + " " + p._s).includes(raiz(w))));
       if (st.orden === "score") f = f.slice().sort((a, b) => (score[b.id] || 0) - (score[a.id] || 0));
       $("#count").textContent = `${f.length} de ${P.length} propuestas`;
-      $("#plist").innerHTML = f.map(card).join("") || `<p class="muted">Sin resultados con esos filtros.</p>`;
+      lista = f; mostrados = 0; $("#plist").innerHTML = f.length ? "" : `<p class="muted">Sin resultados con esos filtros.</p>`; mas();
+    }
+    let lista = [], mostrados = 0;
+    const centinela = document.createElement("div"); centinela.className = "centinela"; $("#plist").after(centinela);
+    function mas() {
+      const lote = lista.slice(mostrados, mostrados + 20); mostrados += lote.length;
+      $("#plist").insertAdjacentHTML("beforeend", lote.map(card).join(""));
+      centinela.innerHTML = mostrados < lista.length ? `<button class="btn ghost">Ver más (${lista.length - mostrados} restantes)</button>` : "";
+      const b = centinela.querySelector("button"); if (b) b.onclick = mas;
+      pintarVotos();
+    }
+    new IntersectionObserver((es) => es.forEach((e) => e.isIntersecting && mostrados < lista.length && mas()), { rootMargin: "600px" }).observe(centinela);
+    let RES = null;
+    async function pintarVotos() {
+      if (!window.Participa) return;
+      RES = RES || (await Participa.resumen()); if (!RES) return;
+      document.querySelectorAll("#plist .prop:not([data-v])").forEach((d) => {
+        d.dataset.v = 1; const [u, n] = (RES.votos || {})[d.id] || [0, 0], c = (RES.comentarios || {})[d.id] || 0;
+        if (u || n || c) d.querySelector(".tagline").insertAdjacentHTML("beforeend", `<span class="pill">👍 ${u} · 👎 ${n} · 💬 ${c}</span>`);
+      });
     }
     render();
     const h = location.hash.slice(1);
-    if (byId[h]) { const d = document.getElementById(h); d.open = true; d.scrollIntoView(); }
+    if (byId[h]) { while (!document.getElementById(h) && mostrados < lista.length) mas(); const d = document.getElementById(h); if (d) { d.open = true; d.scrollIntoView(); } }
   }
 
   if (PAGE === "panorama") {
@@ -274,23 +302,46 @@
 
   if (PAGE === "ciudadania") {
     const [C, CD] = await Promise.all([json("data/comentarios.json"), json("data/ciudadanas.json")]);
-    if (CD && CD.formulario) $("#form-link").href = CD.formulario;
-    const t = (CD && CD.totales) || {};
-    $("#cd-kpis").innerHTML = [[t.recibidas || 0, "propuestas recibidas"], [t["en-revision"] || 0, "en revisión"], [t.publicadas || 0, "publicadas"], [t.incorporada || 0, "incorporadas a la agenda"]]
+    const R = window.Participa ? await Participa.resumen() : null; // null = API no disponible → modo GitHub
+    if (CD && CD.formulario) { $("#form-link").href = CD.formulario; $("#form-link2").href = CD.formulario; }
+    if (R) {
+      $("#prop-f").hidden = false; $("#prop-gh").hidden = true;
+      $("#prop-f").onsubmit = async (ev) => {
+        ev.preventDefault();
+        const f = Object.fromEntries(new FormData(ev.target)); f.acepto = !!f.acepto;
+        const btn = ev.target.querySelector("button[type=submit]"), msg = $("#prop-msg");
+        btn.disabled = true; msg.textContent = "Enviando…";
+        const j = await Participa.proponer(f); btn.disabled = false;
+        if (!j.ok) { msg.textContent = "⚠️ " + j.error; return; }
+        ev.target.reset(); msg.innerHTML = `✅ ¡Recibida! Tu propuesta es la <b>${esc(j.codigo)}</b>. Pasará por revisión y, si procede, se publicará aquí.`;
+      };
+    }
+    const t = (CD && CD.totales) || {}, rc = (R && R.ciudadanas) || {};
+    const suma = (k1, k2) => (t[k1] || 0) + (rc[k2 || k1] || 0);
+    $("#cd-kpis").innerHTML = [[(t.recibidas || 0) + (rc.recibidas || 0), "propuestas recibidas"], [suma("en-revision"), "en revisión"],
+      [(t.publicadas || 0) + (rc.publicada || 0) + (rc.incorporada || 0), "publicadas"], [suma("incorporada"), "incorporadas a la agenda"]]
       .map(([b, s]) => `<div class="kpi"><b>${esc(b)}</b><span>${esc(s)}</span></div>`).join("");
-    const EST = { recibida: "Recibida", "en-revision": "En revisión", incorporada: "Incorporada ✓", archivada: "Archivada" };
-    $("#cd-list").innerHTML = (CD && CD.items && CD.items.length) ? CD.items.map((x) => `<details class="prop ciud"><summary><span class="pid">#${x.n}</span><div><h3>${esc(x.titulo)}</h3>
-      <div class="tagline"><span class="pill">${esc(EST[x.estado] || x.estado)}</span>${x.eje ? `<span class="pill">${esc(x.eje)}</span>` : ""}${x.region ? `<span class="pill">📍 ${esc(x.region)}</span>` : ""}<span class="pill">👍 ${x.apoyo} · 💬 ${x.comentarios}</span></div></div><span class="chev">▶</span></summary>
+    const EST = { recibida: "Recibida", "en-revision": "En revisión", publicada: "Publicada", incorporada: "Incorporada ✓", archivada: "Archivada" };
+    const api = R ? ((await Participa.propuestas()).propuestas || []) : [];
+    const items = [...api.map((x) => ({ ...x, cod: x.codigo, fecha: String(x.ts).slice(0, 10), fuente: "api" })), ...((CD && CD.items) || []).map((x) => ({ ...x, cod: "#" + x.n, fuente: "gh" }))];
+    $("#cd-list").innerHTML = items.length ? items.map((x) => `<details class="prop ciud" data-cod="${esc(x.cod)}"><summary><span class="pid">${esc(x.cod)}</span><div><h3>${esc(x.titulo)}</h3>
+      <div class="tagline"><span class="pill">${esc(EST[x.estado] || x.estado)}</span>${x.eje ? `<span class="pill">${esc(x.eje)}</span>` : ""}${x.region ? `<span class="pill">📍 ${esc(x.region)}</span>` : ""}${x.fuente === "api" && R && R.votos[x.cod] ? `<span class="pill">👍 ${R.votos[x.cod][0]}</span>` : ""}</div></div><span class="chev">▶</span></summary>
       <div class="body"><h4>Problema</h4><p>${esc(x.problema)}</p><h4>Propuesta</h4><p>${esc(x.propuesta)}</p>${x.beneficiarios ? `<h4>Beneficia a</h4><p>${esc(x.beneficiarios)}</p>` : ""}
-      <p class="muted" style="font-size:12.5px">${x.autor ? "Por " + esc(x.autor) + " · " : ""}${esc(x.fecha)}</p><div class="acts"><a class="btn ghost" href="${esc(x.url)}" target="_blank" rel="noopener">👍 Apoyar u opinar</a></div></div></details>`).join("")
+      <p class="muted" style="font-size:12.5px">${x.autor ? "Por " + esc(x.autor) + " · " : ""}${esc(x.fecha)}</p>
+      ${x.fuente === "api" ? `<div class="participa" data-pid="${esc(x.cod)}"></div>` : `<div class="acts"><a class="btn ghost" href="${esc(x.url)}" target="_blank" rel="noopener">👍 Apoyar u opinar en GitHub</a></div>`}</div></details>`).join("")
       : `<p class="muted">Aún no hay propuestas ciudadanas publicadas. ¡Sé la primera persona en proponer!</p>`;
-    const rows = C ? Object.entries(C.por_propuesta || {}).map(([id, v]) => ({ p: byId[id], ...v })).filter((x) => x.p) : [];
-    rows.sort((a, b) => b.comentarios + b.respuestas + b.apoyo - (a.comentarios + a.respuestas + a.apoyo));
-    $("#cm-rank").innerHTML = rows.length ? `<table class="tbl"><tr><th>Propuesta</th><th>💬</th><th>👍</th><th>👎</th></tr>${rows.slice(0, 20).map((r) =>
-      `<tr><td>${ejeTag(r.p)} <a href="p/${esc(r.p.id)}.html#comentarios">${esc(r.p.titulo_corto)}</a></td><td>${r.comentarios + r.respuestas}</td><td>${r.apoyo}</td><td>${r.rechazo}</td></tr>`).join("")}</table>`
-      : `<p class="muted">Aún no hay comentarios. Entra a cualquier propuesta y baja hasta «¿Qué opinas?».</p>`;
-    const feed = (C && C.recientes) || [];
-    $("#cm-feed").innerHTML = feed.length ? feed.slice(0, 15).map((c) => `<div class="cm"><a href="p/${esc(c.id)}.html#comentarios"><b>${esc(c.id)}</b></a> · <span class="muted">@${esc(c.autor)} · ${esc(String(c.fecha).slice(0, 10))}</span><p>${esc(c.texto)}</p></div>`).join("")
+    $("#cd-list").addEventListener("toggle", (ev) => { const w = ev.target.querySelector && ev.target.querySelector(".participa:not([data-ok])"); if (ev.target.open && w) { w.dataset.ok = 1; Participa.montar(w, w.dataset.pid); } }, true);
+    // ranking y feed: API (en vivo) + giscus (GitHub)
+    const filas = {};
+    if (R) { Object.entries(R.votos || {}).forEach(([id, [u, n]]) => (filas[id] = { id, u, n, c: 0 })); Object.entries(R.comentarios || {}).forEach(([id, c]) => ((filas[id] = filas[id] || { id, u: 0, n: 0, c: 0 }).c += c)); }
+    if (C) Object.entries(C.por_propuesta || {}).forEach(([id, v]) => { const f = (filas[id] = filas[id] || { id, u: 0, n: 0, c: 0 }); f.u += v.apoyo; f.n += v.rechazo; f.c += v.comentarios + v.respuestas; });
+    const rows = Object.values(filas).filter((r) => byId[r.id]).sort((a, b) => b.u + b.c - (a.u + a.c));
+    $("#cm-rank").innerHTML = rows.length ? `<table class="tbl"><tr><th>Propuesta</th><th>👍</th><th>👎</th><th>💬</th></tr>${rows.slice(0, 25).map((r) =>
+      `<tr><td>${ejeTag(byId[r.id])} <a href="p/${esc(r.id)}.html#comentarios">${esc(byId[r.id].titulo_corto)}</a></td><td>${r.u}</td><td>${r.n}</td><td>${r.c}</td></tr>`).join("")}</table>`
+      : `<p class="muted">Aún no hay apoyos ni comentarios. Entra a cualquier propuesta y baja hasta «¿Qué opinas?».</p>`;
+    const feedApi = R ? ((await Participa.recientes()).comentarios || []).map((c) => ({ id: c.pid, autor: c.nombre, fecha: c.ts, texto: c.texto })) : [];
+    const feed = [...feedApi, ...((C && C.recientes) || []).map((c) => ({ ...c, autor: "@" + c.autor }))].sort((a, b) => String(b.fecha).localeCompare(String(a.fecha)));
+    $("#cm-feed").innerHTML = feed.length ? feed.slice(0, 20).map((c) => `<div class="cm"><a href="${/^C-/.test(c.id) ? "#ciudadanas" : "p/" + esc(c.id) + ".html#comentarios"}"><b>${esc(c.id)}</b></a> · <span class="muted">${esc(c.autor || "Anónimo")} · ${esc(String(c.fecha).slice(0, 10))}</span><p>${esc(c.texto)}</p></div>`).join("")
       : `<p class="muted">Los comentarios aparecerán aquí.</p>`;
   }
 
@@ -301,7 +352,10 @@
     $("#marco").innerHTML = `<table class="tbl"><tr><th>Norma</th><th>Tema</th></tr>${(X.marco || []).map((n) => `<tr><td>${n.url ? `<a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.norma)}</a>` : esc(n.norma)}<br><span class="muted">${esc(n.nombre)}</span></td><td>${esc(n.tema)}</td></tr>`).join("")}</table>`;
     const lanes = [["corto", "Corto plazo · 2026–2027"], ["mediano", "Mediano plazo · 2027–2029"], ["largo", "Largo plazo · 2029–2031"]];
     $("#lanes").innerHTML = lanes.map(([k, t]) => `<div class="card lane"><h3>${t}</h3>` + P.filter((p) => p.plazo === k).map((p) => `<a href="p/${esc(p.id)}.html" style="--eje:${ejeById[p.eje].color}"><b>${esc(p.id)}</b> ${esc(p.titulo_corto)}</a>`).join("") + `</div>`).join("");
-    const A = X.antecedentes;
+    let A = null;
+    await new Promise((ok) => new IntersectionObserver((es, io) => { if (es.some((e) => e.isIntersecting)) { io.disconnect(); ok(); } }, { rootMargin: "400px" }).observe($("#antecedentes")));
+    $("#ant").innerHTML = `<p class="muted">Cargando antecedentes…</p>`;
+    A = await json("data/antecedentes.json");
     if (A && A.proyectos) {
       const m = A.meta || {}, tp = m.total_proyectos_periodo || {}, tt = m.total_tech_por_periodo || {};
       $("#ant-sub").innerHTML = `En 2021–2026 se presentaron <b>${esc(tt["2021-2026"])}</b> proyectos de ley vinculados a tecnología de ${esc((tp["2021-2026"] || 0).toLocaleString("es-PE"))}; <b>${esc(m.leyes_tech)}</b> se publicaron como ley. En el Congreso bicameral ya van <b>${esc(tt["2026-2031"] ?? 0)}</b> de ${esc(tp["2026-2031"] ?? "—")}. Fuente: API SPLEY, consulta ${esc(m.fecha_consulta || "")}; clasificación por palabras clave del título.`;

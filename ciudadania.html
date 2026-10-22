@@ -4,10 +4,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Ciudadanía · Propón una ley · Agenda Legislativa Tech</title>
-<meta name="description" content="Propón tu propia ley tech, opina sobre las propuestas y mira qué dice la ciudadanía. Todo queda trazado y público.">
+<meta name="description" content="Propón tu propia ley tech, apoya o rechaza las propuestas y comenta. Sin cuenta, todo queda registrado y público.">
 <link rel="canonical" href="https://unimauro.github.io/agenda-legislativa-tech/ciudadania.html">
 <meta property="og:type" content="website"><meta property="og:site_name" content="Agenda Legislativa Tech Perú">
-<meta property="og:title" content="Ciudadanía · Propón una ley · Agenda Legislativa Tech"><meta property="og:description" content="Propón tu propia ley tech, opina sobre las propuestas y mira qué dice la ciudadanía. Todo queda trazado y público.">
+<meta property="og:title" content="Ciudadanía · Propón una ley · Agenda Legislativa Tech"><meta property="og:description" content="Propón tu propia ley tech, apoya o rechaza las propuestas y comenta. Sin cuenta, todo queda registrado y público.">
 <meta property="og:url" content="https://unimauro.github.io/agenda-legislativa-tech/ciudadania.html"><meta property="og:image" content="https://unimauro.github.io/agenda-legislativa-tech/og.png">
 <meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:locale" content="es_PE">
 <meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="https://unimauro.github.io/agenda-legislativa-tech/og.png">
@@ -33,21 +33,37 @@
   <section class="block first" id="proponer">
     <h1 class="page-h">Propón una ley</h1>
     <div class="cta-card">
-      <div><h2>Tu idea puede ser la próxima propuesta</h2>
-        <p>Llena el formulario (título, problema, qué propones, a quién beneficia). Queda <b>registrado y público</b>; pasa por la misma
-          revisión que las demás (constitucional, técnica legislativa, costo para el Estado) y, si procede, se incorpora a la agenda.</p>
+      <form id="prop-f" class="prop-f" hidden>
+        <h2>Tu idea puede ser la próxima propuesta</h2>
+        <label>Título de la ley *<input name="titulo" required minlength="10" maxlength="220" placeholder="Ley que garantiza internet gratuito en las bibliotecas municipales"></label>
+        <label>Eje temático<select name="eje"><option>Inteligencia artificial y datos</option><option>Ciberseguridad e identidad digital</option><option>Gobierno digital y transparencia</option>
+          <option>Conectividad, telecom y espacio</option><option>Economía digital, startups y CTI</option><option>Talento, educación y tech sectorial</option>
+          <option>Soberanía tecnológica e industria 4.0</option><option>Justicia y derechos digitales</option><option>Otro</option></select></label>
+        <label>¿Qué problema resuelve? *<textarea name="problema" required minlength="20" maxlength="2500" rows="4" placeholder="Describe el problema; si tienes datos, menciona la fuente."></textarea></label>
+        <label>¿Qué propones? *<textarea name="propuesta" required minlength="20" maxlength="3500" rows="5" placeholder="La idea central o, si puedes, los artículos."></textarea></label>
+        <label>¿A quién beneficia?<textarea name="beneficiarios" maxlength="800" rows="2"></textarea></label>
+        <div class="f2"><label>¿Qué entidades la implementarían?<input name="entidades" maxlength="400" placeholder="MTC, MINEDU, municipalidades…"></label>
+          <label>¿Le costaría dinero al Estado?<select name="costo"><option>No / casi nada</option><option>Poco (presupuesto actual)</option><option>Bastante (presupuesto nuevo)</option><option>No sé</option></select></label></div>
+        <div class="f2"><label>Región<input name="region" maxlength="40" placeholder="Cusco"></label><label>Nombre o seudónimo (opcional)<input name="autor" maxlength="80"></label></div>
+        <input name="website" tabindex="-1" autocomplete="off" class="hp" aria-hidden="true">
+        <label class="chk"><input type="checkbox" name="acepto" required> Acepto que se publique con licencia CC BY 4.0 y no incluye datos personales de terceros.</label>
+        <div class="com-acts"><button class="btn" type="submit">🗳️ Enviar propuesta</button><span class="muted" id="prop-msg" aria-live="polite"></span></div>
+        <p class="muted com-legal">Se registra con fecha y pasa por revisión (constitucional, técnica, costo para el Estado). Solo se publica tras la revisión. No necesitas cuenta.</p>
+      </form>
+      <div id="prop-gh"><h2>Tu idea puede ser la próxima propuesta</h2>
+        <p>Llena el formulario: queda <b>registrado y público</b>, pasa por la misma revisión que las demás y, si procede, se incorpora a la agenda.</p>
+        <a class="btn" id="form-link" href="https://github.com/unimauro/agenda-legislativa-tech/issues/new?template=propuesta-ciudadana.yml" target="_blank" rel="noopener">🗳️ Proponer una ley (GitHub)</a></div>
+      <div><div class="kpis" id="cd-kpis"></div>
         <ol class="mini-steps"><li><b>Recibida</b> — queda registrada con fecha.</li><li><b>En revisión</b> — se evalúa viabilidad y duplicidad.</li>
           <li><b>Publicada</b> — aparece aquí para recibir apoyo.</li><li><b>Incorporada</b> — se redacta como propuesta formal con articulado.</li></ol>
-        <a class="btn" id="form-link" href="https://github.com/unimauro/agenda-legislativa-tech/issues/new?template=propuesta-ciudadana.yml" target="_blank" rel="noopener">🗳️ Proponer una ley</a>
-        <p class="muted" style="font-size:12.5px">Requiere una cuenta gratuita de GitHub (así cada propuesta queda trazada y no se pierde).</p></div>
-      <div class="kpis" id="cd-kpis"></div>
+        <p class="muted" style="font-size:12.5px">¿Tienes cuenta de GitHub? También puedes <a id="form-link2" href="https://github.com/unimauro/agenda-legislativa-tech/issues/new?template=propuesta-ciudadana.yml" target="_blank" rel="noopener">proponer por GitHub</a>.</p></div>
     </div>
   </section>
-  <section class="block" id="ciudadanas"><h2>Propuestas de la ciudadanía</h2><p class="sub">Solo se muestran las aprobadas para publicación (filtro de spam y datos personales).</p><div id="cd-list"></div></section>
+  <section class="block" id="ciudadanas"><h2>Propuestas de la ciudadanía</h2><p class="sub">Solo se muestran las aprobadas tras revisión. Apoya las que te convenzan.</p><div id="cd-list"></div></section>
   <section class="block" id="ciudadania">
     <h2>Lo que dice la ciudadanía</h2>
-    <p class="sub">Comentarios y reacciones (👍 apoyo · 👎 rechazo) en cada propuesta, consolidados automáticamente cada 6 horas.</p>
-    <div class="grid2"><div class="card"><h3>Más comentadas</h3><div class="tbl-scroll" id="cm-rank"></div></div>
+    <p class="sub">Apoyos (👍), rechazos (👎) y comentarios en cada propuesta de la agenda, en tiempo real.</p>
+    <div class="grid2"><div class="card"><h3>Más apoyadas y comentadas</h3><div class="tbl-scroll" id="cm-rank"></div></div>
       <div class="card"><h3>Comentarios recientes</h3><div class="tbl-scroll" id="cm-feed"></div></div></div>
   </section>
 
@@ -89,6 +105,7 @@
   <form id="chat-f"><input id="chat-q" placeholder="Escribe tu pregunta…" maxlength="400" autocomplete="off" aria-label="Tu pregunta"><button class="btn" type="submit">Enviar</button></form>
   <p class="chat-note">Respuestas armadas a partir de las propuestas. No es asesoría legal.</p>
 </aside>
+<script src="assets/participa.js"></script>
 <script src="assets/app.js"></script>
 </body>
 </html>

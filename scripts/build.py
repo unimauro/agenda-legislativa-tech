@@ -25,6 +25,68 @@ EJES = {
     "talento": ("Talento, educación y tech sectorial", "#ec4899"),
 }
 ORDEN_EJES = list(EJES)
+# Comisiones ordinarias 2021-2026 (como las redactaron los agentes) -> comisión legislativa de la Cámara de
+# Diputados 2026-2031 (Reglamento RL 005, art. 45) -> comisión revisora del Senado (RL 006, art. 48).
+A_DIPUTADOS = {
+    "Transportes y Comunicaciones": "Infraestructura, Vivienda y Transportes",
+    "Vivienda y Construcción": "Infraestructura, Vivienda y Transportes",
+    "Ciencia, Innovación y Tecnología": "Ciencia, Innovación Tecnológica y Sociedad Digital",
+    "Economía, Banca, Finanzas e Inteligencia Financiera": "Economía, Banca, Finanzas e Inteligencia Financiera",
+    "Descentralización, Regionalización, Gobiernos Locales y Modernización de la Gestión del Estado": "Modernización de la Gestión del Estado y Contraloría",
+    "Fiscalización y Contraloría": "Modernización de la Gestión del Estado y Contraloría",
+    "Justicia y Derechos Humanos": "Justicia y Derechos Humanos",
+    "Defensa del Consumidor y Organismos Reguladores de los Servicios Públicos": "Defensa del Consumidor y Regulación de los Servicios Públicos",
+    "Producción, Micro y Pequeña Empresa y Cooperativas": "Producción, Comercio Exterior y Turismo",
+    "Comercio Exterior y Turismo": "Producción, Comercio Exterior y Turismo",
+    "Educación, Juventud y Deporte": "Educación, Cultura y Deporte",
+    "Cultura y Patrimonio Cultural": "Educación, Cultura y Deporte",
+    "Constitución y Reglamento": "Constitución, Reglamento y Relaciones Exteriores",
+    "Salud y Población": "Salud",
+    "Trabajo y Seguridad Social": "Trabajo y Seguridad Social",
+    "Mujer y Familia": "Inclusión Social, Familia, Mujer y Pueblos Andinos, Amazónicos y Afroperuanos",
+    "Inclusión Social y Personas con Discapacidad": "Inclusión Social, Familia, Mujer y Pueblos Andinos, Amazónicos y Afroperuanos",
+    "Pueblos Andinos, Amazónicos y Afroperuanos, Ambiente y Ecología": "Inclusión Social, Familia, Mujer y Pueblos Andinos, Amazónicos y Afroperuanos",
+    "Defensa Nacional y Orden Interno": "Defensa Nacional y Orden Interno",
+    "Defensa Nacional, Orden Interno, Desarrollo Alternativo y Lucha contra las Drogas": "Defensa Nacional y Orden Interno",
+    "Agraria": "Desarrollo Agrario",
+    "Energía y Minas": "Energía y Minas",
+    "Presupuesto y Cuenta General de la República": "Bicameral de Presupuesto y Cuenta General de la República",
+}
+A_SENADO = {
+    "Constitución, Reglamento y Relaciones Exteriores": "Constitución, Reglamento y Relaciones Exteriores",
+    "Defensa Nacional y Orden Interno": "Defensa Nacional y Orden Interno",
+    "Justicia y Derechos Humanos": "Justicia y Derechos Humanos",
+    "Economía, Banca, Finanzas e Inteligencia Financiera": "Economía, Medio Ambiente y Defensa del Consumidor",
+    "Defensa del Consumidor y Regulación de los Servicios Públicos": "Economía, Medio Ambiente y Defensa del Consumidor",
+    "Medio Ambiente y Sostenibilidad": "Economía, Medio Ambiente y Defensa del Consumidor",
+    "Modernización de la Gestión del Estado y Contraloría": "En asuntos de Gestión del Estado y Contraloría",
+    "Infraestructura, Vivienda y Transportes": "En asuntos de Desarrollo Productivo, Energía y Minas, Infraestructura y Trabajo",
+    "Producción, Comercio Exterior y Turismo": "En asuntos de Desarrollo Productivo, Energía y Minas, Infraestructura y Trabajo",
+    "Energía y Minas": "En asuntos de Desarrollo Productivo, Energía y Minas, Infraestructura y Trabajo",
+    "Trabajo y Seguridad Social": "En asuntos de Desarrollo Productivo, Energía y Minas, Infraestructura y Trabajo",
+    "Desarrollo Agrario": "En asuntos de Desarrollo Productivo, Energía y Minas, Infraestructura y Trabajo",
+    "Ciencia, Innovación Tecnológica y Sociedad Digital": "En asuntos de Salud, Educación, Cultura, Mujer y Desarrollo Social y Digital",
+    "Educación, Cultura y Deporte": "En asuntos de Salud, Educación, Cultura, Mujer y Desarrollo Social y Digital",
+    "Salud": "En asuntos de Salud, Educación, Cultura, Mujer y Desarrollo Social y Digital",
+    "Inclusión Social, Familia, Mujer y Pueblos Andinos, Amazónicos y Afroperuanos": "En asuntos de Salud, Educación, Cultura, Mujer y Desarrollo Social y Digital",
+}
+
+
+def mapear_comisiones(p, errores):
+    for k in ("comision_sugerida", "comision_secundaria"):
+        v = p.get(k)
+        if not v:
+            continue
+        if v not in A_DIPUTADOS:
+            errores.append(f"{p['id']}: comisión sin mapear '{v}'")
+            continue
+        p.setdefault(k + "_2021", v)
+        p[k] = A_DIPUTADOS[v]
+    if p.get("comision_secundaria") == p.get("comision_sugerida"):
+        p["comision_secundaria"] = None
+    p["comision_senado"] = A_SENADO.get(p.get("comision_sugerida"))
+
+
 REQ = ["id", "eje", "titulo", "titulo_corto", "sumilla", "problema", "articulado", "comision_sugerida", "plan2050"]
 
 
@@ -41,6 +103,7 @@ def cargar():
             if faltan:
                 errores.append(f"{p.get('id')}: faltan {faltan}")
             p["eje"] = eje
+            mapear_comisiones(p, errores)
             malos = [x for x in p.get("plan2050", []) if x not in plan]
             if malos:
                 errores.append(f"{p['id']}: plan2050 desconocido {malos}")
@@ -113,8 +176,9 @@ def pagina(p, plan, prev, nxt):
  <span class="pill prio-{e(p.get('prioridad'))}">Prioridad {e(p.get('prioridad'))}</span>
  <span class="pill">Costo fiscal: {e(p.get('costo_fiscal'))}</span>
  <span class="pill">Plazo: {e(p.get('plazo'))}</span>
- <span class="pill">Comisión: {e(p.get('comision_sugerida'))}</span>
+ <span class="pill">Diputados: {e(p.get('comision_sugerida'))}</span>
  {f'<span class="pill">+ {e(p.get("comision_secundaria"))}</span>' if p.get('comision_secundaria') else ''}
+ {f'<span class="pill">Senado: {e(p.get("comision_senado"))}</span>' if p.get('comision_senado') else ''}
 </div>
 <div class="actions"><a class="btn" href="../pdf/{e(p['id'])}.pdf" download>⬇️ Descargar PDF</a>
 <a class="btn ghost" href="../docx/{e(p['id'])}.docx" download>📝 Word editable (formato despacho)</a>
@@ -174,8 +238,9 @@ def pdfs(props, plan):
     def historia(p):
         s = [Paragraph(f"{t(p['id'])} · {t(EJES[p['eje']][0])}", small), Paragraph(t(p["titulo"]), h1), Paragraph(t(p.get("sumilla")), body)]
         s.append(Paragraph(
-            f"<b>Comisión sugerida:</b> {t(p.get('comision_sugerida'))}"
+            f"<b>Comisión (Cámara de Diputados):</b> {t(p.get('comision_sugerida'))}"
             + (f" (+ {t(p.get('comision_secundaria'))})" if p.get("comision_secundaria") else "")
+            + (f" · <b>Revisora (Senado):</b> {t(p.get('comision_senado'))}" if p.get("comision_senado") else "")
             + f" · <b>Prioridad:</b> {t(p.get('prioridad'))} · <b>Costo fiscal:</b> {t(p.get('costo_fiscal'))} · <b>Plazo:</b> {t(p.get('plazo'))}<br/>"
             + "<b>Plan Perú 2050:</b> " + t(", ".join(plan[c]["nombre"] for c in p.get("plan2050", []))),
             small))

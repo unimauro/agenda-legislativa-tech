@@ -1,0 +1,170 @@
+[
+ {
+  "norma": "Ley 31814",
+  "nombre": "Ley que promueve el uso de la inteligencia artificial en favor del desarrollo económico y social del país",
+  "anio": 2023,
+  "tema": "Inteligencia artificial",
+  "url": "https://leyes.congreso.gob.pe/Documentos/2021_2026/ADLP/Texto_Consolidado/31814-TXM.pdf",
+  "nota": "Publicada en El Peruano el 5-jul-2023 (texto consolidado del Congreso)."
+ },
+ {
+  "norma": "Decreto Supremo 115-2025-PCM",
+  "nombre": "Reglamento de la Ley 31814",
+  "anio": 2025,
+  "tema": "Inteligencia artificial",
+  "url": "https://busquedas.elperuano.pe/dispositivo/NL/2436426-1",
+  "nota": "Publicado en El Peruano el 9-sep-2025. Copia del Congreso: https://www3.congreso.gob.pe/Docs/DGP/DIDP/files/ds_115-2025-pcm.pdf"
+ },
+ {
+  "norma": "Ley 29733",
+  "nombre": "Ley de Protección de Datos Personales",
+  "anio": 2011,
+  "tema": "Datos personales",
+  "url": "https://leyes.congreso.gob.pe/Documentos/Leyes/29733.pdf",
+  "nota": "Publicada en El Peruano el 3-jul-2011 (PDF escaneado, archivo de leyes del Congreso)."
+ },
+ {
+  "norma": "Decreto Supremo 016-2024-JUS",
+  "nombre": "Reglamento de la Ley 29733, Ley de Protección de Datos Personales",
+  "anio": 2024,
+  "tema": "Datos personales",
+  "url": "https://www3.congreso.gob.pe/Docs/DGP/DIDP/files/ds_016-2024-jus.pdf",
+  "nota": "Publicado en El Peruano el 30-nov-2024; reemplaza el reglamento de 2013 (DS 003-2013-JUS)."
+ },
+ {
+  "norma": "Decreto Legislativo 1412",
+  "nombre": "Decreto Legislativo que aprueba la Ley de Gobierno Digital",
+  "anio": 2018,
+  "tema": "Gobierno digital",
+  "url": "https://busquedas.elperuano.pe/dispositivo/NL/1691026-1",
+  "nota": "Marco de gobernanza de identidad digital, servicios digitales, interoperabilidad, seguridad digital y datos."
+ },
+ {
+  "norma": "Decreto Supremo 029-2021-PCM",
+  "nombre": "Reglamento del Decreto Legislativo 1412, Ley de Gobierno Digital",
+  "anio": 2021,
+  "tema": "Gobierno digital",
+  "url": "https://busquedas.elperuano.pe/normaslegales/decreto-supremo-que-aprueba-el-reglamento-del-decreto-legisl-decreto-supremo-n-029-2021-pcm-1929103-3/",
+  "nota": "Incluye disposiciones sobre uso de tecnologías y medios electrónicos en el procedimiento administrativo."
+ },
+ {
+  "norma": "Decreto de Urgencia 007-2020",
+  "nombre": "Decreto de Urgencia que aprueba el Marco de Confianza Digital y dispone medidas para su fortalecimiento",
+  "anio": 2020,
+  "tema": "Confianza digital / ciberseguridad",
+  "url": "https://www3.congreso.gob.pe/Docs/comisiones2020/ConstitucionReglamento/files/du_interregno_2020/du-007-2020.pdf",
+  "nota": "Emitido durante el interregno parlamentario 2020 (copia del Congreso)."
+ },
+ {
+  "norma": "Decreto Supremo 126-2025-PCM",
+  "nombre": "Reglamento del Decreto de Urgencia 007-2020 (Marco de Confianza Digital)",
+  "anio": 2025,
+  "tema": "Confianza digital / ciberseguridad",
+  "url": "https://busquedas.elperuano.pe/dispositivo/EX/2455024-1",
+  "nota": "Edición extraordinaria de El Peruano (nov-2025)."
+ },
+ {
+  "norma": "Decreto Supremo 085-2023-PCM",
+  "nombre": "Política Nacional de Transformación Digital al 2030",
+  "anio": 2023,
+  "tema": "Transformación digital",
+  "url": "https://busquedas.elperuano.pe/dispositivo/NL/2200457-5",
+  "nota": "Política nacional (no ley); marco de objetivos del Ejecutivo."
+ },
+ {
+  "norma": "Ley 30096",
+  "nombre": "Ley de Delitos Informáticos",
+  "anio": 2013,
+  "tema": "Ciberdelito",
+  "url": "https://leyes.congreso.gob.pe/Documentos/Leyes/30096.pdf",
+  "nota": "Publicada el 22-oct-2013. Modificada por la Ley 30171 (ver entrada siguiente)."
+ },
+ {
+  "norma": "Ley 30171",
+  "nombre": "Ley que modifica la Ley 30096, Ley de Delitos Informáticos",
+  "anio": 2014,
+  "tema": "Ciberdelito",
+  "url": "https://leyes.congreso.gob.pe/Documentos/Leyes/30171.pdf",
+  "nota": "Publicada el 10-mar-2014. Modifica los arts. 2, 3, 4, 5, 7, 8 y 10 e incorpora el art. 12 a la Ley 30096 (verificado por OCR del PDF escaneado)."
+ },
+ {
+  "norma": "Ley 30999",
+  "nombre": "Ley de Ciberdefensa",
+  "anio": 2019,
+  "tema": "Ciberdefensa",
+  "url": "https://www3.congreso.gob.pe/Docs/DGP/DIDP/files/ley_30999.pdf",
+  "nota": "Publicada en El Peruano el 27-ago-2019. Reglamento: DS 017-2024-PCM (https://www3.congreso.gob.pe/Docs/DGP/DIDP/files/ds_017-2024-pcm.pdf)."
+ },
+ {
+  "norma": "Ley 27269",
+  "nombre": "Ley de Firmas y Certificados Digitales",
+  "anio": 2000,
+  "tema": "Firma digital",
+  "url": "https://leyes.congreso.gob.pe/Documentos/Leyes/27269.pdf",
+  "nota": "Publicada el 28-may-2000 (PDF escaneado de El Peruano)."
+ },
+ {
+  "norma": "Ley 27291",
+  "nombre": "Ley que modifica el Código Civil permitiendo la utilización de los medios electrónicos para la comunicación de la manifestación de voluntad y la utilización de la firma electrónica",
+  "anio": 2000,
+  "tema": "Firma electrónica / contratación electrónica",
+  "url": "https://leyes.congreso.gob.pe/Documentos/Leyes/27291.pdf",
+  "nota": "Publicada el 24-jun-2000 (PDF escaneado de El Peruano)."
+ },
+ {
+  "norma": "Ley 29904",
+  "nombre": "Ley de Promoción de la Banda Ancha y Construcción de la Red Dorsal Nacional de Fibra Óptica",
+  "anio": 2012,
+  "tema": "Conectividad / banda ancha",
+  "url": "https://leyes.congreso.gob.pe/Documentos/Leyes/29904.pdf",
+  "nota": "Publicada en 2012 (PDF escaneado de El Peruano)."
+ },
+ {
+  "norma": "Ley 31572",
+  "nombre": "Ley del Teletrabajo",
+  "anio": 2022,
+  "tema": "Teletrabajo",
+  "url": "https://leyes.congreso.gob.pe/Documentos/2021_2026/ADLP/Texto_Consolidado/31572-TXM.pdf",
+  "nota": "Publicada el 11-sep-2022. Reglamento: DS 002-2023-TR (https://www3.congreso.gob.pe/Docs/DGP/DIDP/files/ds_002-2023-tr.pdf). (La Ley 31309 no es la de teletrabajo; la vigente es la 31572.)"
+ },
+ {
+  "norma": "Ley 31250",
+  "nombre": "Ley del Sistema Nacional de Ciencia, Tecnología e Innovación (SINACTI)",
+  "anio": 2021,
+  "tema": "Ciencia, tecnología e innovación",
+  "url": "https://busquedas.elperuano.pe/dispositivo/NL/1968664-1",
+  "nota": "CONCYTEC es el ente rector. Reglamento: DS 062-2024-PCM (https://www3.congreso.gob.pe/Docs/DGP/DIDP/files/ds_062-2024-pcm.pdf)."
+ },
+ {
+  "norma": "Decreto Legislativo 1727",
+  "nombre": "Decreto Legislativo que modifica la Ley 31250, Ley del SINACTI",
+  "anio": 2026,
+  "tema": "Ciencia, tecnología e innovación",
+  "url": "https://busquedas.elperuano.pe/dispositivo/NL/2486266-1",
+  "nota": "Publicado en El Peruano en feb-2026 (fecha de firma digital 12-feb-2026)."
+ },
+ {
+  "norma": "Ley 30309",
+  "nombre": "Ley que promueve la investigación científica, desarrollo tecnológico e innovación tecnológica",
+  "anio": 2015,
+  "tema": "Incentivos tributarios I+D+i",
+  "url": "https://leyes.congreso.gob.pe/Documentos/Leyes/30309.pdf",
+  "nota": "Publicada en 2015 (PDF escaneado de El Peruano). Régimen de beneficio tributario a la I+D+i."
+ },
+ {
+  "norma": "Ley 30254",
+  "nombre": "Ley de Promoción para el Uso Seguro y Responsable de las Tecnologías de la Información y Comunicaciones por Niños, Niñas y Adolescentes",
+  "anio": 2014,
+  "tema": "Entornos digitales / niñez",
+  "url": "https://leyes.congreso.gob.pe/Documentos/Leyes/30254.pdf",
+  "nota": "Publicada el 25-oct-2014 (PDF escaneado de El Peruano)."
+ },
+ {
+  "norma": "Ley 31988",
+  "nombre": "Ley de Reforma Constitucional que restablece la Bicameralidad en el Congreso de la República del Perú",
+  "anio": 2024,
+  "tema": "Procedimiento legislativo (marco institucional)",
+  "url": "https://busquedas.elperuano.pe/dispositivo/NL/2272076-2",
+  "nota": "Publicada el 20-mar-2024; vigente desde las elecciones generales de 2026. Define el trámite Diputados -> Senado."
+ }
+]

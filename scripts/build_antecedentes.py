@@ -210,6 +210,11 @@ def main() -> int:
                 "tema": tema,
                 "url": PORTAL.format(ruta=ruta, per=per, num=num),
             }
+            # En 2026-2031 hay "actualizaciones" de proyectos del periodo anterior
+            # (2.a DCT del Reglamento del Congreso o acuerdo de Junta de Portavoces).
+            m = re.search(r"ANTES\s+PL\s*N?[°º]?\s*([0-9]+/[0-9]{4}-[A-Z]+)", norm(r.get("titulo") or ""))
+            if m:
+                tech[(per, cod, num)]["actualiza_pl"] = m.group(1)
 
     # Cruce de comisiones (dato real de la API, filtro comisionId).
     try:
@@ -269,7 +274,11 @@ def main() -> int:
                       "'leyes' = estado contiene PUBLICADA/PROMULGADA (no cuenta AUTÓGRAFA). "
                       "Desde 2026 la API separa expedientes por codTipoParl: D (Cámara de Diputados), "
                       "S (Senado) y C (Congreso: leyes presupuestales/trámites bicamerales). "
-                      "'comision' = comisiones asociadas por la API (filtro comisionId).",
+                      "'comision' = comisiones asociadas por la API (filtro comisionId). "
+                      "'url' = enlace profundo al portal SPLEY (aplicación de página única: el "
+                      "servidor responde 200 a la ruta base; el expediente lo resuelve el navegador). "
+                      "'actualiza_pl' = número del proyecto del periodo anterior que se actualiza.",
+            "actualizaciones_2026_tech": sum(1 for p in proyectos if p.get("actualiza_pl")),
             "errores": errores,
         },
         "por_tema": por_tema,

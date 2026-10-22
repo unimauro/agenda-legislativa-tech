@@ -73,7 +73,7 @@
       <summary><span class="pid">${esc(p.id)}</span>
         <div><h3>${esc(p.titulo)}</h3><p class="sum">${esc(p.sumilla)}</p>
           <div class="tagline"><span class="pill prio-${esc(p.prioridad)}">Prioridad ${esc(p.prioridad)}</span>
-          <span class="pill">Costo ${esc(p.costo_fiscal)}</span><span class="pill">${esc(p.comision_sugerida)}</span></div></div>
+          <span class="pill">Costo ${esc(p.costo_fiscal)}</span><span class="pill">Diputados: ${esc(p.comision_sugerida)}</span></div></div>
         <span class="chev">▶</span></summary>
       <div class="body">
         <h4>El problema</h4><p>${esc(p.problema)}</p>
@@ -150,7 +150,9 @@
     const m = A.meta || {};
     const tp = m.total_proyectos_periodo, tot = tp && typeof tp === "object" ? tp["2021-2026"] : tp;
     const nTech = (m.total_tech_por_periodo || {})["2021-2026"] ?? m.total_tech ?? A.proyectos.length;
-    $("#ant-sub").innerHTML = `En el periodo 2021–2026 se presentaron <b>${esc(nTech)}</b> proyectos de ley vinculados a tecnología${tot ? ` de ${esc(tot.toLocaleString("es-PE"))} en total` : ""}${m.leyes_tech ? `; <b>${esc(m.leyes_tech)}</b> llegaron a ser ley o autógrafa` : ""}. Fuente: ${esc(m.fuente || "API SPLEY del Congreso")}, consulta ${esc(m.fecha_consulta || "")}. Clasificación por palabras clave del título — puede tener falsos positivos.`;
+    const tp26 = tp && typeof tp === "object" ? tp["2026-2031"] : null, nTech26 = (m.total_tech_por_periodo || {})["2026-2031"];
+    const inst = ((A.por_tema || []).find((t) => /institutos/i.test(t.tema)) || {}).n;
+    $("#ant-sub").innerHTML = `En el periodo 2021–2026 se presentaron <b>${esc(nTech)}</b> proyectos de ley vinculados a tecnología${tot ? ` de ${esc(tot.toLocaleString("es-PE"))} en total` : ""}${m.leyes_tech ? `; <b>${esc(m.leyes_tech)}</b> (ambos periodos) se publicaron como ley` : ""}. En el nuevo Congreso bicameral ya van <b>${esc(nTech26 ?? 0)}</b> proyectos tech de ${esc(tp26 ?? "—")} presentados.${inst ? ` Ojo: ${esc(inst)} de ellos solo crean o convierten institutos/universidades “tecnológicas”.` : ""} Fuente: API SPLEY del Congreso, consulta ${esc(m.fecha_consulta || "")}; clasificación por palabras clave del título, puede tener falsos positivos.`;
     const temas = (A.por_tema || []).map((t) => `<tr><td>${esc(t.tema)}</td><td>${esc(t.n)}</td><td>${esc(t.leyes ?? "")}</td></tr>`).join("");
     const rows = A.proyectos.slice().sort((a, b) => String(b.fecha).localeCompare(String(a.fecha)));
     $("#ant").innerHTML = `<div class="grid2"><div class="card"><h3>Por tema</h3><div class="tbl-scroll"><table class="tbl"><tr><th>Tema</th><th>Proyectos</th><th>Leyes</th></tr>${temas}</table></div></div>

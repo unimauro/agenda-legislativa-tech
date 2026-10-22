@@ -1,0 +1,174 @@
+{
+ "meta": {
+  "fecha_consulta": "2026-10-22",
+  "alcance": "Procedimiento legislativo ordinario del Congreso bicameral (periodo 2026-2031) y comisiones ordinarias del Periodo Anual de Sesiones 2026-2027.",
+  "metodo": "Lectura directa de la Ley 31988 (El Peruano, 20-mar-2024), del Reglamento del Congreso (RL 004-2025-2026-CR), del Reglamento de la Cámara de Diputados (RL 005-2025-2026-CR) y del Reglamento del Senado (RL 006-2025-2026-CR) en sus ediciones oficiales publicadas por el Congreso, y de la Ley 26300. Se citan artículos; no se parafrasean plazos no encontrados."
+ },
+ "procedimiento": [
+  {
+   "paso": "1. Iniciativa",
+   "descripcion": "Tienen derecho de iniciativa en la formación de leyes el presidente de la República y los diputados (art. 107 de la Constitución, modificado por Ley 31988). También lo tienen, en las materias que les son propias, los otros poderes del Estado, las instituciones públicas autónomas, los gobiernos regionales y locales y los colegios profesionales, y los ciudadanos conforme a ley (segundo párrafo del art. 107, no modificado). Los senadores no tienen iniciativa legislativa general: su iniciativa se limita a resoluciones legislativas propias del Senado y a la reforma de los reglamentos (Reglamento del Senado, art. 111; Reglamento del Congreso, art. II).",
+   "fuente_url": "https://busquedas.elperuano.pe/dispositivo/NL/2272076-2"
+  },
+  {
+   "paso": "2. Requisitos de la proposición",
+   "descripcion": "Toda proposición debe contener: a) sumilla o título; b) planteamiento del problema público, evidencia, objetivos y exposición de motivos; c) antecedentes legislativos; d) sectores comprendidos; e) normas que se modifican o derogan, precisando artículos; f) impacto según análisis costo-beneficio (actores afectados, efectos monetarios y no monetarios, impacto económico y presupuestal y, cuando corresponda, ambiental), siguiendo criterios de técnica legislativa (Reglamento de la Cámara de Diputados, art. 106). Las de diputados se presentan a través de grupos parlamentarios con respaldo de no menos de cinco miembros y no pueden crear ni aumentar gasto público (art. 107).",
+   "fuente_url": "https://www.congreso.gob.pe/wp-content/uploads/2026/07/Reglamento-de-la-Camara-de-Diputados.pdf"
+  },
+  {
+   "paso": "3. Presentación en la Cámara de Diputados",
+   "descripcion": "Las proposiciones se presentan en la mesa de partes de la Cámara de Diputados para su registro (art. 111). La oficina especializada de la Oficialía Mayor verifica requisitos formales y la publica en el portal web; si no cumple, la devuelve al proponente (art. 112). En la API/portal SPLEY los expedientes de la Cámara llevan el sufijo -CD (p. ej. 00641-2026-2031-CD).",
+   "fuente_url": "https://www.congreso.gob.pe/wp-content/uploads/2026/07/Reglamento-de-la-Camara-de-Diputados.pdf"
+  },
+  {
+   "paso": "4. Derivación a comisiones (Diputados)",
+   "descripcion": "El oficial mayor envía la proposición a una o dos comisiones como máximo, previo acuerdo de la vicepresidencia encargada, con criterio de especialización; el orden en el decreto fija la prelación. La Junta de Portavoces puede, excepcionalmente, asignar una comisión adicional y ampliar el plazo hasta 30 días hábiles (art. 113).",
+   "fuente_url": "https://www.congreso.gob.pe/wp-content/uploads/2026/07/Reglamento-de-la-Camara-de-Diputados.pdf"
+  },
+  {
+   "paso": "5. Dictamen en comisión (Diputados)",
+   "descripcion": "Las comisiones tienen un plazo máximo de 60 días hábiles para dictaminar; califican la admisibilidad y pueden rechazar de plano o archivar (art. 114). El dictamen debe exponer problema público, objetivos, opiniones recibidas (incluidas las de ciudadanos y organizaciones), antecedentes, efecto sobre la legislación, análisis costo-beneficio y fórmula legal (art. 137).",
+   "fuente_url": "https://www.congreso.gob.pe/wp-content/uploads/2026/07/Reglamento-de-la-Camara-de-Diputados.pdf"
+  },
+  {
+   "paso": "6. Publicación y Pleno de la Cámara de Diputados",
+   "descripcion": "El dictamen se publica 7 días calendario en el portal de la Cámara antes del debate en el Pleno; luego debate y aprobación (art. 104). Si el Pleno rechaza la propuesta, se archiva y no puede presentarse otra sobre idéntica materia hasta el siguiente periodo anual de sesiones, salvo acuerdo de la mitad más uno del número legal (art. 150; art. 105 de la Constitución).",
+   "fuente_url": "https://www.congreso.gob.pe/wp-content/uploads/2026/07/Reglamento-de-la-Camara-de-Diputados.pdf"
+  },
+  {
+   "paso": "7. Remisión al Senado",
+   "descripcion": "La propuesta aprobada se envía al Senado en un plazo máximo de 15 días hábiles desde su aprobación (5 días hábiles si se aprobó por procedimiento de urgencia), con el expediente completo (Reglamento de la Cámara de Diputados, art. 148). En el Senado el expediente lleva sufijo -S.",
+   "fuente_url": "https://www.congreso.gob.pe/wp-content/uploads/2026/07/Reglamento-de-la-Camara-de-Diputados.pdf"
+  },
+  {
+   "paso": "8. Revisión en el Senado",
+   "descripcion": "El Senado registra el expediente y lo deriva a la comisión ordinaria especializada (arts. 110 y 113 del Reglamento del Senado). La comisión tiene un plazo máximo de 90 días hábiles para dictaminar (art. 114). El dictamen se publica 7 días calendario y pasa al Pleno (art. 110). El Senado aprueba, modifica o rechaza (art. 102-A.1 de la Constitución); el dictamen de modificación y el de rechazo requieren la mitad más uno del número legal de senadores (art. 149). Si lo rechaza, se archiva (art. 151).",
+   "fuente_url": "https://www.congreso.gob.pe/wp-content/uploads/2026/07/Reglamento-del-Senado-de-la-Republica.pdf"
+  },
+  {
+   "paso": "9. Vencimiento del plazo de revisión",
+   "descripcion": "El plazo de revisión del Senado vence al término del periodo anual de sesiones siguiente al de su recepción. Vencido, el presidente del Congreso remite al presidente de la República la autógrafa aprobada por la Cámara de Diputados (Reglamento del Senado, art. 150; art. 105 de la Constitución; Reglamento de la Cámara de Diputados, art. 149).",
+   "fuente_url": "https://www.congreso.gob.pe/wp-content/uploads/2026/07/Reglamento-del-Senado-de-la-Republica.pdf"
+  },
+  {
+   "paso": "10. Autógrafa y promulgación",
+   "descripcion": "El presidente del Senado envía la autógrafa al presidente de la República en un plazo no mayor de 15 días hábiles (Reglamento del Senado, art. 148). El Ejecutivo promulga dentro de 15 días o formula observaciones en ese término; si no promulga, lo hace el presidente del Congreso (art. 108 de la Constitución).",
+   "fuente_url": "https://busquedas.elperuano.pe/dispositivo/NL/2272076-2"
+  },
+  {
+   "paso": "11. Observaciones del Ejecutivo",
+   "descripcion": "La autógrafa observada se deriva a la Cámara de Diputados, se tramita como propuesta legislativa en el mismo expediente y, antes de su reconsideración, se convoca a conferencia entre las comisiones competentes de ambas cámaras. Reconsiderada con la mitad más uno del número legal de diputados, pasa al Senado (Reglamento de la Cámara de Diputados, arts. 113 y 151). La Constitución exige la mitad más uno del número legal de cada cámara para la reconsideración (art. 108). Las leyes presupuestales siguen el trámite de la Comisión Bicameral de Presupuesto (Reglamento del Congreso, arts. 38 y 68-77).",
+   "fuente_url": "https://www.congreso.gob.pe/wp-content/uploads/2026/07/Reglamento-de-la-Camara-de-Diputados.pdf"
+  }
+ ],
+ "iniciativa_ciudadana": {
+  "base_constitucional": "Art. 31 (derecho de iniciativa legislativa) y art. 107, segundo párrafo, de la Constitución.",
+  "umbral_firmas": "Firmas comprobadas de no menos del 0.3% de la población electoral nacional (Ley 26300, art. 11).",
+  "materias_excluidas": "Tributaria y presupuestaria (Reglamento de la Cámara de Diputados, art. 110; Ley 26300, art. 12: mismas limitaciones que los congresistas).",
+  "presentacion": "Ante la autoridad electoral, que verifica la autenticidad de las firmas y emite resolución admitiendo la iniciativa (Ley 26300, arts. 4, 6 y 8); luego se presenta a la Cámara de Diputados, donde recibe preferencia en el trámite y la Presidencia de la Cámara ordena su publicación en El Peruano (Reglamento de la Cámara de Diputados, art. 110).",
+  "plazo": "El Congreso dictamina y vota el proyecto en 120 días calendario (Ley 26300, art. 13).",
+  "representantes": "Los promotores pueden nombrar dos representantes para sustentar y defender la iniciativa ante las comisiones (Ley 26300, art. 14).",
+  "si_es_rechazada": "Puede someterse a referéndum; también si los promotores consideran que fue desvirtuada por modificaciones sustanciales (Ley 26300, art. 16).",
+  "advertencia": "El texto citado de la Ley 26300 es el original publicado por el Congreso; la ley ha tenido modificaciones posteriores (incluidos requisitos operativos de recolección de firmas ante ONPE/RENIEC/JNE) que no se verificaron aquí. Confirmar en SPIJ antes de iniciar una recolección.",
+  "fuentes": [
+   "https://leyes.congreso.gob.pe/Documentos/Leyes/26300.pdf",
+   "https://www.congreso.gob.pe/wp-content/uploads/2026/07/Reglamento-de-la-Camara-de-Diputados.pdf",
+   "https://www3.congreso.gob.pe/Docs/constitucion/constitucion/Constitucion-web_2026.pdf"
+  ]
+ },
+ "comisiones_diputados": [
+  "Constitución, Reglamento y Relaciones Exteriores",
+  "Defensa Nacional y Orden Interno",
+  "Desarrollo Agrario",
+  "Defensa del Consumidor y Regulación de los Servicios Públicos",
+  "Modernización de la Gestión del Estado y Contraloría",
+  "Economía, Banca, Finanzas e Inteligencia Financiera",
+  "Educación, Cultura y Deporte",
+  "Energía y Minas",
+  "Justicia y Derechos Humanos",
+  "Inclusión Social, Familia, Mujer y Pueblos Andinos, Amazónicos y Afroperuanos",
+  "Producción, Comercio Exterior y Turismo",
+  "Medio Ambiente y Sostenibilidad",
+  "Salud",
+  "Trabajo y Seguridad Social",
+  "Infraestructura, Vivienda y Transportes",
+  "Ciencia, Innovación Tecnológica y Sociedad Digital"
+ ],
+ "comisiones_diputados_no_legislativas": [
+  "Ética Parlamentaria",
+  "Ordenamiento y Seguimiento Legislativo",
+  "Acusaciones Constitucionales"
+ ],
+ "comisiones_senado": [
+  "Constitución, Reglamento y Relaciones Exteriores",
+  "Defensa Nacional y Orden Interno",
+  "En asuntos de Desarrollo Productivo, Energía y Minas, Infraestructura y Trabajo",
+  "Economía, Medio Ambiente y Defensa del Consumidor",
+  "En asuntos de Salud, Educación, Cultura, Mujer y Desarrollo Social y Digital",
+  "En asuntos de Gestión del Estado y Contraloría",
+  "Justicia y Derechos Humanos"
+ ],
+ "comisiones_senado_no_legislativas": [
+  "Ética Parlamentaria",
+  "Procedimientos Especiales",
+  "Inteligencia",
+  "Control Político sobre los Actos Normativos del Poder Ejecutivo y Regímenes de Excepción"
+ ],
+ "comision_bicameral": "Comisión Bicameral de Presupuesto y de la Cuenta General de la República (Reglamento del Congreso, art. 38).",
+ "comisiones_estado": "Nombres oficiales y vigentes: 16 comisiones ordinarias legislativas de la Cámara de Diputados (Reglamento de la Cámara, art. 45) y 7 del Senado (Reglamento del Senado, art. 48). Coinciden con los acuerdos de las Juntas de Portavoces del 4-ago-2026 (Diputados: 7 comisiones de 26 miembros y 9 de 20; Senado: 12 miembros cada una) y con el catálogo de comisiones de la API SPLEY (ids 60-90).",
+ "notas": [
+  "El Congreso bicameral (60 senadores, 130 diputados) se instaló el 27-jul-2026. El periodo anual de sesiones va del 27 de julio al 26 de julio; la primera legislatura del 27 de julio al 15 de diciembre y la segunda del 1 de marzo al 15 de junio (Reglamento del Congreso, arts. 43-44).",
+  "Toda propuesta ciudadana de ley tech debe ingresar por la Cámara de Diputados (vía un diputado/grupo parlamentario, el Ejecutivo, una entidad con iniciativa en su materia o la iniciativa ciudadana con firmas). El Senado solo revisa.",
+  "Comisión dictaminadora natural para temas tech en Diputados: Ciencia, Innovación Tecnológica y Sociedad Digital. En el Senado no hay comisión exclusiva de ciencia/tecnología; la única con 'Digital' en su nombre es la Comisión en asuntos de Salud, Educación, Cultura, Mujer y Desarrollo Social y Digital. La derivación real la decide la vicepresidencia encargada de cada cámara.",
+  "En SPLEY existe la proposición 00010-2026-2031-S (en comisión al 22-oct-2026) para modificar el art. 48 del Reglamento del Senado y escindir en dos la Comisión en asuntos de Salud, Educación, Cultura, Mujer y Desarrollo Social y Digital: la nómina del Senado podría cambiar.",
+  "Los proyectos del periodo 2021-2026 no continúan automáticamente. En 2026-2031 la Cámara de Diputados ha registrado 'actualizaciones' de proyectos anteriores: (a) autógrafas observadas del Congreso unicameral, que se tramitan como nueva iniciativa por la Segunda Disposición Complementaria Transitoria del Reglamento del Congreso; y (b) proyectos actualizados por Acuerdo de Junta de Portavoces 031-2026-2027 (dato observado en títulos de SPLEY al 22-oct-2026; 183 de 641 expedientes -CD).",
+  "La API SPLEY separa los expedientes 2026-2031 por cámara con el parámetro codTipoParl (D = Diputados, S = Senado, C = Congreso). Consultar solo perParId=2026 sin ese parámetro devuelve únicamente los 6 expedientes del Congreso (leyes presupuestales).",
+  "Comisiones del Senado: una nota de prensa externa listó 8 comisiones con nombres distintos; se prioriza el texto del Reglamento del Senado (art. 48) y la nota oficial del Centro de Noticias del Congreso, que listan 7."
+ ],
+ "fuentes": [
+  {
+   "titulo": "Ley 31988, Ley de Reforma Constitucional que restablece la Bicameralidad (El Peruano, 20-mar-2024)",
+   "url": "https://busquedas.elperuano.pe/dispositivo/NL/2272076-2"
+  },
+  {
+   "titulo": "Constitución Política del Perú, edición web 2026 (Congreso)",
+   "url": "https://www3.congreso.gob.pe/Docs/constitucion/constitucion/Constitucion-web_2026.pdf"
+  },
+  {
+   "titulo": "Reglamento del Congreso de la República (RL 004-2025-2026-CR), edición oficial",
+   "url": "https://www.congreso.gob.pe/wp-content/uploads/2026/07/Reglamento-del-Congreso-de-la-Republica-1.pdf"
+  },
+  {
+   "titulo": "Reglamento de la Cámara de Diputados (RL 005-2025-2026-CR), edición oficial",
+   "url": "https://www.congreso.gob.pe/wp-content/uploads/2026/07/Reglamento-de-la-Camara-de-Diputados.pdf"
+  },
+  {
+   "titulo": "Reglamento del Senado (RL 006-2025-2026-CR), edición oficial",
+   "url": "https://www.congreso.gob.pe/wp-content/uploads/2026/07/Reglamento-del-Senado-de-la-Republica.pdf"
+  },
+  {
+   "titulo": "Ley 26300, Ley de los Derechos de Participación y Control Ciudadanos (texto original)",
+   "url": "https://leyes.congreso.gob.pe/Documentos/Leyes/26300.pdf"
+  },
+  {
+   "titulo": "Junta de Portavoces de la Cámara de Diputados: número de integrantes de comisiones (4-ago-2026)",
+   "url": "https://comunicaciones.congreso.gob.pe/?p=466548"
+  },
+  {
+   "titulo": "Junta de Portavoces de la Cámara de Diputados: cuadro de comisiones (12-ago-2026)",
+   "url": "https://comunicaciones.congreso.gob.pe/?p=467144"
+  },
+  {
+   "titulo": "Acuerdos de la Junta de Portavoces del Senado (4-ago-2026)",
+   "url": "https://comunicaciones.congreso.gob.pe/?p=466537"
+  },
+  {
+   "titulo": "Andina: comisiones ordinarias legislativas del Senado tendrán 12 miembros",
+   "url": "https://andina.pe/agencia/noticia-congreso-comisiones-ordinarias-legislativas-del-senado-tendran-12-miembros-1086206.aspx"
+  },
+  {
+   "titulo": "Portal SPLEY - consulta de expedientes de la Cámara de Diputados",
+   "url": "https://wb2server.congreso.gob.pe/spley-portal/#/diputados/expediente/consulta"
+  }
+ ]
+}

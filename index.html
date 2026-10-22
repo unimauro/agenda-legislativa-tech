@@ -39,6 +39,9 @@
   <nav class="nav" id="nav">
     <a href="#propuestas">Propuestas</a>
     <a href="#panorama">Panorama</a>
+    <a href="#actores" class="v2">Quién hace qué</a>
+    <a href="#revision" class="v2">Revisión</a>
+    <a href="#ciudadania">Ciudadanía</a>
     <a href="#plan2050">Plan 2050</a>
     <a href="#ruta">Hoja de ruta</a>
     <a href="#antecedentes">Antecedentes</a>
@@ -62,6 +65,10 @@
       <a class="btn" href="#propuestas">Ver propuestas</a>
       <a class="btn ghost" href="pdf/agenda-legislativa-tech-completa.pdf" download>⬇️ PDF completo</a>
       <a class="btn ghost" href="data/propuestas.json">{ } Datos abiertos (JSON)</a>
+    </div>
+    <div class="gsearch">
+      <input id="gq" type="search" placeholder="🔎 Busca en todas las propuestas: artículos, entidades, normas… (ej. «celulares robados», «SUNAT», «quechua»)" aria-label="Buscar en todas las propuestas" autocomplete="off">
+      <div id="gres" class="gres" hidden></div>
     </div>
     <div class="kpis" id="kpis"></div>
   </section>
@@ -92,6 +99,35 @@
       <div class="card"><h3>Comisión dictaminadora en la Cámara de Diputados</h3><div class="chart-box"><canvas id="ch-com"></canvas></div></div>
       <div class="card"><h3>Prioridad × costo fiscal</h3><div class="matrix-wrap" id="m-prio"></div></div>
       <div class="card"><h3>Objetivos de Desarrollo Sostenible</h3><div class="chart-box"><canvas id="ch-ods"></canvas></div></div>
+      <div class="card v2"><h3>Tipo de impacto económico</h3><div class="chart-box"><canvas id="ch-imp"></canvas></div></div>
+      <div class="card v2"><h3>Entidades más implicadas</h3><div class="chart-box"><canvas id="ch-ent"></canvas></div></div>
+    </div>
+  </section>
+
+  <section class="block v2" id="actores">
+    <h2>¿Quién hace qué?</h2>
+    <p class="sub">Cada propuesta identifica las normas que modifica y las entidades que la implementan, supervisan,
+      financian o se benefician. Busca una entidad para ver todo lo que esta agenda le encargaría.</p>
+    <input id="eq" type="search" placeholder="Buscar entidad: OSIPTEL, MINEDU, SBS, RENIEC, municipalidades…" aria-label="Buscar entidad" class="search-wide">
+    <div class="card" style="margin-top:10px"><div class="tbl-scroll" id="ent-tbl"></div></div>
+  </section>
+
+  <section class="block v2" id="revision">
+    <h2>Revisión especializada</h2>
+    <p class="sub">Cada propuesta pasó por cinco revisiones asistidas por IA (constitucional, técnica legislativa,
+      derecho tecnológico, seguridad y concordancia normativa) y luego se corrigió. La matriz muestra el veredicto
+      sobre la versión anterior y cuántas observaciones se atendieron. No reemplaza la revisión de un abogado ni el
+      dictamen de comisión.</p>
+    <div class="card matrix-wrap" id="m-rev"></div>
+  </section>
+
+  <section class="block" id="ciudadania">
+    <h2>Lo que dice la ciudadanía</h2>
+    <p class="sub">Cada propuesta tiene un hilo de comentarios abierto. Aquí se consolidan los comentarios y las
+      reacciones (👍 apoyo · 👎 rechazo), con actualización automática cada 6 horas. Opina desde la página de cada propuesta.</p>
+    <div class="grid2">
+      <div class="card"><h3>Propuestas más comentadas</h3><div class="tbl-scroll" id="cm-rank"></div></div>
+      <div class="card"><h3>Comentarios recientes</h3><div class="tbl-scroll" id="cm-feed"></div></div>
     </div>
   </section>
 
@@ -180,6 +216,21 @@
   </footer>
 </main>
 
+<button class="chat-fab" id="chat-fab" aria-expanded="false" aria-controls="chat">💬 Pregúntale a la agenda</button>
+<aside class="chat" id="chat" hidden aria-label="Asistente ciudadano">
+  <header><b>🤖 Asistente ciudadano</b><span class="muted">Responde con las propuestas de esta agenda</span><button class="ghost" id="chat-x" aria-label="Cerrar">✕</button></header>
+  <div class="chat-log" id="chat-log" aria-live="polite">
+    <div class="msg bot">¡Hola! Pregúntame en tus palabras qué propone esta agenda sobre un tema, a quién beneficia, quién la implementaría o cuánto costaría. Son <b>propuestas ciudadanas</b>, no leyes vigentes.</div>
+    <div class="chips sug" id="chat-sug">
+      <button class="chip">¿Qué proponen contra el robo de celulares y las estafas?</button>
+      <button class="chip">¿Qué propuestas no le cuestan nada al Estado?</button>
+      <button class="chip">¿Cómo ayudaría a los colegios rurales?</button>
+      <button class="chip">¿Cómo se presenta una de estas leyes?</button>
+    </div>
+  </div>
+  <form id="chat-f"><input id="chat-q" placeholder="Escribe tu pregunta…" maxlength="400" autocomplete="off" aria-label="Tu pregunta"><button class="btn" type="submit">Enviar</button></form>
+  <p class="chat-note">Respuestas armadas a partir de las propuestas. No es asesoría legal.</p>
+</aside>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <script src="assets/app.js"></script>
 </body>

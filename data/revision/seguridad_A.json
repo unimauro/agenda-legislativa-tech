@@ -1,0 +1,1463 @@
+[
+ {
+  "id": "IA-01",
+  "especialidad": "seguridad",
+  "veredicto": "observaciones",
+  "resumen": "El registro es valioso para la rendición de cuentas, pero la ficha obliga a publicar en formato abierto información (lógica, variables de mayor peso, proveedor, métricas) que, en sistemas de fiscalización, detección de fraude o seguridad, facilita la elusión y los ataques dirigidos. Falta una excepción de publicidad por seguridad distinta de la reserva genérica de la Ley 27806 y un régimen de acceso reservado para supervisores.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 5, literales e), f) y h)",
+    "problema": "Publicar la descripción de la lógica, las variables de mayor peso, el proveedor y la modalidad de adquisición y las métricas de desempeño de sistemas que seleccionan contribuyentes para fiscalización, detectan fraude en programas sociales o priorizan riesgos de seguridad permite a un actor malicioso ajustar su conducta para no ser detectado (evasión del modelo) e identificar proveedores y componentes para ataques a la cadena de suministro. La remisión del art. 2.2 a los arts. 15-17 del TUO de la Ley 27806 no cubre de forma clara la información técnica de seguridad de sistemas no clasificados, lo que deja la decisión a cada entidad y genera publicaciones desiguales.",
+    "correccion": "Incorporar el numeral 5.2: «No se publican en el Registro, aun cuando el sistema esté inscrito: a) la arquitectura técnica, componentes de software, versiones, configuraciones, direcciones o puntos de acceso; b) los umbrales, pesos exactos o reglas de selección de sistemas de fiscalización, control, detección de fraude, prevención del lavado de activos o seguridad, cuya divulgación permita eludirlos; c) los conjuntos de datos de entrenamiento con datos personales. Para estos sistemas la ficha pública contiene una descripción general de la finalidad y de los factores considerados. La información omitida se entrega íntegramente, bajo deber de reserva, a la Contraloría General de la República, a la Defensoría del Pueblo, a la Autoridad Nacional de Protección de Datos Personales y al Centro Nacional de Seguridad Digital cuando la requieran.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3, literal b) y Artículo 7.2",
+    "problema": "La evaluación de impacto algorítmico menciona 'la seguridad' pero no exige evaluar riesgos de ciberseguridad propios de la IA (envenenamiento de datos, manipulación de entradas, extracción del modelo, fuga de datos de entrenamiento) ni su articulación con el Marco de Confianza Digital (DU 007-2020 y DS 126-2025-PCM). La NTP-ISO/IEC 42001 es un sistema de gestión, no un método de evaluación de seguridad.",
+    "correccion": "En el art. 7.2 añadir: «El modelo incluye un componente de seguridad digital que evalúa, como mínimo, la integridad de los datos de entrenamiento, la resistencia a la manipulación de entradas, la protección del modelo y de los datos frente a extracción o filtración, el control de accesos y el registro de eventos, conforme a la NTP-ISO/IEC 27001, a la NTP-ISO/IEC 27005 y a los lineamientos del Centro Nacional de Seguridad Digital.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 8",
+    "problema": "La 'auditoría ciudadana' puede interpretarse como habilitación para realizar pruebas activas sobre sistemas en producción, lo que podría configurar acceso ilícito (art. 2 de la Ley 30096) o afectar la disponibilidad del servicio.",
+    "correccion": "Añadir al final: «Las observaciones se formulan sobre la información publicada o la obtenida por acceso a la información pública. La realización de pruebas técnicas sobre los sistemas se rige por las reglas de divulgación coordinada de vulnerabilidades y requiere autorización de la entidad.»"
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "TUO de la Ley 27806 (DS 021-2019-JUS), art. 17 — evaluar incorporar como información confidencial la que comprometa la seguridad digital de sistemas públicos"
+   ],
+   "entidades_implicadas": [
+    "CNSD-PCM (SGTD) — validación del componente de seguridad de la evaluación de impacto y acceso reservado a fichas",
+    "ANPD — acceso al documento completo cuando haya datos personales",
+    "Contraloría General de la República — control posterior con acceso reservado"
+   ],
+   "impacto_economico": "Costo marginal bajo: el componente de seguridad de la evaluación de impacto requiere aproximadamente 2-5 días-persona de especialista por sistema de riesgo alto (supuesto); la omisión de detalles técnicos reduce el costo esperado de incidentes y de elusión en sistemas de recaudación y programas sociales."
+  }
+ },
+ {
+  "id": "IA-02",
+  "especialidad": "seguridad",
+  "veredicto": "observaciones",
+  "resumen": "Garantía bien diseñada desde el debido proceso. Desde seguridad, el derecho a la explicación y la inoponibilidad de confidencialidad deben modularse para sistemas de detección de fraude y selección para fiscalización, y el acceso de órganos de control a información técnica debe hacerse bajo condiciones de seguridad.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3 (numeral 66.23) y Artículo 6.2",
+    "problema": "Explicar 'los factores principales que determinaron el resultado' en decisiones de selección para fiscalización, alertas de fraude o de lavado de activos revela al infractor los criterios de detección y permite su elusión sistemática; además, el art. 6.2 deja sin límite el deber de explicación frente a cláusulas de confidencialidad, incluso respecto de información cuya divulgación compromete la seguridad del sistema.",
+    "correccion": "Añadir al numeral 66.23: «En los actos de selección para fiscalización, prevención del fraude o del lavado de activos y en los de seguridad, la explicación comprende la naturaleza de los factores considerados, sin revelar umbrales, pesos ni reglas cuya divulgación permita eludir el control, sin perjuicio del acceso íntegro del órgano revisor y de la autoridad judicial.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 6.2",
+    "problema": "La entrega de 'información técnica necesaria' a órganos de control no fija condiciones de manejo seguro (código, modelos, datos), lo que crea un nuevo punto de fuga.",
+    "correccion": "Añadir: «La información técnica se entrega o inspecciona en entornos controlados de la entidad o por canales cifrados, con registro de accesos y deber de reserva de quienes accedan.»"
+   }
+  ],
+  "aportes": {
+   "entidades_implicadas": [
+    "ANPD — tutela del derecho al tratamiento objetivo (art. 23 Ley 29733)",
+    "SUNAT/UIF-SBS — sujetos con sistemas de detección cuya explicación debe modularse"
+   ],
+   "impacto_economico": "Sin costo relevante de seguridad adicional; los entornos de inspección controlados pueden reutilizar infraestructura existente."
+  }
+ },
+ {
+  "id": "IA-03",
+  "especialidad": "seguridad",
+  "veredicto": "observaciones",
+  "resumen": "El sandbox protege la seguridad de los datos personales, pero no declara indisponibles las obligaciones de seguridad digital ni de notificación de incidentes, no exige un plan de seguridad para admitir proyectos y no controla el acceso a datos o infraestructura del Estado durante la prueba.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 4.2",
+    "problema": "Solo se excluye de flexibilización la seguridad de datos personales; quedan flexibilizables, vía 'requisitos reglamentarios', las obligaciones del Marco de Confianza Digital (DU 007-2020 y DS 126-2025-PCM), incluida la notificación de incidentes al CNSD en 48 horas para incidentes críticos, y los requisitos de seguridad sectoriales (p. ej., SBS sobre seguridad de la información).",
+    "correccion": "Sustituir el art. 4.2 por: «No son objeto de flexibilización: los derechos fundamentales; los usos prohibidos previstos en el Reglamento de la Ley 31814; las obligaciones de seguridad de los datos personales y de seguridad digital previstas en el Decreto de Urgencia 007-2020 y su reglamento, incluida la notificación de incidentes; los requisitos de ciberseguridad aplicables a infraestructuras críticas; la responsabilidad civil por daños; ni las normas penales.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3",
+    "problema": "Los requisitos de elegibilidad no incluyen capacidad de seguridad. Un proyecto que interconecte con sistemas o datos públicos sin controles mínimos crea una vía de acceso a la red del Estado.",
+    "correccion": "Añadir literal f): «plan de seguridad de la información proporcional al riesgo, que incluya control de accesos con autenticación multifactor, cifrado de datos en tránsito y en reposo, registro de eventos y procedimiento de respuesta a incidentes.» Y numeral 3.2: «El acceso a datos o sistemas de entidades públicas durante la prueba se realiza en entornos segregados, con datos anonimizados o sintéticos salvo autorización expresa de la ANPD.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 7.1",
+    "problema": "Publicar 'los incidentes reportados' sin desfase puede revelar vulnerabilidades no corregidas.",
+    "correccion": "Añadir: «Los incidentes de seguridad se publican en forma agregada y una vez mitigados.»"
+   }
+  ],
+  "aportes": {
+   "entidades_implicadas": [
+    "CNSD-PCM — participante obligatorio cuando el proyecto use datos o sistemas públicos",
+    "SBS / OSIPTEL — reguladores sectoriales con requisitos de seguridad propios"
+   ],
+   "impacto_economico": "Costo para el participante: plan de seguridad y entornos segregados (estimado bajo para mipymes si el Estado provee un entorno de pruebas común)."
+  }
+ },
+ {
+  "id": "IA-04",
+  "especialidad": "seguridad",
+  "veredicto": "observaciones_graves",
+  "resumen": "La apertura por defecto con API gratuitas y sin registro es un buen objetivo, pero la ley no fija un estándar verificable de anonimización ni una evaluación de riesgo de reidentificación antes de publicar, no excluye datos geoespaciales sobre infraestructura crítica y no exige controles mínimos de seguridad de las API. El riesgo de reidentificación de datos de salud y movilidad y de exposición de activos críticos es grave.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículos 2.1 y 4.1",
+    "problema": "Se consideran abiertos los datos 'anonimizados' y se incluyen como alto valor datos de salud, educativos y de movilidad, sin exigir una evaluación previa del riesgo de reidentificación ni considerar el efecto mosaico (cruce de varios conjuntos abiertos). Los datos de movilidad y salud desagregados son altamente reidentificables; la Ley 29733 y el DS 016-2024-JUS protegen los datos sensibles y la reidentificación anula la anonimización.",
+    "correccion": "Incorporar el numeral 2.3: «Antes de publicar un conjunto que derive de datos personales, la entidad realiza y documenta una evaluación del riesgo de reidentificación, considerando el cruce con otros conjuntos disponibles, conforme a los lineamientos que aprueba la Autoridad Nacional de Protección de Datos Personales. Los datos de salud, de menores de edad y de localización de personas solo se publican agregados o con técnicas de privacidad que garanticen un riesgo residual aceptable, o se ponen a disposición en entornos seguros de acceso.»"
+   },
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 4.1 (datos geoespaciales) y Artículo 2.1",
+    "problema": "La apertura por defecto de datos geoespaciales y de servicios puede exponer la ubicación y características de infraestructuras críticas (subestaciones, ductos, plantas de agua, nodos de telecomunicaciones, instalaciones de defensa). La reserva por seguridad nacional (art. 16 TUO Ley 27806) exige motivación caso a caso, invirtiendo la carga en contra de la seguridad.",
+    "correccion": "Añadir el numeral 4.3: «Se excluyen de la publicación por defecto los datos que permitan identificar la ubicación precisa, los puntos vulnerables, la configuración o la capacidad de las infraestructuras críticas y de las instalaciones de la defensa nacional, conforme a la relación que aprueba la Presidencia del Consejo de Ministros con opinión del Ministerio de Defensa y del Centro Nacional de Seguridad Digital. Dichos datos pueden publicarse con una generalización que impida su localización precisa.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 5.1",
+    "problema": "API gratuitas 'sin registro obligatorio' sin requisitos de seguridad quedan expuestas a abuso (agotamiento de recursos, extracción masiva, inyección) y pueden convertirse en un vector de entrada a los sistemas transaccionales de la entidad si no se separan.",
+    "correccion": "Añadir: «Las API públicas: a) se sirven desde réplicas o repositorios separados de los sistemas transaccionales de la entidad; b) aplican limitación de tasa y medidas contra el abuso, y pueden exigir una clave gratuita para volúmenes superiores al ordinario; c) son de solo lectura; d) usan conexiones cifradas y publican sumas de verificación o firmas que permitan comprobar la integridad de los datos; y e) cumplen los lineamientos de seguridad de API que aprueba la Secretaría de Gobierno y Transformación Digital.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 7",
+    "problema": "La prohibición de reidentificar carece de consecuencia jurídica; sin infracción tipificada no es disuasiva.",
+    "correccion": "Añadir: «La reidentificación de personas a partir de datos anonimizados publicados por el Estado constituye infracción muy grave conforme al régimen sancionador de la Ley 29733, salvo cuando se realice como investigación de seguridad de buena fe comunicada a la entidad y a la ANPD sin divulgar los datos reidentificados.»"
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 29733, art. 38 o régimen de infracciones (incorporar la reidentificación como infracción muy grave)"
+   ],
+   "entidades_implicadas": [
+    "ANPD — lineamientos de anonimización y evaluación de riesgo de reidentificación",
+    "Ministerio de Defensa/CCFFAA — opinión sobre datos geoespaciales sensibles",
+    "CNSD-PCM — lineamientos de seguridad de API"
+   ],
+   "impacto_economico": "La separación de réplicas, la limitación de tasa y la pasarela de API añaden un costo de infraestructura moderado por entidad (estimable en decenas de miles de soles anuales si se usa la plataforma central; supuesto). La evaluación de reidentificación evita costos de brechas y sanciones."
+  }
+ },
+ {
+  "id": "IA-05",
+  "especialidad": "seguridad",
+  "veredicto": "observaciones",
+  "resumen": "Una red de cómputo de alto rendimiento compartida es un activo de alto valor y un objetivo frecuente (robo de credenciales, minería ilícita, exfiltración de modelos y datos). La ley solo remite genéricamente al Marco de Confianza Digital; faltan requisitos mínimos de seguridad, verificación de usuarios y control de la cadena de suministro.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3.2 y Artículo 6",
+    "problema": "No se fijan requisitos mínimos para nodos heterogéneos (públicos, privados, extranjeros) interconectados: un nodo débil compromete a toda la red y a los datos públicos que procesa.",
+    "correccion": "Incorporar el artículo 6-A: «Cada nodo cumple, como requisito de adhesión, controles mínimos: autenticación multifactor para todo acceso, segregación de proyectos y datos, cifrado en tránsito y en reposo, registro de eventos conservado por al menos un año, gestión de vulnerabilidades y notificación de incidentes al Centro Nacional de Seguridad Digital conforme al Decreto de Urgencia 007-2020 y su reglamento. La Red designa un equipo de respuesta a incidentes que coordina con dicho Centro.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 5.1",
+    "problema": "El acceso abierto por convocatoria no prevé verificación de identidad ni revisión de usos de doble uso o de investigación con datos sensibles, lo que puede facilitar el entrenamiento de modelos con fines ilícitos.",
+    "correccion": "Añadir el numeral 5.4: «La asignación de tiempo de cómputo requiere verificación de identidad del investigador responsable y declaración del uso previsto. Los proyectos que traten datos sensibles o tengan potencial de doble uso son evaluados previamente por el comité técnico.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 7",
+    "problema": "Los criterios de adquisición omiten la seguridad de la cadena de suministro del equipamiento y del software de gestión.",
+    "correccion": "Añadir: «Las adquisiciones incorporan requisitos de seguridad de la cadena de suministro, incluida la lista de componentes de software y el compromiso de soporte de actualizaciones de seguridad durante la vida útil.»"
+   }
+  ],
+  "aportes": {
+   "entidades_implicadas": [
+    "CNSD-PCM — coordinación de incidentes",
+    "CONCYTEC — aprobación de normas técnicas de seguridad de la Red"
+   ],
+   "impacto_economico": "Los controles de seguridad suelen representar entre 5 % y 10 % del costo operativo de un centro de cómputo (supuesto de referencia sectorial); deben presupuestarse en el plan de despliegue."
+  }
+ },
+ {
+  "id": "IA-06",
+  "especialidad": "seguridad",
+  "veredicto": "observaciones",
+  "resumen": "Propuesta de bajo riesgo de seguridad, pero los corpus de voz son datos potencialmente biométricos y permiten la clonación de voz de los hablantes, lo que no se aborda.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículos 4 y 5",
+    "problema": "Las grabaciones de voz pueden permitir identificar al hablante y clonar su voz (fraude telefónico, suplantación). Bajo la Ley 29733 los datos biométricos son sensibles; publicar audios bajo licencia abierta expone a comunidades con baja alfabetización digital a fraude.",
+    "correccion": "Añadir el numeral 5.3: «Los corpus de voz se publican con medidas que impidan identificar al hablante cuando ello sea técnicamente posible sin afectar su utilidad, y su licencia prohíbe expresamente su uso para identificación biométrica o para la reproducción sintética de la voz de un hablante concreto sin su consentimiento. Los datos que permitan identificar a los hablantes se conservan separados y bajo control de la entidad.»"
+   }
+  ],
+  "aportes": {
+   "entidades_implicadas": [
+    "ANPD — tratamiento de datos de voz como datos sensibles"
+   ],
+   "impacto_economico": "Costo marginal bajo (procesamiento de seudonimización de audios)."
+  }
+ },
+ {
+  "id": "IA-07",
+  "especialidad": "seguridad",
+  "veredicto": "observaciones",
+  "resumen": "Aborda un riesgo real para la integridad electoral. Desde seguridad faltan medidas de autenticidad de las comunicaciones oficiales de los organismos electorales, preservación de evidencia digital y salvaguardas contra el uso abusivo del procedimiento de retiro (órdenes sobre URL específicas, sin monitoreo general).",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 4.1, literal b)",
+    "problema": "La prohibición de suplantar a los organismos electorales es reactiva; la defensa eficaz es que el elector pueda verificar la autenticidad de los mensajes oficiales.",
+    "correccion": "Incorporar el artículo 4-A: «La ONPE, el JNE y el RENIEC difunden sus comunicaciones oficiales en canales verificados y con mecanismos de autenticación de origen (firma digital o credenciales de procedencia del contenido), y publican la relación de sus canales oficiales.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 5.2",
+    "problema": "La orden de retiro no exige preservar la evidencia digital antes de eliminarla, lo que frustra la investigación penal (art. 196-A y art. 46 del Código Penal modificados por la Ley 32314); el Convenio de Budapest (art. 16) prevé la conservación rápida de datos. Tampoco delimita la orden a contenidos identificados, con riesgo de órdenes genéricas o de monitoreo general.",
+    "correccion": "Añadir al art. 5.2: «La orden identifica cada contenido por su localizador o huella digital y no impone obligaciones generales de supervisión. Antes del retiro, el proveedor conserva el contenido y los datos de tráfico asociados por noventa días para su entrega al Ministerio Público previa orden conforme a ley.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 5.3",
+    "problema": "La apelación sin efecto suspensivo y la legitimación de 'cualquier persona' facilitan el uso del procedimiento para silenciar contenido legítimo durante la campaña.",
+    "correccion": "Añadir: «Si la apelación es estimada, se ordena la restitución inmediata del contenido. La denuncia manifiestamente temeraria es sancionable.»"
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 28094 (incorpora art. 42-A)"
+   ],
+   "entidades_implicadas": [
+    "JNE/ONPE — autenticación de canales oficiales",
+    "Ministerio Público y DIVINDAT-PNP — investigación penal con evidencia preservada",
+    "OSIPTEL — coordinación con operadores para SMS y llamadas de suplantación electoral"
+   ],
+   "impacto_economico": "Costo bajo para organismos electorales (firma de contenidos); costo de preservación para plataformas marginal."
+  }
+ },
+ {
+  "id": "IA-08",
+  "especialidad": "seguridad",
+  "veredicto": "observaciones",
+  "resumen": "La validación clínica es necesaria, pero el software médico conectado es un vector de ataque reconocido; la ley no exige requisitos de ciberseguridad previos al registro ni gestión de vulnerabilidades posterior, y el 'plan de cambios' podría retrasar parches de seguridad urgentes.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículos 4 y 5",
+    "problema": "El registro sanitario solo exige validación clínica; no exige documentación de ciberseguridad (lista de componentes de software, gestión de vulnerabilidades, soporte de actualizaciones), como hacen los marcos de referencia del IMDRF sobre ciberseguridad de dispositivos médicos. Un software diagnóstico manipulado o indisponible afecta a muchos pacientes simultáneamente.",
+    "correccion": "Incorporar el numeral 4.3: «El registro sanitario de programas informáticos como dispositivo médico requiere, además, documentación de ciberseguridad que comprenda la lista de componentes de software, la evaluación de amenazas, los controles de autenticación y cifrado, el plan de gestión de vulnerabilidades y el periodo de soporte de actualizaciones de seguridad, conforme a las guías del International Medical Device Regulators Forum.» E incorporar en el art. 5.1: «...y las vulnerabilidades e incidentes de seguridad que afecten al sistema, que se notifican también al Centro Nacional de Seguridad Digital»."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 5.2",
+    "problema": "Exigir comunicación previa de las actualizaciones puede bloquear la aplicación urgente de parches de seguridad.",
+    "correccion": "Añadir: «Las actualizaciones que corrigen exclusivamente vulnerabilidades de seguridad sin modificar la finalidad ni el desempeño clínico se aplican de inmediato y se comunican dentro de los quince días siguientes.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 8",
+    "problema": "Los datos clínicos 'anonimizados' de referencia son de alto riesgo de reidentificación.",
+    "correccion": "Disponer que dichos conjuntos se pongan a disposición en entornos seguros de acceso controlado, no como datos abiertos."
+   }
+  ],
+  "aportes": {
+   "entidades_implicadas": [
+    "DIGEMID — evaluación de documentación de ciberseguridad",
+    "CNSD-PCM — recepción de reportes de vulnerabilidades",
+    "ANPD — datos de salud (sensibles)"
+   ],
+   "impacto_economico": "Para fabricantes, la documentación de ciberseguridad es un costo de cumplimiento moderado ya exigido en mercados de referencia; DIGEMID requiere capacitar evaluadores en seguridad de software."
+  }
+ },
+ {
+  "id": "IA-09",
+  "especialidad": "seguridad",
+  "veredicto": "observaciones",
+  "resumen": "Buenas garantías. En seguridad, falta exigir integridad y trazabilidad del reparto automatizado de expedientes, controles frente a la manipulación de sistemas por contenido presentado por las partes y límites de publicidad técnica del registro.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3, literal a)",
+    "problema": "El reparto automatizado de expedientes es un punto crítico de integridad (manipulación para direccionar casos). Sin registros inalterables y auditables, la garantía de 'criterios objetivos públicos' no es verificable.",
+    "correccion": "Añadir: «Los sistemas de reparto conservan registros inalterables de cada asignación, de los parámetros aplicados y de los accesos administrativos, auditables por el órgano de control institucional y por las partes respecto de su caso.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 4, literal c)",
+    "problema": "La condición 'servicios que garanticen confidencialidad' es imprecisa; no exige evaluación previa, ubicación de datos ni controles de acceso. Tampoco considera que escritos de las partes procesados por IA pueden contener instrucciones ocultas destinadas a manipular el resultado del sistema.",
+    "correccion": "Sustituir el literal c) por: «el ingreso de información reservada o datos sensibles en servicios de IA no aprobados por la institución; la aprobación exige evaluación de seguridad previa, compromiso contractual de no uso para entrenamiento, cifrado, registro de accesos y condiciones de transferencia conforme a la Ley 29733.» Y añadir en el art. 3, literal e): «...con controles frente a la manipulación del sistema mediante el contenido de los documentos procesados.»"
+   }
+  ],
+  "aportes": {
+   "entidades_implicadas": [
+    "Poder Judicial y Ministerio Público — oficinas de seguridad de la información",
+    "ANPD — transferencias a proveedores de IA"
+   ],
+   "impacto_economico": "Registros inalterables y evaluación de proveedores: costo bajo frente al riesgo de nulidades por manipulación del reparto."
+  }
+ },
+ {
+  "id": "IA-10",
+  "especialidad": "seguridad",
+  "veredicto": "observaciones",
+  "resumen": "Propuesta sólida y necesaria; los entornos seguros son la respuesta correcta al riesgo de reidentificación. Debe fijar requisitos técnicos mínimos de los entornos, reconocer que los datos sintéticos pueden filtrar registros reales y, sobre todo, no sancionar la investigación de robustez de buena fe que detecta anonimizaciones defectuosas.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 7.1",
+    "problema": "Prohibir 'intentar reidentificar' con la única excepción de pruebas 'autorizadas por la entidad responsable' sanciona como infracción muy grave a investigadores académicos o de seguridad que demuestran, de buena fe, que un conjunto publicado es reidentificable; es precisamente esa investigación la que permite corregir publicaciones defectuosas. La fórmula 'intentar' es además vaga para un tipo infractor muy grave (principio de tipicidad, art. 248.4 del TUO de la Ley 27444).",
+    "correccion": "Sustituir el art. 7.1 por: «Se prohíbe reidentificar a personas a partir de datos anonimizados, seudonimizados o sintéticos, así como utilizar, divulgar o comercializar datos reidentificados. No constituye infracción la prueba de reidentificación realizada con fines de investigación o de verificación de la seguridad, siempre que: a) no se divulguen ni utilicen los datos de personas reidentificadas; b) se comunique el hallazgo a la entidad responsable y a la Autoridad Nacional de Protección de Datos Personales dentro de los diez días hábiles siguientes; c) se destruyan los datos reidentificados; y d) la publicación de resultados se haga de forma agregada y una vez adoptadas las medidas correctivas o transcurridos noventa días desde la comunicación.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 2, literal d) y Artículo 4",
+    "problema": "El entorno seguro se define solo como 'infraestructura controlada' sin controles mínimos; la ley debe asegurar que el entorno no sea un punto único de exfiltración de microdatos sensibles.",
+    "correccion": "Añadir el numeral 4.4: «Los entornos seguros cumplen como mínimo: autenticación multifactor; ausencia de canales de salida de datos no autorizados; registro y conservación de las consultas y accesos; revisión de los resultados antes de su extracción para impedir la divulgación de casos individuales; cifrado en reposo; y notificación de incidentes al Centro Nacional de Seguridad Digital y a la ANPD conforme a la normativa vigente.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3.2",
+    "problema": "Los datos sintéticos generados por modelos pueden memorizar y reproducir registros reales (riesgo de inferencia de pertenencia). Excluirlos ex lege del régimen de datos personales solo es aceptable si el estándar exige pruebas de privacidad, y si se revisa ante nuevas técnicas.",
+    "correccion": "Añadir al 3.2: «...siempre que superen las pruebas de riesgo de reidentificación y de inferencia de pertenencia previstas en el estándar, que se revisa al menos cada dos años. Si se comprueba que un conjunto permite identificar a personas, recupera la condición de dato personal y la entidad lo retira.»"
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 29733 (incorpora art. 14-A e infracción muy grave por reidentificación)"
+   ],
+   "entidades_implicadas": [
+    "ANPD — estándar y recepción de reportes de reidentificación",
+    "INEI — operador de entornos seguros",
+    "CNSD-PCM — incidentes en entornos seguros"
+   ],
+   "impacto_economico": "Un entorno seguro centralizado en el INEI (escritorio virtual sin salida de datos) es más económico que entornos por entidad; costo moderado de implementación y operación (supuesto)."
+  }
+ },
+ {
+  "id": "IA-11",
+  "especialidad": "seguridad",
+  "veredicto": "observaciones",
+  "resumen": "Fortalecer la autonomía de la ANPD mejora la supervisión de la seguridad de los datos personales, incluidos los del Estado. Falta articular su función de recepción de notificaciones de brechas con el Centro Nacional de Seguridad Digital y prever capacidad técnica forense.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 5",
+    "problema": "No se prevé la coordinación entre la ANPD (que recibe notificaciones de incidentes de seguridad de datos personales en 48 horas según el DS 016-2024-JUS) y el CNSD (que recibe incidentes de seguridad digital conforme al DS 126-2025-PCM). La doble notificación sin intercambio genera carga y respuestas descoordinadas.",
+    "correccion": "Añadir literal f): «recibir las notificaciones de incidentes de seguridad que afecten datos personales a través de la ventanilla única de notificación de incidentes que administre el Centro Nacional de Seguridad Digital, con el que intercambia información bajo reserva y coordina la respuesta.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 7",
+    "problema": "La unidad de supervisión algorítmica no incluye capacidad de auditoría de seguridad de la información, necesaria para verificar las medidas de seguridad del art. 16 de la Ley 29733.",
+    "correccion": "Denominarla «órgano de supervisión técnica de tratamientos automatizados y de seguridad de la información», con personal certificado en auditoría de seguridad."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 29733, art. 32"
+   ],
+   "entidades_implicadas": [
+    "ANPD — autoridad autónoma",
+    "CNSD-PCM — intercambio de información de incidentes"
+   ],
+   "impacto_economico": "La capacidad de auditoría técnica requiere un equipo especializado reducido (estimado 5-10 especialistas; supuesto) financiable con multas y tasas."
+  }
+ },
+ {
+  "id": "IA-12",
+  "especialidad": "seguridad",
+  "veredicto": "observaciones",
+  "resumen": "La portabilidad directa mediante API crea un canal de extracción masiva de datos personales: si la autorización o la verificación de identidad fallan, se facilita la toma de cuentas y la exfiltración. El art. 6 es correcto pero demasiado genérico; deben fijarse requisitos mínimos de autenticación, autorización acotada y trazabilidad.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículos 4 y 6",
+    "problema": "La transmisión directa entre responsables no exige autenticación reforzada del titular, autorización acotada y revocable, verificación del receptor ni aviso al titular, controles reconocidos en esquemas de portabilidad y banca abierta para prevenir fraudes de transferencia masiva.",
+    "correccion": "Sustituir el art. 6 por: «6.1. El responsable verifica la identidad del solicitante con autenticación multifactor o identidad digital del Estado. 6.2. La transmisión directa requiere una autorización del titular específica en cuanto a receptor, categorías de datos y vigencia, revocable en cualquier momento. 6.3. Las interfaces usan canales cifrados, autenticación mutua con el receptor y limitación de volumen. 6.4. El responsable notifica al titular cada transmisión por un canal distinto del usado para solicitarla y conserva registro de las transmisiones por dos años. 6.5. El responsable puede suspender una transmisión ante indicios razonables de fraude, informando al titular.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 2 (art. 21-A.3)",
+    "problema": "Los datos 'generados por su actividad' pueden incluir datos de terceros (contactos, conversaciones), cuya transmisión a un nuevo responsable no tiene base legal.",
+    "correccion": "Añadir: «La portabilidad no comprende datos personales de terceros salvo los estrictamente necesarios para la utilidad de los datos transmitidos y bajo las mismas condiciones de tratamiento.»"
+   }
+  ],
+  "aportes": {
+   "entidades_implicadas": [
+    "ANPD — estándares de seguridad de las interfaces",
+    "SBS — referencia de controles de seguridad en esquemas de intercambio financiero"
+   ],
+   "impacto_economico": "Implementar autenticación reforzada, registro y notificación en las API de portabilidad es un costo moderado para grandes plataformas (umbral de usuarios); para mypes no aplica la obligación de API."
+  }
+ },
+ {
+  "id": "IA-13",
+  "especialidad": "seguridad",
+  "veredicto": "observaciones",
+  "resumen": "Protección laboral adecuada. Desde seguridad y privacidad, la excepción por 'razones de seguridad' a la prohibición de inferir emociones es abierta, y el deber de informar parámetros debe modularse para sistemas de seguridad corporativa (prevención de fraude interno), sin habilitar vigilancia desproporcionada.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 4.3",
+    "problema": "La excepción 'por razones médicas o de seguridad debidamente justificadas' permite justificar la inferencia de emociones y la vigilancia biométrica de trabajadores (datos sensibles bajo la Ley 29733) con fines generales de seguridad corporativa.",
+    "correccion": "Sustituir por: «...salvo por razones médicas o de seguridad física de las personas en actividades de riesgo, previa evaluación de impacto en protección de datos comunicada a la ANPD y a los representantes de los trabajadores. En ningún caso los resultados se usan para evaluar el desempeño o sancionar.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 3.1",
+    "problema": "Informar los 'principales parámetros' de sistemas de detección de fraude interno o de seguridad de la información puede facilitar su elusión.",
+    "correccion": "Añadir: «Respecto de los sistemas de seguridad de la información y prevención del fraude, la información comprende su existencia, finalidad y datos tratados, sin revelar reglas o umbrales de detección.»"
+   }
+  ],
+  "aportes": {
+   "entidades_implicadas": [
+    "SUNAFIL — fiscalización",
+    "ANPD — datos biométricos y sensibles de trabajadores"
+   ],
+   "impacto_economico": "Sin costo de seguridad significativo adicional."
+  }
+ },
+ {
+  "id": "IA-14",
+  "especialidad": "seguridad",
+  "veredicto": "observaciones",
+  "resumen": "Las cláusulas de auditabilidad y portabilidad son correctas, pero la contratación de IA de riesgo alto omite requisitos de ciberseguridad (cadena de suministro, gestión de vulnerabilidades, pruebas de seguridad, borrado de datos, subcontratistas) y deja indeterminado el plazo de reporte de incidentes.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 4, literal e)",
+    "problema": "'Reporte de incidentes en plazo determinado' remite a la negociación de cada contrato; no se alinea con la notificación de incidentes al CNSD (48 horas para incidentes críticos según el DS 126-2025-PCM) ni con la notificación de brechas de datos personales.",
+    "correccion": "Sustituir por: «e) notificación a la entidad de todo incidente de seguridad que afecte al sistema o a sus datos dentro de las veinticuatro horas de detectado, con la información necesaria para que la entidad cumpla sus obligaciones de notificación al Centro Nacional de Seguridad Digital y a la Autoridad Nacional de Protección de Datos Personales;»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 4 (nuevos literales)",
+    "problema": "Faltan cláusulas mínimas de seguridad de la cadena de suministro para sistemas que procesan datos de millones de ciudadanos.",
+    "correccion": "Añadir: «g) lista de componentes de software y modelos de terceros, y compromiso de gestión y corrección de vulnerabilidades en plazos según su criticidad; h) autenticación multifactor y registro de accesos para todo acceso administrativo del proveedor; i) autorización previa de la entidad para subcontratar el tratamiento de datos; j) eliminación verificable de los datos de la entidad al término del contrato, con constancia; y k) derecho de la entidad a realizar o encargar evaluaciones de seguridad del sistema.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 6",
+    "problema": "La conformidad solo exige pruebas de desempeño y sesgo, y sus resultados se publican en el registro; no se exigen pruebas de seguridad y, si se exigieran, no deben publicarse en detalle.",
+    "correccion": "Añadir: «...y una evaluación de seguridad previa a la puesta en producción, cuyos resultados detallados se conservan bajo reserva y no se publican en el registro.»"
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 32069 (disposición complementaria final)",
+    "Reglamento de la Ley 32069 (DS 009-2025-EF) — cláusulas modelo de seguridad"
+   ],
+   "entidades_implicadas": [
+    "OECE/MEF — bases estándar y cláusulas modelo",
+    "CNSD-PCM — requisitos mínimos de seguridad en cláusulas modelo",
+    "Contraloría General de la República — acceso de auditoría"
+   ],
+   "impacto_economico": "Las cláusulas de seguridad pueden elevar las ofertas en un porcentaje bajo de un dígito (supuesto), compensado con la reducción del costo esperado de incidentes y de dependencia del proveedor."
+  }
+ },
+ {
+  "id": "CIB-01",
+  "especialidad": "seguridad",
+  "veredicto": "observaciones",
+  "resumen": "Pieza central y técnicamente bien orientada: deslinda ciberseguridad civil de ciberdefensa, crea un CSIRT nacional con red sectorial y potestad sancionadora gradual. Faltan garantías jurídicas para el intercambio de información de incidentes (confidencialidad frente a la Ley 27806 y no autoincriminación), límites expresos a las directivas de mitigación para evitar intervenciones en comunicaciones o bloqueos de contenido, y un protocolo de escalamiento a ciberdefensa con umbrales definidos.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículos 5, literales d) y e), y 6",
+    "problema": "El Registro Nacional de Incidentes y el intercambio entre CSIRT carecen de una regla de rango legal que declare confidencial la información técnica (indicadores de compromiso, vulnerabilidades, víctimas) frente a solicitudes de acceso a la información pública; sin ella, la información queda sujeta a la evaluación caso por caso del art. 17 del TUO de la Ley 27806 y desincentiva el reporte.",
+    "correccion": "Incorporar el artículo 6-A: «La información sobre incidentes, vulnerabilidades y medidas de seguridad recibida o generada por la ANC y por los CSIRT del Sistema constituye información confidencial para efectos del artículo 17 del Texto Único Ordenado de la Ley 27806. Solo se divulga en forma agregada y anonimizada, o para alertar a terceros potencialmente afectados sin identificar al notificante. Su entrega al Ministerio Público o al Poder Judicial se rige por las normas procesales.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 5, literal e)",
+    "problema": "Las 'directivas de mitigación' obligatorias no tienen límites materiales. Sin ellos podrían emplearse para ordenar el bloqueo de contenidos, la interceptación o la inspección de comunicaciones, materias protegidas por el art. 2, incisos 4 y 10, de la Constitución y que requieren mandato judicial.",
+    "correccion": "Añadir al literal e): «...de carácter técnico, temporales y proporcionales, que no pueden ordenar el acceso al contenido de comunicaciones privadas, el bloqueo de contenidos por razones distintas de la contención de una amenaza técnica identificada, ni el debilitamiento de mecanismos de cifrado. Las directivas se motivan, se notifican y son impugnables.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 5, literal g)",
+    "problema": "La coordinación con el Ministerio de Defensa no define umbrales ni procedimiento para pasar de un incidente civil a una operación de ciberdefensa conforme a la Ley 30999 y su reglamento (DS 017-2024-PCM), lo que crea riesgo de vacío o de militarización de incidentes civiles.",
+    "correccion": "Sustituir el literal g) por: «coordinar con el Ministerio de Defensa y el Comando Conjunto de las Fuerzas Armadas, conforme a la Ley 30999 y su reglamento, el escalamiento de incidentes que afecten la seguridad nacional o los activos críticos nacionales, conforme a un protocolo aprobado por decreto supremo que define umbrales, roles y la conducción civil de la respuesta en los demás casos;»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 5 (nuevo literal)",
+    "problema": "No se asigna a la ANC la coordinación de la divulgación de vulnerabilidades, función típica de un CSIRT nacional y necesaria para que la protección del investigador de buena fe sea operativa.",
+    "correccion": "Añadir literal i): «actuar como coordinador nacional de la divulgación coordinada de vulnerabilidades y mantener el canal correspondiente.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 9",
+    "problema": "La multa máxima de 1000 UIT (del orden de cinco millones de soles) puede ser desproporcionada para entidades medianas y no disuasiva para grandes grupos, al no vincularse con la facturación.",
+    "correccion": "Fijar el tope en «hasta 1000 UIT o el 2 % de los ingresos anuales del ejercicio anterior, el que resulte menor para las micro y pequeñas empresas y el que resulte mayor para los grandes operadores, conforme a la graduación del reglamento»."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Decreto de Urgencia 007-2020 (sustitución del CNSD por la ANC)",
+    "Decreto Supremo 126-2025-PCM (adecuación)",
+    "TUO de la Ley 27806, art. 17 (información de incidentes como confidencial)"
+   ],
+   "entidades_implicadas": [
+    "CNSD-PCM — absorbido por la ANC",
+    "CCFFAA/Comando Conjunto y Ministerio de Defensa — escalamiento a ciberdefensa (Ley 30999)",
+    "DINI — activos críticos nacionales",
+    "DIVINDAT-PNP y Ministerio Público — derivación de incidentes con indicios de delito",
+    "SBS, OSIPTEL, BCRP — CSIRT sectoriales",
+    "ANPD — incidentes con datos personales"
+   ],
+   "impacto_economico": "Crear un pliego implica costos fijos de soporte administrativo; el CSIRT nacional operativo 24/7 requiere como mínimo varias decenas de especialistas (supuesto) con remuneraciones de mercado, que es el principal costo y el principal riesgo de implementación si no se prevé un régimen remunerativo especial."
+  }
+ },
+ {
+  "id": "CIB-02",
+  "especialidad": "seguridad",
+  "veredicto": "observaciones",
+  "resumen": "Obligaciones correctas y alineadas con prácticas internacionales (gestión de riesgos, alta dirección, auditorías, cadena de suministro) y con reserva adecuada de la lista de operadores. Faltan controles mínimos explícitos para tecnología operacional (sistemas de control industrial), la remisión a la notificación de incidentes es a una 'ley de la materia' inexistente, y el sistema de pagos tiene supervisor distinto de la SBS.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 4, literal e)",
+    "problema": "Remite a la notificación de incidentes 'conforme a la ley de la materia', que no existe: la obligación vigente está en el DU 007-2020 y el DS 126-2025-PCM (48 horas para incidentes críticos al CNSD). Si la ley de notificación propuesta no se aprueba, la obligación queda sin contenido.",
+    "correccion": "Sustituir por: «e) notifican los incidentes de seguridad digital al Centro Nacional de Seguridad Digital, o al órgano que haga sus veces, y a su supervisor sectorial, conforme al Decreto de Urgencia 007-2020 y su reglamento o la norma que los sustituya;»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 4",
+    "problema": "Los sectores energía, agua e hidrocarburos dependen de sistemas de control industrial cuya seguridad requiere controles específicos (segmentación entre redes corporativas y operativas, accesos remotos controlados, respaldos fuera de línea). La referencia genérica a un SGSI no los garantiza.",
+    "correccion": "Añadir literal g): «aplican controles mínimos que comprendan autenticación multifactor para accesos remotos y privilegiados, segmentación entre redes de tecnologías de la información y de tecnología operacional, respaldos protegidos y desconectados con pruebas de restauración, gestión de vulnerabilidades y conservación de registros de eventos por al menos doce meses, conforme a la norma técnica que apruebe la autoridad nacional de ciberseguridad tomando como referencia la serie NTP-ISO/IEC 27000 y la serie IEC 62443 para sistemas de control industrial.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 8 y Disposición Complementaria Final Tercera",
+    "problema": "Los sistemas de pagos son supervisados por el Banco Central de Reserva del Perú (Ley 29440), no solo por la SBS; la disposición solo reconoce la Resolución SBS 504-2021.",
+    "correccion": "Añadir: «Los administradores de sistemas de pagos y de liquidación de valores se rigen por la normativa del Banco Central de Reserva del Perú en lo que corresponda a su supervisión.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 6",
+    "problema": "No se indica quién acredita a los auditores, ni impedimentos por conflicto de interés.",
+    "correccion": "Añadir: «Los auditores se acreditan ante la autoridad nacional de ciberseguridad conforme a requisitos de competencia e independencia; no pueden auditar a un operador al que hayan prestado servicios de implementación en los dos años previos.»"
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Decreto Supremo 106-2017-PCM (articulación con activos críticos nacionales)"
+   ],
+   "entidades_implicadas": [
+    "Supervisores sectoriales (OSINERGMIN, SUNASS, OSIPTEL, OSITRAN, SBS, BCRP, SUSALUD) — supervisión y sanción",
+    "CNSD-PCM/ANC — norma técnica y notificación",
+    "DINI y CCFFAA — activos críticos nacionales y escalamiento a ciberdefensa"
+   ],
+   "impacto_economico": "Para un operador mediano, un SGSI más auditoría bienal puede costar del orden de cientos de miles de soles iniciales y recurrentes (supuesto); la segmentación de redes operativas es la inversión más alta en energía y agua. Los gobiernos locales prestadores de agua requerirán apoyo técnico del Estado."
+  }
+ },
+ {
+  "id": "CIB-03",
+  "especialidad": "seguridad",
+  "veredicto": "observaciones",
+  "resumen": "Excelente orientación (ventanilla única, escalonamiento 24h/72h/30 días, confidencialidad e inmunidad de uso). Pero la cláusula de prevalencia del plazo menor anula el escalonamiento frente a los 48 horas del DS 126-2025-PCM y del DS 016-2024-JUS, y la plataforma única concentra información extremadamente sensible de todos los operadores sin requisitos de seguridad ni canal alterno.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 3",
+    "problema": "La ventanilla única concentra indicadores de compromiso, vulnerabilidades no corregidas e impacto de incidentes de todas las entidades y operadores esenciales: es un punto único de falla y un objetivo de alto valor. Si se compromete, expone a la vez a toda la infraestructura crítica; si cae durante un incidente masivo, impide notificar.",
+    "correccion": "Incorporar el numeral 3.2: «La plataforma cumple requisitos reforzados de seguridad: autenticación multifactor de los notificantes, cifrado de extremo a extremo de la información, segregación del acceso de cada supervisor a la información de su competencia, registro inalterable de accesos, alojamiento en infraestructura del Estado en territorio nacional y pruebas de seguridad independientes anuales. Se mantiene un canal alterno de notificación fuera de banda para cuando la plataforma no esté disponible.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 4, último párrafo",
+    "problema": "'Cuando una norma sectorial establezca un plazo menor, prevalece este' hace que rijan los 48 horas del DS 126-2025-PCM (incidentes críticos al CNSD) y del DS 016-2024-JUS (brechas de datos ante la ANPD), dejando sin efecto el plazo de 72 horas para la notificación completa y la ventanilla única para esos supuestos.",
+    "correccion": "Sustituir por: «La alerta temprana del literal a) da por cumplidas las obligaciones de notificación inicial previstas en el Decreto Supremo 126-2025-PCM y en el Decreto Supremo 016-2024-JUS, que se adecúan a la presente ley. Solo prevalecen los plazos menores establecidos por la Superintendencia de Banca, Seguros y AFP y por el Banco Central de Reserva del Perú para sus supervisados.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 7",
+    "problema": "La confidencialidad no se vincula expresamente a las excepciones de la Ley 27806 ni prevé la derivación al Ministerio Público cuando se reporta un posible delito, ni la preservación de evidencia digital.",
+    "correccion": "Añadir: «7.2. La información notificada es confidencial para efectos del artículo 17 del TUO de la Ley 27806. 7.3. Cuando la alerta indique la sospecha de un delito, la plataforma ofrece al notificante la remisión directa a la DIVINDAT de la Policía Nacional y al Ministerio Público, y el notificante preserva la evidencia digital relevante por noventa días. 7.4. Los incidentes que puedan afectar la seguridad nacional se comunican al Comando Conjunto de las Fuerzas Armadas conforme a la Ley 30999.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 8",
+    "problema": "Las 'alertas anonimizadas' pueden permitir identificar a la víctima si incluyen detalles sectoriales específicos.",
+    "correccion": "Añadir: «Las alertas omiten cualquier dato que permita identificar al notificante, salvo su consentimiento.»"
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Decreto Supremo 126-2025-PCM (plazos de notificación)",
+    "Decreto Supremo 016-2024-JUS (canal y plazo de notificación de incidentes de datos personales)"
+   ],
+   "entidades_implicadas": [
+    "CNSD-PCM — operador de la ventanilla",
+    "ANPD, SBS, OSIPTEL, BCRP — receptores automáticos",
+    "DIVINDAT-PNP y Ministerio Público — derivación penal",
+    "CCFFAA/Comando Conjunto — incidentes de seguridad nacional"
+   ],
+   "impacto_economico": "La plataforma segura con canal alterno exige inversión moderada (desarrollo y pruebas de seguridad anuales); reduce el costo de cumplimiento de los obligados al eliminar reportes duplicados."
+  }
+ },
+ {
+  "id": "CIB-04",
+  "especialidad": "seguridad",
+  "veredicto": "observaciones_graves",
+  "resumen": "Tipos necesarios, pero con defectos graves: el numeral 5 que se incorpora al art. 11 de la Ley 30096 ya existe (lo incorporó la Ley 32314), la extorsión informática tiene pena básica inferior a la extorsión común del art. 200 del Código Penal (lo que privilegia el ransomware por especialidad), y su redacción ('ventaja de cualquier otra índole' para 'abstenerse de divulgar') puede alcanzar al investigador que fija un plazo de divulgación coordinada.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 6 (numeral 5 del artículo 11 de la Ley 30096)",
+    "problema": "La Ley 32314 (2025) ya incorporó un numeral 5 al art. 11 de la Ley 30096 («El agente comete el delito empleando la inteligencia artificial o tecnologías similares o análogas»). Incorporar otro numeral 5 genera colisión de numeración.",
+    "correccion": "Sustituir 'Incorpórase el numeral 5' por 'Incorpórase el numeral 6' y verificar el texto vigente del art. 11 en SPIJ al momento del dictamen."
+   },
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 2 (artículo 4-A, pena básica)",
+    "problema": "La pena básica de 6 a 12 años es inferior al mínimo de la extorsión del art. 200 del Código Penal (no menor de 10 años en su tipo básico; verificar texto vigente). Por el principio de especialidad, el ransomware dejaría de calificarse como extorsión común y recibiría una pena menor, efecto contrario al buscado.",
+    "correccion": "Fijar la pena del tipo básico en «no menor de diez ni mayor de quince años» y la agravada en «no menor de quince ni mayor de veinticinco años», o alternativamente incorporar la modalidad informática como agravante del art. 200 del Código Penal en lugar de un tipo autónomo."
+   },
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 2 (artículo 4-A, conducta típica)",
+    "problema": "La fórmula 'exige ... una ventaja ... de cualquier otra índole para ... abstenerse de divulgar los datos' puede abarcar al investigador de seguridad que comunica una vulnerabilidad y solicita su corrección antes de una fecha de publicación (práctica estándar de divulgación coordinada) o que solicita la recompensa ofrecida por un programa público. Criminaliza la investigación legítima y desincentiva el reporte.",
+    "correccion": "Redactar: «...exige a la víctima o a un tercero una ventaja patrimonial, de naturaleza sexual o cualquier otra ventaja indebida...» y añadir un párrafo final: «No constituye este delito la comunicación de vulnerabilidades realizada conforme al régimen de divulgación coordinada de vulnerabilidades, ni la solicitud de la recompensa ofrecida por el titular del sistema, ni la solicitud de corrección antes de la publicación de la vulnerabilidad.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 5 (artículo 9 de la Ley 30096)",
+    "problema": "La agravante por contenido sintético se superpone con el numeral 5 del art. 11 de la Ley 30096 y con el literal ñ) del art. 46 del Código Penal (ambos por Ley 32314), lo que puede dar lugar a una doble valoración del mismo hecho.",
+    "correccion": "Añadir al nuevo párrafo: «En este caso no se aplica la agravante del numeral 5 del artículo 11 de la presente ley.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 8",
+    "problema": "La conservación rápida del art. 16 del Convenio de Budapest es solo preservación; el artículo no precisa que no habilita el acceso ni la entrega de contenidos o datos de tráfico sin mandato judicial (art. 2, inciso 10, de la Constitución), ni fija plazo máximo.",
+    "correccion": "Redactar: «...pueden requerir la conservación rápida de datos informáticos, incluidos los de tráfico, por un plazo de hasta noventa días prorrogable por única vez. La conservación no habilita el acceso a dichos datos, cuya entrega requiere mandato judicial conforme a ley. El proveedor guarda reserva del requerimiento.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 4 (artículo 8-A)",
+    "problema": "El tipo penal no se acompaña de deberes preventivos para operadores, que son la medida más eficaz contra la toma de líneas.",
+    "correccion": "Añadir una Disposición Complementaria Final: «El OSIPTEL establece requisitos de verificación biométrica o con identidad digital para duplicados, reposiciones y cambios de titularidad de líneas móviles, y la notificación inmediata al titular por canal alterno.»"
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 30096, arts. 9 y 11 (numeral 6, no 5) e incorpora 4-A, 5-A, 8-A",
+    "Código Penal, art. 200 (alternativa para extorsión informática)"
+   ],
+   "entidades_implicadas": [
+    "Ministerio Público — fiscalías especializadas en ciberdelincuencia y punto de contacto 24/7",
+    "DIVINDAT-PNP — investigación",
+    "OSIPTEL — prevención de toma de líneas",
+    "Poder Judicial — control de conservación de datos"
+   ],
+   "impacto_economico": "Sin gasto directo; la eficacia depende de capacidad forense (laboratorios y peritos) del Ministerio Público y la PNP, que no se presupuesta."
+  }
+ },
+ {
+  "id": "CIB-05",
+  "especialidad": "seguridad",
+  "veredicto": "observaciones",
+  "resumen": "Régimen bien diseñado que asigna el riesgo a quien puede prevenirlo con menor costo y exige controles técnicos correctos (autenticación reforzada, periodo de espera, señal de cambio de chip). Deben añadirse garantías de debido proceso en las listas compartidas de cuentas y números 'fraudulentos', base legal para el intercambio sin depender del consentimiento, y cubrir a participantes de sistemas de pagos no supervisados por la SBS.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 8",
+    "problema": "Las listas compartidas de cuentas receptoras y números usados para fraude incluirán a personas usadas como 'cuentas mula' sin saberlo o a titulares cuyos números fueron suplantados; sin reglas de calidad, rectificación y conservación pueden excluir financieramente a inocentes y vulnerar los derechos de la Ley 29733.",
+    "correccion": "Añadir: «8.2. La inclusión en el mecanismo exige indicios documentados; la información se conserva por un plazo máximo de doce meses salvo investigación en curso. 8.3. El titular afectado tiene derecho a ser informado de su inclusión cuando ello no frustre una investigación y a solicitar su rectificación o exclusión, que se resuelve en diez días hábiles. 8.4. El mecanismo cumple medidas de seguridad reforzadas, registro de consultas y acceso restringido.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 4, literal b)",
+    "problema": "Condicionar la entrega de la señal de cambio reciente de chip al consentimiento del usuario reduce su eficacia antifraude y es innecesario: la ley puede ser la base legal (art. 14 de la Ley 29733), limitando el dato a una señal binaria y fechada.",
+    "correccion": "Sustituir 'con consentimiento del usuario' por: «limitada a indicar si hubo cambio de chip y su fecha, sin otros datos del abonado, y con la exclusiva finalidad de prevenir el fraude»."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 2, literal b)",
+    "problema": "Quedan fuera los proveedores de pago e interoperadores supervisados por el Banco Central de Reserva del Perú que no son empresas SBS, lo que traslada el fraude hacia ellos.",
+    "correccion": "Ampliar: «...o la empresa que participe en acuerdos de pago o sistemas de pagos bajo supervisión del Banco Central de Reserva del Perú»."
+   }
+  ],
+  "aportes": {
+   "entidades_implicadas": [
+    "SBS — supervisión y mecanismo de intercambio",
+    "OSIPTEL — deberes de operadores móviles",
+    "BCRP — proveedores de pago",
+    "ANPD — tratamiento en listas antifraude",
+    "DIVINDAT-PNP y Ministerio Público — recepción de información para investigación"
+   ],
+   "impacto_economico": "Biometría en reposiciones, interfaces de señal de cambio de chip y monitoreo transaccional suponen inversiones relevantes para operadores y entidades, parcialmente ya exigidas por la Resolución SBS 504-2021; el reembolso internaliza el costo del fraude y crea incentivo a invertir en prevención."
+  }
+ },
+ {
+  "id": "CIB-06",
+  "especialidad": "seguridad",
+  "veredicto": "observaciones",
+  "resumen": "Medidas técnicamente correctas (autenticación del origen, bloqueo de llamadas internacionales con numeración nacional, registro de remitentes, lista de numeración protegida) y con límite expreso a la interceptación. El canal de reportes ciudadanos que deriva en bloqueos necesita verificación y vía de reclamo para evitar bloqueos abusivos de números legítimos.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 5",
+    "problema": "Los reportes ciudadanos 'verificados' se comparten para bloqueo sin definir criterios de verificación ni procedimiento de reclamo; actores maliciosos pueden reportar masivamente números legítimos (de competidores, periodistas o entidades) para provocar su bloqueo.",
+    "correccion": "Añadir: «El bloqueo requiere la verificación técnica de patrones de tráfico o una pluralidad de reportes independientes, conforme a criterios publicados por el OSIPTEL. El titular del número bloqueado es notificado y puede solicitar el desbloqueo, que se resuelve en un plazo máximo de dos días hábiles.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 4",
+    "problema": "El registro de remitentes no exige verificar la autorización del uso de una marca o denominación, por lo que un tercero inscrito podría registrar nombres parecidos a los de bancos o entidades públicas.",
+    "correccion": "Añadir: «El OSIPTEL verifica que el solicitante sea titular o esté autorizado a usar la denominación del remitente y rechaza identificadores confundibles con los de entidades financieras o públicas.»"
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Reglamento General de Infracciones y Sanciones del OSIPTEL"
+   ],
+   "entidades_implicadas": [
+    "OSIPTEL — registro y fiscalización",
+    "MTC — reglamentación y numeración especial de la Ley 32323",
+    "Ministerio Público y DIVINDAT-PNP — investigación con reportes verificados"
+   ],
+   "impacto_economico": "La autenticación del origen en redes e interconexiones requiere inversión de los operadores; los 18 meses son razonables. Costo bajo para el OSIPTEL."
+  }
+ },
+ {
+  "id": "CIB-07",
+  "especialidad": "seguridad",
+  "veredicto": "observaciones",
+  "resumen": "Requisitos mínimos correctos, proporcionales y equivalentes a los de referencia internacional. La principal brecha es que los equipos terminales instalados por los operadores (routers y decodificadores en comodato), fuente frecuente de redes de bots, pueden quedar fuera al no 'comercializarse' al consumidor.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 2",
+    "problema": "Los routers, módems y decodificadores que los operadores entregan en comodato o alquiler no siempre son 'comercializados' al consumidor y su gestión de actualizaciones corresponde al operador; si quedan fuera, se omite una de las principales fuentes de dispositivos vulnerables.",
+    "correccion": "Añadir al art. 2: «Se incluyen los equipos terminales que los operadores de telecomunicaciones entregan a sus abonados bajo cualquier título; en tal caso, el operador asume las obligaciones del fabricante o importador respecto de la aplicación de actualizaciones de seguridad, bajo la supervisión del OSIPTEL.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 3, literal c)",
+    "problema": "La política de gestión de vulnerabilidades no asegura que quien reporte de buena fe no sea perseguido.",
+    "correccion": "Añadir: «...que identifique un canal de contacto y plazos de respuesta, y que no condicione la recepción del reporte a la renuncia de derechos del informante»."
+   }
+  ],
+  "aportes": {
+   "entidades_implicadas": [
+    "INDECOPI — fiscalización",
+    "OSIPTEL — equipos terminales de operadores",
+    "CNSD-PCM/ANC — alertas técnicas"
+   ],
+   "impacto_economico": "Costo bajo para fabricantes globales ya sujetos a requisitos análogos; mayor para importadores de productos sin soporte. Para operadores, la gestión de actualizaciones de equipos en comodato es un costo operativo moderado."
+  }
+ },
+ {
+  "id": "CIB-08",
+  "especialidad": "seguridad",
+  "veredicto": "observaciones",
+  "resumen": "Diseño con buenas salvaguardas de privacidad (mínima divulgación, no registro centralizado de transacciones, auditoría independiente, revocación 24/7). Desde seguridad, el punto más crítico es la emisión remota de credenciales de nivel alto, expuesta a ataques de suplantación biométrica e inyección de contenido sintético; también faltan registro de verificadores, protección de claves en el dispositivo y un procedimiento de recuperación seguro.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 5",
+    "problema": "Admitir la verificación biométrica remota para el nivel alto, con la sola exigencia de 'detección de vida', no cubre los ataques de inyección de video o voz sintéticos sobre la cámara del dispositivo. Una credencial de nivel alto emitida fraudulentamente habilita abrir cuentas, firmar y realizar portabilidades en nombre de la víctima, y el art. 9 obliga a todos a aceptarla.",
+    "correccion": "Sustituir la segunda oración por: «El nivel alto exige verificación biométrica presencial o, en modalidad remota, verificación contra la base biométrica del RENIEC con detección de ataques de presentación y de inyección, certificada por laboratorio independiente conforme a la norma ISO/IEC 30107-3 o equivalente, y vinculación criptográfica a un elemento seguro del dispositivo. La emisión remota de nivel alto se notifica al titular por un canal alterno registrado.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículos 4 y 9",
+    "problema": "La prohibición de solicitar atributos excesivos no es verificable si los verificadores no están identificados ante el sistema; un verificador fraudulento puede solicitar atributos para obtener datos personales.",
+    "correccion": "Añadir al art. 4: «Los verificadores se registran ante el RENIEC indicando su finalidad y los atributos que pueden solicitar; la billetera muestra al titular la identidad del verificador y bloquea las solicitudes que excedan lo registrado.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 7",
+    "problema": "La no centralización de transacciones es insuficiente si las consultas de vigencia o revocación permiten al emisor conocer dónde se usa la credencial. Tampoco se exige protección de las claves privadas en hardware del dispositivo.",
+    "correccion": "Añadir: «Los mecanismos de consulta de vigencia no permiten al emisor conocer al verificador ni la transacción. Las claves de la credencial se generan y conservan en un componente seguro del dispositivo o del DNI electrónico y no son exportables.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 8",
+    "problema": "La recuperación tras pérdida del dispositivo es el principal vector de toma de cuentas; si se permite reemitir con un nivel de verificación inferior al de emisión, se anula la seguridad del sistema.",
+    "correccion": "Añadir: «La reemisión de una credencial requiere el mismo nivel de verificación exigido para su emisión original. La suspensión puede solicitarse con verificación simplificada, pero la reactivación y la reemisión no.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 3",
+    "problema": "No se define el marco de confianza para los emisores privados de credenciales verificables.",
+    "correccion": "Añadir: «Los emisores públicos y privados de credenciales se inscriben en un registro de emisores de confianza a cargo del RENIEC, que verifica su identidad y la seguridad de sus sistemas de emisión.»"
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 26497, Ley Orgánica del RENIEC (funciones sobre identidad digital) — evaluar si requiere votación de ley orgánica"
+   ],
+   "entidades_implicadas": [
+    "RENIEC — emisor y operador",
+    "CNSD-PCM/SGTD — niveles de garantía del DS 126-2025-PCM",
+    "ANPD — tratamiento de datos biométricos",
+    "SBS y OSIPTEL — aceptación obligatoria en sus supervisados",
+    "INDECOPI — acreditación como Autoridad Administrativa Competente de la IOFE"
+   ],
+   "impacto_economico": "La certificación de detección de ataques biométricos y las auditorías independientes encarecen el desarrollo, pero son una fracción menor del costo esperado de un fraude masivo de identidad. La aceptación obligatoria impone adecuaciones a bancos y operadores."
+  }
+ },
+ {
+  "id": "CIB-09",
+  "especialidad": "seguridad",
+  "veredicto": "observaciones",
+  "resumen": "La firma remota amplía el acceso y su equiparación es correcta si hay control exclusivo del titular. Faltan requisitos mínimos del dispositivo seguro de firma en el servidor, protección contra la activación de firmas mediante engaño, y un plan de continuidad y compromiso de claves dada la concentración de millones de claves en el RENIEC.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 2 (artículo 3-A de la Ley 27269)",
+    "problema": "'Control exclusivo ... mediante autenticación de nivel alto' no exige que las claves residan en un módulo criptográfico certificado ni que la activación muestre al titular el documento que firma; un atacante que obtiene la autenticación o que engaña al titular puede hacerle firmar otro documento.",
+    "correccion": "Redactar: «...siempre que: a) la clave privada se genere y custodie en un módulo criptográfico certificado conforme a estándares internacionales de nivel equivalente a FIPS 140-3 nivel 3 o a la norma EN 419221-5; b) la activación de cada firma o lote requiera autenticación de dos factores de categorías distintas, uno de ellos de posesión; y c) el titular visualice el documento o su identificación antes de autorizar la firma.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 6",
+    "problema": "La concentración de las claves de firma de millones de personas en la infraestructura del RENIEC crea un punto único de falla; la ley no exige redundancia geográfica, plan ante compromiso de claves de la autoridad de certificación ni alineamiento de la notificación de incidentes con el CNSD.",
+    "correccion": "Añadir: «Los prestadores mantienen infraestructura redundante en al menos dos sedes, un plan probado de respuesta ante compromiso de claves que incluya revocación masiva y reemisión, y notifican los incidentes a la Autoridad Administrativa Competente y al Centro Nacional de Seguridad Digital conforme al Decreto de Urgencia 007-2020 y su reglamento.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 4",
+    "problema": "El servicio público de validación podría conservar copias de documentos validados con datos personales.",
+    "correccion": "Añadir: «El servicio procesa únicamente el resumen criptográfico o elimina el documento inmediatamente después de la validación.»"
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 27269 (incorpora art. 3-A)",
+    "Reglamento de la Ley 27269 — requisitos de firma remota"
+   ],
+   "entidades_implicadas": [
+    "RENIEC — ECEP/prestador",
+    "INDECOPI — Autoridad Administrativa Competente",
+    "CNSD-PCM — incidentes"
+   ],
+   "impacto_economico": "Módulos criptográficos certificados con redundancia geográfica y auditoría anual suponen una inversión inicial relevante para el RENIEC (supuesto: millones de soles), que la gratuidad no permite recuperar con tasas; debe preverse en el presupuesto institucional."
+  }
+ },
+ {
+  "id": "CIB-10",
+  "especialidad": "seguridad",
+  "veredicto": "observaciones",
+  "resumen": "Enfoque de diligencia debida correcto y verificación de edad respetuosa de la privacidad. Deben evitarse dos riesgos: que las 'medidas razonables' se interpreten como obligación de escanear comunicaciones cifradas, y que la preservación del material de abuso carezca de reglas de custodia segura y plazo.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3",
+    "problema": "La obligación genérica de 'medidas razonables y proporcionales para mitigar' riesgos en servicios de mensajería podría invocarse para exigir el análisis del contenido de comunicaciones privadas o el debilitamiento del cifrado de extremo a extremo, lo que vulneraría el art. 2, inciso 10, de la Constitución y reduciría la seguridad de todos los usuarios, incluidos los menores.",
+    "correccion": "Añadir: «Las obligaciones de la presente ley no imponen una supervisión general de contenidos ni obligan a acceder al contenido de comunicaciones privadas o a debilitar los mecanismos de cifrado.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 6",
+    "problema": "La preservación del material de abuso sexual infantil no fija plazo, condiciones de custodia ni exención de responsabilidad por su tenencia con fines de investigación, lo que genera inseguridad jurídica y riesgo de filtración.",
+    "correccion": "Añadir: «El material y los datos asociados se conservan cifrados, con acceso restringido y registrado, por un plazo de noventa días prorrogable a requerimiento del Ministerio Público, y se entregan solo a este o a la autoridad judicial. La conservación con esta finalidad no constituye el delito del artículo 129-M del Código Penal.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 5",
+    "problema": "La estimación de edad por análisis facial genera datos biométricos sensibles que podrían reutilizarse.",
+    "correccion": "Añadir: «Los datos biométricos empleados para estimar la edad no se conservan ni se usan para otra finalidad, y su tratamiento se realiza preferentemente en el dispositivo del usuario.»"
+   }
+  ],
+  "aportes": {
+   "entidades_implicadas": [
+    "Ministerio Público — recepción de reportes",
+    "DIVINDAT-PNP — investigación",
+    "ANPD — datos de menores y biometría",
+    "MIMP — campañas"
+   ],
+   "impacto_economico": "Costo incremental para plataformas globales; la custodia segura de evidencia es un costo operativo menor."
+  }
+ },
+ {
+  "id": "CIB-11",
+  "especialidad": "seguridad",
+  "veredicto": "observaciones",
+  "resumen": "Propuesta muy valiosa que corrige un vacío de la Ley 30096. Debe excluir de la exención las pruebas activas no autorizadas sobre sistemas de control industrial de infraestructuras críticas y de defensa, extender la protección frente a acciones de privados y por la Ley 29733, y evitar que el investigador quede impedido indefinidamente de divulgar si la entidad no corrige.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 2 (artículo 12, literal b)",
+    "problema": "La exención alcanza a pruebas no autorizadas sobre cualquier sistema, incluidos los de control industrial de energía o agua y los de defensa, donde una prueba activa puede causar daños físicos o afectar la seguridad nacional (Ley 30999), aunque se actúe de buena fe.",
+    "correccion": "Añadir al literal b): «La exención no comprende las pruebas activas sobre sistemas de control industrial de operadores de servicios esenciales o activos críticos nacionales, ni sobre sistemas de defensa e inteligencia, salvo que se realicen en el marco de un programa de divulgación del titular que expresamente los incluya.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 7",
+    "problema": "La prohibición de represalias solo vincula a entidades públicas; los titulares privados pueden promover acciones civiles o denuncias por infracción a la Ley 29733 por el acceso incidental a datos, lo que mantiene el efecto disuasivo.",
+    "correccion": "Sustituir por: «El cumplimiento de las condiciones del literal b) del artículo 12 de la Ley 30096 excluye la responsabilidad administrativa, incluida la prevista en la Ley 29733 por el acceso incidental a datos, y la responsabilidad civil por los mismos hechos, salvo daño causado con dolo o culpa inexcusable. Ninguna entidad pública puede iniciar acciones contra dicho investigador.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 2 (artículo 12, literal b, última condición)",
+    "problema": "'No la divulgue públicamente antes del plazo de corrección' deja al investigador sin posibilidad de divulgar si la entidad prorroga indefinidamente o no corrige.",
+    "correccion": "Redactar: «...y no la divulgue públicamente antes de la corrección o del vencimiento del plazo de noventa días o de su prórroga autorizada por el Centro Nacional de Seguridad Digital, previa coordinación con este.»"
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 30096, art. 12 (modificado por Ley 30171)"
+   ],
+   "entidades_implicadas": [
+    "CNSD-PCM — coordinador nacional de divulgación",
+    "Ministerio Público — criterio de aplicación de la exención",
+    "CCFFAA/Comando Conjunto — exclusión de sistemas de defensa"
+   ],
+   "impacto_economico": "Costo marginal bajo; los programas de recompensa son facultativos y de costo muy inferior a un incidente."
+  }
+ },
+ {
+  "id": "CIB-12",
+  "especialidad": "seguridad",
+  "veredicto": "observaciones",
+  "resumen": "Atiende la brecha de talento, que es el principal cuello de botella de la ciberseguridad pública, con un diseño correcto (independencia del oficial respecto de TI, oficial compartido para municipios pequeños). La reserva cívica requiere un marco de autorización, verificación de antecedentes y gestión de conflictos de interés, y los puestos con accesos privilegiados necesitan controles de riesgo interno.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 7",
+    "problema": "La reserva cívica permite que profesionales privados accedan a sistemas públicos comprometidos en incidentes de gran escala, sin prever verificación de antecedentes, gestión de conflictos de interés (p. ej., proveedores del Estado), mandato de actuación escrito ni cobertura frente a la Ley 30096; sus acciones técnicas podrían encuadrarse en los arts. 2-4 de dicha ley si no están formalmente autorizadas.",
+    "correccion": "Añadir: «Los integrantes de la reserva son previamente evaluados en antecedentes e idoneidad, declaran conflictos de interés y actúan únicamente con mandato escrito de la entidad afectada y bajo coordinación del Centro Nacional de Seguridad Digital, que delimita alcance, sistemas y duración. Dichas actuaciones constituyen procedimientos autorizados para efectos del artículo 12 de la Ley 30096. Los accesos se otorgan con credenciales individuales, temporales y registradas.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículos 2 y 4",
+    "problema": "Los puestos de ciberseguridad con privilegios de administración son de alto riesgo interno; la ley no prevé controles específicos.",
+    "correccion": "Añadir al art. 2: «Los puestos con acceso privilegiado a sistemas críticos se sujetan a verificación de antecedentes, compromisos de confidencialidad que subsisten tras el cese y revisión periódica de accesos.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 8",
+    "problema": "Publicar el inventario con detalle por entidad revelaría qué entidades carecen de capacidades, orientando a atacantes.",
+    "correccion": "Precisar: «...un inventario agregado por nivel de gobierno y sector, sin identificar brechas por entidad.»"
+   }
+  ],
+  "aportes": {
+   "entidades_implicadas": [
+    "SERVIR — familia de puestos",
+    "CNSD-PCM — coordinación de la reserva cívica",
+    "ENAP — formación",
+    "MEF — escala diferenciada"
+   ],
+   "impacto_economico": "La escala diferenciada es el componente de mayor costo; sin ella, la rotación hacia el sector privado continuará. Un oficial por entidad (más de 2 000 entidades) es inviable a corto plazo sin el modelo compartido, que debería extenderse a entidades pequeñas de todos los niveles."
+  }
+ },
+ {
+  "id": "CIB-13",
+  "especialidad": "seguridad",
+  "veredicto": "observaciones",
+  "resumen": "Medidas acertadas: auditoría independiente de código, pruebas públicas, huellas criptográficas verificables y respaldo físico. Debe evitarse publicar vulnerabilidades no corregidas antes de la elección, exigir nueva auditoría ante cambios posteriores, y no admitir el voto electrónico no presencial sin verificabilidad equivalente.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 4",
+    "problema": "Publicar 'los hallazgos y su corrección' antes del inicio del proceso puede divulgar vulnerabilidades aún no corregidas o con mitigación parcial, y la prueba pública no precisa que se realiza en réplica separada de producción ni la cobertura legal de los participantes.",
+    "correccion": "Redactar: «...en un entorno réplica, aislado de los sistemas de producción, conforme a reglas de participación publicadas que constituyen autorización para efectos del artículo 12 de la Ley 30096. Los hallazgos se publican en forma general una vez corregidos; el detalle técnico de vulnerabilidades no corregidas se reserva hasta su corrección o hasta la conclusión del proceso electoral.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3",
+    "problema": "Una auditoría 90 días antes pierde valor si el software se modifica después sin nueva verificación.",
+    "correccion": "Añadir: «Toda modificación posterior del software auditado requiere auditoría complementaria y nueva publicación de su huella criptográfica antes de su uso. La versión desplegada se compila de forma reproducible a partir del código auditado.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículos 2 y 8",
+    "problema": "El voto electrónico no presencial no admite un respaldo físico verificado por el elector equivalente al presencial; incluirlo sin requisitos adicionales debilita la integridad y el secreto del voto.",
+    "correccion": "Añadir al art. 8: «El voto electrónico no presencial solo puede emplearse en procesos vinculantes si garantiza verificabilidad de extremo a extremo y secreto del voto, acreditados por la auditoría independiente del artículo 3; en caso contrario, solo puede utilizarse en consultas no vinculantes o pilotos.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 6",
+    "problema": "El equipo de respuesta no incluye a las autoridades penales ni prevé la escalada ante interferencia extranjera que afecte la seguridad nacional.",
+    "correccion": "Añadir: «El equipo coordina con la DIVINDAT de la Policía Nacional y el Ministerio Público, y con el Comando Conjunto de las Fuerzas Armadas conforme a la Ley 30999 cuando el incidente pueda afectar la seguridad nacional.»"
+   }
+  ],
+  "aportes": {
+   "entidades_implicadas": [
+    "ONPE, JNE, RENIEC — titulares de sistemas",
+    "CNSD-PCM — equipo de respuesta",
+    "DIVINDAT-PNP y Ministerio Público — investigación",
+    "CCFFAA/Comando Conjunto — interferencia extranjera (Ley 30999)"
+   ],
+   "impacto_economico": "Auditorías de código y pruebas públicas representan una fracción menor del presupuesto electoral; la compilación reproducible y auditorías complementarias añaden costo moderado."
+  }
+ },
+ {
+  "id": "CIB-14",
+  "especialidad": "seguridad",
+  "veredicto": "observaciones",
+  "resumen": "Combinación útil de apoyo a mipymes, transparencia en seguros y reporte de pagos de extorsión. La prohibición absoluta de pagar rescates con fondos públicos no prevé el caso extremo de riesgo para la vida (p. ej., hospitales), el sello basado en autodiagnóstico es fácilmente manipulable si pondera en contrataciones, y el reporte de pagos debe integrarse a la ventanilla única de incidentes.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 8",
+    "problema": "La prohibición absoluta es una política defendible para desincentivar ataques, pero sin excepción podría impedir la recuperación de servicios esenciales cuando esté en riesgo la vida (hospitales, agua) y no hay alternativa técnica; tampoco precisa si alcanza a empresas del Estado.",
+    "correccion": "Añadir: «Excepcionalmente, cuando exista riesgo inminente para la vida o la salud de las personas y se haya acreditado la inexistencia de alternativa técnica de recuperación, el pago puede autorizarse por resolución del titular del sector con informe previo del Centro Nacional de Seguridad Digital y comunicación inmediata a la Contraloría General de la República, al Ministerio Público y a la Unidad de Inteligencia Financiera. La prohibición alcanza a las empresas del Estado.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3",
+    "problema": "Un sello otorgado por autodiagnóstico, aunque 'verificado', es fácilmente manipulable y, al ser factor de evaluación en contrataciones, crea incentivo para declaraciones falsas sin control efectivo.",
+    "correccion": "Añadir: «La verificación incluye evidencia documental y revisiones aleatorias por muestreo a cargo del Ministerio de la Producción o de entidades acreditadas. La declaración falsa conlleva la pérdida del sello y se considera información inexacta para efectos de la normativa de contrataciones del Estado.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 6",
+    "problema": "El reporte se canaliza por separado de la notificación de incidentes, duplicando reportes.",
+    "correccion": "Añadir: «El reporte se presenta por la ventanilla única de notificación de incidentes, cuando exista, y puede integrarse a la notificación del incidente que lo originó.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 7",
+    "problema": "La confidencialidad no se vincula expresamente a la Ley 27806.",
+    "correccion": "Añadir: «Es información confidencial para efectos del artículo 17 del TUO de la Ley 27806.»"
+   }
+  ],
+  "aportes": {
+   "entidades_implicadas": [
+    "CNSD-PCM — recepción de reportes",
+    "UIF-Perú (SBS) — análisis de flujos de pago de rescates",
+    "SBS — seguros cibernéticos",
+    "PRODUCE — programa mipyme",
+    "Ministerio Público y DIVINDAT-PNP — persecución"
+   ],
+   "impacto_economico": "El programa mipyme de autodiagnóstico y guías tiene costo bajo; los controles básicos (respaldos, MFA, actualizaciones) son de bajo costo por empresa y reducen la mayoría de incidentes comunes. La revisión por muestreo del sello añade costo administrativo moderado."
+  }
+ },
+ {
+  "id": "GOB-01",
+  "especialidad": "seguridad",
+  "veredicto": "observaciones",
+  "resumen": "El principio de 'solo una vez' es correcto, pero la ley amplía masivamente el acceso de todas las entidades (incluidas municipalidades y privados con función administrativa) a datos maestros, entre ellos antecedentes y datos tributarios y previsionales, sin exigir autorización por finalidad, trazabilidad consultable por el ciudadano ni controles contra consultas abusivas. La Plataforma de Interoperabilidad se convierte además en punto único de falla sin requisitos de continuidad.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículos 2, 3.2 y 4.2",
+    "problema": "Habilitar a miles de entidades y a privados con función administrativa a consultar en tiempo real datos de identidad, antecedentes, situación tributaria y previsional de cualquier persona, sin control por finalidad, expone a la ciudadanía a consultas indebidas (curiosidad, venta de datos, extorsión) por servidores con credenciales; es el patrón típico de filtraciones de datos del Estado. El art. 3.3 (remisión genérica a la Ley 29733) no establece controles técnicos.",
+    "correccion": "Incorporar el artículo 3-A: «Seguridad de la interoperabilidad. 3-A.1. Cada consulta se vincula a un expediente o procedimiento identificado y a un servidor autenticado con autenticación multifactor; las entidades solo acceden a los datos estrictamente necesarios para el procedimiento, conforme a perfiles aprobados por la entidad poseedora. 3-A.2. La Plataforma registra de forma inalterable cada consulta y el titular puede conocer, a través de la Carpeta Ciudadana, qué entidad consultó sus datos, cuándo y para qué procedimiento, salvo investigaciones penales o de inteligencia con reserva legal. 3-A.3. La Plataforma aplica detección de consultas anómalas y comunica los usos indebidos al órgano de control institucional y a la ANPD. 3-A.4. Los datos de antecedentes penales, judiciales y policiales solo se interoperan con entidades que tengan habilitación legal expresa para requerirlos.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 5",
+    "problema": "Se fijan niveles de disponibilidad pero no requisitos de seguridad ni de continuidad; la Plataforma de Interoperabilidad, al volverse obligatoria, es un punto único de falla cuya caída paraliza procedimientos en todo el Estado.",
+    "correccion": "Añadir el numeral 5.3: «La Plataforma de Interoperabilidad del Estado y los servicios de información de datos maestros cuentan con plan de continuidad probado anualmente, redundancia geográfica, autenticación mutua entre entidades, cifrado en tránsito y limitación de volumen por entidad. Su indisponibilidad habilita la declaración jurada prevista en el artículo 6.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 4.1",
+    "problema": "Un catálogo 'de acceso público' que incluya detalles técnicos de los servicios (direcciones, versiones) facilita el reconocimiento por atacantes.",
+    "correccion": "Añadir: «La información pública del Catálogo se limita a la descripción funcional y al nivel de servicio; los datos técnicos de acceso se proporcionan solo a entidades autorizadas.»"
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Decreto Legislativo 1246, art. 5 (numeral 5.4)",
+    "Decreto Legislativo 1412 — reglas de seguridad de la interoperabilidad"
+   ],
+   "entidades_implicadas": [
+    "SGTD-PCM — operador de la PIDE y Catálogo",
+    "CNSD-PCM — seguridad de la plataforma",
+    "ANPD — supervisión de consultas indebidas",
+    "RENIEC, SUNAT, SUNARP, Poder Judicial, PNP — entidades poseedoras de datos maestros"
+   ],
+   "impacto_economico": "El registro de consultas visible al ciudadano y la detección de anomalías tienen costo moderado de desarrollo central (reutilizable por todas las entidades); la redundancia geográfica de la PIDE es la inversión principal."
+  }
+ },
+ {
+  "id": "GOB-02",
+  "especialidad": "seguridad",
+  "veredicto": "observaciones",
+  "resumen": "Unificar la casilla aporta certeza jurídica, pero crea un objetivo de alto valor: el compromiso de una cuenta produce indefensión, y los avisos por correo y SMS son un vector de suplantación masiva (phishing). Faltan requisitos de autenticación, reglas sobre avisos y efectos de la indisponibilidad de la plataforma sobre los plazos.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículos 2 y 4",
+    "problema": "Al concentrar todas las notificaciones en una casilla obligatoria para personas jurídicas, el acceso no autorizado permite leer (y dar por leídas) notificaciones de sanciones o cobranzas sin que el administrado lo sepa. Los avisos al correo y al celular, si contienen enlaces, serán imitados masivamente por estafadores.",
+    "correccion": "Añadir el numeral 4.3: «El acceso a la casilla única requiere autenticación de nivel alto o identidad digital del Estado. Los avisos por correo electrónico y mensaje de texto no contienen enlaces ni solicitan datos; indican únicamente que existe una notificación y remiten al acceso por el portal oficial. La casilla registra cada acceso y notifica al titular los accesos desde dispositivos nuevos.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 4.1",
+    "problema": "No se regula el efecto de la indisponibilidad de la casilla ni de incidentes de seguridad sobre el cómputo de plazos.",
+    "correccion": "Añadir: «La indisponibilidad de la casilla única, registrada y publicada por la SGTD, o un incidente de seguridad que afecte la cuenta del administrado, suspende los plazos en curso por el tiempo de la indisponibilidad o hasta la restitución del acceso.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 5",
+    "problema": "El expediente electrónico universal no exige integridad (sellado de tiempo, firma) ni conservación segura.",
+    "correccion": "Añadir: «Los documentos del expediente se firman o sellan digitalmente y con sello de tiempo, y se conservan con copias de respaldo protegidas, conforme a la Ley 27269 y a las normas de seguridad digital.»"
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 31736, art. 4.2"
+   ],
+   "entidades_implicadas": [
+    "SGTD-PCM — operador",
+    "CNSD-PCM — seguridad",
+    "RENIEC — identidad digital para acceso"
+   ],
+   "impacto_economico": "La autenticación de nivel alto depende de la disponibilidad de identidad digital gratuita; el costo de integrar casillas institucionales es moderado."
+  }
+ },
+ {
+  "id": "GOB-03",
+  "especialidad": "seguridad",
+  "veredicto": "observaciones",
+  "resumen": "El código abierto por defecto es compatible con la seguridad (no se basa en el secreto del código) y mejora la auditabilidad, pero exige un proceso previo de revisión: el riesgo principal es la publicación de credenciales, claves y configuraciones embebidas, y de código heredado con vulnerabilidades conocidas no corregidas. Faltan también reglas de integridad para la distribución desde la Plataforma.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 4.1 y Disposición Complementaria Transitoria Primera",
+    "problema": "Publicar en 90 días, y el software heredado en 18 meses, sin revisión previa obligatoria, expone credenciales, claves de API, cadenas de conexión, direcciones internas y vulnerabilidades conocidas de sistemas en producción. El historial de versiones de los repositorios suele conservar secretos aun eliminados del código vigente.",
+    "correccion": "Incorporar el numeral 4.3: «Antes de la publicación, la entidad: a) elimina del código y de su historial credenciales, claves, certificados, configuraciones y datos personales, y rota las credenciales que hubieran estado expuestas; b) realiza un análisis de seguridad del código y corrige o mitiga las vulnerabilidades de criticidad alta o crítica; y c) documenta la revisión. El software heredado que no supere esta revisión se publica una vez corregido; mientras tanto, se aplica la excepción del numeral 4.2.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 7",
+    "problema": "La Plataforma Nacional de Software Público se convierte en punto de distribución de software para cientos de entidades; si un repositorio o versión se altera, el código malicioso se propaga por reutilización (ataque a la cadena de suministro).",
+    "correccion": "Añadir: «La Plataforma exige autenticación multifactor a los publicadores, firma digital de las versiones publicadas, revisión de las contribuciones externas por la entidad responsable antes de su integración, y un canal de reporte de vulnerabilidades. Las entidades que reutilicen software verifican la firma y aplican las actualizaciones de seguridad.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 4.2",
+    "problema": "La excepción por seguridad es adecuada, pero publicar la resolución con la descripción del sistema y la razón técnica puede señalar sistemas sensibles.",
+    "correccion": "Añadir: «La resolución publicada identifica el sistema de forma general y la causal, sin describir las vulnerabilidades o características técnicas que la motivan.»"
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 28612 (disposición complementaria final)"
+   ],
+   "entidades_implicadas": [
+    "SGTD-PCM — Plataforma y estándares de seguridad",
+    "CNSD-PCM — lineamientos de revisión previa",
+    "Entidades con sistemas críticos — aplicación de la excepción"
+   ],
+   "impacto_economico": "La revisión previa (eliminación de secretos y análisis de código) añade un costo por sistema publicable de algunos días-persona con herramientas de uso libre; es muy inferior al costo de un incidente por credenciales expuestas."
+  }
+ },
+ {
+  "id": "GOB-04",
+  "especialidad": "seguridad",
+  "veredicto": "observaciones",
+  "resumen": "Mecanismo útil de innovación. Los pilotos y pruebas de concepto con proveedores nuevos y a menudo pequeños suelen usar datos reales y conectarse a sistemas de la entidad: deben sujetarse a requisitos mínimos de seguridad y protección de datos proporcionales, y asegurarse la continuidad de parches cuando el proveedor conserve la propiedad intelectual.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3.2 y Artículo 2.2",
+    "problema": "Las pruebas de concepto y pilotos no prevén condiciones de seguridad: acceso de startups a datos personales y sistemas de producción sin evaluación previa crea un vector de filtración y de intrusión.",
+    "correccion": "Añadir el numeral 3.4: «Las pruebas de concepto y pilotos se ejecutan preferentemente con datos anonimizados o sintéticos y en entornos aislados de producción. El acceso a datos personales o a sistemas de producción requiere una evaluación de riesgos de seguridad y de protección de datos, acuerdos de confidencialidad, autenticación multifactor y la eliminación verificable de los datos al concluir la prueba.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 4.1",
+    "problema": "Si el proveedor conserva la propiedad intelectual y desaparece, la entidad queda con un sistema en producción sin capacidad de corregir vulnerabilidades.",
+    "correccion": "Añadir: «En la fase comercial, el contrato incluye el depósito del código fuente en custodia, con liberación a la entidad si el proveedor deja de prestar soporte de seguridad.»"
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 32069, art. 38 (numeral 38.4)"
+   ],
+   "entidades_implicadas": [
+    "OECE — bases modelo con cláusulas de seguridad",
+    "SGTD/CNSD-PCM — requisitos de seguridad de pilotos",
+    "ANPD — datos personales en pilotos"
+   ],
+   "impacto_economico": "Entornos aislados y datos sintéticos reducen costo y riesgo; el depósito en custodia tiene costo marginal."
+  }
+ },
+ {
+  "id": "GOB-05",
+  "especialidad": "seguridad",
+  "veredicto": "observaciones_graves",
+  "resumen": "La transparencia del gasto y de las contrataciones es positiva y de bajo riesgo. Pero la publicación mensual, masiva y legible por máquina de nombres, cargos, unidad orgánica, remuneración y fecha de ingreso de todo el personal, sin excepción para policías en unidades operativas, personal de inteligencia, defensa, penitenciario y fiscales y jueces de crimen organizado, crea un riesgo grave de focalización y extorsión, y facilita la suplantación dirigida a servidores públicos.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 5",
+    "problema": "La lista nominal con unidad orgánica y cargo de personal de inteligencia (DINI), de unidades operativas de la PNP, de las Fuerzas Armadas, del INPE, y de fiscalías y juzgados especializados en crimen organizado permite identificar y ubicar a servidores que investigan o custodian a organizaciones criminales, en un contexto de extorsión extendido. La Disposición Complementaria Final Tercera solo excluye información clasificada y datos sensibles, no esta información, que no está clasificada por defecto.",
+    "correccion": "Añadir el numeral 5.2: «Se exceptúa de la publicación nominal la información del personal de los órganos del Sistema de Inteligencia Nacional, de las unidades operativas, de investigación e inteligencia de la Policía Nacional del Perú, de las Fuerzas Armadas en puestos operativos, del Instituto Nacional Penitenciario en establecimientos penitenciarios, y de fiscales, jueces y servidores de órganos especializados en criminalidad organizada, lavado de activos y terrorismo, así como de las personas bajo medidas de protección. Respecto de ellos se publica información agregada por unidad, cargo genérico y remuneración, sin nombres. El reglamento puede ampliar esta relación previa opinión del Ministerio del Interior y del Ministerio de Defensa.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 5",
+    "problema": "La publicación masiva legible por máquina de nombre, cargo y unidad de todos los servidores facilita campañas de suplantación dirigidas (correos o llamadas fraudulentas que se hacen pasar por la jefatura o por el área de recursos humanos), principal vía de entrada en incidentes en entidades públicas. No hay que retirar la transparencia, pero sí evitar campos innecesarios.",
+    "correccion": "Precisar: «No se publican el número de documento de identidad, la fecha de nacimiento, el correo electrónico ni el teléfono personal. La fecha de ingreso se publica por mes y año.» Y añadir en el artículo 6: «Los requisitos de las interfaces de programación incluyen limitación de volumen y medidas contra el abuso.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 3",
+    "problema": "La publicación diaria por meta y proveedor de la ejecución de pliegos de Defensa e Interior puede revelar operaciones o adquisiciones sensibles en curso aunque no estén clasificadas.",
+    "correccion": "Añadir: «La información de gastos de los pliegos de Defensa e Interior relativa a operaciones o adquisiciones que la normativa de contrataciones exceptúa por seguridad nacional se publica agregada o con desfase, conforme al reglamento.»"
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "TUO de la Ley 27806 (disposición complementaria final) — incluir la excepción de publicación nominal"
+   ],
+   "entidades_implicadas": [
+    "MEF — SIAF y AIRHSP",
+    "OECE — OCDS",
+    "ANTAIP — supervisión",
+    "Ministerio del Interior, Ministerio de Defensa, DINI, INPE, Ministerio Público y Poder Judicial — definición de personal exceptuado"
+   ],
+   "impacto_economico": "Costo nulo de la excepción (filtro en la publicación centralizada desde el AIRHSP); evita costos de protección personal y riesgos para la vida de servidores expuestos."
+  }
+ },
+ {
+  "id": "GOB-06",
+  "especialidad": "seguridad",
+  "veredicto": "conforme",
+  "resumen": "Propuesta de transparencia parlamentaria de bajo riesgo de seguridad: publica información de interés público sobre el ejercicio de la función legislativa. Solo se sugiere asegurar la integridad de los registros de votación y la autenticación del legislador en el sistema de votación electrónica.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 3.1",
+    "problema": "La validez de los datos abiertos depende de la integridad del registro electrónico de votación; sin autenticación robusta del legislador y registros inalterables, se pueden cuestionar votos emitidos por terceros o alterados.",
+    "correccion": "Añadir: «El sistema de votación electrónica autentica personalmente al legislador en cada votación y conserva registros inalterables, con sello de tiempo, que se auditan al menos una vez por legislatura.»"
+   }
+  ],
+  "aportes": {
+   "entidades_implicadas": [
+    "Congreso de la República (Oficialía Mayor, áreas de tecnologías de la información) — integridad del sistema de votación"
+   ],
+   "impacto_economico": "Costo bajo; los sistemas ya existen."
+  }
+ },
+ {
+  "id": "GOB-07",
+  "especialidad": "seguridad",
+  "veredicto": "observaciones",
+  "resumen": "El catastro multipropósito y los gemelos digitales tienen alto valor público, pero los gemelos integran 'redes de servicios' (agua, energía, gas, telecomunicaciones) que son infraestructura crítica, y la ley deja indefinido qué es 'no sensible'. Además, el catastro es objetivo de fraude inmobiliario: sus modificaciones requieren controles de integridad y trazabilidad.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículos 5 y 6.2",
+    "problema": "La apertura de 'capas no sensibles' y de la información 'no sensible' del gemelo digital no define el criterio; las capas de redes de servicios, subestaciones, reservorios, ductos y nodos de telecomunicaciones con precisión geográfica y características técnicas facilitan ataques físicos o ciberfísicos a infraestructura crítica.",
+    "correccion": "Añadir el numeral 6.3: «Se consideran sensibles y no se publican como datos abiertos las capas que permitan identificar con precisión la ubicación, configuración, capacidad o puntos vulnerables de infraestructuras críticas, redes troncales de servicios públicos, activos críticos nacionales e instalaciones de defensa y seguridad. Su acceso se limita a entidades y operadores autorizados. El reglamento establece la relación de capas sensibles previa opinión del Centro Nacional de Seguridad Digital y del Ministerio de Defensa.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 4",
+    "problema": "La actualización continua por miles de servidores municipales sin controles de integridad expone el catastro a alteraciones fraudulentas (superposiciones, cambios de titularidad o linderos) vinculadas al tráfico de terrenos, cuyo efecto se propaga al Registro de Predios y a los sistemas tributarios por interoperabilidad.",
+    "correccion": "Añadir el numeral 4.3: «Toda modificación del catastro digital se realiza por servidores autenticados con autenticación multifactor y firma digital, queda registrada de forma inalterable con su sustento y es trazable por el titular del predio, quien recibe aviso de las modificaciones que afecten su predio.»"
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 28294 (disposición complementaria final)"
+   ],
+   "entidades_implicadas": [
+    "SUNARP y municipalidades — integridad del catastro",
+    "MVCS — gemelos digitales",
+    "CNSD-PCM y Ministerio de Defensa — definición de capas sensibles",
+    "ANPD — titularidad y valorización individual"
+   ],
+   "impacto_economico": "Firma digital y trazabilidad en la actualización catastral tienen costo moderado si se proveen como servicio compartido; reducen pérdidas por fraude inmobiliario."
+  }
+ },
+ {
+  "id": "GOB-08",
+  "especialidad": "seguridad",
+  "veredicto": "observaciones",
+  "resumen": "Los servicios compartidos elevan el nivel de seguridad de municipalidades que hoy no tienen capacidad, lo que es positivo. Pero concentran en un proveedor central los trámites, pagos y casillas de cientos de municipios, por lo que deben exigirse aislamiento entre entidades, seguridad de pagos, respuesta a incidentes centralizada y cuidado al publicar debilidades por municipio.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 2",
+    "problema": "Un catálogo compartido (mesa de partes, casilla, pagos, nube) es un punto único de falla para cientos de gobiernos locales; un incidente o una cuenta administrativa comprometida afecta a todos a la vez. No se fijan requisitos de seguridad ni de continuidad del servicio.",
+    "correccion": "Añadir el numeral 2.3: «Los servicios del Catálogo garantizan el aislamiento lógico de la información de cada entidad, autenticación multifactor para los usuarios municipales, cumplimiento de estándares de seguridad de datos de pago, respaldos protegidos, plan de continuidad probado y monitoreo y respuesta a incidentes a cargo de la SGTD en coordinación con el Centro Nacional de Seguridad Digital. Las entidades adheridas conservan la titularidad de su información y su derecho a exportarla.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 4",
+    "problema": "Publicar por municipalidad sus carencias de seguridad digital orienta a atacantes hacia los objetivos más débiles.",
+    "correccion": "Añadir: «Los componentes del Índice referidos a seguridad digital se publican de forma agregada por nivel de gobierno y región, sin identificar entidades.»"
+   }
+  ],
+  "aportes": {
+   "entidades_implicadas": [
+    "SGTD-PCM — operador de servicios compartidos",
+    "CNSD-PCM — respuesta a incidentes",
+    "Gobiernos regionales y locales — usuarios"
+   ],
+   "impacto_economico": "La seguridad centralizada es más eficiente que la seguridad individual de cada municipio; el costo de monitoreo y respuesta debe presupuestarse en la PCM."
+  }
+ },
+ {
+  "id": "GOB-09",
+  "especialidad": "seguridad",
+  "veredicto": "observaciones",
+  "resumen": "Correcta en accesibilidad y no exclusión, y acierta al exigir cuentas oficiales verificadas. Los canales de mensajería de terceros implican tratamiento de datos por plataformas privadas, a menudo con transferencia internacional, y son el canal preferido de estafas que suplantan al Estado; deben fijarse límites de datos y reglas de comunicación segura.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3",
+    "problema": "La prestación de servicios por mensajería de terceros (citas, estado de trámites) implica que el proveedor de la plataforma trate datos personales y, en salud o programas sociales, datos sensibles, con transferencia internacional (Ley 29733, art. 15). Además, si las entidades envían enlaces o solicitan datos por esos canales, normalizan la conducta que explotan los estafadores.",
+    "correccion": "Añadir el numeral 3.4: «Por los canales de mensajería no se solicitan contraseñas, códigos de verificación, datos de tarjetas ni pagos, ni se tratan datos sensibles; las operaciones que lo requieran se derivan a la plataforma oficial con autenticación. Las entidades publican esta regla en GOB.PE y en sus mensajes. El uso de estos canales requiere evaluación de impacto en protección de datos que considere la transferencia internacional.»"
+   }
+  ],
+  "aportes": {
+   "entidades_implicadas": [
+    "SGTD-PCM — lineamientos de canales",
+    "ANPD — transferencia internacional y datos sensibles",
+    "OSIPTEL — coordinación contra suplantación de remitentes"
+   ],
+   "impacto_economico": "Sin costo relevante de seguridad adicional."
+  }
+ },
+ {
+  "id": "GOB-10",
+  "especialidad": "seguridad",
+  "veredicto": "observaciones",
+  "resumen": "Atiende un riesgo real de pérdida de memoria institucional. Pero ordena entregar 'credenciales' en las transferencias de gestión, práctica insegura, y el Repositorio Nacional, al concentrar documentos de valor permanente, debe tener protección específica contra secuestro de datos (ransomware) e integridad verificable.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 6",
+    "problema": "Entregar 'credenciales' de acceso en la transferencia de gestión perpetúa el uso de cuentas compartidas y contraseñas transmitidas en actas, y deja accesos activos de personal saliente; es una causa frecuente de accesos indebidos.",
+    "correccion": "Sustituir 'con las credenciales y medios necesarios para su acceso' por: «...con la transferencia de la administración de los sistemas a cuentas institucionales de la gestión entrante, la revocación de los accesos del personal saliente y la rotación de las contraseñas y claves de administración, dejando constancia en el acta sin consignar contraseñas»."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 4.1",
+    "problema": "Un repositorio nacional único de documentos de valor permanente es objetivo de secuestro de datos y de alteración; la remisión a 'estándares de repositorios confiables' no explicita copias inmutables ni verificación periódica de integridad.",
+    "correccion": "Añadir el numeral 4.3: «El Repositorio mantiene al menos tres copias, una de ellas fuera de línea o inmutable y otra en ubicación geográfica distinta dentro del territorio nacional, verifica periódicamente la integridad de los documentos mediante sumas de verificación y registra todo acceso y operación.»"
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 25323 (disposición complementaria final)"
+   ],
+   "entidades_implicadas": [
+    "Archivo General de la Nación — operador del Repositorio",
+    "CNSD-PCM — seguridad del Repositorio",
+    "Contraloría General de la República — control en transferencias de gestión"
+   ],
+   "impacto_economico": "Las copias inmutables y fuera de línea añaden costo de almacenamiento moderado, inferior al de pérdida irreversible de documentos."
+  }
+ },
+ {
+  "id": "GOB-11",
+  "especialidad": "seguridad",
+  "veredicto": "observaciones",
+  "resumen": "Los datos de transporte en tiempo real tienen alto valor y bajo riesgo de privacidad si se excluyen datos de conductores. Sin embargo, la posición en tiempo real de unidades identificables, en el contexto de extorsión a transportistas y asaltos en carreteras, puede facilitar la focalización de unidades concretas; y la integridad del dato de localización es esencial si se usa para fiscalizar.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículos 4.2 y 6",
+    "problema": "Publicar sin registro la posición en tiempo real con identificadores estables de cada unidad (o su placa) permite seguir vehículos concretos de empresas objeto de extorsión y, en el transporte interprovincial, conocer la ubicación de unidades en tramos aislados de carretera.",
+    "correccion": "Añadir el numeral 4.3: «Los identificadores de vehículo publicados son seudónimos que no corresponden a la placa ni permiten identificar al conductor y se renuevan periódicamente. En el transporte interprovincial, la posición se publica con el desfase o la generalización que determine el reglamento, previa opinión del Ministerio del Interior. La autoridad puede suspender temporalmente la publicación de rutas o unidades específicas por razones de seguridad.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículos 4.1 y 8",
+    "problema": "Si los datos se usan para fiscalizar y sancionar, la transmisión debe ser íntegra y no manipulable (falsificación de posición).",
+    "correccion": "Añadir: «La transmisión de los operadores a la autoridad se realiza por canales autenticados y cifrados, y los equipos de localización cumplen requisitos técnicos que dificulten la manipulación de la posición.»"
+   }
+  ],
+  "aportes": {
+   "entidades_implicadas": [
+    "ATU, MTC y municipalidades provinciales — publicación",
+    "Ministerio del Interior/PNP — opinión sobre riesgos de seguridad",
+    "SUTRAN — fiscalización"
+   ],
+   "impacto_economico": "La seudonimización y el desfase no tienen costo relevante."
+  }
+ },
+ {
+  "id": "GOB-12",
+  "especialidad": "seguridad",
+  "veredicto": "observaciones",
+  "resumen": "La trazabilidad y la reserva de identidad son correctas, pero la protección técnica del denunciante es incompleta: la plataforma puede registrar metadatos (dirección IP, dispositivo) que lo identifiquen, el código de seguimiento debe ser no predecible, y la derivación a la propia entidad cuyos directivos son denunciados expone al denunciante a represalias.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 5",
+    "problema": "La seudonimización y el cifrado del contenido no impiden la identificación del denunciante anónimo a partir de metadatos técnicos (dirección IP, identificadores del dispositivo, horarios) conservados por la plataforma o por proveedores, que pueden ser requeridos o filtrados.",
+    "correccion": "Añadir: «Para las denuncias anónimas o con reserva, la Plataforma no conserva direcciones IP ni identificadores del dispositivo del denunciante más allá de lo estrictamente necesario para la seguridad del servicio y por un plazo máximo de setenta y dos horas; elimina los metadatos de los archivos adjuntos; y genera códigos de seguimiento aleatorios no predecibles. El acceso a la identidad reservada se limita a servidores designados y queda registrado.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículos 4.1 y 2.2",
+    "problema": "Si la denuncia involucra al titular o a la alta dirección de la entidad, su derivación a esa misma entidad permite inferir la identidad del denunciante por el contenido y facilita represalias o destrucción de evidencia.",
+    "correccion": "Añadir el numeral 4.3: «Cuando la denuncia involucre al titular, a la alta dirección o al órgano encargado de evaluarla, la Plataforma la deriva directamente al órgano de control institucional y a la Contraloría General de la República, sin remitirla a la entidad.»"
+   }
+  ],
+  "aportes": {
+   "entidades_implicadas": [
+    "Secretaría de Integridad Pública-PCM — Plataforma",
+    "Contraloría General de la República — derivación directa",
+    "Ministerio Público — denuncias penales"
+   ],
+   "impacto_economico": "Medidas de minimización de metadatos sin costo relevante."
+  }
+ },
+ {
+  "id": "GOB-13",
+  "especialidad": "seguridad",
+  "veredicto": "observaciones",
+  "resumen": "Buen marco de portabilidad, clasificación y continuidad. Desde seguridad faltan requisitos mínimos exigibles a los proveedores de nube (certificaciones, notificación de incidentes, registros, borrado), control estatal de las claves de cifrado para información confidencial y crítica frente a accesos de jurisdicciones extranjeras, y evitar que la consolidación cree un punto único de falla.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3",
+    "problema": "La localización o el respaldo nacional garantizan continuidad, pero no confidencialidad: los datos alojados por proveedores sujetos a leyes extranjeras pueden ser objeto de requerimientos de esas autoridades. La medida técnica eficaz es el cifrado con claves bajo control exclusivo del Estado.",
+    "correccion": "Añadir el numeral 3.2: «La información clasificada como confidencial o crítica alojada en servicios de nube se cifra en reposo y en tránsito con claves generadas y custodiadas por la entidad o por Nube Perú en módulos criptográficos bajo su control, sin acceso del proveedor. La información de los sistemas de defensa, inteligencia y orden interno se rige por su normativa especial y por la Ley 30999.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 4",
+    "problema": "Las cláusulas obligatorias son de portabilidad, no de seguridad. Faltan exigencias mínimas que el DS 126-2025-PCM y la buena práctica imponen (certificaciones de seguridad, notificación de incidentes, acceso a registros, auditoría y borrado verificable).",
+    "correccion": "Añadir: «(vi) certificaciones vigentes de seguridad de la información y de servicios en la nube reconocidas internacionalmente; (vii) notificación a la entidad de incidentes que afecten sus datos dentro de las veinticuatro horas; (viii) acceso de la entidad a los registros de actividad de sus recursos; (ix) derecho de auditoría o de presentación de informes de auditoría independientes; y (x) eliminación verificable de los datos al término del contrato, previa entrega.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículos 5 y 6",
+    "problema": "La consolidación en Nube Perú o en acuerdos marco con pocos proveedores concentra servicios críticos; sin requisitos de redundancia, una falla o un incidente afecta a gran parte del Estado.",
+    "correccion": "Añadir al art. 7: «Los servicios digitales críticos se diseñan con redundancia en al menos dos zonas o sedes independientes y con capacidad de recuperación en un proveedor o infraestructura alternativa, conforme al plan de continuidad.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 5.1",
+    "problema": "Publicar el inventario de centros de datos con detalle por entidad puede revelar ubicaciones y debilidades de infraestructura.",
+    "correccion": "Precisar: «...publica un resumen agregado; el detalle de ubicación y características técnicas se mantiene reservado.»"
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Reglamento de la Ley 32069 — cláusulas de nube",
+    "DS 029-2021-PCM — Nube Perú"
+   ],
+   "entidades_implicadas": [
+    "SGTD-PCM / Nube Perú — operador",
+    "CNSD-PCM — requisitos de seguridad",
+    "Central de Compras Públicas (Perú Compras) — acuerdos marco",
+    "Ministerio de Defensa/CCFFAA — exclusión de sistemas de ciberdefensa"
+   ],
+   "impacto_economico": "La gestión de claves por el Estado (módulos criptográficos y personal) tiene costo moderado centralizable en Nube Perú; la redundancia multizona eleva el costo de los servicios críticos, compensado por el ahorro de la consolidación."
+  }
+ },
+ {
+  "id": "GOB-14",
+  "especialidad": "seguridad",
+  "veredicto": "observaciones",
+  "resumen": "Profesionalizar la conducción digital es positivo. Debe preservarse la separación entre la Jefatura de Transformación Digital y el oficial de seguridad y confianza digital, e incorporar la seguridad desde el diseño entre sus funciones, con opinión del oficial en las contrataciones tecnológicas.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 3",
+    "problema": "Las funciones de la Jefatura no incluyen la seguridad digital desde el diseño ni la coordinación con el oficial de seguridad y confianza digital previsto en el DS 126-2025-PCM; el riesgo es subordinar la seguridad a la velocidad de implementación o concentrar ambos roles.",
+    "correccion": "Añadir literal f): «asegurar que los proyectos y contrataciones digitales incorporen seguridad desde el diseño, con opinión previa del oficial de seguridad y confianza digital de la entidad, quien mantiene independencia funcional respecto de la Jefatura.» Y en el art. 2.2: «El cargo no puede acumularse con el de oficial de seguridad y confianza digital.»"
+   }
+  ],
+  "aportes": {
+   "entidades_implicadas": [
+    "SERVIR — perfiles",
+    "SGTD-PCM — rectoría",
+    "CNSD-PCM — oficial de seguridad"
+   ],
+   "impacto_economico": "Sin costo adicional de seguridad."
+  }
+ }
+]

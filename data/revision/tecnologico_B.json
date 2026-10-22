@@ -1,0 +1,2075 @@
+[
+ {
+  "id": "CON-01",
+  "especialidad": "derecho_tecnologico",
+  "veredicto": "observaciones",
+  "resumen": "Es valioso reconocer la conectividad significativa, pero la técnica es deficiente: introduce la calificación de 'servicio público esencial' dentro de una declaración de necesidad pública (art. 3 de la Ley 29904), que no es su lugar, y financia subsidios a la demanda con recursos que la Ley 28900 destina solo a la oferta. Además, la regla de suspensión por falta de pago ya está en las Condiciones de Uso de OSIPTEL. Pido precisar que la calificación no altera el régimen tarifario de libre mercado.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 7 y Disposición Complementaria Final Tercera",
+    "problema": "Financia 'mecanismos focalizados de apoyo a la demanda' con los recursos de la Ley 28900. El artículo 2 de esa ley (modificado por la Primera DCF de la Ley 29904) dice que el FITEL 'financiará, exclusivamente, servicios de telecomunicaciones en áreas rurales o en lugares considerados de preferente interés social, así como la infraestructura...' y redes de transporte. Un subsidio a hogares pobres urbanos o un vale para dispositivos no cabe en ese destino exclusivo. Sin modificar la ley, el gasto sería observado por el MEF y por la Contraloría.",
+    "correccion": "Agregar un artículo: 'Modifícase el artículo 2 de la Ley 28900, con el texto siguiente: \"Artículo 2.- Destino de los recursos. El FITEL financiará, exclusivamente, servicios de telecomunicaciones en áreas rurales o en lugares considerados de preferente interés social, la infraestructura de comunicaciones necesaria para garantizar el acceso a tales servicios, redes de transporte de telecomunicaciones y, hasta el porcentaje anual que fije el reglamento, mecanismos focalizados de apoyo a la demanda de acceso a internet de banda ancha para hogares en pobreza o pobreza extrema según el Sistema de Focalización de Hogares (SISFOH).\"'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3 (literal iii del artículo 3 de la Ley 29904)",
+    "problema": "El artículo 3 de la Ley 29904 declara de necesidad pública e interés nacional dos actividades: i) construir la Red Dorsal y ii) acceder a la infraestructura de energía e hidrocarburos. Allí no corresponde calificar un servicio como 'esencial'. Declarar algo de necesidad pública tiene efectos expropiatorios (art. 70 de la Constitución) y no otorga la condición de servicio público esencial. Otro problema: telecomunicaciones ya figura como servicio esencial para efectos de huelga en el art. 83 del TUO de la Ley de Relaciones Colectivas de Trabajo (DS 010-2003-TR), y la redacción propuesta no aclara a qué efectos jurídicos se refiere.",
+    "correccion": "No tocar el art. 3. En su lugar, incorporar un artículo 4-A en la Ley 29904: 'Artículo 4-A. Carácter esencial del acceso a internet de banda ancha. El servicio de acceso a internet de banda ancha es un servicio público de telecomunicaciones esencial para el ejercicio de derechos fundamentales. Esta calificación tiene por efecto: a) su continuidad reforzada conforme al artículo 5 de la presente ley; b) su priorización en el acceso y servicio universal. No implica la regulación de tarifas minoristas, que se mantienen sujetas al régimen tarifario de libre competencia previsto en el TUO de la Ley de Telecomunicaciones y en el Reglamento General de Tarifas del OSIPTEL.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 4.1 literal a)",
+    "problema": "Remite a 'umbrales que fija anualmente el MTC conforme al artículo 5 de la Ley 29904'. Ese artículo, modificado por el artículo 6 de la Ley 31207, solo fija la velocidad mínima para considerar una conexión como banda ancha. No regula la latencia. Las características técnicas adicionales están a cargo del OSIPTEL a través del RENAMV. La remisión es incompleta y la competencia sobre latencia queda sin dueño.",
+    "correccion": "Reemplazar el literal a) por: 'a) velocidad no inferior a la velocidad mínima de banda ancha que determina el Ministerio de Transportes y Comunicaciones conforme al artículo 5 de la Ley 29904, y latencia, estabilidad y demás características técnicas no inferiores a las que establece el OSIPTEL conforme al mismo artículo;'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 4.1 literal d)",
+    "problema": "Deja el umbral de asequibilidad totalmente al reglamento y lo mide solo contra el primer quintil. Eso no permite comparar al Perú con otros países. El estándar internacional es la meta '1 for 2' de la Comisión de Banda Ancha UIT/UNESCO: 1 GB de datos móviles por no más del 2 % del ingreso nacional bruto mensual per cápita.",
+    "correccion": "Redactar el literal d) así: 'd) un precio del plan de referencia que no supere el 2 % del ingreso nacional bruto mensual per cápita, conforme a la meta de asequibilidad de la Comisión de Banda Ancha para el Desarrollo Sostenible de la UIT y la UNESCO, sin perjuicio del umbral específico para el primer quintil de ingresos que fije el reglamento.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 5.1",
+    "problema": "La suspensión por falta de pago y su preaviso ya están regulados por la norma de Condiciones de Uso de los servicios públicos de telecomunicaciones del OSIPTEL. Fijar diez días por ley congela un parámetro técnico-regulatorio y puede contradecir los plazos vigentes, con lo cual se duplica la regulación. La frase 'garantizan la continuidad del servicio' tampoco establece estándares de disponibilidad.",
+    "correccion": "Reemplazar el 5.1 por: '5.1 El OSIPTEL establece, mediante sus Condiciones de Uso, el preaviso mínimo previo a la suspensión por falta de pago de usuarios residenciales, el cual no puede ser inferior a cinco días hábiles, así como indicadores de disponibilidad mínima del servicio de acceso a internet.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Exposición de motivos (referencias internacionales)",
+    "problema": "Las referencias a Chile (Ley 21.678 de 2024) y Colombia (Ley 2108 de 2021) son correctas. Falta advertir que la ley chilena califica internet como servicio público de telecomunicaciones, no como servicio 'esencial' con control de tarifas. Esa diferencia sostiene la cautela que el propio costo-beneficio menciona.",
+    "correccion": "Agregar en la exposición: 'Ninguna de las leyes citadas sustituye el régimen de libre fijación de tarifas minoristas; la calificación opera sobre continuidad, universalidad y calidad.'"
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 29904, incorpora art. 4-A (en lugar de literal iii del art. 3)",
+    "Ley 28900, art. 2 (modifica destino de recursos para subsidio a la demanda)",
+    "Condiciones de Uso del OSIPTEL (adecuación vía regulación, no por ley)"
+   ],
+   "entidades_implicadas": [
+    "MTC — rector, Plan Nacional de Conectividad y velocidad mínima",
+    "OSIPTEL — características técnicas, continuidad, Condiciones de Uso",
+    "PRONATEL — ejecutor del subsidio a la demanda",
+    "MIDIS — focalización (SISFOH)",
+    "INEI — medición del índice de conectividad significativa",
+    "MEF — opinión sobre el uso de recursos de la Ley 28900"
+   ],
+   "impacto_economico": "El subsidio a la demanda compite con la inversión en oferta dentro del mismo fondo. Un tope anual reglamentario (por ejemplo, un porcentaje de los ingresos del FITEL) evita descapitalizar los proyectos de transporte."
+  }
+ },
+ {
+  "id": "CON-02",
+  "especialidad": "derecho_tecnologico",
+  "veredicto": "observaciones",
+  "resumen": "Es acertado exigir que las redes financiadas incluyan la operación y el mantenimiento durante su ciclo de vida, y publicar un tablero de proyectos. El problema es que amplía el uso de los recursos del FITEL a fines que el art. 2 de la Ley 28900 no permite, sin modificarlo. También declara 'intangibles' los recursos con una fórmula que choca con el DL 1440, y omite que Invierte.pe ya exige sostenibilidad.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 4.1",
+    "problema": "Destina los recursos del art. 3 de la Ley 28900 a 'apoyo focalizado a la demanda y capacidades digitales'. El art. 2 de la Ley 28900 limita su uso, de forma exclusiva, a servicios e infraestructura en áreas rurales o de preferente interés social y a redes de transporte. El art. 12 del TUO de la Ley de Telecomunicaciones (DS 013-93-TCC) repite esa exclusividad para el aporte de los operadores. El texto, por lo tanto, choca con normas vigentes que el proyecto no modifica.",
+    "correccion": "Agregar: 'Modifícanse el artículo 2 de la Ley 28900 y el primer párrafo del artículo 12 del TUO de la Ley de Telecomunicaciones, aprobado por Decreto Supremo 013-93-TCC, para incluir entre los fines exclusivos del fondo la operación, mantenimiento y reposición de las redes financiadas, el apoyo focalizado a la demanda y la formación de capacidades digitales vinculadas al uso de dichas redes, hasta los porcentajes anuales que fije el reglamento.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 4.1 y 4.2 (intangibilidad y saldos)",
+    "problema": "La 'intangibilidad' no es una categoría del Sistema Nacional de Presupuesto Público (DL 1440). La figura correcta es 'recursos determinados' con destino específico. Las leyes anuales de presupuesto han autorizado transferencias de estos recursos a otros fines. Declararlos intangibles sin ajustar la regla no impide esas transferencias y puede ser leído como un intento de limitar la competencia presupuestal del Ejecutivo (art. 78 de la Constitución).",
+    "correccion": "Reemplazar el 4.1 por: 'Los recursos a que se refiere el artículo 3 de la Ley 28900 constituyen recursos determinados de destino exclusivo y no pueden ser objeto de modificaciones presupuestarias en el nivel institucional a favor de fines distintos, salvo autorización expresa en ley.' Mantener el 4.2 remitiendo a las reglas de incorporación de saldos de balance de recursos determinados del Decreto Legislativo 1440."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3.1",
+    "problema": "Exige financiar la operación y el mantenimiento por no menos de 15 años. La fase de formulación de Invierte.pe (DL 1252 y su reglamento) ya pide analizar la sostenibilidad y los costos de operación y mantenimiento. Lo que falta no es estimarlos, sino garantizar su fuente. Además, 15 años supera la vida útil tecnológica de los equipos activos de radio y transmisión (entre 7 y 10 años) y obligaría a presupuestar reposiciones difíciles de prever.",
+    "correccion": "Reemplazar por: '3.1 Todo proyecto financiado con los recursos de la Ley 28900 cuenta, antes de su adjudicación, con una fuente de financiamiento identificada para su operación y mantenimiento durante la vida útil de la infraestructura pasiva y con un plan de reposición de equipos activos según su vida útil tecnológica, conforme a la metodología que apruebe el MEF en el marco del Decreto Legislativo 1252.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 5",
+    "problema": "Dice 'el programa presupuestal correspondiente' sin nombrarlo. El programa del sector es el PP 0047 'Acceso y uso adecuado de los servicios públicos de telecomunicaciones e información asociados'. Con el DL 1440, los programas presupuestales se están reconvirtiendo en Programas Presupuestales orientados a Resultados (PPoR).",
+    "correccion": "Reemplazar por: 'Dichos indicadores se incorporan al Programa Presupuestal 0047 o al programa presupuestal orientado a resultados que haga sus veces.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 2",
+    "problema": "Define el servicio universal sin articularlo con el 'acceso universal' del art. 8 del TUO de la Ley de Telecomunicaciones ni con su Reglamento General (DS 020-2007-MTC). El resultado son dos conceptos paralelos.",
+    "correccion": "Iniciar el artículo así: 'Para efectos del artículo 8 del TUO de la Ley de Telecomunicaciones y de la Ley 28900, el acceso y servicio universal comprende...'"
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 28900, art. 2 (destino de recursos)",
+    "TUO Ley de Telecomunicaciones DS 013-93-TCC, art. 12",
+    "Reglamento General de la Ley de Telecomunicaciones DS 020-2007-MTC (adecuación)"
+   ],
+   "entidades_implicadas": [
+    "PRONATEL/MTC — ejecutor y gestor del tablero",
+    "MEF (DGPP, DGPMI) — programa presupuestal, metodología Invierte.pe",
+    "OSIPTEL — opinión y supervisión de calidad de las redes",
+    "Gobiernos regionales y locales — convenios de operación y Obras por Impuestos (Ley 29230)",
+    "Contraloría General — control de la ejecución"
+   ],
+   "impacto_economico": "Presupuestar la operación y el mantenimiento reduce la cartera nueva anual, pero evita que se pierdan redes ya construidas. El costo de las evaluaciones independientes es marginal frente a proyectos de decenas de millones de soles."
+  }
+ },
+ {
+  "id": "CON-03",
+  "especialidad": "derecho_tecnologico",
+  "veredicto": "observaciones",
+  "resumen": "La integración mayorista de acceso abierto es la dirección correcta, pero en buena parte la Ley 29904 ya la contiene (operador neutro, art. 9.2; tarifas iguales 'en la medida de lo posible', art. 9.4). Lo que corresponde es modificar esos artículos, no crear una regla paralela. Que el OSIPTEL fije la tarifa 'a propuesta del MTC' afecta su autonomía. Además, la tarifa única obligatoria puede desplazar la inversión privada en rutas competitivas.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 4.2",
+    "problema": "Dispone que el OSIPTEL fije las tarifas tope 'a propuesta del MTC'. Según el art. 3.1.b de la Ley 27332, la función reguladora (fijar tarifas) es del organismo regulador, con autonomía técnica. La iniciativa ministerial lo subordina al concedente, que además es titular de la red. Eso crea un conflicto de interés y un riesgo de captura regulatoria.",
+    "correccion": "Reemplazar por: '4.2 El OSIPTEL fija las tarifas tope mayoristas de la Red Mayorista conforme a su función reguladora prevista en el artículo 3 de la Ley 27332, considerando la recuperación de los costos eficientes de operación, mantenimiento y reposición y la promoción del uso de la red, previa opinión no vinculante del Ministerio de Transportes y Comunicaciones.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículos 3, 4.1 y 5 / efecto_vigencia",
+    "problema": "Duplica lo vigente. El art. 9.2 de la Ley 29904 ya exige operadores neutros 'que no tienen usuarios finales', seleccionados por licitación pública. El art. 9.3 prohíbe las prácticas discriminatorias, con sanción del OSIPTEL. El art. 9.4 prevé tarifas 'en la medida de lo posible' iguales a nivel nacional. Y el art. 8 encarga a PROINVERSIÓN la concesión. El proyecto 'complementa' cuando debería modificar, y deja en duda si la selección la conduce el MTC o PROINVERSIÓN.",
+    "correccion": "Reestructurar como ley modificatoria: 'Modifícanse los artículos 8, 9 y 18 de la Ley 29904', y extender en el art. 9.1 la Red Dorsal a las redes regionales de transporte financiadas por la Ley 28900. En el art. 9.4 sustituir 'en la medida de lo posible' por 'son únicas por unidad de capacidad, salvo los tramos en que el OSIPTEL declare la existencia de competencia efectiva en el mercado mayorista de transporte'. Mantener a PROINVERSIÓN como conductor del concurso (art. 8 y DL 1362)."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 4.1",
+    "problema": "Una tarifa única nacional, sin excepciones, fija precios por debajo del costo en las rutas largas y por encima del costo en las rutas troncales donde hay fibra privada (Lima–costa norte y sur). Eso desplaza a los operadores privados de transporte y puede sostener reclamos por competencia desleal del Estado frente al art. 60 de la Constitución (subsidiariedad). El propio costo-beneficio advierte el riesgo, pero el articulado no lo recoge.",
+    "correccion": "Agregar el 4.3: 'En los tramos donde exista oferta mayorista privada de transporte en condiciones de competencia efectiva, declarada por el OSIPTEL, la tarifa de la Red Mayorista se orienta a costos y no puede ser inferior a su costo incremental de largo plazo.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 7",
+    "problema": "Remite a la REDNACE 'prevista en los artículos 17 a 19 de la Ley 29904'. La remisión es correcta, pero la REDNACE es una red de acceso (art. 17) que se nutre de una reserva de capacidad de la Red Dorsal fijada por resolución suprema (art. 18). El DL 1502 (2020) y el DS 016-2019-MTC cambiaron su forma de contratación, y el proyecto no articula con esas normas.",
+    "correccion": "Redactar: 'La Red Mayorista mantiene la reserva de capacidad prevista en el artículo 18 de la Ley 29904, cuyo porcentaje se actualiza por resolución suprema, la cual es asignada a los operadores de la REDNACE conforme al artículo 19 de dicha ley y al Decreto Legislativo 1502.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Referencias internacionales",
+    "problema": "El Reglamento (UE) 2024/1309 (Gigabit Infrastructure Act) trata del acceso a infraestructura física y de la coordinación de obras civiles. No regula redes mayoristas estatales de acceso abierto ni tarifas únicas, así que la cita no sostiene el modelo propuesto.",
+    "correccion": "Sustituir por la Comunicación de la Comisión Europea 'Directrices sobre ayudas estatales a las redes de banda ancha' (2023/C 36/01), que exige acceso mayorista abierto a las redes subvencionadas, y por la referencia a la Red Compartida mayorista de México (art. Décimo Sexto transitorio de la reforma constitucional en telecomunicaciones de 2013)."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 29904, arts. 8, 9 y 18 (modifica)",
+    "Ley 28900, art. 2 (si se cofinancia la operación)",
+    "DL 1362 (aplicación supletoria para APP)"
+   ],
+   "entidades_implicadas": [
+    "MTC — concedente y titular de la red",
+    "PROINVERSIÓN — conductor del concurso (art. 8 Ley 29904)",
+    "OSIPTEL — fijación de tarifas tope, supervisión de acceso no discriminatorio",
+    "PRONATEL — operación transitoria",
+    "MEF — cofinanciamiento APP y compromisos contingentes"
+   ],
+   "impacto_economico": "Si la ocupación pasa del 10 % estimado al 50 % meta, los ingresos podrían cubrir la operación y el mantenimiento. Mientras tanto, se necesita cofinanciamiento (compromiso firme APP), que debe registrarse como pasivo contingente en el MEF."
+  }
+ },
+ {
+  "id": "CON-04",
+  "especialidad": "derecho_tecnologico",
+  "veredicto": "observaciones",
+  "resumen": "La extensión 'dig once' a vías subnacionales y obras urbanas está bien encaminada y sigue el modelo europeo. Faltan tres cosas: (i) definir quién reconoce el costo incremental, porque el art. 12.3 de la Ley 29904 lo asigna a MINEM y MTC solo como concedentes; (ii) resolver la concurrencia con el art. 12.6 (concesión de ductos sobrantes); y (iii) evitar que el registro de infraestructura publique datos de infraestructura crítica.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 2 (literal e del art. 12.1)",
+    "problema": "Mete redes de agua potable y alcantarillado en el mismo literal que las vías. Técnicamente, no se instalan ductos de telecomunicaciones dentro de redes de saneamiento. Se aprovecha la zanja compartida, con separaciones mínimas por la norma OS.050 del Reglamento Nacional de Edificaciones. Sin ese matiz, se pueden exigir instalaciones contrarias a la normativa sanitaria.",
+    "correccion": "Redactar: 'e. Tratándose de obras de construcción, mejoramiento o rehabilitación de vías departamentales y vecinales, pistas y veredas urbanas, y de obras que impliquen apertura de zanjas para redes de agua potable y alcantarillado, ejecutadas por cualquier entidad pública, se instalarán ductos y cámaras en la zanja o franja de servidumbre, respetando las distancias mínimas que establezca el Reglamento Nacional de Edificaciones, conforme a las especificaciones técnicas que apruebe el Ministerio de Transportes y Comunicaciones en coordinación con el Ministerio de Vivienda, Construcción y Saneamiento.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 4",
+    "problema": "Pone los ductos a disposición de los concesionarios 'conforme a la Ley 28295'. Esa ley regula el uso compartido de infraestructura de uso público de titularidad de concesionarios. Para los ductos estatales de la Ley 29904, el régimen aplicable es el art. 12.5 y 12.6 (prioridad de la Red Dorsal y concesión del excedente bajo publicidad y competencia). Con dos regímenes, no queda claro quién otorga el acceso ni a qué precio.",
+    "correccion": "Reemplazar la remisión por: 'conforme a los numerales 12.5 y 12.6 del artículo 12 de la Ley 29904; el OSIPTEL fija la contraprestación orientada a costos. La administración de los ductos instalados por gobiernos regionales y locales puede delegarse a éstos mediante convenio con el Ministerio de Transportes y Comunicaciones.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 7",
+    "problema": "Carga el costo incremental al presupuesto de la inversión de gobiernos regionales y locales sin mecanismo de reconocimiento. El art. 12.3 de la Ley 29904 prevé ese reconocimiento solo para concesionarios de MINEM y MTC, y el art. 12.7 encargó adecuar la metodología del SNIP, hoy Invierte.pe. Si no se ajusta la metodología, la unidad formuladora no podrá sustentar la rentabilidad social de ese componente.",
+    "correccion": "Agregar: 'El Ministerio de Economía y Finanzas, en el marco del Decreto Legislativo 1252, incorpora en las fichas técnicas y metodologías de inversión de transporte y saneamiento el componente de ductos y cámaras como costo asociado con beneficio social reconocido, en un plazo de ciento veinte días hábiles.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 5.2",
+    "problema": "La regla 'el acceso se rige por reglas de seguridad de infraestructura crítica' queda abierta. Publicar la ubicación georreferenciada de fibra, torres y ductos facilita el sabotaje. El Reglamento (UE) 2024/1309 permite restringir el acceso al punto único de información por seguridad de la red y de infraestructuras críticas.",
+    "correccion": "Redactar: 'El acceso público al Registro se otorga a nivel agregado. El acceso a información de detalle se concede a concesionarios y entidades con interés legítimo, previo registro, y puede ser restringido para la infraestructura que el reglamento identifique como crítica conforme a la normativa de seguridad digital y de infraestructura crítica.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 3",
+    "problema": "El silencio positivo de la opinión del PRONATEL tiene sentido, pero el PRONATEL no tiene presencia territorial para atender miles de inversiones subnacionales en quince días. En la práctica, todas quedarán con opinión ficta.",
+    "correccion": "Aplicar la opinión solo a inversiones por encima de un umbral de longitud o monto que fije el reglamento. Por debajo de él, basta la aplicación de las especificaciones técnicas estándar."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 29904, art. 12.1 (incorpora literal e) y art. 12.3 (reconocimiento de costos para entidades subnacionales)",
+    "Reglamento Nacional de Edificaciones (norma técnica de ductos, vía MVCS)",
+    "Metodologías de Invierte.pe (MEF)"
+   ],
+   "entidades_implicadas": [
+    "MTC — especificaciones técnicas y Registro",
+    "PRONATEL — opinión técnica, cofinanciamiento",
+    "MVCS — normas técnicas de saneamiento y pistas",
+    "MEF — metodología de inversión",
+    "Gobiernos regionales y municipalidades — ejecutores",
+    "OSIPTEL — contraprestación por uso de ductos",
+    "Empresas prestadoras de saneamiento — coordinación de zanjas"
+   ],
+   "impacto_economico": "Instalar ductos en zanja abierta cuesta una fracción del tendido independiente. Según la evaluación de impacto de la Directiva 2014/61/UE, la obra civil representa hasta el 80 % del costo de despliegue. El riesgo es tener ductos ociosos si no hay demanda, de ahí la importancia del umbral."
+  }
+ },
+ {
+  "id": "CON-05",
+  "especialidad": "derecho_tecnologico",
+  "veredicto": "observaciones",
+  "resumen": "Hacer permanente el régimen de la Ley 29022 y crear una ventanilla única digital es razonable y da certidumbre a la inversión. Pero el diagnóstico omite la Ley 31456 (2022), que ya prorrogó el régimen diez años más. También omite que el régimen de barreras burocráticas está en el DL 1256. La exoneración de permisos para celdas pequeñas debería tomar como modelo el Reglamento de Ejecución (UE) 2020/1070, no la ley chilena de antenas, que es más restrictiva.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Problema / efecto_vigencia / Artículo 2",
+    "problema": "Omite la Ley 31456 (publicada el 22-abr-2022). Su art. 2 amplió por diez años el plazo del art. 6 de la Ley 30228, contados desde su vencimiento, y su art. 3 reafirmó que la Ley 29022 y sus normas complementarias son las únicas normas aplicables a la instalación de infraestructura. Si no se cita, el diagnóstico de 'incertidumbre' se exagera y el efecto derogatorio queda incompleto, porque la prórroga seguiría vigente en paralelo.",
+    "correccion": "En el problema: 'La Ley 31456 amplió por diez años adicionales el plazo del artículo 6 de la Ley 30228; aun así, el régimen sigue siendo temporal.' En efecto_vigencia y en una Disposición Complementaria Derogatoria: 'Deróganse el artículo 6 de la Ley 30228 y el artículo 2 de la Ley 31456.' Verificar en SPIJ el texto exacto del artículo 1 de la Ley 29022 antes de suprimir 'y temporal'."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 8",
+    "problema": "Califica el incumplimiento como 'barrera burocrática ilegal' sin remitir al régimen que la declara y sanciona. Ese régimen es el Decreto Legislativo 1256, Ley de Prevención y Eliminación de Barreras Burocráticas, a cargo de la Comisión de Eliminación de Barreras Burocráticas del INDECOPI. La responsabilidad de los funcionarios también requiere tipificación precisa.",
+    "correccion": "Redactar: 'La exigencia de requisitos, plazos o derechos de tramitación distintos de los previstos en la presente ley y su reglamento constituye barrera burocrática ilegal, conforme al Decreto Legislativo 1256, cuya declaración y sanción corresponde al INDECOPI, sin perjuicio de la responsabilidad administrativa funcional de los servidores que la impongan.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 6 / Referencias internacionales",
+    "problema": "La exoneración por comunicación previa para celdas pequeñas no define parámetros técnicos verificables. La Ley chilena 20.599 tampoco es un buen referente: endurece las exigencias, con zonas sensibles y compensaciones urbanas. El modelo pertinente es el Reglamento de Ejecución (UE) 2020/1070, que exime de permiso a los puntos de acceso inalámbrico de pequeña área bajo límites de volumen y de potencia isotrópica radiada equivalente (PIRE).",
+    "correccion": "Agregar al art. 6: 'Se consideran de pequeño formato los equipos con volumen total no superior a 30 litros y PIRE no superior a 10 W, o los parámetros que establezca el reglamento con base en el Reglamento de Ejecución (UE) 2020/1070, siempre que cumplan los límites máximos permisibles de radiaciones no ionizantes.' Sustituir la cita a Chile por ese reglamento europeo, o mencionar la ley chilena como ejemplo de modelo restrictivo."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 5",
+    "problema": "Cita la 'Ley 27444' para los derechos de tramitación. Lo correcto es el TUO de la Ley 27444, aprobado por DS 004-2019-JUS, cuyo art. 54 establece que los derechos de tramitación se basan en el costo del procedimiento.",
+    "correccion": "Sustituir por 'conforme al artículo 54 del Texto Único Ordenado de la Ley 27444, aprobado por Decreto Supremo 004-2019-JUS'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 7",
+    "problema": "La fiscalización de radiaciones no ionizantes de estaciones de telecomunicaciones es competencia del MTC según los límites máximos permisibles (DS 038-2003-MTC y modificatorias), no de las municipalidades. Asignarla a los municipios crea competencias concurrentes que no se pueden ejecutar.",
+    "correccion": "Redactar: 'Las municipalidades fiscalizan de manera posterior el cumplimiento del plan de trabajo y de las normas de mimetización. La fiscalización de los límites máximos permisibles de radiaciones no ionizantes corresponde al Ministerio de Transportes y Comunicaciones, que publica las mediciones en la Ventanilla.'"
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 29022, art. 1 (suprime temporalidad)",
+    "Ley 30228, art. 6 (deroga)",
+    "Ley 31456, art. 2 (deroga)",
+    "Reglamento de la Ley 29022 (adecuación)"
+   ],
+   "entidades_implicadas": [
+    "MTC — requisitos únicos, Ventanilla, fiscalización de radiaciones no ionizantes",
+    "Municipalidades — fiscalización posterior de plan de trabajo y mimetización",
+    "INDECOPI (CEB) — barreras burocráticas",
+    "PCM/SGTD — integración de la ventanilla con la Plataforma Digital Única gob.pe"
+   ],
+   "impacto_economico": "La certeza de permanencia reduce la prima de riesgo regulatorio en despliegues 5G densos. El costo fiscal es la plataforma, que puede reutilizar componentes de gob.pe."
+  }
+ },
+ {
+  "id": "CON-06",
+  "especialidad": "derecho_tecnologico",
+  "veredicto": "observaciones",
+  "resumen": "Las obligaciones de cobertura, el pago en especie y la hoja de ruta del espectro son buenas prácticas. Pero en parte ya existen: el Reglamento General de la Ley de Telecomunicaciones regula la transferencia de asignaciones, y las subastas de PROINVERSIÓN ya incluyeron compromisos de cobertura. La reversión 'sin compensación' debe sujetarse al título habilitante y al art. 62 de la Constitución, y el referente europeo correcto es el Código Europeo de Comunicaciones Electrónicas, no la Gigabit Infrastructure Act.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 6",
+    "problema": "La reversión 'sin derecho a compensación' de espectro asignado por contratos de concesión firmados antes de esta ley puede vulnerar el art. 62 de la Constitución (los términos contractuales no pueden modificarse por leyes posteriores). La Tercera DCF salva los contratos vigentes, pero el art. 6 no lo dice y la redacción invita a aplicarlo de inmediato. El TUO de la Ley de Telecomunicaciones ya permite reasignar o cancelar por incumplimiento de metas de uso, según lo que establezca el título.",
+    "correccion": "Redactar: 'El espectro asignado con posterioridad a la vigencia de la presente ley que no sea utilizado en las áreas y plazos comprometidos en el título habilitante revierte al Estado, total o parcialmente, previo procedimiento administrativo sancionador o de cancelación con derecho de defensa. Para las asignaciones anteriores rige lo pactado en el respectivo contrato de concesión.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 7",
+    "problema": "La transferencia de asignaciones de espectro ya requiere aprobación del MTC según el Reglamento General (DS 020-2007-MTC) y el TUO. El aporte nuevo, el arrendamiento y el uso compartido, no incluye un control de concentración. Con la Ley 31112 (control previo de operaciones de concentración, a cargo del INDECOPI) vigente, el OSIPTEL no es el único que debe opinar sobre efectos en la competencia. Además, la Ley 30083 trata de los operadores móviles virtuales y de infraestructura móvil rural, no del mercado secundario de espectro.",
+    "correccion": "Redactar: 'Se permite el arrendamiento y el uso compartido del espectro entre concesionarios, previa aprobación del Ministerio de Transportes y Comunicaciones, quien solicita opinión del OSIPTEL sobre sus efectos en la competencia. Las transferencias que califiquen como operaciones de concentración se sujetan además a la Ley 31112. El reglamento establece topes de espectro por operador y banda.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 5",
+    "problema": "El pago en especie de la contraprestación por espectro (obligaciones de hacer) reduce los ingresos al Tesoro y al FITEL, que recibe un porcentaje del canon según el art. 3.2 de la Ley 28900. La redacción no aclara si se trata de la contraprestación de la subasta (ingreso del Tesoro) o del canon anual. Sin esa precisión, puede leerse como una exoneración de canon, materia tributaria que requiere ley expresa (art. 74 de la Constitución).",
+    "correccion": "Precisar: 'Hasta el porcentaje que determine el reglamento, el pago único por la asignación del espectro mediante concurso puede sustituirse por compromisos de inversión en zonas no atendidas. Esta sustitución no alcanza al canon por uso del espectro previsto en el artículo 60 del TUO de la Ley de Telecomunicaciones.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 8",
+    "problema": "El apagado de 2G/3G no considera los servicios críticos que siguen funcionando sobre esas redes: llamadas de emergencia en terminales antiguos, medidores, alarmas, POS y telemetría (IoT M2M). Tampoco prevé la convivencia de VoLTE con el roaming de emergencia. Sin esto, se cortan servicios esenciales.",
+    "correccion": "Agregar: 'El plan de apagado incluye: a) un inventario de dispositivos M2M y servicios de emergencia que dependen de 2G/3G; b) la garantía de acceso a números de emergencia mediante VoLTE para todos los terminales homologados; c) un preaviso a usuarios no menor de doce meses; y d) la aprobación previa del OSIPTEL respecto de la protección del usuario.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 3",
+    "problema": "Omite que la hoja de ruta debe articularse con el Plan Nacional de Atribución de Frecuencias (PNAF) y con las decisiones de la Conferencia Mundial de Radiocomunicaciones de la UIT, en particular la CMR-23 y la próxima CMR-27.",
+    "correccion": "Agregar al final: '...articulada con el Plan Nacional de Atribución de Frecuencias y con las atribuciones del Reglamento de Radiocomunicaciones de la UIT.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Referencias internacionales",
+    "problema": "La Gigabit Infrastructure Act (Reglamento (UE) 2024/1309) no regula espectro.",
+    "correccion": "Sustituir por la Directiva (UE) 2018/1972, Código Europeo de Comunicaciones Electrónicas, arts. 45 a 55 (gestión del espectro, duración mínima de licencias, transferencia y arrendamiento, obligaciones de cobertura)."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "TUO Ley de Telecomunicaciones DS 013-93-TCC, Título V (espectro)",
+    "Reglamento General DS 020-2007-MTC (transferencia y arrendamiento de espectro)",
+    "Plan Nacional de Atribución de Frecuencias (PNAF)"
+   ],
+   "entidades_implicadas": [
+    "MTC (DGPRC/DGCC) — hoja de ruta, asignación, aprobación de transferencias",
+    "PROINVERSIÓN — conducción de concursos",
+    "OSIPTEL — opinión de competencia, protección del usuario en el apagado",
+    "INDECOPI — control de concentraciones (Ley 31112)",
+    "MEF — impacto en los ingresos del Tesoro por pago en especie",
+    "PRONATEL — recambio de terminales con recursos de la Ley 28900"
+   ],
+   "impacto_economico": "Sustituir caja por cobertura reduce el ingreso inmediato del Tesoro, pero convierte el pago en despliegue rural sin costo de transacción público. Hay que valorizar los compromisos al costo eficiente para no subsidiar de más."
+  }
+ },
+ {
+  "id": "CON-07",
+  "especialidad": "derecho_tecnologico",
+  "veredicto": "observaciones",
+  "resumen": "Cubre un vacío real y tiene buenos referentes. Hay tres problemas: aplicar silencio positivo a un título que lleva aparejado espectro (recurso natural, art. 66 de la Constitución) es improcedente; incluir municipalidades de centro poblado como operadores exige cumplir el art. 60 de la Constitución (actividad empresarial del Estado subsidiaria); y el referente mexicano está desactualizado tras la reforma de 2025.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 3.1 en concordancia con el artículo 4",
+    "problema": "Un título habilitante con silencio administrativo positivo, al que se suma la asignación directa de espectro, supone otorgar por silencio el uso de un recurso natural. El art. 57 del TUO de la Ley de Telecomunicaciones califica el espectro como recurso natural de dimensiones limitadas que es patrimonio de la Nación, y el art. 38 del TUO de la Ley 27444 reserva el silencio negativo para procedimientos que afectan significativamente el interés público, incluidos los recursos naturales. Además, una asignación ficta no permite hacer el estudio de interferencias.",
+    "correccion": "Redactar el 3.1: '...en un plazo no mayor de treinta días hábiles, sujeto a silencio administrativo positivo únicamente respecto del registro como operador comunitario. La asignación de espectro a que se refiere el artículo 4 se sujeta a evaluación previa con silencio negativo, en un plazo máximo de cuarenta y cinco días hábiles, previo análisis de interferencias.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 2",
+    "problema": "Que una municipalidad de centro poblado preste servicios de telecomunicaciones es actividad empresarial del Estado. El art. 60 de la Constitución la permite solo con autorización por ley expresa y con carácter subsidiario. Las municipalidades de centro poblado, además, ejercen funciones delegadas por la municipalidad provincial (Ley 27972, arts. 128-135) y no tienen competencias propias en telecomunicaciones.",
+    "correccion": "Agregar el 2.2: 'Autorízase, por razones de alto interés público y de manera subsidiaria conforme al artículo 60 de la Constitución, a las municipalidades distritales y de centro poblado a operar redes comunitarias únicamente en los centros poblados donde el Ministerio de Transportes y Comunicaciones verifique la ausencia de oferta comercial de acceso a internet; la autorización cesa si ingresa un operador comercial, sin perjuicio de un plazo de transición.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 4",
+    "problema": "Una 'asignación directa y sin concurso' contradice la regla de concurso público cuando hay más demanda que espectro disponible (TUO de la Ley de Telecomunicaciones y Reglamento General). Solo cabe en bandas sin congestión o a título secundario. La ley no aclara si el uso es primario o secundario, ni si genera obligación de canon.",
+    "correccion": "Redactar: 'El MTC asigna a los operadores comunitarios espectro para uso local en las bandas que la hoja de ruta identifique sin demanda comercial en el área, a título primario o secundario, sin concurso cuando no exista concurrencia de solicitantes. Los operadores comunitarios abonan un canon reducido que fije el reglamento.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Referencias internacionales",
+    "problema": "Atribuye la concesión de uso social indígena al 'IFT'. En 2025 México promulgó la Ley en Materia de Telecomunicaciones y Radiodifusión, que extinguió el Instituto Federal de Telecomunicaciones y trasladó sus funciones a una nueva autoridad. La cita de Colombia (Ley 2108 de 2021) no trata de redes comunitarias.",
+    "correccion": "Citar: 'México, concesiones de uso social comunitario e indígena previstas inicialmente en el art. 67 de la Ley Federal de Telecomunicaciones y Radiodifusión (2014) y mantenidas en la ley de 2025 (verificar artículo en el DOF)'. Reemplazar Colombia por la Recomendación UIT-D 'Redes comunitarias' o el informe de la APC citado en el problema."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 8",
+    "problema": "La remisión a la Ley 29785 sobra en la mayoría de los casos, porque el título se otorga a pedido de la propia comunidad y la consulta no se activa. Sí correspondería consultar el reglamento, si afecta derechos colectivos.",
+    "correccion": "Precisar: 'El reglamento de la presente ley se somete a consulta previa conforme a la Ley 29785 en lo que afecte directamente derechos colectivos.'"
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "TUO Ley de Telecomunicaciones (incorporar la categoría de operador comunitario)",
+    "Reglamento General DS 020-2007-MTC",
+    "Ley 28900, art. 2 (si se financia capacitación y acompañamiento)"
+   ],
+   "entidades_implicadas": [
+    "MTC — título habilitante y espectro",
+    "OSIPTEL — regulación especial de calidad y usuario, acceso mayorista",
+    "PRONATEL — financiamiento de equipamiento",
+    "Ministerio de Cultura — consulta previa y pertinencia intercultural",
+    "Gobiernos locales — operadores subsidiarios"
+   ],
+   "impacto_economico": "Los ingresos que el Estado deja de percibir son marginales. El mayor riesgo es que las redes no se sostengan, por lo que conviene condicionar el financiamiento a planes de operación y mantenimiento a cinco años."
+  }
+ },
+ {
+  "id": "CON-08",
+  "especialidad": "derecho_tecnologico",
+  "veredicto": "observaciones_graves",
+  "resumen": "Hace falta una ley de actividades espaciales para cumplir los tratados de la ONU. Pero tal como está redactado: (i) crea un fondo concursable y una entidad con costo recurrente, que el Congreso no puede imponer sin chocar con el art. 79 de la Constitución; (ii) sujeta a autorización de la Agencia la 'prestación de servicios basados en objetos espaciales', lo que duplica el título habilitante del MTC para internet satelital y crea una barrera de entrada; y (iii) no verifica qué tratados ha ratificado el Perú ni su coherencia con los Acuerdos Artemis firmados en 2024.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 2 en concordancia con el artículo 5",
+    "problema": "La definición de actividad espacial incluye 'la prestación de servicios basados en dichos objetos', y el art. 5 exige autorización de la Agencia para toda actividad espacial. Así, cualquier proveedor de internet satelital, televisión satelital o GNSS que opere en el Perú necesitaría un segundo título, además de la concesión y el registro del MTC y el uso de espectro. Es una barrera de entrada contraria a los objetivos de conectividad (CON-01) y no la exige ningún tratado. El art. VI del Tratado del Espacio de 1967 exige autorizar y supervisar las actividades de entidades no gubernamentales del propio Estado, no los servicios de operadores extranjeros.",
+    "correccion": "Redactar el art. 2: 'actividad espacial: el lanzamiento, operación en órbita, control, retorno o disposición final de objetos espaciales por personas naturales o jurídicas peruanas o desde territorio nacional'. Agregar al art. 5: 'No constituye actividad espacial sujeta a autorización la prestación en el territorio nacional de servicios de telecomunicaciones o de radionavegación por satélite, que se rige por el TUO de la Ley de Telecomunicaciones y su normativa.'"
+   },
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 8 y Disposición Complementaria Final Tercera",
+    "problema": "El fondo concursable y la nueva entidad generan gasto recurrente. Decir que no demandan recursos 'en el ejercicio de su creación' admite gasto en los años siguientes, lo que choca con la prohibición de iniciativa de gasto del art. 79 de la Constitución. Además, crear un organismo técnico especializado requiere cumplir los arts. 31 a 33 de la Ley 29158 y los lineamientos de organización del Estado (DS 054-2018-PCM).",
+    "correccion": "Redactar el art. 8: 'La Agencia puede administrar un fondo concursable de innovación espacial que se financia con recursos de cooperación internacional, donaciones, recursos directamente recaudados y los que se le asignen en el marco de las leyes anuales de presupuesto.' En la Tercera DCF, sustituir 'en el ejercicio de su creación' por 'con cargo al presupuesto institucional transferido de la CONIDA, sin demandar recursos adicionales al Tesoro Público'."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículos 1 y 6 / Problema",
+    "problema": "No identifica qué tratados de la ONU ha ratificado el Perú. El registro nacional y la notificación al Secretario General dependen del Convenio de Registro de 1975, y la responsabilidad, del Convenio de Responsabilidad de 1972. No pude confirmar en esta revisión el estado de ratificación de cada tratado. Por otra parte, el Perú firmó los Acuerdos Artemis (mayo de 2024) y, según los registros de UNOOSA, sería Parte del Acuerdo sobre la Luna de 1979. La ley debería prever la coherencia entre ambos regímenes.",
+    "correccion": "Antes de presentar el proyecto, verificar en la base de UNOOSA ('Status of International Agreements relating to activities in outer space') y en el archivo de tratados del MRE el estado del Perú en los cinco tratados. Redactar el art. 1: '...en concordancia con el Tratado sobre el Espacio Ultraterrestre de 1967 y los demás tratados de las Naciones Unidas sobre el espacio en vigor para el Perú'. Si el Perú no es parte del Convenio de Registro, cambiar el art. 6 a 'conforme a la Resolución 1721 B (XVI) de la Asamblea General'."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 7",
+    "problema": "La responsabilidad del operador es ilimitada y no tiene contrapartida estatal, lo que hace imposible asegurar el riesgo y desalienta a las startups que la ley quiere atraer. Los modelos comparados combinan un seguro obligatorio con un tope y una garantía estatal por encima del tope; por ejemplo, la Loi n° 2008-518 relative aux opérations spatiales de Francia.",
+    "correccion": "Agregar: '7.2 El monto de la acción de repetición del Estado contra el operador se limita al monto del seguro o garantía exigido, salvo dolo o culpa grave o incumplimiento de las condiciones de la autorización.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3.1 y Disposición Complementaria Final Segunda",
+    "problema": "Traslada la CONIDA del Sector Defensa a la PCM. Pero la CONIDA opera el PerúSAT-1 y el Centro Nacional de Operaciones de Imágenes Satelitales (CNOIS), que tienen usos de defensa, y el art. 10 deja la coordinación sin reglas. Además, la PCM ya concentra muchos organismos adscritos.",
+    "correccion": "Evaluar dos opciones y justificar la elegida en la exposición de motivos: adscripción a la PCM o al ministerio que reciba la rectoría de CTI. Agregar al art. 10: 'El Ministerio de Defensa conserva la operación de los sistemas satelitales destinados a la defensa nacional mediante convenio con la Agencia, que garantiza el acceso civil prioritario a las imágenes para la gestión del riesgo de desastres.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Referencias internacionales",
+    "problema": "La Lei 14.946/2024 de Brasil (Ley General de Actividades Espaciales) es un buen referente. La cita a la CONAE argentina describe una institución, no una norma.",
+    "correccion": "Agregar Francia, Loi n° 2008-518 du 3 juin 2008 relative aux opérations spatiales, como modelo de autorización, seguro y garantía estatal."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Decreto Ley 20643 (deroga tras la transferencia)",
+    "Ley 29158, LOPE (adscripción del OTE)",
+    "Normas de organización del MINDEF (desafectación de la CONIDA)"
+   ],
+   "entidades_implicadas": [
+    "CONIDA / Agencia Espacial del Perú — rector, autorización y registro",
+    "MINDEF — transferencia, usos de defensa",
+    "MTC — espectro, posiciones orbitales y notificaciones ante la UIT",
+    "MRE — tratados, notificación a la ONU y UNOOSA",
+    "PCM — adscripción y política",
+    "CONCYTEC — articulación con el SINACTI",
+    "MEF — presupuesto"
+   ],
+   "impacto_economico": "El costo de reorganización es bajo. El fondo y los programas satelitales son de costo medio o alto y deben ir a la ley anual de presupuesto. Un seguro obligatorio con tope protege al Tesoro frente a la responsabilidad internacional absoluta por daños en la superficie."
+  }
+ },
+ {
+  "id": "CON-09",
+  "especialidad": "derecho_tecnologico",
+  "veredicto": "observaciones",
+  "resumen": "Una política de datos de observación de la Tierra abiertos por defecto está bien orientada y es de bajo costo. Hay tres puntos que corregir: (i) el art. 3.2 tiene una redacción defectuosa ('resolución de máxima resolución espacial'); (ii) las licencias de imágenes comerciales normalmente prohíben su redistribución, por lo que la apertura debe limitarse a los productos derivados; y (iii) falta la salvaguarda de datos personales en imágenes aéreas de muy alta resolución, además de articular con la Infraestructura de Datos Espaciales del Perú (IDEP) y con el CNOIS de la CONIDA.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3.2",
+    "problema": "La causal 'por resolución de máxima resolución espacial que la ley o el reglamento clasifique' es confusa: mezcla 'resolución' como acto administrativo y como parámetro técnico. Además, la seguridad nacional solo justifica restricciones conforme a las excepciones del TUO de la Ley 27806 (arts. 15 y 16).",
+    "correccion": "Redactar: '3.2 Solo pueden restringirse, de manera motivada y temporal: a) la información clasificada conforme a los artículos 15 y 16 del TUO de la Ley 27806; b) las imágenes con resolución espacial inferior al umbral que fije el reglamento sobre instalaciones de defensa o infraestructura crítica; c) las imágenes sujetas a licencias comerciales preexistentes que prohíban su redistribución, respecto de las cuales se publican los productos derivados.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículos 3.1 y 5",
+    "problema": "Las licencias de proveedores comerciales de muy alta resolución restringen la redistribución. Las licencias 'para todo el Estado' o abiertas cuestan varias veces más. Imponer la publicación abierta de lo 'adquirido' puede encarecer las compras o volverlas inviables. Sobre derechos, las imágenes brutas tomadas automáticamente difícilmente alcanzan la originalidad del DL 822, pero su uso se rige por contrato de licencia.",
+    "correccion": "Agregar en el art. 5: 'Las nuevas adquisiciones incluyen, como mínimo, licencia de uso para todas las entidades públicas y licencia abierta compatible con CC BY 4.0 para productos derivados (índices, clasificaciones, mosaicos de menor resolución), salvo que el costo incremental supere el porcentaje que fije el reglamento.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3 (omisión)",
+    "problema": "Las imágenes aéreas o de drones de muy alta resolución (centimétrica) pueden permitir identificar personas, placas o el interior de predios. Esos son datos personales según la Ley 29733 y su reglamento, aprobado por DS 016-2024-JUS. La apertura por defecto no prevé anonimización.",
+    "correccion": "Agregar el 3.3: 'Las imágenes con resolución espacial que permita identificar personas o placas vehiculares se publican previa aplicación de técnicas de anonimización o degradación de resolución, conforme a la Ley 29733.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 4",
+    "problema": "No menciona al CNOIS de la CONIDA, que ya recibe y distribuye las imágenes del PerúSAT-1 a las entidades públicas. Tampoco explica cómo se articula con la IDEP y con el Geoportal, dentro del marco de la Ley de Gobierno Digital (DL 1412) y la política de datos abiertos de la PCM/SGTD.",
+    "correccion": "Redactar: 'La CONIDA, a través del Centro Nacional de Operaciones de Imágenes Satelitales, o la entidad que la suceda, administra el Catálogo, el cual se integra con la Infraestructura de Datos Espaciales del Perú y la Plataforma Nacional de Datos Abiertos, conforme al Decreto Legislativo 1412.'"
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Decreto Ley 20643 o la ley de creación de la Agencia (funciones de catálogo)",
+    "TUO Ley 27806 (sin modificar; remisión expresa)",
+    "DS 029-2021-PCM (adecuación sobre datos geoespaciales abiertos)"
+   ],
+   "entidades_implicadas": [
+    "CONIDA/CNOIS — catálogo y distribución",
+    "PCM/SGTD — datos abiertos e IDEP",
+    "INDECI y CENEPRED — productos de emergencia (Ley 29664)",
+    "MINAM, MIDAGRI, ANA, SERNANP — usuarios principales",
+    "ANPD (MINJUSDH) — salvaguarda de datos personales",
+    "OECE — compras coordinadas de licencias"
+   ],
+   "impacto_economico": "Centralizar las compras evita duplicidades. Las licencias amplias tienen un sobrecosto que debe compararse con la suma de las compras separadas. Copernicus y Landsat ya ofrecen datos de resolución media gratuitos, por lo que el gasto debe concentrarse en muy alta resolución."
+  }
+ },
+ {
+  "id": "CON-10",
+  "especialidad": "derecho_tecnologico",
+  "veredicto": "observaciones",
+  "resumen": "La propuesta es prudente porque no da beneficios tributarios y pide reportes de PUE y de agua. Tiene cuatro debilidades: asigna el registro al MTC aunque la materia es energética y ambiental; hace una 'declaración de interés nacional' sin efecto normativo; menciona 'certificados' de energía renovable que no tienen respaldo legal en el Perú; y no tiene en cuenta que la conexión al SEIN la gestionan el COES y el régimen de usuarios libres. La referencia europea debe precisarse.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 6",
+    "problema": "Encarga a MINEM y MTC 'plazos máximos para la factibilidad de conexión eléctrica'. Esa factibilidad la otorga el concesionario de distribución o transmisión, y los estudios de pre-operatividad y conexión al SEIN los aprueba el COES según sus procedimientos técnicos, con supervisión de OSINERGMIN. Un centro de datos de más de 2,5 MW es usuario libre obligatorio según el Reglamento de Usuarios Libres de Electricidad (DS 022-2009-EM). El texto apunta a entidades que no tienen la competencia.",
+    "correccion": "Redactar: 'El Ministerio de Energía y Minas, con opinión del COES y de OSINERGMIN, establece plazos máximos para la emisión de factibilidades de suministro y la aprobación de estudios de conexión de cargas mayores al umbral que fije el reglamento, aplicables a todo usuario libre, sin trato preferente a una actividad específica. El Ministerio de Transportes y Comunicaciones facilita el acceso a la red mayorista pública de fibra óptica.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 4",
+    "problema": "Habla de abastecerse 'mediante... certificados' de energía renovable. En el Perú no hay un sistema legal de garantías de origen. Los certificados I-REC son voluntarios y privados, y su uso sin adicionalidad ni correspondencia horaria permite declarar un consumo '100 % renovable' que en la práctica es greenwashing.",
+    "correccion": "Redactar: 'Los centros de datos inscritos reportan la proporción de su consumo cubierta por contratos de suministro con generación renovable, autogeneración o instrumentos de atributos de energía verificados conforme a la metodología que apruebe el Ministerio de Energía y Minas, con indicación de su correspondencia temporal y geográfica.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3.1",
+    "problema": "El registro queda a cargo del MTC, pero los datos que se piden (energía, agua y calor residual) son de competencia del MINEM, la ANA y el MINAM. El MTC no tiene facultades de fiscalización sobre esos datos, así que el registro sería declarativo y no verificable. Además, la ley no establece sanción por no reportar.",
+    "correccion": "Redactar: 'Créase el Registro Nacional de Centros de Datos, a cargo del Ministerio de Energía y Minas, con interoperabilidad con la Autoridad Nacional del Agua y el Ministerio del Ambiente. El incumplimiento de la obligación de reporte constituye infracción administrativa sancionable por el Ministerio de Energía y Minas conforme al reglamento.' Adoptar como métricas las de la norma ISO/IEC 30134 (PUE, WUE, REF)."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 2",
+    "problema": "La declaración de interés nacional no genera derechos ni obligaciones. Esto es contrario a lo que pide el Manual de Técnica Legislativa del Congreso respecto de las leyes declarativas, y la propuesta ya tiene contenido normativo propio.",
+    "correccion": "Suprimir el artículo 2 y trasladar su sentido a la exposición de motivos."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Referencias internacionales",
+    "problema": "La cita a la 'Directiva de Eficiencia Energética' es imprecisa.",
+    "correccion": "Citar 'Directiva (UE) 2023/1791, artículo 12, y Reglamento Delegado (UE) 2024/1364 de la Comisión, relativo a la primera fase del sistema común de calificación de centros de datos'."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Reglamento de Usuarios Libres de Electricidad DS 022-2009-EM (plazos de conexión)",
+    "Procedimientos técnicos COES (vía OSINERGMIN)",
+    "Reglamento de la Ley 29338 (prioridad de reúso y agua desalinizada)"
+   ],
+   "entidades_implicadas": [
+    "MINEM — registro y metodología de energía renovable",
+    "COES / OSINERGMIN — conexión al SEIN",
+    "ANA — licencias de uso de agua y cuencas en estrés",
+    "MINAM / SENACE — certificación ambiental",
+    "MTC — acceso a fibra",
+    "Gobiernos regionales y locales — zonificación"
+   ],
+   "impacto_economico": "Sin beneficios tributarios, el costo fiscal es mínimo. El riesgo sistémico está en la demanda eléctrica de centros de datos de IA de cientos de MW; el reglamento debe exigir estudios de impacto en el sistema eléctrico para cargas grandes."
+  }
+ },
+ {
+  "id": "CON-11",
+  "especialidad": "derecho_tecnologico",
+  "veredicto": "observaciones",
+  "resumen": "El objetivo de diversificar los cables y promover IXP regionales es técnicamente sólido. Pero declara 'infraestructura crítica' sin articular con el régimen vigente de Activos Críticos Nacionales; impone acceso abierto a estaciones de aterrizaje privadas sin un análisis de poder de mercado, lo que desincentiva nuevos cables; y omite que el Perú no es parte de la CONVEMAR, por lo que la protección se basa en el dominio marítimo (art. 54 de la Constitución) y en las competencias de la DICAPI.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 5",
+    "problema": "Obliga a todos los titulares de estaciones de aterrizaje a dar coubicación y capacidad sin una declaración previa de poder de mercado. Imponer acceso ex ante sin análisis de mercado reduce el retorno de quien invierte en un cable nuevo, que es justo lo que la ley quiere atraer. El Código Europeo (Directiva (UE) 2018/1972, art. 68) impone obligaciones de acceso solo a operadores con poder significativo de mercado.",
+    "correccion": "Redactar: 'El OSIPTEL, previo análisis de mercado, puede imponer obligaciones de coubicación y acceso a la capacidad internacional a los titulares de estaciones de aterrizaje que declare como proveedores importantes en el mercado mayorista de acceso a capacidad internacional. Los nuevos cables que aterricen fuera de la costa central quedan exentos de dicha obligación durante los primeros diez años de operación.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 2",
+    "problema": "Crea por ley la categoría de 'infraestructura crítica de telecomunicaciones' en paralelo al régimen de Activos Críticos Nacionales (DS 106-2017-PCM) y al de activos críticos de la Ley 30999, Ley de Ciberdefensa. Esto fragmenta la identificación y protección de esa infraestructura.",
+    "correccion": "Redactar: 'Los cables submarinos de telecomunicaciones, sus estaciones de aterrizaje y los puntos de intercambio de tráfico de alcance nacional se incorporan a la relación de Activos Críticos Nacionales del sector Transportes y Comunicaciones, conforme al régimen de identificación y gestión de riesgos de dichos activos.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 6",
+    "problema": "No precisa la base legal ni la sanción. La autoridad marítima (DICAPI, Decreto Legislativo 1147) otorga los derechos de uso de área acuática y puede sancionar. Las restricciones a la pesca, en cambio, son competencia de PRODUCE. Además, el Perú no es parte de la CONVEMAR: la protección más allá del mar territorial debe fundarse en el art. 54 de la Constitución y en el Convenio Internacional para la Protección de los Cables Submarinos (París, 1884), cuya vigencia para el Perú debe verificarse.",
+    "correccion": "Redactar: 'La Autoridad Marítima Nacional, conforme al Decreto Legislativo 1147, y el Ministerio de la Producción, en materia pesquera, establecen zonas de protección de cables submarinos dentro del dominio marítimo, publicadas en las cartas náuticas, cuyo incumplimiento se sanciona conforme a sus respectivos regímenes.' Incluir a PRODUCE en el refrendo del reglamento."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 8 / Problema",
+    "problema": "No menciona que ya operan IXP en Lima (por ejemplo, Peru IX), ni los antecedentes regulatorios sobre el intercambio local del tráfico doméstico. Sin eso, el diagnóstico regional pierde precisión. 'Promover' el intercambio local sin obligación es correcto, porque la interconexión IP (peering) es voluntaria.",
+    "correccion": "Agregar en el problema la situación actual de los IXP en el país, con fuente (por ejemplo, PeeringDB o Internet Society Pulse). Mantener el art. 8 como facultad promocional."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "DS 106-2017-PCM, relación de Activos Críticos Nacionales (incorporación)",
+    "Reglamento General de la Ley de Telecomunicaciones DS 020-2007-MTC (procedimiento integrado)",
+    "Normas de pesca de PRODUCE (zonas de exclusión)"
+   ],
+   "entidades_implicadas": [
+    "MTC — concesión de portador internacional, procedimiento integrado",
+    "DICAPI (MINDEF) — uso de área acuática, cartas náuticas y sanciones",
+    "PRODUCE — restricciones a la pesca",
+    "OSIPTEL — análisis de mercado y acceso",
+    "SENACE/MTC — certificación ambiental",
+    "PRONATEL — cofinanciamiento de IXP",
+    "PCM — Activos Críticos Nacionales"
+   ],
+   "impacto_economico": "Un segundo punto de aterrizaje fuera de Lima reduce el riesgo sistémico ante un sismo o tsunami en la costa central. El costo regulatorio que la ley ahorra es relevante. El acceso obligatorio sin análisis de mercado, en cambio, puede retrasar inversiones de cientos de millones de dólares."
+  }
+ },
+ {
+  "id": "CON-12",
+  "especialidad": "derecho_tecnologico",
+  "veredicto": "observaciones",
+  "resumen": "Está bien elevar a rango legal la gestión razonable del tráfico y la medición abierta. Pero el diagnóstico ignora que el OSIPTEL ya tiene un Reglamento de Neutralidad de Red que regula la gestión de tráfico y el zero-rating. Dos aspectos técnicos pueden dañar al usuario: la calificación de 'contenidos lícitos' traslada al ISP un juicio de licitud que no le corresponde, y la ley omite los servicios especializados (5G network slicing). La protección del usuario de telecomunicaciones corresponde al OSIPTEL, no al régimen general de la Ley 29571.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Problema y artículo 2 (art. 6.3)",
+    "problema": "Omite el Reglamento de Neutralidad de Red del OSIPTEL (Resolución 165-2016-CD/OSIPTEL y modificatorias), que ya define la gestión de tráfico permitida y evalúa las ofertas de tarifa cero. Por eso el diagnóstico de 'ausencia de reglas' es inexacto, y el 6.3 duplica lo que ya existe.",
+    "correccion": "En el problema: 'El OSIPTEL aprobó en 2016 el Reglamento de Neutralidad de Red; la presente ley eleva a rango legal sus principios y fija límites que el regulador no puede flexibilizar.' En el 6.3: 'Las ofertas de tarifa cero no pueden aplicarse una vez agotado el saldo de datos del usuario respecto de solo determinadas aplicaciones, ni otorgarse a cambio de contraprestación del proveedor de contenidos; el OSIPTEL evalúa los demás supuestos.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 2 (art. 6.1)",
+    "problema": "Restringe la protección a 'contenidos... lícitos'. Así, el proveedor de acceso tendría que juzgar qué es lícito, lo que habilita bloqueos privados preventivos. El Reglamento (UE) 2015/2120 no le asigna ese juicio: el bloqueo solo procede por mandato legal o de autoridad competente (art. 3.3.a).",
+    "correccion": "Suprimir 'lícitos' en el 6.1 y precisar en el 6.2: '...o cumplir mandatos expresos de autoridad judicial o administrativa competente, conforme a ley.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 2 (omisión de servicios especializados)",
+    "problema": "No regula los servicios distintos del acceso a internet que requieren calidad garantizada, como telemedicina, vehículos conectados y segmentación de red 5G. Sin regla, esos servicios quedan prohibidos o en zona gris, lo que choca con el principio de neutralidad tecnológica y con la inversión en 5G.",
+    "correccion": "Agregar el 6.5: 'Los proveedores pueden ofrecer servicios optimizados para contenidos o aplicaciones específicos que requieran niveles de calidad determinados, siempre que la capacidad de la red sea suficiente para prestarlos además del acceso a internet, no se ofrezcan como sustituto de éste y no degraden su calidad general, conforme al artículo 3.5 del Reglamento (UE) 2015/2120 como referente.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 5",
+    "problema": "Remite a la Ley 29571. En los servicios públicos de telecomunicaciones, la información al usuario y sus reclamos los regula y supervisa el OSIPTEL mediante las Condiciones de Uso y el Reglamento de Reclamos. La remisión exclusiva al Código puede abrir conflictos de competencia con INDECOPI.",
+    "correccion": "Redactar: '...conforme a las Condiciones de Uso que aprueba el OSIPTEL y, supletoriamente, a la Ley 29571.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 6",
+    "problema": "La compensación automática por incumplimiento 'reiterado' necesita una definición técnica: número de mediciones, ventana temporal y método (por ejemplo, el percentil de la velocidad en la hora pico). Si no, no se puede aplicar.",
+    "correccion": "Agregar: 'El OSIPTEL define el incumplimiento reiterado con base en mediciones repetidas en horas de mayor tráfico, con metodología estadística publicada.'"
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 29904, art. 6 (modifica)",
+    "Reglamento de Neutralidad de Red del OSIPTEL (adecuación)",
+    "Condiciones de Uso del OSIPTEL (información y compensación)"
+   ],
+   "entidades_implicadas": [
+    "OSIPTEL — regulación, medición, mapa y sanción",
+    "MTC/PRONATEL — uso del mapa para focalizar",
+    "INDECOPI — competencia supletoria en publicidad engañosa"
+   ],
+   "impacto_economico": "Se financia con el aporte por regulación (art. 10 de la Ley 27332). El mapa verificado mejora la focalización del FITEL y evita subsidiar zonas ya cubiertas."
+  }
+ },
+ {
+  "id": "CON-13",
+  "especialidad": "derecho_tecnologico",
+  "veredicto": "observaciones",
+  "resumen": "Conectar escuelas y postas tiene un alto valor social y la contratación agregada con neutralidad tecnológica es acertada. Hay tres problemas: una meta del 100 % al 2031 no es realista para locales sin electricidad; el uso comunitario choca con la prohibición de uso comercial del art. 17 de la Ley 29904 y debe articularse con la Ley 28119 (protección de menores en el acceso a internet); y las referencias a la normativa de contratación están desactualizadas tras la Ley 32069.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 2 y Disposición Complementaria Final Segunda",
+    "problema": "Fija conectar 'todos los locales al 2031'. Hay miles de instituciones educativas rurales y amazónicas sin suministro eléctrico, y la conectividad depende de la electrificación (art. 7). La meta del propio Plan Perú 2050 para la REDNACE es 70 % al 2040. Una meta legal imposible de cumplir le quita credibilidad a la norma.",
+    "correccion": "Redactar la Segunda DCF: '...con metas anuales y la meta de conectar al 2031 no menos del 90 % de los locales con suministro eléctrico y la totalidad de los locales de capitales de distrito, y el 100 % al 2036.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 6",
+    "problema": "El art. 17 de la Ley 29904 prohíbe el uso comercial de la REDNACE. El uso comunitario gratuito no es comercial, pero el acceso de terceros no está previsto. Además, el acceso público abierto debe cumplir la Ley 28119, que prohíbe el acceso de menores a páginas pornográficas en cabinas públicas, y debe identificar a los usuarios con criterios mínimos de seguridad.",
+    "correccion": "Agregar un artículo: 'Modifícase el artículo 17 de la Ley 29904 para incorporar: \"Se permite el uso comunitario gratuito de la conectividad de las instituciones educativas y establecimientos de salud fuera del horario de atención, sin que ello constituya uso comercial.\"' En el art. 6 agregar: 'conforme a la Ley 28119 y a la Ley 29733'."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 4",
+    "problema": "La contratación por 'concursos públicos por lotes' plurianuales debe ajustarse a la Ley 32069, Ley General de Contrataciones Públicas, y a su reglamento, que reemplazaron el marco de la Ley 30225. El art. 19.2 de la Ley 29904 y el DS 016-2019-MTC remiten a ese régimen derogado. Los contratos plurianuales también requieren certificación presupuestal multianual (DL 1440).",
+    "correccion": "Redactar el 4.1: '...mediante procedimientos de selección conforme a la Ley 32069, Ley General de Contrataciones Públicas, por lotes regionales...' Agregar el 4.3: 'Las entidades cuentan con previsión presupuestal multianual conforme al Decreto Legislativo 1440 antes de convocar.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 5",
+    "problema": "Crea un inventario nuevo sin aprovechar las fuentes que ya existen: el Censo Educativo de ESCALE (MINEDU) registra si los locales tienen internet y el RENIPRESS (SUSALUD) registra los establecimientos de salud.",
+    "correccion": "Redactar: 'El inventario se construye sobre el Censo Educativo y el Registro Nacional de IPRESS, con identificador único de local, y se integra con las mediciones del OSIPTEL.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Referencias internacionales",
+    "problema": "La Lei 14.172/2021 de Brasil regula la transferencia a los estados para el acceso de alumnos y profesores, no la conectividad de escuelas. El referente pertinente es la Lei 14.180/2021 (Política de Innovación Educación Conectada).",
+    "correccion": "Agregar 'Brasil, Lei 14.180 de 2021, Política de Inovação Educação Conectada'."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 29904, art. 17 (uso comunitario) y art. 19.2 (remisión a la Ley 32069)",
+    "DS 016-2019-MTC (adecuación)"
+   ],
+   "entidades_implicadas": [
+    "MTC/PRONATEL — cronograma y contratación agregada",
+    "MINEDU — inventario de IIEE, uso pedagógico",
+    "MINSA / SUSALUD — IPRESS y telesalud",
+    "Gobiernos regionales — cofinanciamiento",
+    "MEF — programación multianual",
+    "MINEM (DGER) — electrificación rural",
+    "OECE — procedimientos de selección"
+   ],
+   "impacto_economico": "Es un gasto recurrente significativo. La agregación por lotes reduce precios unitarios, y las constelaciones LEO permiten bajar costos en zonas aisladas. Debe cuantificarse el costo anual por local con datos de PRONATEL antes de fijar metas."
+  }
+ },
+ {
+  "id": "CON-14",
+  "especialidad": "derecho_tecnologico",
+  "veredicto": "observaciones",
+  "resumen": "Las medidas son pertinentes: respaldo energético, itinerancia de emergencia y reporte de incidencias. Pero la propuesta ignora instrumentos vigentes: el Sistema de Mensajería de Alerta Temprana de Emergencias (SISMATE), que ya usa difusión celular, y la Red Especial de Comunicaciones en Situaciones de Emergencia (RECSE) del MTC. Los arts. 6 y 7 los duplican. Además, la cita europea sobre cables submarinos no corresponde.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 6",
+    "problema": "Duplica el SISMATE, creado por la Ley 30472 y operado por el MTC conforme a su reglamento y anexo técnico, que ya obliga a los operadores móviles a difundir alertas georreferenciadas. Legislarlo de nuevo sin remitir a la Ley 30472 genera dos regímenes paralelos.",
+    "correccion": "Redactar: 'Las alertas a que se refiere el presente artículo se difunden a través del Sistema de Mensajería de Alerta Temprana de Emergencias (SISMATE) regulado por la Ley 30472 y su reglamento; el MTC garantiza su integración con el Centro de Operaciones de Emergencia Nacional y con los protocolos del sistema de alerta temprana multiamenaza.' Coordinar con TAL-10, que también regula el SISMATE."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 7",
+    "problema": "La 'red de comunicaciones de emergencia' ya existe como Red Especial de Comunicaciones en Situaciones de Emergencia (RECSE), a cargo del MTC. Hacerla de nuevo genera confusión institucional.",
+    "correccion": "Redactar: 'El Ministerio de Transportes y Comunicaciones fortalece la Red Especial de Comunicaciones en Situaciones de Emergencia (RECSE), incorporando capacidad satelital, equipos desplegables y su articulación con la red mayorista pública de fibra óptica y la REDNACE.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 5",
+    "problema": "Una itinerancia 'automática' tras la declaratoria de emergencia no es viable técnicamente de inmediato: requiere acuerdos previos, configuración de PLMN y capacidad en la red receptora. Si no se prepara, la red sobreviviente puede colapsar. El precedente chileno exige planes previos.",
+    "correccion": "Redactar: 'Los concesionarios móviles suscriben, en el plazo que fije el OSIPTEL, acuerdos técnicos de itinerancia nacional de emergencia, probados en los simulacros del artículo 3, que se activan por disposición del MTC tras la declaratoria de emergencia, con prioridad para llamadas a números de emergencia y mensajería.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 3",
+    "problema": "La remisión de planes de continuidad al MTC no menciona la confidencialidad. Esos planes revelan vulnerabilidades de la red.",
+    "correccion": "Agregar: 'Los planes tienen carácter confidencial por razones de seguridad, conforme al numeral correspondiente del artículo 17 del TUO de la Ley 27806.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Referencias internacionales",
+    "problema": "La Recomendación (UE) 2024/779 trata de cables submarinos y no de la continuidad de redes ante desastres.",
+    "correccion": "Sustituir por la Directiva (UE) 2018/1972, art. 108 (disponibilidad de servicios y acceso a emergencias) y art. 110 (sistemas públicos de alerta)."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 30472 (SISMATE) y su reglamento (concordancia)",
+    "Normas de la RECSE",
+    "Condiciones de Uso y normas de calidad del OSIPTEL (reporte de interrupciones)"
+   ],
+   "entidades_implicadas": [
+    "MTC — SISMATE, RECSE y clasificación de elementos críticos",
+    "OSIPTEL — itinerancia, reportes e información pública",
+    "INDECI — simulacros, COEN",
+    "CENEPRED — zonas de riesgo",
+    "Concesionarios — planes de continuidad"
+   ],
+   "impacto_economico": "El respaldo energético en sitios rurales es caro (baterías de litio y paneles). Su gradualidad por zona de riesgo es correcta. La itinerancia de emergencia tiene costo marginal si se prepara antes del desastre."
+  }
+ },
+ {
+  "id": "ECO-01",
+  "especialidad": "derecho_tecnologico",
+  "veredicto": "observaciones",
+  "resumen": "La definición de startup, la apertura de la SACS a accionistas personas jurídicas y la validez expresa de los instrumentos convertibles son mejoras útiles y bien referenciadas en el derecho comparado. Dos puntos deben ajustarse: el silencio positivo para una calidad migratoria de residencia es riesgoso, y el art. 5 entra en tensión con el régimen de capital y de derecho de preferencia de la Ley General de Sociedades. Algunas soluciones ya existen en la LGS, como las clases de acciones.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 7",
+    "problema": "Otorgar por silencio positivo una residencia que habilita a trabajar contradice el criterio del art. 38 del TUO de la Ley 27444, que reserva el silencio negativo para procedimientos que afectan significativamente el interés público, incluida la seguridad nacional. También contradice el régimen del DL 1350, que exige verificar antecedentes y alertas migratorias. Una residencia ficta impediría ese control.",
+    "correccion": "Redactar: 'La Superintendencia Nacional de Migraciones resuelve la solicitud en un plazo no mayor de treinta días hábiles, mediante evaluación previa con silencio administrativo negativo. Durante el trámite, el solicitante que haya ingresado regularmente puede permanecer en el país y realizar las actividades de la empresa emergente con un permiso temporal de trabajo.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 5",
+    "problema": "Permite reservar acciones 'sin aumento de capital previo' y excluir el derecho de suscripción preferente por estatuto. La Ley General de Sociedades (Ley 26887) regula el aumento de capital, su delegación al directorio (art. 206) y el derecho de preferencia (arts. 207 y 259 para la SAC). La SACS (DL 1409) no tiene directorio. Sin remisión expresa, el registrador de la SUNARP puede observar los acuerdos.",
+    "correccion": "Redactar: 'Por excepción a los artículos 207 y 259 de la Ley 26887, la junta general de la empresa emergente inscrita puede aprobar un plan de opciones sobre acciones y delegar en la gerencia la emisión de las acciones resultantes al ejercicio de cada opción, dentro del porcentaje máximo del capital fijado en el plan, sin derecho de suscripción preferente cuando así lo prevea el estatuto. Cada ejercicio se inscribe como aumento de capital.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 4 (segundo párrafo)",
+    "problema": "Las acciones de distintas clases con derechos políticos o económicos diferenciados ya están permitidas en el art. 88 de la Ley 26887, incluidas las acciones sin derecho a voto. La novedad no está ahí, sino en el voto plural, que la LGS no admite expresamente. Además, debe verificarse que el artículo modificado del DL 1409 sea el que regula los accionistas de la SACS.",
+    "correccion": "Redactar: 'Las SACS pueden crear clases de acciones conforme al artículo 88 de la Ley 26887 y, en el caso de las empresas emergentes inscritas, acciones con voto plural hasta un máximo de diez votos por acción, que se convierten en ordinarias al transferirse a terceros no fundadores.' Verificar en SPIJ la numeración del DL 1409 antes de presentar."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 8",
+    "problema": "La extinción en un solo acto no prevé publicidad ni oposición de los acreedores. La Ley 26887 (arts. 412 y ss.) protege a los acreedores mediante publicaciones y un balance final. Una declaración del socio de que 'no registra obligaciones' no basta, y puede facilitar fraudes.",
+    "correccion": "Agregar: 'La solicitud se publica en la plataforma de la SUNARP por quince días hábiles, durante los cuales cualquier acreedor puede oponerse. Los socios responden solidariamente, hasta por el monto del patrimonio distribuido, por las obligaciones no declaradas.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 6",
+    "problema": "Los instrumentos convertibles se validan sin precisar su naturaleza. Las 'obligaciones convertibles' ya existen en los arts. 304 y 316 de la Ley 26887, pero los acuerdos SAFE no son deuda. Sin calificación, se abren dudas tributarias y contables.",
+    "correccion": "Agregar: 'Los acuerdos de aporte de capital futuro no constituyen pasivo financiero ni obligación de reembolso, salvo pacto en contrario, y se registran como aporte pendiente de capitalización.'"
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "DL 1409, artículo sobre accionistas de la SACS (modifica)",
+    "Ley 26887, arts. 207 y 259 (excepción)",
+    "DL 1350, art. 29 (incorpora calidad migratoria)",
+    "Reglamento de Inscripciones del Registro de Sociedades de la SUNARP"
+   ],
+   "entidades_implicadas": [
+    "PRODUCE — registro de empresas emergentes",
+    "SUNARP — constitución, aumentos y cierre electrónico",
+    "MIGRACIONES — calidad de talento tecnológico",
+    "SUNAT — tratamiento de opciones (quinta categoría)",
+    "MEF — informe tributario",
+    "Ministerio del Interior — refrendo migratorio"
+   ],
+   "impacto_economico": "No tiene costo fiscal directo. El ahorro está en los costos notariales y de transformación societaria. El tratamiento tributario de las opciones, que se deriva al MEF, es la pieza que más influye en retener talento."
+  }
+ },
+ {
+  "id": "ECO-02",
+  "especialidad": "derecho_tecnologico",
+  "veredicto": "observaciones",
+  "resumen": "Dar continuidad al FCEI con reinversión de retornos y gobernanza independiente es razonable y no impone gasto. Falta precisar: quién designa el comité y cómo se coordina con COFIDE como empresa del FONAFE; la base legal del FCEI y la vigencia del DS 239-2021-EF como su reglamento, que deben verificarse; y que los límites de inversión de las AFP los fija el marco del SPP junto con el BCRP, no solo la SBS.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 5",
+    "problema": "El comité de inversiones 'seleccionado por concurso público' no tiene definido quién convoca, quién nombra ni quién puede removerlo. El fideicomitente es PRODUCE y el fiduciario COFIDE, sujeto a la gobernanza del FONAFE. Si no se precisa, el comité queda sin anclaje y se crea responsabilidad fiduciaria difusa.",
+    "correccion": "Redactar: 'El comité de inversiones está integrado por cinco miembros: un representante de PRODUCE, uno de COFIDE sin voto en conflictos, y tres expertos independientes seleccionados por concurso público de méritos convocado por COFIDE, designados por el fideicomitente por tres años renovables por una vez. El contrato de fideicomiso se adecúa a esta composición.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Disposición Complementaria Final Segunda",
+    "problema": "Encarga solo a la SBS evaluar los límites de inversión de las AFP en capital emprendedor. Esos límites los fija el TUO de la Ley del SPP (DS 054-97-EF), con su reforma por la Ley 32123, que también debe verificarse, y el BCRP establece el límite operativo para inversiones en el exterior, donde se domicilian varios de los fondos VC. Excluir al BCRP hace incompleto el informe.",
+    "correccion": "Redactar: 'La Superintendencia de Banca, Seguros y AFP, en coordinación con el Banco Central de Reserva del Perú en lo que corresponde a límites operativos, evalúa la pertinencia de los límites de inversión de los fondos de pensiones en fondos de capital emprendedor y publica un informe técnico...'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Normas relacionadas",
+    "problema": "Presenta el DS 239-2021-EF como reglamento del Título I del DU 013-2020, sin confirmar que corresponda al FCEI. Tampoco cita el instrumento por el cual se constituyó el fideicomiso.",
+    "correccion": "Verificar en SPIJ el decreto supremo que reglamenta el FCEI y el instrumento de constitución del fideicomiso, y citarlos con número exacto. Si no se puede verificar, indicar 'por verificar'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 6",
+    "problema": "Exigir condiciones pari passu en todos los casos impide los esquemas asimétricos (upside limitado para el Estado) que usó el modelo Yozma en Israel para atraer capital privado en mercados nacientes.",
+    "correccion": "Agregar: 'Excepcionalmente, el comité puede aprobar esquemas de distribución asimétrica a favor de inversionistas privados en fondos de etapa temprana, con tope de retorno para el FCEI y sustento técnico publicado.'"
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "DU 013-2020 (disposiciones del FCEI)",
+    "Reglamento del FCEI (por verificar número)",
+    "TUO Ley del SPP DS 054-97-EF / normas SBS de inversiones (vía informe)"
+   ],
+   "entidades_implicadas": [
+    "PRODUCE — fideicomitente",
+    "COFIDE — fiduciario",
+    "FONAFE — gobierno corporativo de COFIDE",
+    "SBS y BCRP — límites de inversión de las AFP",
+    "SMV — fondos de inversión locales (DL 862)",
+    "Contraloría — control"
+   ],
+   "impacto_economico": "Reinvertir los retornos preserva el capital. Los aportes nuevos dependen de la ley de presupuesto. El efecto multiplicador privado debe medirse ex post en la evaluación quinquenal."
+  }
+ },
+ {
+  "id": "ECO-03",
+  "especialidad": "derecho_tecnologico",
+  "veredicto": "observaciones",
+  "resumen": "Es un buen diagnóstico: el beneficio no llega a las empresas con pérdidas. Pero el arrastre propuesto se superpone con la compensación de pérdidas del art. 50 de la LIR, la nueva prórroga choca con la regla de la Norma VII del Código Tributario (prórroga por única vez y hasta tres años) y el art. 2 no identifica el artículo que modifica. Para startups, una opción de monetización (crédito reembolsable con tope) es más eficaz que un arrastre de cuatro años.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 2 y Disposición Complementaria Final Segunda",
+    "problema": "La Norma VII del Título Preliminar del TUO del Código Tributario (DS 133-2013-EF) dispone que los beneficios tributarios no excedan de tres años y que su prórroga se otorgue por única vez y hasta por tres años. Este beneficio ya fue prorrogado varias veces (la propia propuesta cita las Leyes 31659 y 32539). Otra prórroga choca con la regla, salvo que la ley la exceptúe expresamente y lo sustente el informe previo del MEF (art. 79 de la Constitución). Además, el art. 2 dice 'el artículo de la Ley 30309 que regula la vigencia' sin numerarlo, lo que no se ajusta a la técnica legislativa.",
+    "correccion": "Redactar el art. 2: 'Modifícase el artículo [número exacto según texto vigente] de la Ley 30309, conforme a la redacción dada por la Ley 32539, a fin de que la deducción adicional se aplique en los ejercicios gravables 2029, 2030 y 2031.' Agregar en la Segunda DCF: 'Para efectos del literal f) de la Norma VII del Título Preliminar del Código Tributario, la presente ley dispone de manera expresa la prórroga por tres ejercicios, sustentada en el informe del Ministerio de Economía y Finanzas.' Verificar el literal exacto de la Norma VII."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3",
+    "problema": "El arrastre por cuatro ejercicios de la deducción adicional no aplicada se superpone con la compensación de pérdidas tributarias del art. 50 de la Ley del Impuesto a la Renta (sistemas A y B). No queda claro si la deducción adicional incrementa la pérdida compensable o se arrastra por separado, lo que permite un doble aprovechamiento. Además, una startup que tiene pérdidas durante 5 a 8 años no llega a usar un arrastre de cuatro.",
+    "correccion": "Redactar: 'La deducción adicional que no pueda aplicarse por insuficiencia de renta neta no integra la pérdida tributaria compensable del artículo 50 de la Ley del Impuesto a la Renta y se arrastra de manera independiente por un máximo de seis ejercicios.' Evaluar como alternativa un crédito fiscal monetizable con tope anual para empresas de hasta 2,300 UIT, como el del art. 39.2 de la Ley 27/2014 del Impuesto sobre Sociedades de España, sujeto al informe del MEF."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 5",
+    "problema": "La calificación conjunta de proyectos en consorcio debe precisar cómo se acredita el gasto de cada participante. Los consorcios sin contabilidad independiente (art. 438 y ss. de la Ley 26887) atribuyen gastos a cada consorciado, y eso exige documentación.",
+    "correccion": "Agregar: 'La atribución del gasto a cada consorciado se sustenta conforme al artículo 65 de la Ley del Impuesto a la Renta y su reglamento sobre contratos de colaboración empresarial sin contabilidad independiente.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Referencias internacionales",
+    "problema": "La Ley 14/2011 de España regula el sistema de ciencia, pero el incentivo fiscal a la I+D+i está en la Ley 27/2014 del Impuesto sobre Sociedades (art. 35 y monetización del art. 39.2).",
+    "correccion": "Sustituir por 'España, Ley 27/2014, del Impuesto sobre Sociedades, arts. 35 y 39.2'."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 30309 (artículo de vigencia y nuevo artículo de arrastre)",
+    "Reglamento de la Ley 30309",
+    "TUO Ley del Impuesto a la Renta, art. 50 (precisión de no integración)"
+   ],
+   "entidades_implicadas": [
+    "CONCYTEC — calificación de proyectos",
+    "SUNAT — fiscalización y datos agregados",
+    "MEF — informe previo (art. 79) y evaluación del gasto tributario",
+    "PRODUCE — difusión a MYPE"
+   ],
+   "impacto_economico": "Es gasto tributario. El arrastre y la monetización elevan el costo fiscal en proporción al uso. El informe del MEF debe estimarlo con los datos de uso 2016-2025 de la SUNAT."
+  }
+ },
+ {
+  "id": "ECO-04",
+  "especialidad": "derecho_tecnologico",
+  "veredicto": "observaciones",
+  "resumen": "Está bien diseñada respecto del art. 79 de la Constitución: las metas son indicativas, hay un marcador presupuestal y una encuesta. Tiene dos problemas técnicos: mezcla 'I+D' (Manual de Frascati) con 'CTI' sin definirlos, lo que hará incomparables meta y marcador; y la meta de 0,5 % al 2031, desde 0,19 % en 2024, no es realista. El referente español correcto es la Ley 17/2022, que fijó una senda de financiamiento público.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículos 2 y 4",
+    "problema": "La meta se expresa como gasto en I+D (GERD) y el marcador presupuestal mide 'CTI', categoría más amplia que incluye innovación y servicios científicos. Sin definiciones metodológicas, el informe anual comparará magnitudes distintas.",
+    "correccion": "Agregar el art. 1-A: 'Para efectos de la presente ley, la inversión en I+D se mide conforme al Manual de Frascati de la OCDE y la innovación conforme al Manual de Oslo. El marcador presupuestal distingue el gasto en I+D del gasto en otras actividades de CTI.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 2",
+    "problema": "La meta de 0,5 % del PBI al 2031 supone multiplicar por 2,6 el gasto en I+D en unos cinco años. Ninguna economía comparable lo ha hecho en ese plazo. Una meta legal que se sabe inalcanzable le quita credibilidad a la senda.",
+    "correccion": "Redactar: '...no menor de 0,35 % del PBI al año 2031, 0,6 % al 2036 y 1 % al 2041', o bien fijar una meta de gasto público en I+D (por ejemplo, 0,25 % del PBI al 2031) que el Estado controla directamente, dejando la meta total como orientativa."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 3",
+    "problema": "El contenido del Marco Macroeconómico Multianual está regulado por el Decreto Legislativo 1276 (Marco de Responsabilidad y Transparencia Fiscal). Agregarle una sección sin modificar esa norma puede leerse como un mandato que no la vincula.",
+    "correccion": "Agregar: 'Incorpórase un literal en el artículo del Decreto Legislativo 1276 que regula el contenido del Marco Macroeconómico Multianual, referido a la senda indicativa de inversión pública en I+D.' Verificar el número del artículo."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Normas relacionadas / referencias internacionales",
+    "problema": "Cita un 'Decreto Legislativo 1727 que modifica la Ley 31250' que no pude verificar. La referencia a España (Ley 14/2011) es incompleta: la senda de financiamiento público la introdujo la Ley 17/2022, que la modificó.",
+    "correccion": "Verificar el DL 1727 en El Peruano o retirarlo. Citar 'España, Ley 17/2022, que modifica la Ley 14/2011 y establece una senda de financiación pública de I+D+I hasta el 1,25 % del PIB en 2030'."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "DL 1276 (contenido del MMM)",
+    "Clasificadores presupuestales del MEF (marcador CTI)",
+    "Política Nacional de CTI"
+   ],
+   "entidades_implicadas": [
+    "CONCYTEC — rector del SINACTI, encuesta e informe",
+    "MEF (DGPP, DGPMACDF) — marcador y MMM",
+    "INEI — encuesta de I+D",
+    "PRODUCE — promoción de la I+D privada",
+    "Universidades públicas — ejecutores"
+   ],
+   "impacto_economico": "No tiene gasto directo. La senda indicativa condiciona la programación futura. El marcador presupuestal es de bajo costo y alto valor para la transparencia."
+  }
+ },
+ {
+  "id": "ECO-05",
+  "especialidad": "derecho_tecnologico",
+  "veredicto": "observaciones",
+  "resumen": "Un régimen tipo Bayh-Dole es pertinente. Pero el proyecto debe articularse con la Decisión 486 de la CAN, que prevalece sobre la ley nacional y deja a cada país regular las invenciones laborales; con el DL 1075 y con el DL 822 (derechos morales irrenunciables sobre software y obras). Debe resolver el conflicto entre el acceso abierto obligatorio (Leyes 30035 y 30806) y la novedad que exige una patente. También choca con la dedicación exclusiva de los docentes en la Ley 30220.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 3 (omisión de relación con el acceso abierto)",
+    "problema": "Las Leyes 30035 y 30806 obligan a depositar en acceso abierto los resultados financiados con fondos públicos. Si un resultado patentable se publica antes de solicitar la patente, pierde la novedad (art. 16 de la Decisión 486). El periodo de gracia del art. 17 es de un año, pero no todas las oficinas extranjeras lo reconocen. Sin regla de embargo, el acceso abierto destruye el valor que la ley quiere proteger.",
+    "correccion": "Agregar el art. 3-A: 'Los resultados que la entidad titular identifique como potencialmente patentables quedan exceptuados temporalmente del depósito en acceso abierto previsto en la Ley 30035 y la Ley 30806 hasta la presentación de la solicitud de protección, por un plazo no mayor de doce meses desde su comunicación a la entidad financiadora; vencido el plazo, se depositan.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículos 2 y 3",
+    "problema": "Habla de 'derechos de propiedad intelectual' en general. Para el software, las bases de datos y las obras (DL 822 y Decisión 351), los derechos morales del autor son inalienables (art. 21 del DL 822), y la titularidad patrimonial en relación laboral se rige por el art. 16 del DL 822 'en la medida necesaria' para la actividad. Para invenciones, la Decisión 486 atribuye la patente al inventor y deja a la legislación nacional las invenciones bajo relación laboral (art. 23), que el DL 1075 regula. La remisión 'sin perjuicio de' es insuficiente.",
+    "correccion": "Redactar el art. 3: 'En el marco de lo dispuesto en el artículo 23 de la Decisión 486 y en las disposiciones del Decreto Legislativo 1075 sobre invenciones laborales, la entidad ejecutora es titular de los derechos patrimoniales de propiedad industrial sobre los resultados... Respecto de programas de ordenador, bases de datos y demás obras, la entidad es titular de los derechos patrimoniales conforme al artículo 16 del Decreto Legislativo 822, sin afectar los derechos morales de sus autores.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 7",
+    "problema": "Los docentes con dedicación exclusiva tienen a la universidad como única actividad ordinaria remunerada, según el régimen de dedicación de la Ley 30220. Además, el régimen de conflictos de intereses de la Ley 31564 y el Código de Ética de la Función Pública (Ley 27815) exigen reglas específicas. Una autorización sin excepción legal expresa no protege al docente.",
+    "correccion": "Redactar: 'Por excepción al régimen de dedicación exclusiva de la Ley 30220, los docentes e investigadores pueden participar como socios o asesores de empresas derivadas..., previa autorización, declaración jurada de intereses conforme a la Ley 31564 y registro público de la participación. Dicha participación no constituye incompatibilidad.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 4",
+    "problema": "La cesión de titularidad a la entidad financiadora por no explotar (equivalente al 'march-in' del 35 U.S.C. § 203) no define procedimiento ni causales objetivas.",
+    "correccion": "Agregar: 'La cesión procede previo requerimiento y plazo de subsanación de noventa días, mediante resolución motivada impugnable. Alternativamente, la financiadora puede exigir el otorgamiento de licencias a terceros en condiciones razonables.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 5",
+    "problema": "Un tercio mínimo de 'beneficios netos' es razonable, pero queda sin definir. También debe verificarse si la Ley 30220 o el DL 1075 ya fijan participaciones para el investigador, para no contradecirlas.",
+    "correccion": "Agregar: 'Se entienden por beneficios netos los ingresos por licencias, cesiones o participación en empresas derivadas, deducidos los costos de protección y transferencia.' Verificar en SPIJ las disposiciones de la Ley 30220 y del DL 1075 sobre participación del investigador."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 30035 y Ley 30806 (excepción de embargo para resultados patentables)",
+    "Ley 30220 (excepción a la dedicación exclusiva)",
+    "DL 1075 (régimen de invenciones laborales, articulación)",
+    "Bases de PROCIENCIA y ProInnóvate"
+   ],
+   "entidades_implicadas": [
+    "CONCYTEC/PROCIENCIA — financiadora y registro de oficinas de transferencia",
+    "PRODUCE/ProInnóvate — financiadora",
+    "INDECOPI (DIN y DDA) — protección y opinión",
+    "SUNEDU — supervisión de reglamentos universitarios",
+    "Universidades e institutos públicos de investigación — titulares"
+   ],
+   "impacto_economico": "No tiene gasto directo. Las tasas de patentes PCT y en el extranjero son altas, por lo que conviene que PROCIENCIA prevea líneas de cofinanciamiento de la protección en sus bases."
+  }
+ },
+ {
+  "id": "ECO-06",
+  "especialidad": "derecho_tecnologico",
+  "veredicto": "observaciones",
+  "resumen": "Es oportuna como base legal de la regulación de la SBS y respeta las competencias del BCRP. Le faltan cuatro elementos: (i) una excepción expresa al secreto bancario (art. 2.5 de la Constitución y art. 140 de la Ley 26702) para lo que se comparte con consentimiento; (ii) la prohibición del 'screen scraping' con credenciales cuando existan interfaces; (iii) reglas de responsabilidad ante operaciones no autorizadas iniciadas por terceros; y (iv) la articulación con las centrales de riesgo privadas (Ley 27489).",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 2 (omisión)",
+    "problema": "El secreto bancario tiene rango constitucional (art. 2.5) y está regulado en el art. 140 de la Ley 26702. Aunque el consentimiento del titular lo levanta, si la ley no lo dice expresamente las entidades seguirán alegando responsabilidad para negarse o exigir formalidades. Además, la SBS solo puede imponer obligaciones a quienes no supervisa si la ley lo habilita, y el art. 3.c lo hace solo a medias.",
+    "correccion": "Agregar el 2.2: 'La transmisión de datos efectuada en el Sistema con autorización del usuario conforme al presente artículo no constituye infracción del secreto bancario regulado en el artículo 140 de la Ley 26702 ni de la reserva de identidad.' Y el 3.2: 'Los proveedores de servicios basados en datos e iniciadores de pago que no sean empresas supervisadas quedan sujetos, por su inscripción en el registro, a la potestad reguladora, supervisora y sancionadora de la SBS en lo referido al Sistema.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 7 (omisión)",
+    "problema": "No regula el acceso mediante credenciales del usuario ('screen scraping'), una práctica riesgosa que el modelo PSD2 sustituyó por interfaces dedicadas con autenticación reforzada. Tampoco asigna la responsabilidad frente a pagos no autorizados iniciados por un tercero, que es una fuente central de litigios.",
+    "correccion": "Agregar el 7.2: 'Una vez disponibles las interfaces estandarizadas, se prohíbe a los participantes requerir al usuario sus credenciales de acceso de otras entidades.' Y el 7.3: 'Ante una operación de pago no autorizada iniciada a través de un iniciador de pagos, la entidad que administra la cuenta reembolsa al usuario y puede repetir contra el iniciador responsable, conforme al reglamento.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3",
+    "problema": "Omite las centrales privadas de información de riesgos (Ley 27489), que manejan datos crediticios y cuyo régimen de consentimiento y finalidad es distinto. Si no se articula, habrá dos circuitos de datos crediticios con reglas diferentes.",
+    "correccion": "Agregar el literal e): 'las centrales privadas de información de riesgos reguladas por la Ley 27489, en lo que resulte compatible con su régimen y conforme al calendario que fije la SBS.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 6",
+    "problema": "Un convenio con la ANPD no basta para evitar la doble sanción por un mismo hecho (non bis in idem, art. 248.11 del TUO de la Ley 27444).",
+    "correccion": "Agregar: 'La SBS sanciona los incumplimientos al régimen del Sistema y la Autoridad Nacional de Protección de Datos Personales los de la Ley 29733; ante un mismo hecho, sujeto y fundamento, se aplica el principio de non bis in idem.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Referencias internacionales",
+    "problema": "Las referencias a Chile (Ley 21.521) y a la PSD2 son correctas. Falta el modelo regional más avanzado, el Open Finance de Brasil (Resolución Conjunta 1/2020 del BCB y el CMN), y las propuestas europeas posteriores (PSD3/PSR y FIDA).",
+    "correccion": "Agregar 'Brasil, Resolución Conjunta n.º 1 de 2020 (BCB/CMN), Open Finance' y mencionar las propuestas de la Comisión Europea de 2023 (PSD3, Reglamento de Servicios de Pago y FIDA)."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 26702, art. 140 (excepción por consentimiento)",
+    "Ley 27489 (articulación de centrales de riesgo)",
+    "Reglamento de Finanzas Abiertas de la SBS (adecuación)"
+   ],
+   "entidades_implicadas": [
+    "SBS — rectora, registro y sanción",
+    "BCRP — iniciación de pagos y sistemas de pagos (Ley 29440)",
+    "ANPD (MINJUSDH) — protección de datos personales",
+    "INDECOPI — competencia en mercados de crédito y pagos",
+    "Centrales privadas de riesgo — participantes"
+   ],
+   "impacto_economico": "El costo de las interfaces lo asumen los participantes. La reciprocidad y la gradualidad reducen la carga de las entidades pequeñas. En la experiencia de Brasil, el beneficio mayor está en el crédito a MYPE basado en datos transaccionales."
+  }
+ },
+ {
+  "id": "ECO-07",
+  "especialidad": "derecho_tecnologico",
+  "veredicto": "observaciones",
+  "resumen": "La propuesta respeta la autonomía del BCRP y consolida su política de interoperabilidad. Hay tres problemas: atribuye al BCRP 'atribuciones constitucionales' sobre pagos, cuando su base es legal (Ley Orgánica y Ley 29440); el servicio de iniciación de pagos se superpone con el registro de iniciadores a cargo de la SBS que crea ECO-06, sin regla de deslinde; y las cláusulas de exclusividad son materia de libre competencia (INDECOPI, DL 1034), no solo de regulación de pagos.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 3 (en relación con ECO-06, art. 3.c)",
+    "problema": "Encarga al BCRP los requisitos para prestar el servicio de iniciación de pagos. Pero ECO-06 inscribe a los iniciadores de pago en un registro de la SBS con su potestad sancionadora. Si se aprueban ambas, un mismo proveedor queda sujeto a dos habilitaciones y a criterios potencialmente contradictorios.",
+    "correccion": "Redactar el art. 3: '...El Banco Central de Reserva del Perú establece los estándares técnicos, de seguridad y de acceso aplicables al servicio en su relación con los sistemas y acuerdos de pago. La habilitación, registro y supervisión de conducta de los iniciadores de pago corresponden a la Superintendencia de Banca, Seguros y AFP. Ambas entidades aprueban un procedimiento único de ingreso.' Armonizar con ECO-06."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 2 (último párrafo)",
+    "problema": "La frase 'en ejercicio de sus atribuciones constitucionales' es inexacta. El art. 84 de la Constitución asigna al BCRP regular la moneda y el crédito, administrar reservas y emitir billetes, pero su competencia sobre sistemas y servicios de pago proviene de la Ley 29440 y de su Ley Orgánica (Decreto Ley 26123). La cita equivocada puede llevar a discutir si el BCRP puede regular a proveedores no bancarios.",
+    "correccion": "Sustituir por: 'El Banco Central de Reserva del Perú desarrolla estos principios en ejercicio de las atribuciones que le confieren su Ley Orgánica y la presente ley, incluidas las relativas a proveedores no bancarios de servicios de pago.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 5",
+    "problema": "La exclusividad en la afiliación de comercios es una conducta que se evalúa bajo el Decreto Legislativo 1034, Ley de Represión de Conductas Anticompetitivas (INDECOPI). Una prohibición regulatoria absoluta, sin análisis de efectos, puede chocar con pactos procompetitivos, como los descuentos por volumen.",
+    "correccion": "Redactar: 'Se prohíben las cláusulas de exclusividad que impidan al comercio aceptar instrumentos de otros proveedores. Las penalidades por resolución anticipada no pueden exceder el costo no amortizado del equipamiento entregado. Lo anterior es sin perjuicio de la aplicación del Decreto Legislativo 1034 por el INDECOPI.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 4",
+    "problema": "No precisa si los comercios son consumidores protegidos. El Código de Protección y Defensa del Consumidor (art. IV.1.2) protege al microempresario en situación de asimetría informativa. Esa es la base para que el INDECOPI sancione la falta de información de comisiones a MYPE.",
+    "correccion": "Agregar: 'El incumplimiento de la obligación de información frente a microempresas es sancionable por el INDECOPI conforme al numeral 1.2 del artículo IV del Título Preliminar de la Ley 29571.'"
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 29440 (incorpora artículos)",
+    "Circular 0024-2022-BCRP (adecuación)",
+    "Reglamento de Finanzas Abiertas de la SBS (deslinde con iniciación de pagos)"
+   ],
+   "entidades_implicadas": [
+    "BCRP — estándares de interoperabilidad y acceso a sistemas de pago",
+    "SBS — habilitación y conducta de iniciadores (en coordinación con ECO-06)",
+    "INDECOPI — libre competencia (DL 1034) y protección de microempresarios"
+   ],
+   "impacto_economico": "Sin gasto público. Publicar comisiones comparables reduce los costos de búsqueda de las MYPE y presiona a la baja la tasa de descuento."
+  }
+ },
+ {
+  "id": "ECO-08",
+  "especialidad": "derecho_tecnologico",
+  "veredicto": "observaciones",
+  "resumen": "Es necesario ir más allá del régimen antilavado, y los referentes (MiCA, Lei 14.478 de Brasil) son adecuados. Hay cuatro fallas técnicas: (i) la exclusión de 'representaciones digitales de moneda de curso legal' es ambigua respecto de las stablecoins y del dinero electrónico; (ii) la exclusión de la masa concursal exige articular con la Ley General del Sistema Concursal; (iii) falta la 'regla de viaje' (Recomendación 16 del GAFI); y (iv) no hay mecanismo para hacer cumplir la ley a plataformas extranjeras que 'se dirigen' a usuarios peruanos.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 2",
+    "problema": "Excluye 'las representaciones digitales de moneda de curso legal'. Las stablecoins referenciadas al dólar (USDT, USDC), que son la mayoría del volumen en la región, podrían interpretarse como excluidas o incluidas, porque el dólar no es moneda de curso legal en el Perú pero sí lo es en su país de emisión. Tampoco menciona el dinero electrónico de la Ley 29985. MiCA regula expresamente los tokens referenciados a activos y los tokens de dinero electrónico.",
+    "correccion": "Redactar: 'Se excluyen el dinero electrónico regulado por la Ley 29985, las monedas digitales emitidas por bancos centrales y los valores mobiliarios. Se incluyen los activos virtuales que pretenden mantener un valor estable por referencia a una o varias monedas o activos (activos virtuales referenciados), respecto de los cuales la SBS puede establecer requisitos adicionales de reserva y redención para su oferta en el país.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 4",
+    "problema": "Declara que los activos de clientes 'no forman parte de su masa concursal' sin modificar ni remitir a la Ley 27809, Ley General del Sistema Concursal. Las autoridades concursales podrían entender que una ley sectorial no basta para excluir bienes de la masa. Además, la segregación no es verificable sin una auditoría de reservas.",
+    "correccion": "Redactar: 'Los activos virtuales y fondos de los clientes constituyen patrimonio separado, inembargable por acreedores del PSAV y excluido de la masa concursal para efectos de la Ley 27809. El PSAV acredita trimestralmente, mediante auditor independiente, la correspondencia entre los activos custodiados y las posiciones de sus clientes.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3 (omisión)",
+    "problema": "No incorpora la 'regla de viaje' (Recomendación 16 del GAFI, aplicada a activos virtuales por la Nota Interpretativa de la Recomendación 15), que exige transmitir la información del originante y del beneficiario en las transferencias entre PSAV. El Perú será evaluado por el GAFILAT en su cumplimiento.",
+    "correccion": "Agregar el 3.2: 'Los PSAV obtienen, conservan y transmiten la información del originante y del beneficiario de las transferencias de activos virtuales, conforme a las Recomendaciones 15 y 16 del GAFI y a la regulación de la SBS.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículos 1 y 3",
+    "problema": "La ley alcanza a PSAV que 'se dirigen a usuarios en el país', pero no prevé consecuencias para los extranjeros que no se inscriban. Sin un mecanismo de cumplimiento, la exigencia de domicilio o sucursal perjudica solo a los operadores locales, que quedan en desventaja competitiva.",
+    "correccion": "Agregar el 3.3: 'La SBS publica la relación de PSAV no inscritos que se dirigen a usuarios en el país y puede disponer que las empresas del sistema financiero y los proveedores de pagos se abstengan de procesar transferencias hacia ellos. La oferta publicitaria de PSAV no inscritos dirigida al público peruano constituye infracción sancionable por el INDECOPI.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 8",
+    "problema": "La coordinación con la SMV es correcta, pero falta un criterio de calificación legal. El TUO de la Ley del Mercado de Valores define el valor mobiliario por su emisión masiva y la transmisibilidad de derechos.",
+    "correccion": "Agregar: 'Se presume que tiene la calidad de valor mobiliario el activo virtual que otorga derechos de participación en utilidades, de crédito o de voto respecto de un emisor identificable.'"
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 27809, Ley General del Sistema Concursal (exclusión expresa)",
+    "Ley 26702 (incorporar a los PSAV en el ámbito de supervisión de conducta)",
+    "Ley 27693 / DS 006-2023-JUS (regla de viaje)"
+   ],
+   "entidades_implicadas": [
+    "SBS — registro, prudencial y conducta",
+    "UIF-Perú — prevención de LA/FT",
+    "SMV — tokens con naturaleza de valor",
+    "INDECOPI — publicidad (DL 1044) y consumo",
+    "BCRP — no curso legal, estabilidad",
+    "INDECOPI (concursal) — patrimonio separado"
+   ],
+   "impacto_economico": "El costo de cumplimiento (capital y auditoría de reservas) reducirá el número de operadores pequeños. Como contraparte, aumenta la bancarización de los PSAV y la protección de los usuarios en casos de quiebra."
+  }
+ },
+ {
+  "id": "ECO-09",
+  "especialidad": "derecho_tecnologico",
+  "veredicto": "observaciones",
+  "resumen": "Los ajustes de liquidez, con un tablón de anuncios y vehículos de propósito especial, son razonables y ya están probados en el Reglamento (UE) 2020/1503. Falta: definir la forma jurídica del vehículo y su exención de oferta pública; resolver que la SACS hoy no admite accionistas personas jurídicas, salvo que se apruebe ECO-01; y, en las plataformas de donación, prever los riesgos de lavado de activos. Los referentes españoles citados no regulan el crowdfunding.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 2",
+    "problema": "Deja la forma jurídica del 'vehículo de propósito especial' a la SMV. Si el vehículo es una sociedad que emite participaciones a decenas de inversionistas, puede configurar una oferta pública o un fondo de inversión no autorizado (Decreto Legislativo 862). Además, si el receptor es una SACS, el art. 4 del DL 1409 solo admite personas naturales como accionistas, por lo que el vehículo no podría ingresar.",
+    "correccion": "Redactar: 'Los vehículos pueden constituirse como patrimonios autónomos administrados por la sociedad administradora o como sociedades anónimas cerradas de objeto exclusivo; su constitución y la emisión de participaciones a los inversionistas del proyecto no constituyen oferta pública ni fondo de inversión, siempre que se sujeten a los límites del artículo 4.' Articular con ECO-01, art. 4, para permitir accionistas personas jurídicas en la SACS."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 6",
+    "problema": "Dejar sin regulador a las plataformas de donación y recompensa omite el riesgo de lavado de activos y de financiamiento del terrorismo (donaciones anónimas transfronterizas) que el GAFI identifica en el crowdfunding. La remisión al Código de Consumo solo alcanza a la modalidad de recompensa: la donación no es una relación de consumo.",
+    "correccion": "Agregar: 'Las plataformas de donación o recompensa que superen el umbral anual de recaudación que fije el reglamento de la Ley 27693 son sujetos obligados a informar a la UIF-Perú. La modalidad de recompensa se sujeta a la Ley 29571; la de donación, a las obligaciones de información del presente artículo, cuyo incumplimiento es sancionable por el INDECOPI como práctica comercial engañosa conforme al Decreto Legislativo 1044.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 3",
+    "problema": "La figura del 'tablón de anuncios' tiene un referente normativo preciso en el art. 25 del Reglamento (UE) 2020/1503, que prohíbe a la plataforma casar órdenes de forma centralizada y obliga a informar el precio de referencia.",
+    "correccion": "Agregar: '...la sociedad administradora no casa órdenes ni actúa como contraparte; informa a los usuarios el carácter no regulado del tablón, el último precio de referencia y que no existe garantía de liquidez.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Problema / Referencias internacionales",
+    "problema": "Cita la Ley 28/2022 de España (startups), que no regula plataformas de financiamiento participativo. El marco español es la Ley 5/2015, de fomento de la financiación empresarial, hoy desplazada por el Reglamento (UE) 2020/1503.",
+    "correccion": "Sustituir por 'Unión Europea, Reglamento (UE) 2020/1503 relativo a los proveedores europeos de servicios de financiación participativa para empresas' y 'España, Ley 5/2015 (título V)'."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "DU 013-2020, título de financiamiento participativo financiero",
+    "Resolución SMV 045-2021-SMV/02 (adecuación)",
+    "DL 1409, art. 4 (vía ECO-01)",
+    "Reglamento de la Ley 27693 (sujetos obligados)"
+   ],
+   "entidades_implicadas": [
+    "SMV — regulación y supervisión",
+    "SBS/UIF-Perú — prevención de LA/FT",
+    "INDECOPI — consumo y publicidad",
+    "PRODUCE — difusión a MIPYME"
+   ],
+   "impacto_economico": "Sin gasto público. Los vehículos de propósito especial reducen el costo de gobierno corporativo del receptor, y el tablón de anuncios mejora la liquidez, lo que puede reducir la prima exigida por los inversionistas."
+  }
+ },
+ {
+  "id": "ECO-10",
+  "especialidad": "derecho_tecnologico",
+  "veredicto": "observaciones",
+  "resumen": "Es una buena propuesta, alineada con el acervo europeo (desistimiento, patrones oscuros, cancelación sencilla, trazabilidad de vendedores). Hay que ajustar la técnica de incorporación al Código, con numeración y capítulo. Hay que regular el pago proporcional cuando el servicio se inició durante el plazo de desistimiento y la retención del reembolso hasta la devolución, y corregir el referente sobre patrones oscuros: el art. 25 de la DSA solo se aplica a plataformas en línea.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículos 2 a 8 / efecto_vigencia",
+    "problema": "Dice que 'incorpora un capítulo' en la Ley 29571, pero los artículos se redactan como normas autónomas, sin indicar el capítulo, la numeración (por ejemplo, 'artículo 47-A') ni su relación con los arts. 56 a 59 del Código sobre métodos comerciales agresivos o engañosos y el derecho de restitución. Eso no se ajusta al Manual de Técnica Legislativa y genera dudas sobre cuál norma prevalece.",
+    "correccion": "Reformular como: 'Incorpórase el Capítulo V-A \"Contratación a distancia y por medios electrónicos\" en el Título IV de la Ley 29571, con los artículos 65-A a 65-G...' (verificar la numeración disponible). Agregar en el art. 5 que las prácticas enumeradas se consideran métodos comerciales agresivos o engañosos para efectos del art. 58 del Código."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3",
+    "problema": "Para servicios, el plazo se cuenta desde la celebración del contrato, pero la ley no regula qué pasa si el servicio empezó a prestarse durante el plazo a pedido del consumidor. La Directiva 2011/83/UE (art. 14.3) exige en ese caso pagar la parte prestada. Tampoco permite al proveedor retener el reembolso hasta recibir el bien (art. 13.3). Sin estas reglas, el desistimiento facilita el abuso.",
+    "correccion": "Agregar: 'Si el consumidor solicitó expresamente el inicio del servicio durante el plazo de desistimiento, abona el importe proporcional a lo prestado hasta la comunicación del desistimiento. Tratándose de bienes, el proveedor puede retener el reembolso hasta recibir el bien o la prueba de su devolución. El reembolso se efectúa por el mismo medio de pago utilizado, salvo acuerdo distinto.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 7",
+    "problema": "La responsabilidad solidaria del operador del mercado en línea por 'omitir información' es razonable. Pero la segunda causal ('no adoptar medidas razonables' tras una notificación) debe definir el procedimiento de notificación y acción, como en el modelo del Reglamento (UE) 2022/2065, arts. 16 y 30 (trazabilidad de comerciantes). Si no, la exposición del intermediario se vuelve ilimitada y desincentiva a los marketplaces locales.",
+    "correccion": "Redactar: '...cuando, habiendo recibido una notificación suficientemente precisa y fundamentada sobre una infracción concreta, no retiren la oferta o suspendan al vendedor en un plazo de cinco días hábiles. Los operadores verifican, antes de permitir la venta, la identidad y el RUC del vendedor.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 4 literal c)",
+    "problema": "La excepción para contenidos digitales debe exigir no solo el consentimiento expreso, sino también que el consumidor reconozca que pierde el derecho de desistimiento (art. 16.m de la Directiva 2011/83/UE).",
+    "correccion": "Redactar: 'c) contenidos digitales sin soporte material cuya ejecución haya comenzado con el consentimiento previo y expreso del consumidor y con su conocimiento de que pierde el derecho de desistimiento;'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Referencias internacionales",
+    "problema": "El art. 25 del Reglamento (UE) 2022/2065 solo se aplica a plataformas en línea y excluye las prácticas ya cubiertas por la Directiva 2005/29/CE. El referente general para prohibir patrones oscuros a todo proveedor es esta última, interpretada por la Guía de la Comisión de 2021.",
+    "correccion": "Agregar 'Directiva 2005/29/CE sobre prácticas comerciales desleales' y precisar que el art. 25 de la DSA aplica a plataformas."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 29571 (incorpora capítulo sobre contratación a distancia; concordancia con arts. 56-59)",
+    "Reglamento del Libro de Reclamaciones (canal de desistimiento)"
+   ],
+   "entidades_implicadas": [
+    "INDECOPI — fiscalización y guías",
+    "SUNAT — verificación del RUC de vendedores",
+    "ANPD — consentimiento y cuentas obligatorias (Ley 29733)",
+    "PRODUCE — difusión a MYPE"
+   ],
+   "impacto_economico": "La logística inversa tiene costo para las MYPE. Cargar el costo de devolución al consumidor y fijar excepciones lo acota. Hay ahorro en reclamos y litigios."
+  }
+ },
+ {
+  "id": "ECO-11",
+  "especialidad": "derecho_tecnologico",
+  "veredicto": "observaciones_graves",
+  "resumen": "El enfoque de piso mínimo neutral frente a la calificación laboral es inteligente y atiende un vacío real. Pero el art. 5 deja al reglamento fijar la 'contribución adicional' a EsSalud, que es un tributo (aportación), lo que viola la reserva de ley del art. 74 de la Constitución. Además, la categoría de asegurado potestativo no funciona con aportes porcentuales. En lo tecnológico, falta articular la gestión algorítmica con el derecho a no ser objeto de decisiones automatizadas (art. 23 de la Ley 29733).",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 5",
+    "problema": "Las aportaciones a EsSalud son tributos de la especie contribución (Norma II del Título Preliminar del Código Tributario). Que el reglamento fije el porcentaje de retención y la 'contribución adicional de la plataforma' viola la reserva de ley tributaria del art. 74 de la Constitución, que exige fijar por ley la tasa o alícuota. Además, el seguro potestativo de EsSalud se contrata por planes con primas, no por aportes porcentuales, y la condición de asegurado regular requiere la categoría prevista en el art. 3 de la Ley 26790.",
+    "correccion": "Redactar: 'Incorpórase en el artículo 3 de la Ley 26790 la categoría de afiliado regular prestador de servicios mediante plataformas digitales. La aportación mensual es equivalente al 9 % de una base imponible constituida por los ingresos abonados por la plataforma, con una base mínima equivalente al [x] % de la Remuneración Mínima Vital; de ella, la plataforma asume [y] puntos porcentuales y retiene el saldo. La plataforma actúa como agente de retención.' Los porcentajes deben fijarse en la ley, previo estudio actuarial de EsSalud e informe del MEF."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículos 6 y 7",
+    "problema": "La transparencia sobre asignación, tarifa y evaluación, así como la revisión humana de las desactivaciones, se superponen con el art. 23 de la Ley 29733 y su reglamento (DS 016-2024-JUS), que reconocen el derecho a no ser objeto de decisiones basadas únicamente en tratamiento automatizado. Si no se articulan, habrá dos supervisores (SUNAFIL y ANPD) para el mismo hecho.",
+    "correccion": "Agregar al art. 7: 'Lo dispuesto se entiende como desarrollo del derecho previsto en el artículo 23 de la Ley 29733. La SUNAFIL supervisa su cumplimiento respecto de los prestadores, sin perjuicio de las competencias de la Autoridad Nacional de Protección de Datos Personales.' En el art. 6, precisar que las plataformas no pueden tratar datos sobre el estado emocional o psicológico ni sobre la actividad sindical de los prestadores, conforme al modelo del art. 7 de la Directiva (UE) 2024/2831."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 8 / efecto_vigencia",
+    "problema": "Para la modalidad de movilidad, no se articula con el régimen de transporte especial y taxi, que en Lima y Callao está a cargo de la ATU (Ley 30900) y en el resto del país de las municipalidades provinciales (Ley 27181). Un 'límite de tiempo de conexión continua' sin coordinación con las normas de jornada de conducción del transporte terrestre genera estándares inconsistentes.",
+    "correccion": "Agregar: 'Los límites de tiempo de conducción continua aplicables a la modalidad de movilidad no pueden ser menos exigentes que los establecidos en el Reglamento Nacional de Administración de Transporte. El registro del artículo 3 se interopera con los registros de la ATU y de las municipalidades provinciales.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Problema / Disposición Complementaria Final Segunda",
+    "problema": "Cita el 'Convenio 193 de la OIT' adoptado en junio de 2026. No pude verificar su número ni su texto definitivo en esta revisión.",
+    "correccion": "Verificar en NORMLEX (OIT) el número y el título oficial antes de citarlo. Si no se confirma, decir 'el instrumento sobre el trabajo decente en la economía de plataformas adoptado por la Conferencia Internacional del Trabajo en 2026'."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 26790, art. 3 (nueva categoría de afiliado) y art. 6 (aportes)",
+    "Ley 29733 / DS 016-2024-JUS (concordancia sobre decisiones automatizadas)",
+    "Reglamento Nacional de Administración de Transporte (concordancia)"
+   ],
+   "entidades_implicadas": [
+    "MTPE — registro y rectoría",
+    "SUNAFIL — fiscalización",
+    "EsSalud y SUNAT — afiliación y recaudación de aportaciones",
+    "ANPD — decisiones automatizadas",
+    "ATU y municipalidades provinciales — transporte",
+    "SBS — seguro de accidentes"
+   ],
+   "impacto_economico": "El costo recae en plataformas y prestadores. La base contributiva de EsSalud aumenta, pero sus prestaciones también. Se requiere estudio actuarial para fijar una tasa por ley sin generar déficit."
+  }
+ },
+ {
+  "id": "ECO-12",
+  "especialidad": "derecho_tecnologico",
+  "veredicto": "observaciones",
+  "resumen": "Una presunción de aprovechamiento en el extranjero para servicios digitales B2B es técnicamente sólida y coincide con la regla general de lugar de prestación de la UE. Hay que ajustar dos cosas: la presunción debe basarse en el concepto de establecimiento permanente del art. 14-A de la LIR y no solo en el origen del pago, que es fácil de manipular; y los plazos de devolución deben fijarse modificando el Reglamento de Notas de Crédito Negociables, no con un plazo legal paralelo. También hay que verificar si la inscripción en el Registro de Exportadores de Servicios ya es automática.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 2",
+    "problema": "La presunción se activa con dos requisitos: que el usuario no tenga establecimiento permanente y que la contraprestación 'se pague desde el exterior'. El segundo es fácil de manipular (pagos triangulados) y no prueba dónde se usa el servicio. El primero debe remitir a la definición legal de establecimiento permanente del art. 14-A de la Ley del Impuesto a la Renta (incorporado por el DL 1424). Además, si el servicio lo usa una subsidiaria o sucursal peruana del cliente, la presunción no debería aplicarse.",
+    "correccion": "Redactar: '...se presume, salvo prueba en contrario, que el uso, explotación o aprovechamiento tiene lugar en el extranjero cuando el usuario no domiciliado no tenga establecimiento permanente en el país conforme al artículo 14-A de la Ley del Impuesto a la Renta y el servicio no sea utilizado por una entidad domiciliada vinculada al usuario. La presunción se sustenta con el contrato o la orden de servicio y el comprobante de pago electrónico de exportación.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 4",
+    "problema": "Fija un plazo legal de 15 días hábiles para devolver el saldo a favor, pero el procedimiento está en el Reglamento de Notas de Crédito Negociables (DS 126-94-EF y modificatorias), que ya prevé plazos y garantías. Crear un plazo paralelo sin modificarlo genera conflicto, y la 'verificación posterior' sin garantía expone al fisco a fraudes con exportaciones ficticias, un riesgo documentado en el IGV.",
+    "correccion": "Redactar: 'Modifícase el Reglamento de Notas de Crédito Negociables en el sentido de que las solicitudes de exportadores de servicios con ingresos de hasta 1,700 UIT, comprobantes electrónicos y sin deuda exigible se resuelvan en quince días hábiles, con verificación posterior, siempre que el monto no supere el límite que fije el reglamento o se otorgue garantía.' Incluir en el informe del MEF el costo financiero."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 3",
+    "problema": "La inscripción en el Registro de Exportadores de Servicios ya se hace en línea mediante Clave SOL según la normativa de la SUNAT. Hay que verificar si ya es automática; si lo es, el artículo duplica lo vigente.",
+    "correccion": "Verificar la resolución de superintendencia vigente. Si la inscripción ya es automática, suprimir el art. 3 o reformularlo como 'la inscripción surte efectos desde la fecha de solicitud, incluso respecto de las operaciones del mismo período'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Referencias internacionales",
+    "problema": "La Ley 27.506 de Argentina es un régimen de beneficios tributarios, no una regla de localización del IVA. El referente técnico pertinente para la presunción es la regla general de lugar de prestación B2B.",
+    "correccion": "Agregar 'Unión Europea, Directiva 2006/112/CE, art. 44 (lugar de prestación de servicios entre empresarios: sede del destinatario)' y las Directrices Internacionales sobre IVA de la OCDE (2017)."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "TUO Ley del IGV e ISC DS 055-99-EF, art. 33",
+    "Reglamento de la Ley del IGV (sustento documental)",
+    "Reglamento de Notas de Crédito Negociables DS 126-94-EF"
+   ],
+   "entidades_implicadas": [
+    "MEF — informe previo (art. 79) y reglamento",
+    "SUNAT — registro, comprobantes y devoluciones",
+    "PROMPERÚ — estadísticas y promoción",
+    "Tribunal Fiscal — uniformidad de criterios"
+   ],
+   "impacto_economico": "No es una exoneración, pero tiene efecto recaudatorio si la presunción reclasifica servicios hoy gravados. La devolución anticipada tiene costo financiero acotado. A cambio, mejora la liquidez de las MIPYME exportadoras."
+  }
+ },
+ {
+  "id": "ECO-13",
+  "especialidad": "derecho_tecnologico",
+  "veredicto": "observaciones",
+  "resumen": "Está bien concebida: un registro con compromisos verificables, sin beneficios tributarios automáticos y con remisión expresa a la Norma VII. Pero el registro de empresas de la economía del conocimiento se superpone con el registro de empresas emergentes de ECO-01 (ambos en PRODUCE). Además, la cesión gratuita de inmuebles estatales a operadores privados de parques debe sujetarse al régimen del Sistema Nacional de Bienes Estatales (TUO de la Ley 29151) y no al de Abastecimiento.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 6",
+    "problema": "Remite a la 'normativa del Sistema Nacional de Abastecimiento' para disponer de inmuebles. Los predios estatales se rigen por el TUO de la Ley 29151 (DS 019-2019-VIVIENDA) y su reglamento, con rectoría de la SBN. Ese régimen restringe la cesión en uso gratuita a favor de particulares y exige proyectos sin fines de lucro y plazos determinados. La cesión gratuita a un operador con fines de lucro puede ser observada como un acto de disposición indebida.",
+    "correccion": "Redactar: '...conforme al Texto Único Ordenado de la Ley 29151, Ley General del Sistema Nacional de Bienes Estatales, y su reglamento. La cesión en uso a título gratuito solo procede a favor de entidades gestoras sin fines de lucro; cuando la entidad gestora tenga fines de lucro, el derecho de superficie u otra modalidad se otorga a título oneroso a valor comercial, sin perjuicio de contraprestaciones en especie relacionadas con la finalidad del parque.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3 (en relación con ECO-01, art. 3)",
+    "problema": "Crea un segundo registro empresarial en PRODUCE, con requisitos distintos al registro de empresas emergentes de ECO-01. Una startup de software podría tener que inscribirse en dos registros para acceder a instrumentos distintos.",
+    "correccion": "Agregar: 'El Registro de Empresas de la Economía del Conocimiento y el Registro Nacional de Empresas Emergentes de Base Tecnológica se gestionan en una plataforma única del Ministerio de la Producción, con secciones diferenciadas y datos compartidos con la SUNAT y la SUNARP.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 3",
+    "problema": "Exigir que el 70 % de la facturación provenga de actividades del conocimiento excluye a las startups sin facturación (preingresos) y a las unidades de I+D de empresas diversificadas. El régimen argentino (Ley 27.506, modificada por la Ley 27.570) admite porcentajes menores para micro y pequeñas empresas y para empresas nuevas.",
+    "correccion": "Agregar: 'Las empresas con menos de tres años de actividad o sin facturación pueden inscribirse acreditando que su objeto social y su plan de negocio corresponden a actividades del artículo 2.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 2",
+    "problema": "La enumeración incluye 'industria aeroespacial y satelital', que tendría su propio régimen si se aprueba CON-08. Hay que verificar la concordancia para evitar dos registros sobre la misma actividad.",
+    "correccion": "Agregar 'sin perjuicio de la autorización que corresponda conforme a la legislación de actividades espaciales'."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "TUO Ley 29151 (concordancia para cesiones a parques)",
+    "Ley 30078 (concordancia de reconocimiento)"
+   ],
+   "entidades_implicadas": [
+    "PRODUCE — registro y reconocimiento de parques",
+    "CONCYTEC — opinión técnica",
+    "SBN — régimen de inmuebles estatales",
+    "Universidades públicas y gobiernos regionales — titulares de inmuebles",
+    "PROINVERSIÓN y MEF — APP y obras por impuestos"
+   ],
+   "impacto_economico": "Sin gasto directo. El valor del registro está en focalizar los fondos existentes. Una cesión gratuita mal regulada implicaría un subsidio implícito no cuantificado."
+  }
+ },
+ {
+  "id": "ECO-14",
+  "especialidad": "derecho_tecnologico",
+  "veredicto": "observaciones_graves",
+  "resumen": "Usar la facturación electrónica para hacer cumplir la Ley 31362 es una buena idea técnica. Pero publicar indicadores 'por adquirente' con información de comprobantes que la SUNAT obtiene en su función tributaria afecta la reserva tributaria, que tiene protección constitucional (art. 2.5): la Constitución enumera taxativamente quiénes pueden levantarla. Además, la conformidad presunta y la anotación en cuenta de la factura negociable ya existen desde las modificaciones del DU 013-2020 a la Ley 29623.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 4",
+    "problema": "La reserva tributaria está garantizada en el art. 2.5 de la Constitución, que solo permite levantarla a pedido del juez, del Fiscal de la Nación o de una comisión investigadora del Congreso. El Tribunal Constitucional la ha entendido como protección de la información sobre la situación económica del contribuyente. Publicar el plazo promedio de pago de cada gran contribuyente identificado, construido con sus comprobantes, es una divulgación individualizada. Una excepción legal al art. 85 del Código Tributario no puede ampliar las causales constitucionales, y la norma quedaría expuesta a una demanda de inconstitucionalidad.",
+    "correccion": "Sustituir el art. 4 por: 'Las empresas que sean principales contribuyentes y las entidades públicas publican en su portal institucional y en su memoria anual el período medio de pago a proveedores MYPE y el porcentaje de facturas pagadas dentro de los treinta días, conforme a la metodología que apruebe el Ministerio de la Producción. La SUNAT publica únicamente indicadores agregados por sector y tamaño, sin identificar contribuyentes.' Tomar como referente la obligación de informar el período medio de pago en la memoria anual de la Ley española 15/2010, modificada por la Ley 18/2022."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículos 2 y 7",
+    "problema": "La conformidad presunta de la factura negociable (Ley 29623) y su anotación en cuenta ante una ICLV ya están reguladas desde las modificaciones del Decreto de Urgencia 013-2020 y la normativa de la SUNAT sobre el registro de la factura negociable. El art. 2 extiende la presunción 'para efectos de la referida ley', es decir, repite lo vigente, y el art. 7 elimina 'requisitos documentarios adicionales' que no identifica.",
+    "correccion": "Antes de presentar el proyecto, verificar en SPIJ la redacción vigente de los arts. 3, 6 y 7 de la Ley 29623. Reformular el art. 2 para que lo nuevo sea solo la obligación del adquirente de registrar expresamente la conformidad o disconformidad, con causal tipificada, en el sistema de la SUNAT, y que la falta de registro tenga además efecto en el cómputo del plazo de la Ley 31362. Suprimir el art. 7 si no agrega nada."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 5",
+    "problema": "La 'constancia electrónica que acredita el vencimiento' solo prueba que no hay registro de pago en la SUNAT, no que la factura esté impaga. Si se usa para negociar la factura o cobrar intereses, puede inducir a error a terceros.",
+    "correccion": "Redactar: '...una constancia electrónica que acredita la fecha de emisión, la conformidad y la ausencia de registro de pago, la cual no constituye prueba plena de la falta de pago.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Antecedentes",
+    "problema": "Menciona un dictamen modificatorio de la Ley 31362 vinculado al PL 286/2021-CR sin confirmar si se convirtió en ley.",
+    "correccion": "Verificar en SPLEY y en El Peruano si la Ley 31362 fue modificada después de 2022 y ajustar el texto."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 31362 (vinculación con conformidad electrónica)",
+    "Ley 29623 (solo si se agrega algo distinto a lo vigente)",
+    "Ley General de Sociedades / normas de memoria anual (período medio de pago)"
+   ],
+   "entidades_implicadas": [
+    "SUNAT — sistema de conformidad y registro de pago",
+    "PRODUCE — metodología e indicadores",
+    "MEF (SIAF) — pagos de entidades públicas",
+    "SMV — memorias de emisores",
+    "CAVALI (ICLV) — anotación en cuenta",
+    "INDECOPI — abuso en pactos de plazo"
+   ],
+   "impacto_economico": "Sin gasto relevante. Que el gran comprador publique su propio indicador logra el efecto reputacional sin el riesgo constitucional. El factoring con facturas verificables reduce el costo de financiamiento de las MYPE."
+  }
+ },
+ {
+  "id": "TAL-01",
+  "especialidad": "derecho_tecnologico",
+  "veredicto": "observaciones",
+  "resumen": "Es técnicamente sólida: tiene definiciones correctas, privilegia estrategias desconectadas y es neutral en cuanto a herramientas. Le faltan tres cosas: imponer 'lineamientos' a los planes de estudio de las facultades de educación vulnera la autonomía universitaria (art. 18 de la Constitución); la remisión a la carrera magisterial debe hacerse a la Ley 29944; y falta una salvaguarda para el uso de herramientas de IA con datos de menores en el aula.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 7",
+    "problema": "Ordena a las facultades de educación incorporar contenidos 'conforme a los lineamientos que apruebe el Ministerio de Educación'. Las universidades tienen autonomía académica (art. 18 de la Constitución y art. 8 de la Ley 30220), y su supervisión corresponde a la SUNEDU solo en las condiciones básicas de calidad. Las escuelas de educación superior pedagógica, en cambio, sí están bajo la rectoría del MINEDU (Ley 30512).",
+    "correccion": "Redactar: 'Las escuelas de educación superior pedagógica incorporan en sus planes de estudio contenidos de pensamiento computacional y alfabetización en inteligencia artificial, conforme a los lineamientos que apruebe el Ministerio de Educación en el marco de la Ley 30512. Las universidades que ofrecen programas de educación los incorporan en ejercicio de su autonomía académica; el Ministerio de Educación pone a su disposición marcos de referencia.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 5 (omisión)",
+    "problema": "Promueve el uso de IA en la escuela, pero no regula los datos de estudiantes menores que se ingresan en herramientas de terceros. Según la Ley 29733 y su reglamento (DS 016-2024-JUS), los datos de menores de 14 años requieren el consentimiento de sus padres o tutores, y los proveedores pueden usar esos datos para entrenar modelos.",
+    "correccion": "Agregar el 5.2: 'Las herramientas de inteligencia artificial que se empleen en instituciones educativas públicas cumplen los requisitos de privacidad que apruebe el Ministerio de Educación con opinión de la Autoridad Nacional de Protección de Datos Personales; se prohíbe que los datos de los estudiantes sean utilizados por los proveedores para entrenar modelos o para fines publicitarios.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 6.3",
+    "problema": "Los méritos y las evaluaciones de la carrera pública magisterial se rigen por la Ley 29944, Ley de Reforma Magisterial, y su reglamento. La frase 'conforme a la normativa de la materia' es imprecisa.",
+    "correccion": "Sustituir por: 'conforme a la Ley 29944, Ley de Reforma Magisterial, y su reglamento.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 8",
+    "problema": "Habla de 'licencias abiertas' sin precisarlas. Bajo el DL 822, si no hay licencia expresa, rigen todos los derechos reservados.",
+    "correccion": "Redactar: '...se publican bajo licencia Creative Commons Atribución 4.0 (CC BY 4.0) u otra equivalente que permita su adaptación y redistribución...'"
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Currículo Nacional de la Educación Básica (RM 281-2016-MINEDU y modificatorias)",
+    "Lineamientos de formación inicial docente (Ley 30512)"
+   ],
+   "entidades_implicadas": [
+    "MINEDU — currículo, formación en servicio y evaluación",
+    "Gobiernos regionales (DRE/UGEL) — implementación",
+    "SUNEDU — sin rol curricular (autonomía universitaria)",
+    "ANPD — privacidad de herramientas de IA en el aula",
+    "PCM/SGTD — articulación con la Ley 31814"
+   ],
+   "impacto_economico": "Las estrategias desconectadas reducen la necesidad de equipos. El costo principal es la formación de unos 400 mil docentes, que debe programarse de forma multianual."
+  }
+ },
+ {
+  "id": "TAL-02",
+  "especialidad": "derecho_tecnologico",
+  "veredicto": "observaciones",
+  "resumen": "Es pertinente y está bien enfocada en evitar fraudes y en mantener canales asistidos. Pero no menciona que el art. 23 de la Ley 29904 ya ordena promover la alfabetización digital. Además, 'crear' por ley un programa nacional suele ser observado como iniciativa de gasto. Es preferible ordenar una línea de intervención dentro de los programas existentes.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3.1",
+    "problema": "'Créase el Programa Nacional...' en dos ministerios. Los programas se crean por decreto supremo (art. 38 de la Ley 29158) y el Congreso no tiene iniciativa de gasto (art. 79 de la Constitución). Que la creación no 'demande recursos adicionales' no es creíble para un programa nacional presencial. Además, un programa con dos titulares diluye la responsabilidad.",
+    "correccion": "Redactar: 'El Ministerio de la Mujer y Poblaciones Vulnerables y el Ministerio de la Producción, en el marco de sus programas y servicios existentes, implementan una línea de intervención de alfabetización digital inclusiva dirigida, respectivamente, a personas adultas mayores y a conductores y trabajadores de la MYPE, bajo la coordinación técnica de la Secretaría de Gobierno y Transformación Digital de la PCM.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Problema / efecto_vigencia",
+    "problema": "Omite el art. 23 de la Ley 29904, que ya establece una obligación de promover la alfabetización digital, y la Ley 31814. Afirmar que 'no existe un mandato' es inexacto: lo que falta es focalización y metas.",
+    "correccion": "En el problema: 'El artículo 23 de la Ley 29904 encarga al Estado promover la alfabetización digital, pero sin focalización ni metas para las personas adultas mayores y la MYPE.' En efecto_vigencia: 'Desarrolla el artículo 23 de la Ley 29904.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 7",
+    "problema": "El canal presencial o telefónico asistido es una buena salvaguarda, pero debe articularse con el régimen de canales del DL 1412 y su reglamento (DS 029-2021-PCM) y con la Plataforma Digital Única gob.pe. Además, debería alcanzar también a las personas con discapacidad (ver TAL-13).",
+    "correccion": "Redactar: '...mantienen un canal de atención presencial o telefónico asistido, conforme al Decreto Legislativo 1412 y su reglamento, que se extiende a personas con discapacidad y a quienes declaren no poder usar el canal digital.'"
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 29904, art. 23 (concordancia)",
+    "DS 029-2021-PCM (canal asistido)"
+   ],
+   "entidades_implicadas": [
+    "MIMP — personas adultas mayores, CIAM",
+    "PRODUCE — MYPE (Centros de Desarrollo Empresarial, Tu Empresa)",
+    "PCM/SGTD — coordinación técnica",
+    "SBS, PNP (DIVINDAT), INDECOPI — prevención de fraudes",
+    "Municipalidades — ejecución en CIAM",
+    "INEI — medición"
+   ],
+   "impacto_economico": "Usar los CIAM, las bibliotecas y el voluntariado reduce costos. El canal asistido tiene un costo operativo, pero evita la exclusión y los reclamos."
+  }
+ },
+ {
+  "id": "TAL-03",
+  "especialidad": "derecho_tecnologico",
+  "veredicto": "observaciones",
+  "resumen": "Es razonable priorizar el STEM y la retribución flexible. Pero el compromiso de servicio al país ya existe en las bases de las becas de posgrado del PRONABEC. Lo que añade valor es elevarlo a ley con modalidades remotas. Las referencias internacionales no corresponden (SkillsFuture es formación continua), y hay que verificar la vigencia de la Ley 28303 tras la Ley 31250.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 4",
+    "problema": "Las becas de posgrado en el extranjero del PRONABEC ya imponen, en sus bases y reglamentos, un compromiso de retorno y servicio al país. El problema omite este antecedente y el artículo duplica lo vigente, sin aclarar el régimen de cobro por incumplimiento (devolución de lo invertido).",
+    "correccion": "Reformular como incorporación en la Ley 29837: 'El compromiso de servicio al país de los becarios de posgrado en el extranjero puede cumplirse de manera presencial, remota o mixta... El incumplimiento genera la obligación de devolver el monto de la beca, con mérito ejecutivo.' Verificar en las bases vigentes del PRONABEC el régimen actual para no contradecirlo."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Normas relacionadas / Artículo 6",
+    "problema": "Cita la Ley 28303 (Ley Marco de CTI). La Ley 31250 (SINACTI) y su reglamento (DS 062-2024-PCM) reorganizaron el sistema, y no pude confirmar qué parte de la Ley 28303 sigue vigente.",
+    "correccion": "Citar como marco la Ley 31250 y verificar en SPIJ la vigencia de la Ley 28303 antes de mencionarla."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Referencias internacionales",
+    "problema": "SkillsFuture (Singapur) es formación continua de adultos, y la política chilena de género en CTCI no trata de becas ni de retorno. Ninguna sustenta el diseño.",
+    "correccion": "Sustituir por 'Chile, Becas Chile (ANID) y su régimen de retribución' y por un programa de repatriación de investigadores verificado (por ejemplo, convocatorias de repatriación de ANID o de la agencia mexicana de ciencia)."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 29837 (incorpora disposición sobre STEM y retribución)",
+    "Bases y reglamento de becas del PRONABEC"
+   ],
+   "entidades_implicadas": [
+    "MINEDU/PRONABEC — becas y seguimiento",
+    "CONCYTEC — áreas prioritarias, RENACYT y plataforma de la diáspora",
+    "MRE — vinculación con la diáspora",
+    "MTPE y PRODUCE — brechas de capital humano"
+   ],
+   "impacto_economico": "Reasignar becas hacia el STEM no genera gasto neto. La retribución remota mejora la tasa de cumplimiento frente a exigir solo retorno físico."
+  }
+ },
+ {
+  "id": "TAL-04",
+  "especialidad": "derecho_tecnologico",
+  "veredicto": "observaciones",
+  "resumen": "Una certificación modular voluntaria, con transparencia de resultados, es una buena política y sigue la Recomendación europea sobre microcredenciales. Hay que corregir la terminología: en la Ley 28740 el SINEACE 'certifica competencias' de personas y 'acredita' programas, de modo que lo que aquí se propone es acreditar módulos. También hay que articular con los certificados modulares que la Ley 30512 ya prevé y remitir a los artículos del Código del Consumidor sobre servicios educativos.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 4",
+    "problema": "Llama 'certificación modular de calidad' a lo que en la Ley 28740 corresponde a la acreditación (evaluación de la calidad de programas o instituciones). La certificación del SINEACE recae sobre competencias de personas. La confusión de categorías obligará a una reinterpretación reglamentaria y puede impugnarse por exceder las funciones del SINEACE. Además, el SINEACE ha estado en proceso de reorganización, y hay que verificar su situación institucional actual.",
+    "correccion": "Redactar: '4.1 El SINEACE, o la entidad que haga sus veces, aprueba estándares para la acreditación voluntaria de módulos de formación tecnológica de corta duración... 4.3 Las personas que culminen módulos acreditados pueden además obtener la certificación de sus competencias conforme a la Ley 28740.' Verificar la situación del SINEACE antes de presentar el proyecto."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 5 / Disposición Complementaria Modificatoria",
+    "problema": "La Ley 30512 ya regula la estructura modular de los programas de estudio de los institutos y el otorgamiento de certificados modulares, además de la convalidación. La disposición incorporada es tan genérica ('pueden convalidar... conforme a la ley de la materia') que no aporta regla. Lo que se necesita es permitir convalidar formación impartida por entidades no educativas, como empresas o bootcamps.",
+    "correccion": "Redactar la disposición modificatoria: 'Los institutos y escuelas de educación superior pueden convalidar como unidades didácticas los módulos de formación tecnológica de corta duración acreditados conforme a la ley de la materia, aun cuando hayan sido impartidos por personas jurídicas que no son instituciones educativas, hasta un máximo del cuarenta por ciento de los créditos del programa de estudios.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 6.2",
+    "problema": "Remite al Código de Protección y Defensa del Consumidor en general. El Código tiene un capítulo específico sobre productos y servicios educativos (arts. 73 a 77) que obliga a informar sobre las condiciones del servicio.",
+    "correccion": "Sustituir por: '...se sujeta a los artículos 73 a 77 de la Ley 29571 y al Decreto Legislativo 1044, bajo competencia del INDECOPI.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 2",
+    "problema": "Restringe el alcance a 'tecnologías digitales'. Para ser neutral desde el punto de vista tecnológico, el diseño modular debería poder ampliarse a otras áreas técnicas (energía renovable, mecatrónica) sin una nueva ley.",
+    "correccion": "Agregar: 'El reglamento puede extender el régimen a otras familias de competencias técnicas priorizadas.'"
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 30512 (convalidación de módulos externos)",
+    "Normas de acreditación del SINEACE",
+    "Catálogo Nacional de la Oferta Formativa"
+   ],
+   "entidades_implicadas": [
+    "SINEACE — estándares y acreditación de módulos, certificación de competencias",
+    "MINEDU (DIGESUTPA) — convalidación y registro",
+    "PRONABEC — financiamiento",
+    "INDECOPI — publicidad de empleabilidad",
+    "MTPE — demanda laboral"
+   ],
+   "impacto_economico": "Lo financian las tasas de los solicitantes. La convalidación reduce el tiempo y el costo para obtener el título técnico."
+  }
+ },
+ {
+  "id": "TAL-05",
+  "especialidad": "derecho_tecnologico",
+  "veredicto": "observaciones",
+  "resumen": "Las medidas son razonables, de bajo costo y con buen enfoque de datos. Pero los protocolos contra el hostigamiento sexual en instituciones de educación superior ya son obligatorios por la Ley 27942 y su reglamento, así que el art. 5 los duplica en parte. Además, sustenta la propuesta en la Ley 28303, cuya vigencia tras la Ley 31250 debe verificarse.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 5",
+    "problema": "Las universidades e institutos ya deben tener mecanismos de prevención y sanción del hostigamiento sexual conforme a la Ley 27942 y su reglamento (DS 014-2019-MIMP), con supervisión de la SUNEDU y del MINEDU. Ordenar 'adoptar protocolos' sin modificar esa ley duplica la obligación. El aporte real está en los ámbitos de laboratorio, prácticas y campo.",
+    "correccion": "Redactar: 'Las universidades e institutos con programas STEM incorporan, en los mecanismos de prevención y atención del hostigamiento sexual previstos en la Ley 27942 y su reglamento, disposiciones específicas para laboratorios, prácticas preprofesionales y trabajo de campo, y reportan anualmente...'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Efecto_vigencia / normas relacionadas",
+    "problema": "Dice complementar la Ley 28303. El marco vigente del sistema de CTI es la Ley 31250 (SINACTI), y no pude confirmar qué parte de la Ley 28303 sigue vigente.",
+    "correccion": "Sustituir por 'Complementa la Ley 28983 y la Ley 31250', previa verificación en SPIJ."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 7",
+    "problema": "Que el CONCYTEC administre un 'observatorio' requiere datos de la SUNEDU y del MINEDU (SIBE/ESCALE), que ya publican matrícula por sexo. Sin un mandato de interoperabilidad, el reporte depende de convenios.",
+    "correccion": "Agregar: 'Las entidades mencionadas remiten al CONCYTEC la información desagregada por sexo a través de la Plataforma de Interoperabilidad del Estado, conforme al Decreto Legislativo 1412.'"
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Reglamento de la Ley 27942 (ámbitos STEM)",
+    "Bases de concursos de PROCIENCIA (criterios de equidad)"
+   ],
+   "entidades_implicadas": [
+    "CONCYTEC — mentoría y reporte",
+    "MINEDU — tutoría y materiales",
+    "MIMP — rectoría en igualdad",
+    "SUNEDU — supervisión en universidades",
+    "MTPE — reconocimiento a empleadores",
+    "INEI — estadísticas"
+   ],
+   "impacto_economico": "El costo es bajo. Ajustar plazos por maternidad en los concursos no tiene costo fiscal."
+  }
+ },
+ {
+  "id": "TAL-06",
+  "especialidad": "derecho_tecnologico",
+  "veredicto": "observaciones",
+  "resumen": "Es técnicamente bien orientada: HL7 FHIR, sincronización diferida, trazabilidad de accesos y portabilidad para el paciente. Hay que precisar las terminologías, porque SNOMED CT requiere licencia nacional y la CIE y LOINC son de uso libre. Hay que reconocer el sistema SIHCE del MINSA ya existente en lugar de crear una 'solución pública' nueva. Y hay que resolver la tensión entre plazos obligatorios para todos los subsistemas y la cláusula de 'sin recursos adicionales'.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 2 (art. 4-A.1)",
+    "problema": "'Terminologías clínicas reconocidas' es una referencia abierta. Su elección tiene efectos de costo y dependencia: SNOMED CT exige que el país sea miembro de SNOMED International o pague una licencia, mientras que la CIE-10/CIE-11 (OMS) y LOINC son de uso gratuito. Además, la interoperabilidad semántica requiere un servidor nacional de terminologías y perfiles FHIR nacionales (Implementation Guide).",
+    "correccion": "Redactar el 4-A.1: '...priorizando estándares abiertos internacionales como HL7 FHIR, para lo cual publica perfiles nacionales de implementación, y terminologías de uso libre o de licencia nacional, como la Clasificación Internacional de Enfermedades de la OMS y LOINC. La adopción de terminologías sujetas a licencia requiere análisis de costo-beneficio y la licencia nacional correspondiente.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 5",
+    "problema": "El MINSA ya desarrolló y pone a disposición el Sistema de Información de Historia Clínica Electrónica (SIHCE), usado en establecimientos del primer nivel. Ordenar una 'solución pública' sin reconocerlo puede generar un desarrollo paralelo. Además, 'de código abierto o de propiedad del Estado' debe concordar con la política de software público del DL 1412.",
+    "correccion": "Redactar: 'El Ministerio de Salud mantiene y evoluciona su Sistema de Información de Historia Clínica Electrónica, acreditado conforme al artículo 4-A, y lo publica como software público peruano conforme al Decreto Legislativo 1412, para su adopción gratuita por gobiernos regionales y demás entidades públicas.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículos 3 y 9",
+    "problema": "Fija plazos obligatorios de tres y cinco años para todos los subsistemas (MINSA, gobiernos regionales, EsSalud, sanidades y privados) y a la vez declara que no se demandarán recursos adicionales. En el primer nivel, la falta de equipos y conectividad hace imposible cumplir sin financiamiento, lo que vuelve el plazo inexigible o crea presión de gasto (art. 79).",
+    "correccion": "Agregar el 3.4: 'El Ministerio de Salud aprueba, con opinión del Ministerio de Economía y Finanzas, un plan multianual de implementación con costeo por subsistema; los plazos del primer nivel se computan desde la disponibilidad de conectividad conforme a la programación de la Red Nacional del Estado.' Vincular con CON-13."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 4",
+    "problema": "El derecho a descargar la información en formato estructurado debe precisar el estándar (por ejemplo, un resumen del paciente en FHIR International Patient Summary) para que la portabilidad sea útil.",
+    "correccion": "Agregar: '...en formato estructurado conforme al resumen internacional del paciente (IPS) de HL7 FHIR u otro que apruebe el Ministerio de Salud.'"
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 30024 (incorpora art. 4-A)",
+    "Reglamento de la Ley 30024",
+    "RM 164-2025/MINSA (directiva de acreditación, adecuación a FHIR)"
+   ],
+   "entidades_implicadas": [
+    "MINSA (OGTI) — rector, estándares, SIHCE, RENHICE",
+    "EsSalud — sistema propio, interoperabilidad",
+    "Gobiernos regionales — implementación",
+    "SUSALUD — supervisión de IPRESS privadas y mixtas",
+    "PCM/SGTD — Plataforma Nacional de Interoperabilidad, software público",
+    "ANPD — datos sensibles de salud",
+    "Sanidades FFAA/PNP — subsistemas"
+   ],
+   "impacto_economico": "El costo es medio y requiere costeo por subsistema. Un software público y la interoperabilidad evitan compras fragmentadas. Los beneficios en reducción de exámenes duplicados son significativos según la evidencia internacional."
+  }
+ },
+ {
+  "id": "TAL-07",
+  "especialidad": "derecho_tecnologico",
+  "veredicto": "observaciones",
+  "resumen": "Es oportuno elevar a ley la receta electrónica interoperable y la obligación de aceptarla. Cuatro ajustes: articular con la Ley 29459 (productos farmacéuticos) y su reglamento de dispensación; precisar la firma (Ley 27269); permitir validación sin conexión, porque muchas boticas rurales no tienen conectividad estable; y remitir los medicamentos controlados a su recetario especial.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 4",
+    "problema": "Obliga a verificar la autenticidad 'mediante el servicio de validación' en línea del MINSA. En zonas rurales, que son las que la ley quiere beneficiar, muchas boticas no tienen conectividad estable. Si la validación depende de una consulta en línea, la obligación no se puede cumplir justo donde más se necesita.",
+    "correccion": "Agregar: 'La receta electrónica incorpora un código QR con firma criptográfica verificable sin conexión; la verificación en línea se realiza cuando exista conectividad, y la dispensación se sincroniza de forma diferida para evitar su reutilización.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículos 2 y 4 / efecto_vigencia",
+    "problema": "No se articula con la Ley 29459, Ley de los Productos Farmacéuticos, Dispositivos Médicos y Productos Sanitarios, ni con su reglamento de establecimientos farmacéuticos, que regulan la dispensación y la receta. Tampoco con el art. 26 de la Ley 26842 (prescripción por Denominación Común Internacional). Si no se articula, las reglas de dispensación pueden quedar contradictorias.",
+    "correccion": "En efecto_vigencia: 'Complementa la Ley 29459 y su reglamento de establecimientos farmacéuticos.' Agregar al 2.1: '...y contiene los datos exigidos por el artículo 26 de la Ley 26842, incluida la Denominación Común Internacional.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 2.1",
+    "problema": "'Firma digital o mecanismo de autenticación equivalente' es ambiguo. La Ley 27269 distingue firma digital (con certificado de la IOFE) de firma electrónica simple, que tienen distinto valor probatorio.",
+    "correccion": "Redactar: '...con firma digital conforme a la Ley 27269 o firma electrónica emitida a través de un sistema acreditado que garantice la autenticación del prescriptor e integridad de la receta, conforme al reglamento.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 4 (último párrafo)",
+    "problema": "Los estupefacientes y psicotrópicos se prescriben en recetario especial según su reglamento (DS 023-2001-SA). Hay que dejar abierta la posibilidad de digitalizar ese recetario más adelante.",
+    "correccion": "Agregar: 'El Ministerio de Salud puede habilitar, mediante decreto supremo, la versión electrónica del recetario especial.'"
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 30421 (incorpora disposiciones sobre receta electrónica)",
+    "Reglamento de Establecimientos Farmacéuticos (Ley 29459)",
+    "RM 053-2021/MINSA y RM 968-2021/MINSA (elevación y ajuste)"
+   ],
+   "entidades_implicadas": [
+    "MINSA — sistema de validación y trama estándar",
+    "DIGEMID — supervisión de dispensación",
+    "SUSALUD — IPRESS",
+    "EsSalud y SIS — sistemas de prescripción",
+    "RENIEC/IOFE — firma digital",
+    "ANPD — datos de salud"
+   ],
+   "impacto_economico": "Moderado. La validación sin conexión evita costos de conectividad en boticas rurales, y la trazabilidad de antimicrobianos aporta un beneficio sanitario relevante."
+  }
+ },
+ {
+  "id": "TAL-08",
+  "especialidad": "derecho_tecnologico",
+  "veredicto": "observaciones",
+  "resumen": "Abrir los datos agroclimáticos tiene un alto valor y bajo costo, y el referente europeo de conjuntos de alto valor está bien citado. El art. 7, sin embargo, declara la 'titularidad' de los datos generados por productores, una categoría que el derecho peruano no reconoce. Los datos brutos no son objeto de propiedad intelectual (Decisión 351 y DL 822 protegen solo compilaciones originales). Debe reformularse como derecho de acceso y portabilidad, como en el Reglamento de Datos de la UE.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 7",
+    "problema": "'Los datos generados por productores... son de su titularidad' no tiene base en el régimen peruano. La Decisión 351 de la CAN, que prevalece sobre la ley nacional, y el DL 822 protegen las bases de datos solo como compilaciones por la originalidad de su selección o disposición, y el Perú no reconoce un derecho sui generis sobre los datos. Declarar una propiedad sobre datos crea un derecho real indeterminado que choca con la Ley 29733 cuando hay datos personales y puede ser inaplicable frente a contratos con proveedores extranjeros.",
+    "correccion": "Redactar: 'El productor agrario tiene derecho a acceder, sin costo, a los datos generados por los equipos y servicios digitales que utiliza en su actividad, en formato estructurado y legible por máquina, y a autorizar su transferencia a terceros. Son nulas las cláusulas que restrinjan este derecho o permitan al proveedor usar dichos datos en perjuicio del productor, conforme al modelo del Reglamento (UE) 2023/2854 (Reglamento de Datos).'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 4",
+    "problema": "Las excepciones deben remitir al régimen general del TUO de la Ley 27806 (arts. 15 a 17) para no crear un catálogo paralelo.",
+    "correccion": "Redactar: 'Solo se exceptúa la información comprendida en los artículos 15, 16 y 17 del TUO de la Ley 27806 y los datos personales protegidos por la Ley 29733.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Referencias internacionales / artículo 3",
+    "problema": "Para los datos meteorológicos, el referente específico es la Política Unificada de Datos de la Organización Meteorológica Mundial (Resolución 1, Cg-Ext(2021)), que obliga a intercambiar libremente los datos 'básicos'. El SENAMHI, como miembro de la OMM, ya está alineado con ella.",
+    "correccion": "Agregar 'OMM, Política Unificada para el Intercambio Internacional de Datos del Sistema Tierra (Res. 1, Cg-Ext 2021)' y precisar que se publican con licencia CC BY 4.0."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 24031 (SENAMHI) — gratuidad de datos de alto valor",
+    "TUPA del SENAMHI, ANA e INIA (supresión de cobros)",
+    "DS 029-2021-PCM (datos abiertos)"
+   ],
+   "entidades_implicadas": [
+    "SENAMHI, INIA, ANA, SENASA — productores de datos",
+    "MIDAGRI — extensión digital",
+    "PCM/SGTD — Plataforma Nacional de Datos Abiertos",
+    "Gobiernos regionales — extensión",
+    "INDECOPI — cláusulas abusivas en contratos agtech"
+   ],
+   "impacto_economico": "La pérdida de ingresos por venta de datos es marginal. Los beneficios en seguros paramétricos y en la reducción de pérdidas por heladas son altos."
+  }
+ },
+ {
+  "id": "TAL-09",
+  "especialidad": "derecho_tecnologico",
+  "veredicto": "observaciones",
+  "resumen": "El monitoreo en tiempo real con datos abiertos y la trazabilidad de minerales son pertinentes. Pero el art. 3 asigna al OEFA la determinación de los puntos de control, que corresponde a la autoridad que certifica el instrumento de gestión ambiental (SENACE o MINEM, Ley 27446). La trazabilidad debe articularse con los controles vigentes sobre comercialización de oro y bienes fiscalizados (DL 1107 y DL 1126, SUNAT) para no duplicar. Además, el referente europeo pertinente para el oro es el Reglamento (UE) 2017/821.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3.1 y Disposición Complementaria Final Tercera",
+    "problema": "Los puntos de monitoreo forman parte del instrumento de gestión ambiental aprobado por la autoridad certificadora (SENACE o MINEM) en el marco del SEIA (Ley 27446). El OEFA fiscaliza, pero no define el contenido del instrumento. Modificar instrumentos aprobados exige el procedimiento de modificación o el Informe Técnico Sustentatorio previsto en el reglamento del SEIA.",
+    "correccion": "Redactar el 3.1: '...en los puntos de control establecidos en sus instrumentos de gestión ambiental, priorizados por la autoridad ambiental competente con opinión del OEFA...' Redactar la Tercera DCF: 'La incorporación de estaciones automáticas en puntos ya aprobados se tramita mediante Informe Técnico Sustentatorio u otro procedimiento simplificado del Sistema Nacional de Evaluación de Impacto Ambiental.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 7",
+    "problema": "Crea un sistema de trazabilidad sin articularlo con los controles vigentes: el DL 1107 (control de productos mineros y maquinaria en la minería ilegal), el DL 1126 (insumos químicos y bienes fiscalizados, SUNAT), el Registro Integral de Formalización Minera (REINFO) y los registros de comercializadores de oro. Un sistema paralelo duplica las cargas y deja vacíos.",
+    "correccion": "Redactar el 7.1: 'El MINEM, en coordinación con la SUNAT, implementa un sistema de trazabilidad digital que integra la información del derecho minero, el REINFO, los registros previstos en el Decreto Legislativo 1107 y el Decreto Legislativo 1126 y las declaraciones aduaneras de exportación, mediante la Plataforma de Interoperabilidad del Estado, empezando por el oro.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 4",
+    "problema": "Publicar datos en tiempo real 'aún no validados' puede generar falsas alarmas y conflicto. Hay que fijar un protocolo de control de calidad automático (rangos, deriva de sensores) y una identificación clara de los datos crudos.",
+    "correccion": "Agregar: 'Los datos se publican con indicador de calidad automático y, tras su validación por el OEFA en el plazo que fije el reglamento, se marcan como validados; las alertas del artículo 5 se emiten sobre datos que superen los controles automáticos de calidad.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Referencias internacionales",
+    "problema": "El Reglamento (UE) 2023/1542 trata de baterías y la Ley de Materias Primas Fundamentales (Reglamento (UE) 2024/1252) no se refiere al oro. Para la trazabilidad del oro, que es el mineral más afectado por la minería ilegal en el Perú, el referente directo es el Reglamento (UE) 2017/821 sobre diligencia debida en estaño, tantalio, wolframio y oro.",
+    "correccion": "Agregar 'Unión Europea, Reglamento (UE) 2017/821 (minerales de zonas de conflicto, incluye oro)' y la 'Guía de Diligencia Debida de la OCDE para Cadenas de Suministro Responsables de Minerales'."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Reglamento de Protección y Gestión Ambiental minero (MINEM)",
+    "Reglamento del SEIA (Ley 27446) — ITS para estaciones automáticas",
+    "DL 1107 y DL 1126 (integración con trazabilidad)"
+   ],
+   "entidades_implicadas": [
+    "OEFA — especificaciones, recepción y publicación",
+    "SENACE / MINEM (DGAAM) — instrumentos de gestión ambiental",
+    "MINEM — trazabilidad",
+    "SUNAT — bienes fiscalizados y aduanas",
+    "ANA — calidad de agua",
+    "DIGESA/MINSA — alertas sanitarias",
+    "Gobiernos regionales — pequeña minería"
+   ],
+   "impacto_economico": "El costo de las estaciones es menor frente al conflicto evitado. La trazabilidad del oro mejora el acceso a mercados con diligencia debida y la recaudación."
+  }
+ },
+ {
+  "id": "TAL-10",
+  "especialidad": "derecho_tecnologico",
+  "veredicto": "observaciones",
+  "resumen": "Integrar las alertas multiamenaza, con protocolos, interoperabilidad y última milla, es pertinente, y la remisión al SISMATE (Ley 30472) es correcta. Tiene dos problemas técnicos. Exigir 'supervisión humana en la decisión de emisión' haría inoperante la alerta sísmica temprana, que se mide en segundos, y la de tsunami de campo cercano. Además, no se articula con la Red Nacional de Alerta Temprana (RNAT) ya existente en el SINAGERD ni adopta el estándar CAP para los mensajes.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 7 en concordancia con el artículo 4",
+    "problema": "Exige 'supervisión humana en la decisión de emisión' para todas las alertas apoyadas en tecnologías. En la alerta sísmica temprana el tiempo útil entre la detección de la onda P y la llegada de la onda S es de segundos, y en un tsunami de campo cercano en la costa peruana la primera ola puede llegar en minutos. Una decisión humana previa elimina ese tiempo útil y vuelve inútil el sistema. Los sistemas comparados (ShakeAlert en EE. UU., SASMEX en México) emiten automáticamente.",
+    "correccion": "Redactar: '...bajo supervisión humana en el diseño, validación y monitoreo de los sistemas. Las alertas de peligros con tiempos de anticipación inferiores al umbral que fije el reglamento, como la alerta sísmica temprana y la alerta de tsunami de campo cercano, pueden emitirse de forma automática conforme a protocolos preaprobados, con revisión humana posterior.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 2",
+    "problema": "Crea un 'Sistema Nacional de Alerta Temprana Multiamenaza' sin mencionar la Red Nacional de Alerta Temprana (RNAT), que ya funciona en el SINAGERD bajo lineamientos aprobados por la PCM y la coordinación del INDECI. Tampoco menciona los sistemas sectoriales ya operativos, como la alerta de tsunami de la DHN o los desarrollos de alerta sísmica del IGP. El resultado son dos estructuras con nombres distintos.",
+    "correccion": "Redactar el 2.1: 'La Red Nacional de Alerta Temprana del SINAGERD se constituye en el Sistema Nacional de Alerta Temprana Multiamenaza...' y verificar el instrumento vigente de la RNAT para citarlo."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículos 4 y 5",
+    "problema": "Los 'mensajes estandarizados' no se vinculan a un estándar técnico. El Protocolo Común de Alerta (CAP, Recomendación UIT-T X.1303) permite que un mismo mensaje se distribuya automáticamente por difusión celular, radio, televisión, sirenas y aplicaciones, y es la base de la iniciativa 'Alertas Tempranas para Todos'.",
+    "correccion": "Agregar al art. 4: 'Las alertas se emiten en el formato del Protocolo Común de Alerta (Recomendación UIT-T X.1303) y se registran en el registro de autoridades emisoras de la OMM.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 5",
+    "problema": "La difusión por radiodifusión no se ha impuesto como obligación a los concesionarios de radio y televisión. El TUO de la Ley de Radio y Televisión (Ley 28278) establece obligaciones de difusión en emergencias que deben articularse.",
+    "correccion": "Agregar: 'Los titulares de servicios de radiodifusión difunden las alertas conforme a la Ley 28278, Ley de Radio y Televisión, y su reglamento.'"
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Lineamientos de la RNAT (PCM)",
+    "Reglamento y anexo técnico del SISMATE (Ley 30472)",
+    "Reglamento de la Ley 28278 (difusión de alertas)"
+   ],
+   "entidades_implicadas": [
+    "PCM — rector del SINAGERD",
+    "INDECI y CENEPRED (MINDEF) — protocolos y última milla",
+    "IGP — alerta sísmica",
+    "DHN (Marina de Guerra) — alerta de tsunami",
+    "SENAMHI, INGEMMET, ANA — monitoreo",
+    "MTC — SISMATE y radiodifusión",
+    "Gobiernos regionales y locales — sistemas comunitarios"
+   ],
+   "impacto_economico": "Es una de las inversiones de adaptación más costo-efectivas. Los sistemas comunitarios de última milla tienen bajo costo unitario. La emisión automática para peligros rápidos es lo que más vidas salva."
+  }
+ },
+ {
+  "id": "TAL-11",
+  "especialidad": "derecho_tecnologico",
+  "veredicto": "observaciones",
+  "resumen": "Es una propuesta técnicamente sólida: estándares abiertos, pago abierto EMV sin contacto, GTFS/GTFS-Realtime, medio de pago anónimo y protección de los datos de viaje. Le faltan reglas sobre el acceso de autoridades a los datos de desplazamiento (geolocalización) y sobre plazos de conservación. También debe considerar que varios sistemas de recaudo están en contratos de concesión protegidos por el art. 62 de la Constitución, lo que exige incentivos de adecuación y no solo esperar a las renovaciones.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 4",
+    "problema": "No regula el plazo de conservación de los datos de viaje identificables ni el acceso de autoridades a ellos. Los historiales de validación permiten reconstruir los desplazamientos de una persona, que es información sensible para su intimidad (art. 2.7 de la Constitución). Sin regla, la policía o terceros pueden pedirlos sin control judicial.",
+    "correccion": "Agregar: '4.4 Los datos de viaje identificables se conservan por un plazo máximo de doce meses, salvo los necesarios para reclamos en trámite. 4.5 Su entrega a autoridades solo procede por mandato judicial o requerimiento fiscal en el marco de una investigación, conforme a ley.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 7",
+    "problema": "Esperar a la 'renovación, adenda o nueva contratación' puede postergar la interoperabilidad por décadas, porque algunos contratos de concesión de transporte masivo y recaudo tienen plazos largos y son contratos-ley (art. 62 de la Constitución). Hace falta una vía de adecuación negociada con compensación.",
+    "correccion": "Agregar: 'La ATU puede negociar adendas de adecuación con compensación económica conforme al Decreto Legislativo 1362, cuando el análisis costo-beneficio lo justifique, priorizando la aceptación de pagos sin contacto abiertos en los validadores existentes.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 2 (art. 6-A.2)",
+    "problema": "La aceptación de tarjetas bancarias sin contacto (EMV de lazo abierto) exige que el sistema cumpla los estándares de seguridad de la industria de pagos (PCI DSS) y se integre con los adquirentes regulados por el BCRP. La ley no aclara quién asume la tasa de descuento (MDR).",
+    "correccion": "Agregar el 6-A.4: 'La aceptación de medios de pago abiertos se sujeta a la regulación de sistemas de pagos del Banco Central de Reserva del Perú; las comisiones de adquirencia se consideran en el modelo económico del recaudo sin trasladarse como sobrecargo al usuario.'"
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 30900 (incorpora art. 6-A)",
+    "Reglamento de la Ley 30900",
+    "Contratos de concesión de recaudo (adendas)"
+   ],
+   "entidades_implicadas": [
+    "ATU — rectora del recaudo y datos abiertos",
+    "MTC — asistencia a otras ciudades",
+    "BCRP — medios de pago abiertos",
+    "ANPD — datos de viaje",
+    "Concesionarios de transporte y recaudo",
+    "Municipalidades provinciales — adopción voluntaria"
+   ],
+   "impacto_economico": "Los estándares abiertos reducen el costo de futuras compras por la competencia entre proveedores. Publicar datos GTFS cuesta poco y tiene alto valor. Las adendas compensadas tienen un costo que debe evaluarse caso por caso."
+  }
+ },
+ {
+  "id": "TAL-12",
+  "especialidad": "derecho_tecnologico",
+  "veredicto": "observaciones",
+  "resumen": "Un derecho a la reparación, coherente con la Directiva (UE) 2024/1799, es pertinente. Hay tres ajustes necesarios. Prohibir los bloqueos por software ('parts pairing') choca con la protección de medidas tecnológicas del DL 822, incorporada para cumplir el TLC Perú-EE. UU.; se necesita una excepción expresa dentro del margen del tratado. El índice de reparabilidad es un reglamento técnico que debe notificarse a la OMC y reconocer índices extranjeros equivalentes para no crear una barrera. Y la garantía debe remitir a los artículos precisos del Código.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 5",
+    "problema": "El bloqueo por software de repuestos suele implementarse como medida tecnológica de protección. El DL 822, modificado por la Ley 29316 para implementar el capítulo de propiedad intelectual del Acuerdo de Promoción Comercial Perú-EE. UU., sanciona la elusión de esas medidas con excepciones tasadas. Prohibir el bloqueo al fabricante no autoriza al taller a eludirlo, por lo que el derecho quedaría sin eficacia práctica. Cualquier nueva excepción debe respetar los márgenes del tratado.",
+    "correccion": "Agregar el 5.2: 'Constituye excepción a la prohibición de elusión de medidas tecnológicas prevista en el Decreto Legislativo 822 la elusión efectuada con el único fin de diagnosticar, mantener o reparar un aparato lícitamente adquirido, sin afectar la protección de las obras incorporadas, conforme a los supuestos permitidos por los tratados vigentes.' Pedir opinión del INDECOPI (DDA) y del MINCETUR sobre su compatibilidad con el APC."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3 literal d)",
+    "problema": "Un índice de reparabilidad obligatorio con metodología nacional es un reglamento técnico. Según el Acuerdo OTC de la OMC y la normativa andina, debe notificarse y sustentarse con análisis de impacto regulatorio. Una metodología peruana distinta a la europea obligaría a reetiquetar productos para un mercado pequeño, lo que encarece los precios.",
+    "correccion": "Redactar el literal d): 'd) un índice o clase de reparabilidad, conforme a la metodología que apruebe el Ministerio de la Producción, la cual reconoce como equivalentes los índices y clases de reparabilidad exigidos en la Unión Europea, incluido el Reglamento (UE) 2023/1670 para teléfonos móviles y tabletas, u otros que determine el reglamento.' Agregar que el reglamento se notifica a la OMC conforme al Acuerdo OTC."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 6",
+    "problema": "Remite de forma genérica al Código del Consumidor. La garantía legal está en los arts. 20 y 21 de la Ley 29571 y la idoneidad en los arts. 18 y 19.",
+    "correccion": "Redactar: '...no anula la garantía legal prevista en los artículos 20 y 21 de la Ley 29571 respecto de los componentes no intervenidos, salvo que el proveedor acredite que la falla fue causada por la reparación.'"
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "DL 822 (excepción a la prohibición de elusión de medidas tecnológicas para reparación)",
+    "Ley 29571 (información de reparabilidad)",
+    "DS 009-2019-MINAM (articulación)"
+   ],
+   "entidades_implicadas": [
+    "INDECOPI — consumo y derecho de autor (DDA)",
+    "PRODUCE — metodología del índice",
+    "MINAM / OEFA — RAEE",
+    "MINCETUR — compatibilidad con tratados y notificación OTC",
+    "MINEDU — formación técnica"
+   ],
+   "impacto_economico": "Los hogares ahorran al prolongar la vida útil de los equipos. El reconocimiento de índices extranjeros evita costos de reetiquetado. El empleo en talleres formales es un beneficio adicional."
+  }
+ },
+ {
+  "id": "TAL-13",
+  "especialidad": "derecho_tecnologico",
+  "veredicto": "observaciones",
+  "resumen": "Es necesaria y está bien enfocada en WCAG AA, la declaración de accesibilidad y las compras públicas. Cuatro ajustes: la remisión dinámica a la 'versión vigente' de un estándar privado extranjero afecta la seguridad jurídica; las WCAG no cubren los quioscos ni el hardware, para los que la referencia es la norma EN 301 549; existen lineamientos de accesibilidad web de la PCM que deben derogarse o articularse; y debe citarse la Ley 29535 sobre la lengua de señas peruana.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3",
+    "problema": "Remite a las WCAG 'en su versión vigente', un estándar privado del W3C que puede cambiar sin intervención del Estado peruano. Las obligaciones sancionables se actualizarían automáticamente, contra el principio de tipicidad (art. 248.4 del TUO de la Ley 27444). Además, las WCAG se aplican a contenido web y no cubren quioscos, cajeros ni terminales de autoatención.",
+    "correccion": "Redactar: 'Los sitios web, aplicaciones móviles y documentos digitales cumplen, como mínimo, el nivel AA de las WCAG 2.2 del W3C o la norma técnica peruana equivalente. Los quioscos y terminales de autoatención cumplen los requisitos de la norma europea EN 301 549 o la norma técnica peruana equivalente. La actualización de la versión exigible se aprueba por decreto supremo, con plazo de adecuación.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Problema / efecto_vigencia",
+    "problema": "Omite los lineamientos de accesibilidad para páginas web y aplicaciones móviles de las entidades públicas aprobados por la PCM (RM 126-2009-PCM) y las disposiciones de accesibilidad de la Ley 29973 y su reglamento (DS 002-2014-MIMP). Afirmar que 'no fija un estándar técnico' es inexacto: el estándar existe pero está desactualizado y no tiene plazos.",
+    "correccion": "Agregar en el problema la mención a los lineamientos de la PCM. En efecto_vigencia: 'Deja sin efecto, en lo que se oponga, los lineamientos de accesibilidad web aprobados por la Presidencia del Consejo de Ministros.' Verificar la vigencia de la RM 126-2009-PCM."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 4",
+    "problema": "Para la interpretación en lengua de señas peruana debe remitirse a la Ley 29535, que la reconoce oficialmente.",
+    "correccion": "Redactar: '...interpretación en lengua de señas peruana, conforme a la Ley 29535.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 6",
+    "problema": "Para las compras públicas, la referencia internacional es la EN 301 549 (requisitos de accesibilidad de productos y servicios TIC en contratación pública), que incluye las WCAG. Debe remitirse a la Ley 32069.",
+    "correccion": "Redactar: 'Las entidades incluyen requisitos de accesibilidad conforme a la norma EN 301 549 o su equivalente nacional en los requerimientos de contratación regulados por la Ley 32069, Ley General de Contrataciones Públicas.'"
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 29973 (concordancia; incorporar estándar digital)",
+    "RM 126-2009-PCM (sustitución, por verificar)",
+    "Ley 28530 (actualización)"
+   ],
+   "entidades_implicadas": [
+    "CONADIS (MIMP) — monitoreo y sanción",
+    "PCM/SGTD — estándar técnico y gob.pe",
+    "INACAL — normas técnicas peruanas (NTP-ISO/IEC 40500 y EN 301 549)",
+    "INDECOPI — consumo",
+    "SBS, OSIPTEL, SUNASS, OSINERGMIN, SUSALUD — supervisión sectorial",
+    "OECE — compras públicas"
+   ],
+   "impacto_economico": "Incorporar accesibilidad desde el diseño cuesta poco. Adaptar lo existente cuesta más, por eso los plazos diferenciados son correctos. Los beneficios alcanzan a más de 3 millones de personas y a los adultos mayores."
+  }
+ },
+ {
+  "id": "TAL-14",
+  "especialidad": "derecho_tecnologico",
+  "veredicto": "observaciones",
+  "resumen": "Complementar la Ley 32385 con competencias de ciudadanía digital es pertinente. Pero se superpone con TAL-01, porque ambas modifican el currículo en temas digitales y conviene integrarlas. La ruta de atención omite que las proposiciones sexuales a menores por medios tecnológicos son delito (Ley 30096) y deben denunciarse. Hay que verificar la numeración de la Ley 32385 antes de 'incorporar el artículo 6'.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 6",
+    "problema": "La ruta de atención trata el ciberacoso y el uso problemático de pantallas, pero omite que las proposiciones a menores con fines sexuales por medios tecnológicos (grooming) están tipificadas en el art. 5 de la Ley 30096, Ley de Delitos Informáticos. Esos casos exigen denuncia ante el Ministerio Público o la PNP y no solo un protocolo escolar. La difusión de imágenes íntimas también tiene tipificación penal.",
+    "correccion": "Agregar el 6.3: 'Los hechos que constituyan presuntos delitos previstos en la Ley 30096, Ley de Delitos Informáticos, o en el Código Penal, cometidos contra estudiantes por medios digitales, son comunicados por la dirección de la institución educativa al Ministerio Público o a la Policía Nacional del Perú, sin perjuicio de la aplicación de los protocolos de la Ley 29719.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3 (en relación con TAL-01, art. 5)",
+    "problema": "Los contenidos de privacidad, desinformación y contenidos sintéticos también figuran en TAL-01 (alfabetización en IA). Dos leyes que ordenan al MINEDU modificar el Currículo Nacional en las mismas materias generan duplicidad y riesgo de diseños incoherentes.",
+    "correccion": "Integrar ambas propuestas en una ley de competencias digitales en la Educación Básica, o agregar aquí: 'Los aprendizajes del presente artículo se articulan con los de alfabetización en inteligencia artificial en una única competencia digital del Currículo Nacional.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 4",
+    "problema": "Incorpora el 'artículo 6' a la Ley 32385 y el art. 8 cita su 'artículo 5'. Si la numeración de esa ley es distinta, la incorporación sería técnicamente defectuosa.",
+    "correccion": "Verificar el texto publicado de la Ley 32385 en El Peruano y ajustar la numeración (por ejemplo, 'artículo 6' o 'artículo 5-A')."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 5",
+    "problema": "Las guías sobre controles parentales deben considerar el régimen de consentimiento de los menores de la Ley 29733 y su reglamento (DS 016-2024-JUS), que exige el consentimiento de los padres para el tratamiento de datos de menores de 14 años en servicios digitales.",
+    "correccion": "Agregar: 'Las guías incluyen información sobre los derechos de las niñas, niños y adolescentes respecto de sus datos personales conforme a la Ley 29733 y su reglamento.'"
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 32385 (incorpora artículo de evaluación, previa verificación de numeración)",
+    "Reglamento de la Ley 29719 (conductas en entornos digitales)",
+    "Currículo Nacional (integrado con TAL-01)"
+   ],
+   "entidades_implicadas": [
+    "MINEDU — currículo, tutoría y evaluación",
+    "MINSA — salud mental comunitaria",
+    "Ministerio Público y PNP (DIVINDAT) — delitos informáticos contra menores",
+    "MIMP — protección de NNA",
+    "ANPD — datos de menores"
+   ],
+   "impacto_economico": "Bajo. La evaluación bienal tiene costo acotado y produce evidencia para ajustar la Ley 32385."
+  }
+ }
+]

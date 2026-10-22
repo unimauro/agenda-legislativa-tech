@@ -23,6 +23,8 @@ EJES = {
     "conect": ("Conectividad, telecom y espacio", "#f59e0b"),
     "econ": ("Economía digital, startups y CTI", "#10b981"),
     "talento": ("Talento, educación y tech sectorial", "#ec4899"),
+    "sober": ("Soberanía tecnológica e industria 4.0", "#b45309"),
+    "derechos": ("Justicia y derechos digitales", "#4f46e5"),
 }
 ORDEN_EJES = list(EJES)
 # Comisiones ordinarias 2021-2026 (como las redactaron los agentes) -> comisión legislativa de la Cámara de
@@ -50,8 +52,10 @@ A_DIPUTADOS = {
     "Defensa Nacional, Orden Interno, Desarrollo Alternativo y Lucha contra las Drogas": "Defensa Nacional y Orden Interno",
     "Agraria": "Desarrollo Agrario",
     "Energía y Minas": "Energía y Minas",
-    "Presupuesto y Cuenta General de la República": "Bicameral de Presupuesto y Cuenta General de la República",
+    "Presupuesto y Cuenta General de la República": "Economía, Banca, Finanzas e Inteligencia Financiera",
 }
+# Los nombres oficiales 2026-2031 se mapean a sí mismos (los editores ya los usan).
+A_DIPUTADOS.update({c: c for c in json.loads((ROOT / "data/contexto_legislativo.json").read_text())["comisiones_diputados"]})
 A_SENADO = {
     "Constitución, Reglamento y Relaciones Exteriores": "Constitución, Reglamento y Relaciones Exteriores",
     "Defensa Nacional y Orden Interno": "Defensa Nacional y Orden Interno",
@@ -101,9 +105,12 @@ def cargar():
     for eje in ORDEN_EJES:
         f = ROOT / f"data/propuestas/{eje}.json"
         if not f.exists():
-            errores.append(f"falta {f.name}")
             continue
-        for p in json.loads(f.read_text()):
+        lote = json.loads(f.read_text())
+        if not any(p.get("revision_atendida") for p in lote) and "--borradores" not in sys.argv:
+            print(f"ℹ️  {f.name}: borrador sin revisión especializada, no se publica (usar --borradores)")
+            continue
+        for p in lote:
             faltan = [k for k in REQ if not p.get(k)]
             if faltan:
                 errores.append(f"{p.get('id')}: faltan {faltan}")
@@ -161,23 +168,103 @@ def enlace(txt, url):
     return f'<a href="{e(url)}" target="_blank" rel="noopener">{e(txt)}</a>' if url else e(txt)
 
 
+ROL_INFO = {  # rol -> (etiqueta, icono, color)
+    "rectora": ("Dirige", "🧭", "#7c5cff"), "reglamentadora": ("Reglamenta", "📜", "#0ea5e9"),
+    "ejecutora": ("Ejecuta", "⚙️", "#10b981"), "supervisora": ("Supervisa", "🔍", "#f59e0b"),
+    "sancionadora": ("Sanciona", "⚖️", "#e5484d"), "financiadora": ("Financia", "💰", "#ca8a04"),
+    "regulada": ("Debe cumplir", "🏢", "#64748b"), "consultiva": ("Opina", "💬", "#06b6d4"),
+    "beneficiaria": ("Se beneficia", "👥", "#ec4899"),
+}
+ACCION_INFO = {"modifica": ("✏️", "modifica"), "incorpora": ("➕", "incorpora"), "deroga": ("🗑️", "deroga"),
+               "complementa": ("🔗", "complementa"), "eleva_rango": ("⬆️", "eleva a ley")}
+NIVEL = {"nulo": 0, "bajo": 1, "medio": 2}
+
+
+INSTRUMENTO = {"ley": "Ley", "resolucion_legislativa": "Resolución Legislativa", "ley_organica": "Ley Orgánica", "reforma_constitucional": "Ley de Reforma Constitucional"}
+
+
+def conexo(p):
+    pc = p.get("proyecto_conexo")
+    if not isinstance(pc, dict):
+        return ""
+    arts = "".join(f"<div class='art'><h4>{e(a.get('n'))}. {e(a.get('titulo'))}</h4><p>{e(a.get('texto'))}</p></div>" for a in pc.get("articulado", []))
+    disp = "".join(f"<div class='art'><h4>{e(d.get('n'))} Disposición {e(d.get('tipo'))}</h4><p>{e(d.get('texto'))}</p></div>" for d in pc.get("disposiciones", []))
+    return f"<section><h2>Proyecto de ley conexo</h2><p class='muted'>Lo que no es materia del Reglamento del Congreso se tramita como ley ordinaria aparte:</p><p class='formula'><b>{e(str(pc.get('titulo', '')).upper())}</b></p>{arts}{disp}</section>"
+
+
+def nombre_ent(x):
+    sig = (x.get("sigla") or "").strip(" —-")
+    return f"<b>{e(sig)}</b>" if sig else e(x.get("entidad"))
+
+
+def plazo_reglamento(p):
+    import re
+    for d in p.get("disposiciones", []):
+        tx = d.get("texto", "")
+        if "reglament" in tx.lower():
+            m = re.search(r"(\d+)\s+días\s+(hábiles|calendario)", tx)
+            if m:
+                return f"{m.group(1)} días {m.group(2)}"
+    return "plazo de ley"
+
+
+def visuales(p, color):
+    """'La ley en un vistazo': mapa de actores, ruta de implementación y balance costo/beneficio."""
+    im, ip = p.get("implicados") or {}, p.get("impacto") or {}
+    out = []
+    if im.get("entidades") or im.get("normas_modificadas"):
+        normas = "".join(
+            f"<li><span class='ac'>{ACCION_INFO.get(n.get('accion'), ('•', n.get('accion')))[0]} {e(ACCION_INFO.get(n.get('accion'), ('', n.get('accion')))[1])}</span>"
+            f"<b>{e(n.get('norma'))}</b><small>{e(n.get('articulo'))}</small></li>" for n in im.get("normas_modificadas") or [])
+        grupos = {}
+        for x in im.get("entidades") or []:
+            grupos.setdefault(x.get("rol") if x.get("rol") in ROL_INFO else "consultiva", []).append(x)
+        roles = "".join(
+            f"<div class='rol-g' style='--r:{ROL_INFO[r][2]}'><div class='rol-h'>{ROL_INFO[r][1]} {ROL_INFO[r][0]}</div>"
+            + "".join(f"<details class='ent'><summary>{nombre_ent(x)}</summary>"
+                      f"<p><b>{e(x.get('entidad'))}</b>{(' · ' + e(x.get('sector'))) if x.get('sector') else ''}<br>{e(x.get('responsabilidad'))}</p></details>" for x in grupos[r])
+            + "</div>" for r in ROL_INFO if r in grupos)
+        abajo = "".join(f"<div class='lm-foot-i'><span>{k}</span><p>{e(im.get(c))}</p></div>"
+                        for k, c in (("👥 A quién beneficia", "beneficiarios"), ("📋 Quién debe cumplir", "sujetos_obligados")) if im.get(c))
+        sen = f"<small>Revisión: Senado · {e(p.get('comision_senado'))}</small>" if p.get("comision_senado") else ""
+        out.append(f"""<div class="lmap">
+  <div class="lm-col"><h3>Lo que cambia</h3><ul class="lm-normas">{normas or '<li><b>Ley nueva</b><small>sin modificar normas vigentes</small></li>'}</ul></div>
+  <div class="lm-center" style="--c:{color}"><span class="lm-id">{e(p['id'])}</span><b>{e(p['titulo_corto'])}</b>
+    <p>{e(p.get('objeto') or p.get('sumilla'))[:220]}</p><small>Dictamina: Diputados · {e(p.get('comision_sugerida'))}</small>{sen}</div>
+  <div class="lm-col"><h3>Quién hace qué</h3>{roles}</div>
+</div>{f'<div class="lm-foot">{abajo}</div>' if abajo else ''}""")
+    # ruta de implementación
+    pasos = [("📝", "Se presenta", "Cámara de Diputados"), ("🏛️", "Dictamen", "comisión, hasta 60 días hábiles"),
+             ("🗳️", "Pleno Diputados", "aprobación"), ("⚖️", "Senado revisa", "comisión, hasta 90 días hábiles"),
+             ("✍️", "Promulgación", "Poder Ejecutivo"), ("📜", "Reglamento", plazo_reglamento(p)),
+             ("🎯", "Meta 2031", (p.get("indicador_exito") or "")[:120])]
+    out.append("<div class='ruta'><h3>Ruta de implementación</h3><ol>" + "".join(
+        f"<li><span class='dot'>{i}</span><b>{t}</b><small>{e(d)}</small></li>" for i, t, d in pasos) + "</ol></div>")
+    # balance
+    if ip:
+        ce = ip.get("costo_estado") or {}
+        nivel = NIVEL.get(p.get("costo_fiscal"), 1)
+        meter = "".join(f"<i class='{'on' if k <= nivel else ''}'></i>" for k in range(3))
+        conf = {"alta": 3, "media": 2, "baja": 1}.get(ip.get("confianza"), 0)
+        cmeter = "".join(f"<i class='{'on' if k < conf else ''}'></i>" for k in range(3))
+        ben = [("🏛️ Para el Estado", ip.get("beneficio_estado")), ("👥 Para la sociedad", ip.get("beneficio_sociedad")),
+               ("📈 Inversión privada", ip.get("inversion_privada"))]
+        out.append(f"""<div class="balance">
+  <div class="bal-col cost"><h3>Lo que cuesta</h3><div class="big">{e(ce.get('rango') or '—')}</div>
+    <div class="meter" title="Costo fiscal: {e(p.get('costo_fiscal'))}"><span>Costo fiscal</span>{meter}<em>{e(p.get('costo_fiscal'))}</em></div>
+    <p><b>Quién paga:</b> {e(ce.get('financiamiento') or '—')}</p>
+    {f"<p><b>Costo para privados:</b> {e(ip.get('costo_privado'))}</p>" if ip.get('costo_privado') else ''}</div>
+  <div class="bal-vs">⇄</div>
+  <div class="bal-col gain"><h3>Lo que se gana</h3>{''.join(f"<p><b>{k}:</b> {e(v)}</p>" for k, v in ben if v)}
+    <div class="meter" title="Confianza de la estimación"><span>Confianza</span>{cmeter}<em>{e(ip.get('confianza') or '—')}</em></div></div>
+</div>""")
+    return f"<section class='vistazo'><h2>La ley en un vistazo</h2>{''.join(out)}</section>" if out else ""
+
+
 def bloques_v2(p):
     """Secciones: normas que modifica, quién hace qué, impacto económico, revisión especializada."""
     out = []
     im = p.get("implicados") or {}
-    nm = im.get("normas_modificadas") or []
-    if nm:
-        filas = "".join(
-            f"<tr><td>{enlace(n.get('norma'), n.get('url'))}</td>"
-            f"<td>{e(n.get('articulo'))}</td><td><span class='pill acc-{e(n.get('accion'))}'>{e(n.get('accion'))}</span></td></tr>" for n in nm)
-        out.append(f"<section><h2>Normas que modifica</h2><div class='tbl-scroll'><table class='tbl'><tr><th>Norma</th><th>Artículo</th><th>Acción</th></tr>{filas}</table></div></section>")
-    ent = im.get("entidades") or []
-    if ent:
-        ent = sorted(ent, key=lambda x: ROLES.index(x.get("rol")) if x.get("rol") in ROLES else 99)
-        filas = "".join(f"<tr><td><b>{e(x.get('sigla') or '')}</b> {e(x.get('entidad'))}<br><span class='muted'>{e(x.get('sector') or '')}</span></td>"
-                        f"<td><span class='pill rol'>{e(x.get('rol'))}</span></td><td>{e(x.get('responsabilidad'))}</td></tr>" for x in ent)
-        extra = "".join(f"<p><b>{k}:</b> {e(im.get(c))}</p>" for k, c in (("Sujetos obligados", "sujetos_obligados"), ("Beneficiarios", "beneficiarios")) if im.get(c))
-        out.append(f"<section><h2>¿Quién hace qué?</h2><div class='tbl-scroll'><table class='tbl'><tr><th>Entidad</th><th>Rol</th><th>Responsabilidad</th></tr>{filas}</table></div>{extra}</section>")
     ip = p.get("impacto") or {}
     if ip:
         ce = ip.get("costo_estado") or {}
@@ -186,7 +273,7 @@ def bloques_v2(p):
                   ("Beneficio para la sociedad", ip.get("beneficio_sociedad")), ("Inversión privada movilizable", ip.get("inversion_privada")),
                   ("Costo para privados", ip.get("costo_privado")), ("Riesgos", ip.get("riesgos")), ("Supuestos del cálculo", ce.get("supuestos"))]
         grid = "".join(f"<div class='imp'><span>{k}</span><p>{e(v)}</p></div>" for k, v in celdas if v)
-        out.append(f"<section><h2>Impacto económico estimado</h2><p class='muted'>Estimación referencial con supuestos explícitos · confianza: <b>{e(ip.get('confianza') or '—')}</b>. No es un dato oficial ni reemplaza el informe del MEF.</p><div class='imp-grid'>{grid}</div></section>")
+        out.append(f"<section><h2>Impacto económico: detalle y supuestos</h2><p class='muted'>Estimación referencial con supuestos explícitos · confianza: <b>{e(ip.get('confianza') or '—')}</b>. No es un dato oficial ni reemplaza el informe del MEF.</p><div class='imp-grid'>{grid}</div></section>")
     rv = p.get("revision") or []
     if rv:
         filas = "".join(f"<tr><td>{e(r['especialidad'])}</td><td><span class='pill ver-{e(r.get('veredicto'))}'>{e(VEREDICTO.get(r.get('veredicto'), r.get('veredicto')))}</span></td>"
@@ -245,6 +332,7 @@ def pagina(p, plan, prev, nxt):
  <span class="pill prio-{e(p.get('prioridad'))}">Prioridad {e(p.get('prioridad'))}</span>
  <span class="pill">Costo fiscal: {e(p.get('costo_fiscal'))}</span>
  <span class="pill">Plazo: {e(p.get('plazo'))}</span>
+ {f'<span class="pill prio-alta">Instrumento: {INSTRUMENTO.get(p.get("instrumento"), e(p.get("instrumento")))}</span>' if p.get('instrumento') not in (None, 'ley') else ''}
  <span class="pill">Diputados: {e(p.get('comision_sugerida'))}</span>
  {f'<span class="pill">+ {e(p.get("comision_secundaria"))}</span>' if p.get('comision_secundaria') else ''}
  {f'<span class="pill">Senado: {e(p.get("comision_senado"))}</span>' if p.get('comision_senado') else ''}
@@ -252,11 +340,14 @@ def pagina(p, plan, prev, nxt):
 <div class="actions"><a class="btn" href="../pdf/{e(p['id'])}.pdf" download>⬇️ Descargar PDF</a>
 <a class="btn ghost" href="../docx/{e(p['id'])}.docx" download>📝 Word editable (formato despacho)</a>
 <button class="btn ghost" onclick="window.print()">🖨️ Imprimir</button>
-<a class="btn ghost" id="wa" target="_blank" rel="noopener">🟢 Compartir</a></div>
+<a class="btn ghost" id="wa" target="_blank" rel="noopener">🟢 Compartir</a>
+<a class="btn ghost" href="#comentarios">💬 Opinar</a></div>
 <div class="chips">{p50}{ods}</div>
+{visuales(p, color)}
 <section><h2>Exposición de motivos — el problema</h2><p>{e(p.get('problema'))}</p></section>
 <section><h2>Objeto</h2><p>{e(p.get('objeto'))}</p></section>
-<section><h2>Fórmula legal</h2><p class="formula">EL CONGRESO DE LA REPÚBLICA<br>Ha dado la Ley siguiente:<br><b>{e(p['titulo'].upper())}</b></p>{arts}{disp}</section>
+<section><h2>Fórmula legal</h2><p class="formula">EL CONGRESO DE LA REPÚBLICA<br>Ha dado la {INSTRUMENTO.get(p.get('instrumento'), 'Ley')} siguiente:<br><b>{e(p['titulo'].upper())}</b></p>{arts}{disp}</section>
+{conexo(p)}
 <section><h2>Análisis costo-beneficio</h2><p>{e(p.get('costo_beneficio'))}</p></section>
 {bloques_v2(p)}
 <section><h2>Efecto de la vigencia sobre la legislación nacional</h2><p>{e(p.get('efecto_vigencia'))}</p></section>
@@ -265,6 +356,14 @@ def pagina(p, plan, prev, nxt):
 <section><h2>Antecedentes</h2><p>{e(p.get('antecedentes'))}</p></section>
 <section><h2>Referencias internacionales</h2>{links(p.get('referencias_internacionales'), 'norma')}</section>
 <section><h2>Fuentes</h2>{links(p.get('fuentes'))}</section>
+<section class="comentar" id="comentarios"><h2>¿Qué opinas de esta propuesta?</h2>
+<p class="muted">Deja tu comentario o reacciona (👍 apoyo · 👎 rechazo). Los comentarios quedan públicos y trazados en
+<a href="https://github.com/unimauro/agenda-legislativa-tech/discussions" target="_blank" rel="noopener">GitHub Discussions</a> y se consolidan en el tablero. Requiere una cuenta de GitHub.</p>
+<script src="https://giscus.app/client.js" data-repo="unimauro/agenda-legislativa-tech" data-repo-id="R_kgDOVTPOaQ"
+ data-category="Announcements" data-category-id="DIC_kwDOVTPOac4DJV9_" data-mapping="specific" data-term="{e(p['id'])}"
+ data-strict="1" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="preferred_color_scheme"
+ data-lang="es" data-loading="lazy" crossorigin="anonymous" async></script>
+</section>
 <p class="disclaimer">Propuesta ciudadana de libre uso para cualquier congresista, bancada o colectivo que quiera presentarla. No es un proyecto de ley presentado ni tiene número en el Congreso. Cítala y mejórala.</p>
 <nav class="pager">{nav}</nav>
 </main>
@@ -315,11 +414,16 @@ def pdfs(props, plan):
             + "<b>Plan Perú 2050:</b> " + t(", ".join(plan[c]["nombre"] for c in p.get("plan2050", []))),
             small))
         s += [Paragraph("I. Exposición de motivos", h2), Paragraph(t(p.get("problema")), body),
-              Paragraph("II. Fórmula legal", h2), Paragraph("EL CONGRESO DE LA REPÚBLICA ha dado la Ley siguiente:<br/><b>" + t(p["titulo"].upper()) + "</b>", body)]
+              Paragraph("II. Fórmula legal", h2), Paragraph(f"EL CONGRESO DE LA REPÚBLICA ha dado la {INSTRUMENTO.get(p.get('instrumento'), 'Ley')} siguiente:<br/><b>" + t(p["titulo"].upper()) + "</b>", body)]
         for a in p.get("articulado", []):
             s += [Paragraph(f"{t(a.get('n'))}. {t(a.get('titulo'))}", h3), Paragraph(t(a.get("texto")), body)]
         for d in p.get("disposiciones", []):
             s += [Paragraph(f"{t(d.get('n'))}. Disposición {t(d.get('tipo'))}", h3), Paragraph(t(d.get("texto")), body)]
+        pc = p.get("proyecto_conexo")
+        if isinstance(pc, dict):
+            s += [Paragraph("Proyecto de ley conexo", h2), Paragraph("<b>" + t(str(pc.get("titulo", "")).upper()) + "</b>", body)]
+            for a in pc.get("articulado", []) + pc.get("disposiciones", []):
+                s += [Paragraph(t(f"{a.get('n')}. {a.get('titulo') or ('Disposición ' + str(a.get('tipo')))}"), h3), Paragraph(t(a.get("texto")), body)]
         s += [Paragraph("III. Análisis costo-beneficio", h2), Paragraph(t(p.get("costo_beneficio")), body),
               *pdf_v2(p),
               Paragraph("IV. Efecto de la vigencia de la norma", h2), Paragraph(t(p.get("efecto_vigencia")), body),
@@ -432,7 +536,7 @@ def docxs(props, plan):
             if isinstance(x, dict):
                 d.add_paragraph(f"{(x.get('pais') + ': ') if x.get('pais') else ''}{x.get('norma') or x.get('titulo') or ''} — {x.get('url') or ''}", style="List Bullet")
         d.add_paragraph(f"Fuente: Agenda Legislativa Tech Perú 2026–2031 ({BASE}p/{p['id']}.html), propuesta ciudadana CC BY 4.0.")
-        d.core_properties.title = p["titulo"]; d.core_properties.author = "Agenda Legislativa Tech Perú"
+        d.core_properties.title = p["titulo"][:250]; d.core_properties.author = "Agenda Legislativa Tech Perú"
         d.save(out / f"{p['id']}.docx")
 
 

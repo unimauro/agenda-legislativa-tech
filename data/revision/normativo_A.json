@@ -1,0 +1,2495 @@
+[
+ {
+  "id": "IA-01",
+  "especialidad": "normativo",
+  "veredicto": "observaciones_graves",
+  "resumen": "Registro necesario y no duplicado por la Ley 31814 ni por el D.S. 115-2025-PCM (que solo exige registro interno al privado, art. 31.1, y evaluación de impacto sin publicidad, art. 30). Pero tiene una circularidad de vigencia que la hace inaplicable y una regla de adecuación atada a plazos reglamentarios ya vencidos; conviene insertarla en la Ley 31814 en vez de crear ley dispersa.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Disposiciones Complementarias Finales Primera y Cuarta",
+    "problema": "Circularidad: la Primera DCF computa el plazo de reglamentación 'desde su entrada en vigencia' y la Cuarta difiere la entrada en vigencia 'al día siguiente de la publicación de su reglamento'. Ninguno de los dos hechos puede ocurrir primero: la ley es inaplicable.",
+    "correccion": "Primera DCF: 'El Poder Ejecutivo reglamenta la presente ley en un plazo de noventa días hábiles contados desde el día siguiente de su publicación'. Cuarta DCF: 'La presente ley entra en vigencia al día siguiente de su publicación, salvo los artículos 6 y 7, que rigen a partir del día siguiente de la publicación de su reglamento'."
+   },
+   {
+    "severidad": "alta",
+    "ubicacion": "Disposición Complementaria Final Segunda",
+    "problema": "Remite a los plazos de la Primera DCF del Reglamento de la Ley 31814 (D.S. 115-2025-PCM), que se cuentan desde el 10-sep-2025: para Poder Ejecutivo, Legislativo, Judicial y OCA (1 año) ya vencieron el 9-sep-2026. La remisión hace exigible la inscripción el mismo día de vigencia, sin adecuación real.",
+    "correccion": "Sustituir por plazos propios: 'Las entidades inscriben los sistemas en producción en los siguientes plazos contados desde la vigencia del reglamento de la presente ley: a) Poder Ejecutivo, Legislativo, Judicial y organismos constitucionalmente autónomos: seis meses; b) gobiernos regionales, EsSalud, universidades públicas y empresas del Estado: un año; c) gobiernos locales: dieciocho meses'."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 1 / técnica legislativa",
+    "problema": "Ley autónoma que regula un instrumento de la Ley 31814 (cuyo cuerpo solo tiene arts. 1 a 5 y una DCF Única). Genera dispersión normativa y un segundo informe paralelo.",
+    "correccion": "Reformular como 'Ley que incorpora los artículos 6, 7 y 8 a la Ley 31814 ...' (numeración libre: la Ley 31814 termina en el art. 5). Art. 6 Registro Nacional de Algoritmos Públicos; art. 7 Evaluación de impacto algorítmico pública; art. 8 Observaciones técnicas ciudadanas."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 2.1",
+    "problema": "Redundante: los organismos constitucionalmente autónomos ya están en el numeral 6 del artículo I del Título Preliminar del TUO de la Ley 27444; y cita el TUO sin decreto aprobatorio vigente.",
+    "correccion": "'2.1. La presente ley se aplica a las entidades del artículo I del Título Preliminar del TUO de la Ley 27444, aprobado por Decreto Supremo 006-2026-JUS, y a las empresas del Estado bajo el ámbito de FONAFE y de los gobiernos regionales y locales'."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 4.2 / Artículo 7",
+    "problema": "Coexistencia de registros: el art. 30 del D.S. 115-2025-PCM ya regula la evaluación de impacto de riesgo alto y el art. 28.10 exige incluir los proyectos de IA en el Plan de Gobierno Digital. Riesgo de doble reporte con IA-14 (fichas contractuales) y con el 'registro de algoritmos' que exige IA-02 (art. 6-A.2).",
+    "correccion": "Añadir 7.3: 'La evaluación de impacto algorítmico a que se refiere el artículo 30 del Reglamento de la Ley 31814 se registra en el Registro; su inscripción sustituye cualquier otro reporte de la misma información a la SGTD'. Y asegurar que IA-02, IA-09 e IA-14 remitan a este mismo Registro."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "antecedentes",
+    "problema": "Existen antecedentes verificados en SPLEY.",
+    "correccion": "'Antecedentes (periodo 2021-2026, SPLEY): PL 11459/2024-CR, Ley de supervisión y transparencia en el uso de la IA y tecnologías avanzadas (en comisión); PL 14544/2025-CR, que complementa y fortalece el marco de gobernanza, transparencia, control y responsabilidad en el uso de la IA (en comisión); PL 13140/2025-CR, que modifica la Ley 31814 para establecer el principio de trazabilidad (en comisión); PL 13175/2025-CR, que modifica la Ley 31814 (con dictamen). Ninguno crea un registro público centralizado de algoritmos del Estado'."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 31814, arts. 6, 7 y 8 — incorpora (Registro, evaluación pública, observaciones)",
+    "Ley 31814, art. 5 — complementa (capítulo del informe anual)",
+    "D.S. 115-2025-PCM, arts. 28.10, 30 y 34 — complementa (adecuación reglamentaria)",
+    "TUO Ley 27806 (D.S. 021-2019-JUS), arts. 15, 16 y 17 — complementa (excepciones)",
+    "Ley 30057, Ley del Servicio Civil, art. 85 — complementa (falta)",
+    "R.M. 152-2026-PCM (ENIA 2026-2030) — complementa (Catálogo IA Perú)"
+   ],
+   "entidades_implicadas": [
+    "PCM/SGTD — administra el Registro",
+    "Contraloría General de la República — acceso a evaluaciones completas",
+    "Defensoría del Pueblo — acceso",
+    "ANPD/MINJUSDH — acceso y coordinación con EIPD",
+    "SERVIR — régimen disciplinario"
+   ],
+   "impacto_economico": "Costo bajo: plataforma sobre la Plataforma Nacional de Datos Abiertos ya existente; el costo marginal recae en las entidades (llenado de ficha). Ahorro por evitar doble reporte si se integra con art. 30 del D.S. 115-2025-PCM.",
+   "antecedentes_propuestos": "PL 11459/2024-CR; PL 14544/2025-CR; PL 13140/2025-CR; PL 13175/2025-CR (periodo 2021-2026)."
+  }
+ },
+ {
+  "id": "IA-02",
+  "especialidad": "normativo",
+  "veredicto": "observaciones_graves",
+  "resumen": "Aporte valioso y no duplicado (el D.S. 115-2025-PCM arts. 25.3 y 28.11 no crea un derecho subjetivo exigible ni efectos de nulidad). Sin embargo, cita un TUO derogado y un numeral 66.23 que no existe: el art. 66 del TUO tiene numerales 1 a 15.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículos 2, 3 y efecto_vigencia",
+    "problema": "El TUO de la Ley 27444 aprobado por D.S. 004-2019-JUS fue derogado y sustituido por el TUO aprobado por Decreto Supremo 006-2026-JUS (El Peruano, 30-abr-2026). Todas las referencias al D.S. 004-2019-JUS están desactualizadas.",
+    "correccion": "Sustituir en todo el texto y en normas_relacionadas: 'Texto Único Ordenado de la Ley 27444, aprobado por Decreto Supremo 006-2026-JUS'. Técnica preferente: modificar la Ley 27444 y precisar 'cuya numeración corresponde al TUO aprobado por D.S. 006-2026-JUS'."
+   },
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 3 (numeral 66.23)",
+    "problema": "El artículo 66 del TUO ('Derechos de los administrados') se enumera 1. a 15. (no '66.x') y el numeral 15 es la cláusula residual 'Los demás derechos reconocidos por la Constitución o las leyes'. No existe numeral 66.22 al que suceder; '66.23' es numeración inexistente.",
+    "correccion": "'Artículo 3. Modificación del artículo 66 de la Ley 27444. Modifícanse los numerales 14 y 15 e incorpórase el numeral 16 al artículo 66: «14. A exigir la responsabilidad ...; 15. A ser informado, de forma previa y comprensible, cuando un sistema automatizado o de IA intervenga en la decisión de su procedimiento; a obtener una explicación ...; y a solicitar su revisión por un servidor público ..., y 16. Los demás derechos reconocidos por la Constitución Política del Perú o las leyes.»'. Ajustar la remisión del art. 6.2 al 'numeral 15 del artículo 66'."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 2 (art. 6-A.2)",
+    "problema": "Remite a 'el registro de algoritmos que establezca la ley': remisión en blanco a una norma inexistente (IA-01 es propuesta).",
+    "correccion": "Si se tramita junto con IA-01: 'su inscripción en el Registro Nacional de Algoritmos Públicos'. Si no: suprimir la exigencia de inscripción y dejar solo la resolución del titular publicada en la sede digital."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 7",
+    "problema": "La nulidad 'conforme al artículo 10' sin modificar el art. 10 crea una causal extravagante fuera del catálogo cerrado del TUO.",
+    "correccion": "Incorporar el supuesto como numeral 5 del artículo 10 de la Ley 27444: '5. Los actos adoptados exclusivamente mediante sistemas automatizados en los supuestos en que la ley exige intervención humana'."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 5.2",
+    "problema": "La suspensión del plazo para recurrir altera el art. 218.2 del TUO (15 días perentorios) sin modificarlo expresamente.",
+    "correccion": "Agregar: 'Modifícase el numeral 218.2 del artículo 218 de la Ley 27444, añadiendo: «El plazo se suspende durante el trámite de la revisión humana prevista en la ley de la materia»'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Conflicto con IA-09 e IA-13",
+    "problema": "IA-09 (justicia) e IA-13 (laboral) regulan también explicación y revisión humana con plazos propios; sin una cláusula de especialidad pueden leerse como superpuestos.",
+    "correccion": "Añadir artículo: 'La presente ley se aplica supletoriamente a los procedimientos regidos por leyes especiales sobre IA en la función jurisdiccional y en las relaciones laborales'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "antecedentes",
+    "problema": "Hay antecedente relacionado verificado.",
+    "correccion": "'PL 14601/2025-CR, que promueve la incorporación progresiva, ética y fiscalmente responsable de la IA y la automatización robótica de procesos en la gestión pública (en comisión, periodo 2021-2026). No se identificó proyecto que modifique la Ley 27444 para decisiones automatizadas'."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 27444 (TUO D.S. 006-2026-JUS), art. 6-A — incorpora",
+    "Ley 27444, art. 66, numerales 14, 15 y 16 — modifica/incorpora",
+    "Ley 27444, art. 10, numeral 5 — incorpora (nulidad)",
+    "Ley 27444, art. 218.2 — modifica (suspensión de plazo)",
+    "Ley 29733, art. 23 — complementa",
+    "D.S. 115-2025-PCM, arts. 25.3 y 28.11 — complementa"
+   ],
+   "entidades_implicadas": [
+    "MINJUSDH (DGDNCR) — adecuación normativa del TUO",
+    "PCM/SGTD — lineamientos de explicación",
+    "ANPD — tutela del art. 23 Ley 29733",
+    "SERVIR — capacitación de revisores",
+    "Defensoría del Pueblo"
+   ],
+   "antecedentes_propuestos": "PL 14601/2025-CR (periodo 2021-2026)."
+  }
+ },
+ {
+  "id": "IA-03",
+  "especialidad": "normativo",
+  "veredicto": "observaciones",
+  "resumen": "Eleva a ley el sandbox del art. 17 del D.S. 115-2025-PCM (verificado) y resuelve su límite real: no vincula a reguladores autónomos. Debe evitar colisión con los sandboxes sectoriales ya vigentes (SBS) y con los mecanismos de ECO-01/ECO-06, y conviene insertarse en la Ley 31814.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 2.3 / concordancia sectorial",
+    "problema": "La SBS ya cuenta con régimen propio de pruebas para modelos novedosos (Reglamento aprobado por Res. SBS 2429-2021, verificar vigencia) y la propuesta ECO-06 (finanzas abiertas) y ECO-01 (startups) pueden crear otros. Sin regla de prelación habrá dos espacios para el mismo proyecto fintech con IA.",
+    "correccion": "Añadir 2.4: 'Cuando exista un régimen de pruebas sectorial aprobado por un organismo con autonomía, este prevalece; el Espacio de Pruebas se aplica supletoriamente y la SGTD actúa como ventanilla de derivación'."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Técnica legislativa / efecto_vigencia",
+    "problema": "Una ley no 'eleva a rango de ley' un artículo reglamentario; lo correcto es regular en la ley y ordenar la adecuación del reglamento.",
+    "correccion": "Reformular como 'Ley que incorpora el artículo 9 (o el siguiente libre) a la Ley 31814' y en efecto_vigencia: 'Incorpora artículo a la Ley 31814; dispone la adecuación del art. 17 del D.S. 115-2025-PCM'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 4.2",
+    "problema": "Remite a 'usos prohibidos previstos en el Reglamento' — el D.S. 115-2025-PCM los denomina 'uso indebido' (arts. 22.1.a y 23).",
+    "correccion": "'los usos indebidos previstos en el artículo 23 del Reglamento de la Ley 31814, aprobado por D.S. 115-2025-PCM'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 2.2",
+    "problema": "Debe precisarse la participación del regulador sanitario y de SUSALUD si el sistema es de salud, para coordinar con IA-08 (validación clínica).",
+    "correccion": "Añadir: 'En sistemas de uso en salud participan la DIGEMID y SUSALUD, sin perjuicio de lo dispuesto en la ley especial de validación clínica de IA'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "antecedentes",
+    "problema": "No se halló en SPLEY proyecto específico de sandbox de IA.",
+    "correccion": "'Por verificar en SPLEY: no se identificaron proyectos del periodo 2021-2026 con títulos sobre espacios controlados de prueba para IA; antecedente reglamentario: art. 17 del D.S. 115-2025-PCM'."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 31814 — incorpora artículo sobre Espacio de Pruebas",
+    "D.S. 115-2025-PCM, arts. 17 y 18.2 — adecúa",
+    "Ley 29733 — complementa (tratamiento en pruebas)",
+    "D.Leg. 1565, Ley General de Mejora de la Calidad Regulatoria — complementa (aprendizaje regulatorio)"
+   ],
+   "entidades_implicadas": [
+    "PCM/SGTD — conductora",
+    "ANPD/MINJUSDH",
+    "INDECOPI",
+    "SBS — régimen sectorial propio",
+    "DIGEMID/SUSALUD — salud",
+    "PRODUCE/CONCYTEC — convocatoria MIPYME"
+   ]
+  }
+ },
+ {
+  "id": "IA-04",
+  "especialidad": "normativo",
+  "veredicto": "observaciones",
+  "resumen": "Normas citadas existen (D.L. 1412, D.U. 006-2020, TUO Ley 27806, Ley 29733). Hay duplicidad parcial con el 'Oficial de Gobierno de Datos' del D.S. 029-2021-PCM y con el art. 28.7 del D.S. 115-2025-PCM (datos de alto valor vía Centro Nacional de Datos); y conflicto directo con IA-06 sobre reutilización comercial de corpus.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 6",
+    "problema": "Crea un 'responsable de datos abiertos' adicional al Oficial de Gobierno de Datos que ya prevé el Reglamento del D.L. 1412 (D.S. 029-2021-PCM) y al Oficial de Datos Personales del D.S. 016-2024-JUS. Triplica roles.",
+    "correccion": "'Artículo 6. Las funciones de inventario, publicación, calidad y actualización de datos abiertos se asignan al Oficial de Gobierno de Datos previsto en la normativa de gobierno digital; no se crean plazas'."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 7 — conflicto con IA-06 art. 5.2",
+    "problema": "IA-04 declara 'libre' la reutilización comercial y para entrenamiento de IA de todo dato abierto; IA-06 sujeta el uso comercial de corpus lingüísticos públicos a beneficio compartido. Incompatibles si ambos se aprueban.",
+    "correccion": "Añadir al art. 7: 'salvo los corpus lingüísticos de pueblos indígenas u originarios y los datos sujetos a condiciones especiales establecidas por ley'."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Técnica legislativa",
+    "problema": "La materia corresponde al Título de datos del D.L. 1412 y al art. 4(d) de la Ley 31814; ley autónoma dispersa.",
+    "correccion": "Reformular como modificación del D.L. 1412 incorporando artículos sobre 'apertura por defecto', 'Estándar de datos aptos para IA' y 'API públicas', y modificar el art. 5 del TUO de la Ley 27806 (portal de transparencia) para remitir a datos abiertos."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 4 — superposición con GOB-05, GOB-11, CON-09, TAL-08",
+    "problema": "Varias propuestas declaran datos abiertos sectoriales (gasto, transporte, observación de la Tierra, agroclima) con estándares propios.",
+    "correccion": "Añadir: 'Las leyes especiales sobre datos abiertos sectoriales se aplican conforme al Estándar Nacional de la presente ley'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "antecedentes",
+    "problema": "Antecedente verificado.",
+    "correccion": "'PL 05602/2022-CR, Ley de fortalecimiento de la transparencia y acceso a la información pública ... para fomentar un gobierno de datos abiertos (con dictamen, periodo 2021-2026)'."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "D.L. 1412, Título de gobierno de datos — incorpora artículos (apertura por defecto, estándar, API)",
+    "TUO Ley 27806 (D.S. 021-2019-JUS), art. 5 — modifica (remisión a datos abiertos)",
+    "D.U. 006-2020 — complementa",
+    "D.U. 007-2020, arts. 12 y 13 (datos como activos estratégicos, Centro Nacional de Datos) — complementa",
+    "Ley 31814, art. 5 — complementa (índice en informe anual)",
+    "D.S. 115-2025-PCM, art. 28.7 — complementa",
+    "Ley 29733 — complementa (anonimización)"
+   ],
+   "entidades_implicadas": [
+    "PCM/SGTD — estándar y lista de alto valor",
+    "Centro Nacional de Datos (SGTD)",
+    "ANPD/MINJUSDH",
+    "INEI",
+    "Entidades productoras de datos"
+   ],
+   "antecedentes_propuestos": "PL 05602/2022-CR (periodo 2021-2026)."
+  }
+ },
+ {
+  "id": "IA-05",
+  "especialidad": "normativo",
+  "veredicto": "observaciones",
+  "resumen": "No duplica norma vigente (el art. 19 del D.S. 115-2025-PCM solo habilita nube pública). Usa denominación desactualizada del CONCYTEC, no considera la reforma de la Ley 31250 por el D.Leg. 1727 (feb-2026) y la declaración de interés nacional con costo medio debe ajustarse al art. 79 de la Constitución.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3.2",
+    "problema": "Denominación desactualizada: la Ley 31250 denomina al ente rector 'Consejo Nacional de Ciencia, Tecnología e Innovación (CONCYTEC)', sin 'Tecnológica'.",
+    "correccion": "Sustituir por 'Consejo Nacional de Ciencia, Tecnología e Innovación (CONCYTEC)'."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "efecto_vigencia / normas_relacionadas",
+    "problema": "La Ley 31250 fue modificada por el D.Leg. 1727 (El Peruano, 12-feb-2026: arts. 12, 15, 17, 18, 34, 35 e incorpora art. 36). La propuesta no lo considera y debería engarzar la Red en las funciones del CONCYTEC (art. 12) y de los institutos públicos de investigación.",
+    "correccion": "efecto_vigencia: 'Incorpora un literal en el artículo 12 de la Ley 31250 (modificado por D.Leg. 1727) sobre la gestión de infraestructura científica compartida de cómputo; complementa el art. 19 del D.S. 115-2025-PCM'. Añadir D.Leg. 1727 a normas_relacionadas."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 9 / costo_fiscal 'medio'",
+    "problema": "Si el costo es medio, la cláusula 'sin demandar recursos adicionales al Tesoro' es poco creíble; además un clúster requiere inversión pública sujeta a Invierte.pe (D.Leg. 1252).",
+    "correccion": "Precisar: 'Las inversiones se formulan conforme al Sistema Nacional de Programación Multianual y Gestión de Inversiones (D.Leg. 1252) y se financian con cargo al presupuesto institucional del pliego CONCYTEC y de las entidades participantes, priorizadas en las leyes anuales de presupuesto'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 6",
+    "problema": "'Marco de Confianza Digital' sin cita.",
+    "correccion": "'conforme al D.U. 007-2020 y su Reglamento aprobado por D.S. 126-2025-PCM'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Superposición con GOB-13 y CON-10",
+    "problema": "GOB-13 (nube del Estado y consolidación de centros de datos) y CON-10 (centros de datos) regulan infraestructura y localización de datos públicos; las reglas de localización del art. 6 deben ser las mismas.",
+    "correccion": "Añadir: 'La localización y portabilidad de datos públicos en la Red se rigen por la ley del marco de nube del Estado'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "antecedentes",
+    "problema": "No se encontraron proyectos sobre cómputo de alto rendimiento.",
+    "correccion": "'Por verificar en SPLEY: no se identificaron proyectos del periodo 2021-2026 sobre infraestructura nacional de cómputo avanzado; relacionado: PL 14531/2025-CR (becas en IA y tecnologías emergentes)'."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 31250, art. 12 (modificado por D.Leg. 1727) — incorpora literal (infraestructura de cómputo compartida)",
+    "D.S. 115-2025-PCM, art. 19 — complementa",
+    "D.U. 007-2020 y D.S. 126-2025-PCM — complementa (seguridad)",
+    "Ley 29733, arts. 15 y ss. (flujo transfronterizo) — complementa",
+    "D.Leg. 1252 (Invierte.pe) — complementa"
+   ],
+   "entidades_implicadas": [
+    "CONCYTEC — articulador",
+    "PROCIENCIA — financiamiento concursable",
+    "PCM/SGTD",
+    "Universidades públicas e institutos públicos de investigación",
+    "MEF — priorización presupuestal"
+   ],
+   "impacto_economico": "Costo medio real: un clúster con aceleradores implica inversión de capital (CAPEX) y operación (energía, personal); debe estimarse vía Invierte.pe y no presentarse como sin costo."
+  }
+ },
+ {
+  "id": "IA-06",
+  "especialidad": "normativo",
+  "veredicto": "observaciones",
+  "resumen": "Normas citadas correctas (Ley 29735, Ley 31814, Ley 29733). Requiere precisar la consulta previa (Ley 29785) y armonizar con la protección de conocimientos colectivos (Ley 27811) y con la reutilización libre de IA-04.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 4.2 y DCF Primera",
+    "problema": "Las condiciones sobre conocimientos tradicionales tienen régimen legal propio: Ley 27811 (protección de conocimientos colectivos de los pueblos indígenas vinculados a recursos biológicos, a cargo de INDECOPI). Y la DCF Primera habla de 'diálogo' cuando, si la medida afecta derechos colectivos, corresponde consulta previa (Ley 29785).",
+    "correccion": "Art. 4.3: 'Lo dispuesto se aplica sin perjuicio de la Ley 27811 y de la Ley 29785, Ley del derecho a la consulta previa'. DCF Primera: 'previo proceso de consulta previa conforme a la Ley 29785 en lo que afecte derechos colectivos'."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 5.2 — conflicto con IA-04 art. 7",
+    "problema": "Choque con la 'reutilización libre, incluso comercial' de IA-04.",
+    "correccion": "Mantener 5.2 e incorporar la excepción expresa en IA-04 (ver revisión IA-04)."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 6",
+    "problema": "El 'registro del Ministerio de Cultura' tiene nombre propio: Registro Nacional de Intérpretes y Traductores de Lenguas Indígenas u Originarias (Ley 29735, Reglamento D.S. 004-2016-MC).",
+    "correccion": "Sustituir por 'inscritos en el Registro Nacional de Intérpretes y Traductores de Lenguas Indígenas u Originarias del Ministerio de Cultura'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 8",
+    "problema": "La prohibición de derechos exclusivos debe concordarse con el D.Leg. 822, Ley sobre el Derecho de Autor (bases de datos, art. 78) para no generar conflicto de leyes.",
+    "correccion": "Añadir: 'Lo dispuesto prevalece sobre los derechos del fabricante de bases de datos previstos en el D.Leg. 822 respecto de corpus lingüísticos públicos'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Superposición con GOB-09",
+    "problema": "GOB-09 obliga a pertinencia lingüística en canales digitales; el art. 6 debe remitirse a ese estándar o viceversa.",
+    "correccion": "Añadir: 'en concordancia con los estándares de pertinencia lingüística de los servicios públicos digitales'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "antecedentes",
+    "problema": "No se identificaron proyectos sobre tecnologías del lenguaje en lenguas originarias.",
+    "correccion": "'Por verificar en SPLEY: no se identificaron proyectos del periodo 2021-2026 sobre IA en lenguas originarias'."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 29735, Título sobre uso en el ámbito público — complementa (incorpora artículo sobre tecnologías del lenguaje)",
+    "Ley 31814 — complementa",
+    "Ley 29733 — complementa",
+    "Ley 27811 — complementa",
+    "Ley 29785 — aplica (consulta previa)",
+    "D.Leg. 822, art. 78 — complementa"
+   ],
+   "entidades_implicadas": [
+    "Ministerio de Cultura (DLI) — conductor",
+    "MINEDU (DIGEIBIRA)",
+    "CONCYTEC",
+    "PCM/SGTD",
+    "INDECOPI — conocimientos colectivos",
+    "Organizaciones representativas de pueblos indígenas"
+   ]
+  }
+ },
+ {
+  "id": "IA-07",
+  "especialidad": "normativo",
+  "veredicto": "observaciones_graves",
+  "resumen": "Ley 32314 (El Peruano, 29-abr-2025) verificada como antecedente penal. Pero el artículo 42-A de la Ley 28094 YA EXISTE (incorporado por la Ley 31046; el JNE lo aplica en su Reglamento aprobado por Res. 0845-2025-JNE): la incorporación propuesta colisiona con numeración vigente. Además modifica leyes orgánicas (Ley 28094 y Ley 26859), lo que exige votación calificada.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 3 (art. 42-A de la Ley 28094)",
+    "problema": "Numeración ocupada: el art. 42-A de la Ley 28094 fue incorporado por la Ley 31046 (2020) y regula el procedimiento sancionador por conducta prohibida en propaganda (citado por la Res. 0845-2025-JNE, Reglamento del art. 42 publicado el 6-ene-2026). Incorporar otro 42-A sustituiría tácitamente una norma vigente.",
+    "correccion": "Opción preferente: incorporar el deber de etiquetado en la Ley 26859, Ley Orgánica de Elecciones, Título VIII 'De la propaganda electoral', como art. 186-A (verificar numeración libre). Alternativa: 'Incorpórase el artículo 42-B a la Ley 28094' previa verificación en el texto consolidado del Congreso."
+   },
+   {
+    "severidad": "alta",
+    "ubicacion": "Técnica / votación",
+    "problema": "La Ley 28094 y la Ley 26859 son leyes orgánicas (art. 106 de la Constitución): su modificación requiere el voto de más de la mitad del número legal de miembros de cada cámara. La ficha no lo advierte.",
+    "correccion": "Añadir en efecto_vigencia: 'Por modificar leyes orgánicas (Leyes 26859 y 28094), requiere aprobación con mayoría calificada conforme al artículo 106 de la Constitución'."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Disposición Complementaria Final Tercera",
+    "problema": "La regla de no aplicación a procesos ya convocados es insuficiente: las normas electorales deben estar vigentes con antelación a la elección (regla de anticipación del sistema electoral; verificar artículo exacto vigente). La reglamentación por el JNE en 90 días puede chocar con el cronograma de las ERM 2030.",
+    "correccion": "'La presente ley se aplica a los procesos electorales cuya fecha de elección sea posterior en más de un año a su entrada en vigencia'."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 7.2",
+    "problema": "Remite al 'Código Penal modificado por la Ley 32314'; es redundante y una remisión a norma modificatoria (técnica incorrecta).",
+    "correccion": "'sin perjuicio de la responsabilidad penal y civil que corresponda'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Superposición con CIB-04 y CIB-10",
+    "problema": "CIB-04 agrava la suplantación mediante contenido sintético en la Ley 30096 y CIB-10 impone deberes a plataformas; la definición de 'contenido sintético' debe ser idéntica en las tres.",
+    "correccion": "Uniformar la definición del art. 2 con la que se adopte en CIB-04."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "antecedentes",
+    "problema": "Hay antecedentes verificados.",
+    "correccion": "'Ley 32314 (2025), que incorpora el uso de IA como agravante. Proyectos del periodo 2021-2026: PL 13075/2025-CR, que previene la desinformación electoral a través de la IA (en comisión); PL 13065/2025-CR (mismo título, retirado por su autor); PL 13049/2025-CR, que dispone medidas para identificar el contenido audiovisual sintético creado con IA (en comisión)'."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 26859, Título VIII (propaganda electoral), art. 186-A — incorpora (alternativa: Ley 28094, art. 42-B — incorpora, previa verificación)",
+    "Ley 28094, art. 36 y ss. (infracciones) — modifica para tipificar la infracción",
+    "Ley 32314 — complementa",
+    "Ley 30096 — complementa",
+    "D.S. 115-2025-PCM, art. 25.2 — complementa"
+   ],
+   "entidades_implicadas": [
+    "JNE y Jurados Electorales Especiales — retiro y sanción",
+    "ONPE — supervisión de propaganda y educación electoral",
+    "Proveedores de plataformas digitales"
+   ],
+   "antecedentes_propuestos": "Ley 32314; PL 13075/2025-CR; PL 13065/2025-CR; PL 13049/2025-CR."
+  }
+ },
+ {
+  "id": "IA-08",
+  "especialidad": "normativo",
+  "veredicto": "observaciones",
+  "resumen": "La Ley 29459 ya define dispositivo médico incluyendo el 'aplicativo informático' (art. 4, numeral 3): el art. 4-A propuesto duplica parcialmente esa definición. Lo nuevo y valioso es la validación con población peruana y la vigilancia poscomercialización; conviene modificar la definición vigente y el reglamento de dispositivos médicos.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3 (art. 4-A Ley 29459)",
+    "problema": "Duplicidad: el art. 4, numeral 3 de la Ley 29459 ya comprende 'aplicativo informático' en la definición de dispositivo médico. Un 4-A con definición paralela genera dos definiciones legales del mismo objeto.",
+    "correccion": "'Modifícase el numeral 3 del artículo 4 de la Ley 29459: «3. Dispositivo médico: Cualquier instrumento, aparato, ..., aplicativo informático, incluido el basado en inteligencia artificial, material u otro artículo similar ...»' y regular la validación y vigilancia en un artículo nuevo de la ley especial o en el Capítulo de vigilancia sanitaria."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Disposiciones Complementarias Finales Primera y Cuarta",
+    "problema": "La Primera DCF no indica desde cuándo corre el plazo de 180 días y la Cuarta difiere toda la vigencia al reglamento: el reglamento adecuaría una ley aún no vigente (riesgo de circularidad).",
+    "correccion": "Primera DCF: 'en un plazo de ciento ochenta días hábiles contados desde el día siguiente de la publicación de la presente ley'. Cuarta DCF: 'La presente ley entra en vigencia al día siguiente de su publicación; las obligaciones de los artículos 4 y 5 son exigibles desde la vigencia del reglamento'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Disposición Complementaria Final Primera",
+    "problema": "'Reglamento de dispositivos médicos' sin identificar.",
+    "correccion": "'el Reglamento para el Registro, Control y Vigilancia Sanitaria de Productos Farmacéuticos, Dispositivos Médicos y Productos Sanitarios, aprobado por Decreto Supremo 016-2011-SA'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Superposición con IA-03, TAL-06 y TAL-07",
+    "problema": "IA-03 permite pruebas en sandbox de sistemas de salud y TAL-06/TAL-07 regulan HCE y telesalud: el uso supervisado del art. 4.2 debe articularse con el sandbox y los datos de validación con el RENHICE.",
+    "correccion": "Añadir: 'El uso supervisado puede realizarse en el Espacio de Pruebas regulatorias de IA con participación de la ANM'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "antecedentes",
+    "problema": "Antecedente verificado.",
+    "correccion": "'PL 13044/2025-CR, que modifica el art. 3 de la Ley 30421, Ley Marco de Telesalud, incorporando la IA (en comisión, periodo 2021-2026)'."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 29459, art. 4, numeral 3 — modifica (software con IA)",
+    "Ley 29459, capítulo de control y vigilancia sanitaria — incorpora artículo (vigilancia poscomercialización de software)",
+    "D.S. 016-2011-SA — adecúa",
+    "Ley 26842, Ley General de Salud, art. 15 — complementa (derecho a información del paciente)",
+    "D.S. 115-2025-PCM, art. 24.1 lit. h) e i) — complementa",
+    "Ley 29733 — complementa"
+   ],
+   "entidades_implicadas": [
+    "MINSA/DIGEMID (ANM) — registro y vigilancia",
+    "SUSALUD — supervisión de IPRESS",
+    "INS — validación local",
+    "EsSalud y establecimientos usuarios"
+   ],
+   "antecedentes_propuestos": "PL 13044/2025-CR."
+  }
+ },
+ {
+  "id": "IA-09",
+  "especialidad": "normativo",
+  "veredicto": "observaciones_graves",
+  "resumen": "Materia necesaria, pero crea faltas disciplinarias para jueces y fiscales sin modificar sus leyes de carrera (principio de tipicidad), incluye en una ley de 'función jurisdiccional' a tribunales administrativos y árbitros ya regulados por otras leyes, y crea un tercer registro de algoritmos paralelo al de IA-01.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 6",
+    "problema": "Tipifica 'falta disciplinaria' sin incorporarla al catálogo cerrado de la Ley 29277, Ley de la Carrera Judicial (arts. 46 a 48) ni de la Ley 30483, Ley de la Carrera Fiscal; para abogados de parte, la potestad sancionadora está en la LOPJ (TUO D.S. 017-93-JUS, art. 292) y el CPC. Sin esa modificación, la falta no es aplicable (tipicidad).",
+    "correccion": "Incorporar: 'numeral X al artículo 47 de la Ley 29277: «Incorporar en resoluciones citas normativas o jurisprudenciales inexistentes obtenidas mediante IA generativa sin verificación»'; igual en el artículo correspondiente de faltas graves de la Ley 30483; y para abogados modificar el art. 292 del TUO de la LOPJ."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 2",
+    "problema": "Mezcla la función jurisdiccional con tribunales administrativos (que ejercen función administrativa sujeta al TUO de la Ley 27444, aprobado por D.S. 006-2026-JUS) y arbitraje (D.Leg. 1071). Superpone con IA-02 (que ya regula decisiones administrativas automatizadas).",
+    "correccion": "Restringir el art. 2 al Poder Judicial, Ministerio Público, TC y JNJ; y disponer: 'Los tribunales administrativos se rigen por la Ley 27444 en materia de decisiones automatizadas'. Para arbitraje, incorporar regla en el D.Leg. 1071."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 7",
+    "problema": "Tercer registro de sistemas de IA (además del Registro Nacional de Algoritmos Públicos de IA-01 y del registro de IA-14), y remite a un registro 'que se cree por ley' (remisión en blanco).",
+    "correccion": "'Cada institución inscribe sus sistemas en el Registro Nacional de Algoritmos Públicos' si IA-01 se aprueba; de lo contrario, 'publica en su portal de transparencia la relación de sistemas de IA en uso'."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "efecto_vigencia",
+    "problema": "Dice 'complementa la LOPJ y la LOMP' sin cita y omite las leyes de carrera y del TC/JNJ. Las leyes orgánicas no requieren modificarse si no se altera su estructura, pero sí deben citarse.",
+    "correccion": "'Complementa el TUO de la Ley Orgánica del Poder Judicial (D.S. 017-93-JUS), el D.Leg. 052 (LOMP), la Ley 28301 (LOTC) y la Ley 30916 (LOJNJ); modifica las Leyes 29277 y 30483'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "antecedentes",
+    "problema": "Antecedentes verificados.",
+    "correccion": "'Periodo 2021-2026: PL 05959/2023-CR, que incorpora la IA en el expediente judicial electrónico (en comisión); PL 05763/2023-CR, reforma constitucional que establece el uso de IA como principio de la administración de justicia (en comisión); PL 05814/2023-CR, reforma constitucional sobre uso de IA por el Ministerio Público (en comisión)'."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 29277, art. 47 — incorpora falta",
+    "Ley 30483, artículo de faltas graves — incorpora falta",
+    "TUO LOPJ (D.S. 017-93-JUS), art. 292 — modifica (abogados)",
+    "D.Leg. 052 (LOMP) — complementa",
+    "Ley 28301 y Ley 30916 — complementa",
+    "D.Leg. 1071 — complementa (arbitraje)",
+    "Ley 31814, art. 2 — complementa",
+    "D.S. 115-2025-PCM, art. 23.1 lit. f) — complementa"
+   ],
+   "entidades_implicadas": [
+    "Poder Judicial (Consejo Ejecutivo)",
+    "Ministerio Público",
+    "Tribunal Constitucional",
+    "Junta Nacional de Justicia",
+    "Autoridad Nacional de Control del PJ y del MP",
+    "Academia de la Magistratura"
+   ],
+   "antecedentes_propuestos": "PL 05959/2023-CR; PL 05763/2023-CR; PL 05814/2023-CR."
+  }
+ },
+ {
+  "id": "IA-10",
+  "especialidad": "normativo",
+  "veredicto": "observaciones",
+  "resumen": "La novedad real son los entornos seguros de acceso y el estándar de datos sintéticos. El art. 14-A propuesto duplica en gran parte el art. 14, numeral 8 de la Ley 29733 (no se requiere consentimiento cuando se aplica anonimización o disociación) y el art. 41 del D.S. 016-2024-JUS; y usa 'seudonimización', término ajeno al sistema peruano, que la denomina 'disociación' (art. 2 Ley 29733, reversible).",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 6 (art. 14-A Ley 29733)",
+    "problema": "Duplicidad: el art. 14, numeral 8 de la Ley 29733 ya exime de consentimiento el tratamiento con 'procedimiento de anonimización o disociación', y el art. 6 (principio de finalidad) ya excluye las actividades de valor estadístico o científico con disociación. Un 14-A paralelo crea dos reglas sobre el mismo supuesto.",
+    "correccion": "Sustituir el art. 6 por: 'Modifícase el numeral 8 del artículo 14 de la Ley 29733: «8. Cuando se hubiera aplicado un procedimiento de anonimización o disociación. En el caso de datos disociados destinados a investigación científica o estadística de interés público, incluido el desarrollo y evaluación de sistemas de IA, el tratamiento se realiza en un entorno seguro de acceso autorizado conforme a ley y sin adoptar decisiones sobre personas concretas.»'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 2 (definiciones)",
+    "problema": "Definiciones paralelas: la Ley 29733 (art. 2) ya define 'procedimiento de anonimización' (irreversible) y 'procedimiento de disociación' (reversible). Introducir 'seudonimización' crea un tercer concepto con el mismo contenido que la disociación.",
+    "correccion": "Suprimir literales a) y b) y remitir: 'Los términos anonimización y disociación tienen el significado del artículo 2 de la Ley 29733'. Mantener solo 'datos sintéticos' y 'entorno seguro de acceso'."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 7.2",
+    "problema": "Tras el D.Leg. 1353, las infracciones a la Ley 29733 se tipifican en el reglamento (D.S. 016-2024-JUS, arts. 131 a 134); declarar 'infracción muy grave' en una ley sin engarce con el art. 38 genera dispersión.",
+    "correccion": "'Incorpórase como infracción muy grave en el artículo 38 de la Ley 29733 la reidentificación o tentativa de reidentificación de titulares a partir de datos anonimizados, disociados o sintéticos'; y disponer la adecuación del art. 134 del D.S. 016-2024-JUS."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Disposición Complementaria Final Tercera",
+    "problema": "Vigencia diferida a la publicación del reglamento, sin fijar desde cuándo corre el plazo de 120 días: riesgo de inaplicabilidad.",
+    "correccion": "Primera DCF: 'en un plazo de ciento veinte días hábiles contados desde el día siguiente de la publicación de la presente ley'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 4 — INEI",
+    "problema": "Los microdatos del INEI están sujetos a la confidencialidad del Sistema Estadístico Nacional (D.Leg. 604). Debe precisarse la compatibilidad.",
+    "correccion": "Añadir 4.4: 'El acceso a información del Sistema Estadístico Nacional en entornos seguros se rige por la confidencialidad del D.Leg. 604, que no se opone al acceso de investigadores acreditados sin extracción de datos individuales'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Superposición con IA-04 e IA-08",
+    "problema": "IA-04 (apertura y estándar de datos para IA) e IA-08 (datos clínicos anonimizados de referencia) crean estándares concurrentes de anonimización.",
+    "correccion": "Disponer que el estándar del art. 3 sea el único estándar nacional de anonimización y que IA-04 e IA-08 remitan a él."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "antecedentes",
+    "problema": "No hay proyectos específicos; sí uno general de modificación de la Ley 29733.",
+    "correccion": "'Por verificar en SPLEY: no se identificaron proyectos del periodo 2021-2026 sobre anonimización o datos sintéticos; relacionado: PL 04708/2022-CR, que modifica la Ley 29733 (en comisión)'."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 29733, art. 14, numeral 8 — modifica",
+    "Ley 29733, art. 38 (modificado por D.Leg. 1353) — incorpora infracción muy grave",
+    "D.S. 016-2024-JUS, arts. 41 y 134 — adecúa",
+    "D.Leg. 604 (Sistema Estadístico Nacional) — complementa",
+    "D.L. 1412 y D.U. 007-2020, art. 13 (Centro Nacional de Datos) — complementa"
+   ],
+   "entidades_implicadas": [
+    "ANPD/MINJUSDH — estándar y sanción",
+    "INEI — entornos seguros",
+    "PCM/SGTD",
+    "Entidades custodias de registros administrativos (MINSA, MINEDU, MIDIS)"
+   ],
+   "antecedentes_propuestos": "PL 04708/2022-CR (relacionado)."
+  }
+ },
+ {
+  "id": "IA-11",
+  "especialidad": "normativo",
+  "veredicto": "observaciones_graves",
+  "resumen": "Fin legítimo, pero la creación de un organismo técnico especializado por ley de iniciativa parlamentaria contraviene el art. 28 de la Ley 29158 (LOPE, ley orgánica): los organismos públicos especializados se crean por ley 'a iniciativa del Poder Ejecutivo'. Además ignora que la misma dirección general del MINJUSDH ejerce la Autoridad Nacional de Transparencia (D.Leg. 1353), cuya separación debe regularse.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 2 / Artículo 1",
+    "problema": "Art. 28 de la Ley 29158: los Organismos Técnicos Especializados se crean y disuelven 'por Ley a iniciativa del Poder Ejecutivo'; art. 29 exige además el plan inicial de actuación aprobado por el sector. Una ley de iniciativa congresal que crea el OTE colisiona con norma orgánica y además genera gasto (pliego nuevo, art. 79 de la Constitución).",
+    "correccion": "Reformular como: 'Artículo 2. Autonomía funcional de la Autoridad. La Autoridad Nacional de Protección de Datos Personales ejerce sus funciones con autonomía técnica y funcional dentro del MINJUSDH ...' y una DCF: 'El Poder Ejecutivo evalúa, en un plazo de un año, la conversión de la ANPD en organismo técnico especializado, conforme a los artículos 28 y 29 de la Ley 29158'. Alternativa: que la iniciativa la asuma el Poder Ejecutivo."
+   },
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 3 (art. 32 Ley 29733)",
+    "problema": "El texto vigente del art. 32 fue modificado por el D.Leg. 1353 y asigna la condición de autoridad al MINJUSDH a través de la Dirección General de Transparencia, Acceso a la Información Pública y Protección de Datos Personales, que también es la Autoridad Nacional de Transparencia y Acceso a la Información Pública. Trasladar 'la dirección' (DCF Primera) arrastra funciones de transparencia que la ley no reasigna.",
+    "correccion": "DCF Primera: 'Se transfieren a la ANPD únicamente las funciones, acervo, personal y recursos vinculados a protección de datos personales; las de transparencia y acceso a la información pública permanecen en el MINJUSDH conforme al D.Leg. 1353'. Citar 'art. 32 de la Ley 29733, modificado por el D.Leg. 1353'."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 5 lit. c)",
+    "problema": "'Opinión técnica vinculante en el espacio controlado de pruebas de IA' remite a una figura que solo existe si se aprueba IA-03; además IA-03 art. 2.2 ya prevé su participación obligatoria.",
+    "correccion": "'c) participar, conforme a la ley de la materia, en los espacios controlados de pruebas de sistemas de IA cuando haya tratamiento de datos personales'."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 7 — superposición con PCM/SGTD",
+    "problema": "Una 'unidad de supervisión algorítmica' en la ANPD se superpone con la función de supervisión y monitoreo de IA que los arts. 34 y 35 del D.S. 115-2025-PCM atribuyen a la SGTD/CNSD.",
+    "correccion": "Precisar: 'limitada a tratamientos de datos personales; la supervisión del cumplimiento de la Ley 31814 corresponde a la SGTD'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "efecto_vigencia",
+    "problema": "Omite el D.Leg. 1353 y el ROF del MINJUSDH; y el art. 36 de la Ley 29733 (recursos de la Autoridad) debe modificarse si cambian los recursos.",
+    "correccion": "'Modifica los artículos 32 y 36 de la Ley 29733 (modificados por D.Leg. 1353); requiere modificar el ROF del MINJUSDH'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "antecedentes",
+    "problema": "Sin proyectos específicos de autonomía de la ANPD.",
+    "correccion": "'Por verificar en SPLEY: no se identificaron proyectos del periodo 2021-2026 que creen la ANPD como organismo autónomo; relacionado: PL 04708/2022-CR, que modifica la Ley 29733 (en comisión)'."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 29733, art. 32 (modificado por D.Leg. 1353) — modifica",
+    "Ley 29733, art. 33 — modifica (funciones adicionales)",
+    "Ley 29733, art. 36 — modifica (recursos)",
+    "D.Leg. 1353 — complementa (deslinde con Autoridad Nacional de Transparencia)",
+    "Ley 29158, arts. 28, 29 y 33 — aplica (requisitos de creación de OTE)",
+    "ROF del MINJUSDH — adecúa",
+    "D.S. 115-2025-PCM, arts. 26.2 y 36.2 — complementa"
+   ],
+   "entidades_implicadas": [
+    "MINJUSDH (DGTAIPD) — transfiere funciones",
+    "PCM — adscripción",
+    "SERVIR — concurso",
+    "MEF — creación de pliego"
+   ],
+   "impacto_economico": "Crear un pliego implica gasto nuevo (órganos de administración, sistemas, personal directivo); la cláusula 'sin demandar recursos adicionales' no es verosímil para un OTE con consejo directivo de tres miembros. Debe cuantificarse con el plan inicial de actuación.",
+   "antecedentes_propuestos": "PL 04708/2022-CR (relacionado)."
+  }
+ },
+ {
+  "id": "IA-12",
+  "especialidad": "normativo",
+  "veredicto": "observaciones",
+  "resumen": "La portabilidad YA está reconocida en el art. 76 del Reglamento (D.S. 016-2024-JUS) como manifestación del derecho de acceso, con vigencia diferida de 6 meses; el problema lo describe como mera habilitación. La propuesta es útil para darle rango legal, pero debe reconocer y armonizar ese art. 76 (excepciones por carga excesiva, datos inferidos) y coordinar con ECO-06 (finanzas abiertas).",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Exposición de motivos / problema y efecto_vigencia",
+    "problema": "Omite que el art. 76 del D.S. 016-2024-JUS ya regula la portabilidad (76.1 a 76.7), incluida la transmisión directa 'cuando sea técnicamente posible' y la exclusión del sector público (76.6). Presentarlo como vacío es inexacto.",
+    "correccion": "Reemplazar en el problema: 'El art. 76 del Reglamento (D.S. 016-2024-JUS) reconoce la portabilidad como manifestación del derecho de acceso, pero con rango reglamentario y con una excepción amplia por carga excesiva (76.2); la presente ley la eleva a rango legal y fija plazos y API obligatorias'. efecto_vigencia: 'Eleva a rango legal y modifica el contenido del art. 76 del D.S. 016-2024-JUS, que debe adecuarse'."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 2 (ubicación 21-A)",
+    "problema": "El art. 21 de la Ley 29733 regula el 'derecho a impedir el suministro'; la portabilidad es una manifestación del acceso (art. 19). Ubicarla como 21-A rompe la lógica sistemática.",
+    "correccion": "'Incorpórase el artículo 19-A a la Ley 29733' (verificar que no exista)."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 7",
+    "problema": "La calificación de 'infracción grave' debe incorporarse al art. 38 de la Ley 29733 (modificado por D.Leg. 1353) y al art. 133 del D.S. 016-2024-JUS.",
+    "correccion": "'Incorpórase como infracción grave en el artículo 38 de la Ley 29733 la negativa injustificada a atender el derecho de portabilidad ...'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Disposición Complementaria Final Segunda — conflicto con ECO-06",
+    "problema": "IA-12 excluye el sistema financiero y ECO-06 crea portabilidad de datos financieros: correcto solo si ECO-06 se tramita; si no, el sector financiero queda sin portabilidad legal y con el art. 76 reglamentario.",
+    "correccion": "'La portabilidad de datos en el sistema financiero se rige por su ley especial; en lo no previsto, se aplica la presente ley'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "antecedentes",
+    "problema": "Sin proyectos sobre portabilidad.",
+    "correccion": "'Por verificar en SPLEY: no se identificaron proyectos del periodo 2021-2026 sobre portabilidad de datos personales; relacionado: PL 04708/2022-CR (modifica la Ley 29733) y PL 14322/2025-CR (protección frente a recolección y comercialización indebida en plataformas)'."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 29733, art. 19-A — incorpora (portabilidad)",
+    "Ley 29733, art. 38 — incorpora infracción grave",
+    "D.S. 016-2024-JUS, arts. 76 y 133 — adecúa",
+    "D.U. 007-2020 — complementa",
+    "Ley 29571, Código de Protección y Defensa del Consumidor — complementa (servicios digitales)"
+   ],
+   "entidades_implicadas": [
+    "ANPD/MINJUSDH — estándares y tutela",
+    "PCM/SGTD — estándares técnicos",
+    "INDECOPI — competencia",
+    "SBS — régimen financiero especial (ECO-06)"
+   ],
+   "antecedentes_propuestos": "PL 04708/2022-CR; PL 14322/2025-CR (relacionados)."
+  }
+ },
+ {
+  "id": "IA-13",
+  "especialidad": "normativo",
+  "veredicto": "observaciones",
+  "resumen": "Diagnóstico correcto y verificado: el art. 32.1 del D.S. 115-2025-PCM hace voluntaria la evaluación de impacto para el sector privado. Debe precisar el engarce sancionador (el catálogo de infracciones está en el D.S. 019-2006-TR, no en la Ley 28806), distinguir la competencia de SERVIR para el régimen del servicio civil y deslindar con ECO-11 (plataformas) e IA-02.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 6",
+    "problema": "Las infracciones en materia de relaciones laborales se tipifican en el Reglamento de la Ley 28806 (D.S. 019-2006-TR, arts. 24 a 25); remitir a 'la Ley 28806 y su reglamento, que se adecúa' deja la conducta sin tipificar hasta la adecuación. Además, la SUNAFIL no fiscaliza a entidades públicas respecto de servidores del régimen de la Ley 30057.",
+    "correccion": "'Incorpórase en el artículo 25 del Reglamento de la Ley 28806, aprobado por D.S. 019-2006-TR, como infracción grave ...' (o disponer su incorporación por el Ejecutivo en 60 días). Añadir 6.2: 'En el sector público, la supervisión corresponde a SERVIR conforme a la Ley 30057, sin perjuicio de la competencia de SUNAFIL respecto del personal del régimen laboral privado'."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 2 — conflicto con ECO-11",
+    "problema": "IA-13 se aplica a plataformas 'sin perjuicio de la calificación jurídica de la relación', mientras ECO-11 crea un régimen específico para personas que prestan servicios por plataformas de reparto y movilidad. Ambos regulan transparencia algorítmica y desconexiones/desactivaciones de forma independiente.",
+    "correccion": "Añadir 2.2: 'Respecto de las personas que prestan servicios a través de plataformas digitales de reparto y movilidad, las obligaciones de transparencia algorítmica se rigen por su ley especial; la presente ley se aplica supletoriamente'. Uniformar plazos de revisión humana con ECO-11."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 4.3",
+    "problema": "Choca con la clasificación del D.S. 115-2025-PCM, art. 24.1 lit. i), que califica la inferencia de emociones en el trabajo como 'riesgo alto' (permitido con controles), no como uso indebido. La ley prevalece, pero debe ordenar la adecuación.",
+    "correccion": "Añadir DCF: 'Adecúase el art. 24.1 lit. i) del Reglamento de la Ley 31814 a lo dispuesto en el numeral 4.3'. Y concordar la 'vigilancia fuera de la jornada' con el derecho a la desconexión digital de la Ley 31572, Ley del Teletrabajo."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 5",
+    "problema": "Remite a 'la evaluación de impacto prevista en el Reglamento de la Ley 31814' que para privados es el art. 32 (voluntaria); debe decirse que se vuelve obligatoria.",
+    "correccion": "'realizan obligatoriamente la evaluación de impacto a que se refiere el artículo 32 del Reglamento de la Ley 31814 ...'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "antecedentes",
+    "problema": "Antecedentes verificados (plataformas).",
+    "correccion": "'Periodo 2021-2026: PL 00667/2021-CR, que regula la relación entre plataformas digitales y las personas que prestan servicio de reparto o movilidad (en comisión); PL 00018/2021-CR, beneficios laborales para repartidores por plataformas (en comisión). Periodo 2026-2031: PL 00355-2026-2031-CD (actualiza el PL 06655/2023-CR), registro de prestadores de delivery por plataformas (en comisión). No se identificaron proyectos sobre gestión algorítmica laboral en general'."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "D.S. 019-2006-TR (Reglamento de la Ley 28806), art. 25 — incorpora infracción",
+    "Ley 28806 — complementa",
+    "D.S. 115-2025-PCM, arts. 24.1 lit. i) y 32.1 — adecúa",
+    "Ley 31572, Ley del Teletrabajo — complementa (desconexión digital)",
+    "Ley 29733, art. 23 — complementa",
+    "Ley 30057 — complementa (sector público)"
+   ],
+   "entidades_implicadas": [
+    "MTPE — observatorio y reconversión",
+    "SUNAFIL — fiscalización",
+    "SERVIR — sector público",
+    "Consejo Nacional de Trabajo y Promoción del Empleo",
+    "ANPD"
+   ],
+   "antecedentes_propuestos": "PL 00667/2021-CR; PL 00018/2021-CR; PL 00355-2026-2031-CD."
+  }
+ },
+ {
+  "id": "IA-14",
+  "especialidad": "normativo",
+  "veredicto": "observaciones",
+  "resumen": "Ley 32069 y D.S. 009-2025-EF correctamente citados; la Ley 32069 ya regula la compra pública de innovación (art. 38). La técnica de 'incorporar una disposición complementaria final' sin número es defectuosa: la Ley 32069 tiene DCF hasta la Vigésima Novena. Debe coordinarse con GOB-03, GOB-04 y GOB-13, que también modifican la Ley 32069 o regulan software, nube y portabilidad.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 7",
+    "problema": "Incorpora 'una disposición complementaria final' sin numeración. El texto original de la Ley 32069 llega a la Vigésima Novena DCF; leyes posteriores pudieron añadir otras.",
+    "correccion": "'Incorpórase la Trigésima Disposición Complementaria Final a la Ley 32069 ...' previa verificación en el texto consolidado vigente (si ya existe, usar el ordinal siguiente libre)."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Conflicto/superposición con GOB-03, GOB-04 y GOB-13",
+    "problema": "GOB-04 modifica la Ley 32069 en compra pública de innovación (art. 38); GOB-03 impone código abierto por defecto (Ley 28612) y GOB-13 regula portabilidad y soberanía de datos en nube. IA-14 art. 4 lit. c) y f) y art. 5 regulan lo mismo con estándares distintos ('preferir software libre cuando sea equivalente' vs 'código abierto por defecto').",
+    "correccion": "Unificar: art. 5 'se aplica la regla de software público y código abierto por defecto de la ley de la materia'; art. 4 lit. c) y f): 'conforme a las reglas de portabilidad y localización del marco de nube del Estado'; art. 8: 'conforme al artículo 38 de la Ley 32069'."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 6",
+    "problema": "Remite a 'el registro público de algoritmos que establezca la ley' (remisión en blanco).",
+    "correccion": "'... y se consignan en el Registro Nacional de Algoritmos Públicos' (si se aprueba IA-01) o 'se publican en el SEACE'."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Disposiciones Complementarias Finales Primera y Cuarta",
+    "problema": "Vigencia condicionada a la 'adecuación reglamentaria' cuyo plazo de 120 días no tiene fecha de inicio: riesgo de inaplicabilidad indefinida.",
+    "correccion": "Primera DCF: 'en un plazo de ciento veinte días hábiles contados desde la publicación de la presente ley'. Cuarta: 'La presente ley rige al día siguiente de su publicación; los artículos 3 a 6 son exigibles a partir de la vigencia de la adecuación reglamentaria o, a más tardar, a los ciento ochenta días hábiles de su publicación'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 5",
+    "problema": "El art. 28.8 del D.S. 115-2025-PCM ya obliga a publicar el código fuente de IA financiada con fondos públicos en la Plataforma Nacional de Software Público; debe concordarse para evitar contratos que lo impidan.",
+    "correccion": "Añadir lit. g) al art. 4: 'licencia que permita cumplir el art. 28.8 del Reglamento de la Ley 31814 cuando el sistema sea desarrollado a medida con fondos públicos'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "antecedentes",
+    "problema": "Antecedente relacionado verificado (ley publicada).",
+    "correccion": "'Antecedente: PL 06485/2023-CR, Ley que fortalece la transparencia en las contrataciones públicas a través del uso de la tecnología (publicada en El Peruano). No se identificaron proyectos sobre contratación pública de IA'."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 32069, Trigésima DCF (o siguiente libre) — incorpora",
+    "Ley 32069, art. 38 (CPI) — complementa",
+    "D.S. 009-2025-EF (Reglamento de la Ley 32069) — adecúa (cláusulas modelo, conformidad)",
+    "D.S. 115-2025-PCM, arts. 25.3, 28.8, 28.11 y 30 — complementa",
+    "Ley 28612 — complementa",
+    "D.U. 007-2020 y D.S. 126-2025-PCM — complementa"
+   ],
+   "entidades_implicadas": [
+    "MEF/DGA (ente rector del Sistema Nacional de Abastecimiento)",
+    "OECE — bases estándar",
+    "PCM/SGTD",
+    "Contraloría General de la República — acceso para auditoría"
+   ],
+   "antecedentes_propuestos": "PL 06485/2023-CR (relacionado)."
+  }
+ },
+ {
+  "id": "CIB-01",
+  "especialidad": "normativo",
+  "veredicto": "observaciones_graves",
+  "resumen": "Diagnóstico y normas citadas verificados (D.U. 007-2020; D.S. 126-2025-PCM, publicado nov-2025 y vigente a los 90 días; Ley 30999; Res. SBS 504-2021). Pero crea un organismo técnico especializado por iniciativa congresal contra el art. 28 de la Ley 29158, su modificatoria del D.U. 007-2020 es genérica y su régimen sancionador colisiona con CIB-02 (supervisión sectorial), generando riesgo de doble sanción.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 4",
+    "problema": "Art. 28 de la Ley 29158 (LOPE): los Organismos Técnicos Especializados se crean 'por Ley a iniciativa del Poder Ejecutivo'; art. 29 exige plan inicial de actuación aprobado por el sector. Además crea pliego (gasto, art. 79 de la Constitución).",
+    "correccion": "Opción A (iniciativa congresal): no crear OTE; 'Artículo 4. Autoridad Nacional de Ciberseguridad. La PCM, a través de la SGTD y del Centro Nacional de Seguridad Digital, es la Autoridad Nacional de Ciberseguridad, con potestad normativa, supervisora y sancionadora'. DCF: 'El Poder Ejecutivo evalúa la creación de un organismo técnico especializado conforme a los artículos 28 y 29 de la Ley 29158'. Opción B: que la iniciativa la presente el Poder Ejecutivo."
+   },
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 9 — conflicto con CIB-02 art. 8 y CIB-03",
+    "problema": "CIB-01 atribuye a la ANC la potestad sancionadora general (multas hasta 1000 UIT) sobre operadores de servicios esenciales; CIB-02 art. 8 asigna la supervisión y sanción al regulador sectorial y a la ANC solo donde no hay supervisor. Sin regla de deslinde, el mismo incumplimiento (p. ej., no notificar) es sancionable por dos autoridades (non bis in idem, art. 248.11 del TUO de la Ley 27444).",
+    "correccion": "Añadir 9.3: 'Cuando el infractor esté sujeto a un organismo regulador o supervisor sectorial, la potestad sancionadora corresponde a este; la Autoridad Nacional ejerce la potestad residual. En ningún caso se sanciona dos veces el mismo hecho'. Y armonizar CIB-02 art. 8 y CIB-03 con este texto."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Disposición Complementaria Modificatoria Única",
+    "problema": "Modificación genérica ('para precisar que las referencias...'): la técnica legislativa exige identificar artículos. Las referencias al CNSD están en los arts. 7, 8 y 9 del D.U. 007-2020; la rectoría del Marco está en sus arts. 5 y 6, y el Marco de Seguridad Digital en los arts. 32 y 33 del D.L. 1412.",
+    "correccion": "'Modifícanse los artículos 5, 7 y 8 del D.U. 007-2020 ...' con texto completo, y 'Modifícase el artículo 32 del D.L. 1412 ...'. Disponer la adecuación del D.S. 126-2025-PCM (arts. 20 a 36)."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 2",
+    "problema": "Remite a operadores 'conforme a la ley de la materia' (ley inexistente; es CIB-02, propuesta). Remisión en blanco.",
+    "correccion": "Si se tramitan juntas, fusionar CIB-01, CIB-02 y CIB-03 en una sola Ley Marco con títulos (institucionalidad; operadores esenciales; notificación). Si no, definir los operadores en el propio art. 2 por remisión al art. 9.1 del D.U. 007-2020."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 6 — superposición con CIB-13",
+    "problema": "CIB-13 crea un equipo de respuesta electoral con reglas propias; debe integrarse como CSIRT sectorial del Sistema Nacional.",
+    "correccion": "Añadir: 'Los organismos del sistema electoral constituyen un CSIRT sectorial integrado al Sistema Nacional'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "antecedentes",
+    "problema": "Los códigos citados existen; precisar estado y añadir otros.",
+    "correccion": "'Periodo 2021-2026 (SPLEY): PL 09906/2024-CR, Ley de seguridad digital o ciberseguridad (con dictamen); PL 08842/2024-CR, interés nacional del Comité de Alto Nivel de Ciberseguridad (con dictamen); PL 12926/2025-CR, Superintendencia Nacional de Transformación y Seguridad Digital (en comisión); PL 13568/2025-CR, fortalece el sistema nacional de ciberseguridad para infraestructuras críticas (en comisión); PL 01776/2021-CR, Centro Nacional de Ciberseguridad (orden del día). Ninguno fue publicado como ley'."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "D.U. 007-2020, arts. 5, 6, 7, 8 y 9 — modifica (rectoría, CNSD, registro, obligaciones)",
+    "D.L. 1412, arts. 32 y 33 (Marco de Seguridad Digital) — modifica",
+    "D.S. 126-2025-PCM, arts. 20 a 36 — adecúa",
+    "Ley 30999 — complementa (deslinde con ciberdefensa)",
+    "Ley 29158, arts. 28 y 29 — aplica",
+    "TUO Ley 27444 (D.S. 006-2026-JUS), art. 248 — aplica (non bis in idem)",
+    "D.S. 085-2023-PCM — complementa"
+   ],
+   "entidades_implicadas": [
+    "PCM/SGTD y CNSD — autoridad actual",
+    "MINDEF/CCFFAA — ciberdefensa (Ley 30999)",
+    "DINI — activos críticos",
+    "SBS, OSIPTEL, OSINERGMIN, SUNASS, SUSALUD — CSIRT sectoriales",
+    "Contraloría"
+   ],
+   "impacto_economico": "Costo medio-alto si se crea pliego (sede, sistemas, personal especializado). Sin cuantificación no puede afirmarse financiamiento con multas, que además son ingresos inciertos.",
+   "antecedentes_propuestos": "PL 09906/2024-CR; PL 08842/2024-CR; PL 12926/2025-CR; PL 13568/2025-CR; PL 01776/2021-CR."
+  }
+ },
+ {
+  "id": "CIB-02",
+  "especialidad": "normativo",
+  "veredicto": "observaciones",
+  "resumen": "Normas verificadas (D.S. 106-2017-PCM, Res. SBS 504-2021, D.U. 007-2020, D.S. 126-2025-PCM). La lista de sectores esenciales duplica parcialmente el art. 9.1 del D.U. 007-2020 y la regla de supervisión choca con CIB-01. Debe fusionarse con CIB-01/CIB-03 o, al menos, compartir definiciones.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 2",
+    "problema": "El art. 9.1 del D.U. 007-2020 ya enumera sujetos obligados (financiero, servicios básicos —energía eléctrica, agua y gas—, salud, transporte de personas, proveedores de internet, actividades críticas y servicios educativos). La nueva lista difiere (incluye hidrocarburos y emergencias, omite educación) y no deroga ni modifica la anterior: coexistirían dos catálogos.",
+    "correccion": "Añadir: 'Modifícase el numeral 9.1 del artículo 9 del D.U. 007-2020, cuyo listado se sustituye por el del artículo 2 de la presente ley' o remitir expresamente a él."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 8 — conflicto con CIB-01 art. 9",
+    "problema": "Supervisión sectorial vs. sanción general de la ANC en CIB-01: doble potestad sobre el mismo operador.",
+    "correccion": "Adoptar la regla de deslinde propuesta en CIB-01 (prevalencia del supervisor sectorial; potestad residual de la autoridad nacional; prohibición de doble sanción)."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 4 lit. b) — superposición con CIB-12",
+    "problema": "El Oficial de Seguridad y Confianza Digital ya existe para entidades públicas (D.S. 126-2025-PCM, arts. 11 y 15) y CIB-12 lo hace obligatorio con línea de carrera. Para privados no hay perfil legal.",
+    "correccion": "'b) designan un oficial de seguridad y confianza digital, con el perfil del Reglamento del D.U. 007-2020 ...'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 4 lit. e)",
+    "problema": "Remite a notificación 'conforme a la ley de la materia' (CIB-03, propuesta). Hoy rige el art. 32 del D.S. 126-2025-PCM (48 horas para incidentes críticos).",
+    "correccion": "'e) notifican incidentes al Centro Nacional de Seguridad Digital conforme al D.U. 007-2020 y su reglamento o a la ley especial que lo sustituya'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Disposición Complementaria Final Primera",
+    "problema": "Plazo de reglamentación contado 'desde su entrada en vigencia' sin DCF de vigencia: rige al día siguiente (art. 109 de la Constitución); conviene explicitar.",
+    "correccion": "Añadir DCF: 'Vigencia. La presente ley entra en vigencia al día siguiente de su publicación; las obligaciones del artículo 4 son exigibles conforme a la Segunda DCF'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "antecedentes",
+    "problema": "Antecedentes verificados.",
+    "correccion": "'Periodo 2021-2026: PL 13568/2025-CR, que fortalece el sistema nacional de ciberseguridad para la protección de las infraestructuras críticas (en comisión); PL 09906/2024-CR, Ley de seguridad digital o ciberseguridad (con dictamen)'."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "D.U. 007-2020, art. 9.1 — modifica (sujetos obligados)",
+    "D.S. 106-2017-PCM — complementa (Activos Críticos Nacionales)",
+    "D.S. 126-2025-PCM, arts. 11, 15, 18 y 32 — adecúa",
+    "Res. SBS 504-2021 — complementa (equivalencia)",
+    "Leyes de creación de OSINERGMIN (Ley 26734), OSIPTEL, SUNASS, SUSALUD — complementa (tipificación sectorial)"
+   ],
+   "entidades_implicadas": [
+    "Organismos reguladores (OSIPTEL, OSINERGMIN, SUNASS, OSITRAN) — supervisión",
+    "SBS",
+    "SUSALUD",
+    "DINI — Activos Críticos Nacionales",
+    "PCM/SGTD/CNSD",
+    "Ministerios rectores sectoriales"
+   ],
+   "antecedentes_propuestos": "PL 13568/2025-CR; PL 09906/2024-CR."
+  }
+ },
+ {
+  "id": "CIB-03",
+  "especialidad": "normativo",
+  "veredicto": "observaciones",
+  "resumen": "Diagnóstico verificado: D.S. 126-2025-PCM art. 32.1 (48 h para incidentes críticos al CNSD) y D.S. 016-2024-JUS art. 34.1 (48 h a la ANPD). La ventanilla única es útil, pero la regla 'prevalece el plazo menor' deja los 72 h sin aplicación práctica para incidentes críticos, y debe articularse con CIB-01, CIB-02, CIB-13 y CIB-14, que crean canales o reportes propios.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 4 (plazos)",
+    "problema": "Con la cláusula de prevalencia del plazo menor, todo incidente crítico seguirá sujeto a 48 h (D.S. 126-2025-PCM, art. 32.1; D.S. 016-2024-JUS, art. 34.1), mientras la ley fija 24 h/72 h: coexistirán tres plazos (24, 48, 72) para el mismo evento, contrario al objetivo de unificación.",
+    "correccion": "Redactar: '4.2. Los plazos del presente artículo sustituyen los plazos de notificación de incidentes previstos en el art. 32 del Reglamento del D.U. 007-2020 y en el art. 34.1 del Reglamento de la Ley 29733, que se adecúan. Solo prevalecen plazos menores fijados en leyes sectoriales'."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 7 (confidencialidad)",
+    "problema": "La confidencialidad frente a solicitudes de acceso requiere engarce con el régimen de excepciones del TUO de la Ley 27806 (D.S. 021-2019-JUS).",
+    "correccion": "'La información notificada constituye información confidencial conforme al numeral 6 del artículo 17 del TUO de la Ley 27806 ...'."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Superposición con CIB-14 y CIB-13",
+    "problema": "CIB-14 crea un reporte obligatorio de pagos por extorsión informática y CIB-13 un equipo de respuesta electoral; si tienen canales propios, se destruye la ventanilla única.",
+    "correccion": "Añadir art. 3.2: 'Todo reporte de incidentes o pagos por extorsión informática exigido por ley se presenta a través de la ventanilla única'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 3 — dependencia de CIB-01",
+    "problema": "Usa 'Centro Nacional de Seguridad Digital o el órgano que haga sus veces' (correcto si CIB-01 crea la ANC). Conviene que el Registro Nacional de Incidentes (art. 8 del D.U. 007-2020; art. 29 del D.S. 126-2025-PCM) sea la base de la ventanilla, no una plataforma nueva.",
+    "correccion": "'La ventanilla única se soporta en el Registro Nacional de Incidentes de Seguridad Digital previsto en el artículo 8 del D.U. 007-2020'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Disposiciones",
+    "problema": "Falta DCF de vigencia; y el plazo de reglamentación se cuenta 'desde su entrada en vigencia'.",
+    "correccion": "Añadir DCF: 'La presente ley entra en vigencia al día siguiente de su publicación; los plazos del artículo 4 son exigibles desde la implementación de la ventanilla única'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "antecedentes",
+    "problema": "No se identificaron proyectos específicos.",
+    "correccion": "'Por verificar en SPLEY: no se identificaron proyectos del periodo 2021-2026 sobre notificación única de incidentes; relacionados: PL 09906/2024-CR (Ley de seguridad digital o ciberseguridad, con dictamen) y PL 14045/2025-CR (responsabilidad administrativa de personas jurídicas frente a delitos informáticos y vulneraciones de datos, en comisión)'."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "D.U. 007-2020, art. 8 — modifica (Registro como ventanilla única)",
+    "D.S. 126-2025-PCM, arts. 29 a 34 — adecúa (plazos)",
+    "D.S. 016-2024-JUS, art. 34 — adecúa (plazo y canal)",
+    "Ley 29733, art. 28 — complementa (deber de comunicar a afectados)",
+    "TUO Ley 27806, art. 17 num. 6 — complementa (confidencialidad)",
+    "Res. SBS 504-2021 — adecúa (canal)"
+   ],
+   "entidades_implicadas": [
+    "PCM/SGTD/CNSD — ventanilla",
+    "ANPD/MINJUSDH",
+    "SBS",
+    "OSIPTEL y demás supervisores",
+    "Ministerio Público/PNP (DIVINDAT) — cuando hay delito"
+   ],
+   "antecedentes_propuestos": "PL 09906/2024-CR; PL 14045/2025-CR (relacionados)."
+  }
+ },
+ {
+  "id": "CIB-04",
+  "especialidad": "normativo",
+  "veredicto": "observaciones_graves",
+  "resumen": "Omite dos leyes vigentes que modificaron la Ley 30096: la Ley 32314 (2025), que YA incorporó el numeral 5 del artículo 11 (agravante por uso de IA), y la Ley 32451 (2025), que incorporó el artículo 9-A (activación ilegal de SIM/líneas móviles). El art. 6 colisiona con numeración ocupada, el art. 8-A se superpone con el 9-A y la extorsión informática se pena por debajo de la extorsión común (art. 200 CP).",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 6 (numeral 5 del art. 11)",
+    "problema": "Numeración ocupada: la Ley 32314 (El Peruano, 29-abr-2025) incorporó el numeral 5 al artículo 11 de la Ley 30096 ('El agente comete el delito empleando la inteligencia artificial o tecnologías similares o análogas').",
+    "correccion": "'Incorpórase el numeral 6 al artículo 11 de la Ley 30096 ...' (verificar que los D.Leg. 1700 y 1741 no hayan incorporado otro numeral)."
+   },
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 4 (art. 8-A)",
+    "problema": "Superposición: la Ley 32451 (2025) incorporó el artículo 9-A a la Ley 30096 (activación de SIM o línea móvil sin consentimiento del titular) y su norma complementaria es el D.S. 128-2025-PCM. El 8-A (duplicado, reposición, portabilidad o cambio de titularidad) cubre conductas conexas con penas distintas, generando concurso aparente y desproporción.",
+    "correccion": "Sustituir el art. 4 por: 'Modifícase el artículo 9-A de la Ley 30096, incorporado por la Ley 32451, a fin de comprender la obtención fraudulenta del duplicado, reposición, portabilidad o cambio de titularidad de una línea móvil ajena ...' con una sola escala penal."
+   },
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 2 (art. 4-A, extorsión informática)",
+    "problema": "La extorsión del art. 200 del Código Penal se reprime con pena no menor de 10 ni mayor de 15 años; el 4-A (6 a 12 años) crearía un tipo especial privilegiado: por especialidad, el ransomware pasaría a penarse menos que la extorsión común.",
+    "correccion": "Ajustar la escala: 'no menor de diez ni mayor de quince años' y agravada 'no menor de quince ni mayor de veinticinco años', o tipificarlo como modalidad del art. 200 CP ('Incorpórase un párrafo al artículo 200 del Código Penal ...')."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 5 (art. 9, segundo párrafo) y Artículo 3 (5-A)",
+    "problema": "Doble agravación por el mismo fundamento: el contenido sintético ya activa el art. 11.5 (IA, hasta un tercio sobre el máximo) incorporado por la Ley 32314; sumar un tipo agravado en el art. 9 viola la prohibición de doble valoración. Además, la sextorsión concurre con el art. 154-B del CP (difusión de imágenes de contenido sexual).",
+    "correccion": "Añadir al art. 11: 'La agravante del numeral 5 no se aplica cuando el uso de IA o contenido sintético es elemento del tipo'. En el 5-A, añadir cláusula concursal con los arts. 154-B y 200 del CP."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "efecto_vigencia y normas_relacionadas",
+    "problema": "No menciona las Leyes 32314 y 32451 ni el D.S. 128-2025-PCM.",
+    "correccion": "efecto_vigencia: 'Incorpora los artículos 4-A y 5-A y modifica los artículos 9, 9-A (incorporado por Ley 32451) y 11 (numeral 6; el 5 fue incorporado por Ley 32314) de la Ley 30096'. Agregar Leyes 32314 y 32451 a normas_relacionadas."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 8",
+    "problema": "La conservación rápida sin orden judicial previa debe engarzar con el Código Procesal Penal (D.Leg. 957) para ser aplicable.",
+    "correccion": "'Incorpórase el artículo 230-A al Código Procesal Penal: conservación inmediata de datos informáticos ...' (verificar numeración libre)."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Superposición con CIB-06 e IA-07",
+    "problema": "CIB-06 (suplantación de identificadores telefónicos) e IA-07 (contenido sintético electoral) definen 'contenido sintético' y conductas conexas.",
+    "correccion": "Unificar la definición de contenido sintético en las tres propuestas."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "antecedentes",
+    "problema": "Antecedentes verificados.",
+    "correccion": "'Leyes 32314 (2025, IA como agravante) y 32451 (2025, origen PL 09136/2024-CR, activación ilegal de SIM). Proyectos del periodo 2021-2026: PL 10756/2024-CR, uso indebido de IA en delitos (en agenda del Consejo Directivo); PL 14045/2025-CR y PL 13035/2025-CR, responsabilidad de personas jurídicas por delitos informáticos (en comisión). Periodo 2026-2031: proposición 0098-2026-2031-CD de delegación de facultades (en trámite)'."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 30096, art. 4-A — incorpora",
+    "Ley 30096, art. 5-A — incorpora",
+    "Ley 30096, art. 9 — modifica",
+    "Ley 30096, art. 9-A (incorporado por Ley 32451) — modifica",
+    "Ley 30096, art. 11, numeral 6 — incorpora (el 5 ya existe por Ley 32314)",
+    "Código Penal, arts. 154-B y 200 — complementa (concursos)",
+    "D.Leg. 957, Código Procesal Penal — incorpora artículo (conservación de datos)",
+    "D.Leg. 1373 (extinción de dominio) — complementa",
+    "R.L. 30913 (Convenio de Budapest) — complementa"
+   ],
+   "entidades_implicadas": [
+    "Ministerio Público (fiscalías especializadas en ciberdelincuencia)",
+    "PNP — DIVINDAT",
+    "Poder Judicial",
+    "OSIPTEL y empresas operadoras",
+    "MTC"
+   ],
+   "antecedentes_propuestos": "Leyes 32314 y 32451; PL 10756/2024-CR; PL 14045/2025-CR; PL 13035/2025-CR."
+  }
+ },
+ {
+  "id": "CIB-05",
+  "especialidad": "normativo",
+  "veredicto": "observaciones",
+  "resumen": "No existe ley vigente que distribuya la pérdida por fraude digital entre bancos y operadores (verificado: solo regulación SBS e INDECOPI). La propuesta duplica, sin embargo, obligaciones de verificación de identidad para reposición de chip ya reguladas tras la Ley 32451 y el D.S. 128-2025-PCM, y el bloqueo de remitentes alfanuméricos que regula CIB-06. Debe ubicarse en el Código de Protección y Defensa del Consumidor (Capítulo de servicios financieros).",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 4 lit. a) y c) — duplicidad con Ley 32451/D.S. 128-2025-PCM y con CIB-06",
+    "problema": "La verificación de identidad en activación/reposición de líneas está regulada por la Ley 32451 (art. 9-A de la Ley 30096) y el D.S. 128-2025-PCM, y por las condiciones de uso del OSIPTEL. El bloqueo de remitentes alfanuméricos no registrados es el objeto del art. 4 de CIB-06 (Registro de Remitentes del OSIPTEL).",
+    "correccion": "Lit. a): 'verifican la identidad conforme al D.S. 128-2025-PCM y a la normativa del OSIPTEL, con nivel de garantía biométrico para reposición, duplicado o portabilidad'. Suprimir lit. c) o remitir: 'cumplen las obligaciones del Registro de Remitentes de Mensajes previsto en la ley de la materia'."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Técnica legislativa / efecto_vigencia",
+    "problema": "Ley autónoma sobre una relación de consumo financiero; el Código de Protección y Defensa del Consumidor (Ley 29571) regula los servicios financieros en sus arts. 81 a 95 (verificar numeración actual). Además, el Reglamento de Tarjetas de Crédito y Débito (Res. SBS 6523-2013) ya asigna responsabilidad por operaciones no reconocidas en ciertos supuestos.",
+    "correccion": "Reformular como 'Ley que incorpora el artículo 82-A al Código de Protección y Defensa del Consumidor ...' (verificar numeración libre) y disponer la adecuación de la Res. SBS 6523-2013 y de la Res. SBS 504-2021."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 6",
+    "problema": "El silencio positivo en un reclamo privado colisiona con el régimen del Libro de Reclamaciones (art. 24 de la Ley 29571; D.S. 011-2011-PCM) y con el procedimiento SBS de atención de reclamos; además el plazo general de reclamos es distinto.",
+    "correccion": "'... en un plazo máximo de quince días hábiles, conforme al artículo 24 de la Ley 29571. Vencido el plazo sin respuesta, el usuario puede acudir al INDECOPI, que presume la responsabilidad de la entidad'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 2 lit. b)",
+    "problema": "Excluye a proveedores de pago no supervisados por la SBS sino por el BCRP (Ley 29440), que ECO-07 propone ampliar.",
+    "correccion": "'b) ... o las empresas de servicios de pago bajo supervisión del Banco Central de Reserva del Perú conforme a la Ley 29440'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "antecedentes",
+    "problema": "El código citado existe; hay otros más directos.",
+    "correccion": "'Periodo 2021-2026: PL 03251/2022-CR, responsabilidad de las empresas del sistema financiero ante el fraude informático (en comisión); PL 00398/2021-CR, protección de usuarios financieros frente a fraudes informáticos (orden del día); PL 00906/2021-CR, modifica el art. 82 de la Ley 29571 para proteger tarjetas frente al fraude (con dictamen); PL 10054/2024-CR, devolución por transferencias erróneas de dinero electrónico (en comisión); PL 13494/2025-CR y PL 13240/2025-CR, validación previa de transferencias en billeteras digitales (en comisión)'."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 29571, Capítulo de servicios financieros — incorpora artículo (responsabilidad compartida y reembolso)",
+    "Ley 29571, art. 24 — complementa (plazo de reclamo)",
+    "Res. SBS 504-2021 y Res. SBS 6523-2013 — adecúa",
+    "Ley 32451 y D.S. 128-2025-PCM — complementa (verificación en líneas móviles)",
+    "D.Leg. 1338 (RENTESEG) — complementa",
+    "Ley 29440 — complementa (proveedores de pago)",
+    "Ley 29733, art. 14 — complementa (intercambio antifraude)"
+   ],
+   "entidades_implicadas": [
+    "SBS — supervisión entidades",
+    "OSIPTEL — operadores móviles",
+    "INDECOPI — controversias de consumo",
+    "BCRP — sistemas de pago",
+    "MEF y MTC — refrendo"
+   ],
+   "impacto_economico": "El costo recae en entidades privadas (reembolsos, monitoreo); hay beneficio social por reducción de pérdidas de usuarios. No genera gasto público relevante.",
+   "antecedentes_propuestos": "PL 03251/2022-CR; PL 00398/2021-CR; PL 00906/2021-CR; PL 10054/2024-CR; PL 13494/2025-CR; PL 13240/2025-CR."
+  }
+ },
+ {
+  "id": "CIB-06",
+  "especialidad": "normativo",
+  "veredicto": "observaciones",
+  "resumen": "Normas citadas verificadas (Ley 32323 modificó el art. 58 de la Ley 29571; Ley 28493; D.Leg. 1338). No hay duplicidad con norma legal vigente sobre spoofing, pero sí superposición con CIB-05 (bloqueo de remitentes alfanuméricos) y con las competencias de numeración del MTC, que el texto no considera.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículos 2, 3 y 6 — competencia sobre numeración",
+    "problema": "La administración del Plan Técnico Fundamental de Numeración corresponde al MTC (TUO de la Ley de Telecomunicaciones, D.S. 013-93-TCC, y su Reglamento General, D.S. 020-2007-MTC); el OSIPTEL supervisa. La lista de numeración protegida y el bloqueo de numeración nacional desde el exterior inciden en la numeración.",
+    "correccion": "Añadir en el art. 6: 'El MTC adecúa el Plan Técnico Fundamental de Numeración para la implementación de la presente ley'. Agregar a efecto_vigencia el TUO de la Ley de Telecomunicaciones y su Reglamento General."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 4 — duplicidad con CIB-05 art. 4 lit. c)",
+    "problema": "Ambas propuestas imponen el bloqueo de mensajes con remitentes alfanuméricos no registrados.",
+    "correccion": "Mantener la regla solo en CIB-06 y que CIB-05 remita a ella."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 8",
+    "problema": "El 'Reglamento General de Infracciones y Sanciones' del OSIPTEL es norma del regulador; la ley debe habilitar la tipificación (principio de legalidad, Ley 27336, Ley de Desarrollo de Funciones y Facultades del OSIPTEL).",
+    "correccion": "'... constituye infracción conforme a la Ley 27336; el OSIPTEL tipifica las conductas en su Reglamento General de Infracciones y Sanciones en un plazo de noventa días hábiles'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Disposición Complementaria Final Cuarta",
+    "problema": "Error de concordancia gramatical: 'de el OSIPTEL'.",
+    "correccion": "'del OSIPTEL'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "antecedentes",
+    "problema": "Existe proyecto directamente relacionado.",
+    "correccion": "'PL 13347/2025-CR, que protege del enmascaramiento y de la suplantación de identidad telefónica a los usuarios de los servicios de telefonía (en comisión, periodo 2021-2026). Antecedente normativo: Ley 32323 (2025)'."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 29571, art. 58 (modificado por Ley 32323) — complementa",
+    "TUO Ley de Telecomunicaciones (D.S. 013-93-TCC) y D.S. 020-2007-MTC — complementa/adecúa (numeración)",
+    "Ley 27336 — complementa (potestad sancionadora OSIPTEL)",
+    "Ley 28493 — complementa",
+    "D.Leg. 1338 — complementa",
+    "Ley 29733 — complementa"
+   ],
+   "entidades_implicadas": [
+    "OSIPTEL — registro y sanción",
+    "MTC — numeración",
+    "Empresas operadoras",
+    "Ministerio Público y PNP — investigación",
+    "SBS/entidades financieras — numeración protegida"
+   ],
+   "antecedentes_propuestos": "PL 13347/2025-CR; Ley 32323."
+  }
+ },
+ {
+  "id": "CIB-07",
+  "especialidad": "normativo",
+  "veredicto": "observaciones",
+  "resumen": "No existe norma peruana vigente con requisitos de ciberseguridad para dispositivos conectados de consumo. Pero un requisito obligatorio para comercializar productos es un 'reglamento técnico', sujeto al Sistema Nacional para la Calidad (Ley 30224), a la Decisión 827 de la CAN y al Acuerdo OTC de la OMC; y para equipos de telecomunicaciones ya existe homologación del MTC. Sin ese engarce, la ley sería inaplicable o cuestionable como obstáculo técnico al comercio.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículos 3 a 5 / técnica",
+    "problema": "Los requisitos obligatorios de producto con evaluación de la conformidad constituyen reglamento técnico: deben elaborarse conforme a la Ley 30224 y su reglamento, notificarse a la OMC (Acuerdo OTC) y a la CAN (Decisión 827). La ley no prevé esa ruta ni autoridad reglamentadora sectorial (PRODUCE/MTC).",
+    "correccion": "Redactar el art. 3 como mandato: 'El Ministerio de la Producción, en coordinación con el MTC y la PCM, aprueba mediante reglamento técnico, conforme a la Ley 30224 y a la Decisión 827 de la CAN, los requisitos mínimos de ciberseguridad, que comprenden como mínimo: ...'. Añadir DCF sobre notificación OTC."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 2 / Artículo 5 — homologación MTC",
+    "problema": "Los equipos que operan en bandas del espectro (wifi, bluetooth) ya requieren homologación del MTC (TUO de la Ley de Telecomunicaciones, D.S. 013-93-TCC, y su Reglamento General). Dos evaluaciones de conformidad para el mismo equipo.",
+    "correccion": "Añadir 5.2: 'Para equipos sujetos a homologación del MTC, la declaración de conformidad se presenta en el mismo procedimiento de homologación'."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3 lit. c) — superposición con CIB-11",
+    "problema": "CIB-11 regula la divulgación coordinada de vulnerabilidades y la protección de investigadores; la 'política pública de vulnerabilidades' del fabricante debe remitir a ese régimen.",
+    "correccion": "'c) estén respaldados por una política de recepción y gestión de vulnerabilidades conforme a la ley de divulgación coordinada de vulnerabilidades'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 4 — concordancia con TAL-12",
+    "problema": "TAL-12 (derecho a la reparación de AEE) podría exigir información de soporte y repuestos; la obligación de informar el periodo de soporte debe ser única.",
+    "correccion": "Uniformar el deber de información del periodo de soporte de seguridad con el de soporte/reparación de TAL-12."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 7",
+    "problema": "La fiscalización por INDECOPI en el marco del Código requiere tipificación: el incumplimiento de un reglamento técnico es fiscalizable conforme al art. 2 del Código (idoneidad e información) y a las competencias de fiscalización de reglamentos técnicos.",
+    "correccion": "'INDECOPI fiscaliza ... como infracción al deber de idoneidad (art. 18) y de información (art. 2) de la Ley 29571, sin perjuicio de la fiscalización del reglamento técnico por la autoridad sectorial'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "antecedentes",
+    "problema": "No se identificaron antecedentes específicos.",
+    "correccion": "'Por verificar en SPLEY: no se identificaron proyectos del periodo 2021-2026 sobre ciberseguridad de dispositivos conectados de consumo'."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 30224 (Sistema Nacional para la Calidad) — aplica (reglamento técnico)",
+    "Decisión 827 CAN — aplica",
+    "Ley 29571, arts. 2 y 18 — complementa",
+    "TUO Ley de Telecomunicaciones (D.S. 013-93-TCC) y Reglamento de homologación del MTC — complementa",
+    "D.U. 007-2020 y D.S. 126-2025-PCM — complementa",
+    "Ley 32069 — complementa (compras públicas)"
+   ],
+   "entidades_implicadas": [
+    "PRODUCE — reglamento técnico",
+    "MTC — homologación",
+    "INACAL",
+    "INDECOPI — fiscalización",
+    "PCM/SGTD/CNSD — alertas",
+    "MINCETUR — notificación OTC"
+   ]
+  }
+ },
+ {
+  "id": "CIB-08",
+  "especialidad": "normativo",
+  "veredicto": "observaciones_graves",
+  "resumen": "Duplica en gran medida el DNI digital (DNId) ya vigente: el D.S. 029-2021-PCM (modificado por D.S. 098-2025-PCM) lo regula y el RENIEC aprobó sus lineamientos de emisión y uso por R.J. D000012-2026-RENIEC/JNAC (El Peruano, 1-ago-2026), con emisión gratuita en 2026. El art. 16 del D.L. 1412 ya define el DNIe como credencial de identidad digital, y el D.Leg. 1246 (art. 5 lit. a) ya prohíbe a entidades públicas exigir copia del DNI.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Exposición de motivos / Artículos 2 y 3",
+    "problema": "Omite que el DNId existe y se emite desde 2026 (D.S. 098-2025-PCM; R.J. D000012-2026-RENIEC/JNAC). Crear por ley una 'credencial de identidad digital' y una 'billetera' sin referencia al DNId genera dos instrumentos paralelos del RENIEC.",
+    "correccion": "Reformular el objeto: 'elevar a rango de ley el DNI digital (DNId) previsto en el Reglamento del D.L. 1412 y establecer las garantías de mínima divulgación, no rastreo, aceptación obligatoria y prohibición de copias'. Art. 2: 'Toda persona mayor de edad tiene derecho a obtener gratuitamente el DNI digital ...'. Art. 3: la billetera es el soporte del DNId y de otras credenciales verificables."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 6",
+    "problema": "Para entidades públicas, la prohibición de exigir copia del DNI ya está en el art. 5 lit. a) del D.Leg. 1246 y en el art. 48 del TUO de la Ley 27444 (D.S. 006-2026-JUS). La novedad es el sector privado.",
+    "correccion": "'Artículo 6. Las personas jurídicas de derecho privado no pueden exigir fotocopia, fotografía ni escaneo del DNI a quien se identifique con el DNI digital de nivel de garantía adecuado, salvo mandato legal expreso. Para las entidades públicas rige el artículo 5 del D.Leg. 1246'."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Técnica / ley orgánica",
+    "problema": "Atribuye funciones al RENIEC, organismo constitucionalmente autónomo con ley orgánica (Ley 26497, art. 7). Asignar nuevas funciones de identificación puede requerir modificar su ley orgánica (votación calificada, art. 106 de la Constitución).",
+    "correccion": "Añadir: 'Incorpórase el literal ... al artículo 7 de la Ley 26497 ...: «Emitir y gestionar el DNI digital y la billetera de identidad digital»' y advertir la votación calificada."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 9 — concordancia con CIB-05 y CIB-09",
+    "problema": "La aceptación obligatoria por entidades SBS y OSIPTEL debe concordar con la verificación de identidad para reposición de chips (CIB-05, D.S. 128-2025-PCM) y con la firma digital remota (CIB-09).",
+    "correccion": "Añadir: 'El DNI digital de nivel alto es medio válido de verificación de identidad para la reposición o portabilidad de líneas móviles y para la emisión de certificados de firma digital remota'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "antecedentes",
+    "problema": "Hay proyecto con dictamen sobre la materia.",
+    "correccion": "'PL 06218/2023-CR, Ley de identidad digital (con dictamen, periodo 2021-2026); PL 14760/2025-CR, ciberdelito por uso ilícito de IA y protección de la identidad digital (en comisión). Antecedente normativo: D.S. 098-2025-PCM y R.J. D000012-2026-RENIEC/JNAC (DNI digital)'."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "D.L. 1412, art. 16 — modifica (incorporar DNId y billetera con rango de ley)",
+    "Ley 26497, art. 7 — incorpora función (ley orgánica)",
+    "D.S. 029-2021-PCM (modificado por D.S. 098-2025-PCM) — adecúa",
+    "D.Leg. 1246, art. 5 — complementa",
+    "Ley 27269 — complementa",
+    "D.S. 126-2025-PCM (niveles de confianza) — complementa",
+    "Ley 29733 — complementa (mínima divulgación)"
+   ],
+   "entidades_implicadas": [
+    "RENIEC — emisor",
+    "PCM/SGTD — plataforma ID Gob.pe",
+    "SBS y OSIPTEL — aceptación obligatoria en supervisados",
+    "ANPD"
+   ],
+   "impacto_economico": "El DNId ya tiene financiamiento institucional del RENIEC (gratuidad 2026); el costo incremental es la billetera con credenciales verificables y la gratuidad permanente (pérdida de ingresos por tasa).",
+   "antecedentes_propuestos": "PL 06218/2023-CR; PL 14760/2025-CR."
+  }
+ },
+ {
+  "id": "CIB-09",
+  "especialidad": "normativo",
+  "veredicto": "observaciones",
+  "resumen": "La firma remota ya está reconocida a nivel infralegal: el INDECOPI (Autoridad Administrativa Competente de la IOFE) aprobó en 2021 estándares para la modalidad de firma remota o en la nube, y el D.S. 082-2024-PCM autorizó al RENIEC a operar como Prestador de Servicios de Valor Añadido en modalidad de Sistema de Creación de Firma Remota con plazo de acreditación. La propuesta aporta rango legal y gratuidad; debe reconocer ese marco y la serie de prórrogas de la Cuarta DCTF de la Ley 27269 (Ley 31665 y modificatorias).",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Exposición de motivos / efecto_vigencia",
+    "problema": "Presenta la firma remota como inexistente; omite los estándares del INDECOPI (2021) y el D.S. 082-2024-PCM (medidas temporales de firma digital en el sector público y autorización al RENIEC para firma remota). Riesgo de duplicidad y de contradicción con la acreditación en curso.",
+    "correccion": "Problema: 'La firma remota está admitida por estándares del INDECOPI (2021) y el D.S. 082-2024-PCM, con rango reglamentario y carácter temporal; la ley le otorga rango legal y gratuidad'. efecto_vigencia: 'Incorpora el art. 3-A a la Ley 27269; complementa el Reglamento aprobado por D.S. 052-2008-PCM y el D.S. 082-2024-PCM'."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 4",
+    "problema": "'Autoridad Administrativa Competente' no está definida en la Ley 27269: la designación del INDECOPI como AAC proviene del Reglamento (D.S. 052-2008-PCM).",
+    "correccion": "'El INDECOPI, en su calidad de Autoridad Administrativa Competente de la Infraestructura Oficial de Firma Electrónica, pone a disposición ...'."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 5 — superposición con GOB-02 y CIB-08",
+    "problema": "La aceptación obligatoria de documentos firmados digitalmente por el Estado se relaciona con la casilla única y el expediente electrónico (GOB-02) y con el DNI digital (CIB-08). Sin remisión cruzada, pueden fijarse niveles de autenticación distintos.",
+    "correccion": "Añadir: 'La activación de la firma remota con autenticación de nivel alto puede realizarse con el DNI digital de nivel de garantía alto'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 3 — RENIEC (ley orgánica)",
+    "problema": "Imponer gratuidad al RENIEC afecta sus ingresos por tasas y sus funciones (Ley 26497, ley orgánica).",
+    "correccion": "Añadir referencia: 'conforme a sus funciones de entidad de certificación del Estado (art. 7 de la Ley 26497 y Reglamento de la Ley 27269)'; y cuantificar la pérdida de ingresos en el costo_beneficio."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Disposición Complementaria Final Tercera",
+    "problema": "Error gramatical: 'de el RENIEC'.",
+    "correccion": "'del RENIEC'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "antecedentes",
+    "problema": "Antecedentes verificados.",
+    "correccion": "'Periodo 2021-2026: PL 14841/2025-CR, garantiza la eficacia plena de la firma digital y prohíbe exigir formalidades adicionales (en comisión); PL 10065/2024-CR, fecha cierta de documentos con firma digital (en comisión); PL 06175/2023-CR, formalización empresarial mediante firma digital (con dictamen); Leyes de prórroga de la Cuarta DCTF de la Ley 27269 (PL 03770/2022-CR, PL 06104/2023-CR, PL 13317/2025-CR y PL 13425/2025-CR, publicadas)'."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 27269, art. 3-A — incorpora",
+    "Ley 27269, Cuarta Disposición Complementaria, Transitoria y Final (prorrogada por Ley 31665 y modificatorias) — complementa",
+    "D.S. 052-2008-PCM (Reglamento de la Ley 27269) — adecúa",
+    "D.S. 082-2024-PCM — complementa/adecúa",
+    "Ley 26497, art. 7 — complementa",
+    "D.L. 1412 — complementa"
+   ],
+   "entidades_implicadas": [
+    "INDECOPI — Autoridad Administrativa Competente (IOFE)",
+    "RENIEC — entidad de certificación y PSVA",
+    "PCM/SGTD",
+    "Entidades públicas — aceptación obligatoria"
+   ],
+   "impacto_economico": "La gratuidad implica menores ingresos del RENIEC por emisión de certificados; debe cuantificarse frente al ahorro de traslados y papel.",
+   "antecedentes_propuestos": "PL 14841/2025-CR; PL 10065/2024-CR; PL 06175/2023-CR; PL 13317/2025-CR; PL 13425/2025-CR."
+  }
+ },
+ {
+  "id": "CIB-10",
+  "especialidad": "normativo",
+  "veredicto": "observaciones_graves",
+  "resumen": "Materia relevante y no regulada con rango de ley respecto de plataformas. Pero el art. 9 atribuye potestad sancionadora a 'la autoridad que designe el reglamento', lo que viola el principio de legalidad (art. 248.1 del TUO de la Ley 27444: solo por norma con rango de ley se atribuye potestad sancionadora). Además omite la Ley 30254 (uso seguro de TIC por NNA), que es la ley sectorial de la materia, y se superpone con TAL-14 e IA-07.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 9",
+    "problema": "Potestad sancionadora atribuida por reglamento: contraviene el principio de legalidad del art. 248.1 del TUO de la Ley 27444 (D.S. 006-2026-JUS). La sanción sería nula.",
+    "correccion": "'La supervisión y la potestad sancionadora corresponden al [INDECOPI / OSIPTEL / ANPD — elegir una] conforme a la presente ley. Las infracciones se clasifican en leves, graves y muy graves; las multas no exceden de [X] UIT ...', con tipificación básica en la ley."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "efecto_vigencia / normas_relacionadas",
+    "problema": "Omite la Ley 30254, Ley de Promoción para el Uso Seguro y Responsable de las TIC por Niños, Niñas y Adolescentes (modificada por la ley originada en el PL 00826/2021-CR), que es la norma de referencia y debería ser la que se modifique.",
+    "correccion": "Reformular como 'Ley que modifica la Ley 30254 para establecer el deber de diligencia de los servicios digitales ...' incorporando los artículos correspondientes; citar la Ley 30254 en efecto_vigencia."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 8 — superposición con TAL-14 y TAL-01",
+    "problema": "El encargo curricular al MINEDU se superpone con TAL-14 (bienestar y ciudadanía digital en Educación Básica, complementa la Ley 32385) y TAL-01.",
+    "correccion": "Suprimir el art. 8 o remitir: 'conforme a la ley de bienestar digital en la Educación Básica'."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 5 — datos de menores",
+    "problema": "La verificación de edad debe concordar con el régimen de consentimiento de menores del Reglamento de la Ley 29733 (D.S. 016-2024-JUS) y con el DNI digital (CIB-08, mínima divulgación).",
+    "correccion": "Añadir: 'conforme a las reglas de tratamiento de datos de menores del Reglamento de la Ley 29733'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 2",
+    "problema": "Exigir representante legal a proveedores extranjeros puede chocar con compromisos de comercio de servicios (TLC con presencia local); debe justificarse.",
+    "correccion": "Añadir: 'o un punto de contacto designado, sin exigencia de establecimiento permanente'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "antecedentes",
+    "problema": "El PL 00498/2026-2031-CD no figura en data/antecedentes.json (verificar en SPLEY). Hay varios antecedentes verificados.",
+    "correccion": "'Periodo 2021-2026: PL 10880/2024-CR, Ley de protección de niños y adolescentes en entornos digitales (con dictamen); PL 10664/2024-CR, lucha contra el grooming (en comisión); PL 09933/2024-CR (con dictamen); PL 09544/2024-CR, modifica la Ley 30254 (orden del día). Periodo 2026-2031: PL 00472-2026-2031-CD (salud mental de NNA frente a riesgos digitales) y PL 00447-2026-2031-CD (protección penal frente al uso malicioso de IA y retiro urgente de contenido), en comisión'."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 30254 — modifica/incorpora artículos (deber de diligencia)",
+    "Ley 30096, art. 5 (modificado por D.Leg. 1591) — complementa",
+    "Ley 27337, Código de los Niños y Adolescentes — complementa",
+    "Ley 29733 y D.S. 016-2024-JUS — complementa (datos de menores)",
+    "Ley 32385 — complementa",
+    "TUO Ley 27444, art. 248.1 — aplica (legalidad sancionadora)"
+   ],
+   "entidades_implicadas": [
+    "Autoridad supervisora a definir por ley (INDECOPI/OSIPTEL/ANPD)",
+    "MIMP",
+    "MINEDU",
+    "Ministerio Público y PNP",
+    "MTC"
+   ],
+   "antecedentes_propuestos": "PL 10880/2024-CR; PL 10664/2024-CR; PL 09933/2024-CR; PL 09544/2024-CR; PL 00472-2026-2031-CD; PL 00447-2026-2031-CD."
+  }
+ },
+ {
+  "id": "CIB-11",
+  "especialidad": "normativo",
+  "veredicto": "observaciones",
+  "resumen": "Cita correcta: el art. 12 de la Ley 30096 fue incorporado por la Ley 30171 (exención por pruebas autorizadas). No hay duplicidad con norma vigente. Debe preservar el art. 12-A (incorporado por D.Leg. 1700, modificado por D.Leg. 1741), resolver el pago de recompensas en el marco de la Ley 32069 y armonizar con CIB-07 y CIB-02.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 2 (modificación del art. 12)",
+    "problema": "La Ley 30096 tiene hoy también el art. 12-A (D.Leg. 1700, 2026; tercer párrafo modificado por D.Leg. 1741). La sustitución íntegra del art. 12 debe dejar a salvo que la exención no alcanza al 12-A (tráfico ilícito de datos), para evitar lecturas extensivas.",
+    "correccion": "Añadir al final del nuevo art. 12: 'La exención no comprende las conductas del artículo 12-A'. Mencionar el D.Leg. 1700 y el D.Leg. 1741 en efecto_vigencia."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 6 (recompensas)",
+    "problema": "El pago a investigadores indeterminados no encaja en los procedimientos de la Ley 32069 (requisitos de RNP, procedimiento de selección); remitir a 'la normativa de contrataciones' lo hace inaplicable.",
+    "correccion": "'Incorpórase como supuesto excluido del ámbito de aplicación de la Ley 32069 el pago de recompensas por vulnerabilidades conforme a la ley de la materia, sujeto a supervisión del OECE' (precisar artículo de supuestos excluidos de la Ley 32069 tras verificar su numeración)."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 7",
+    "problema": "Una entidad no puede impedir la acción penal pública (titularidad del Ministerio Público, art. 159 de la Constitución); solo puede abstenerse de denunciar.",
+    "correccion": "'Ninguna entidad pública interpone denuncia ni inicia acciones administrativas o civiles contra el investigador que cumpla ...; la entidad informa al Ministerio Público del cumplimiento de dichas condiciones si se inicia investigación'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 8 — dependencia de CIB-02 y concordancia con CIB-07",
+    "problema": "'Operadores de servicios esenciales' solo existen si se aprueba CIB-02; CIB-07 obliga a fabricantes a tener política de vulnerabilidades.",
+    "correccion": "'Los operadores de servicios esenciales definidos por ley y los fabricantes e importadores de dispositivos conectados están obligados a adoptarlas'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "antecedentes",
+    "problema": "No se identificaron antecedentes.",
+    "correccion": "'Por verificar en SPLEY: no se identificaron proyectos del periodo 2021-2026 sobre divulgación coordinada de vulnerabilidades o protección de investigadores de seguridad'."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 30096, art. 12 (incorporado por Ley 30171) — modifica",
+    "Ley 30096, art. 12-A (D.Leg. 1700/1741) — complementa (excluido de la exención)",
+    "Ley 32069 — incorpora supuesto excluido (recompensas)",
+    "D.U. 007-2020 y D.S. 126-2025-PCM — complementa (CNSD coordinador)",
+    "D.L. 1412 — complementa"
+   ],
+   "entidades_implicadas": [
+    "PCM/SGTD/CNSD — política nacional y coordinación",
+    "Ministerio Público",
+    "OECE/MEF — pago de recompensas",
+    "Entidades públicas"
+   ]
+  }
+ },
+ {
+  "id": "CIB-12",
+  "especialidad": "normativo",
+  "veredicto": "observaciones",
+  "resumen": "El oficial de seguridad ya es un rol obligatorio en las entidades públicas: el D.S. 029-2021-PCM (arts. 96.2 lit. d y 111.3) y el D.S. 126-2025-PCM (art. 11) lo regulan; solo es facultativo en el sector privado (art. 15). La propuesta presenta como facultativo lo que ya es obligatorio en el sector público y omite que las escalas diferenciadas chocan con las prohibiciones de reajuste de las leyes anuales de presupuesto.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Exposición de motivos / Artículo 4",
+    "problema": "Para el sector público, el Oficial de Seguridad (y Confianza) Digital ya existe y su perfil lo emite la SGTD (D.S. 029-2021-PCM, art. 111.3; D.S. 126-2025-PCM, art. 11). Lo facultativo es el sector privado (art. 15 del D.S. 126-2025-PCM). El aporte real es elevar a ley, exigir independencia del área TI y permitir el oficial compartido.",
+    "correccion": "Art. 4: 'Elévase a rango de ley la obligación de designar un oficial de seguridad y confianza digital prevista en el artículo 11 del Reglamento del D.U. 007-2020, con las siguientes garantías: ...'. Corregir el problema."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3 (escala diferenciada)",
+    "problema": "Las leyes anuales de presupuesto prohíben reajustes o nuevas escalas remunerativas salvo autorización legal expresa y financiamiento (artículo de 'medidas en materia de personal'); además la Ley 30057 regula la compensación económica en su Título V. Sin disposición habilitante, el art. 3 no es ejecutable.",
+    "correccion": "'Exceptúase a la aprobación de la escala de la familia de puestos de ciberseguridad de las prohibiciones de las leyes anuales de presupuesto, siempre que se financie con el presupuesto institucional y se apruebe por decreto supremo refrendado por el MEF conforme al art. 29 y siguientes de la Ley 30057' (verificar artículo). Precisar que el tránsito al régimen 30057 es requisito."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 4 — concordancia con GOB-14 y CIB-02",
+    "problema": "GOB-14 profesionaliza la Jefatura de Transformación Digital vía SERVIR; CIB-02 exige oficial en operadores privados. Debe evitarse que un mismo servidor sea Jefe de TD, Oficial de Gobierno de Datos y OSCD (conflicto de funciones).",
+    "correccion": "Añadir: 'El oficial de seguridad y confianza digital no puede ejercer simultáneamente la jefatura de transformación digital o de tecnologías de la información de la entidad'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 7 (reserva cívica)",
+    "problema": "Convocatoria de privados sin vínculo laboral para acceder a sistemas del Estado requiere régimen de confidencialidad y de responsabilidad (Ley 27815, Código de Ética; Ley 30096 art. 12).",
+    "correccion": "Añadir: 'Sus integrantes actúan bajo autorización expresa, a efectos del literal a) del artículo 12 de la Ley 30096, y están sujetos a los deberes de confidencialidad del Código de Ética de la Función Pública'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "antecedentes",
+    "problema": "No se identificaron antecedentes.",
+    "correccion": "'Por verificar en SPLEY: no se identificaron proyectos del periodo 2021-2026 sobre carrera de ciberseguridad en el servicio civil'."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 30057 — complementa (familia de puestos; compensación)",
+    "D.S. 040-2014-PCM (Reglamento General de la Ley 30057) — adecúa",
+    "D.U. 007-2020 y D.S. 126-2025-PCM, arts. 11 y 15 — eleva a ley/adecúa",
+    "D.S. 029-2021-PCM, art. 111.3 — adecúa",
+    "Ley de Presupuesto del Sector Público del año correspondiente — excepción expresa",
+    "Ley 30096, art. 12 — complementa (reserva cívica)"
+   ],
+   "entidades_implicadas": [
+    "SERVIR — familia de puestos",
+    "PCM/SGTD/CNSD",
+    "MEF — escala",
+    "ENAP",
+    "Gobiernos locales y mancomunidades"
+   ],
+   "impacto_economico": "Costo medio recurrente por escala diferenciada; debe cuantificarse (número de entidades x costo del puesto). La cláusula 'sin recursos adicionales en el primer año' implica que sí habrá demanda posterior."
+  }
+ },
+ {
+  "id": "CIB-13",
+  "especialidad": "normativo",
+  "veredicto": "observaciones",
+  "resumen": "Normas verificadas en lo esencial (Ley 26487, LOONPE; Ley 29603, voto electrónico). Omite las leyes recientes de voto digital para peruanos en el extranjero (originadas en los PL 05879/2023-CR y 09359/2024-CR, publicadas), que modificaron la Ley 26859. Al imponer funciones a organismos constitucionalmente autónomos con leyes orgánicas, debe tramitarse como modificación de sus leyes orgánicas (art. 106 de la Constitución).",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Técnica / ley orgánica",
+    "problema": "Las obligaciones de auditoría, pruebas públicas y respaldo verificable inciden en el funcionamiento de la ONPE (Ley 26487), el JNE (Ley 26486) y el RENIEC (Ley 26497), entidades previstas en la Constitución cuyo funcionamiento es materia de ley orgánica (art. 106). Una ley ordinaria 'complementaria' arriesga inconstitucionalidad formal.",
+    "correccion": "Reformular como 'Ley que modifica las Leyes 26487, 26486 y 26497 y la Ley 26859 ...', incorporando artículos específicos (p. ej., 'Incorpórase el artículo 5-A a la Ley 26487 ...', verificar numeración), y advertir la votación calificada."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "efecto_vigencia / normas_relacionadas",
+    "problema": "Omite las leyes de voto digital/electrónico no presencial para peruanos en el extranjero publicadas en el periodo 2021-2026 (PL 05879/2023-CR, que modificó la Ley 26859; PL 09359/2024-CR, voto electrónico semipresencial en el distrito electoral 27).",
+    "correccion": "Agregar dichas leyes (con su número oficial, por verificar en El Peruano) y precisar que el art. 8 (respaldo verificable) se aplica también a esas modalidades."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 6 — superposición con CIB-01 y CIB-03",
+    "problema": "El equipo de respuesta electoral debe ser un CSIRT sectorial del Sistema Nacional de CSIRT (CIB-01) y notificar por la ventanilla única (CIB-03).",
+    "correccion": "'El equipo de respuesta ante incidentes electorales funciona como CSIRT sectorial integrado al Sistema Nacional de CSIRT y notifica a través de la ventanilla única de incidentes'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Disposición Complementaria Final Segunda",
+    "problema": "Aplicar solo a procesos 'convocados con posterioridad' puede ser insuficiente frente al plazo de 90 días de auditoría y a la regla de anticipación de normas electorales.",
+    "correccion": "'La presente ley se aplica a los procesos electorales cuya fecha de elección sea posterior en más de un año a su entrada en vigencia'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 7 — concordancia con IA-07",
+    "problema": "IA-07 regula el retiro de contenido sintético que suplante a organismos electorales con procedimiento ante el JEE/JNE; el art. 7 debe remitir a ese procedimiento.",
+    "correccion": "Añadir: 'sin perjuicio del procedimiento célere de retiro de contenido sintético previsto en la ley de la materia'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "antecedentes",
+    "problema": "Antecedentes verificados.",
+    "correccion": "'Periodo 2021-2026: PL 05879/2023-CR, modifica la Ley 26859 para el voto digital de peruanos en el exterior (publicada); PL 09359/2024-CR, voto electrónico semipresencial en el distrito 27 (publicada); PL 10410/2024-CR, voto electrónico de peruanos en el extranjero (en comisión); PL 12204/2025-CR, transparencia del escrutinio mediante registro audiovisual y transmisión en tiempo real (en comisión)'."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 26487 (LOONPE) — incorpora artículos (auditoría, pruebas públicas)",
+    "Ley 26486 (LOJNE) — incorpora función",
+    "Ley 26497 (LORENIEC) — incorpora función (padrón)",
+    "Ley 26859 (LOE) — complementa/modifica (respaldo verificable)",
+    "Ley 29603 — complementa",
+    "Leyes de voto digital para el distrito electoral de peruanos en el extranjero (origen PL 05879/2023-CR y 09359/2024-CR) — complementa",
+    "D.U. 007-2020 — complementa"
+   ],
+   "entidades_implicadas": [
+    "ONPE",
+    "JNE",
+    "RENIEC",
+    "PCM/SGTD/CNSD",
+    "Universidades auditoras"
+   ],
+   "antecedentes_propuestos": "PL 05879/2023-CR; PL 09359/2024-CR; PL 10410/2024-CR; PL 12204/2025-CR."
+  }
+ },
+ {
+  "id": "CIB-14",
+  "especialidad": "normativo",
+  "veredicto": "observaciones",
+  "resumen": "Normas citadas correctas (Ley 29946, Contrato de Seguro; D.U. 007-2020; D.S. 126-2025-PCM). El reporte de pagos por extorsión crea un tercer canal y plazo (72 h al CNSD) que contradice la ventanilla única y los plazos de CIB-03; el 'sello' como factor de evaluación requiere modificar la Ley 32069 o su reglamento.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 6 — conflicto con CIB-03",
+    "problema": "CIB-03 fija alerta en 24 h y notificación en 72 h por ventanilla única; CIB-14 crea un reporte separado de pagos en 72 h al CNSD. Dos obligaciones de reporte para el mismo incidente de ransomware.",
+    "correccion": "'El pago se reporta a través de la ventanilla única de notificación de incidentes, como información complementaria del incidente, dentro de las 72 horas siguientes al pago'."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 7 — UIF",
+    "problema": "Compartir información con la Unidad de Inteligencia Financiera requiere engarce con su ley (Ley 27693) y el régimen de reporte de operaciones sospechosas; el CNSD no es sujeto obligado.",
+    "correccion": "'... se comparte con la UIF-Perú conforme a la Ley 27693 y con el Ministerio Público, en el marco de sus competencias'."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3",
+    "problema": "La consideración del sello como 'factor de evaluación' requiere habilitación en la Ley 32069 o su Reglamento (D.S. 009-2025-EF); además puede afectar la libre concurrencia si es obligatorio de facto.",
+    "correccion": "'El Reglamento de la Ley 32069 puede considerar el sello como factor de evaluación facultativo en contrataciones que impliquen tratamiento de datos personales'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 4 — regulación SBS de conducta de mercado",
+    "problema": "La transparencia en seguros ya se regula en la normativa SBS de conducta de mercado del sistema de seguros (verificar resolución vigente) y en la Ley 29946 (arts. sobre información precontractual). Debe engarzarse.",
+    "correccion": "Añadir: 'en concordancia con la Ley 29946 y el reglamento de conducta de mercado del sistema de seguros aprobado por la SBS'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Disposición Complementaria Final Tercera",
+    "problema": "Error gramatical 'de el Ministerio'.",
+    "correccion": "'del Ministerio de la Producción'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "antecedentes",
+    "problema": "No se identificaron antecedentes.",
+    "correccion": "'Por verificar en SPLEY: no se identificaron proyectos del periodo 2021-2026 sobre seguros cibernéticos, reporte de pagos por ransomware o ciberresiliencia mipyme'."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 29946, Ley del Contrato de Seguro — complementa (transparencia del ramo)",
+    "D.U. 007-2020, art. 8 y D.S. 126-2025-PCM — complementa (reporte)",
+    "Ley 27693 (UIF-Perú) — complementa",
+    "Ley 32069 / D.S. 009-2025-EF — adecúa (factor de evaluación)",
+    "Ley 30096, art. 4-A si se aprueba CIB-04 — complementa"
+   ],
+   "entidades_implicadas": [
+    "PRODUCE — programa mipyme",
+    "PCM/SGTD/CNSD — reporte",
+    "SBS — seguros y UIF",
+    "Ministerio Público"
+   ]
+  }
+ },
+ {
+  "id": "GOB-01",
+  "especialidad": "normativo",
+  "veredicto": "observaciones",
+  "resumen": "D.Leg. 1246 verificado (arts. 2 a 5; el art. 5 tiene numerales 5.1 a 5.3, por lo que 5.4 está libre). Pero el principio 'solo una vez' ya está en el art. 48.1.10 del TUO de la Ley 27444 y la sustitución por declaración jurada en el art. 3.3 del D.Leg. 1246; y la regla de 'oposición expresa' (opt-out) contradice el art. 2 del D.Leg. 1246, que exige autorización expresa del titular para datos personales.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 3.1 vs. art. 2 del D.Leg. 1246",
+    "problema": "Contradicción: el segundo párrafo del art. 2 del D.Leg. 1246 exige 'autorización expresa e indubitable' del administrado para acceder a datos protegidos por la Ley 29733; el art. 3.1 propuesto invierte la regla (procede 'salvo oposición expresa'). Sin modificar el art. 2, coexistirían dos reglas opuestas.",
+    "correccion": "Añadir artículo: 'Modifícase el segundo párrafo del artículo 2 del D.Leg. 1246: «El acceso a datos personales mediante interoperabilidad para la tramitación de un procedimiento iniciado por el titular se ampara en el numeral 1 del artículo 14 de la Ley 29733; el titular puede oponerse ...»'."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3 / Artículo 9 — duplicidad con el TUO de la Ley 27444",
+    "problema": "El art. 48.1.10 del TUO (D.S. 006-2026-JUS) ya prohíbe solicitar 'toda aquella información o documentación que las entidades ... posean ... que están obligadas a suministrar' a otras entidades, y el art. 46 regula el acceso a información para consulta. El TUO de la Ley 27444 aprobado por D.S. 004-2019-JUS fue derogado y sustituido por el TUO aprobado por D.S. 006-2026-JUS (El Peruano, 30-abr-2026).",
+    "correccion": "Reformular art. 9 como modificación del numeral 48.1.10 del art. 48 de la Ley 27444, explicitando el carácter general y no enumerativo; mantener el 5.4 del D.Leg. 1246 solo como remisión. Actualizar la cita del TUO en normas_relacionadas."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 6",
+    "problema": "Duplica el art. 3.3 del D.Leg. 1246 (sustitución por declaración jurada mientras no haya interoperabilidad) y el art. 49 del TUO (sucedáneos).",
+    "correccion": "'Modifícase el numeral 3.3 del artículo 3 del D.Leg. 1246 para extenderlo a toda información en poder de entidades públicas, por causa imputable a la entidad'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 4 — superposición con IA-04 y GOB-13",
+    "problema": "El Catálogo Nacional de Datos Interoperables se superpone con la lista de datos de alto valor de IA-04 y con el Centro Nacional de Datos (art. 13 del D.U. 007-2020).",
+    "correccion": "'El Catálogo forma parte del Centro Nacional de Datos previsto en el artículo 13 del D.U. 007-2020'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "antecedentes",
+    "problema": "Antecedentes verificados (sectoriales).",
+    "correccion": "'Por verificar en SPLEY: no se identificaron proyectos generales de 'solo una vez'. Relacionados (2021-2026): PL 07619/2023-CR (interoperabilidad e IA en la Cancillería, publicada); PL 08551/2024-CR (interoperabilidad y digitalización de procesos judiciales, orden del día). Periodo 2026-2031: PL 00172-2026-2031-CD (sistema de alerta e interoperabilidad contra el crimen organizado, modifica el D.L. 1412)'."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "D.Leg. 1246, art. 2 (segundo párrafo) — modifica",
+    "D.Leg. 1246, art. 3.3 — modifica",
+    "D.Leg. 1246, art. 5.4 — incorpora",
+    "Ley 27444 (TUO D.S. 006-2026-JUS), art. 48.1.10 — modifica",
+    "D.Leg. 1256, art. 3 — complementa (barrera burocrática)",
+    "D.L. 1412 y D.S. 029-2021-PCM — complementa (PIDE)",
+    "D.U. 007-2020, art. 13 — complementa",
+    "Ley 29733, art. 14.1 — complementa"
+   ],
+   "entidades_implicadas": [
+    "PCM/SGTD — PIDE y catálogo",
+    "INDECOPI (Comisión de Eliminación de Barreras Burocráticas)",
+    "Contraloría/OCI",
+    "Entidades con registros nacionales (RENIEC, SUNARP, SUNAT, MINEDU/SUNEDU, PJ)"
+   ],
+   "antecedentes_propuestos": "PL 07619/2023-CR; PL 08551/2024-CR; PL 00172-2026-2031-CD (relacionados)."
+  }
+ },
+ {
+  "id": "GOB-02",
+  "especialidad": "normativo",
+  "veredicto": "observaciones",
+  "resumen": "Ley 31736 y Ley 31170 verificadas; la modificación del numeral 4.2 del art. 4 de la Ley 31736 es técnicamente correcta. Pero la 'casilla única electrónica' ya está ordenada en el art. 20.4 del TUO de la Ley 27444 (introducido por D.Leg. 1452/1497) y la propia Ley 31736 (art. 3 lit. c) dispone 'solo una casilla por persona'. Además excluye sin decirlo las notificaciones tributarias (Código Tributario) y cita el TUO derogado.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "efecto_vigencia / normas_relacionadas",
+    "problema": "El TUO de la Ley 27444 aprobado por D.S. 004-2019-JUS fue derogado y sustituido por el TUO aprobado por D.S. 006-2026-JUS (El Peruano, 30-abr-2026). Además, el último párrafo del art. 20.4 del TUO ya 'establece la implementación de la casilla única electrónica' mediante decreto supremo de la PCM.",
+    "correccion": "Citar 'TUO de la Ley 27444, aprobado por D.S. 006-2026-JUS, art. 20.4' y precisar: 'Eleva a rango de ley y fija plazos a la casilla única electrónica prevista en el art. 20.4 de la Ley 27444'. Modificar también el art. 20.4 para que remita a la casilla única nacional."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 2.1 — régimen tributario",
+    "problema": "La casilla única no alcanza a SUNAT: la notificación tributaria por medios electrónicos se rige por el art. 104 lit. b) del Código Tributario (TUO D.S. 133-2013-EF) y la Norma IX/procedimientos tributarios no se sujetan al TUO de la Ley 27444 en esa materia. El problema cita el buzón tributario como parte de la fragmentación.",
+    "correccion": "Añadir 2.3: 'Las administraciones tributarias interoperan con la casilla única para que el administrado visualice sus notificaciones en un solo panel, sin perjuicio del art. 104 del Código Tributario' o, si se busca integrar, modificar el art. 104 del Código Tributario."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3.2 vs. Ley 31736",
+    "problema": "Para personas naturales la casilla es 'voluntaria con consentimiento'; la Ley 31736 (art. 4.2) la convierte en 'domicilio digital obligatorio' una vez asignada a solicitud, y el art. 20.4 del TUO permite la obligatoriedad por decreto supremo sectorial. Debe precisarse si se deroga esa habilitación para personas naturales.",
+    "correccion": "Añadir: 'Modifícase el quinto párrafo del numeral 20.4 del artículo 20 de la Ley 27444: la obligatoriedad por decreto supremo no alcanza a personas naturales, salvo consentimiento'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 5 — concordancia con GOB-10",
+    "problema": "El expediente electrónico debe seguir los estándares archivísticos del Sistema Nacional de Archivos que GOB-10 propone modificar (Ley 25323).",
+    "correccion": "'... conforme a los estándares del Archivo General de la Nación y a la ley del Sistema Nacional de Preservación Digital'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "antecedentes",
+    "problema": "Antecedentes verificados: la propia Ley 31736 proviene del PL 01245/2021-CR.",
+    "correccion": "'Periodo 2021-2026: PL 01245/2021-CR, que dio origen a la Ley 31736 (publicada); PL 00827/2021-CR, Ley que facilita el procedimiento de notificación electrónica (publicada); PL 06161/2023-CR, expediente judicial digital obligatorio (orden del día)'."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 31736, art. 4.2 — modifica",
+    "Ley 31736, art. 3 lit. c) — complementa",
+    "Ley 27444 (TUO D.S. 006-2026-JUS), art. 20.4 — modifica",
+    "Ley 31170 — complementa",
+    "D.L. 1412 y D.S. 029-2021-PCM — complementa",
+    "TUO del Código Tributario (D.S. 133-2013-EF), art. 104 lit. b) — complementa/interopera",
+    "Ley 25323 — complementa (archivo)"
+   ],
+   "entidades_implicadas": [
+    "PCM/SGTD — casilla única",
+    "MINJUSDH",
+    "SUNAT y administraciones tributarias municipales (SAT)",
+    "Archivo General de la Nación",
+    "Gobiernos regionales y locales"
+   ],
+   "antecedentes_propuestos": "PL 01245/2021-CR (Ley 31736); PL 00827/2021-CR; PL 06161/2023-CR."
+  }
+ },
+ {
+  "id": "GOB-03",
+  "especialidad": "normativo",
+  "veredicto": "observaciones",
+  "resumen": "Ley 28612 verificada (arts. 1 a 7 y 'Disposiciones Finales' Primera y Segunda): no tiene 'Disposiciones Complementarias Finales', por lo que la técnica del art. 8 es incorrecta. El art. 28.8 del D.S. 115-2025-PCM ya obliga a publicar en la Plataforma Nacional de Software Público el código de la IA financiada con fondos públicos. Hay conflicto directo con GOB-04 (titularidad del proveedor en CPI/GovTech), con IA-14 (solo 'preferencia' por software libre) y con ECO-05 (titularidad de resultados de investigación con fondos públicos).",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 8",
+    "problema": "La Ley 28612 tiene 'Disposiciones Finales' (Primera, Segunda), no 'Disposiciones Complementarias Finales'; incorporar una DCF sin ordinal es técnicamente incorrecto. Además, el art. 2 de la Ley 28612 asigna la rectoría a la ONGEI, hoy SGTD.",
+    "correccion": "'Incorpórase el artículo 5-A a la Ley 28612: «Software a medida financiado con fondos públicos ...»' (o 'la Disposición Final Tercera', previa verificación); y 'Modifícase el artículo 2 de la Ley 28612' para referir a la PCM a través de la SGTD."
+   },
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículos 2 y 5 — conflicto con GOB-04 art. 4 y ECO-05",
+    "problema": "GOB-03 exige cesión o licencia para publicar como código abierto todo software financiado 'total o parcialmente' con fondos públicos; GOB-04 (art. 4.1) deja la titularidad al proveedor en CPI y retos GovTech y solo permite exigir publicación si la entidad financia 'íntegramente'; ECO-05 otorga la titularidad de resultados de investigación financiados con fondos públicos a la entidad ejecutora con deber de transferirla. Reglas incompatibles para el mismo software.",
+    "correccion": "Añadir art. 2.2: 'Se exceptúan el software resultante de compras públicas de innovación y retos GovTech, y los resultados de investigación financiados con fondos de CTI, que se rigen por sus leyes especiales; en ellos la entidad recibe al menos una licencia de uso y sublicencia a entidades públicas'. Armonizar con GOB-04 art. 4."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Exposición de motivos / efecto_vigencia",
+    "problema": "Omite el art. 28.8 del D.S. 115-2025-PCM (publicación obligatoria del código de sistemas de IA financiados con fondos públicos en la PNSPP) y cita el D.S. 051-2018-PCM sin desarrollar su contenido.",
+    "correccion": "Agregar a normas_relacionadas: 'D.S. 115-2025-PCM, art. 28.8' y 'D.S. 051-2018-PCM' con su denominación oficial verificada."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 5 — Ley 32069",
+    "problema": "Las cláusulas obligatorias de contratos públicos deben engarzar con la Ley 32069 y su Reglamento (D.S. 009-2025-EF); de lo contrario el OECE no las incorpora en bases estándar.",
+    "correccion": "'... conforme a las bases estándar que apruebe el OECE, para lo cual se adecúa el Reglamento de la Ley 32069'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 5 — D.Leg. 822",
+    "problema": "La cesión de derechos patrimoniales sobre software se rige por el D.Leg. 822 (Ley sobre el Derecho de Autor); la ley debe precisar que prevalece en contratos públicos.",
+    "correccion": "Añadir: 'en concordancia con el D.Leg. 822; la cesión se presume en los contratos de desarrollo a medida financiados íntegramente con fondos públicos'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "antecedentes",
+    "problema": "No se identificaron antecedentes específicos.",
+    "correccion": "'Por verificar en SPLEY: no se identificaron proyectos del periodo 2021-2026 sobre software público o código abierto por defecto'."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 28612, art. 5-A (o Disposición Final Tercera) — incorpora",
+    "Ley 28612, art. 2 — modifica (rectoría SGTD)",
+    "D.S. 029-2021-PCM y D.S. 051-2018-PCM — adecúa",
+    "D.S. 115-2025-PCM, art. 28.8 — complementa",
+    "Ley 32069 y D.S. 009-2025-EF — adecúa (cláusulas)",
+    "D.Leg. 822 — complementa"
+   ],
+   "entidades_implicadas": [
+    "PCM/SGTD — PNSPP",
+    "OECE/MEF — bases estándar",
+    "Entidades públicas y empresas del Estado (FONAFE)"
+   ]
+  }
+ },
+ {
+  "id": "GOB-04",
+  "especialidad": "normativo",
+  "veredicto": "observaciones",
+  "resumen": "Normas verificadas: Ley 32069, art. 38 (CPI, numerales 38.1 a 38.3, por lo que 38.4 está libre) y 46.7; Ley 27785. La propuesta es coherente, pero su regla de propiedad intelectual choca con GOB-03, el art. 5.1 no puede excluir la responsabilidad penal por ley ordinaria de modo general, y debe coordinarse con IA-14, que también modifica la Ley 32069.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 4 — conflicto con GOB-03",
+    "problema": "Ver revisión GOB-03: titularidad del proveedor vs. código abierto por defecto para software financiado total o parcialmente con fondos públicos.",
+    "correccion": "Precisar en 4.2: 'Cuando la entidad financie total o mayoritariamente el desarrollo de software, se aplica la ley de software público y código abierto por defecto, salvo justificación de la entidad en las bases'."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 5.1",
+    "problema": "Declarar que el fracaso 'no genera responsabilidad ... penal' por ley ordinaria es impreciso: la responsabilidad penal depende de tipos dolosos (p. ej., colusión, negociación incompatible) que no se excluyen. Puede leerse como exención penal.",
+    "correccion": "'El solo hecho de que la solución no alcance los resultados esperados no constituye, por sí mismo, indicio de responsabilidad administrativa funcional ni de perjuicio económico ...'."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 8 / coordinación con IA-14",
+    "problema": "IA-14 incorpora una DCF a la Ley 32069 sobre contratación de IA y remite a CPI 'que prevea la normativa'; ambas deben concordar para que la CPI de IA respete las cláusulas de auditabilidad.",
+    "correccion": "En IA-14, art. 8: 'conforme al art. 38 de la Ley 32069, modificado por la ley de retos GovTech'. En GOB-04 añadir: 'Las CPI de sistemas de IA de riesgo alto incluyen las cláusulas obligatorias de la ley de la materia'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 3.2 — 'bajo monto'",
+    "problema": "Los topes de bajo monto (contrataciones menores, art. de supuestos excluidos de la Ley 32069 hasta 8 UIT) deben compatibilizarse para evitar fraccionamiento.",
+    "correccion": "'... conforme a los topes que establezca el reglamento, sin que ello habilite el fraccionamiento prohibido por la Ley 32069'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "antecedentes",
+    "problema": "Antecedente relacionado.",
+    "correccion": "'Por verificar en SPLEY: no se identificaron proyectos del periodo 2021-2026 sobre retos GovTech; relacionados: PL 06485/2023-CR (transparencia de contrataciones mediante tecnología, publicada). Antecedente normativo: art. 38 de la Ley 32069'."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 32069, art. 38.4 — incorpora",
+    "Ley 32069, art. 46.7 — complementa",
+    "D.S. 009-2025-EF — adecúa",
+    "Ley 27785 — complementa (criterio de control)",
+    "Ley 31250 (modificada por D.Leg. 1727) — complementa (cofinanciamiento CTI)",
+    "Ley 28612 / ley de software público — complementa"
+   ],
+   "entidades_implicadas": [
+    "MEF (DGA) y OECE",
+    "PCM/SGTD",
+    "CONCYTEC/PROCIENCIA",
+    "Contraloría General de la República"
+   ],
+   "antecedentes_propuestos": "PL 06485/2023-CR (relacionado)."
+  }
+ },
+ {
+  "id": "GOB-05",
+  "especialidad": "normativo",
+  "veredicto": "observaciones",
+  "resumen": "Normas verificadas (TUO Ley 27806 D.S. 021-2019-JUS vigente; D.Leg. 1440; Ley 32069). La técnica de 'incorporar una DCF al TUO' es incorrecta: se modifica la Ley 27806, no su texto ordenado; y el régimen sancionador en transparencia está en el D.Leg. 1353 y el nuevo Reglamento (D.S. 007-2024-JUS), no en el TUO. Hay superposición con IA-04 (estándar de datos abiertos y API).",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 8",
+    "problema": "Un TUO es un decreto supremo compilatorio; la ley debe modificar la Ley 27806 (o sus artículos con la numeración del TUO). Además la Ley 27806 tiene 'Disposiciones Transitorias, Complementarias y Finales', no una serie de DCF.",
+    "correccion": "'Modifícanse los artículos 5 y 25 de la Ley 27806 (numeración del TUO aprobado por D.S. 021-2019-JUS) ...' incorporando el deber de formato abierto, periodicidad y API, en lugar de una disposición final genérica."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 7",
+    "problema": "La Ley 27806 no contiene un 'régimen sancionador' de entidades; las faltas de funcionarios por incumplimiento de transparencia se tipifican en el D.Leg. 1353 y su reglamento (hoy el Reglamento de la Ley 27806 aprobado por D.S. 007-2024-JUS, verificar su capítulo sancionador).",
+    "correccion": "'El incumplimiento constituye infracción sancionable conforme al régimen sancionador del D.Leg. 1353 y del Reglamento de la Ley 27806, aprobado por D.S. 007-2024-JUS'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 5 — concordancia con art. 25 del TUO y Ley 29733",
+    "problema": "El art. 25 del TUO ya obliga a publicar información de personal y remuneraciones; debe precisarse que la publicación nominal de remuneraciones es información pública (no dato sensible) para evitar conflicto con la Ley 29733.",
+    "correccion": "'... La publicación nominal de cargo y remuneración de servidores constituye información pública conforme al art. 25 del TUO de la Ley 27806 y no requiere consentimiento (art. 14.1 de la Ley 29733)'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 6 — superposición con IA-04",
+    "problema": "IA-04 crea el Estándar Nacional de Datos Aptos para IA y la obligación de API para datos de alto valor (incluye compras públicas y presupuesto); GOB-05 crea esquemas propios.",
+    "correccion": "'Los esquemas y API se ajustan al Estándar Nacional de Datos Abiertos que establezca la ley de la materia'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "antecedentes",
+    "problema": "Antecedentes verificados.",
+    "correccion": "'Periodo 2021-2026: PL 05602/2022-CR, fortalecimiento de la transparencia y gobierno de datos abiertos (con dictamen); PL 06002/2023-CR, transparencia y acceso directo a la información mediante tecnología (con dictamen); PL 06485/2023-CR, transparencia en contrataciones mediante tecnología (publicada); PL 13771/2025-CR, transparencia en contrataciones y plataforma digital (en comisión); PL 06789/2023-CR, registro en el AIRHSP (en comisión)'."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 27806 (TUO D.S. 021-2019-JUS), arts. 5 y 25 — modifica",
+    "Reglamento de la Ley 27806 (D.S. 007-2024-JUS) — adecúa",
+    "D.Leg. 1353 — complementa (régimen sancionador)",
+    "Ley 32069 — complementa (OCDS, contrataciones ≤ 8 UIT)",
+    "D.Leg. 1440 y D.Leg. 1436 (SIAF) — complementa",
+    "D.S. 029-2021-PCM — complementa",
+    "Ley 29733 — complementa"
+   ],
+   "entidades_implicadas": [
+    "MEF (DGPP, Transparencia Económica)",
+    "OECE (SEACE)",
+    "Autoridad Nacional de Transparencia (MINJUSDH)",
+    "PCM/SGTD",
+    "Contraloría"
+   ],
+   "antecedentes_propuestos": "PL 05602/2022-CR; PL 06002/2023-CR; PL 06485/2023-CR; PL 13771/2025-CR; PL 06789/2023-CR."
+  }
+ },
+ {
+  "id": "GOB-06",
+  "especialidad": "normativo",
+  "veredicto": "observaciones_graves",
+  "resumen": "Ley 28024 y D.Leg. 1415 verificados. Pero los arts. 2 a 6 regulan el procedimiento y la organización interna de las cámaras (votaciones, asistencia, expedientes, transmisión), materia reservada a los Reglamentos del Congreso y de cada cámara (RL 004, 005 y 006-2025-2026-CR), que tienen fuerza de ley y se aprueban por resolución legislativa (art. 94 de la Constitución). Una ley ordinaria no puede imponerlos.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículos 2 a 7 / forma normativa",
+    "problema": "Reserva de reglamento parlamentario: la organización y el procedimiento interno de las cámaras se regulan por sus Reglamentos (art. 94 de la Constitución, modificado por Ley 31988; RL 004-2025-2026-CR, RL 005-2025-2026-CR y RL 006-2025-2026-CR). Regularlos por ley ordinaria es inconstitucional por la forma y la DCF Primera no lo subsana.",
+    "correccion": "Desdoblar: (i) una Resolución Legislativa que modifica el Reglamento del Congreso y los de cada cámara (votación nominal electrónica, publicación en 24 h, expediente digital, transmisión e indexación); y (ii) una ley que solo modifique la Ley 28024 (art. 8) y la Ley 27806 en lo aplicable al Congreso."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 8",
+    "problema": "La Ley 28024 (modificada por D.Leg. 1415) tiene su propia estructura de disposiciones; incorporar 'una DCF' sin ordinal es técnicamente incorrecto. Además el registro de visitas y agendas está en sus arts. sobre obligaciones de funcionarios con capacidad de decisión.",
+    "correccion": "'Incorpórase el numeral ... al artículo [de registro de visitas/agenda] de la Ley 28024, modificado por el D.Leg. 1415: «En el Congreso, el registro indica la iniciativa legislativa vinculada ...»' (verificar numeración en el texto consolidado)."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Iniciativa legislativa",
+    "problema": "En el Congreso bicameral los senadores no tienen iniciativa en materia de leyes generales (contexto_legislativo.json); la resolución legislativa de reforma reglamentaria sí puede originarse en cada cámara.",
+    "correccion": "Precisar en la ficha que la parte reglamentaria se tramita como iniciativa de reforma del Reglamento ante cada cámara."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "antecedentes",
+    "problema": "No se identificaron antecedentes por título en el dataset.",
+    "correccion": "'Por verificar en SPLEY: no se identificaron proyectos del periodo 2021-2026 sobre Congreso abierto o huella legislativa; antecedente normativo: Ley 28024 y D.Leg. 1415'."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Reglamento del Congreso (RL 004-2025-2026-CR) — modifica por resolución legislativa",
+    "Reglamento de la Cámara de Diputados (RL 005-2025-2026-CR) — modifica por resolución legislativa",
+    "Reglamento del Senado (RL 006-2025-2026-CR) — modifica por resolución legislativa",
+    "Ley 28024 (modificada por D.Leg. 1415) — modifica (registro con iniciativa vinculada)",
+    "Ley 27806 — complementa"
+   ],
+   "entidades_implicadas": [
+    "Mesas Directivas de la Cámara de Diputados y del Senado",
+    "Oficialía Mayor / Dirección de Tecnologías del Congreso",
+    "Autoridad Nacional de Transparencia"
+   ]
+  }
+ },
+ {
+  "id": "GOB-07",
+  "especialidad": "normativo",
+  "veredicto": "observaciones_graves",
+  "resumen": "Ley 28294 correctamente citada, pero la propuesta omite el D.Leg. 1365 (2018), que creó el Catastro Urbano Nacional bajo rectoría del MVCS e implementación de COFOPRI, y su Reglamento (D.S. 013-2020-VIVIENDA), que ya regula una Plataforma Catastral Urbana interoperable. Crear un 'catastro digital multipropósito' sobre el SNCP sin articular el D.Leg. 1365 genera dos sistemas catastrales digitales en paralelo. Tiene además errores de numeración interna.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Exposición de motivos / Artículos 1 a 3 / efecto_vigencia",
+    "problema": "Duplicidad/conflicto con el D.Leg. 1365 (Catastro Urbano Nacional; MVCS rector, COFOPRI operador) y el D.S. 013-2020-VIVIENDA (Plataforma Catastral Urbana interoperable). La propuesta solo menciona la Ley 28294 (SNCP, con secretaría técnica en SUNARP).",
+    "correccion": "Añadir art. 2.3: 'El catastro digital multipropósito integra el Sistema Nacional Integrado de Información Catastral Predial (Ley 28294) y el Catastro Urbano Nacional (D.Leg. 1365); el MVCS y la SUNARP aprueban un modelo de datos común (LADM-Perú)'. Incluir en efecto_vigencia: 'Modifica el D.Leg. 1365 (rectoría/plataforma) y la Ley 28294'."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 4 (numeración interna)",
+    "problema": "Los numerales del artículo 4 aparecen como '3.1' y '3.2': error material de numeración.",
+    "correccion": "Renumerar como '4.1' y '4.2'."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3 — Código Único Catastral",
+    "problema": "El Código Único Catastral (CUC) ya está previsto en el marco reglamentario de la Ley 28294 (verificar en su Reglamento, D.S. 005-2006-JUS). Crear otro código con el mismo nombre genera ambigüedad.",
+    "correccion": "'El Código Único Catastral previsto en la normativa de la Ley 28294 es de uso obligatorio por todas las entidades públicas en sus registros y trámites relacionados con predios'."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 8",
+    "problema": "La Ley 28294 no tiene una serie de 'Disposiciones Complementarias Finales' a la que agregar una DCF sin ordinal; técnica incorrecta.",
+    "correccion": "'Incorpórase el artículo 14-A a la Ley 28294' (verificar numeración libre) o modificar el artículo que define el objeto del Sistema."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 7 — canon y FONCOMUN",
+    "problema": "El uso del canon se rige por el art. 6.2 de la Ley 27506 y el del FONCOMUN por el D.Leg. 776 y normas presupuestales; 'pueden financiarse' sin modificar esas normas no habilita nada nuevo.",
+    "correccion": "'Precísase que el catastro digital es inversión elegible conforme al art. 6.2 de la Ley 27506' o suprimir el artículo si ya es elegible."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Superposición con CON-09 y TAL-10",
+    "problema": "CON-09 (observación de la Tierra) y TAL-10 (alerta temprana) usan la misma Infraestructura de Datos Espaciales; los gemelos digitales deben consumir esos datos.",
+    "correccion": "Añadir referencia a la IDEP y a la ley de datos abiertos de observación de la Tierra."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "antecedentes",
+    "problema": "Antecedente verificado.",
+    "correccion": "'PL 14300/2025-CR, que crea el Sistema Nacional de Catastro Digital y establece mecanismos de titulación masiva (en comisión, periodo 2021-2026). Antecedentes normativos: Ley 28294 y D.Leg. 1365'."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 28294 — modifica (incorpora artículo)",
+    "D.Leg. 1365 (Catastro Urbano Nacional) — modifica/complementa",
+    "D.S. 013-2020-VIVIENDA — adecúa",
+    "Reglamento de la Ley 28294 (D.S. 005-2006-JUS, verificar) — adecúa",
+    "Ley 27972, art. 79 (competencias en catastro) — complementa",
+    "Ley 27506, art. 6.2; D.Leg. 776 — complementa",
+    "Ley 29733 — complementa"
+   ],
+   "entidades_implicadas": [
+    "MVCS — rector del Catastro Urbano Nacional",
+    "COFOPRI",
+    "SUNARP — Consejo Nacional de Catastro",
+    "IGN",
+    "Municipalidades",
+    "PCM/SGTD — IDEP"
+   ],
+   "impacto_economico": "Costo medio-alto para municipalidades (levantamiento, personal, software); compensado por mayor recaudación predial. Debe estimarse por tipología municipal.",
+   "antecedentes_propuestos": "PL 14300/2025-CR."
+  }
+ },
+ {
+  "id": "GOB-08",
+  "especialidad": "normativo",
+  "veredicto": "observaciones_graves",
+  "resumen": "Útil para cerrar la brecha subnacional, pero 'crear' un Programa por ley contraviene el art. 38.1 de la Ley 29158 (LOPE): los Programas se crean por decreto supremo con voto aprobatorio del Consejo de Ministros. El 'precísase' sobre FONCOMUN y canon no modifica las normas que regulan esos fondos. Hay superposición con GOB-01, GOB-02, GOB-03 y GOB-13.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 1 (creación del Programa)",
+    "problema": "Art. 38.1 de la Ley 29158 (ley orgánica): los Programas se crean en un ministerio u organismo público 'mediante decreto supremo con el voto aprobatorio del Consejo de Ministros'. Además supone gasto (art. 79 de la Constitución).",
+    "correccion": "'Artículo 1. La PCM, a través de la SGTD, implementa la estrategia de municipalidades digitales mediante servicios digitales compartidos ...' y DCF: 'El Poder Ejecutivo puede crear un programa conforme al artículo 38 de la Ley 29158'."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 6",
+    "problema": "'Precísase' que FONCOMUN y canon financian transformación digital sin modificar el D.Leg. 776 (arts. 86 a 89, FONCOMUN) ni la Ley 27506 (art. 6.2, uso del canon). Si ya es elegible, es redundante; si no, no lo habilita.",
+    "correccion": "'Modifícase el numeral 6.2 del artículo 6 de la Ley 27506 para incluir expresamente las inversiones en transformación digital ...' (o suprimir el artículo si el MEF confirma su elegibilidad)."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículos 2 y 8 — superposición con GOB-01, GOB-02, GOB-03 y GOB-13",
+    "problema": "Mesa de partes, casilla, interoperabilidad y nube ya son objeto de GOB-02 (casilla única), GOB-01 (solo una vez), GOB-03 (software público) y GOB-13 (nube del Estado). Deben ser los mismos servicios, no un catálogo paralelo.",
+    "correccion": "'El Catálogo comprende, entre otros, la casilla única electrónica nacional, el software público peruano y los servicios del marco de nube del Estado regulados por sus leyes especiales'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 7",
+    "problema": "Los programas de incentivos municipales tienen base en la normativa presupuestal (Programa de Incentivos a la Mejora de la Gestión Municipal); la facultad del MEF ya existe.",
+    "correccion": "Mantener como remisión: 'conforme a la normativa del Programa de Incentivos a la Mejora de la Gestión Municipal'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "antecedentes",
+    "problema": "Antecedentes verificados.",
+    "correccion": "'Periodo 2021-2026: PL 14365/2025-CR, declara a Loreto zona especial de incentivo para el cierre de la brecha digital (publicada). No se identificaron proyectos sobre servicios digitales compartidos municipales'."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 29158, art. 38 — aplica (creación de programas por D.S.)",
+    "D.L. 1412 y D.S. 029-2021-PCM — complementa",
+    "Ley 27972 — complementa",
+    "Ley 27783 — complementa",
+    "Ley 27506, art. 6.2 — modifica (si se requiere)",
+    "D.Leg. 776, arts. 86-89 (FONCOMUN) — complementa"
+   ],
+   "entidades_implicadas": [
+    "PCM/SGTD",
+    "MEF (DGPP, DGPMI)",
+    "INEI — índice",
+    "Gobiernos regionales, municipalidades y mancomunidades"
+   ],
+   "impacto_economico": "Costo medio para la PCM (operación de servicios compartidos, equipos macrorregionales); ahorro agregado para municipalidades por economías de escala. Debe cuantificarse.",
+   "antecedentes_propuestos": "PL 14365/2025-CR (relacionado)."
+  }
+ },
+ {
+  "id": "GOB-09",
+  "especialidad": "normativo",
+  "veredicto": "observaciones",
+  "resumen": "Ley 28530 y Ley 29973 verificadas. La propuesta se superpone casi por completo con TAL-13 (accesibilidad digital WCAG AA para el Estado y servicios privados de interés general), que fija otra versión del estándar ('vigente' o NTP del INACAL) y otra autoridad: deben fusionarse. La técnica de 'incorporar una DCF' a la Ley 28530 sin ordinal es defectuosa.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 4 — conflicto con TAL-13",
+    "problema": "GOB-09 fija WCAG 2.2 nivel AA con actualización por la SGTD y plazos de 24/36 meses; TAL-13 fija WCAG 'versión vigente' o NTP del INACAL, para el Estado y privados, con plazos propios. Dos estándares y dos autoridades para los mismos portales públicos.",
+    "correccion": "Fusionar ambas propuestas o disponer en GOB-09: 'El estándar de accesibilidad de los servicios digitales públicos es el que establece la ley de accesibilidad digital de las personas con discapacidad'; y conservar en GOB-09 solo móvil primero, mensajería y pertinencia lingüística."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 8",
+    "problema": "La Ley 28530 (2005) tiene su propia estructura de disposiciones; agregar 'una DCF' sin ordinal es técnicamente incorrecto. Además la Ley 29973 (art. 23, accesibilidad en la información y comunicaciones) es la norma general vigente.",
+    "correccion": "'Modifícase el artículo [de portales accesibles] de la Ley 28530' y 'Modifícase el artículo 23 de la Ley 29973' (verificar numeración) para incluir aplicaciones móviles y el estándar técnico."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 3 — concordancia con GOB-02 y CIB-06",
+    "problema": "Los canales de mensajería no sustituyen la casilla (correcto, GOB-02). La verificación de cuentas oficiales debe coordinar con el registro de remitentes de CIB-06 y la protección de canales de CIB-13.",
+    "correccion": "Añadir: 'Las cuentas y remitentes oficiales se inscriben en el Registro de Remitentes de Mensajes previsto en la ley de la materia'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 5 — concordancia con IA-06",
+    "problema": "Pertinencia lingüística: IA-06 obliga a incorporar lenguas originarias en asistentes con IA; ambos deben usar el mismo criterio territorial (Mapa Etnolingüístico, D.S. 011-2018-MC, verificar).",
+    "correccion": "Uniformar la referencia al Mapa Etnolingüístico y a la Ley 29735 en ambas propuestas."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "antecedentes",
+    "problema": "Antecedente verificado.",
+    "correccion": "'Periodo 2021-2026: PL 09800/2024-CR, acceso de personas con discapacidad a los planes de gobierno mediante formatos y tecnologías alternativas (con dictamen). No se identificaron proyectos sobre estándar WCAG ni canales móviles del Estado'."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 28530 — modifica artículo sobre portales accesibles",
+    "Ley 29973, art. 23 — modifica/complementa (verificar)",
+    "Ley 29735 — complementa",
+    "D.L. 1412 y D.S. 029-2021-PCM — complementa",
+    "Ley 31736 — complementa (canal de notificación jurídica)"
+   ],
+   "entidades_implicadas": [
+    "PCM/SGTD",
+    "CONADIS (MIMP)",
+    "Ministerio de Cultura",
+    "Entidades públicas"
+   ],
+   "antecedentes_propuestos": "PL 09800/2024-CR (relacionado)."
+  }
+ },
+ {
+  "id": "GOB-10",
+  "especialidad": "normativo",
+  "veredicto": "observaciones_graves",
+  "resumen": "La Ley 25323 ya fue modificada por el D.Leg. 1556 (2023), que incorporó disposiciones sobre gestión, tratamiento y preservación digital de documentos archivísticos y un artículo sobre herramientas digitales seguras y confiables. La propuesta lo omite, por lo que duplica parcialmente una norma vigente y su técnica (incorporar una 'DCF') es incorrecta.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Exposición de motivos / efecto_vigencia / Artículo 8",
+    "problema": "Duplicidad: el D.Leg. 1556 (2023) modificó la Ley 25323 para incorporar como finalidad del Sistema Nacional de Archivos la gestión en entorno digital y un artículo sobre herramientas digitales para la gestión y preservación de documentos archivísticos. La propuesta afirma que 'la ley marco no contempla la preservación digital'.",
+    "correccion": "Corregir el problema y reformular el art. 8: 'Modifícase el artículo [incorporado por el D.Leg. 1556] de la Ley 25323 ...' para añadir solo lo nuevo: Repositorio Nacional de Preservación Digital, plan de preservación obligatorio, formatos abiertos y transferencia por cambio de gestión. Citar el D.Leg. 1556 en efecto_vigencia y normas_relacionadas."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 4 (creación del Repositorio)",
+    "problema": "Crear un 'Repositorio' a cargo del AGN es una función, no un órgano; está bien, pero el AGN es organismo adscrito al Ministerio de Cultura y su financiamiento debe preverse (costo 'medio').",
+    "correccion": "'El AGN implementa el Repositorio Nacional de Preservación Digital como servicio, progresivamente y sobre la infraestructura de nube del Estado' y cuantificar en costo_beneficio."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 5 — firma digital",
+    "problema": "La validez probatoria más allá de la vigencia del certificado (firmas longevas, sellado de tiempo) se rige por la Ley 27269 y su Reglamento (D.S. 052-2008-PCM). Hay relación con CIB-09 y con el régimen de microformas (D.Leg. 681).",
+    "correccion": "'... conforme a la Ley 27269 y su Reglamento, y al régimen de microformas del D.Leg. 681'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 6",
+    "problema": "La transferencia de gestión se regula por la Contraloría (directiva de transferencia de gestión) y la Ley 30204 para gobiernos regionales y locales (verificar).",
+    "correccion": "'... conforme a la normativa de transferencia de gestión, que se adecúa para incluir el inventario de documentos electrónicos y sistemas'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Superposición con GOB-02 y GOB-13",
+    "problema": "El expediente electrónico (GOB-02) y la nube del Estado (GOB-13) condicionan la preservación; deben compartir formatos y reglas de portabilidad.",
+    "correccion": "Remisión cruzada a la ley de casilla única/expediente electrónico y a la del marco de nube del Estado."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "antecedentes",
+    "problema": "No se identificaron proyectos en el dataset.",
+    "correccion": "'Por verificar en SPLEY: no se identificaron proyectos del periodo 2021-2026 sobre preservación digital; antecedente normativo: D.Leg. 1556 (2023), que modificó la Ley 25323'."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 25323 (modificada por D.Leg. 1556) — modifica artículos de preservación digital",
+    "D.S. 008-92-JUS (Reglamento de la Ley 25323) — adecúa",
+    "D.L. 1412 y D.S. 029-2021-PCM — complementa",
+    "Ley 27269 y D.S. 052-2008-PCM — complementa",
+    "D.Leg. 681 (microformas) — complementa",
+    "TUO Ley 27806 — complementa",
+    "Ley 29733 — complementa"
+   ],
+   "entidades_implicadas": [
+    "Archivo General de la Nación (Ministerio de Cultura)",
+    "PCM/SGTD",
+    "Contraloría — transferencia de gestión",
+    "Entidades públicas"
+   ]
+  }
+ },
+ {
+  "id": "GOB-11",
+  "especialidad": "normativo",
+  "veredicto": "observaciones",
+  "resumen": "Normas citadas correctas (Ley 30900; Ley 27972). Sin duplicidad con norma vigente, pero se superpone con TAL-11, que modifica la Ley 30900 (art. 6-A) para que la ATU publique GTFS/GTFS Realtime: dos leyes regularían la misma obligación para Lima y Callao con plazos distintos. Debe concordarse también con la normativa de transporte interprovincial (D.S. 017-2009-MTC) y con IA-04.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículos 2 a 4 — conflicto con TAL-11",
+    "problema": "TAL-11 (art. 5) impone a la ATU publicar datos GTFS y GTFS Realtime con progresividad propia; GOB-11 impone lo mismo a la ATU con plazos de 12/24 meses. Duplicidad normativa y posible antinomia de plazos.",
+    "correccion": "Excluir a la ATU del ámbito de GOB-11 ('La ATU se rige por la Ley 30900, modificada por la ley de recaudo único y datos abiertos') o fusionar ambas propuestas, dejando a GOB-11 el resto del país."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 5 — concesiones vigentes",
+    "problema": "La obligación se aplica a concesiones 'que se otorguen o renueven'; respecto de concesiones vigentes de la ATU o municipales, la imposición unilateral puede requerir adenda (contratos-ley o concesiones con equilibrio económico).",
+    "correccion": "Añadir: 'En las concesiones vigentes, la autoridad promueve la adenda correspondiente; mientras tanto, publica los datos de que disponga por fiscalización'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 2 — transporte interprovincial",
+    "problema": "El transporte interprovincial regular se rige por el Reglamento Nacional de Administración de Transporte (D.S. 017-2009-MTC), que ya exige sistemas de monitoreo satelital supervisados por la SUTRAN; la ley debe remitir a esa fuente de datos.",
+    "correccion": "'... utilizando la información del sistema de monitoreo satelital previsto en el Reglamento Nacional de Administración de Transporte'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 6 — concordancia con IA-04",
+    "problema": "IA-04 fija estándar nacional de datos abiertos y API; GOB-11 fija licencia propia.",
+    "correccion": "'Los datos se publican conforme al Estándar Nacional de Datos Abiertos que establezca la ley de la materia'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "antecedentes",
+    "problema": "No se identificaron antecedentes.",
+    "correccion": "'Por verificar en SPLEY: no se identificaron proyectos del periodo 2021-2026 sobre datos abiertos del transporte público'."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 30900 — complementa (o coordina con TAL-11, que incorpora el art. 6-A)",
+    "Ley 27972, art. 81 (tránsito y transporte) — complementa",
+    "D.S. 017-2009-MTC (RNAT) — adecúa",
+    "Ley 27181, Ley General de Transporte y Tránsito Terrestre — complementa",
+    "D.L. 1412 — complementa",
+    "Ley 29733 — complementa"
+   ],
+   "entidades_implicadas": [
+    "ATU",
+    "MTC",
+    "SUTRAN",
+    "Municipalidades provinciales",
+    "Operadores concesionarios"
+   ]
+  }
+ },
+ {
+  "id": "GOB-12",
+  "especialidad": "normativo",
+  "veredicto": "observaciones",
+  "resumen": "La Plataforma Digital Única de Denuncias del Ciudadano tiene base reglamentaria verificada: art. 13 del Reglamento del D.Leg. 1327 (D.S. 010-2017-JUS, modificado por D.S. 002-2020-JUS) y Directiva 002-2023-PCM-SIP. La ampliación a 'irregularidades en la prestación de servicios' se superpone con el Libro de Reclamaciones del Estado, con el art. 116 del TUO de la Ley 27444 (denuncia administrativa) y con el canal de GOB-01.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 1 / Artículo 4 — superposición con art. 116 del TUO y Libro de Reclamaciones",
+    "problema": "La denuncia administrativa general está regulada en el art. 116 del TUO de la Ley 27444 (D.S. 006-2026-JUS) y los reclamos por mala atención en el Libro de Reclamaciones de las entidades (D.S. 007-2020-PCM, verificar). Ampliar la Plataforma sin articularlos crea un tercer canal con otro plazo (15 días).",
+    "correccion": "Añadir: 'Modifícase el artículo 116 de la Ley 27444 para disponer que las denuncias administrativas pueden presentarse a través de la Plataforma' y 'Los reclamos por la atención recibida se siguen tramitando por el Libro de Reclamaciones, que interopera con la Plataforma'."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "efecto_vigencia / normas_relacionadas",
+    "problema": "Omite la base específica (art. 13 del D.S. 010-2017-JUS, modificado por D.S. 002-2020-JUS) y cita el TUO derogado (D.S. 004-2019-JUS, sustituido por D.S. 006-2026-JUS).",
+    "correccion": "Agregar 'D.S. 010-2017-JUS, Reglamento del D.Leg. 1327, art. 13 (modificado por D.S. 002-2020-JUS)' y actualizar la cita del TUO."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 5",
+    "problema": "La 'falta grave' por revelar la identidad del denunciante debe engarzar con el régimen disciplinario de la Ley 30057 (art. 85) y con el D.Leg. 1327 (medidas de protección).",
+    "correccion": "'... constituye falta de carácter disciplinario conforme al artículo 85 de la Ley 30057 ...'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 7 — Contraloría",
+    "problema": "La Contraloría tiene su propio sistema de atención de denuncias (Ley 27785, art. 22); la interoperabilidad debe ser bidireccional.",
+    "correccion": "'La Plataforma interopera con el sistema de atención de denuncias de la Contraloría General de la República'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "antecedentes",
+    "problema": "No hay proyectos sobre esta Plataforma; sí sobre denuncia digital policial.",
+    "correccion": "'Por verificar en SPLEY: no se identificaron proyectos del periodo 2021-2026 sobre la Plataforma Digital Única de Denuncias del Ciudadano; relacionados: PL 10488/2024-CR, plataforma Denuncia Digital para delitos contra el patrimonio (publicada); PL 10762/2024-CR, denuncia electrónica ante la PNP (en comisión)'."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "D.Leg. 1327 — complementa (incorpora artículo sobre la Plataforma)",
+    "D.S. 010-2017-JUS (modificado por D.S. 002-2020-JUS), art. 13 — adecúa",
+    "Ley 27444 (TUO D.S. 006-2026-JUS), art. 116 — modifica",
+    "Ley 27785, art. 22 — complementa",
+    "Ley 30057, art. 85 — complementa",
+    "D.L. 1412 — complementa"
+   ],
+   "entidades_implicadas": [
+    "PCM — Secretaría de Integridad Pública",
+    "PCM/SGTD",
+    "Contraloría y OCI",
+    "Ministerio Público",
+    "Entidades públicas y empresas del Estado"
+   ],
+   "antecedentes_propuestos": "PL 10488/2024-CR; PL 10762/2024-CR (relacionados)."
+  }
+ },
+ {
+  "id": "GOB-13",
+  "especialidad": "normativo",
+  "veredicto": "observaciones",
+  "resumen": "Normas citadas correctas (D.L. 1412; D.S. 029-2021-PCM, que prevé la preferencia por la nube y Nube Perú; Ley 32069). Sin duplicidad legal, pero fija una regla de localización distinta de IA-05 e IA-14, y su inventario de centros de datos públicos se superpone con el Registro Nacional de Centros de Datos de CON-10 (MTC). Debe concordarse además con el D.S. 115-2025-PCM (art. 19, nube para IA).",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3 — conflicto con IA-05 art. 6 e IA-14 art. 4 lit. f)",
+    "problema": "GOB-13 exige alojar la información crítica en territorio nacional o con copia íntegra en el país; IA-05 admite alojamiento fuera si se cumplen las condiciones de flujo transfronterizo de la Ley 29733; IA-14 remite a la Ley 29733 y al Marco de Confianza Digital. Tres reglas de localización distintas para datos públicos.",
+    "correccion": "Establecer que GOB-13 es la regla general: 'Las leyes especiales que regulen el alojamiento de datos públicos se sujetan a la clasificación y reglas de localización de la presente ley'; e incorporar esa remisión en IA-05 y en IA-14."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 5 — superposición con CON-10",
+    "problema": "CON-10 crea un Registro Nacional de Centros de Datos a cargo del MTC (reporte de energía y agua); GOB-13 un inventario de centros de datos públicos a cargo de la SGTD con indicadores de eficiencia energética. Doble reporte para los centros de datos estatales.",
+    "correccion": "'Los centros de datos públicos inscritos en el Registro Nacional de Centros de Datos reportan a través de él; la SGTD accede a esa información para el inventario'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 4 lit. v)",
+    "problema": "La Ley 32069 ya sujeta los contratos a la ley peruana; la cláusula de jurisdicción para contratos de nube con proveedores extranjeros debe concordar con el régimen de arbitraje de la Ley 32069.",
+    "correccion": "'(v) la aplicación de la legislación peruana y la solución de controversias conforme a la Ley 32069'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 6",
+    "problema": "Debe precisarse la entidad: la Central de Compras Públicas (PERÚ COMPRAS) y los acuerdos marco en la Ley 32069.",
+    "correccion": "'... en coordinación con la Central de Compras Públicas – PERÚ COMPRAS, mediante acuerdos marco conforme a la Ley 32069'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Concordancia con D.S. 115-2025-PCM, art. 19 y CIB-02",
+    "problema": "La nube para IA (art. 19) y las obligaciones de continuidad de los operadores esenciales (CIB-02) deben compartir la clasificación de información.",
+    "correccion": "Añadir referencia en DCF Segunda: 'incluidas las del Reglamento de la Ley 31814'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "antecedentes",
+    "problema": "Antecedente relacionado.",
+    "correccion": "'Periodo 2021-2026: PL 13372/2025-CR, Ley marco de soberanía digital y protección ciudadana frente al crimen organizado (en comisión). No se identificaron proyectos sobre nube del Estado'."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "D.L. 1412 — complementa (incorpora artículo de nube y portabilidad)",
+    "D.S. 029-2021-PCM — adecúa",
+    "Ley 32069 y D.S. 009-2025-EF — complementa (cláusulas, acuerdos marco)",
+    "Ley 29733, arts. 15 y ss. (flujo transfronterizo) — complementa",
+    "D.U. 007-2020 y D.S. 126-2025-PCM — complementa",
+    "D.S. 115-2025-PCM, art. 19 — complementa"
+   ],
+   "entidades_implicadas": [
+    "PCM/SGTD — Nube Perú",
+    "PERÚ COMPRAS / OECE",
+    "MTC (si se aprueba CON-10)",
+    "Entidades del Poder Ejecutivo"
+   ],
+   "antecedentes_propuestos": "PL 13372/2025-CR (relacionado)."
+  }
+ },
+ {
+  "id": "GOB-14",
+  "especialidad": "normativo",
+  "veredicto": "observaciones",
+  "resumen": "D.S. 033-2018-PCM verificado como origen del rol de Líder de Gobierno Digital; la denominación 'Líder de Gobierno y Transformación Digital' y el Comité provienen de normas posteriores (verificar si de resolución ministerial de la PCM y no del D.U. 006-2020). Fijar un periodo de 4 años choca con el régimen de directivos públicos de la Ley 30057, y su 'familia de puestos de talento digital' se superpone con la de ciberseguridad de CIB-12.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 5",
+    "problema": "El régimen de directivos públicos de la Ley 30057 (designación por periodos de tres años renovables y causales de remoción propias; verificar arts. 59 a 64) es el aplicable; fijar 4 años y causales distintas crea un régimen especial no concordado. Si el cargo es de confianza, la estabilidad sería incompatible.",
+    "correccion": "'El Jefe o Jefa de Transformación Digital es directivo público conforme a la Ley 30057 y se rige por sus reglas de designación, periodo, evaluación y remoción'."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 6 — conflicto con CIB-12",
+    "problema": "CIB-12 crea una familia de puestos de ciberseguridad y GOB-14 una de 'talento digital' (que incluye arquitectura e infraestructura). Dos familias con roles superpuestos y escalas distintas.",
+    "correccion": "Unificar: 'SERVIR aprueba una familia de puestos de tecnologías digitales que comprende, entre otros, los roles de transformación digital, datos, desarrollo, arquitectura y ciberseguridad'."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "efecto_vigencia",
+    "problema": "Una ley no 'modifica en lo pertinente' un decreto supremo de forma genérica; debe disponer su adecuación. Además debe citar el D.U. 006-2020 (Sistema Nacional de Transformación Digital) y el D.S. 029-2021-PCM, donde hoy se regulan el Comité y el Líder.",
+    "correccion": "'Dispone la adecuación del D.S. 033-2018-PCM y del D.S. 029-2021-PCM; complementa el D.U. 006-2020, el D.L. 1412, la Ley 30057 y el D.Leg. 1024'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 2.1 — autonomía",
+    "problema": "Imponer un cargo directivo con perfil en organismos constitucionalmente autónomos y gobiernos regionales puede afectar su autonomía organizativa (arts. 191 y ss. de la Constitución).",
+    "correccion": "'Los organismos constitucionalmente autónomos y los gobiernos regionales adoptan la Jefatura conforme a sus normas de organización'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "antecedentes",
+    "problema": "Antecedentes verificados.",
+    "correccion": "'Periodo 2021-2026: PL 04491/2022-CR, que modifica los arts. 2, 4 y 7 del D.L. 1412 para fortalecer la implementación del gobierno digital (en comisión); PL 05220/2022-CR, que modifica el art. 9 del D.L. 1412 (en comisión)'."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 30057, régimen de directivos públicos — complementa",
+    "D.S. 033-2018-PCM y D.S. 029-2021-PCM — adecúa",
+    "D.U. 006-2020 — complementa",
+    "D.L. 1412 — complementa (incorpora artículo sobre la Jefatura)",
+    "D.Leg. 1024 — complementa",
+    "Leyes anuales de presupuesto — excepción para creación de puestos"
+   ],
+   "entidades_implicadas": [
+    "SERVIR",
+    "PCM/SGTD",
+    "ENAP",
+    "MEF",
+    "Entidades públicas, mancomunidades municipales"
+   ],
+   "impacto_economico": "Costo medio por creación de puestos directivos en ~2 000 entidades si no se comparte; debe cuantificarse por nivel de gobierno.",
+   "antecedentes_propuestos": "PL 04491/2022-CR; PL 05220/2022-CR."
+  }
+ }
+]

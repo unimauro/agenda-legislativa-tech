@@ -1,0 +1,1659 @@
+[
+ {
+  "id": "IA-01",
+  "veredicto": "observaciones",
+  "resumen": "Propuesta compatible en lo sustancial con la Constitución: desarrolla el principio de publicidad (art. 2.5) y el control del poder. Debe ajustarse su aplicación a los organismos constitucionalmente autónomos, que no pueden quedar sujetos a modelos aprobados por un órgano de la PCM, y precisar el régimen de responsabilidad y la fecha de exigibilidad.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 2.1 y Artículo 7.2",
+    "problema": "Extiende el Registro, administrado por la PCM/SGTD, y el modelo de evaluación aprobado por la SGTD a los organismos constitucionalmente autónomos (BCRP, JNE, ONPE, RENIEC, Defensoría, Contraloría, Ministerio Público, TC, JNJ). La ley puede imponerles deberes de transparencia, pero someterlos a lineamientos técnico-normativos de un órgano del Poder Ejecutivo afecta la autonomía que les reconocen los arts. 84, 158, 161, 177 y 201 de la Constitución y sus leyes orgánicas (art. 106).",
+    "correccion": "Agregar al artículo 2 el numeral: «2.3. Los organismos constitucionalmente autónomos y el Poder Judicial cumplen la obligación de inscripción y publicidad prevista en la presente ley conforme a su autonomía, pudiendo aprobar su propio modelo de evaluación de impacto algorítmico, que debe contener como mínimo la información del artículo 5. La SGTD les presta asistencia técnica a solicitud y el modelo previsto en el numeral 7.2 les es referencial.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 9",
+    "problema": "Remite genéricamente a la Ley 30057 como fuente de la falta. Esa ley no rige para los trabajadores de las empresas del Estado y tiene exclusiones o regímenes especiales (BCRP, SBS, Contraloría, Congreso, entre otros), por lo que el artículo es inaplicable a parte del ámbito del art. 2.1. Además, el principio de tipicidad (art. 2.24.d de la Constitución; art. 248.4 del TUO de la Ley 27444) exige describir la conducta infractora.",
+    "correccion": "Redactar: «Artículo 9. Responsabilidad. Constituye falta administrativa disciplinaria del titular de la unidad orgánica usuaria: a) poner en producción un sistema de riesgo alto sin inscripción vigente; b) no actualizar la ficha dentro del plazo del numeral 6.2; c) omitir la respuesta prevista en el artículo 8. La falta se procesa conforme al régimen disciplinario aplicable a la entidad, sin perjuicio de las responsabilidades civil y penal.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Disposición Complementaria Final Segunda",
+    "problema": "Remite a los plazos de la Primera Disposición Complementaria Final del Reglamento de la Ley 31814 (D.S. 115-2025-PCM), que se computan desde la publicación de ese decreto (9-sep-2025): para el Poder Ejecutivo, Legislativo, Judicial y los OCA el plazo de un año ya venció. La remisión es, por tanto, inaplicable o genera plazos vencidos a la fecha de vigencia.",
+    "correccion": "Fijar plazos propios: «Las entidades inscriben los sistemas en producción a la fecha de vigencia del reglamento en el plazo de seis meses (Poder Ejecutivo, Poder Legislativo, Poder Judicial y OCA), doce meses (gobiernos regionales, universidades públicas y EsSalud) y dieciocho meses (gobiernos locales y empresas del Estado), computados desde la vigencia del reglamento.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Disposición Complementaria Final Cuarta",
+    "problema": "Condicionar toda la vigencia de la ley a la publicación del reglamento permite que la omisión reglamentaria del Ejecutivo paralice indefinidamente la ley, trasladando al Ejecutivo una decisión de vigencia que corresponde al legislador (art. 109 de la Constitución); además, la DCF Primera y la DCF Cuarta quedan en dependencia circular (el plazo de reglamentación se cuenta 'desde su entrada en vigencia').",
+    "correccion": "Redactar: «La presente ley entra en vigencia al día siguiente de su publicación. Las obligaciones de los artículos 5 a 8 son exigibles desde la vigencia de su reglamento o, en defecto de este, a los ciento ochenta días hábiles de la publicación de la ley.» Y en la DCF Primera: «contados desde la publicación de la presente ley»."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "comision_sugerida",
+    "problema": "Se usa la denominación de comisiones del Congreso unicameral 2021-2026, que no existen en la Cámara de Diputados 2026-2031 (Reglamento de la Cámara de Diputados, art. 45). La proposición se presenta y dictamina primero en Diputados (art. 105 de la Constitución, modificado por Ley 31988).",
+    "correccion": "Reemplazar por la denominación oficial vigente: comision_sugerida: «Ciencia, Innovación y Tecnología» → «Ciencia, Innovación Tecnológica y Sociedad Digital»; comision_secundaria: «Descentralización, Regionalización, Gobiernos Locales y Modernización de la Gestión del Estado» → «Modernización de la Gestión del Estado y Contraloría»."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ninguna modificación expresa; complementa Ley 31814 y TUO de la Ley 27806"
+   ],
+   "entidades_implicadas": [
+    "PCM/SGTD — administrador del Registro",
+    "OCA y Poder Judicial — sujetos obligados con autonomía",
+    "Contraloría, Defensoría, ANPD — acceso a la evaluación completa"
+   ],
+   "impacto_economico": "Gasto marginal asumible en el pliego PCM; no vulnera el art. 79 si se mantiene la cláusula de financiamiento con presupuesto institucional (STC 00018-2023-PI/TC, Sentencia 158/2026, fund. 118)."
+  },
+  "especialidad": "constitucional"
+ },
+ {
+  "id": "IA-02",
+  "veredicto": "observaciones",
+  "resumen": "Propuesta que desarrolla el debido procedimiento administrativo y el deber de motivación (art. 139.3 aplicable al procedimiento administrativo); es constitucionalmente valiosa. Requiere salvar la oponibilidad de cláusulas a contratos en curso (art. 62) y corregir la técnica de modificación del TUO.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 6.2",
+    "problema": "Declara inoponibles cláusulas de confidencialidad o propiedad intelectual ya pactadas. Aplicado a contratos celebrados antes de su vigencia, colisiona con el art. 62 de la Constitución ('los términos contractuales no pueden ser modificados por leyes u otras disposiciones de cualquier clase'). Asimismo, podría leerse como obligación de revelar código fuente, afectando derechos de propiedad intelectual (art. 2.8) más allá de lo necesario.",
+    "correccion": "Redactar: «6.2. En los contratos que se celebren, prorroguen o renueven a partir de la vigencia de la presente ley, las entidades incluyen cláusulas que obligan al proveedor a entregar la información necesaria para la explicación prevista en el numeral 66.23 y para el control gubernamental. La explicación al administrado se limita a los factores principales y no comprende la divulgación del código fuente ni de secretos comerciales, los cuales se ponen a disposición de los órganos de control bajo reserva.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículos 2 y 3",
+    "problema": "Las leyes del Congreso modifican la Ley 27444; el TUO es una compilación aprobada por decreto supremo cuya numeración puede variar. Modificar 'el TUO' y crear un 'artículo 6-A' (cuando el art. 6 del TUO regula la motivación) puede generar desajustes, como la propia exposición reconoce.",
+    "correccion": "Formular como «Incorpórase el artículo 6-A en la Ley 27444, Ley del Procedimiento Administrativo General, cuyo Texto Único Ordenado fue aprobado por Decreto Supremo 004-2019-JUS...» y añadir una DCF: «El Ministerio de Justicia y Derechos Humanos incorpora las modificaciones en el Texto Único Ordenado en un plazo de sesenta días hábiles.» Verificar en SPIJ el último numeral vigente del art. 66 antes de asignar el 66.23."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 7",
+    "problema": "Crea una causal de nulidad fuera del art. 10 de la Ley 27444, con lo que la lista de causales queda dispersa; además, adoptar el acto vulnerando el art. 4.1 ya encaja en la causal de contravención a las leyes (art. 10.1).",
+    "correccion": "Redactar: «Incorpórase el numeral 5 en el artículo 10 de la Ley 27444: '5. Los actos adoptados de manera exclusivamente automatizada en los supuestos en que la ley exige intervención humana.'»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 4.1",
+    "problema": "La expresión 'restrinjan derechos fundamentales' es indeterminada y casi todo acto de gravamen la cumple; puede generar incertidumbre sobre qué actos pueden automatizarse.",
+    "correccion": "Sustituir por «restrinjan o limiten el ejercicio de derechos fundamentales o denieguen solicitudes de acceso a servicios públicos esenciales»."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "comision_sugerida",
+    "problema": "Se usa la denominación de comisiones del Congreso unicameral 2021-2026, que no existen en la Cámara de Diputados 2026-2031 (Reglamento de la Cámara de Diputados, art. 45). La proposición se presenta y dictamina primero en Diputados (art. 105 de la Constitución, modificado por Ley 31988).",
+    "correccion": "Reemplazar por la denominación oficial vigente: comision_sugerida: «Descentralización, Regionalización, Gobiernos Locales y Modernización de la Gestión del Estado» → «Modernización de la Gestión del Estado y Contraloría»."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 27444, art. 6-A (incorpora), art. 66 (incorpora numeral), art. 10 (incorpora numeral 5)"
+   ],
+   "entidades_implicadas": [
+    "MINJUSDH — actualización del TUO",
+    "PCM/SGTD — lineamientos de lenguaje claro"
+   ],
+   "impacto_economico": "Sin gasto nuevo relevante; compatible con el art. 79."
+  },
+  "especialidad": "constitucional"
+ },
+ {
+  "id": "IA-03",
+  "veredicto": "observaciones",
+  "resumen": "El régimen de espacio de pruebas es constitucionalmente viable si la ley fija criterios objetivos de selección y límites claros a la flexibilización. Debe evitarse que la participación 'obligatoria' alcance a organismos autónomos y excluirse expresamente la materia tributaria.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 2.2 frente a 2.3",
+    "problema": "El numeral 2.2 impone participación 'obligatoria' de la autoridad sectorial competente en un espacio conducido por la PCM; si el sector es financiero o de seguros, esa autoridad es la SBS, cuya autonomía está garantizada por el art. 87 de la Constitución (y la del BCRP por el art. 84). El 2.3 dice lo contrario (adhesión voluntaria por convenio). La contradicción genera una afectación potencial a la autonomía.",
+    "correccion": "Agregar al 2.2: «...salvo que se trate de la Superintendencia de Banca, Seguros y AFP, el Banco Central de Reserva del Perú u otra entidad con autonomía constitucional, en cuyo caso se aplica el numeral 2.3.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 4.2",
+    "problema": "No excluye la materia tributaria: una 'exención temporal de requisitos de rango reglamentario' podría alcanzar obligaciones formales tributarias o tasas, lo que solo puede hacerse por ley (art. 74) y, si es beneficio, con informe previo del MEF (art. 79). Tampoco excluye expresamente la protección al consumidor.",
+    "correccion": "Agregar a la lista del 4.2: «las obligaciones tributarias, sustanciales o formales, y los derechos de tramitación; los derechos de los consumidores reconocidos en la Ley 29571; y los requisitos establecidos en normas con rango de ley.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículos 3 y 4.1",
+    "problema": "La exención de requisitos a participantes seleccionados supone un trato diferenciado entre competidores; para ser compatible con la igualdad (art. 2.2), la prohibición de leyes por razón de las personas (art. 103) y la libre competencia (art. 61), la selección debe basarse en criterios objetivos y públicos, con convocatoria abierta.",
+    "correccion": "Agregar al artículo 3: «La admisión se realiza mediante convocatoria pública y criterios objetivos de evaluación previamente publicados. La resolución de admisión es motivada y publicada. La flexibilización otorgada a un participante se extiende, en las mismas condiciones, a cualquier otro admitido que se encuentre en igual situación.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "comision_sugerida",
+    "problema": "Se usa la denominación de comisiones del Congreso unicameral 2021-2026, que no existen en la Cámara de Diputados 2026-2031 (Reglamento de la Cámara de Diputados, art. 45). La proposición se presenta y dictamina primero en Diputados (art. 105 de la Constitución, modificado por Ley 31988).",
+    "correccion": "Reemplazar por la denominación oficial vigente: comision_sugerida: «Ciencia, Innovación y Tecnología» → «Ciencia, Innovación Tecnológica y Sociedad Digital»."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "D.S. 115-2025-PCM, art. 17 (adecuación)"
+   ],
+   "entidades_implicadas": [
+    "PCM/SGTD — conductora",
+    "SBS, BCRP — adhesión voluntaria",
+    "INDECOPI, ANPD — participantes"
+   ],
+   "impacto_economico": "Sin gasto nuevo; los participantes asumen costos y garantías."
+  },
+  "especialidad": "constitucional"
+ },
+ {
+  "id": "IA-04",
+  "veredicto": "observaciones",
+  "resumen": "Desarrolla el derecho de acceso a la información pública (art. 2.5) y es compatible con la Constitución. Debe salvar los derechos de propiedad intelectual de terceros sobre datos que custodia el Estado, evitar la afectación de contratos vigentes y respetar la autonomía de los organismos constitucionalmente autónomos.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 7",
+    "problema": "Declara 'libre' la reutilización, incluso comercial y para entrenamiento de IA, de todo dato abierto. Parte de la información custodiada por entidades (estudios, informes de consultoría, mapas, obras) está protegida por derechos de autor de terceros (art. 2.8 de la Constitución; D.L. 822) o por secreto estadístico; la ley no puede extinguir esos derechos sin causal ni compensación.",
+    "correccion": "Agregar al final del artículo 7: «...La presente disposición no afecta los derechos de propiedad intelectual de terceros sobre obras o bases de datos custodiadas por las entidades, ni el secreto estadístico; en tales casos la entidad publica los datos bajo la licencia que dichos derechos permitan.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 5.2",
+    "problema": "La prohibición de contratos de exclusividad es válida hacia adelante, pero aplicada a contratos celebrados antes de la vigencia vulneraría el art. 62 de la Constitución (intangibilidad de los términos contractuales).",
+    "correccion": "Redactar: «5.2. A partir de la vigencia de la presente ley, las entidades no pueden suscribir, prorrogar ni renovar contratos de exclusividad que restrinjan la reutilización de datos públicos.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Disposición Complementaria Final Segunda y Artículo 4.2",
+    "problema": "Somete a los organismos constitucionalmente autónomos a la lista y al estándar aprobados por la SGTD (órgano del Ejecutivo), lo que roza su autonomía (arts. 84, 87, 158, 161, 177 de la Constitución).",
+    "correccion": "Añadir a la DCF Segunda: «Los organismos constitucionalmente autónomos aplican el Estándar Nacional como referencia técnica y aprueban su propia relación de conjuntos de datos de alto valor, que remiten a la SGTD para su publicación en la Plataforma Nacional de Datos Abiertos.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "costo_beneficio / Disposición Complementaria Final Tercera",
+    "problema": "El costo_beneficio reconoce 'costos moderados de adecuación' en gobiernos regionales y municipalidades, pero la ficha declara costo fiscal 'bajo' y no identifica fuente. La STC 00018-2023-PI/TC (Sentencia 158/2026, fund. 118) exige que las iniciativas parlamentarias con incidencia en gasto identifiquen la fuente y cuenten con informe de sostenibilidad fiscal del Ejecutivo antes del dictamen.",
+    "correccion": "En costo_beneficio, agregar: «La implementación se programa dentro de los recursos de los pliegos; la comisión dictaminadora debe solicitar opinión al MEF sobre sostenibilidad fiscal (STC 00018-2023-PI/TC, fund. 118).» y mantener la gradualidad de tres años."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "comision_sugerida",
+    "problema": "Se usa la denominación de comisiones del Congreso unicameral 2021-2026, que no existen en la Cámara de Diputados 2026-2031 (Reglamento de la Cámara de Diputados, art. 45). La proposición se presenta y dictamina primero en Diputados (art. 105 de la Constitución, modificado por Ley 31988).",
+    "correccion": "Reemplazar por la denominación oficial vigente: comision_sugerida: «Ciencia, Innovación y Tecnología» → «Ciencia, Innovación Tecnológica y Sociedad Digital»; comision_secundaria: «Descentralización, Regionalización, Gobiernos Locales y Modernización de la Gestión del Estado» → «Modernización de la Gestión del Estado y Contraloría»."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ninguna expresa; complementa D.L. 1412, D.U. 006-2020 y TUO de la Ley 27806"
+   ],
+   "entidades_implicadas": [
+    "PCM/SGTD — estándar y lista",
+    "INDECOPI — derechos de autor de terceros",
+    "INEI — secreto estadístico"
+   ],
+   "impacto_economico": "Costo de adecuación distribuido en pliegos; requiere opinión MEF por el criterio de la Sentencia 158/2026."
+  },
+  "especialidad": "constitucional"
+ },
+ {
+  "id": "IA-05",
+  "veredicto": "observaciones",
+  "resumen": "La ley es de naturaleza promotora y no crea entidad, por lo que no exige ley orgánica. Sin embargo, por su costo 'medio' (equipamiento y energía) está en la zona de riesgo del art. 79 tras el cambio de criterio de la STC 00018-2023-PI/TC; debe reforzarse la cláusula de financiamiento y respetar la autonomía universitaria.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 9 y costo_beneficio",
+    "problema": "La propia ficha califica el costo como 'medio' e incluye adquisiciones de cómputo. Según la STC 00018-2023-PI/TC (Sentencia 158/2026, 16-jun-2026, fund. 113-118, criterio vinculante), los congresistas no tienen iniciativa para incrementar gastos que incidan en el presupuesto anual o en el futuro; excepcionalmente debe identificarse la fuente de financiamiento y contarse con informe de sostenibilidad fiscal del Ejecutivo. La fórmula 'sin demandar recursos adicionales' no basta si el articulado ordena adquisiciones.",
+    "correccion": "Redactar el artículo 9: «La implementación de la Red se financia exclusivamente con cargo a los presupuestos institucionales de las entidades que voluntariamente se adhieran, a los fondos concursables existentes de PROCIENCIA, a la cooperación internacional y a aportes privados, sin demandar recursos adicionales al Tesoro Público. La presente ley no obliga a realizar adquisiciones.» Y en el dictamen, requerir opinión del MEF."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículos 3.2 y 8",
+    "problema": "El art. 8 impone a 'los nodos' (universidades públicas y privadas) ofrecer programas de formación, y el 3.2 somete sus normas de acceso a lo que apruebe CONCYTEC. Las universidades gozan de autonomía normativa, académica, administrativa y económica (art. 18 de la Constitución); solo es legítimo si derivan de un convenio voluntario.",
+    "correccion": "Redactar el art. 8: «Los nodos de la Red pueden ofrecer, conforme a los convenios de adhesión y a su autonomía, programas de formación...» y añadir al 3.2: «Las normas técnicas son obligatorias para los integrantes en virtud del convenio de adhesión.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 6",
+    "problema": "La obligación de que datos personales 'permanezcan en territorio nacional o en infraestructuras que cumplan las condiciones de transferencia' es redundante con la Ley 29733 (art. 15, flujo transfronterizo) y puede leerse como localización forzosa para empresas privadas que aportan nodos, afectando la libertad de empresa (art. 59) sin justificación de proporcionalidad.",
+    "correccion": "Redactar: «El tratamiento de datos personales en la Red se sujeta a la Ley 29733 y su reglamento, incluido el régimen de flujo transfronterizo, y a las normas de seguridad digital del Marco de Confianza Digital.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "comision_sugerida",
+    "problema": "Se usa la denominación de comisiones del Congreso unicameral 2021-2026, que no existen en la Cámara de Diputados 2026-2031 (Reglamento de la Cámara de Diputados, art. 45). La proposición se presenta y dictamina primero en Diputados (art. 105 de la Constitución, modificado por Ley 31988).",
+    "correccion": "Reemplazar por la denominación oficial vigente: comision_sugerida: «Ciencia, Innovación y Tecnología» → «Ciencia, Innovación Tecnológica y Sociedad Digital»; comision_secundaria: «Presupuesto y Cuenta General de la República» → «Economía, Banca, Finanzas e Inteligencia Financiera (la Comisión Bicameral de Presupuesto no dictamina proposiciones ordinarias)»."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ninguna; complementa Ley 31250 y D.S. 115-2025-PCM"
+   ],
+   "entidades_implicadas": [
+    "CONCYTEC — articulador",
+    "Universidades — adhesión voluntaria (art. 18)",
+    "MEF — informe de sostenibilidad fiscal"
+   ],
+   "impacto_economico": "Cualquier inversión debe salir de los presupuestos institucionales o fondos existentes; la ley no puede ordenar compras."
+  },
+  "especialidad": "constitucional"
+ },
+ {
+  "id": "IA-06",
+  "veredicto": "observaciones_graves",
+  "resumen": "La propuesta regula de manera específica derechos colectivos de los pueblos indígenas u originarios (gobernanza de sus datos lingüísticos, condiciones de uso, beneficio compartido), por lo que es una medida legislativa de afectación directa que requiere consulta previa conforme al Convenio 169 de la OIT y la jurisprudencia del TC. Sin consulta, corre riesgo de inconstitucionalidad por la forma.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículos 4.2, 5.2 y 8; Disposición Complementaria Final Primera",
+    "problema": "Los artículos 4.2, 5.2 y 8 regulan derechos colectivos de los pueblos indígenas sobre su patrimonio lingüístico y conocimientos tradicionales. El TC, en la STC 0022-2009-PI/TC (caso Tuanama, fund. 21), estableció que las medidas legislativas dirigidas exclusivamente a regular aspectos de los pueblos indígenas deben ser consultadas obligatoriamente (Convenio 169 OIT, art. 6, con rango constitucional). La DCF Primera solo prevé un 'diálogo' para el reglamento, lo que no equivale a consulta previa.",
+    "correccion": "Dos opciones: (a) que la comisión dictaminadora realice un proceso de consulta previa de la fórmula legal antes de aprobar el dictamen; o (b) reducir la ley al componente promocional (arts. 1-3, 6 y 7) y trasladar la gobernanza a una norma posterior consultada: «Disposición Complementaria Final Primera. El Poder Ejecutivo aprueba las reglas de gobernanza, condiciones de uso y beneficio compartido de los datos lingüísticos previo proceso de consulta previa conforme a la Ley 29785, en un plazo de doscientos cuarenta días hábiles.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 8",
+    "problema": "Declarar que registros de propiedad intelectual sobre modelos 'no limitan' el uso por los pueblos y el Estado es una limitación legal al derecho de propiedad intelectual (art. 2.8) que debe expresarse como licencia legal delimitada para ser proporcional.",
+    "correccion": "Redactar: «...Quien entrene modelos con corpus lingüísticos públicos otorga, por mandato de la presente ley, una licencia gratuita, no exclusiva y perpetua a favor del Estado y de los pueblos hablantes para usos no comerciales, educativos y de servicio público.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "comision_sugerida",
+    "problema": "Se usa la denominación de comisiones del Congreso unicameral 2021-2026, que no existen en la Cámara de Diputados 2026-2031 (Reglamento de la Cámara de Diputados, art. 45). La proposición se presenta y dictamina primero en Diputados (art. 105 de la Constitución, modificado por Ley 31988).",
+    "correccion": "Reemplazar por la denominación oficial vigente: comision_sugerida: «Pueblos Andinos, Amazónicos y Afroperuanos, Ambiente y Ecología» → «Inclusión Social, Familia, Mujer y Pueblos Andinos, Amazónicos y Afroperuanos»; comision_secundaria: «Ciencia, Innovación y Tecnología» → «Ciencia, Innovación Tecnológica y Sociedad Digital»."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ninguna; complementa Ley 29735 y Ley 29785"
+   ],
+   "entidades_implicadas": [
+    "Ministerio de Cultura — Viceministerio de Interculturalidad, órgano técnico de consulta previa",
+    "Organizaciones representativas de pueblos indígenas"
+   ],
+   "impacto_economico": "Costo bajo; el proceso de consulta previa añade tiempo y costo de trámite que debe preverse."
+  },
+  "especialidad": "constitucional"
+ },
+ {
+  "id": "IA-07",
+  "veredicto": "observaciones_graves",
+  "resumen": "El fin (proteger la libre formación de la voluntad del elector) es constitucionalmente legítimo y el diseño evita la censura previa. Pero atribuye nuevas competencias y un procedimiento al JNE y a los JEE, materia de ley orgánica (art. 106), y deja la escala de sanciones al reglamento, lo que viola la reserva de ley sancionadora (art. 2.24.d). Debe además acotar quiénes pueden ser sancionados y prever la reposición del contenido retirado indebidamente.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 5 y Disposición Complementaria Final Primera",
+    "problema": "Crea un procedimiento y competencias nuevas del JNE y de los JEE (denuncia, plazos, efectos, apelación). La estructura y funcionamiento del JNE, entidad prevista en la Constitución (arts. 177-178), se regula por ley orgánica (art. 106): Ley 26486, Ley Orgánica del JNE, y Ley 26859, Ley Orgánica de Elecciones. Tras la Ley 31988, la ley orgánica requiere el voto de más de la mitad del número legal de miembros de ambas cámaras. Aprobada como ley ordinaria, la norma sería inconstitucional por la forma.",
+    "correccion": "Reformular el artículo 5 como modificación expresa de la Ley 26859 (incorporar un artículo en el título de propaganda electoral) y de la Ley 26486 (competencia de los JEE), y consignar en la exposición de motivos y en el dictamen que la propuesta se aprueba con la votación calificada del art. 106 de la Constitución en ambas cámaras. Derivar a la Comisión de Constitución, Reglamento y Relaciones Exteriores como dictaminadora principal."
+   },
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 7.1",
+    "problema": "Remite al régimen sancionador de la Ley 28094, que tiene por sujetos a las organizaciones políticas, para sancionar también a candidatos, terceros contratantes y plataformas, y delega al reglamento 'adecuar la escala'. El principio de legalidad y tipicidad (art. 2.24.d de la Constitución; art. 248.1 y 248.4 del TUO de la Ley 27444) exige que la ley determine las infracciones, los sujetos y el rango de sanciones; el reglamento solo puede especificarlos.",
+    "correccion": "Redactar: «7.1. Constituyen infracciones: a) Leve: difundir propaganda con contenido sintético sin la leyenda del art. 42-A, sancionable con multa de 1 a 10 UIT; b) Grave: incumplir la orden de retiro o etiquetado dentro del plazo, sancionable con multa de 10 a 50 UIT; c) Muy grave: difundir contenido sintético prohibido por el art. 4.1, sancionable con multa de 30 a 100 UIT. Son sujetos responsables la organización política, el candidato, el tercero contratante y el proveedor de plataforma que incumpla la orden. El JNE gradúa la sanción conforme al art. 248.3 del TUO de la Ley 27444.» (los montos son referenciales y deben sustentarse en el dictamen)."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 4.1 y 5.3",
+    "problema": "La prohibición alcanza a 'la difusión' por cualquier persona, incluidos ciudadanos que comparten sin ánimo de engañar, y la apelación no suspende el retiro. Con eso la medida puede afectar la libertad de expresión (art. 2.4; art. 13 de la Convención Americana) de forma no proporcional. Falta prever la reposición del contenido si el JNE revoca la orden.",
+    "correccion": "En 4.1 sustituir 'se prohíbe la difusión' por «se prohíbe la creación, contratación o difusión deliberada, con conocimiento de su carácter sintético,». Agregar al 5.3: «Si el JNE revoca la orden, el contenido se repone en un plazo de veinticuatro horas y la resolución se publica.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 7.2",
+    "problema": "La referencia a 'el Código Penal modificado por la Ley 32314' es correcta (Ley 32314, publicada el 29-abr-2025), pero conviene precisar los tipos, pues esa ley agrava delitos contra el honor (art. 132) y otros; no existe un tipo de 'deepfake electoral'.",
+    "correccion": "Redactar: «...sin perjuicio de la responsabilidad penal que corresponda conforme al Código Penal, incluidas las agravantes por uso de inteligencia artificial incorporadas por la Ley 32314, y de la responsabilidad civil.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "comision_sugerida",
+    "problema": "Se usa la denominación de comisiones del Congreso unicameral 2021-2026, que no existen en la Cámara de Diputados 2026-2031 (Reglamento de la Cámara de Diputados, art. 45). La proposición se presenta y dictamina primero en Diputados (art. 105 de la Constitución, modificado por Ley 31988).",
+    "correccion": "Reemplazar por la denominación oficial vigente: comision_sugerida: «Constitución y Reglamento» → «Constitución, Reglamento y Relaciones Exteriores»; comision_secundaria: «Ciencia, Innovación y Tecnología» → «Ciencia, Innovación Tecnológica y Sociedad Digital»."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 28094, art. 42-A (incorpora)",
+    "Ley 26859, Ley Orgánica de Elecciones (incorporar procedimiento de retiro — ley orgánica)",
+    "Ley 26486, Ley Orgánica del JNE (competencia de JEE — ley orgánica)"
+   ],
+   "entidades_implicadas": [
+    "JNE/JEE — órgano resolutor",
+    "ONPE — educación electoral",
+    "Plataformas digitales — ejecución de órdenes"
+   ],
+   "impacto_economico": "Costo bajo, concentrado en periodos electorales."
+  },
+  "especialidad": "constitucional"
+ },
+ {
+  "id": "IA-08",
+  "veredicto": "conforme",
+  "resumen": "Propuesta compatible con el derecho a la salud (art. 7) y con la competencia del Estado para determinar la política nacional de salud (art. 9); la exigencia de validación es una restricción proporcional a la libertad de empresa. Solo se observa la técnica de vigencia.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "ubicacion": "Disposición Complementaria Final Cuarta",
+    "problema": "Condicionar la vigencia de toda la ley a la publicación del reglamento permite que la omisión del Ejecutivo la paralice (art. 109 de la Constitución: la ley es obligatoria desde el día siguiente de su publicación, salvo disposición contraria que debe ser determinada).",
+    "correccion": "Redactar: «La presente ley entra en vigencia al día siguiente de su publicación. Los artículos 4, 5 y 7 son exigibles desde la vigencia del reglamento previsto en la Primera Disposición Complementaria Final.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Disposición Complementaria Final Tercera",
+    "problema": "Los 'derechos de tramitación' son tasas (tributos, art. 74); solo pueden exigirse si el procedimiento figura en el TUPA aprobado conforme al TUO de la Ley 27444 y su costo está sustentado. La ley no los crea.",
+    "correccion": "Redactar: «...y con los derechos de tramitación que se aprueben en el TUPA de la autoridad conforme al TUO de la Ley 27444...»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "comision_sugerida",
+    "problema": "Se usa la denominación de comisiones del Congreso unicameral 2021-2026, que no existen en la Cámara de Diputados 2026-2031 (Reglamento de la Cámara de Diputados, art. 45). La proposición se presenta y dictamina primero en Diputados (art. 105 de la Constitución, modificado por Ley 31988).",
+    "correccion": "Reemplazar por la denominación oficial vigente: comision_sugerida: «Salud y Población» → «Salud»; comision_secundaria: «Ciencia, Innovación y Tecnología» → «Ciencia, Innovación Tecnológica y Sociedad Digital»."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 29459 (incorpora artículo)"
+   ],
+   "entidades_implicadas": [
+    "MINSA/DIGEMID — autoridad nacional de productos farmacéuticos y dispositivos médicos"
+   ],
+   "impacto_economico": "Sin gasto nuevo relevante."
+  },
+  "especialidad": "constitucional"
+ },
+ {
+  "id": "IA-09",
+  "veredicto": "observaciones_graves",
+  "resumen": "La protección del núcleo de la función jurisdiccional es constitucionalmente valiosa (art. 139.3 y 139.5). Pero la ley regula el funcionamiento del Poder Judicial, el Ministerio Público, el TC y la JNJ, entidades previstas en la Constitución cuya estructura y funcionamiento son materia de ley orgánica (art. 106); además debe respetar su autonomía y precisar el régimen disciplinario aplicable a abogados.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículos 2 a 8",
+    "problema": "Los arts. 3 a 8 fijan reglas sobre cómo jueces, fiscales y magistrados elaboran resoluciones, registran sistemas y se capacitan. Es regulación del funcionamiento de órganos constitucionales (Poder Judicial arts. 138-149, Ministerio Público arts. 158-160, TC art. 201, JNJ arts. 150-157), reservada a ley orgánica (art. 106): TUO de la LOPJ (D.S. 017-93-JUS), D.Leg. 052 (LOMP), Ley 28301 (LOTC), Ley 30916 (LOJNJ). Aprobada sin la votación calificada en ambas cámaras, sería inconstitucional por la forma.",
+    "correccion": "Reformular como ley de modificación de las leyes orgánicas: incorporar las garantías en un artículo nuevo de la LOPJ (Título sobre deberes de los magistrados), de la LOMP y de la Ley 30916, y dejar al TC la aprobación de sus propios lineamientos conforme a su autonomía reglamentaria (art. 201; Ley 28301). Consignar que se aprueba con el voto de más de la mitad del número legal de ambas cámaras (art. 106, modificado por Ley 31988). Recabar opinión del Poder Judicial y del Ministerio Público (art. 107, segundo párrafo)."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 6",
+    "problema": "Declara 'falta disciplinaria' la inclusión de citas inexistentes también en escritos de las partes, sin precisar el régimen ni el órgano sancionador. Los abogados no están sujetos al régimen disciplinario de magistrados, y la tipicidad (art. 2.24.d) exige determinar la conducta y la sanción.",
+    "correccion": "Separar: «6.1. La inclusión de citas inexistentes en resoluciones o disposiciones constituye falta disciplinaria leve conforme a la Ley 29277, Ley de la Carrera Judicial, o a la Ley 30483, Ley de la Carrera Fiscal, según corresponda.» «6.2. Cuando la inclusión se produzca en escritos de parte, el juez la pone en conocimiento del Colegio de Abogados respectivo y puede imponer la multa prevista en el artículo 292 del TUO de la LOPJ por conducta procesal temeraria.» (verificar numeración vigente)."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 2",
+    "problema": "Incluir a 'los árbitros en arbitrajes en los que el Estado sea parte' mezcla jurisdicción arbitral (art. 139.1) con la estatal; las reglas aplicables al arbitraje deben ir en la ley de arbitraje y la normativa de contrataciones del Estado.",
+    "correccion": "Eliminar a los árbitros del art. 2 y agregar una DCF: «Las instituciones arbitrales y los árbitros en arbitrajes en que el Estado sea parte observan los artículos 4 y 5 de la presente ley, conforme a la normativa de arbitraje.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "comision_sugerida",
+    "problema": "Se usa la denominación de comisiones del Congreso unicameral 2021-2026, que no existen en la Cámara de Diputados 2026-2031 (Reglamento de la Cámara de Diputados, art. 45). La proposición se presenta y dictamina primero en Diputados (art. 105 de la Constitución, modificado por Ley 31988).",
+    "correccion": "Reemplazar por la denominación oficial vigente: comision_secundaria: «Ciencia, Innovación y Tecnología» → «Ciencia, Innovación Tecnológica y Sociedad Digital»."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "TUO LOPJ, D.S. 017-93-JUS (incorpora artículo — ley orgánica)",
+    "D.Leg. 052, LOMP (incorpora artículo — ley orgánica)",
+    "Ley 30916, LOJNJ"
+   ],
+   "entidades_implicadas": [
+    "Poder Judicial, Ministerio Público, TC, JNJ — autonomía",
+    "Academia de la Magistratura"
+   ],
+   "impacto_economico": "Sin gasto nuevo."
+  },
+  "especialidad": "constitucional"
+ },
+ {
+  "id": "IA-10",
+  "veredicto": "observaciones",
+  "resumen": "La excepción al consentimiento para investigación limita el derecho a la autodeterminación informativa (art. 2.6), pero puede superar el test de proporcionalidad si se refuerzan las salvaguardas para datos sensibles y la presunción de anonimización es refutable. Debe armonizarse con el secreto estadístico del INEI, previsto en norma con rango de ley.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 6 (art. 14-A de la Ley 29733)",
+    "problema": "Exime del consentimiento el tratamiento de datos seudonimizados sin distinguir datos sensibles (salud, origen étnico, datos biométricos). Para que la restricción del art. 2.6 de la Constitución sea proporcional, el tratamiento de datos sensibles requiere garantías reforzadas (necesidad acreditada, evaluación de impacto, revisión ética).",
+    "correccion": "Añadir al art. 14-A: «Tratándose de datos sensibles, se requiere además: a) evaluación de impacto en protección de datos aprobada por la entidad custodia; b) aprobación del proyecto por un comité de ética de la investigación registrado; y c) que la finalidad no pueda alcanzarse con datos anonimizados o sintéticos.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3.2",
+    "problema": "Establece que los datos que cumplan el estándar 'no constituyen datos personales', convirtiendo una norma técnica administrativa en criterio que excluye la protección de un derecho fundamental. Si por el avance técnico el dato vuelve a ser reidentificable, la persona quedaría sin tutela.",
+    "correccion": "Redactar: «3.2. Se presume que los datos anonimizados y sintéticos que cumplan el estándar no constituyen datos personales. La presunción admite prueba en contrario; si se acredita riesgo razonable de reidentificación, la entidad suspende su publicación y aplica nuevamente el procedimiento.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 4.1",
+    "problema": "El acceso de investigadores a microdatos individuales seudonimizados del INEI choca con el secreto estadístico previsto en el Decreto Legislativo 604 (Ley de Organización y Funciones del INEI), norma con rango de ley; sin modificarla expresamente se produce una antinomia.",
+    "correccion": "Agregar una Disposición Complementaria Modificatoria que incorpore en el D.Leg. 604 una excepción: «No se vulnera el secreto estadístico cuando el INEI facilita el acceso a microdatos seudonimizados en entornos seguros de acceso, conforme a la ley de la materia, sin permitir la extracción de datos individuales.» (verificar el número del artículo vigente del D.Leg. 604 en SPIJ)."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 7.2 y Disposición Complementaria Final Tercera",
+    "problema": "La infracción se crea fuera del catálogo de infracciones de la Ley 29733, lo que dispersa el régimen sancionador; y la vigencia condicionada al reglamento permite paralizar la ley.",
+    "correccion": "Incorporar la infracción como literal del artículo de infracciones muy graves de la Ley 29733 (art. 38). DCF Tercera: «La presente ley entra en vigencia al día siguiente de su publicación; los arts. 4 y 5 son exigibles desde la vigencia del reglamento.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "comision_sugerida",
+    "problema": "Se usa la denominación de comisiones del Congreso unicameral 2021-2026, que no existen en la Cámara de Diputados 2026-2031 (Reglamento de la Cámara de Diputados, art. 45). La proposición se presenta y dictamina primero en Diputados (art. 105 de la Constitución, modificado por Ley 31988).",
+    "correccion": "Reemplazar por la denominación oficial vigente: comision_secundaria: «Ciencia, Innovación y Tecnología» → «Ciencia, Innovación Tecnológica y Sociedad Digital»."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 29733, art. 14-A (incorpora) y art. 38 (incorpora infracción)",
+    "D.Leg. 604, secreto estadístico (modifica)"
+   ],
+   "entidades_implicadas": [
+    "ANPD — estándar y sanción",
+    "INEI — entornos seguros y secreto estadístico"
+   ],
+   "impacto_economico": "Bajo; implementación gradual con infraestructura del INEI."
+  },
+  "especialidad": "constitucional"
+ },
+ {
+  "id": "IA-11",
+  "veredicto": "observaciones_graves",
+  "resumen": "Crear la ANPD como organismo técnico especializado con pliego propio presenta dos vicios: la Ley 29158 (LOPE), ley orgánica que integra el parámetro de control, reserva la creación de organismos públicos a ley de iniciativa del Poder Ejecutivo; y la creación de un nuevo pliego con costo 'medio' incrementa el gasto, prohibido a la iniciativa parlamentaria (art. 79; STC 00018-2023-PI/TC). Solo es viable con iniciativa o acuerdo del Ejecutivo, o reformulada sin crear entidad.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículos 1 y 2",
+    "problema": "El art. 28 de la Ley 29158, Ley Orgánica del Poder Ejecutivo, dispone que los organismos públicos especializados se crean y disuelven 'por ley a iniciativa del Poder Ejecutivo'. Una propuesta presentada por diputados o por ciudadanos no cumple ese requisito, y por tratarse de una ley orgánica (art. 106) su inobservancia vicia la ley de creación.",
+    "correccion": "Opción A (preferente): presentar la propuesta como insumo para que el Poder Ejecutivo la remita con su iniciativa (art. 107). Opción B (iniciativa parlamentaria viable): sustituir los arts. 1, 2 y 6 por una modificación del art. 32 de la Ley 29733 que otorgue a la Autoridad, dentro del MINJUSDH, «autonomía técnica y funcional en el ejercicio de sus funciones de supervisión, fiscalización y sanción», sin crear pliego, y una DCF que «encarga al Poder Ejecutivo evaluar, en un plazo de 180 días, la conversión de la Autoridad en organismo técnico especializado conforme al art. 28 de la Ley 29158»."
+   },
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 2 (constituye pliego) y costo_beneficio",
+    "problema": "La creación de un pliego presupuestal, Consejo Directivo de tres miembros a tiempo completo y órgano especializado implica nuevo gasto permanente; la propia ficha reconoce que 'requerirá priorización presupuestal'. Según el criterio vinculante de la STC 00018-2023-PI/TC (Sentencia 158/2026, fund. 113-118), los congresistas no tienen iniciativa para incrementar gastos con impacto presente o futuro, salvo coordinación con el Ejecutivo e informe de sostenibilidad fiscal previo al dictamen.",
+    "correccion": "Si se mantiene la creación: exigir en el dictamen el informe de sostenibilidad fiscal del MEF e identificar la fuente (transferencia íntegra de la Dirección General del MINJUSDH y recaudación de multas) con gradualidad. Si se opta por la Opción B del hallazgo anterior, eliminar 'Constituye pliego presupuestal' y el art. 6."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 4.2",
+    "problema": "Remitir al reglamento las causales de remoción de los miembros del Consejo debilita la garantía de independencia: la inamovilidad durante el mandato debe tener causales fijadas en la ley.",
+    "correccion": "Redactar: «4.2. ... solo pueden ser removidos por: a) incapacidad permanente; b) condena por delito doloso; c) incompatibilidad sobreviniente; d) falta grave declarada previo procedimiento con derecho de defensa.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "comision_sugerida",
+    "problema": "Se usa la denominación de comisiones del Congreso unicameral 2021-2026, que no existen en la Cámara de Diputados 2026-2031 (Reglamento de la Cámara de Diputados, art. 45). La proposición se presenta y dictamina primero en Diputados (art. 105 de la Constitución, modificado por Ley 31988).",
+    "correccion": "Reemplazar por la denominación oficial vigente: comision_sugerida: «Descentralización, Regionalización, Gobiernos Locales y Modernización de la Gestión del Estado» → «Modernización de la Gestión del Estado y Contraloría»."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 29733, art. 32 (modifica)",
+    "ROF del MINJUSDH (adecuación)"
+   ],
+   "entidades_implicadas": [
+    "PCM — adscripción",
+    "MINJUSDH — transferencia",
+    "MEF — informe de sostenibilidad fiscal",
+    "SERVIR — concurso"
+   ],
+   "impacto_economico": "Costo permanente de un nuevo pliego (soporte administrativo, consejo directivo); la opción de autonomía funcional dentro del MINJUSDH es neutra en gasto."
+  },
+  "especialidad": "constitucional"
+ },
+ {
+  "id": "IA-12",
+  "veredicto": "conforme",
+  "resumen": "La portabilidad desarrolla la autodeterminación informativa (art. 2.6) y promueve la libre competencia (art. 61); la carga sobre las empresas es proporcional por el umbral y la vigencia diferida. Observaciones menores de técnica sancionadora.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 7",
+    "problema": "La infracción se tipifica fuera del catálogo de la Ley 29733, dispersando el régimen sancionador; para la tipicidad (art. 2.24.d) conviene integrarla en la lista de infracciones graves.",
+    "correccion": "Reemplazar por: «Incorpórase en el artículo 38 de la Ley 29733, entre las infracciones graves, el literal: 'Negar injustificadamente o impedir mediante obstáculos técnicos deliberados el ejercicio del derecho a la portabilidad'.» (verificar numeración vigente)."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 4.1",
+    "problema": "Dejar íntegramente al reglamento el umbral de usuarios que define al sujeto obligado a disponer de API da al Ejecutivo la delimitación del ámbito subjetivo de una obligación legal.",
+    "correccion": "Fijar en la ley un umbral mínimo: «...a más de quinientos mil usuarios activos mensuales en el país, umbral que el reglamento puede reducir según el sector.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "comision_sugerida",
+    "problema": "Se usa la denominación de comisiones del Congreso unicameral 2021-2026, que no existen en la Cámara de Diputados 2026-2031 (Reglamento de la Cámara de Diputados, art. 45). La proposición se presenta y dictamina primero en Diputados (art. 105 de la Constitución, modificado por Ley 31988).",
+    "correccion": "Reemplazar por la denominación oficial vigente: comision_secundaria: «Defensa del Consumidor y Organismos Reguladores de los Servicios Públicos» → «Defensa del Consumidor y Regulación de los Servicios Públicos»."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 29733, art. 21-A (incorpora) y art. 38 (incorpora infracción)"
+   ],
+   "entidades_implicadas": [
+    "ANPD — supervisión",
+    "INDECOPI — competencia"
+   ],
+   "impacto_economico": "Sin gasto público."
+  },
+  "especialidad": "constitucional"
+ },
+ {
+  "id": "IA-13",
+  "veredicto": "conforme",
+  "resumen": "Desarrolla el art. 23 de la Constitución (ninguna relación laboral puede limitar los derechos constitucionales ni desconocer la dignidad del trabajador) y la intimidad (art. 2.7); las cargas impuestas al empleador son proporcionales. Solo debe precisarse la autoridad fiscalizadora para servidores públicos.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 6",
+    "problema": "Atribuye a SUNAFIL la fiscalización respecto de 'entidades públicas', pero la competencia inspectiva de SUNAFIL en el sector público se limita a los trabajadores sujetos al régimen laboral privado; los servidores de los regímenes de los D.Leg. 276, 1057 y de la Ley 30057 están bajo la rectoría de SERVIR.",
+    "correccion": "Agregar: «6.2. Respecto de los servidores civiles no sujetos al régimen laboral de la actividad privada, la supervisión corresponde a la Autoridad Nacional del Servicio Civil, y el incumplimiento genera responsabilidad administrativa disciplinaria del titular de la oficina de recursos humanos conforme a la Ley 30057.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "comision_sugerida",
+    "problema": "Se usa la denominación de comisiones del Congreso unicameral 2021-2026, que no existen en la Cámara de Diputados 2026-2031 (Reglamento de la Cámara de Diputados, art. 45). La proposición se presenta y dictamina primero en Diputados (art. 105 de la Constitución, modificado por Ley 31988).",
+    "correccion": "Reemplazar por la denominación oficial vigente: comision_secundaria: «Ciencia, Innovación y Tecnología» → «Ciencia, Innovación Tecnológica y Sociedad Digital»."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Reglamento de la Ley 28806 (D.S. 019-2006-TR) — tipificación de infracción"
+   ],
+   "entidades_implicadas": [
+    "SUNAFIL — sector privado",
+    "SERVIR — sector público",
+    "MTPE — observatorio y reconversión"
+   ],
+   "impacto_economico": "Sin gasto nuevo."
+  },
+  "especialidad": "constitucional"
+ },
+ {
+  "id": "IA-14",
+  "veredicto": "observaciones",
+  "resumen": "Compatible con el art. 76 (contratación pública por ley) y respetuosa del art. 62, al aplicarse a contratos vigentes solo en renovaciones o adendas. Debe eliminarse la preferencia por empresas nacionales, que choca con la igualdad de trato a la inversión (art. 63) y con compromisos de contratación pública en tratados.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 8",
+    "problema": "'Priorizar la participación de empresas y universidades nacionales' establece un trato diferenciado por nacionalidad del proveedor. El art. 63 de la Constitución dispone que la inversión nacional y la extranjera se sujetan a las mismas condiciones, y los capítulos de contratación pública de los tratados de libre comercio vigentes exigen trato nacional en los procedimientos cubiertos.",
+    "correccion": "Redactar: «...para el desarrollo de soluciones de IA, promoviendo la participación de micro y pequeñas empresas, emprendimientos innovadores y universidades, conforme a la normativa de contrataciones públicas y a los compromisos internacionales del Estado...»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Disposición Complementaria Final Cuarta",
+    "problema": "Hacer depender la vigencia de la publicación de la adecuación reglamentaria permite que la inacción del Ejecutivo impida la aplicación de la ley (art. 109).",
+    "correccion": "Redactar: «La presente ley entra en vigencia a los ciento veinte días hábiles de su publicación, con o sin adecuación reglamentaria; las cláusulas del art. 4 son exigibles desde esa fecha en los procedimientos que se convoquen.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "comision_sugerida",
+    "problema": "Se usa la denominación de comisiones del Congreso unicameral 2021-2026, que no existen en la Cámara de Diputados 2026-2031 (Reglamento de la Cámara de Diputados, art. 45). La proposición se presenta y dictamina primero en Diputados (art. 105 de la Constitución, modificado por Ley 31988).",
+    "correccion": "Reemplazar por la denominación oficial vigente: comision_secundaria: «Ciencia, Innovación y Tecnología» → «Ciencia, Innovación Tecnológica y Sociedad Digital»."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 32069 (incorpora DCF)",
+    "D.S. 009-2025-EF (adecuación)"
+   ],
+   "entidades_implicadas": [
+    "MEF/DGA — ente rector del abastecimiento",
+    "PCM/SGTD — cláusulas modelo",
+    "Contraloría — acceso"
+   ],
+   "impacto_economico": "Sin gasto adicional; posible alza marginal de precios ofertados compensada por menor dependencia del proveedor."
+  },
+  "especialidad": "constitucional"
+ },
+ {
+  "id": "CIB-01",
+  "veredicto": "observaciones_graves",
+  "resumen": "La necesidad de una autoridad de ciberseguridad con potestad sancionadora es legítima, pero crear la Agencia como organismo técnico especializado con pliego propio choca con el art. 28 de la LOPE (creación por ley a iniciativa del Ejecutivo) y con la prohibición de iniciativa parlamentaria de gasto (art. 79; STC 00018-2023-PI/TC). Además, la tipificación de infracciones es una norma en blanco y no se resuelve la concurrencia con la SBS ni la sujeción de los organismos autónomos.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 4",
+    "problema": "El art. 28 de la Ley 29158 (LOPE, ley orgánica) exige que los organismos públicos especializados se creen por ley a iniciativa del Poder Ejecutivo. Una proposición de diputados o ciudadana que crea la ANC incumple ese requisito.",
+    "correccion": "Opción A: promover que el Poder Ejecutivo presente la iniciativa (art. 107) o la incluya en una delegación de facultades (art. 104). Opción B (iniciativa parlamentaria viable): reemplazar el art. 4 por: «El Centro Nacional de Seguridad Digital de la PCM ejerce, con autonomía técnica, las funciones del artículo 5. El Poder Ejecutivo evalúa, en un plazo de 180 días, su conversión en organismo técnico especializado conforme al art. 28 de la Ley 29158.»"
+   },
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículos 4 y 10; costo_beneficio",
+    "problema": "La creación de un pliego y de una estructura con CSIRT nacional, supervisión y certificación supone gasto permanente nuevo; la ficha admite 'gasto público medio' y pide cuantificarlo antes del dictamen. Según el criterio vinculante de la STC 00018-2023-PI/TC (Sentencia 158/2026, fund. 113-118), la iniciativa parlamentaria no puede incrementar gasto presente ni futuro sin coordinación con el Ejecutivo, fuente de financiamiento identificada e informe de sostenibilidad fiscal previo al dictamen.",
+    "correccion": "Agregar DCF: «La implementación se financia con cargo a los recursos del Centro Nacional de Seguridad Digital transferidos y a los ingresos del art. 10, literales b) y c), sin demandar recursos adicionales al Tesoro Público.» y exigir en el dictamen el informe de sostenibilidad fiscal del MEF."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 9",
+    "problema": "Tipifica como infracción 'el incumplimiento de las normas técnicas obligatorias' que dicte la propia ANC y fija solo un máximo de 1000 UIT sin escala. Es una norma sancionadora en blanco que traslada a la entidad la definición de las conductas y no gradúa infracciones leves, graves y muy graves, contra el principio de legalidad y tipicidad (art. 2.24.d; art. 248.1 y 248.4 del TUO de la Ley 27444).",
+    "correccion": "Redactar: «9.1. Son infracciones leves: ... graves: no notificar un incidente significativo en el plazo legal; no implementar las medidas mínimas del art. [x]... muy graves: incumplir una directiva de mitigación ante incidente en curso; obstruir la supervisión. 9.2. Sanciones: leves, amonestación o multa hasta 50 UIT; graves, hasta 300 UIT; muy graves, hasta 1000 UIT, sin exceder el 10 % de los ingresos anuales del infractor. El reglamento puede especificar las conductas sin crear nuevas.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículos 2 y 5 literal b)",
+    "problema": "El ámbito incluye a todas las entidades del art. I del TUO de la Ley 27444, comprendidos los organismos constitucionalmente autónomos, el Poder Judicial y la SBS, sobre los que la ANC dictaría normas obligatorias y sancionaría; además se superpone con la supervisión de ciberseguridad de la SBS (Res. SBS 504-2021) sobre entidades financieras, con riesgo de doble sanción (non bis in idem, art. 248.11 del TUO de la Ley 27444) y afectación de la autonomía de los arts. 84 y 87.",
+    "correccion": "Agregar: «2.2. Respecto de las entidades supervisadas por la SBS, el BCRP y los organismos reguladores, estos ejercen la supervisión y sanción aplicando como mínimo las normas técnicas de la ANC; la ANC no sanciona por los mismos hechos. 2.3. Los organismos constitucionalmente autónomos y el Poder Judicial adoptan las normas técnicas de la ANC en ejercicio de su autonomía y reportan sus incidentes al CSIRT Nacional.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Disposición Complementaria Modificatoria Única y Artículo 2",
+    "problema": "La disposición modificatoria no transcribe el texto modificado del D.U. 007-2020 (Manual de Técnica Legislativa) y el art. 2 remite a 'operadores calificados conforme a la ley de la materia', ley que no existe aún.",
+    "correccion": "Redactar la DCM con el texto íntegro del artículo modificado del D.U. 007-2020 que crea el Centro Nacional de Seguridad Digital, y definir en esta ley los operadores de servicios esenciales o remitir expresamente a la ley que los regule (CIB-02) mediante una DCF de articulación."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "comision_sugerida",
+    "problema": "Se usa la denominación de comisiones del Congreso unicameral 2021-2026, que no existen en la Cámara de Diputados 2026-2031 (Reglamento de la Cámara de Diputados, art. 45). La proposición se presenta y dictamina primero en Diputados (art. 105 de la Constitución, modificado por Ley 31988).",
+    "correccion": "Reemplazar por la denominación oficial vigente: comision_sugerida: «Ciencia, Innovación y Tecnología» → «Ciencia, Innovación Tecnológica y Sociedad Digital»."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "D.U. 007-2020 (modifica)",
+    "D.S. 126-2025-PCM (adecuación)",
+    "Ley 29158 — no se modifica, pero condiciona la iniciativa"
+   ],
+   "entidades_implicadas": [
+    "PCM/Centro Nacional de Seguridad Digital",
+    "SBS, BCRP, OSIPTEL — supervisión sectorial",
+    "MINDEF — ciberdefensa",
+    "MEF — informe de sostenibilidad fiscal"
+   ],
+   "impacto_economico": "Gasto permanente de un nuevo pliego; incompatible con iniciativa parlamentaria salvo coordinación con el MEF."
+  },
+  "especialidad": "constitucional"
+ },
+ {
+  "id": "CIB-02",
+  "veredicto": "observaciones",
+  "resumen": "Las obligaciones impuestas a operadores esenciales son restricciones proporcionales a la libertad de empresa (art. 59), justificadas por la protección de la vida, la salud y la seguridad. Debe atribuirse expresamente la potestad sancionadora y no dejar al Ejecutivo la ampliación ilimitada del ámbito subjetivo.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 8",
+    "problema": "Atribuye la supervisión a los reguladores 'conforme a su ley de creación y tipificación' y, residualmente, a una 'autoridad nacional de ciberseguridad' que no está creada por norma con rango de ley. La potestad sancionadora debe ser atribuida expresamente por ley (art. 248.1 del TUO de la Ley 27444; art. 2.24.d de la Constitución); las leyes de los reguladores no contemplan la ciberseguridad como materia sancionable.",
+    "correccion": "Redactar: «8.1. Atribúyese a los organismos reguladores y supervisores sectoriales la potestad de supervisar y sancionar el incumplimiento de la presente ley respecto de los operadores bajo su competencia. 8.2. Constituyen infracciones graves el incumplimiento de los literales a), c), d) y f) del artículo 4, y muy graves la falta de notificación de incidentes significativos y la negativa a la auditoría del artículo 6, sancionables conforme a la escala de cada supervisor. 8.3. En los sectores sin supervisor, la potestad corresponde a la Presidencia del Consejo de Ministros, a través del Centro Nacional de Seguridad Digital, en tanto no se cree la autoridad nacional de ciberseguridad.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 2, último párrafo",
+    "problema": "Permitir que por decreto supremo se incorporen 'otros sectores' amplía el ámbito de sujetos obligados y sancionables sin parámetros legales; la reserva de ley relativa en materia de limitaciones a la libertad de empresa exige que la ley fije los criterios.",
+    "correccion": "Redactar: «...pueden incorporarse otros sectores cuya interrupción afecte la vida, la salud, la seguridad o la actividad económica de la población, conforme a los criterios del artículo 3, previo informe técnico publicado.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 3",
+    "problema": "Cuando el operador es un organismo constitucionalmente autónomo (p. ej. RENIEC u ONPE en 'administración pública digital'), su calificación y supervisión por un ministerio afecta su autonomía (arts. 177 y 183).",
+    "correccion": "Agregar: «Los organismos constitucionalmente autónomos que presten servicios esenciales aplican las obligaciones del artículo 4 en ejercicio de su autonomía y remiten el informe de auditoría al Centro Nacional de Seguridad Digital, sin sujeción a la potestad sancionadora prevista en el artículo 8.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "comision_sugerida",
+    "problema": "Se usa la denominación de comisiones del Congreso unicameral 2021-2026, que no existen en la Cámara de Diputados 2026-2031 (Reglamento de la Cámara de Diputados, art. 45). La proposición se presenta y dictamina primero en Diputados (art. 105 de la Constitución, modificado por Ley 31988).",
+    "correccion": "Reemplazar por la denominación oficial vigente: comision_secundaria: «Ciencia, Innovación y Tecnología» → «Ciencia, Innovación Tecnológica y Sociedad Digital»."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ninguna expresa; complementa D.U. 007-2020 y D.S. 106-2017-PCM"
+   ],
+   "entidades_implicadas": [
+    "OSINERGMIN, SUNASS, OSIPTEL, OSITRAN, SUSALUD, SBS — supervisión sectorial",
+    "PCM/CNSD — residual"
+   ],
+   "impacto_economico": "Costo recae en operadores; sin gasto adicional al Tesoro."
+  },
+  "especialidad": "constitucional"
+ },
+ {
+  "id": "CIB-03",
+  "veredicto": "conforme",
+  "resumen": "La ventanilla única y los plazos escalonados son constitucionalmente inobjetables; la garantía de no utilizar la notificación como única prueba protege el derecho a no autoincriminarse en sede administrativa. Solo debe aclararse que la confidencialidad no impide la persecución penal.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 7",
+    "problema": "La confidencialidad y el uso 'exclusivo' para respuesta, prevención y supervisión podrían interpretarse como impedimento para comunicar al Ministerio Público hechos con relevancia penal, cuya persecución le corresponde (art. 159 de la Constitución).",
+    "correccion": "Agregar: «La confidencialidad no impide la comunicación al Ministerio Público y a la Policía Nacional del Perú de los hechos que revistan caracteres de delito, a solicitud del notificante o por requerimiento fiscal o judicial.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "comision_sugerida",
+    "problema": "Se usa la denominación de comisiones del Congreso unicameral 2021-2026, que no existen en la Cámara de Diputados 2026-2031 (Reglamento de la Cámara de Diputados, art. 45). La proposición se presenta y dictamina primero en Diputados (art. 105 de la Constitución, modificado por Ley 31988).",
+    "correccion": "Reemplazar por la denominación oficial vigente: comision_sugerida: «Ciencia, Innovación y Tecnología» → «Ciencia, Innovación Tecnológica y Sociedad Digital»."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ninguna expresa; complementa D.U. 007-2020 y Ley 29733"
+   ],
+   "entidades_implicadas": [
+    "PCM/CNSD — plataforma",
+    "ANPD, SBS, OSIPTEL — receptores"
+   ],
+   "impacto_economico": "Bajo; dentro del pliego PCM."
+  },
+  "especialidad": "constitucional"
+ },
+ {
+  "id": "CIB-04",
+  "veredicto": "observaciones_graves",
+  "resumen": "La tipificación específica de ciberdelitos es legítima, pero la propuesta tiene problemas de legalidad penal y técnica: el numeral 5 del art. 11 de la Ley 30096 ya fue incorporado por la Ley 32314 (uso de IA), el tipo de 'extorsión informática' tiene pena menor que la extorsión común (art. 200 CP), con lo que privilegia al extorsionador digital, y la sextorsión se superpone con el chantaje sexual ya tipificado. La preservación de datos debe sujetarse a orden judicial para el acceso (art. 2.10).",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 6",
+    "problema": "La Ley 32314 (publicada el 29-abr-2025) ya incorporó el numeral 5 al art. 11 de la Ley 30096 ('El agente comete el delito empleando la inteligencia artificial o tecnologías similares o análogas'). La propuesta incorpora otro 'numeral 5', con lo que sustituiría o duplicaría la agravante vigente: cita una numeración ya ocupada.",
+    "correccion": "Redactar: «Incorpórase el numeral 6 al artículo 11 de la Ley 30096: '6. El delito se comete contra una pluralidad de víctimas mediante campañas automatizadas o afecta a personas adultas mayores o en situación de vulnerabilidad.'» (verificar en SPIJ que no existan otros numerales posteriores)."
+   },
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 2 (art. 4-A)",
+    "problema": "La extorsión del art. 200 del Código Penal se sanciona en su forma básica con pena no menor de diez ni mayor de quince años (texto tras la Ley 32183; verificar el texto vigente tras el D.Leg. 1732 de 2026). El nuevo tipo de extorsión informática (6 a 12 años) sería ley especial y, por especialidad, desplazaría al art. 200 con una pena menor: el ransomware quedaría privilegiado frente a la extorsión común, lo que lesiona el principio de proporcionalidad de las penas y la igualdad (art. 2.2) y contraría la finalidad de la ley.",
+    "correccion": "Tipificar como modalidad agravada dentro del art. 200 del Código Penal o fijar en el art. 4-A una pena no menor de la del art. 200: «...será reprimido con pena privativa de libertad no menor de diez ni mayor de quince años. La pena será no menor de quince ni mayor de veinticinco años cuando...» Añadir: «Si el hecho constituye un delito más grave, se aplica la pena de este.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3 (art. 5-A)",
+    "problema": "El chantaje sexual ya está tipificado en el art. 176-C del Código Penal (incorporado por el D.Leg. 1410), incluida la amenaza de difundir imágenes íntimas por medios tecnológicos. Un tipo paralelo con otra pena genera concurso aparente y riesgo de interpretación favorable al reo; afecta la lex certa (art. 2.24.d).",
+    "correccion": "En lugar del art. 5-A, modificar el art. 176-C del Código Penal para incluir expresamente 'imágenes, audios o videos reales o generados sintéticamente' y la finalidad de obtener dinero o ventaja, con la pena propuesta, y añadir la agravante por víctima menor de edad."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 5 (art. 9, segundo párrafo)",
+    "problema": "La suplantación mediante contenido sintético ya está alcanzada por la agravante genérica del art. 11.5 de la Ley 30096 (uso de IA, hasta un tercio por encima del máximo, Ley 32314). Aplicar ambas sobre el mismo hecho supondría doble valoración de la misma circunstancia (non bis in idem material).",
+    "correccion": "Agregar al final del párrafo: «En este supuesto no es aplicable la agravante del numeral 5 del artículo 11.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 8",
+    "problema": "La conservación rápida de datos es compatible con el secreto de las comunicaciones (art. 2.10) solo si se limita a preservar y no a acceder; el acceso a datos de tráfico o contenido requiere mandamiento motivado del juez. La fórmula 'bajo control judicial posterior' es ambigua.",
+    "correccion": "Redactar: «...pueden requerir la conservación inmediata de datos informáticos por un plazo de hasta noventa días, prorrogable por orden judicial. La conservación no autoriza el acceso ni la entrega de los datos, que requiere mandamiento judicial conforme al artículo 2.10 de la Constitución y al Código Procesal Penal.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Disposición Complementaria Final Tercera",
+    "problema": "Contiene una instrucción a la comisión dictaminadora sobre el trámite; no es contenido normativo de una ley y quedaría vacía tras su publicación.",
+    "correccion": "Suprimir la disposición y trasladar la advertencia a la exposición de motivos."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 30096, arts. 9 y 11 (modifica) y 4-A, 8-A (incorpora)",
+    "Código Penal, arts. 176-C y 200 (modificar en lugar de tipos paralelos)"
+   ],
+   "entidades_implicadas": [
+    "Ministerio Público, PNP — persecución",
+    "Poder Judicial — orden de acceso a datos"
+   ],
+   "impacto_economico": "Sin gasto directo."
+  },
+  "especialidad": "constitucional"
+ },
+ {
+  "id": "CIB-05",
+  "veredicto": "observaciones",
+  "resumen": "Desarrolla la protección del consumidor (art. 65) y es una restricción razonable a la libertad de empresa (art. 59). Sin embargo, deja al reglamento el reparto de la responsabilidad civil entre privados, que es materia de ley, y debe precisar que no se aplica a fraudes anteriores a su vigencia (art. 103).",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 5",
+    "problema": "Remite al reglamento 'el orden y proporción' en que responden la entidad financiera y el operador móvil. La distribución de la responsabilidad civil entre particulares es materia de ley (Código Civil, arts. 1969 y 1983); un decreto supremo no puede crear ni distribuir obligaciones indemnizatorias entre privados sin parámetro legal, lo que excede la potestad reglamentaria (art. 118.8).",
+    "correccion": "Redactar: «...Si ambos incumplieron, responden solidariamente frente a la víctima. La entidad obligada efectúa el reembolso y puede repetir contra el operador móvil en proporción a la gravedad de su incumplimiento, conforme al art. 1983 del Código Civil; a falta de acuerdo, la controversia se resuelve en la vía arbitral o judicial.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Disposición Complementaria Final Segunda",
+    "problema": "No precisa que el régimen de reembolso no alcanza a operaciones fraudulentas anteriores a su vigencia; una aplicación retroactiva vulneraría el art. 103 de la Constitución.",
+    "correccion": "Agregar: «Los artículos 5 y 6 se aplican a las operaciones realizadas a partir de su entrada en vigencia.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "comision_sugerida",
+    "problema": "Se usa la denominación de comisiones del Congreso unicameral 2021-2026, que no existen en la Cámara de Diputados 2026-2031 (Reglamento de la Cámara de Diputados, art. 45). La proposición se presenta y dictamina primero en Diputados (art. 105 de la Constitución, modificado por Ley 31988).",
+    "correccion": "Reemplazar por la denominación oficial vigente: comision_secundaria: «Defensa del Consumidor y Organismos Reguladores de los Servicios Públicos» → «Defensa del Consumidor y Regulación de los Servicios Públicos»."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ninguna expresa; complementa Ley 29571 y Res. SBS 504-2021"
+   ],
+   "entidades_implicadas": [
+    "SBS — supervisión financiera",
+    "OSIPTEL — operadores móviles",
+    "INDECOPI — controversias de consumo"
+   ],
+   "impacto_economico": "Sin gasto público; traslada el costo del fraude a quien incumple deberes de prevención."
+  },
+  "especialidad": "constitucional"
+ },
+ {
+  "id": "CIB-06",
+  "veredicto": "conforme",
+  "resumen": "Las medidas se basan en metadatos de señalización y no en el contenido de las comunicaciones; el art. 7 excluye expresamente la interceptación, con lo que se respeta el secreto de las comunicaciones (art. 2.10). Las cargas a los operadores son proporcionales y graduales. Sin observaciones constitucionales relevantes.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 8",
+    "problema": "La remisión al Reglamento General de Infracciones del OSIPTEL es válida por la habilitación de la Ley 27332 (art. 3.1.c), pero conviene que la ley indique la gravedad mínima para evitar que el reglamento califique como leves las omisiones esenciales (tipicidad, art. 2.24.d).",
+    "correccion": "Agregar: «El incumplimiento de los artículos 2, 3 y 4 se califica como infracción grave, y su reiteración como muy grave.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "comision_sugerida",
+    "problema": "Se usa la denominación de comisiones del Congreso unicameral 2021-2026, que no existen en la Cámara de Diputados 2026-2031 (Reglamento de la Cámara de Diputados, art. 45). La proposición se presenta y dictamina primero en Diputados (art. 105 de la Constitución, modificado por Ley 31988).",
+    "correccion": "Reemplazar por la denominación oficial vigente: comision_sugerida: «Transportes y Comunicaciones» → «Infraestructura, Vivienda y Transportes (o Ciencia, Innovación Tecnológica y Sociedad Digital si el núcleo es telecomunicaciones)»; comision_secundaria: «Defensa del Consumidor y Organismos Reguladores de los Servicios Públicos» → «Defensa del Consumidor y Regulación de los Servicios Públicos»."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Reglamento General de Infracciones y Sanciones del OSIPTEL (adecuación)"
+   ],
+   "entidades_implicadas": [
+    "OSIPTEL — registro y sanción",
+    "MTC — reglamento"
+   ],
+   "impacto_economico": "Bajo; con presupuesto del OSIPTEL."
+  },
+  "especialidad": "constitucional"
+ },
+ {
+  "id": "CIB-07",
+  "veredicto": "observaciones",
+  "resumen": "Los requisitos mínimos son una restricción proporcional a la libertad de comercio (art. 59) en tutela del consumidor (art. 65). Debe vincularse la infracción al Código de Protección y Defensa del Consumidor para cumplir la tipicidad y respetar el procedimiento de reglamentos técnicos.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 7",
+    "problema": "Indecopi solo sanciona infracciones al Código de Protección y Defensa del Consumidor (art. 108 de la Ley 29571); como esta es una ley distinta, falta una norma con rango de ley que califique su incumplimiento como infracción y atribuya expresamente la potestad sancionadora (art. 248.1 del TUO de la Ley 27444; art. 2.24.d).",
+    "correccion": "Redactar: «7.1. El incumplimiento de los artículos 3 a 6 constituye infracción al Código de Protección y Defensa del Consumidor, sancionable por Indecopi conforme a sus artículos 108 y siguientes.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículos 3 y 5; DCF Primera",
+    "problema": "Los requisitos obligatorios para productos son un reglamento técnico; su desarrollo debe notificarse a la OMC conforme al Acuerdo sobre Obstáculos Técnicos al Comercio y seguir el procedimiento nacional de reglamentos técnicos, para no generar barreras al comercio contrarias a compromisos internacionales.",
+    "correccion": "Agregar a la DCF Primera: «El reglamento se elabora y notifica conforme al Acuerdo sobre Obstáculos Técnicos al Comercio de la OMC y a la normativa nacional sobre reglamentos técnicos.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 7, segundo párrafo",
+    "problema": "Atribuye funciones a una 'autoridad nacional de ciberseguridad' que no existe con rango legal.",
+    "correccion": "Sustituir por «la Presidencia del Consejo de Ministros, a través del Centro Nacional de Seguridad Digital o del órgano que haga sus veces»."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "comision_sugerida",
+    "problema": "Se usa la denominación de comisiones del Congreso unicameral 2021-2026, que no existen en la Cámara de Diputados 2026-2031 (Reglamento de la Cámara de Diputados, art. 45). La proposición se presenta y dictamina primero en Diputados (art. 105 de la Constitución, modificado por Ley 31988).",
+    "correccion": "Reemplazar por la denominación oficial vigente: comision_sugerida: «Defensa del Consumidor y Organismos Reguladores de los Servicios Públicos» → «Defensa del Consumidor y Regulación de los Servicios Públicos»; comision_secundaria: «Ciencia, Innovación y Tecnología» → «Ciencia, Innovación Tecnológica y Sociedad Digital»."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 29571 (vincular infracción)"
+   ],
+   "entidades_implicadas": [
+    "INDECOPI — fiscalización",
+    "PRODUCE — reglamento técnico",
+    "PCM/CNSD — soporte"
+   ],
+   "impacto_economico": "Bajo."
+  },
+  "especialidad": "constitucional"
+ },
+ {
+  "id": "CIB-08",
+  "veredicto": "observaciones_graves",
+  "resumen": "La identidad digital de mínima divulgación desarrolla los derechos a la identidad (art. 2.1) y a la protección de datos (art. 2.6). Pero asigna nuevas funciones al RENIEC, organismo constitucionalmente autónomo cuyas funciones se regulan por ley orgánica (arts. 106 y 183; Ley 26497), y somete su implementación a la PCM y a un reglamento del Ejecutivo. Además impone una prestación gratuita de costo 'medio', con riesgo frente al art. 79.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículos 2, 3 y 8; Disposición Complementaria Final Primera",
+    "problema": "El RENIEC es un organismo constitucionalmente autónomo (arts. 177 y 183) y su estructura y funciones se regulan por la Ley 26497, Ley Orgánica. Asignarle la emisión de la credencial y la billetera es una modificación de sus funciones que requiere ley orgánica (art. 106, votación de más de la mitad del número legal en ambas cámaras). Además, que la ley se reglamente por decreto supremo de la PCM y que el RENIEC actúe 'en coordinación con la PCM' subordina a un órgano autónomo al Ejecutivo.",
+    "correccion": "Reformular como modificación de la Ley 26497 (incorporar entre las funciones del art. 7 la emisión de la credencial de identidad digital y la administración de la billetera), aprobada con votación de ley orgánica, y sustituir la DCF Primera por: «El RENIEC aprueba las disposiciones reglamentarias de los arts. 2 a 8 en ejercicio de su autonomía, en un plazo de 120 días hábiles; el Poder Ejecutivo, mediante decreto supremo, regula la obligación de aceptación del art. 9 respecto de las entidades del Poder Ejecutivo y los sujetos supervisados.» Recabar la opinión del RENIEC, que tiene iniciativa legislativa en su materia (art. 107)."
+   },
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 2 y Disposición Complementaria Final Tercera; costo_beneficio",
+    "problema": "Impone al RENIEC una prestación gratuita universal y desarrollo tecnológico con costo calificado como 'medio', y menciona endeudamiento. Según el criterio vinculante de la STC 00018-2023-PI/TC (Sentencia 158/2026, fund. 113-118), una iniciativa parlamentaria que genera gasto presente o futuro requiere coordinación con el Ejecutivo, fuente identificada e informe de sostenibilidad fiscal previo al dictamen; si la gratuidad sustituye un derecho de trámite existente, se trata además de una exoneración que requiere informe previo del MEF (art. 79, tercer párrafo).",
+    "correccion": "En la DCF Tercera: «La implementación se financia con cargo al presupuesto institucional del RENIEC, de manera progresiva conforme a su disponibilidad presupuestal, sin demandar recursos adicionales al Tesoro Público.» Suprimir la referencia a endeudamiento. En el dictamen, requerir el informe del MEF y la opinión del RENIEC sobre el costo."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 9",
+    "problema": "La aceptación obligatoria por empresas privadas supervisadas es una restricción razonable a la libertad de empresa (art. 59), pero el 'cronograma del reglamento' deja sin plazo legal la exigibilidad.",
+    "correccion": "Fijar en la ley un plazo máximo: «...conforme al cronograma del reglamento, que no puede exceder de dieciocho meses desde la disponibilidad de la billetera.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "comision_sugerida",
+    "problema": "Se usa la denominación de comisiones del Congreso unicameral 2021-2026, que no existen en la Cámara de Diputados 2026-2031 (Reglamento de la Cámara de Diputados, art. 45). La proposición se presenta y dictamina primero en Diputados (art. 105 de la Constitución, modificado por Ley 31988).",
+    "correccion": "Reemplazar por la denominación oficial vigente: comision_sugerida: «Descentralización, Regionalización, Gobiernos Locales y Modernización de la Gestión del Estado» → «Modernización de la Gestión del Estado y Contraloría»; comision_secundaria: «Ciencia, Innovación y Tecnología» → «Ciencia, Innovación Tecnológica y Sociedad Digital»."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 26497, Ley Orgánica del RENIEC, art. 7 (incorpora funciones — ley orgánica)"
+   ],
+   "entidades_implicadas": [
+    "RENIEC — emisor, autonomía constitucional",
+    "PCM/SGTD — interoperabilidad",
+    "MEF — informe de sostenibilidad fiscal"
+   ],
+   "impacto_economico": "Gasto medio para el RENIEC; posible menor recaudación de tasas; requiere opinión MEF."
+  },
+  "especialidad": "constitucional"
+ },
+ {
+  "id": "CIB-09",
+  "veredicto": "observaciones",
+  "resumen": "El reconocimiento de la firma digital remota es compatible con la Constitución y con el principio de equivalencia funcional. La gratuidad obligatoria del certificado del RENIEC debe sustentarse con informe del MEF y respetar la autonomía económica del RENIEC.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3 y Disposición Complementaria Final Segunda",
+    "problema": "Ordena al RENIEC (organismo autónomo, art. 183) emitir gratuitamente certificados y montar infraestructura de firma remota. Si el TUPA del RENIEC prevé derechos de trámite por certificados, la gratuidad legal es una exoneración de tasas (tributos, art. 74) que requiere informe previo del MEF (art. 79, tercer párrafo); y en todo caso genera gasto, por lo que aplica el criterio de la STC 00018-2023-PI/TC (fund. 118).",
+    "correccion": "Redactar el art. 3: «El RENIEC, en su calidad de entidad de certificación del Estado, emite a toda persona natural mayor de edad que lo solicite un certificado de firma digital utilizable en modalidad remota. La emisión es gratuita a partir del ejercicio fiscal en que se cuente con el financiamiento correspondiente en su presupuesto institucional.» y requerir en el dictamen el informe del MEF y la opinión del RENIEC."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 2 (art. 3-A)",
+    "problema": "La equivalencia de la firma remota depende de 'autenticación de nivel alto', concepto definido en un decreto supremo (D.S. 126-2025-PCM) y no en la ley; conviene una remisión expresa para la certeza.",
+    "correccion": "Agregar al final del art. 3-A: «...autenticación de nivel alto conforme a los niveles de confianza establecidos en el Marco de Confianza Digital y su reglamento.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "comision_sugerida",
+    "problema": "Se usa la denominación de comisiones del Congreso unicameral 2021-2026, que no existen en la Cámara de Diputados 2026-2031 (Reglamento de la Cámara de Diputados, art. 45). La proposición se presenta y dictamina primero en Diputados (art. 105 de la Constitución, modificado por Ley 31988).",
+    "correccion": "Reemplazar por la denominación oficial vigente: comision_sugerida: «Ciencia, Innovación y Tecnología» → «Ciencia, Innovación Tecnológica y Sociedad Digital»; comision_secundaria: «Descentralización, Regionalización, Gobiernos Locales y Modernización de la Gestión del Estado» → «Modernización de la Gestión del Estado y Contraloría»."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 27269, art. 3-A (incorpora)",
+    "TUPA del RENIEC (adecuación)"
+   ],
+   "entidades_implicadas": [
+    "RENIEC — ECEP",
+    "INDECOPI — Autoridad Administrativa Competente",
+    "MEF — informe"
+   ],
+   "impacto_economico": "Gasto de infraestructura del RENIEC y posible menor recaudación por derechos de trámite."
+  },
+  "especialidad": "constitucional"
+ },
+ {
+  "id": "CIB-10",
+  "veredicto": "observaciones_graves",
+  "resumen": "El deber de diligencia desarrolla el interés superior del niño (art. 4) y las medidas son proporcionales; el bloqueo solo por mandato judicial protege la libertad de expresión (art. 2.4). Pero el régimen sancionador es inconstitucional tal como está: la autoridad sancionadora la 'designa el reglamento' y no hay tipificación de infracciones ni escala de multas.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 9",
+    "problema": "La potestad sancionadora debe ser atribuida por norma con rango de ley a una entidad determinada, y las infracciones y sanciones deben estar previstas en ley (art. 2.24.d de la Constitución; art. 248.1 y 248.4 del TUO de la Ley 27444). Dejar a un decreto supremo la designación de la autoridad sancionadora y fijar solo 'multas proporcionales a los ingresos' sin tipos ni topes viola la legalidad y tipicidad sancionadoras.",
+    "correccion": "Redactar: «9.1. El [Ministerio de la Mujer y Poblaciones Vulnerables / Indecopi — decidir en el dictamen] supervisa y sanciona el cumplimiento de la presente ley. 9.2. Constituyen infracciones graves: no realizar la evaluación de riesgos del art. 3; no aplicar la configuración segura del art. 4. Muy graves: no retirar material de abuso sexual infantil en el plazo del art. 6; no reportar los casos del art. 7. 9.3. Las infracciones graves se sancionan con multa de hasta 500 UIT y las muy graves hasta 2000 UIT, sin exceder el 4 % de los ingresos anuales del proveedor en el país. 9.4. Las medidas de bloqueo solo proceden por mandato judicial...»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 2",
+    "problema": "La expresión 'probablemente utilizados por menores de edad' es indeterminada para delimitar sujetos sancionables (lex certa).",
+    "correccion": "Sustituir por: «...cuyo público usuario en el Perú incluya menores de edad conforme a los criterios objetivos que fije el reglamento, tales como edad mínima declarada en sus términos de servicio, contenido dirigido a menores o datos de audiencia.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "comision_sugerida",
+    "problema": "Se usa la denominación de comisiones del Congreso unicameral 2021-2026, que no existen en la Cámara de Diputados 2026-2031 (Reglamento de la Cámara de Diputados, art. 45). La proposición se presenta y dictamina primero en Diputados (art. 105 de la Constitución, modificado por Ley 31988).",
+    "correccion": "Reemplazar por la denominación oficial vigente: comision_sugerida: «Mujer y Familia» → «Inclusión Social, Familia, Mujer y Pueblos Andinos, Amazónicos y Afroperuanos»; comision_secundaria: «Ciencia, Innovación y Tecnología» → «Ciencia, Innovación Tecnológica y Sociedad Digital»."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ninguna expresa; complementa Ley 30096 y Código de los Niños y Adolescentes"
+   ],
+   "entidades_implicadas": [
+    "MIMP o INDECOPI — autoridad sancionadora (definir en ley)",
+    "Ministerio Público, PNP — reportes"
+   ],
+   "impacto_economico": "Bajo para el Estado; costo de cumplimiento para plataformas."
+  },
+  "especialidad": "constitucional"
+ },
+ {
+  "id": "CIB-11",
+  "veredicto": "observaciones",
+  "resumen": "La exención penal condicionada para investigadores de buena fe es una opción de política criminal válida y respeta la legalidad penal al fijar condiciones verificables. Pero la prohibición a las entidades de 'iniciar acciones' civiles o penales es una barrera procesal que afecta el acceso a la justicia (art. 139.3) y no puede limitar al Ministerio Público (art. 159).",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 7",
+    "problema": "Prohíbe a las entidades iniciar acciones administrativas, civiles o penales contra el investigador que 'cumpla las condiciones'. Si se cumplen o no las condiciones es precisamente lo que debe decidir un juez o el fiscal; impedir el acceso a la vía jurisdiccional vulnera la tutela jurisdiccional (art. 139.3), y la acción penal pública corresponde al Ministerio Público (art. 159.1), no a la entidad.",
+    "correccion": "Redactar como regla sustantiva: «Artículo 7. Ausencia de responsabilidad. La conducta del investigador que cumpla las condiciones del literal b) del artículo 12 de la Ley 30096 no constituye infracción administrativa ni genera responsabilidad civil frente a la entidad. Las entidades públicas no pueden adoptar represalias contractuales o de acceso a servicios contra dicho investigador.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 2 (art. 12, literal b)",
+    "problema": "La exención remite a 'la política nacional de divulgación coordinada', instrumento aprobado por un órgano administrativo; el contenido de la exención penal (y por tanto del ámbito de lo punible) quedaría parcialmente definido por norma infralegal, en tensión con la reserva de ley penal (art. 2.24.d).",
+    "correccion": "Fijar en la ley las condiciones mínimas (ya enumeradas) y precisar que la política nacional «solo establece canales y plazos de reporte, sin ampliar ni restringir las condiciones de la exención»."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "comision_sugerida",
+    "problema": "Se usa la denominación de comisiones del Congreso unicameral 2021-2026, que no existen en la Cámara de Diputados 2026-2031 (Reglamento de la Cámara de Diputados, art. 45). La proposición se presenta y dictamina primero en Diputados (art. 105 de la Constitución, modificado por Ley 31988).",
+    "correccion": "Reemplazar por la denominación oficial vigente: comision_secundaria: «Ciencia, Innovación y Tecnología» → «Ciencia, Innovación Tecnológica y Sociedad Digital»."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 30096, art. 12 (modifica)"
+   ],
+   "entidades_implicadas": [
+    "PCM/CNSD — coordinador",
+    "Ministerio Público — titular de la acción penal"
+   ],
+   "impacto_economico": "Nulo a bajo."
+  },
+  "especialidad": "constitucional"
+ },
+ {
+  "id": "CIB-12",
+  "veredicto": "observaciones_graves",
+  "resumen": "Profesionalizar la ciberseguridad en el Estado es legítimo y la designación del oficial puede imponerse por ley a todos los niveles de gobierno. Sin embargo, la escala remunerativa diferenciada, con financiamiento solo para 'el primer año', constituye iniciativa de gasto con impacto futuro, vedada a los congresistas según el art. 79 y la STC 00018-2023-PI/TC.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 3 y Disposición Complementaria Final Tercera",
+    "problema": "La escala remunerativa diferenciada genera gasto permanente en planillas. La DCF Tercera excluye recursos adicionales solo 'en el primer año', admitiendo implícitamente gasto futuro. El criterio vinculante de la STC 00018-2023-PI/TC (Sentencia 158/2026, fund. 113 y 118) establece que los congresistas no tienen iniciativa para incrementar gastos que incidan en el presupuesto anual o que impacten hacia el futuro; el TC ya declaró inconstitucionales leyes de origen parlamentario sobre ascensos y cambios de grupo ocupacional por vulnerar el art. 79 (STC 00011-2020-PI/TC, Ley 31039).",
+    "correccion": "Redactar el art. 3: «SERVIR puede proponer al Ministerio de Economía y Finanzas una escala diferenciada para la familia de puestos de ciberseguridad, cuya aprobación se sujeta a lo dispuesto en la Ley 30057, en las leyes anuales de presupuesto y a la disponibilidad presupuestal de cada entidad.» y la DCF Tercera: «...sin demandar recursos adicionales al Tesoro Público.» (eliminar 'en el primer año')."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 4",
+    "problema": "Exigir 'perfil acreditado' sin indicar quién acredita ni el régimen, en todas las entidades incluidos gobiernos locales, puede ser de cumplimiento imposible y no define consecuencia del incumplimiento.",
+    "correccion": "Redactar: «...con el perfil aprobado por SERVIR. La designación recae en un servidor de la entidad, sin crear plaza adicional, hasta que la entidad cuente con disponibilidad presupuestal.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "comision_sugerida",
+    "problema": "Se usa la denominación de comisiones del Congreso unicameral 2021-2026, que no existen en la Cámara de Diputados 2026-2031 (Reglamento de la Cámara de Diputados, art. 45). La proposición se presenta y dictamina primero en Diputados (art. 105 de la Constitución, modificado por Ley 31988).",
+    "correccion": "Reemplazar por la denominación oficial vigente: comision_secundaria: «Ciencia, Innovación y Tecnología» → «Ciencia, Innovación Tecnológica y Sociedad Digital»."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 30057 — familia de puestos (por normativa de SERVIR)"
+   ],
+   "entidades_implicadas": [
+    "SERVIR, ENAP — carrera y formación",
+    "MEF — escala",
+    "PCM/CNSD"
+   ],
+   "impacto_economico": "La escala diferenciada es gasto permanente; debe quedar como facultad del Ejecutivo sujeta a disponibilidad."
+  },
+  "especialidad": "constitucional"
+ },
+ {
+  "id": "CIB-13",
+  "veredicto": "observaciones_graves",
+  "resumen": "Las auditorías independientes, pruebas públicas y verificación por personeros fortalecen el derecho de sufragio (art. 31) y la transparencia electoral. Pero imponen obligaciones sobre el núcleo funcional de ONPE, JNE y RENIEC (cómputo, padrón, voto electrónico), materia de sus leyes orgánicas (arts. 106, 177-183), por lo que debe tramitarse y votarse como ley orgánica.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículos 3, 4, 6 y 8; efecto_vigencia",
+    "problema": "La ficha afirma que 'no modifica la Ley Orgánica de Elecciones', pero establece deberes sobre la organización del cómputo, la transmisión de resultados, el padrón y el voto electrónico, que forman parte de la estructura y funcionamiento de la ONPE (Ley 26487), el JNE (Ley 26486), el RENIEC (Ley 26497) y del proceso electoral (Ley 26859), todas leyes orgánicas. Según el art. 106 de la Constitución (modificado por Ley 31988), su modificación requiere el voto de más de la mitad del número legal de miembros de ambas cámaras.",
+    "correccion": "Reformular como modificación expresa de la Ley 26859 (incorporar un capítulo 'Seguridad de los sistemas informáticos electorales' con los arts. 2 a 8) y de las leyes orgánicas de ONPE y RENIEC en lo pertinente; consignar en el dictamen la votación calificada del art. 106. Corregir el efecto_vigencia: «Modifica la Ley 26859, Ley Orgánica de Elecciones, y las Leyes 26487 y 26497.» Recabar opinión de ONPE, JNE y RENIEC, que tienen iniciativa en su materia (art. 107)."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 3",
+    "problema": "La selección de auditores 'mediante procedimiento público' por los propios organismos auditados reduce la independencia; y la auditoría de código fuente por terceros debe proteger la seguridad del sistema.",
+    "correccion": "Agregar: «Los auditores son seleccionados mediante concurso público con participación de un representante de la Contraloría General de la República como veedor, y suscriben compromisos de confidencialidad respecto de la información que pueda comprometer la seguridad de los sistemas.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "comision_sugerida",
+    "problema": "Se usa la denominación de comisiones del Congreso unicameral 2021-2026, que no existen en la Cámara de Diputados 2026-2031 (Reglamento de la Cámara de Diputados, art. 45). La proposición se presenta y dictamina primero en Diputados (art. 105 de la Constitución, modificado por Ley 31988).",
+    "correccion": "Reemplazar por la denominación oficial vigente: comision_sugerida: «Constitución y Reglamento» → «Constitución, Reglamento y Relaciones Exteriores»; comision_secundaria: «Ciencia, Innovación y Tecnología» → «Ciencia, Innovación Tecnológica y Sociedad Digital»."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 26859, Ley Orgánica de Elecciones (incorpora capítulo — ley orgánica)",
+    "Ley 26487, Ley Orgánica de la ONPE",
+    "Ley 26497, Ley Orgánica del RENIEC"
+   ],
+   "entidades_implicadas": [
+    "ONPE, JNE, RENIEC — autonomía constitucional",
+    "PCM/CNSD — equipo de respuesta",
+    "Contraloría — veeduría"
+   ],
+   "impacto_economico": "Bajo, dentro del presupuesto electoral."
+  },
+  "especialidad": "constitucional"
+ },
+ {
+  "id": "CIB-14",
+  "veredicto": "observaciones",
+  "resumen": "Las medidas son en general compatibles con la Constitución. Deben corregirse el sello como factor de evaluación reservado a mipymes, que trata desigualmente a postores en contrataciones (arts. 2.2 y 76), la falta de consecuencia jurídica del deber de reporte y la aplicación temporal de las reglas sobre pólizas (art. 62).",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3",
+    "problema": "El sello solo pueden obtenerlo las mipymes, pero se usa como factor de evaluación en contrataciones públicas. Los postores que no son mipymes y acreditan controles equivalentes o superiores (p. ej. certificación ISO/IEC 27001) quedarían en desventaja sin justificación vinculada al objeto, lo que afecta la igualdad (art. 2.2) y los principios de libre concurrencia y competencia de las contrataciones (art. 76).",
+    "correccion": "Redactar: «...que las entidades públicas pueden considerar como factor de evaluación en las contrataciones que impliquen tratamiento de datos, reconociendo como equivalentes las certificaciones de seguridad de la información de estándar internacional que acrediten los demás postores, conforme a la normativa de contrataciones públicas.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 6",
+    "problema": "Impone un deber de reporte en 72 horas sin consecuencia jurídica ni autoridad sancionadora, por lo que es inexigible; si se pretende sancionar, la infracción y la sanción deben estar en la ley (art. 2.24.d).",
+    "correccion": "Agregar: «6.2. Respecto de las entidades públicas, la omisión del reporte genera responsabilidad administrativa funcional. Respecto de las personas jurídicas privadas y los operadores, la omisión constituye infracción leve sancionable por la PCM, a través del Centro Nacional de Seguridad Digital, con amonestación o multa de hasta 10 UIT.» o, alternativamente, declarar el deber como no sancionable."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículos 4 y 5",
+    "problema": "Las reglas sobre exclusiones y resumen estandarizado, aplicadas a pólizas vigentes, modificarían términos contractuales en curso, contra el art. 62 de la Constitución.",
+    "correccion": "Agregar a la DCF Segunda: «Los artículos 4 y 5 se aplican a las pólizas que se contraten o renueven a partir de su exigibilidad.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "comision_sugerida",
+    "problema": "Se usa la denominación de comisiones del Congreso unicameral 2021-2026, que no existen en la Cámara de Diputados 2026-2031 (Reglamento de la Cámara de Diputados, art. 45). La proposición se presenta y dictamina primero en Diputados (art. 105 de la Constitución, modificado por Ley 31988).",
+    "correccion": "Reemplazar por la denominación oficial vigente: comision_sugerida: «Producción, Micro y Pequeña Empresa y Cooperativas» → «Producción, Comercio Exterior y Turismo»."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ninguna expresa; complementa Ley 29946"
+   ],
+   "entidades_implicadas": [
+    "PRODUCE — programa mipyme",
+    "SBS — formato de resumen",
+    "PCM/CNSD — reporte",
+    "UIF-Perú — inteligencia financiera"
+   ],
+   "impacto_economico": "Bajo."
+  },
+  "especialidad": "constitucional"
+ },
+ {
+  "id": "GOB-01",
+  "veredicto": "conforme",
+  "resumen": "El principio de 'solo una vez' desarrolla el derecho de petición (art. 2.20) y los principios de simplicidad y eficacia del procedimiento; su extensión a gobiernos regionales y locales es válida, pues el procedimiento administrativo general es materia de competencia nacional. Observaciones menores.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 5.2",
+    "problema": "Los niveles mínimos de servicio que aprueba la SGTD (órgano del Ejecutivo) serían obligatorios también para organismos constitucionalmente autónomos poseedores de registros (p. ej. RENIEC, JNE), lo que roza su autonomía (arts. 177 y 183).",
+    "correccion": "Agregar: «Los organismos constitucionalmente autónomos fijan sus niveles de servicio en ejercicio de su autonomía, los cuales no pueden ser inferiores a los que apruebe la SGTD, y los publican en el Catálogo.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 7.2",
+    "problema": "Remite al régimen disciplinario de la Ley 30057, que no se aplica a todos los sujetos del art. 2 (personas jurídicas privadas que prestan servicios públicos, empresas del Estado, regímenes especiales).",
+    "correccion": "Redactar: «...constituye falta administrativa del funcionario o servidor responsable, que se procesa conforme al régimen disciplinario aplicable a la entidad.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "comision_sugerida",
+    "problema": "Se usa la denominación de comisiones del Congreso unicameral 2021-2026, que no existen en la Cámara de Diputados 2026-2031 (Reglamento de la Cámara de Diputados, art. 45). La proposición se presenta y dictamina primero en Diputados (art. 105 de la Constitución, modificado por Ley 31988).",
+    "correccion": "Reemplazar por la denominación oficial vigente: comision_sugerida: «Descentralización, Regionalización, Gobiernos Locales y Modernización de la Gestión del Estado» → «Modernización de la Gestión del Estado y Contraloría»; comision_secundaria: «Ciencia, Innovación y Tecnología» → «Ciencia, Innovación Tecnológica y Sociedad Digital»."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "D.Leg. 1246, art. 5 (incorpora numeral 5.4)"
+   ],
+   "entidades_implicadas": [
+    "PCM/SGTD — catálogo",
+    "INDECOPI — barreras burocráticas",
+    "OCI — control"
+   ],
+   "impacto_economico": "Bajo; gradualidad hasta 36 meses."
+  },
+  "especialidad": "constitucional"
+ },
+ {
+  "id": "GOB-02",
+  "veredicto": "observaciones",
+  "resumen": "La casilla única es compatible con el debido procedimiento si se mantienen las garantías de la notificación. Pero el texto modificatorio de la Ley 31736 convierte la casilla en 'domicilio digital obligatorio' para todo administrado, lo que contradice la voluntariedad para personas naturales del propio art. 3.2 y puede generar indefensión (art. 139.3 aplicable al procedimiento administrativo).",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 7 (numeral 4.2 de la Ley 31736)",
+    "problema": "El nuevo numeral 4.2 declara la casilla 'domicilio digital obligatorio' sin distinguir entre personas jurídicas y naturales, en contradicción con el art. 3.2 de la misma propuesta. Imponer la notificación electrónica obligatoria a personas naturales sin acceso o competencias digitales puede vulnerar el derecho de defensa y la igualdad (arts. 2.2 y 139.14, aplicables al procedimiento administrativo).",
+    "correccion": "Redactar el numeral 4.2: «...la que constituye domicilio digital obligatorio para las personas jurídicas y las entidades públicas, y domicilio digital voluntario para las personas naturales que lo consientan expresamente, conforme a la ley...»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 2.1 frente a Artículo 8",
+    "problema": "El 2.1 declara la casilla domicilio único 'frente a todas las entidades sujetas al TUO de la Ley 27444' (incluidos los OCA), mientras el art. 8 hace voluntaria la adhesión de los organismos autónomos. La contradicción genera incertidumbre sobre la validez de notificaciones.",
+    "correccion": "Agregar al 2.1: «...con excepción de las entidades a que se refiere el artículo 8, mientras no se adhieran mediante convenio.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "comision_sugerida",
+    "problema": "Se usa la denominación de comisiones del Congreso unicameral 2021-2026, que no existen en la Cámara de Diputados 2026-2031 (Reglamento de la Cámara de Diputados, art. 45). La proposición se presenta y dictamina primero en Diputados (art. 105 de la Constitución, modificado por Ley 31988).",
+    "correccion": "Reemplazar por la denominación oficial vigente: comision_sugerida: «Descentralización, Regionalización, Gobiernos Locales y Modernización de la Gestión del Estado» → «Modernización de la Gestión del Estado y Contraloría»."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 31736, art. 4.2 (modifica)"
+   ],
+   "entidades_implicadas": [
+    "PCM/SGTD — casilla única",
+    "Archivo General de la Nación — estándares",
+    "PJ, TC, OCA — adhesión voluntaria"
+   ],
+   "impacto_economico": "Bajo, con gradualidad hasta 48 meses para municipalidades."
+  },
+  "especialidad": "constitucional"
+ },
+ {
+  "id": "GOB-03",
+  "veredicto": "observaciones",
+  "resumen": "La publicación por defecto del software a medida del Estado es constitucionalmente válida respecto de las entidades administrativas. Su extensión a empresas del Estado en competencia y a proyectos privados o universitarios cofinanciados con fondos públicos afecta la igualdad de trato empresarial (art. 60), la propiedad intelectual (art. 2.8) y la autonomía universitaria (art. 18).",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 2",
+    "problema": "Incluye a 'los proyectos financiados total o parcialmente con recursos públicos, cualquiera sea la fuente', lo que alcanza a subvenciones a empresas privadas y universidades (p. ej. fondos concursables de CTI). Obligar a publicar como código abierto software de titularidad privada por recibir un cofinanciamiento parcial afecta la propiedad intelectual (arts. 2.8 y 70) y la autonomía universitaria (art. 18) sin que la ley gradúe la proporcionalidad.",
+    "correccion": "Redactar: «Es aplicable a las entidades de la Administración Pública respecto del software a medida cuya titularidad patrimonial les corresponda. En los proyectos de terceros cofinanciados con recursos públicos, las bases del concurso o convenio pueden establecer la publicación como código abierto o una licencia de uso a favor del Estado, en proporción al financiamiento público.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 2 (empresas del Estado)",
+    "problema": "Las empresas del Estado que compiten en el mercado (p. ej. financieras o de hidrocarburos) deben recibir el mismo tratamiento legal que las privadas (art. 60 de la Constitución). Obligarlas a publicar su software a medida las pone en desventaja competitiva y puede exponer sistemas críticos.",
+    "correccion": "Agregar: «Las empresas del Estado que desarrollan actividad empresarial en competencia aplican la presente ley de forma facultativa, salvo respecto del software de gestión administrativa no vinculado a su actividad comercial.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "comision_sugerida",
+    "problema": "Se usa la denominación de comisiones del Congreso unicameral 2021-2026, que no existen en la Cámara de Diputados 2026-2031 (Reglamento de la Cámara de Diputados, art. 45). La proposición se presenta y dictamina primero en Diputados (art. 105 de la Constitución, modificado por Ley 31988).",
+    "correccion": "Reemplazar por la denominación oficial vigente: comision_sugerida: «Ciencia, Innovación y Tecnología» → «Ciencia, Innovación Tecnológica y Sociedad Digital»; comision_secundaria: «Descentralización, Regionalización, Gobiernos Locales y Modernización de la Gestión del Estado» → «Modernización de la Gestión del Estado y Contraloría»."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 28612 (incorpora DCF)"
+   ],
+   "entidades_implicadas": [
+    "PCM/SGTD — plataforma",
+    "FONAFE — empresas del Estado",
+    "CONCYTEC/PROCIENCIA — proyectos cofinanciados"
+   ],
+   "impacto_economico": "Nulo; ahorro por reutilización."
+  },
+  "especialidad": "constitucional"
+ },
+ {
+  "id": "GOB-04",
+  "veredicto": "observaciones",
+  "resumen": "La compra pública de innovación y los retos GovTech son compatibles con el art. 76 si mantienen competencia en la fase precomercial. La cláusula de exención de responsabilidad y la directiva a la Contraloría deben reformularse para no afectar la autonomía del órgano de control (art. 82) ni la persecución de delitos.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 5",
+    "problema": "El 5.1 declara que el fracaso no genera responsabilidad 'penal' (la responsabilidad penal solo la define la ley penal y la determina el juez) y el 5.2 instruye a la Contraloría sobre cómo ejercer el control. La Contraloría goza de autonomía (art. 82) y su funcionamiento se regula por su ley orgánica (Ley 27785; art. 106), por lo que una directiva sobre criterios de control en ley ordinaria es cuestionable.",
+    "correccion": "Redactar el 5.1: «El resultado no exitoso de una fase precomercial o de un reto GovTech, conducido conforme a la presente ley y con evaluación de riesgos documentada, no constituye por sí mismo indicio de irregularidad ni causal de responsabilidad administrativa o civil. Ello no excluye la responsabilidad por actos dolosos, de colusión o de infracción de la normativa.» Suprimir el 5.2 o reformularlo como modificación de la Ley 27785 aprobada con votación de ley orgánica."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "comision_sugerida",
+    "problema": "Se usa la denominación de comisiones del Congreso unicameral 2021-2026, que no existen en la Cámara de Diputados 2026-2031 (Reglamento de la Cámara de Diputados, art. 45). La proposición se presenta y dictamina primero en Diputados (art. 105 de la Constitución, modificado por Ley 31988).",
+    "correccion": "Reemplazar por la denominación oficial vigente: comision_secundaria: «Ciencia, Innovación y Tecnología» → «Ciencia, Innovación Tecnológica y Sociedad Digital»."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 32069, art. 38 (incorpora numeral)",
+    "Ley 27785 — si se mantiene criterio de control (ley orgánica)"
+   ],
+   "entidades_implicadas": [
+    "OECE — asistencia técnica",
+    "Contraloría — autonomía",
+    "CONCYTEC — cofinanciamiento"
+   ],
+   "impacto_economico": "Sin gasto nuevo."
+  },
+  "especialidad": "constitucional"
+ },
+ {
+  "id": "GOB-05",
+  "veredicto": "conforme",
+  "resumen": "Desarrolla el derecho de acceso a la información pública (art. 2.5) y el control ciudadano del gasto. La publicación de remuneraciones de servidores públicos es una restricción proporcional de la intimidad, pues la información ya es de transparencia activa obligatoria conforme al TUO de la Ley 27806. Observación menor sobre empresas del Estado en competencia.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 2 y Artículo 4",
+    "problema": "La publicación diaria y completa de contrataciones y órdenes de empresas del Estado que compiten en el mercado puede revelar estrategias comerciales; el art. 60 de la Constitución exige igual tratamiento legal a la actividad empresarial pública y privada. La DCF Tercera solo protege información ya calificada como confidencial.",
+    "correccion": "Agregar a la DCF Tercera: «Las empresas del Estado pueden diferir hasta la culminación del contrato la publicación de la información que constituya secreto comercial, conforme al art. 17 del TUO de la Ley 27806, mediante decisión motivada y publicada.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "comision_sugerida",
+    "problema": "Se usa la denominación de comisiones del Congreso unicameral 2021-2026, que no existen en la Cámara de Diputados 2026-2031 (Reglamento de la Cámara de Diputados, art. 45). La proposición se presenta y dictamina primero en Diputados (art. 105 de la Constitución, modificado por Ley 31988).",
+    "correccion": "Reemplazar por la denominación oficial vigente: comision_sugerida: «Fiscalización y Contraloría» → «Modernización de la Gestión del Estado y Contraloría»; comision_secundaria: «Presupuesto y Cuenta General de la República» → «Economía, Banca, Finanzas e Inteligencia Financiera (la Comisión Bicameral de Presupuesto no dictamina proposiciones ordinarias)»."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "TUO de la Ley 27806 (incorpora DCF)"
+   ],
+   "entidades_implicadas": [
+    "MEF — SIAF",
+    "OECE — SEACE/OCDS",
+    "ANTAIP — supervisión"
+   ],
+   "impacto_economico": "Bajo; información ya existente en sistemas centrales."
+  },
+  "especialidad": "constitucional"
+ },
+ {
+  "id": "GOB-06",
+  "veredicto": "observaciones",
+  "resumen": "La transparencia parlamentaria es constitucionalmente deseable, pero buena parte del contenido (forma de votación en pleno y comisiones, expediente legislativo, anexos de dictámenes) es materia reservada al Reglamento del Congreso y de cada cámara, que tiene fuerza de ley y es aprobado por el propio Congreso (art. 94; art. 102 modificado por Ley 31988). El vehículo correcto es una resolución legislativa que modifique los reglamentos, con una ley solo para la parte de gestión de intereses.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículos 3, 4, 5.2 y 6; Disposición Complementaria Final Primera",
+    "problema": "El art. 94 de la Constitución reserva al Reglamento del Congreso la organización y funcionamiento parlamentario, y tras la Ley 31988 existen el Reglamento del Congreso y los de cada cámara (RL 004, 005 y 006 de 2025-2026-CR). Regular por ley ordinaria la forma de votación, el expediente y el contenido de los dictámenes invade esa reserva; además, una ley posterior no prevalecería sobre una disposición reglamentaria de igual rango en materia reservada.",
+    "correccion": "Dividir la propuesta: (a) proyecto de resolución legislativa que modifique el Reglamento del Congreso y los Reglamentos de la Cámara de Diputados y del Senado incorporando los arts. 3, 4, 5.2, 6 y 7; y (b) ley que modifique solo la Ley 28024 (art. 5.1 y art. 8). Ajustar el título y la DCF Primera en consecuencia."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 3.1",
+    "problema": "'Toda votación' nominal incluye las elecciones de altos funcionarios y otras votaciones que los reglamentos pueden prever como secretas por razones de libertad del voto; la regla absoluta puede colisionar con supuestos reglamentarios legítimos.",
+    "correccion": "Redactar: «Toda votación en el pleno y en las comisiones es nominal y electrónica, salvo las excepciones expresamente previstas en el Reglamento respectivo, que se publican con su fundamento.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "comision_sugerida",
+    "problema": "Se usa la denominación de comisiones del Congreso unicameral 2021-2026, que no existen en la Cámara de Diputados 2026-2031 (Reglamento de la Cámara de Diputados, art. 45). La proposición se presenta y dictamina primero en Diputados (art. 105 de la Constitución, modificado por Ley 31988).",
+    "correccion": "Reemplazar por la denominación oficial vigente: comision_sugerida: «Constitución y Reglamento» → «Constitución, Reglamento y Relaciones Exteriores»; comision_secundaria: «Fiscalización y Contraloría» → «Modernización de la Gestión del Estado y Contraloría»."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Reglamento del Congreso y Reglamentos de cada cámara (vía resolución legislativa)",
+    "Ley 28024 (incorpora DCF)"
+   ],
+   "entidades_implicadas": [
+    "Mesas Directivas de ambas cámaras",
+    "Oficialía Mayor"
+   ],
+   "impacto_economico": "Nulo."
+  },
+  "especialidad": "constitucional"
+ },
+ {
+  "id": "GOB-07",
+  "veredicto": "conforme",
+  "resumen": "La ley fija estándares nacionales para una competencia municipal (catastro, art. 195 y Ley 27972) sin vaciarla de contenido, lo que es compatible con el reparto competencial; el financiamiento es facultativo y con recursos existentes. Observaciones menores de técnica y costo.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 4",
+    "problema": "Los numerales del art. 4 están rotulados 3.1 y 3.2 (error de numeración), lo que afecta la técnica legislativa y las remisiones futuras.",
+    "correccion": "Renumerar como 4.1 y 4.2."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "costo_beneficio / Disposición Complementaria Final Tercera",
+    "problema": "La ficha declara costo 'medio' a cargo de las municipalidades. Aunque no ordena gasto nuevo del Tesoro, el criterio de la STC 00018-2023-PI/TC (fund. 118) aconseja que el dictamen cuente con informe del MEF sobre sostenibilidad fiscal.",
+    "correccion": "Añadir en costo_beneficio: «La comisión dictaminadora solicita opinión del MEF; la actualización catastral se ejecuta progresivamente según disponibilidad presupuestal de cada municipalidad.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "comision_sugerida",
+    "problema": "Se usa la denominación de comisiones del Congreso unicameral 2021-2026, que no existen en la Cámara de Diputados 2026-2031 (Reglamento de la Cámara de Diputados, art. 45). La proposición se presenta y dictamina primero en Diputados (art. 105 de la Constitución, modificado por Ley 31988).",
+    "correccion": "Reemplazar por la denominación oficial vigente: comision_sugerida: «Vivienda y Construcción» → «Infraestructura, Vivienda y Transportes»; comision_secundaria: «Descentralización, Regionalización, Gobiernos Locales y Modernización de la Gestión del Estado» → «Modernización de la Gestión del Estado y Contraloría»."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 28294 (incorpora DCF)"
+   ],
+   "entidades_implicadas": [
+    "Municipalidades — competencia catastral",
+    "MVCS, SUNARP, Consejo Nacional de Catastro"
+   ],
+   "impacto_economico": "Costo municipal progresivo; potencial aumento de recaudación predial."
+  },
+  "especialidad": "constitucional"
+ },
+ {
+  "id": "GOB-08",
+  "veredicto": "observaciones",
+  "resumen": "El programa respeta en lo esencial la autonomía municipal (art. 194) al hacer voluntaria la adhesión para la mayoría de gobiernos subnacionales. Pero los equipos macrorregionales de la PCM implican gasto nuevo (costo 'medio') en zona de riesgo del art. 79, y la 'precisión' sobre el uso del canon modifica en realidad el destino legal de esos recursos sin modificar expresamente la Ley 27506.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 5 y costo_beneficio",
+    "problema": "Conformar equipos de asistencia técnica por macrorregión y operar servicios compartidos genera gasto permanente en la PCM; la propia ficha reconoce que 'pueden requerir priorización presupuestal'. Según la STC 00018-2023-PI/TC (Sentencia 158/2026, fund. 113-118), la iniciativa parlamentaria no puede incrementar gasto presente o futuro sin coordinación con el Ejecutivo e informe de sostenibilidad fiscal.",
+    "correccion": "Redactar el art. 5: «La Presidencia del Consejo de Ministros puede conformar, con cargo a su presupuesto institucional y sin demandar recursos adicionales al Tesoro Público, equipos de asistencia técnica...» y solicitar opinión del MEF antes del dictamen."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 6",
+    "problema": "Una 'precisión' no puede ampliar el destino del canon: la Ley 27506 limita su uso a proyectos u obras de infraestructura de impacto regional y local (art. 6, verificar numeración vigente). Incluir digitalización de archivos y equipamiento es una modificación sustantiva que debe hacerse expresamente, con indicación del artículo modificado, para no generar incertidumbre en el control gubernamental.",
+    "correccion": "Reemplazar por una disposición modificatoria expresa: «Modifícase el numeral 6.2 del artículo 6 de la Ley 27506, Ley de Canon, incorporando: 'Los recursos pueden destinarse también a inversiones en transformación digital de los gobiernos regionales y locales formuladas conforme al Sistema Nacional de Programación Multianual y Gestión de Inversiones.'» (verificar el texto vigente en SPIJ)."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 3.1",
+    "problema": "Obligar a municipalidades pequeñas a usar 'preferentemente' el Catálogo y exigir informe técnico para contratar alternativas es una limitación de su autonomía administrativa (art. 194) admisible solo si está justificada y es proporcional; el umbral se deja íntegramente al reglamento.",
+    "correccion": "Fijar el umbral en la ley (p. ej. «municipalidades distritales con población menor de 10 000 habitantes según el último censo») y precisar que el informe técnico lo aprueba la propia municipalidad sin requerir conformidad de la PCM."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "comision_sugerida",
+    "problema": "Se usa la denominación de comisiones del Congreso unicameral 2021-2026, que no existen en la Cámara de Diputados 2026-2031 (Reglamento de la Cámara de Diputados, art. 45). La proposición se presenta y dictamina primero en Diputados (art. 105 de la Constitución, modificado por Ley 31988).",
+    "correccion": "Reemplazar por la denominación oficial vigente: comision_sugerida: «Descentralización, Regionalización, Gobiernos Locales y Modernización de la Gestión del Estado» → «Modernización de la Gestión del Estado y Contraloría»; comision_secundaria: «Presupuesto y Cuenta General de la República» → «Economía, Banca, Finanzas e Inteligencia Financiera (la Comisión Bicameral de Presupuesto no dictamina proposiciones ordinarias)»."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 27506, art. 6 (modifica, si se amplía el destino del canon)",
+    "D.Leg. 776 (verificar reglas de uso del FONCOMUN)"
+   ],
+   "entidades_implicadas": [
+    "PCM/SGTD — programa",
+    "MEF — incentivos e informe",
+    "Gobiernos regionales y locales — autonomía"
+   ],
+   "impacto_economico": "Gasto en PCM; ahorro neto esperado para municipalidades."
+  },
+  "especialidad": "constitucional"
+ },
+ {
+  "id": "GOB-09",
+  "veredicto": "conforme",
+  "resumen": "Desarrolla la igualdad material (art. 2.2), la protección de las personas con discapacidad (art. 7) y el derecho a usar la propia lengua ante la autoridad (arts. 2.19 y 48). La regla de no exclusión (art. 6) es una salvaguarda constitucionalmente relevante. Sin observaciones de constitucionalidad.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "ubicacion": "comision_sugerida",
+    "problema": "Se usa la denominación de comisiones del Congreso unicameral 2021-2026, que no existen en la Cámara de Diputados 2026-2031 (Reglamento de la Cámara de Diputados, art. 45). La proposición se presenta y dictamina primero en Diputados (art. 105 de la Constitución, modificado por Ley 31988).",
+    "correccion": "Reemplazar por la denominación oficial vigente: comision_sugerida: «Descentralización, Regionalización, Gobiernos Locales y Modernización de la Gestión del Estado» → «Modernización de la Gestión del Estado y Contraloría»; comision_secundaria: «Inclusión Social y Personas con Discapacidad» → «Inclusión Social, Familia, Mujer y Pueblos Andinos, Amazónicos y Afroperuanos»."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 28530 (incorpora DCF)"
+   ],
+   "entidades_implicadas": [
+    "PCM/SGTD",
+    "CONADIS",
+    "Ministerio de Cultura"
+   ],
+   "impacto_economico": "Bajo y gradual."
+  },
+  "especialidad": "constitucional"
+ },
+ {
+  "id": "GOB-10",
+  "veredicto": "observaciones",
+  "resumen": "La preservación digital protege el patrimonio documental (art. 21) y el acceso a la información (art. 2.5). El Repositorio no es una entidad nueva, por lo que no hay problema de ley orgánica; pero su costo 'medio' exige ajustar la cláusula de financiamiento al criterio del TC sobre iniciativa de gasto.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 4.1 y Disposición Complementaria Final Segunda",
+    "problema": "'Créase' un repositorio nacional con almacenamiento redundante y personal especializado, cuyo costo la ficha califica de 'medio'. Según la STC 00018-2023-PI/TC (Sentencia 158/2026, fund. 113-118), la iniciativa parlamentaria no puede incrementar gasto presente o futuro sin coordinación con el Ejecutivo, fuente identificada e informe de sostenibilidad fiscal.",
+    "correccion": "Redactar el 4.1: «El Archivo General de la Nación implementa progresivamente, con cargo a su presupuesto institucional y sin demandar recursos adicionales al Tesoro Público, el Repositorio Nacional de Preservación Digital...» y solicitar opinión del MEF en el dictamen."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 6",
+    "problema": "Hace responsable al 'titular saliente' de entregar credenciales, sin precisar el régimen de responsabilidad; en gobiernos regionales y locales los titulares son autoridades electas no sujetas a la Ley 30057.",
+    "correccion": "Agregar: «El incumplimiento se comunica a la Contraloría General de la República para el inicio de las acciones de control correspondientes, conforme a la normativa de transferencia de gestión.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "comision_sugerida",
+    "problema": "Se usa la denominación de comisiones del Congreso unicameral 2021-2026, que no existen en la Cámara de Diputados 2026-2031 (Reglamento de la Cámara de Diputados, art. 45). La proposición se presenta y dictamina primero en Diputados (art. 105 de la Constitución, modificado por Ley 31988).",
+    "correccion": "Reemplazar por la denominación oficial vigente: comision_sugerida: «Cultura y Patrimonio Cultural» → «Educación, Cultura y Deporte»; comision_secundaria: «Descentralización, Regionalización, Gobiernos Locales y Modernización de la Gestión del Estado» → «Modernización de la Gestión del Estado y Contraloría»."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 25323 (incorpora DCF)"
+   ],
+   "entidades_implicadas": [
+    "Archivo General de la Nación — rector",
+    "PCM/SGTD — formatos",
+    "Contraloría — transferencia de gestión"
+   ],
+   "impacto_economico": "Costo medio del repositorio; implementación progresiva."
+  },
+  "especialidad": "constitucional"
+ },
+ {
+  "id": "GOB-11",
+  "veredicto": "conforme",
+  "resumen": "Fija una obligación general de información sobre una competencia compartida (transporte urbano, art. 195.8 y Ley 27972) sin desplazar a las municipalidades, y aplica la condición contractual solo a concesiones nuevas o renovadas, respetando el art. 62. Compatible con la Constitución.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 4.1 y Artículo 7",
+    "problema": "La posición en tiempo real del vehículo permite inferir la ubicación de conductores identificables, que es dato personal; la exclusión de 'datos personales de conductores' debe extenderse a identificadores que permitan vincular unidad y conductor.",
+    "correccion": "Agregar al art. 7: «No se publican placas ni identificadores que permitan vincular la unidad con su conductor; la autoridad usa un identificador anonimizado de vehículo.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "comision_sugerida",
+    "problema": "Se usa la denominación de comisiones del Congreso unicameral 2021-2026, que no existen en la Cámara de Diputados 2026-2031 (Reglamento de la Cámara de Diputados, art. 45). La proposición se presenta y dictamina primero en Diputados (art. 105 de la Constitución, modificado por Ley 31988).",
+    "correccion": "Reemplazar por la denominación oficial vigente: comision_sugerida: «Transportes y Comunicaciones» → «Infraestructura, Vivienda y Transportes (o Ciencia, Innovación Tecnológica y Sociedad Digital si el núcleo es telecomunicaciones)»; comision_secundaria: «Descentralización, Regionalización, Gobiernos Locales y Modernización de la Gestión del Estado» → «Modernización de la Gestión del Estado y Contraloría»."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ninguna expresa"
+   ],
+   "entidades_implicadas": [
+    "ATU, municipalidades provinciales, MTC"
+   ],
+   "impacto_economico": "Bajo."
+  },
+  "especialidad": "constitucional"
+ },
+ {
+  "id": "GOB-12",
+  "veredicto": "conforme",
+  "resumen": "Fortalece el control ciudadano y la protección del denunciante, y prevé la derivación al Ministerio Público sin interferir en su titularidad de la acción penal (art. 159). Compatible con la Constitución; observación menor sobre organismos autónomos.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 2.2",
+    "problema": "Integrar obligatoriamente a 'todas las entidades' en una plataforma conducida por la Secretaría de Integridad Pública de la PCM incluiría a organismos constitucionalmente autónomos y al Poder Judicial, cuyas denuncias internas no pueden ser gestionadas ni supervisadas por un órgano del Ejecutivo sin afectar su autonomía.",
+    "correccion": "Agregar: «Los organismos constitucionalmente autónomos, el Poder Judicial y el Congreso de la República pueden integrarse mediante convenio, manteniendo la gestión exclusiva de las denuncias de su competencia.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "comision_sugerida",
+    "problema": "Se usa la denominación de comisiones del Congreso unicameral 2021-2026, que no existen en la Cámara de Diputados 2026-2031 (Reglamento de la Cámara de Diputados, art. 45). La proposición se presenta y dictamina primero en Diputados (art. 105 de la Constitución, modificado por Ley 31988).",
+    "correccion": "Reemplazar por la denominación oficial vigente: comision_sugerida: «Fiscalización y Contraloría» → «Modernización de la Gestión del Estado y Contraloría»; comision_secundaria: «Descentralización, Regionalización, Gobiernos Locales y Modernización de la Gestión del Estado» → «Modernización de la Gestión del Estado y Contraloría»."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ninguna expresa; complementa D.Leg. 1327"
+   ],
+   "entidades_implicadas": [
+    "PCM/Secretaría de Integridad Pública",
+    "Contraloría, Ministerio Público"
+   ],
+   "impacto_economico": "Bajo."
+  },
+  "especialidad": "constitucional"
+ },
+ {
+  "id": "GOB-13",
+  "veredicto": "conforme",
+  "resumen": "Las reglas sobre nube y consolidación de centros de datos son de organización interna del Ejecutivo y de contratación pública (art. 76); la adecuación de contratos vigentes solo en su renovación respeta el art. 62. Compatible con la Constitución.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículos 2 y 4",
+    "problema": "El art. 2 se refiere genéricamente a 'las entidades', con lo que alcanzaría a organismos constitucionalmente autónomos y al Poder Judicial; imponerles la preferencia por la nube y la clasificación fijada por un reglamento del Ejecutivo roza su autonomía administrativa. El art. 5 sí limita su alcance al Poder Ejecutivo.",
+    "correccion": "Agregar al art. 2: «2.3. Los organismos constitucionalmente autónomos, el Poder Judicial y el Congreso aplican los artículos 2, 3 y 4 en el marco de su autonomía, pudiendo adherirse a los acuerdos marco del artículo 6.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "comision_sugerida",
+    "problema": "Se usa la denominación de comisiones del Congreso unicameral 2021-2026, que no existen en la Cámara de Diputados 2026-2031 (Reglamento de la Cámara de Diputados, art. 45). La proposición se presenta y dictamina primero en Diputados (art. 105 de la Constitución, modificado por Ley 31988).",
+    "correccion": "Reemplazar por la denominación oficial vigente: comision_sugerida: «Ciencia, Innovación y Tecnología» → «Ciencia, Innovación Tecnológica y Sociedad Digital»."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ninguna expresa; complementa D.Leg. 1412 y Ley 32069"
+   ],
+   "entidades_implicadas": [
+    "PCM/SGTD — Nube Perú",
+    "Perú Compras — acuerdos marco"
+   ],
+   "impacto_economico": "Bajo; ahorro esperado por consolidación."
+  },
+  "especialidad": "constitucional"
+ },
+ {
+  "id": "GOB-14",
+  "veredicto": "observaciones_graves",
+  "resumen": "Profesionalizar la conducción digital es legítimo, pero la propuesta obliga a crear un cargo directivo exclusivo (prohíbe el encargo) con escalas propias en todas las entidades, lo que es iniciativa de gasto con impacto futuro (art. 79; STC 00018-2023-PI/TC), e impone una estructura orgánica a organismos constitucionalmente autónomos y a gobiernos regionales y locales, afectando su autonomía.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículos 2.2 y 6; Disposición Complementaria Transitoria Primera",
+    "problema": "Al prohibir que el cargo se ejerza 'como encargo adicional' y fijar plazos de 12 y 24 meses, la ley obliga en los hechos a crear y financiar nuevas plazas directivas en cientos de entidades, más 'escalas' para la familia de talento digital; la ficha reconoce costo 'medio'. Conforme al criterio vinculante de la STC 00018-2023-PI/TC (Sentencia 158/2026, fund. 113 y 118), los congresistas no tienen iniciativa para incrementar gastos que incidan en el presupuesto anual o que impacten hacia el futuro. La salvedad de la DCF Segunda ('se sujeta a las normas presupuestales') contradice el mandato imperativo del art. 2.",
+    "correccion": "Redactar el 2.2: «...depende de la alta dirección y preside la secretaría técnica del Comité de Gobierno y Transformación Digital. Puede ejercerse por un servidor de la entidad que cumpla el perfil, en tanto la entidad no cuente con disponibilidad presupuestal para un puesto exclusivo.» En el art. 6 suprimir 'escalas' o sujetarlas a la aprobación del MEF y a las leyes anuales de presupuesto. Requerir informe del MEF antes del dictamen."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 2.1 y Artículo 5",
+    "problema": "Impone a los organismos constitucionalmente autónomos un órgano directivo obligatorio con periodo de cuatro años y causales de remoción limitadas, y lo mismo a gobiernos regionales y municipalidades provinciales. La organización interna de los OCA se rige por sus leyes orgánicas y su autonomía (arts. 84, 87, 158, 177, 183 y 201), y la de los gobiernos regionales y locales por su autonomía administrativa (arts. 191 y 194) y sus leyes orgánicas (Leyes 27867 y 27972). Una ley ordinaria no puede fijar su estructura.",
+    "correccion": "Redactar el 2.1: «Las entidades del Poder Ejecutivo cuentan con un Jefe o Jefa de Transformación Digital. Los organismos constitucionalmente autónomos, los gobiernos regionales y las municipalidades designan a un responsable de transformación digital conforme a su autonomía, que cumple las funciones del artículo 3, y pueden adoptar el perfil y el régimen del presente artículo.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 5",
+    "problema": "Deja al reglamento causales adicionales de remoción, lo que vacía la garantía de permanencia que la ley pretende otorgar.",
+    "correccion": "Suprimir 'o por las causales que establezca el reglamento' y enumerar en la ley: incapacidad permanente, condena por delito doloso, incompatibilidad sobreviniente, falta grave y evaluación de desempeño desaprobatoria."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "efecto_vigencia",
+    "problema": "Afirma que la ley 'modifica en lo pertinente' el D.S. 033-2018-PCM; la técnica legislativa exige identificar el artículo modificado o derogado, y la sustitución genérica de denominaciones ya está en la DCF Tercera.",
+    "correccion": "Reemplazar por: «Complementa el D.S. 033-2018-PCM y su normativa de desarrollo; las referencias al Líder de Gobierno y Transformación Digital se entienden hechas a la Jefatura conforme a la DCF Tercera.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "comision_sugerida",
+    "problema": "Se usa la denominación de comisiones del Congreso unicameral 2021-2026, que no existen en la Cámara de Diputados 2026-2031 (Reglamento de la Cámara de Diputados, art. 45). La proposición se presenta y dictamina primero en Diputados (art. 105 de la Constitución, modificado por Ley 31988).",
+    "correccion": "Reemplazar por la denominación oficial vigente: comision_sugerida: «Descentralización, Regionalización, Gobiernos Locales y Modernización de la Gestión del Estado» → «Modernización de la Gestión del Estado y Contraloría»."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ninguna con rango de ley; requiere adecuar D.S. 033-2018-PCM y normas de SERVIR"
+   ],
+   "entidades_implicadas": [
+    "SERVIR, ENAP",
+    "PCM/SGTD",
+    "MEF — informe de sostenibilidad fiscal",
+    "OCA, gobiernos regionales y locales — autonomía"
+   ],
+   "impacto_economico": "Costo de nuevas plazas directivas en cientos de entidades; debe condicionarse a disponibilidad presupuestal."
+  },
+  "especialidad": "constitucional"
+ }
+]

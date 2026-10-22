@@ -1,0 +1,1108 @@
+[
+ {
+  "id": "CON-01",
+  "especialidad": "constitucional",
+  "veredicto": "observaciones",
+  "resumen": "Compatible con los arts. 58 y 3 de la Constitución (cláusula de derechos no enumerados) y sin gasto nuevo. Debe corregirse la ubicación de la declaración de 'servicio público esencial' (hoy dentro de una lista de 'necesidad pública', categoría que habilita expropiación por art. 70) y precisar que la calificación no altera el régimen de huelga ni el tarifario.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3",
+    "problema": "El art. 3 de la Ley 29904 es una declaración de 'necesidad pública e interés nacional'. Esa categoría tiene efecto constitucional propio: es la causa que habilita la expropiación (art. 70 de la Constitución, 'necesidad pública declarada por ley'). Insertar allí el acceso a internet como literal iii) mezcla una cualificación del servicio con una cláusula expropiatoria y podría invocarse para justificar afectaciones a la propiedad de los concesionarios.",
+    "correccion": "Suprimir la modificación del art. 3 y sustituirla por: 'Artículo 3. Incorporación del artículo 3-A en la Ley 29904. Incorpórase el artículo 3-A en la Ley 29904 con el texto siguiente: \"Artículo 3-A. Carácter esencial del servicio de acceso a internet. El servicio público de acceso a internet de banda ancha es esencial para el ejercicio de los derechos fundamentales a la educación, la salud, el trabajo, la información y la participación. Esta calificación no constituye declaración de necesidad pública para efectos del artículo 70 de la Constitución ni modifica el régimen tarifario vigente.\"'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3 / Artículo 5",
+    "problema": "La calificación de 'servicio público esencial' tiene efectos en el derecho colectivo del trabajo (art. 28 de la Constitución: la huelga se ejerce en armonía con el interés social; el TUO de la Ley de Relaciones Colectivas de Trabajo, DS 010-2003-TR, art. 83, ya considera esenciales los servicios de telecomunicaciones y exige servicios mínimos). Usar el mismo término con un contenido distinto genera inseguridad sobre si se amplía la restricción de la huelga a todos los proveedores de internet.",
+    "correccion": "Añadir al art. 3-A propuesto: 'Para efectos del ejercicio del derecho de huelga rige lo dispuesto en el artículo 83 del Texto Único Ordenado de la Ley de Relaciones Colectivas de Trabajo, aprobado por Decreto Supremo 010-2003-TR.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 5.2",
+    "problema": "Faculta al OSIPTEL a imponer 'medidas temporales de continuidad' (prestación sin pago) durante emergencias. Es una limitación a la libertad de empresa (art. 59) y a la libertad contractual (art. 62) que, para superar el test de proporcionalidad, debe precisar su duración máxima, el sujeto que asume el costo y su carácter subsidiario.",
+    "correccion": "Redactar el 5.2 así: '... medidas temporales de continuidad del servicio para usuarios residenciales de las zonas declaradas, por un plazo que no exceda el de la declaratoria y con un máximo de sesenta días calendario, sin condonación de la deuda, la cual se fracciona sin intereses moratorios conforme a la norma general del OSIPTEL.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 7",
+    "problema": "Los recursos de la Ley 28900 son aportes con destino legal predeterminado (provisión de servicios en áreas rurales y de preferente interés social). Su uso para subsidios a la demanda gestionados con el MIDIS amplía ese destino; el art. 79 de la Constitución reserva al Poder Ejecutivo la iniciativa para tributos con fines predeterminados, y la ampliación de su destino conviene que cuente con opinión del MEF.",
+    "correccion": "Agregar al final del art. 7: 'previa modificación del destino de dichos recursos mediante norma con rango de ley a iniciativa o con opinión favorable del Ministerio de Economía y Finanzas'; o bien limitar el apoyo a la demanda a los recursos del presupuesto institucional del MTC."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 29904, incorpora art. 3-A (en lugar de literal iii del art. 3)"
+   ],
+   "entidades_implicadas": [
+    "MEF — opinión sobre destino de recursos de la Ley 28900",
+    "MTPE — por efectos en régimen de servicios esenciales"
+   ]
+  }
+ },
+ {
+  "id": "CON-02",
+  "especialidad": "constitucional",
+  "veredicto": "observaciones",
+  "resumen": "La gestión por resultados, el tablero y la evaluación son compatibles con la Constitución. El riesgo está en el art. 4: declarar 'intangibles' y ampliar el destino de aportes parafiscales y arrastrar saldos entre ejercicios toca materia presupuestaria y tributaria (arts. 77-79), vedada a la iniciativa ciudadana y que exige iniciativa u opinión del Ejecutivo.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 4",
+    "problema": "El art. 4.1 amplía el destino de los recursos del art. 3 de la Ley 28900 (aportes de operadores y parte del canon del espectro, de naturaleza tributaria o parafiscal) a 'apoyo focalizado a la demanda' y 'capacidades digitales', y el 4.2 ordena incorporar saldos al ejercicio siguiente. El art. 79 de la Constitución prohíbe al Congreso aprobar tributos con fines predeterminados salvo a solicitud del Ejecutivo, y la incorporación de saldos es materia de la ley de presupuesto y del DL 1440 (art. 78 de la Constitución). Además, la materia tributaria y presupuestaria está excluida de la iniciativa ciudadana (Ley 26300, art. 12).",
+    "correccion": "Reemplazar el art. 4 por: 'Artículo 4. Uso de los recursos. Los recursos a que se refiere el artículo 3 de la Ley 28900 se destinan a los fines previstos en dicha ley, incluida la operación y el mantenimiento de las redes financiadas con ellos. La incorporación de saldos se rige por el Decreto Legislativo 1440.' Trasladar la ampliación de destinos a una Disposición Complementaria Final que encargue al MEF y al MTC evaluar y, de ser el caso, proponer la modificación de la Ley 28900."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3",
+    "problema": "Exigir financiamiento asegurado de operación y mantenimiento por quince años compromete créditos presupuestarios de ejercicios futuros. Sin remisión al Sistema Nacional de Programación Multianual (DL 1252) y al principio de anualidad presupuestaria (art. 77), la regla es inaplicable o genera compromisos sin respaldo.",
+    "correccion": "Redactar el 3.1: 'Todo proyecto ... incluye, en la fase de formulación y evaluación del Sistema Nacional de Programación Multianual y Gestión de Inversiones (Decreto Legislativo 1252), la estimación del costo de operación, mantenimiento y reposición por un horizonte no menor de quince años y la identificación de su fuente de financiamiento, sujeta a las leyes anuales de presupuesto.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 7",
+    "problema": "Remite a la 'Comisión de Transportes y Comunicaciones del Congreso', que no existe en el Congreso bicameral (Ley 31988). En la Cámara de Diputados la materia corresponde a Infraestructura, Vivienda y Transportes y en el Senado a la Comisión en asuntos de Desarrollo Productivo, Energía y Minas, Infraestructura y Trabajo.",
+    "correccion": "Sustituir por: '... y se remiten a las comisiones ordinarias competentes en materia de telecomunicaciones de la Cámara de Diputados y del Senado.'"
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 28900, art. 3 (solo por iniciativa o con opinión favorable del Ejecutivo)"
+   ],
+   "entidades_implicadas": [
+    "MEF — DGPP, por incorporación de saldos y destino de recursos"
+   ]
+  }
+ },
+ {
+  "id": "CON-03",
+  "especialidad": "constitucional",
+  "veredicto": "observaciones",
+  "resumen": "Constitucionalmente viable: respeta los contratos vigentes (art. 62) y no crea gasto directo. Debe preservarse la autonomía del OSIPTEL en la fijación tarifaria (no a 'propuesta' del MTC) y someter la tarifa única a un control de subsidios cruzados compatible con la libre competencia (art. 61).",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 4.2",
+    "problema": "Condiciona la fijación de tarifas tope del OSIPTEL a la 'propuesta' del MTC. La función reguladora tarifaria es propia del organismo regulador (Ley 27332, art. 3.1.b) y su autonomía técnica es una garantía de la economía social de mercado (art. 58) y del deber de vigilar la libre competencia (art. 61). Subordinarla a la iniciativa ministerial introduce un riesgo de captura política.",
+    "correccion": "Redactar el 4.2: 'El OSIPTEL fija las tarifas tope, de oficio o a solicitud del operador o del Ministerio de Transportes y Comunicaciones, conforme a su procedimiento de regulación tarifaria, considerando ...'."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 4.1",
+    "problema": "La tarifa única nacional supone subsidios cruzados entre tramos. Si se aplica a tramos en competencia con redes privadas, puede constituir actividad estatal que desplaza a la privada sin sustento en el principio de subsidiariedad (art. 60) y distorsiona la competencia (art. 61).",
+    "correccion": "Añadir 4.3: 'La tarifa única no se aplica en los tramos en que el OSIPTEL determine la existencia de oferta mayorista privada competitiva; en ellos rige la tarifa que fije el OSIPTEL por tramo.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 5",
+    "problema": "La selección del operador 'por concurso público' por plazos no menores de diez años con eventual cofinanciamiento es materia de APP; sin remisión expresa al DL 1362 y a la opinión del MEF se crean compromisos fiscales sin el filtro de responsabilidad fiscal.",
+    "correccion": "Añadir: 'El concurso se rige por el Decreto Legislativo 1362 cuando implique cofinanciamiento o garantías del Estado, con opinión previa del Ministerio de Economía y Finanzas.'"
+   }
+  ]
+ },
+ {
+  "id": "CON-04",
+  "especialidad": "constitucional",
+  "veredicto": "observaciones_graves",
+  "resumen": "La obligación de instalar ductos en obras de gobiernos regionales y locales es admisible como política nacional de telecomunicaciones, pero declarar que esos activos son 'de titularidad del Estado' en abstracto afecta el patrimonio de gobiernos subnacionales (arts. 193 y 196) y la obligación de asumir el costo incremental impone gasto a entidades con autonomía presupuestaria sin fuente.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 4",
+    "problema": "Declara que ductos, cámaras y fibra instalados en obras regionales y municipales son 'de titularidad del Estado' y los pone a disposición de terceros. Los bienes adquiridos con presupuesto de gobiernos regionales y municipalidades son bienes de estos (arts. 193 y 196 de la Constitución; Ley 27972, art. 55). Una transferencia implícita de su titularidad por ley ordinaria, sin compensación ni acuerdo, vulnera su autonomía económica y patrimonial (arts. 191 y 194).",
+    "correccion": "Redactar el art. 4: 'Los ductos, cámaras y fibra óptica instalados en virtud de la presente ley son de titularidad de la entidad que ejecuta la inversión. La entidad titular los pone a disposición de los concesionarios bajo condiciones no discriminatorias, conforme a la Ley 28295 y a la regulación del OSIPTEL, y percibe la contraprestación correspondiente. Su integración a la red mayorista pública de fibra óptica se efectúa mediante convenio.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 7 y Artículo 2",
+    "problema": "Impone a todos los niveles de gobierno el costo incremental de los ductos 'con cargo al presupuesto de la inversión respectiva'. Para gobiernos regionales y locales es una obligación de gasto en su presupuesto, que goza de autonomía (arts. 192 y 195), y para el conjunto del sector público aumenta el gasto sin iniciativa del Ejecutivo (art. 79).",
+    "correccion": "Redactar el art. 7: 'El costo incremental ... se financia con los recursos de la Ley 28900 mediante convenio con el PRONATEL o, cuando la entidad lo decida, con cargo a su presupuesto institucional, sin demandar recursos adicionales al Tesoro Público.' Y añadir en el literal e): 'cuando cuenten con financiamiento conforme al artículo 7'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 3",
+    "problema": "El silencio positivo aplicado a una opinión técnica interna entre entidades no es propiamente silencio administrativo (TUO de la Ley 27444 regula procedimientos iniciados por administrados). La técnica puede generar confusión.",
+    "correccion": "Sustituir 'vencido el plazo sin pronunciamiento, se entiende favorable' por 'vencido el plazo, la unidad formuladora continúa con la formulación sin la opinión'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Título",
+    "problema": "El título anuncia la instalación obligatoria de 'fibra óptica', pero el articulado solo obliga a instalar ductos y cámaras.",
+    "correccion": "Reemplazar el título por 'Ley que establece la instalación obligatoria de ductos y cámaras para fibra óptica en obras públicas ...'."
+   }
+  ],
+  "aportes": {
+   "entidades_implicadas": [
+    "Gobiernos regionales y municipalidades — titulares de la infraestructura",
+    "MVCS — especificaciones en obras de saneamiento"
+   ]
+  }
+ },
+ {
+  "id": "CON-05",
+  "especialidad": "constitucional",
+  "veredicto": "observaciones",
+  "resumen": "Uniformar requisitos y fijar topes a los derechos de tramitación es compatible con la potestad tributaria municipal, que se ejerce 'con los límites que señala la ley' (art. 74). Pero la aprobación automática generalizada debe excluir zonas de patrimonio cultural y áreas naturales protegidas (arts. 21 y 68), y el efecto vigencia omite la Ley 31456, que hoy fija el plazo del régimen.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "efecto_vigencia / Artículo 2",
+    "problema": "Declara que deja sin efecto el art. 6 de la Ley 30228 'sobre plazo de vigencia', pero omite que la Ley 31456 (2022) amplió ese plazo por diez años contados desde su vencimiento (30-may-2022). Al no mencionarla, la derogación es incompleta y queda la duda de qué plazo rige.",
+    "correccion": "Sustituir el efecto_vigencia y añadir una Disposición Complementaria Derogatoria: 'Deróganse el artículo 6 de la Ley 30228 y la Ley 31456, en cuanto fijan un plazo de vigencia al régimen de la Ley 29022.' Verificar en SPIJ el texto vigente del art. 1 de la Ley 29022 antes de suprimir la expresión 'y temporal'."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3.1 y Artículo 6",
+    "problema": "Somete a aprobación automática todos los permisos 'sectoriales, regionales y municipales', sin exceptuar los bienes integrantes del patrimonio cultural de la Nación (art. 21), las áreas naturales protegidas (art. 68), ni las servidumbres aeronáuticas. La aprobación automática elimina el control previo en bienes que la Constitución protege de forma reforzada.",
+    "correccion": "Añadir 3.3: 'No procede la aprobación automática ni la comunicación previa cuando la infraestructura se ubique en bienes integrantes del Patrimonio Cultural de la Nación, áreas naturales protegidas o zonas de seguridad aeronáutica; en estos casos se aplica evaluación previa con silencio positivo en quince días hábiles, previa opinión vinculante de la autoridad competente.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 8",
+    "problema": "La calificación de una barrera burocrática como ilegal corresponde a la Comisión de Eliminación de Barreras Burocráticas del Indecopi tras un procedimiento (DL 1256). La ley no puede calificarla en abstracto sin remitir a ese procedimiento.",
+    "correccion": "Redactar: 'El incumplimiento de la presente ley por las entidades puede ser denunciado ante el Indecopi conforme al Decreto Legislativo 1256, sin perjuicio de ...'."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 31456 (derogación)",
+    "Ley 30228, art. 6 (derogación)"
+   ],
+   "entidades_implicadas": [
+    "Ministerio de Cultura — patrimonio cultural",
+    "SERNANP — áreas naturales protegidas",
+    "Indecopi — barreras burocráticas"
+   ]
+  }
+ },
+ {
+  "id": "CON-06",
+  "especialidad": "constitucional",
+  "veredicto": "observaciones",
+  "resumen": "El espectro es recurso natural y patrimonio de la Nación (art. 66; Ley 26821, art. 3, literal e), por lo que la ley puede fijar condiciones de asignación, cobertura y reversión. Es correcta la salvaguarda de las concesiones vigentes (art. 62). Debe ajustarse el apagado 2G/3G y el pago en obras para que no afecte contratos vigentes ni la retribución económica obligatoria (Ley 26821, art. 20).",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 8",
+    "problema": "El plan de apagado de redes 2G/3G se aplicaría a redes operadas bajo contratos de concesión vigentes, algunos con cláusulas de estabilidad. Por el art. 62, los términos contractuales no pueden modificarse por leyes posteriores. La Tercera DCF salva las 'asignaciones vigentes', pero el art. 8 no se remite a ella.",
+    "correccion": "Añadir al art. 8: 'El plan es vinculante para nuevas asignaciones; respecto de los contratos vigentes se implementa mediante adendas acordadas con los concesionarios, conforme a la Tercera Disposición Complementaria Final.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 5",
+    "problema": "Pagar la contraprestación del espectro con obras debe seguir siendo una forma de cumplir la 'retribución económica' por aprovechar un recurso natural (Ley 26821, art. 20). Sin tope legal, la delegación total al reglamento ('hasta el porcentaje que determine el reglamento') vacía la reserva de ley del art. 66.",
+    "correccion": "Fijar en la ley el tope: '... hasta el cincuenta por ciento de la contraprestación ...' y precisar que 'los proyectos ejecutados se valorizan a costo auditado y se integran a los compromisos del contrato de concesión'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 6",
+    "problema": "La reversión 'sin derecho a compensación' es constitucional para asignaciones nuevas cuyo título lo prevea, pero aplicada retroactivamente afectaría derechos adquiridos (arts. 62 y 103).",
+    "correccion": "Agregar: 'La presente regla se aplica a las asignaciones otorgadas a partir de la vigencia de la presente ley.'"
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "TUO de la Ley de Telecomunicaciones (DS 013-93-TCC), artículos sobre asignación del espectro"
+   ],
+   "entidades_implicadas": [
+    "MEF — opinión por menor recaudación del Tesoro"
+   ]
+  }
+ },
+ {
+  "id": "CON-07",
+  "especialidad": "constitucional",
+  "veredicto": "observaciones",
+  "resumen": "Propuesta alineada con el art. 89 (autonomía de comunidades) y el Convenio 169 de la OIT, y remite correctamente a la Ley 29785. Los puntos a corregir son la exoneración de derechos de tramitación (beneficio tributario: art. 79 y Norma VII del Código Tributario) y la habilitación a municipalidades de centro poblado como operadoras, que exige justificar la subsidiariedad (art. 60).",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 3.2 y Artículo 3.1 ('título habilitante gratuito')",
+    "problema": "Los derechos de tramitación son tasas, es decir, tributos. Exonerarlos es un beneficio tributario: el art. 79 de la Constitución exige informe previo del MEF, y la Norma VII del Título Preliminar del Código Tributario exige objetivo, beneficiarios, plazo máximo de tres años y análisis costo-beneficio. Además, el art. 3.2 delega al reglamento el alcance de la exoneración, lo que vulnera la reserva de ley tributaria (art. 74). La materia tributaria tampoco cabe en una iniciativa ciudadana (Ley 26300, art. 12).",
+    "correccion": "Suprimir el 3.2 y la palabra 'gratuito' del 3.1. Si se mantiene, redactar: '3.2 Exonérase del pago de los derechos de tramitación del título habilitante a los operadores comunitarios por un plazo de tres años contados desde la vigencia de la presente ley.' Consignar en la exposición de motivos el informe previo del MEF y el análisis de la Norma VII; condicionar su presentación a iniciativa parlamentaria o del Ejecutivo."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 2",
+    "problema": "Incluir a la 'municipalidad de centro poblado' como operadora de telecomunicaciones es actividad empresarial del Estado (aunque sea sin fines de lucro). El art. 60 solo la permite 'autorizado por ley expresa', subsidiariamente y por alto interés público o manifiesta conveniencia nacional (STC 0008-2003-AI/TC, sobre el principio de subsidiariedad en el régimen económico).",
+    "correccion": "Añadir en el art. 2: 'La municipalidad de centro poblado solo puede actuar como operador comunitario en ámbitos en los que el Ministerio de Transportes y Comunicaciones certifique la inexistencia de oferta privada del servicio; esta ley constituye la autorización expresa a que se refiere el artículo 60 de la Constitución, sustentada en el alto interés público de la conectividad de zonas no atendidas.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 4",
+    "problema": "La asignación directa de espectro 'sin concurso' es válida por ley (art. 66), pero debe precisar si se paga canon por uso del espectro y si la asignación es intransferible, para no crear un mercado secundario de espectro gratuito.",
+    "correccion": "Añadir: 'El espectro asignado conforme al presente artículo es intransferible, se usa solo en el ámbito autorizado y revierte al Estado al cesar el uso comunitario.'"
+   }
+  ],
+  "aportes": {
+   "entidades_implicadas": [
+    "Ministerio de Cultura — Viceministerio de Interculturalidad (consulta previa)",
+    "MEF — informe previo art. 79"
+   ]
+  }
+ },
+ {
+  "id": "CON-08",
+  "especialidad": "constitucional",
+  "veredicto": "observaciones_graves",
+  "resumen": "Regular las actividades espaciales y su responsabilidad es materia legislable. Pero el Congreso no puede crear por sí un organismo público: por el art. 28 de la LOPE (Ley 29158), los organismos públicos se crean por ley a iniciativa del Poder Ejecutivo. A ello se suman el fondo con recursos públicos (art. 79) y la cita de la Ley 28303, derogada.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 3.1 y Disposición Complementaria Final Segunda",
+    "problema": "Crea la Agencia Espacial del Perú como organismo público técnico especializado. El art. 28 de la Ley 29158 (LOPE), de rango orgánico, dispone que los organismos públicos se crean y disuelven por ley a iniciativa del Poder Ejecutivo. Además, la creación de una entidad con presupuesto, personal y adscripción a la PCM incrementa el gasto público (art. 79). La STC 00018-2023-PI/TC (Sentencia 158/2026, fundamentos 113-118, criterio vinculante) reafirma la preeminencia del Ejecutivo en la iniciativa de gasto, también para el gasto que se proyecta a ejercicios futuros.",
+    "correccion": "Reformular como ley sustantiva de actividades espaciales que asigna las funciones de autorización, registro y supervisión 'a la Comisión Nacional de Investigación y Desarrollo Aeroespacial (CONIDA)', y trasladar la creación de la Agencia a una Disposición Complementaria Final: 'El Poder Ejecutivo evalúa y, de ser el caso, presenta en el plazo de un año la iniciativa legislativa de creación de la Agencia Espacial del Perú, conforme al artículo 28 de la Ley 29158.' Alternativa: que la propuesta sea presentada por el Poder Ejecutivo."
+   },
+   {
+    "severidad": "alta",
+    "ubicacion": "efecto_vigencia",
+    "problema": "Cita la Ley 28303 (Ley Marco de Ciencia, Tecnología e Innovación Tecnológica) como norma que se complementa. Esa ley fue derogada por la Disposición Complementaria Derogatoria Única, literal a), de la Ley 31250.",
+    "correccion": "Reemplazar 'Ley 28303' por 'Ley 31250, Ley del Sistema Nacional de Ciencia, Tecnología e Innovación (SINACTI)'. En el art. 8, sustituir 'sistema nacional de ciencia, tecnología e innovación' por 'Sistema Nacional de Ciencia, Tecnología e Innovación (SINACTI) regulado por la Ley 31250'."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 8",
+    "problema": "Crea un fondo concursable que 'puede recibir recursos públicos'. Si bien es facultativo, la creación de fondos con asignación de recursos públicos por iniciativa parlamentaria es iniciativa de gasto (art. 79).",
+    "correccion": "Redactar el art. 8: 'La CONIDA puede gestionar concursos de innovación espacial financiados con recursos de cooperación internacional, privados y de los fondos del SINACTI, sin demandar recursos adicionales al Tesoro Público.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3.1 y Artículo 10",
+    "problema": "Trasladar la CONIDA del Sector Defensa a la PCM afecta la operación de sistemas satelitales vinculados a la seguridad nacional (arts. 163 y 165 de la Constitución). El art. 10 subordina el uso espacial de Defensa a una política civil sin garantizar su reserva.",
+    "correccion": "Añadir al art. 10: 'La información y las operaciones satelitales vinculadas a la Seguridad y Defensa Nacional se rigen por la normativa del Sector Defensa y del Sistema de Inteligencia Nacional, sin perjuicio de la coordinación con la entidad rectora.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 6",
+    "problema": "La remisión de información al Secretario General de la ONU presupone que el Perú sea parte del Convenio sobre el Registro de Objetos Lanzados al Espacio Ultraterrestre. Esto no se ha verificado en esta revisión.",
+    "correccion": "Redactar: '... y remite la información al Secretario General de las Naciones Unidas conforme a los tratados vigentes para el Perú y a las resoluciones de la Asamblea General aplicables.'"
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Decreto Ley 20643 (modificación, no derogación, si no se crea la Agencia)",
+    "Ley 31250 (referencia correcta en lugar de la Ley 28303)"
+   ],
+   "entidades_implicadas": [
+    "PCM — iniciativa de creación (LOPE art. 28)",
+    "MINDEF — CONIDA"
+   ]
+  }
+ },
+ {
+  "id": "CON-09",
+  "especialidad": "constitucional",
+  "veredicto": "observaciones",
+  "resumen": "Es coherente con el derecho de acceso a la información pública (art. 2.5). Pero las excepciones al acceso solo pueden fijarse por ley y deben coincidir con el régimen del TUO de la Ley 27806: la remisión al 'reglamento' para clasificar imágenes es inconstitucional. Depende además de una agencia (CON-08) cuya creación no cabe por iniciativa parlamentaria.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 3.2",
+    "problema": "Permite restringir el acceso a datos públicos 'por resolución de máxima resolución espacial que la ley o el reglamento clasifique'. El art. 2.5 de la Constitución solo admite excluir información 'expresamente por ley o por razones de seguridad nacional'. Las excepciones son taxativas en los arts. 15 a 17 del TUO de la Ley 27806, y un reglamento no puede crear otras.",
+    "correccion": "Redactar el 3.2: 'Solo pueden restringirse en los supuestos de los artículos 15, 16 y 17 del Texto Único Ordenado de la Ley 27806, Ley de Transparencia y Acceso a la Información Pública, o cuando lo impongan condiciones de licencia contratadas antes de la vigencia de la presente ley. La restricción es motivada, temporal y se publica.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3",
+    "problema": "Las imágenes aéreas o satelitales de muy alta resolución pueden identificar personas, viviendas y bienes, lo que compromete la intimidad y la inviolabilidad del domicilio (arts. 2.6, 2.7 y 2.9) y los datos personales (Ley 29733).",
+    "correccion": "Añadir 3.3: 'Antes de su publicación se anonimizan o degradan los productos que permitan identificar a personas naturales, conforme a la Ley 29733.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 4 y Disposición Complementaria Final Tercera",
+    "problema": "Asigna funciones a la 'Agencia Espacial del Perú', una entidad inexistente cuya creación por iniciativa parlamentaria choca con el art. 28 de la LOPE.",
+    "correccion": "Asignar las funciones directamente a la CONIDA y eliminar la Tercera DCF: 'La Comisión Nacional de Investigación y Desarrollo Aeroespacial (CONIDA) o la entidad que haga sus veces administra el Catálogo ...'."
+   }
+  ]
+ },
+ {
+  "id": "CON-10",
+  "especialidad": "constitucional",
+  "veredicto": "observaciones",
+  "resumen": "Sin reparos constitucionales de fondo: excluye expresamente beneficios tributarios (evita el art. 79) y respeta las competencias territoriales con fórmula facultativa. Solo debe precisarse el régimen sancionador del registro y su base de reporte obligatorio.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3",
+    "problema": "Impone una inscripción y un reporte anual obligatorios sin tipificar la consecuencia del incumplimiento. Las infracciones y sanciones requieren norma con rango de ley (principios de legalidad y tipicidad, TUO de la Ley 27444, art. 248, numerales 1 y 4). Sin ello la obligación es inexigible, o el reglamento terminará tipificando sin base legal.",
+    "correccion": "Añadir 3.3: 'Constituye infracción leve la omisión de inscripción o de reporte, sancionable por el Ministerio de Transportes y Comunicaciones con amonestación o multa de hasta 10 UIT, conforme al procedimiento sancionador del TUO de la Ley 27444.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 3.2",
+    "problema": "La publicación 'de forma agregada' es correcta, pero conviene garantizar la reserva de información comercial y de seguridad de los operadores (secreto empresarial, art. 2.5 y TUO de la Ley 27806, art. 17).",
+    "correccion": "Añadir: 'La información individual que constituya secreto comercial o afecte la seguridad de la infraestructura es confidencial.'"
+   }
+  ]
+ },
+ {
+  "id": "CON-11",
+  "especialidad": "constitucional",
+  "veredicto": "observaciones",
+  "resumen": "Constitucionalmente viable. Las zonas de protección restringen la libertad de trabajo y de empresa (art. 59) y deben respetar la competencia del sector Producción en ordenamiento pesquero. El art. 8 conserva la libertad de contratar (art. 62).",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 6",
+    "problema": "Atribuye a la autoridad marítima restringir 'actividades de pesca de arrastre ... y extracción'. El ordenamiento pesquero es competencia del Ministerio de la Producción (Ley General de Pesca, DL 25977). Además, toda restricción a la libertad de trabajo de pescadores artesanales debe ser proporcional y previamente informada.",
+    "correccion": "Redactar: 'La autoridad marítima nacional y el Ministerio de la Producción, en el ámbito de sus competencias y a propuesta del MTC, establecen zonas de protección ..., previa difusión a las organizaciones de pescadores y con la extensión estrictamente necesaria para la protección del cable.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 2",
+    "problema": "Calificar por ley la infraestructura como 'crítica' sin articularla con el régimen vigente de activos críticos nacionales (DS 106-2017-PCM) duplica categorías.",
+    "correccion": "Añadir: '... y se incorporan a la relación de Activos Críticos Nacionales conforme a la normativa de la materia.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Disposición Complementaria Final Segunda",
+    "problema": "Destinar recursos de la Ley 28900 a equipamiento de IXP solo es válido si encaja en la finalidad legal del fondo (acceso universal). Debe vincularse expresamente para no ampliar el destino de un recurso con fines predeterminados (art. 79).",
+    "correccion": "Añadir: '... siempre que el IXP se ubique en ámbitos de preferente interés social y beneficie a operadores que atienden zonas rurales.'"
+   }
+  ]
+ },
+ {
+  "id": "CON-12",
+  "especialidad": "constitucional",
+  "veredicto": "observaciones",
+  "resumen": "Refuerza la protección del consumidor (art. 65) y la libertad de información (art. 2.4) sin gasto del Tesoro, y se apoya correctamente en el RENAMV de la Ley 31207. Solo debe acotarse la excepción de bloqueo por 'mandatos legales' para que no habilite censura previa administrativa.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 2 (nuevo art. 6.2 de la Ley 29904)",
+    "problema": "Permite bloquear o restringir tráfico para 'cumplir mandatos legales o judiciales'. La fórmula 'mandatos legales' habilitaría que cualquier autoridad administrativa ordene bloquear contenidos. Eso afecta la libertad de expresión e información 'sin previa autorización ni censura ni impedimento algunos' (art. 2.4 de la Constitución) y el art. 13 de la Convención Americana, que exigen restricciones previstas en ley, necesarias y proporcionales.",
+    "correccion": "Sustituir 'o cumplir mandatos legales o judiciales' por 'o cumplir mandatos judiciales o de autoridad administrativa expresamente habilitada por ley para ordenar el bloqueo de contenidos ilícitos determinados, mediante resolución motivada y proporcional'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 6",
+    "problema": "La 'compensación automática' es un remedio contractual a favor del usuario. Debe quedar claro que no es una sanción administrativa, para no confundirla con la potestad sancionadora (que exige tipificación legal) ni duplicar la multa del OSIPTEL por el mismo hecho (non bis in idem, TUO de la Ley 27444, art. 248.11).",
+    "correccion": "Añadir: 'La compensación tiene naturaleza resarcitoria y es independiente de las sanciones administrativas que correspondan.'"
+   }
+  ]
+ },
+ {
+  "id": "CON-13",
+  "especialidad": "constitucional",
+  "veredicto": "observaciones_graves",
+  "resumen": "El objetivo (conectar escuelas y postas) es constitucionalmente legítimo (arts. 7, 9, 13-17), pero la ley impone gasto recurrente obligatorio a Educación, Salud y gobiernos regionales con meta del 100 % al 2031. Tras el overruling de la STC 00018-2023-PI/TC (Sentencia 158/2026), la iniciativa parlamentaria no puede crear gasto ni para el ejercicio en curso ni hacia el futuro sin fuente de financiamiento expresa e informe de sostenibilidad fiscal del MEF.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 2, Artículo 8 y Disposición Complementaria Final Segunda",
+    "problema": "Ordena conectar al 100 % de locales al 2031 con contratos plurianuales a cargo de los presupuestos de MINEDU, MINSA y gobiernos regionales. Es creación de gasto público por iniciativa no ejecutiva (art. 79). El TC, en la STC 00018-2023-PI/TC (Sentencia 158/2026, fundamentos 113-118, criterio vinculante), estableció la preeminencia del Poder Ejecutivo en la iniciativa de gasto: los congresistas no pueden incrementar gastos 'que incidan en el presupuesto anual o que impacten hacia el futuro'. Solo excepcionalmente cabe hacerlo con fuente de financiamiento expresa e informe previo de sostenibilidad fiscal del Ejecutivo. Además, el gasto impuesto a gobiernos regionales afecta su autonomía presupuestaria (art. 192).",
+    "correccion": "Reformular el art. 2: 'El Poder Ejecutivo programa, en el marco de la programación multianual presupuestaria y de inversiones, la conexión progresiva de las instituciones educativas y establecimientos de salud públicos, con meta indicativa al 2031.' Redactar el art. 8: 'La implementación se financia con cargo a los presupuestos institucionales de los pliegos involucrados y a los recursos de la Ley 28900, sin demandar recursos adicionales al Tesoro Público.' Recabar, antes del dictamen, el informe de sostenibilidad fiscal del MEF exigido por la pauta (ii) del fundamento 118 de la STC 00018-2023-PI/TC. Para gobiernos regionales, sustituir la obligación por 'pueden adherirse mediante convenio'."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 4",
+    "problema": "La contratación agregada por lotes regionales debe sujetarse al régimen general de contratación pública vigente (Ley 32069, Ley General de Contrataciones Públicas). Sin esa remisión, la norma parece crear un régimen especial que no se ha justificado.",
+    "correccion": "Añadir al 4.1: '... conforme a la Ley 32069, Ley General de Contrataciones Públicas, y su reglamento, a través de la central de compras pública o de la entidad que el reglamento designe.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 6",
+    "problema": "El acceso comunitario gratuito con 'filtrado' de contenidos debe respetar la libertad de información (art. 2.4) y la prohibición de uso comercial de la REDNACE (art. 17 de la Ley 29904).",
+    "correccion": "Precisar: 'El filtrado se limita a contenidos ilícitos y a la protección de niñas, niños y adolescentes, con criterios públicos; el acceso comunitario no tiene fines comerciales.'"
+   }
+  ],
+  "aportes": {
+   "entidades_implicadas": [
+    "MEF — informe de sostenibilidad fiscal previo al dictamen (STC 00018-2023-PI/TC)",
+    "Perú Compras — contratación agregada"
+   ],
+   "impacto_economico": "Gasto recurrente multianual; la ley debe identificar la reasignación concreta (p. ej. recursos de la Ley 28900 y partidas de conectividad que ya ejecutan MINEDU y MINSA) para cumplir el requisito (i) del fundamento 118 de la Sentencia 158/2026."
+  }
+ },
+ {
+  "id": "CON-14",
+  "especialidad": "constitucional",
+  "veredicto": "observaciones",
+  "resumen": "Las obligaciones de resiliencia impuestas a concesionarios son limitaciones razonables a la libertad de empresa (art. 59), justificadas por el deber de protección (art. 44). Sin embargo, el art. 6 duplica el SISMATE, ya creado por la Ley 30472, y la red de emergencia del art. 7 debe formularse sin crear gasto nuevo.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 6",
+    "problema": "Regula la difusión gratuita de alertas por difusión celular como si fuese nueva. Ese sistema ya existe: el Sistema de Mensajería de Alerta Temprana de Emergencias (SISMATE), creado por la Ley 30472 y reglamentado por el DS 019-2016-MTC. Duplicar la regulación genera antinomias sobre la autoridad emisora y el costo.",
+    "correccion": "Sustituir el art. 6 por una modificación puntual: 'Artículo 6. Modificación de la Ley 30472. Incorpórase ... en la Ley 30472 [precisar el artículo tras verificar en SPIJ el texto vigente, modificado con posterioridad a 2016] la obligación de prueba anual del SISMATE con el INDECI y la publicación de sus métricas de cobertura y latencia de entrega.' Citar la Ley 30472 en efecto_vigencia y normas_relacionadas."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 7 y Disposición Complementaria Final Tercera",
+    "problema": "'El MTC asegura la operatividad de una red de comunicaciones de emergencia con capacidad satelital y equipos desplegables' es un mandato de gasto. Conforme a la STC 00018-2023-PI/TC (Sentencia 158/2026), la iniciativa parlamentaria no puede crear gasto presente ni futuro sin fuente identificada e informe del MEF.",
+    "correccion": "Redactar: 'El Ministerio de Transportes y Comunicaciones articula las redes de comunicaciones de emergencia existentes de las entidades de primera respuesta con la red mayorista pública de fibra óptica y la REDNACE, con cargo a su presupuesto institucional y sin demandar recursos adicionales al Tesoro Público.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 5",
+    "problema": "La itinerancia obligatoria limita la libertad de contratar (art. 62) y la propiedad de las redes. Es proporcional si es temporal y retribuida, pero la ley debe fijar el límite temporal.",
+    "correccion": "Añadir: '... por el plazo de la declaratoria de emergencia, con cargos mayoristas orientados a costos fijados por el OSIPTEL.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 3",
+    "problema": "Los planes de continuidad remitidos al MTC contienen información de seguridad de infraestructura crítica cuya publicidad debe restringirse dentro de las excepciones legales de transparencia.",
+    "correccion": "Añadir: 'Los planes tienen carácter reservado conforme al artículo 16 del TUO de la Ley 27806.'"
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 30472 (SISMATE) — modificación puntual en lugar de régimen paralelo"
+   ],
+   "entidades_implicadas": [
+    "INDECI — emisor de alertas SISMATE"
+   ]
+  }
+ },
+ {
+  "id": "ECO-01",
+  "especialidad": "constitucional",
+  "veredicto": "observaciones",
+  "resumen": "Régimen voluntario compatible con la libertad de empresa y asociación (arts. 2.13, 59) que, con acierto, deriva lo tributario al MEF (art. 79). Las observaciones son el silencio positivo en una calidad migratoria, materia de interés público y seguridad, y la tutela de acreedores y accionistas minoritarios en el cierre simplificado y la exclusión del derecho de suscripción preferente.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 7",
+    "problema": "Aplica silencio administrativo positivo al otorgamiento de una calidad migratoria de residencia. La admisión de extranjeros compromete el orden interno y la seguridad nacional (arts. 44 y 163), y el TUO de la Ley 27444 (art. 38) prevé silencio negativo cuando la solicitud incide significativamente en el interés público, incluida la seguridad ciudadana y la defensa nacional. Un permiso de residencia ficto sin verificar antecedentes es desproporcionado.",
+    "correccion": "Sustituir la última oración por: 'Migraciones resuelve la solicitud en un plazo no mayor de treinta días hábiles; vencido el plazo, el solicitante puede realizar actividades remuneradas con la constancia de trámite en tanto se emita pronunciamiento, sin que opere silencio positivo respecto de la calidad migratoria.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 8",
+    "problema": "La extinción en un solo acto, basada en la sola declaración de no tener obligaciones pendientes, puede frustrar créditos laborales con prelación constitucional (art. 24: el pago de remuneraciones y beneficios sociales tiene prioridad sobre cualquier otra obligación) y derechos de terceros no conocidos.",
+    "correccion": "Añadir: 'La extinción no libera a los socios y administradores de la responsabilidad por obligaciones laborales, tributarias o frente a terceros no declaradas, que responden solidariamente hasta por lo percibido en la liquidación y durante el plazo de prescripción aplicable. El procedimiento exige constancia de no adeudo previsional y publicación electrónica del acuerdo por diez días hábiles.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 5",
+    "problema": "Suprimir el derecho de suscripción preferente por vía estatutaria afecta el contenido patrimonial de la propiedad de los accionistas minoritarios (art. 70). Es admisible si consta su consentimiento.",
+    "correccion": "Añadir: '... cuando así lo prevea el estatuto aprobado o modificado con el voto favorable de accionistas que representen no menos de dos tercios de las acciones con derecho a voto, sin perjuicio del derecho de separación del accionista disidente.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 2, literal e)",
+    "problema": "Prohibir distribuir utilidades como requisito para mantener la condición es una restricción voluntaria y por eso es válida, pero su incumplimiento debe tener una consecuencia clara para no generar inseguridad.",
+    "correccion": "Añadir: 'La distribución de utilidades determina la pérdida de la condición desde el ejercicio en que se acuerde.'"
+   }
+  ]
+ },
+ {
+  "id": "ECO-02",
+  "especialidad": "constitucional",
+  "veredicto": "observaciones",
+  "resumen": "Da continuidad a un vehículo existente sin asignar recursos del Tesoro y respeta el art. 79 al condicionar los aportes públicos a la ley de presupuesto. Pero la regla de no reversión de retornos al Tesoro y la prórroga por decreto supremo son decisiones sobre la hacienda pública que requieren iniciativa o conformidad del MEF.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 4",
+    "problema": "Dispone que los retornos de un patrimonio constituido con recursos públicos (DU 013-2020) 'no revierten al Tesoro Público'. Es una disposición sobre ingresos y el destino de recursos públicos, materia presupuestaria (arts. 77 y 78) y de administración de la hacienda pública (art. 118, inc. 17), en la que, según la STC 00018-2023-PI/TC (Sentencia 158/2026), prima la iniciativa del Ejecutivo. Además, la materia presupuestaria está excluida de la iniciativa ciudadana (Ley 26300, art. 12).",
+    "correccion": "Redactar el art. 4: 'Los retornos, dividendos y recuperaciones de capital pueden reinvertirse en el FCEI conforme lo autorice el Ministerio de Economía y Finanzas en el marco del Decreto Legislativo 1440 y del contrato de fideicomiso.' Recabar opinión favorable del MEF antes del dictamen."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 2",
+    "problema": "Prever una prórroga 'por decreto supremo' de una vigencia fijada por ley es una deslegalización. Es válida solo si la ley la autoriza expresamente con parámetros, como ocurre aquí, pero conviene precisar el límite para no habilitar una prórroga indefinida.",
+    "correccion": "Añadir: '... prorrogable por única vez y por un plazo no mayor de cinco años ...'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 8",
+    "problema": "La remisión a 'la comisión competente del Congreso' debe adecuarse a la bicameralidad (Ley 31988).",
+    "correccion": "Sustituir por 'a las comisiones competentes de la Cámara de Diputados y del Senado'."
+   }
+  ]
+ },
+ {
+  "id": "ECO-03",
+  "especialidad": "constitucional",
+  "veredicto": "observaciones_graves",
+  "resumen": "Es materia de beneficio tributario: está sujeta a reserva de ley (art. 74) y a informe previo del MEF (art. 79), y excluida de la iniciativa ciudadana. El texto da por existente un informe del MEF que no consta, y prorroga hasta 2031 un beneficio cuando la Norma VII del Código Tributario limita la vigencia a tres años.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 2",
+    "problema": "Afirma que 'la extensión se sustenta en el informe previo del MEF', informe que no existe para una propuesta ciudadana. El art. 79 exige que las leyes sobre beneficios tributarios cuenten con informe previo del MEF; sin él, el vicio es de procedimiento y acarrea inconstitucionalidad formal. Además, la Ley 26300 (art. 12) excluye la materia tributaria de la iniciativa ciudadana. La redacción también es imprecisa: no identifica el artículo modificado. La Ley 32539 (El Peruano, 31-dic-2025) modificó los arts. 4 y 7 de la Ley 30309.",
+    "correccion": "Eliminar la última oración del art. 2. Redactar: 'Modifícase el artículo 7 de la Ley 30309, modificado por la Ley 32539, ...' (confirmar en SPIJ que el art. 7 regula la vigencia). Consignar en la ficha que la propuesta solo puede canalizarse por iniciativa del Poder Ejecutivo o de un grupo parlamentario y que el informe previo del MEF debe obtenerse antes del dictamen."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 2 y Disposición Complementaria Final Segunda",
+    "problema": "La Norma VII del Título Preliminar del Código Tributario (sustituida por el DL 1521) establece que el plazo de vigencia de un beneficio tributario no puede exceder de tres años. Prorrogar hasta el ejercicio 2031 (más de cinco años) se aparta de ese límite sin decirlo. Aunque la Norma VII tiene rango legal, el apartamiento debe ser expreso y motivado, por seguridad jurídica.",
+    "correccion": "Fijar la prórroga 'hasta el 31 de diciembre de 2029' (tres años desde 2027) o añadir en la Segunda DCF: 'De manera excepcional y por las razones expuestas en el análisis costo-beneficio, el plazo de vigencia excede el previsto en el literal c) de la Norma VII ...', acompañado de la cuantificación del gasto tributario por el MEF."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3",
+    "problema": "El arrastre de la deducción adicional por cuatro ejercicios amplía el beneficio y está sujeto a los mismos requisitos (art. 79 y Norma VII). Su costo fiscal no se cuantifica.",
+    "correccion": "Incluir el arrastre en el informe previo del MEF y limitarlo al plazo de vigencia del beneficio: '... aplicada contra la renta neta de los ejercicios siguientes, sin exceder el ejercicio gravable en que vence el beneficio.'"
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 30309, art. 7 (vigencia), en la redacción de la Ley 32539"
+   ],
+   "entidades_implicadas": [
+    "MEF — informe previo obligatorio (art. 79)"
+   ]
+  }
+ },
+ {
+  "id": "ECO-04",
+  "especialidad": "constitucional",
+  "veredicto": "conforme",
+  "resumen": "Ley de metas indicativas y de rendición de cuentas que remite la asignación de recursos a la ley anual de presupuesto. Es compatible con los arts. 77-79 y con la preeminencia del Ejecutivo en la iniciativa de gasto fijada por la STC 00018-2023-PI/TC. Solo hay ajustes formales.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 3",
+    "problema": "El contenido del Marco Macroeconómico Multianual lo regula el Decreto Legislativo 1276 (Marco de la Responsabilidad y Transparencia Fiscal del Sector Público No Financiero). Sin remisión expresa, la obligación queda desconectada de su norma matriz.",
+    "correccion": "Redactar: 'El Ministerio de Economía y Finanzas incluye en el Marco Macroeconómico Multianual, conforme al Decreto Legislativo 1276, una sección informativa sobre ...'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 7",
+    "problema": "Debe adecuarse a la bicameralidad (Ley 31988).",
+    "correccion": "Sustituir por 'ante las comisiones competentes de la Cámara de Diputados y del Senado'."
+   }
+  ]
+ },
+ {
+  "id": "ECO-05",
+  "especialidad": "constitucional",
+  "veredicto": "observaciones",
+  "resumen": "La regulación de la titularidad de resultados financiados con fondos públicos es legítima y respeta la Decisión 486 (de aplicación preferente). Hay tres tensiones constitucionales: la imposición de reparto de beneficios a universidades privadas (autonomía, art. 18), la participación de entidades públicas en el capital de empresas (art. 60) y la participación de servidores públicos en empresas (régimen de incompatibilidades).",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 6",
+    "problema": "Habilita a universidades e institutos públicos a 'constituir o participar en el capital de empresas'. Es actividad empresarial del Estado, que el art. 60 solo admite autorizada por ley expresa, de manera subsidiaria y por alto interés público o manifiesta conveniencia nacional. La ley puede ser esa autorización, pero debe decirlo y acotarla.",
+    "correccion": "Añadir: 'La presente ley constituye la autorización expresa a que se refiere el artículo 60 de la Constitución, por razón de manifiesta conveniencia nacional en la transferencia tecnológica. La participación de entidades públicas es minoritaria, se limita al aporte de derechos de propiedad intelectual o licencias y no comprende aportes dinerarios.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 7",
+    "problema": "Permitir que docentes e investigadores públicos sean socios de empresas vinculadas a su entidad choca con las prohibiciones de la Ley 27588 (prohibiciones e incompatibilidades de funcionarios y servidores públicos) y con el Código de Ética de la Función Pública (Ley 27815). Sin una excepción expresa, la habilitación es inaplicable o expone al servidor a responsabilidad.",
+    "correccion": "Redactar: 'Por excepción a lo dispuesto en la Ley 27588, los docentes e investigadores ... pueden participar como socios ..., previa autorización de la entidad, declaración jurada de intereses conforme a la normativa de integridad y abstención en toda decisión, contrato o fiscalización que involucre a la empresa.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 5 y Disposición Complementaria Final Tercera",
+    "problema": "Impone a universidades privadas una participación mínima de un tercio para los inventores y les ordena adecuar sus reglamentos. Afecta la autonomía normativa y económica universitaria (art. 18) y la libertad contractual (art. 62) respecto de contratos laborales ya celebrados.",
+    "correccion": "Limitar el art. 5 a 'los resultados financiados con fondos públicos' y a 'los contratos de financiamiento suscritos a partir de la vigencia de la presente ley'. Precisar que la proporción mínima es 'supletoria, salvo pacto en contrario más favorable al investigador'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 4 (último párrafo)",
+    "problema": "La cesión de titularidad a la entidad financiadora por incumplimiento afecta la propiedad (art. 70). Es válida como condición contractual pactada, no como efecto legal sobre contratos anteriores.",
+    "correccion": "Añadir: 'siempre que dicha cláusula conste en el contrato de financiamiento.'"
+   }
+  ]
+ },
+ {
+  "id": "ECO-06",
+  "especialidad": "constitucional",
+  "veredicto": "observaciones",
+  "resumen": "Atribuye competencias a la SBS, cuya autonomía reconoce el art. 87, y coordina correctamente con el BCRP (art. 84) y la ANPD. Desarrolla la autodeterminación informativa (art. 2.6). Falta articular el secreto bancario (art. 2.5 de la Constitución; Ley 26702, art. 140), que solo cede por autorización del titular.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 2 y efecto_vigencia",
+    "problema": "Los datos de operaciones pasivas están protegidos por el secreto bancario (art. 2.5 de la Constitución; art. 140 de la Ley 26702), que admite su divulgación con autorización escrita del cliente. Sin modificar el art. 140 para reconocer el consentimiento electrónico específico del Sistema de Finanzas Abiertas, las entidades pueden negarse a compartir alegando secreto bancario o quedar expuestas a responsabilidad.",
+    "correccion": "Añadir un artículo: 'Incorpórase un párrafo al artículo 140 de la Ley 26702: \"No constituye violación del secreto bancario el suministro de información realizado en el marco del Sistema de Finanzas Abiertas con autorización expresa, específica y revocable del cliente otorgada por medios electrónicos, conforme a la regulación de la SBS.\"' Incluir esta modificación en efecto_vigencia."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 6",
+    "problema": "Ordenar a dos entidades que 'suscriban un convenio' no resuelve el conflicto de competencias sancionadoras sobre un mismo hecho (non bis in idem, TUO de la Ley 27444, art. 248.11).",
+    "correccion": "Añadir: 'La infracción a la normativa de protección de datos personales es sancionada por la ANPD; la infracción a las obligaciones prudenciales y de seguridad del Sistema, por la SBS. Un mismo hecho con idéntico fundamento no es sancionado por ambas.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 3, literal c)",
+    "problema": "Someter a la SBS a proveedores no financieros por su sola inscripción amplía el perímetro regulatorio. Es admisible por ley, pero debe definirse con precisión para respetar la legalidad sancionadora.",
+    "correccion": "Definir en la ley 'proveedor de servicios basados en datos' e 'iniciador de pagos' y precisar que la inscripción es requisito para acceder a las interfaces del Sistema."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 26702, art. 140 (incorpora párrafo)"
+   ]
+  }
+ },
+ {
+  "id": "ECO-07",
+  "especialidad": "constitucional",
+  "veredicto": "observaciones",
+  "resumen": "Respeta la autonomía del BCRP (art. 84): fija principios y deja el desarrollo técnico y los plazos al Banco. El único punto sensible es la prohibición de cláusulas de exclusividad, que no puede alcanzar contratos celebrados antes de su vigencia (art. 62).",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 5",
+    "problema": "Prohíbe cláusulas de exclusividad y penalidades 'desproporcionadas' en contratos de afiliación de comercios. Aplicada a contratos vigentes, contraviene el art. 62 de la Constitución ('los términos contractuales no pueden ser modificados por leyes u otras disposiciones de cualquier clase'). Además, 'desproporcionadas' es un concepto indeterminado que no puede sustentar una sanción sin tipificación precisa.",
+    "correccion": "Añadir: 'La presente disposición se aplica a los contratos que se celebren, renueven o prorroguen a partir de su vigencia. Se considera desproporcionada la penalidad que exceda el monto que fije el Banco Central de Reserva del Perú en función de los costos de afiliación no amortizados.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Disposición Complementaria Final Primera",
+    "problema": "La 'comisión competente del Congreso' debe adecuarse a la bicameralidad. Además, el deber de informar del BCRP al Congreso conviene enmarcarlo en su Ley Orgánica para no afectar su autonomía.",
+    "correccion": "Redactar: '... informando a las comisiones competentes de la Cámara de Diputados y del Senado, conforme a su Ley Orgánica, dentro del primer año de vigencia.'"
+   }
+  ]
+ },
+ {
+  "id": "ECO-08",
+  "especialidad": "constitucional",
+  "veredicto": "observaciones",
+  "resumen": "Regular por ley un registro habilitante de PSAV a cargo de la SBS es compatible con los arts. 59 y 87 y da rango legal a lo que hoy está en normas reglamentarias. Deben corregirse la tipificación genérica de infracciones (legalidad sancionadora) y la exclusión de la masa concursal, que requiere modificar expresamente la Ley General del Sistema Concursal.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 9",
+    "problema": "'El incumplimiento de la presente ley constituye infracción' es una cláusula sancionadora en blanco. Vulnera el principio de legalidad y tipicidad (art. 2.24.d de la Constitución; TUO de la Ley 27444, art. 248, numerales 1 y 4): la ley debe describir al menos las conductas esenciales y las sanciones aplicables, y el reglamento solo puede especificarlas.",
+    "correccion": "Redactar el art. 9: 'Constituyen infracciones: a) operar sin inscripción (muy grave); b) utilizar activos de clientes sin autorización o incumplir la segregación (muy grave); c) incumplir los requisitos prudenciales (grave); d) omitir la información del artículo 6 (leve). Son aplicables las sanciones de amonestación, multa de hasta [n] UIT, suspensión y cancelación de la inscripción, graduadas por la SBS conforme al TUO de la Ley 27444.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 4",
+    "problema": "Declarar que los activos de clientes 'no forman parte de la masa concursal' altera el orden de prelación y el patrimonio afecto al concurso. Esa materia la regula la Ley 27809, Ley General del Sistema Concursal. Sin modificarla expresamente se genera una antinomia que resolverá caso por caso el juez o el Indecopi, con afectación de la seguridad jurídica.",
+    "correccion": "Añadir un artículo: 'Incorpórase en la Ley 27809 una disposición según la cual los activos virtuales y fondos de clientes mantenidos por PSAV inscritos, debidamente segregados, no integran el patrimonio del deudor sometido a concurso.' Citar la Ley 27809 en efecto_vigencia."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 2",
+    "problema": "Remite la definición de PSAV 'a la normativa de prevención de LA/FT vigente', que es de rango reglamentario y cambiante. La definición del sujeto regulado debe constar en la ley.",
+    "correccion": "Fijar la definición en la ley y eliminar 'conforme a la definición recogida en la normativa de prevención de LA/FT vigente'."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 27809, Ley General del Sistema Concursal (incorporar exclusión de activos segregados)"
+   ]
+  }
+ },
+ {
+  "id": "ECO-09",
+  "especialidad": "constitucional",
+  "veredicto": "conforme",
+  "resumen": "Sin reparos constitucionales: amplía alternativas voluntarias de financiamiento bajo la competencia de la SMV y excluye de la regulación prudencial las campañas de donación. Solo se observa técnica legislativa que afecta la seguridad jurídica.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículos 2 a 6 y efecto_vigencia",
+    "problema": "El título y el efecto_vigencia afirman que se 'modifica el Título del DU 013-2020', pero el articulado no indica qué artículos se modifican o incorporan. Las normas quedan como disposiciones sueltas fuera del cuerpo que regulan, con riesgo de antinomias.",
+    "correccion": "Redactar cada artículo como 'Incorpórase el artículo [n]-A en el Decreto de Urgencia 013-2020, con el texto siguiente: ...', previa verificación en SPIJ de la numeración vigente del título sobre financiamiento participativo financiero."
+   }
+  ]
+ },
+ {
+  "id": "ECO-10",
+  "especialidad": "constitucional",
+  "veredicto": "observaciones",
+  "resumen": "Desarrolla el mandato de defensa del consumidor (art. 65) con restricciones razonables a la libertad de empresa. La lista abierta de patrones oscuros ('entre otras') no es compatible con la tipicidad exigida para sancionar, y la responsabilidad solidaria de los mercados en línea debe acotarse.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 5",
+    "problema": "Prohíbe interfaces que 'manipulen o distorsionen' la decisión del consumidor y enumera prácticas 'entre otras'. Como base de sanciones del Indecopi, la cláusula abierta vulnera el principio de tipicidad (art. 2.24.d de la Constitución; TUO de la Ley 27444, art. 248.4), que exige que la conducta sancionable esté descrita de manera expresa e inequívoca.",
+    "correccion": "Redactar: 'Constituyen infracción las siguientes prácticas: a) ... e) ...' (lista cerrada), y añadir: 'El reglamento puede precisar otras conductas que, por su efecto equivalente, se subsumen en los literales anteriores.' Eliminar 'entre otras'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 7",
+    "problema": "La responsabilidad solidaria por no adoptar 'medidas razonables' tras una notificación es un estándar indeterminado y puede inducir la retirada preventiva de contenidos lícitos de terceros, con efecto sobre la libertad de expresión e información (art. 2.4).",
+    "correccion": "Precisar: 'medidas razonables, consistentes en suspender la oferta o identificar al vendedor ante el consumidor y el Indecopi, dentro de los cinco días hábiles siguientes a la notificación'."
+   }
+  ]
+ },
+ {
+  "id": "ECO-11",
+  "especialidad": "constitucional",
+  "veredicto": "observaciones_graves",
+  "resumen": "El piso de protección es compatible con los arts. 22-23 y 10, y el art. 2 preserva correctamente la primacía de la realidad. Pero el art. 5 crea una 'contribución adicional de la plataforma' a EsSalud cuya cuantía fija el reglamento. Es un tributo con fin predeterminado creado por iniciativa no ejecutiva (art. 79) y con alícuota deslegalizada (art. 74).",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 5",
+    "problema": "Las aportaciones a EsSalud son tributos (contribuciones) con destino predeterminado. El art. 5 crea una 'contribución adicional de la plataforma que fije el reglamento'. Esto vulnera: (i) la reserva de ley tributaria (art. 74), porque la ley no fija la alícuota ni límites y la delega íntegramente al reglamento; (ii) el art. 79, porque el Congreso no puede aprobar tributos con fines predeterminados salvo a solicitud del Ejecutivo; y (iii) la exclusión de la materia tributaria de la iniciativa ciudadana (Ley 26300, art. 12).",
+    "correccion": "Suprimir la 'contribución adicional de la plataforma'. Redactar el art. 5: 'La plataforma, a solicitud de la persona prestadora, actúa como agente de retención de los aportes que esta efectúe como afiliado potestativo o regular a EsSalud conforme a la Ley 26790 y su reglamento, y los entrega en los plazos y forma que establezca la SUNAT.' Cualquier aporte a cargo de la plataforma debe proponerse por el Poder Ejecutivo, con tasa fijada en la ley."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 9",
+    "problema": "Atribuye a SUNAFIL la fiscalización de obligaciones (registro, seguro, transparencia, desactivación) respecto de personas cuya relación puede no ser laboral. La competencia de SUNAFIL (Ley 29981) recae sobre el cumplimiento del ordenamiento sociolaboral. Sin habilitación ni tipificación expresas, las infracciones carecen de base legal (art. 2.24.d; TUO de la Ley 27444, art. 248).",
+    "correccion": "Añadir: 'Modifícase la Ley 28806, Ley General de Inspección del Trabajo, para incorporar como materia sujeta a inspección el cumplimiento de la presente ley.' Tipificar en la ley las infracciones: omisión del registro (leve), del seguro (muy grave), de la información del art. 6 y de la motivación del art. 7 (grave)."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Disposición Complementaria Final Segunda",
+    "problema": "El Convenio sobre el trabajo decente en la economía de plataformas fue adoptado por la 114.ª Conferencia Internacional del Trabajo (12-jun-2026). Su número (193) solo pudo confirmarse en fuentes secundarias. Además, la ratificación de tratados sobre derechos humanos requiere aprobación del Congreso (art. 56).",
+    "correccion": "Redactar: '... un informe sobre la ratificación del Convenio sobre el trabajo decente en la economía de plataformas, 2026, de la OIT, a efectos de su eventual sometimiento al Congreso conforme al artículo 56 de la Constitución.' Verificar el número en NORMLEX antes de citarlo."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 28806, Ley General de Inspección del Trabajo (materias inspeccionables)"
+   ],
+   "entidades_implicadas": [
+    "SUNAT — administra aportes de EsSalud"
+   ]
+  }
+ },
+ {
+  "id": "ECO-12",
+  "especialidad": "constitucional",
+  "veredicto": "observaciones",
+  "resumen": "No crea exoneraciones, pero modifica el TUO de la Ley del IGV y el procedimiento de devolución: es materia tributaria, sujeta a reserva de ley (art. 74) y excluida de la iniciativa ciudadana. La disposición que ordena 'solicitar el informe previo del MEF antes de la aprobación' no es una norma jurídica.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Disposición Complementaria Final Segunda",
+    "problema": "Una disposición de la ley que ordena pedir un informe 'antes de la aprobación de la presente ley' carece de eficacia normativa, porque solo rige una vez aprobada. El informe previo del MEF del art. 79 es un requisito del procedimiento legislativo y debe constar en el expediente, no en el texto.",
+    "correccion": "Suprimir la Segunda DCF y trasladar su contenido al campo costo_beneficio o a la exposición de motivos: 'Se requiere informe previo del MEF por tratarse de materia tributaria con posible efecto recaudatorio (art. 79 de la Constitución).' Precisar en la ficha que la propuesta debe canalizarse por un grupo parlamentario o por el Ejecutivo, no por iniciativa ciudadana (Ley 26300, art. 12)."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 2",
+    "problema": "La presunción de que el aprovechamiento ocurre en el extranjero 'salvo prueba en contrario' define un elemento del hecho imponible (lugar de consumo) y debe fijarse en la ley con criterios precisos. Remitir al reglamento 'los documentos que sustentan esta presunción' es válido solo para aspectos probatorios, no para delimitar su alcance (art. 74; Norma IV del Título Preliminar del Código Tributario).",
+    "correccion": "Precisar en la ley: '... servicios ... comprendidos en el numeral [n] del Apéndice V del TUO de la Ley del IGV e ISC ...' y fijar que 'la presunción no aplica cuando el servicio se preste a un sujeto vinculado domiciliado o se utilice en el país'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 4",
+    "problema": "La verificación posterior a la devolución exige un mecanismo de recuperación con intereses en caso de devolución indebida. Así lo pide la protección del interés fiscal (art. 74, deber de contribuir).",
+    "correccion": "Añadir: 'Las devoluciones indebidas se recuperan con los intereses previstos en el artículo 38 del TUO del Código Tributario, sin perjuicio de las sanciones.'"
+   }
+  ]
+ },
+ {
+  "id": "ECO-13",
+  "especialidad": "constitucional",
+  "veredicto": "observaciones",
+  "resumen": "Compatible con la libertad de empresa y el fomento de la ciencia (art. 14). Remite correctamente cualquier beneficio tributario a una ley específica con informe del MEF. Debe acotarse la cesión gratuita de inmuebles públicos a entidades privadas con fines de lucro (arts. 73 y 195).",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 6",
+    "problema": "Autoriza a universidades públicas y gobiernos regionales y locales a ceder inmuebles 'a título gratuito' para parques gestionados por entidades que pueden ser privadas con fines de lucro. La disposición gratuita de bienes estatales a favor de privados lucrativos carece de justificación de interés público y puede infringir el régimen de bienes estatales (TUO de la Ley 29151) y la inalienabilidad de los bienes de dominio público (art. 73).",
+    "correccion": "Redactar: '... a título oneroso; o a título gratuito solo cuando la entidad gestora sea sin fines de lucro o la propia universidad pública, por plazo determinado y con reversión automática si se desnaturaliza la finalidad. No procede respecto de bienes de dominio público. Se aplica la normativa del Sistema Nacional de Abastecimiento y del TUO de la Ley 29151.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 9",
+    "problema": "La cancelación de la inscripción por incumplimiento es un acto de gravamen que exige procedimiento con derecho de defensa (art. 139.14 aplicado al ámbito administrativo; TUO de la Ley 27444, art. IV).",
+    "correccion": "Añadir: '... previo procedimiento en el que se otorgue al administrado un plazo no menor de diez días hábiles para formular descargos.'"
+   }
+  ]
+ },
+ {
+  "id": "ECO-14",
+  "especialidad": "constitucional",
+  "veredicto": "observaciones",
+  "resumen": "Mecanismo útil y sin gasto. El punto sensible es la excepción a la reserva tributaria del art. 4: la Constitución (art. 2.5) solo permite levantarla a pedido del juez, del Fiscal de la Nación o de una comisión investigadora. La publicación de indicadores por contribuyente con nombre requiere una base distinta de la información tributaria.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 4",
+    "problema": "Crea una excepción legal a la reserva tributaria para publicar el plazo promedio de pago de cada principal contribuyente. La reserva tributaria tiene rango constitucional (art. 2.5, segundo párrafo) y solo puede levantarse a pedido del juez, del Fiscal de la Nación o de una comisión investigadora del Congreso. Publicar indicadores individualizados construidos con datos de comprobantes y gastos de un contribuyente identificado puede exceder ese marco.",
+    "correccion": "Desvincular la fuente: 'La información de conformidad y fecha de pago que los adquirentes registran conforme a los artículos 2 y 3 de la presente ley tiene por finalidad el cumplimiento de la Ley 31362 y no constituye información de la cuantía o fuente de rentas, gastos o base imponible protegida por el artículo 85 del TUO del Código Tributario. El Ministerio de la Producción publica los indicadores agregados por adquirente.' Suprimir la modificación del art. 85."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 2",
+    "problema": "La conformidad presunta ya está regulada en la Ley 29623. Reiterarla en otra ley con una redacción distinta genera riesgo de antinomia.",
+    "correccion": "Redactar el art. 2 como modificación puntual del artículo pertinente de la Ley 29623 (verificar su numeración en SPIJ), incorporando el registro a través del sistema de la SUNAT."
+   }
+  ]
+ },
+ {
+  "id": "TAL-01",
+  "especialidad": "constitucional",
+  "veredicto": "observaciones",
+  "resumen": "Desarrolla el deber estatal de fomentar la educación científica y tecnológica (arts. 13, 14 y 16) y respeta la gradualidad presupuestaria. Debe corregirse el art. 7, que impone contenidos a los planes de estudio de las facultades de educación universitarias y afecta la autonomía académica (art. 18).",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 7",
+    "problema": "Ordena a 'las facultades de educación' incorporar contenidos en sus planes de estudio 'conforme a los lineamientos que apruebe el Ministerio de Educación'. Las universidades gozan de autonomía académica y normativa (art. 18 de la Constitución; Ley 30220, art. 8), que comprende la fijación de sus planes de estudio. El Ministerio no puede imponer contenidos curriculares universitarios por lineamientos.",
+    "correccion": "Separar los supuestos: 'Las escuelas de educación superior pedagógica incorporan ... conforme a los lineamientos del Ministerio de Educación (Ley 30512). Las universidades, en ejercicio de su autonomía, pueden incorporar dichos contenidos en los programas de formación docente; la SUNEDU considera su incorporación como buena práctica.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 2 y Artículo 4",
+    "problema": "La aplicación a la Educación Básica Intercultural Bilingüe debe garantizar la pertinencia cultural y lingüística (arts. 17 y 48; Convenio 169 OIT, arts. 27-28).",
+    "correccion": "Añadir en 4.3: 'En las instituciones de Educación Intercultural Bilingüe, los aprendizajes se adecúan a la lengua originaria y al contexto cultural, conforme a la Ley 29735 y a la política de EIB.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Disposición Complementaria Final Tercera",
+    "problema": "Con la bicameralidad (Ley 31988), 'la comisión ordinaria competente' es ambigua.",
+    "correccion": "Sustituir por 'a las comisiones ordinarias competentes en materia de educación de la Cámara de Diputados y del Senado'."
+   }
+  ]
+ },
+ {
+  "id": "TAL-02",
+  "especialidad": "constitucional",
+  "veredicto": "observaciones",
+  "resumen": "Objetivos compatibles con los arts. 4 (protección del anciano), 2.2 (igualdad) y 59 (promoción de la pequeña empresa). El art. 3 'crea' un programa nacional, lo que por el art. 38 de la LOPE corresponde a decreto supremo con voto del Consejo de Ministros, e implica iniciativa de gasto (art. 79; STC 00018-2023-PI/TC).",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3.1",
+    "problema": "'Créase el Programa Nacional de Alfabetización Digital Inclusiva'. Según el numeral 38.1 del art. 38 de la Ley 29158 (LOPE), los programas se crean en el ámbito del Poder Ejecutivo por decreto supremo con voto aprobatorio del Consejo de Ministros. Crear un programa nacional por iniciativa parlamentaria invade esa potestad organizativa (art. 118, inc. 8 y 17) y genera gasto estructural, contrario a la preeminencia del Ejecutivo fijada en la STC 00018-2023-PI/TC (Sentencia 158/2026).",
+    "correccion": "Redactar el 3.1: 'El Ministerio de la Mujer y Poblaciones Vulnerables y el Ministerio de la Producción, en el marco de sus programas y servicios existentes, implementan la Estrategia de Alfabetización Digital Inclusiva ...'. Eliminar 'Créase'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 7",
+    "problema": "El canal presencial alternativo es una garantía de igualdad material (art. 2.2) frente a la brecha digital. Conviene extenderlo expresamente a personas con discapacidad y a quienes no dominan el castellano, como desarrollo de los arts. 7 y 48.",
+    "correccion": "Añadir: '... y para personas con discapacidad o cuya lengua materna sea una lengua originaria, conforme a la Ley 29735.'"
+   }
+  ]
+ },
+ {
+  "id": "TAL-03",
+  "especialidad": "constitucional",
+  "veredicto": "observaciones",
+  "resumen": "Reorientar becas hacia STEM y fijar acciones afirmativas es compatible con la igualdad material (art. 2.2) y con el art. 14. Pero el texto cita la Ley 28303, que está derogada, y usa la denominación anterior del CONCYTEC. Además, el título 'crea' un programa que el articulado no crea, y las consecuencias del incumplimiento de la retribución deben fijarse en la ley.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "efecto_vigencia",
+    "problema": "Afirma que la propuesta se articula con la Ley 28303. Esa ley fue derogada por la Disposición Complementaria Derogatoria Única, literal a), de la Ley 31250 (SINACTI).",
+    "correccion": "Reemplazar 'la Ley 28303' por 'la Ley 31250, Ley del Sistema Nacional de Ciencia, Tecnología e Innovación'."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 2.2",
+    "problema": "Denomina al CONCYTEC 'Consejo Nacional de Ciencia, Tecnología e Innovación Tecnológica', nombre de la derogada Ley 28613. La Ley 31250 lo denomina 'Consejo Nacional de Ciencia, Tecnología e Innovación (Concytec)'.",
+    "correccion": "Sustituir por 'el Consejo Nacional de Ciencia, Tecnología e Innovación (CONCYTEC)'. Verificar también la denominación vigente del registro de investigadores citado en el art. 6.1.b."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 4.2",
+    "problema": "Delega al reglamento 'las consecuencias del incumplimiento' del compromiso de retribución. Si comprenden obligaciones de reembolso, intereses o inhabilitaciones para nuevas becas, afectan el patrimonio y la libertad de trabajo (arts. 2.15 y 59) y requieren base legal mínima; las sanciones están sujetas a reserva de ley (art. 2.24.d).",
+    "correccion": "Redactar el 4.2: 'El incumplimiento obliga a restituir el monto de la beca, actualizado, en proporción al periodo no cumplido, y a la inhabilitación para postular a becas del PRONABEC por cinco años. El reglamento establece las modalidades de cumplimiento, incluida la retribución remota o mixta, y las causales eximentes.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Título y Artículo 1",
+    "problema": "El título y el objeto 'crean' un programa, pero el articulado solo prioriza becas dentro del PRONABEC. Crear un programa correspondería al Ejecutivo (LOPE, art. 38).",
+    "correccion": "Cambiar el título a 'Ley que prioriza las becas STEM y promueve el retorno de talento científico y tecnológico' y el art. 1 en el mismo sentido."
+   }
+  ]
+ },
+ {
+  "id": "TAL-04",
+  "especialidad": "constitucional",
+  "veredicto": "conforme",
+  "resumen": "Régimen voluntario de certificación que respeta la autonomía de las instituciones formativas (convalidación facultativa) y financia la evaluación con tasas del TUPA, sin gasto nuevo. No se advierten vicios constitucionales.",
+  "hallazgos": []
+ },
+ {
+  "id": "TAL-05",
+  "especialidad": "constitucional",
+  "veredicto": "observaciones",
+  "resumen": "Las medidas de igualdad material (art. 2.2) y de acción positiva en concursos públicos son constitucionalmente admisibles por ser temporales, razonables y orientadas a corregir una brecha medible. Debe corregirse la cita de la Ley 28303, que está derogada, y evitar duplicar el régimen de hostigamiento sexual.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "efecto_vigencia",
+    "problema": "Dice complementar la Ley 28303, derogada por la Disposición Complementaria Derogatoria Única, literal a), de la Ley 31250.",
+    "correccion": "Reemplazar 'la Ley 28303' por 'la Ley 31250, Ley del Sistema Nacional de Ciencia, Tecnología e Innovación'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 5",
+    "problema": "La obligación de adoptar protocolos contra el hostigamiento sexual en universidades e institutos ya existe en la Ley 27942 y su reglamento. Reiterarla sin remisión genera duplicidad normativa.",
+    "correccion": "Redactar: 'Las universidades e institutos con programas STEM incluyen en los protocolos exigidos por la Ley 27942 y su reglamento supuestos específicos de laboratorios, prácticas y trabajo de campo, y reportan anualmente ...'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 4",
+    "problema": "Los 'criterios de equidad de género' en la evaluación son una acción afirmativa. Para respetar el principio de igualdad (art. 2.2), deben ser temporales y revisables según la evolución de la brecha.",
+    "correccion": "Añadir: 'Estas medidas se revisan cada cinco años sobre la base del reporte del artículo 7 y se mantienen mientras persista la brecha.'"
+   }
+  ]
+ },
+ {
+  "id": "TAL-06",
+  "especialidad": "constitucional",
+  "veredicto": "observaciones",
+  "resumen": "Desarrolla el derecho a la salud (art. 7) y la autodeterminación informativa (art. 2.6), y cita correctamente las restricciones de uso del art. 3 de la Ley 31750. El reparo es fiscal: fija plazos obligatorios de implementación para todos los establecimientos públicos, incluidos los regionales, con costo fiscal 'medio', lo que equivale a mandato de gasto (art. 79; STC 00018-2023-PI/TC) y afecta la autonomía presupuestaria regional (art. 192).",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3 y Artículo 9",
+    "problema": "Impone plazos perentorios (tres y cinco años) de implementación de HCE en establecimientos públicos de todos los niveles, cuyo costo (equipamiento, conectividad, personal) la propia propuesta califica de 'medio'. Según la STC 00018-2023-PI/TC (Sentencia 158/2026, fundamentos 113-118), la iniciativa no ejecutiva no puede generar gasto que 'impacte hacia el futuro' sin fuente de financiamiento identificada e informe previo de sostenibilidad fiscal. La fórmula 'sin demandar recursos adicionales' es inconsistente con un costo medio declarado.",
+    "correccion": "Redactar el 3.1: 'Los establecimientos ... implementan la historia clínica electrónica ... conforme al cronograma que apruebe el Ministerio de Salud con opinión del Ministerio de Economía y Finanzas, en el marco de la programación multianual, con meta indicativa de tres años para el segundo y tercer nivel.' Identificar en costo_beneficio la fuente concreta (p. ej. programas presupuestales de salud existentes) y recabar el informe del MEF antes del dictamen."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 4",
+    "problema": "El derecho de acceso y descarga debe extenderse expresamente al representante legal y contemplar el acceso por personas con discapacidad y sin acceso digital, para no generar discriminación (art. 2.2).",
+    "correccion": "Añadir: '... por sí o mediante su representante legal, y por medios presenciales en el establecimiento cuando no disponga de acceso digital.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Disposición Complementaria Final Segunda",
+    "problema": "Con la bicameralidad (Ley 31988), 'la comisión ordinaria competente' es ambigua.",
+    "correccion": "Sustituir por 'a las comisiones ordinarias competentes en materia de salud de la Cámara de Diputados y del Senado'."
+   }
+  ]
+ },
+ {
+  "id": "TAL-07",
+  "especialidad": "constitucional",
+  "veredicto": "conforme",
+  "resumen": "La obligación de aceptar recetas electrónicas es una limitación proporcional a la libertad de empresa (art. 59), con gradualidad y orientada a la salud (art. 7) y a la protección del consumidor (art. 65). La prohibición de inducción comercial protege la libre elección. Sin vicios constitucionales.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 8",
+    "problema": "La supervisión de DIGEMID y SUSALUD no se acompaña de remisión al régimen de infracciones aplicable, necesaria para que el incumplimiento de los arts. 4 y 7 sea sancionable (principio de tipicidad).",
+    "correccion": "Añadir: 'El incumplimiento de los artículos 4 y 7 constituye infracción sancionable conforme a la Ley 29459, Ley de los Productos Farmacéuticos, Dispositivos Médicos y Productos Sanitarios, y a la normativa de SUSALUD, según corresponda.'"
+   }
+  ]
+ },
+ {
+  "id": "TAL-08",
+  "especialidad": "constitucional",
+  "veredicto": "observaciones",
+  "resumen": "La apertura por defecto de datos públicos desarrolla el derecho de acceso a la información (art. 2.5), y sus excepciones están bien formuladas. El art. 7 declara una 'titularidad' de datos no personales que el ordenamiento no define y que, aplicada a contratos vigentes, afectaría la libertad contractual (art. 62).",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 7",
+    "problema": "Declara que los datos generados por productores 'son de su titularidad'. El ordenamiento peruano no regula un derecho de propiedad sobre datos no personales; la Ley 29733 protege solo datos de personas naturales. La declaración genérica crea incertidumbre sobre su contenido (exclusividad, cesibilidad) y, si se aplica a contratos agtech ya celebrados, contraviene el art. 62.",
+    "correccion": "Redactar: 'Los productores agrarios tienen derecho a acceder, sin costo, a los datos generados por su actividad mediante servicios digitales, y a obtenerlos en formato estructurado para trasladarlos a otro proveedor. Los proveedores informan de manera clara el uso de dichos datos. La presente disposición se aplica a los contratos celebrados o renovados desde su vigencia, sin perjuicio de la Ley 29733.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 4",
+    "problema": "Las excepciones deben remitir al régimen taxativo del TUO de la Ley 27806 para no crear un régimen paralelo de excepciones al art. 2.5.",
+    "correccion": "Redactar: 'Solo se exceptúa la información comprendida en los artículos 15, 16 y 17 del TUO de la Ley 27806 y los datos personales protegidos por la Ley 29733.'"
+   }
+  ]
+ },
+ {
+  "id": "TAL-09",
+  "especialidad": "constitucional",
+  "veredicto": "observaciones",
+  "resumen": "Concreta el derecho a un ambiente equilibrado (art. 2.22), el deber de preservación (arts. 66-67) y el acceso a la información ambiental. Las obligaciones de monitoreo continuo a cargo del titular son limitaciones proporcionales a la libertad de empresa. Conviene blindarla frente a alegaciones de los contratos de estabilidad (art. 62) y articular la participación de comunidades.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3 y Disposición Complementaria Final Tercera",
+    "problema": "Titulares con contratos de estabilidad (TUO de la Ley General de Minería, DS 014-92-EM) pueden alegar que nuevas obligaciones con costo vulneran sus garantías contractuales (art. 62). Las obligaciones ambientales derivan del deber de preservación (arts. 2.22 y 67) y no integran las garantías tributarias, cambiarias y administrativas estabilizadas, pero la ley no lo explicita.",
+    "correccion": "Añadir al art. 3: '3.3 Las obligaciones de la presente ley son de naturaleza ambiental, no constituyen tributo ni modifican el régimen garantizado por los convenios de estabilidad suscritos al amparo del Texto Único Ordenado de la Ley General de Minería, y son exigibles a todos los titulares conforme a la Ley 28611.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 6",
+    "problema": "En áreas de influencia con comunidades campesinas o nativas, el acceso a datos y la capacitación deben ser culturalmente pertinentes (art. 89; Convenio 169 OIT, art. 7.3 sobre estudios de impacto con participación de los pueblos).",
+    "correccion": "Añadir: 'En el área de influencia de comunidades campesinas y nativas, la información y capacitación se brindan en su lengua y con pertinencia cultural, y las comunidades pueden designar representantes ante los comités de monitoreo.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 4",
+    "problema": "Publicar datos 'aún no validados' que indiquen superación de LMP puede afectar el honor y la reputación del titular (art. 2.7) si luego resultan erróneos.",
+    "correccion": "Añadir: 'Los datos no validados se publican con advertencia visible y se corrigen en la plataforma dentro de los cinco días hábiles siguientes a su validación.'"
+   }
+  ]
+ },
+ {
+  "id": "TAL-10",
+  "especialidad": "constitucional",
+  "veredicto": "observaciones",
+  "resumen": "Fortalece el deber estatal de protección de la población (art. 44) y la articula correctamente con el SISMATE (Ley 30472) y la Ley 31814. Los reparos son la imposición de gasto a gobiernos regionales y locales (arts. 192 y 195; art. 79) y el riesgo de duplicar estructuras de alerta ya previstas en el SINAGERD.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 6",
+    "problema": "Ordena a gobiernos regionales y locales 'implementar' sistemas comunitarios con equipos, sirenas y brigadas. Impone gasto a niveles de gobierno con autonomía presupuestaria (arts. 192 y 195) e incrementa el gasto público por iniciativa no ejecutiva, contra la preeminencia del Ejecutivo reafirmada en la STC 00018-2023-PI/TC.",
+    "correccion": "Redactar: 'Los gobiernos regionales y locales, en el marco de sus planes de gestión del riesgo y con cargo a su presupuesto institucional, incluidos los recursos del programa presupuestal de reducción de la vulnerabilidad y atención de emergencias por desastres, priorizan la implementación de sistemas comunitarios de alerta temprana ...'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 2",
+    "problema": "Crea un 'Sistema Nacional de Alerta Temprana Multiamenaza' dentro del SINAGERD sin precisar su relación con la red de alerta temprana prevista en el reglamento de la Ley 29664 (DS 048-2011-PCM). Esa red no se ha verificado en esta revisión, pero de existir habría dos estructuras para la misma función.",
+    "correccion": "Verificar en SPIJ el reglamento de la Ley 29664 y, de existir la red, redactar: 'Fortalécese la Red Nacional de Alerta Temprana del SINAGERD como sistema multiamenaza, integrada por ...'. Precisar que el ente rector es la PCM conforme a la Ley 29664."
+   }
+  ]
+ },
+ {
+  "id": "TAL-11",
+  "especialidad": "constitucional",
+  "veredicto": "conforme",
+  "resumen": "Modifica la Ley 30900 dentro de las competencias de la ATU. Respeta expresamente los contratos de concesión vigentes (art. 62) y garantiza un medio de pago anónimo, una salvaguarda adecuada de la intimidad (art. 2.6-2.7) frente al perfilamiento de desplazamientos. Sin vicios constitucionales.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "ubicacion": "Disposición Complementaria Final Tercera",
+    "problema": "La facultad de las municipalidades provinciales de adoptar los estándares es coherente con su competencia en transporte colectivo (art. 195, inc. 8). Conviene explicitar que no es una imposición, para descartar cualquier lectura contraria a la autonomía municipal.",
+    "correccion": "Añadir: '... en ejercicio de su autonomía y competencias en materia de transporte colectivo.'"
+   }
+  ]
+ },
+ {
+  "id": "TAL-12",
+  "especialidad": "constitucional",
+  "veredicto": "observaciones",
+  "resumen": "El derecho a la reparación desarrolla la protección del consumidor (art. 65) y el deber de preservar el ambiente (art. 67). Las obligaciones sobre software y manuales pueden colisionar con la propiedad intelectual protegida por el art. 2.8, con las medidas tecnológicas de protección (DL 822) y con compromisos comerciales internacionales. Deben modularse.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 5 y Artículo 4",
+    "problema": "Prohibir el 'bloqueo por software' y obligar a entregar herramientas y manuales afecta derechos de propiedad intelectual (art. 2.8; Decisiones 351 y 486 de la CAN, de aplicación preferente), el régimen de medidas tecnológicas de protección del DL 822 y los secretos empresariales. Sin una cláusula de compatibilidad, la ley puede ser inaplicada por contradecir normas supranacionales o generar responsabilidad internacional del Estado.",
+    "correccion": "Añadir al art. 5: 'Lo dispuesto no obliga a divulgar secretos empresariales ni a eludir medidas tecnológicas de protección amparadas por el Decreto Legislativo 822 y la normativa andina; se cumple mediante la habilitación, por el productor, de repuestos y herramientas de diagnóstico autorizadas en condiciones no discriminatorias.' Solicitar opinión del INDECOPI (Dirección de Derecho de Autor y de Invenciones) y del MINCETUR sobre los compromisos de propiedad intelectual en los acuerdos comerciales vigentes."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 4",
+    "problema": "Exigir a importadores y comercializadores, que no son titulares del diseño, la entrega de manuales y herramientas especializadas puede ser una carga de imposible cumplimiento y desproporcionada (art. 59).",
+    "correccion": "Precisar: 'Los importadores cumplen esta obligación gestionando con el productor la disponibilidad de repuestos y manuales o informando al consumidor, conforme al art. 3, la inexistencia de dicha disponibilidad.'"
+   }
+  ]
+ },
+ {
+  "id": "TAL-13",
+  "especialidad": "constitucional",
+  "veredicto": "observaciones",
+  "resumen": "Desarrolla la igualdad material y la protección de las personas con discapacidad (arts. 2.2 y 7), en línea con la Convención sobre los Derechos de las Personas con Discapacidad (art. 9). Debe corregirse la base sancionadora frente a privados, que no tipifica infracciones, y la remisión dinámica a un estándar extranjero no publicado oficialmente.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 8",
+    "problema": "Somete a las empresas a la 'potestad sancionadora de CONADIS conforme a la Ley 29973', pero las infracciones de esa ley no comprenden las nuevas obligaciones de accesibilidad digital. Sin tipificación legal expresa, no cabe sancionar (art. 2.24.d; TUO de la Ley 27444, art. 248.4).",
+    "correccion": "Añadir: 'Incorpórase en el artículo de infracciones de la Ley 29973 [verificar numeración en SPIJ] como infracción grave el incumplimiento, por las empresas obligadas, del estándar de accesibilidad digital y de la declaración de accesibilidad establecidos en la Ley [n].'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3",
+    "problema": "Remite a la WCAG 'en su versión vigente', un estándar privado extranjero que cambia sin publicación oficial en el Perú. Una obligación sancionable debe ser cognoscible y publicada (arts. 51 y 109), y la remisión dinámica traslada a un tercero la definición del contenido de la obligación.",
+    "correccion": "Redactar: '... el nivel AA de las Pautas de Accesibilidad para el Contenido Web (WCAG) 2.2, o la norma técnica peruana que la adopte o actualice el INACAL, publicada en el diario oficial.'"
+   }
+  ]
+ },
+ {
+  "id": "TAL-14",
+  "especialidad": "constitucional",
+  "veredicto": "observaciones",
+  "resumen": "Compatible con el interés superior del niño (art. 4), el derecho a la educación (arts. 13-14) y el rol de los padres (art. 13). Los reparos son formales: verificar la numeración de la Ley 32385 antes de incorporar un art. 6, y no ordenar a gobiernos regionales un gasto sin fuente.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 4 y Artículo 8",
+    "problema": "Incorpora un 'artículo 6' a la Ley 32385 y remite a su 'artículo 5' sobre protocolos. En esta revisión no se pudo confirmar en una fuente oficial la estructura de la ley (número de artículos y contenido del art. 5). Si la numeración no coincide, la modificación es inaplicable o sobrescribe un artículo existente.",
+    "correccion": "Verificar en SPIJ o El Peruano el texto de la Ley 32385. Si ya existe un art. 6, usar 'Incorpórase el artículo 5-A ...'. Ajustar la remisión del art. 8 al artículo que efectivamente regula los protocolos."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 3",
+    "problema": "Los contenidos sobre privacidad y huella digital deben respetar el derecho de los padres a participar en el proceso educativo (art. 13) y la pertinencia intercultural (art. 17).",
+    "correccion": "Añadir: 'Los contenidos se desarrollan con participación de las asociaciones de padres de familia y se adecúan a la Educación Intercultural Bilingüe.'"
+   }
+  ]
+ }
+]

@@ -45,7 +45,7 @@ propuestas no tienen `revision_atendida` NO se publican salvo `--borradores`.
 0b. [ ] **Vacíos de la Visión 2036** (`data/prioridad.json` → vacios, 30): convertir los más votados por los lentes en
    nuevas propuestas (régimen tributario MYPE único, calidad regulatoria/AIR, energía para conectividad rural,
    flujos transfronterizos de datos/adecuación UE, Oficina de Evaluación Tecnológica del Congreso, etc.).
-1. [ ] **Ejes nuevos SOB (soberanía tecnológica e industria 4.0, 8) y DER (justicia y derechos digitales, 8)** →
+1. [x] **(HECHO 22-oct: 100 propuestas publicadas)** Ejes nuevos SOB (soberanía tecnológica e industria 4.0, 8) y DER (justicia y derechos digitales, 8)** →
    llegar a 100 propuestas. Los redactores ya escribieron (ambos borradores están en el repo) `data/propuestas/sober.json` y
    `data/propuestas/derechos.json` con campos v2 y `revision_atendida: []`. Falta: (a) revisión con las 5 especialidades
    siguiendo REVISION.md → `data/revision/<especialidad>_C.json`; (b) editor por eje que aplique hallazgos y llene

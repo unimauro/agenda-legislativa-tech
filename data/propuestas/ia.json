@@ -1,0 +1,2002 @@
+[
+ {
+  "id": "IA-01",
+  "eje": "ia",
+  "titulo": "Ley que crea el Registro Nacional de Algoritmos Públicos y dispone la publicidad de las evaluaciones de impacto de los sistemas de inteligencia artificial del Estado",
+  "titulo_corto": "Registro público de algoritmos",
+  "sumilla": "Obliga a toda entidad pública a inscribir en un registro abierto, antes de su puesta en producción, los sistemas de inteligencia artificial y de decisión automatizada que utiliza, y a publicar el resumen de su evaluación de impacto algorítmico.",
+  "problema": "La Ley 31814 encarga a la PCM, a través de la Secretaría de Gobierno y Transformación Digital (SGTD), la rectoría en IA, y su Reglamento (D.S. 115-2025-PCM) obliga a las entidades públicas a realizar una evaluación de impacto previa para sistemas de riesgo alto (art. 30.1) y a explicar resultados a las personas afectadas (art. 25.3). Sin embargo, el Reglamento no crea un catálogo centralizado y público de los sistemas que el Estado ya utiliza: solo prevé su inclusión en el Plan de Gobierno Digital de cada entidad y la publicación de código fuente financiado con fondos públicos (art. 28.8). La ENIA 2026–2030 (R.M. 152-2026-PCM) crea el «Catálogo IA Perú» como plataforma colaborativa de modelos y datos, pero no como instrumento de rendición de cuentas. En consecuencia, la ciudadanía, la prensa, la Contraloría y el propio Congreso no pueden saber qué algoritmos intervienen en la asignación de programas sociales, fiscalización tributaria, selección de personal o priorización de servicios, todos ellos supuestos que el Reglamento califica como de riesgo alto (art. 24.1). Países como Países Bajos, Reino Unido, Chile y Canadá ya operan registros o estándares públicos de transparencia algorítmica. El Plan IA Perú 2050 (CIP/CNPP) fija como meta la «implementación efectiva de la Ley 31814» con supervisión operativa al 2030, lo que exige información pública verificable.",
+  "objeto": "Crear el Registro Nacional de Algoritmos Públicos, de acceso abierto, y establecer la obligación de las entidades públicas de inscribir sus sistemas de IA y de decisión automatizada y publicar el resumen de su evaluación de impacto algorítmico.",
+  "articulado": [
+   {
+    "n": "Artículo 1",
+    "titulo": "Objeto",
+    "texto": "La presente ley tiene por objeto crear el Registro Nacional de Algoritmos Públicos y establecer la obligación de las entidades de la Administración Pública de inscribir en él los sistemas basados en inteligencia artificial y los sistemas de decisión automatizada que utilizan, así como de publicar el resumen de la evaluación de impacto algorítmico correspondiente, en desarrollo de los principios de transparencia y enfoque basado en riesgos de la Ley 31814."
+   },
+   {
+    "n": "Artículo 2",
+    "titulo": "Ámbito de aplicación",
+    "texto": "2.1. La presente ley es de aplicación a las entidades comprendidas en el artículo I del Título Preliminar del Texto Único Ordenado de la Ley 27444, Ley del Procedimiento Administrativo General, a las empresas del Estado y a los organismos constitucionalmente autónomos.\n2.2. Se exceptúa la información cuya publicidad se encuentre restringida conforme a los artículos 15, 16 y 17 del Texto Único Ordenado de la Ley 27806, Ley de Transparencia y Acceso a la Información Pública, lo que debe ser motivado en la ficha de inscripción, sin que ello exima de inscribir la existencia del sistema."
+   },
+   {
+    "n": "Artículo 3",
+    "titulo": "Definiciones",
+    "texto": "Para efectos de la presente ley se entiende por:\na) Sistema de decisión automatizada: sistema basado en inteligencia artificial o en reglas programadas que adopta, propone o condiciona de manera determinante una decisión administrativa que produce efectos sobre personas naturales o jurídicas.\nb) Evaluación de impacto algorítmico: análisis documentado, previo a la puesta en producción y actualizado periódicamente, de los riesgos para los derechos fundamentales, la igualdad y la no discriminación, la privacidad y la seguridad, y de las medidas de mitigación adoptadas.\nc) Ficha de inscripción: formato estandarizado que contiene la información mínima prevista en el artículo 5."
+   },
+   {
+    "n": "Artículo 4",
+    "titulo": "Creación y administración del Registro",
+    "texto": "4.1. Créase el Registro Nacional de Algoritmos Públicos, a cargo de la Presidencia del Consejo de Ministros a través de la Secretaría de Gobierno y Transformación Digital, como plataforma digital de acceso libre y gratuito, en formato abierto y legible por máquina.\n4.2. El Registro se integra a la Plataforma Nacional de Datos Abiertos y se interopera con el Catálogo IA Perú previsto en la Estrategia Nacional de Inteligencia Artificial."
+   },
+   {
+    "n": "Artículo 5",
+    "titulo": "Contenido mínimo de la ficha de inscripción",
+    "texto": "La ficha de inscripción contiene, como mínimo: a) entidad responsable y unidad orgánica usuaria; b) finalidad y procedimiento administrativo en que interviene el sistema; c) nivel de riesgo conforme al Reglamento de la Ley 31814; d) categorías de datos utilizados y su origen; e) descripción comprensible de la lógica de funcionamiento y de las variables de mayor peso; f) proveedor y modalidad de adquisición o desarrollo; g) mecanismo de supervisión humana; h) métricas de desempeño y de sesgo evaluadas; i) resumen de la evaluación de impacto algorítmico; j) canal para solicitar explicación o revisión; y k) fecha de puesta en producción y de última actualización."
+   },
+   {
+    "n": "Artículo 6",
+    "titulo": "Oportunidad de la inscripción",
+    "texto": "6.1. La inscripción es previa a la puesta en producción del sistema. Ningún sistema de riesgo alto puede ser utilizado para adoptar decisiones sobre personas sin contar con inscripción vigente.\n6.2. Las entidades actualizan la ficha ante cualquier cambio sustancial del sistema y, en todo caso, una vez al año.\n6.3. La baja o retiro de un sistema también se registra, conservándose el historial."
+   },
+   {
+    "n": "Artículo 7",
+    "titulo": "Publicidad de la evaluación de impacto algorítmico",
+    "texto": "7.1. El resumen de la evaluación de impacto algorítmico de los sistemas de riesgo alto se publica íntegramente en el Registro. El documento completo se conserva por la entidad y se pone a disposición de la Contraloría General de la República, de la Defensoría del Pueblo y de la Autoridad Nacional de Protección de Datos Personales cuando estas lo requieran.\n7.2. La SGTD aprueba el modelo de evaluación de impacto algorítmico, compatible con la NTP-ISO/IEC 42001 y con la evaluación de impacto en protección de datos personales."
+   },
+   {
+    "n": "Artículo 8",
+    "titulo": "Auditoría ciudadana y académica",
+    "texto": "Las universidades, colegios profesionales y organizaciones de la sociedad civil pueden presentar observaciones técnicas sobre los sistemas inscritos a través del Registro. La entidad responsable da respuesta motivada en un plazo no mayor de treinta días hábiles, la que también se publica."
+   },
+   {
+    "n": "Artículo 9",
+    "titulo": "Responsabilidad",
+    "texto": "El incumplimiento de las obligaciones de la presente ley por parte de funcionarios y servidores públicos constituye falta administrativa, que se determina conforme a la Ley 30057, Ley del Servicio Civil, y a las normas de control, sin perjuicio de las demás responsabilidades a que hubiere lugar."
+   },
+   {
+    "n": "Artículo 10",
+    "titulo": "Informe anual",
+    "texto": "La Presidencia del Consejo de Ministros incluye en el informe anual al Congreso de la República previsto en el artículo 5 de la Ley 31814 un capítulo sobre el estado del Registro, el número de sistemas inscritos por nivel de riesgo y las entidades que incumplen su inscripción."
+   }
+  ],
+  "disposiciones": [
+   {
+    "tipo": "Complementaria Final",
+    "n": "Primera",
+    "texto": "Reglamentación. El Poder Ejecutivo, mediante decreto supremo refrendado por la Presidencia del Consejo de Ministros, reglamenta la presente ley en un plazo de noventa días hábiles contados desde su entrada en vigencia."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Segunda",
+    "texto": "Adecuación. Las entidades inscriben los sistemas que se encuentren en producción a la fecha de entrada en vigencia del reglamento en los mismos plazos de implementación gradual que la Primera Disposición Complementaria Final del Reglamento de la Ley 31814 establece según el tipo de entidad."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Tercera",
+    "texto": "Financiamiento. La implementación de la presente ley se financia con cargo al presupuesto institucional de los pliegos involucrados, sin demandar recursos adicionales al Tesoro Público."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Cuarta",
+    "texto": "Vigencia. La presente ley entra en vigencia al día siguiente de la publicación de su reglamento."
+   }
+  ],
+  "costo_beneficio": "El costo es bajo: la plataforma puede desarrollarse sobre la infraestructura de la Plataforma Nacional de Datos Abiertos y del Catálogo IA Perú ya previstos, y la evaluación de impacto ya es obligatoria para sistemas de riesgo alto según el art. 30.1 del Reglamento de la Ley 31814; la ley solo agrega su inscripción y publicidad. El costo marginal recae en horas de personal para llenar fichas estandarizadas. Los beneficios son la detección temprana de sesgos y errores antes de que generen litigios o afectaciones masivas, mejores condiciones para el control gubernamental y la confianza ciudadana necesaria para escalar la IA en el Estado. No genera gasto adicional al Tesoro: se financia con el presupuesto institucional de la PCM y de cada pliego.",
+  "efecto_vigencia": "Complementa la Ley 31814 y su Reglamento (D.S. 115-2025-PCM) y el TUO de la Ley 27806. No deroga norma alguna.",
+  "normas_relacionadas": [
+   {
+    "norma": "Ley 31814, Ley que promueve el uso de la inteligencia artificial en favor del desarrollo económico y social del país",
+    "url": "https://busquedas.elperuano.pe/dispositivo/NL/2192926-1"
+   },
+   {
+    "norma": "Decreto Supremo 115-2025-PCM, Reglamento de la Ley 31814",
+    "url": "https://busquedas.elperuano.pe/dispositivo/NL/2436426-1"
+   },
+   {
+    "norma": "Resolución Ministerial 152-2026-PCM, Estrategia Nacional de Inteligencia Artificial 2026-2030",
+    "url": "https://busquedas.elperuano.pe/dispositivo/NL/2511535-1"
+   },
+   {
+    "norma": "Ley 27806, Ley de Transparencia y Acceso a la Información Pública",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/27806.pdf"
+   }
+  ],
+  "antecedentes": "Por verificar en SPLEY. El marco vigente es la Ley 31814 y su Reglamento, que no crean un registro público centralizado de sistemas de IA del Estado.",
+  "referencias_internacionales": [
+   {
+    "pais": "Países Bajos",
+    "norma": "Algoritmeregister (Registro de algoritmos del Gobierno)",
+    "url": "https://algoritmes.overheid.nl"
+   },
+   {
+    "pais": "Reino Unido",
+    "norma": "Algorithmic Transparency Recording Standard (ATRS)",
+    "url": "https://www.gov.uk/government/collections/algorithmic-transparency-recording-standard-hub"
+   },
+   {
+    "pais": "Canadá",
+    "norma": "Directive on Automated Decision-Making (Algorithmic Impact Assessment)",
+    "url": "https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32592"
+   },
+   {
+    "pais": "Chile",
+    "norma": "Repositorio de Algoritmos Públicos (GobLab UAI)",
+    "url": "https://algoritmospublicos.cl"
+   }
+  ],
+  "comision_sugerida": "Ciencia, Innovación y Tecnología",
+  "comision_secundaria": "Descentralización, Regionalización, Gobiernos Locales y Modernización de la Gestión del Estado",
+  "plan2050": [
+   "inteligencia-artificial",
+   "transformacion-digital",
+   "etica"
+  ],
+  "ods": [
+   9,
+   16
+  ],
+  "prioridad": "alta",
+  "costo_fiscal": "bajo",
+  "plazo": "corto",
+  "indicador_exito": "Al 2031, 100% de las entidades del Poder Ejecutivo y de los gobiernos regionales con sus sistemas de riesgo alto inscritos y con resumen de evaluación de impacto publicado en formato abierto.",
+  "tags": [
+   "transparencia algorítmica",
+   "Estado",
+   "evaluación de impacto",
+   "datos abiertos"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Reglamento de la Ley 31814 (D.S. 115-2025-PCM), El Peruano",
+    "url": "https://busquedas.elperuano.pe/dispositivo/NL/2436426-1"
+   },
+   {
+    "titulo": "Aprueban la Estrategia Nacional de Inteligencia Artificial 2026-2030 (R.M. 152-2026-PCM)",
+    "url": "https://busquedas.elperuano.pe/dispositivo/NL/2511535-1"
+   },
+   {
+    "titulo": "OCDE, Recomendación del Consejo sobre Inteligencia Artificial (OECD-LEGAL-0449)",
+    "url": "https://legalinstruments.oecd.org/en/instruments/OECD-LEGAL-0449"
+   }
+  ]
+ },
+ {
+  "id": "IA-02",
+  "eje": "ia",
+  "titulo": "Ley que regula la actuación administrativa automatizada y garantiza el derecho a la explicación y a la revisión humana de las decisiones adoptadas con apoyo de inteligencia artificial",
+  "titulo_corto": "Explicación y revisión humana",
+  "sumilla": "Incorpora en la Ley del Procedimiento Administrativo General reglas sobre actos administrativos automatizados o asistidos por IA, y reconoce al administrado el derecho a conocer que interviene un algoritmo, a recibir una explicación comprensible y a obtener la revisión por un servidor humano.",
+  "problema": "El TUO de la Ley 27444 regula el acto administrativo, su motivación y los recursos, pero fue concebido para decisiones adoptadas por personas. El Decreto Legislativo 1412 y su Reglamento (D.S. 029-2021-PCM) regulan el uso de medios electrónicos en el procedimiento, no la decisión algorítmica. La Ley 29733 reconoce en su artículo 23 el derecho al tratamiento objetivo, pero solo cuando la decisión se sustenta en datos personales destinados a evaluar la personalidad o conducta, y no establece un procedimiento ante la Administración. El Reglamento de la Ley 31814 exige supervisión humana capaz de detener o invalidar decisiones (art. 28.11) y explicar resultados cuando hay impacto en derechos (art. 25.3), pero no consagra expresamente un derecho individual a la revisión humana ni precisa sus efectos sobre la validez del acto. Esta brecha es relevante porque el propio Reglamento califica como de riesgo alto los sistemas usados en programas sociales, empleo y acceso a salud (art. 24.1). Sin reglas procedimentales claras, el administrado afectado por una decisión automatizada errónea solo dispone de recursos genéricos, la carga de la prueba sobre el funcionamiento del sistema recae en él y la entidad puede ampararse en la opacidad del proveedor. España (Ley 40/2015, art. 41) y la Unión Europea (RGPD, art. 22) ya regulan la actuación automatizada.",
+  "objeto": "Incorporar en el TUO de la Ley 27444 el régimen de la actuación administrativa automatizada y los derechos del administrado a ser informado, a la explicación y a la revisión humana de decisiones adoptadas con apoyo de IA.",
+  "articulado": [
+   {
+    "n": "Artículo 1",
+    "titulo": "Objeto",
+    "texto": "La presente ley tiene por objeto regular la actuación administrativa automatizada o asistida por sistemas de inteligencia artificial y garantizar los derechos del administrado a ser informado, a la explicación y a la revisión humana de las decisiones que le afectan."
+   },
+   {
+    "n": "Artículo 2",
+    "titulo": "Incorporación del artículo 6-A al Texto Único Ordenado de la Ley 27444",
+    "texto": "Incorpórase el artículo 6-A al Texto Único Ordenado de la Ley 27444, Ley del Procedimiento Administrativo General, con el texto siguiente:\n«Artículo 6-A. Actuación administrativa automatizada\n6-A.1. Se considera actuación administrativa automatizada aquella en la que un sistema basado en inteligencia artificial o en reglas programadas adopta, propone o determina el contenido de un acto administrativo.\n6-A.2. La actuación automatizada requiere la identificación previa, mediante resolución del titular de la entidad, del sistema empleado, el órgano responsable de su funcionamiento y su inscripción en el registro de algoritmos que establezca la ley.\n6-A.3. La motivación del acto adoptado con intervención de un sistema automatizado indica expresamente dicha intervención y expone, en lenguaje claro, los factores principales que determinaron el resultado.»"
+   },
+   {
+    "n": "Artículo 3",
+    "titulo": "Incorporación del numeral 66.23 al artículo 66 del Texto Único Ordenado de la Ley 27444",
+    "texto": "Incorpórase el numeral 66.23 en el artículo 66 del Texto Único Ordenado de la Ley 27444, referido a los derechos de los administrados, con el texto siguiente:\n«66.23. A ser informado, de forma previa y comprensible, cuando un sistema automatizado o de inteligencia artificial intervenga en la decisión de su procedimiento; a obtener una explicación de los factores principales que determinaron el resultado; y a solicitar que la decisión sea revisada por un servidor público con competencia y capacidad para modificarla.»"
+   },
+   {
+    "n": "Artículo 4",
+    "titulo": "Decisiones que requieren intervención humana",
+    "texto": "4.1. No pueden adoptarse exclusivamente mediante sistemas automatizados los actos que impongan sanciones, denieguen o extingan prestaciones sociales, de salud o previsionales, o restrinjan derechos fundamentales. En estos casos, el sistema solo puede proponer o asistir, y la decisión es suscrita por un servidor identificado que valora el caso concreto.\n4.2. Lo dispuesto en el numeral anterior no impide la automatización de actos reglados de mero cálculo o verificación objetiva, siempre que se garantice la revisión prevista en el artículo 5."
+   },
+   {
+    "n": "Artículo 5",
+    "titulo": "Procedimiento de revisión humana",
+    "texto": "5.1. La solicitud de revisión humana puede presentarse dentro del plazo para interponer recurso administrativo, sin formalidad especial y por canales digitales o presenciales.\n5.2. La revisión es efectuada por servidor distinto del responsable técnico del sistema, quien resuelve en un plazo no mayor de quince días hábiles. La solicitud suspende el plazo para interponer recursos.\n5.3. La revisión no impide la interposición posterior de los recursos administrativos previstos en el TUO de la Ley 27444."
+   },
+   {
+    "n": "Artículo 6",
+    "titulo": "Carga de la prueba y acceso a la información técnica",
+    "texto": "6.1. Corresponde a la entidad acreditar el correcto funcionamiento del sistema en el caso concreto cuando el administrado cuestione la decisión automatizada.\n6.2. Las cláusulas de confidencialidad o de propiedad intelectual pactadas con proveedores no son oponibles para negar al administrado la explicación a que se refiere el numeral 66.23 del artículo 66 del TUO de la Ley 27444, ni a los órganos de control la información técnica necesaria para verificar el funcionamiento del sistema."
+   },
+   {
+    "n": "Artículo 7",
+    "titulo": "Nulidad",
+    "texto": "Es causal de nulidad del acto administrativo, conforme al artículo 10 del TUO de la Ley 27444, su adopción exclusivamente automatizada en los supuestos prohibidos por el numeral 4.1 del artículo 4 de la presente ley."
+   },
+   {
+    "n": "Artículo 8",
+    "titulo": "Articulación con la protección de datos personales",
+    "texto": "Los derechos reconocidos en la presente ley se ejercen sin perjuicio del derecho al tratamiento objetivo previsto en el artículo 23 de la Ley 29733, Ley de Protección de Datos Personales, cuya tutela corresponde a la Autoridad Nacional de Protección de Datos Personales."
+   }
+  ],
+  "disposiciones": [
+   {
+    "tipo": "Complementaria Final",
+    "n": "Primera",
+    "texto": "Reglamentación y lineamientos. El Ministerio de Justicia y Derechos Humanos, en coordinación con la Presidencia del Consejo de Ministros, adecúa el reglamento pertinente en un plazo de noventa días hábiles; la Secretaría de Gobierno y Transformación Digital aprueba lineamientos sobre explicaciones en lenguaje claro, incluyendo su traducción a lenguas originarias cuando corresponda."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Segunda",
+    "texto": "Financiamiento. La aplicación de la presente ley se financia con cargo al presupuesto institucional de las entidades, sin demandar recursos adicionales al Tesoro Público."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Tercera",
+    "texto": "Vigencia. La presente ley entra en vigencia a los ciento ochenta días calendario de su publicación, para permitir la adecuación de los sistemas en producción."
+   }
+  ],
+  "costo_beneficio": "El costo fiscal es bajo: las entidades ya deben contar con supervisión humana para sistemas de riesgo alto según el Reglamento de la Ley 31814; la ley ordena ese deber en un procedimiento de revisión con plazo y efectos claros. Puede haber un incremento inicial de solicitudes de revisión, que se compensa con la reducción de recursos de apelación, procesos contencioso-administrativos y quejas ante la Defensoría del Pueblo por errores masivos. El beneficio principal es la seguridad jurídica: las entidades sabrán qué decisiones pueden automatizar y los proveedores, qué información deben entregar. Se financia con el presupuesto institucional de cada entidad.",
+  "efecto_vigencia": "Modifica el TUO de la Ley 27444 (aprobado por D.S. 004-2019-JUS) incorporando el artículo 6-A y el numeral 66.23 del artículo 66; complementa la Ley 29733 (art. 23) y el Reglamento de la Ley 31814. La numeración debe verificarse contra el TUO vigente a la fecha de dictamen.",
+  "normas_relacionadas": [
+   {
+    "norma": "Decreto Supremo 004-2019-JUS, TUO de la Ley 27444, Ley del Procedimiento Administrativo General",
+    "url": "https://www.gob.pe/institucion/minjus/normas-legales/279563-004-2019-jus"
+   },
+   {
+    "norma": "Ley 29733, Ley de Protección de Datos Personales (art. 23, derecho al tratamiento objetivo)",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/29733.pdf"
+   },
+   {
+    "norma": "Decreto Supremo 029-2021-PCM, Reglamento del Decreto Legislativo 1412, Ley de Gobierno Digital",
+    "url": "https://busquedas.elperuano.pe/dispositivo/NL/1929103-3"
+   },
+   {
+    "norma": "Decreto Supremo 115-2025-PCM, Reglamento de la Ley 31814",
+    "url": "https://busquedas.elperuano.pe/dispositivo/NL/2436426-1"
+   }
+  ],
+  "antecedentes": "Por verificar en SPLEY.",
+  "referencias_internacionales": [
+   {
+    "pais": "España",
+    "norma": "Ley 40/2015, de Régimen Jurídico del Sector Público, art. 41 (actuación administrativa automatizada)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566"
+   },
+   {
+    "pais": "Unión Europea",
+    "norma": "Reglamento (UE) 2016/679 (RGPD), art. 22",
+    "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj"
+   },
+   {
+    "pais": "Unión Europea",
+    "norma": "Reglamento (UE) 2024/1689 de Inteligencia Artificial, arts. 14 y 86 (supervisión humana y derecho a explicación)",
+    "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+   },
+   {
+    "pais": "Brasil",
+    "norma": "Lei 13.709/2018 (LGPD), art. 20 (revisión de decisiones automatizadas)",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm"
+   }
+  ],
+  "comision_sugerida": "Descentralización, Regionalización, Gobiernos Locales y Modernización de la Gestión del Estado",
+  "comision_secundaria": "Justicia y Derechos Humanos",
+  "plan2050": [
+   "inteligencia-artificial",
+   "reforma-del-estado",
+   "institucionalidad"
+  ],
+  "ods": [
+   10,
+   16
+  ],
+  "prioridad": "alta",
+  "costo_fiscal": "bajo",
+  "plazo": "corto",
+  "indicador_exito": "Al 2031, todas las entidades que usan sistemas de riesgo alto publican en su portal el canal de revisión humana y reportan anualmente el número de revisiones solicitadas, resueltas y decisiones modificadas.",
+  "tags": [
+   "derechos digitales",
+   "procedimiento administrativo",
+   "decisión automatizada",
+   "explicabilidad"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Reglamento de la Ley 31814 (D.S. 115-2025-PCM), El Peruano",
+    "url": "https://busquedas.elperuano.pe/dispositivo/NL/2436426-1"
+   },
+   {
+    "titulo": "TUO de la Ley 27444 (D.S. 004-2019-JUS)",
+    "url": "https://www.gob.pe/institucion/minjus/normas-legales/279563-004-2019-jus"
+   },
+   {
+    "titulo": "UNESCO, Recomendación sobre la ética de la inteligencia artificial",
+    "url": "https://www.unesco.org/en/articles/recommendation-ethics-artificial-intelligence"
+   }
+  ]
+ },
+ {
+  "id": "IA-03",
+  "eje": "ia",
+  "titulo": "Ley que establece el régimen del espacio controlado de pruebas regulatorias para sistemas de inteligencia artificial y la coordinación entre autoridades sectoriales",
+  "titulo_corto": "Sandbox regulatorio de IA",
+  "sumilla": "Eleva a rango de ley el entorno de experimentación controlada previsto en el Reglamento de la Ley 31814, con reglas de coordinación entre reguladores, salvaguardas para las personas, plazos máximos y publicación de resultados para retroalimentar la regulación.",
+  "problema": "El Reglamento de la Ley 31814 (D.S. 115-2025-PCM, art. 17) prevé un entorno de experimentación y prueba controlada a cargo de la SGTD, y la ENIA 2026–2030 incluye el sandbox regulatorio en su eje de innovación. Sin embargo, al ser una norma reglamentaria emitida por la PCM, ese entorno no puede flexibilizar exigencias contenidas en leyes sectoriales ni vincular a reguladores con autonomía (por ejemplo, en salud, educación, protección de datos o consumo), que son precisamente los sectores donde el propio Reglamento ubica los usos de riesgo alto (art. 24.1). Tampoco fija salvaguardas mínimas para las personas que participan en las pruebas, plazos máximos, criterios de salida ni la obligación de publicar aprendizajes regulatorios. El resultado previsible es un sandbox con baja demanda o de alcance meramente declarativo. El Plan IA Perú 2050 (CIP/CNPP) proyecta que 30% de las empresas medianas y grandes usen IA en procesos centrales al 2030 y la ENIA fija como meta 4,750 MYPE incorporando soluciones de IA; ambas metas requieren canales seguros para probar soluciones innovadoras sin incertidumbre jurídica. España (Real Decreto 817/2023) y el Reglamento europeo de IA (arts. 57 a 59) ya regulan estos espacios con rango normativo suficiente.",
+  "objeto": "Establecer con rango de ley el régimen del espacio controlado de pruebas regulatorias para sistemas de IA, la coordinación con autoridades sectoriales y las salvaguardas para los participantes.",
+  "articulado": [
+   {
+    "n": "Artículo 1",
+    "titulo": "Objeto",
+    "texto": "La presente ley tiene por objeto establecer el régimen jurídico del espacio controlado de pruebas regulatorias para sistemas de inteligencia artificial, en adelante el Espacio de Pruebas, a fin de promover la innovación responsable y generar evidencia para la mejora regulatoria."
+   },
+   {
+    "n": "Artículo 2",
+    "titulo": "Autoridad conductora y autoridades participantes",
+    "texto": "2.1. La Presidencia del Consejo de Ministros, a través de la Secretaría de Gobierno y Transformación Digital, conduce el Espacio de Pruebas.\n2.2. Cuando el proyecto involucre materias sujetas a supervisión sectorial, participan obligatoriamente la autoridad sectorial competente y, si hay tratamiento de datos personales, la Autoridad Nacional de Protección de Datos Personales. El Instituto Nacional de Defensa de la Competencia y de la Protección de la Propiedad Intelectual (INDECOPI) participa cuando el sistema se dirija a consumidores.\n2.3. Los organismos reguladores y entidades con autonomía pueden establecer espacios propios o adherirse al Espacio de Pruebas mediante convenio."
+   },
+   {
+    "n": "Artículo 3",
+    "titulo": "Elegibilidad",
+    "texto": "Pueden postular personas naturales o jurídicas, públicas o privadas, nacionales o extranjeras con representación en el país, y universidades, que acrediten: a) carácter innovador del sistema; b) beneficio potencial para usuarios o para el interés público; c) necesidad real de prueba en condiciones controladas; d) plan de gestión de riesgos y de salida; y e) capacidad para indemnizar daños."
+   },
+   {
+    "n": "Artículo 4",
+    "titulo": "Flexibilizaciones permitidas",
+    "texto": "4.1. Mediante resolución motivada y conjunta, las autoridades participantes pueden eximir temporalmente del cumplimiento de requisitos de rango reglamentario o administrativo de su competencia, o modular su aplicación, durante la prueba.\n4.2. No son objeto de flexibilización: los derechos fundamentales; los usos prohibidos previstos en el Reglamento de la Ley 31814; las obligaciones de seguridad de los datos personales; la responsabilidad civil por daños; ni las normas penales."
+   },
+   {
+    "n": "Artículo 5",
+    "titulo": "Salvaguardas para los participantes",
+    "texto": "5.1. Toda persona que interactúe con un sistema en prueba otorga consentimiento informado previo, expreso y revocable, y es informada de que se trata de un sistema experimental.\n5.2. El participante del Espacio de Pruebas mantiene una garantía o seguro proporcional al riesgo y un canal de atención de reclamos.\n5.3. Las autoridades pueden suspender la prueba de inmediato ante un riesgo no previsto para la vida, la salud, la seguridad o los derechos de las personas."
+   },
+   {
+    "n": "Artículo 6",
+    "titulo": "Plazo y salida",
+    "texto": "6.1. La prueba tiene una duración máxima de doce meses, prorrogable por única vez hasta por seis meses.\n6.2. Al finalizar, las autoridades emiten un informe de salida que determina si el sistema puede operar bajo el marco vigente, requiere autorización específica o no es viable. La participación no constituye autorización tácita para operar fuera del Espacio de Pruebas."
+   },
+   {
+    "n": "Artículo 7",
+    "titulo": "Transparencia y aprendizaje regulatorio",
+    "texto": "7.1. La Secretaría de Gobierno y Transformación Digital publica la relación de proyectos admitidos, las flexibilizaciones otorgadas, los incidentes reportados y los informes de salida, protegiendo los secretos comerciales debidamente acreditados.\n7.2. Cada año, las autoridades participantes identifican las barreras normativas detectadas y proponen su modificación al órgano competente."
+   },
+   {
+    "n": "Artículo 8",
+    "titulo": "Acceso preferente de MIPYME y universidades",
+    "texto": "La convocatoria reserva al menos la mitad de los cupos disponibles para micro y pequeñas empresas, emprendimientos innovadores y universidades, y establece procedimientos simplificados y sin costo para ellos."
+   }
+  ],
+  "disposiciones": [
+   {
+    "tipo": "Complementaria Final",
+    "n": "Primera",
+    "texto": "Reglamentación. El Poder Ejecutivo adecúa el artículo 17 del Reglamento de la Ley 31814 a la presente ley en un plazo de noventa días hábiles."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Segunda",
+    "texto": "Financiamiento. La implementación se financia con cargo al presupuesto institucional de la Presidencia del Consejo de Ministros y de las autoridades participantes, sin demandar recursos adicionales al Tesoro Público."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Tercera",
+    "texto": "Evaluación. A los tres años de vigencia, la Presidencia del Consejo de Ministros remite al Congreso de la República un informe de evaluación del Espacio de Pruebas."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Cuarta",
+    "texto": "Vigencia. La presente ley entra en vigencia al día siguiente de su publicación en el diario oficial El Peruano."
+   }
+  ],
+  "costo_beneficio": "El costo es bajo: se reutiliza la estructura de la SGTD y de los reguladores existentes, y la carga principal es la evaluación de postulaciones. Los participantes asumen sus propios costos y garantías. El beneficio es doble: reduce la incertidumbre jurídica que frena inversiones en IA aplicada en sectores regulados y produce evidencia empírica para que las normas se ajusten a riesgos reales y no supuestos. El riesgo de captura regulatoria se mitiga con la publicidad de las flexibilizaciones y la prohibición de flexibilizar derechos fundamentales. No genera gasto adicional al Tesoro.",
+  "efecto_vigencia": "Complementa la Ley 31814 y eleva a rango de ley el art. 17 de su Reglamento (D.S. 115-2025-PCM). No deroga normas.",
+  "normas_relacionadas": [
+   {
+    "norma": "Ley 31814, Ley que promueve el uso de la inteligencia artificial",
+    "url": "https://busquedas.elperuano.pe/dispositivo/NL/2192926-1"
+   },
+   {
+    "norma": "Decreto Supremo 115-2025-PCM, Reglamento de la Ley 31814 (art. 17)",
+    "url": "https://busquedas.elperuano.pe/dispositivo/NL/2436426-1"
+   },
+   {
+    "norma": "Resolución Ministerial 152-2026-PCM, ENIA 2026-2030",
+    "url": "https://busquedas.elperuano.pe/dispositivo/NL/2511535-1"
+   }
+  ],
+  "antecedentes": "Por verificar en SPLEY.",
+  "referencias_internacionales": [
+   {
+    "pais": "España",
+    "norma": "Real Decreto 817/2023, entorno controlado de pruebas para sistemas de IA",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2023-22767"
+   },
+   {
+    "pais": "Unión Europea",
+    "norma": "Reglamento (UE) 2024/1689, arts. 57 a 59 (espacios controlados de pruebas para la IA)",
+    "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+   },
+   {
+    "pais": "Brasil",
+    "norma": "Proyecto de Ley 2338/2023 del Senado Federal (marco de IA, incluye sandbox)",
+    "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/157233"
+   }
+  ],
+  "comision_sugerida": "Ciencia, Innovación y Tecnología",
+  "comision_secundaria": "Economía, Banca, Finanzas e Inteligencia Financiera",
+  "plan2050": [
+   "inteligencia-artificial",
+   "innovacion",
+   "mipymes"
+  ],
+  "ods": [
+   8,
+   9
+  ],
+  "prioridad": "media",
+  "costo_fiscal": "bajo",
+  "plazo": "corto",
+  "indicador_exito": "Al 2031, al menos 40 proyectos concluidos en el Espacio de Pruebas, con informes de salida publicados y al menos cinco modificaciones normativas originadas en sus aprendizajes.",
+  "tags": [
+   "sandbox",
+   "innovación",
+   "regulación",
+   "MIPYME"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Reglamento de la Ley 31814 (D.S. 115-2025-PCM)",
+    "url": "https://busquedas.elperuano.pe/dispositivo/NL/2436426-1"
+   },
+   {
+    "titulo": "El Peruano: Perú fija reglas para la IA en el sector público hasta 2030",
+    "url": "https://elperuano.pe/noticia/294752-peru-fija-reglas-para-la-inteligencia-artificial-en-el-sector-publico-hasta-2030"
+   },
+   {
+    "titulo": "AESIA, Agencia Española de Supervisión de la IA",
+    "url": "https://aesia.digital.gob.es"
+   }
+  ]
+ },
+ {
+  "id": "IA-04",
+  "eje": "ia",
+  "titulo": "Ley que establece la apertura de datos públicos por defecto, el estándar nacional de datos aptos para inteligencia artificial y la obligación de interfaces de programación públicas",
+  "titulo_corto": "Datos abiertos y API públicas",
+  "sumilla": "Dispone que los conjuntos de datos públicos no reservados se publiquen por defecto en formato abierto y mediante interfaces de programación (API), conforme a un estándar nacional de calidad y documentación apto para su reutilización en inteligencia artificial.",
+  "problema": "El Decreto Legislativo 1412 y el Decreto de Urgencia 006-2020 establecen la gobernanza de datos y la Plataforma Nacional de Datos Abiertos, y la Ley 27806 regula la transparencia activa. No obstante, la publicación de datos abiertos sigue dependiendo de la voluntad de cada entidad, con formatos heterogéneos, sin metadatos uniformes ni API estables. Según el diagnóstico de la Estrategia Nacional de Gobierno de Datos 2026–2030 recogido en el Plan IA Perú 2050 (CIP/CNPP), la madurez del Estado en gobierno de datos es de 1,57 sobre 5 (nivel «inicial», en una muestra de ocho entidades de referencia). El mismo Plan fija como metas contar con 50 entidades clave con datos abiertos aptos para IA (API y estándar) y con un estándar nacional de datos para IA aprobado y vigente al 2030. Sin datos públicos de calidad, la investigación, las startups y el propio Estado no pueden entrenar ni evaluar modelos con información peruana, y se profundiza la dependencia de datos y modelos extranjeros. La Directiva europea 2019/1024 de datos abiertos y su lista de conjuntos de alto valor, así como la Lei 14.129/2021 de Gobierno Digital de Brasil, ya obligan a publicar datos por defecto vía API.",
+  "objeto": "Establecer el principio de apertura de datos públicos por defecto, crear el Estándar Nacional de Datos Aptos para IA y obligar a publicar los conjuntos de datos de alto valor mediante API públicas.",
+  "articulado": [
+   {
+    "n": "Artículo 1",
+    "titulo": "Objeto",
+    "texto": "La presente ley tiene por objeto establecer la apertura por defecto de los datos públicos, crear el Estándar Nacional de Datos Aptos para Inteligencia Artificial y disponer la publicación de conjuntos de datos de alto valor mediante interfaces de programación de aplicaciones de acceso público."
+   },
+   {
+    "n": "Artículo 2",
+    "titulo": "Principio de apertura por defecto",
+    "texto": "2.1. Los datos producidos, recolectados o custodiados por las entidades públicas son abiertos por defecto, salvo que se encuentren comprendidos en las excepciones del Texto Único Ordenado de la Ley 27806 o contengan datos personales no anonimizados conforme a la Ley 29733.\n2.2. La reserva total o parcial de un conjunto de datos se motiva por escrito y se registra en la Plataforma Nacional de Datos Abiertos, indicando la causal legal y su plazo."
+   },
+   {
+    "n": "Artículo 3",
+    "titulo": "Estándar Nacional de Datos Aptos para Inteligencia Artificial",
+    "texto": "3.1. La Presidencia del Consejo de Ministros, a través de la Secretaría de Gobierno y Transformación Digital, aprueba el Estándar Nacional de Datos Aptos para Inteligencia Artificial, que comprende como mínimo: formatos abiertos legibles por máquina; diccionario de datos y metadatos; licencia abierta; identificadores persistentes; trazabilidad de origen; frecuencia de actualización; métricas de calidad y completitud; y documentación de sesgos conocidos y limitaciones.\n3.2. El Estándar se actualiza al menos cada dos años, previa consulta pública."
+   },
+   {
+    "n": "Artículo 4",
+    "titulo": "Conjuntos de datos de alto valor",
+    "texto": "4.1. Son conjuntos de datos de alto valor, entre otros, los de carácter geoespacial, estadístico, meteorológico y ambiental, de movilidad, de compras públicas, presupuestales, registrales de personas jurídicas, educativos y de salud agregados y anonimizados.\n4.2. La Secretaría de Gobierno y Transformación Digital aprueba la lista de conjuntos de datos de alto valor y las entidades responsables, priorizando aquellos necesarios para las metas de la Estrategia Nacional de Inteligencia Artificial."
+   },
+   {
+    "n": "Artículo 5",
+    "titulo": "Interfaces de programación públicas",
+    "texto": "5.1. Los conjuntos de datos de alto valor se publican mediante interfaces de programación de aplicaciones (API) documentadas, gratuitas, sin registro obligatorio para consultas de volumen ordinario y con disponibilidad mínima establecida en el reglamento.\n5.2. Las entidades no pueden suscribir contratos de exclusividad que restrinjan la reutilización de datos públicos."
+   },
+   {
+    "n": "Artículo 6",
+    "titulo": "Responsable de datos",
+    "texto": "Cada entidad designa, entre su personal, un responsable de datos abiertos, encargado del inventario, publicación, calidad y actualización de los conjuntos de datos, quien coordina con el Oficial de Gobierno de Datos o figura equivalente prevista en la normativa de gobierno digital."
+   },
+   {
+    "n": "Artículo 7",
+    "titulo": "Reutilización y atribución",
+    "texto": "La reutilización de datos abiertos, incluso con fines comerciales o para el entrenamiento de sistemas de inteligencia artificial, es libre, sujeta únicamente a la atribución de la fuente y a la prohibición de reidentificar a personas a partir de datos anonimizados."
+   },
+   {
+    "n": "Artículo 8",
+    "titulo": "Seguimiento",
+    "texto": "La Secretaría de Gobierno y Transformación Digital publica anualmente un índice de cumplimiento por entidad, que forma parte del informe previsto en el artículo 5 de la Ley 31814."
+   }
+  ],
+  "disposiciones": [
+   {
+    "tipo": "Complementaria Final",
+    "n": "Primera",
+    "texto": "Reglamentación. El Poder Ejecutivo reglamenta la presente ley en un plazo de ciento veinte días hábiles; el Estándar Nacional se aprueba dentro del mismo plazo."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Segunda",
+    "texto": "Gradualidad. La obligación de publicar API se aplica en el primer año a los ministerios y organismos públicos del Poder Ejecutivo; en el segundo año, a los gobiernos regionales y organismos constitucionalmente autónomos; y en el tercer año, a las municipalidades provinciales."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Tercera",
+    "texto": "Financiamiento. La implementación se financia con cargo al presupuesto institucional de las entidades involucradas, sin demandar recursos adicionales al Tesoro Público."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Cuarta",
+    "texto": "Vigencia. La presente ley entra en vigencia al día siguiente de su publicación."
+   }
+  ],
+  "costo_beneficio": "Genera costos moderados de adecuación (catalogación, limpieza, documentación y exposición de API), que pueden absorberse progresivamente con la gradualidad prevista y la infraestructura de la Plataforma Nacional de Datos Abiertos ya existente. El costo de no hacerlo es mayor: duplicación de pedidos de acceso a la información, consultorías que reconstruyen datos ya existentes e imposibilidad de entrenar modelos con información nacional. La evidencia internacional sobre datos abiertos muestra beneficios en transparencia, innovación y eficiencia del propio Estado, que es el principal reutilizador de sus datos. Se financia con presupuesto institucional, sin demandar recursos adicionales al Tesoro.",
+  "efecto_vigencia": "Complementa el D.L. 1412, el D.U. 006-2020 y el TUO de la Ley 27806. No deroga normas.",
+  "normas_relacionadas": [
+   {
+    "norma": "Decreto Legislativo 1412, Ley de Gobierno Digital",
+    "url": "https://www.gob.pe/institucion/pcm/normas-legales/289706-1412"
+   },
+   {
+    "norma": "Decreto de Urgencia 006-2020, crea el Sistema Nacional de Transformación Digital",
+    "url": "https://www.gob.pe/institucion/pcm/normas-legales/395320-006-2020"
+   },
+   {
+    "norma": "Ley 27806, Ley de Transparencia y Acceso a la Información Pública",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/27806.pdf"
+   },
+   {
+    "norma": "Ley 29733, Ley de Protección de Datos Personales",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/29733.pdf"
+   }
+  ],
+  "antecedentes": "Por verificar en SPLEY.",
+  "referencias_internacionales": [
+   {
+    "pais": "Unión Europea",
+    "norma": "Directiva (UE) 2019/1024 relativa a los datos abiertos y la reutilización de la información del sector público",
+    "url": "https://eur-lex.europa.eu/eli/dir/2019/1024/oj"
+   },
+   {
+    "pais": "Brasil",
+    "norma": "Lei 14.129/2021 (Lei do Governo Digital)",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14129.htm"
+   },
+   {
+    "pais": "Unión Europea",
+    "norma": "Reglamento (UE) 2022/868 de Gobernanza de Datos",
+    "url": "https://eur-lex.europa.eu/eli/reg/2022/868/oj"
+   }
+  ],
+  "comision_sugerida": "Ciencia, Innovación y Tecnología",
+  "comision_secundaria": "Descentralización, Regionalización, Gobiernos Locales y Modernización de la Gestión del Estado",
+  "plan2050": [
+   "inteligencia-artificial",
+   "transformacion-digital",
+   "peru-en-la-era-digital"
+  ],
+  "ods": [
+   9,
+   16,
+   17
+  ],
+  "prioridad": "alta",
+  "costo_fiscal": "bajo",
+  "plazo": "mediano",
+  "indicador_exito": "Al 2030, 50 entidades clave publican sus conjuntos de datos de alto valor vía API conforme al Estándar Nacional (meta del Plan IA Perú 2050); al 2031, todo el Poder Ejecutivo.",
+  "tags": [
+   "datos abiertos",
+   "API",
+   "gobierno de datos",
+   "estándares"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Plataforma Nacional de Datos Abiertos",
+    "url": "https://www.datosabiertos.gob.pe"
+   },
+   {
+    "titulo": "Plan Perú 2050 (CNPP/CIP), dashboard de comisiones temáticas",
+    "url": "https://planperu2050.pe"
+   },
+   {
+    "titulo": "Global Data Barometer",
+    "url": "https://globaldatabarometer.org"
+   }
+  ]
+ },
+ {
+  "id": "IA-05",
+  "eje": "ia",
+  "titulo": "Ley que crea la Red Nacional de Cómputo Avanzado para la Investigación en Inteligencia Artificial",
+  "titulo_corto": "Cómputo nacional para investigación",
+  "sumilla": "Crea una red pública de cómputo de alto rendimiento y aceleradores para investigación en IA, articulada por el CONCYTEC con universidades e institutos públicos, con acceso abierto por convocatoria a investigadores de todas las regiones.",
+  "problema": "El Plan IA Perú 2050 (CIP/CNPP) califica el cómputo público para investigación con acceso universitario como «casi nulo» y fija como meta contar con un primer clúster nacional al 2030 y acceso garantizado en 25 regiones al 2040. El entrenamiento, ajuste y evaluación de modelos de IA requiere infraestructura de cómputo acelerado cuyo costo excede la capacidad individual de la mayoría de universidades, en particular las regionales, lo que concentra la investigación en pocas instituciones o la desplaza a proveedores extranjeros, con implicancias de soberanía de datos. Según el diagnóstico del mismo Plan, el Perú invierte alrededor de 0,2% del PBI en I+D (UNESCO), frente a cerca de 2% en los países de ingreso alto. La Ley 31250 del SINACTI asigna al CONCYTEC la rectoría de la ciencia, tecnología e innovación, pero no existe un mandato legal para gestionar infraestructura compartida de cómputo como bien público científico. El Reglamento de la Ley 31814 solo prevé que la SGTD habilite recursos de nube pública (art. 19). La Unión Europea (EuroHPC), España (Red Española de Supercomputación con MareNostrum 5) y Estados Unidos (piloto NAIRR) muestran que los modelos de red compartida con acceso por mérito multiplican la productividad científica.",
+  "objeto": "Crear la Red Nacional de Cómputo Avanzado para la Investigación en IA, definir su gobernanza, régimen de acceso abierto por mérito y fuentes de financiamiento.",
+  "articulado": [
+   {
+    "n": "Artículo 1",
+    "titulo": "Objeto",
+    "texto": "La presente ley tiene por objeto crear la Red Nacional de Cómputo Avanzado para la Investigación en Inteligencia Artificial, en adelante la Red, como infraestructura científica compartida al servicio del Sistema Nacional de Ciencia, Tecnología e Innovación."
+   },
+   {
+    "n": "Artículo 2",
+    "titulo": "Declaratoria de interés nacional",
+    "texto": "Declárase de interés nacional el desarrollo de infraestructura de cómputo de alto rendimiento y de aceleradores para la investigación en inteligencia artificial, con prioridad en su despliegue descentralizado y en el uso de energía de fuentes renovables."
+   },
+   {
+    "n": "Artículo 3",
+    "titulo": "Conformación",
+    "texto": "3.1. La Red está conformada por los nodos de cómputo de las universidades públicas, institutos públicos de investigación y entidades del Estado que se adhieran mediante convenio, así como por universidades privadas y empresas que aporten capacidad en condiciones de acceso abierto.\n3.2. El Consejo Nacional de Ciencia, Tecnología e Innovación Tecnológica (CONCYTEC), como ente rector del SINACTI, articula la Red y aprueba sus normas técnicas de interoperabilidad, seguridad y acceso."
+   },
+   {
+    "n": "Artículo 4",
+    "titulo": "Comité técnico de la Red",
+    "texto": "4.1. La Red cuenta con un comité técnico integrado por un representante del CONCYTEC, que lo preside; uno de la Secretaría de Gobierno y Transformación Digital; dos de las universidades públicas que operen nodos, uno de ellos de fuera de Lima y Callao; y uno de los colegios profesionales vinculados a la ingeniería y la computación.\n4.2. Los integrantes ejercen el cargo ad honorem."
+   },
+   {
+    "n": "Artículo 5",
+    "titulo": "Acceso abierto por mérito",
+    "texto": "5.1. El tiempo de cómputo se asigna mediante convocatorias públicas periódicas, con evaluación por pares, a investigadores de universidades e instituciones públicas y privadas sin fines de lucro, y a empresas en proyectos colaborativos con la academia.\n5.2. Se reserva un porcentaje mínimo de la capacidad, establecido en el reglamento, para proyectos liderados desde regiones distintas de Lima Metropolitana y Callao, y para proyectos en lenguas originarias.\n5.3. Los resultados financiados con acceso a la Red se publican preferentemente en acceso abierto, salvo protección de propiedad intelectual debidamente justificada."
+   },
+   {
+    "n": "Artículo 6",
+    "titulo": "Soberanía y seguridad de los datos",
+    "texto": "Los datos de entidades públicas y los datos personales que se procesen en la Red permanecen alojados en territorio nacional o en infraestructuras que cumplan las condiciones de transferencia de la Ley 29733, y se tratan conforme a las normas de seguridad digital del Marco de Confianza Digital."
+   },
+   {
+    "n": "Artículo 7",
+    "titulo": "Eficiencia energética",
+    "texto": "Las adquisiciones de equipamiento para la Red incorporan criterios de eficiencia energética y de suministro con energía de fuentes renovables, conforme a la normativa de contrataciones públicas."
+   },
+   {
+    "n": "Artículo 8",
+    "titulo": "Formación de capacidades",
+    "texto": "Los nodos de la Red ofrecen programas de formación en computación de alto rendimiento e inteligencia artificial para docentes e investigadores, en coordinación con las universidades y el CONCYTEC."
+   },
+   {
+    "n": "Artículo 9",
+    "titulo": "Financiamiento",
+    "texto": "La Red se financia con cargo al presupuesto institucional del CONCYTEC y de las entidades que la integran, con recursos de los fondos concursables del Programa Nacional de Investigación Científica y Estudios Avanzados (PROCIENCIA), con aportes de la cooperación internacional y del sector privado, y con los recursos que el Poder Ejecutivo priorice en el marco de las leyes anuales de presupuesto, sin demandar recursos adicionales al Tesoro Público."
+   }
+  ],
+  "disposiciones": [
+   {
+    "tipo": "Complementaria Final",
+    "n": "Primera",
+    "texto": "Reglamentación. El Poder Ejecutivo, mediante decreto supremo refrendado por la Presidencia del Consejo de Ministros, reglamenta la presente ley en un plazo de ciento veinte días hábiles."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Segunda",
+    "texto": "Plan de despliegue. El CONCYTEC aprueba, en un plazo de un año, el plan de despliegue de la Red con metas al 2031, identificando los nodos existentes y las brechas por macrorregión."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Tercera",
+    "texto": "Vigencia. La presente ley entra en vigencia al día siguiente de su publicación."
+   }
+  ],
+  "costo_beneficio": "Es la propuesta de mayor costo del eje: la adquisición y operación de cómputo acelerado implica inversión y gasto energético relevantes. La ley no crea una entidad nueva ni compromete montos: articula nodos existentes, ordena el acceso abierto y habilita fuentes concursables, cooperación y aportes privados; el escalamiento depende de la priorización en las leyes de presupuesto. El beneficio es evitar que cada universidad compre capacidad subutilizada, reducir la dependencia de nubes extranjeras para datos sensibles y habilitar investigación descentralizada en IA, condición para las metas del Plan IA Perú 2050. Conforme al artículo 79 de la Constitución, la iniciativa no crea gasto: este se ejecuta con presupuesto institucional y fondos concursables.",
+  "efecto_vigencia": "Complementa la Ley 31250 (SINACTI) y el art. 19 del Reglamento de la Ley 31814. No deroga normas.",
+  "normas_relacionadas": [
+   {
+    "norma": "Ley 31250, Ley del Sistema Nacional de Ciencia, Tecnología e Innovación",
+    "url": "https://busquedas.elperuano.pe/dispositivo/NL/1968664-1"
+   },
+   {
+    "norma": "Decreto Supremo 115-2025-PCM, Reglamento de la Ley 31814 (art. 19)",
+    "url": "https://busquedas.elperuano.pe/dispositivo/NL/2436426-1"
+   },
+   {
+    "norma": "Decreto de Urgencia 007-2020, Marco de Confianza Digital",
+    "url": "https://www.gob.pe/institucion/pcm/normas-legales/395322-007-2020"
+   }
+  ],
+  "antecedentes": "Por verificar en SPLEY.",
+  "referencias_internacionales": [
+   {
+    "pais": "Unión Europea",
+    "norma": "EuroHPC Joint Undertaking (red europea de supercomputación y AI Factories)",
+    "url": "https://eurohpc-ju.europa.eu"
+   },
+   {
+    "pais": "Estados Unidos",
+    "norma": "National AI Research Resource (NAIRR) Pilot",
+    "url": "https://nairrpilot.org"
+   },
+   {
+    "pais": "España",
+    "norma": "MareNostrum 5, Barcelona Supercomputing Center",
+    "url": "https://www.bsc.es/marenostrum/marenostrum-5"
+   }
+  ],
+  "comision_sugerida": "Ciencia, Innovación y Tecnología",
+  "comision_secundaria": "Presupuesto y Cuenta General de la República",
+  "plan2050": [
+   "inteligencia-artificial",
+   "ciencia-y-tecnologia",
+   "capital-del-conocimiento"
+  ],
+  "ods": [
+   9,
+   4
+  ],
+  "prioridad": "alta",
+  "costo_fiscal": "medio",
+  "plazo": "largo",
+  "indicador_exito": "Al 2031, Red operativa con nodos en al menos tres macrorregiones y convocatorias anuales que asignen cómputo a proyectos de universidades de al menos 15 regiones (hacia la meta 2040 del Plan IA Perú 2050 de acceso en 25 regiones).",
+  "tags": [
+   "cómputo",
+   "GPU",
+   "investigación",
+   "CONCYTEC",
+   "descentralización"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Plan Perú 2050 (CNPP/CIP), dashboard de comisiones temáticas",
+    "url": "https://planperu2050.pe"
+   },
+   {
+    "titulo": "UNESCO, Evaluación del estadio de preparación de la IA del Perú (RAM)",
+    "url": "https://www.unesco.org/es/articles/peru-evaluacion-del-estadio-de-preparacion-de-la-inteligencia-artificial"
+   },
+   {
+    "titulo": "Índice Latinoamericano de Inteligencia Artificial (ILIA, CENIA)",
+    "url": "https://indicelatam.cl"
+   }
+  ]
+ },
+ {
+  "id": "IA-06",
+  "eje": "ia",
+  "titulo": "Ley que promueve las tecnologías del lenguaje y los modelos de inteligencia artificial en lenguas indígenas u originarias y establece la gobernanza de sus datos lingüísticos",
+  "titulo_corto": "IA en lenguas originarias",
+  "sumilla": "Promueve corpus abiertos y modelos de lenguaje en quechua, aimara y lenguas amazónicas, con participación y consentimiento de los pueblos hablantes, beneficios compartidos y prohibición de apropiación indebida de sus datos lingüísticos.",
+  "problema": "Según los Censos Nacionales 2017 del INEI, 3 735 682 personas (13,9% de la población de 5 y más años) aprendieron a hablar en quechua y 444 389 (1,7%) en aimara, y otras 210 017 (0,8%) en otra lengua nativa. El Ministerio de Cultura identifica 48 lenguas indígenas u originarias: 4 andinas y 44 amazónicas. La Ley 29735 garantiza el derecho a usar estas lenguas en el ámbito público, pero los grandes modelos de lenguaje comerciales tienen escaso o nulo desempeño en ellas, lo que traslada la brecha lingüística al mundo digital: servicios públicos con IA que solo funcionan en castellano excluyen a quienes más los necesitan. El Reglamento de la Ley 31814 no contiene disposiciones sobre lenguas originarias. A la vez, la recolección de grabaciones y textos por terceros sin reglas claras expone a los pueblos a la apropiación de su patrimonio lingüístico. El Plan IA Perú 2050 (CIP/CNPP) identifica la IA multilingüe como palanca estratégica y fija como meta tres modelos peruanos en producción en español, quechua y aimara al 2030. El Banco Mundial (WDR 2026) señala que adaptar la IA a lenguas locales produce los mayores beneficios para países en desarrollo.",
+  "objeto": "Promover el desarrollo de corpus, herramientas y modelos de IA en lenguas originarias y establecer reglas de gobernanza, consentimiento y beneficio compartido sobre los datos lingüísticos de los pueblos indígenas u originarios.",
+  "articulado": [
+   {
+    "n": "Artículo 1",
+    "titulo": "Objeto",
+    "texto": "La presente ley tiene por objeto promover las tecnologías del lenguaje y los sistemas de inteligencia artificial en lenguas indígenas u originarias, en desarrollo de la Ley 29735, y establecer la gobernanza de los datos lingüísticos de los pueblos indígenas u originarios."
+   },
+   {
+    "n": "Artículo 2",
+    "titulo": "Definiciones",
+    "texto": "Para efectos de la presente ley: a) Datos lingüísticos: grabaciones de voz, textos, transcripciones, traducciones, léxicos y anotaciones en lenguas indígenas u originarias; b) Corpus lingüístico público: colección de datos lingüísticos obtenida con fondos públicos o con participación de entidades públicas; c) Tecnologías del lenguaje: traductores automáticos, reconocimiento y síntesis de voz, correctores, modelos de lenguaje y aplicaciones similares."
+   },
+   {
+    "n": "Artículo 3",
+    "titulo": "Programa Nacional de Tecnologías del Lenguaje en Lenguas Originarias",
+    "texto": "3.1. El Ministerio de Cultura, en coordinación con el Ministerio de Educación, el CONCYTEC y la Secretaría de Gobierno y Transformación Digital, implementa el Programa Nacional de Tecnologías del Lenguaje en Lenguas Originarias.\n3.2. El Programa prioriza la construcción de corpus lingüísticos públicos, el desarrollo de herramientas de traducción y voz para servicios públicos, y el apoyo a universidades e investigadores, en especial aquellos pertenecientes a pueblos indígenas u originarios."
+   },
+   {
+    "n": "Artículo 4",
+    "titulo": "Participación y consentimiento",
+    "texto": "4.1. La recolección de datos lingüísticos para corpus públicos se realiza con la participación de las organizaciones representativas de los pueblos indígenas u originarios y con el consentimiento libre, previo e informado de los hablantes, conforme a la Ley 29733 cuando corresponda.\n4.2. Los pueblos indígenas u originarios, a través de sus organizaciones representativas, pueden establecer condiciones de uso sobre corpus que contengan conocimientos tradicionales o contenidos de carácter sagrado o restringido."
+   },
+   {
+    "n": "Artículo 5",
+    "titulo": "Licencias y acceso",
+    "texto": "5.1. Los corpus lingüísticos públicos se ponen a disposición bajo licencias abiertas que permitan su uso en investigación, educación y servicios públicos, con las restricciones que se acuerden conforme al numeral 4.2 del artículo 4.\n5.2. El uso comercial de corpus lingüísticos públicos para entrenar modelos se sujeta a condiciones de atribución y de beneficio compartido con los pueblos hablantes, establecidas en el reglamento."
+   },
+   {
+    "n": "Artículo 6",
+    "titulo": "Servicios públicos en lenguas originarias asistidos por IA",
+    "texto": "Las entidades públicas que implementen asistentes virtuales u otros sistemas de IA de atención a la ciudadanía en ámbitos donde predomine una lengua indígena u originaria, conforme al Mapa Etnolingüístico del Perú, incorporan progresivamente dicha lengua, con validación por intérpretes o traductores inscritos en el registro del Ministerio de Cultura."
+   },
+   {
+    "n": "Artículo 7",
+    "titulo": "Evaluación de calidad",
+    "texto": "Los sistemas de IA en lenguas originarias usados por el Estado se evalúan con métricas públicas de desempeño y con la participación de hablantes nativos antes de su puesta en producción, a fin de evitar errores que afecten derechos."
+   },
+   {
+    "n": "Artículo 8",
+    "titulo": "Prohibición de apropiación indebida",
+    "texto": "Se prohíbe la apropiación de corpus lingüísticos públicos mediante derechos exclusivos que impidan su uso por los propios pueblos hablantes o por el Estado. Los registros de propiedad intelectual sobre modelos entrenados con dichos corpus no limitan ese uso."
+   }
+  ],
+  "disposiciones": [
+   {
+    "tipo": "Complementaria Final",
+    "n": "Primera",
+    "texto": "Reglamentación. El Poder Ejecutivo, mediante decreto supremo refrendado por el Ministerio de Cultura, reglamenta la presente ley en un plazo de ciento veinte días hábiles, previo diálogo con las organizaciones representativas de los pueblos indígenas u originarios."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Segunda",
+    "texto": "Financiamiento. La implementación se financia con cargo al presupuesto institucional del Ministerio de Cultura, del Ministerio de Educación y del CONCYTEC, y con recursos de cooperación internacional, sin demandar recursos adicionales al Tesoro Público."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Tercera",
+    "texto": "Vigencia. La presente ley entra en vigencia al día siguiente de su publicación."
+   }
+  ],
+  "costo_beneficio": "El costo es bajo a moderado y escalable: la construcción de corpus requiere trabajo de campo, traductores y anotadores, financiable con fondos concursables existentes y cooperación internacional. La ley no crea entidades. El beneficio es alto en equidad: permite que servicios públicos digitales lleguen a millones de hablantes de lenguas originarias, mejora la pertinencia de la educación y la salud, y genera un activo científico en el que el país tiene ventaja única. El componente de gobernanza reduce el riesgo de apropiación del patrimonio lingüístico por terceros. Se financia con presupuesto institucional y cooperación, sin demandar recursos adicionales al Tesoro.",
+  "efecto_vigencia": "Complementa la Ley 29735 (lenguas originarias), la Ley 31814 y la Ley 29733. No deroga normas.",
+  "normas_relacionadas": [
+   {
+    "norma": "Ley 29735, Ley que regula el uso, preservación, desarrollo, recuperación, fomento y difusión de las lenguas originarias del Perú",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/29735.pdf"
+   },
+   {
+    "norma": "Ley 31814, Ley que promueve el uso de la inteligencia artificial",
+    "url": "https://busquedas.elperuano.pe/dispositivo/NL/2192926-1"
+   },
+   {
+    "norma": "Ley 29733, Ley de Protección de Datos Personales",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/29733.pdf"
+   }
+  ],
+  "antecedentes": "Por verificar en SPLEY.",
+  "referencias_internacionales": [
+   {
+    "pais": "Nueva Zelanda",
+    "norma": "Te Hiku Media: corpus y modelos de voz en te reo Māori bajo licencia de kaitiakitanga (gobernanza indígena de datos)",
+    "url": "https://tehiku.nz"
+   },
+   {
+    "pais": "Global",
+    "norma": "Global Indigenous Data Alliance, Principios CARE para la gobernanza de datos indígenas",
+    "url": "https://www.gida-global.org/"
+   },
+   {
+    "pais": "América Latina",
+    "norma": "LatamGPT, modelo de lenguaje regional abierto (CENIA, Chile)",
+    "url": "https://www.latamgpt.org"
+   },
+   {
+    "pais": "Global",
+    "norma": "UNESCO, Recomendación sobre la ética de la IA (diversidad lingüística y cultural)",
+    "url": "https://www.unesco.org/en/articles/recommendation-ethics-artificial-intelligence"
+   }
+  ],
+  "comision_sugerida": "Pueblos Andinos, Amazónicos y Afroperuanos, Ambiente y Ecología",
+  "comision_secundaria": "Ciencia, Innovación y Tecnología",
+  "plan2050": [
+   "inteligencia-artificial",
+   "cohesion-social",
+   "capital-del-conocimiento"
+  ],
+  "ods": [
+   10,
+   4,
+   9
+  ],
+  "prioridad": "alta",
+  "costo_fiscal": "bajo",
+  "plazo": "mediano",
+  "indicador_exito": "Al 2031, corpus públicos abiertos y herramientas de traducción y voz evaluadas para quechua, aimara y al menos cinco lenguas amazónicas, y al menos tres modelos peruanos en producción en español, quechua y aimara (meta 2030 del Plan IA Perú 2050).",
+  "tags": [
+   "lenguas originarias",
+   "quechua",
+   "aimara",
+   "inclusión",
+   "soberanía de datos"
+  ],
+  "fuentes": [
+   {
+    "titulo": "INEI, Perú: Perfil Sociodemográfico. Censos Nacionales 2017",
+    "url": "https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1539/libro.pdf"
+   },
+   {
+    "titulo": "Ministerio de Cultura, Base de Datos de Pueblos Indígenas: lista de lenguas indígenas u originarias",
+    "url": "https://bdpi.cultura.gob.pe/lenguas"
+   },
+   {
+    "titulo": "Banco Mundial, World Development Report 2026",
+    "url": "https://www.worldbank.org/en/publication/wdr2026"
+   }
+  ]
+ },
+ {
+  "id": "IA-07",
+  "eje": "ia",
+  "titulo": "Ley que regula el uso de contenido sintético generado con inteligencia artificial en la propaganda y los procesos electorales",
+  "titulo_corto": "Deepfakes en elecciones",
+  "sumilla": "Obliga a etiquetar de forma visible la propaganda electoral generada o alterada con IA, prohíbe los contenidos sintéticos que suplanten a candidatos o autoridades electorales para engañar al elector y establece un procedimiento célere de retiro ante el Jurado Nacional de Elecciones.",
+  "problema": "La Ley 32314 modificó el Código Penal y la Ley 30096 para agravar delitos cometidos mediante IA, incluidos supuestos de difamación y estafa. Sin embargo, la vía penal es posterior y lenta frente a la velocidad de un contenido viral durante una campaña: un video o audio falso difundido días antes de la votación puede producir efectos irreversibles antes de cualquier sentencia. La Ley 28094 de Organizaciones Políticas y la Ley 26859 Orgánica de Elecciones regulan la propaganda electoral, pero no contemplan contenidos sintéticos ni obligaciones de etiquetado. El Reglamento de la Ley 31814 solo establece un deber general de etiquetado cuando corresponda (art. 25.2), sin reglas específicas para la contienda electoral ni autoridad competente para ordenar el retiro. Con las Elecciones Regionales y Municipales 2030 y las Elecciones Generales 2031 en el horizonte de este periodo parlamentario, es necesario contar con reglas claras antes de la convocatoria. Brasil (Resolución TSE 23.732/2024) y la Unión Europea (Reglamento 2024/1689, art. 50, y Reglamento 2024/900 sobre publicidad política) ya exigen transparencia sobre contenido sintético en el ámbito político.",
+  "objeto": "Regular el etiquetado, las prohibiciones y el procedimiento de retiro de contenidos sintéticos generados o alterados con IA en la propaganda y los procesos electorales.",
+  "articulado": [
+   {
+    "n": "Artículo 1",
+    "titulo": "Objeto",
+    "texto": "La presente ley tiene por objeto proteger la libre formación de la voluntad del elector frente al uso engañoso de contenido sintético generado o alterado mediante inteligencia artificial en la propaganda y los procesos electorales."
+   },
+   {
+    "n": "Artículo 2",
+    "titulo": "Definición de contenido sintético",
+    "texto": "Se entiende por contenido sintético la imagen, audio, video o texto generado o sustancialmente alterado mediante sistemas de inteligencia artificial u otras técnicas digitales, que represente a personas, hechos o lugares de modo que pueda parecer auténtico a una persona razonable."
+   },
+   {
+    "n": "Artículo 3",
+    "titulo": "Incorporación del artículo 42-A a la Ley 28094",
+    "texto": "Incorpórase el artículo 42-A a la Ley 28094, Ley de Organizaciones Políticas, con el texto siguiente:\n«Artículo 42-A. Propaganda con contenido sintético\nLa propaganda electoral que contenga contenido sintético incluye, de forma visible y audible según el formato, durante toda su difusión, la leyenda “Contenido generado o alterado con inteligencia artificial”. La organización política, el candidato o el tercero contratante son responsables solidarios de su cumplimiento.»"
+   },
+   {
+    "n": "Artículo 4",
+    "titulo": "Prohibiciones",
+    "texto": "4.1. Desde la convocatoria hasta la proclamación de resultados, se prohíbe la difusión de contenido sintético que: a) atribuya a un candidato, organización política, autoridad u organismo electoral palabras o actos que no realizó, con la finalidad de engañar al elector; b) suplante la identidad de los organismos del sistema electoral; o c) difunda información falsa sobre la fecha, lugar o forma de votación.\n4.2. Se exceptúan la sátira, la parodia y las expresiones artísticas claramente identificables como tales y debidamente etiquetadas, así como el periodismo que analice o desmienta contenidos sintéticos."
+   },
+   {
+    "n": "Artículo 5",
+    "titulo": "Procedimiento célere de retiro",
+    "texto": "5.1. Cualquier persona puede denunciar ante el Jurado Electoral Especial competente o, en su caso, ante el Jurado Nacional de Elecciones, la difusión de contenido sintético en infracción de la presente ley.\n5.2. El órgano electoral resuelve en un plazo máximo de setenta y dos horas, previo traslado al denunciado por veinticuatro horas, y puede ordenar el retiro o el etiquetado del contenido. La resolución se notifica a los proveedores de plataformas digitales y medios de comunicación, quienes la ejecutan en un plazo no mayor de veinticuatro horas.\n5.3. La apelación se resuelve por el Jurado Nacional de Elecciones en un plazo máximo de tres días calendario y no suspende la ejecución."
+   },
+   {
+    "n": "Artículo 6",
+    "titulo": "Obligaciones de las plataformas digitales",
+    "texto": "Los proveedores de plataformas digitales que difundan propaganda electoral pagada en el país: a) exigen al anunciante declarar si el anuncio contiene contenido sintético; b) aplican la leyenda prevista en el artículo 42-A de la Ley 28094; c) mantienen un repositorio público de anuncios políticos pagados durante el proceso; y d) designan un punto de contacto ante el Jurado Nacional de Elecciones."
+   },
+   {
+    "n": "Artículo 7",
+    "titulo": "Sanciones",
+    "texto": "7.1. El incumplimiento de las obligaciones de la presente ley constituye infracción sancionable por el Jurado Nacional de Elecciones conforme al régimen de infracciones y sanciones de la Ley 28094, cuya escala se adecúa mediante el reglamento.\n7.2. Lo dispuesto no excluye la responsabilidad penal conforme al Código Penal modificado por la Ley 32314, ni la responsabilidad civil."
+   },
+   {
+    "n": "Artículo 8",
+    "titulo": "Alfabetización mediática",
+    "texto": "El Jurado Nacional de Elecciones y la Oficina Nacional de Procesos Electorales incluyen en sus programas de educación electoral contenidos sobre identificación de contenido sintético y verificación de información."
+   }
+  ],
+  "disposiciones": [
+   {
+    "tipo": "Complementaria Final",
+    "n": "Primera",
+    "texto": "Reglamentación. El Jurado Nacional de Elecciones aprueba las disposiciones reglamentarias en un plazo de noventa días hábiles, las que deben estar vigentes antes de la convocatoria del siguiente proceso electoral."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Segunda",
+    "texto": "Financiamiento. La aplicación de la presente ley se financia con cargo al presupuesto institucional de los organismos electorales, sin demandar recursos adicionales al Tesoro Público."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Tercera",
+    "texto": "Vigencia. La presente ley entra en vigencia al día siguiente de su publicación. No es aplicable a un proceso electoral ya convocado a la fecha de su entrada en vigencia."
+   }
+  ],
+  "costo_beneficio": "El costo fiscal es bajo: se apoya en el procedimiento sancionador y los jurados electorales existentes, con mayor carga durante los periodos de campaña. Las plataformas asumen costos de cumplimiento que ya enfrentan en otras jurisdicciones con obligaciones similares. El beneficio es la protección de la integridad electoral y de la reputación de candidatos de todas las tendencias frente a manipulaciones difíciles de revertir. El diseño evita la censura previa: sanciona contenido engañoso específico, protege sátira y periodismo, y exige resolución motivada con doble instancia. Se financia con presupuesto institucional de los organismos electorales.",
+  "efecto_vigencia": "Modifica la Ley 28094 (incorpora el art. 42-A); complementa la Ley 26859, la Ley 32314 y el Reglamento de la Ley 31814. La numeración del artículo incorporado debe verificarse contra el texto vigente de la Ley 28094 al momento del dictamen.",
+  "normas_relacionadas": [
+   {
+    "norma": "Ley 32314, Ley que modifica el Código Penal y la Ley 30096 para incluir el uso de la IA en la comisión de delitos",
+    "url": "https://busquedas.elperuano.pe/api/visor_html/2394851-2"
+   },
+   {
+    "norma": "Ley 28094, Ley de Organizaciones Políticas",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/28094.pdf"
+   },
+   {
+    "norma": "Ley 26859, Ley Orgánica de Elecciones",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/26859.pdf"
+   },
+   {
+    "norma": "Ley 30096, Ley de Delitos Informáticos",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/30096.pdf"
+   }
+  ],
+  "antecedentes": "La Ley 32314 (2025) aborda la dimensión penal del uso de IA en delitos. Proyectos específicos sobre contenido sintético electoral: por verificar en SPLEY.",
+  "referencias_internacionales": [
+   {
+    "pais": "Brasil",
+    "norma": "Resolución TSE 23.732/2024 (uso de IA en propaganda electoral)",
+    "url": "https://www.tse.jus.br/legislacao/compilada/res/2024/resolucao-no-23-732-de-27-de-fevereiro-de-2024"
+   },
+   {
+    "pais": "Unión Europea",
+    "norma": "Reglamento (UE) 2024/1689, art. 50 (transparencia de ultrasuplantaciones)",
+    "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+   },
+   {
+    "pais": "Unión Europea",
+    "norma": "Reglamento (UE) 2024/900 sobre transparencia y segmentación de la publicidad política",
+    "url": "https://eur-lex.europa.eu/eli/reg/2024/900/oj"
+   }
+  ],
+  "comision_sugerida": "Constitución y Reglamento",
+  "comision_secundaria": "Ciencia, Innovación y Tecnología",
+  "plan2050": [
+   "inteligencia-artificial",
+   "institucionalidad",
+   "etica"
+  ],
+  "ods": [
+   16
+  ],
+  "prioridad": "alta",
+  "costo_fiscal": "bajo",
+  "plazo": "corto",
+  "indicador_exito": "Ley y reglamento del JNE vigentes antes de la convocatoria de las Elecciones Regionales y Municipales 2030; denuncias por contenido sintético resueltas en primera instancia en 72 horas o menos en al menos 90% de los casos.",
+  "tags": [
+   "deepfakes",
+   "elecciones",
+   "contenido sintético",
+   "integridad electoral"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Ley 32314, texto consolidado (Congreso de la República)",
+    "url": "https://leyes.congreso.gob.pe/Documentos/2021_2026/ADLP/Texto_Consolidado/32314-TXM.pdf"
+   },
+   {
+    "titulo": "Allende & Brea: La inteligencia artificial llega al Código Penal peruano",
+    "url": "https://allende.com/tecnologia/inteligencia-artificial/la-inteligencia-artificial-llega-al-codigo-penal-peruano-05-06-2025/"
+   },
+   {
+    "titulo": "Reglamento de la Ley 31814 (D.S. 115-2025-PCM)",
+    "url": "https://busquedas.elperuano.pe/dispositivo/NL/2436426-1"
+   }
+  ]
+ },
+ {
+  "id": "IA-08",
+  "eje": "ia",
+  "titulo": "Ley que establece la validación clínica y la vigilancia posterior a la implementación de los sistemas de inteligencia artificial utilizados en la atención de salud",
+  "titulo_corto": "Validación de algoritmos en salud",
+  "sumilla": "Exige que el software con IA de uso diagnóstico, pronóstico o terapéutico se registre como dispositivo médico, acredite validación clínica con población peruana o equivalente y sea objeto de vigilancia de desempeño y de sesgos tras su implementación.",
+  "problema": "El Reglamento de la Ley 31814 califica como de riesgo alto los sistemas de IA que condicionan el acceso a servicios de salud (art. 24.1) y exige evaluación de impacto a las entidades públicas, pero no regula la validez clínica de los algoritmos ni su seguimiento una vez en uso. La Ley 29459 regula los dispositivos médicos y su registro sanitario ante la autoridad nacional, pero fue diseñada para productos físicos y no contempla expresamente el software que aprende o se actualiza, ni la degradación de desempeño cuando el algoritmo se aplica a poblaciones distintas de aquellas con las que fue entrenado. Esto es especialmente relevante en el Perú por su diversidad étnica, geográfica (altura) y epidemiológica: un algoritmo validado en otros países puede tener menor exactitud en pacientes peruanos sin que nadie lo detecte. La Organización Mundial de la Salud, en su guía sobre ética y gobernanza de la IA para la salud (2021), recomienda validación en el contexto de uso, transparencia y vigilancia continua. Esta propuesta aborda solo la gobernanza de los algoritmos clínicos; la telesalud y la historia clínica electrónica corresponden a otro eje.",
+  "objeto": "Establecer requisitos de validación clínica, registro y vigilancia posterior a la implementación de los sistemas de IA usados con fines diagnósticos, pronósticos o terapéuticos.",
+  "articulado": [
+   {
+    "n": "Artículo 1",
+    "titulo": "Objeto",
+    "texto": "La presente ley tiene por objeto garantizar la seguridad, eficacia y equidad de los sistemas de inteligencia artificial utilizados en la atención de salud, mediante su validación clínica, registro y vigilancia posterior a la implementación."
+   },
+   {
+    "n": "Artículo 2",
+    "titulo": "Ámbito",
+    "texto": "La presente ley se aplica a los sistemas de inteligencia artificial destinados a apoyar el diagnóstico, pronóstico, triaje, selección de tratamiento o monitoreo de pacientes, utilizados por establecimientos de salud públicos, privados o mixtos. No comprende los sistemas de uso exclusivamente administrativo."
+   },
+   {
+    "n": "Artículo 3",
+    "titulo": "Incorporación del artículo 4-A a la Ley 29459",
+    "texto": "Incorpórase el artículo 4-A a la Ley 29459, Ley de los Productos Farmacéuticos, Dispositivos Médicos y Productos Sanitarios, con el texto siguiente:\n«Artículo 4-A. Programas informáticos como dispositivos médicos\nSe consideran dispositivos médicos los programas informáticos, incluidos los basados en inteligencia artificial, destinados por su fabricante a fines de diagnóstico, prevención, seguimiento, pronóstico o tratamiento de enfermedades, conforme a la clasificación de riesgo que establezca el reglamento.»"
+   },
+   {
+    "n": "Artículo 4",
+    "titulo": "Validación clínica",
+    "texto": "4.1. El registro sanitario de un sistema de IA de uso clínico requiere evidencia de validación clínica que incluya datos de desempeño desagregados por sexo, grupo etario y, cuando sea pertinente, por ámbito geográfico o condición de altitud.\n4.2. Cuando la validación se haya realizado fuera del país, la autoridad puede exigir un estudio de validación local o un periodo de uso supervisado antes de su uso generalizado, conforme a la clase de riesgo."
+   },
+   {
+    "n": "Artículo 5",
+    "titulo": "Vigilancia posterior a la implementación",
+    "texto": "5.1. El titular del registro sanitario y el establecimiento usuario reportan a la autoridad nacional de productos farmacéuticos, dispositivos médicos y productos sanitarios los incidentes adversos, errores sistemáticos y la degradación significativa del desempeño del sistema.\n5.2. Las actualizaciones del algoritmo que modifiquen su finalidad o su desempeño clínico se comunican antes de su despliegue, conforme a un plan de cambios predeterminado aprobado con el registro."
+   },
+   {
+    "n": "Artículo 6",
+    "titulo": "Supervisión profesional",
+    "texto": "Las decisiones clínicas apoyadas por sistemas de IA son adoptadas bajo responsabilidad del profesional de la salud tratante, quien puede apartarse de la recomendación del sistema dejando constancia en la historia clínica. El paciente tiene derecho a ser informado del uso de dichos sistemas en su atención."
+   },
+   {
+    "n": "Artículo 7",
+    "titulo": "Registro público de sistemas autorizados",
+    "texto": "La autoridad nacional de productos farmacéuticos, dispositivos médicos y productos sanitarios publica en formato abierto la relación de sistemas de IA de uso clínico con registro sanitario vigente, su clase de riesgo, indicación aprobada y resumen de la evidencia de validación."
+   },
+   {
+    "n": "Artículo 8",
+    "titulo": "Datos para validación",
+    "texto": "El Ministerio de Salud promueve conjuntos de datos clínicos anonimizados de referencia, con representatividad nacional, para la validación independiente de sistemas de IA, conforme a la Ley 29733 y a las reglas de anonimización vigentes."
+   }
+  ],
+  "disposiciones": [
+   {
+    "tipo": "Complementaria Final",
+    "n": "Primera",
+    "texto": "Reglamentación. El Ministerio de Salud adecúa el reglamento de dispositivos médicos en un plazo de ciento ochenta días hábiles, tomando como referencia los documentos del International Medical Device Regulators Forum sobre software como dispositivo médico."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Segunda",
+    "texto": "Adecuación. Los sistemas en uso a la entrada en vigencia del reglamento se adecúan en un plazo de dos años."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Tercera",
+    "texto": "Financiamiento. La implementación se financia con cargo al presupuesto institucional del Ministerio de Salud y con los derechos de tramitación correspondientes, sin demandar recursos adicionales al Tesoro Público."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Cuarta",
+    "texto": "Vigencia. La presente ley entra en vigencia al día siguiente de la publicación de su reglamento."
+   }
+  ],
+  "costo_beneficio": "Genera costos para la autoridad sanitaria (capacidades de evaluación de software) y para los fabricantes (estudios de validación), parcialmente cubiertos por derechos de tramitación. Puede retrasar la entrada de algunos productos, lo que se mitiga con la vía de uso supervisado. El beneficio es la prevención de errores diagnósticos sistemáticos que afectan a muchos pacientes a la vez, la detección de sesgos contra grupos subrepresentados y la confianza de profesionales y pacientes, condición para una adopción sostenible de la IA en salud. No genera gasto adicional al Tesoro.",
+  "efecto_vigencia": "Modifica la Ley 29459 (incorpora el art. 4-A); complementa la Ley 31814 y su Reglamento. La numeración del artículo incorporado debe verificarse contra el texto vigente de la Ley 29459.",
+  "normas_relacionadas": [
+   {
+    "norma": "Ley 29459, Ley de los Productos Farmacéuticos, Dispositivos Médicos y Productos Sanitarios",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/29459.pdf"
+   },
+   {
+    "norma": "Decreto Supremo 115-2025-PCM, Reglamento de la Ley 31814 (art. 24.1, riesgo alto en salud)",
+    "url": "https://busquedas.elperuano.pe/dispositivo/NL/2436426-1"
+   },
+   {
+    "norma": "Ley 29733, Ley de Protección de Datos Personales",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/29733.pdf"
+   }
+  ],
+  "antecedentes": "Por verificar en SPLEY.",
+  "referencias_internacionales": [
+   {
+    "pais": "Global",
+    "norma": "OMS, Ethics and governance of artificial intelligence for health (2021)",
+    "url": "https://www.who.int/publications/i/item/9789240029200"
+   },
+   {
+    "pais": "Unión Europea",
+    "norma": "Reglamento (UE) 2024/1689, art. 6 y Anexo I (sistemas de alto riesgo que son productos sanitarios)",
+    "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+   },
+   {
+    "pais": "OCDE",
+    "norma": "Recomendación del Consejo sobre Inteligencia Artificial",
+    "url": "https://legalinstruments.oecd.org/en/instruments/OECD-LEGAL-0449"
+   }
+  ],
+  "comision_sugerida": "Salud y Población",
+  "comision_secundaria": "Ciencia, Innovación y Tecnología",
+  "plan2050": [
+   "salud",
+   "inteligencia-artificial"
+  ],
+  "ods": [
+   3,
+   9
+  ],
+  "prioridad": "media",
+  "costo_fiscal": "bajo",
+  "plazo": "mediano",
+  "indicador_exito": "Al 2031, registro público de sistemas de IA de uso clínico operativo, con 100% de los sistemas usados en establecimientos públicos registrados y con reporte anual de vigilancia de desempeño.",
+  "tags": [
+   "salud",
+   "dispositivos médicos",
+   "validación clínica",
+   "sesgo algorítmico"
+  ],
+  "fuentes": [
+   {
+    "titulo": "OMS, Ethics and governance of AI for health",
+    "url": "https://www.who.int/publications/i/item/9789240029200"
+   },
+   {
+    "titulo": "Reglamento de la Ley 31814 (D.S. 115-2025-PCM)",
+    "url": "https://busquedas.elperuano.pe/dispositivo/NL/2436426-1"
+   }
+  ]
+ },
+ {
+  "id": "IA-09",
+  "eje": "ia",
+  "titulo": "Ley que establece garantías para el uso de sistemas de inteligencia artificial en el Poder Judicial, el Ministerio Público y los órganos que ejercen función jurisdiccional",
+  "titulo_corto": "IA en justicia y fiscalía",
+  "sumilla": "Fija los usos permitidos y prohibidos de la IA en el sistema de justicia, prohíbe que un sistema decida el fondo de una controversia, obliga a revelar su uso en resoluciones y disposiciones fiscales y exige verificación humana de toda cita normativa o jurisprudencial generada con IA.",
+  "problema": "La Ley 31814 declara de interés nacional el fomento de la IA en la justicia (art. 2), y la digitalización de expedientes y la carga procesal impulsan el uso de herramientas de IA para clasificar casos, transcribir audiencias, buscar jurisprudencia o redactar borradores. Sin embargo, no existe una norma con rango de ley que establezca garantías específicas para la función jurisdiccional y fiscal, donde está en juego el debido proceso, la motivación de resoluciones y la independencia judicial (art. 139 de la Constitución). El Reglamento de la Ley 31814 prohíbe la predicción de delitos basada en perfilado (art. 23.1), pero no regula el uso de IA generativa en la redacción de resoluciones ni el deber de revelar su uso. La experiencia comparada muestra riesgos concretos: la Corte Constitucional de Colombia, en la Sentencia T-323 de 2024, analizó el uso de una herramienta de IA generativa por un juez y fijó criterios orientadores sobre transparencia y responsabilidad. El Reglamento europeo de IA califica como de alto riesgo los sistemas destinados a asistir a autoridades judiciales en la interpretación de hechos y del derecho (Anexo III).",
+  "objeto": "Establecer garantías, usos permitidos y prohibidos, y deberes de transparencia en el uso de IA por el Poder Judicial, el Ministerio Público, el Tribunal Constitucional, la Junta Nacional de Justicia y los órganos de resolución de controversias administrativas.",
+  "articulado": [
+   {
+    "n": "Artículo 1",
+    "titulo": "Objeto",
+    "texto": "La presente ley tiene por objeto establecer garantías para el uso de sistemas de inteligencia artificial en el ejercicio de la función jurisdiccional y fiscal, a fin de preservar el debido proceso, la motivación de las resoluciones y la independencia de jueces y fiscales."
+   },
+   {
+    "n": "Artículo 2",
+    "titulo": "Ámbito",
+    "texto": "La presente ley se aplica al Poder Judicial, al Ministerio Público, al Tribunal Constitucional, a la Junta Nacional de Justicia, a los tribunales administrativos y a los árbitros en arbitrajes en los que el Estado sea parte."
+   },
+   {
+    "n": "Artículo 3",
+    "titulo": "Usos permitidos",
+    "texto": "Pueden utilizarse sistemas de inteligencia artificial, bajo supervisión humana, para: a) gestión, clasificación y reparto de expedientes conforme a criterios objetivos públicos; b) transcripción y traducción, incluida la traducción a lenguas originarias; c) búsqueda y sistematización de normas y jurisprudencia; d) anonimización de resoluciones para su publicación; y e) elaboración de borradores sujetos a revisión íntegra por el magistrado, fiscal o servidor responsable."
+   },
+   {
+    "n": "Artículo 4",
+    "titulo": "Usos prohibidos",
+    "texto": "Se prohíbe: a) que un sistema de inteligencia artificial decida el fondo de una controversia, la responsabilidad penal, la imposición de medidas coercitivas personales o la valoración de la prueba; b) el uso de sistemas que asignen puntuaciones de peligrosidad o reincidencia a personas basadas en perfilado; y c) el ingreso de información reservada o datos personales sensibles de las partes en servicios de IA que no garanticen su confidencialidad y su no utilización para entrenamiento."
+   },
+   {
+    "n": "Artículo 5",
+    "titulo": "Deber de transparencia",
+    "texto": "5.1. Cuando en la elaboración de una resolución, dictamen o disposición fiscal se haya utilizado un sistema de IA generativa, ello se consigna expresamente, indicando la herramienta y la finalidad.\n5.2. Las partes tienen derecho a conocer si un sistema de IA intervino en la gestión o reparto de su caso."
+   },
+   {
+    "n": "Artículo 6",
+    "titulo": "Verificación de citas y fuentes",
+    "texto": "Toda cita normativa, jurisprudencial o doctrinaria contenida en una resolución, dictamen, disposición fiscal o escrito presentado por las partes que haya sido obtenida mediante IA generativa es verificada por quien la suscribe. La inclusión de citas inexistentes constituye falta disciplinaria, sin perjuicio de otras responsabilidades."
+   },
+   {
+    "n": "Artículo 7",
+    "titulo": "Registro y evaluación",
+    "texto": "Cada institución mantiene un registro público de los sistemas de IA que utiliza y de su finalidad, y realiza una evaluación de impacto en derechos antes de su implementación, cuyo resumen se publica, en concordancia con el Registro Nacional de Algoritmos Públicos que se cree por ley."
+   },
+   {
+    "n": "Artículo 8",
+    "titulo": "Capacitación",
+    "texto": "La Academia de la Magistratura y las escuelas del Ministerio Público incorporan en sus programas formación obligatoria sobre uso responsable de la IA, sus limitaciones y sesgos."
+   },
+   {
+    "n": "Artículo 9",
+    "titulo": "Independencia y autonomía",
+    "texto": "La presente ley se aplica respetando la autonomía de los organismos comprendidos, que aprueban sus propios lineamientos de desarrollo dentro de los límites aquí establecidos."
+   }
+  ],
+  "disposiciones": [
+   {
+    "tipo": "Complementaria Final",
+    "n": "Primera",
+    "texto": "Lineamientos. Cada organismo comprendido aprueba sus lineamientos internos de uso de IA en un plazo de ciento veinte días hábiles desde la vigencia de la presente ley."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Segunda",
+    "texto": "Financiamiento. La implementación se financia con cargo al presupuesto institucional de los organismos comprendidos, sin demandar recursos adicionales al Tesoro Público."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Tercera",
+    "texto": "Vigencia. La presente ley entra en vigencia al día siguiente de su publicación."
+   }
+  ],
+  "costo_beneficio": "El costo es bajo: la ley ordena usos y deberes, no adquiere sistemas. La capacitación se integra a programas existentes de la Academia de la Magistratura. El beneficio es permitir que la IA contribuya a reducir la carga procesal en tareas instrumentales (transcripción, búsqueda, reparto, anonimización) con seguridad jurídica, mientras se protege el núcleo de la función jurisdiccional y se previenen nulidades por motivación deficiente o citas falsas generadas por IA. No genera gasto adicional al Tesoro. El riesgo de no legislar es que cada despacho adopte herramientas comerciales sin criterios comunes, con exposición de datos reservados de las partes.",
+  "efecto_vigencia": "Complementa la Ley 31814, la Ley Orgánica del Poder Judicial y la Ley Orgánica del Ministerio Público. No deroga normas.",
+  "normas_relacionadas": [
+   {
+    "norma": "Ley 31814 (art. 2, interés nacional del uso de IA en justicia)",
+    "url": "https://busquedas.elperuano.pe/dispositivo/NL/2192926-1"
+   },
+   {
+    "norma": "Decreto Supremo 115-2025-PCM, Reglamento de la Ley 31814 (art. 23, usos indebidos)",
+    "url": "https://busquedas.elperuano.pe/dispositivo/NL/2436426-1"
+   },
+   {
+    "norma": "Ley 29733, Ley de Protección de Datos Personales",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/29733.pdf"
+   }
+  ],
+  "antecedentes": "Por verificar en SPLEY.",
+  "referencias_internacionales": [
+   {
+    "pais": "Colombia",
+    "norma": "Corte Constitucional, Sentencia T-323 de 2024 (uso de IA generativa por un juez)",
+    "url": "https://www.corteconstitucional.gov.co/relatoria/2024/t-323-24.htm"
+   },
+   {
+    "pais": "Unión Europea",
+    "norma": "Reglamento (UE) 2024/1689, Anexo III, punto 8 (administración de justicia como alto riesgo)",
+    "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+   },
+   {
+    "pais": "Consejo de Europa",
+    "norma": "CEPEJ, Carta Ética Europea sobre el uso de la IA en los sistemas judiciales (2018)",
+    "url": "https://rm.coe.int/ethical-charter-en-for-publication-4-december-2018/16808f699c"
+   }
+  ],
+  "comision_sugerida": "Justicia y Derechos Humanos",
+  "comision_secundaria": "Ciencia, Innovación y Tecnología",
+  "plan2050": [
+   "reforma-judicial",
+   "inteligencia-artificial",
+   "institucionalidad"
+  ],
+  "ods": [
+   16
+  ],
+  "prioridad": "alta",
+  "costo_fiscal": "nulo",
+  "plazo": "corto",
+  "indicador_exito": "Al 2028, Poder Judicial, Ministerio Público y Tribunal Constitucional con lineamientos aprobados y registro público de sistemas de IA; al 2031, 100% de magistrados y fiscales capacitados en uso responsable de IA.",
+  "tags": [
+   "justicia",
+   "debido proceso",
+   "IA generativa",
+   "fiscalía"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Corte Constitucional de Colombia, Sentencia T-323/24",
+    "url": "https://www.corteconstitucional.gov.co/relatoria/2024/t-323-24.htm"
+   },
+   {
+    "titulo": "Reglamento de la Ley 31814 (D.S. 115-2025-PCM)",
+    "url": "https://busquedas.elperuano.pe/dispositivo/NL/2436426-1"
+   },
+   {
+    "titulo": "UNESCO, Recomendación sobre la ética de la IA",
+    "url": "https://www.unesco.org/en/articles/recommendation-ethics-artificial-intelligence"
+   }
+  ]
+ },
+ {
+  "id": "IA-10",
+  "eje": "ia",
+  "titulo": "Ley que regula la anonimización, los datos sintéticos y los entornos seguros de acceso a datos públicos para investigación e inteligencia artificial",
+  "titulo_corto": "Anonimización y datos sintéticos",
+  "sumilla": "Define con rango de ley los estándares de anonimización y de datos sintéticos, crea entornos seguros de acceso para investigadores acreditados a microdatos públicos y sanciona la reidentificación deliberada de personas.",
+  "problema": "La investigación y el desarrollo de IA requieren datos detallados (microdatos de salud, educación, programas sociales, registros administrativos), pero su apertura choca legítimamente con la protección de datos personales. La Ley 29733 define los datos disociados, pero no fija un estándar técnico de anonimización con rango de ley ni regula los datos sintéticos. Según reportes oficiales y de la prensa jurídica sobre el nuevo Reglamento de la Ley 29733 (D.S. 016-2024-JUS), la Autoridad Nacional de Protección de Datos Personales puede emitir normas complementarias sobre disociación y anonimización, pero esto deja a investigadores y entidades sin reglas estables y vinculantes para todo el Estado. Como consecuencia, muchas entidades optan por no compartir datos ante el riesgo de sanción, o los comparten sin garantías suficientes. Además, la reidentificación de personas a partir de datos supuestamente anónimos, técnicamente posible con IA, no está tipificada como infracción específica. El Plan IA Perú 2050 (CIP/CNPP) plantea los datos como activo nacional, y la Estrategia Nacional de Gobierno de Datos 2026–2030 incluye la calidad y privacidad entre sus ejes. Experiencias como las guías de la ICO británica, el NIST (SP 800-188) y el Reglamento europeo de gobernanza de datos ofrecen modelos verificables.",
+  "objeto": "Establecer el régimen de anonimización, de generación de datos sintéticos y de entornos seguros de acceso a datos públicos para investigación e IA, y sancionar la reidentificación.",
+  "articulado": [
+   {
+    "n": "Artículo 1",
+    "titulo": "Objeto",
+    "texto": "La presente ley tiene por objeto habilitar la reutilización segura de datos públicos para la investigación y el desarrollo de inteligencia artificial, mediante reglas de anonimización, datos sintéticos y entornos seguros de acceso, garantizando la protección de datos personales."
+   },
+   {
+    "n": "Artículo 2",
+    "titulo": "Definiciones",
+    "texto": "Para efectos de la presente ley: a) Anonimización: procedimiento irreversible que impide, con medios razonablemente previsibles, identificar directa o indirectamente al titular; b) Seudonimización: sustitución de identificadores que permite la reidentificación con información adicional custodiada por separado; c) Datos sintéticos: datos generados artificialmente a partir de modelos estadísticos o de IA que reproducen propiedades de un conjunto original sin corresponder a personas reales; d) Entorno seguro de acceso: infraestructura controlada donde investigadores acreditados analizan datos seudonimizados sin poder extraerlos."
+   },
+   {
+    "n": "Artículo 3",
+    "titulo": "Estándar de anonimización y de datos sintéticos",
+    "texto": "3.1. La Autoridad Nacional de Protección de Datos Personales, en coordinación con el Instituto Nacional de Estadística e Informática (INEI) y la Secretaría de Gobierno y Transformación Digital, aprueba el estándar técnico de anonimización y de generación y evaluación de datos sintéticos, que incluye pruebas de riesgo de reidentificación y métricas de utilidad.\n3.2. Los datos anonimizados y los datos sintéticos que cumplan el estándar no constituyen datos personales para efectos de la Ley 29733."
+   },
+   {
+    "n": "Artículo 4",
+    "titulo": "Entornos seguros de acceso",
+    "texto": "4.1. El INEI y las entidades que custodien registros administrativos de alto valor pueden implementar entornos seguros de acceso para investigadores acreditados.\n4.2. El acceso se otorga por proyecto, con finalidad de interés público o científico, compromiso de confidencialidad, registro de consultas y control de los resultados antes de su publicación.\n4.3. La relación de proyectos autorizados se publica."
+   },
+   {
+    "n": "Artículo 5",
+    "titulo": "Acreditación de investigadores",
+    "texto": "Pueden acreditarse investigadores de universidades, institutos de investigación y entidades públicas, y de empresas en proyectos colaborativos con estos, conforme a los requisitos del reglamento, que incluyen capacitación en protección de datos y la suscripción de un acuerdo de uso."
+   },
+   {
+    "n": "Artículo 6",
+    "titulo": "Incorporación del artículo 14-A a la Ley 29733",
+    "texto": "Incorpórase el artículo 14-A a la Ley 29733, Ley de Protección de Datos Personales, con el texto siguiente:\n«Artículo 14-A. Tratamiento para investigación y desarrollo de inteligencia artificial\nNo se requiere el consentimiento del titular para el tratamiento de datos personales seudonimizados con fines de investigación científica o estadística de interés público, incluido el desarrollo y evaluación de sistemas de inteligencia artificial, siempre que se realice dentro de un entorno seguro de acceso autorizado conforme a ley, con medidas que impidan la reidentificación y sin adoptar decisiones sobre personas concretas.»"
+   },
+   {
+    "n": "Artículo 7",
+    "titulo": "Prohibición de reidentificación",
+    "texto": "7.1. Se prohíbe reidentificar o intentar reidentificar a personas a partir de datos anonimizados, seudonimizados o sintéticos, salvo en pruebas de robustez autorizadas por la entidad responsable.\n7.2. La reidentificación constituye infracción muy grave en el régimen sancionador de la Ley 29733, sin perjuicio de la responsabilidad penal que corresponda."
+   },
+   {
+    "n": "Artículo 8",
+    "titulo": "Uso de datos sintéticos en el Estado",
+    "texto": "Las entidades públicas priorizan el uso de datos sintéticos que cumplan el estándar para pruebas de software, capacitación y entrenamiento inicial de sistemas de IA, cuando ello sea técnicamente viable."
+   }
+  ],
+  "disposiciones": [
+   {
+    "tipo": "Complementaria Final",
+    "n": "Primera",
+    "texto": "Reglamentación. El Poder Ejecutivo, mediante decreto supremo refrendado por el Ministerio de Justicia y Derechos Humanos y la Presidencia del Consejo de Ministros, reglamenta la presente ley en un plazo de ciento veinte días hábiles."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Segunda",
+    "texto": "Financiamiento. La implementación se financia con cargo al presupuesto institucional de las entidades involucradas, sin demandar recursos adicionales al Tesoro Público."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Tercera",
+    "texto": "Vigencia. La presente ley entra en vigencia al día siguiente de la publicación de su reglamento."
+   }
+  ],
+  "costo_beneficio": "El costo es bajo a moderado: el INEI ya administra microdatos y puede ampliar sus servicios de acceso; los entornos seguros pueden implementarse gradualmente sobre infraestructura existente. El beneficio es destrabar el uso de datos públicos para investigación en políticas sociales, salud y educación, y para entrenar y evaluar modelos con información nacional, sin sacrificar la privacidad. La tipificación de la reidentificación disuade abusos que la IA hace más fáciles. No genera gasto adicional al Tesoro. La gradualidad permite empezar por los registros con mayor demanda de investigadores y ampliar según la experiencia.",
+  "efecto_vigencia": "Modifica la Ley 29733 (incorpora el art. 14-A y una infracción muy grave); complementa su Reglamento (D.S. 016-2024-JUS) y la normativa del Sistema Estadístico Nacional.",
+  "normas_relacionadas": [
+   {
+    "norma": "Ley 29733, Ley de Protección de Datos Personales",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/29733.pdf"
+   },
+   {
+    "norma": "Decreto Supremo 016-2024-JUS, nuevo Reglamento de la Ley 29733 (nota oficial de El Peruano)",
+    "url": "https://elperuano.pe/noticia/258993-proteccion-de-datos-personales-ejecutivo-aprueba-nuevo-reglamento-de-la-ley-n-29733"
+   },
+   {
+    "norma": "Decreto Legislativo 1412, Ley de Gobierno Digital",
+    "url": "https://www.gob.pe/institucion/pcm/normas-legales/289706-1412"
+   }
+  ],
+  "antecedentes": "Por verificar en SPLEY.",
+  "referencias_internacionales": [
+   {
+    "pais": "Unión Europea",
+    "norma": "Reglamento (UE) 2022/868 de Gobernanza de Datos (reutilización de datos protegidos del sector público en entornos seguros)",
+    "url": "https://eur-lex.europa.eu/eli/reg/2022/868/oj"
+   },
+   {
+    "pais": "Estados Unidos",
+    "norma": "NIST SP 800-188, De-Identifying Government Datasets",
+    "url": "https://csrc.nist.gov/pubs/sp/800/188/final"
+   },
+   {
+    "pais": "Reino Unido",
+    "norma": "ICO, guía sobre anonimización",
+    "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-sharing/anonymisation/"
+   }
+  ],
+  "comision_sugerida": "Justicia y Derechos Humanos",
+  "comision_secundaria": "Ciencia, Innovación y Tecnología",
+  "plan2050": [
+   "inteligencia-artificial",
+   "ciencia-y-tecnologia",
+   "peru-en-la-era-digital"
+  ],
+  "ods": [
+   9,
+   16
+  ],
+  "prioridad": "media",
+  "costo_fiscal": "bajo",
+  "plazo": "mediano",
+  "indicador_exito": "Al 2031, estándar de anonimización y datos sintéticos aprobado y al menos cinco entornos seguros de acceso operativos (INEI y cuatro registros administrativos de alto valor) con proyectos autorizados publicados.",
+  "tags": [
+   "anonimización",
+   "datos sintéticos",
+   "privacidad",
+   "investigación"
+  ],
+  "fuentes": [
+   {
+    "titulo": "El Peruano: Ejecutivo aprueba nuevo reglamento de la Ley 29733",
+    "url": "https://elperuano.pe/noticia/258993-proteccion-de-datos-personales-ejecutivo-aprueba-nuevo-reglamento-de-la-ley-n-29733"
+   },
+   {
+    "titulo": "NIST SP 800-188",
+    "url": "https://csrc.nist.gov/pubs/sp/800/188/final"
+   },
+   {
+    "titulo": "Plan Perú 2050 (CNPP/CIP), dashboard de comisiones temáticas",
+    "url": "https://planperu2050.pe"
+   }
+  ]
+ },
+ {
+  "id": "IA-11",
+  "eje": "ia",
+  "titulo": "Ley que crea la Autoridad Nacional de Protección de Datos Personales como organismo técnico especializado con autonomía funcional",
+  "titulo_corto": "ANPD autónoma",
+  "sumilla": "Transfiere la Autoridad Nacional de Protección de Datos Personales, hoy órgano del Ministerio de Justicia, a un organismo técnico especializado con autonomía técnica, funcional y administrativa, dirección colegiada seleccionada por concurso y capacidades de supervisión de tratamientos automatizados.",
+  "problema": "El artículo 32 de la Ley 29733 asigna la condición de Autoridad Nacional de Protección de Datos Personales al Ministerio de Justicia y Derechos Humanos, a través de una de sus direcciones. Este diseño plantea dos problemas. Primero, la autoridad supervisa y sanciona a entidades públicas, incluidos otros ministerios, desde dentro del propio Poder Ejecutivo, lo que limita su independencia percibida y real. Segundo, la expansión de la IA multiplica los tratamientos masivos y automatizados de datos personales, y el Reglamento de la Ley 31814 remite expresamente al régimen de la Ley 29733 para las infracciones en protección de datos (art. 26.2) y designa a esta autoridad como canal de denuncias (art. 36.2), sin dotarla de mayor rango ni capacidades técnicas. La Recomendación de la OCDE sobre privacidad y los estándares internacionales recomiendan autoridades de control independientes. Chile, con la Ley 21.719 (2024), creó una Agencia de Protección de Datos Personales autónoma; la Unión Europea exige independencia a sus autoridades (RGPD, art. 52); y la adecuación de un país a estándares de transferencia internacional de datos depende en buena medida de la independencia de su autoridad, lo que también incide en la economía digital y el comercio de servicios.",
+  "objeto": "Crear la Autoridad Nacional de Protección de Datos Personales como organismo técnico especializado adscrito a la Presidencia del Consejo de Ministros, con autonomía técnica, funcional, administrativa, económica y financiera.",
+  "articulado": [
+   {
+    "n": "Artículo 1",
+    "titulo": "Objeto",
+    "texto": "La presente ley tiene por objeto crear la Autoridad Nacional de Protección de Datos Personales (ANPD) como organismo técnico especializado y fortalecer sus capacidades de supervisión, incluyendo los tratamientos automatizados y los realizados mediante sistemas de inteligencia artificial."
+   },
+   {
+    "n": "Artículo 2",
+    "titulo": "Naturaleza jurídica",
+    "texto": "La ANPD es un organismo técnico especializado adscrito a la Presidencia del Consejo de Ministros, con personería jurídica de derecho público interno y autonomía técnica, funcional, administrativa, económica y financiera. Constituye pliego presupuestal. En el ejercicio de sus funciones de supervisión y sanción no está sujeta a mandato imperativo de ninguna entidad."
+   },
+   {
+    "n": "Artículo 3",
+    "titulo": "Modificación del artículo 32 de la Ley 29733",
+    "texto": "Modifícase el artículo 32 de la Ley 29733, Ley de Protección de Datos Personales, con el texto siguiente:\n«Artículo 32. Órgano competente y régimen jurídico\nLa Autoridad Nacional de Protección de Datos Personales es un organismo técnico especializado con autonomía técnica, funcional, administrativa, económica y financiera, encargado de cumplir las funciones previstas en la presente ley y su reglamento, así como de supervisar los tratamientos automatizados de datos personales, incluidos los realizados mediante sistemas de inteligencia artificial.»"
+   },
+   {
+    "n": "Artículo 4",
+    "titulo": "Consejo Directivo",
+    "texto": "4.1. La ANPD está dirigida por un Consejo Directivo de tres miembros, uno de los cuales la preside, designados por resolución suprema refrendada por la Presidencia del Consejo de Ministros, previo concurso público de méritos conducido por la Autoridad Nacional del Servicio Civil.\n4.2. Los miembros ejercen el cargo por cinco años, con renovación escalonada, y solo pueden ser removidos por falta grave debidamente comprobada, conforme al reglamento.\n4.3. Se requiere experiencia acreditada no menor de diez años en derecho, tecnologías de la información o ciencia de datos, y no haber ejercido cargos de dirección en partidos políticos en los cinco años previos."
+   },
+   {
+    "n": "Artículo 5",
+    "titulo": "Funciones adicionales",
+    "texto": "Además de las previstas en la Ley 29733, la ANPD tiene las funciones siguientes: a) supervisar y auditar tratamientos automatizados y sistemas de IA que traten datos personales; b) aprobar estándares de evaluación de impacto en protección de datos; c) emitir opinión técnica vinculante en materia de datos personales en el espacio controlado de pruebas de IA; d) cooperar con autoridades extranjeras de protección de datos; y e) emitir opinión sobre proyectos normativos que impliquen tratamiento de datos personales."
+   },
+   {
+    "n": "Artículo 6",
+    "titulo": "Recursos",
+    "texto": "Constituyen recursos de la ANPD: a) los asignados en la ley anual de presupuesto; b) los recursos transferidos por el Ministerio de Justicia y Derechos Humanos correspondientes a la dirección que actualmente ejerce las funciones; c) lo recaudado por multas, una vez consentidas, y por derechos de tramitación; y d) los provenientes de la cooperación técnica internacional."
+   },
+   {
+    "n": "Artículo 7",
+    "titulo": "Unidad de supervisión algorítmica",
+    "texto": "La ANPD cuenta con un órgano especializado en la supervisión técnica de tratamientos automatizados y sistemas de inteligencia artificial, que coordina con la Secretaría de Gobierno y Transformación Digital y con el Instituto Nacional de Defensa de la Competencia y de la Protección de la Propiedad Intelectual."
+   },
+   {
+    "n": "Artículo 8",
+    "titulo": "Transparencia y rendición de cuentas",
+    "texto": "La ANPD publica sus resoluciones sancionadoras firmes, sus lineamientos y un informe anual de gestión, que presenta ante la comisión ordinaria competente del Congreso de la República."
+   }
+  ],
+  "disposiciones": [
+   {
+    "tipo": "Complementaria Final",
+    "n": "Primera",
+    "texto": "Transferencia. En un plazo de ciento ochenta días hábiles, el Ministerio de Justicia y Derechos Humanos transfiere a la ANPD el acervo documentario, los procedimientos en trámite, bienes, personal y recursos presupuestales de la dirección que ejerce actualmente las funciones de autoridad, conforme a la normativa de transferencia de funciones."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Segunda",
+    "texto": "Reglamentación. El Poder Ejecutivo aprueba el Reglamento de Organización y Funciones de la ANPD y adecúa el Reglamento de la Ley 29733 en un plazo de ciento ochenta días hábiles."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Tercera",
+    "texto": "Financiamiento. La implementación se financia con cargo a los recursos transferidos y a los recursos propios previstos en el artículo 6, sin demandar recursos adicionales al Tesoro Público."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Cuarta",
+    "texto": "Vigencia. La presente ley entra en vigencia al día siguiente de su publicación; las funciones se ejercen por la ANPD a partir de la culminación de la transferencia."
+   }
+  ],
+  "costo_beneficio": "Tiene costo fiscal medio: la creación de un pliego implica gastos de soporte administrativo que hoy asume el Ministerio de Justicia. Se mitiga con la transferencia de recursos existentes y con ingresos propios por multas y tasas; aun así, el fortalecimiento real requerirá priorización presupuestal del Poder Ejecutivo. El beneficio es una autoridad con independencia suficiente para supervisar al propio Estado y a grandes plataformas, mejores condiciones para la adecuación internacional en transferencias de datos y capacidad técnica para auditar tratamientos con IA. Por el artículo 79 de la Constitución, la iniciativa no crea gasto adicional: reordena recursos existentes.",
+  "efecto_vigencia": "Modifica el art. 32 de la Ley 29733; requiere adecuar el Reglamento de la Ley 29733 (D.S. 016-2024-JUS) y el ROF del Ministerio de Justicia. Se enmarca en la Ley 29158, Ley Orgánica del Poder Ejecutivo, respecto de organismos técnicos especializados.",
+  "normas_relacionadas": [
+   {
+    "norma": "Ley 29733, Ley de Protección de Datos Personales (art. 32)",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/29733.pdf"
+   },
+   {
+    "norma": "Ley 29158, Ley Orgánica del Poder Ejecutivo",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/29158.pdf"
+   },
+   {
+    "norma": "Decreto Supremo 115-2025-PCM, Reglamento de la Ley 31814 (arts. 26.2 y 36.2)",
+    "url": "https://busquedas.elperuano.pe/dispositivo/NL/2436426-1"
+   }
+  ],
+  "antecedentes": "Por verificar en SPLEY.",
+  "referencias_internacionales": [
+   {
+    "pais": "Chile",
+    "norma": "Ley 21.719 que regula la protección y el tratamiento de los datos personales y crea la Agencia de Protección de Datos Personales",
+    "url": "https://www.bcn.cl/balance-legislativo/detalle/ficha_LEY_21719_2024-12-13"
+   },
+   {
+    "pais": "Unión Europea",
+    "norma": "Reglamento (UE) 2016/679 (RGPD), arts. 51 a 59 (autoridades de control independientes)",
+    "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj"
+   },
+   {
+    "pais": "Brasil",
+    "norma": "Lei 13.709/2018 (LGPD), Autoridad Nacional de Protección de Datos (ANPD)",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm"
+   }
+  ],
+  "comision_sugerida": "Descentralización, Regionalización, Gobiernos Locales y Modernización de la Gestión del Estado",
+  "comision_secundaria": "Justicia y Derechos Humanos",
+  "plan2050": [
+   "institucionalidad",
+   "inteligencia-artificial",
+   "reforma-del-estado"
+  ],
+  "ods": [
+   16
+  ],
+  "prioridad": "alta",
+  "costo_fiscal": "medio",
+  "plazo": "mediano",
+  "indicador_exito": "Al 2029, ANPD operando como organismo técnico especializado con Consejo Directivo seleccionado por concurso; al 2031, órgano de supervisión algorítmica con al menos una auditoría anual publicada de tratamientos automatizados en el Estado.",
+  "tags": [
+   "protección de datos",
+   "autoridad independiente",
+   "supervisión",
+   "institucionalidad"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Autoridad Nacional de Protección de Datos Personales (gob.pe)",
+    "url": "https://www.gob.pe/anpd"
+   },
+   {
+    "titulo": "BCN, Balance legislativo de la Ley 21.719 (Chile)",
+    "url": "https://www.bcn.cl/balance-legislativo/detalle/ficha_LEY_21719_2024-12-13"
+   },
+   {
+    "titulo": "OCDE, Recomendación del Consejo sobre IA",
+    "url": "https://legalinstruments.oecd.org/en/instruments/OECD-LEGAL-0449"
+   }
+  ]
+ },
+ {
+  "id": "IA-12",
+  "eje": "ia",
+  "titulo": "Ley que reconoce el derecho a la portabilidad de los datos personales y establece obligaciones de interoperabilidad para los servicios digitales",
+  "titulo_corto": "Portabilidad de datos",
+  "sumilla": "Incorpora en la Ley 29733 el derecho del titular a recibir sus datos en formato estructurado y legible por máquina y a transmitirlos a otro proveedor, incluida la transmisión directa vía API, con plazos y excepciones definidos.",
+  "problema": "La Ley 29733 reconoce los derechos de información, acceso, rectificación, cancelación, oposición y tratamiento objetivo, pero no consagra a nivel legal el derecho a la portabilidad. Según la prensa jurídica, el nuevo Reglamento (D.S. 016-2024-JUS) habilita a la autoridad a emitir normas complementarias sobre portabilidad, pero un derecho sustantivo con efectos sobre la libertad de empresa requiere rango de ley para ser plenamente exigible. La ausencia de portabilidad tiene efectos en dos planos. En el plano de derechos, el titular no controla efectivamente sus datos ni puede reutilizarlos. En el plano económico, los datos acumulados por plataformas dominantes generan efectos de retención: cambiar de proveedor implica perder historial, reputación o configuraciones, lo que reduce la competencia y dificulta la entrada de nuevas empresas, incluidas startups de IA que necesitan datos con consentimiento del usuario. La portabilidad es un derecho reconocido en el RGPD europeo (art. 20), en la LGPD brasileña (art. 18) y en la Ley 21.719 chilena. Esta propuesta excluye la portabilidad financiera (finanzas abiertas), que corresponde a otro eje de esta agenda.",
+  "objeto": "Reconocer el derecho a la portabilidad de datos personales y establecer obligaciones de interoperabilidad para los responsables de tratamiento de servicios digitales.",
+  "articulado": [
+   {
+    "n": "Artículo 1",
+    "titulo": "Objeto",
+    "texto": "La presente ley tiene por objeto reconocer el derecho a la portabilidad de los datos personales y establecer obligaciones de interoperabilidad que permitan su ejercicio efectivo."
+   },
+   {
+    "n": "Artículo 2",
+    "titulo": "Incorporación del artículo 21-A a la Ley 29733",
+    "texto": "Incorpórase el artículo 21-A a la Ley 29733, Ley de Protección de Datos Personales, con el texto siguiente:\n«Artículo 21-A. Derecho a la portabilidad\n21-A.1. El titular de datos personales tiene derecho a recibir del responsable del tratamiento, en un formato estructurado, de uso común y legible por máquina, los datos personales que le conciernan y que haya facilitado o que se hayan generado por su actividad, cuando el tratamiento se base en su consentimiento o en un contrato y se efectúe por medios automatizados.\n21-A.2. El titular tiene derecho a que sus datos se transmitan directamente de un responsable a otro, cuando sea técnicamente posible.\n21-A.3. El ejercicio de este derecho es gratuito y no afecta los derechos de terceros ni el derecho de cancelación.»"
+   },
+   {
+    "n": "Artículo 3",
+    "titulo": "Plazo de atención",
+    "texto": "El responsable atiende la solicitud de portabilidad en un plazo no mayor de veinte días hábiles, prorrogable por igual plazo cuando la complejidad lo justifique, informando al titular de la prórroga y sus motivos."
+   },
+   {
+    "n": "Artículo 4",
+    "titulo": "Interfaces de programación",
+    "texto": "4.1. Los responsables de tratamiento que presten servicios digitales a más del número de usuarios en el país que fije el reglamento ponen a disposición interfaces de programación seguras para la transmisión directa de datos a solicitud del titular.\n4.2. La Autoridad Nacional de Protección de Datos Personales, en coordinación con la Secretaría de Gobierno y Transformación Digital, aprueba los estándares mínimos de formatos y seguridad."
+   },
+   {
+    "n": "Artículo 5",
+    "titulo": "Excepciones",
+    "texto": "No procede la portabilidad respecto de: a) datos inferidos o derivados por el responsable mediante análisis propios, salvo que el reglamento disponga lo contrario para categorías específicas; b) datos cuyo tratamiento sea necesario para el cumplimiento de una función pública; y c) datos cuya entrega afecte secretos comerciales o derechos de terceros, debiendo entregarse en todo caso la información no afectada."
+   },
+   {
+    "n": "Artículo 6",
+    "titulo": "Seguridad y verificación",
+    "texto": "El responsable verifica la identidad del solicitante mediante mecanismos proporcionales, incluida la identidad digital del Estado, y adopta medidas de seguridad para evitar transmisiones fraudulentas. El responsable receptor trata los datos conforme a la Ley 29733."
+   },
+   {
+    "n": "Artículo 7",
+    "titulo": "Infracciones",
+    "texto": "La negativa injustificada a atender el derecho de portabilidad o la imposición de obstáculos técnicos deliberados constituye infracción grave conforme al régimen sancionador de la Ley 29733."
+   }
+  ],
+  "disposiciones": [
+   {
+    "tipo": "Complementaria Final",
+    "n": "Primera",
+    "texto": "Reglamentación. El Poder Ejecutivo adecúa el Reglamento de la Ley 29733 en un plazo de noventa días hábiles."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Segunda",
+    "texto": "Exclusión. La presente ley no regula el intercambio de información en el sistema financiero, que se rige por su normativa especial."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Tercera",
+    "texto": "Financiamiento. La aplicación de la presente ley no demanda recursos adicionales al Tesoro Público."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Cuarta",
+    "texto": "Vigencia. La presente ley entra en vigencia a los doce meses de su publicación; la obligación del artículo 4 rige a los veinticuatro meses."
+   }
+  ],
+  "costo_beneficio": "No genera gasto público relevante: la supervisión se integra a las funciones de la autoridad de protección de datos. Los costos de cumplimiento recaen en los responsables, proporcionales a su tamaño gracias al umbral de usuarios para la obligación de API; las mypes solo deben entregar datos en formato estructurado. El beneficio es doble: refuerza el control de las personas sobre sus datos y reduce barreras de cambio de proveedor, favoreciendo la competencia y la entrada de nuevos servicios, incluidos los basados en IA. Los plazos de vigencia diferida permiten la adecuación.",
+  "efecto_vigencia": "Modifica la Ley 29733 (incorpora el art. 21-A y una infracción grave). Complementa el D.S. 016-2024-JUS. La numeración debe verificarse con el texto vigente.",
+  "normas_relacionadas": [
+   {
+    "norma": "Ley 29733, Ley de Protección de Datos Personales",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/29733.pdf"
+   },
+   {
+    "norma": "Decreto Supremo 016-2024-JUS, nuevo Reglamento de la Ley 29733 (nota oficial)",
+    "url": "https://elperuano.pe/noticia/258993-proteccion-de-datos-personales-ejecutivo-aprueba-nuevo-reglamento-de-la-ley-n-29733"
+   },
+   {
+    "norma": "Decreto de Urgencia 007-2020, Marco de Confianza Digital",
+    "url": "https://www.gob.pe/institucion/pcm/normas-legales/395322-007-2020"
+   }
+  ],
+  "antecedentes": "Por verificar en SPLEY.",
+  "referencias_internacionales": [
+   {
+    "pais": "Unión Europea",
+    "norma": "Reglamento (UE) 2016/679 (RGPD), art. 20",
+    "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj"
+   },
+   {
+    "pais": "Unión Europea",
+    "norma": "Reglamento (UE) 2023/2854 de Datos (Data Act), acceso y portabilidad de datos de productos conectados",
+    "url": "https://eur-lex.europa.eu/eli/reg/2023/2854/oj"
+   },
+   {
+    "pais": "Brasil",
+    "norma": "Lei 13.709/2018 (LGPD), art. 18, V",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm"
+   },
+   {
+    "pais": "Chile",
+    "norma": "Ley 21.719 (derecho a la portabilidad)",
+    "url": "https://www.bcn.cl/balance-legislativo/detalle/ficha_LEY_21719_2024-12-13"
+   }
+  ],
+  "comision_sugerida": "Justicia y Derechos Humanos",
+  "comision_secundaria": "Defensa del Consumidor y Organismos Reguladores de los Servicios Públicos",
+  "plan2050": [
+   "peru-en-la-era-digital",
+   "competitividad",
+   "inteligencia-artificial"
+  ],
+  "ods": [
+   9,
+   16
+  ],
+  "prioridad": "media",
+  "costo_fiscal": "nulo",
+  "plazo": "mediano",
+  "indicador_exito": "Al 2031, estándar técnico de portabilidad aprobado, los servicios digitales que superen el umbral con API de portabilidad operativas y estadísticas anuales de solicitudes atendidas publicadas por la ANPD.",
+  "tags": [
+   "portabilidad",
+   "protección de datos",
+   "competencia",
+   "interoperabilidad"
+  ],
+  "fuentes": [
+   {
+    "titulo": "El Peruano: nuevo reglamento de la Ley 29733",
+    "url": "https://elperuano.pe/noticia/258993-proteccion-de-datos-personales-ejecutivo-aprueba-nuevo-reglamento-de-la-ley-n-29733"
+   },
+   {
+    "titulo": "Autoridad Nacional de Protección de Datos Personales",
+    "url": "https://www.gob.pe/anpd"
+   }
+  ]
+ },
+ {
+  "id": "IA-13",
+  "eje": "ia",
+  "titulo": "Ley que garantiza la transparencia de la gestión algorítmica en las relaciones laborales y promueve la reconversión de trabajadores afectados por la automatización",
+  "titulo_corto": "IA, trabajo y reconversión",
+  "sumilla": "Reconoce a trabajadores y sus representantes el derecho a ser informados sobre los sistemas de IA que deciden contratación, evaluación, asignación de tareas o despido, prohíbe decisiones de despido exclusivamente automatizadas y crea un observatorio y una línea de reconversión laboral frente a la automatización.",
+  "problema": "El Reglamento de la Ley 31814 califica como de riesgo alto los sistemas de IA utilizados en el empleo (art. 24.1), pero para el sector privado la evaluación de impacto es voluntaria (art. 32.1), y la legislación laboral peruana no regula la gestión algorítmica: selección automatizada de personal, asignación de turnos, medición de productividad o propuestas de despido generadas por software. El trabajador no tiene derecho expreso a saber qué parámetros lo evalúan ni a que una persona revise la decisión. Al mismo tiempo, la OIT (2025) estima que uno de cada cuatro trabajadores en el mundo está en una ocupación con algún grado de exposición a la IA generativa, con mayor exposición en ocupaciones administrativas y en empleo femenino; el resultado más probable es la transformación de los puestos más que su desaparición, lo que exige reconversión oportuna. El Banco Mundial (WDR 2026, citado en el Plan IA Perú 2050) estima que la proporción de empleos en riesgo por automatización es menor en países en desarrollo (4,5%) que en los de ingreso alto (14,2%), lo que da margen para anticiparse. España (Ley 12/2021) y la Unión Europea (Directiva 2024/2831) ya reconocen derechos de información sobre algoritmos en el trabajo.",
+  "objeto": "Garantizar derechos de información, explicación y revisión humana frente a la gestión algorítmica en el trabajo y crear instrumentos de anticipación y reconversión laboral frente a la automatización.",
+  "articulado": [
+   {
+    "n": "Artículo 1",
+    "titulo": "Objeto",
+    "texto": "La presente ley tiene por objeto garantizar la transparencia y la supervisión humana en el uso de sistemas automatizados y de inteligencia artificial para la gestión de las relaciones laborales, y promover la reconversión de los trabajadores cuyas ocupaciones se transformen por la automatización."
+   },
+   {
+    "n": "Artículo 2",
+    "titulo": "Ámbito",
+    "texto": "La presente ley se aplica a los empleadores del sector privado y a las entidades públicas respecto de sus trabajadores, así como a las plataformas digitales que organicen la prestación de servicios de personas, sin perjuicio de la calificación jurídica de dicha relación."
+   },
+   {
+    "n": "Artículo 3",
+    "titulo": "Derecho de información",
+    "texto": "3.1. El empleador informa por escrito a los trabajadores y, en su caso, a sus representantes, sobre los sistemas automatizados o de IA utilizados para decidir o asistir en la selección, contratación, asignación de tareas, evaluación del desempeño, remuneración variable, sanciones o extinción del vínculo, indicando su finalidad, los principales parámetros y la forma en que inciden en las decisiones.\n3.2. La información se actualiza ante cualquier cambio sustancial y se proporciona a los postulantes respecto de los sistemas usados en la selección."
+   },
+   {
+    "n": "Artículo 4",
+    "titulo": "Revisión humana y prohibiciones",
+    "texto": "4.1. El despido, la no renovación contractual por desempeño y la imposición de sanciones disciplinarias no pueden sustentarse exclusivamente en una decisión automatizada; requieren la evaluación de una persona con facultades para modificarla.\n4.2. El trabajador puede solicitar la explicación y la revisión humana de cualquier decisión automatizada que le afecte significativamente.\n4.3. Se prohíbe el uso de sistemas que infieran emociones de los trabajadores en el lugar de trabajo, salvo por razones médicas o de seguridad debidamente justificadas, y la vigilancia algorítmica fuera de la jornada laboral."
+   },
+   {
+    "n": "Artículo 5",
+    "titulo": "Evaluación de impacto obligatoria para grandes empleadores",
+    "texto": "Los empleadores con más de cien trabajadores que utilicen sistemas de IA de riesgo alto en el empleo realizan la evaluación de impacto prevista en el Reglamento de la Ley 31814, la que es puesta en conocimiento de los representantes de los trabajadores y de la Superintendencia Nacional de Fiscalización Laboral (SUNAFIL) cuando lo requiera."
+   },
+   {
+    "n": "Artículo 6",
+    "titulo": "Fiscalización",
+    "texto": "La SUNAFIL fiscaliza el cumplimiento de la presente ley. El incumplimiento de los artículos 3, 4 y 5 constituye infracción en materia de relaciones laborales, conforme a la Ley 28806, Ley General de Inspección del Trabajo, y su reglamento, que se adecúa para tipificarla."
+   },
+   {
+    "n": "Artículo 7",
+    "titulo": "Observatorio de Automatización y Empleo",
+    "texto": "El Ministerio de Trabajo y Promoción del Empleo implementa, dentro de su estructura existente, el Observatorio de Automatización y Empleo, que publica anualmente estimaciones de exposición de las ocupaciones a la automatización y a la IA en el Perú, con base en la Encuesta Nacional de Hogares del INEI y metodologías internacionales."
+   },
+   {
+    "n": "Artículo 8",
+    "titulo": "Línea de reconversión laboral",
+    "texto": "Los programas de empleabilidad y capacitación del Ministerio de Trabajo y Promoción del Empleo incorporan una línea de reconversión priorizada para trabajadores de ocupaciones con alta exposición, en coordinación con los institutos de educación superior tecnológica y la Autoridad Nacional del Servicio Civil para el caso de servidores públicos."
+   }
+  ],
+  "disposiciones": [
+   {
+    "tipo": "Complementaria Final",
+    "n": "Primera",
+    "texto": "Reglamentación. El Poder Ejecutivo, mediante decreto supremo refrendado por el Ministerio de Trabajo y Promoción del Empleo, reglamenta la presente ley en un plazo de noventa días hábiles, previa consulta al Consejo Nacional de Trabajo y Promoción del Empleo."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Segunda",
+    "texto": "Financiamiento. La implementación se financia con cargo al presupuesto institucional del Ministerio de Trabajo y Promoción del Empleo y de la SUNAFIL, sin demandar recursos adicionales al Tesoro Público."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Tercera",
+    "texto": "Vigencia. La presente ley entra en vigencia a los seis meses de su publicación."
+   }
+  ],
+  "costo_beneficio": "El costo fiscal es bajo: el observatorio y la línea de reconversión se implementan con la estructura y programas existentes del Ministerio de Trabajo, y la fiscalización se suma a las competencias de la SUNAFIL. Para las empresas, el costo es principalmente documental; la evaluación de impacto obligatoria se limita a grandes empleadores. El beneficio es prevenir despidos o sanciones arbitrarias basadas en sistemas opacos, reducir litigios laborales, dar certeza a empresas que usan IA de buena fe y anticipar la transformación de ocupaciones con información pública. No genera gasto adicional al Tesoro.",
+  "efecto_vigencia": "Complementa la Ley 31814 y su Reglamento y la Ley 28806; requiere adecuar el reglamento de la Ley General de Inspección del Trabajo. No deroga normas.",
+  "normas_relacionadas": [
+   {
+    "norma": "Decreto Supremo 115-2025-PCM, Reglamento de la Ley 31814 (arts. 24.1 y 32.1)",
+    "url": "https://busquedas.elperuano.pe/dispositivo/NL/2436426-1"
+   },
+   {
+    "norma": "Ley 29733, Ley de Protección de Datos Personales (art. 23)",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/29733.pdf"
+   },
+   {
+    "norma": "Ley 31814, Ley que promueve el uso de la IA",
+    "url": "https://busquedas.elperuano.pe/dispositivo/NL/2192926-1"
+   }
+  ],
+  "antecedentes": "Por verificar en SPLEY.",
+  "referencias_internacionales": [
+   {
+    "pais": "España",
+    "norma": "Ley 12/2021 (información a la representación de los trabajadores sobre algoritmos)",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2021-15767"
+   },
+   {
+    "pais": "Unión Europea",
+    "norma": "Directiva (UE) 2024/2831 relativa a la mejora de las condiciones laborales en el trabajo en plataformas (gestión algorítmica)",
+    "url": "https://eur-lex.europa.eu/eli/dir/2024/2831/oj"
+   },
+   {
+    "pais": "Estados Unidos (Nueva York)",
+    "norma": "Local Law 144 sobre herramientas automatizadas de decisión de empleo (auditoría de sesgos)",
+    "url": "https://www.nyc.gov/site/dca/about/automated-employment-decision-tools.page"
+   }
+  ],
+  "comision_sugerida": "Trabajo y Seguridad Social",
+  "comision_secundaria": "Ciencia, Innovación y Tecnología",
+  "plan2050": [
+   "inteligencia-artificial",
+   "desarrollo-humano-industrializacion",
+   "cohesion-social"
+  ],
+  "ods": [
+   8,
+   10
+  ],
+  "prioridad": "media",
+  "costo_fiscal": "bajo",
+  "plazo": "mediano",
+  "indicador_exito": "Al 2031, observatorio publicando estimaciones anuales de exposición ocupacional; protocolo de fiscalización de SUNAFIL sobre gestión algorítmica aplicado; y trabajadores de ocupaciones de alta exposición atendidos por la línea de reconversión reportados anualmente.",
+  "tags": [
+   "empleo",
+   "gestión algorítmica",
+   "reconversión laboral",
+   "derechos laborales"
+  ],
+  "fuentes": [
+   {
+    "titulo": "OIT, Generative AI and Jobs: A Refined Global Index of Occupational Exposure (2025)",
+    "url": "https://www.ilo.org/publications/generative-ai-and-jobs-refined-global-index-occupational-exposure"
+   },
+   {
+    "titulo": "Banco Mundial, World Development Report 2026",
+    "url": "https://www.worldbank.org/en/publication/wdr2026"
+   },
+   {
+    "titulo": "Reglamento de la Ley 31814 (D.S. 115-2025-PCM)",
+    "url": "https://busquedas.elperuano.pe/dispositivo/NL/2436426-1"
+   }
+  ]
+ },
+ {
+  "id": "IA-14",
+  "eje": "ia",
+  "titulo": "Ley que incorpora cláusulas obligatorias de auditoría, transparencia y portabilidad en la contratación pública de sistemas de inteligencia artificial",
+  "titulo_corto": "Compras públicas de IA auditables",
+  "sumilla": "Modifica el régimen de contrataciones públicas para que todo contrato de adquisición, desarrollo o servicio de IA de riesgo alto incluya acceso para auditoría, documentación técnica, propiedad estatal de los datos, prevención de dependencia del proveedor y métricas de sesgo y desempeño.",
+  "problema": "La Ley 32069, Ley General de Contrataciones Públicas, vigente desde abril de 2025, y su Reglamento (D.S. 009-2025-EF) regulan los procedimientos de selección, pero no contienen reglas específicas para sistemas de IA. El Reglamento de la Ley 31814 tampoco establece un régimen de contratación específico: remite a la normativa de adquisición de software (arts. 28.6 y 33.2). En la práctica, cuando una entidad compra un sistema de IA como servicio, suele aceptar condiciones estándar del proveedor que impiden auditar el modelo, acceder a los registros de funcionamiento o recuperar los datos al terminar el contrato. Ello vacía de contenido las obligaciones de evaluación de impacto (art. 30.1 del Reglamento de la Ley 31814), explicación (art. 25.3) y supervisión humana (art. 28.11), porque la entidad no dispone de la información para cumplirlas, y genera dependencia tecnológica y sobrecostos en renovaciones. El Plan IA Perú 2050 (CIP/CNPP) propone metas de contenido nacional en licitaciones de infraestructura digital. Las cláusulas contractuales modelo para IA de la Comisión Europea y las guías de compra de IA del Gobierno británico ofrecen estándares verificables.",
+  "objeto": "Incorporar en el régimen de contrataciones públicas cláusulas obligatorias para la contratación de sistemas de IA de riesgo alto que garanticen su auditabilidad, transparencia, portabilidad y control estatal de los datos.",
+  "articulado": [
+   {
+    "n": "Artículo 1",
+    "titulo": "Objeto",
+    "texto": "La presente ley tiene por objeto establecer condiciones obligatorias para la contratación pública de sistemas de inteligencia artificial, a fin de garantizar que las entidades puedan cumplir las obligaciones de transparencia, evaluación de impacto y supervisión humana previstas en la Ley 31814 y su reglamento."
+   },
+   {
+    "n": "Artículo 2",
+    "titulo": "Ámbito",
+    "texto": "La presente ley se aplica a las contrataciones de bienes, servicios, licencias, servicios en la nube y consultorías que tengan por objeto o incluyan sistemas de inteligencia artificial de riesgo alto, conforme a la clasificación del Reglamento de la Ley 31814, realizadas por entidades sujetas a la Ley 32069, Ley General de Contrataciones Públicas, cualquiera sea su monto."
+   },
+   {
+    "n": "Artículo 3",
+    "titulo": "Requisitos de los documentos del procedimiento",
+    "texto": "Los requerimientos y términos de referencia incluyen: a) la finalidad del sistema y el nivel de riesgo; b) las métricas de desempeño y de sesgo exigidas, desagregadas por grupos pertinentes; c) la obligación del proveedor de entregar la documentación técnica necesaria para la evaluación de impacto; y d) los requisitos de explicabilidad para atender a los administrados."
+   },
+   {
+    "n": "Artículo 4",
+    "titulo": "Cláusulas obligatorias",
+    "texto": "Los contratos incluyen, bajo sanción de nulidad de la cláusula contraria, las siguientes estipulaciones: a) acceso de la entidad, de la Contraloría General de la República y de auditores designados a la documentación técnica, registros de funcionamiento y resultados de pruebas, bajo confidencialidad; b) titularidad de la entidad sobre los datos que entrega y los que se generan en la ejecución, y prohibición de usarlos para entrenar modelos del proveedor sin autorización expresa; c) entrega de los datos y configuraciones en formatos abiertos al término del contrato y asistencia para la transición; d) notificación previa de actualizaciones sustanciales del modelo; e) reporte de incidentes en plazo determinado; y f) alojamiento de datos conforme a la Ley 29733 y al Marco de Confianza Digital."
+   },
+   {
+    "n": "Artículo 5",
+    "titulo": "Prevención de la dependencia del proveedor",
+    "texto": "Las entidades evalúan, en la indagación de mercado, el costo total de propiedad del sistema y los costos de migración, y prefieren soluciones basadas en estándares abiertos o software libre cuando sean técnicamente equivalentes, en concordancia con el Reglamento de la Ley 31814."
+   },
+   {
+    "n": "Artículo 6",
+    "titulo": "Pruebas previas y conformidad",
+    "texto": "La conformidad de la prestación de sistemas de IA de riesgo alto requiere pruebas de desempeño y sesgo con datos representativos de la población usuaria, cuyos resultados forman parte del expediente de contratación y se consignan en el registro público de algoritmos que establezca la ley."
+   },
+   {
+    "n": "Artículo 7",
+    "titulo": "Modificación de la Ley 32069",
+    "texto": "Incorpórase en la Ley 32069, Ley General de Contrataciones Públicas, una disposición complementaria final con el texto siguiente:\n«Contratación de sistemas de inteligencia artificial. Las contrataciones que tengan por objeto o incluyan sistemas de inteligencia artificial de riesgo alto se sujetan, además, a las condiciones obligatorias establecidas en la ley de la materia. El ente rector del sistema de abastecimiento aprueba, en coordinación con la Secretaría de Gobierno y Transformación Digital, las bases estándar y cláusulas modelo correspondientes.»"
+   },
+   {
+    "n": "Artículo 8",
+    "titulo": "Compra pública de innovación",
+    "texto": "Las entidades pueden utilizar los mecanismos de compra pública de innovación que prevea la normativa de contrataciones públicas para el desarrollo de soluciones de IA, priorizando la participación de empresas y universidades nacionales, con las mismas cláusulas de auditabilidad."
+   }
+  ],
+  "disposiciones": [
+   {
+    "tipo": "Complementaria Final",
+    "n": "Primera",
+    "texto": "Reglamentación. El Ministerio de Economía y Finanzas, en coordinación con la Presidencia del Consejo de Ministros, adecúa el Reglamento de la Ley 32069 y aprueba las cláusulas modelo en un plazo de ciento veinte días hábiles."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Segunda",
+    "texto": "Contratos vigentes. Las entidades incorporan las cláusulas de la presente ley en las renovaciones, ampliaciones o adendas de contratos vigentes de sistemas de IA de riesgo alto, en la medida en que lo permita el marco contractual."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Tercera",
+    "texto": "Financiamiento. La aplicación de la presente ley no demanda recursos adicionales al Tesoro Público."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Cuarta",
+    "texto": "Vigencia. La presente ley entra en vigencia al día siguiente de la publicación de la adecuación reglamentaria."
+   }
+  ],
+  "costo_beneficio": "No genera gasto público adicional: modifica condiciones contractuales y no crea entidades. Puede elevar marginalmente los precios ofertados por las obligaciones de documentación y transición, pero reduce costos de largo plazo al evitar la dependencia del proveedor, permitir competencia en renovaciones y prevenir errores masivos no detectables sin auditoría. Habilita a la Contraloría a ejercer control efectivo sobre sistemas que toman o proponen decisiones públicas. Las cláusulas modelo disminuyen el costo de elaboración de bases para las entidades y dan predictibilidad a los proveedores.",
+  "efecto_vigencia": "Modifica la Ley 32069 (incorpora una disposición complementaria final); complementa su Reglamento (D.S. 009-2025-EF) y el Reglamento de la Ley 31814. No deroga normas.",
+  "normas_relacionadas": [
+   {
+    "norma": "Ley 32069, Ley General de Contrataciones Públicas (nota oficial de publicación, El Peruano)",
+    "url": "https://elperuano.pe/noticia/246306-publican-nueva-ley-de-contrataciones-del-estado"
+   },
+   {
+    "norma": "Ley 32069, texto publicado (copia en PDF)",
+    "url": "https://cms.law/content/download/685857/file/Ley%20N%C2%B0%2032069%20-%20Ley%20General%20de%20Contrataciones%20P%C3%BAblicas%20-.pdf"
+   },
+   {
+    "norma": "Decreto Supremo 115-2025-PCM, Reglamento de la Ley 31814 (arts. 28.6 y 33.2)",
+    "url": "https://busquedas.elperuano.pe/dispositivo/NL/2436426-1"
+   },
+   {
+    "norma": "Decreto de Urgencia 007-2020, Marco de Confianza Digital",
+    "url": "https://www.gob.pe/institucion/pcm/normas-legales/395322-007-2020"
+   }
+  ],
+  "antecedentes": "Por verificar en SPLEY.",
+  "referencias_internacionales": [
+   {
+    "pais": "Unión Europea",
+    "norma": "Cláusulas contractuales modelo de la UE para la contratación pública de IA (MCC-AI)",
+    "url": "https://public-buyers-community.ec.europa.eu/communities/procurement-ai/resources/eu-model-contractual-ai-clauses-pilot-procurements-ai"
+   },
+   {
+    "pais": "Reino Unido",
+    "norma": "Guidelines for AI procurement",
+    "url": "https://www.gov.uk/government/publications/guidelines-for-ai-procurement"
+   },
+   {
+    "pais": "Canadá",
+    "norma": "Directive on Automated Decision-Making (requisitos sobre acceso a componentes y código)",
+    "url": "https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32592"
+   }
+  ],
+  "comision_sugerida": "Economía, Banca, Finanzas e Inteligencia Financiera",
+  "comision_secundaria": "Ciencia, Innovación y Tecnología",
+  "plan2050": [
+   "inteligencia-artificial",
+   "reforma-del-estado",
+   "etica"
+  ],
+  "ods": [
+   12,
+   16
+  ],
+  "prioridad": "alta",
+  "costo_fiscal": "nulo",
+  "plazo": "corto",
+  "indicador_exito": "Al 2028, bases estándar y cláusulas modelo para IA aprobadas; al 2031, 100% de los contratos de sistemas de IA de riesgo alto registrados en el sistema de contrataciones con las cláusulas obligatorias incorporadas.",
+  "tags": [
+   "contrataciones públicas",
+   "auditoría",
+   "lock-in",
+   "transparencia"
+  ],
+  "fuentes": [
+   {
+    "titulo": "El Peruano: publican nueva ley de contrataciones del Estado (Ley 32069)",
+    "url": "https://elperuano.pe/noticia/246306-publican-nueva-ley-de-contrataciones-del-estado"
+   },
+   {
+    "titulo": "EU Model Contractual AI Clauses",
+    "url": "https://public-buyers-community.ec.europa.eu/communities/procurement-ai/resources/eu-model-contractual-ai-clauses-pilot-procurements-ai"
+   },
+   {
+    "titulo": "Reglamento de la Ley 31814 (D.S. 115-2025-PCM)",
+    "url": "https://busquedas.elperuano.pe/dispositivo/NL/2436426-1"
+   }
+  ]
+ }
+]

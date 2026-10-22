@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<defs><pattern id="g" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity=".05"/></pattern></defs>
+<rect width="1200" height="630" fill="#0f1115"/><rect width="1200" height="630" fill="url(#g)"/>
+<rect x="0" y="0" width="14" height="630" fill="#c8102e"/>
+<text x="80" y="110" font-family="Menlo,monospace" font-size="24" font-weight="700" fill="#ff4d5e" letter-spacing="4">CONGRESO 2026–2031 · PROPUESTAS CIUDADANAS</text>
+<text x="80" y="215" font-family="Georgia,serif" font-size="68" font-weight="700" fill="#9a9488">¿Dónde están las</text>
+<text x="80" y="295" font-family="Georgia,serif" font-size="68" font-weight="700" fill="#9a9488">50 propuestas?</text>
+<line x1="80" y1="272" x2="565" y2="272" stroke="#ff4d5e" stroke-width="6"/>
+<text x="80" y="395" font-family="Georgia,serif" font-size="74" font-weight="700" fill="#ece8e1">Aquí hay <tspan fill="#ff4d5e">__N__</tspan>, redactadas.</text>
+<text x="80" y="465" font-family="Helvetica,Arial,sans-serif" font-size="28" fill="#cfc9bf">IA · Ciberseguridad · Gobierno digital · Conectividad · Startups · Talento</text>
+<text x="80" y="510" font-family="Helvetica,Arial,sans-serif" font-size="28" fill="#cfc9bf">Articulado, costo-beneficio, PDF y alineamiento al Plan Perú 2050</text>
+<text x="80" y="580" font-family="Menlo,monospace" font-size="24" fill="#2dd4bf">unimauro.github.io/agenda-legislativa-tech</text>
+<g transform="translate(1010,60) scale(2.6)"><rect width="64" height="64" rx="14" fill="#c8102e"/><g fill="none" stroke="#fff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M32 12v38M20 50h24M14 20h36"/><path d="M14 20l-7 14h14zM50 20l-7 14h14z"/></g></g>
+</svg>

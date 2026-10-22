@@ -1,0 +1,1896 @@
+[
+  {
+    "id": "ECO-01",
+    "eje": "econ",
+    "titulo": "Ley que promueve las empresas emergentes de base tecnológica (startups) y establece un régimen societario y de talento simplificado",
+    "titulo_corto": "Ley de startups",
+    "sumilla": "Define legalmente a la empresa emergente de base tecnológica, crea un registro voluntario gratuito y habilita herramientas societarias (acciones con derechos diferenciados, opciones sobre acciones y socios personas jurídicas en la SACS) y una vía migratoria para talento especializado.",
+    "problema": "El Perú no cuenta con una definición legal de startup ni con un régimen que reconozca su ciclo de vida: alta incertidumbre, pérdidas iniciales, financiamiento por rondas de capital y remuneración del talento con participación accionaria. El Decreto Legislativo 1409 creó la Sociedad por Acciones Cerrada Simplificada (SACS), pero solo admite como accionistas de dos a veinte personas naturales, lo que impide que un fondo de capital emprendedor o una aceleradora corporativa ingrese al capital sin transformar la sociedad. Estudios académicos de la PUCP sobre el periodo 2018-2021 concluyen que la SACS no ha alcanzado los fines para los que fue creada. Las opciones sobre acciones (stock options) carecen de un tratamiento claro, lo que encarece retener talento frente a empresas extranjeras. En materia migratoria, la calidad de nómada digital incorporada en 2023 excluye expresamente las actividades remuneradas con renta de fuente peruana, por lo que no sirve para incorporar talento extranjero a una startup local. El Reporte Nacional GEM 2025/2026 describe una población con alta intención emprendedora, pero con debilidades en la consolidación de negocios y en las condiciones del ecosistema. Países de la región (Colombia, Brasil) y España ya adoptaron leyes específicas para empresas emergentes.",
+    "objeto": "Establecer un marco legal para el reconocimiento, constitución, financiamiento y crecimiento de las empresas emergentes de base tecnológica, sin crear beneficios tributarios ni gasto público.",
+    "articulado": [
+      {
+        "n": "Artículo 1",
+        "titulo": "Objeto",
+        "texto": "La presente ley tiene por objeto promover la creación, el financiamiento y el escalamiento de empresas emergentes de base tecnológica, mediante su reconocimiento legal, un régimen societario flexible y facilidades para la incorporación de talento especializado."
+      },
+      {
+        "n": "Artículo 2",
+        "titulo": "Definición de empresa emergente de base tecnológica",
+        "texto": "Para efectos de la presente ley, se considera empresa emergente de base tecnológica a la persona jurídica domiciliada en el país que cumple concurrentemente lo siguiente: a) tiene una antigüedad no mayor de siete años desde su inscripción en el Registro de Personas Jurídicas, o de diez años cuando su actividad principal sea biotecnología, energía o ciencias de la vida; b) desarrolla un modelo de negocio escalable basado en el uso intensivo de tecnología o en un producto o servicio innovador; c) sus ingresos netos anuales no superan el límite que fije el reglamento; d) no proviene de una fusión, escisión o transformación de empresas que no califiquen como tales; y e) no distribuye utilidades mientras mantenga la condición."
+      },
+      {
+        "n": "Artículo 3",
+        "titulo": "Registro Nacional de Empresas Emergentes",
+        "texto": "Créase el Registro Nacional de Empresas Emergentes de Base Tecnológica, a cargo del Ministerio de la Producción, de inscripción voluntaria, gratuita y en línea, con aprobación automática sujeta a fiscalización posterior. La inscripción acredita la condición de empresa emergente frente a cualquier entidad pública, por el plazo previsto en el literal a) del artículo 2. El Registro se interopera con la SUNARP y la SUNAT a través de la Plataforma de Interoperabilidad del Estado."
+      },
+      {
+        "n": "Artículo 4",
+        "titulo": "Modificación del artículo 4 del Decreto Legislativo 1409",
+        "texto": "Modifícase el artículo 4 del Decreto Legislativo 1409, en los siguientes términos: \"Artículo 4.- Naturaleza jurídica. La SACS es una persona jurídica de derecho privado constituida por acuerdo privado de dos (2) hasta veinte (20) accionistas, que pueden ser personas naturales o jurídicas, quienes no responden personalmente por las obligaciones sociales. Las empresas emergentes inscritas en el Registro Nacional de Empresas Emergentes pueden pactar en su estatuto acciones de distintas clases con derechos políticos o económicos diferenciados.\""
+      },
+      {
+        "n": "Artículo 5",
+        "titulo": "Planes de opciones sobre acciones",
+        "texto": "Las empresas emergentes inscritas pueden aprobar, por junta general, planes de opciones sobre acciones a favor de sus trabajadores, administradores y colaboradores, hasta por el porcentaje del capital que fije el estatuto. El plan establece el precio de ejercicio, el periodo de consolidación y las causales de pérdida. La reserva de acciones para dichos planes no requiere aumento de capital previo; este se acuerda al momento del ejercicio de la opción, sin derecho de suscripción preferente para los demás accionistas cuando así lo prevea el estatuto."
+      },
+      {
+        "n": "Artículo 6",
+        "titulo": "Acuerdos de inversión convertible",
+        "texto": "Los acuerdos de aporte de capital futuro, notas convertibles y otros instrumentos de inversión convertibles en acciones celebrados por empresas emergentes inscritas son válidos y exigibles conforme a sus términos. Su conversión no requiere la intervención de notario cuando se realice mediante firma digital conforme a la Ley 27269, Ley de Firmas y Certificados Digitales, y se inscribe en la SUNARP en mérito a la documentación electrónica correspondiente."
+      },
+      {
+        "n": "Artículo 7",
+        "titulo": "Talento tecnológico extranjero",
+        "texto": "Incorpórase en el Decreto Legislativo 1350, Decreto Legislativo de Migraciones, la calidad migratoria residente de talento tecnológico, que habilita a la persona extranjera contratada o que se incorpore como socia de una empresa emergente inscrita a residir y realizar actividades remuneradas en el país, por un plazo de dos años renovable. La Superintendencia Nacional de Migraciones resuelve la solicitud en un plazo no mayor de treinta días hábiles; vencido dicho plazo opera el silencio administrativo positivo."
+      },
+      {
+        "n": "Artículo 8",
+        "titulo": "Cierre simplificado",
+        "texto": "La empresa emergente inscrita que no registre obligaciones laborales, tributarias ni con terceros pendientes puede acordar su disolución, liquidación y extinción en un solo acto, mediante procedimiento electrónico ante la SUNARP, conforme al reglamento."
+      },
+      {
+        "n": "Artículo 9",
+        "titulo": "Información y evaluación",
+        "texto": "El Ministerio de la Producción publica anualmente, en formato de datos abiertos, el número de empresas emergentes inscritas, su distribución regional y sectorial, el empleo declarado y el financiamiento captado, preservando la reserva tributaria y comercial."
+      },
+      {
+        "n": "Artículo 10",
+        "titulo": "Financiamiento",
+        "texto": "La implementación de la presente ley se financia con cargo al presupuesto institucional de las entidades involucradas, sin demandar recursos adicionales al Tesoro Público."
+      }
+    ],
+    "disposiciones": [
+      {
+        "tipo": "Complementaria Final",
+        "n": "Primera",
+        "texto": "El Poder Ejecutivo, mediante decreto supremo refrendado por el Ministro de la Producción, el Ministro de Economía y Finanzas y el Ministro del Interior, reglamenta la presente ley en un plazo de noventa días hábiles desde su publicación."
+      },
+      {
+        "tipo": "Complementaria Final",
+        "n": "Segunda",
+        "texto": "El Ministerio de Economía y Finanzas evalúa y, de ser el caso, propone al Congreso, en un plazo de ciento ochenta días hábiles, el tratamiento del impuesto a la renta aplicable al ejercicio de opciones sobre acciones, previo informe conforme al artículo 79 de la Constitución y a la Norma VII del Título Preliminar del Código Tributario."
+      },
+      {
+        "tipo": "Complementaria Final",
+        "n": "Tercera",
+        "texto": "Las SACS constituidas antes de la vigencia de la presente ley pueden adecuar su estatuto para incorporar accionistas personas jurídicas sin necesidad de transformación."
+      }
+    ],
+    "costo_beneficio": "La ley no crea exoneraciones ni gasto: el registro es digital y se aloja en sistemas existentes del Ministerio de la Producción, la SUNARP y Migraciones, financiados con su presupuesto institucional. El tratamiento tributario de las opciones sobre acciones se deriva a una evaluación del MEF, respetando el artículo 79 de la Constitución. Los beneficios esperados son la reducción de costos de transacción (transformaciones societarias, notariales y migratorias), mayor atracción de capital emprendedor nacional y extranjero, y retención de talento. El riesgo principal es el uso del registro para fines distintos; se mitiga con la fiscalización posterior y la pérdida de la condición.",
+    "efecto_vigencia": "Modifica el artículo 4 del Decreto Legislativo 1409 e incorpora una calidad migratoria en el Decreto Legislativo 1350. Complementa la Ley 26887, Ley General de Sociedades, y el DU 013-2020. No deroga normas.",
+    "normas_relacionadas": [
+      {
+        "norma": "Decreto Legislativo 1409, que promociona la formalización y dinamización de la MIPYME mediante la Sociedad por Acciones Cerrada Simplificada (SACS)",
+        "url": "https://www.leyes.congreso.gob.pe/Documentos/DecretosLegislativos/01409.pdf"
+      },
+      {
+        "norma": "Ley 26887, Ley General de Sociedades",
+        "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/26887.pdf"
+      },
+      {
+        "norma": "Decreto Legislativo 1350, Decreto Legislativo de Migraciones",
+        "url": "https://www.leyes.congreso.gob.pe/Documentos/DecretosLegislativos/01350.pdf"
+      },
+      {
+        "norma": "Decreto de Urgencia 013-2020, que promueve el financiamiento de la MIPYME, emprendimientos y startups",
+        "url": "https://www.mef.gob.pe/es/notas-de-prensa-y-comunicados/6266-gobierno-promueve-el-financiamiento-para-las-mipymes-emprendimientos-y-startups"
+      },
+      {
+        "norma": "Ley 27269, Ley de Firmas y Certificados Digitales",
+        "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/27269.pdf"
+      }
+    ],
+    "antecedentes": "Por verificar en SPLEY.",
+    "referencias_internacionales": [
+      {
+        "pais": "España",
+        "norma": "Ley 28/2022, de fomento del ecosistema de las empresas emergentes",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2022-21739"
+      },
+      {
+        "pais": "Colombia",
+        "norma": "Ley 2069 de 2020, por medio de la cual se impulsa el emprendimiento en Colombia",
+        "url": "https://cancilleria.gov.co/sites/default/files/Normograma/docs/ley_2069_2020.htm"
+      },
+      {
+        "pais": "Brasil",
+        "norma": "Lei Complementar 182/2021, Marco Legal das Startups",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp182.htm"
+      },
+      {
+        "pais": "Argentina",
+        "norma": "Ley 27.349 de Apoyo al Capital Emprendedor",
+        "url": "https://www.argentina.gob.ar/normativa/nacional/ley-27349-273567"
+      }
+    ],
+    "comision_sugerida": "Producción, Micro y Pequeña Empresa y Cooperativas",
+    "comision_secundaria": "Economía, Banca, Finanzas e Inteligencia Financiera",
+    "plan2050": [
+      "emprendimiento",
+      "innovacion",
+      "mipymes"
+    ],
+    "ods": [
+      8,
+      9
+    ],
+    "prioridad": "alta",
+    "costo_fiscal": "nulo",
+    "plazo": "corto",
+    "indicador_exito": "Al 2031, Registro Nacional de Empresas Emergentes operativo con reporte anual en datos abiertos y al menos un reporte de evaluación publicado por PRODUCE.",
+    "tags": [
+      "startups",
+      "sociedades",
+      "talento",
+      "migraciones"
+    ],
+    "fuentes": [
+      {
+        "titulo": "Texto del Decreto Legislativo 1409 (SACS)",
+        "url": "https://busquedas.elperuano.pe/dispositivo/NL/1690482-2/"
+      },
+      {
+        "titulo": "Global Entrepreneurship Monitor — Reporte Nacional del Perú 2025/2026",
+        "url": "https://gemconsortium.org/report/51893"
+      },
+      {
+        "titulo": "PUCP — Regulación de la calidad migratoria y emisión de la visa nómada en el Perú",
+        "url": "https://repositorio.pucp.edu.pe/items/bf09ba87-fef3-4ee5-9720-8d46a2c83106"
+      },
+      {
+        "titulo": "BOE — Ley 28/2022 de empresas emergentes (España)",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2022-21739"
+      }
+    ]
+  },
+  {
+    "id": "ECO-02",
+    "eje": "econ",
+    "titulo": "Ley que da continuidad y fortalece el Fondo de Capital para Emprendimientos Innovadores como fondo de fondos de capital emprendedor administrado por COFIDE",
+    "titulo_corto": "Fondo de fondos de capital emprendedor",
+    "sumilla": "Da rango legal y continuidad al fondo de fondos de capital emprendedor creado en el marco del DU 013-2020, habilita su capitalización con aportes de organismos multilaterales, privados y recursos propios de COFIDE, y fija reglas de gobernanza independiente y rendición de cuentas.",
+    "problema": "El capital de riesgo es la principal fuente de financiamiento de las empresas emergentes, pero en el Perú su oferta es reducida. En el marco del Decreto de Urgencia 013-2020 se constituyó el Fondo de Capital para Emprendimientos Innovadores (FCEI), un fideicomiso en el que el Ministerio de la Producción es fideicomitente y COFIDE actúa como fiduciario. Según declaraciones del presidente del directorio de COFIDE en febrero de 2026, el fondo recibió alrededor de US$ 20 millones del Ministerio de la Producción y US$ 5 millones de CAF; a esa fecha había invertido más de US$ 14 millones en cinco fondos de venture capital que, a su vez, invirtieron en 70 startups, de las cuales 25 son peruanas. El propio COFIDE indicó que en 2026 se agotarían los recursos del fondo tras invertir alrededor de US$ 5 millones adicionales. Sin un mecanismo de continuidad, el país perdería el único vehículo público especializado de fondo de fondos y la curva de aprendizaje acumulada. La experiencia comparada (Argentina con su ley de capital emprendedor, Brasil con su marco legal de startups) muestra que la estabilidad del vehículo y su gobernanza independiente son determinantes para atraer co-inversión privada.",
+    "objeto": "Dar continuidad, rango legal y reglas de gobernanza al fondo de fondos de capital emprendedor, permitiendo su capitalización sin crear gasto público adicional.",
+    "articulado": [
+      {
+        "n": "Artículo 1",
+        "titulo": "Objeto",
+        "texto": "La presente ley tiene por objeto dar continuidad y fortalecer el Fondo de Capital para Emprendimientos Innovadores (FCEI), constituido en el marco del Decreto de Urgencia 013-2020, como fondo de fondos orientado a invertir en fondos de capital emprendedor que financien empresas emergentes con operaciones en el país."
+      },
+      {
+        "n": "Artículo 2",
+        "titulo": "Naturaleza y vigencia",
+        "texto": "El FCEI es un patrimonio fideicometido administrado por la Corporación Financiera de Desarrollo S.A. (COFIDE) en calidad de fiduciario. Su vigencia se extiende hasta el 31 de diciembre de 2036, prorrogable por decreto supremo refrendado por el Ministro de Economía y Finanzas previa evaluación de resultados."
+      },
+      {
+        "n": "Artículo 3",
+        "titulo": "Fuentes de recursos",
+        "texto": "Constituyen recursos del FCEI: a) los saldos y retornos de sus inversiones; b) los aportes de organismos multilaterales, agencias de cooperación y bancos de desarrollo; c) los aportes de inversionistas privados nacionales o extranjeros, bajo esquemas de coinversión; d) los recursos propios que COFIDE decida destinar conforme a su marco legal y a su apetito de riesgo; y e) otros recursos que se le asignen conforme a la normativa presupuestal vigente."
+      },
+      {
+        "n": "Artículo 4",
+        "titulo": "Reinversión de retornos",
+        "texto": "Los retornos, dividendos y recuperaciones de capital generados por las inversiones del FCEI se reinvierten en el propio fondo y no revierten al Tesoro Público durante su vigencia, salvo los gastos de administración fiduciaria aprobados por el comité de inversiones."
+      },
+      {
+        "n": "Artículo 5",
+        "titulo": "Gobernanza",
+        "texto": "Las decisiones de inversión del FCEI son adoptadas por un comité de inversiones independiente, conformado mayoritariamente por profesionales con experiencia acreditada en capital emprendedor, seleccionados por concurso público de méritos. Los miembros no pueden tener conflicto de intereses con los fondos en los que se invierte y suscriben declaración jurada de intereses."
+      },
+      {
+        "n": "Artículo 6",
+        "titulo": "Criterios de inversión",
+        "texto": "El FCEI invierte en fondos gestionados por administradoras privadas seleccionadas por concurso, con participación minoritaria y en condiciones de mercado (pari passu) con inversionistas privados. Los fondos receptores se obligan a invertir en empresas emergentes con operaciones en el Perú un monto no menor al multiplicador que establezca el reglamento respecto del aporte del FCEI."
+      },
+      {
+        "n": "Artículo 7",
+        "titulo": "Transparencia y rendición de cuentas",
+        "texto": "COFIDE publica semestralmente en su portal institucional el estado del FCEI, los fondos invertidos, el número de empresas financiadas, el empleo asociado y el valor del portafolio, preservando la información comercial reservada. El FCEI está sujeto al control de la Contraloría General de la República y a auditoría externa anual."
+      },
+      {
+        "n": "Artículo 8",
+        "titulo": "Evaluación de impacto",
+        "texto": "El Ministerio de la Producción, en coordinación con COFIDE, encarga una evaluación de impacto independiente del FCEI cada cinco años, cuyos resultados se remiten a la comisión competente del Congreso de la República."
+      },
+      {
+        "n": "Artículo 9",
+        "titulo": "Financiamiento",
+        "texto": "La aplicación de la presente ley no irroga gasto adicional al Tesoro Público. Los aportes públicos al FCEI solo pueden efectuarse con cargo a los presupuestos institucionales de las entidades aportantes, conforme a la normativa presupuestal."
+      }
+    ],
+    "disposiciones": [
+      {
+        "tipo": "Complementaria Final",
+        "n": "Primera",
+        "texto": "El Ministerio de Economía y Finanzas, mediante decreto supremo refrendado además por el Ministro de la Producción, adecúa el reglamento del FCEI a la presente ley en un plazo de noventa días hábiles."
+      },
+      {
+        "tipo": "Complementaria Final",
+        "n": "Segunda",
+        "texto": "La Superintendencia de Banca, Seguros y AFP evalúa, en el marco de sus competencias, la pertinencia de los límites de inversión de los fondos privados de pensiones en fondos de capital emprendedor y publica un informe técnico en un plazo de ciento ochenta días hábiles."
+      }
+    ],
+    "costo_beneficio": "La ley no asigna recursos del Tesoro: ordena la continuidad del vehículo, la reinversión de sus retornos y habilita aportes multilaterales, privados y de recursos propios de COFIDE. El costo es de oportunidad y de riesgo (pérdida de valor de inversiones de alto riesgo), mitigado con participación minoritaria, condiciones pari passu y comité independiente. El beneficio es mantener un vehículo con historial verificable (más de US$ 14 millones invertidos en cinco fondos y 70 startups según COFIDE) y movilizar capital privado con efecto multiplicador. Cualquier aporte público adicional queda sujeto a la Ley de Presupuesto de cada año, respetando el artículo 79 de la Constitución.",
+    "efecto_vigencia": "Complementa el Decreto de Urgencia 013-2020 y su reglamentación en lo referido al FCEI. No deroga normas.",
+    "normas_relacionadas": [
+      {
+        "norma": "Decreto de Urgencia 013-2020, que promueve el financiamiento de la MIPYME, emprendimientos y startups",
+        "url": "https://www.mef.gob.pe/es/notas-de-prensa-y-comunicados/6266-gobierno-promueve-el-financiamiento-para-las-mipymes-emprendimientos-y-startups"
+      },
+      {
+        "norma": "Decreto Supremo 239-2021-EF, Reglamento del Título I del DU 013-2020",
+        "url": "https://busquedas.elperuano.pe/dispositivo/NL/1992708-3"
+      },
+      {
+        "norma": "Ley 30056, que modifica diversas leyes para facilitar la inversión, impulsar el desarrollo productivo y el crecimiento empresarial",
+        "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/30056.pdf"
+      }
+    ],
+    "antecedentes": "Por verificar en SPLEY.",
+    "referencias_internacionales": [
+      {
+        "pais": "Argentina",
+        "norma": "Ley 27.349 de Apoyo al Capital Emprendedor",
+        "url": "https://www.argentina.gob.ar/normativa/nacional/ley-27349-273567"
+      },
+      {
+        "pais": "Brasil",
+        "norma": "Lei Complementar 182/2021, Marco Legal das Startups",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp182.htm"
+      },
+      {
+        "pais": "España",
+        "norma": "Ley 28/2022, de fomento del ecosistema de las empresas emergentes",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2022-21739"
+      }
+    ],
+    "comision_sugerida": "Economía, Banca, Finanzas e Inteligencia Financiera",
+    "comision_secundaria": "Producción, Micro y Pequeña Empresa y Cooperativas",
+    "plan2050": [
+      "emprendimiento",
+      "banca",
+      "promocion-de-la-inversion"
+    ],
+    "ods": [
+      8,
+      9,
+      17
+    ],
+    "prioridad": "alta",
+    "costo_fiscal": "bajo",
+    "plazo": "corto",
+    "indicador_exito": "Al 2031, el FCEI mantiene inversiones activas en nuevos fondos de capital emprendedor con co-inversión privada y publica reportes semestrales y una evaluación de impacto independiente.",
+    "tags": [
+      "capital de riesgo",
+      "COFIDE",
+      "startups",
+      "financiamiento"
+    ],
+    "fuentes": [
+      {
+        "titulo": "COFIDE — Nota de prensa 19-feb-2026: balance del Fondo de Capital para Emprendimientos Innovadores (FCEI)",
+        "url": "https://documentos.cofide.com.pe/wp-content/uploads/2026/02/NP-COFIDE-financiara-a-unas-85-startups-hasta-fin-de-ano.pdf"
+      },
+      {
+        "titulo": "Andina — Lanzan primer fondo para emprendimientos innovadores peruanos",
+        "url": "https://andina.pe/agencia/noticia-lanzan-primer-fondo-para-emprendimientos-innovadores-peruanos-849300.aspx"
+      },
+      {
+        "titulo": "MEF — Nota de prensa: Gobierno promueve el financiamiento para las mipymes, emprendimientos y startups (DU 013-2020)",
+        "url": "https://www.mef.gob.pe/es/notas-de-prensa-y-comunicados/6266-gobierno-promueve-el-financiamiento-para-las-mipymes-emprendimientos-y-startups"
+      }
+    ]
+  },
+  {
+    "id": "ECO-03",
+    "eje": "econ",
+    "titulo": "Ley que modifica la Ley 30309 para dar estabilidad al incentivo tributario a la investigación científica, desarrollo tecnológico e innovación tecnológica y facilitar su acceso a las pequeñas empresas y empresas emergentes",
+    "titulo_corto": "Incentivo estable a la I+D+i",
+    "sumilla": "Extiende el horizonte del incentivo de la Ley 30309 con evaluación obligatoria, permite arrastrar la deducción adicional no aprovechada por empresas en pérdida, simplifica la calificación de proyectos y transparenta su uso.",
+    "problema": "La Ley 30309 permite a los contribuyentes de renta de tercera categoría deducir gastos en proyectos de I+D+i calificados por CONCYTEC. Tras sucesivas modificaciones (la Ley 31659 elevó las tasas para 2023-2025 y la Ley 32539, publicada a fines de 2025, amplió la vigencia hasta el ejercicio 2028), la deducción total puede llegar hasta 240% del gasto para empresas con ingresos de hasta 2,300 UIT. Pese a su generosidad, el gasto en I+D del país sigue siendo bajo: según el reporte de seguimiento de la Política Nacional de CTI de CONCYTEC, pasó de 0.12% del PBI en 2015 a 0.19% en 2024. Un estudio publicado en 2026 identifica una brecha entre la generosidad del incentivo y su uso efectivo, atribuida a la capacidad de las empresas para formular, ejecutar y sustentar proyectos. Además, la deducción solo beneficia a quien tiene renta imponible: las empresas emergentes y pequeñas en etapa de pérdidas, que son las que más innovan, no la aprovechan. Las prórrogas de corto plazo generan incertidumbre para proyectos de I+D que duran varios años.",
+    "objeto": "Dar previsibilidad de mediano plazo al incentivo de la Ley 30309, ampliar su acceso efectivo a pequeñas empresas y emergentes, y reforzar su evaluación.",
+    "articulado": [
+      {
+        "n": "Artículo 1",
+        "titulo": "Objeto",
+        "texto": "La presente ley tiene por objeto modificar la Ley 30309, Ley que promueve la investigación científica, desarrollo tecnológico e innovación tecnológica, para otorgar estabilidad de mediano plazo al beneficio, facilitar su uso por pequeñas empresas y empresas emergentes y fortalecer su evaluación."
+      },
+      {
+        "n": "Artículo 2",
+        "titulo": "Vigencia del beneficio",
+        "texto": "Modifícase el artículo de la Ley 30309 que regula la vigencia del beneficio, conforme a la redacción dada por la Ley 32539, a fin de que la deducción adicional sea aplicable hasta el ejercicio gravable 2031, para proyectos calificados hasta dicho ejercicio. La extensión se sustenta en el informe previo del Ministerio de Economía y Finanzas al que se refiere el artículo 79 de la Constitución."
+      },
+      {
+        "n": "Artículo 3",
+        "titulo": "Arrastre de la deducción adicional",
+        "texto": "Incorpórase un artículo en la Ley 30309 con el siguiente texto: \"La deducción adicional que no pueda ser aplicada en el ejercicio por insuficiencia de renta neta imponible, en el caso de contribuyentes cuyos ingresos netos no superen 2,300 UIT, puede ser arrastrada y aplicada contra la renta neta de los cuatro ejercicios gravables inmediatos siguientes, sin exceder el límite anual por empresa establecido en la presente ley.\""
+      },
+      {
+        "n": "Artículo 4",
+        "titulo": "Calificación de proyectos",
+        "texto": "El CONCYTEC resuelve las solicitudes de calificación de proyectos en un plazo máximo de cuarenta y cinco días hábiles, mediante procedimiento íntegramente digital. Habilita una ventanilla de convocatoria permanente o, como mínimo, dos convocatorias anuales, y publica criterios de evaluación y guías de formulación en lenguaje claro."
+      },
+      {
+        "n": "Artículo 5",
+        "titulo": "Proyectos colaborativos",
+        "texto": "Los proyectos ejecutados por consorcios de micro y pequeñas empresas o de empresas con universidades y centros de investigación registrados ante el CONCYTEC pueden calificarse de manera conjunta, distribuyéndose la deducción en proporción al gasto efectivamente incurrido por cada contribuyente."
+      },
+      {
+        "n": "Artículo 6",
+        "titulo": "Transparencia",
+        "texto": "El CONCYTEC y la SUNAT publican anualmente, en formato de datos abiertos, el número de proyectos calificados, su distribución por tamaño de empresa, sector y región, y el monto agregado de la deducción adicional aplicada, sin revelar información protegida por la reserva tributaria."
+      },
+      {
+        "n": "Artículo 7",
+        "titulo": "Evaluación de impacto",
+        "texto": "El Ministerio de Economía y Finanzas, en coordinación con el CONCYTEC, publica antes del 30 de junio de 2030 una evaluación del costo fiscal y del impacto del beneficio sobre la inversión privada en I+D, que sirve de sustento para cualquier prórroga posterior."
+      },
+      {
+        "n": "Artículo 8",
+        "titulo": "Financiamiento",
+        "texto": "La aplicación de la presente ley se financia con cargo al presupuesto institucional del CONCYTEC y de la SUNAT, sin demandar recursos adicionales al Tesoro Público."
+      }
+    ],
+    "disposiciones": [
+      {
+        "tipo": "Complementaria Final",
+        "n": "Primera",
+        "texto": "El Poder Ejecutivo adecúa el reglamento de la Ley 30309 a lo dispuesto en la presente ley en un plazo de sesenta días hábiles."
+      },
+      {
+        "tipo": "Complementaria Final",
+        "n": "Segunda",
+        "texto": "Para efectos de la Norma VII del Título Preliminar del Código Tributario, la presente ley señala como objetivo del beneficio el incremento de la inversión privada en I+D+i, como beneficiarios a los contribuyentes de renta de tercera categoría que ejecuten proyectos calificados, y como plazo de vigencia el establecido en el artículo 2."
+      }
+    ],
+    "costo_beneficio": "La medida genera gasto tributario (menor recaudación de impuesto a la renta), no gasto presupuestal directo. Su magnitud depende del uso del beneficio y debe ser cuantificada por el MEF en su informe previo (art. 79 de la Constitución); el arrastre de pérdidas se limita a empresas de hasta 2,300 UIT y al tope anual vigente por empresa, acotando el costo. El beneficio esperado es elevar la inversión privada en I+D, hoy estructuralmente baja (0.19% del PBI en 2024 según CONCYTEC), y dar previsibilidad a proyectos plurianuales. La evaluación obligatoria de 2030 permite corregir o eliminar el incentivo si no muestra adicionalidad.",
+    "efecto_vigencia": "Modifica la Ley 30309, en la redacción dada por la Ley 31659 y la Ley 32539, e incorpora un artículo sobre arrastre de la deducción adicional.",
+    "normas_relacionadas": [
+      {
+        "norma": "Ley 30309, Ley que promueve la investigación científica, desarrollo tecnológico e innovación tecnológica",
+        "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/30309.pdf"
+      },
+      {
+        "norma": "Ley 31659, Ley que modifica la Ley 30309 (deducciones y vigencia 2023-2025)",
+        "url": "https://taxnews.ey.com/news/2023-0116-peru-enacts-new-rules-for-tax-incentives-of-expenses-related-to-research-and-development"
+      },
+      {
+        "norma": "Ley 32539, que modifica la Ley 30309 y amplía la vigencia del beneficio hasta 2028",
+        "url": "https://bybconsultores.pe/creditos-por-beneficios-sectoriales/beneficio-tributario-id-i-2028/"
+      },
+      {
+        "norma": "Ley 31250, Ley del Sistema Nacional de Ciencia, Tecnología e Innovación (SINACTI)",
+        "url": "https://elperuano.pe/noticia/123825-oficializan-ley-del-sistema-nacional-de-ciencia-tecnologia-e-innovacion"
+      },
+      {
+        "norma": "TUO del Código Tributario (D.S. 133-2013-EF), incluida la Norma VII del Título Preliminar y el art. 85 (reserva tributaria)",
+        "url": "https://www.sunat.gob.pe/legislacion/codigo/"
+      }
+    ],
+    "antecedentes": "Ley 31659 (2022) y Ley 32539 (2025) modificaron la Ley 30309; otros proyectos por verificar en SPLEY.",
+    "referencias_internacionales": [
+      {
+        "pais": "España",
+        "norma": "Ley 14/2011, de la Ciencia, la Tecnología y la Innovación",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-9617"
+      },
+      {
+        "pais": "Brasil",
+        "norma": "Lei 11.196/2005 (Lei do Bem), capítulo de incentivos a la innovación tecnológica",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11196.htm"
+      }
+    ],
+    "comision_sugerida": "Economía, Banca, Finanzas e Inteligencia Financiera",
+    "comision_secundaria": "Ciencia, Innovación y Tecnología",
+    "plan2050": [
+      "ciencia-y-tecnologia",
+      "capital-del-conocimiento",
+      "innovacion"
+    ],
+    "ods": [
+      9
+    ],
+    "prioridad": "alta",
+    "costo_fiscal": "medio",
+    "plazo": "corto",
+    "indicador_exito": "Al 2031, incremento sostenido del número de proyectos calificados bajo la Ley 30309 respecto de 2025 y mayor participación de empresas de hasta 2,300 UIT, según datos abiertos de CONCYTEC/SUNAT.",
+    "tags": [
+      "I+D+i",
+      "tributario",
+      "CONCYTEC",
+      "innovación"
+    ],
+    "fuentes": [
+      {
+        "titulo": "CONCYTEC — Reporte de seguimiento 2016-2024 de la Política Nacional de CTI (gasto en I+D/PBI, posición GII)",
+        "url": "https://transparencia.concytec.gob.pe/images/2025/Reporte-de-seguimiento-2016-2024.pdf"
+      },
+      {
+        "titulo": "Iglesias-Osores (2026), Beneficios tributarios a la I+D+i en el Perú, MPRA Paper 130206",
+        "url": "https://mpra.ub.uni-muenchen.de/130206/"
+      },
+      {
+        "titulo": "La Cámara (CCL) — CONCYTEC: empresas pueden deducir hasta 140% adicional por gastos en I+D+i",
+        "url": "https://lacamara.pe/concytec-empresas-pueden-deducir-hasta-140-por-gastos-en-idi/"
+      },
+      {
+        "titulo": "BYB Consultores — Beneficio tributario I+D+i hasta 2028 (Ley 32539)",
+        "url": "https://bybconsultores.pe/creditos-por-beneficios-sectoriales/beneficio-tributario-id-i-2028/"
+      }
+    ]
+  },
+  {
+    "id": "ECO-04",
+    "eje": "econ",
+    "titulo": "Ley que establece metas multianuales indicativas de inversión en ciencia, tecnología e innovación hacia el uno por ciento del producto bruto interno",
+    "titulo_corto": "Meta escalonada de inversión en CTI",
+    "sumilla": "Fija una senda indicativa y escalonada de gasto total en I+D (público y privado) con metas a 2031 y 2036, obliga a su programación en el Marco Macroeconómico Multianual, crea un marcador presupuestal de CTI y un reporte anual al Congreso.",
+    "problema": "El Perú invierte en I+D una fracción muy inferior a sus pares. Según el reporte de seguimiento de CONCYTEC, el gasto en I+D fue 0.12% del PBI en 2015 y 0.19% en 2024; en el mismo periodo, el país se ubicó en el puesto 75 del Global Innovation Index de 2024. El Plan Perú 2050 (Comisión de Capital del Conocimiento) plantea elevar la inversión en I+D al 2.5% del PBI y advierte sobre la alta dependencia del gasto público y la baja participación privada. Los recursos públicos para CTI están dispersos entre programas (PROCIENCIA, ProInnóvate, institutos públicos de investigación, universidades) y no existe una meta legal ni un clasificador que permita saber cuánto invierte el Estado en CTI cada año. La falta de una senda previsible impide planificar capacidades (laboratorios, investigadores, posgrados) que requieren horizontes de más de un periodo de gobierno. Como el Congreso no tiene iniciativa de gasto (artículo 79 de la Constitución), la meta debe ser indicativa y operar a través de los instrumentos de programación del Poder Ejecutivo.",
+    "objeto": "Establecer metas indicativas de inversión total en I+D y los instrumentos de programación, medición y rendición de cuentas para alcanzarlas.",
+    "articulado": [
+      {
+        "n": "Artículo 1",
+        "titulo": "Objeto",
+        "texto": "La presente ley tiene por objeto establecer metas multianuales indicativas de inversión nacional en investigación y desarrollo experimental (I+D), así como mecanismos de programación, medición y rendición de cuentas, en el marco del Sistema Nacional de Ciencia, Tecnología e Innovación (SINACTI)."
+      },
+      {
+        "n": "Artículo 2",
+        "titulo": "Metas indicativas",
+        "texto": "Declárase de interés nacional alcanzar una inversión total en I+D, pública y privada, no menor de 0.5% del PBI al año 2031 y de 1% del PBI al año 2036. Las metas son indicativas y orientan la programación multianual del Estado y las políticas de promoción de la inversión privada en I+D."
+      },
+      {
+        "n": "Artículo 3",
+        "titulo": "Programación multianual",
+        "texto": "El Ministerio de Economía y Finanzas incorpora en el Marco Macroeconómico Multianual una sección sobre la senda de inversión pública en CTI compatible con las metas del artículo 2 y con las reglas fiscales vigentes. La asignación anual de recursos se efectúa en la Ley de Presupuesto del Sector Público de cada año fiscal."
+      },
+      {
+        "n": "Artículo 4",
+        "titulo": "Marcador presupuestal de CTI",
+        "texto": "El Ministerio de Economía y Finanzas, en coordinación con el CONCYTEC, implementa un marcador presupuestal que identifique el gasto público en CTI de todos los niveles de gobierno y universidades públicas, con publicación trimestral en el portal de Consulta Amigable."
+      },
+      {
+        "n": "Artículo 5",
+        "titulo": "Medición estadística",
+        "texto": "El CONCYTEC, en coordinación con el INEI, realiza la encuesta nacional de I+D e innovación con periodicidad no mayor de dos años, conforme a las metodologías internacionales, y publica los microdatos anonimizados."
+      },
+      {
+        "n": "Artículo 6",
+        "titulo": "Participación privada",
+        "texto": "El CONCYTEC propone al Ministerio de Economía y Finanzas y al Ministerio de la Producción las medidas de promoción de la inversión privada en I+D necesarias para que esta represente una proporción creciente del gasto total, y reporta su evolución anualmente."
+      },
+      {
+        "n": "Artículo 7",
+        "titulo": "Reporte anual al Congreso",
+        "texto": "El Presidente del CONCYTEC presenta, en la primera legislatura de cada año, ante la comisión competente del Congreso de la República, un informe sobre el avance de las metas del artículo 2, la ejecución del gasto público en CTI y la inversión privada en I+D."
+      },
+      {
+        "n": "Artículo 8",
+        "titulo": "Financiamiento",
+        "texto": "La presente ley no autoriza ni crea gasto. Su implementación se financia con cargo al presupuesto institucional de las entidades involucradas, sin demandar recursos adicionales al Tesoro Público."
+      }
+    ],
+    "disposiciones": [
+      {
+        "tipo": "Complementaria Final",
+        "n": "Primera",
+        "texto": "El Ministerio de Economía y Finanzas implementa el marcador presupuestal del artículo 4 a partir del proceso de programación multianual siguiente a la entrada en vigencia de la presente ley."
+      },
+      {
+        "tipo": "Complementaria Final",
+        "n": "Segunda",
+        "texto": "El CONCYTEC adecúa la Política Nacional de CTI y sus indicadores a las metas de la presente ley en un plazo de ciento ochenta días hábiles."
+      }
+    ],
+    "costo_beneficio": "La ley no genera gasto directo: las metas son indicativas y la asignación sigue sujeta a la Ley de Presupuesto anual y a las reglas fiscales, lo que respeta el artículo 79 de la Constitución. Los costos administrativos (marcador presupuestal, encuesta bienal) se absorben con el presupuesto del MEF, CONCYTEC e INEI. El beneficio principal es la previsibilidad: una senda conocida permite planificar formación de investigadores, laboratorios y alianzas con empresas, y mejora la rendición de cuentas al hacer visible cuánto invierte el Estado en CTI. Las metas son ambiciosas frente al 0.19% de 2024; su cumplimiento depende en gran parte de la inversión privada.",
+    "efecto_vigencia": "Complementa la Ley 31250, Ley del SINACTI, y la Política Nacional de CTI. No modifica ni deroga normas.",
+    "normas_relacionadas": [
+      {
+        "norma": "Ley 31250, Ley del Sistema Nacional de Ciencia, Tecnología e Innovación (SINACTI)",
+        "url": "https://elperuano.pe/noticia/123825-oficializan-ley-del-sistema-nacional-de-ciencia-tecnologia-e-innovacion"
+      },
+      {
+        "norma": "Decreto Legislativo 1727, que modifica la Ley 31250",
+        "url": "https://img.lpderecho.pe/wp-content/uploads/2026/02/Decreto-Legislativo-1727-LPDerecho.pdf"
+      },
+      {
+        "norma": "Ley 30309, Ley que promueve la investigación científica, desarrollo tecnológico e innovación tecnológica",
+        "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/30309.pdf"
+      }
+    ],
+    "antecedentes": "Por verificar en SPLEY.",
+    "referencias_internacionales": [
+      {
+        "pais": "España",
+        "norma": "Ley 14/2011, de la Ciencia, la Tecnología y la Innovación",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-9617"
+      }
+    ],
+    "comision_sugerida": "Ciencia, Innovación y Tecnología",
+    "comision_secundaria": "Presupuesto y Cuenta General de la República",
+    "plan2050": [
+      "ciencia-y-tecnologia",
+      "capital-del-conocimiento"
+    ],
+    "ods": [
+      9,
+      17
+    ],
+    "prioridad": "alta",
+    "costo_fiscal": "bajo",
+    "plazo": "largo",
+    "indicador_exito": "Gasto total en I+D igual o mayor a 0.5% del PBI en 2031 (frente a 0.19% en 2024, CONCYTEC), con marcador presupuestal de CTI publicado trimestralmente.",
+    "tags": [
+      "CTI",
+      "presupuesto",
+      "I+D",
+      "metas"
+    ],
+    "fuentes": [
+      {
+        "titulo": "CONCYTEC — Reporte de seguimiento 2016-2024 de la Política Nacional de CTI (gasto en I+D/PBI, posición GII)",
+        "url": "https://transparencia.concytec.gob.pe/images/2025/Reporte-de-seguimiento-2016-2024.pdf"
+      },
+      {
+        "titulo": "OMPI — Global Innovation Index",
+        "url": "https://www.wipo.int/global_innovation_index/en/"
+      },
+      {
+        "titulo": "El Peruano — Oficializan Ley del Sistema Nacional de Ciencia, Tecnología e Innovación (Ley 31250)",
+        "url": "https://elperuano.pe/noticia/123825-oficializan-ley-del-sistema-nacional-de-ciencia-tecnologia-e-innovacion"
+      }
+    ]
+  },
+  {
+    "id": "ECO-05",
+    "eje": "econ",
+    "titulo": "Ley que regula la titularidad y transferencia de los resultados de investigación financiados con fondos públicos y promueve la creación de empresas derivadas universitarias",
+    "titulo_corto": "PI pública y spin-offs universitarias",
+    "sumilla": "Establece que la entidad que ejecuta la investigación financiada con fondos públicos puede ser titular de la propiedad intelectual resultante, con obligación de protegerla y transferirla; habilita la participación de investigadores públicos en empresas derivadas (spin-offs) con reglas de conflicto de intereses.",
+    "problema": "Las universidades y centros de investigación peruanos generan pocas patentes y escasa transferencia tecnológica. El Plan Perú 2050 identifica la baja patentabilidad y la débil articulación entre academia y empresa como causas de la dependencia tecnológica externa. Un informe encargado por CONCYTEC en 2015 sobre la propiedad intelectual de investigaciones financiadas con fondos públicos constató la heterogeneidad de las cláusulas contractuales entre fondos y entidades, lo que genera incertidumbre sobre quién es titular de los resultados y cómo se comparten los beneficios. Las guías de CONCYTEC sobre empresas de base tecnológica señalan como obstáculos para las spin-offs la propiedad intelectual, el financiamiento y la comercialización. La Ley 30806 promovió el acceso abierto a la información generada con fondos públicos, pero no regula la titularidad ni la explotación comercial de invenciones. Los docentes e investigadores de universidades públicas enfrentan además dudas sobre la compatibilidad de crear o participar en una empresa que explota su invención. La Ley Bayh-Dole de Estados Unidos y la Ley 14/2011 de España muestran que reglas claras de titularidad y participación de investigadores incrementan la transferencia.",
+    "objeto": "Dar seguridad jurídica a la titularidad, protección y transferencia de los resultados de investigación financiados con fondos públicos y a la creación de empresas derivadas.",
+    "articulado": [
+      {
+        "n": "Artículo 1",
+        "titulo": "Objeto",
+        "texto": "La presente ley tiene por objeto regular la titularidad, protección y transferencia de los resultados de investigación, desarrollo tecnológico e innovación financiados total o parcialmente con fondos públicos, y promover la creación de empresas derivadas de universidades, institutos y centros de investigación."
+      },
+      {
+        "n": "Artículo 2",
+        "titulo": "Ámbito",
+        "texto": "La presente ley se aplica a las universidades públicas y privadas, institutos públicos de investigación, centros de investigación y empresas que ejecuten proyectos financiados con recursos públicos a través de PROCIENCIA, ProInnóvate u otros fondos del Estado, sin perjuicio de lo dispuesto en la Decisión 486 de la Comunidad Andina y el Decreto Legislativo 1075."
+      },
+      {
+        "n": "Artículo 3",
+        "titulo": "Titularidad",
+        "texto": "Salvo pacto distinto justificado en el contrato de financiamiento, la entidad ejecutora es titular de los derechos de propiedad intelectual sobre los resultados obtenidos con fondos públicos. La entidad financiadora conserva una licencia no exclusiva, intransferible y gratuita para fines públicos no comerciales."
+      },
+      {
+        "n": "Artículo 4",
+        "titulo": "Obligaciones del titular",
+        "texto": "La entidad titular está obligada a: a) comunicar la invención a la entidad financiadora en un plazo razonable; b) evaluar su protección; c) procurar su transferencia o explotación en condiciones que favorezcan su aplicación en el país; y d) reportar anualmente el estado de la explotación. Si la entidad no cumple estas obligaciones en el plazo que fije el reglamento, la entidad financiadora puede solicitar la cesión de la titularidad."
+      },
+      {
+        "n": "Artículo 5",
+        "titulo": "Participación de los inventores",
+        "texto": "Las entidades titulares reconocen a los investigadores inventores una participación no menor de un tercio de los beneficios económicos netos que obtengan de la explotación de los resultados, conforme a sus reglamentos internos de propiedad intelectual."
+      },
+      {
+        "n": "Artículo 6",
+        "titulo": "Empresas derivadas",
+        "texto": "Las entidades a que se refiere el artículo 2 pueden constituir o participar en el capital de empresas derivadas que exploten sus resultados de investigación, mediante aporte de derechos de propiedad intelectual o licencias. Las universidades públicas lo hacen conforme al régimen de su Ley y su estatuto, sin que ello implique transferencia de recursos presupuestales."
+      },
+      {
+        "n": "Artículo 7",
+        "titulo": "Participación de investigadores públicos",
+        "texto": "Los docentes e investigadores de entidades públicas pueden participar como socios o asesores técnicos de empresas derivadas que exploten resultados en los que intervinieron, previa autorización de la entidad y declaración de intereses. No pueden intervenir, en representación de la entidad, en decisiones que afecten a dicha empresa."
+      },
+      {
+        "n": "Artículo 8",
+        "titulo": "Oficinas de transferencia",
+        "texto": "Las universidades y los institutos públicos de investigación designan, con su estructura y presupuesto existentes, una unidad responsable de la transferencia tecnológica, la cual se registra ante el CONCYTEC."
+      },
+      {
+        "n": "Artículo 9",
+        "titulo": "Información",
+        "texto": "El CONCYTEC publica anualmente, en formato de datos abiertos, las invenciones comunicadas, solicitudes de protección, licencias otorgadas y empresas derivadas creadas a partir de proyectos financiados con fondos públicos."
+      },
+      {
+        "n": "Artículo 10",
+        "titulo": "Financiamiento",
+        "texto": "La implementación de la presente ley se financia con cargo al presupuesto institucional de las entidades involucradas, sin demandar recursos adicionales al Tesoro Público."
+      }
+    ],
+    "disposiciones": [
+      {
+        "tipo": "Complementaria Final",
+        "n": "Primera",
+        "texto": "El Poder Ejecutivo, mediante decreto supremo refrendado por el Presidente del Consejo de Ministros, reglamenta la presente ley en un plazo de noventa días hábiles, con opinión del INDECOPI."
+      },
+      {
+        "tipo": "Complementaria Final",
+        "n": "Segunda",
+        "texto": "Los fondos públicos de financiamiento de CTI adecúan sus bases y contratos tipo a la presente ley en un plazo de ciento ochenta días hábiles."
+      },
+      {
+        "tipo": "Complementaria Final",
+        "n": "Tercera",
+        "texto": "Las universidades adecúan sus reglamentos de propiedad intelectual a la presente ley en un plazo de un año."
+      }
+    ],
+    "costo_beneficio": "La ley no crea gasto: ordena reglas de titularidad y obliga a usar estructuras existentes para la transferencia tecnológica. Los costos de protección (tasas de patentes) los asumen las entidades titulares según su evaluación, y pueden recuperarse con licencias. El beneficio es reducir la incertidumbre que hoy desincentiva la explotación de resultados, alinear incentivos de investigadores mediante la participación en beneficios y habilitar empresas derivadas con reglas de conflicto de intereses claras. El riesgo es que la titularidad sin capacidades de gestión produzca patentes sin uso; se mitiga con la obligación de explotación y la posibilidad de cesión a la entidad financiadora.",
+    "efecto_vigencia": "Complementa la Ley 31250, la Ley 30220 Ley Universitaria y el Decreto Legislativo 1075. No deroga normas; prevalece sobre cláusulas contractuales futuras de los fondos públicos de CTI.",
+    "normas_relacionadas": [
+      {
+        "norma": "Ley 31250, Ley del Sistema Nacional de Ciencia, Tecnología e Innovación (SINACTI)",
+        "url": "https://elperuano.pe/noticia/123825-oficializan-ley-del-sistema-nacional-de-ciencia-tecnologia-e-innovacion"
+      },
+      {
+        "norma": "Ley 30806, Ley que modifica diversos artículos de la Ley 28303 y de la Ley 28613 (CONCYTEC), incluido el acceso abierto",
+        "url": "https://busquedas.elperuano.pe/normaslegales/ley-que-modifica-diversos-articulos-de-la-ley-28303-ley-mar-ley-n-30806-1666491-1/"
+      },
+      {
+        "norma": "Ley 30220, Ley Universitaria",
+        "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/30220.pdf"
+      },
+      {
+        "norma": "Decreto Legislativo 1075, disposiciones complementarias a la Decisión 486 de la CAN (propiedad industrial)",
+        "url": "https://www.leyes.congreso.gob.pe/Documentos/DecretosLegislativos/01075.pdf"
+      }
+    ],
+    "antecedentes": "Por verificar en SPLEY.",
+    "referencias_internacionales": [
+      {
+        "pais": "Estados Unidos",
+        "norma": "Ley Bayh-Dole, 35 U.S.C. § 200 y ss. (titularidad de invenciones financiadas con fondos federales)",
+        "url": "https://www.law.cornell.edu/uscode/text/35/200"
+      },
+      {
+        "pais": "España",
+        "norma": "Ley 14/2011, de la Ciencia, la Tecnología y la Innovación",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-9617"
+      }
+    ],
+    "comision_sugerida": "Ciencia, Innovación y Tecnología",
+    "comision_secundaria": "Educación, Juventud y Deporte",
+    "plan2050": [
+      "ciencia-y-tecnologia",
+      "capital-del-conocimiento",
+      "innovacion"
+    ],
+    "ods": [
+      4,
+      9
+    ],
+    "prioridad": "media",
+    "costo_fiscal": "nulo",
+    "plazo": "mediano",
+    "indicador_exito": "Al 2031, reporte anual de CONCYTEC en datos abiertos con invenciones comunicadas, licencias y empresas derivadas; 100% de fondos públicos de CTI con contratos tipo adecuados.",
+    "tags": [
+      "propiedad intelectual",
+      "universidades",
+      "spin-off",
+      "transferencia tecnológica"
+    ],
+    "fuentes": [
+      {
+        "titulo": "CONCYTEC — Informe sobre propiedad intelectual de investigaciones financiadas con fondos públicos (2015)",
+        "url": "https://repositorio.concytec.gob.pe/bitstreams/5778d311-1e2e-404a-a281-cd87556a1dea/download"
+      },
+      {
+        "titulo": "CONCYTEC/Vincúlate — Guía de negocio para empresas de base tecnológica y spin-offs",
+        "url": "https://vinculate.concytec.gob.pe/wp-content/uploads/2024/02/D2_Guia-de-negocio-1-en-alta.pdf"
+      },
+      {
+        "titulo": "El Peruano — Ley 30806 (acceso abierto a la información generada con fondos públicos)",
+        "url": "https://busquedas.elperuano.pe/normaslegales/ley-que-modifica-diversos-articulos-de-la-ley-28303-ley-mar-ley-n-30806-1666491-1/"
+      }
+    ]
+  },
+  {
+    "id": "ECO-06",
+    "eje": "econ",
+    "titulo": "Ley marco del sistema de finanzas abiertas y del derecho a la portabilidad de los datos financieros",
+    "titulo_corto": "Finanzas abiertas",
+    "sumilla": "Reconoce con rango de ley el derecho del usuario financiero a compartir sus datos con terceros autorizados mediante interfaces estandarizadas, otorga base legal a la regulación de la SBS sobre finanzas abiertas y fija principios de seguridad, consentimiento y reciprocidad.",
+    "problema": "La Superintendencia de Banca, Seguros y AFP (SBS) viene implementando una hoja de ruta de finanzas abiertas: en octubre de 2026 publicó para comentarios el primer bloque del Reglamento General del Sistema de Finanzas Abiertas, y la prensa especializada reporta una implementación gradual con los principales bancos hacia 2028. Sin embargo, este avance descansa en normas reglamentarias, sin una ley que reconozca el derecho del usuario a la portabilidad de sus datos financieros, que obligue a participar a entidades fuera del perímetro de supervisión de la SBS (por ejemplo, empresas fintech no reguladas o comercios con información crediticia) ni que articule las competencias de la SBS, el BCRP y la Autoridad Nacional de Protección de Datos Personales. Sin base legal, los incentivos a compartir datos son asimétricos: las entidades con más información tienen poco interés en abrirla. Chile resolvió esto con la Ley 21.521 (Ley Fintec), que creó por ley un sistema de finanzas abiertas; la Unión Europea lo hizo con la Directiva PSD2. Una ley marco daría estabilidad, protegería al usuario y reduciría riesgos de litigio sobre la base legal de la obligación de compartir datos.",
+    "objeto": "Establecer el marco legal del sistema de finanzas abiertas y reconocer el derecho a la portabilidad de datos financieros.",
+    "articulado": [
+      {
+        "n": "Artículo 1",
+        "titulo": "Objeto",
+        "texto": "La presente ley tiene por objeto establecer el marco legal del Sistema de Finanzas Abiertas, a fin de promover la competencia, la innovación y la inclusión financiera mediante el intercambio seguro de datos de clientes financieros, con su consentimiento, entre entidades participantes."
+      },
+      {
+        "n": "Artículo 2",
+        "titulo": "Derecho a la portabilidad de datos financieros",
+        "texto": "Todo usuario de servicios financieros tiene derecho a acceder a sus datos financieros y a autorizar, de manera expresa, informada, específica y revocable, que sean compartidos con terceros participantes del Sistema de Finanzas Abiertas, en formato estructurado, interoperable y de uso común, sin costo para el usuario."
+      },
+      {
+        "n": "Artículo 3",
+        "titulo": "Participantes",
+        "texto": "Son participantes del Sistema: a) las empresas del sistema financiero, de seguros y las administradoras privadas de fondos de pensiones, en las categorías que determine la SBS; b) las empresas emisoras de dinero electrónico; c) los proveedores de servicios basados en datos e iniciadores de pago que se inscriban en el registro a cargo de la SBS; y d) otras entidades que la SBS incorpore gradualmente, en función de su tamaño y del volumen de datos que administran."
+      },
+      {
+        "n": "Artículo 4",
+        "titulo": "Rectoría y regulación",
+        "texto": "La SBS es la autoridad competente para regular, supervisar y sancionar el funcionamiento del Sistema, incluyendo los estándares técnicos de las interfaces, los requisitos de seguridad, el registro de participantes y el calendario de implementación gradual. En lo referido a iniciación de pagos, coordina con el Banco Central de Reserva del Perú, conforme a la autonomía que le reconoce la Constitución."
+      },
+      {
+        "n": "Artículo 5",
+        "titulo": "Principios",
+        "texto": "El Sistema se rige por los principios de consentimiento del usuario, seguridad de la información, reciprocidad entre participantes, proporcionalidad regulatoria según tamaño y riesgo, no discriminación en el acceso e interoperabilidad técnica."
+      },
+      {
+        "n": "Artículo 6",
+        "titulo": "Protección de datos personales",
+        "texto": "El tratamiento de datos en el Sistema se sujeta a la Ley 29733, Ley de Protección de Datos Personales. La SBS y la Autoridad Nacional de Protección de Datos Personales suscriben un convenio de coordinación para evitar duplicidad de supervisión."
+      },
+      {
+        "n": "Artículo 7",
+        "titulo": "Responsabilidad",
+        "texto": "Cada participante es responsable por la seguridad de los datos bajo su custodia y por el uso de los datos recibidos únicamente para la finalidad autorizada por el usuario. Las entidades proveedoras de datos no pueden condicionar ni cobrar al usuario por el ejercicio del derecho del artículo 2."
+      },
+      {
+        "n": "Artículo 8",
+        "titulo": "Tarifas entre participantes",
+        "texto": "La SBS puede establecer criterios para las contraprestaciones entre participantes por el uso de las interfaces, orientados a costos y no discriminatorios, de modo que no constituyan barreras de entrada."
+      },
+      {
+        "n": "Artículo 9",
+        "titulo": "Financiamiento",
+        "texto": "La implementación de la presente ley se financia con cargo al presupuesto institucional de la SBS, sin demandar recursos adicionales al Tesoro Público."
+      }
+    ],
+    "disposiciones": [
+      {
+        "tipo": "Complementaria Final",
+        "n": "Primera",
+        "texto": "La SBS adecúa su reglamentación del Sistema de Finanzas Abiertas a la presente ley en un plazo de ciento ochenta días hábiles, preservando los avances regulatorios vigentes."
+      },
+      {
+        "tipo": "Complementaria Final",
+        "n": "Segunda",
+        "texto": "La implementación es gradual. La SBS publica el calendario por tipo de participante y de dato, iniciando por cuentas de depósito y tarjetas de crédito."
+      }
+    ],
+    "costo_beneficio": "No genera gasto público: la SBS se financia con contribuciones de las entidades supervisadas. Los costos recaen en los participantes (desarrollo de interfaces, seguridad), y se mitigan con implementación gradual y proporcionalidad. Los beneficios esperados son mayor competencia en crédito y medios de pago, mejores condiciones para usuarios que hoy no pueden demostrar su historial ante nuevos proveedores, e inclusión financiera de MYPE con información transaccional. El principal riesgo es de seguridad y uso indebido de datos, mitigado con consentimiento revocable, registro de participantes y coordinación con la autoridad de datos personales.",
+    "efecto_vigencia": "Complementa la Ley 26702 (Ley General del Sistema Financiero), la Ley 29440 y la Ley 29733. Da base legal a la regulación de finanzas abiertas de la SBS. No deroga normas.",
+    "normas_relacionadas": [
+      {
+        "norma": "Ley 29733, Ley de Protección de Datos Personales",
+        "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/29733.pdf"
+      },
+      {
+        "norma": "Ley 29440, Ley de los Sistemas de Pagos y de Liquidación de Valores",
+        "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/29440.pdf"
+      },
+      {
+        "norma": "Circular 0024-2022-BCRP, Reglamento de Interoperabilidad de los Servicios de Pago",
+        "url": "https://www.bcrp.gob.pe/docs/Transparencia/Normas-Legales/Circulares/2022/circular-0024-2022-bcrp.pdf"
+      }
+    ],
+    "antecedentes": "Por verificar en SPLEY.",
+    "referencias_internacionales": [
+      {
+        "pais": "Chile",
+        "norma": "Ley 21.521 (Ley Fintec), incluye sistema de finanzas abiertas y financiamiento colectivo",
+        "url": "https://bcn.cl/3ayrx"
+      },
+      {
+        "pais": "Unión Europea",
+        "norma": "Directiva (UE) 2015/2366 sobre servicios de pago (PSD2), acceso a cuentas e iniciación de pagos",
+        "url": "https://eur-lex.europa.eu/eli/dir/2015/2366/oj"
+      }
+    ],
+    "comision_sugerida": "Economía, Banca, Finanzas e Inteligencia Financiera",
+    "comision_secundaria": "Defensa del Consumidor y Organismos Reguladores de los Servicios Públicos",
+    "plan2050": [
+      "banca",
+      "transformacion-digital",
+      "competitividad"
+    ],
+    "ods": [
+      8,
+      9,
+      10
+    ],
+    "prioridad": "alta",
+    "costo_fiscal": "nulo",
+    "plazo": "mediano",
+    "indicador_exito": "Al 2031, los principales bancos y emisores de dinero electrónico intercambian datos de cuentas y tarjetas mediante interfaces estandarizadas, con registro público de participantes de la SBS.",
+    "tags": [
+      "open finance",
+      "fintech",
+      "datos",
+      "SBS"
+    ],
+    "fuentes": [
+      {
+        "titulo": "El Peruano — SBS fija ruta regulatoria (finanzas abiertas y BaaS)",
+        "url": "https://elperuano.pe/noticia/298729-sbs-fija-ruta-regulatoria"
+      },
+      {
+        "titulo": "Superintendencia de Banca, Seguros y AFP (SBS)",
+        "url": "https://www.sbs.gob.pe/"
+      },
+      {
+        "titulo": "Ley 21.521 (Chile) — texto en BCN",
+        "url": "https://bcn.cl/3ayrx"
+      }
+    ]
+  },
+  {
+    "id": "ECO-07",
+    "eje": "econ",
+    "titulo": "Ley que modifica la Ley 29440 para promover el acceso abierto, la interoperabilidad y la transparencia de comisiones en los servicios de pago minoristas",
+    "titulo_corto": "Pagos interoperables y transparentes",
+    "sumilla": "Incorpora en la Ley de los Sistemas de Pagos principios de acceso no discriminatorio, interoperabilidad e iniciación de pagos para proveedores no bancarios, y obliga a publicar las comisiones cobradas a comercios, respetando la autonomía regulatoria del BCRP.",
+    "problema": "Por regulación del Banco Central de Reserva del Perú (Circular 0024-2022-BCRP, Reglamento de Interoperabilidad de los Servicios de Pago) las principales billeteras digitales del país ya interoperan: según la revista Moneda del BCRP, la fase 3, que conectó cuentas de depósito con cuentas de dinero electrónico, inició en diciembre de 2023, y una fase 4 que permitiría el ingreso de fintech y otros proveedores mediante iniciación de pagos se encontraba en diseño. Este avance descansa en la potestad reglamentaria del BCRP. La Ley 29440 regula los sistemas de pagos, pero no consagra expresamente los principios de acceso no discriminatorio de nuevos proveedores a las infraestructuras ni la iniciación de pagos como servicio, lo que puede generar incertidumbre en la transición. Para los comercios, especialmente MYPE, las comisiones por aceptar pagos digitales (tarjetas, QR) no siempre son comparables, lo que dificulta elegir proveedor. La Directiva europea PSD2 y la Ley Fintec chilena dieron rango legal a la iniciación de pagos y al acceso de terceros. Una modificación acotada de la Ley 29440 daría estabilidad a la política del BCRP sin interferir en su autonomía.",
+    "objeto": "Incorporar en la Ley 29440 principios de acceso, interoperabilidad, iniciación de pagos y transparencia de comisiones en pagos minoristas.",
+    "articulado": [
+      {
+        "n": "Artículo 1",
+        "titulo": "Objeto",
+        "texto": "La presente ley tiene por objeto modificar la Ley 29440, Ley de los Sistemas de Pagos y de Liquidación de Valores, para incorporar principios que promuevan la competencia, el acceso abierto, la interoperabilidad y la transparencia en los servicios de pago minoristas."
+      },
+      {
+        "n": "Artículo 2",
+        "titulo": "Incorporación de principios",
+        "texto": "Incorpórase en la Ley 29440 un artículo con el siguiente texto: \"Principios de los servicios de pago minoristas. La regulación de los servicios de pago minoristas se orienta por los principios de: a) interoperabilidad entre proveedores de cuentas y de dinero electrónico; b) acceso no discriminatorio y proporcional al riesgo de proveedores no bancarios a las infraestructuras de pago; c) neutralidad tecnológica; d) seguridad y gestión de riesgos; y e) transparencia de precios para usuarios y comercios. El Banco Central de Reserva del Perú desarrolla estos principios en ejercicio de sus atribuciones constitucionales.\""
+      },
+      {
+        "n": "Artículo 3",
+        "titulo": "Iniciación de pagos",
+        "texto": "Incorpórase en la Ley 29440 un artículo con el siguiente texto: \"Servicio de iniciación de pagos. Es el servicio que permite, a solicitud y con autorización expresa del pagador, ordenar un pago desde su cuenta mantenida en otro proveedor. El Banco Central de Reserva del Perú establece los requisitos para prestar este servicio y para que los proveedores de cuentas permitan el acceso, en condiciones seguras y no discriminatorias.\""
+      },
+      {
+        "n": "Artículo 4",
+        "titulo": "Transparencia de comisiones a comercios",
+        "texto": "Los adquirentes, facilitadores de pago y proveedores de pagos con código QR publican en su portal institucional, en formato comparable, las comisiones y cargos totales que cobran a los comercios por tipo de instrumento de pago y segmento de comercio. El Banco Central de Reserva del Perú consolida y publica periódicamente dicha información."
+      },
+      {
+        "n": "Artículo 5",
+        "titulo": "Portabilidad del comercio",
+        "texto": "Los contratos de afiliación de comercios a servicios de aceptación de pagos no pueden contener cláusulas de exclusividad que impidan aceptar instrumentos de otros proveedores, ni penalidades desproporcionadas por resolución anticipada, conforme a lo que establezca el Banco Central de Reserva del Perú."
+      },
+      {
+        "n": "Artículo 6",
+        "titulo": "Coordinación",
+        "texto": "El Banco Central de Reserva del Perú, la SBS y el INDECOPI coordinan sus actuaciones en materia de pagos minoristas, finanzas abiertas y protección del consumidor, mediante convenio de cooperación."
+      },
+      {
+        "n": "Artículo 7",
+        "titulo": "Financiamiento",
+        "texto": "La aplicación de la presente ley se financia con cargo al presupuesto institucional de las entidades involucradas, sin demandar recursos adicionales al Tesoro Público."
+      }
+    ],
+    "disposiciones": [
+      {
+        "tipo": "Complementaria Final",
+        "n": "Primera",
+        "texto": "El Banco Central de Reserva del Perú adecúa su normativa a la presente ley en el plazo que estime pertinente en ejercicio de su autonomía, informando a la comisión competente del Congreso dentro del primer año de vigencia."
+      },
+      {
+        "tipo": "Complementaria Final",
+        "n": "Segunda",
+        "texto": "La obligación del artículo 4 es exigible a los ciento ochenta días calendario de la entrada en vigencia de la presente ley."
+      }
+    ],
+    "costo_beneficio": "No genera gasto público. Los costos recaen en los proveedores de pagos (publicación de tarifas, adecuación técnica para la iniciación de pagos), compensados por la ampliación del mercado. Los beneficios son mayor competencia en comisiones a comercios, menores costos de aceptación para MYPE y entrada de nuevos proveedores. La ley es deferente con la autonomía del BCRP (art. 84 de la Constitución): fija principios y deja el desarrollo técnico y el calendario al Banco Central, de modo que consolida, sin sustituir, su política de interoperabilidad.",
+    "efecto_vigencia": "Modifica la Ley 29440 mediante la incorporación de artículos. Complementa la Circular 0024-2022-BCRP. No deroga normas.",
+    "normas_relacionadas": [
+      {
+        "norma": "Ley 29440, Ley de los Sistemas de Pagos y de Liquidación de Valores",
+        "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/29440.pdf"
+      },
+      {
+        "norma": "Circular 0024-2022-BCRP, Reglamento de Interoperabilidad de los Servicios de Pago",
+        "url": "https://www.bcrp.gob.pe/docs/Transparencia/Normas-Legales/Circulares/2022/circular-0024-2022-bcrp.pdf"
+      },
+      {
+        "norma": "Ley 29571, Código de Protección y Defensa del Consumidor",
+        "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/29571.pdf"
+      }
+    ],
+    "antecedentes": "Por verificar en SPLEY.",
+    "referencias_internacionales": [
+      {
+        "pais": "Unión Europea",
+        "norma": "Directiva (UE) 2015/2366 sobre servicios de pago (PSD2), acceso a cuentas e iniciación de pagos",
+        "url": "https://eur-lex.europa.eu/eli/dir/2015/2366/oj"
+      },
+      {
+        "pais": "Chile",
+        "norma": "Ley 21.521 (Ley Fintec), incluye sistema de finanzas abiertas y financiamiento colectivo",
+        "url": "https://bcn.cl/3ayrx"
+      }
+    ],
+    "comision_sugerida": "Economía, Banca, Finanzas e Inteligencia Financiera",
+    "comision_secundaria": "Producción, Micro y Pequeña Empresa y Cooperativas",
+    "plan2050": [
+      "banca",
+      "mipymes",
+      "transformacion-digital"
+    ],
+    "ods": [
+      8,
+      10
+    ],
+    "prioridad": "media",
+    "costo_fiscal": "nulo",
+    "plazo": "corto",
+    "indicador_exito": "Al 2031, publicación periódica por el BCRP de comisiones comparables a comercios y servicio de iniciación de pagos regulado y operativo con proveedores no bancarios.",
+    "tags": [
+      "pagos",
+      "interoperabilidad",
+      "BCRP",
+      "MYPE"
+    ],
+    "fuentes": [
+      {
+        "titulo": "BCRP, Revista Moneda 202 — Interoperabilidad de los pagos minoristas en el Perú",
+        "url": "https://www.bcrp.gob.pe/docs/Publicaciones/Revista-Moneda/moneda-202/moneda-202-04.pdf"
+      },
+      {
+        "titulo": "BCRP — Reporte de Estabilidad Financiera mayo 2023, recuadro sobre interoperabilidad",
+        "url": "https://www.bcrp.gob.pe/docs/Publicaciones/Reporte-Estabilidad-Financiera/2023/mayo/ref-mayo-2023-recuadro-6.pdf"
+      },
+      {
+        "titulo": "BCRP — Sistema de pagos",
+        "url": "https://www.bcrp.gob.pe/sistema-de-pagos.html"
+      }
+    ]
+  },
+  {
+    "id": "ECO-08",
+    "eje": "econ",
+    "titulo": "Ley que establece el marco de registro, conducta y protección del usuario aplicable a los proveedores de servicios de activos virtuales",
+    "titulo_corto": "Proveedores de activos virtuales",
+    "sumilla": "Complementa el régimen de prevención de lavado de activos vigente para los PSAV con un registro habilitante, reglas de custodia y segregación de activos, información al usuario y publicidad, bajo la SBS y con coordinación con la SMV.",
+    "problema": "El Decreto Supremo 006-2023-JUS incorporó a los proveedores de servicios de activos virtuales (PSAV) como sujetos obligados a informar a la UIF-Perú, y la Resolución SBS 02648-2024 aprobó la norma de prevención del lavado de activos y del financiamiento del terrorismo aplicable a ellos. Según comentaristas especializados, esta norma no regula la tecnología subyacente ni la conducta de mercado frente al usuario: su finalidad es la prevención de delitos financieros. En consecuencia, no existe un régimen legal que exija a los PSAV custodiar y segregar los activos de sus clientes, mantener capital mínimo o informar de manera estandarizada sobre riesgos, comisiones y conflictos de interés. Cuando una plataforma quiebra o sufre un incidente, los usuarios carecen de reglas claras sobre la propiedad de sus activos. Tampoco existen reglas específicas de publicidad de activos virtuales, frecuentemente orientada a pequeños ahorristas. La Unión Europea (Reglamento MiCA), Brasil (Ley 14.478/2022) y Chile (Ley 21.521) ya cuentan con marcos legales que van más allá de la prevención de lavado de activos. Los activos virtuales no son moneda de curso legal en el Perú y esta ley no lo modifica.",
+    "objeto": "Establecer un régimen legal de registro, conducta de mercado y protección del usuario para los PSAV, complementario al régimen de prevención de LA/FT.",
+    "articulado": [
+      {
+        "n": "Artículo 1",
+        "titulo": "Objeto",
+        "texto": "La presente ley tiene por objeto establecer el régimen de registro, conducta de mercado, custodia y protección del usuario aplicable a los proveedores de servicios de activos virtuales que operan en el país o se dirigen a usuarios en el país."
+      },
+      {
+        "n": "Artículo 2",
+        "titulo": "Definiciones",
+        "texto": "Para efectos de la presente ley, se entiende por activo virtual la representación digital de valor que puede ser comercializada o transferida digitalmente y utilizada con fines de pago o inversión, excluyendo las representaciones digitales de moneda de curso legal y de valores mobiliarios, que se rigen por sus normas especiales. Se entiende por proveedor de servicios de activos virtuales (PSAV) a la persona que, como negocio, realiza actividades de intercambio, transferencia, custodia o administración de activos virtuales, o servicios financieros vinculados a su oferta, conforme a la definición recogida en la normativa de prevención de LA/FT vigente."
+      },
+      {
+        "n": "Artículo 3",
+        "titulo": "Registro habilitante",
+        "texto": "Los PSAV deben inscribirse en un registro a cargo de la SBS como condición para operar. La inscripción exige acreditar constitución como persona jurídica domiciliada o sucursal, idoneidad de accionistas y directores, sistemas de gestión de riesgos y de seguridad de la información, y cumplimiento del régimen de prevención de LA/FT. La SBS puede denegar, suspender o cancelar la inscripción."
+      },
+      {
+        "n": "Artículo 4",
+        "titulo": "Custodia y segregación",
+        "texto": "Los activos virtuales y fondos en moneda de curso legal de los clientes constituyen patrimonio separado del PSAV, no forman parte de su masa concursal y no pueden ser utilizados por este para fines propios sin autorización expresa del cliente. El PSAV mantiene registros que permitan identificar en todo momento los activos de cada cliente."
+      },
+      {
+        "n": "Artículo 5",
+        "titulo": "Requisitos prudenciales",
+        "texto": "La SBS establece requisitos de capital mínimo o garantías proporcionales al tipo y volumen de servicios, así como planes de continuidad operativa y de liquidación ordenada."
+      },
+      {
+        "n": "Artículo 6",
+        "titulo": "Información al usuario",
+        "texto": "Antes de contratar, el PSAV informa de manera clara y destacada: que los activos virtuales no son moneda de curso legal ni están cubiertos por el Fondo de Seguro de Depósitos; los riesgos de pérdida total; las comisiones totales; y los conflictos de interés. Esta información se proporciona en un formato estandarizado aprobado por la SBS."
+      },
+      {
+        "n": "Artículo 7",
+        "titulo": "Publicidad",
+        "texto": "La publicidad de servicios de activos virtuales debe ser veraz, incluir advertencias de riesgo y no presentar rentabilidades garantizadas. El INDECOPI fiscaliza la publicidad conforme al Código de Protección y Defensa del Consumidor y el Decreto Legislativo 1044, en coordinación con la SBS."
+      },
+      {
+        "n": "Artículo 8",
+        "titulo": "Coordinación con la SMV",
+        "texto": "Cuando un activo virtual tenga características de valor mobiliario, se rige por la normativa del mercado de valores bajo competencia de la Superintendencia del Mercado de Valores. La SBS y la SMV establecen mediante convenio criterios comunes de calificación."
+      },
+      {
+        "n": "Artículo 9",
+        "titulo": "Infracciones y sanciones",
+        "texto": "El incumplimiento de la presente ley constituye infracción sancionable por la SBS conforme a su régimen sancionador, sin perjuicio de las competencias del INDECOPI y de la UIF-Perú."
+      },
+      {
+        "n": "Artículo 10",
+        "titulo": "Financiamiento",
+        "texto": "La implementación de la presente ley se financia con cargo al presupuesto institucional de la SBS, sin demandar recursos adicionales al Tesoro Público."
+      }
+    ],
+    "disposiciones": [
+      {
+        "tipo": "Complementaria Final",
+        "n": "Primera",
+        "texto": "La SBS reglamenta la presente ley en un plazo de ciento ochenta días hábiles."
+      },
+      {
+        "tipo": "Complementaria Final",
+        "n": "Segunda",
+        "texto": "Los PSAV que a la entrada en vigencia de la presente ley se encuentren operando tienen un plazo de doce meses desde la publicación del reglamento para inscribirse en el registro."
+      },
+      {
+        "tipo": "Complementaria Final",
+        "n": "Tercera",
+        "texto": "Nada de lo dispuesto en la presente ley otorga a los activos virtuales la calidad de moneda de curso legal ni modifica las atribuciones del Banco Central de Reserva del Perú."
+      }
+    ],
+    "costo_beneficio": "No genera gasto público; la SBS financia la supervisión con contribuciones de supervisados, pudiendo incluir a los PSAV registrados. Los costos de cumplimiento (capital, custodia, auditoría) recaen en los PSAV y pueden reducir el número de operadores pequeños, efecto aceptable frente al beneficio de proteger el patrimonio de los usuarios en caso de quiebra o fraude interno. La ley reduce la incertidumbre jurídica para operadores serios y facilita su relación con bancos, que hoy enfrentan riesgos reputacionales. Se evita sobrerregulación al excluir valores mobiliarios y moneda de curso legal.",
+    "efecto_vigencia": "Complementa el Decreto Supremo 006-2023-JUS y la Resolución SBS 02648-2024, el Código de Protección y Defensa del Consumidor y el Decreto Legislativo 1044. No deroga normas.",
+    "normas_relacionadas": [
+      {
+        "norma": "Decreto Supremo 006-2023-JUS (incorpora a los PSAV como sujetos obligados ante la UIF-Perú)",
+        "url": "https://www.cuatrecasas.com/es/latam/financiero/art/aprueban-norma-splaft-proveedores-servicios-activos-virtuales"
+      },
+      {
+        "norma": "Resolución SBS 02648-2024, Norma para la prevención del LA/FT aplicable a los proveedores de servicios de activos virtuales",
+        "url": "https://img.lpderecho.pe/wp-content/uploads/2024/08/Resolucion-SBS-02648-2024-LPDerecho.pdf"
+      },
+      {
+        "norma": "Ley 29571, Código de Protección y Defensa del Consumidor",
+        "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/29571.pdf"
+      }
+    ],
+    "antecedentes": "Por verificar en SPLEY.",
+    "referencias_internacionales": [
+      {
+        "pais": "Unión Europea",
+        "norma": "Reglamento (UE) 2023/1114 relativo a los mercados de criptoactivos (MiCA)",
+        "url": "https://eur-lex.europa.eu/eli/reg/2023/1114/oj"
+      },
+      {
+        "pais": "Brasil",
+        "norma": "Lei 14.478/2022, prestadores de serviços de ativos virtuais",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/lei/l14478.htm"
+      },
+      {
+        "pais": "Chile",
+        "norma": "Ley 21.521 (Ley Fintec), incluye sistema de finanzas abiertas y financiamiento colectivo",
+        "url": "https://bcn.cl/3ayrx"
+      }
+    ],
+    "comision_sugerida": "Economía, Banca, Finanzas e Inteligencia Financiera",
+    "comision_secundaria": "Defensa del Consumidor y Organismos Reguladores de los Servicios Públicos",
+    "plan2050": [
+      "banca",
+      "transformacion-digital"
+    ],
+    "ods": [
+      8,
+      16
+    ],
+    "prioridad": "media",
+    "costo_fiscal": "nulo",
+    "plazo": "mediano",
+    "indicador_exito": "Al 2031, registro público de PSAV de la SBS operativo, con 100% de los PSAV registrados aplicando segregación de activos de clientes verificada por la SBS.",
+    "tags": [
+      "activos virtuales",
+      "cripto",
+      "SBS",
+      "consumidor"
+    ],
+    "fuentes": [
+      {
+        "titulo": "SBS — Nota de prensa sobre la norma SPLAFT para PSAV (Res. SBS 02648-2024)",
+        "url": "https://www.sbs.gob.pe/noticia/detallenoticia/idnoticia/3754"
+      },
+      {
+        "titulo": "Resolución SBS 02648-2024 (texto, vía LP Derecho)",
+        "url": "https://img.lpderecho.pe/wp-content/uploads/2024/08/Resolucion-SBS-02648-2024-LPDerecho.pdf"
+      },
+      {
+        "titulo": "Cuatrecasas — Aprueban norma SPLAFT para PSAV",
+        "url": "https://www.cuatrecasas.com/es/latam/financiero/art/aprueban-norma-splaft-proveedores-servicios-activos-virtuales"
+      }
+    ]
+  },
+  {
+    "id": "ECO-09",
+    "eje": "econ",
+    "titulo": "Ley que modifica el Decreto de Urgencia 013-2020 para fortalecer el financiamiento participativo financiero de empresas emergentes y MIPYME",
+    "titulo_corto": "Crowdfunding para startups y MIPYME",
+    "sumilla": "Ajusta el régimen legal del financiamiento participativo financiero para facilitar rondas de capital de empresas emergentes, permitir la transferencia secundaria entre inversionistas en la misma plataforma y aclarar la frontera con el crowdfunding de donación y recompensa.",
+    "problema": "El Decreto de Urgencia 013-2020 reconoció la actividad de financiamiento participativo financiero (crowdfunding de préstamos y de valores) y encargó a la Superintendencia del Mercado de Valores (SMV) su regulación, lo que se concretó con la Resolución SMV 045-2021-SMV/02, vigente desde mayo de 2021. Desde entonces la SMV ha autorizado a sociedades administradoras de plataformas. Sin embargo, la modalidad de valores, que permitiría a empresas emergentes captar capital de muchos inversionistas, ha tenido menor desarrollo que la de préstamos. Entre las razones señaladas por operadores figuran la falta de un mecanismo legal para que los inversionistas transfieran sus participaciones entre sí dentro de la plataforma (lo que reduce la liquidez), la ausencia de reconocimiento de vehículos de inversión colectiva que simplifiquen la tabla de accionistas de la empresa financiada, y la falta de claridad sobre el régimen aplicable a campañas de donación o recompensa, que no están bajo la SMV. Chile (Ley 21.521) y España (Ley 28/2022 y su normativa de plataformas) han ajustado sus marcos para dar mayor flexibilidad manteniendo la protección del inversionista minorista.",
+    "objeto": "Modificar el régimen legal del financiamiento participativo para facilitar su uso por empresas emergentes y MIPYME, manteniendo la protección del inversionista.",
+    "articulado": [
+      {
+        "n": "Artículo 1",
+        "titulo": "Objeto",
+        "texto": "La presente ley tiene por objeto modificar el Título del Decreto de Urgencia 013-2020 referido al financiamiento participativo financiero, a fin de facilitar el acceso de empresas emergentes y MIPYME a esta fuente de financiamiento y fortalecer la protección de los inversionistas."
+      },
+      {
+        "n": "Artículo 2",
+        "titulo": "Vehículos de inversión",
+        "texto": "Las sociedades administradoras de plataformas de financiamiento participativo financiero pueden estructurar, conforme a la regulación de la SMV, vehículos de propósito especial que agrupen a los inversionistas de un proyecto de la modalidad de valores, de modo que estos participen indirectamente en el capital del receptor a través de un único accionista."
+      },
+      {
+        "n": "Artículo 3",
+        "titulo": "Transferencia entre inversionistas",
+        "texto": "Las sociedades administradoras pueden habilitar, previa autorización de la SMV, un tablón de anuncios que permita a los inversionistas de la plataforma ofrecer y transferir entre sí los valores o derechos de crédito adquiridos, sin que ello constituya un mecanismo centralizado de negociación, conforme a los límites y requisitos que establezca la SMV."
+      },
+      {
+        "n": "Artículo 4",
+        "titulo": "Límites proporcionales",
+        "texto": "La SMV establece límites de financiamiento por proyecto y de inversión por inversionista no institucional, diferenciados según el perfil del inversionista y la modalidad, y los revisa periódicamente con base en el desempeño del mercado."
+      },
+      {
+        "n": "Artículo 5",
+        "titulo": "Información al inversionista",
+        "texto": "Antes de invertir, el inversionista recibe una ficha estandarizada con información esencial del proyecto, riesgos, iliquidez y posibilidad de pérdida total, y declara haberla comprendido. La sociedad administradora conserva la evidencia de dicha aceptación."
+      },
+      {
+        "n": "Artículo 6",
+        "titulo": "Financiamiento participativo no financiero",
+        "texto": "Las campañas de financiamiento participativo de donación o recompensa no constituyen actividad regulada por la SMV. Las plataformas que las gestionan informan al público la identidad del promotor, el destino de los fondos y las condiciones de devolución, y se sujetan al Código de Protección y Defensa del Consumidor en lo que corresponda."
+      },
+      {
+        "n": "Artículo 7",
+        "titulo": "Coordinación",
+        "texto": "La SMV y la SBS coordinan la supervisión cuando una sociedad administradora o los receptores realicen actividades sujetas a la competencia de ambas entidades."
+      },
+      {
+        "n": "Artículo 8",
+        "titulo": "Financiamiento",
+        "texto": "La aplicación de la presente ley se financia con cargo al presupuesto institucional de la SMV, sin demandar recursos adicionales al Tesoro Público."
+      }
+    ],
+    "disposiciones": [
+      {
+        "tipo": "Complementaria Final",
+        "n": "Primera",
+        "texto": "La SMV adecúa la Resolución SMV 045-2021-SMV/02 a la presente ley en un plazo de ciento ochenta días hábiles."
+      },
+      {
+        "tipo": "Complementaria Final",
+        "n": "Segunda",
+        "texto": "La SMV publica anualmente estadísticas del mercado de financiamiento participativo financiero por modalidad, número de proyectos, monto financiado y tasa de incumplimiento."
+      }
+    ],
+    "costo_beneficio": "No genera gasto público; la SMV supervisa con su presupuesto institucional financiado con contribuciones del mercado. Los costos recaen en las plataformas (estructuración de vehículos, tablón de anuncios), que son opcionales. Los beneficios son ampliar una fuente de capital para emergentes y MIPYME que no acceden a crédito bancario, mejorar la liquidez de los inversionistas y ordenar las campañas de donación o recompensa. El riesgo de pérdidas para minoristas se mitiga con límites proporcionales, ficha estandarizada y supervisión de la SMV.",
+    "efecto_vigencia": "Modifica e incorpora disposiciones en el Título del Decreto de Urgencia 013-2020 referido al financiamiento participativo financiero. Complementa la Resolución SMV 045-2021-SMV/02.",
+    "normas_relacionadas": [
+      {
+        "norma": "Decreto de Urgencia 013-2020, que promueve el financiamiento de la MIPYME, emprendimientos y startups",
+        "url": "https://www.mef.gob.pe/es/notas-de-prensa-y-comunicados/6266-gobierno-promueve-el-financiamiento-para-las-mipymes-emprendimientos-y-startups"
+      },
+      {
+        "norma": "Resolución SMV 045-2021-SMV/02, Reglamento de la actividad de financiamiento participativo financiero",
+        "url": "https://cdn.www.gob.pe/uploads/document/file/4193192/RSUP%20045-2021%20-%20Aprobaci%C3%B3n%20Reglamento%20FPF.pdf.pdf"
+      },
+      {
+        "norma": "Ley 29571, Código de Protección y Defensa del Consumidor",
+        "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/29571.pdf"
+      }
+    ],
+    "antecedentes": "Por verificar en SPLEY.",
+    "referencias_internacionales": [
+      {
+        "pais": "Chile",
+        "norma": "Ley 21.521 (Ley Fintec), incluye sistema de finanzas abiertas y financiamiento colectivo",
+        "url": "https://bcn.cl/3ayrx"
+      },
+      {
+        "pais": "España",
+        "norma": "Ley 28/2022, de fomento del ecosistema de las empresas emergentes",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2022-21739"
+      },
+      {
+        "pais": "Brasil",
+        "norma": "Lei Complementar 182/2021, Marco Legal das Startups",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp182.htm"
+      }
+    ],
+    "comision_sugerida": "Economía, Banca, Finanzas e Inteligencia Financiera",
+    "comision_secundaria": "Producción, Micro y Pequeña Empresa y Cooperativas",
+    "plan2050": [
+      "emprendimiento",
+      "mipymes",
+      "banca"
+    ],
+    "ods": [
+      8,
+      9
+    ],
+    "prioridad": "media",
+    "costo_fiscal": "nulo",
+    "plazo": "corto",
+    "indicador_exito": "Al 2031, estadística anual publicada por la SMV que muestre crecimiento del monto financiado en la modalidad de valores respecto de 2026.",
+    "tags": [
+      "crowdfunding",
+      "SMV",
+      "startups",
+      "MIPYME"
+    ],
+    "fuentes": [
+      {
+        "titulo": "SMV — Resolución 045-2021-SMV/02 (Reglamento de financiamiento participativo financiero)",
+        "url": "https://cdn.www.gob.pe/uploads/document/file/4193192/RSUP%20045-2021%20-%20Aprobaci%C3%B3n%20Reglamento%20FPF.pdf.pdf"
+      },
+      {
+        "titulo": "Superintendencia del Mercado de Valores (SMV)",
+        "url": "https://www.smv.gob.pe/"
+      },
+      {
+        "titulo": "MEF — Nota de prensa sobre el DU 013-2020",
+        "url": "https://www.mef.gob.pe/es/notas-de-prensa-y-comunicados/6266-gobierno-promueve-el-financiamiento-para-las-mipymes-emprendimientos-y-startups"
+      }
+    ]
+  },
+  {
+    "id": "ECO-10",
+    "eje": "econ",
+    "titulo": "Ley que modifica el Código de Protección y Defensa del Consumidor para regular el derecho de desistimiento en el comercio electrónico, prohibir los patrones oscuros y garantizar la cancelación sencilla de suscripciones",
+    "titulo_corto": "Consumidor digital",
+    "sumilla": "Incorpora al Código un capítulo sobre contratación a distancia y por medios electrónicos con derecho de desistimiento de catorce días, prohibición expresa de interfaces engañosas, cancelación de suscripciones por el mismo medio de contratación e identificación del vendedor en mercados en línea.",
+    "problema": "El comercio electrónico se consolidó en el Perú, pero el Código de Protección y Defensa del Consumidor (Ley 29571) fue diseñado para la venta presencial. Investigaciones académicas de la PUCP sostienen que no existe una regulación específica de las relaciones de consumo celebradas por medios electrónicos y que debería reconocerse un derecho de desistimiento sin expresión de causa. El INDECOPI ha advertido sobre el uso de patrones oscuros en campañas de comercio electrónico (urgencia artificial, acciones forzadas como crear una cuenta, inclusión de productos no deseados) y en 2026 sancionó a una plataforma de delivery por agregar por defecto una propina de S/ 3.90, con una multa de 3.78 UIT, según El Peruano. Estas sanciones se apoyan en reglas generales sobre métodos comerciales agresivos o engañosos, con escaso desarrollo específico, lo que genera inseguridad para proveedores y consumidores. Además, cancelar suscripciones digitales suele ser más difícil que contratarlas, y en los mercados en línea (marketplaces) el consumidor no siempre conoce la identidad del vendedor real. La Unión Europea reconoce un desistimiento de 14 días (Directiva 2011/83/UE) y prohíbe interfaces engañosas (Reglamento de Servicios Digitales).",
+    "objeto": "Adecuar el Código de Protección y Defensa del Consumidor a la contratación electrónica, con reglas claras para consumidores y proveedores.",
+    "articulado": [
+      {
+        "n": "Artículo 1",
+        "titulo": "Objeto",
+        "texto": "La presente ley tiene por objeto incorporar en la Ley 29571, Código de Protección y Defensa del Consumidor, disposiciones sobre contratación a distancia y por medios electrónicos, a fin de fortalecer la confianza en el comercio electrónico."
+      },
+      {
+        "n": "Artículo 2",
+        "titulo": "Información previa",
+        "texto": "En la contratación a distancia, el proveedor informa antes de la compra, de manera clara y en el mismo medio: su identidad, RUC y domicilio; el precio total con todos los cargos; el plazo y costo de entrega; las condiciones del derecho de desistimiento; y los canales de atención y reclamo."
+      },
+      {
+        "n": "Artículo 3",
+        "titulo": "Derecho de desistimiento",
+        "texto": "El consumidor puede desistir del contrato celebrado a distancia, sin expresión de causa ni penalidad, dentro de los catorce días calendario siguientes a la recepción del producto o a la celebración del contrato de servicios. El proveedor reembolsa lo pagado en un plazo no mayor de quince días calendario desde la comunicación del desistimiento. Los costos de devolución corren por cuenta del consumidor, salvo que el proveedor haya omitido informarlos o el producto sea defectuoso."
+      },
+      {
+        "n": "Artículo 4",
+        "titulo": "Excepciones al desistimiento",
+        "texto": "El derecho de desistimiento no procede respecto de: a) productos confeccionados conforme a especificaciones del consumidor; b) bienes perecibles; c) contenidos digitales cuya descarga o acceso se haya iniciado con consentimiento expreso; d) servicios plenamente ejecutados con consentimiento expreso; e) productos sellados abiertos por razones de salud o higiene; y f) servicios de transporte, alojamiento o entretenimiento con fecha determinada."
+      },
+      {
+        "n": "Artículo 5",
+        "titulo": "Prohibición de patrones oscuros",
+        "texto": "Se prohíbe diseñar, organizar o gestionar interfaces digitales de manera que engañen, manipulen o distorsionen la capacidad del consumidor de tomar decisiones libres e informadas. Constituyen, entre otras, prácticas prohibidas: a) casillas o cargos preseleccionados, incluidas propinas o seguros; b) urgencia o escasez falsas; c) ocultar el precio total hasta el final del proceso; d) obligar a crear una cuenta cuando no sea necesario para la prestación; y e) hacer más difícil rechazar que aceptar una opción."
+      },
+      {
+        "n": "Artículo 6",
+        "titulo": "Cancelación de suscripciones",
+        "texto": "En los contratos de suscripción o de renovación automática, el proveedor garantiza que el consumidor pueda cancelar por el mismo medio por el que contrató y en no más pasos que los empleados para contratar. El proveedor recuerda al consumidor, con antelación no menor de siete días calendario, la renovación de suscripciones anuales o el fin de periodos de prueba gratuitos que se conviertan en pagados."
+      },
+      {
+        "n": "Artículo 7",
+        "titulo": "Mercados en línea",
+        "texto": "Los operadores de mercados en línea informan de manera visible si el vendedor es el propio operador o un tercero, y en este último caso su identidad y RUC. Son solidariamente responsables con el vendedor cuando omitan dicha información o cuando, habiendo sido notificados de forma fehaciente de una infracción, no adopten medidas razonables."
+      },
+      {
+        "n": "Artículo 8",
+        "titulo": "Reseñas",
+        "texto": "Se prohíbe publicar o encargar reseñas falsas y presentar valoraciones sin informar si se verificó que provienen de consumidores que efectivamente adquirieron el producto o servicio."
+      },
+      {
+        "n": "Artículo 9",
+        "titulo": "Fiscalización",
+        "texto": "El INDECOPI fiscaliza y sanciona las infracciones a la presente ley conforme al régimen del Código de Protección y Defensa del Consumidor."
+      },
+      {
+        "n": "Artículo 10",
+        "titulo": "Financiamiento",
+        "texto": "La implementación de la presente ley se financia con cargo al presupuesto institucional del INDECOPI, sin demandar recursos adicionales al Tesoro Público."
+      }
+    ],
+    "disposiciones": [
+      {
+        "tipo": "Complementaria Final",
+        "n": "Primera",
+        "texto": "El Poder Ejecutivo, mediante decreto supremo refrendado por el Presidente del Consejo de Ministros, con opinión del INDECOPI, reglamenta la presente ley en un plazo de noventa días hábiles."
+      },
+      {
+        "tipo": "Complementaria Final",
+        "n": "Segunda",
+        "texto": "La presente ley entra en vigencia a los ciento ochenta días calendario de su publicación, a fin de permitir la adecuación de los proveedores."
+      },
+      {
+        "tipo": "Complementaria Final",
+        "n": "Tercera",
+        "texto": "El INDECOPI aprueba guías de cumplimiento para MYPE que comercializan por medios electrónicos."
+      }
+    ],
+    "costo_beneficio": "No genera gasto público; el INDECOPI fiscaliza con su presupuesto institucional y sus ingresos propios. Los costos de adecuación recaen en los proveedores (rediseño de interfaces, logística inversa), y se acotan con excepciones al desistimiento, cargo de devolución al consumidor y un periodo de adecuación de 180 días. Los beneficios son mayor confianza en el comercio electrónico, reducción de cobros no deseados y de reclamos, y seguridad jurídica para los proveedores al contar con reglas expresas en lugar de criterios casuísticos.",
+    "efecto_vigencia": "Modifica la Ley 29571 mediante la incorporación de un capítulo sobre contratación a distancia y por medios electrónicos. Complementa la Ley 27291. No deroga normas.",
+    "normas_relacionadas": [
+      {
+        "norma": "Ley 29571, Código de Protección y Defensa del Consumidor",
+        "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/29571.pdf"
+      },
+      {
+        "norma": "Ley 27291, que permite la utilización de medios electrónicos para la manifestación de voluntad",
+        "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/27291.pdf"
+      },
+      {
+        "norma": "Ley 29733, Ley de Protección de Datos Personales",
+        "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/29733.pdf"
+      }
+    ],
+    "antecedentes": "Por verificar en SPLEY.",
+    "referencias_internacionales": [
+      {
+        "pais": "Unión Europea",
+        "norma": "Directiva 2011/83/UE sobre los derechos de los consumidores (desistimiento de 14 días)",
+        "url": "https://eur-lex.europa.eu/eli/dir/2011/83/oj"
+      },
+      {
+        "pais": "Unión Europea",
+        "norma": "Reglamento (UE) 2022/2065 de Servicios Digitales, art. 25 (interfaces engañosas)",
+        "url": "https://eur-lex.europa.eu/eli/reg/2022/2065/oj"
+      }
+    ],
+    "comision_sugerida": "Defensa del Consumidor y Organismos Reguladores de los Servicios Públicos",
+    "comision_secundaria": "Producción, Micro y Pequeña Empresa y Cooperativas",
+    "plan2050": [
+      "peru-en-la-era-digital",
+      "competitividad"
+    ],
+    "ods": [
+      12,
+      16
+    ],
+    "prioridad": "alta",
+    "costo_fiscal": "nulo",
+    "plazo": "corto",
+    "indicador_exito": "Al 2031, reglamento vigente y reporte anual del INDECOPI sobre reclamos y sanciones en comercio electrónico, incluidos patrones oscuros y cancelación de suscripciones.",
+    "tags": [
+      "comercio electrónico",
+      "consumidor",
+      "INDECOPI",
+      "patrones oscuros"
+    ],
+    "fuentes": [
+      {
+        "titulo": "PUCP — ¿Necesaria o prescindible?: la regulación del derecho al desistimiento en el Perú",
+        "url": "https://repositorio.pucp.edu.pe/index/handle/123456789/199237"
+      },
+      {
+        "titulo": "El Peruano — Indecopi sanciona patrones oscuros que influyen en compras digitales",
+        "url": "https://www.elperuano.pe/noticia/300886-indecopi-sanciona-patrones-oscuros-que-influyen-en-compras-digitales-conoce-mas"
+      },
+      {
+        "titulo": "Andina — Cyber Days: Indecopi advierte patrones oscuros para influir en compras",
+        "url": "https://andina.pe/ingles/noticia-cyber-days-indecopi-advierte-patrones-oscuros-para-influir-compras-886569.aspx"
+      }
+    ]
+  },
+  {
+    "id": "ECO-11",
+    "eje": "econ",
+    "titulo": "Ley que establece un piso de protección social, seguridad y transparencia para las personas que prestan servicios a través de plataformas digitales de reparto y movilidad",
+    "titulo_corto": "Protección social en plataformas",
+    "sumilla": "Sin prejuzgar la naturaleza laboral o independiente de la relación, que se determina por el principio de primacía de la realidad, establece un seguro obligatorio de accidentes y aportes a salud a cargo de las plataformas, información transparente sobre tarifas y desactivaciones, y canales de reclamo.",
+    "problema": "Miles de personas trabajan en el Perú como repartidores o conductores mediante aplicaciones, sin un marco legal específico. Según El Peruano (2026), no existe una norma que defina la naturaleza de esta actividad, la Corte Suprema no ha unificado criterios y los jueces aplican la primacía de la realidad caso por caso, con decisiones no uniformes. En el periodo 2021-2026 se presentaron varios proyectos de ley que buscaban otorgar derechos laborales a repartidores; alguno obtuvo dictamen en la Comisión de Trabajo, pero ninguno se convirtió en ley, en medio de una fuerte controversia entre gremios empresariales y organizaciones de trabajadores. Mientras tanto, la mayoría presta servicios sin seguro frente a accidentes de tránsito, pese al riesgo de la actividad. En junio de 2026 la Conferencia Internacional del Trabajo adoptó el Convenio 193 de la OIT sobre el trabajo decente en la economía de plataformas, que deja a cada Estado la clasificación de la relación pero exige proteger derechos fundamentales de todos los trabajadores de plataformas, independientemente de su clasificación. España (Ley 12/2021) y la Unión Europea (Directiva 2024/2831) han legislado, con enfoques distintos.",
+    "objeto": "Garantizar un piso mínimo de protección social, seguridad y transparencia a quienes prestan servicios mediante plataformas de reparto y movilidad, cualquiera sea la calificación de la relación.",
+    "articulado": [
+      {
+        "n": "Artículo 1",
+        "titulo": "Objeto",
+        "texto": "La presente ley tiene por objeto establecer un piso mínimo de protección social, seguridad y transparencia para las personas que prestan servicios de reparto o de transporte de pasajeros a través de plataformas digitales, cualquiera sea la naturaleza jurídica de la relación."
+      },
+      {
+        "n": "Artículo 2",
+        "titulo": "Primacía de la realidad",
+        "texto": "Lo dispuesto en la presente ley no prejuzga la naturaleza laboral o independiente de la relación entre la persona prestadora y la plataforma, la cual se determina conforme al principio de primacía de la realidad y a la legislación laboral vigente. El cumplimiento de la presente ley no puede ser invocado como indicio de laboralidad ni de autonomía."
+      },
+      {
+        "n": "Artículo 3",
+        "titulo": "Registro de plataformas",
+        "texto": "Las empresas que operan plataformas digitales de reparto o movilidad en el país se inscriben en un registro a cargo del Ministerio de Trabajo y Promoción del Empleo, de carácter gratuito y en línea, y reportan semestralmente el número de personas prestadoras activas, preservando la confidencialidad comercial."
+      },
+      {
+        "n": "Artículo 4",
+        "titulo": "Seguro obligatorio de accidentes",
+        "texto": "La plataforma contrata, a su cargo, un seguro de accidentes personales que cubra a la persona prestadora durante el tiempo de conexión y la ejecución del servicio, con coberturas mínimas de muerte, invalidez y gastos de atención médica, conforme a los montos que fije el reglamento. Este seguro no sustituye al SOAT ni al Seguro Complementario de Trabajo de Riesgo cuando este último corresponda."
+      },
+      {
+        "n": "Artículo 5",
+        "titulo": "Aporte a la seguridad social en salud",
+        "texto": "La plataforma retiene y aporta a EsSalud, por cuenta de la persona prestadora que lo solicite, un porcentaje de los ingresos que le abona, con la contribución adicional de la plataforma que fije el reglamento, a fin de garantizar su afiliación como asegurado regular o potestativo conforme a la Ley 26790."
+      },
+      {
+        "n": "Artículo 6",
+        "titulo": "Transparencia de tarifas y asignación",
+        "texto": "La plataforma informa a la persona prestadora, antes de aceptar cada servicio, el pago estimado y la distancia; y pone a su disposición, de forma comprensible, los criterios principales que inciden en la asignación de servicios, la tarifa y la evaluación de desempeño."
+      },
+      {
+        "n": "Artículo 7",
+        "titulo": "Desactivación de cuentas",
+        "texto": "La suspensión o desactivación de la cuenta de la persona prestadora debe ser motivada y comunicada por escrito, salvo riesgo inminente para terceros. La persona tiene derecho a solicitar la revisión por una persona humana y a obtener respuesta en un plazo no mayor de diez días hábiles."
+      },
+      {
+        "n": "Artículo 8",
+        "titulo": "Seguridad y salud",
+        "texto": "Las plataformas adoptan medidas razonables de prevención de riesgos, incluyendo información sobre seguridad vial, límites de tiempo de conexión continua y facilidades de acceso a puntos de descanso cuando corresponda."
+      },
+      {
+        "n": "Artículo 9",
+        "titulo": "Fiscalización",
+        "texto": "La SUNAFIL fiscaliza el cumplimiento de las obligaciones previstas en los artículos 3, 4, 6, 7 y 8; y EsSalud, en coordinación con la SUNAT, las del artículo 5."
+      },
+      {
+        "n": "Artículo 10",
+        "titulo": "Financiamiento",
+        "texto": "La implementación de la presente ley se financia con cargo al presupuesto institucional de las entidades involucradas, sin demandar recursos adicionales al Tesoro Público."
+      }
+    ],
+    "disposiciones": [
+      {
+        "tipo": "Complementaria Final",
+        "n": "Primera",
+        "texto": "El Poder Ejecutivo, mediante decreto supremo refrendado por el Ministro de Trabajo y Promoción del Empleo y el Ministro de Economía y Finanzas, reglamenta la presente ley en un plazo de noventa días hábiles, previa consulta en el Consejo Nacional de Trabajo y Promoción del Empleo."
+      },
+      {
+        "tipo": "Complementaria Final",
+        "n": "Segunda",
+        "texto": "El Ministerio de Trabajo y Promoción del Empleo evalúa y presenta, en un plazo de un año, un informe sobre la ratificación del Convenio 193 de la OIT."
+      }
+    ],
+    "costo_beneficio": "No genera gasto público; las obligaciones (seguro de accidentes, aportes a salud, transparencia) recaen en las plataformas, que pueden trasladar parte del costo a tarifas. El aporte a EsSalud amplía su base contributiva. Al no definir la naturaleza de la relación, la ley evita el principal punto de bloqueo de debates previos y deja a la primacía de la realidad su función. El beneficio es reducir la desprotección frente a accidentes de tránsito y la arbitrariedad en desactivaciones, alineando al país con el Convenio 193 de la OIT. El riesgo de menor oferta de servicios se mitiga con reglas proporcionales fijadas en el reglamento.",
+    "efecto_vigencia": "Complementa la Ley 26790 y la legislación laboral vigente. No modifica la regulación de transporte terrestre ni deroga normas.",
+    "normas_relacionadas": [
+      {
+        "norma": "Ley 26790, Ley de Modernización de la Seguridad Social en Salud",
+        "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/26790.pdf"
+      },
+      {
+        "norma": "Ley 27181, Ley General de Transporte y Tránsito Terrestre",
+        "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/27181.pdf"
+      }
+    ],
+    "antecedentes": "Existen proyectos de ley del periodo 2021-2026 sobre repartidores, con dictámenes en la Comisión de Trabajo; números por verificar en SPLEY.",
+    "referencias_internacionales": [
+      {
+        "pais": "España",
+        "norma": "Ley 12/2021, derechos laborales de las personas dedicadas al reparto en plataformas digitales",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-15767"
+      },
+      {
+        "pais": "Unión Europea",
+        "norma": "Directiva (UE) 2024/2831 relativa a la mejora de las condiciones laborales en el trabajo en plataformas",
+        "url": "https://eur-lex.europa.eu/eli/dir/2024/2831/oj"
+      }
+    ],
+    "comision_sugerida": "Trabajo y Seguridad Social",
+    "comision_secundaria": "Transportes y Comunicaciones",
+    "plan2050": [
+      "prevision",
+      "peru-en-la-era-digital"
+    ],
+    "ods": [
+      3,
+      8
+    ],
+    "prioridad": "alta",
+    "costo_fiscal": "nulo",
+    "plazo": "corto",
+    "indicador_exito": "Al 2031, 100% de plataformas registradas ante el MTPE con seguro de accidentes vigente para sus prestadores y reporte semestral de prestadores activos y afiliados a EsSalud.",
+    "tags": [
+      "plataformas",
+      "delivery",
+      "protección social",
+      "OIT"
+    ],
+    "fuentes": [
+      {
+        "titulo": "El Peruano — Convenio 193 de la OIT sobre trabajo decente en la economía de plataformas",
+        "url": "https://elperuano.pe/noticia/298228-trabajas-para-una-app-conoce-que-cambia-con-el-nuevo-convenio-de-la-oit-sobre-plataformas"
+      },
+      {
+        "titulo": "El Peruano — Trabajo en apps: ¿independiente o empleado? Lo que dice el nuevo convenio OIT",
+        "url": "https://elperuano.pe/noticia/298103-trabajo-en-apps-independiente-o-empleado-conoce-lo-que-dice-el-nuevo-convenio-oit"
+      },
+      {
+        "titulo": "Bloomberg Línea — Avanza regulación laboral en apps de delivery en Perú",
+        "url": "https://www.bloomberglinea.com/latinoamerica/peru/avanza-regulacion-laboral-en-apps-de-delivery-en-peru-que-pasa-en-otros-paises/"
+      }
+    ]
+  },
+  {
+    "id": "ECO-12",
+    "eje": "econ",
+    "titulo": "Ley que facilita la exportación de servicios digitales y de software mediante la simplificación de requisitos del Impuesto General a las Ventas y la devolución oportuna del saldo a favor del exportador",
+    "titulo_corto": "Exportación de servicios digitales",
+    "sumilla": "Simplifica la acreditación de la exportación de servicios digitales prestados a no domiciliados, establece inscripción automática en el Registro de Exportadores de Servicios y plazos ciertos para la devolución del saldo a favor del exportador a MIPYME.",
+    "problema": "Desde la Ley 30641 (vigente desde setiembre de 2017), la exportación de servicios dejó de ser una lista cerrada (se derogó el Apéndice V de la Ley del IGV) y se rige por requisitos concurrentes del artículo 33 de la Ley del IGV: prestación a título oneroso desde el país hacia el exterior, usuario no domiciliado, uso o aprovechamiento en el extranjero y registro previo en el Registro de Exportadores de Servicios de la SUNAT. En la práctica, para empresas de software, diseño, desarrollo de videojuegos, analítica de datos o servicios en la nube, acreditar que el servicio se aprovecha íntegramente en el extranjero es complejo cuando el servicio es remoto y el cliente tiene presencia global, y los informes de la SUNAT muestran controversias interpretativas recurrentes. Ello genera riesgo de que se exija IGV sobre servicios que compiten en mercados internacionales sin ese costo, y retrasos en la devolución del saldo a favor del exportador, que afecta la liquidez de MIPYME tecnológicas. El Plan Perú 2050 plantea elevar las exportaciones de alta tecnología y señala a la economía creativa y los servicios digitales como sectores de especialización.",
+    "objeto": "Dar certeza a la calificación como exportación de los servicios digitales y agilizar la devolución del saldo a favor del exportador, sin crear nuevas exoneraciones.",
+    "articulado": [
+      {
+        "n": "Artículo 1",
+        "titulo": "Objeto",
+        "texto": "La presente ley tiene por objeto facilitar la exportación de servicios digitales y de software, otorgando certeza jurídica sobre su calificación como exportación para efectos del Impuesto General a las Ventas y agilizando la devolución del saldo a favor del exportador."
+      },
+      {
+        "n": "Artículo 2",
+        "titulo": "Servicios digitales exportados",
+        "texto": "Incorpórase un párrafo en el artículo 33 del Texto Único Ordenado de la Ley del IGV e ISC, en los siguientes términos: \"Tratándose de servicios digitales, de desarrollo de software, procesamiento de datos y similares prestados íntegramente por medios electrónicos a un usuario no domiciliado, se presume, salvo prueba en contrario, que el uso, explotación o aprovechamiento tiene lugar en el extranjero cuando el usuario no tenga establecimiento permanente en el país y la contraprestación se pague desde el exterior. El reglamento establece los documentos que sustentan esta presunción.\""
+      },
+      {
+        "n": "Artículo 3",
+        "titulo": "Inscripción automática",
+        "texto": "La inscripción en el Registro de Exportadores de Servicios se efectúa de manera automática, en línea, al momento en que el contribuyente lo solicite a través de la plataforma de la SUNAT, sin perjuicio de la fiscalización posterior."
+      },
+      {
+        "n": "Artículo 4",
+        "titulo": "Devolución del saldo a favor del exportador",
+        "texto": "Las solicitudes de devolución del saldo a favor del exportador presentadas por exportadores de servicios cuyos ingresos netos anuales no superen 1,700 UIT se resuelven en un plazo máximo de quince días hábiles cuando el contribuyente cuente con comprobantes electrónicos y no tenga deuda exigible. La SUNAT puede efectuar la verificación con posterioridad a la devolución."
+      },
+      {
+        "n": "Artículo 5",
+        "titulo": "Comprobantes electrónicos",
+        "texto": "Los comprobantes de pago electrónicos emitidos por operaciones de exportación de servicios incorporan los datos que permitan a la SUNAT verificar automáticamente el cumplimiento de los requisitos del artículo 33 del TUO de la Ley del IGV e ISC."
+      },
+      {
+        "n": "Artículo 6",
+        "titulo": "Información",
+        "texto": "La SUNAT y PROMPERÚ publican anualmente estadísticas de exportación de servicios por tipo de servicio, tamaño de empresa y región, en formato de datos abiertos, respetando la reserva tributaria."
+      },
+      {
+        "n": "Artículo 7",
+        "titulo": "Financiamiento",
+        "texto": "La implementación de la presente ley se financia con cargo al presupuesto institucional de la SUNAT y de PROMPERÚ, sin demandar recursos adicionales al Tesoro Público."
+      }
+    ],
+    "disposiciones": [
+      {
+        "tipo": "Complementaria Final",
+        "n": "Primera",
+        "texto": "El Ministerio de Economía y Finanzas adecúa el Reglamento de la Ley del IGV e ISC en un plazo de noventa días hábiles."
+      },
+      {
+        "tipo": "Complementaria Final",
+        "n": "Segunda",
+        "texto": "Antes de la aprobación de la presente ley se solicita el informe previo del Ministerio de Economía y Finanzas conforme al artículo 79 de la Constitución, considerando que la medida no crea exoneraciones sino que precisa el ámbito de la exportación de servicios."
+      }
+    ],
+    "costo_beneficio": "La medida no crea exoneraciones: la exportación de servicios ya no está gravada con IGV y el exportador ya tiene derecho al saldo a favor. Su efecto fiscal se limita a un posible adelanto en el tiempo de devoluciones, acotado a MIPYME con comprobantes electrónicos y sin deuda. Podría existir un costo recaudatorio si la presunción se aplica a servicios que hoy la SUNAT considera aprovechados en el país; por ello admite prueba en contrario y requiere informe previo del MEF. Los beneficios son menor riesgo tributario y mejor liquidez para exportadores de software y servicios digitales, sector señalado como prioritario por el Plan Perú 2050.",
+    "efecto_vigencia": "Modifica el artículo 33 del TUO de la Ley del IGV e ISC (en la redacción dada por la Ley 30641). Complementa el reglamento de la Ley del IGV.",
+    "normas_relacionadas": [
+      {
+        "norma": "TUO de la Ley del IGV e ISC (D.S. 055-99-EF)",
+        "url": "https://www.sunat.gob.pe/legislacion/igv/ley/index.html"
+      },
+      {
+        "norma": "Ley 30641, Ley que fomenta la exportación de servicios y el turismo (modifica el art. 33 de la Ley del IGV)",
+        "url": "https://www.leyes.congreso.gob.pe/Documentos/2016_2021/ADLP/Normas_Legales/30641-LEY.pdf"
+      },
+      {
+        "norma": "TUO del Código Tributario (D.S. 133-2013-EF), incluida la Norma VII del Título Preliminar y el art. 85 (reserva tributaria)",
+        "url": "https://www.sunat.gob.pe/legislacion/codigo/"
+      }
+    ],
+    "antecedentes": "Ley 30641 (2017) reformó la exportación de servicios; otros proyectos por verificar en SPLEY.",
+    "referencias_internacionales": [
+      {
+        "pais": "Argentina",
+        "norma": "Ley 27.506, Régimen de Promoción de la Economía del Conocimiento",
+        "url": "https://www.argentina.gob.ar/normativa/nacional/ley-27506-2019-324101/texto"
+      }
+    ],
+    "comision_sugerida": "Comercio Exterior y Turismo",
+    "comision_secundaria": "Economía, Banca, Finanzas e Inteligencia Financiera",
+    "plan2050": [
+      "comercio-exterior-e-insercion-en-el-merc",
+      "capital-del-conocimiento",
+      "competitividad"
+    ],
+    "ods": [
+      8,
+      9,
+      17
+    ],
+    "prioridad": "media",
+    "costo_fiscal": "bajo",
+    "plazo": "corto",
+    "indicador_exito": "Al 2031, estadística anual de exportación de servicios digitales publicada en datos abiertos y plazo promedio de devolución a MIPYME exportadoras de servicios no mayor de 15 días hábiles.",
+    "tags": [
+      "exportación",
+      "software",
+      "IGV",
+      "servicios digitales"
+    ],
+    "fuentes": [
+      {
+        "titulo": "Garrigues — Perú: Ley que fomenta la exportación de servicios y el turismo",
+        "url": "https://www.garrigues.com/es_ES/noticia/peru-ley-que-fomenta-la-exportacion-de-servicios-y-el-turismo"
+      },
+      {
+        "titulo": "Ley 30641 (texto oficial, Congreso)",
+        "url": "https://www.leyes.congreso.gob.pe/Documentos/2016_2021/ADLP/Normas_Legales/30641-LEY.pdf"
+      },
+      {
+        "titulo": "SUNAT — TUO de la Ley del IGV e ISC",
+        "url": "https://www.sunat.gob.pe/legislacion/igv/ley/index.html"
+      }
+    ]
+  },
+  {
+    "id": "ECO-13",
+    "eje": "econ",
+    "titulo": "Ley de promoción de la economía del conocimiento y de los parques científicos y tecnológicos",
+    "titulo_corto": "Economía del conocimiento y parques",
+    "sumilla": "Crea un registro de empresas de la economía del conocimiento con compromisos verificables de empleo calificado, I+D y exportación, y un régimen para reconocer parques científicos y tecnológicos vinculados a universidades; los incentivos tributarios quedan sujetos a ley específica con informe del MEF.",
+    "problema": "El Plan Perú 2050 propone transitar de una economía extractiva a una economía del conocimiento, con metas de que el 20% de las exportaciones sean de alta tecnología al 2050 y con parques científicos y tecnológicos en universidades regionales clave. Sin embargo, el país carece de una categoría legal que identifique a las empresas intensivas en conocimiento (software, servicios basados en conocimiento, biotecnología, nanotecnología, ingeniería) y que permita diseñar políticas, medir su evolución y condicionar apoyos a resultados. La Ley 30078 promueve parques industriales tecno-ecológicos con enfoque industrial y ambiental, pero no regula parques científicos y tecnológicos vinculados a universidades e institutos de investigación. Según CONCYTEC, el Perú se ubicó en el puesto 75 del Global Innovation Index en 2024, y su gasto en I+D (0.19% del PBI) es de los más bajos de la región. Argentina, con la Ley 27.506, creó un régimen de economía del conocimiento basado en un registro de beneficiarios con requisitos de I+D, exportación y capacitación. El reto es replicar el enfoque de registro y compromisos sin crear exoneraciones indiscriminadas.",
+    "objeto": "Identificar, medir y promover las actividades de la economía del conocimiento y los parques científicos y tecnológicos, con apoyos condicionados a compromisos verificables.",
+    "articulado": [
+      {
+        "n": "Artículo 1",
+        "titulo": "Objeto",
+        "texto": "La presente ley tiene por objeto promover las actividades de la economía del conocimiento y el desarrollo de parques científicos y tecnológicos, como instrumentos para diversificar la estructura productiva y elevar la productividad."
+      },
+      {
+        "n": "Artículo 2",
+        "titulo": "Actividades de la economía del conocimiento",
+        "texto": "Son actividades de la economía del conocimiento, entre otras: el desarrollo de software y servicios informáticos y digitales; la producción audiovisual y de contenidos digitales; la biotecnología, bioeconomía y nanotecnología; los servicios profesionales de ingeniería, diseño e investigación exportables; la industria aeroespacial y satelital; y los servicios de I+D experimental. El reglamento precisa las actividades conforme a la Clasificación Industrial Internacional Uniforme."
+      },
+      {
+        "n": "Artículo 3",
+        "titulo": "Registro de empresas de la economía del conocimiento",
+        "texto": "Créase el Registro de Empresas de la Economía del Conocimiento, a cargo del Ministerio de la Producción, en coordinación con el CONCYTEC. Pueden inscribirse las personas jurídicas que acrediten que no menos del setenta por ciento de su facturación proviene de actividades del artículo 2 y que cumplan al menos dos de los siguientes compromisos: a) inversión en I+D o capacitación de su personal no menor al porcentaje de su facturación que fije el reglamento; b) exportaciones no menores al porcentaje de su facturación que fije el reglamento; c) contar con certificación de calidad reconocida; o d) emplear personal con formación técnica o universitaria en proporción mínima fijada por reglamento."
+      },
+      {
+        "n": "Artículo 4",
+        "titulo": "Uso del registro",
+        "texto": "La inscripción en el Registro constituye criterio de priorización en los instrumentos de promoción no tributarios del Estado, tales como fondos concursables de ProInnóvate y PROCIENCIA, programas de PROMPERÚ y programas de COFIDE, conforme a sus propias reglas y disponibilidad presupuestal."
+      },
+      {
+        "n": "Artículo 5",
+        "titulo": "Parques científicos y tecnológicos",
+        "texto": "Se reconoce como parque científico y tecnológico al espacio físico o virtual gestionado por una entidad especializada, vinculado formalmente a una o más universidades o institutos de investigación, que ofrece infraestructura y servicios de valor agregado para la creación y crecimiento de empresas innovadoras y la transferencia tecnológica. El Ministerio de la Producción, con opinión del CONCYTEC, otorga dicho reconocimiento conforme al reglamento."
+      },
+      {
+        "n": "Artículo 6",
+        "titulo": "Uso de inmuebles públicos",
+        "texto": "Las universidades públicas y los gobiernos regionales y locales pueden otorgar en uso, cesión en uso o derecho de superficie, a título oneroso o gratuito, inmuebles de su titularidad para la implementación de parques científicos y tecnológicos reconocidos, conforme a la normativa del Sistema Nacional de Abastecimiento y sin afectar su finalidad pública."
+      },
+      {
+        "n": "Artículo 7",
+        "titulo": "Asociaciones público-privadas y obras por impuestos",
+        "texto": "Los parques científicos y tecnológicos pueden desarrollarse mediante las modalidades de asociación público-privada y obras por impuestos, conforme a la normativa vigente."
+      },
+      {
+        "n": "Artículo 8",
+        "titulo": "Incentivos tributarios",
+        "texto": "Cualquier beneficio tributario vinculado al Registro solo puede establecerse mediante ley específica, previo informe del Ministerio de Economía y Finanzas y con sujeción a la Norma VII del Título Preliminar del Código Tributario."
+      },
+      {
+        "n": "Artículo 9",
+        "titulo": "Evaluación",
+        "texto": "El Ministerio de la Producción publica anualmente el número de empresas inscritas, su empleo, exportaciones e inversión en I+D, y una evaluación del cumplimiento de compromisos; la inscripción se cancela ante su incumplimiento."
+      },
+      {
+        "n": "Artículo 10",
+        "titulo": "Financiamiento",
+        "texto": "La implementación de la presente ley se financia con cargo al presupuesto institucional de las entidades involucradas, sin demandar recursos adicionales al Tesoro Público."
+      }
+    ],
+    "disposiciones": [
+      {
+        "tipo": "Complementaria Final",
+        "n": "Primera",
+        "texto": "El Poder Ejecutivo, mediante decreto supremo refrendado por el Ministro de la Producción y el Ministro de Economía y Finanzas, reglamenta la presente ley en un plazo de ciento veinte días hábiles."
+      },
+      {
+        "tipo": "Complementaria Final",
+        "n": "Segunda",
+        "texto": "Los parques industriales tecno-ecológicos regulados por la Ley 30078 pueden solicitar adicionalmente el reconocimiento como parque científico y tecnológico si cumplen los requisitos de la presente ley."
+      }
+    ],
+    "costo_beneficio": "La ley no crea exoneraciones ni gasto: utiliza un registro digital, prioriza instrumentos existentes conforme a su disponibilidad presupuestal y habilita mecanismos de financiamiento ya vigentes (APP, obras por impuestos, cesión de inmuebles). Los costos administrativos son menores y se absorben por PRODUCE y CONCYTEC. El beneficio es contar con una categoría medible de empresas intensivas en conocimiento, condicionar apoyos a compromisos verificables y ordenar el desarrollo de parques ligados a universidades. Cualquier incentivo tributario futuro deberá sustentarse en evidencia del propio registro y con informe del MEF.",
+    "efecto_vigencia": "Complementa la Ley 30078, la Ley 31250 y el DU 013-2020. No deroga normas.",
+    "normas_relacionadas": [
+      {
+        "norma": "Ley 30078, Ley que promueve el desarrollo de parques industriales tecno-ecológicos",
+        "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/30078.pdf"
+      },
+      {
+        "norma": "Ley 31250, Ley del Sistema Nacional de Ciencia, Tecnología e Innovación (SINACTI)",
+        "url": "https://elperuano.pe/noticia/123825-oficializan-ley-del-sistema-nacional-de-ciencia-tecnologia-e-innovacion"
+      },
+      {
+        "norma": "TUO del Código Tributario (D.S. 133-2013-EF), incluida la Norma VII del Título Preliminar y el art. 85 (reserva tributaria)",
+        "url": "https://www.sunat.gob.pe/legislacion/codigo/"
+      }
+    ],
+    "antecedentes": "Por verificar en SPLEY.",
+    "referencias_internacionales": [
+      {
+        "pais": "Argentina",
+        "norma": "Ley 27.506, Régimen de Promoción de la Economía del Conocimiento",
+        "url": "https://www.argentina.gob.ar/normativa/nacional/ley-27506-2019-324101/texto"
+      },
+      {
+        "pais": "Brasil",
+        "norma": "Lei 8.248/1991 (Lei de Informática), incentivo a I+D en tecnologías de la información",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l8248.htm"
+      }
+    ],
+    "comision_sugerida": "Producción, Micro y Pequeña Empresa y Cooperativas",
+    "comision_secundaria": "Ciencia, Innovación y Tecnología",
+    "plan2050": [
+      "capital-del-conocimiento",
+      "industria",
+      "ciencia-y-tecnologia"
+    ],
+    "ods": [
+      8,
+      9
+    ],
+    "prioridad": "media",
+    "costo_fiscal": "nulo",
+    "plazo": "mediano",
+    "indicador_exito": "Al 2031, Registro de Empresas de la Economía del Conocimiento operativo con reporte anual público y al menos un parque científico y tecnológico reconocido fuera de Lima Metropolitana.",
+    "tags": [
+      "economía del conocimiento",
+      "parques tecnológicos",
+      "software",
+      "universidades"
+    ],
+    "fuentes": [
+      {
+        "titulo": "CONCYTEC — Reporte de seguimiento 2016-2024 de la Política Nacional de CTI (gasto en I+D/PBI, posición GII)",
+        "url": "https://transparencia.concytec.gob.pe/images/2025/Reporte-de-seguimiento-2016-2024.pdf"
+      },
+      {
+        "titulo": "Argentina — Ley 27.506 (texto)",
+        "url": "https://www.argentina.gob.ar/normativa/nacional/ley-27506-2019-324101/texto"
+      },
+      {
+        "titulo": "CONCYTEC/Vincúlate — Guía de negocio para empresas de base tecnológica y spin-offs",
+        "url": "https://vinculate.concytec.gob.pe/wp-content/uploads/2024/02/D2_Guia-de-negocio-1-en-alta.pdf"
+      }
+    ]
+  },
+  {
+    "id": "ECO-14",
+    "eje": "econ",
+    "titulo": "Ley que fortalece el pago oportuno a la MYPE mediante la conformidad electrónica de facturas y el financiamiento con factura negociable",
+    "titulo_corto": "Factura electrónica y pago MYPE",
+    "sumilla": "Integra la Ley 31362 de pago a treinta días con el sistema de emisión electrónica de la SUNAT y la factura negociable: conformidad o disconformidad electrónica registrada, publicación de indicadores de plazo de pago de grandes compradores y alertas automáticas de mora.",
+    "problema": "La Ley 31362, publicada en noviembre de 2021, establece que las facturas y recibos por honorarios emitidos por MYPE a empresas privadas y entidades públicas deben pagarse en un plazo máximo de treinta días calendario, salvo pacto escrito que no constituya abuso; vencido el plazo, el deudor incurre en mora. Por su parte, la Ley 29623 regula la factura negociable para que las MYPE obtengan liquidez mediante factoring. Pese a que el país cuenta con un sistema de facturación electrónica masificado, el cumplimiento de la Ley 31362 depende de que la MYPE reclame individualmente al comprador, algo que rara vez hace por temor a perder al cliente. No existe información pública que permita saber qué grandes compradores pagan tarde, y la conformidad de la factura, clave para que sea negociable, no siempre queda registrada de manera electrónica y verificable. Con datos que la SUNAT ya recibe (fecha de emisión de comprobantes y, cuando se registra, la conformidad y el pago), es posible automatizar alertas, publicar indicadores agregados y facilitar el factoring sin crear nuevas cargas relevantes. La Unión Europea, mediante la Directiva 2011/7/UE, fijó plazos máximos de pago e intereses de demora en operaciones comerciales.",
+    "objeto": "Hacer exigible en la práctica el pago a treinta días a la MYPE aprovechando la facturación electrónica y la factura negociable.",
+    "articulado": [
+      {
+        "n": "Artículo 1",
+        "titulo": "Objeto",
+        "texto": "La presente ley tiene por objeto fortalecer el cumplimiento de la Ley 31362, Ley de pago de facturas MYPE a treinta días, mediante el uso del sistema de emisión electrónica de la SUNAT y su articulación con la factura negociable regulada por la Ley 29623."
+      },
+      {
+        "n": "Artículo 2",
+        "titulo": "Conformidad electrónica",
+        "texto": "El adquirente de bienes o usuario de servicios que reciba una factura electrónica emitida por una MYPE registra su conformidad o disconformidad, con indicación de la causa, a través del sistema que habilite la SUNAT, en el plazo establecido en la Ley 29623. A falta de registro en dicho plazo, se presume la conformidad para efectos de la referida ley."
+      },
+      {
+        "n": "Artículo 3",
+        "titulo": "Registro de pago",
+        "texto": "Los adquirentes que sean principales contribuyentes registran en el sistema de la SUNAT la fecha de pago de las facturas emitidas por MYPE, en la forma y plazo que establezca la SUNAT, aprovechando la información del sistema financiero cuando sea posible para no duplicar cargas."
+      },
+      {
+        "n": "Artículo 4",
+        "titulo": "Indicadores públicos de plazo de pago",
+        "texto": "La SUNAT publica semestralmente, en formato de datos abiertos, el plazo promedio de pago a MYPE de los adquirentes que sean principales contribuyentes y de las entidades públicas, así como el porcentaje de facturas pagadas dentro de los treinta días. Incorpórase la publicación de estos indicadores agregados como excepción a la reserva tributaria prevista en el artículo 85 del Texto Único Ordenado del Código Tributario, sin que pueda revelarse información de comprobantes individuales."
+      },
+      {
+        "n": "Artículo 5",
+        "titulo": "Alertas de mora",
+        "texto": "El sistema de la SUNAT emite alertas automáticas al adquirente y a la MYPE cuando una factura supere el plazo legal de pago sin registro de pago, y pone a disposición de la MYPE una constancia electrónica que acredita el vencimiento, útil para el cobro de intereses moratorios y para su negociación."
+      },
+      {
+        "n": "Artículo 6",
+        "titulo": "Entidades públicas",
+        "texto": "Las entidades públicas registran la conformidad y la fecha de pago de las facturas de proveedores MYPE en los sistemas de gestión financiera del Estado, integrados con el sistema de la SUNAT. El plazo promedio de pago de cada entidad se publica conforme al artículo 4."
+      },
+      {
+        "n": "Artículo 7",
+        "titulo": "Factura negociable",
+        "texto": "La factura electrónica con conformidad registrada o presunta conforme al artículo 2 tiene mérito para su anotación en cuenta en las instituciones de compensación y liquidación de valores, conforme a la Ley 29623, sin requisitos documentarios adicionales."
+      },
+      {
+        "n": "Artículo 8",
+        "titulo": "Financiamiento",
+        "texto": "La implementación de la presente ley se financia con cargo al presupuesto institucional de la SUNAT y de las entidades involucradas, sin demandar recursos adicionales al Tesoro Público."
+      }
+    ],
+    "disposiciones": [
+      {
+        "tipo": "Complementaria Final",
+        "n": "Primera",
+        "texto": "La SUNAT aprueba las resoluciones de superintendencia necesarias en un plazo de ciento ochenta días hábiles; la obligación del artículo 3 es exigible de manera gradual según el tamaño del adquirente."
+      },
+      {
+        "tipo": "Complementaria Final",
+        "n": "Segunda",
+        "texto": "El Ministerio de la Producción difunde, mediante sus programas de apoyo a la MYPE, el uso de la constancia electrónica de vencimiento y de la factura negociable."
+      }
+    ],
+    "costo_beneficio": "No genera gasto adicional: la SUNAT ya administra el sistema de emisión electrónica y la información de conformidad; los costos de desarrollo se absorben en su presupuesto institucional. Para los grandes adquirentes, la carga es registrar la conformidad y el pago, mitigada con implementación gradual e integración con información financiera. Los beneficios son mejorar la liquidez de las MYPE, reducir su dependencia de crédito caro, ampliar el uso del factoring con facturas verificables y crear un incentivo reputacional al publicar indicadores de pago. El riesgo de litigios por la publicación se acota al tratarse de indicadores agregados por contribuyente sobre una obligación legal.",
+    "efecto_vigencia": "Complementa la Ley 31362 y la Ley 29623; incorpora una excepción a la reserva tributaria del artículo 85 del TUO del Código Tributario. No deroga normas.",
+    "normas_relacionadas": [
+      {
+        "norma": "Ley 31362, Ley de pago de facturas MYPE a treinta días",
+        "url": "https://busquedas.elperuano.pe/dispositivo/NL/2016188-1"
+      },
+      {
+        "norma": "Ley 29623, Ley que promueve el financiamiento a través de la factura comercial",
+        "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/29623.pdf"
+      },
+      {
+        "norma": "TUO del Código Tributario (D.S. 133-2013-EF), incluida la Norma VII del Título Preliminar y el art. 85 (reserva tributaria)",
+        "url": "https://www.sunat.gob.pe/legislacion/codigo/"
+      },
+      {
+        "norma": "Ley 28015, Ley de Promoción y Formalización de la Micro y Pequeña Empresa",
+        "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/28015.pdf"
+      }
+    ],
+    "antecedentes": "Ley 31362 (2021); el Pleno aprobó en 2022 un dictamen modificatorio vinculado al Proyecto de Ley 286/2021-CR según nota del Congreso; vigencia de cambios por verificar en SPLEY.",
+    "referencias_internacionales": [
+      {
+        "pais": "Unión Europea",
+        "norma": "Directiva 2011/7/UE por la que se establecen medidas de lucha contra la morosidad en las operaciones comerciales",
+        "url": "https://eur-lex.europa.eu/eli/dir/2011/7/oj"
+      }
+    ],
+    "comision_sugerida": "Producción, Micro y Pequeña Empresa y Cooperativas",
+    "comision_secundaria": "Economía, Banca, Finanzas e Inteligencia Financiera",
+    "plan2050": [
+      "mipymes",
+      "transformacion-digital",
+      "competitividad"
+    ],
+    "ods": [
+      8,
+      9
+    ],
+    "prioridad": "alta",
+    "costo_fiscal": "nulo",
+    "plazo": "mediano",
+    "indicador_exito": "Al 2031, indicador semestral público de la SUNAT con el porcentaje de facturas MYPE pagadas en 30 días por principales contribuyentes y entidades públicas, con tendencia creciente.",
+    "tags": [
+      "MYPE",
+      "factura electrónica",
+      "factoring",
+      "SUNAT"
+    ],
+    "fuentes": [
+      {
+        "titulo": "El Peruano — Ley 31362, Ley de pago de facturas MYPE a treinta días",
+        "url": "https://busquedas.elperuano.pe/dispositivo/NL/2016188-1"
+      },
+      {
+        "titulo": "La Cámara (CCL) — Reglamentan ley de pago de facturas MYPE a treinta días",
+        "url": "https://lacamara.pe/reglamentan-ley-de-pago-de-facturas-mype-a-treinta-dias/"
+      },
+      {
+        "titulo": "Ley 29623 (Congreso)",
+        "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/29623.pdf"
+      }
+    ]
+  }
+]

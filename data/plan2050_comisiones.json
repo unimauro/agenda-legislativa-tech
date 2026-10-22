@@ -1,0 +1,485 @@
+[
+ {
+  "id": "acuicultura-y-pesca",
+  "nombre": "Acuicultura y Pesca",
+  "eje_an": "III. Competitividad del País",
+  "url": "https://planperu2050.pe/c/acuicultura-y-pesca.html",
+  "pagina": true
+ },
+ {
+  "id": "aeronautica",
+  "nombre": "Aeronautica",
+  "eje_an": "I. Democracia y Estado de Derecho",
+  "url": "https://planperu2050.pe/",
+  "pagina": false
+ },
+ {
+  "id": "agricultura",
+  "nombre": "Agricultura",
+  "eje_an": "III. Competitividad del País",
+  "url": "https://planperu2050.pe/",
+  "pagina": false
+ },
+ {
+  "id": "agroindustria",
+  "nombre": "Agroindustria",
+  "eje_an": "III. Competitividad del País",
+  "url": "https://planperu2050.pe/",
+  "pagina": false
+ },
+ {
+  "id": "aguas",
+  "nombre": "Aguas",
+  "eje_an": "II. Equidad y Justicia Social",
+  "url": "https://planperu2050.pe/",
+  "pagina": false
+ },
+ {
+  "id": "banca",
+  "nombre": "Banca",
+  "eje_an": "III. Competitividad del País",
+  "url": "https://planperu2050.pe/",
+  "pagina": false
+ },
+ {
+  "id": "biotecnologia",
+  "nombre": "Biotecnologia",
+  "eje_an": "III. Competitividad del País",
+  "url": "https://planperu2050.pe/",
+  "pagina": false
+ },
+ {
+  "id": "capital-del-conocimiento",
+  "nombre": "Capital Del Conocimiento",
+  "eje_an": "III. Competitividad del País",
+  "url": "https://planperu2050.pe/c/capital-del-conocimiento.html",
+  "pagina": true
+ },
+ {
+  "id": "capital-social",
+  "nombre": "Capital Social",
+  "eje_an": "II. Equidad y Justicia Social",
+  "url": "https://planperu2050.pe/",
+  "pagina": false
+ },
+ {
+  "id": "ciber-seguridad",
+  "nombre": "Ciber Seguridad",
+  "eje_an": "I. Democracia y Estado de Derecho",
+  "url": "https://planperu2050.pe/",
+  "pagina": false
+ },
+ {
+  "id": "ciencia-y-tecnologia",
+  "nombre": "Ciencia y Tecnología",
+  "eje_an": "III. Competitividad del País",
+  "url": "https://planperu2050.pe/c/ciencia-y-tecnologia.html",
+  "pagina": true
+ },
+ {
+  "id": "ciudades-inteligentes",
+  "nombre": "Ciudades Inteligentes",
+  "eje_an": "III. Competitividad del País",
+  "url": "https://planperu2050.pe/",
+  "pagina": false
+ },
+ {
+  "id": "cohesion-social",
+  "nombre": "Cohesión Social",
+  "eje_an": "II. Equidad y Justicia Social",
+  "url": "https://planperu2050.pe/",
+  "pagina": false
+ },
+ {
+  "id": "competitividad",
+  "nombre": "Competitividad",
+  "eje_an": "III. Competitividad del País",
+  "url": "https://planperu2050.pe/",
+  "pagina": false
+ },
+ {
+  "id": "comercio-exterior-e-insercion-en-el-merc",
+  "nombre": "Comercio Exterior E Inserción en El Mercado Externo",
+  "eje_an": "III. Competitividad del País",
+  "url": "https://planperu2050.pe/c/comercio-exterior-e-insercion-en-el-merc.html",
+  "pagina": true
+ },
+ {
+  "id": "defensa",
+  "nombre": "Defensa",
+  "eje_an": "I. Democracia y Estado de Derecho",
+  "url": "https://planperu2050.pe/",
+  "pagina": false
+ },
+ {
+  "id": "deporte",
+  "nombre": "Deporte",
+  "eje_an": "II. Equidad y Justicia Social",
+  "url": "https://planperu2050.pe/",
+  "pagina": false
+ },
+ {
+  "id": "desarrollo-rural",
+  "nombre": "Desarrollo Rural",
+  "eje_an": "III. Competitividad del País",
+  "url": "https://planperu2050.pe/",
+  "pagina": false
+ },
+ {
+  "id": "desarrollo-urbano",
+  "nombre": "Desarrollo Urbano",
+  "eje_an": "III. Competitividad del País",
+  "url": "https://planperu2050.pe/",
+  "pagina": false
+ },
+ {
+  "id": "drogas",
+  "nombre": "Drogas",
+  "eje_an": "I. Democracia y Estado de Derecho",
+  "url": "https://planperu2050.pe/",
+  "pagina": false
+ },
+ {
+  "id": "educacion-tres-niveles",
+  "nombre": "Educación (Tres Niveles)",
+  "eje_an": "II. Equidad y Justicia Social",
+  "url": "https://planperu2050.pe/c/educacion-tres-niveles.html",
+  "pagina": true
+ },
+ {
+  "id": "emprendimiento",
+  "nombre": "Emprendimiento",
+  "eje_an": "III. Competitividad del País",
+  "url": "https://planperu2050.pe/",
+  "pagina": false
+ },
+ {
+  "id": "energia",
+  "nombre": "Energía",
+  "eje_an": "III. Competitividad del País",
+  "url": "https://planperu2050.pe/",
+  "pagina": false
+ },
+ {
+  "id": "energia-electrica",
+  "nombre": "Energía Eléctrica",
+  "eje_an": "III. Competitividad del País",
+  "url": "https://planperu2050.pe/",
+  "pagina": false
+ },
+ {
+  "id": "energia-nuclear",
+  "nombre": "Energía Nuclear",
+  "eje_an": "III. Competitividad del País",
+  "url": "https://planperu2050.pe/c/energia-nuclear.html",
+  "pagina": true
+ },
+ {
+  "id": "espacio",
+  "nombre": "Espacio",
+  "eje_an": "I. Democracia y Estado de Derecho",
+  "url": "https://planperu2050.pe/c/espacio.html",
+  "pagina": true
+ },
+ {
+  "id": "etica",
+  "nombre": "Ética",
+  "eje_an": "IV. Estado Eficiente, Transparente y Descentralizado",
+  "url": "https://planperu2050.pe/",
+  "pagina": false
+ },
+ {
+  "id": "forestal",
+  "nombre": "Forestal",
+  "eje_an": "III. Competitividad del País",
+  "url": "https://planperu2050.pe/",
+  "pagina": false
+ },
+ {
+  "id": "hidrocarburos",
+  "nombre": "Hidrocarburos",
+  "eje_an": "III. Competitividad del País",
+  "url": "https://planperu2050.pe/",
+  "pagina": false
+ },
+ {
+  "id": "imagen-pais",
+  "nombre": "Imagen País",
+  "eje_an": "III. Competitividad del País",
+  "url": "https://planperu2050.pe/",
+  "pagina": false
+ },
+ {
+  "id": "industria",
+  "nombre": "Industria",
+  "eje_an": "III. Competitividad del País",
+  "url": "https://planperu2050.pe/c/industria.html",
+  "pagina": true
+ },
+ {
+  "id": "industria-papel-y-libro",
+  "nombre": "Industria Papel y Libro",
+  "eje_an": "III. Competitividad del País",
+  "url": "https://planperu2050.pe/",
+  "pagina": false
+ },
+ {
+  "id": "industria-textil",
+  "nombre": "Industria Textil",
+  "eje_an": "III. Competitividad del País",
+  "url": "https://planperu2050.pe/",
+  "pagina": false
+ },
+ {
+  "id": "infraestructura-y-construccion",
+  "nombre": "Infraestructura y Construcción",
+  "eje_an": "III. Competitividad del País",
+  "url": "https://planperu2050.pe/c/infraestructura-y-construccion.html",
+  "pagina": true
+ },
+ {
+  "id": "innovacion",
+  "nombre": "Innovación",
+  "eje_an": "III. Competitividad del País",
+  "url": "https://planperu2050.pe/",
+  "pagina": false
+ },
+ {
+  "id": "inteligencia-artificial",
+  "nombre": "Inteligencia Artificial",
+  "eje_an": "III. Competitividad del País",
+  "url": "https://planperu2050.pe/",
+  "pagina": false
+ },
+ {
+  "id": "institucionalidad",
+  "nombre": "Institucionalidad",
+  "eje_an": "IV. Estado Eficiente, Transparente y Descentralizado",
+  "url": "https://planperu2050.pe/",
+  "pagina": false
+ },
+ {
+  "id": "inteligencia-de-negocios",
+  "nombre": "Inteligencia de Negocios",
+  "eje_an": "III. Competitividad del País",
+  "url": "https://planperu2050.pe/",
+  "pagina": false
+ },
+ {
+  "id": "la-familia",
+  "nombre": "La Familia",
+  "eje_an": "II. Equidad y Justicia Social",
+  "url": "https://planperu2050.pe/",
+  "pagina": false
+ },
+ {
+  "id": "macroeconomia",
+  "nombre": "Macroeconomía",
+  "eje_an": "III. Competitividad del País",
+  "url": "https://planperu2050.pe/",
+  "pagina": false
+ },
+ {
+  "id": "maritimo-fluvial-y-lacustre",
+  "nombre": "Marítimo, Fluvial y Lacustre",
+  "eje_an": "III. Competitividad del País",
+  "url": "https://planperu2050.pe/c/maritimo-fluvial-y-lacustre.html",
+  "pagina": true
+ },
+ {
+  "id": "medio-ambiente",
+  "nombre": "Medio Ambiente",
+  "eje_an": "III. Competitividad del País",
+  "url": "https://planperu2050.pe/c/medio-ambiente.html",
+  "pagina": true
+ },
+ {
+  "id": "metalurgia",
+  "nombre": "Metalurgia",
+  "eje_an": "III. Competitividad del País",
+  "url": "https://planperu2050.pe/",
+  "pagina": false
+ },
+ {
+  "id": "mineria",
+  "nombre": "Minería",
+  "eje_an": "III. Competitividad del País",
+  "url": "https://planperu2050.pe/c/mineria.html",
+  "pagina": true
+ },
+ {
+  "id": "mipymes",
+  "nombre": "Mipymes",
+  "eje_an": "III. Competitividad del País",
+  "url": "https://planperu2050.pe/c/mipymes.html",
+  "pagina": true
+ },
+ {
+  "id": "orden-publico-y-seguridad",
+  "nombre": "Orden Público y Seguridad",
+  "eje_an": "I. Democracia y Estado de Derecho",
+  "url": "https://planperu2050.pe/c/orden-publico-y-seguridad.html",
+  "pagina": true
+ },
+ {
+  "id": "parlamento-academico",
+  "nombre": "Parlamento Académico",
+  "eje_an": "III. Competitividad del País",
+  "url": "https://planperu2050.pe/",
+  "pagina": false
+ },
+ {
+  "id": "pecuaria",
+  "nombre": "Pecuaria",
+  "eje_an": "III. Competitividad del País",
+  "url": "https://planperu2050.pe/",
+  "pagina": false
+ },
+ {
+  "id": "pensiones-de-jubilacion",
+  "nombre": "Pensiones de Jubilación",
+  "eje_an": "II. Equidad y Justicia Social",
+  "url": "https://planperu2050.pe/",
+  "pagina": false
+ },
+ {
+  "id": "peru-en-la-era-digital",
+  "nombre": "Perú en La Era Digital",
+  "eje_an": "III. Competitividad del País",
+  "url": "https://planperu2050.pe/c/peru-en-la-era-digital.html",
+  "pagina": true
+ },
+ {
+  "id": "prevision",
+  "nombre": "Previsión",
+  "eje_an": "II. Equidad y Justicia Social",
+  "url": "https://planperu2050.pe/",
+  "pagina": false
+ },
+ {
+  "id": "promocion-de-la-inversion",
+  "nombre": "Promoción de La Inversión",
+  "eje_an": "III. Competitividad del País",
+  "url": "https://planperu2050.pe/",
+  "pagina": false
+ },
+ {
+  "id": "proyecto-pais-joven",
+  "nombre": "Proyecto País Joven",
+  "eje_an": "II. Equidad y Justicia Social",
+  "url": "https://planperu2050.pe/",
+  "pagina": false
+ },
+ {
+  "id": "quimica",
+  "nombre": "Química",
+  "eje_an": "III. Competitividad del País",
+  "url": "https://planperu2050.pe/",
+  "pagina": false
+ },
+ {
+  "id": "reforma-del-estado",
+  "nombre": "Reforma Del Estado",
+  "eje_an": "IV. Estado Eficiente, Transparente y Descentralizado",
+  "url": "https://planperu2050.pe/c/reforma-del-estado.html",
+  "pagina": true
+ },
+ {
+  "id": "reforma-judicial",
+  "nombre": "Reforma Judicial",
+  "eje_an": "I. Democracia y Estado de Derecho",
+  "url": "https://planperu2050.pe/",
+  "pagina": false
+ },
+ {
+  "id": "salud",
+  "nombre": "Salud",
+  "eje_an": "II. Equidad y Justicia Social",
+  "url": "https://planperu2050.pe/c/salud.html",
+  "pagina": true
+ },
+ {
+  "id": "seguros",
+  "nombre": "Seguros",
+  "eje_an": "III. Competitividad del País",
+  "url": "https://planperu2050.pe/",
+  "pagina": false
+ },
+ {
+  "id": "telecomunicaciones",
+  "nombre": "Telecomunicaciones",
+  "eje_an": "III. Competitividad del País",
+  "url": "https://planperu2050.pe/c/telecomunicaciones.html",
+  "pagina": true
+ },
+ {
+  "id": "transformacion-digital",
+  "nombre": "Transformación Digital",
+  "eje_an": "IV. Estado Eficiente, Transparente y Descentralizado",
+  "url": "https://planperu2050.pe/",
+  "pagina": false
+ },
+ {
+  "id": "transportes",
+  "nombre": "Transportes",
+  "eje_an": "III. Competitividad del País",
+  "url": "https://planperu2050.pe/",
+  "pagina": false
+ },
+ {
+  "id": "turismo",
+  "nombre": "Turismo",
+  "eje_an": "III. Competitividad del País",
+  "url": "https://planperu2050.pe/",
+  "pagina": false
+ },
+ {
+  "id": "vacunas-y-laboratorios",
+  "nombre": "Vacunas y Laboratorios",
+  "eje_an": "II. Equidad y Justicia Social",
+  "url": "https://planperu2050.pe/",
+  "pagina": false
+ },
+ {
+  "id": "vivienda",
+  "nombre": "Vivienda",
+  "eje_an": "II. Equidad y Justicia Social",
+  "url": "https://planperu2050.pe/",
+  "pagina": false
+ },
+ {
+  "id": "pesca",
+  "nombre": "Pesca",
+  "eje_an": "III. Competitividad del País",
+  "url": "https://planperu2050.pe/c/pesca.html",
+  "pagina": true
+ },
+ {
+  "id": "seguridad-alimentaria-nutricion",
+  "nombre": "Seguridad Alimentaria y Nutrición",
+  "eje_an": "II. Equidad y Justicia Social",
+  "url": "https://planperu2050.pe/",
+  "pagina": false
+ },
+ {
+  "id": "desarrollo-humano-industrializacion",
+  "nombre": "Desarrollo Humano e Industrialización",
+  "eje_an": "III. Competitividad del País",
+  "url": "https://planperu2050.pe/",
+  "pagina": false
+ },
+ {
+  "id": "industria-naval-maritima",
+  "nombre": "Industria Naval y Marítima",
+  "eje_an": "III. Competitividad del País",
+  "url": "https://planperu2050.pe/",
+  "pagina": false
+ },
+ {
+  "id": "cuencas-hidrograficas",
+  "nombre": "Cuencas Hidrográficas",
+  "eje_an": "II. Equidad y Justicia Social",
+  "url": "https://planperu2050.pe/",
+  "pagina": false
+ }
+]

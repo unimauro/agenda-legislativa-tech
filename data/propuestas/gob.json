@@ -1,0 +1,2012 @@
+[
+ {
+  "id": "GOB-01",
+  "eje": "gob",
+  "titulo": "Ley que fortalece la interoperabilidad obligatoria y garantiza el principio de \"solo una vez\" en la Administración Pública, modificando el Decreto Legislativo 1246",
+  "titulo_corto": "Solo una vez, interoperabilidad obligatoria",
+  "sumilla": "Eleva a derecho exigible que el ciudadano no entregue información ni documentos que el Estado ya posee, crea un Catálogo Nacional de Datos Interoperables con plazos de respuesta obligatorios y establece consecuencias verificables por su incumplimiento.",
+  "problema": "El Decreto Legislativo 1246 (2016) ya obliga a las entidades a interoperar gratuitamente y prohíbe exigir determinados documentos (copia de DNI, partidas, certificados, entre otros) en sus artículos 2 a 5. Sin embargo, casi una década después, la prohibición opera como lista cerrada y no como principio general: cualquier dato que no figure expresamente en la lista o en los decretos supremos de ampliación puede seguir siendo exigido al administrado. Además, la norma no fija plazos de respuesta para la entidad que debe proveer el dato, ni niveles mínimos de disponibilidad de los servicios de información, ni una vía rápida para que el ciudadano denuncie el incumplimiento; la carga de la descoordinación estatal recae en las personas. El DS 029-2021-PCM desarrolla la Plataforma de Interoperabilidad del Estado, pero un reglamento no puede crear obligaciones legales ni sanciones. La brecha es mayor fuera de Lima: según el INEI, en el primer trimestre de 2026 solo el 25,0% de los hogares rurales tenía acceso a Internet, frente al 82,7% de Lima Metropolitana, por lo que cada documento adicional exigido significa traslados costosos. Experiencias como X-Road en Estonia o el artículo 28 de la Ley 39/2015 española muestran que el principio de solo una vez requiere, además de tecnología, una regla general con rango de ley.",
+  "objeto": "Establecer el principio de \"solo una vez\" como derecho exigible del administrado y fortalecer la obligación de interoperabilidad de las entidades públicas, con plazos, niveles de servicio y consecuencias por incumplimiento.",
+  "articulado": [
+   {
+    "n": "Artículo 1",
+    "titulo": "Objeto",
+    "texto": "La presente ley tiene por objeto garantizar el derecho de toda persona a no proporcionar a las entidades de la Administración Pública información, datos o documentos que obren en poder de cualquier entidad pública, y fortalecer la obligación de interoperabilidad prevista en el Decreto Legislativo 1246 y en el Decreto Legislativo 1412."
+   },
+   {
+    "n": "Artículo 2",
+    "titulo": "Ámbito de aplicación",
+    "texto": "La presente ley es aplicable a las entidades señaladas en el artículo I del Título Preliminar del Texto Único Ordenado de la Ley 27444, Ley del Procedimiento Administrativo General, incluidos los gobiernos regionales y locales, así como a las personas jurídicas bajo el régimen privado que prestan servicios públicos o ejercen función administrativa."
+   },
+   {
+    "n": "Artículo 3",
+    "titulo": "Principio de solo una vez",
+    "texto": "3.1 Las entidades no pueden exigir al administrado información o documentos que hayan sido emitidos o se encuentren en poder de cualquier entidad pública, salvo oposición expresa del titular de los datos o excepción establecida por ley.\n3.2 La entidad que tramita el procedimiento obtiene de oficio dicha información a través de la Plataforma de Interoperabilidad del Estado o, en su defecto, mediante consulta electrónica directa a la entidad poseedora.\n3.3 El tratamiento de datos personales se sujeta a la Ley 29733, Ley de Protección de Datos Personales, limitándose a la finalidad del procedimiento."
+   },
+   {
+    "n": "Artículo 4",
+    "titulo": "Catálogo Nacional de Datos Interoperables",
+    "texto": "4.1 La Presidencia del Consejo de Ministros, a través de la Secretaría de Gobierno y Transformación Digital, administra el Catálogo Nacional de Datos Interoperables, de acceso público, que identifica los datos maestros, la entidad responsable, el servicio de información disponible y su nivel de servicio.\n4.2 Toda entidad que posea registros de alcance nacional incorpora sus datos maestros al Catálogo en los plazos que establezca el reglamento, priorizando identidad, registros civiles, propiedad, personas jurídicas, antecedentes, grados y títulos, y situación tributaria y previsional."
+   },
+   {
+    "n": "Artículo 5",
+    "titulo": "Plazo de respuesta y niveles de servicio",
+    "texto": "5.1 La entidad poseedora atiende las consultas de interoperabilidad de forma automatizada y en tiempo real. Cuando la naturaleza del dato no lo permita, responde en un plazo máximo de dos (2) días hábiles.\n5.2 La Secretaría de Gobierno y Transformación Digital aprueba niveles mínimos de disponibilidad de los servicios de información y publica trimestralmente, en formato abierto, el cumplimiento de cada entidad."
+   },
+   {
+    "n": "Artículo 6",
+    "titulo": "Efectos de la falta de interoperabilidad",
+    "texto": "Si la información no puede obtenerse por causa imputable a la entidad poseedora o a la tramitadora, el administrado puede sustituirla con una declaración jurada, sujeta a fiscalización posterior, sin que ello suspenda ni retrase el procedimiento."
+   },
+   {
+    "n": "Artículo 7",
+    "titulo": "Barrera burocrática y responsabilidad",
+    "texto": "7.1 La exigencia de información o documentos en contravención del artículo 3 constituye barrera burocrática ilegal, conforme al Decreto Legislativo 1256, Ley de Prevención y Eliminación de Barreras Burocráticas.\n7.2 El incumplimiento reiterado de las obligaciones de los artículos 4 y 5 constituye falta administrativa del funcionario o servidor responsable, de acuerdo con la Ley 30057, Ley del Servicio Civil, y su régimen disciplinario."
+   },
+   {
+    "n": "Artículo 8",
+    "titulo": "Canal de reporte ciudadano",
+    "texto": "La Plataforma Digital Única del Estado Peruano (GOB.PE) habilita un canal para que el administrado reporte la exigencia indebida de documentos. Los reportes son trasladados al órgano de control institucional y al Indecopi, y sus estadísticas se publican en formato abierto."
+   },
+   {
+    "n": "Artículo 9",
+    "titulo": "Modificación del artículo 5 del Decreto Legislativo 1246",
+    "texto": "Incorpórase el numeral 5.4 al artículo 5 del Decreto Legislativo 1246, con el texto siguiente: \"5.4 La relación de documentos del numeral 5.1 es enunciativa. Se encuentra prohibida la exigencia de cualquier información o documento que obre en poder de una entidad pública, conforme a la ley que garantiza el principio de solo una vez.\""
+   }
+  ],
+  "disposiciones": [
+   {
+    "tipo": "Complementaria Final",
+    "n": "Primera",
+    "texto": "El Poder Ejecutivo, mediante decreto supremo refrendado por la Presidencia del Consejo de Ministros, reglamenta la presente ley en un plazo máximo de noventa (90) días hábiles contados desde su publicación."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Segunda",
+    "texto": "La implementación de la presente ley se financia con cargo al presupuesto institucional de los pliegos involucrados, sin demandar recursos adicionales al Tesoro Público."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Tercera",
+    "texto": "La obligación del artículo 3 es exigible a las entidades del Poder Ejecutivo a los doce (12) meses de la entrada en vigencia del reglamento; a los gobiernos regionales y municipalidades provinciales, a los veinticuatro (24) meses; y a las municipalidades distritales, a los treinta y seis (36) meses."
+   }
+  ],
+  "costo_beneficio": "La ley no crea entidades ni plazas: utiliza la Plataforma de Interoperabilidad del Estado existente y el presupuesto institucional de los pliegos. El costo principal recae en las entidades que poseen registros maestros (adecuar servicios web, garantizar disponibilidad), que puede ser significativo para registros aún no digitalizados; por ello la exigibilidad es gradual. Los beneficios son directos para las personas y empresas: menos traslados, copias y tasas, y menor tiempo de tramitación, con mayor impacto en zonas rurales. Para el Estado, reduce fraude documental y trabajo de verificación manual. No se ha cuantificado el ahorro agregado en el Perú; el reglamento debe establecer una línea de base de documentos exigidos para medirlo. Costo fiscal estimado: bajo.",
+  "efecto_vigencia": "Modifica el Decreto Legislativo 1246 (incorpora el numeral 5.4 al artículo 5) y complementa el Decreto Legislativo 1412 y el TUO de la Ley 27444. Vincula su incumplimiento al régimen del Decreto Legislativo 1256 y al régimen disciplinario de la Ley 30057.",
+  "normas_relacionadas": [
+   {
+    "norma": "Decreto Legislativo 1246, que aprueba diversas medidas de simplificación administrativa (interoperabilidad y prohibición de exigir información y documentos)",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/DecretosLegislativos/01246.pdf"
+   },
+   {
+    "norma": "Decreto Legislativo 1412, Decreto Legislativo que aprueba la Ley de Gobierno Digital",
+    "url": "https://www.gob.pe/institucion/pcm/normas-legales/289706-1412"
+   },
+   {
+    "norma": "Decreto Supremo 029-2021-PCM, Reglamento del Decreto Legislativo 1412 (modificado, entre otros, por los DS 075-2023-PCM y 098-2025-PCM)",
+    "url": "https://www.gob.pe/institucion/pcm/normas-legales/1705101-029-2021-pcm"
+   },
+   {
+    "norma": "Decreto Legislativo 1256, Ley de Prevención y Eliminación de Barreras Burocráticas",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/DecretosLegislativos/01256.pdf"
+   },
+   {
+    "norma": "Ley 27444, Ley del Procedimiento Administrativo General (TUO aprobado por DS 004-2019-JUS)",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/27444.pdf"
+   },
+   {
+    "norma": "Ley 30057, Ley del Servicio Civil",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/30057.pdf"
+   }
+  ],
+  "antecedentes": "Por verificar en SPLEY. El marco vigente proviene del Decreto Legislativo 1246 (2016) y sus decretos supremos de ampliación.",
+  "referencias_internacionales": [
+   {
+    "pais": "Estonia",
+    "norma": "X-Road: capa de intercambio de datos del Estado y principio de solo una vez",
+    "url": "https://e-estonia.com/solutions/interoperability-services/x-road/"
+   },
+   {
+    "pais": "España",
+    "norma": "Ley 39/2015, del Procedimiento Administrativo Común (art. 28: derecho a no aportar documentos que obren en poder de la Administración)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+   },
+   {
+    "pais": "Unión Europea",
+    "norma": "Reglamento (UE) 2018/1724, pasarela digital única y sistema técnico de solo una vez",
+    "url": "https://single-market-economy.ec.europa.eu/single-market/single-digital-gateway_en"
+   },
+   {
+    "pais": "Colombia",
+    "norma": "Ley 2052 de 2020 (racionalización de trámites, cadenas de trámites e interoperabilidad)",
+    "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=140250"
+   },
+   {
+    "pais": "Uruguay",
+    "norma": "Ley 18.719, arts. 157-160 (interoperabilidad y rol de AGESIC)",
+    "url": "https://www.impo.com.uy/bases/leyes/18719-2010"
+   }
+  ],
+  "comision_sugerida": "Descentralización, Regionalización, Gobiernos Locales y Modernización de la Gestión del Estado",
+  "comision_secundaria": "Ciencia, Innovación y Tecnología",
+  "plan2050": [
+   "transformacion-digital",
+   "reforma-del-estado"
+  ],
+  "ods": [
+   16,
+   10
+  ],
+  "prioridad": "alta",
+  "costo_fiscal": "bajo",
+  "plazo": "mediano",
+  "indicador_exito": "A 2031, el 100% de los procedimientos del Poder Ejecutivo y al menos el 70% de los de gobiernos regionales y municipalidades provinciales no exigen documentos disponibles en el Catálogo Nacional de Datos Interoperables, medido en el reporte trimestral abierto de la SGTD.",
+  "tags": [
+   "interoperabilidad",
+   "simplificación",
+   "solo una vez",
+   "barreras burocráticas"
+  ],
+  "fuentes": [
+   {
+    "titulo": "PCM, Secretaría de Gobierno y Transformación Digital (portal)",
+    "url": "https://www.gob.pe/gobiernodigital"
+   },
+   {
+    "titulo": "INEI, nota de prensa: el 62,7% de los hogares tuvo conexión a Internet en el I trimestre de 2026",
+    "url": "https://www.gob.pe/institucion/inei/noticias/1412359-el-62-7-de-los-hogares-del-pais-tuvo-conexion-a-internet-entre-los-meses-de-enero-y-marzo-de-2026"
+   },
+   {
+    "titulo": "X-Road (NIIS)",
+    "url": "https://x-road.global/"
+   }
+  ]
+ },
+ {
+  "id": "GOB-02",
+  "eje": "gob",
+  "titulo": "Ley que establece la casilla única electrónica nacional y el expediente electrónico universal en la Administración Pública, modificando la Ley 31736 y la Ley 31170",
+  "titulo_corto": "Casilla única y expediente electrónico",
+  "sumilla": "Unifica en una sola casilla electrónica nacional las notificaciones de todas las entidades, la hace obligatoria para personas jurídicas y opcional con consentimiento para personas naturales, y fija un cronograma legal para el expediente electrónico en todos los niveles de gobierno.",
+  "problema": "La Ley 31170 (2021) dispuso la implementación de mesas de partes digitales y notificaciones electrónicas, y la Ley 31736 (2023) reguló la notificación por casilla electrónica, que tiene la misma validez que la notificación física. El Reglamento de la Ley de Gobierno Digital (DS 029-2021-PCM) ya prevé una casilla única electrónica, la Mesa Digital Perú, la Carpeta Ciudadana y el expediente electrónico. El problema es de fragmentación y de exigibilidad: la Ley 31736 permite que cada entidad asigne su propia casilla, de modo que una empresa o un ciudadano puede tener que revisar decenas de buzones distintos (tributario, municipal, registral, sectoriales), con riesgo de perder plazos. Al mismo tiempo, el expediente electrónico no tiene un cronograma legal de implementación obligatoria para gobiernos regionales y locales, lo que mantiene procedimientos híbridos en papel y escaneo. La brecha de conectividad (25,0% de hogares rurales con Internet en el primer trimestre de 2026, según el INEI) obliga a que la casilla sea voluntaria para personas naturales y a que se mantengan canales asistidos. España (Ley 39/2015 y RD 203/2021) y Chile (Ley 21.180) muestran que el expediente electrónico universal requiere un mandato legal con plazos escalonados.",
+  "objeto": "Unificar las notificaciones administrativas electrónicas en una casilla única nacional y establecer la obligatoriedad progresiva del expediente electrónico en todas las entidades públicas.",
+  "articulado": [
+   {
+    "n": "Artículo 1",
+    "titulo": "Objeto",
+    "texto": "La presente ley tiene por objeto establecer la casilla única electrónica nacional como domicilio digital para las notificaciones de todas las entidades de la Administración Pública y disponer la implementación obligatoria y progresiva del expediente electrónico."
+   },
+   {
+    "n": "Artículo 2",
+    "titulo": "Casilla única electrónica nacional",
+    "texto": "2.1 La casilla única electrónica, administrada por la Presidencia del Consejo de Ministros a través de la Secretaría de Gobierno y Transformación Digital, es el domicilio digital único del administrado frente a todas las entidades sujetas al TUO de la Ley 27444.\n2.2 Las entidades que cuenten con casillas institucionales propias las integran o interoperan con la casilla única, de modo que el administrado pueda consultar todas sus notificaciones desde un solo punto de acceso."
+   },
+   {
+    "n": "Artículo 3",
+    "titulo": "Obligatoriedad y voluntariedad",
+    "texto": "3.1 La casilla única es obligatoria para las personas jurídicas inscritas en el Registro Único de Contribuyentes y para las entidades públicas en sus relaciones entre sí.\n3.2 Para las personas naturales su uso es voluntario y requiere consentimiento expreso, otorgado y revocable a través de la Carpeta Ciudadana, conforme a la Ley 31736."
+   },
+   {
+    "n": "Artículo 4",
+    "titulo": "Garantías de la notificación",
+    "texto": "4.1 La notificación en la casilla única se rige por los artículos 4 y 5 de la Ley 31736; el mensaje de alerta al correo electrónico registrado constituye requisito de validez y se complementa con un aviso al teléfono celular.\n4.2 La casilla única permite al administrado consultar, en un solo panel, todas sus notificaciones con su fecha de depósito, fecha de lectura y plazos en curso, y descargar constancias con valor probatorio."
+   },
+   {
+    "n": "Artículo 5",
+    "titulo": "Expediente electrónico universal",
+    "texto": "5.1 Todo procedimiento administrativo iniciado tras los plazos de la Primera Disposición Complementaria Transitoria se tramita íntegramente mediante expediente electrónico, conforme a los estándares aprobados por la Secretaría de Gobierno y Transformación Digital y por el Archivo General de la Nación.\n5.2 Los documentos presentados en soporte papel son digitalizados por la entidad en la mesa de partes, sin costo para el administrado."
+   },
+   {
+    "n": "Artículo 6",
+    "titulo": "Canal asistido",
+    "texto": "Las entidades mantienen al menos un canal presencial o telefónico asistido para las personas que no cuenten con acceso o competencias digitales. La digitalización no puede generar costos ni requisitos adicionales para el administrado."
+   },
+   {
+    "n": "Artículo 7",
+    "titulo": "Modificación del numeral 4.2 del artículo 4 de la Ley 31736",
+    "texto": "Modifícase el numeral 4.2 del artículo 4 de la Ley 31736, con el texto siguiente: \"4.2. La casilla electrónica del administrado es asignada a través de la casilla única electrónica nacional administrada por la Presidencia del Consejo de Ministros, y es común para todas las entidades públicas. A partir de ese momento, el administrado puede acceder a dicha casilla, la que constituye un domicilio digital obligatorio, a través del cual las entidades de la administración pública realizan las notificaciones a las que hubiere lugar, respetando todos los principios, derechos y garantías del debido procedimiento previstos en la ley.\""
+   },
+   {
+    "n": "Artículo 8",
+    "titulo": "Interoperabilidad con el sistema de justicia",
+    "texto": "El Poder Judicial, el Tribunal Constitucional, el Ministerio Público y los organismos constitucionalmente autónomos pueden adherirse a la casilla única electrónica mediante convenio, sin perjuicio de sus sistemas propios de notificación."
+   }
+  ],
+  "disposiciones": [
+   {
+    "tipo": "Complementaria Final",
+    "n": "Primera",
+    "texto": "El Poder Ejecutivo reglamenta la presente ley en un plazo máximo de noventa (90) días hábiles, mediante decreto supremo refrendado por la Presidencia del Consejo de Ministros."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Segunda",
+    "texto": "La implementación se financia con cargo al presupuesto institucional de los pliegos involucrados, sin demandar recursos adicionales al Tesoro Público."
+   },
+   {
+    "tipo": "Complementaria Transitoria",
+    "n": "Primera",
+    "texto": "El expediente electrónico es obligatorio para las entidades del Poder Ejecutivo a los dieciocho (18) meses; para los gobiernos regionales y municipalidades provinciales, a los treinta (30) meses; y para las municipalidades distritales, a los cuarenta y ocho (48) meses, contados desde la vigencia del reglamento."
+   },
+   {
+    "tipo": "Complementaria Transitoria",
+    "n": "Segunda",
+    "texto": "Las casillas institucionales existentes mantienen su validez hasta su integración con la casilla única nacional, la cual debe concluir en un plazo de veinticuatro (24) meses."
+   }
+  ],
+  "costo_beneficio": "El costo recae en la integración de las casillas institucionales y en la digitalización de mesas de partes municipales, que es el componente más exigente para municipalidades con baja capacidad; por eso los plazos son escalonados y se mantiene el canal asistido. No requiere crear nuevas entidades porque la casilla única y la Mesa Digital Perú ya existen en el marco reglamentario vigente. Beneficios: certeza jurídica en las notificaciones, reducción de costos de mensajería y papel para el Estado, y menor riesgo de indefensión para empresas que hoy deben revisar múltiples buzones. El ahorro no se ha cuantificado oficialmente; el reglamento debe medir el porcentaje de notificaciones físicas sustituidas. Costo fiscal estimado: bajo.",
+  "efecto_vigencia": "Modifica la Ley 31736 (numeral 4.2 del artículo 4) y complementa la Ley 31170, el TUO de la Ley 27444 y el Decreto Legislativo 1412. Eleva a rango legal la casilla única electrónica y el expediente electrónico ya previstos en el DS 029-2021-PCM.",
+  "normas_relacionadas": [
+   {
+    "norma": "Ley 31736, Ley que regula la notificación administrativa mediante casilla electrónica",
+    "url": "https://leyes.congreso.gob.pe/Documentos/2021_2026/ADLP/Texto_Consolidado/31736-TXM.pdf"
+   },
+   {
+    "norma": "Ley 31170, Ley que dispone la implementación de mesas de partes digitales y notificaciones electrónicas",
+    "url": "https://leyes.congreso.gob.pe/Documentos/2016_2021/ADLP/Texto_Consolidado/31170-TXM.pdf"
+   },
+   {
+    "norma": "Ley 27444, Ley del Procedimiento Administrativo General (TUO aprobado por DS 004-2019-JUS)",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/27444.pdf"
+   },
+   {
+    "norma": "Decreto Legislativo 1412, Decreto Legislativo que aprueba la Ley de Gobierno Digital",
+    "url": "https://www.gob.pe/institucion/pcm/normas-legales/289706-1412"
+   },
+   {
+    "norma": "Decreto Supremo 029-2021-PCM, Reglamento del Decreto Legislativo 1412 (modificado, entre otros, por los DS 075-2023-PCM y 098-2025-PCM)",
+    "url": "https://www.gob.pe/institucion/pcm/normas-legales/1705101-029-2021-pcm"
+   }
+  ],
+  "antecedentes": "Por verificar en SPLEY. Antecedentes normativos directos: Ley 31170 (2021) y Ley 31736 (2023).",
+  "referencias_internacionales": [
+   {
+    "pais": "España",
+    "norma": "Ley 39/2015, del Procedimiento Administrativo Común (art. 28: derecho a no aportar documentos que obren en poder de la Administración)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+   },
+   {
+    "pais": "España",
+    "norma": "Real Decreto 203/2021, Reglamento de actuación y funcionamiento del sector público por medios electrónicos",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-5032"
+   },
+   {
+    "pais": "Chile",
+    "norma": "Ley 21.180, de Transformación Digital del Estado",
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=1138479"
+   },
+   {
+    "pais": "Estonia",
+    "norma": "Portal estatal eesti.ee (punto único de servicios y comunicaciones)",
+    "url": "https://www.eesti.ee/en"
+   }
+  ],
+  "comision_sugerida": "Descentralización, Regionalización, Gobiernos Locales y Modernización de la Gestión del Estado",
+  "comision_secundaria": "Justicia y Derechos Humanos",
+  "plan2050": [
+   "transformacion-digital",
+   "reforma-del-estado"
+  ],
+  "ods": [
+   16,
+   9
+  ],
+  "prioridad": "alta",
+  "costo_fiscal": "bajo",
+  "plazo": "mediano",
+  "indicador_exito": "A 2031, el 100% de las entidades del Poder Ejecutivo y de los gobiernos regionales tramitan sus procedimientos con expediente electrónico y todas las personas jurídicas con RUC activo reciben sus notificaciones en la casilla única nacional.",
+  "tags": [
+   "notificación electrónica",
+   "expediente electrónico",
+   "casilla única",
+   "procedimiento administrativo"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Plataforma digital Carpeta Ciudadana (GOB.PE)",
+    "url": "https://www.gob.pe/carpetaciudadana"
+   },
+   {
+    "titulo": "PCM, Secretaría de Gobierno y Transformación Digital (portal)",
+    "url": "https://www.gob.pe/gobiernodigital"
+   },
+   {
+    "titulo": "INEI, nota de prensa: el 62,7% de los hogares tuvo conexión a Internet en el I trimestre de 2026",
+    "url": "https://www.gob.pe/institucion/inei/noticias/1412359-el-62-7-de-los-hogares-del-pais-tuvo-conexion-a-internet-entre-los-meses-de-enero-y-marzo-de-2026"
+   }
+  ]
+ },
+ {
+  "id": "GOB-03",
+  "eje": "gob",
+  "titulo": "Ley que establece el software público y el código abierto por defecto en los desarrollos financiados con fondos públicos, modificando la Ley 28612",
+  "titulo_corto": "Código abierto por defecto",
+  "sumilla": "Obliga a que el software desarrollado o contratado a medida con fondos públicos sea de titularidad o licencia que permita su reutilización, se publique como código abierto en la Plataforma Nacional de Software Público Peruano y sea reutilizado antes de contratar uno nuevo.",
+  "problema": "La Ley 28612 (2005) regula la adquisición de software en el Estado bajo criterios de neutralidad tecnológica, pero no aborda la titularidad ni la reutilización del software que el propio Estado desarrolla o encarga. El Reglamento de la Ley de Gobierno Digital (DS 029-2021-PCM) creó la Plataforma Nacional de Software Público Peruano y dispone preferir el software público o de código abierto, pero se trata de una preferencia de rango reglamentario, sin obligación general de publicar el código ni de asegurar en los contratos la entrega del código fuente y de los derechos de uso. El resultado es que distintas entidades, en particular municipalidades y gobiernos regionales, pagan varias veces por sistemas equivalentes (trámite documentario, licencias de funcionamiento, gestión de expedientes), y quedan atadas a un proveedor cuando el contrato no les transfiere el código fuente. Suiza (artículo 9 de la ley EMBAG, vigente desde 2024), Uruguay (Ley 19.179), Italia (artículos 68 y 69 del Codice dell'Amministrazione Digitale) y España (artículo 157 de la Ley 40/2015) han establecido con rango de ley la publicación o reutilización del software financiado públicamente, con excepciones por seguridad o derechos de terceros.",
+  "objeto": "Establecer que el software desarrollado o adaptado a medida con fondos públicos se publique por defecto como código abierto y se reutilice entre entidades, salvo excepciones motivadas.",
+  "articulado": [
+   {
+    "n": "Artículo 1",
+    "titulo": "Objeto",
+    "texto": "La presente ley tiene por objeto garantizar que el software desarrollado o adaptado a medida con fondos públicos sea reutilizable por todas las entidades del Estado y por la ciudadanía, mediante su publicación por defecto como código abierto."
+   },
+   {
+    "n": "Artículo 2",
+    "titulo": "Ámbito",
+    "texto": "Es aplicable a las entidades de la Administración Pública, incluidas las empresas del Estado y los proyectos financiados total o parcialmente con recursos públicos, cualquiera sea la fuente de financiamiento."
+   },
+   {
+    "n": "Artículo 3",
+    "titulo": "Definiciones",
+    "texto": "Para efectos de la presente ley se entiende por:\na) Software a medida: programa desarrollado o adaptado específicamente para una entidad, por personal propio o por terceros contratados.\nb) Código abierto: software cuyo código fuente se distribuye con una licencia que permite usarlo, estudiarlo, modificarlo y redistribuirlo.\nc) Software público peruano: software a medida registrado en la Plataforma Nacional de Software Público Peruano."
+   },
+   {
+    "n": "Artículo 4",
+    "titulo": "Publicación por defecto",
+    "texto": "4.1 El software a medida se publica como código abierto en la Plataforma Nacional de Software Público Peruano dentro de los noventa (90) días calendario de su puesta en producción, con su documentación técnica.\n4.2 La entidad puede exceptuar total o parcialmente la publicación, mediante resolución motivada del titular, cuando comprometa la seguridad nacional, la seguridad digital de sistemas críticos, información clasificada o derechos de terceros. La resolución se publica en el portal de transparencia."
+   },
+   {
+    "n": "Artículo 5",
+    "titulo": "Cláusulas contractuales obligatorias",
+    "texto": "En toda contratación de desarrollo o adaptación de software a medida, los documentos del procedimiento de selección y el contrato incluyen: (i) la entrega del código fuente completo y de los artefactos necesarios para compilarlo y desplegarlo; (ii) la cesión de los derechos patrimoniales o una licencia que permita su publicación como código abierto; y (iii) la prohibición de componentes que impidan dicha publicación, salvo justificación técnica aprobada por la entidad."
+   },
+   {
+    "n": "Artículo 6",
+    "titulo": "Reutilización previa obligatoria",
+    "texto": "Antes de convocar la contratación de software a medida, la entidad verifica en el Catálogo de Software Público Peruano la existencia de soluciones que satisfagan total o parcialmente su necesidad y deja constancia de dicha verificación en el expediente de contratación."
+   },
+   {
+    "n": "Artículo 7",
+    "titulo": "Gobernanza de la Plataforma",
+    "texto": "La Secretaría de Gobierno y Transformación Digital administra la Plataforma Nacional de Software Público Peruano, aprueba la relación de licencias de código abierto admitidas y los estándares mínimos de calidad, seguridad y documentación, y publica anualmente un informe de reutilización."
+   },
+   {
+    "n": "Artículo 8",
+    "titulo": "Modificación de la Ley 28612",
+    "texto": "Incorpórase una Disposición Complementaria Final a la Ley 28612, con el texto siguiente: \"Software a medida financiado con fondos públicos. El software desarrollado o adaptado a medida con fondos públicos se rige por la ley que establece el software público y el código abierto por defecto.\""
+   }
+  ],
+  "disposiciones": [
+   {
+    "tipo": "Complementaria Final",
+    "n": "Primera",
+    "texto": "El Poder Ejecutivo reglamenta la presente ley en un plazo máximo de noventa (90) días hábiles, con refrendo de la Presidencia del Consejo de Ministros y del Ministerio de Economía y Finanzas."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Segunda",
+    "texto": "La presente ley no obliga a publicar el código de software comercial estándar adquirido mediante licencia, al que se sigue aplicando la Ley 28612."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Tercera",
+    "texto": "La implementación se financia con cargo al presupuesto institucional de los pliegos, sin demandar recursos adicionales al Tesoro Público."
+   },
+   {
+    "tipo": "Complementaria Transitoria",
+    "n": "Primera",
+    "texto": "El software a medida en producción a la fecha de vigencia de la presente ley, cuyo código fuente sea de titularidad de la entidad, se publica en un plazo de dieciocho (18) meses, salvo las excepciones del artículo 4."
+   }
+  ],
+  "costo_beneficio": "No genera gasto adicional relevante: la plataforma ya existe. Puede elevar marginalmente el precio de algunos contratos por la cesión de derechos y la exigencia de documentación, y exige a las entidades revisar seguridad antes de publicar. Los beneficios son ahorro por reutilización entre entidades (especialmente municipalidades que comparten necesidades similares), reducción de dependencia de proveedores, mayor competencia en mantenimiento y auditabilidad pública del software estatal. No existe una cuantificación oficial del gasto duplicado en software a medida en el Perú; el reglamento debe exigir un registro de contrataciones de desarrollo que permita medirlo. Costo fiscal: nulo.",
+  "efecto_vigencia": "Modifica la Ley 28612 (incorpora una disposición complementaria final). Eleva a rango legal y vuelve obligatoria la reutilización del software público prevista en el DS 029-2021-PCM y en el DS 051-2018-PCM. Complementa la Ley 32069 en cuanto a cláusulas de contratos de desarrollo de software.",
+  "normas_relacionadas": [
+   {
+    "norma": "Ley 28612, Ley que norma el uso, adquisición y adecuación del software en la Administración Pública",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/28612.pdf"
+   },
+   {
+    "norma": "Decreto Legislativo 1412, Decreto Legislativo que aprueba la Ley de Gobierno Digital",
+    "url": "https://www.gob.pe/institucion/pcm/normas-legales/289706-1412"
+   },
+   {
+    "norma": "Decreto Supremo 029-2021-PCM, Reglamento del Decreto Legislativo 1412 (modificado, entre otros, por los DS 075-2023-PCM y 098-2025-PCM)",
+    "url": "https://www.gob.pe/institucion/pcm/normas-legales/1705101-029-2021-pcm"
+   },
+   {
+    "norma": "Ley 32069, Ley General de Contrataciones Públicas, y su Reglamento aprobado por DS 009-2025-EF",
+    "url": "https://www.gob.pe/institucion/oece/colecciones/45029-ley-n-32069-ley-general-de-contrataciones-publicas-y-su-reglamento"
+   }
+  ],
+  "antecedentes": "Por verificar en SPLEY.",
+  "referencias_internacionales": [
+   {
+    "pais": "Suiza",
+    "norma": "Ley federal EMBAG (art. 9: publicación por defecto como código abierto del software desarrollado por la administración)",
+    "url": "https://www.fedlex.admin.ch/eli/cc/2023/682/de"
+   },
+   {
+    "pais": "Uruguay",
+    "norma": "Ley 19.179, sobre software libre y formatos abiertos en el Estado",
+    "url": "https://www.impo.com.uy/bases/leyes/19179-2013"
+   },
+   {
+    "pais": "Italia",
+    "norma": "Codice dell'Amministrazione Digitale, D.Lgs. 82/2005 (arts. 68-69: reutilización y software de código abierto)",
+    "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-03-07;82"
+   },
+   {
+    "pais": "España",
+    "norma": "Ley 40/2015, de Régimen Jurídico del Sector Público (arts. 155-158: interoperabilidad, reutilización de sistemas y transferencia de tecnología)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566"
+   }
+  ],
+  "comision_sugerida": "Ciencia, Innovación y Tecnología",
+  "comision_secundaria": "Descentralización, Regionalización, Gobiernos Locales y Modernización de la Gestión del Estado",
+  "plan2050": [
+   "transformacion-digital",
+   "ciencia-y-tecnologia",
+   "innovacion"
+  ],
+  "ods": [
+   9,
+   16,
+   17
+  ],
+  "prioridad": "media",
+  "costo_fiscal": "nulo",
+  "plazo": "corto",
+  "indicador_exito": "A 2031, al menos el 80% de los contratos de software a medida registrados en el SEACE incluyen entrega de código fuente y cesión de derechos, y el Catálogo de Software Público Peruano registra reutilizaciones por al menos 500 entidades.",
+  "tags": [
+   "software público",
+   "código abierto",
+   "reutilización",
+   "contrataciones"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Portal de Software Público Peruano",
+    "url": "https://www.softwarepublico.gob.pe/"
+   },
+   {
+    "titulo": "Free Software Foundation Europe, campaña Public Money, Public Code",
+    "url": "https://publiccode.eu/"
+   },
+   {
+    "titulo": "PCM, Secretaría de Gobierno y Transformación Digital (portal)",
+    "url": "https://www.gob.pe/gobiernodigital"
+   }
+  ]
+ },
+ {
+  "id": "GOB-04",
+  "eje": "gob",
+  "titulo": "Ley que fortalece la compra pública de innovación y crea los retos GovTech del Estado, modificando la Ley 32069, Ley General de Contrataciones Públicas",
+  "titulo_corto": "Compra pública de innovación GovTech",
+  "sumilla": "Desarrolla con rango de ley la fase precomercial de la compra pública de innovación prevista en el artículo 38 de la Ley 32069, crea los retos GovTech para que startups y mipymes resuelvan problemas públicos y fija reglas de propiedad intelectual y escalamiento.",
+  "problema": "La Ley 32069, Ley General de Contrataciones Públicas (2024), incorporó en su artículo 38 la compra pública de innovación (CPI), permitió definir el requerimiento por objetivos o funcionalidades (numeral 46.7) y remitió al reglamento el procedimiento de selección, la titularidad de los derechos de uso y la rendición de cuentas. Es un avance importante, pero deja con rango meramente reglamentario aspectos que determinan si las entidades se atreven a usarla: la distinción entre fase precomercial (investigación, prototipo y piloto con varios proveedores en competencia) y fase comercial; la posibilidad de adjudicar la compra a escala a quien superó con éxito el piloto; el tratamiento del riesgo de fracaso, que en la cultura de control vigente suele leerse como responsabilidad del funcionario; y un mecanismo ágil de bajo monto para que startups y mipymes tecnológicas propongan soluciones a problemas públicos definidos. Sin estas reglas, la CPI tiende a quedar como figura de uso excepcional. La Unión Europea (compra precomercial), el Reino Unido (programa SBRI) y Brasil (contrato público para solución innovadora de la Lei Complementar 182/2021) ofrecen modelos probados de financiamiento por fases con competencia entre proveedores.",
+  "objeto": "Desarrollar las fases precomercial y comercial de la compra pública de innovación y crear el régimen de retos GovTech, con reglas de propiedad intelectual, gestión del riesgo y escalamiento.",
+  "articulado": [
+   {
+    "n": "Artículo 1",
+    "titulo": "Objeto",
+    "texto": "La presente ley tiene por objeto fortalecer la compra pública de innovación regulada en el artículo 38 de la Ley 32069, Ley General de Contrataciones Públicas, y crear los retos GovTech del Estado como mecanismo para identificar soluciones tecnológicas a problemas públicos."
+   },
+   {
+    "n": "Artículo 2",
+    "titulo": "Fases de la compra pública de innovación",
+    "texto": "2.1 La compra pública de innovación puede comprender una fase precomercial y una fase comercial.\n2.2 En la fase precomercial la entidad contrata servicios de investigación y desarrollo por etapas sucesivas (diseño, prototipo y piloto), con al menos dos proveedores en competencia en la etapa inicial, cuando el mercado lo permita.\n2.3 En la fase comercial la entidad puede contratar el suministro a escala de la solución validada con el proveedor que superó con éxito el piloto, siempre que dicha posibilidad haya sido prevista en las bases de la fase precomercial."
+   },
+   {
+    "n": "Artículo 3",
+    "titulo": "Retos GovTech",
+    "texto": "3.1 Las entidades pueden convocar retos GovTech, que consisten en la publicación de un problema público, con indicadores de resultado, para que personas naturales o jurídicas propongan soluciones.\n3.2 Las propuestas seleccionadas pueden recibir un contrato de prueba de concepto de bajo monto y plazo no mayor a seis (6) meses, conforme a los topes que establezca el reglamento.\n3.3 La convocatoria, los criterios de evaluación, los resultados y los informes de las pruebas de concepto se publican en la plataforma del Sistema Electrónico de Contrataciones del Estado."
+   },
+   {
+    "n": "Artículo 4",
+    "titulo": "Propiedad intelectual",
+    "texto": "4.1 Salvo pacto distinto debidamente motivado, el proveedor conserva la titularidad de la propiedad intelectual generada y la entidad recibe una licencia gratuita, perpetua e irrevocable de uso para fines públicos, incluida la posibilidad de sublicenciarla a otras entidades públicas.\n4.2 Cuando la entidad financie íntegramente el desarrollo, puede exigir la publicación del código conforme a la normativa de software público."
+   },
+   {
+    "n": "Artículo 5",
+    "titulo": "Gestión del riesgo y responsabilidad",
+    "texto": "5.1 El hecho de que la solución no alcance los resultados esperados en la fase precomercial o en un reto GovTech no genera, por sí mismo, responsabilidad administrativa, civil o penal del funcionario, siempre que el procedimiento se haya conducido conforme a la presente ley y su reglamento y se haya documentado la evaluación de riesgos.\n5.2 La Contraloría General de la República considera dicha naturaleza al ejercer el control gubernamental, conforme a la Ley 27785."
+   },
+   {
+    "n": "Artículo 6",
+    "titulo": "Unidad de apoyo",
+    "texto": "El Organismo Especializado para las Contrataciones Públicas Eficientes (OECE), en coordinación con la Secretaría de Gobierno y Transformación Digital y el Consejo Nacional de Ciencia, Tecnología e Innovación, brinda asistencia técnica, aprueba modelos de bases y publica un repositorio de casos y resultados."
+   },
+   {
+    "n": "Artículo 7",
+    "titulo": "Transparencia y evaluación",
+    "texto": "Las entidades publican, al término de cada fase, un informe de resultados con indicadores, costos y lecciones aprendidas. El OECE publica anualmente en formato abierto el número, monto y resultados de las compras públicas de innovación y retos GovTech."
+   },
+   {
+    "n": "Artículo 8",
+    "titulo": "Incorporación en la Ley 32069",
+    "texto": "Incorpórase el numeral 38.4 al artículo 38 de la Ley 32069, con el texto siguiente: \"38.4 La compra pública de innovación comprende una fase precomercial y una fase comercial, y puede convocarse bajo la modalidad de retos GovTech, conforme a la ley de la materia.\""
+   }
+  ],
+  "disposiciones": [
+   {
+    "tipo": "Complementaria Final",
+    "n": "Primera",
+    "texto": "El Ministerio de Economía y Finanzas, en coordinación con la Presidencia del Consejo de Ministros, adecúa el Reglamento de la Ley 32069 en un plazo máximo de noventa (90) días hábiles."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Segunda",
+    "texto": "Las contrataciones bajo la presente ley se financian con cargo al presupuesto institucional de cada entidad, sin demandar recursos adicionales al Tesoro Público. Las entidades pueden cofinanciar retos con fondos concursables de ciencia, tecnología e innovación, conforme a la normativa vigente."
+   }
+  ],
+  "costo_beneficio": "No crea gasto nuevo: reorienta parte del gasto que las entidades ya destinan a tecnología hacia contrataciones por resultados, con montos de prueba acotados. El riesgo fiscal es el fracaso de pilotos; se mitiga con fases sucesivas que limitan la inversión antes de validar la solución. Los beneficios esperados son soluciones adaptadas a problemas públicos concretos, apertura del mercado estatal a startups y mipymes tecnológicas y menor riesgo de comprar tecnología que no funciona a escala. La protección frente a responsabilidad por fracaso documentado es clave para que los funcionarios usen la figura. Costo fiscal estimado: bajo.",
+  "efecto_vigencia": "Modifica la Ley 32069 (incorpora el numeral 38.4 al artículo 38). Complementa el Reglamento aprobado por DS 009-2025-EF y la Ley 27785 en cuanto a criterios de control.",
+  "normas_relacionadas": [
+   {
+    "norma": "Ley 32069, Ley General de Contrataciones Públicas, y su Reglamento aprobado por DS 009-2025-EF",
+    "url": "https://www.gob.pe/institucion/oece/colecciones/45029-ley-n-32069-ley-general-de-contrataciones-publicas-y-su-reglamento"
+   },
+   {
+    "norma": "Ley 27785, Ley Orgánica del Sistema Nacional de Control y de la Contraloría General de la República",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/27785.pdf"
+   },
+   {
+    "norma": "Decreto Legislativo 1412, Decreto Legislativo que aprueba la Ley de Gobierno Digital",
+    "url": "https://www.gob.pe/institucion/pcm/normas-legales/289706-1412"
+   }
+  ],
+  "antecedentes": "Por verificar en SPLEY. Antecedente normativo directo: artículo 38 de la Ley 32069 (2024).",
+  "referencias_internacionales": [
+   {
+    "pais": "Unión Europea",
+    "norma": "Compra pública precomercial (Pre-Commercial Procurement)",
+    "url": "https://digital-strategy.ec.europa.eu/en/policies/pre-commercial-procurement"
+   },
+   {
+    "pais": "Reino Unido",
+    "norma": "Small Business Research Initiative (SBRI), compra precomercial",
+    "url": "https://www.gov.uk/government/collections/sbri-the-small-business-research-initiative"
+   },
+   {
+    "pais": "Brasil",
+    "norma": "Lei Complementar 182/2021, Marco Legal das Startups (contrato público para solución innovadora, CPSI)",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp182.htm"
+   },
+   {
+    "pais": "España",
+    "norma": "Ley 9/2017, de Contratos del Sector Público (asociación para la innovación)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902"
+   }
+  ],
+  "comision_sugerida": "Economía, Banca, Finanzas e Inteligencia Financiera",
+  "comision_secundaria": "Ciencia, Innovación y Tecnología",
+  "plan2050": [
+   "innovacion",
+   "emprendimiento",
+   "transformacion-digital"
+  ],
+  "ods": [
+   9,
+   8,
+   16
+  ],
+  "prioridad": "alta",
+  "costo_fiscal": "bajo",
+  "plazo": "corto",
+  "indicador_exito": "A 2031, al menos 100 retos GovTech o compras públicas de innovación convocados y publicados en el SEACE, con informe de resultados y al menos el 30% de los pilotos exitosos escalados en fase comercial.",
+  "tags": [
+   "compras públicas",
+   "GovTech",
+   "innovación",
+   "startups"
+  ],
+  "fuentes": [
+   {
+    "titulo": "OECE, colección Ley 32069 y su Reglamento",
+    "url": "https://www.gob.pe/institucion/oece/colecciones/45029-ley-n-32069-ley-general-de-contrataciones-publicas-y-su-reglamento"
+   },
+   {
+    "titulo": "OECE, Portal de Contrataciones Abiertas de la Compra Pública del Perú",
+    "url": "https://contratacionesabiertas.oece.gob.pe/"
+   }
+  ]
+ },
+ {
+  "id": "GOB-05",
+  "eje": "gob",
+  "titulo": "Ley que establece la transparencia en tiempo real del gasto público, las contrataciones y las planillas en formato abierto, modificando el Texto Único Ordenado de la Ley 27806",
+  "titulo_corto": "Transparencia fiscal en tiempo real",
+  "sumilla": "Obliga a publicar diariamente, en formato abierto y mediante interfaces de programación, la ejecución del gasto, todas las contrataciones (incluidas las de menor cuantía) bajo el estándar OCDS y las planillas por cargo y remuneración.",
+  "problema": "La Ley 27806 obliga a las entidades a difundir información presupuestal, de contrataciones y de personal a través de sus portales de transparencia, y el DS 029-2021-PCM dispuso la apertura por defecto de los datos del Portal de Transparencia Económica del MEF y del SEACE en la Plataforma Nacional de Datos Abiertos. El OECE ya publica datos bajo el estándar de contrataciones abiertas (OCDS). No obstante, la ley no fija frecuencia mínima de actualización, formato procesable ni interfaces de programación (API) obligatorias; buena parte de la información de los portales de transparencia estándar se publica en documentos escaneados o tablas no reutilizables, con rezagos de meses. Las contrataciones de menor cuantía y las órdenes de servicio, donde se concentran muchos riesgos de fraccionamiento, tienen menor nivel de detalle y trazabilidad que los procedimientos competitivos, y las planillas no siempre permiten cruzar cargo, régimen, remuneración y fuente de financiamiento. Esto limita el control social, el periodismo de datos y el trabajo preventivo de la Contraloría. Brasil (Portal da Transparência), Colombia (Ley 1712 de 2014 y SECOP) y España (Ley 19/2013) muestran que la publicación estructurada y frecuente es condición para el control ciudadano efectivo.",
+  "objeto": "Garantizar la publicación diaria, en formato abierto y mediante interfaces de programación, de la ejecución del gasto, las contrataciones y las planillas del sector público.",
+  "articulado": [
+   {
+    "n": "Artículo 1",
+    "titulo": "Objeto",
+    "texto": "La presente ley tiene por objeto fortalecer la transparencia activa en materia de gasto público, contrataciones y personal, estableciendo estándares de oportunidad, formato abierto e interoperabilidad de la información."
+   },
+   {
+    "n": "Artículo 2",
+    "titulo": "Ámbito",
+    "texto": "Es aplicable a las entidades comprendidas en el artículo 2 del TUO de la Ley 27806, incluidas las empresas del Estado, los gobiernos regionales y locales, y los fondos y programas que administran recursos públicos."
+   },
+   {
+    "n": "Artículo 3",
+    "titulo": "Ejecución del gasto en tiempo real",
+    "texto": "El Ministerio de Economía y Finanzas publica diariamente, en formato abierto y mediante interfaz de programación de libre acceso, la ejecución presupuestal en sus fases de certificación, compromiso, devengado y girado, a nivel de entidad, meta, clasificador de gasto y proveedor, a partir de la información registrada en el Sistema Integrado de Administración Financiera."
+   },
+   {
+    "n": "Artículo 4",
+    "titulo": "Contrataciones abiertas",
+    "texto": "4.1 El OECE publica, bajo el Estándar de Datos de Contrataciones Abiertas (OCDS), la información de todas las contrataciones registradas en la plataforma del SEACE, desde la planificación hasta la ejecución contractual, incluidas las contrataciones de montos iguales o inferiores a ocho (8) UIT, las órdenes de compra y de servicio y las adendas.\n4.2 La actualización es diaria y la información es descargable de forma masiva y consultable mediante interfaz de programación."
+   },
+   {
+    "n": "Artículo 5",
+    "titulo": "Planillas abiertas",
+    "texto": "Las entidades publican mensualmente, en formato abierto, la relación de su personal por régimen laboral o contractual, cargo, unidad orgánica, remuneración o contraprestación bruta, fuente de financiamiento y fecha de ingreso. La publicación se realiza a través del Portal de Transparencia Estándar, a partir del Aplicativo Informático para el Registro Centralizado de Planillas y de Datos de los Recursos Humanos del Sector Público, sin incluir datos sensibles ni domicilios."
+   },
+   {
+    "n": "Artículo 6",
+    "titulo": "Formatos y estándares",
+    "texto": "La Secretaría de Gobierno y Transformación Digital, en coordinación con la Autoridad Nacional de Transparencia y Acceso a la Información Pública, aprueba los esquemas de datos, identificadores únicos de entidad y proveedor, y los requisitos mínimos de las interfaces de programación. No se considera cumplida la obligación con documentos escaneados o en formatos no procesables por máquina."
+   },
+   {
+    "n": "Artículo 7",
+    "titulo": "Supervisión e incumplimiento",
+    "texto": "La Autoridad Nacional de Transparencia y Acceso a la Información Pública supervisa el cumplimiento de la presente ley y publica un índice semestral por entidad. El incumplimiento constituye infracción conforme al régimen sancionador del TUO de la Ley 27806."
+   },
+   {
+    "n": "Artículo 8",
+    "titulo": "Modificación del TUO de la Ley 27806",
+    "texto": "Incorpórase una Disposición Complementaria Final al TUO de la Ley 27806, con el texto siguiente: \"Oportunidad y formato abierto. La información del portal de transparencia y la del Título IV relativa a presupuesto, contrataciones y personal se publica en formato abierto y procesable por máquina, con la periodicidad que establezca la ley de transparencia en tiempo real.\""
+   }
+  ],
+  "disposiciones": [
+   {
+    "tipo": "Complementaria Final",
+    "n": "Primera",
+    "texto": "El Poder Ejecutivo reglamenta la presente ley en un plazo de noventa (90) días hábiles, con refrendo de la Presidencia del Consejo de Ministros, el Ministerio de Justicia y Derechos Humanos y el Ministerio de Economía y Finanzas."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Segunda",
+    "texto": "La implementación se financia con cargo al presupuesto institucional de los pliegos involucrados, sin demandar recursos adicionales al Tesoro Público."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Tercera",
+    "texto": "Nada de lo dispuesto en la presente ley autoriza la publicación de información calificada como secreta, reservada o confidencial, ni de datos personales sensibles, conforme a la Ley 27806 y a la Ley 29733."
+   }
+  ],
+  "costo_beneficio": "El costo es reducido porque la información ya existe en sistemas centrales (SIAF, SEACE, registro de planillas del MEF); el esfuerzo está en exponerla mediante interfaces de programación y estandarizarla, a cargo principalmente del MEF y del OECE. Las entidades pequeñas no generan datos nuevos: se publica desde los sistemas centrales. Beneficios: control social y periodístico oportuno, detección temprana de fraccionamientos y sobrecostos, insumo para el control preventivo y mayor confianza ciudadana. La literatura internacional asocia la contratación abierta con mayor competencia, aunque el efecto en el Perú debe medirse con línea de base. Costo fiscal estimado: bajo.",
+  "efecto_vigencia": "Modifica el TUO de la Ley 27806 (incorpora una disposición complementaria final). Complementa la Ley 32069 y la Trigésima Sexta Disposición Complementaria Final del DS 029-2021-PCM, elevando a rango legal la apertura por defecto de datos económicos y de contrataciones.",
+  "normas_relacionadas": [
+   {
+    "norma": "Ley 27806, Ley de Transparencia y Acceso a la Información Pública (TUO aprobado por DS 021-2019-JUS)",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/27806.pdf"
+   },
+   {
+    "norma": "Ley 32069, Ley General de Contrataciones Públicas, y su Reglamento aprobado por DS 009-2025-EF",
+    "url": "https://www.gob.pe/institucion/oece/colecciones/45029-ley-n-32069-ley-general-de-contrataciones-publicas-y-su-reglamento"
+   },
+   {
+    "norma": "Decreto Supremo 029-2021-PCM, Reglamento del Decreto Legislativo 1412 (modificado, entre otros, por los DS 075-2023-PCM y 098-2025-PCM)",
+    "url": "https://www.gob.pe/institucion/pcm/normas-legales/1705101-029-2021-pcm"
+   },
+   {
+    "norma": "Decreto Legislativo 1440, del Sistema Nacional de Presupuesto Público",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/DecretosLegislativos/01440.pdf"
+   }
+  ],
+  "antecedentes": "Por verificar en SPLEY.",
+  "referencias_internacionales": [
+   {
+    "pais": "Brasil",
+    "norma": "Portal da Transparência do Governo Federal",
+    "url": "https://portaldatransparencia.gov.br/"
+   },
+   {
+    "pais": "Colombia",
+    "norma": "Ley 1712 de 2014, de Transparencia y del Derecho de Acceso a la Información Pública",
+    "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=56882"
+   },
+   {
+    "pais": "Colombia",
+    "norma": "Colombia Compra Eficiente (SECOP, publicación bajo estándar de contrataciones abiertas)",
+    "url": "https://www.colombiacompra.gov.co/"
+   },
+   {
+    "pais": "España",
+    "norma": "Ley 19/2013, de transparencia, acceso a la información pública y buen gobierno",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2013-12887"
+   }
+  ],
+  "comision_sugerida": "Fiscalización y Contraloría",
+  "comision_secundaria": "Presupuesto y Cuenta General de la República",
+  "plan2050": [
+   "reforma-del-estado",
+   "etica",
+   "transformacion-digital"
+  ],
+  "ods": [
+   16
+  ],
+  "prioridad": "alta",
+  "costo_fiscal": "bajo",
+  "plazo": "corto",
+  "indicador_exito": "A 2028, el 100% de las contrataciones registradas en el SEACE, incluidas las menores o iguales a 8 UIT, se publican en OCDS con actualización diaria; a 2031, el 95% de entidades obtienen calificación satisfactoria en el índice semestral de la ANTAIP.",
+  "tags": [
+   "transparencia",
+   "datos abiertos",
+   "OCDS",
+   "gasto público"
+  ],
+  "fuentes": [
+   {
+    "titulo": "OECE, Portal de Contrataciones Abiertas de la Compra Pública del Perú",
+    "url": "https://contratacionesabiertas.oece.gob.pe/"
+   },
+   {
+    "titulo": "Open Contracting Data Standard (OCDS), documentación oficial",
+    "url": "https://standard.open-contracting.org/latest/en/"
+   },
+   {
+    "titulo": "Portal de Transparencia Estándar del Estado Peruano",
+    "url": "https://www.transparencia.gob.pe/"
+   },
+   {
+    "titulo": "Plataforma Nacional de Datos Abiertos",
+    "url": "https://www.datosabiertos.gob.pe/"
+   }
+  ]
+ },
+ {
+  "id": "GOB-06",
+  "eje": "gob",
+  "titulo": "Ley de Congreso Abierto que establece la publicación en datos abiertos de las votaciones nominales, la trazabilidad de las iniciativas legislativas y la huella legislativa de la gestión de intereses",
+  "titulo_corto": "Congreso abierto y huella legislativa",
+  "sumilla": "Obliga al Congreso bicameral a publicar en datos abiertos y en tiempo real las votaciones nominales, el ciclo completo de cada proyecto de ley y las reuniones de gestión de intereses vinculadas a cada iniciativa (huella legislativa).",
+  "problema": "Con el retorno a la bicameralidad en el periodo 2026-2031, el Senado y la Cámara de Diputados deberán adecuar sus sistemas de información parlamentaria. El Congreso ya cuenta con herramientas valiosas, como el Sistema de Proyectos de Ley (SPLEY) y el Archivo Digital de la Legislación, y la Ley 28024 de gestión de intereses (modificada por el Decreto Legislativo 1415) exige registros de visitas y agendas oficiales. Sin embargo, no existe una obligación legal de publicar las votaciones nominales de pleno y comisiones en formato abierto procesable por máquina, con identificadores estables de cada legislador, proyecto y sesión; ni de exponer la trazabilidad completa de cada iniciativa (versiones, dictámenes, textos sustitutorios, votaciones y autógrafas) mediante una interfaz de programación; ni de vincular las reuniones de gestión de intereses con las iniciativas que se discutieron. Esta carencia dificulta el seguimiento ciudadano, académico y periodístico del trabajo legislativo y la rendición de cuentas. Parlamentos como la Cámara de Diputados de Brasil publican votaciones y proposiciones mediante interfaces abiertas, y Chile (Ley 20.730) regula registros públicos de audiencias de lobby que incluyen al Congreso.",
+  "objeto": "Establecer obligaciones legales de transparencia activa parlamentaria en datos abiertos, aplicables a ambas cámaras del Congreso de la República.",
+  "articulado": [
+   {
+    "n": "Artículo 1",
+    "titulo": "Objeto",
+    "texto": "La presente ley tiene por objeto garantizar la transparencia y trazabilidad del procedimiento legislativo mediante la publicación en datos abiertos de las votaciones, las iniciativas legislativas y la gestión de intereses ante el Congreso de la República."
+   },
+   {
+    "n": "Artículo 2",
+    "titulo": "Ámbito",
+    "texto": "Es aplicable al Senado, a la Cámara de Diputados y a sus órganos, incluidas las comisiones ordinarias, investigadoras y especiales, la Comisión Permanente y los grupos de trabajo."
+   },
+   {
+    "n": "Artículo 3",
+    "titulo": "Votaciones nominales abiertas",
+    "texto": "3.1 Toda votación en el pleno de cada cámara y en sus comisiones se registra de forma nominal y electrónica, con identificación del legislador, sentido del voto, asunto votado y fecha y hora.\n3.2 Los registros se publican en formato abierto y mediante interfaz de programación dentro de las veinticuatro (24) horas siguientes a la sesión, con identificadores estables para cada legislador, sesión e iniciativa."
+   },
+   {
+    "n": "Artículo 4",
+    "titulo": "Trazabilidad de iniciativas",
+    "texto": "Cada iniciativa legislativa cuenta con un expediente digital público que integra, con marca de fecha, todas sus versiones, decretos de envío, opiniones recibidas, dictámenes, textos sustitutorios, votaciones, autógrafas, observaciones y la norma publicada. El expediente es consultable y descargable mediante interfaz de programación."
+   },
+   {
+    "n": "Artículo 5",
+    "titulo": "Huella legislativa",
+    "texto": "5.1 Los legisladores y funcionarios con capacidad de decisión del Congreso registran en el Registro de Visitas en Línea y en su agenda oficial, conforme a la Ley 28024, las reuniones de gestión de intereses, indicando la iniciativa legislativa vinculada, cuando corresponda.\n5.2 Los dictámenes incluyen un anexo con la relación de reuniones de gestión de intereses y de opiniones recibidas durante su elaboración."
+   },
+   {
+    "n": "Artículo 6",
+    "titulo": "Asistencia y transmisión",
+    "texto": "La asistencia de los legisladores a sesiones de pleno y comisiones se publica en formato abierto. Las sesiones públicas se transmiten en vivo y sus grabaciones permanecen accesibles con indexación por punto de agenda."
+   },
+   {
+    "n": "Artículo 7",
+    "titulo": "Estándares y conservación",
+    "texto": "Los datos se publican bajo licencia abierta y conforme a los estándares de la Plataforma Nacional de Datos Abiertos. El Congreso garantiza su preservación digital y la continuidad de los identificadores entre periodos parlamentarios."
+   },
+   {
+    "n": "Artículo 8",
+    "titulo": "Modificación de la Ley 28024",
+    "texto": "Incorpórase una Disposición Complementaria Final a la Ley 28024, con el texto siguiente: \"Gestión de intereses ante el Congreso. En el caso del Congreso de la República, el registro indica, cuando corresponda, la iniciativa legislativa materia de la gestión de intereses y se publica en formato abierto.\""
+   }
+  ],
+  "disposiciones": [
+   {
+    "tipo": "Complementaria Final",
+    "n": "Primera",
+    "texto": "Las Mesas Directivas de ambas cámaras adecúan los reglamentos y sistemas de información parlamentaria a la presente ley en un plazo máximo de ciento ochenta (180) días calendario. Las disposiciones que requieran modificar el Reglamento del Congreso o de cada cámara se aprueban mediante resolución legislativa."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Segunda",
+    "texto": "La implementación se financia con cargo al presupuesto institucional del pliego Congreso de la República, sin demandar recursos adicionales al Tesoro Público."
+   }
+  ],
+  "costo_beneficio": "El costo es bajo: el Congreso ya dispone de sistema de votación electrónica, SPLEY y archivo digital; se trata de estructurar y exponer los datos y de integrar el registro de visitas. Puede requerir desarrollo informático en la transición a la bicameralidad, momento en que la inversión ya es necesaria. Beneficios: rendición de cuentas efectiva, reducción de asimetrías de información entre ciudadanía y grupos de interés, reutilización por universidades, medios y sociedad civil, y fortalecimiento de la legitimidad del Parlamento, que el Plan Perú 2050 identifica como un desafío institucional. Costo fiscal: nulo.",
+  "efecto_vigencia": "Modifica la Ley 28024 (incorpora una disposición complementaria final) y complementa la Ley 27806 en lo aplicable al Congreso. Los aspectos de organización interna requieren resolución legislativa que modifique el Reglamento del Congreso o de cada cámara.",
+  "normas_relacionadas": [
+   {
+    "norma": "Ley 28024, Ley que regula la gestión de intereses en la Administración Pública",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/28024.pdf"
+   },
+   {
+    "norma": "Decreto Legislativo 1415, que modifica la Ley 28024 (registros de visitas y agendas oficiales)",
+    "url": "https://busquedas.elperuano.pe/dispositivo/NL/1691026-4"
+   },
+   {
+    "norma": "Ley 27806, Ley de Transparencia y Acceso a la Información Pública (TUO aprobado por DS 021-2019-JUS)",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/27806.pdf"
+   }
+  ],
+  "antecedentes": "Por verificar en SPLEY.",
+  "referencias_internacionales": [
+   {
+    "pais": "Brasil",
+    "norma": "Dados Abertos da Câmara dos Deputados (votaciones y proposiciones vía API)",
+    "url": "https://dadosabertos.camara.leg.br/"
+   },
+   {
+    "pais": "Chile",
+    "norma": "Ley 20.730, que regula el lobby y las gestiones de intereses particulares",
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=1060115"
+   },
+   {
+    "pais": "Uruguay",
+    "norma": "Ley 18.381, de Acceso a la Información Pública",
+    "url": "https://www.impo.com.uy/bases/leyes/18381-2008"
+   }
+  ],
+  "comision_sugerida": "Constitución y Reglamento",
+  "comision_secundaria": "Fiscalización y Contraloría",
+  "plan2050": [
+   "reforma-del-estado",
+   "institucionalidad",
+   "etica"
+  ],
+  "ods": [
+   16
+  ],
+  "prioridad": "alta",
+  "costo_fiscal": "nulo",
+  "plazo": "corto",
+  "indicador_exito": "A 2028, el 100% de las votaciones de pleno y comisiones de ambas cámaras se publica en datos abiertos dentro de las 24 horas y el 100% de los dictámenes incluye anexo de huella legislativa.",
+  "tags": [
+   "Congreso",
+   "datos abiertos",
+   "lobby",
+   "votaciones",
+   "rendición de cuentas"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Congreso de la República, Sistema de Proyectos de Ley (SPLEY)",
+    "url": "https://wb2server.congreso.gob.pe/spley-portal/"
+   },
+   {
+    "titulo": "Congreso de la República, Archivo Digital de la Legislación del Perú",
+    "url": "https://leyes.congreso.gob.pe/"
+   },
+   {
+    "titulo": "Plataforma Nacional de Datos Abiertos",
+    "url": "https://www.datosabiertos.gob.pe/"
+   }
+  ]
+ },
+ {
+  "id": "GOB-07",
+  "eje": "gob",
+  "titulo": "Ley que establece el catastro digital multipropósito interoperable y promueve los gemelos digitales urbanos, modificando la Ley 28294",
+  "titulo_corto": "Catastro multipropósito y gemelos digitales",
+  "sumilla": "Transforma el Sistema Nacional Integrado de Catastro en un catastro digital multipropósito con identificador único de predio, datos geoespaciales abiertos y actualización continua, y habilita gemelos digitales urbanos para planificación y gestión de riesgos.",
+  "problema": "La Ley 28294 (2004) creó el Sistema Nacional Integrado de Información Catastral Predial para unificar estándares entre las entidades generadoras de catastro (municipalidades, SUNARP, Instituto Geográfico Nacional, entre otras) y vincularlo con el Registro de Predios. Dos décadas después, la información catastral sigue fragmentada: municipalidades con catastros desactualizados o inexistentes, bases distintas para fines tributarios, registrales, de saneamiento y de gestión de riesgos, y ausencia de un identificador único de predio compartido por todas las entidades. Ello reduce la recaudación del impuesto predial, que depende de la valorización municipal, dificulta la planificación urbana y la respuesta ante desastres, y genera superposiciones registrales. La ley no contempla el uso de tecnologías hoy accesibles —ortoimágenes, levantamientos con drones, modelos tridimensionales— ni los gemelos digitales urbanos, que integran catastro, redes de servicios y modelos de riesgo. España (Ley del Catastro Inmobiliario, catastro único y abierto) y la Unión Europea (Directiva INSPIRE) muestran que un catastro único e interoperable con datos espaciales abiertos es infraestructura básica de un Estado moderno.",
+  "objeto": "Establecer el catastro digital multipropósito, con identificador único de predio y datos geoespaciales interoperables, y habilitar los gemelos digitales urbanos.",
+  "articulado": [
+   {
+    "n": "Artículo 1",
+    "titulo": "Objeto",
+    "texto": "La presente ley tiene por objeto establecer el catastro digital multipropósito como infraestructura de información del Estado, de uso común para fines registrales, tributarios, de planificación territorial, de gestión del riesgo de desastres y de prestación de servicios públicos."
+   },
+   {
+    "n": "Artículo 2",
+    "titulo": "Catastro digital multipropósito",
+    "texto": "2.1 El catastro digital multipropósito es la base de datos geoespacial única y continua de los predios urbanos y rurales del país, conformada por la información que generan las entidades integrantes del Sistema Nacional Integrado de Información Catastral Predial.\n2.2 Su información es interoperable con el Registro de Predios, los sistemas tributarios municipales, la Infraestructura de Datos Espaciales del Perú y los sistemas de gestión del riesgo de desastres."
+   },
+   {
+    "n": "Artículo 3",
+    "titulo": "Código Único Catastral",
+    "texto": "Todo predio cuenta con un Código Único Catastral, asignado conforme a los estándares del Sistema, que las entidades públicas utilizan obligatoriamente en sus registros y trámites relacionados con predios."
+   },
+   {
+    "n": "Artículo 4",
+    "titulo": "Actualización continua",
+    "texto": "3.1 Las municipalidades provinciales y distritales actualizan la información catastral de su circunscripción de manera continua, a partir de las licencias, declaraciones juradas, inscripciones registrales y levantamientos que realicen.\n3.2 Las licencias de edificación, habilitaciones urbanas y declaratorias de fábrica se registran georreferenciadas en el catastro digital."
+   },
+   {
+    "n": "Artículo 5",
+    "titulo": "Datos abiertos geoespaciales",
+    "texto": "La cartografía base, los límites de manzanas y lotes y las capas no sensibles del catastro se publican como datos abiertos. La información de titularidad y valorización individual se sujeta a la Ley 29733 y a la normativa registral."
+   },
+   {
+    "n": "Artículo 6",
+    "titulo": "Gemelos digitales urbanos",
+    "texto": "6.1 Las municipalidades provinciales capitales de departamento, en coordinación con el Ministerio de Vivienda, Construcción y Saneamiento, pueden desarrollar gemelos digitales urbanos, entendidos como réplicas digitales tridimensionales de la ciudad que integran catastro, redes de servicios, movilidad y escenarios de riesgo.\n6.2 Los gemelos digitales se desarrollan con estándares abiertos e interoperables y su información no sensible es accesible para la ciudadanía."
+   },
+   {
+    "n": "Artículo 7",
+    "titulo": "Financiamiento",
+    "texto": "Las inversiones en catastro digital y gemelos digitales urbanos pueden financiarse con recursos del Fondo de Compensación Municipal, canon y otros recursos determinados, en el marco del Sistema Nacional de Programación Multianual y Gestión de Inversiones, en tanto constituyan proyectos de inversión pública."
+   },
+   {
+    "n": "Artículo 8",
+    "titulo": "Modificación de la Ley 28294",
+    "texto": "Incorpórase una Disposición Complementaria Final a la Ley 28294, con el texto siguiente: \"Catastro digital multipropósito. La información catastral del Sistema se integra en el catastro digital multipropósito, con Código Único Catastral y estándares geoespaciales interoperables, conforme a la ley de la materia.\""
+   }
+  ],
+  "disposiciones": [
+   {
+    "tipo": "Complementaria Final",
+    "n": "Primera",
+    "texto": "El Poder Ejecutivo reglamenta la presente ley en un plazo de ciento veinte (120) días hábiles, con refrendo del Ministerio de Vivienda, Construcción y Saneamiento, la Presidencia del Consejo de Ministros y el Ministerio de Economía y Finanzas."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Segunda",
+    "texto": "El Consejo Nacional de Catastro aprueba, en el mismo plazo, los estándares técnicos del Código Único Catastral y de intercambio de información geoespacial."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Tercera",
+    "texto": "La implementación se financia con cargo al presupuesto institucional de las entidades involucradas, sin demandar recursos adicionales al Tesoro Público."
+   }
+  ],
+  "costo_beneficio": "El levantamiento y actualización catastral tiene costo relevante para las municipalidades, en particular las rurales; la ley no lo impone de golpe, sino que establece estándares comunes, actualización continua a partir de trámites ya existentes y fuentes de financiamiento vía inversión pública. Los gemelos digitales son facultativos. Beneficios: mejor base para la recaudación predial (recurso propio municipal), seguridad jurídica de la propiedad, reducción de superposiciones registrales, planificación urbana y gestión del riesgo con información confiable. El efecto recaudatorio debe estimarse por municipalidad en el reglamento; no se presenta una cifra agregada por falta de fuente verificada. Costo fiscal estimado: medio, financiado con recursos existentes.",
+  "efecto_vigencia": "Modifica la Ley 28294 (incorpora una disposición complementaria final). Complementa la Ley 27972 (competencias municipales en catastro) y el marco de inversión pública.",
+  "normas_relacionadas": [
+   {
+    "norma": "Ley 28294, Ley que crea el Sistema Nacional Integrado de Catastro y su vinculación con el Registro de Predios",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/28294.pdf"
+   },
+   {
+    "norma": "Ley 27972, Ley Orgánica de Municipalidades",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/27972.pdf"
+   },
+   {
+    "norma": "Decreto Legislativo 776, Ley de Tributación Municipal (Fondo de Compensación Municipal)",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/DecretosLegislativos/00776.pdf"
+   },
+   {
+    "norma": "Ley 27506, Ley de Canon",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/27506.pdf"
+   }
+  ],
+  "antecedentes": "Por verificar en SPLEY.",
+  "referencias_internacionales": [
+   {
+    "pais": "España",
+    "norma": "Real Decreto Legislativo 1/2004, texto refundido de la Ley del Catastro Inmobiliario",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-4163"
+   },
+   {
+    "pais": "Unión Europea",
+    "norma": "Directiva 2007/2/CE INSPIRE, infraestructura de información espacial",
+    "url": "https://knowledge-base.inspire.ec.europa.eu/"
+   }
+  ],
+  "comision_sugerida": "Vivienda y Construcción",
+  "comision_secundaria": "Descentralización, Regionalización, Gobiernos Locales y Modernización de la Gestión del Estado",
+  "plan2050": [
+   "ciudades-inteligentes",
+   "desarrollo-urbano",
+   "transformacion-digital"
+  ],
+  "ods": [
+   11,
+   16,
+   9
+  ],
+  "prioridad": "media",
+  "costo_fiscal": "medio",
+  "plazo": "largo",
+  "indicador_exito": "A 2031, el 100% de las municipalidades provinciales capitales de departamento cuentan con catastro digital con Código Único Catastral interoperable con SUNARP, y al menos cinco ciudades operan un gemelo digital urbano.",
+  "tags": [
+   "catastro",
+   "gemelo digital",
+   "datos geoespaciales",
+   "ciudades"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Plataforma Nacional de Datos Abiertos",
+    "url": "https://www.datosabiertos.gob.pe/"
+   },
+   {
+    "titulo": "PCM, Secretaría de Gobierno y Transformación Digital (portal)",
+    "url": "https://www.gob.pe/gobiernodigital"
+   }
+  ]
+ },
+ {
+  "id": "GOB-08",
+  "eje": "gob",
+  "titulo": "Ley que crea el Programa de Municipalidades Digitales y los servicios digitales compartidos para el cierre de la brecha digital subnacional",
+  "titulo_corto": "Municipalidades digitales compartidas",
+  "sumilla": "Crea un catálogo de servicios digitales compartidos que la PCM provee gratuitamente a gobiernos regionales y locales, establece un índice de madurez digital subnacional y precisa que la transformación digital es financiable con FONCOMUN y canon como inversión pública.",
+  "problema": "Las municipalidades son el nivel de gobierno más cercano al ciudadano (licencias, arbitrios, registro civil, catastro, programas sociales), pero también el de menor capacidad digital. El país tiene más de 1 800 municipalidades, muchas de ellas rurales con escaso personal técnico, presupuestos limitados y conectividad precaria: según el INEI, en el primer trimestre de 2026 solo el 25,0% de los hogares rurales tenía acceso a Internet, frente al 82,7% en Lima Metropolitana. El modelo actual exige que cada municipalidad compre o desarrolle por su cuenta sistemas de trámite documentario, mesa de partes digital, licencias o recaudación, lo que multiplica costos y genera soluciones que no interoperan. El DS 029-2021-PCM ya ofrece plataformas nacionales (GOB.PE, Mesa Digital Perú, PÁGALO.PE, Nube Perú, software público), pero no existe una obligación de proveerlas como servicio compartido llave en mano a los gobiernos subnacionales, ni un instrumento de medición pública de su madurez digital, ni claridad sobre el uso de recursos determinados (FONCOMUN, canon) para estos fines. España (Ley 40/2015, transferencia de tecnología entre administraciones) y Chile (Ley 21.180, aplicable a municipalidades) muestran la ventaja de soluciones compartidas sobre desarrollos aislados.",
+  "objeto": "Cerrar la brecha digital entre niveles de gobierno mediante servicios digitales compartidos, medición de madurez digital y reglas claras de financiamiento.",
+  "articulado": [
+   {
+    "n": "Artículo 1",
+    "titulo": "Objeto",
+    "texto": "La presente ley tiene por objeto crear el Programa de Municipalidades Digitales, a cargo de la Presidencia del Consejo de Ministros, para reducir la brecha de transformación digital de los gobiernos regionales y locales mediante servicios digitales compartidos, asistencia técnica y medición pública de resultados."
+   },
+   {
+    "n": "Artículo 2",
+    "titulo": "Servicios digitales compartidos",
+    "texto": "2.1 La Secretaría de Gobierno y Transformación Digital aprueba y mantiene un Catálogo de Servicios Digitales Compartidos, que comprende como mínimo: mesa de partes y trámite documentario electrónico, casilla electrónica, pagos en línea, licencias de funcionamiento y edificación, portal institucional en GOB.PE y alojamiento en la nube.\n2.2 Los servicios del Catálogo se proveen sin costo de licencia a los gobiernos regionales y locales, bajo modalidad de servicio, y se basan preferentemente en software público peruano."
+   },
+   {
+    "n": "Artículo 3",
+    "titulo": "Adhesión",
+    "texto": "3.1 Las municipalidades distritales con población menor al umbral que fije el reglamento utilizan preferentemente los servicios del Catálogo y solo pueden contratar soluciones equivalentes cuando acrediten, mediante informe técnico, mejores condiciones de costo y funcionalidad.\n3.2 Las demás municipalidades y gobiernos regionales pueden adherirse voluntariamente."
+   },
+   {
+    "n": "Artículo 4",
+    "titulo": "Índice de Madurez Digital Subnacional",
+    "texto": "La Secretaría de Gobierno y Transformación Digital, en coordinación con el Instituto Nacional de Estadística e Informática, elabora y publica anualmente, en formato abierto, el Índice de Madurez Digital Subnacional por gobierno regional y municipalidad, que mide servicios digitales disponibles, interoperabilidad, capacidades del personal y satisfacción ciudadana."
+   },
+   {
+    "n": "Artículo 5",
+    "titulo": "Asistencia técnica territorial",
+    "texto": "La Presidencia del Consejo de Ministros conforma equipos de asistencia técnica por macrorregión, en coordinación con los gobiernos regionales, para la implementación de los servicios compartidos, priorizando a las municipalidades con menor puntaje en el Índice."
+   },
+   {
+    "n": "Artículo 6",
+    "titulo": "Financiamiento con recursos determinados",
+    "texto": "Precísase que las inversiones en transformación digital de los gobiernos regionales y locales, incluida la adopción de los servicios digitales compartidos, la digitalización de archivos y el equipamiento asociado, pueden financiarse con recursos del Fondo de Compensación Municipal y del canon, siempre que se formulen como inversiones conforme al Sistema Nacional de Programación Multianual y Gestión de Inversiones y a la normativa de cada fuente."
+   },
+   {
+    "n": "Artículo 7",
+    "titulo": "Incentivos",
+    "texto": "El Ministerio de Economía y Finanzas puede incorporar metas de transformación digital vinculadas al Índice de Madurez Digital Subnacional en los programas de incentivos a la mejora de la gestión municipal, conforme a la normativa presupuestal."
+   },
+   {
+    "n": "Artículo 8",
+    "titulo": "Interoperabilidad obligatoria de los servicios",
+    "texto": "Los servicios digitales compartidos interoperan con la Plataforma de Interoperabilidad del Estado y con los sistemas nacionales de identidad, registros y pagos, de modo que el ciudadano realice trámites municipales sin presentar información que el Estado ya posee."
+   }
+  ],
+  "disposiciones": [
+   {
+    "tipo": "Complementaria Final",
+    "n": "Primera",
+    "texto": "El Poder Ejecutivo reglamenta la presente ley en un plazo de noventa (90) días hábiles, con refrendo de la Presidencia del Consejo de Ministros y del Ministerio de Economía y Finanzas."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Segunda",
+    "texto": "La implementación del Programa se financia con cargo al presupuesto institucional de la Presidencia del Consejo de Ministros y de los gobiernos regionales y locales, sin demandar recursos adicionales al Tesoro Público."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Tercera",
+    "texto": "La primera edición del Índice de Madurez Digital Subnacional se publica dentro de los doce (12) meses siguientes a la vigencia del reglamento y sirve como línea de base."
+   }
+  ],
+  "costo_beneficio": "Genera costos para la PCM (operación y soporte de los servicios compartidos y equipos de asistencia técnica), que se cubren con su presupuesto institucional y pueden requerir priorización presupuestal en leyes anuales. Para las municipalidades, el efecto neto esperado es de ahorro, al sustituir compras individuales de sistemas por servicios sin costo de licencia. Beneficios: economías de escala, estándares comunes e interoperables, menor dependencia de proveedores locales, trámites municipales en línea en zonas hoy no atendidas y medición pública que orienta la asignación de recursos. La precisión sobre FONCOMUN y canon no crea gasto nuevo: aclara el uso de recursos ya transferidos. Costo fiscal estimado: medio.",
+  "efecto_vigencia": "Complementa el Decreto Legislativo 1412, la Ley 27972, la Ley 27783, la Ley de Canon (Ley 27506) y el régimen del Fondo de Compensación Municipal (Decreto Legislativo 776), precisando el uso de recursos determinados para inversiones en transformación digital.",
+  "normas_relacionadas": [
+   {
+    "norma": "Decreto Legislativo 1412, Decreto Legislativo que aprueba la Ley de Gobierno Digital",
+    "url": "https://www.gob.pe/institucion/pcm/normas-legales/289706-1412"
+   },
+   {
+    "norma": "Decreto Supremo 029-2021-PCM, Reglamento del Decreto Legislativo 1412 (modificado, entre otros, por los DS 075-2023-PCM y 098-2025-PCM)",
+    "url": "https://www.gob.pe/institucion/pcm/normas-legales/1705101-029-2021-pcm"
+   },
+   {
+    "norma": "Ley 27972, Ley Orgánica de Municipalidades",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/27972.pdf"
+   },
+   {
+    "norma": "Ley 27783, Ley de Bases de la Descentralización",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/27783.pdf"
+   },
+   {
+    "norma": "Ley 27506, Ley de Canon",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/27506.pdf"
+   },
+   {
+    "norma": "Decreto Legislativo 776, Ley de Tributación Municipal (Fondo de Compensación Municipal)",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/DecretosLegislativos/00776.pdf"
+   }
+  ],
+  "antecedentes": "Por verificar en SPLEY.",
+  "referencias_internacionales": [
+   {
+    "pais": "España",
+    "norma": "Ley 40/2015, de Régimen Jurídico del Sector Público (arts. 155-158: interoperabilidad, reutilización de sistemas y transferencia de tecnología)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566"
+   },
+   {
+    "pais": "Chile",
+    "norma": "Ley 21.180, de Transformación Digital del Estado",
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=1138479"
+   },
+   {
+    "pais": "Brasil",
+    "norma": "Lei 14.129/2021, Lei do Governo Digital",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14129.htm"
+   }
+  ],
+  "comision_sugerida": "Descentralización, Regionalización, Gobiernos Locales y Modernización de la Gestión del Estado",
+  "comision_secundaria": "Presupuesto y Cuenta General de la República",
+  "plan2050": [
+   "transformacion-digital",
+   "reforma-del-estado",
+   "desarrollo-rural"
+  ],
+  "ods": [
+   10,
+   11,
+   16
+  ],
+  "prioridad": "alta",
+  "costo_fiscal": "medio",
+  "plazo": "mediano",
+  "indicador_exito": "A 2031, al menos el 70% de las municipalidades distritales usan como mínimo tres servicios del Catálogo de Servicios Digitales Compartidos y el puntaje mediano del Índice de Madurez Digital Subnacional mejora respecto de la línea de base.",
+  "tags": [
+   "municipalidades",
+   "brecha digital",
+   "servicios compartidos",
+   "descentralización"
+  ],
+  "fuentes": [
+   {
+    "titulo": "INEI, nota de prensa: el 62,7% de los hogares tuvo conexión a Internet en el I trimestre de 2026",
+    "url": "https://www.gob.pe/institucion/inei/noticias/1412359-el-62-7-de-los-hogares-del-pais-tuvo-conexion-a-internet-entre-los-meses-de-enero-y-marzo-de-2026"
+   },
+   {
+    "titulo": "PCM, Secretaría de Gobierno y Transformación Digital (portal)",
+    "url": "https://www.gob.pe/gobiernodigital"
+   },
+   {
+    "titulo": "Portal de Software Público Peruano",
+    "url": "https://www.softwarepublico.gob.pe/"
+   }
+  ]
+ },
+ {
+  "id": "GOB-09",
+  "eje": "gob",
+  "titulo": "Ley que garantiza el acceso a servicios públicos digitales por canales móviles y de mensajería con estándares obligatorios de accesibilidad y pertinencia lingüística, modificando la Ley 28530",
+  "titulo_corto": "Servicios móviles accesibles",
+  "sumilla": "Obliga a que los servicios públicos de mayor demanda estén disponibles en canales móviles y de mensajería instantánea, cumplan el nivel AA de las pautas WCAG 2.2, se ofrezcan en lenguas originarias donde sean predominantes y mantengan un canal asistido.",
+  "problema": "La forma predominante de acceso a Internet en el Perú es el teléfono móvil, especialmente en zonas rurales y en hogares de menores ingresos, donde la conexión fija sigue siendo minoritaria (25,0% de hogares rurales con Internet en el primer trimestre de 2026, según el INEI). Sin embargo, muchos servicios públicos digitales están diseñados para computadoras de escritorio, requieren formularios extensos o adjuntar archivos, y no funcionan bien en pantallas pequeñas o con conexiones de baja velocidad. En materia de accesibilidad, la Ley 28530 (2005) obliga a que los portales de las entidades sean accesibles para personas con discapacidad, y el DS 029-2021-PCM incluye la accesibilidad como característica de los servicios digitales, pero no existe una referencia legal a un estándar técnico verificable (como las pautas WCAG del W3C), ni obligación de auditoría, ni cobertura expresa de aplicaciones móviles y canales de mensajería. Tampoco se ha articulado con la Ley 29735 de lenguas originarias, pese a que millones de peruanos tienen una lengua materna distinta del castellano. La Unión Europea (Directiva 2016/2102) y España (RD 1112/2018) exigen accesibilidad verificable de sitios web y aplicaciones públicas con auditorías y declaraciones de accesibilidad.",
+  "objeto": "Garantizar que los servicios públicos digitales sean accesibles por canales móviles y de mensajería, cumplan estándares verificables de accesibilidad y pertinencia lingüística, y no excluyan a quienes no usan canales digitales.",
+  "articulado": [
+   {
+    "n": "Artículo 1",
+    "titulo": "Objeto",
+    "texto": "La presente ley tiene por objeto garantizar el acceso universal a los servicios públicos digitales mediante canales móviles y de mensajería instantánea, con estándares obligatorios de accesibilidad, usabilidad y pertinencia lingüística."
+   },
+   {
+    "n": "Artículo 2",
+    "titulo": "Diseño móvil primero",
+    "texto": "2.1 Los servicios digitales de las entidades públicas se diseñan para ser plenamente utilizables desde dispositivos móviles y con conexiones de baja velocidad.\n2.2 La Secretaría de Gobierno y Transformación Digital publica anualmente la relación de los servicios de mayor demanda por nivel de gobierno, los cuales deben estar disponibles en canal móvil."
+   },
+   {
+    "n": "Artículo 3",
+    "titulo": "Canales de mensajería instantánea",
+    "texto": "3.1 Las entidades pueden prestar servicios de información, orientación, citas, consulta de estado de trámites y notificaciones informativas a través de aplicaciones de mensajería instantánea de uso masivo, bajo los lineamientos de la Secretaría de Gobierno y Transformación Digital.\n3.2 El uso de estos canales respeta la neutralidad tecnológica, no sustituye la casilla electrónica para notificaciones con efectos jurídicos y se sujeta a la Ley 29733, Ley de Protección de Datos Personales.\n3.3 Las cuentas oficiales son verificadas y se publican en la Plataforma Digital Única del Estado Peruano (GOB.PE) para prevenir suplantaciones."
+   },
+   {
+    "n": "Artículo 4",
+    "titulo": "Estándar de accesibilidad",
+    "texto": "4.1 Los portales, aplicaciones móviles y servicios digitales de las entidades cumplen, como mínimo, el nivel AA de las Pautas de Accesibilidad para el Contenido Web (WCAG) 2.2 del World Wide Web Consortium, o la versión posterior que apruebe la Secretaría de Gobierno y Transformación Digital.\n4.2 Cada entidad publica una declaración de accesibilidad y un canal para reportar barreras, que deben atenderse en un plazo máximo de treinta (30) días hábiles."
+   },
+   {
+    "n": "Artículo 5",
+    "titulo": "Pertinencia lingüística",
+    "texto": "En los ámbitos donde una lengua originaria sea predominante conforme al Mapa Etnolingüístico del Perú, las entidades ofrecen la información esencial de sus servicios digitales de mayor demanda en dicha lengua, en coordinación con el Ministerio de Cultura y en el marco de la Ley 29735."
+   },
+   {
+    "n": "Artículo 6",
+    "titulo": "Canal asistido y no exclusión",
+    "texto": "La digitalización de un servicio no elimina la atención presencial o telefónica asistida. Ningún servicio público puede condicionarse exclusivamente a la tenencia de un teléfono inteligente o a una aplicación específica."
+   },
+   {
+    "n": "Artículo 7",
+    "titulo": "Auditoría y seguimiento",
+    "texto": "La Secretaría de Gobierno y Transformación Digital, en coordinación con el Consejo Nacional para la Integración de la Persona con Discapacidad, realiza auditorías muestrales de accesibilidad y publica anualmente sus resultados en formato abierto."
+   },
+   {
+    "n": "Artículo 8",
+    "titulo": "Modificación de la Ley 28530",
+    "texto": "Incorpórase una Disposición Complementaria Final a la Ley 28530, con el texto siguiente: \"Estándar técnico de accesibilidad. La obligación de accesibilidad de los portales de las entidades públicas comprende sus aplicaciones móviles y canales digitales, y se verifica conforme al estándar técnico que establece la ley que garantiza el acceso a servicios públicos digitales por canales móviles.\""
+   }
+  ],
+  "disposiciones": [
+   {
+    "tipo": "Complementaria Final",
+    "n": "Primera",
+    "texto": "El Poder Ejecutivo reglamenta la presente ley en un plazo de noventa (90) días hábiles, con refrendo de la Presidencia del Consejo de Ministros, el Ministerio de la Mujer y Poblaciones Vulnerables y el Ministerio de Cultura."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Segunda",
+    "texto": "La implementación se financia con cargo al presupuesto institucional de los pliegos, sin demandar recursos adicionales al Tesoro Público."
+   },
+   {
+    "tipo": "Complementaria Transitoria",
+    "n": "Primera",
+    "texto": "Las entidades adecúan sus portales y aplicaciones existentes al estándar del artículo 4 en un plazo de veinticuatro (24) meses para el Poder Ejecutivo y de treinta y seis (36) meses para los gobiernos regionales y locales. Los nuevos desarrollos lo cumplen desde la vigencia del reglamento."
+   }
+  ],
+  "costo_beneficio": "La adecuación de portales y aplicaciones a WCAG 2.2 AA tiene un costo moderado si se incorpora en el diseño, y mayor si se corrige a posteriori; por eso se exige de inmediato para nuevos desarrollos y gradualmente para los existentes. La plataforma GOB.PE, que concentra gran parte de los contenidos del Poder Ejecutivo, permite economías de escala. Beneficios: inclusión de personas con discapacidad, adultos mayores, poblaciones rurales y hablantes de lenguas originarias; mayor uso efectivo de los servicios digitales y menor demanda presencial. La verificación de cuentas oficiales reduce estafas por suplantación del Estado. Costo fiscal estimado: bajo.",
+  "efecto_vigencia": "Modifica la Ley 28530 (incorpora una disposición complementaria final). Complementa el Decreto Legislativo 1412, la Ley 29973 y la Ley 29735.",
+  "normas_relacionadas": [
+   {
+    "norma": "Ley 28530, Ley de promoción de acceso a Internet para personas con discapacidad y de adecuación del espacio físico en cabinas públicas de Internet",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/28530.pdf"
+   },
+   {
+    "norma": "Ley 29973, Ley General de la Persona con Discapacidad",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/29973.pdf"
+   },
+   {
+    "norma": "Ley 29735, Ley que regula el uso, preservación, desarrollo, recuperación, fomento y difusión de las lenguas originarias del Perú",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/29735.pdf"
+   },
+   {
+    "norma": "Decreto Legislativo 1412, Decreto Legislativo que aprueba la Ley de Gobierno Digital",
+    "url": "https://www.gob.pe/institucion/pcm/normas-legales/289706-1412"
+   },
+   {
+    "norma": "Decreto Supremo 029-2021-PCM, Reglamento del Decreto Legislativo 1412 (modificado, entre otros, por los DS 075-2023-PCM y 098-2025-PCM)",
+    "url": "https://www.gob.pe/institucion/pcm/normas-legales/1705101-029-2021-pcm"
+   }
+  ],
+  "antecedentes": "Por verificar en SPLEY.",
+  "referencias_internacionales": [
+   {
+    "pais": "Unión Europea",
+    "norma": "Directiva (UE) 2016/2102, sobre accesibilidad de sitios web y aplicaciones móviles del sector público",
+    "url": "https://digital-strategy.ec.europa.eu/en/policies/web-accessibility"
+   },
+   {
+    "pais": "España",
+    "norma": "Real Decreto 1112/2018, sobre accesibilidad de los sitios web y aplicaciones móviles del sector público",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-12699"
+   },
+   {
+    "pais": "Reino Unido",
+    "norma": "Government Digital Service (GDS) y Service Standard",
+    "url": "https://www.gov.uk/service-manual/service-standard"
+   }
+  ],
+  "comision_sugerida": "Descentralización, Regionalización, Gobiernos Locales y Modernización de la Gestión del Estado",
+  "comision_secundaria": "Inclusión Social y Personas con Discapacidad",
+  "plan2050": [
+   "transformacion-digital",
+   "cohesion-social",
+   "peru-en-la-era-digital"
+  ],
+  "ods": [
+   10,
+   16,
+   9
+  ],
+  "prioridad": "media",
+  "costo_fiscal": "bajo",
+  "plazo": "mediano",
+  "indicador_exito": "A 2031, el 100% de los 50 servicios digitales de mayor demanda del Poder Ejecutivo cumplen WCAG 2.2 AA según auditoría publicada, y al menos 20 de ellos cuentan con información esencial en quechua y aimara.",
+  "tags": [
+   "accesibilidad",
+   "WCAG",
+   "móvil",
+   "lenguas originarias",
+   "inclusión"
+  ],
+  "fuentes": [
+   {
+    "titulo": "W3C, Web Content Accessibility Guidelines (WCAG) 2.2",
+    "url": "https://www.w3.org/TR/WCAG22/"
+   },
+   {
+    "titulo": "INEI, nota de prensa: el 62,7% de los hogares tuvo conexión a Internet en el I trimestre de 2026",
+    "url": "https://www.gob.pe/institucion/inei/noticias/1412359-el-62-7-de-los-hogares-del-pais-tuvo-conexion-a-internet-entre-los-meses-de-enero-y-marzo-de-2026"
+   },
+   {
+    "titulo": "PCM, Secretaría de Gobierno y Transformación Digital (portal)",
+    "url": "https://www.gob.pe/gobiernodigital"
+   }
+  ]
+ },
+ {
+  "id": "GOB-10",
+  "eje": "gob",
+  "titulo": "Ley que establece el Sistema Nacional de Preservación Digital y la gestión del documento archivístico electrónico, modificando la Ley 25323",
+  "titulo_corto": "Archivo y preservación digital",
+  "sumilla": "Incorpora la preservación digital al Sistema Nacional de Archivos, crea el Repositorio Nacional de Preservación Digital a cargo del Archivo General de la Nación y obliga a planificar la conservación de los documentos nativos digitales del Estado.",
+  "problema": "La Ley 25323 (1991) creó el Sistema Nacional de Archivos en un contexto de documentos en papel. Hoy una proporción creciente de los documentos públicos nace en formato digital (expedientes electrónicos, correos institucionales, bases de datos, documentos firmados digitalmente), y el DS 029-2021-PCM ya regula el documento archivístico digital y los repositorios archivísticos institucionales. Sin embargo, la ley marco de archivos no contempla la preservación digital a largo plazo: la obsolescencia de formatos y soportes, la caducidad de certificados de firma digital, la migración entre sistemas al cambiar de proveedor y la eliminación no controlada de información en cambios de gestión ponen en riesgo la memoria institucional y la evidencia necesaria para el control, la justicia y los derechos de las personas. Las entidades pequeñas carecen de infraestructura y personal para custodiar documentos digitales con garantías de autenticidad e integridad. Colombia (Ley 594 de 2000, Ley General de Archivos), España (Esquema Nacional de Interoperabilidad, con normas técnicas de documento y expediente electrónico) y el modelo de referencia OAIS (ISO 14721) muestran la necesidad de reglas legales y de un repositorio confiable compartido.",
+  "objeto": "Incorporar la preservación digital al Sistema Nacional de Archivos y garantizar la autenticidad, integridad y acceso de largo plazo a los documentos electrónicos del Estado.",
+  "articulado": [
+   {
+    "n": "Artículo 1",
+    "titulo": "Objeto",
+    "texto": "La presente ley tiene por objeto garantizar la conservación, autenticidad, integridad, disponibilidad y acceso a largo plazo de los documentos archivísticos electrónicos producidos o recibidos por las entidades públicas."
+   },
+   {
+    "n": "Artículo 2",
+    "titulo": "Definiciones",
+    "texto": "a) Documento archivístico electrónico: información registrada en soporte electrónico, producida o recibida por una entidad en el ejercicio de sus funciones, que constituye evidencia de sus actos.\nb) Preservación digital: conjunto de políticas, procesos y tecnologías que aseguran que los documentos electrónicos permanezcan accesibles, legibles y auténticos en el tiempo, pese a los cambios tecnológicos."
+   },
+   {
+    "n": "Artículo 3",
+    "titulo": "Responsabilidad de las entidades",
+    "texto": "3.1 Cada entidad aprueba un plan de preservación digital, articulado con su programa de control de documentos, que identifique sus series documentales electrónicas, formatos, plazos de retención y medidas de migración.\n3.2 Ningún documento archivístico electrónico puede eliminarse sin la autorización prevista en la normativa archivística. La migración de sistemas o el término de un contrato tecnológico no exime de esta obligación."
+   },
+   {
+    "n": "Artículo 4",
+    "titulo": "Repositorio Nacional de Preservación Digital",
+    "texto": "4.1 Créase el Repositorio Nacional de Preservación Digital, a cargo del Archivo General de la Nación, como servicio confiable para la custodia de documentos electrónicos de valor permanente transferidos por las entidades, conforme a estándares internacionales de repositorios digitales confiables.\n4.2 Las entidades que no cuenten con capacidad propia pueden utilizar el Repositorio para la custodia de sus documentos electrónicos de conservación temporal, previo convenio."
+   },
+   {
+    "n": "Artículo 5",
+    "titulo": "Formatos y firma",
+    "texto": "El Archivo General de la Nación, en coordinación con la Secretaría de Gobierno y Transformación Digital, aprueba la relación de formatos abiertos admitidos para preservación y los mecanismos para mantener la validez probatoria de los documentos firmados digitalmente más allá de la vigencia de los certificados."
+   },
+   {
+    "n": "Artículo 6",
+    "titulo": "Transferencia por cambio de gestión",
+    "texto": "En los procesos de transferencia de gestión de las entidades, incluidos los gobiernos regionales y locales, se entrega el inventario de documentos electrónicos y de sistemas de información, con las credenciales y medios necesarios para su acceso, bajo responsabilidad del titular saliente."
+   },
+   {
+    "n": "Artículo 7",
+    "titulo": "Acceso",
+    "texto": "Los documentos electrónicos de valor permanente custodiados en el Repositorio se ponen a disposición del público conforme al TUO de la Ley 27806 y a la Ley 29733, con prioridad de publicación de aquellos sin restricciones de acceso."
+   },
+   {
+    "n": "Artículo 8",
+    "titulo": "Modificación de la Ley 25323",
+    "texto": "Incorpórase una Disposición Complementaria Final a la Ley 25323, con el texto siguiente: \"Preservación digital. El Sistema Nacional de Archivos comprende la gestión y preservación de los documentos archivísticos electrónicos, conforme a la ley que establece el Sistema Nacional de Preservación Digital.\""
+   }
+  ],
+  "disposiciones": [
+   {
+    "tipo": "Complementaria Final",
+    "n": "Primera",
+    "texto": "El Poder Ejecutivo reglamenta la presente ley en un plazo de ciento veinte (120) días hábiles, con refrendo del Ministerio de Cultura y de la Presidencia del Consejo de Ministros."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Segunda",
+    "texto": "La implementación se financia con cargo al presupuesto institucional del Archivo General de la Nación y de las entidades involucradas, sin demandar recursos adicionales al Tesoro Público. El Repositorio puede implementarse progresivamente sobre la infraestructura de nube del Estado."
+   }
+  ],
+  "costo_beneficio": "El componente de mayor costo es el Repositorio Nacional de Preservación Digital (almacenamiento redundante, personal especializado), a cargo del Archivo General de la Nación, que puede implementarse por etapas sobre infraestructura de nube del Estado. Para las entidades, el costo principal es elaborar planes de preservación, tarea que se apoya en lineamientos del AGN. Beneficios: protección de la memoria institucional y de la evidencia necesaria para el control gubernamental, la justicia y los derechos de las personas (pensiones, propiedad, identidad); prevención de pérdida de información en cambios de gestión o de proveedor. El riesgo de no actuar —pérdida irreversible de documentos— es difícil de revertir. Costo fiscal estimado: medio.",
+  "efecto_vigencia": "Modifica la Ley 25323 (incorpora una disposición complementaria final). Complementa el Decreto Legislativo 1412 y el DS 029-2021-PCM en materia de documento archivístico digital, y el TUO de la Ley 27806.",
+  "normas_relacionadas": [
+   {
+    "norma": "Ley 25323, Ley que crea el Sistema Nacional de Archivos",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/25323.pdf"
+   },
+   {
+    "norma": "Decreto Legislativo 1412, Decreto Legislativo que aprueba la Ley de Gobierno Digital",
+    "url": "https://www.gob.pe/institucion/pcm/normas-legales/289706-1412"
+   },
+   {
+    "norma": "Decreto Supremo 029-2021-PCM, Reglamento del Decreto Legislativo 1412 (modificado, entre otros, por los DS 075-2023-PCM y 098-2025-PCM)",
+    "url": "https://www.gob.pe/institucion/pcm/normas-legales/1705101-029-2021-pcm"
+   },
+   {
+    "norma": "Ley 27806, Ley de Transparencia y Acceso a la Información Pública (TUO aprobado por DS 021-2019-JUS)",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/27806.pdf"
+   }
+  ],
+  "antecedentes": "Por verificar en SPLEY.",
+  "referencias_internacionales": [
+   {
+    "pais": "Colombia",
+    "norma": "Ley 594 de 2000, Ley General de Archivos",
+    "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=4275"
+   },
+   {
+    "pais": "España",
+    "norma": "Real Decreto 4/2010, Esquema Nacional de Interoperabilidad",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2010-1331"
+   },
+   {
+    "pais": "Estonia",
+    "norma": "Data Embassy (respaldo soberano de datos críticos del Estado)",
+    "url": "https://e-estonia.com/solutions/e-governance/data-embassy/"
+   }
+  ],
+  "comision_sugerida": "Cultura y Patrimonio Cultural",
+  "comision_secundaria": "Descentralización, Regionalización, Gobiernos Locales y Modernización de la Gestión del Estado",
+  "plan2050": [
+   "transformacion-digital",
+   "institucionalidad"
+  ],
+  "ods": [
+   16
+  ],
+  "prioridad": "media",
+  "costo_fiscal": "medio",
+  "plazo": "mediano",
+  "indicador_exito": "A 2031, el 100% de los ministerios y gobiernos regionales cuentan con plan de preservación digital aprobado y el Repositorio Nacional de Preservación Digital custodia los documentos electrónicos de valor permanente transferidos por ellos.",
+  "tags": [
+   "archivos",
+   "preservación digital",
+   "memoria institucional",
+   "documento electrónico"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Archivo General de la Nación",
+    "url": "https://www.agn.gob.pe/"
+   },
+   {
+    "titulo": "PCM, Secretaría de Gobierno y Transformación Digital (portal)",
+    "url": "https://www.gob.pe/gobiernodigital"
+   }
+  ]
+ },
+ {
+  "id": "GOB-11",
+  "eje": "gob",
+  "titulo": "Ley que establece la obligación de publicar datos abiertos en tiempo real del transporte público urbano e interurbano",
+  "titulo_corto": "Datos abiertos de transporte público",
+  "sumilla": "Obliga a las autoridades de transporte y a los operadores concesionarios a publicar, en estándares abiertos (GTFS y GTFS Realtime), rutas, paraderos, horarios, tarifas y posición en tiempo real de los vehículos, como condición de las concesiones y autorizaciones.",
+  "problema": "Millones de personas se desplazan diariamente en transporte público en Lima, Callao y las principales ciudades del país, con largos tiempos de viaje e incertidumbre sobre rutas, frecuencias y tarifas. La Ley 30900 creó la Autoridad de Transporte Urbano para Lima y Callao (ATU) con el objetivo de un sistema integrado; en las demás ciudades la competencia corresponde a las municipalidades provinciales. Muchos buses ya cuentan con sistemas de localización satelital por exigencias de fiscalización o de recaudo, pero no existe una obligación legal general de publicar esos datos de forma abierta y estandarizada para que ciudadanos, desarrolladores, investigadores y las propias autoridades los reutilicen. La ausencia de datos abiertos limita las aplicaciones de información al usuario, la planificación basada en evidencia, la evaluación del cumplimiento de frecuencias por los operadores y la integración tarifaria. El estándar GTFS y su extensión GTFS Realtime son ampliamente usados por ciudades de todo el mundo; el Reino Unido, mediante la Bus Services Act 2017 y el Bus Open Data Service, obligó a los operadores de buses a publicar horarios, ubicación y tarifas como datos abiertos.",
+  "objeto": "Establecer la obligación de publicar en datos abiertos y en tiempo real la información operativa del transporte público regular de personas.",
+  "articulado": [
+   {
+    "n": "Artículo 1",
+    "titulo": "Objeto",
+    "texto": "La presente ley tiene por objeto mejorar la información al usuario, la planificación y la fiscalización del transporte público mediante la publicación obligatoria de datos abiertos estáticos y en tiempo real."
+   },
+   {
+    "n": "Artículo 2",
+    "titulo": "Ámbito",
+    "texto": "Es aplicable a la Autoridad de Transporte Urbano para Lima y Callao, a las municipalidades provinciales en su competencia de transporte urbano e interurbano, al Ministerio de Transportes y Comunicaciones en el transporte interprovincial regular de personas, y a los operadores concesionarios o autorizados de dichos servicios."
+   },
+   {
+    "n": "Artículo 3",
+    "titulo": "Datos estáticos",
+    "texto": "Las autoridades competentes publican y mantienen actualizados, en formato GTFS o el estándar abierto que lo sustituya, las rutas, paraderos, horarios o frecuencias, tarifas y características de accesibilidad de los servicios de transporte público regular bajo su competencia."
+   },
+   {
+    "n": "Artículo 4",
+    "titulo": "Datos en tiempo real",
+    "texto": "4.1 Los operadores que cuenten con sistemas de localización de vehículos transmiten a la autoridad competente la posición de sus unidades, con la frecuencia mínima que establezca el reglamento.\n4.2 La autoridad competente publica dicha información como datos abiertos en tiempo real, en formato GTFS Realtime o equivalente, mediante interfaz de programación de libre acceso."
+   },
+   {
+    "n": "Artículo 5",
+    "titulo": "Condición contractual",
+    "texto": "Las concesiones, autorizaciones y permisos de operación de transporte público regular que se otorguen o renueven a partir de la vigencia de la presente ley incluyen como obligación del operador la provisión de los datos de los artículos 3 y 4, sin costo para la autoridad."
+   },
+   {
+    "n": "Artículo 6",
+    "titulo": "Licencia y gratuidad",
+    "texto": "Los datos se publican bajo licencia abierta que permita su reutilización, incluso con fines comerciales, sin registro previo obligatorio, sin perjuicio de límites técnicos razonables de uso de la interfaz."
+   },
+   {
+    "n": "Artículo 7",
+    "titulo": "Protección de datos",
+    "texto": "La información publicada no incluye datos personales de conductores ni de usuarios. Los datos de recaudo se publican solo de forma agregada y anonimizada, conforme a la Ley 29733."
+   },
+   {
+    "n": "Artículo 8",
+    "titulo": "Uso para fiscalización",
+    "texto": "Las autoridades competentes utilizan los datos en tiempo real para verificar el cumplimiento de rutas y frecuencias y publican indicadores de cumplimiento por operador en formato abierto."
+   }
+  ],
+  "disposiciones": [
+   {
+    "tipo": "Complementaria Final",
+    "n": "Primera",
+    "texto": "El Ministerio de Transportes y Comunicaciones reglamenta la presente ley en un plazo de noventa (90) días hábiles, en coordinación con la Presidencia del Consejo de Ministros."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Segunda",
+    "texto": "La implementación se financia con cargo al presupuesto institucional de las entidades involucradas, sin demandar recursos adicionales al Tesoro Público."
+   },
+   {
+    "tipo": "Complementaria Transitoria",
+    "n": "Primera",
+    "texto": "La ATU y las municipalidades provinciales de ciudades con más de quinientos mil habitantes publican los datos estáticos en un plazo de doce (12) meses y los datos en tiempo real en un plazo de veinticuatro (24) meses desde la vigencia del reglamento. Las demás autoridades lo hacen progresivamente según el cronograma que apruebe el reglamento."
+   }
+  ],
+  "costo_beneficio": "El costo es acotado: la información de rutas existe en los actos de autorización y muchos vehículos ya cuentan con localización satelital; el esfuerzo está en estandarizar y publicar. Para operadores sin equipos, la obligación se exige en nuevas concesiones o renovaciones, evitando cargas retroactivas. Beneficios: aplicaciones de información al usuario desarrolladas por terceros sin costo para el Estado, menor tiempo de espera percibido, planificación de rutas basada en evidencia, fiscalización objetiva de frecuencias y base para la integración tarifaria. No se presenta estimación monetaria por falta de estudios nacionales verificados. Costo fiscal estimado: bajo.",
+  "efecto_vigencia": "Complementa la Ley 30900 y la Ley 27972 en materia de competencias de transporte, y el Decreto Legislativo 1412 en materia de datos abiertos. No deroga normas.",
+  "normas_relacionadas": [
+   {
+    "norma": "Ley 30900, Ley que crea la Autoridad de Transporte Urbano para Lima y Callao (ATU)",
+    "url": "https://leyes.congreso.gob.pe/Documentos/2016_2021/ADLP/Texto_Consolidado/30900-TXM.pdf"
+   },
+   {
+    "norma": "Ley 27972, Ley Orgánica de Municipalidades",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/27972.pdf"
+   },
+   {
+    "norma": "Decreto Legislativo 1412, Decreto Legislativo que aprueba la Ley de Gobierno Digital",
+    "url": "https://www.gob.pe/institucion/pcm/normas-legales/289706-1412"
+   },
+   {
+    "norma": "Decreto Supremo 029-2021-PCM, Reglamento del Decreto Legislativo 1412 (modificado, entre otros, por los DS 075-2023-PCM y 098-2025-PCM)",
+    "url": "https://www.gob.pe/institucion/pcm/normas-legales/1705101-029-2021-pcm"
+   }
+  ],
+  "antecedentes": "Por verificar en SPLEY.",
+  "referencias_internacionales": [
+   {
+    "pais": "Reino Unido",
+    "norma": "Bus Services Act 2017 (obligación de datos abiertos de buses)",
+    "url": "https://www.legislation.gov.uk/ukpga/2017/21/contents"
+   },
+   {
+    "pais": "Reino Unido",
+    "norma": "Bus Open Data Service (horarios, ubicación y tarifas en datos abiertos)",
+    "url": "https://www.bus-data.dft.gov.uk/"
+   },
+   {
+    "pais": "Unión Europea",
+    "norma": "Directiva (UE) 2019/1024, de datos abiertos y reutilización de la información del sector público",
+    "url": "https://digital-strategy.ec.europa.eu/en/policies/legislation-open-data"
+   }
+  ],
+  "comision_sugerida": "Transportes y Comunicaciones",
+  "comision_secundaria": "Descentralización, Regionalización, Gobiernos Locales y Modernización de la Gestión del Estado",
+  "plan2050": [
+   "transportes",
+   "ciudades-inteligentes",
+   "transformacion-digital"
+  ],
+  "ods": [
+   11,
+   9
+  ],
+  "prioridad": "media",
+  "costo_fiscal": "bajo",
+  "plazo": "corto",
+  "indicador_exito": "A 2028, Lima, Callao y todas las ciudades con más de 500 000 habitantes publican GTFS estático validado; a 2031, al menos el 80% de la flota de transporte regular de esas ciudades publica posición en tiempo real.",
+  "tags": [
+   "transporte público",
+   "datos abiertos",
+   "GTFS",
+   "movilidad"
+  ],
+  "fuentes": [
+   {
+    "titulo": "GTFS / GTFS Realtime, especificación abierta de datos de transporte público",
+    "url": "https://gtfs.org/"
+   },
+   {
+    "titulo": "Autoridad de Transporte Urbano para Lima y Callao (ATU)",
+    "url": "https://www.atu.gob.pe/"
+   },
+   {
+    "titulo": "Plataforma Nacional de Datos Abiertos",
+    "url": "https://www.datosabiertos.gob.pe/"
+   }
+  ]
+ },
+ {
+  "id": "GOB-12",
+  "eje": "gob",
+  "titulo": "Ley que fortalece la Plataforma Digital Única de Denuncias del Ciudadano y garantiza la trazabilidad de las denuncias administrativas",
+  "titulo_corto": "Denuncias digitales con trazabilidad",
+  "sumilla": "Eleva a rango legal la Plataforma Digital Única de Denuncias del Ciudadano, obliga a todas las entidades a integrarse a ella con código único de seguimiento, plazos máximos de atención y estadísticas abiertas, y refuerza la reserva de identidad del denunciante.",
+  "problema": "El Estado cuenta con la Plataforma Digital Única de Denuncias del Ciudadano, creada en el marco del reglamento del Decreto Legislativo 1327 (protección al denunciante de actos de corrupción) y gestionada por la Secretaría de Integridad Pública de la PCM mediante directiva. Es un avance, pero su base es reglamentaria y su alcance se centra en presuntos actos de corrupción. Para el ciudadano, el panorama sigue fragmentado: denuncias por mala atención, incumplimiento de plazos, cobros indebidos o irregularidades en servicios públicos se presentan por canales distintos en cada entidad, sin un código de seguimiento común, sin plazos máximos de respuesta uniformes y sin estadísticas comparables. Ello desincentiva la denuncia, impide saber qué pasó con ella y priva a los órganos de control de información sistemática para priorizar su labor. Además, el temor a represalias exige garantías tecnológicas de reserva de identidad. España (Ley 2/2023, sistemas internos de información y canal externo) y la Directiva europea de protección del denunciante muestran que la combinación de canales confiables, plazos y protección es clave.",
+  "objeto": "Garantizar un canal digital único, trazable y con plazos de atención para las denuncias ciudadanas ante la Administración Pública, con protección de la identidad del denunciante.",
+  "articulado": [
+   {
+    "n": "Artículo 1",
+    "titulo": "Objeto",
+    "texto": "La presente ley tiene por objeto fortalecer la Plataforma Digital Única de Denuncias del Ciudadano como canal digital del Estado para la presentación, derivación y seguimiento de denuncias por presuntos actos de corrupción y por irregularidades en la prestación de servicios públicos."
+   },
+   {
+    "n": "Artículo 2",
+    "titulo": "Plataforma Digital Única de Denuncias del Ciudadano",
+    "texto": "2.1 La Plataforma está a cargo de la Presidencia del Consejo de Ministros, a través de la Secretaría de Integridad Pública, con el soporte tecnológico de la Secretaría de Gobierno y Transformación Digital.\n2.2 Todas las entidades de la Administración Pública, incluidos los gobiernos regionales y locales y las empresas del Estado, se integran a la Plataforma. Los canales propios de denuncia que mantengan las entidades interoperan con ella."
+   },
+   {
+    "n": "Artículo 3",
+    "titulo": "Código único de seguimiento",
+    "texto": "Toda denuncia recibe un código único de seguimiento que permite al denunciante, incluso anónimo, consultar en línea su estado, la entidad u órgano al que fue derivada y las actuaciones realizadas, sin revelar información reservada de la investigación."
+   },
+   {
+    "n": "Artículo 4",
+    "titulo": "Plazos de atención",
+    "texto": "4.1 La entidad competente evalúa la denuncia y comunica su admisión, derivación o archivo motivado en un plazo máximo de quince (15) días hábiles.\n4.2 Las denuncias que involucren presuntos actos de corrupción se derivan, además, al órgano de control institucional y, cuando corresponda, al Ministerio Público, conforme a la normativa vigente."
+   },
+   {
+    "n": "Artículo 5",
+    "titulo": "Reserva de identidad",
+    "texto": "La Plataforma permite presentar denuncias anónimas o con reserva de identidad, aplicando medidas técnicas de seudonimización y cifrado. La revelación indebida de la identidad del denunciante constituye falta grave, sin perjuicio de la responsabilidad penal y de las medidas de protección del Decreto Legislativo 1327."
+   },
+   {
+    "n": "Artículo 6",
+    "titulo": "Estadísticas abiertas",
+    "texto": "La Secretaría de Integridad Pública publica trimestralmente, en formato abierto y sin datos personales, el número de denuncias por entidad, materia, estado y tiempo de atención, y un ranking de cumplimiento de plazos."
+   },
+   {
+    "n": "Artículo 7",
+    "titulo": "Uso para el control",
+    "texto": "La Contraloría General de la República accede a la información de la Plataforma, conforme a la Ley 27785, para orientar su planificación de servicios de control."
+   },
+   {
+    "n": "Artículo 8",
+    "titulo": "Denuncias falsas",
+    "texto": "La presentación de denuncias manifiestamente falsas con identidad del denunciante se sujeta a las responsabilidades previstas en la normativa vigente. La sola desestimación de una denuncia no supone su falsedad."
+   }
+  ],
+  "disposiciones": [
+   {
+    "tipo": "Complementaria Final",
+    "n": "Primera",
+    "texto": "El Poder Ejecutivo reglamenta la presente ley en un plazo de noventa (90) días hábiles, con refrendo de la Presidencia del Consejo de Ministros y del Ministerio de Justicia y Derechos Humanos."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Segunda",
+    "texto": "La implementación se financia con cargo al presupuesto institucional de los pliegos involucrados, sin demandar recursos adicionales al Tesoro Público."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Tercera",
+    "texto": "Las entidades se integran a la Plataforma en un plazo de doce (12) meses para el Poder Ejecutivo y de veinticuatro (24) meses para los gobiernos regionales y locales, contados desde la vigencia del reglamento."
+   }
+  ],
+  "costo_beneficio": "La Plataforma ya existe; el costo incremental corresponde a ampliar su alcance a irregularidades de servicios públicos, integrar canales institucionales y reforzar la capacidad de atención de las entidades, que puede aumentar por mayor volumen de denuncias. Beneficios: mayor confianza ciudadana en la denuncia, trazabilidad que reduce el archivo silencioso, información sistemática para el control preventivo y para la mejora de servicios, y protección efectiva del denunciante. Las estadísticas abiertas permiten comparar entidades y orientar la gestión. Costo fiscal estimado: bajo.",
+  "efecto_vigencia": "Complementa el Decreto Legislativo 1327 y su reglamento, y la Ley 27785. Eleva a rango legal la Plataforma Digital Única de Denuncias del Ciudadano y amplía su ámbito material. No deroga normas.",
+  "normas_relacionadas": [
+   {
+    "norma": "Decreto Legislativo 1327, que establece medidas de protección para el denunciante de actos de corrupción",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/DecretosLegislativos/01327.pdf"
+   },
+   {
+    "norma": "Ley 27785, Ley Orgánica del Sistema Nacional de Control y de la Contraloría General de la República",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/27785.pdf"
+   },
+   {
+    "norma": "Decreto Legislativo 1412, Decreto Legislativo que aprueba la Ley de Gobierno Digital",
+    "url": "https://www.gob.pe/institucion/pcm/normas-legales/289706-1412"
+   },
+   {
+    "norma": "Ley 27444, Ley del Procedimiento Administrativo General (TUO aprobado por DS 004-2019-JUS)",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/27444.pdf"
+   }
+  ],
+  "antecedentes": "Por verificar en SPLEY.",
+  "referencias_internacionales": [
+   {
+    "pais": "España",
+    "norma": "Ley 2/2023, reguladora de la protección de las personas que informen sobre infracciones normativas y de lucha contra la corrupción",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-4513"
+   },
+   {
+    "pais": "Colombia",
+    "norma": "Ley 1712 de 2014, de Transparencia y del Derecho de Acceso a la Información Pública",
+    "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=56882"
+   }
+  ],
+  "comision_sugerida": "Fiscalización y Contraloría",
+  "comision_secundaria": "Descentralización, Regionalización, Gobiernos Locales y Modernización de la Gestión del Estado",
+  "plan2050": [
+   "etica",
+   "reforma-del-estado",
+   "transformacion-digital"
+  ],
+  "ods": [
+   16
+  ],
+  "prioridad": "media",
+  "costo_fiscal": "bajo",
+  "plazo": "corto",
+  "indicador_exito": "A 2031, el 100% de entidades del Poder Ejecutivo y gobiernos regionales están integradas a la Plataforma y al menos el 85% de las denuncias recibe respuesta de admisión, derivación o archivo motivado dentro de 15 días hábiles.",
+  "tags": [
+   "denuncias",
+   "integridad",
+   "anticorrupción",
+   "trazabilidad"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Plataforma Digital Única de Denuncias del Ciudadano",
+    "url": "https://denuncias.servicios.gob.pe/"
+   },
+   {
+    "titulo": "PCM-SIP, Directiva de gestión de denuncias y medidas de protección recibidas a través de la PDUDC",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/7928370/6671684-directiva-de-gestion-de-denuncias-y-otorgamiento-de-medidas-de-proteccion-recibidas-a-traves-de-la-pdudc.pdf"
+   }
+  ]
+ },
+ {
+  "id": "GOB-13",
+  "eje": "gob",
+  "titulo": "Ley que establece el marco de nube del Estado, la consolidación de centros de datos públicos y la soberanía y portabilidad de los datos públicos",
+  "titulo_corto": "Nube estatal y soberanía de datos",
+  "sumilla": "Eleva a rango legal la política de nube preferente del Estado con clasificación obligatoria de la información, reglas de portabilidad y salida en los contratos, consolidación de centros de datos públicos y requisitos de localización para la información crítica.",
+  "problema": "El Reglamento de la Ley de Gobierno Digital (DS 029-2021-PCM) establece que las entidades usan de forma preferente infraestructuras o plataformas provistas por proveedores de servicios en la nube y crea la infraestructura y plataforma como servicio Nube Perú. Sin embargo, este marco reglamentario no resuelve con rango de ley cuestiones que hoy condicionan la adopción segura y eficiente de la nube: no existe una obligación general de clasificar la información pública según su criticidad antes de decidir dónde alojarla; los contratos tecnológicos no siempre aseguran la portabilidad de los datos, el acceso a ellos ante el término del contrato o la insolvencia del proveedor, ni la jurisdicción aplicable; y numerosas entidades mantienen centros de datos propios subutilizados, con costos de energía, personal y renovación tecnológica que se duplican en todo el Estado. Tampoco hay criterios legales sobre la localización de información crítica para la continuidad del Estado. El Reino Unido (política Cloud First), Estonia (embajada de datos para respaldo soberano) y Chile (Ley 21.180) ofrecen referencias de cómo combinar adopción de nube, continuidad y control público sobre los datos.",
+  "objeto": "Establecer reglas legales para el uso de servicios de nube por el Estado, la consolidación de centros de datos públicos y la garantía de control, portabilidad y continuidad de los datos públicos.",
+  "articulado": [
+   {
+    "n": "Artículo 1",
+    "titulo": "Objeto",
+    "texto": "La presente ley tiene por objeto establecer el marco para el uso de servicios de computación en la nube por las entidades públicas, la consolidación de sus centros de datos y la garantía de control, portabilidad y continuidad de los datos públicos."
+   },
+   {
+    "n": "Artículo 2",
+    "titulo": "Nube preferente con clasificación previa",
+    "texto": "2.1 Las entidades utilizan preferentemente servicios de computación en la nube para nuevos sistemas y renovaciones tecnológicas.\n2.2 Antes de contratar o migrar, la entidad clasifica la información a alojar en las categorías que establezca el reglamento, al menos: pública, de uso interno, confidencial y crítica para la continuidad del Estado."
+   },
+   {
+    "n": "Artículo 3",
+    "titulo": "Información crítica",
+    "texto": "La información clasificada como crítica para la continuidad del Estado, determinada por el reglamento, se aloja en infraestructura ubicada en territorio nacional o, alternativamente, cuenta con copia de respaldo íntegra, actualizada y bajo control del Estado en territorio nacional."
+   },
+   {
+    "n": "Artículo 4",
+    "titulo": "Cláusulas obligatorias de portabilidad y salida",
+    "texto": "Los contratos de servicios de nube y de alojamiento incluyen obligatoriamente: (i) la titularidad exclusiva de la entidad sobre sus datos; (ii) la entrega íntegra de los datos y metadatos en formatos abiertos o estándar al término del contrato o a solicitud de la entidad; (iii) un plan de salida y transición; (iv) la prohibición de usar los datos para fines distintos de la prestación del servicio; y (v) la sujeción a la legislación peruana para la resolución de controversias, sin perjuicio del arbitraje."
+   },
+   {
+    "n": "Artículo 5",
+    "titulo": "Consolidación de centros de datos",
+    "texto": "5.1 La Secretaría de Gobierno y Transformación Digital elabora y publica el inventario de centros de datos de las entidades del Poder Ejecutivo, con indicadores de uso, costo y eficiencia energética.\n5.2 Las entidades del Poder Ejecutivo no pueden construir ni ampliar centros de datos propios sin informe técnico favorable de la Secretaría de Gobierno y Transformación Digital que acredite que la nube o la infraestructura compartida del Estado no satisfacen su necesidad."
+   },
+   {
+    "n": "Artículo 6",
+    "titulo": "Infraestructura compartida del Estado",
+    "texto": "La Presidencia del Consejo de Ministros, a través de Nube Perú, puede ofrecer a las entidades servicios de infraestructura compartida y acuerdos marco de servicios de nube, en coordinación con la Central de Compras Públicas, para obtener economías de escala."
+   },
+   {
+    "n": "Artículo 7",
+    "titulo": "Continuidad operativa",
+    "texto": "Las entidades que alojan servicios digitales críticos mantienen planes de continuidad y recuperación ante desastres, con pruebas periódicas, y los comunican a la Secretaría de Gobierno y Transformación Digital."
+   },
+   {
+    "n": "Artículo 8",
+    "titulo": "Transparencia",
+    "texto": "La Secretaría de Gobierno y Transformación Digital publica anualmente, en formato abierto, el gasto del Poder Ejecutivo en servicios de nube y en centros de datos propios, y el avance de la consolidación."
+   }
+  ],
+  "disposiciones": [
+   {
+    "tipo": "Complementaria Final",
+    "n": "Primera",
+    "texto": "El Poder Ejecutivo reglamenta la presente ley en un plazo de ciento veinte (120) días hábiles, con refrendo de la Presidencia del Consejo de Ministros y del Ministerio de Economía y Finanzas."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Segunda",
+    "texto": "La presente ley se aplica sin perjuicio de las normas de seguridad digital, ciberseguridad y protección de datos personales, que prevalecen en sus respectivas materias."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Tercera",
+    "texto": "La implementación se financia con cargo al presupuesto institucional de los pliegos, sin demandar recursos adicionales al Tesoro Público."
+   },
+   {
+    "tipo": "Complementaria Transitoria",
+    "n": "Primera",
+    "texto": "Los contratos de nube y alojamiento vigentes se adecúan a las cláusulas del artículo 4 en su primera renovación o modificación."
+   }
+  ],
+  "costo_beneficio": "La clasificación de información y la elaboración de planes de salida generan costos administrativos iniciales; la exigencia de localización o respaldo nacional para información crítica puede encarecer algunos servicios. A cambio, la consolidación de centros de datos subutilizados y las compras agregadas permiten ahorros en energía, personal y renovación de equipos. Beneficios: menor dependencia de un solo proveedor, continuidad del Estado ante fallas o controversias contractuales, control público sobre los datos y transparencia del gasto tecnológico. El ahorro neto debe estimarse con el inventario de centros de datos que la ley ordena publicar; no existe hoy una cifra oficial agregada. Costo fiscal estimado: bajo.",
+  "efecto_vigencia": "Complementa el Decreto Legislativo 1412 y eleva a rango legal la preferencia por la nube y Nube Perú previstas en el DS 029-2021-PCM. Complementa la Ley 32069 en cuanto a cláusulas obligatorias de contratos de nube. No deroga normas.",
+  "normas_relacionadas": [
+   {
+    "norma": "Decreto Legislativo 1412, Decreto Legislativo que aprueba la Ley de Gobierno Digital",
+    "url": "https://www.gob.pe/institucion/pcm/normas-legales/289706-1412"
+   },
+   {
+    "norma": "Decreto Supremo 029-2021-PCM, Reglamento del Decreto Legislativo 1412 (modificado, entre otros, por los DS 075-2023-PCM y 098-2025-PCM)",
+    "url": "https://www.gob.pe/institucion/pcm/normas-legales/1705101-029-2021-pcm"
+   },
+   {
+    "norma": "Ley 32069, Ley General de Contrataciones Públicas, y su Reglamento aprobado por DS 009-2025-EF",
+    "url": "https://www.gob.pe/institucion/oece/colecciones/45029-ley-n-32069-ley-general-de-contrataciones-publicas-y-su-reglamento"
+   },
+   {
+    "norma": "Ley 29158, Ley Orgánica del Poder Ejecutivo",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/29158.pdf"
+   }
+  ],
+  "antecedentes": "Por verificar en SPLEY.",
+  "referencias_internacionales": [
+   {
+    "pais": "Reino Unido",
+    "norma": "Government Cloud First policy",
+    "url": "https://www.gov.uk/guidance/government-cloud-first-policy"
+   },
+   {
+    "pais": "Estonia",
+    "norma": "Data Embassy (respaldo soberano de datos críticos del Estado)",
+    "url": "https://e-estonia.com/solutions/e-governance/data-embassy/"
+   },
+   {
+    "pais": "Chile",
+    "norma": "Ley 21.180, de Transformación Digital del Estado",
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=1138479"
+   },
+   {
+    "pais": "Unión Europea",
+    "norma": "Interoperable Europe Act, Reglamento (UE) 2024/903",
+    "url": "https://interoperable-europe.ec.europa.eu/interoperable-europe/interoperable-europe-act"
+   }
+  ],
+  "comision_sugerida": "Ciencia, Innovación y Tecnología",
+  "comision_secundaria": "Economía, Banca, Finanzas e Inteligencia Financiera",
+  "plan2050": [
+   "transformacion-digital",
+   "peru-en-la-era-digital",
+   "reforma-del-estado"
+  ],
+  "ods": [
+   9,
+   16
+  ],
+  "prioridad": "media",
+  "costo_fiscal": "bajo",
+  "plazo": "mediano",
+  "indicador_exito": "A 2031, el 100% de los contratos de nube del Poder Ejecutivo incluyen cláusulas de portabilidad y salida, y el número de centros de datos propios del Poder Ejecutivo se reduce respecto del inventario de línea de base.",
+  "tags": [
+   "nube",
+   "centros de datos",
+   "soberanía de datos",
+   "contrataciones TI"
+  ],
+  "fuentes": [
+   {
+    "titulo": "PCM, Secretaría de Gobierno y Transformación Digital (portal)",
+    "url": "https://www.gob.pe/gobiernodigital"
+   },
+   {
+    "titulo": "Plataforma Nacional de Datos Abiertos",
+    "url": "https://www.datosabiertos.gob.pe/"
+   }
+  ]
+ },
+ {
+  "id": "GOB-14",
+  "eje": "gob",
+  "titulo": "Ley que profesionaliza la Jefatura de Transformación Digital en las entidades públicas a través del Servicio Civil",
+  "titulo_corto": "Jefatura de transformación digital profesional",
+  "sumilla": "Convierte el rol de Líder de Gobierno y Transformación Digital en un cargo directivo con perfil mínimo, selección meritocrática a cargo de SERVIR y estabilidad sujeta a evaluación, y crea una línea de carrera de talento digital en el Estado.",
+  "problema": "El Decreto Supremo 033-2018-PCM creó el rol de Líder de Gobierno Digital en cada entidad, hoy denominado Líder de Gobierno y Transformación Digital tras el Decreto de Urgencia 006-2020, y cada entidad debe contar con un Comité de Gobierno y Transformación Digital. En la práctica, este rol se asigna por designación a un funcionario de la alta dirección o a un director de órgano de línea, como función adicional a su cargo y sin un perfil técnico mínimo, lo que lo expone a la rotación propia de los cambios de gestión. La transformación digital requiere continuidad de varios años, capacidad para gestionar proyectos tecnológicos complejos y conocimiento de datos, interoperabilidad, contratación de tecnología y diseño de servicios. Sin un responsable profesional y estable, las entidades dependen de consultores externos, repiten errores de contratación y abandonan proyectos a mitad de camino. El Plan Perú 2050 (Reforma del Estado) identifica la reforma de la gestión del capital humano en el sector público como proyecto prioritario. El Reino Unido (marco de capacidades de la profesión digital, de datos y tecnología), Canadá (Directiva sobre Servicio y Digital, que define responsabilidades del CIO) y Chile (Ley 21.180) muestran el valor de profesionalizar este rol.",
+  "objeto": "Profesionalizar la conducción de la transformación digital en las entidades públicas mediante un cargo directivo seleccionado por mérito y una línea de carrera de talento digital.",
+  "articulado": [
+   {
+    "n": "Artículo 1",
+    "titulo": "Objeto",
+    "texto": "La presente ley tiene por objeto profesionalizar la conducción de la transformación digital en las entidades públicas mediante la creación de la Jefatura de Transformación Digital y de una línea de carrera de talento digital en el Servicio Civil."
+   },
+   {
+    "n": "Artículo 2",
+    "titulo": "Jefatura de Transformación Digital",
+    "texto": "2.1 Las entidades del Poder Ejecutivo, los organismos constitucionalmente autónomos, los gobiernos regionales y las municipalidades provinciales cuentan con un Jefe o Jefa de Transformación Digital, que asume las funciones del Líder de Gobierno y Transformación Digital.\n2.2 El cargo depende de la alta dirección, preside la secretaría técnica del Comité de Gobierno y Transformación Digital y no puede ejercerse como encargo adicional de otro cargo."
+   },
+   {
+    "n": "Artículo 3",
+    "titulo": "Funciones",
+    "texto": "Son funciones de la Jefatura: a) formular y conducir el plan de gobierno digital de la entidad; b) asegurar el cumplimiento de las obligaciones de interoperabilidad, datos abiertos, software público y servicios digitales; c) emitir opinión técnica previa en las contrataciones de tecnologías de la información; d) gestionar el portafolio de proyectos digitales y reportar sus indicadores; y e) coordinar con la Secretaría de Gobierno y Transformación Digital."
+   },
+   {
+    "n": "Artículo 4",
+    "titulo": "Perfil y selección",
+    "texto": "4.1 La Autoridad Nacional del Servicio Civil, en coordinación con la Secretaría de Gobierno y Transformación Digital, aprueba el perfil mínimo del cargo, que incluye formación y experiencia en gestión de tecnologías, datos o servicios digitales.\n4.2 La selección se realiza mediante concurso público de méritos conducido o supervisado por SERVIR, pudiendo emplearse el Cuerpo de Gerentes Públicos regulado por el Decreto Legislativo 1024."
+   },
+   {
+    "n": "Artículo 5",
+    "titulo": "Permanencia y evaluación",
+    "texto": "El Jefe o Jefa de Transformación Digital es designado por un periodo de cuatro (4) años, renovable, y solo puede ser removido por falta grave, por evaluación de desempeño desaprobatoria o por las causales que establezca el reglamento, mediante resolución motivada."
+   },
+   {
+    "n": "Artículo 6",
+    "titulo": "Línea de carrera de talento digital",
+    "texto": "SERVIR, en el marco de la Ley 30057, aprueba una familia de puestos de talento digital (gestión de producto, desarrollo de software, datos, diseño de servicios, arquitectura e infraestructura), con perfiles, escalas y rutas de capacitación, que las entidades utilizan en sus cuadros de puestos."
+   },
+   {
+    "n": "Artículo 7",
+    "titulo": "Gobiernos locales y redes",
+    "texto": "Las municipalidades distritales pueden compartir una Jefatura de Transformación Digital mediante mancomunidades municipales o convenios, o ser atendidas por los equipos de asistencia técnica de la Presidencia del Consejo de Ministros."
+   },
+   {
+    "n": "Artículo 8",
+    "titulo": "Capacitación",
+    "texto": "La Escuela Nacional de Administración Pública, en coordinación con la Secretaría de Gobierno y Transformación Digital, desarrolla un programa de formación continua en transformación digital para directivos y servidores públicos."
+   }
+  ],
+  "disposiciones": [
+   {
+    "tipo": "Complementaria Final",
+    "n": "Primera",
+    "texto": "El Poder Ejecutivo reglamenta la presente ley en un plazo de noventa (90) días hábiles, con refrendo de la Presidencia del Consejo de Ministros."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Segunda",
+    "texto": "La implementación se financia con cargo al presupuesto institucional de las entidades, sin demandar recursos adicionales al Tesoro Público. La creación de los puestos se sujeta a las normas presupuestales y a los cuadros de puestos de las entidades."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Tercera",
+    "texto": "Toda referencia al Líder de Gobierno y Transformación Digital en la normativa vigente se entiende hecha al Jefe o Jefa de Transformación Digital."
+   },
+   {
+    "tipo": "Complementaria Transitoria",
+    "n": "Primera",
+    "texto": "La obligación del artículo 2 es exigible a las entidades del Poder Ejecutivo a los doce (12) meses y a los gobiernos regionales y municipalidades provinciales a los veinticuatro (24) meses de la vigencia del reglamento. Hasta entonces, se mantiene la designación vigente del Líder de Gobierno y Transformación Digital."
+   }
+  ],
+  "costo_beneficio": "Genera un costo de personal, pues el cargo deja de ser una función adicional; se financia con el presupuesto institucional, reordenando plazas existentes, y su despliegue es gradual. En municipalidades distritales se evita el costo mediante jefaturas compartidas y asistencia técnica. Beneficios: continuidad de los proyectos digitales más allá de los cambios de gestión, mejores decisiones de contratación tecnológica (evitando compras fallidas o duplicadas), menor dependencia de consultorías y un interlocutor técnico estable para la rectoría de gobierno digital. El retorno se medirá con indicadores de ejecución del portafolio digital. Costo fiscal estimado: medio.",
+  "efecto_vigencia": "Modifica en lo pertinente el Decreto Supremo 033-2018-PCM y el marco del Sistema Nacional de Transformación Digital, sustituyendo el rol de Líder de Gobierno y Transformación Digital por la Jefatura de Transformación Digital. Complementa la Ley 30057 y el Decreto Legislativo 1024.",
+  "normas_relacionadas": [
+   {
+    "norma": "Decreto Supremo 033-2018-PCM, que crea la Plataforma Digital Única del Estado Peruano (GOB.PE) y el rol de Líder de Gobierno Digital",
+    "url": "https://busquedas.elperuano.pe/normaslegales/decreto-supremo-que-crea-la-plataforma-digital-unica-del-est-decreto-supremo-n-033-2018-pcm-1629595-1/"
+   },
+   {
+    "norma": "Decreto Legislativo 1412, Decreto Legislativo que aprueba la Ley de Gobierno Digital",
+    "url": "https://www.gob.pe/institucion/pcm/normas-legales/289706-1412"
+   },
+   {
+    "norma": "Ley 30057, Ley del Servicio Civil",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/30057.pdf"
+   },
+   {
+    "norma": "Decreto Legislativo 1024, que crea y regula el Cuerpo de Gerentes Públicos",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/DecretosLegislativos/01024.pdf"
+   }
+  ],
+  "antecedentes": "Por verificar en SPLEY.",
+  "referencias_internacionales": [
+   {
+    "pais": "Reino Unido",
+    "norma": "Digital, Data and Technology Profession Capability Framework",
+    "url": "https://www.gov.uk/government/collections/digital-data-and-technology-profession-capability-framework"
+   },
+   {
+    "pais": "Canadá",
+    "norma": "Directive on Service and Digital (roles de CIO y responsables de servicio)",
+    "url": "https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32601"
+   },
+   {
+    "pais": "Chile",
+    "norma": "Ley 21.180, de Transformación Digital del Estado",
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=1138479"
+   },
+   {
+    "pais": "Reino Unido",
+    "norma": "Government Digital Service (GDS)",
+    "url": "https://www.gov.uk/government/organisations/government-digital-service"
+   }
+  ],
+  "comision_sugerida": "Descentralización, Regionalización, Gobiernos Locales y Modernización de la Gestión del Estado",
+  "comision_secundaria": "Trabajo y Seguridad Social",
+  "plan2050": [
+   "reforma-del-estado",
+   "transformacion-digital",
+   "institucionalidad"
+  ],
+  "ods": [
+   16,
+   8
+  ],
+  "prioridad": "alta",
+  "costo_fiscal": "medio",
+  "plazo": "mediano",
+  "indicador_exito": "A 2031, el 100% de los ministerios y gobiernos regionales cuentan con Jefatura de Transformación Digital seleccionada por concurso de SERVIR, con permanencia media superior a tres años.",
+  "tags": [
+   "servicio civil",
+   "talento digital",
+   "CDO",
+   "SERVIR"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Autoridad Nacional del Servicio Civil (SERVIR)",
+    "url": "https://www.servir.gob.pe/"
+   },
+   {
+    "titulo": "PCM, Secretaría de Gobierno y Transformación Digital (portal)",
+    "url": "https://www.gob.pe/gobiernodigital"
+   }
+  ]
+ }
+]

@@ -1,0 +1,1941 @@
+[
+ {
+  "id": "TAL-01",
+  "eje": "talento",
+  "titulo": "Ley que incorpora el pensamiento computacional, la programación y la alfabetización en inteligencia artificial en la Educación Básica y fortalece la formación docente en competencias digitales",
+  "titulo_corto": "Pensamiento computacional en la escuela",
+  "sumilla": "Incorpora de manera progresiva aprendizajes de pensamiento computacional, programación y uso crítico de la inteligencia artificial en el Currículo Nacional de la Educación Básica, con un programa de formación docente certificada y evaluación de logros.",
+  "problema": "El Perú obtuvo en PISA 2022 un promedio de 391 puntos en Matemática, nueve puntos menos que en 2018 (400), diferencia que el Minedu califica como estadísticamente significativa; en Lectura y Ciencia alcanzó 408 puntos en ambas, sin cambio significativo (Minedu, informe nacional PISA 2022). El Currículo Nacional de la Educación Básica contempla una competencia transversal vinculada a desenvolverse en entornos virtuales generados por las TIC, pero no define aprendizajes progresivos de pensamiento computacional, programación ni alfabetización en inteligencia artificial, ni existe una ruta nacional obligatoria de formación docente en estas materias. La UNESCO (Informe GEM 2023) advierte que la tecnología en el aula solo mejora el aprendizaje cuando hay propósito pedagógico y docentes preparados. La Ley 31814 promueve el uso de la IA en el país, pero no regula su enseñanza escolar. Sin un mandato legal, la incorporación depende de iniciativas aisladas, lo que reproduce brechas entre escuelas urbanas y rurales y entre gestión pública y privada. El Plan Perú 2050 (Capital del Conocimiento) identifica brechas críticas en competencias STEM y desajuste entre formación y demanda productiva.",
+  "objeto": "Establecer la incorporación progresiva del pensamiento computacional, la programación y la alfabetización en inteligencia artificial en la Educación Básica, así como la formación docente correspondiente.",
+  "articulado": [
+   {
+    "n": "Artículo 1",
+    "titulo": "Objeto",
+    "texto": "La presente ley tiene por objeto incorporar de manera progresiva aprendizajes de pensamiento computacional, programación y alfabetización en inteligencia artificial en el Currículo Nacional de la Educación Básica, y establecer un programa nacional de formación docente en dichas materias."
+   },
+   {
+    "n": "Artículo 2",
+    "titulo": "Ámbito de aplicación",
+    "texto": "La presente ley es de aplicación a las instituciones y programas educativos públicos y privados de Educación Básica Regular, Básica Alternativa y Básica Especial, con las adaptaciones que correspondan a cada modalidad, nivel y contexto lingüístico y cultural."
+   },
+   {
+    "n": "Artículo 3",
+    "titulo": "Definiciones",
+    "texto": "Para efectos de la presente ley se entiende por: a) Pensamiento computacional: capacidad de formular problemas y soluciones mediante descomposición, reconocimiento de patrones, abstracción y diseño de algoritmos, con o sin uso de dispositivos; b) Programación: diseño, escritura y depuración de instrucciones ejecutables por un sistema informático; c) Alfabetización en inteligencia artificial: conocimientos y actitudes para comprender el funcionamiento básico, los usos, los límites, los sesgos y los riesgos de los sistemas de inteligencia artificial, y utilizarlos de forma ética y crítica."
+   },
+   {
+    "n": "Artículo 4",
+    "titulo": "Incorporación curricular progresiva",
+    "texto": "4.1 El Ministerio de Educación incorpora en el Currículo Nacional de la Educación Básica estándares de aprendizaje de pensamiento computacional desde el nivel inicial, de programación desde el nivel primario y de alfabetización en inteligencia artificial en el nivel secundario. 4.2 La incorporación puede realizarse como competencia propia o articulada a las áreas de Matemática, Ciencia y Tecnología y Educación para el Trabajo. 4.3 Se priorizan estrategias desconectadas, que no requieren dispositivos, para garantizar su aplicación en instituciones educativas sin conectividad."
+   },
+   {
+    "n": "Artículo 5",
+    "titulo": "Uso crítico y seguro de la inteligencia artificial",
+    "texto": "Los aprendizajes de alfabetización en inteligencia artificial incluyen, como mínimo, la verificación de información, la protección de datos personales conforme a la Ley 29733, el reconocimiento de contenidos sintéticos, la integridad académica y la reflexión sobre los efectos sociales de la automatización."
+   },
+   {
+    "n": "Artículo 6",
+    "titulo": "Programa Nacional de Formación Docente en Competencias Digitales",
+    "texto": "6.1 El Ministerio de Educación implementa, dentro de su programa de formación en servicio, una ruta de formación docente en pensamiento computacional, programación e inteligencia artificial, con certificación por niveles. 6.2 La formación puede ejecutarse en convenio con universidades licenciadas, institutos y escuelas de educación superior y gobiernos regionales. 6.3 La certificación obtenida es considerada como mérito en los procesos de evaluación de la carrera pública magisterial, conforme a la normativa de la materia."
+   },
+   {
+    "n": "Artículo 7",
+    "titulo": "Formación inicial docente",
+    "texto": "Las escuelas de educación superior pedagógica y las facultades de educación incorporan en sus planes de estudio contenidos de pensamiento computacional y alfabetización en inteligencia artificial, conforme a los lineamientos que apruebe el Ministerio de Educación."
+   },
+   {
+    "n": "Artículo 8",
+    "titulo": "Recursos educativos abiertos",
+    "texto": "Los recursos educativos y materiales elaborados con fondos públicos para la aplicación de la presente ley se publican con licencias abiertas, en castellano y, progresivamente, en lenguas originarias."
+   },
+   {
+    "n": "Artículo 9",
+    "titulo": "Evaluación de logros",
+    "texto": "El Ministerio de Educación incorpora, de manera progresiva, la medición de los aprendizajes regulados por la presente ley en sus evaluaciones nacionales o muestrales, y publica sus resultados desagregados por área de residencia, sexo y tipo de gestión."
+   },
+   {
+    "n": "Artículo 10",
+    "titulo": "Financiamiento",
+    "texto": "La implementación de la presente ley se financia con cargo al presupuesto institucional del Ministerio de Educación y de los gobiernos regionales, sin demandar recursos adicionales al Tesoro Público, y se ejecuta de manera progresiva según disponibilidad presupuestal."
+   }
+  ],
+  "disposiciones": [
+   {
+    "tipo": "Complementaria Final",
+    "n": "Primera",
+    "texto": "Reglamentación. El Poder Ejecutivo, mediante decreto supremo refrendado por el Ministro de Educación, reglamenta la presente ley en un plazo de noventa días hábiles contados desde su entrada en vigor."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Segunda",
+    "texto": "Implementación gradual. La incorporación curricular se inicia en el año escolar siguiente a la aprobación de los estándares, comenzando por el nivel secundario, y se completa en todos los niveles en un plazo no mayor de cinco años."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Tercera",
+    "texto": "Informe anual. El Ministerio de Educación remite anualmente a la comisión ordinaria competente en materia de educación un informe sobre el avance de la implementación, docentes certificados y resultados de aprendizaje."
+   }
+  ],
+  "costo_beneficio": "La ley no crea gasto directo: ordena ajustes curriculares y la priorización de líneas existentes de formación docente en servicio, financiadas con el presupuesto institucional del Minedu y de los gobiernos regionales, de forma progresiva (art. 79 de la Constitución). La prioridad de estrategias desconectadas reduce la dependencia de equipamiento. Los costos principales son el diseño de estándares, materiales abiertos y horas de formación docente. Los beneficios esperados son mejoras en resolución de problemas y razonamiento lógico, mayor preparación para la demanda laboral digital y menor vulnerabilidad estudiantil frente a la desinformación y al uso acrítico de la IA. El riesgo es la implementación desigual; por ello se exige medición desagregada y reporte anual.",
+  "efecto_vigencia": "Complementa la Ley 28044, Ley General de Educación, y se articula con la Ley 31814 y la Ley 29733. No modifica ni deroga normas con rango de ley; requiere la modificación del Currículo Nacional de la Educación Básica por el Ministerio de Educación.",
+  "normas_relacionadas": [
+   {
+    "norma": "Ley 28044, Ley General de Educación",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/28044.pdf"
+   },
+   {
+    "norma": "Ley 31814, Ley que promueve el uso de la inteligencia artificial en favor del desarrollo económico y social del país",
+    "url": "https://leyes.congreso.gob.pe/Documentos/2021_2026/ADLP/Texto_Consolidado/31814-TXM.pdf"
+   },
+   {
+    "norma": "Ley 29733, Ley de Protección de Datos Personales",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/29733.pdf"
+   }
+  ],
+  "antecedentes": "Por verificar en SPLEY.",
+  "referencias_internacionales": [
+   {
+    "pais": "Reino Unido (Inglaterra)",
+    "norma": "National curriculum in England: computing programmes of study (2013, obligatorio desde 2014)",
+    "url": "https://www.gov.uk/government/publications/national-curriculum-in-england-computing-programmes-of-study"
+   },
+   {
+    "pais": "España",
+    "norma": "Ley Orgánica 3/2020 (LOMLOE), que incorpora la competencia digital en la educación básica",
+    "url": "https://www.boe.es/eli/es/lo/2020/12/29/3/con"
+   }
+  ],
+  "comision_sugerida": "Educación, Juventud y Deporte",
+  "comision_secundaria": "Ciencia, Innovación y Tecnología",
+  "plan2050": [
+   "educacion-tres-niveles",
+   "capital-del-conocimiento",
+   "inteligencia-artificial"
+  ],
+  "ods": [
+   4,
+   9
+  ],
+  "prioridad": "alta",
+  "costo_fiscal": "bajo",
+  "plazo": "mediano",
+  "indicador_exito": "A 2031, estándares de pensamiento computacional e IA aprobados para todos los niveles de la Educación Básica y resultados de su primera medición nacional publicados, desagregados por área y sexo.",
+  "tags": [
+   "educación básica",
+   "currículo",
+   "docentes",
+   "inteligencia artificial",
+   "programación"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Minedu: PISA 2022, el Perú mantiene sus resultados en lectura y ciencia",
+    "url": "https://www.gob.pe/institucion/minedu/noticias/877904-pisa-2022-el-peru-mantiene-sus-resultados-en-las-competencias-de-lectura-y-ciencia"
+   },
+   {
+    "titulo": "Minedu: El Perú en PISA 2022. Informe nacional de resultados",
+    "url": "https://repositorio.minedu.gob.pe/handle/20.500.12799/10199"
+   },
+   {
+    "titulo": "Minedu: Currículo Nacional de la Educación Básica",
+    "url": "https://www.minedu.gob.pe/curriculo/"
+   },
+   {
+    "titulo": "UNESCO: Informe GEM 2023, Tecnología en la educación",
+    "url": "https://www.unesco.org/gem-report/en/technology"
+   }
+  ]
+ },
+ {
+  "id": "TAL-02",
+  "eje": "talento",
+  "titulo": "Ley que promueve la alfabetización digital de las personas adultas mayores y de los conductores y trabajadores de la micro y pequeña empresa",
+  "titulo_corto": "Alfabetización digital adultos mayores y MYPE",
+  "sumilla": "Crea un programa nacional de alfabetización digital con enfoque intergeneracional y territorial para personas adultas mayores y para conductores y trabajadores de micro y pequeñas empresas, ejecutado con la red de instituciones educativas, municipalidades y CIAM.",
+  "problema": "Según el INEI (Estadísticas de las TIC en los hogares, III Trimestre 2025), el 82,2% de la población de 6 y más años usó Internet, pero solo el 51,2% de las personas de 60 y más años lo hizo, el grupo con menor uso después de los niños de 6 a 11 años; en el área rural el uso general fue de 58,9%. El informe del INEI sobre la población adulta mayor (II Trimestre 2025) registra que el 48,3% de las personas adultas mayores usó Internet, con una brecha de 9,7 puntos entre hombres (53,4%) y mujeres (43,7%). La digitalización de trámites, pagos, citas médicas y programas sociales traslada costos a quienes no dominan estas herramientas y los expone a fraudes en línea. En las micro y pequeñas empresas, la falta de habilidades digitales limita el acceso a comercio electrónico, facturación electrónica y medios de pago digitales. La Ley 30490 reconoce derechos de la persona adulta mayor, pero no contiene un mandato específico de alfabetización digital, y no existe un programa nacional articulado con metas medibles para este público.",
+  "objeto": "Promover la alfabetización digital de las personas adultas mayores y de conductores y trabajadores de la micro y pequeña empresa mediante un programa nacional articulado.",
+  "articulado": [
+   {
+    "n": "Artículo 1",
+    "titulo": "Objeto",
+    "texto": "La presente ley tiene por objeto promover la alfabetización digital de las personas adultas mayores y de los conductores y trabajadores de la micro y pequeña empresa, a fin de garantizar su inclusión en los servicios públicos y privados digitales y prevenir su exposición a fraudes en línea."
+   },
+   {
+    "n": "Artículo 2",
+    "titulo": "Definición de alfabetización digital",
+    "texto": "Para efectos de la presente ley, la alfabetización digital comprende las competencias básicas para el uso de dispositivos, la comunicación en línea, la realización de trámites y pagos digitales, la identificación de fraudes y desinformación, y la protección de datos personales."
+   },
+   {
+    "n": "Artículo 3",
+    "titulo": "Programa Nacional de Alfabetización Digital Inclusiva",
+    "texto": "3.1 Créase el Programa Nacional de Alfabetización Digital Inclusiva, a cargo del Ministerio de la Mujer y Poblaciones Vulnerables en lo referido a personas adultas mayores, y del Ministerio de la Producción en lo referido a la micro y pequeña empresa, con la asistencia técnica de la Presidencia del Consejo de Ministros en materia de transformación digital. 3.2 El programa se ejecuta mediante módulos presenciales, con materiales en castellano y lenguas originarias, y con formatos accesibles."
+   },
+   {
+    "n": "Artículo 4",
+    "titulo": "Ejecución territorial",
+    "texto": "Las municipalidades, a través de los Centros Integrales de Atención al Adulto Mayor (CIAM), y los gobiernos regionales pueden ejecutar el programa en sus locales, bibliotecas y centros comunitarios, en el marco de sus competencias y con cargo a su presupuesto institucional."
+   },
+   {
+    "n": "Artículo 5",
+    "titulo": "Voluntariado intergeneracional",
+    "texto": "El Ministerio de Educación promueve que estudiantes de secundaria, institutos y universidades participen como facilitadores voluntarios del programa. Las horas de voluntariado pueden ser reconocidas por las instituciones educativas como actividades de proyección social, conforme a su normativa interna."
+   },
+   {
+    "n": "Artículo 6",
+    "titulo": "Componente MYPE",
+    "texto": "El componente dirigido a la micro y pequeña empresa incluye, como mínimo, formación en comercio electrónico, medios de pago digitales, facturación electrónica, seguridad digital básica y atención al cliente en canales digitales, y se articula con los servicios de desarrollo empresarial existentes del Ministerio de la Producción."
+   },
+   {
+    "n": "Artículo 7",
+    "titulo": "Atención presencial alternativa",
+    "texto": "Las entidades de la administración pública que digitalicen trámites o servicios dirigidos a personas adultas mayores mantienen un canal de atención presencial o telefónico asistido, sin costo adicional para el usuario."
+   },
+   {
+    "n": "Artículo 8",
+    "titulo": "Prevención de fraudes",
+    "texto": "El programa incorpora contenidos de prevención de fraudes digitales elaborados en coordinación con la Superintendencia de Banca, Seguros y AFP y la Policía Nacional del Perú, en el marco de sus competencias."
+   },
+   {
+    "n": "Artículo 9",
+    "titulo": "Metas e información",
+    "texto": "El programa establece metas anuales de cobertura y publica sus resultados desagregados por sexo, edad, región y área de residencia en la Plataforma Nacional de Datos Abiertos."
+   },
+   {
+    "n": "Artículo 10",
+    "titulo": "Financiamiento",
+    "texto": "La implementación de la presente ley se financia con cargo a los presupuestos institucionales de las entidades involucradas, sin demandar recursos adicionales al Tesoro Público."
+   }
+  ],
+  "disposiciones": [
+   {
+    "tipo": "Complementaria Final",
+    "n": "Primera",
+    "texto": "Reglamentación. El Poder Ejecutivo reglamenta la presente ley en un plazo de noventa días hábiles, mediante decreto supremo refrendado por los Ministros de la Mujer y Poblaciones Vulnerables y de la Producción y por el Presidente del Consejo de Ministros."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Segunda",
+    "texto": "Medición. El Instituto Nacional de Estadística e Informática continúa publicando los indicadores de uso de Internet por grupo de edad, que sirven como línea de base para evaluar la presente ley."
+   }
+  ],
+  "costo_beneficio": "No genera gasto adicional al Tesoro: se ejecuta con presupuestos institucionales de MIMP, PRODUCE, gobiernos regionales y municipalidades, apoyándose en infraestructura existente (CIAM, bibliotecas, colegios) y voluntariado estudiantil. Los costos son materiales, facilitadores y coordinación. Los beneficios incluyen reducción de costos de transacción para acceder a servicios digitales, menor exposición a fraudes, mayor productividad de las MYPE con acceso a pagos y comercio electrónico, y menor carga de atención presencial para el Estado en el mediano plazo. La obligación de mantener canal presencial asistido tiene un costo operativo moderado, pero evita la exclusión por digitalización forzada.",
+  "efecto_vigencia": "Complementa la Ley 30490, Ley de la Persona Adulta Mayor. No modifica ni deroga normas con rango de ley.",
+  "normas_relacionadas": [
+   {
+    "norma": "Ley 30490, Ley de la Persona Adulta Mayor",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/30490.pdf"
+   },
+   {
+    "norma": "Ley 29733, Ley de Protección de Datos Personales",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/29733.pdf"
+   }
+  ],
+  "antecedentes": "Por verificar en SPLEY.",
+  "referencias_internacionales": [
+   {
+    "pais": "Uruguay",
+    "norma": "Plan Ibirapitá (Decreto 130/015), inclusión digital de jubilados",
+    "url": "https://www.gub.uy/presidencia/comunicacion/noticias/plan-ibirapita-inscribe-jubilados-todos-departamentos-uruguay-para-reciban"
+   }
+  ],
+  "comision_sugerida": "Inclusión Social y Personas con Discapacidad",
+  "comision_secundaria": "Producción, Micro y Pequeña Empresa y Cooperativas",
+  "plan2050": [
+   "cohesion-social",
+   "mipymes",
+   "peru-en-la-era-digital"
+  ],
+  "ods": [
+   4,
+   8,
+   10
+  ],
+  "prioridad": "media",
+  "costo_fiscal": "bajo",
+  "plazo": "corto",
+  "indicador_exito": "A 2031, el uso de Internet en la población de 60 y más años (INEI, III Trimestre) supera el 70% y se reduce a la mitad la brecha entre hombres y mujeres adultos mayores.",
+  "tags": [
+   "inclusión digital",
+   "adultos mayores",
+   "MYPE",
+   "fraude digital"
+  ],
+  "fuentes": [
+   {
+    "titulo": "INEI: Estadísticas de las TIC en los hogares, III Trimestre 2025 (Informe Técnico N.° 04, dic. 2025)",
+    "url": "https://www.inei.gob.pe/media/MenuRecursivo/boletines/tic-iii-trimestre_2025_1.pdf"
+   },
+   {
+    "titulo": "INEI: Situación de la Población Adulta Mayor, II Trimestre 2025",
+    "url": "https://www.inei.gob.pe/media/MenuRecursivo/boletines/informetecnico_situacionpoblacionadultamayor_iit25.pdf"
+   },
+   {
+    "titulo": "Plataforma Nacional de Datos Abiertos",
+    "url": "https://www.datosabiertos.gob.pe/"
+   }
+  ]
+ },
+ {
+  "id": "TAL-03",
+  "eje": "talento",
+  "titulo": "Ley que crea el Programa de Becas STEM y de Retorno de Talento Científico y Tecnológico",
+  "titulo_corto": "Becas STEM y retorno de talento",
+  "sumilla": "Establece una línea prioritaria de becas en ciencia, tecnología, ingeniería y matemáticas dentro del PRONABEC, con compromiso de retribución en el país y un régimen de incentivos para el retorno de profesionales peruanos altamente calificados en el exterior.",
+  "problema": "El Plan Perú 2050 (Capital del Conocimiento) estima la inversión peruana en investigación y desarrollo en alrededor de 0,13% del PBI, frente a cerca de 2,5% en el promedio OCDE, e identifica como problemas estructurales el déficit de capital humano en STEM y la fuga sostenida de investigadores y técnicos especializados. El PRONABEC, creado por la Ley 29837, administra becas de pregrado y posgrado, pero la ley no establece una priorización explícita de áreas STEM vinculada a las brechas productivas, ni mecanismos sistemáticos de retribución y seguimiento de becarios en el exterior. A su vez, la Ley 30001, de reinserción económica y social para el migrante retornado, ofrece beneficios generales (principalmente tributarios sobre bienes), pero no un régimen orientado a la reinserción de científicos y tecnólogos en universidades, institutos públicos de investigación o empresas. Sin información pública sobre el destino de los becarios ni incentivos de retorno, la inversión del Estado en formación avanzada se pierde parcialmente.",
+  "objeto": "Crear una línea prioritaria de becas STEM en el PRONABEC con compromiso de retribución y un régimen de retorno de talento científico y tecnológico.",
+  "articulado": [
+   {
+    "n": "Artículo 1",
+    "titulo": "Objeto",
+    "texto": "La presente ley tiene por objeto crear el Programa de Becas STEM y de Retorno de Talento Científico y Tecnológico, a fin de ampliar la formación de capital humano en ciencia, tecnología, ingeniería y matemáticas y promover la reinserción en el país de profesionales peruanos altamente calificados."
+   },
+   {
+    "n": "Artículo 2",
+    "titulo": "Línea prioritaria de becas STEM",
+    "texto": "2.1 El Programa Nacional de Becas y Crédito Educativo (PRONABEC) destina, de manera progresiva, una proporción creciente de sus becas de pregrado, técnico y posgrado a carreras y programas STEM. 2.2 Las áreas priorizadas se definen cada tres años con base en las brechas de capital humano identificadas por el Consejo Nacional de Ciencia, Tecnología e Innovación Tecnológica (CONCYTEC), el Ministerio de Trabajo y Promoción del Empleo y el Ministerio de la Producción."
+   },
+   {
+    "n": "Artículo 3",
+    "titulo": "Enfoque de equidad",
+    "texto": "La asignación de becas STEM incorpora criterios de equidad territorial, de género y socioeconómica, con cuotas o puntajes adicionales para postulantes de zonas rurales, de pueblos indígenas u originarios y mujeres, conforme al reglamento."
+   },
+   {
+    "n": "Artículo 4",
+    "titulo": "Compromiso de retribución",
+    "texto": "4.1 Los becarios de posgrado en el extranjero suscriben un compromiso de retribución que consiste en prestar servicios en el país, en el sector público, la academia o el sector productivo, por un periodo no menor al de la duración de la beca. 4.2 El reglamento establece las modalidades de cumplimiento, incluida la retribución remota o mixta, y las consecuencias del incumplimiento."
+   },
+   {
+    "n": "Artículo 5",
+    "titulo": "Registro de becarios y seguimiento",
+    "texto": "El PRONABEC mantiene un registro de seguimiento de egresados becarios que permita conocer su inserción laboral y su ubicación sectorial y geográfica, cuya información estadística, debidamente anonimizada conforme a la Ley 29733, se publica anualmente en la Plataforma Nacional de Datos Abiertos."
+   },
+   {
+    "n": "Artículo 6",
+    "titulo": "Régimen de retorno de talento",
+    "texto": "6.1 Los profesionales peruanos con grado de doctor o maestría en áreas STEM, o con trayectoria acreditada en investigación o desarrollo tecnológico en el exterior, que retornen al país para laborar en universidades, institutos públicos de investigación o empresas con actividades de I+D+i, pueden acceder a: a) prioridad en concursos de financiamiento de investigación del CONCYTEC y sus programas; b) reconocimiento preferente en los procesos de calificación del Registro Nacional Científico, Tecnológico y de Innovación Tecnológica; c) los beneficios de la Ley 30001, cuando cumplan sus requisitos. 6.2 El reglamento establece los requisitos y el procedimiento."
+   },
+   {
+    "n": "Artículo 7",
+    "titulo": "Plataforma de vinculación",
+    "texto": "El CONCYTEC, en coordinación con el Ministerio de Relaciones Exteriores, implementa una plataforma de vinculación de la diáspora científica y tecnológica peruana para facilitar colaboraciones, estancias cortas y ofertas de empleo."
+   },
+   {
+    "n": "Artículo 8",
+    "titulo": "Articulación con el sector productivo",
+    "texto": "El PRONABEC puede suscribir convenios con empresas y gremios para cofinanciar becas STEM y ofrecer prácticas preprofesionales o plazas de retribución, sin que ello implique transferencia de recursos públicos a privados."
+   },
+   {
+    "n": "Artículo 9",
+    "titulo": "Financiamiento",
+    "texto": "La implementación de la presente ley se financia con cargo al presupuesto institucional del PRONABEC y del CONCYTEC, mediante la priorización de sus recursos, sin demandar recursos adicionales al Tesoro Público."
+   }
+  ],
+  "disposiciones": [
+   {
+    "tipo": "Complementaria Final",
+    "n": "Primera",
+    "texto": "Reglamentación. El Poder Ejecutivo reglamenta la presente ley en un plazo de noventa días hábiles, mediante decreto supremo refrendado por el Ministro de Educación y el Presidente del Consejo de Ministros."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Segunda",
+    "texto": "Aplicación a becarios vigentes. El compromiso de retribución del artículo 4 se aplica a las becas otorgadas en convocatorias posteriores a la entrada en vigor del reglamento."
+   },
+   {
+    "tipo": "Complementaria Modificatoria",
+    "n": "Primera",
+    "texto": "Incorporación en la Ley 29837. Incorpórase en la Ley 29837 una disposición complementaria final con el siguiente texto: \"El PRONABEC prioriza el otorgamiento de becas en áreas de ciencia, tecnología, ingeniería y matemáticas, conforme a la ley de la materia.\""
+   }
+  ],
+  "costo_beneficio": "La ley reorienta recursos existentes del PRONABEC y del CONCYTEC; no autoriza nuevas partidas ni crea gasto directo (art. 79 de la Constitución). El aumento de cobertura STEM queda sujeto a la disponibilidad presupuestal anual. El seguimiento de becarios requiere un sistema de información de costo bajo. Los beneficios son mayor retorno social de la inversión en becas, cierre de brechas de capital humano en sectores estratégicos (minería, energía, salud, agro, TIC) y fortalecimiento de la base científica nacional. El compromiso de retribución con modalidades flexibles reduce la pérdida de talento sin desincentivar la postulación.",
+  "efecto_vigencia": "Complementa la Ley 29837 (incorpora una disposición complementaria final) y se articula con la Ley 30001 y la Ley 28303. No deroga normas.",
+  "normas_relacionadas": [
+   {
+    "norma": "Ley 29837, Ley que crea el Programa Nacional de Becas y Crédito Educativo (PRONABEC)",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/29837.pdf"
+   },
+   {
+    "norma": "Ley 30001, Ley de Reinserción Económica y Social para el Migrante Retornado",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/30001.pdf"
+   },
+   {
+    "norma": "Ley 28303, Ley Marco de Ciencia, Tecnología e Innovación Tecnológica",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/28303.pdf"
+   },
+   {
+    "norma": "Ley 30220, Ley Universitaria",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/30220.pdf"
+   }
+  ],
+  "antecedentes": "Por verificar en SPLEY.",
+  "referencias_internacionales": [
+   {
+    "pais": "Singapur",
+    "norma": "Programa SkillsFuture (créditos de formación continua y certificación modular)",
+    "url": "https://www.skillsfuture.gov.sg/"
+   },
+   {
+    "pais": "Chile",
+    "norma": "Política Nacional de Igualdad de Género en Ciencia, Tecnología, Conocimiento e Innovación (Diario Oficial, 20-09-2021)",
+    "url": "https://www.diariooficial.interior.gob.cl/publicaciones/2021/09/20/43057/01/2011080.pdf"
+   }
+  ],
+  "comision_sugerida": "Educación, Juventud y Deporte",
+  "comision_secundaria": "Ciencia, Innovación y Tecnología",
+  "plan2050": [
+   "capital-del-conocimiento",
+   "ciencia-y-tecnologia",
+   "proyecto-pais-joven"
+  ],
+  "ods": [
+   4,
+   9,
+   10
+  ],
+  "prioridad": "alta",
+  "costo_fiscal": "bajo",
+  "plazo": "mediano",
+  "indicador_exito": "A 2031, al menos la mitad de las becas de posgrado del PRONABEC se otorgan en áreas STEM y se publica anualmente el reporte de inserción de becarios con tasa de cumplimiento de retribución.",
+  "tags": [
+   "becas",
+   "STEM",
+   "fuga de talentos",
+   "PRONABEC",
+   "diáspora"
+  ],
+  "fuentes": [
+   {
+    "titulo": "PRONABEC: portal institucional",
+    "url": "https://www.pronabec.gob.pe/"
+   },
+   {
+    "titulo": "Plataforma Nacional de Datos Abiertos",
+    "url": "https://www.datosabiertos.gob.pe/"
+   }
+  ]
+ },
+ {
+  "id": "TAL-04",
+  "eje": "talento",
+  "titulo": "Ley que regula los programas de formación tecnológica de corta duración y su certificación modular de calidad",
+  "titulo_corto": "Bootcamps tech con certificación",
+  "sumilla": "Reconoce los programas intensivos de formación en tecnologías digitales (bootcamps) ofrecidos por institutos, escuelas, universidades y entidades formadoras, y crea un mecanismo voluntario de certificación modular de calidad articulado al SINEACE y al Marco Nacional de Cualificaciones.",
+  "problema": "La demanda de perfiles en desarrollo de software, análisis de datos, ciberseguridad, soporte en la nube y diseño digital crece más rápido que la capacidad de las carreras de cinco años. En el país han proliferado programas intensivos de corta duración, presenciales y virtuales, ofertados por empresas, institutos y universidades, que no cuentan con un estándar público de calidad ni con reconocimiento formal de los aprendizajes; los estudiantes no disponen de información comparable sobre empleabilidad, y los empleadores no pueden verificar competencias. La Ley 30512 regula institutos y escuelas de educación superior y contempla programas de formación continua, y la Ley 28740 encarga al SINEACE la certificación de competencias, pero no existe un procedimiento específico y ágil para evaluar módulos tecnológicos cortos ni para que estos se acumulen como créditos hacia un título técnico. El Plan Perú 2050 (Capital del Conocimiento) señala el desajuste entre las competencias de los egresados y las que demandan la digitalización y el análisis de datos. Sin reglas mínimas, persisten riesgos de publicidad engañosa sobre tasas de colocación.",
+  "objeto": "Regular los programas de formación tecnológica de corta duración y establecer su certificación modular voluntaria de calidad y su convalidación.",
+  "articulado": [
+   {
+    "n": "Artículo 1",
+    "titulo": "Objeto",
+    "texto": "La presente ley tiene por objeto reconocer y regular los programas de formación tecnológica de corta duración en competencias digitales y establecer un mecanismo voluntario de certificación modular de calidad que permita su convalidación en la educación superior técnica."
+   },
+   {
+    "n": "Artículo 2",
+    "titulo": "Definición",
+    "texto": "Para efectos de la presente ley, se entiende por programa de formación tecnológica de corta duración a aquel programa intensivo, presencial, semipresencial o a distancia, con una duración no mayor de doce meses, orientado al desarrollo de competencias laborales en tecnologías digitales, cuyos resultados de aprendizaje son evaluables."
+   },
+   {
+    "n": "Artículo 3",
+    "titulo": "Entidades formadoras",
+    "texto": "Pueden ofrecer estos programas los institutos y escuelas de educación superior, las universidades, los centros de educación técnico-productiva y las personas jurídicas que cumplan con las condiciones de información y transparencia establecidas en la presente ley."
+   },
+   {
+    "n": "Artículo 4",
+    "titulo": "Certificación modular de calidad",
+    "texto": "4.1 El SINEACE, o la entidad que haga sus veces, aprueba estándares de calidad para módulos de formación tecnológica de corta duración, alineados al Catálogo Nacional de la Oferta Formativa y al Marco Nacional de Cualificaciones. 4.2 La certificación es voluntaria, tiene una vigencia no mayor de tres años y puede ser otorgada por entidades evaluadoras autorizadas por el SINEACE."
+   },
+   {
+    "n": "Artículo 5",
+    "titulo": "Convalidación de créditos",
+    "texto": "Los institutos y escuelas de educación superior públicos y privados pueden convalidar los módulos certificados conforme al artículo 4 como unidades didácticas de programas de estudio afines, de acuerdo con los lineamientos que apruebe el Ministerio de Educación."
+   },
+   {
+    "n": "Artículo 6",
+    "titulo": "Transparencia de resultados",
+    "texto": "6.1 Las entidades que ofrezcan programas certificados publican de forma veraz, como mínimo: contenidos, horas, costo total, tasa de culminación y tasa de inserción laboral a seis meses, con su metodología de cálculo. 6.2 La publicidad sobre empleabilidad que no cuente con sustento verificable se sujeta a las disposiciones del Código de Protección y Defensa del Consumidor."
+   },
+   {
+    "n": "Artículo 7",
+    "titulo": "Financiamiento a estudiantes",
+    "texto": "El PRONABEC puede incluir, dentro de sus modalidades existentes y conforme a su disponibilidad presupuestal, becas o créditos educativos para programas certificados conforme a la presente ley."
+   },
+   {
+    "n": "Artículo 8",
+    "titulo": "Registro público",
+    "texto": "El Ministerio de Educación publica en su portal institucional y en la Plataforma Nacional de Datos Abiertos el registro de programas y entidades certificadas y sus indicadores de resultados."
+   },
+   {
+    "n": "Artículo 9",
+    "titulo": "Financiamiento",
+    "texto": "La aplicación de la presente ley se financia con cargo a los presupuestos institucionales del Ministerio de Educación y del SINEACE. Los costos de la evaluación para la certificación son asumidos por las entidades solicitantes conforme al TUPA correspondiente."
+   }
+  ],
+  "disposiciones": [
+   {
+    "tipo": "Complementaria Final",
+    "n": "Primera",
+    "texto": "Reglamentación. El Poder Ejecutivo reglamenta la presente ley en un plazo de noventa días hábiles mediante decreto supremo refrendado por el Ministro de Educación."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Segunda",
+    "texto": "Estándares iniciales. El SINEACE aprueba, en un plazo de ciento ochenta días hábiles, los estándares para al menos cinco familias de competencias digitales priorizadas: desarrollo de software, análisis de datos, ciberseguridad básica, soporte en infraestructura en la nube y diseño digital."
+   },
+   {
+    "tipo": "Complementaria Modificatoria",
+    "n": "Primera",
+    "texto": "Incorporación en la Ley 30512. Incorpórase en la Ley 30512 una disposición complementaria final con el siguiente texto: \"Los institutos y escuelas de educación superior pueden convalidar módulos de formación tecnológica de corta duración certificados conforme a la ley de la materia.\""
+   }
+  ],
+  "costo_beneficio": "El costo fiscal es bajo: el SINEACE y el Minedu elaboran estándares y registro con su presupuesto institucional, y la evaluación es financiada por las entidades solicitantes mediante tasas. No hay gasto directo nuevo (art. 79). Para los estudiantes, la certificación reduce el riesgo de pagar por programas de baja calidad y permite acumular créditos hacia un título técnico; para las empresas, facilita la verificación de competencias. La transparencia obligatoria para programas certificados corrige asimetrías de información. El riesgo es la baja adopción de un sistema voluntario; se mitiga vinculando la certificación al acceso a becas y créditos del PRONABEC.",
+  "efecto_vigencia": "Complementa la Ley 30512 (incorpora una disposición complementaria final) y la Ley 28740. Se articula con el Código de Protección y Defensa del Consumidor (Ley 29571).",
+  "normas_relacionadas": [
+   {
+    "norma": "Ley 30512, Ley de Institutos y Escuelas de Educación Superior y de la Carrera Pública de sus Docentes",
+    "url": "https://leyes.congreso.gob.pe/Documentos/2016_2021/ADLP/Texto_Consolidado/30512-TXM.pdf"
+   },
+   {
+    "norma": "Ley 28740, Ley del Sistema Nacional de Evaluación, Acreditación y Certificación de la Calidad Educativa (SINEACE)",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/28740.pdf"
+   },
+   {
+    "norma": "Ley 29571, Código de Protección y Defensa del Consumidor",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/29571.pdf"
+   },
+   {
+    "norma": "Ley 29837, Ley que crea el Programa Nacional de Becas y Crédito Educativo (PRONABEC)",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/29837.pdf"
+   }
+  ],
+  "antecedentes": "Por verificar en SPLEY.",
+  "referencias_internacionales": [
+   {
+    "pais": "Unión Europea",
+    "norma": "Recomendación del Consejo de 16 de junio de 2022 relativa a un enfoque europeo de las microcredenciales (2022/C 243/02)",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32022H0627(02)"
+   },
+   {
+    "pais": "Singapur",
+    "norma": "Programa SkillsFuture (créditos de formación continua y certificación modular)",
+    "url": "https://www.skillsfuture.gov.sg/"
+   }
+  ],
+  "comision_sugerida": "Educación, Juventud y Deporte",
+  "comision_secundaria": "Trabajo y Seguridad Social",
+  "plan2050": [
+   "capital-del-conocimiento",
+   "proyecto-pais-joven",
+   "educacion-tres-niveles"
+  ],
+  "ods": [
+   4,
+   8
+  ],
+  "prioridad": "media",
+  "costo_fiscal": "bajo",
+  "plazo": "corto",
+  "indicador_exito": "A 2031, registro público con al menos 100 programas certificados y tasa de inserción laboral publicada para todos ellos.",
+  "tags": [
+   "formación técnica",
+   "bootcamps",
+   "certificación",
+   "empleabilidad"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Minedu: Reglamento de la Ley 30512",
+    "url": "https://www.minedu.gob.pe/superiorpedagogica/reglamento-de-la-ley-n-30512-ley-de-institutos-y-escuelas-de-educacion-superior-y-de-la-carrera-publica-de-sus-docentes/"
+   },
+   {
+    "titulo": "SkillsFuture Singapore",
+    "url": "https://www.skillsfuture.gov.sg/"
+   },
+   {
+    "titulo": "PRONABEC: portal institucional",
+    "url": "https://www.pronabec.gob.pe/"
+   }
+  ]
+ },
+ {
+  "id": "TAL-05",
+  "eje": "talento",
+  "titulo": "Ley que promueve la participación de niñas, adolescentes y mujeres en ciencia, tecnología, ingeniería y matemáticas",
+  "titulo_corto": "Mujeres en STEM",
+  "sumilla": "Establece medidas para cerrar la brecha de género en STEM desde la Educación Básica hasta la carrera científica y tecnológica, con orientación vocacional sin estereotipos, mentoría, criterios de equidad en financiamiento público y medición anual.",
+  "problema": "La UNESCO documenta que, a nivel mundial, las mujeres siguen subrepresentadas en carreras y empleos STEM, y que los estereotipos de género afectan la autopercepción de niñas y adolescentes en matemáticas y ciencias desde edades tempranas. En el Perú, la brecha digital de género también es visible en la población adulta: el INEI (TIC, III Trimestre 2025) reporta que el 83,6% de los hombres de 6 y más años usó Internet frente al 80,9% de las mujeres, brecha que se amplía en la población adulta mayor (53,4% frente a 43,7%, según el informe de población adulta mayor del II Trimestre 2025). La Ley 28983 obliga al Estado a promover la igualdad de oportunidades, pero no contiene medidas específicas para la ciencia y la tecnología, y no existe una medición oficial periódica y pública de la participación femenina en matrícula STEM, docencia universitaria STEM, investigadores registrados y financiamiento de proyectos. Sin datos ni metas, las acciones dependen de iniciativas voluntarias de universidades, empresas y organizaciones civiles.",
+  "objeto": "Promover la participación de niñas, adolescentes y mujeres en STEM mediante medidas educativas, de financiamiento y de medición.",
+  "articulado": [
+   {
+    "n": "Artículo 1",
+    "titulo": "Objeto",
+    "texto": "La presente ley tiene por objeto promover la participación equitativa de niñas, adolescentes y mujeres en la formación, la investigación, el empleo y el emprendimiento en ciencia, tecnología, ingeniería y matemáticas (STEM)."
+   },
+   {
+    "n": "Artículo 2",
+    "titulo": "Orientación vocacional sin estereotipos",
+    "texto": "El Ministerio de Educación incorpora en las acciones de tutoría y orientación educativa de la Educación Básica contenidos de orientación vocacional libres de estereotipos de género, con referentes femeninos en STEM, y revisa los materiales educativos para eliminar sesgos."
+   },
+   {
+    "n": "Artículo 3",
+    "titulo": "Programa de mentoría",
+    "texto": "El CONCYTEC, en coordinación con el Ministerio de la Mujer y Poblaciones Vulnerables y el Ministerio de Educación, implementa un programa de mentoría que vincula a estudiantes mujeres de secundaria y educación superior con profesionales e investigadoras STEM, priorizando regiones con menor participación femenina."
+   },
+   {
+    "n": "Artículo 4",
+    "titulo": "Criterios de equidad en financiamiento público",
+    "texto": "Los concursos de financiamiento de ciencia, tecnología e innovación con fondos públicos incorporan criterios de equidad de género en la conformación de equipos y en la evaluación, así como medidas de ajuste de plazos por maternidad o cuidado, conforme al reglamento."
+   },
+   {
+    "n": "Artículo 5",
+    "titulo": "Instituciones de educación superior",
+    "texto": "Las universidades e institutos con programas STEM adoptan protocolos de prevención y atención del hostigamiento sexual en laboratorios, prácticas y trabajo de campo, y reportan anualmente su matrícula, egreso y plana docente STEM desagregada por sexo."
+   },
+   {
+    "n": "Artículo 6",
+    "titulo": "Reconocimiento a empleadores",
+    "texto": "El Ministerio de Trabajo y Promoción del Empleo, en el marco de sus programas de reconocimiento existentes, distingue a las empresas que implementen buenas prácticas de contratación, retención y promoción de mujeres en puestos STEM."
+   },
+   {
+    "n": "Artículo 7",
+    "titulo": "Observatorio y reporte anual",
+    "texto": "El CONCYTEC publica anualmente, en formato de datos abiertos, un reporte de brechas de género en STEM con indicadores de matrícula, egreso, investigadoras registradas, financiamiento adjudicado y empleo, sobre la base de información del Ministerio de Educación, la SUNEDU, el INEI y el propio CONCYTEC."
+   },
+   {
+    "n": "Artículo 8",
+    "titulo": "Financiamiento",
+    "texto": "La implementación de la presente ley se financia con cargo a los presupuestos institucionales de las entidades involucradas, sin demandar recursos adicionales al Tesoro Público."
+   }
+  ],
+  "disposiciones": [
+   {
+    "tipo": "Complementaria Final",
+    "n": "Primera",
+    "texto": "Reglamentación. El Poder Ejecutivo reglamenta la presente ley en un plazo de noventa días hábiles mediante decreto supremo refrendado por el Presidente del Consejo de Ministros y los Ministros de Educación y de la Mujer y Poblaciones Vulnerables."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Segunda",
+    "texto": "Línea de base. El primer reporte anual a que se refiere el artículo 7 se publica en un plazo no mayor de un año desde la entrada en vigor del reglamento y establece la línea de base y las metas al 2031."
+   }
+  ],
+  "costo_beneficio": "Las medidas son principalmente normativas, de información y de reorientación de programas existentes (tutoría, concursos, reconocimientos), con costo fiscal bajo y financiadas con presupuestos institucionales (art. 79). El principal costo es la producción del reporte anual y la mentoría, que puede ejecutarse con alianzas académicas y voluntariado profesional. Los beneficios son la ampliación del talento disponible para sectores tecnológicos, mejoras en innovación por diversidad de equipos y reducción de brechas salariales de género, dado que las ocupaciones STEM suelen tener mejores remuneraciones. La medición pública permite evaluar resultados y corregir.",
+  "efecto_vigencia": "Complementa la Ley 28983 y la Ley 28303. No modifica ni deroga normas con rango de ley.",
+  "normas_relacionadas": [
+   {
+    "norma": "Ley 28983, Ley de igualdad de oportunidades entre mujeres y hombres",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/28983.pdf"
+   },
+   {
+    "norma": "Ley 28303, Ley Marco de Ciencia, Tecnología e Innovación Tecnológica",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/28303.pdf"
+   },
+   {
+    "norma": "Ley 30220, Ley Universitaria",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/30220.pdf"
+   }
+  ],
+  "antecedentes": "Por verificar en SPLEY.",
+  "referencias_internacionales": [
+   {
+    "pais": "Chile",
+    "norma": "Política Nacional de Igualdad de Género en Ciencia, Tecnología, Conocimiento e Innovación (Diario Oficial, 20-09-2021)",
+    "url": "https://www.diariooficial.interior.gob.cl/publicaciones/2021/09/20/43057/01/2011080.pdf"
+   }
+  ],
+  "comision_sugerida": "Mujer y Familia",
+  "comision_secundaria": "Ciencia, Innovación y Tecnología",
+  "plan2050": [
+   "capital-del-conocimiento",
+   "ciencia-y-tecnologia",
+   "cohesion-social"
+  ],
+  "ods": [
+   4,
+   5,
+   9
+  ],
+  "prioridad": "media",
+  "costo_fiscal": "bajo",
+  "plazo": "mediano",
+  "indicador_exito": "A 2031, reporte anual de brechas de género en STEM publicado por cinco años consecutivos y aumento verificable de la proporción de mujeres en matrícula STEM respecto de la línea de base.",
+  "tags": [
+   "género",
+   "STEM",
+   "igualdad",
+   "ciencia"
+  ],
+  "fuentes": [
+   {
+    "titulo": "UNESCO: Girls' and women's education in STEM",
+    "url": "https://www.unesco.org/en/gender-equality/education/stem"
+   },
+   {
+    "titulo": "INEI: Estadísticas de las TIC en los hogares, III Trimestre 2025 (Informe Técnico N.° 04, dic. 2025)",
+    "url": "https://www.inei.gob.pe/media/MenuRecursivo/boletines/tic-iii-trimestre_2025_1.pdf"
+   },
+   {
+    "titulo": "INEI: Situación de la Población Adulta Mayor, II Trimestre 2025",
+    "url": "https://www.inei.gob.pe/media/MenuRecursivo/boletines/informetecnico_situacionpoblacionadultamayor_iit25.pdf"
+   }
+  ]
+ },
+ {
+  "id": "TAL-06",
+  "eje": "talento",
+  "titulo": "Ley que fortalece la historia clínica electrónica interoperable y establece plazos y estándares obligatorios para el Registro Nacional de Historias Clínicas Electrónicas",
+  "titulo_corto": "Historia clínica electrónica interoperable",
+  "sumilla": "Modifica la Ley 30024 para fijar plazos obligatorios de adopción de historia clínica electrónica en todos los subsistemas de salud, adoptar estándares abiertos de interoperabilidad (HL7 FHIR), garantizar el acceso del paciente a su información y crear un tablero público de avance.",
+  "problema": "La Ley 30024 creó en 2013 el Registro Nacional de Historias Clínicas Electrónicas (RENHICE); fue modificada por el Decreto Legislativo 1306 y por la Ley 31750 (2023), que redefinió el RENHICE como infraestructura tecnológica de respaldo que utiliza la Plataforma Nacional de Interoperabilidad y habilitó el acceso a información disociada con fines de investigación. En 2025 el Minsa aprobó, mediante la Resolución Ministerial 164-2025/MINSA, una directiva para la acreditación de los sistemas de información de historias clínicas electrónicas. Sin embargo, la ley no fija plazos obligatorios para que los establecimientos del Minsa, gobiernos regionales, EsSalud, sanidades y privados adopten historias clínicas electrónicas interoperables, ni determina un estándar técnico abierto de intercambio, ni obliga a publicar el avance. En la práctica, coexisten sistemas no interoperables y registros en papel, lo que provoca duplicidad de exámenes, pérdida de información al derivar pacientes y dificulta la continuidad de la atención. El Plan Perú 2050 (Salud) propone infraestructura de datos con estándar HL7 FHIR integrada a la HCE nacional.",
+  "objeto": "Fortalecer la historia clínica electrónica interoperable mediante plazos de adopción, estándares técnicos abiertos, derechos del paciente y rendición de cuentas.",
+  "articulado": [
+   {
+    "n": "Artículo 1",
+    "titulo": "Objeto",
+    "texto": "La presente ley tiene por objeto fortalecer la implementación de la historia clínica electrónica interoperable en todos los establecimientos de salud y servicios médicos de apoyo del país, públicos, privados y mixtos, modificando e incorporando disposiciones a la Ley 30024, Ley que crea el Registro Nacional de Historias Clínicas Electrónicas."
+   },
+   {
+    "n": "Artículo 2",
+    "titulo": "Incorporación del artículo 4-A a la Ley 30024",
+    "texto": "Incorpórase el artículo 4-A a la Ley 30024, con el siguiente texto: \"Artículo 4-A. Estándares de interoperabilidad. 4-A.1 El Ministerio de Salud, en su calidad de ente rector, aprueba y actualiza los estándares técnicos de interoperabilidad de la historia clínica electrónica, priorizando estándares abiertos internacionales como HL7 FHIR y terminologías clínicas reconocidas. 4-A.2 Los sistemas de información de historias clínicas electrónicas que se adquieran, desarrollen o renueven a partir de la vigencia de la presente disposición cumplen dichos estándares como requisito para su acreditación.\""
+   },
+   {
+    "n": "Artículo 3",
+    "titulo": "Plazos de adopción",
+    "texto": "3.1 Los establecimientos de salud del segundo y tercer nivel de atención de todos los subsistemas implementan historia clínica electrónica acreditada e interoperable con el RENHICE en un plazo no mayor de tres años desde la entrada en vigor del reglamento. 3.2 Los establecimientos del primer nivel lo hacen de manera progresiva en un plazo no mayor de cinco años, priorizando aquellos con conectividad. 3.3 En los establecimientos sin conectividad se admiten soluciones de registro que permitan sincronización diferida."
+   },
+   {
+    "n": "Artículo 4",
+    "titulo": "Acceso del paciente",
+    "texto": "Toda persona tiene derecho a acceder gratuitamente, por medios digitales, a su información clínica resumida registrada en el RENHICE, a conocer qué profesionales o establecimientos accedieron a ella y a descargarla en un formato estructurado y legible, conforme a la Ley 29733."
+   },
+   {
+    "n": "Artículo 5",
+    "titulo": "Solución pública de historia clínica electrónica",
+    "texto": "El Ministerio de Salud pone a disposición de los establecimientos públicos, sin costo de licencia, una solución de historia clínica electrónica acreditada y de código abierto o de propiedad del Estado, que pueda ser adoptada por los gobiernos regionales."
+   },
+   {
+    "n": "Artículo 6",
+    "titulo": "Seguridad de la información",
+    "texto": "Los sistemas de historia clínica electrónica cumplen con medidas de seguridad, registro de accesos y trazabilidad, y se sujetan a las restricciones de uso establecidas en el artículo 3 de la Ley 31750 y a la Ley 29733."
+   },
+   {
+    "n": "Artículo 7",
+    "titulo": "Tablero público de avance",
+    "texto": "El Ministerio de Salud publica trimestralmente en la Plataforma Nacional de Datos Abiertos un tablero con el número y porcentaje de establecimientos con historia clínica electrónica acreditada e interoperable, desagregado por subsistema, región y nivel de atención."
+   },
+   {
+    "n": "Artículo 8",
+    "titulo": "Formación del personal de salud",
+    "texto": "El Ministerio de Salud y los gobiernos regionales incorporan en sus planes de desarrollo de las personas la capacitación del personal de salud en el uso de la historia clínica electrónica y en informática en salud."
+   },
+   {
+    "n": "Artículo 9",
+    "titulo": "Financiamiento",
+    "texto": "La implementación de la presente ley se financia con cargo a los presupuestos institucionales del Ministerio de Salud, EsSalud, los gobiernos regionales y demás entidades involucradas, de manera progresiva y sin demandar recursos adicionales al Tesoro Público."
+   }
+  ],
+  "disposiciones": [
+   {
+    "tipo": "Complementaria Final",
+    "n": "Primera",
+    "texto": "Adecuación reglamentaria. El Poder Ejecutivo adecúa el Reglamento de la Ley 30024 a lo dispuesto en la presente ley en un plazo de noventa días hábiles, mediante decreto supremo refrendado por el Ministro de Salud."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Segunda",
+    "texto": "Informe anual. El Ministerio de Salud informa anualmente a la comisión ordinaria competente en materia de salud sobre el cumplimiento de los plazos del artículo 3."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Tercera",
+    "texto": "Articulación con el sector privado. La Superintendencia Nacional de Salud supervisa el cumplimiento de los plazos de adopción por parte de las instituciones prestadoras de servicios de salud privadas y mixtas, en el marco de sus competencias."
+   }
+  ],
+  "costo_beneficio": "La ley no crea partidas: ordena plazos y estándares que las entidades cumplen con presupuestos institucionales de forma progresiva (art. 79). La solución pública sin costo de licencia reduce el gasto de gobiernos regionales frente a adquisiciones fragmentadas. Los costos principales son equipamiento, conectividad de establecimientos y capacitación. Los beneficios incluyen menor duplicidad de pruebas diagnósticas, continuidad de la atención en referencias y contrarreferencias, reducción de errores de medicación, mejores datos para la gestión sanitaria y la investigación (ya habilitada por la Ley 31750) y bases para servicios avanzados como telesalud y gemelos digitales. El riesgo de seguridad se mitiga con trazabilidad de accesos.",
+  "efecto_vigencia": "Modifica la Ley 30024 (incorpora el artículo 4-A) y complementa la Ley 31750, la Ley 26842 y la Ley 29733.",
+  "normas_relacionadas": [
+   {
+    "norma": "Ley 30024, Ley que crea el Registro Nacional de Historias Clínicas Electrónicas (RENHICE)",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/30024.pdf"
+   },
+   {
+    "norma": "Ley 31750, Ley que modifica los artículos 2 y 4 de la Ley 30024 (interoperabilidad de HCE e investigación con datos disociados)",
+    "url": "https://leyes.congreso.gob.pe/Documentos/2021_2026/ADLP/Texto_Consolidado/31750-TXM.pdf"
+   },
+   {
+    "norma": "Resolución Ministerial 164-2025/MINSA, Directiva de acreditación de los Sistemas de Información de Historias Clínicas Electrónicas",
+    "url": "https://busquedas.elperuano.pe/dispositivo/NL/2378748-1"
+   },
+   {
+    "norma": "Ley 26842, Ley General de Salud",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/26842.pdf"
+   },
+   {
+    "norma": "Ley 29733, Ley de Protección de Datos Personales",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/29733.pdf"
+   }
+  ],
+  "antecedentes": "La Ley 31750 (publicada el 24-05-2023) modificó los artículos 2 y 4 de la Ley 30024. Otros proyectos del periodo 2021-2026: por verificar en SPLEY.",
+  "referencias_internacionales": [
+   {
+    "pais": "Colombia",
+    "norma": "Ley 2015 de 2020, que crea la historia clínica electrónica interoperable",
+    "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=105472"
+   },
+   {
+    "pais": "Unión Europea",
+    "norma": "Reglamento (UE) 2025/327 relativo al Espacio Europeo de Datos de Salud",
+    "url": "https://eur-lex.europa.eu/eli/reg/2025/327/oj"
+   }
+  ],
+  "comision_sugerida": "Salud y Población",
+  "comision_secundaria": "Ciencia, Innovación y Tecnología",
+  "plan2050": [
+   "salud",
+   "transformacion-digital"
+  ],
+  "ods": [
+   3,
+   9
+  ],
+  "prioridad": "alta",
+  "costo_fiscal": "medio",
+  "plazo": "mediano",
+  "indicador_exito": "A 2031, el 100% de establecimientos de segundo y tercer nivel y al menos el 60% del primer nivel cuentan con historia clínica electrónica acreditada e interoperable con el RENHICE, según el tablero público del Minsa.",
+  "tags": [
+   "salud digital",
+   "historia clínica",
+   "interoperabilidad",
+   "FHIR"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Congreso: Modifican ley que crea el Registro Nacional de Historias Clínicas Electrónicas",
+    "url": "https://comunicaciones.congreso.gob.pe/noticias/modifican-ley-que-crea-el-registro-nacional-de-historias-clinicas-electronicas"
+   },
+   {
+    "titulo": "HL7 FHIR, especificación vigente",
+    "url": "https://www.hl7.org/fhir/"
+   },
+   {
+    "titulo": "OMS: Estrategia mundial sobre salud digital 2020-2025",
+    "url": "https://www.who.int/publications/i/item/9789240020924"
+   }
+  ]
+ },
+ {
+  "id": "TAL-07",
+  "eje": "talento",
+  "titulo": "Ley que modifica la Ley 30421, Ley Marco de Telesalud, para garantizar la receta electrónica interoperable y la cobertura de telesalud en zonas rurales",
+  "titulo_corto": "Telesalud y receta electrónica",
+  "sumilla": "Complementa la Ley Marco de Telesalud para dar rango legal a la receta electrónica interoperable en todos los subsistemas, asegurar su dispensación en farmacias públicas y privadas, y priorizar la telesalud en establecimientos rurales del primer nivel.",
+  "problema": "La Ley 30421, Ley Marco de Telesalud, fue fortalecida por el Decreto Legislativo 1490 (2020), que definió como servicios de telesalud la teleconsulta, la teleinterconsulta, la teleorientación y el telemonitoreo. La receta electrónica se ha desarrollado principalmente por normas de menor jerarquía: la Resolución Ministerial 968-2021/MINSA aprobó una directiva de seguridad de la información en la receta electrónica para telemedicina, y la Resolución Ministerial 053-2021/MINSA aprobó una trama estandarizada de datos para la prescripción y dispensación. No obstante, no existe una obligación legal de que la receta electrónica sea aceptada en todas las farmacias y boticas del país ni de que los sistemas de EsSalud, Minsa, gobiernos regionales y privados sean interoperables para la prescripción y dispensación. Esto limita la utilidad de la teleconsulta para pacientes rurales, que deben trasladarse para obtener una receta física. Además, la telesalud depende de la conectividad y del personal disponible en el primer nivel de atención, sin un mandato de priorización territorial.",
+  "objeto": "Dar rango legal a la receta electrónica interoperable y priorizar la telesalud en el primer nivel de atención rural.",
+  "articulado": [
+   {
+    "n": "Artículo 1",
+    "titulo": "Objeto",
+    "texto": "La presente ley tiene por objeto complementar la Ley 30421, Ley Marco de Telesalud, para establecer la receta electrónica interoperable con validez en todo el territorio nacional y priorizar la prestación de servicios de telesalud en los establecimientos de salud rurales del primer nivel de atención."
+   },
+   {
+    "n": "Artículo 2",
+    "titulo": "Receta electrónica",
+    "texto": "2.1 La receta electrónica emitida por un profesional de la salud autorizado, mediante un sistema acreditado por el Ministerio de Salud y con firma digital o mecanismo de autenticación equivalente, tiene la misma validez que la receta física. 2.2 La receta electrónica puede emitirse en atenciones presenciales y de telesalud."
+   },
+   {
+    "n": "Artículo 3",
+    "titulo": "Interoperabilidad de la prescripción y dispensación",
+    "texto": "Los sistemas de prescripción de los establecimientos de salud públicos, privados y mixtos y los sistemas de dispensación de farmacias y boticas utilizan la trama estandarizada de datos aprobada por el Ministerio de Salud y se integran progresivamente con el Registro Nacional de Historias Clínicas Electrónicas."
+   },
+   {
+    "n": "Artículo 4",
+    "titulo": "Obligación de aceptación",
+    "texto": "Las farmacias, boticas y servicios de farmacia de los establecimientos de salud del país aceptan y dispensan recetas electrónicas válidas, debiendo verificar su autenticidad mediante el servicio de validación que pone a disposición el Ministerio de Salud. La dispensación de medicamentos sujetos a fiscalización especial se rige por su normativa específica."
+   },
+   {
+    "n": "Artículo 5",
+    "titulo": "Derechos del paciente",
+    "texto": "El paciente tiene derecho a recibir su receta electrónica en formato digital e impreso a su elección, a elegir libremente el establecimiento farmacéutico de dispensación y a que sus datos sean tratados conforme a la Ley 29733."
+   },
+   {
+    "n": "Artículo 6",
+    "titulo": "Priorización territorial de la telesalud",
+    "texto": "El Ministerio de Salud y los gobiernos regionales priorizan la implementación de servicios de teleconsulta, teleinterconsulta y telemonitoreo en los establecimientos de salud del primer nivel ubicados en zonas rurales y de frontera, articulando con la red de establecimientos de mayor capacidad resolutiva."
+   },
+   {
+    "n": "Artículo 7",
+    "titulo": "Prohibición de inducción comercial",
+    "texto": "Los sistemas de receta electrónica no pueden inducir la dispensación en un establecimiento farmacéutico determinado ni incluir publicidad de medicamentos o establecimientos."
+   },
+   {
+    "n": "Artículo 8",
+    "titulo": "Supervisión",
+    "texto": "La Dirección General de Medicamentos, Insumos y Drogas (DIGEMID) y la Superintendencia Nacional de Salud supervisan el cumplimiento de la presente ley en el marco de sus competencias."
+   },
+   {
+    "n": "Artículo 9",
+    "titulo": "Financiamiento",
+    "texto": "La implementación de la presente ley se financia con cargo a los presupuestos institucionales de las entidades involucradas, sin demandar recursos adicionales al Tesoro Público."
+   }
+  ],
+  "disposiciones": [
+   {
+    "tipo": "Complementaria Final",
+    "n": "Primera",
+    "texto": "Reglamentación. El Poder Ejecutivo adecúa el reglamento de la Ley 30421 a lo dispuesto en la presente ley en un plazo de noventa días hábiles, mediante decreto supremo refrendado por el Ministro de Salud."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Segunda",
+    "texto": "Gradualidad. La obligación de aceptación del artículo 4 es exigible a los doce meses de la entrada en vigor del reglamento para cadenas de farmacias y servicios de farmacia de establecimientos públicos, y a los veinticuatro meses para las demás farmacias y boticas."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Tercera",
+    "texto": "Servicio de validación. El Ministerio de Salud implementa un servicio gratuito de validación de recetas electrónicas, accesible en línea y mediante código de verificación."
+   }
+  ],
+  "costo_beneficio": "La ley eleva a rango legal herramientas ya reguladas por el Minsa (trama estandarizada, directiva de seguridad), por lo que su costo incremental es moderado y se financia con presupuestos institucionales (art. 79). Las farmacias asumen costos de adecuación tecnológica con un periodo de gradualidad. Los beneficios son evitar traslados de pacientes rurales para obtener recetas físicas, reducir errores de lectura y falsificación de recetas, mejorar la trazabilidad de antimicrobianos y medicamentos controlados, y generar datos de consumo de medicamentos para la gestión sanitaria. La prohibición de inducción comercial protege la libre elección del paciente.",
+  "efecto_vigencia": "Complementa la Ley 30421, Ley Marco de Telesalud, modificada por el Decreto Legislativo 1490; se articula con la Ley 30024, la Ley 26842 y la Ley 29733.",
+  "normas_relacionadas": [
+   {
+    "norma": "Ley 30421, Ley Marco de Telesalud",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/30421.pdf"
+   },
+   {
+    "norma": "Decreto Legislativo 1490, que fortalece los alcances de la Telesalud (ficha UNEP-LEAP)",
+    "url": "https://leap.unep.org/en/countries/pe/national-legislation/decreto-legislativo-no-1490-decreto-legislativo-que-fortalece-los"
+   },
+   {
+    "norma": "Resolución Ministerial 968-2021/MINSA, Directiva de seguridad de la información en la receta electrónica para Telemedicina",
+    "url": "https://busquedas.elperuano.pe/download/url/aprueban-directiva-administrativa-que-establece-los-mecanism-resolucion-ministerial-n-968-2021minsa-1977314-1"
+   },
+   {
+    "norma": "Ley 30024, Ley que crea el Registro Nacional de Historias Clínicas Electrónicas (RENHICE)",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/30024.pdf"
+   },
+   {
+    "norma": "Ley 26842, Ley General de Salud",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/26842.pdf"
+   }
+  ],
+  "antecedentes": "Por verificar en SPLEY.",
+  "referencias_internacionales": [
+   {
+    "pais": "Chile",
+    "norma": "Ley 21.541, que autoriza a los prestadores de salud a efectuar atenciones mediante telemedicina (2023)",
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=1190336"
+   },
+   {
+    "pais": "Unión Europea",
+    "norma": "Reglamento (UE) 2025/327 relativo al Espacio Europeo de Datos de Salud",
+    "url": "https://eur-lex.europa.eu/eli/reg/2025/327/oj"
+   }
+  ],
+  "comision_sugerida": "Salud y Población",
+  "comision_secundaria": "Defensa del Consumidor y Organismos Reguladores de los Servicios Públicos",
+  "plan2050": [
+   "salud",
+   "desarrollo-rural",
+   "transformacion-digital"
+  ],
+  "ods": [
+   3,
+   10
+  ],
+  "prioridad": "alta",
+  "costo_fiscal": "bajo",
+  "plazo": "corto",
+  "indicador_exito": "A 2031, la receta electrónica es aceptada por el 100% de servicios de farmacia públicos y cadenas de farmacias, y al menos el 50% de establecimientos rurales del primer nivel brindan teleconsulta o teleinterconsulta.",
+  "tags": [
+   "telesalud",
+   "receta electrónica",
+   "farmacias",
+   "salud rural"
+  ],
+  "fuentes": [
+   {
+    "titulo": "OMS: Estrategia mundial sobre salud digital 2020-2025",
+    "url": "https://www.who.int/publications/i/item/9789240020924"
+   },
+   {
+    "titulo": "HL7 FHIR, especificación vigente",
+    "url": "https://www.hl7.org/fhir/"
+   }
+  ]
+ },
+ {
+  "id": "TAL-08",
+  "eje": "talento",
+  "titulo": "Ley que promueve la agricultura de precisión y declara de acceso abierto los datos agroclimáticos e hidrometeorológicos producidos por el Estado",
+  "titulo_corto": "Agtech y datos agroclimáticos abiertos",
+  "sumilla": "Establece la apertura por defecto, gratuita y en formatos reutilizables de los datos meteorológicos, hidrológicos, agroclimáticos y de suelos producidos por el SENAMHI, el INIA, la ANA y el MIDAGRI, y crea un programa de extensión agraria digital para pequeños productores.",
+  "problema": "La agricultura familiar es altamente vulnerable a la variabilidad climática, a las heladas, sequías y lluvias intensas asociadas al Fenómeno El Niño. El Estado produce información valiosa para la toma de decisiones agrícolas: el SENAMHI, regido por la Ley 24031, opera redes de estaciones y publica datos hidrometeorológicos; el INIA genera información de suelos y variedades; la Autoridad Nacional del Agua administra datos de recursos hídricos conforme a la Ley 29338. Sin embargo, no existe una obligación legal de que estos datos se publiquen de forma completa, gratuita, en formatos abiertos y mediante interfaces de programación (API), lo que limita su reutilización por universidades, emprendimientos agtech, cooperativas y gobiernos regionales. A su vez, los pequeños productores tienen bajo acceso a servicios de extensión que traduzcan esa información en recomendaciones de siembra, riego y sanidad. El Plan Perú 2050 en Agricultura y Medio Ambiente plantea modernización tecnológica y trazabilidad; la experiencia europea de conjuntos de datos de alto valor muestra que la apertura de datos meteorológicos y de observación de la Tierra genera servicios de valor agregado.",
+  "objeto": "Declarar de acceso abierto los datos agroclimáticos e hidrometeorológicos públicos y promover la agricultura de precisión entre pequeños productores.",
+  "articulado": [
+   {
+    "n": "Artículo 1",
+    "titulo": "Objeto",
+    "texto": "La presente ley tiene por objeto promover la agricultura de precisión y el uso de datos en el sector agrario, estableciendo el acceso abierto a los datos agroclimáticos, hidrometeorológicos y de suelos producidos o financiados por el Estado."
+   },
+   {
+    "n": "Artículo 2",
+    "titulo": "Datos agroclimáticos de alto valor",
+    "texto": "2.1 Se consideran datos agroclimáticos de alto valor, entre otros: observaciones meteorológicas e hidrológicas, pronósticos y avisos, series históricas, índices de sequía y heladas, mapas de suelos, calendarios de cultivos, información de plagas y datos de disponibilidad hídrica. 2.2 El reglamento establece el inventario inicial y su actualización periódica."
+   },
+   {
+    "n": "Artículo 3",
+    "titulo": "Apertura por defecto",
+    "texto": "3.1 El SENAMHI, el Instituto Nacional de Innovación Agraria (INIA), la Autoridad Nacional del Agua (ANA), el Servicio Nacional de Sanidad Agraria (SENASA) y el Ministerio de Desarrollo Agrario y Riego publican los datos de alto valor de forma gratuita, en formatos abiertos y legibles por máquina, con metadatos y licencia abierta, en la Plataforma Nacional de Datos Abiertos. 3.2 Los datos de observación de estaciones automáticas se ponen a disposición mediante interfaces de programación de aplicaciones con actualización periódica."
+   },
+   {
+    "n": "Artículo 4",
+    "titulo": "Excepciones",
+    "texto": "Solo se exceptúan de la publicación los datos cuya reserva esté expresamente establecida por ley, los datos personales protegidos por la Ley 29733 y la información cuya difusión afecte la seguridad nacional, debidamente motivada."
+   },
+   {
+    "n": "Artículo 5",
+    "titulo": "Extensión agraria digital",
+    "texto": "El Ministerio de Desarrollo Agrario y Riego, en coordinación con los gobiernos regionales, implementa un servicio de extensión agraria digital que difunda alertas agroclimáticas y recomendaciones técnicas a pequeños productores mediante mensajería de texto, radio, aplicaciones y extensionistas, en castellano y lenguas originarias."
+   },
+   {
+    "n": "Artículo 6",
+    "titulo": "Agricultura de precisión",
+    "texto": "El Ministerio de Desarrollo Agrario y Riego promueve, a través de sus programas existentes, la adopción de tecnologías de agricultura de precisión, como sensores de humedad, riego tecnificado con telemetría, imágenes satelitales y drones, priorizando organizaciones de productores y cooperativas."
+   },
+   {
+    "n": "Artículo 7",
+    "titulo": "Datos generados por productores",
+    "texto": "Los datos generados por productores agrarios mediante tecnologías digitales son de su titularidad. Los proveedores de servicios agtech informan de manera clara sobre el uso de dichos datos y permiten su portabilidad, sin perjuicio de la Ley 29733."
+   },
+   {
+    "n": "Artículo 8",
+    "titulo": "Colaboración académica",
+    "texto": "Las entidades del artículo 3 pueden suscribir convenios con universidades e institutos para el desarrollo de modelos de pronóstico, servicios climáticos y aplicaciones de valor agregado basadas en datos abiertos."
+   },
+   {
+    "n": "Artículo 9",
+    "titulo": "Financiamiento",
+    "texto": "La implementación de la presente ley se financia con cargo a los presupuestos institucionales de las entidades involucradas, sin demandar recursos adicionales al Tesoro Público."
+   }
+  ],
+  "disposiciones": [
+   {
+    "tipo": "Complementaria Final",
+    "n": "Primera",
+    "texto": "Reglamentación. El Poder Ejecutivo reglamenta la presente ley en un plazo de noventa días hábiles mediante decreto supremo refrendado por los Ministros de Desarrollo Agrario y Riego y del Ambiente."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Segunda",
+    "texto": "Plazo de apertura. Las entidades del artículo 3 publican el inventario inicial de datos de alto valor en un plazo de ciento ochenta días hábiles desde la entrada en vigor del reglamento."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Tercera",
+    "texto": "Tarifas. A partir de la entrada en vigor de la presente ley, las entidades no pueden cobrar por el acceso a los datos de alto valor publicados conforme al artículo 3, sin perjuicio del cobro por servicios especializados a medida conforme a su TUPA."
+   }
+  ],
+  "costo_beneficio": "El costo fiscal es bajo: los datos ya se producen; la ley exige publicarlos en formatos abiertos y API, con costos de infraestructura de publicación asumidos por los presupuestos institucionales (art. 79). La eliminación de cobros por datos de alto valor puede reducir ingresos propios marginales de algunas entidades, compensables con el ahorro en atención de solicitudes. Los beneficios son mejores decisiones de siembra y riego, reducción de pérdidas por eventos climáticos, desarrollo de servicios agtech nacionales, mejores seguros agrarios paramétricos e investigación. La extensión digital multicanal amplía la llegada a productores con baja conectividad.",
+  "efecto_vigencia": "Complementa la Ley 24031 (SENAMHI) y la Ley 29338, Ley de Recursos Hídricos; se articula con la Ley 29733. No deroga normas.",
+  "normas_relacionadas": [
+   {
+    "norma": "Ley 24031, Ley del Servicio Nacional de Meteorología e Hidrología (SENAMHI)",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/24031.pdf"
+   },
+   {
+    "norma": "Ley 29338, Ley de Recursos Hídricos",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/29338.pdf"
+   },
+   {
+    "norma": "Ley 29733, Ley de Protección de Datos Personales",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/29733.pdf"
+   }
+  ],
+  "antecedentes": "Por verificar en SPLEY.",
+  "referencias_internacionales": [
+   {
+    "pais": "Unión Europea",
+    "norma": "Directiva (UE) 2019/1024 relativa a los datos abiertos y la reutilización de la información del sector público",
+    "url": "https://eur-lex.europa.eu/eli/dir/2019/1024/oj"
+   },
+   {
+    "pais": "Unión Europea",
+    "norma": "Reglamento de Ejecución (UE) 2023/138, conjuntos de datos de alto valor (incluye datos meteorológicos y de observación de la Tierra)",
+    "url": "https://eur-lex.europa.eu/eli/reg_impl/2023/138/oj"
+   }
+  ],
+  "comision_sugerida": "Agraria",
+  "comision_secundaria": "Ciencia, Innovación y Tecnología",
+  "plan2050": [
+   "agricultura",
+   "desarrollo-rural",
+   "seguridad-alimentaria-nutricion"
+  ],
+  "ods": [
+   2,
+   13,
+   9
+  ],
+  "prioridad": "alta",
+  "costo_fiscal": "bajo",
+  "plazo": "corto",
+  "indicador_exito": "A 2031, el 100% de los datos de alto valor inventariados están publicados en formato abierto con API, y el servicio de extensión digital llega a productores en todas las regiones.",
+  "tags": [
+   "agtech",
+   "datos abiertos",
+   "SENAMHI",
+   "clima",
+   "agricultura familiar"
+  ],
+  "fuentes": [
+   {
+    "titulo": "SENAMHI: Datos hidrometeorológicos",
+    "url": "https://www.senamhi.gob.pe/?p=datos-hidrometeorologicos"
+   },
+   {
+    "titulo": "Plataforma Nacional de Datos Abiertos",
+    "url": "https://www.datosabiertos.gob.pe/"
+   }
+  ]
+ },
+ {
+  "id": "TAL-09",
+  "eje": "talento",
+  "titulo": "Ley que promueve la minería 4.0 con monitoreo ambiental en tiempo real, datos abiertos y trazabilidad digital de minerales",
+  "titulo_corto": "Minería 4.0 y monitoreo abierto",
+  "sumilla": "Establece la transmisión en tiempo real al OEFA de los datos de monitoreo de calidad de agua, aire y efluentes de las unidades mineras de mediana y gran escala, su publicación como datos abiertos y un sistema de trazabilidad digital de minerales desde la concesión hasta la exportación.",
+  "problema": "La minería es una actividad central para la economía peruana y una fuente recurrente de conflictos socioambientales, en los que la desconfianza sobre la calidad del agua y del aire es un factor determinante. El Sistema Nacional de Evaluación y Fiscalización Ambiental (Ley 29325) y la Ley General del Ambiente (Ley 28611) establecen obligaciones de monitoreo y fiscalización, pero los reportes de monitoreo suelen ser periódicos y documentales, con desfase entre la medición y su conocimiento público, lo que limita la vigilancia ciudadana y la respuesta oportuna ante incidentes. A su vez, la comercialización de minerales provenientes de la minería ilegal se ve facilitada por la ausencia de una trazabilidad digital integrada entre concesión, producción, transporte, plantas de beneficio y exportación. El Plan Perú 2050 (Medio Ambiente) propone la automatización del 100% de la fiscalización ambiental con trazabilidad total y monitoreo en tiempo real hacia 2030, y la operación de industrias medianas y grandes con sistemas de trazabilidad automatizada. Los mercados internacionales, como la Unión Europea, exigen crecientemente diligencia debida y trazabilidad en cadenas de suministro de minerales.",
+  "objeto": "Establecer el monitoreo ambiental en tiempo real con datos abiertos y la trazabilidad digital de minerales.",
+  "articulado": [
+   {
+    "n": "Artículo 1",
+    "titulo": "Objeto",
+    "texto": "La presente ley tiene por objeto promover la modernización tecnológica de la actividad minera mediante el monitoreo ambiental en tiempo real, la publicación de sus datos en formato abierto y la trazabilidad digital de los minerales."
+   },
+   {
+    "n": "Artículo 2",
+    "titulo": "Ámbito",
+    "texto": "La presente ley es de aplicación a los titulares de actividades mineras de mediana y gran minería. La pequeña minería y la minería artesanal se incorporan de manera progresiva y diferenciada, conforme al reglamento."
+   },
+   {
+    "n": "Artículo 3",
+    "titulo": "Monitoreo ambiental en tiempo real",
+    "texto": "3.1 Los titulares mineros instalan, en los puntos de control establecidos en sus instrumentos de gestión ambiental que determine el Organismo de Evaluación y Fiscalización Ambiental (OEFA), estaciones automáticas de monitoreo de calidad de agua, efluentes y aire, que transmiten sus datos al OEFA de manera continua. 3.2 El OEFA aprueba las especificaciones técnicas, los parámetros priorizados, la frecuencia de transmisión y los protocolos de calibración y auditoría de los equipos."
+   },
+   {
+    "n": "Artículo 4",
+    "titulo": "Publicación de datos abiertos",
+    "texto": "El OEFA publica los datos recibidos conforme al artículo 3 en una plataforma pública, en formatos abiertos y con mapas georreferenciados, acompañados de los estándares de calidad ambiental y límites máximos permisibles aplicables y de la indicación de datos aún no validados."
+   },
+   {
+    "n": "Artículo 5",
+    "titulo": "Alertas y respuesta",
+    "texto": "Cuando los datos transmitidos superen los límites máximos permisibles, el sistema emite alertas automáticas al titular, al OEFA, a la autoridad de salud y a las municipalidades del área de influencia, sin perjuicio de las acciones de supervisión y fiscalización que correspondan."
+   },
+   {
+    "n": "Artículo 6",
+    "titulo": "Monitoreo ambiental participativo",
+    "texto": "Los comités de monitoreo y vigilancia ambiental participativa acceden a los datos en tiempo real y pueden solicitar al OEFA la verificación de equipos. El OEFA brinda capacitación para la interpretación de los datos."
+   },
+   {
+    "n": "Artículo 7",
+    "titulo": "Trazabilidad digital de minerales",
+    "texto": "7.1 El Ministerio de Energía y Minas, en coordinación con la Superintendencia Nacional de Aduanas y de Administración Tributaria (SUNAT) y el OEFA, implementa un sistema de trazabilidad digital que registre el origen, volumen, transporte, procesamiento y exportación de minerales, vinculado al derecho minero de origen. 7.2 Las plantas de beneficio, comercializadores y exportadores registran sus operaciones en dicho sistema."
+   },
+   {
+    "n": "Artículo 8",
+    "titulo": "Formación de talento en minería 4.0",
+    "texto": "El Ministerio de Energía y Minas promueve, con universidades, institutos y empresas, programas de formación en automatización, sensórica, análisis de datos y gestión ambiental digital aplicados a la minería, articulados con los programas de becas existentes."
+   },
+   {
+    "n": "Artículo 9",
+    "titulo": "Confidencialidad",
+    "texto": "Los datos de monitoreo ambiental no constituyen información confidencial. La información comercial de trazabilidad se publica en forma agregada, respetando el secreto tributario y comercial conforme a ley."
+   },
+   {
+    "n": "Artículo 10",
+    "titulo": "Financiamiento",
+    "texto": "Los costos de instalación y operación de las estaciones de monitoreo son asumidos por los titulares mineros. La implementación a cargo de las entidades públicas se financia con sus presupuestos institucionales, sin demandar recursos adicionales al Tesoro Público."
+   }
+  ],
+  "disposiciones": [
+   {
+    "tipo": "Complementaria Final",
+    "n": "Primera",
+    "texto": "Reglamentación. El Poder Ejecutivo reglamenta la presente ley en un plazo de ciento veinte días hábiles mediante decreto supremo refrendado por los Ministros del Ambiente y de Energía y Minas."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Segunda",
+    "texto": "Gradualidad. La obligación del artículo 3 es exigible a la gran minería a los dieciocho meses y a la mediana minería a los treinta y seis meses de la entrada en vigor del reglamento."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Tercera",
+    "texto": "Instrumentos de gestión ambiental. Los titulares mineros actualizan sus instrumentos de gestión ambiental para incorporar los puntos de monitoreo en tiempo real, conforme al procedimiento simplificado que establezca el reglamento."
+   }
+  ],
+  "costo_beneficio": "El costo para el Estado es bajo: el OEFA y el MINEM desarrollan plataformas con presupuesto institucional (art. 79); los equipos los financian los titulares, en aplicación del principio de internalización de costos de la Ley 28611. Para las empresas, el costo de estaciones automáticas es moderado respecto de su escala y se compensa con menor conflictividad y mejor acceso a mercados con exigencias de diligencia debida. Los beneficios son detección temprana de incidentes, confianza ciudadana basada en datos verificables, fiscalización más eficiente y reducción de la comercialización de minerales de origen ilegal mediante trazabilidad.",
+  "efecto_vigencia": "Complementa la Ley 29325 (SINEFA), la Ley 28611 y la Ley 28245. No deroga normas.",
+  "normas_relacionadas": [
+   {
+    "norma": "Ley 29325, Ley del Sistema Nacional de Evaluación y Fiscalización Ambiental (SINEFA)",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/29325.pdf"
+   },
+   {
+    "norma": "Ley 28611, Ley General del Ambiente",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/28611.pdf"
+   },
+   {
+    "norma": "Ley 28245, Ley Marco del Sistema Nacional de Gestión Ambiental",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/28245.pdf"
+   },
+   {
+    "norma": "Ley 29338, Ley de Recursos Hídricos",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/29338.pdf"
+   }
+  ],
+  "antecedentes": "Por verificar en SPLEY.",
+  "referencias_internacionales": [
+   {
+    "pais": "Unión Europea",
+    "norma": "Reglamento (UE) 2023/1542 sobre pilas y baterías (pasaporte digital y diligencia debida en materias primas)",
+    "url": "https://eur-lex.europa.eu/eli/reg/2023/1542/oj"
+   },
+   {
+    "pais": "Unión Europea",
+    "norma": "Reglamento (UE) 2024/1252, Ley Europea de Materias Primas Fundamentales",
+    "url": "https://eur-lex.europa.eu/eli/reg/2024/1252/oj"
+   }
+  ],
+  "comision_sugerida": "Energía y Minas",
+  "comision_secundaria": "Pueblos Andinos, Amazónicos y Afroperuanos, Ambiente y Ecología",
+  "plan2050": [
+   "mineria",
+   "medio-ambiente"
+  ],
+  "ods": [
+   6,
+   12,
+   16
+  ],
+  "prioridad": "alta",
+  "costo_fiscal": "bajo",
+  "plazo": "mediano",
+  "indicador_exito": "A 2031, el 100% de las unidades de gran minería y al menos el 70% de mediana minería transmiten datos de monitoreo en tiempo real publicados por el OEFA, y el sistema de trazabilidad registra las exportaciones de oro.",
+  "tags": [
+   "minería",
+   "monitoreo ambiental",
+   "datos abiertos",
+   "trazabilidad",
+   "OEFA"
+  ],
+  "fuentes": [
+   {
+    "titulo": "OEFA: portal institucional",
+    "url": "https://www.oefa.gob.pe/"
+   },
+   {
+    "titulo": "Plataforma Nacional de Datos Abiertos",
+    "url": "https://www.datosabiertos.gob.pe/"
+   }
+  ]
+ },
+ {
+  "id": "TAL-10",
+  "eje": "talento",
+  "titulo": "Ley que fortalece el Sistema Nacional de Alerta Temprana Multiamenaza con tecnologías digitales y datos abiertos",
+  "titulo_corto": "Alertas tempranas multiamenaza",
+  "sumilla": "Integra en un sistema nacional de alerta temprana multiamenaza la información del IGP, SENAMHI, DHN, INGEMMET y ANA, con difusión multicanal (SISMATE, radio, sirenas), protocolos de último kilómetro y publicación abierta de datos de monitoreo.",
+  "problema": "El Perú está expuesto a sismos, tsunamis, lluvias intensas, huaicos, heladas, sequías y a los efectos del Fenómeno El Niño. La Ley 29664 creó el Sistema Nacional de Gestión del Riesgo de Desastres (SINAGERD), y la Ley 30472 dispuso la creación del Sistema de Mensajería de Alerta Temprana de Emergencias (SISMATE), cuyo reglamento y anexo técnico regulan la difusión de mensajes a través de operadores móviles. Sin embargo, la generación de alertas depende de varias entidades técnico-científicas (IGP, SENAMHI, Dirección de Hidrografía y Navegación, INGEMMET, ANA) sin un marco legal que defina una arquitectura integrada multiamenaza, tiempos máximos de emisión, interoperabilidad de datos ni responsabilidades en el último kilómetro, es decir, la llegada efectiva del mensaje a comunidades rurales sin cobertura móvil y su traducción en acciones de evacuación. La iniciativa de Naciones Unidas \"Alertas Tempranas para Todos\" plantea que toda persona esté protegida por sistemas de alerta temprana, y destaca que estos requieren conocimiento del riesgo, monitoreo, difusión y capacidad de respuesta integrados.",
+  "objeto": "Fortalecer la alerta temprana multiamenaza mediante integración de datos, difusión multicanal y protocolos de último kilómetro.",
+  "articulado": [
+   {
+    "n": "Artículo 1",
+    "titulo": "Objeto",
+    "texto": "La presente ley tiene por objeto fortalecer la alerta temprana ante peligros de origen natural e inducidos por la acción humana, mediante un sistema nacional multiamenaza que integre el monitoreo, el análisis, la difusión y la respuesta, en el marco del SINAGERD."
+   },
+   {
+    "n": "Artículo 2",
+    "titulo": "Sistema Nacional de Alerta Temprana Multiamenaza",
+    "texto": "2.1 El Sistema Nacional de Alerta Temprana Multiamenaza es el conjunto articulado de entidades, redes de monitoreo, plataformas, protocolos y canales de difusión para la emisión oportuna de alertas. 2.2 Lo integran, en el marco de sus competencias, el Instituto Nacional de Defensa Civil (INDECI), el Centro Nacional de Estimación, Prevención y Reducción del Riesgo de Desastres (CENEPRED), el Instituto Geofísico del Perú (IGP), el SENAMHI, la Dirección de Hidrografía y Navegación, el Instituto Geológico, Minero y Metalúrgico (INGEMMET), la Autoridad Nacional del Agua y el Ministerio de Transportes y Comunicaciones."
+   },
+   {
+    "n": "Artículo 3",
+    "titulo": "Interoperabilidad de datos de monitoreo",
+    "texto": "Las entidades técnico-científicas integrantes comparten en tiempo real, mediante la Plataforma Nacional de Interoperabilidad u otros mecanismos seguros, los datos de sus redes de monitoreo, y los publican en formato abierto, salvo las restricciones previstas por ley."
+   },
+   {
+    "n": "Artículo 4",
+    "titulo": "Protocolos de emisión",
+    "texto": "El INDECI, en coordinación con las entidades técnico-científicas, aprueba protocolos que establecen para cada peligro: umbrales de alerta, tiempos máximos de emisión, entidad responsable de la emisión, mensajes estandarizados y canales de difusión."
+   },
+   {
+    "n": "Artículo 5",
+    "titulo": "Difusión multicanal",
+    "texto": "Las alertas se difunden simultáneamente por el SISMATE, radiodifusión, sirenas, redes sociales oficiales y otros medios disponibles. Los mensajes se emiten en castellano y, en las zonas que corresponda, en lenguas originarias, y en formatos accesibles para personas con discapacidad."
+   },
+   {
+    "n": "Artículo 6",
+    "titulo": "Último kilómetro",
+    "texto": "Los gobiernos regionales y locales, en el marco de sus planes de gestión del riesgo, implementan sistemas comunitarios de alerta temprana en zonas sin cobertura móvil o de alta exposición, con equipos de radio, sirenas y brigadas capacitadas, y realizan simulacros periódicos."
+   },
+   {
+    "n": "Artículo 7",
+    "titulo": "Tecnologías emergentes",
+    "texto": "El sistema promueve el uso de sensores de bajo costo, alerta sísmica temprana, imágenes satelitales, modelamiento hidrológico y herramientas de inteligencia artificial para mejorar la anticipación, conforme a la Ley 31814 y bajo supervisión humana en la decisión de emisión."
+   },
+   {
+    "n": "Artículo 8",
+    "titulo": "Evaluación posevento",
+    "texto": "Luego de cada evento que active una alerta, el INDECI publica un informe de desempeño que registra los tiempos de emisión y difusión, la cobertura alcanzada y las lecciones aprendidas."
+   },
+   {
+    "n": "Artículo 9",
+    "titulo": "Financiamiento",
+    "texto": "La implementación de la presente ley se financia con cargo a los presupuestos institucionales de las entidades involucradas, incluidos los recursos del programa presupuestal de reducción de la vulnerabilidad y atención de emergencias por desastres, sin demandar recursos adicionales al Tesoro Público."
+   }
+  ],
+  "disposiciones": [
+   {
+    "tipo": "Complementaria Final",
+    "n": "Primera",
+    "texto": "Reglamentación. El Poder Ejecutivo reglamenta la presente ley en un plazo de noventa días hábiles mediante decreto supremo refrendado por el Presidente del Consejo de Ministros y el Ministro de Defensa."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Segunda",
+    "texto": "Protocolos iniciales. Los protocolos del artículo 4 para sismo y tsunami, lluvias intensas y huaicos, y eventos asociados al Fenómeno El Niño se aprueban en un plazo de ciento ochenta días hábiles."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Tercera",
+    "texto": "Articulación con la Ley 30472. El Ministerio de Transportes y Comunicaciones adecúa el reglamento y el anexo técnico del SISMATE para garantizar su integración con los protocolos aprobados conforme a la presente ley."
+   }
+  ],
+  "costo_beneficio": "La ley ordena la integración de capacidades existentes y se financia con presupuestos institucionales y el programa presupuestal de gestión del riesgo, sin gasto directo nuevo (art. 79). Los costos incrementales son la interoperabilidad de redes, equipos comunitarios en zonas sin cobertura y simulacros. La evidencia internacional, recogida por la iniciativa de Naciones Unidas Alertas Tempranas para Todos, identifica a los sistemas de alerta temprana como una de las inversiones de adaptación más costo-efectivas, porque reducen pérdidas de vidas y daños materiales. La evaluación posevento permite mejora continua y rendición de cuentas.",
+  "efecto_vigencia": "Complementa la Ley 29664 (SINAGERD) y la Ley 30472 (SISMATE); se articula con la Ley 24031 y la Ley 31814. No deroga normas.",
+  "normas_relacionadas": [
+   {
+    "norma": "Ley 29664, Ley que crea el Sistema Nacional de Gestión del Riesgo de Desastres (SINAGERD)",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/29664.pdf"
+   },
+   {
+    "norma": "Ley 30472, Ley que dispone la creación, implementación, operación y mantenimiento del Sistema de Mensajería de Alerta Temprana de Emergencias (SISMATE)",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/30472.pdf"
+   },
+   {
+    "norma": "Resolución Ministerial que aprueba el Anexo Técnico del SISMATE",
+    "url": "https://busquedas.elperuano.pe/dispositivo/NL/1612561-2"
+   },
+   {
+    "norma": "Ley 24031, Ley del Servicio Nacional de Meteorología e Hidrología (SENAMHI)",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/24031.pdf"
+   },
+   {
+    "norma": "Ley 31814, Ley que promueve el uso de la inteligencia artificial en favor del desarrollo económico y social del país",
+    "url": "https://leyes.congreso.gob.pe/Documentos/2021_2026/ADLP/Texto_Consolidado/31814-TXM.pdf"
+   }
+  ],
+  "antecedentes": "Por verificar en SPLEY.",
+  "referencias_internacionales": [
+   {
+    "pais": "Unión Europea",
+    "norma": "Directiva (UE) 2018/1972, Código Europeo de las Comunicaciones Electrónicas (art. 110, sistemas de alerta pública)",
+    "url": "https://eur-lex.europa.eu/eli/dir/2018/1972/oj"
+   }
+  ],
+  "comision_sugerida": "Defensa Nacional, Orden Interno, Desarrollo Alternativo y Lucha contra las Drogas",
+  "comision_secundaria": "Descentralización, Regionalización, Gobiernos Locales y Modernización de la Gestión del Estado",
+  "plan2050": [
+   "medio-ambiente",
+   "orden-publico-y-seguridad",
+   "ciudades-inteligentes"
+  ],
+  "ods": [
+   11,
+   13
+  ],
+  "prioridad": "alta",
+  "costo_fiscal": "bajo",
+  "plazo": "corto",
+  "indicador_exito": "A 2031, protocolos multiamenaza aprobados para los peligros priorizados e informes posevento publicados para el 100% de alertas activadas, con tiempos de emisión medidos.",
+  "tags": [
+   "gestión del riesgo",
+   "alerta temprana",
+   "El Niño",
+   "sismos",
+   "datos abiertos"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Naciones Unidas: Early Warnings for All",
+    "url": "https://www.un.org/en/climatechange/early-warnings-for-all"
+   },
+   {
+    "titulo": "Instituto Geofísico del Perú (IGP)",
+    "url": "https://www.igp.gob.pe/"
+   },
+   {
+    "titulo": "SENAMHI: Datos hidrometeorológicos",
+    "url": "https://www.senamhi.gob.pe/?p=datos-hidrometeorologicos"
+   }
+  ]
+ },
+ {
+  "id": "TAL-11",
+  "eje": "talento",
+  "titulo": "Ley que establece estándares abiertos e interoperables para el pasaje electrónico y la información al usuario del Sistema Integrado de Transporte de Lima y Callao",
+  "titulo_corto": "Pasaje electrónico interoperable Lima-Callao",
+  "sumilla": "Modifica la Ley 30900 para que el Sistema de Recaudo Único use estándares abiertos, acepte medios de pago bancarios y digitales sin exclusividad, proteja los datos de viaje y publique datos abiertos de rutas y tiempos en formato GTFS.",
+  "problema": "La Ley 30900 creó la Autoridad de Transporte Urbano para Lima y Callao (ATU) y le encargó organizar el Sistema Integrado de Transporte con integración física, operacional, tarifaria y de medios de pago, y administrar el Sistema de Recaudo Único, definido como la unidad de gestión de la venta, recarga, distribución y validación de los medios de acceso. La Ley 31596 (2022) amplió la potestad sancionadora de la ATU a operadores y usuarios del Sistema de Recaudo Único y la facultó para homologar sus equipos. Sin embargo, la ley no establece que el recaudo deba basarse en estándares abiertos ni que sea interoperable con medios de pago bancarios y digitales, lo que expone al sistema a la dependencia de un solo proveedor tecnológico y obliga a los usuarios a portar distintas tarjetas según el servicio. Tampoco obliga a publicar datos abiertos de rutas, paraderos, horarios y posición de flota, insumo para aplicaciones de información al usuario, ni regula expresamente la protección de los datos de viaje, que permiten reconstruir los desplazamientos de las personas.",
+  "objeto": "Establecer estándares abiertos e interoperables para el recaudo electrónico, la protección de datos de viaje y la publicación de datos abiertos de transporte en Lima y Callao.",
+  "articulado": [
+   {
+    "n": "Artículo 1",
+    "titulo": "Objeto",
+    "texto": "La presente ley tiene por objeto modificar la Ley 30900, Ley que crea la Autoridad de Transporte Urbano para Lima y Callao (ATU), a fin de establecer estándares abiertos e interoperables para el Sistema de Recaudo Único, proteger los datos de viaje de los usuarios y garantizar la publicación de datos abiertos de transporte."
+   },
+   {
+    "n": "Artículo 2",
+    "titulo": "Incorporación del artículo 6-A a la Ley 30900",
+    "texto": "Incorpórase el artículo 6-A a la Ley 30900, con el siguiente texto: \"Artículo 6-A. Interoperabilidad del Sistema de Recaudo Único. 6-A.1 Las especificaciones técnicas del Sistema de Recaudo Único que apruebe la ATU se basan en estándares abiertos y no propietarios, que permitan la participación de múltiples proveedores de equipos y servicios. 6-A.2 El Sistema de Recaudo Único acepta, de manera progresiva, tarjetas de pago sin contacto emitidas por entidades del sistema financiero, pagos mediante códigos o dispositivos móviles y la tarjeta del propio sistema, sin exclusividad a favor de un medio de pago o proveedor determinado. 6-A.3 Un mismo medio de pago es válido en todos los servicios que integran el Sistema Integrado de Transporte, incluidos los servicios de transporte masivo y los corredores complementarios.\""
+   },
+   {
+    "n": "Artículo 3",
+    "titulo": "Tarifas integradas y beneficios",
+    "texto": "La ATU garantiza que los descuentos, pasajes diferenciados y beneficios establecidos por ley se apliquen de manera automática a través de cualquier medio de pago registrado por el usuario, conforme al reglamento."
+   },
+   {
+    "n": "Artículo 4",
+    "titulo": "Protección de datos de viaje",
+    "texto": "4.1 Los datos de viaje asociados a medios de pago identificables constituyen datos personales y se tratan conforme a la Ley 29733. 4.2 La ATU y los operadores del recaudo solo pueden usarlos para fines de operación, planificación y fiscalización del sistema; para planificación se usan datos anonimizados o agregados. 4.3 Se garantiza la existencia de un medio de pago que no requiera identificación del usuario."
+   },
+   {
+    "n": "Artículo 5",
+    "titulo": "Datos abiertos de transporte",
+    "texto": "La ATU publica y mantiene actualizados, en formato abierto y conforme a especificaciones internacionales como GTFS y GTFS Realtime, los datos de rutas, paraderos, horarios, frecuencias y, progresivamente, la posición en tiempo real de la flota de los servicios bajo su competencia."
+   },
+   {
+    "n": "Artículo 6",
+    "titulo": "Información al usuario",
+    "texto": "La ATU pone a disposición información accesible sobre tarifas, saldos, recargas y reclamos por canales digitales y presenciales, incluyendo formatos accesibles para personas con discapacidad."
+   },
+   {
+    "n": "Artículo 7",
+    "titulo": "Transición contractual",
+    "texto": "Los contratos de concesión o de prestación de servicios de recaudo vigentes se adecúan a lo dispuesto en la presente ley en la oportunidad de su renovación, adenda o nueva contratación, respetando los derechos adquiridos conforme al marco contractual."
+   },
+   {
+    "n": "Artículo 8",
+    "titulo": "Financiamiento",
+    "texto": "La implementación de la presente ley se financia con cargo al presupuesto institucional de la ATU y a los mecanismos contractuales del Sistema de Recaudo Único, sin demandar recursos adicionales al Tesoro Público."
+   }
+  ],
+  "disposiciones": [
+   {
+    "tipo": "Complementaria Final",
+    "n": "Primera",
+    "texto": "Adecuación reglamentaria. El Poder Ejecutivo adecúa el Reglamento de la Ley 30900 a lo dispuesto en la presente ley en un plazo de noventa días hábiles, mediante decreto supremo refrendado por el Ministro de Transportes y Comunicaciones."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Segunda",
+    "texto": "Plazo de datos abiertos. La ATU publica los datos estáticos de rutas y paraderos a que se refiere el artículo 5 en un plazo de ciento ochenta días hábiles desde la entrada en vigor de la presente ley."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Tercera",
+    "texto": "Aplicación a otras ciudades. Las municipalidades provinciales que implementen sistemas de recaudo electrónico pueden adoptar los estándares de la presente ley, con asistencia técnica del Ministerio de Transportes y Comunicaciones."
+   }
+  ],
+  "costo_beneficio": "La ley no genera gasto directo (art. 79): define reglas técnicas que la ATU aplica en sus procesos de contratación y renovación, con presupuesto institucional y mecanismos contractuales. Los estándares abiertos reducen el riesgo de dependencia de un proveedor y pueden abaratar futuras adquisiciones por mayor competencia. Para los usuarios, un único medio de pago y la aceptación de tarjetas bancarias reducen costos de transacción y tiempo. La publicación de datos GTFS, de costo muy bajo, habilita aplicaciones de planificación de viajes desarrolladas por terceros. La protección de datos de viaje previene usos indebidos. El costo principal es la adecuación de validadores, a implementarse en los ciclos contractuales.",
+  "efecto_vigencia": "Modifica la Ley 30900 (incorpora el artículo 6-A), modificada por la Ley 31596; se articula con la Ley 29733.",
+  "normas_relacionadas": [
+   {
+    "norma": "Ley 30900, Ley que crea la Autoridad de Transporte Urbano para Lima y Callao (ATU)",
+    "url": "https://leyes.congreso.gob.pe/Documentos/2016_2021/ADLP/Texto_Consolidado/30900-TXM.pdf"
+   },
+   {
+    "norma": "Ley 31596, Ley que establece medidas para garantizar la cobertura adecuada, continuidad y calidad del servicio de transporte público en Lima y Callao (modifica la Ley 30900)",
+    "url": "https://leyes.congreso.gob.pe/Documentos/2021_2026/ADLP/Texto_Consolidado/31596-TXM.pdf"
+   },
+   {
+    "norma": "Ley 29733, Ley de Protección de Datos Personales",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/29733.pdf"
+   }
+  ],
+  "antecedentes": "Por verificar en SPLEY.",
+  "referencias_internacionales": [
+   {
+    "pais": "Unión Europea",
+    "norma": "Reglamento Delegado (UE) 2017/1926 sobre servicios de información de viajes multimodales",
+    "url": "https://eur-lex.europa.eu/eli/reg_del/2017/1926/oj"
+   }
+  ],
+  "comision_sugerida": "Transportes y Comunicaciones",
+  "comision_secundaria": "Defensa del Consumidor y Organismos Reguladores de los Servicios Públicos",
+  "plan2050": [
+   "transportes",
+   "ciudades-inteligentes",
+   "desarrollo-urbano"
+  ],
+  "ods": [
+   11,
+   9
+  ],
+  "prioridad": "media",
+  "costo_fiscal": "bajo",
+  "plazo": "mediano",
+  "indicador_exito": "A 2031, un mismo medio de pago es aceptado en todos los servicios masivos y corredores de Lima y Callao, y la ATU publica datos GTFS estáticos y en tiempo real.",
+  "tags": [
+   "movilidad",
+   "pasaje electrónico",
+   "ATU",
+   "datos abiertos",
+   "GTFS"
+  ],
+  "fuentes": [
+   {
+    "titulo": "ATU: portal institucional",
+    "url": "https://www.atu.gob.pe/"
+   },
+   {
+    "titulo": "General Transit Feed Specification (GTFS)",
+    "url": "https://gtfs.org/"
+   }
+  ]
+ },
+ {
+  "id": "TAL-12",
+  "eje": "talento",
+  "titulo": "Ley que promueve la economía circular de los aparatos eléctricos y electrónicos y reconoce el derecho a la reparación",
+  "titulo_corto": "RAEE y derecho a reparar",
+  "sumilla": "Establece obligaciones de información sobre reparabilidad, disponibilidad de repuestos y actualizaciones de software para aparatos eléctricos y electrónicos, reconoce la reparación independiente y fortalece la valorización de residuos de aparatos eléctricos y electrónicos (RAEE).",
+  "problema": "Según el Global E-waste Monitor 2024 de la UIT y UNITAR, en 2022 se generaron en el mundo 62 millones de toneladas de residuos electrónicos y solo el 22,3% fue recolectado y reciclado de manera formal documentada; la generación crece casi cinco veces más rápido que el reciclaje documentado. En el Perú, el Decreto Legislativo 1278, Ley de Gestión Integral de Residuos Sólidos, y el Decreto Supremo 009-2019-MINAM, que aprobó el Régimen Especial de Gestión y Manejo de RAEE, establecen la responsabilidad extendida del productor, metas de recolección y obligaciones de distribuidores y comercializadores. Sin embargo, el marco peruano no regula la etapa previa al residuo: no existe obligación de informar al consumidor sobre la reparabilidad del producto, la disponibilidad de repuestos o el periodo de actualizaciones de software, ni se protege la reparación por talleres independientes. El Plan Perú 2050 (Medio Ambiente) diagnostica que menos del 5% de los residuos sólidos aprovechables se reincorpora formalmente a las cadenas productivas y propone una economía circular transaccional. Extender la vida útil de los equipos reduce residuos y gasto de los hogares.",
+  "objeto": "Promover la economía circular de los aparatos eléctricos y electrónicos mediante información de reparabilidad, disponibilidad de repuestos y reparación independiente.",
+  "articulado": [
+   {
+    "n": "Artículo 1",
+    "titulo": "Objeto",
+    "texto": "La presente ley tiene por objeto promover la extensión de la vida útil de los aparatos eléctricos y electrónicos, reconocer el derecho de los consumidores a su reparación y fortalecer la valorización de los residuos de aparatos eléctricos y electrónicos (RAEE)."
+   },
+   {
+    "n": "Artículo 2",
+    "titulo": "Ámbito",
+    "texto": "La presente ley es de aplicación a los productores, importadores, distribuidores y comercializadores de aparatos eléctricos y electrónicos de las categorías que determine el reglamento, priorizando teléfonos móviles, computadoras, tabletas, televisores y electrodomésticos."
+   },
+   {
+    "n": "Artículo 3",
+    "titulo": "Información de reparabilidad",
+    "texto": "Los productores e importadores informan al consumidor, en el punto de venta y en su página web, como mínimo: a) el periodo durante el cual garantizan la disponibilidad de repuestos; b) el periodo mínimo de actualizaciones de seguridad del software, cuando corresponda; c) la existencia de manuales de reparación; y d) un índice de reparabilidad, conforme a la metodología que apruebe el Ministerio de la Producción en coordinación con el Ministerio del Ambiente."
+   },
+   {
+    "n": "Artículo 4",
+    "titulo": "Disponibilidad de repuestos y manuales",
+    "texto": "Los productores e importadores ponen a disposición de los talleres de reparación independientes y de los consumidores, en condiciones razonables y no discriminatorias, los repuestos, herramientas especializadas y manuales de reparación durante el periodo informado conforme al artículo 3."
+   },
+   {
+    "n": "Artículo 5",
+    "titulo": "Prácticas prohibidas",
+    "texto": "Se prohíben las prácticas técnicas o contractuales que tengan por objeto impedir u obstaculizar injustificadamente la reparación por terceros, tales como el bloqueo por software de repuestos originales o compatibles, sin perjuicio de las exigencias de seguridad debidamente justificadas."
+   },
+   {
+    "n": "Artículo 6",
+    "titulo": "Garantía y reparación",
+    "texto": "La reparación realizada por un taller independiente no anula la garantía legal respecto de los componentes no intervenidos, conforme al Código de Protección y Defensa del Consumidor."
+   },
+   {
+    "n": "Artículo 7",
+    "titulo": "Formación de técnicos reparadores",
+    "texto": "El Ministerio de Educación promueve, en los centros de educación técnico-productiva e institutos, programas de formación y certificación de técnicos en reparación de equipos electrónicos y en gestión de RAEE, articulados con los sistemas de manejo de RAEE."
+   },
+   {
+    "n": "Artículo 8",
+    "titulo": "Fortalecimiento de la valorización de RAEE",
+    "texto": "El Ministerio del Ambiente publica anualmente, en formato abierto, las cantidades de RAEE recolectadas y valorizadas por categoría y sistema de manejo, y el cumplimiento de metas establecidas en el régimen especial vigente."
+   },
+   {
+    "n": "Artículo 9",
+    "titulo": "Fiscalización",
+    "texto": "El Instituto Nacional de Defensa de la Competencia y de la Protección de la Propiedad Intelectual (INDECOPI) fiscaliza las obligaciones de información y las prácticas prohibidas de los artículos 3, 4 y 5. El OEFA y las autoridades competentes fiscalizan las obligaciones de gestión de RAEE conforme a su normativa."
+   },
+   {
+    "n": "Artículo 10",
+    "titulo": "Financiamiento",
+    "texto": "La implementación de la presente ley se financia con cargo a los presupuestos institucionales de las entidades involucradas, sin demandar recursos adicionales al Tesoro Público."
+   }
+  ],
+  "disposiciones": [
+   {
+    "tipo": "Complementaria Final",
+    "n": "Primera",
+    "texto": "Reglamentación. El Poder Ejecutivo reglamenta la presente ley en un plazo de ciento veinte días hábiles mediante decreto supremo refrendado por los Ministros de la Producción y del Ambiente."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Segunda",
+    "texto": "Gradualidad. Las obligaciones de los artículos 3 y 4 son exigibles a los doce meses de la publicación del reglamento para teléfonos móviles y computadoras, y a los veinticuatro meses para las demás categorías."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Tercera",
+    "texto": "Adecuación del régimen especial. El Ministerio del Ambiente adecúa el Régimen Especial de Gestión y Manejo de RAEE para articularlo con la presente ley."
+   }
+  ],
+  "costo_beneficio": "El costo fiscal es bajo: INDECOPI, PRODUCE y MINAM aplican la ley con presupuestos institucionales (art. 79). Los productores asumen costos de información y de disponibilidad de repuestos, que en mercados como la Unión Europea ya son exigibles, por lo que muchas marcas cuentan con esa infraestructura. Los beneficios incluyen ahorro para los hogares al prolongar la vida útil de los equipos, empleo en talleres de reparación formales, menor generación de RAEE y menor presión sobre rellenos sanitarios, y mejor recuperación de materiales valiosos. La gradualidad por categorías reduce el impacto sobre importadores pequeños.",
+  "efecto_vigencia": "Complementa el Decreto Legislativo 1278 y el Decreto Supremo 009-2019-MINAM, y la Ley 29571, Código de Protección y Defensa del Consumidor. No deroga normas.",
+  "normas_relacionadas": [
+   {
+    "norma": "Decreto Legislativo 1278, Ley de Gestión Integral de Residuos Sólidos (ficha SINIA-MINAM)",
+    "url": "https://sinia.minam.gob.pe/normas/ley-gestion-integral-residuos-solidos"
+   },
+   {
+    "norma": "Decreto Supremo 009-2019-MINAM, Régimen Especial de Gestión y Manejo de Residuos de Aparatos Eléctricos y Electrónicos (ficha SINIA)",
+    "url": "https://sinia.minam.gob.pe/metadatos/314549"
+   },
+   {
+    "norma": "Ley 29571, Código de Protección y Defensa del Consumidor",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/29571.pdf"
+   },
+   {
+    "norma": "Ley 28611, Ley General del Ambiente",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/28611.pdf"
+   }
+  ],
+  "antecedentes": "Por verificar en SPLEY.",
+  "referencias_internacionales": [
+   {
+    "pais": "Unión Europea",
+    "norma": "Directiva (UE) 2024/1799 por la que se establecen normas comunes para promover la reparación de bienes",
+    "url": "https://eur-lex.europa.eu/eli/dir/2024/1799/oj"
+   },
+   {
+    "pais": "Unión Europea",
+    "norma": "Directiva 2012/19/UE sobre residuos de aparatos eléctricos y electrónicos (RAEE)",
+    "url": "https://eur-lex.europa.eu/eli/dir/2012/19/oj"
+   }
+  ],
+  "comision_sugerida": "Defensa del Consumidor y Organismos Reguladores de los Servicios Públicos",
+  "comision_secundaria": "Pueblos Andinos, Amazónicos y Afroperuanos, Ambiente y Ecología",
+  "plan2050": [
+   "medio-ambiente",
+   "industria"
+  ],
+  "ods": [
+   12,
+   8
+  ],
+  "prioridad": "media",
+  "costo_fiscal": "nulo",
+  "plazo": "mediano",
+  "indicador_exito": "A 2031, el 100% de teléfonos móviles y computadoras comercializados informan periodo de repuestos e índice de reparabilidad, y el MINAM publica cinco reportes anuales de RAEE valorizados.",
+  "tags": [
+   "economía circular",
+   "RAEE",
+   "derecho a reparar",
+   "consumidor"
+  ],
+  "fuentes": [
+   {
+    "titulo": "UNITAR/UIT: Global E-waste Monitor 2024 (nota de prensa)",
+    "url": "https://www.unitar.org/about/news-stories/press/global-e-waste-monitor-2024-electronic-waste-rising-five-times-faster-documented-e-waste-recycling"
+   },
+   {
+    "titulo": "UIT: The Global E-waste Monitor 2024",
+    "url": "https://www.itu.int/en/ITU-D/Environment/Pages/Publications/The-Global-E-Waste-Monitor-2024.aspx"
+   }
+  ]
+ },
+ {
+  "id": "TAL-13",
+  "eje": "talento",
+  "titulo": "Ley que garantiza la accesibilidad digital de las personas con discapacidad en los servicios públicos y en los servicios digitales de interés general",
+  "titulo_corto": "Accesibilidad digital universal",
+  "sumilla": "Establece la obligación de que los portales, aplicaciones y documentos digitales del Estado y de los servicios privados de interés general (banca, salud, transporte, telecomunicaciones, comercio electrónico de gran escala) cumplan estándares de accesibilidad WCAG, con plazos, declaración pública y canal de reclamos.",
+  "problema": "Según el INEI, sobre la base de los Censos Nacionales 2017, en el país existen 3 millones 209 mil 261 personas con alguna dificultad o limitación permanente, de las cuales el 40,1% tiene 60 y más años. La Ley 29973, Ley General de la Persona con Discapacidad, reconoce el derecho a la accesibilidad, y la Ley 28530 promovió el acceso a Internet para personas con discapacidad y la adecuación de cabinas públicas; sin embargo, este marco es anterior a la masificación de aplicaciones móviles y servicios en línea y no fija un estándar técnico verificable ni plazos de cumplimiento para portales, aplicaciones y documentos digitales. A medida que trámites, citas médicas, banca y comercio migran a canales digitales, la falta de compatibilidad con lectores de pantalla, la ausencia de subtítulos o lengua de señas, los captchas no accesibles y los documentos escaneados como imagen excluyen a personas con discapacidad visual, auditiva, motriz o cognitiva. Las Pautas de Accesibilidad para el Contenido Web (WCAG 2.2) del W3C son el estándar internacional de referencia.",
+  "objeto": "Garantizar la accesibilidad digital de las personas con discapacidad en servicios públicos y servicios digitales de interés general.",
+  "articulado": [
+   {
+    "n": "Artículo 1",
+    "titulo": "Objeto",
+    "texto": "La presente ley tiene por objeto garantizar que los servicios digitales del Estado y los servicios digitales de interés general prestados por particulares sean accesibles para las personas con discapacidad, en condiciones de igualdad."
+   },
+   {
+    "n": "Artículo 2",
+    "titulo": "Ámbito",
+    "texto": "2.1 Están obligadas las entidades de la administración pública a que se refiere el artículo I del Título Preliminar del Texto Único Ordenado de la Ley 27444, Ley del Procedimiento Administrativo General. 2.2 Están obligadas, asimismo, las empresas que presten servicios financieros, de salud, de transporte de pasajeros, de telecomunicaciones, de suministro de agua y electricidad, y de comercio electrónico, cuando superen los umbrales de tamaño que determine el reglamento."
+   },
+   {
+    "n": "Artículo 3",
+    "titulo": "Estándar de accesibilidad",
+    "texto": "Los sitios web, aplicaciones móviles, documentos digitales y quioscos de autoatención comprendidos en el ámbito de la presente ley cumplen, como mínimo, el nivel AA de las Pautas de Accesibilidad para el Contenido Web (WCAG) en su versión vigente, o la norma técnica peruana equivalente que apruebe el Instituto Nacional de Calidad (INACAL)."
+   },
+   {
+    "n": "Artículo 4",
+    "titulo": "Contenidos audiovisuales",
+    "texto": "Los contenidos audiovisuales difundidos por las entidades públicas en sus canales digitales incorporan subtítulos y, en los mensajes de interés general, interpretación en lengua de señas peruana."
+   },
+   {
+    "n": "Artículo 5",
+    "titulo": "Declaración de accesibilidad",
+    "texto": "Los sujetos obligados publican en sus sitios web y aplicaciones una declaración de accesibilidad que indique el grado de cumplimiento, los contenidos no accesibles y un canal para que los usuarios reporten barreras y soliciten la información en un formato alternativo."
+   },
+   {
+    "n": "Artículo 6",
+    "titulo": "Compras públicas",
+    "texto": "Las entidades públicas incluyen requisitos de accesibilidad digital en los términos de referencia y especificaciones técnicas para la contratación de desarrollo, adquisición o renovación de sitios web, aplicaciones y sistemas de atención al ciudadano."
+   },
+   {
+    "n": "Artículo 7",
+    "titulo": "Monitoreo",
+    "texto": "El Consejo Nacional para la Integración de la Persona con Discapacidad (CONADIS), con el apoyo técnico de la Presidencia del Consejo de Ministros en materia de transformación digital, realiza evaluaciones periódicas por muestreo del cumplimiento de la presente ley y publica sus resultados."
+   },
+   {
+    "n": "Artículo 8",
+    "titulo": "Fiscalización y sanciones",
+    "texto": "El incumplimiento por parte de las entidades públicas genera responsabilidad administrativa de los funcionarios competentes. El incumplimiento por parte de empresas privadas se sujeta a la potestad sancionadora de CONADIS conforme a la Ley 29973 y, cuando corresponda, de INDECOPI conforme al Código de Protección y Defensa del Consumidor."
+   },
+   {
+    "n": "Artículo 9",
+    "titulo": "Financiamiento",
+    "texto": "La implementación de la presente ley se financia con cargo a los presupuestos institucionales de las entidades públicas involucradas, sin demandar recursos adicionales al Tesoro Público."
+   }
+  ],
+  "disposiciones": [
+   {
+    "tipo": "Complementaria Final",
+    "n": "Primera",
+    "texto": "Reglamentación. El Poder Ejecutivo reglamenta la presente ley en un plazo de noventa días hábiles mediante decreto supremo refrendado por el Presidente del Consejo de Ministros y la Ministra o Ministro de la Mujer y Poblaciones Vulnerables."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Segunda",
+    "texto": "Plazos de adecuación. Los nuevos sitios y aplicaciones cumplen la presente ley desde la entrada en vigor del reglamento. Los existentes se adecúan en un plazo de dieciocho meses para las entidades del Poder Ejecutivo y empresas del ámbito privado, y de treinta y seis meses para los gobiernos regionales y locales."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Tercera",
+    "texto": "Norma técnica. El INACAL evalúa la adopción de la norma técnica peruana de accesibilidad digital equivalente a la versión vigente de WCAG en un plazo de un año."
+   }
+  ],
+  "costo_beneficio": "El costo de cumplir estándares de accesibilidad es bajo cuando se incorpora desde el diseño y en las compras públicas, y mayor cuando se adapta lo existente, por lo que se establecen plazos diferenciados. Las entidades públicas lo asumen con presupuestos institucionales (art. 79), sin gasto directo nuevo. Los beneficios alcanzan a más de tres millones de personas con discapacidad registradas en el censo y a una población adulta mayor creciente, y mejoran la usabilidad para todos los usuarios. Para las empresas, la accesibilidad amplía su mercado y reduce reclamos. La exigencia de declaración pública genera rendición de cuentas a bajo costo.",
+  "efecto_vigencia": "Complementa la Ley 29973, Ley General de la Persona con Discapacidad, y la Ley 28530. No deroga normas.",
+  "normas_relacionadas": [
+   {
+    "norma": "Ley 29973, Ley General de la Persona con Discapacidad",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/29973.pdf"
+   },
+   {
+    "norma": "Ley 28530, Ley de promoción de acceso a Internet para personas con discapacidad y de adecuación del espacio físico en cabinas públicas de Internet",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/28530.pdf"
+   },
+   {
+    "norma": "Ley 29571, Código de Protección y Defensa del Consumidor",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/29571.pdf"
+   }
+  ],
+  "antecedentes": "Por verificar en SPLEY.",
+  "referencias_internacionales": [
+   {
+    "pais": "Unión Europea",
+    "norma": "Directiva (UE) 2016/2102 sobre la accesibilidad de los sitios web y aplicaciones móviles de los organismos del sector público",
+    "url": "https://eur-lex.europa.eu/eli/dir/2016/2102/oj"
+   },
+   {
+    "pais": "Unión Europea",
+    "norma": "Directiva (UE) 2019/882 sobre los requisitos de accesibilidad de los productos y servicios (Acta Europea de Accesibilidad)",
+    "url": "https://eur-lex.europa.eu/eli/dir/2019/882/oj"
+   }
+  ],
+  "comision_sugerida": "Inclusión Social y Personas con Discapacidad",
+  "comision_secundaria": "Ciencia, Innovación y Tecnología",
+  "plan2050": [
+   "cohesion-social",
+   "transformacion-digital"
+  ],
+  "ods": [
+   10,
+   16
+  ],
+  "prioridad": "alta",
+  "costo_fiscal": "bajo",
+  "plazo": "mediano",
+  "indicador_exito": "A 2031, el 100% de portales del Poder Ejecutivo y al menos el 80% de portales regionales evaluados por CONADIS cumplen el nivel AA de WCAG y publican su declaración de accesibilidad.",
+  "tags": [
+   "accesibilidad",
+   "discapacidad",
+   "WCAG",
+   "inclusión"
+  ],
+  "fuentes": [
+   {
+    "titulo": "INEI: En el país existen 3 millones 209 mil 261 personas con discapacidad (Censos 2017)",
+    "url": "https://m.inei.gob.pe/prensa/noticias/en-el-pais-existen-3-millones-209-mil-261-personas-con-discapacidad-11687/"
+   },
+   {
+    "titulo": "W3C: Web Content Accessibility Guidelines (WCAG) 2.2",
+    "url": "https://www.w3.org/TR/WCAG22/"
+   },
+   {
+    "titulo": "CONADIS: portal institucional",
+    "url": "https://www.gob.pe/conadis"
+   }
+  ]
+ },
+ {
+  "id": "TAL-14",
+  "eje": "talento",
+  "titulo": "Ley que promueve el bienestar digital y la ciudadanía digital de niñas, niños y adolescentes en la Educación Básica, complementando la Ley 32385",
+  "titulo_corto": "Bienestar digital adolescente",
+  "sumilla": "Complementa la Ley 32385, que regula el uso de celulares en la Educación Básica, con contenidos curriculares de ciudadanía y bienestar digital, orientación a familias, atención de casos de ciberacoso y uso problemático de pantallas, y evaluación pública de su impacto.",
+  "problema": "La Ley 32385 (publicada el 13-06-2025) regula el uso de teléfonos celulares en las instituciones educativas de primaria y secundaria, restringiéndolo durante los procesos de enseñanza y aprendizaje salvo uso guiado, con la finalidad de mejorar la atención y el rendimiento, reducir la sobreexposición a Internet, combatir el ciberacoso y prevenir trastornos de salud mental; su reglamento fue aprobado en 2026. Sin embargo, la restricción en el aula es solo una parte del problema: el uso intensivo de redes sociales y videojuegos ocurre mayoritariamente fuera del horario escolar, y la ley no establece la enseñanza sistemática de competencias de ciudadanía digital (privacidad, huella digital, identificación de desinformación, manejo de contenidos de riesgo), ni la orientación a madres y padres, ni rutas de atención para casos de uso problemático de pantallas. El INEI (TIC, III Trimestre 2025) reporta que el 92,4% de las personas de 12 a 18 años usó Internet. La Ley 29719 regula la convivencia sin violencia en las escuelas, pero su diseño es anterior a la expansión de las redes sociales. Tampoco existe obligación de evaluar el impacto de la Ley 32385.",
+  "objeto": "Promover el bienestar digital y la ciudadanía digital de niñas, niños y adolescentes mediante medidas educativas, de orientación familiar, de atención y de evaluación, complementarias a la Ley 32385.",
+  "articulado": [
+   {
+    "n": "Artículo 1",
+    "titulo": "Objeto",
+    "texto": "La presente ley tiene por objeto promover el bienestar digital y la ciudadanía digital de niñas, niños y adolescentes, complementando las medidas de regulación del uso de teléfonos celulares establecidas en la Ley 32385."
+   },
+   {
+    "n": "Artículo 2",
+    "titulo": "Definiciones",
+    "texto": "Para efectos de la presente ley se entiende por: a) Bienestar digital: uso equilibrado y saludable de las tecnologías digitales, compatible con el descanso, la actividad física, la socialización presencial y el aprendizaje; b) Ciudadanía digital: conjunto de competencias para participar de manera segura, crítica, ética y responsable en entornos digitales."
+   },
+   {
+    "n": "Artículo 3",
+    "titulo": "Contenidos curriculares",
+    "texto": "El Ministerio de Educación incorpora en el Currículo Nacional de la Educación Básica, en las áreas pertinentes y en la tutoría, aprendizajes de ciudadanía y bienestar digital que comprendan, como mínimo: protección de la privacidad y datos personales, huella digital, identificación de desinformación y contenidos sintéticos, prevención del ciberacoso y del acoso sexual en línea, y autorregulación del tiempo de pantalla."
+   },
+   {
+    "n": "Artículo 4",
+    "titulo": "Incorporación del artículo 6 a la Ley 32385",
+    "texto": "Incorpórase el artículo 6 a la Ley 32385, con el siguiente texto: \"Artículo 6. Evaluación de impacto. El Ministerio de Educación evalúa la aplicación de la presente ley cada dos años, mediante indicadores de convivencia escolar, casos reportados de ciberacoso, atención en clase y bienestar socioemocional, y publica los resultados en su portal institucional.\""
+   },
+   {
+    "n": "Artículo 5",
+    "titulo": "Orientación a familias",
+    "texto": "El Ministerio de Educación y el Ministerio de Salud elaboran guías y realizan sesiones de orientación dirigidas a madres, padres y cuidadores sobre acompañamiento en el uso de tecnologías, controles parentales, edades recomendadas y señales de alerta de uso problemático, en castellano y lenguas originarias."
+   },
+   {
+    "n": "Artículo 6",
+    "titulo": "Ruta de atención",
+    "texto": "6.1 Los casos de ciberacoso entre estudiantes se atienden conforme a los protocolos de la Ley 29719, que el Ministerio de Educación actualiza para incluir expresamente las conductas en entornos digitales. 6.2 Los casos de uso problemático de pantallas que afecten la salud mental se derivan a los servicios de salud mental comunitaria del Ministerio de Salud, conforme a su disponibilidad territorial."
+   },
+   {
+    "n": "Artículo 7",
+    "titulo": "Formación docente",
+    "texto": "El Ministerio de Educación incluye en la formación docente en servicio contenidos de ciudadanía digital, detección de ciberacoso y acompañamiento socioemocional vinculado al uso de tecnologías."
+   },
+   {
+    "n": "Artículo 8",
+    "titulo": "Participación estudiantil",
+    "texto": "Las instituciones educativas promueven la participación de los municipios escolares en la elaboración de acuerdos de convivencia digital y de los protocolos a que se refiere el artículo 5 de la Ley 32385."
+   },
+   {
+    "n": "Artículo 9",
+    "titulo": "Financiamiento",
+    "texto": "La implementación de la presente ley se financia con cargo a los presupuestos institucionales del Ministerio de Educación, del Ministerio de Salud y de los gobiernos regionales, sin demandar recursos adicionales al Tesoro Público."
+   }
+  ],
+  "disposiciones": [
+   {
+    "tipo": "Complementaria Final",
+    "n": "Primera",
+    "texto": "Reglamentación. El Poder Ejecutivo reglamenta la presente ley en un plazo de noventa días hábiles mediante decreto supremo refrendado por los Ministros de Educación y de Salud, en articulación con el reglamento de la Ley 32385."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Segunda",
+    "texto": "Primera evaluación. La primera evaluación a que se refiere el artículo 6 de la Ley 32385, incorporado por la presente ley, se publica a más tardar a los dos años de la entrada en vigor de la presente ley."
+   }
+  ],
+  "costo_beneficio": "La ley se implementa con presupuestos institucionales de Minedu, Minsa y gobiernos regionales mediante ajustes curriculares, guías y formación en servicio, sin gasto directo nuevo (art. 79). Los costos principales son la elaboración de materiales y la evaluación bienal. Los beneficios son complementar la restricción de celulares con capacidades que los estudiantes usan fuera del aula, prevenir el ciberacoso y la exposición a riesgos en línea, detectar tempranamente problemas de salud mental y generar evidencia sobre la efectividad de la Ley 32385, hoy sin mecanismo de evaluación. La participación estudiantil mejora la legitimidad y el cumplimiento de las normas de convivencia.",
+  "efecto_vigencia": "Modifica la Ley 32385 (incorpora el artículo 6) y complementa la Ley 28044, la Ley 29719 y la Ley 27337.",
+  "normas_relacionadas": [
+   {
+    "norma": "Ley 32385, Ley que regula el uso de teléfonos celulares en todas las instituciones y programas educativos de la Educación Básica",
+    "url": "https://leyes.congreso.gob.pe/Documentos/2021_2026/ADLP/Texto_Consolidado/32385-TXM.pdf"
+   },
+   {
+    "norma": "Ley 29719, Ley que promueve la convivencia sin violencia en las instituciones educativas",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/29719.pdf"
+   },
+   {
+    "norma": "Ley 28044, Ley General de Educación",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/28044.pdf"
+   },
+   {
+    "norma": "Ley 27337, Código de los Niños y Adolescentes",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/27337.pdf"
+   },
+   {
+    "norma": "Ley 29733, Ley de Protección de Datos Personales",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/29733.pdf"
+   }
+  ],
+  "antecedentes": "La Ley 32385 se originó en el Proyecto de Ley 5532/2022-CR, según la Agencia Andina. Otros proyectos relacionados: por verificar en SPLEY.",
+  "referencias_internacionales": [
+   {
+    "pais": "Brasil",
+    "norma": "Lei 15.100/2025, que regula el uso de dispositivos electrónicos portátiles en establecimientos de educación básica",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15100.htm"
+   },
+   {
+    "pais": "Unión Europea",
+    "norma": "Reglamento (UE) 2022/2065, Ley de Servicios Digitales (art. 28, protección de menores en línea)",
+    "url": "https://eur-lex.europa.eu/eli/reg/2022/2065/oj"
+   },
+   {
+    "pais": "Reino Unido",
+    "norma": "Online Safety Act 2023",
+    "url": "https://www.legislation.gov.uk/ukpga/2023/50/contents"
+   }
+  ],
+  "comision_sugerida": "Educación, Juventud y Deporte",
+  "comision_secundaria": "Salud y Población",
+  "plan2050": [
+   "educacion-tres-niveles",
+   "proyecto-pais-joven",
+   "la-familia"
+  ],
+  "ods": [
+   3,
+   4,
+   16
+  ],
+  "prioridad": "media",
+  "costo_fiscal": "bajo",
+  "plazo": "corto",
+  "indicador_exito": "A 2031, aprendizajes de ciudadanía digital incorporados al Currículo Nacional y dos evaluaciones bienales de impacto de la Ley 32385 publicadas.",
+  "tags": [
+   "bienestar digital",
+   "adolescentes",
+   "ciberacoso",
+   "celulares",
+   "escuela"
+  ],
+  "fuentes": [
+   {
+    "titulo": "El Peruano: Ley 32385 (dispositivo oficial)",
+    "url": "https://busquedas.elperuano.pe/dispositivo/NL/2409169-4"
+   },
+   {
+    "titulo": "El Peruano: Uso del celular en colegios, restricciones y excepciones",
+    "url": "https://www.elperuano.pe/noticia/288185-uso-del-celular-en-colegios-restricciones-y-excepciones"
+   },
+   {
+    "titulo": "Agencia Andina: Congreso aprueba ley que regula el uso de celulares en colegios",
+    "url": "https://andina.pe/agencia/noticia-celulares-fuera-del-aula-congreso-aprueba-ley-regula-su-uso-colegios-1030688.aspx"
+   },
+   {
+    "titulo": "INEI: Estadísticas de las TIC en los hogares, III Trimestre 2025 (Informe Técnico N.° 04, dic. 2025)",
+    "url": "https://www.inei.gob.pe/media/MenuRecursivo/boletines/tic-iii-trimestre_2025_1.pdf"
+   },
+   {
+    "titulo": "UNESCO: Informe GEM 2023, Tecnología en la educación",
+    "url": "https://www.unesco.org/gem-report/en/technology"
+   }
+  ]
+ }
+]

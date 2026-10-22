@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Agenda Legislativa Tech Perú 2026–2031</title>
+<meta name="description" content="Propuestas de ley en tecnología, redactadas con articulado, costo-beneficio y fuentes, listas para debate en comisiones del Congreso 2026–2031 y alineadas al Plan Perú 2050. Descárgalas en PDF.">
+<link rel="canonical" href="https://unimauro.github.io/agenda-legislativa-tech/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Agenda Legislativa Tech Perú">
+<meta property="og:title" content="¿Dónde están las propuestas tech? Aquí están, redactadas y listas para comisión">
+<meta property="og:description" content="Proyectos de ley en IA, ciberseguridad, gobierno digital, conectividad, startups y talento — con articulado, costo-beneficio, PDF y alineamiento al Plan Perú 2050.">
+<meta property="og:url" content="https://unimauro.github.io/agenda-legislativa-tech/">
+<meta property="og:image" content="https://unimauro.github.io/agenda-legislativa-tech/og.png">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta property="og:locale" content="es_PE">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://unimauro.github.io/agenda-legislativa-tech/og.png">
+<meta name="theme-color" content="#c8102e">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" href="favicon.png" sizes="64x64" type="image/png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+<script>try{const t=localStorage.getItem('theme');if(t)document.documentElement.dataset.theme=t}catch(_){}</script>
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="#inicio">⚖️ Agenda Legislativa Tech</a>
+  <nav class="nav" id="nav">
+    <a href="#propuestas">Propuestas</a>
+    <a href="#panorama">Panorama</a>
+    <a href="#plan2050">Plan 2050</a>
+    <a href="#ruta">Hoja de ruta</a>
+    <a href="#antecedentes">Antecedentes</a>
+    <a href="#tramite">Cómo se tramita</a>
+    <a href="#relacionados">Proyectos</a>
+    <a href="#apoyo">Apoya</a>
+  </nav>
+  <span class="spacer"></span>
+  <button class="ghost" id="theme" aria-label="Cambiar tema claro/oscuro">◐</button>
+</header>
+
+<main class="wrap">
+  <section class="hero" id="inicio">
+    <div class="kicker">Congreso 2026–2031 · Propuestas ciudadanas</div>
+    <h1>¿Dónde están <s>las 50 propuestas</s>?<br>Aquí hay <em id="h-total">—</em>, redactadas.</h1>
+    <p class="lead">Proyectos de ley en tecnología con <b>exposición de motivos, articulado, análisis costo-beneficio,
+      efecto en la legislación vigente y fuentes</b>, listos para que cualquier congresista, bancada o colectivo los
+      presente y entren a debate en comisión. Cada uno se alinea a las comisiones temáticas del
+      <a href="https://planperu2050.pe/" target="_blank" rel="noopener">Plan Perú 2050</a>.</p>
+    <div class="actions">
+      <a class="btn" href="#propuestas">Ver propuestas</a>
+      <a class="btn ghost" href="pdf/agenda-legislativa-tech-completa.pdf" download>⬇️ PDF completo</a>
+      <a class="btn ghost" href="data/propuestas.json">{ } Datos abiertos (JSON)</a>
+    </div>
+    <div class="kpis" id="kpis"></div>
+  </section>
+
+  <section class="block" id="propuestas">
+    <h2>Las propuestas</h2>
+    <p class="sub">Filtra por eje, comisión, prioridad o costo fiscal. Abre una propuesta para ver su resumen; cada una
+      tiene su página completa y su PDF listo para imprimir y presentar.</p>
+    <div class="eje-pills" id="eje-pills"></div>
+    <div class="filters">
+      <input id="q" type="search" placeholder="Buscar: deepfakes, 5G, startups, ransomware, quechua…" aria-label="Buscar">
+      <select id="f-com" aria-label="Comisión"><option value="">Toda comisión</option></select>
+      <select id="f-prio" aria-label="Prioridad"><option value="">Toda prioridad</option><option value="alta">Alta</option><option value="media">Media</option></select>
+      <select id="f-costo" aria-label="Costo fiscal"><option value="">Todo costo</option><option value="nulo">Costo nulo</option><option value="bajo">Bajo</option><option value="medio">Medio</option></select>
+      <select id="f-plan" aria-label="Comisión Plan 2050"><option value="">Todo Plan 2050</option></select>
+    </div>
+    <p class="count" id="count"></p>
+    <div class="plist" id="plist"></div>
+  </section>
+
+  <section class="block" id="panorama">
+    <h2>Panorama</h2>
+    <p class="sub">Cómo se reparte la agenda: por eje temático, por la comisión que tendría que dictaminarla y por su
+      impacto fiscal (el Congreso no tiene iniciativa de gasto — art. 79 de la Constitución —, por eso la mayoría
+      está diseñada a costo nulo o con cargo al presupuesto institucional).</p>
+    <div class="grid2">
+      <div class="card"><h3>Propuestas por eje</h3><div class="chart-box"><canvas id="ch-eje"></canvas></div></div>
+      <div class="card"><h3>Comisión dictaminadora sugerida</h3><div class="chart-box"><canvas id="ch-com"></canvas></div></div>
+      <div class="card"><h3>Prioridad × costo fiscal</h3><div class="matrix-wrap" id="m-prio"></div></div>
+      <div class="card"><h3>Objetivos de Desarrollo Sostenible</h3><div class="chart-box"><canvas id="ch-ods"></canvas></div></div>
+    </div>
+  </section>
+
+  <section class="block" id="plan2050">
+    <h2>Alineamiento con el Plan Perú 2050</h2>
+    <p class="sub">Cada propuesta declara a qué comisiones temáticas del Plan Perú 2050 (CNPP / Colegio de Ingenieros
+      del Perú) contribuye. La matriz cruza ejes de esta agenda con esas comisiones; haz clic en una comisión para ver su
+      visión, indicadores y metas al 2050.</p>
+    <div class="card matrix-wrap" id="m-plan"></div>
+  </section>
+
+  <section class="block" id="ruta">
+    <h2>Hoja de ruta del periodo</h2>
+    <p class="sub">Orden sugerido según plazo de implementación: lo de corto plazo puede aprobarse en la primera
+      legislatura; lo de largo plazo requiere reglamentación y presupuesto progresivo hasta 2031.</p>
+    <div class="lanes" id="lanes"></div>
+  </section>
+
+  <section class="block" id="antecedentes">
+    <h2>Lo que pasó en el Congreso 2021–2026</h2>
+    <p class="sub" id="ant-sub">Proyectos de ley tech del periodo anterior, según la API oficial de proyectos del Congreso.</p>
+    <div id="ant"></div>
+  </section>
+
+  <section class="block" id="tramite">
+    <h2>Cómo se tramita un proyecto de ley</h2>
+    <p class="sub">Del texto a la ley en el Congreso bicameral. Si eres asesor o asesora, toma el PDF, adáptalo al
+      formato de tu despacho y preséntalo.</p>
+    <div class="grid2">
+      <div><ol class="steps" id="steps"></ol></div>
+      <div class="card"><h3>Marco normativo tech vigente</h3><div class="tbl-scroll" id="marco"></div></div>
+    </div>
+  </section>
+
+  <section class="block" id="relacionados">
+    <h2>Proyectos relacionados</h2>
+    <p class="sub">Otros observatorios y tableros abiertos que alimentan o complementan esta agenda.</p>
+    <div class="related">
+      <a href="https://planperu2050.pe/" target="_blank" rel="noopener"><b>🇵🇪 Plan Perú 2050</b><span>Comisiones temáticas, indicadores y metas del CNPP / CIP.</span></a>
+      <a href="https://unimauro.github.io/congreso-abierto-peru/" target="_blank" rel="noopener"><b>🏛️ Congreso Abierto Perú</b><span>Proyectos de ley, comisiones, presupuesto y personal del Congreso.</span></a>
+      <a href="https://unimauro.github.io/peru-transparente/" target="_blank" rel="noopener"><b>🔎 Perú Transparente</b><span>Servidores públicos, contratos, sanciones y declaraciones juradas.</span></a>
+      <a href="https://cheka.app" target="_blank" rel="noopener"><b>✅ Cheka</b><span>Consulta a funcionarios y su trayectoria.</span></a>
+      <a href="https://unimauro.github.io/observatorio-idoneidad-estado/" target="_blank" rel="noopener"><b>🎯 Idoneidad en el Estado</b><span>Índice de idoneidad de altos cargos.</span></a>
+      <a href="https://unimauro.github.io/productividad/" target="_blank" rel="noopener"><b>⏱️ Productividad</b><span>Horas trabajadas, PIB por hora e informalidad.</span></a>
+      <a href="https://unimauro.github.io/educacion-peru/" target="_blank" rel="noopener"><b>🎒 Educación Perú</b><span>Resultados de aprendizaje por región.</span></a>
+      <a href="https://unimauro.github.io/universidades-peru/" target="_blank" rel="noopener"><b>🎓 Universidades Perú</b><span>95 universidades en cifras.</span></a>
+      <a href="https://unimauro.github.io/observatorio-ambiental-peruano/" target="_blank" rel="noopener"><b>🌳 Observatorio Ambiental</b><span>Incendios, deforestación y alertas en tiempo casi real.</span></a>
+      <a href="https://unimauro.github.io/salariosperu/" target="_blank" rel="noopener"><b>💼 Salarios Perú</b><span>Remuneraciones públicas CAS.</span></a>
+      <a href="https://unimauro.github.io/observatorio-defensa-interior/" target="_blank" rel="noopener"><b>🛡️ Defensa e Interior</b><span>Gasto y desempeño de defensa y seguridad.</span></a>
+      <a href="https://unimauro.github.io/defensa-industrial/" target="_blank" rel="noopener"><b>🏭 Industria de Defensa</b><span>Estados financieros de las empresas de defensa.</span></a>
+      <a href="https://unimauro.github.io/observatorio-fonafe/" target="_blank" rel="noopener"><b>🏢 Observatorio FONAFE</b><span>Empresas públicas en cifras.</span></a>
+      <a href="https://unimauro.github.io/observatorio-poder-economico/" target="_blank" rel="noopener"><b>💰 Poder Económico</b><span>Grupos económicos y concentración.</span></a>
+      <a href="https://unimauro.github.io/" target="_blank" rel="noopener"><b>🧭 Todos los proyectos</b><span>Portafolio completo de @unimauro.</span></a>
+    </div>
+  </section>
+
+  <section class="block" id="apoyo">
+    <h2>Apoya y difunde</h2>
+    <p class="sub">Hecho por <b><a href="https://unimauro.github.io/">Carlos Cárdenas Fernández</a></b>
+      (<a href="https://github.com/unimauro">@unimauro</a>). Código y datos abiertos en
+      <a href="https://github.com/unimauro/agenda-legislativa-tech">GitHub</a>: propón mejoras, corrige un artículo o
+      suma una propuesta con un <i>issue</i> o <i>pull request</i>. Si te sirve, invítame un café:</p>
+    <div class="support">
+      <a class="s-coffee" href="https://buymeacoffee.com/unimauro" target="_blank" rel="noopener">☕ Invítame un café</a>
+      <button class="s-yape" id="yape-btn" aria-expanded="false" aria-controls="yape-box">💜 Yápeame</button>
+      <a class="s-paypal" href="https://paypal.me/unimauro" target="_blank" rel="noopener">🅿️ PayPal</a>
+    </div>
+    <div class="yape-inline" id="yape-box">
+      <b>Yape · Carlos Cárdenas Fernández</b><br>
+      <img src="https://raw.githubusercontent.com/unimauro/salariosperu/main/yape.png" alt="Código QR de Yape" loading="lazy" onerror="this.style.display='none'">
+    </div>
+    <p class="sub" style="margin-top:16px">Compártelo con tu congresista:</p>
+    <div class="share">
+      <a id="sh-x" target="_blank" rel="noopener">𝕏 Twitter/X</a>
+      <a id="sh-wa" target="_blank" rel="noopener">🟢 WhatsApp</a>
+      <a id="sh-in" target="_blank" rel="noopener">💼 LinkedIn</a>
+      <a id="sh-fb" target="_blank" rel="noopener">📘 Facebook</a>
+      <button id="sh-copy">🔗 Copiar enlace</button>
+    </div>
+  </section>
+
+  <footer>
+    <p><b>Nota.</b> Estas son <b>propuestas ciudadanas</b> de libre uso (CC BY 4.0): no son proyectos de ley
+      presentados ni tienen número en el Congreso. Las cifras citan su fuente; los antecedentes provienen de la API
+      oficial de proyectos del Congreso. Comisiones sugeridas según su competencia temática; la asignación final la
+      decide el Consejo Directivo de cada cámara. Actualizado: <span id="upd">—</span>.</p>
+  </footer>
+</main>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

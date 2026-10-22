@@ -36,7 +36,7 @@ propuestas no tienen `revision_atendida` NO se publican salvo `--borradores`.
   para portada/visión, `indice.json` perezoso para buscador/asistente, listado paginado (20), antecedentes perezosos.
 
 ## SIGUIENTE (en orden)
-00. [ ] **DESPLEGAR el módulo en api.tunky.net** (el clasificador bloqueó el deploy a producción desde la sesión):
+00. [x] **(HECHO 22-oct por Carlos, verificado: CORS, votos, admin 403, El Loro intacto)** DESPLEGAR el módulo en api.tunky.net (el clasificador bloqueó el deploy a producción desde la sesión):
     `bash deploy/api-tunky/deploy.sh` (respalda server.js, `node -c` antes de reconstruir, prueba /agenda/resumen).
     Código: `deploy/api-tunky/agenda.js` + `patch.py` (añade 2 líneas tras makeCounter en src/server.js).
     Hasta entonces el sitio funciona en modo GitHub (formulario de issues + giscus).

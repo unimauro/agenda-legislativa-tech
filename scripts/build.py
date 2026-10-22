@@ -325,10 +325,10 @@ def con_sidebar(html_doc, p, props):
                         f'<b>{e(q["id"])}</b> {e(q["titulo_corto"])}</a>' for q in lista)
         grupos += f'<details class="side-eje" style="--c:{color}"{" open" if eje == p["eje"] else ""}><summary>{e(nombre)} <span>{len(lista)}</span></summary><div>{items}</div></details>'
     aside = f"""<aside class="side" id="side" aria-label="Navegación">
-  <a class="side-back" href="../#propuestas">← Todas las propuestas</a>
+  <a class="side-back" href="../propuestas.html">← Todas las propuestas</a>
   <div class="side-blk"><h3>En esta página</h3><ol class="side-toc">{indice}</ol></div>
   <div class="side-blk"><h3>Propuestas</h3><input id="side-q" type="search" placeholder="Filtrar…" aria-label="Filtrar propuestas">{grupos}</div>
-  <div class="side-blk side-acts"><a href="../pdf/{e(p['id'])}.pdf" download>⬇️ PDF</a><a href="../docx/{e(p['id'])}.docx" download>📝 Word</a><a href="../#chat">💬 Asistente</a></div>
+  <div class="side-blk side-acts"><a href="../pdf/{e(p['id'])}.pdf" download>⬇️ PDF</a><a href="../docx/{e(p['id'])}.docx" download>📝 Word</a><a href="../index.html#chat">💬 Asistente</a></div>
 </aside>"""
     html_doc = html_doc.replace('<span class="spacer"></span><button class="ghost" id="theme"',
                                 '<span class="spacer"></span><button class="ghost side-toggle" id="side-btn" aria-expanded="false" aria-controls="side">☰ Índice</button><button class="ghost" id="theme"', 1)
@@ -384,16 +384,17 @@ def pagina(p, plan, prev, nxt):
   gtag('config', 'G-YKRRVYDYQ8');
 </script>
 </head><body class="doc" style="--eje:{color}">
-<header class="top"><a class="brand" href="../">⚖️ Agenda Legislativa Tech</a>
+<header class="top"><a class="brand" href="../index.html">⚖️ Agenda Legislativa Tech</a>
 <span class="spacer"></span><button class="ghost" id="theme" aria-label="Cambiar tema">◐</button></header>
 <main class="wrap narrow">
-<p class="crumb"><a href="../#propuestas">Propuestas</a> › <span class="eje-tag">{e(eje_nom)}</span></p>
+<p class="crumb"><a href="../propuestas.html">Propuestas</a> › <span class="eje-tag">{e(eje_nom)}</span></p>
 <h1><span class="pid">{e(p['id'])}</span> {e(p['titulo'])}</h1>
 <p class="lead">{e(p.get('sumilla'))}</p>
 <div class="meta-row">
  <span class="pill prio-{e(p.get('prioridad'))}">Prioridad {e(p.get('prioridad'))}</span>
  <span class="pill">Costo fiscal: {e(p.get('costo_fiscal'))}</span>
  <span class="pill">Plazo: {e(p.get('plazo'))}</span>
+ {f'<a class="pill sc" href="../vision.html">Visión 2036: {round(p["vision"]["score"])} pts · {e(p["vision"]["ola"] or "")}</a>' if p.get('vision') else ''}
  {f'<span class="pill prio-alta">Instrumento: {INSTRUMENTO.get(p.get("instrumento"), e(p.get("instrumento")))}</span>' if p.get('instrumento') not in (None, 'ley') else ''}
  <span class="pill">Diputados: {e(p.get('comision_sugerida'))}</span>
  {f'<span class="pill">+ {e(p.get("comision_secundaria"))}</span>' if p.get('comision_secundaria') else ''}
@@ -602,11 +603,61 @@ def docxs(props, plan):
         d.save(out / f"{p['id']}.docx")
 
 
+def _c(t, n):
+    t = " ".join(str(t or "").split())
+    return t if len(t) <= n else t[:n].rsplit(" ", 1)[0] + "…"
+
+
+def datos_divididos(props, plan, salida):
+    """Datos por página para que el sitio cargue liviano: indice (todas), texto (buscador, perezoso), actores, contexto."""
+    def dump(nombre, obj):
+        (ROOT / "data" / nombre).write_text(json.dumps(obj, ensure_ascii=False, separators=(",", ":")))
+    idx = []
+    for p in props:
+        im, ip = p.get("implicados") or {}, p.get("impacto") or {}
+        ce = ip.get("costo_estado") or {}
+        ra = p.get("revision_atendida") or []
+        idx.append({
+            "id": p["id"], "eje": p["eje"], "titulo": p["titulo"], "titulo_corto": p["titulo_corto"], "sumilla": p["sumilla"],
+            "problema": _c(p.get("problema"), 420), "prioridad": p.get("prioridad"), "costo_fiscal": p.get("costo_fiscal"),
+            "plazo": p.get("plazo"), "comision_sugerida": p.get("comision_sugerida"), "comision_senado": p.get("comision_senado"),
+            "plan2050": p.get("plan2050") or [], "ods": p.get("ods") or [], "tags": p.get("tags") or [],
+            "instrumento": p.get("instrumento"), "indicador_exito": _c(p.get("indicador_exito"), 220),
+            "arts": [a.get("titulo") for a in p.get("articulado", [])],
+            "ent": [[x.get("sigla") or x.get("entidad"), x.get("rol")] for x in im.get("entidades", [])],
+            "normas": [[n.get("norma"), n.get("articulo"), n.get("accion")] for n in im.get("normas_modificadas", [])][:8],
+            "benef": _c(im.get("beneficiarios"), 260),
+            "imp": {"tipo": ip.get("tipo"), "costo": _c(ce.get("rango"), 150), "fin": _c(ce.get("financiamiento"), 180),
+                    "bs": _c(ip.get("beneficio_sociedad"), 220), "conf": ip.get("confianza")} if ip else None,
+            "rev": [[r["especialidad"], r.get("veredicto")] for r in p.get("revision", [])],
+            "aten": [sum(1 for x in ra if x.get("accion") == "corregido"), len(ra)],
+        })
+    meta = dict(salida["meta"])
+    meta["n_articulos"] = sum(len(p.get("articulado", [])) for p in props)
+    meta["n_normas"] = len({n.get("norma") for p in props for n in (p.get("implicados") or {}).get("normas_modificadas", [])})
+    meta["n_entidades"] = len({x.get("sigla") or x.get("entidad") for p in props for x in (p.get("implicados") or {}).get("entidades", [])})
+    dump("indice.json", {"meta": meta, "plan2050": {k: {"nombre": v["nombre"], "url": v["url"]} for k, v in plan.items()}, "propuestas": idx})
+    dump("texto.json", {p["id"]: " ".join([p.get("sumilla", ""), p.get("objeto", "") or "", p.get("problema", "") or "",
+                                           " ".join(a.get("titulo", "") + " " + a.get("texto", "") for a in p.get("articulado", [])),
+                                           " ".join(d.get("texto", "") for d in p.get("disposiciones", [])),
+                                           " ".join((x.get("entidad") or "") + " " + (x.get("responsabilidad") or "") for x in (p.get("implicados") or {}).get("entidades", [])),
+                                           " ".join((n.get("norma") or "") for n in p.get("normas_relacionadas", []))]) for p in props})
+    dump("actores.json", [[p["id"], x.get("sigla") or "", x.get("entidad"), x.get("rol"), x.get("responsabilidad")]
+                          for p in props for x in (p.get("implicados") or {}).get("entidades", [])])
+    dump("contexto.json", {"antecedentes": salida["antecedentes"], "contexto": salida["contexto"], "marco": salida["marco"]})
+
+
 def main():
     props, plan, errores = cargar()
     for x in errores:
         print("⚠️ ", x)
     props.sort(key=lambda p: (ORDEN_EJES.index(p["eje"]), p["id"]))
+    pr = opcional("prioridad.json") or {}
+    sc = {r["id"]: r["score"] for r in pr.get("ranking", [])}
+    olas = {i: o["nombre"] for o in (pr.get("olas") or {}).values() for i in o.get("ids", [])}
+    for p in props:
+        if p["id"] in sc:
+            p["vision"] = {"score": sc[p["id"]], "ola": olas.get(p["id"])}
     salida = {
         "meta": {"actualizado": HOY, "total": len(props), "base": BASE,
                  "ejes": [{"id": k, "nombre": v[0], "color": v[1]} for k, v in EJES.items()]},
@@ -617,12 +668,15 @@ def main():
         "marco": opcional("marco_normativo.json"),
     }
     (ROOT / "data/propuestas.json").write_text(json.dumps(salida, ensure_ascii=False, separators=(",", ":")))
+    datos_divididos(props, plan, salida)
+    import paginas
+    paginas.generar(ROOT, len(props))
     (ROOT / "p").mkdir(exist_ok=True)
     for i, p in enumerate(props):
         prev = props[i - 1]["id"] if i else None
         nxt = props[i + 1]["id"] if i + 1 < len(props) else None
         (ROOT / f"p/{p['id']}.html").write_text(con_sidebar(pagina(p, plan, prev, nxt), p, props))
-    urls = [BASE] + [f"{BASE}p/{p['id']}.html" for p in props]
+    urls = [BASE] + [f"{BASE}{k}.html" for k in ("propuestas", "vision", "panorama", "ciudadania", "tramite")] + [f"{BASE}p/{p['id']}.html" for p in props]
     (ROOT / "sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
                                      + "".join(f"<url><loc>{u}</loc><lastmod>{HOY}</lastmod></url>\n" for u in urls) + "</urlset>\n")
     import subprocess

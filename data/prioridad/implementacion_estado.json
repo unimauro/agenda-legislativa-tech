@@ -1,0 +1,2067 @@
+{
+ "lente": "implementacion_estado",
+ "criterios": [
+  {
+   "clave": "viabilidad_politica",
+   "descripcion": "Probabilidad de aprobación en un Congreso bicameral fragmentado (doble cámara, ley orgánica = mayoría calificada, resistencia de gremios o lobbies).",
+   "peso": 0.2
+  },
+  {
+   "clave": "viabilidad_fiscal",
+   "descripcion": "Compatibilidad con art. 79 y STC 00018-2023-PI/TC: costo bajo o absorbible; 5 = sin gasto nuevo, 1 = depende de inversión significativa sin fuente identificada.",
+   "peso": 0.15
+  },
+  {
+   "clave": "capacidad_institucional",
+   "descripcion": "Existencia hoy de una entidad con mandato, personal y sistemas para ejecutar (SGTD, MEF, RENIEC, reguladores, Servir, gobiernos subnacionales).",
+   "peso": 0.2
+  },
+  {
+   "clave": "plazo_realista",
+   "descripcion": "Posibilidad de resultados visibles dentro del periodo 2026-2031 (5 = meses, 1 = más allá de 2031).",
+   "peso": 0.1
+  },
+  {
+   "clave": "riesgo_implementacion",
+   "descripcion": "Inverso del riesgo de implementación (5 = riesgo bajo: pocas entidades, estándares maduros; 1 = muchas entidades, captura, litigio o dependencia tecnológica).",
+   "peso": 0.15
+  },
+  {
+   "clave": "efecto_habilitador",
+   "descripcion": "Cuántas otras propuestas de la agenda destraba (dependencias técnicas o jurídicas fuertes).",
+   "peso": 0.2
+  }
+ ],
+ "tesis": "Desde la lente de implementación, la pregunta no es qué ley es mejor sino qué secuencia puede ejecutar el Estado peruano que realmente existe. Tres restricciones mandan. Primera, la fiscal: tras la STC 00018-2023-PI/TC el Congreso no puede crear gasto, de modo que toda medida costosa debe nacer como meta indicativa o con fuente identificada y opinión del MEF; las reformas de costo cercano a cero (normas de datos, interoperabilidad, transparencia, reglas penales y de consumo) son las que pueden aprobarse primero. Segunda, la capacidad: el Perú ya tiene la plataforma (PIDE, DL 1246; gobierno digital, DL 1412; DNI digital de RENIEC; datos OCDS de OECE; Consulta Amigable del MEF; CNSD), pero adolece de obligatoriedad efectiva, de talento y de una autoridad de datos con autonomía real. Por eso el núcleo de la primera ola es habilitador: interoperabilidad obligatoria (GOB-01), apertura de datos por defecto (IA-04), autonomía técnica de la ANPD (IA-11), ley marco de ciberseguridad sobre el CNSD existente (CIB-01) y la familia de puestos de talento digital en Servir (GOB-14). Estas cinco piezas concentran la mayoría de las dependencias de la red y, si fallan, arrastran a casi treinta propuestas. Tercera, la política: un Congreso bicameral recién instalado y fragmentado premia iniciativas de consenso, visibles y baratas (transparencia del gasto, Congreso abierto, extorsión informática, ventanilla de antenas, alerta temprana), que generan capital político para las reformas difíciles que exigen ley orgánica (PJ, MP, SBS, RENIEC, organismos electorales) o enfrentan gremios (plataformas, banca, telecomunicaciones). La literatura de 'deliverology' (Barber) y de capacidad estatal (Andrews, Pritchett y Woolcock) coincide en que la secuencia importa más que la ambición: pocas metas, responsables claros, rutinas de seguimiento y adaptación iterativa. Por ello propongo cuatro olas: habilitadores y victorias tempranas en los primeros 100 días; reglas de mercado y servicios sobre esa base en 2027; reformas con ley orgánica, inversión o articulación subnacional en 2028-2029; y apuestas de frontera (cómputo avanzado, poscuántica, manufactura avanzada) al final del periodo, cuando exista base de datos, red y talento. Para la visión de crecimiento, el efecto viene de reducir costos de transacción del Estado y de abrir datos para la productividad; no hay cifra de impacto agregada verificable para esta agenda y no la estimo. Las 16 propuestas marcadas como borrador (SOB, DER) se puntúan con cautela adicional hasta su revisión jurídica.",
+ "puntajes": [
+  {
+   "id": "IA-01",
+   "criterios": {
+    "viabilidad_politica": 4,
+    "viabilidad_fiscal": 5,
+    "capacidad_institucional": 3,
+    "plazo_realista": 4,
+    "riesgo_implementacion": 3,
+    "efecto_habilitador": 4
+   },
+   "score": 76,
+   "justificacion": "SGTD ya administra registros y la Ley 31814 da base; costo bajo. Es la pieza que IA-02, IA-09 e IA-14 referencian. Riesgo: subregistro si no se ata a la compra pública y al control de la CGR.",
+   "habilita": [
+    "IA-14",
+    "IA-02",
+    "IA-09"
+   ],
+   "requiere": [],
+   "n_dependientes_total": 3
+  },
+  {
+   "id": "IA-02",
+   "criterios": {
+    "viabilidad_politica": 3,
+    "viabilidad_fiscal": 5,
+    "capacidad_institucional": 3,
+    "plazo_realista": 3,
+    "riesgo_implementacion": 3,
+    "efecto_habilitador": 3
+   },
+   "score": 66,
+   "justificacion": "Toca el TUO 27444, que todas las entidades aplican: alto alcance pero adecuación lenta en 2 500+ entidades. Necesita el registro de IA-01 para saber qué decisiones son automatizadas.",
+   "habilita": [],
+   "requiere": [
+    "IA-01"
+   ],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "IA-03",
+   "criterios": {
+    "viabilidad_politica": 4,
+    "viabilidad_fiscal": 5,
+    "capacidad_institucional": 3,
+    "plazo_realista": 4,
+    "riesgo_implementacion": 4,
+    "efecto_habilitador": 2
+   },
+   "score": 71,
+   "justificacion": "Sandbox general coordinando reguladores existentes; no crea órgano. Bajo costo, pero su utilidad depende de que SBS, OSIPTEL e INDECOPI acepten coordinarse. Destraba pilotos de IA en sectores regulados.",
+   "habilita": [],
+   "requiere": [],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "IA-04",
+   "criterios": {
+    "viabilidad_politica": 4,
+    "viabilidad_fiscal": 4,
+    "capacidad_institucional": 3,
+    "plazo_realista": 3,
+    "riesgo_implementacion": 3,
+    "efecto_habilitador": 5
+   },
+   "score": 75,
+   "justificacion": "Pieza raíz del ecosistema de datos: SGTD ya opera la Plataforma Nacional de Datos Abiertos. Riesgo real: calidad y actualización de datasets y evaluación de reidentificación. Habilita GOB-05, GOB-11, TAL-08/09, CON-09, IA-10.",
+   "habilita": [
+    "GOB-05",
+    "TAL-08",
+    "GOB-11",
+    "CON-09"
+   ],
+   "requiere": [],
+   "n_dependientes_total": 8
+  },
+  {
+   "id": "IA-05",
+   "criterios": {
+    "viabilidad_politica": 3,
+    "viabilidad_fiscal": 2,
+    "capacidad_institucional": 2,
+    "plazo_realista": 2,
+    "riesgo_implementacion": 2,
+    "efecto_habilitador": 3
+   },
+   "score": 48,
+   "justificacion": "Cómputo avanzado exige inversión y operación sostenida; CONCYTEC no tiene hoy capacidad operativa de infraestructura. Requiere fuente identificada (art. 79). Mejor como meta indicativa de fin de periodo, sobre datos y red ya disponibles.",
+   "habilita": [],
+   "requiere": [
+    "IA-04",
+    "CON-03",
+    "ECO-04"
+   ],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "IA-06",
+   "criterios": {
+    "viabilidad_politica": 4,
+    "viabilidad_fiscal": 4,
+    "capacidad_institucional": 2,
+    "plazo_realista": 3,
+    "riesgo_implementacion": 3,
+    "efecto_habilitador": 1
+   },
+   "score": 55,
+   "justificacion": "Consenso político alto y MINCUL tiene registros de lenguas, pero escasa capacidad técnica en PLN; depende de la academia. Gobernanza de datos lingüísticos requiere el régimen de apertura con excepciones de IA-04.",
+   "habilita": [],
+   "requiere": [
+    "IA-04"
+   ],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "IA-07",
+   "criterios": {
+    "viabilidad_politica": 3,
+    "viabilidad_fiscal": 5,
+    "capacidad_institucional": 4,
+    "plazo_realista": 4,
+    "riesgo_implementacion": 3,
+    "efecto_habilitador": 1
+   },
+   "score": 64,
+   "justificacion": "JNE y ONPE tienen capacidad sancionadora; costo nulo. Debe aprobarse al menos un año antes de las elecciones 2030-2031. Riesgo: aplicación tardía en periodo electoral y dificultad de detección.",
+   "habilita": [],
+   "requiere": [],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "IA-08",
+   "criterios": {
+    "viabilidad_politica": 3,
+    "viabilidad_fiscal": 4,
+    "capacidad_institucional": 2,
+    "plazo_realista": 2,
+    "riesgo_implementacion": 2,
+    "efecto_habilitador": 1
+   },
+   "score": 46,
+   "justificacion": "DIGEMID no tiene hoy unidad de software como dispositivo médico; validación clínica exige datos de historia clínica interoperable. Útil pero tardío: depende de TAL-06.",
+   "habilita": [],
+   "requiere": [
+    "TAL-06",
+    "IA-10"
+   ],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "IA-09",
+   "criterios": {
+    "viabilidad_politica": 2,
+    "viabilidad_fiscal": 4,
+    "capacidad_institucional": 2,
+    "plazo_realista": 3,
+    "riesgo_implementacion": 3,
+    "efecto_habilitador": 1
+   },
+   "score": 47,
+   "justificacion": "Requiere ley orgánica (PJ y MP) con mayoría calificada en dos cámaras; capacidad informática judicial desigual. Remite al registro de IA-01 y se apoya en el expediente judicial electrónico de DER-01.",
+   "habilita": [],
+   "requiere": [
+    "IA-01",
+    "DER-01"
+   ],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "IA-10",
+   "criterios": {
+    "viabilidad_politica": 3,
+    "viabilidad_fiscal": 4,
+    "capacidad_institucional": 2,
+    "plazo_realista": 3,
+    "riesgo_implementacion": 2,
+    "efecto_habilitador": 2
+   },
+   "score": 52,
+   "justificacion": "Entornos seguros de datos exigen INEI y ANPD con capacidad técnica que hoy es limitada; riesgo de reidentificación alto. Habilita investigación en salud, biobancos e IA. Necesita ANPD fortalecida y datos abiertos.",
+   "habilita": [
+    "IA-08",
+    "SOB-05"
+   ],
+   "requiere": [
+    "IA-04",
+    "IA-11"
+   ],
+   "n_dependientes_total": 2
+  },
+  {
+   "id": "IA-11",
+   "criterios": {
+    "viabilidad_politica": 3,
+    "viabilidad_fiscal": 4,
+    "capacidad_institucional": 3,
+    "plazo_realista": 4,
+    "riesgo_implementacion": 3,
+    "efecto_habilitador": 5
+   },
+   "score": 73,
+   "justificacion": "Autonomía técnico-funcional de la ANPD sin crear pliego: viable. Es cuello de botella de casi toda la agenda de datos (portabilidad, DNI digital, menores, biobancos). Riesgo: autonomía nominal sin presupuesto ni plazas.",
+   "habilita": [
+    "CIB-08",
+    "IA-12",
+    "DER-04",
+    "CIB-10"
+   ],
+   "requiere": [],
+   "n_dependientes_total": 6
+  },
+  {
+   "id": "IA-12",
+   "criterios": {
+    "viabilidad_politica": 3,
+    "viabilidad_fiscal": 5,
+    "capacidad_institucional": 3,
+    "plazo_realista": 3,
+    "riesgo_implementacion": 3,
+    "efecto_habilitador": 3
+   },
+   "score": 66,
+   "justificacion": "Rango legal a un derecho ya reglamentado; costo nulo. La ejecución real depende de ANPD fuerte e interoperabilidad. Es la regla general que habilita finanzas abiertas (ECO-06) e historia clínica (TAL-06).",
+   "habilita": [
+    "ECO-06",
+    "TAL-06"
+   ],
+   "requiere": [
+    "IA-11",
+    "GOB-01"
+   ],
+   "n_dependientes_total": 2
+  },
+  {
+   "id": "IA-13",
+   "criterios": {
+    "viabilidad_politica": 2,
+    "viabilidad_fiscal": 5,
+    "capacidad_institucional": 3,
+    "plazo_realista": 3,
+    "riesgo_implementacion": 3,
+    "efecto_habilitador": 2
+   },
+   "score": 58,
+   "justificacion": "Oposición gremial probable en un Congreso fragmentado; SUNAFIL fiscaliza con recursos limitados. Costo fiscal nulo. Es la regla madre que ECO-11 necesita para gestión algorítmica en plataformas.",
+   "habilita": [
+    "ECO-11"
+   ],
+   "requiere": [],
+   "n_dependientes_total": 1
+  },
+  {
+   "id": "IA-14",
+   "criterios": {
+    "viabilidad_politica": 4,
+    "viabilidad_fiscal": 5,
+    "capacidad_institucional": 4,
+    "plazo_realista": 4,
+    "riesgo_implementacion": 4,
+    "efecto_habilitador": 1
+   },
+   "score": 71,
+   "justificacion": "Se ejecuta vía bases estándar de OECE y Perú Compras: canal ya existente y de bajo costo. Rápido de implementar si se apoya en el registro de IA-01 y en el marco de nube de GOB-13.",
+   "habilita": [],
+   "requiere": [
+    "IA-01",
+    "GOB-13"
+   ],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "CIB-01",
+   "criterios": {
+    "viabilidad_politica": 4,
+    "viabilidad_fiscal": 4,
+    "capacidad_institucional": 3,
+    "plazo_realista": 3,
+    "riesgo_implementacion": 3,
+    "efecto_habilitador": 5
+   },
+   "score": 75,
+   "justificacion": "Ley marco sobre el CNSD existente (DU 007-2020, DS 126-2025-PCM): no crea agencia. Es columna de toda la agenda ciber. Riesgo: CNSD con poco personal especializado; necesita la subfamilia de CIB-12.",
+   "habilita": [
+    "CIB-03",
+    "CIB-11",
+    "GOB-13",
+    "CIB-02"
+   ],
+   "requiere": [],
+   "n_dependientes_total": 5
+  },
+  {
+   "id": "CIB-02",
+   "criterios": {
+    "viabilidad_politica": 3,
+    "viabilidad_fiscal": 4,
+    "capacidad_institucional": 3,
+    "plazo_realista": 3,
+    "riesgo_implementacion": 3,
+    "efecto_habilitador": 2
+   },
+   "score": 59,
+   "justificacion": "Reguladores sectoriales ya supervisan operadores; la ley les da contenido y sanción. Coordinación SBS-OSIPTEL-OSINERGMIN compleja. Depende del sistema organizado por CIB-01.",
+   "habilita": [
+    "CON-14"
+   ],
+   "requiere": [
+    "CIB-01"
+   ],
+   "n_dependientes_total": 1
+  },
+  {
+   "id": "CIB-03",
+   "criterios": {
+    "viabilidad_politica": 4,
+    "viabilidad_fiscal": 5,
+    "capacidad_institucional": 4,
+    "plazo_realista": 4,
+    "riesgo_implementacion": 4,
+    "efecto_habilitador": 3
+   },
+   "score": 79,
+   "justificacion": "Armoniza plazos ya vigentes (48 h del DS 126-2025-PCM) en una ventanilla: ganancia rápida, bajo costo. Habilita reportes de CIB-14 y estadística de incidentes. Requiere el CNSD organizado por CIB-01.",
+   "habilita": [
+    "CIB-14"
+   ],
+   "requiere": [
+    "CIB-01"
+   ],
+   "n_dependientes_total": 1
+  },
+  {
+   "id": "CIB-04",
+   "criterios": {
+    "viabilidad_politica": 5,
+    "viabilidad_fiscal": 5,
+    "capacidad_institucional": 4,
+    "plazo_realista": 5,
+    "riesgo_implementacion": 4,
+    "efecto_habilitador": 3
+   },
+   "score": 85,
+   "justificacion": "Reforma penal de alta aceptación política (extorsión, chantaje con material sintético); MP y PNP ya tienen divisiones especializadas. Ganancia rápida en el primer periodo; base de CIB-11, CIB-14 y DER-07.",
+   "habilita": [
+    "CIB-11",
+    "DER-07",
+    "CIB-14"
+   ],
+   "requiere": [],
+   "n_dependientes_total": 3
+  },
+  {
+   "id": "CIB-05",
+   "criterios": {
+    "viabilidad_politica": 2,
+    "viabilidad_fiscal": 5,
+    "capacidad_institucional": 3,
+    "plazo_realista": 3,
+    "riesgo_implementacion": 3,
+    "efecto_habilitador": 1
+   },
+   "score": 54,
+   "justificacion": "Oposición fuerte de banca y telcos al reembolso; SBS y OSIPTEL tienen capacidad. Eficaz solo si a la vez se corta la suplantación de identificadores (CIB-06).",
+   "habilita": [],
+   "requiere": [
+    "CIB-06"
+   ],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "CIB-06",
+   "criterios": {
+    "viabilidad_politica": 4,
+    "viabilidad_fiscal": 5,
+    "capacidad_institucional": 4,
+    "plazo_realista": 4,
+    "riesgo_implementacion": 4,
+    "efecto_habilitador": 2
+   },
+   "score": 75,
+   "justificacion": "OSIPTEL tiene capacidad regulatoria y las operadoras capacidad técnica; costo fiscal bajo. Ganancia visible para la ciudadanía contra el fraude. Condición previa de CIB-05.",
+   "habilita": [
+    "CIB-05"
+   ],
+   "requiere": [],
+   "n_dependientes_total": 1
+  },
+  {
+   "id": "CIB-07",
+   "criterios": {
+    "viabilidad_politica": 3,
+    "viabilidad_fiscal": 5,
+    "capacidad_institucional": 2,
+    "plazo_realista": 2,
+    "riesgo_implementacion": 3,
+    "efecto_habilitador": 1
+   },
+   "score": 52,
+   "justificacion": "PRODUCE/INACAL no tienen hoy esquema de evaluación de conformidad para IoT; depende de normas técnicas y mercado importador. Implementación de largo plazo y efecto habilitador acotado (TAL-12).",
+   "habilita": [
+    "TAL-12"
+   ],
+   "requiere": [],
+   "n_dependientes_total": 1
+  },
+  {
+   "id": "CIB-08",
+   "criterios": {
+    "viabilidad_politica": 3,
+    "viabilidad_fiscal": 3,
+    "capacidad_institucional": 4,
+    "plazo_realista": 3,
+    "riesgo_implementacion": 3,
+    "efecto_habilitador": 4
+   },
+   "score": 68,
+   "justificacion": "RENIEC ya emite DNIe y opera el DNI digital (DS 098-2025-PCM); exige ley orgánica (Ley 26497). Habilita firma remota, casilla única y participación digital. Riesgo: brecha de dispositivos y garantías de privacidad.",
+   "habilita": [
+    "GOB-02",
+    "CIB-09",
+    "DER-08"
+   ],
+   "requiere": [
+    "GOB-01",
+    "IA-11"
+   ],
+   "n_dependientes_total": 3
+  },
+  {
+   "id": "CIB-09",
+   "criterios": {
+    "viabilidad_politica": 4,
+    "viabilidad_fiscal": 3,
+    "capacidad_institucional": 4,
+    "plazo_realista": 3,
+    "riesgo_implementacion": 3,
+    "efecto_habilitador": 3
+   },
+   "score": 68,
+   "justificacion": "RENIEC e INDECOPI ya operan la infraestructura oficial de firma; la gratuidad progresiva necesita financiamiento identificado. Habilita receta electrónica, adhesión digital y expedientes.",
+   "habilita": [
+    "TAL-07",
+    "DER-08"
+   ],
+   "requiere": [
+    "CIB-08"
+   ],
+   "n_dependientes_total": 2
+  },
+  {
+   "id": "CIB-10",
+   "criterios": {
+    "viabilidad_politica": 3,
+    "viabilidad_fiscal": 5,
+    "capacidad_institucional": 2,
+    "plazo_realista": 3,
+    "riesgo_implementacion": 2,
+    "efecto_habilitador": 2
+   },
+   "score": 55,
+   "justificacion": "Alto consenso pero difícil fiscalización a plataformas globales; INDECOPI y ANPD con capacidad limitada. Requiere ANPD fortalecida. Riesgo de norma declarativa.",
+   "habilita": [
+    "TAL-14"
+   ],
+   "requiere": [
+    "IA-11"
+   ],
+   "n_dependientes_total": 1
+  },
+  {
+   "id": "CIB-11",
+   "criterios": {
+    "viabilidad_politica": 4,
+    "viabilidad_fiscal": 5,
+    "capacidad_institucional": 3,
+    "plazo_realista": 4,
+    "riesgo_implementacion": 4,
+    "efecto_habilitador": 2
+   },
+   "score": 71,
+   "justificacion": "Costo nulo; protege a investigadores de buena fe y canaliza vulnerabilidades al CNSD. Útil antes de auditorías electorales (CIB-13). Requiere coherencia con la reforma penal de CIB-04.",
+   "habilita": [
+    "CIB-13"
+   ],
+   "requiere": [
+    "CIB-04",
+    "CIB-01"
+   ],
+   "n_dependientes_total": 1
+  },
+  {
+   "id": "CIB-12",
+   "criterios": {
+    "viabilidad_politica": 4,
+    "viabilidad_fiscal": 4,
+    "capacidad_institucional": 3,
+    "plazo_realista": 3,
+    "riesgo_implementacion": 4,
+    "efecto_habilitador": 2
+   },
+   "score": 66,
+   "justificacion": "Servir ya gestiona familias de puestos; la subfamilia ciber se monta sobre la familia digital de GOB-14. Sin talento, CIB-01/02/03 no se ejecutan. Riesgo: brecha salarial frente al mercado.",
+   "habilita": [],
+   "requiere": [
+    "GOB-14"
+   ],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "CIB-13",
+   "criterios": {
+    "viabilidad_politica": 2,
+    "viabilidad_fiscal": 4,
+    "capacidad_institucional": 4,
+    "plazo_realista": 3,
+    "riesgo_implementacion": 3,
+    "efecto_habilitador": 1
+   },
+   "score": 55,
+   "justificacion": "Ley orgánica electoral con mayoría calificada; ONPE tiene capacidad técnica. Debe estar vigente al menos un año antes de 2030-2031. Aprovecha el marco de divulgación de vulnerabilidades de CIB-11.",
+   "habilita": [],
+   "requiere": [
+    "CIB-11"
+   ],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "CIB-14",
+   "criterios": {
+    "viabilidad_politica": 3,
+    "viabilidad_fiscal": 4,
+    "capacidad_institucional": 3,
+    "plazo_realista": 3,
+    "riesgo_implementacion": 3,
+    "efecto_habilitador": 1
+   },
+   "score": 55,
+   "justificacion": "Reporte de pagos de rescate vía la ventanilla de CIB-03 y tipos penales de CIB-04; mipymes con baja capacidad de cumplimiento. Seguros: la SBS puede regular transparencia sin costo fiscal.",
+   "habilita": [],
+   "requiere": [
+    "CIB-03",
+    "CIB-04"
+   ],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "GOB-01",
+   "criterios": {
+    "viabilidad_politica": 5,
+    "viabilidad_fiscal": 4,
+    "capacidad_institucional": 4,
+    "plazo_realista": 3,
+    "riesgo_implementacion": 3,
+    "efecto_habilitador": 5
+   },
+   "score": 83,
+   "justificacion": "La PIDE existe desde el DL 1246 pero sin obligatoriedad efectiva ni plazos: elevarla es la reforma con mayor efecto red del Estado. SGTD sabe operarla. Riesgo: entidades que no publican servicios; exige bitácora y control de accesos.",
+   "habilita": [
+    "GOB-02",
+    "CIB-08",
+    "GOB-08",
+    "IA-12"
+   ],
+   "requiere": [],
+   "n_dependientes_total": 7
+  },
+  {
+   "id": "GOB-02",
+   "criterios": {
+    "viabilidad_politica": 4,
+    "viabilidad_fiscal": 4,
+    "capacidad_institucional": 4,
+    "plazo_realista": 3,
+    "riesgo_implementacion": 3,
+    "efecto_habilitador": 3
+   },
+   "score": 71,
+   "justificacion": "Ley 31736 y la casilla de SUNAT ya existen; unificar es factible con SGTD y AGN. Base para trazabilidad de denuncias y preservación. Requiere interoperabilidad e identidad digital.",
+   "habilita": [
+    "GOB-12",
+    "GOB-10"
+   ],
+   "requiere": [
+    "GOB-01",
+    "CIB-08"
+   ],
+   "n_dependientes_total": 2
+  },
+  {
+   "id": "GOB-03",
+   "criterios": {
+    "viabilidad_politica": 4,
+    "viabilidad_fiscal": 5,
+    "capacidad_institucional": 3,
+    "plazo_realista": 4,
+    "riesgo_implementacion": 4,
+    "efecto_habilitador": 2
+   },
+   "score": 71,
+   "justificacion": "Costo nulo y beneficio inmediato en reutilización; SGTD ya tiene repositorio de software público. Riesgo: resistencia de proveedores y entidades sin capacidad de mantenimiento.",
+   "habilita": [
+    "GOB-08"
+   ],
+   "requiere": [],
+   "n_dependientes_total": 1
+  },
+  {
+   "id": "GOB-04",
+   "criterios": {
+    "viabilidad_politica": 4,
+    "viabilidad_fiscal": 4,
+    "capacidad_institucional": 3,
+    "plazo_realista": 4,
+    "riesgo_implementacion": 3,
+    "efecto_habilitador": 2
+   },
+   "score": 65,
+   "justificacion": "Ley 32069 y su reglamento ya permiten compra de innovación; precisarla es rápido vía OECE y MEF. Habilita desarrollo de proveedores (SOB-08) y pilotos GovTech. Riesgo: temor a la Contraloría paraliza a compradores.",
+   "habilita": [
+    "SOB-08"
+   ],
+   "requiere": [],
+   "n_dependientes_total": 1
+  },
+  {
+   "id": "GOB-05",
+   "criterios": {
+    "viabilidad_politica": 5,
+    "viabilidad_fiscal": 5,
+    "capacidad_institucional": 4,
+    "plazo_realista": 5,
+    "riesgo_implementacion": 4,
+    "efecto_habilitador": 2
+   },
+   "score": 81,
+   "justificacion": "MEF ya publica Consulta Amigable y OECE datos OCDS: es formalizar y acelerar lo existente. Ganancia rápida de alta visibilidad anticorrupción. Requiere excepciones de seguridad y el régimen de IA-04.",
+   "habilita": [],
+   "requiere": [
+    "IA-04"
+   ],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "GOB-06",
+   "criterios": {
+    "viabilidad_politica": 5,
+    "viabilidad_fiscal": 5,
+    "capacidad_institucional": 4,
+    "plazo_realista": 5,
+    "riesgo_implementacion": 5,
+    "efecto_habilitador": 1
+   },
+   "score": 80,
+   "justificacion": "Resolución legislativa del propio Congreso: no pasa por el Ejecutivo ni por el Senado como ley. Costo nulo, ejecución interna. Señal temprana de credibilidad de la agenda.",
+   "habilita": [],
+   "requiere": [],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "GOB-07",
+   "criterios": {
+    "viabilidad_politica": 3,
+    "viabilidad_fiscal": 2,
+    "capacidad_institucional": 2,
+    "plazo_realista": 2,
+    "riesgo_implementacion": 2,
+    "efecto_habilitador": 2
+   },
+   "score": 44,
+   "justificacion": "Catastro multipropósito exige articular MVCS, COFOPRI, SUNARP y 1 800+ municipalidades con baja capacidad; inversión alta. Plazo largo; depende de interoperabilidad y datos satelitales.",
+   "habilita": [],
+   "requiere": [
+    "GOB-01",
+    "CON-09"
+   ],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "GOB-08",
+   "criterios": {
+    "viabilidad_politica": 4,
+    "viabilidad_fiscal": 4,
+    "capacidad_institucional": 3,
+    "plazo_realista": 3,
+    "riesgo_implementacion": 3,
+    "efecto_habilitador": 3
+   },
+   "score": 67,
+   "justificacion": "Servicios compartidos son la única vía realista para municipios sin equipos TI; SGTD puede operarlos sobre nube estatal. Riesgo: heterogeneidad subnacional y rotación de autoridades.",
+   "habilita": [],
+   "requiere": [
+    "GOB-01",
+    "GOB-13",
+    "GOB-03"
+   ],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "GOB-09",
+   "criterios": {
+    "viabilidad_politica": 4,
+    "viabilidad_fiscal": 4,
+    "capacidad_institucional": 3,
+    "plazo_realista": 3,
+    "riesgo_implementacion": 3,
+    "efecto_habilitador": 1
+   },
+   "score": 59,
+   "justificacion": "Canales móviles y mensajería son el acceso real de la población; SGTD ya tiene gob.pe. Debe cumplir accesibilidad (TAL-13) y apoyarse en interoperabilidad.",
+   "habilita": [],
+   "requiere": [
+    "GOB-01",
+    "TAL-13"
+   ],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "GOB-10",
+   "criterios": {
+    "viabilidad_politica": 3,
+    "viabilidad_fiscal": 3,
+    "capacidad_institucional": 2,
+    "plazo_realista": 2,
+    "riesgo_implementacion": 3,
+    "efecto_habilitador": 1
+   },
+   "score": 46,
+   "justificacion": "AGN con capacidad técnica limitada en preservación digital; repositorio nacional requiere inversión. Útil una vez operativo el expediente electrónico de GOB-02.",
+   "habilita": [],
+   "requiere": [
+    "GOB-02"
+   ],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "GOB-11",
+   "criterios": {
+    "viabilidad_politica": 4,
+    "viabilidad_fiscal": 5,
+    "capacidad_institucional": 3,
+    "plazo_realista": 4,
+    "riesgo_implementacion": 3,
+    "efecto_habilitador": 2
+   },
+   "score": 68,
+   "justificacion": "ATU ya produce datos GTFS parciales; la obligación es de bajo costo. Habilita estándares de pasaje electrónico (TAL-11). Riesgo: operadores informales fuera de Lima.",
+   "habilita": [
+    "TAL-11"
+   ],
+   "requiere": [
+    "IA-04"
+   ],
+   "n_dependientes_total": 1
+  },
+  {
+   "id": "GOB-12",
+   "criterios": {
+    "viabilidad_politica": 4,
+    "viabilidad_fiscal": 5,
+    "capacidad_institucional": 3,
+    "plazo_realista": 4,
+    "riesgo_implementacion": 4,
+    "efecto_habilitador": 1
+   },
+   "score": 67,
+   "justificacion": "La Plataforma Digital Única de Denuncias ya existe; la ley da trazabilidad. Se apoya en la casilla y el expediente únicos de GOB-02.",
+   "habilita": [],
+   "requiere": [
+    "GOB-02"
+   ],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "GOB-13",
+   "criterios": {
+    "viabilidad_politica": 4,
+    "viabilidad_fiscal": 4,
+    "capacidad_institucional": 3,
+    "plazo_realista": 3,
+    "riesgo_implementacion": 3,
+    "efecto_habilitador": 4
+   },
+   "score": 71,
+   "justificacion": "Consolidación de centros de datos y nube por clasificación ahorra costos; SGTD y Perú Compras tienen instrumentos. Habilita servicios compartidos, contratación de IA y criptografía. Riesgo: dependencia de proveedores y seguridad.",
+   "habilita": [
+    "IA-14",
+    "GOB-08",
+    "SOB-06"
+   ],
+   "requiere": [
+    "CIB-01"
+   ],
+   "n_dependientes_total": 3
+  },
+  {
+   "id": "GOB-14",
+   "criterios": {
+    "viabilidad_politica": 4,
+    "viabilidad_fiscal": 4,
+    "capacidad_institucional": 4,
+    "plazo_realista": 4,
+    "riesgo_implementacion": 4,
+    "efecto_habilitador": 4
+   },
+   "score": 80,
+   "justificacion": "Servir ya gestiona familias de puestos; crear la de talento digital es acto de gestión con base legal. Es el insumo humano de toda la agenda de gobierno digital y ciber. Riesgo: escalas salariales del sector público.",
+   "habilita": [
+    "CIB-12"
+   ],
+   "requiere": [],
+   "n_dependientes_total": 1
+  },
+  {
+   "id": "CON-01",
+   "criterios": {
+    "viabilidad_politica": 4,
+    "viabilidad_fiscal": 4,
+    "capacidad_institucional": 3,
+    "plazo_realista": 4,
+    "riesgo_implementacion": 3,
+    "efecto_habilitador": 2
+   },
+   "score": 65,
+   "justificacion": "Desarrolla el art. 14-A ya vigente; define estándar de conectividad significativa que ordena metas de MTC y OSIPTEL. Base de neutralidad y calidad (CON-12). Debe evitar apagones y obligaciones fiscales sin fuente.",
+   "habilita": [
+    "CON-12"
+   ],
+   "requiere": [],
+   "n_dependientes_total": 1
+  },
+  {
+   "id": "CON-02",
+   "criterios": {
+    "viabilidad_politica": 4,
+    "viabilidad_fiscal": 4,
+    "capacidad_institucional": 4,
+    "plazo_realista": 4,
+    "riesgo_implementacion": 4,
+    "efecto_habilitador": 3
+   },
+   "score": 76,
+   "justificacion": "PRONATEL ya opera el fondo de servicio universal; asegurar operación y mantenimiento evita que las redes regionales queden ociosas. Precondición de red mayorista y conectividad de escuelas y postas.",
+   "habilita": [
+    "CON-13",
+    "CON-03"
+   ],
+   "requiere": [],
+   "n_dependientes_total": 2
+  },
+  {
+   "id": "CON-03",
+   "criterios": {
+    "viabilidad_politica": 3,
+    "viabilidad_fiscal": 3,
+    "capacidad_institucional": 3,
+    "plazo_realista": 2,
+    "riesgo_implementacion": 2,
+    "efecto_habilitador": 3
+   },
+   "score": 55,
+   "justificacion": "Integrar la Red Dorsal y las redes regionales es necesario pero complejo: contratos de concesión, arbitrajes y operador. Habilita conectividad de escuelas y cómputo avanzado. Riesgo contractual alto.",
+   "habilita": [
+    "CON-13",
+    "IA-05"
+   ],
+   "requiere": [
+    "CON-02"
+   ],
+   "n_dependientes_total": 2
+  },
+  {
+   "id": "CON-04",
+   "criterios": {
+    "viabilidad_politica": 4,
+    "viabilidad_fiscal": 4,
+    "capacidad_institucional": 2,
+    "plazo_realista": 3,
+    "riesgo_implementacion": 3,
+    "efecto_habilitador": 1
+   },
+   "score": 55,
+   "justificacion": "Ductos en obra pública reducen costo de despliegue, pero dependen de miles de unidades ejecutoras subnacionales con baja capacidad. Costo marginal en obra nueva.",
+   "habilita": [],
+   "requiere": [],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "CON-05",
+   "criterios": {
+    "viabilidad_politica": 5,
+    "viabilidad_fiscal": 5,
+    "capacidad_institucional": 4,
+    "plazo_realista": 5,
+    "riesgo_implementacion": 4,
+    "efecto_habilitador": 1
+   },
+   "score": 77,
+   "justificacion": "Ley 29022 ya funciona; volverla permanente y digitalizar la ventanilla es ganancia rápida con apoyo de operadores. Riesgo bajo: conflicto con municipalidades por silencio positivo.",
+   "habilita": [],
+   "requiere": [],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "CON-06",
+   "criterios": {
+    "viabilidad_politica": 3,
+    "viabilidad_fiscal": 3,
+    "capacidad_institucional": 4,
+    "plazo_realista": 3,
+    "riesgo_implementacion": 3,
+    "efecto_habilitador": 2
+   },
+   "score": 60,
+   "justificacion": "MTC y ProInversión tienen experiencia en subastas; obligaciones de cobertura rural ligadas al espectro. Habilita redes comunitarias. Riesgo: equilibrio recaudación vs cobertura y aportes al fondo universal.",
+   "habilita": [
+    "CON-07"
+   ],
+   "requiere": [],
+   "n_dependientes_total": 1
+  },
+  {
+   "id": "CON-07",
+   "criterios": {
+    "viabilidad_politica": 3,
+    "viabilidad_fiscal": 4,
+    "capacidad_institucional": 2,
+    "plazo_realista": 3,
+    "riesgo_implementacion": 3,
+    "efecto_habilitador": 1
+   },
+   "score": 51,
+   "justificacion": "Redes comunitarias necesitan espectro accesible (CON-06) y acompañamiento técnico que MTC hoy no presta en escala. Impacto local alto, efecto red limitado.",
+   "habilita": [],
+   "requiere": [
+    "CON-06"
+   ],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "CON-08",
+   "criterios": {
+    "viabilidad_politica": 3,
+    "viabilidad_fiscal": 3,
+    "capacidad_institucional": 3,
+    "plazo_realista": 2,
+    "riesgo_implementacion": 3,
+    "efecto_habilitador": 1
+   },
+   "score": 50,
+   "justificacion": "CONIDA ya es la agencia espacial (DL 1134, Ley 32571); la ley de actividades espaciales ordena autorización y responsabilidad. Necesaria pero no crítica en este periodo.",
+   "habilita": [],
+   "requiere": [],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "CON-09",
+   "criterios": {
+    "viabilidad_politica": 4,
+    "viabilidad_fiscal": 5,
+    "capacidad_institucional": 3,
+    "plazo_realista": 4,
+    "riesgo_implementacion": 3,
+    "efecto_habilitador": 2
+   },
+   "score": 68,
+   "justificacion": "CONIDA ya distribuye imágenes PerúSAT-1; abrir datos de observación de la Tierra cuesta poco y alimenta catastro, agro y minería. Remite al régimen de apertura de IA-04; excepciones de defensa necesarias.",
+   "habilita": [
+    "GOB-07"
+   ],
+   "requiere": [
+    "IA-04"
+   ],
+   "n_dependientes_total": 1
+  },
+  {
+   "id": "CON-10",
+   "criterios": {
+    "viabilidad_politica": 3,
+    "viabilidad_fiscal": 4,
+    "capacidad_institucional": 3,
+    "plazo_realista": 3,
+    "riesgo_implementacion": 3,
+    "efecto_habilitador": 1
+   },
+   "score": 55,
+   "justificacion": "Promoción de centros de datos privados depende más de energía, agua y conectividad internacional que de la ley. MTC registra; MINEM y ANA intervienen. Efecto en inversión, poco en otras propuestas.",
+   "habilita": [],
+   "requiere": [
+    "CON-11"
+   ],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "CON-11",
+   "criterios": {
+    "viabilidad_politica": 3,
+    "viabilidad_fiscal": 4,
+    "capacidad_institucional": 3,
+    "plazo_realista": 2,
+    "riesgo_implementacion": 3,
+    "efecto_habilitador": 2
+   },
+   "score": 57,
+   "justificacion": "Diversificar cables submarinos depende de inversión privada y permisos de DICAPI; la ley reduce fricción. Condición de centros de datos y resiliencia de redes.",
+   "habilita": [
+    "CON-10"
+   ],
+   "requiere": [],
+   "n_dependientes_total": 1
+  },
+  {
+   "id": "CON-12",
+   "criterios": {
+    "viabilidad_politica": 3,
+    "viabilidad_fiscal": 5,
+    "capacidad_institucional": 4,
+    "plazo_realista": 4,
+    "riesgo_implementacion": 4,
+    "efecto_habilitador": 1
+   },
+   "score": 67,
+   "justificacion": "OSIPTEL tiene capacidad técnica de medición; actualizar neutralidad es de costo nulo. Riesgo: litigio de operadores sobre zero-rating. Se apoya en el estándar de CON-01.",
+   "habilita": [],
+   "requiere": [
+    "CON-01"
+   ],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "CON-13",
+   "criterios": {
+    "viabilidad_politica": 4,
+    "viabilidad_fiscal": 2,
+    "capacidad_institucional": 3,
+    "plazo_realista": 2,
+    "riesgo_implementacion": 2,
+    "efecto_habilitador": 3
+   },
+   "score": 56,
+   "justificacion": "Meta política muy popular, pero con costo recurrente alto (operación de la Red del Estado) y miles de locales sin energía. Debe formularse como meta indicativa con fuente identificada. Habilita currículo digital y telesalud.",
+   "habilita": [
+    "TAL-07",
+    "TAL-01"
+   ],
+   "requiere": [
+    "CON-03",
+    "CON-02"
+   ],
+   "n_dependientes_total": 2
+  },
+  {
+   "id": "CON-14",
+   "criterios": {
+    "viabilidad_politica": 4,
+    "viabilidad_fiscal": 4,
+    "capacidad_institucional": 3,
+    "plazo_realista": 3,
+    "riesgo_implementacion": 3,
+    "efecto_habilitador": 1
+   },
+   "score": 59,
+   "justificacion": "Resiliencia de redes ante desastres con OSIPTEL e INDECI; costo mayormente privado. Remite a la red de alerta de TAL-10 y a obligaciones de operadores esenciales de CIB-02.",
+   "habilita": [],
+   "requiere": [
+    "TAL-10",
+    "CIB-02"
+   ],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "ECO-01",
+   "criterios": {
+    "viabilidad_politica": 4,
+    "viabilidad_fiscal": 5,
+    "capacidad_institucional": 3,
+    "plazo_realista": 4,
+    "riesgo_implementacion": 4,
+    "efecto_habilitador": 3
+   },
+   "score": 75,
+   "justificacion": "PRODUCE y SUNARP pueden operar un régimen societario simplificado; costo nulo. Habilita capital emprendedor, crowdfunding y economía del conocimiento. Riesgo: uso elusivo; requiere control UIF.",
+   "habilita": [
+    "ECO-09",
+    "ECO-13"
+   ],
+   "requiere": [],
+   "n_dependientes_total": 2
+  },
+  {
+   "id": "ECO-02",
+   "criterios": {
+    "viabilidad_politica": 4,
+    "viabilidad_fiscal": 3,
+    "capacidad_institucional": 4,
+    "plazo_realista": 5,
+    "riesgo_implementacion": 4,
+    "efecto_habilitador": 1
+   },
+   "score": 67,
+   "justificacion": "El Fondo de Capital para Emprendimientos Innovadores ya existe vía COFIDE; dar continuidad es rápido. Requiere coordinación con MEF por recursos. Bajo riesgo de implementación.",
+   "habilita": [],
+   "requiere": [],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "ECO-03",
+   "criterios": {
+    "viabilidad_politica": 4,
+    "viabilidad_fiscal": 3,
+    "capacidad_institucional": 4,
+    "plazo_realista": 5,
+    "riesgo_implementacion": 4,
+    "efecto_habilitador": 1
+   },
+   "score": 67,
+   "justificacion": "Modifica un beneficio tributario vigente (Ley 30309): necesita informe MEF y Norma VII. SUNAT y CONCYTEC ya lo administran. Ganancia rápida para pymes innovadoras.",
+   "habilita": [],
+   "requiere": [],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "ECO-04",
+   "criterios": {
+    "viabilidad_politica": 4,
+    "viabilidad_fiscal": 3,
+    "capacidad_institucional": 3,
+    "plazo_realista": 2,
+    "riesgo_implementacion": 3,
+    "efecto_habilitador": 2
+   },
+   "score": 58,
+   "justificacion": "Metas indicativas, no gasto obligatorio: compatible con art. 79. Ordena la programación multianual de CTI. Riesgo: quedarse en declaración si MEF no la incorpora al Marco Macroeconómico.",
+   "habilita": [
+    "IA-05"
+   ],
+   "requiere": [],
+   "n_dependientes_total": 1
+  },
+  {
+   "id": "ECO-05",
+   "criterios": {
+    "viabilidad_politica": 4,
+    "viabilidad_fiscal": 5,
+    "capacidad_institucional": 3,
+    "plazo_realista": 3,
+    "riesgo_implementacion": 3,
+    "efecto_habilitador": 2
+   },
+   "score": 66,
+   "justificacion": "Régimen de titularidad de resultados con fondos públicos: costo nulo, CONCYTEC e INDECOPI capaces. Habilita spin-offs y parques tecnológicos. Riesgo: universidades sin oficinas de transferencia.",
+   "habilita": [
+    "ECO-13"
+   ],
+   "requiere": [],
+   "n_dependientes_total": 1
+  },
+  {
+   "id": "ECO-06",
+   "criterios": {
+    "viabilidad_politica": 3,
+    "viabilidad_fiscal": 5,
+    "capacidad_institucional": 4,
+    "plazo_realista": 3,
+    "riesgo_implementacion": 3,
+    "efecto_habilitador": 2
+   },
+   "score": 66,
+   "justificacion": "La SBS tiene capacidad regulatoria y sandbox; reforma a ley orgánica de la SBS (mayoría calificada). Banca puede resistir. Se apoya en la portabilidad general de IA-12.",
+   "habilita": [],
+   "requiere": [
+    "IA-12",
+    "ECO-07"
+   ],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "ECO-07",
+   "criterios": {
+    "viabilidad_politica": 4,
+    "viabilidad_fiscal": 5,
+    "capacidad_institucional": 5,
+    "plazo_realista": 4,
+    "riesgo_implementacion": 4,
+    "efecto_habilitador": 2
+   },
+   "score": 79,
+   "justificacion": "El BCRP ya impulsa interoperabilidad de pagos (Yape-Plin, BIM); estándares de iniciación de pagos están en su ámbito. Capacidad institucional de primer nivel; bajo riesgo.",
+   "habilita": [
+    "ECO-06"
+   ],
+   "requiere": [],
+   "n_dependientes_total": 1
+  },
+  {
+   "id": "ECO-08",
+   "criterios": {
+    "viabilidad_politica": 3,
+    "viabilidad_fiscal": 5,
+    "capacidad_institucional": 4,
+    "plazo_realista": 3,
+    "riesgo_implementacion": 3,
+    "efecto_habilitador": 1
+   },
+   "score": 62,
+   "justificacion": "SBS y UIF ya registran proveedores de activos virtuales (DS 006-2023-JUS). Reforma a Ley 26702 orgánica. Efecto habilitador acotado; prioridad por estándares GAFI.",
+   "habilita": [],
+   "requiere": [],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "ECO-09",
+   "criterios": {
+    "viabilidad_politica": 4,
+    "viabilidad_fiscal": 5,
+    "capacidad_institucional": 4,
+    "plazo_realista": 4,
+    "riesgo_implementacion": 4,
+    "efecto_habilitador": 1
+   },
+   "score": 71,
+   "justificacion": "SMV ya regula financiamiento participativo (DU 013-2020); ajustes de bajo costo. Útil sobre el régimen de empresas emergentes de ECO-01.",
+   "habilita": [],
+   "requiere": [
+    "ECO-01"
+   ],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "ECO-10",
+   "criterios": {
+    "viabilidad_politica": 4,
+    "viabilidad_fiscal": 5,
+    "capacidad_institucional": 4,
+    "plazo_realista": 4,
+    "riesgo_implementacion": 4,
+    "efecto_habilitador": 1
+   },
+   "score": 71,
+   "justificacion": "INDECOPI tiene capacidad y casuística; prohibir patrones oscuros y facilitar cancelación tiene apoyo transversal. Base para arbitraje de consumo electrónico (DER-06).",
+   "habilita": [
+    "DER-06"
+   ],
+   "requiere": [],
+   "n_dependientes_total": 1
+  },
+  {
+   "id": "ECO-11",
+   "criterios": {
+    "viabilidad_politica": 2,
+    "viabilidad_fiscal": 4,
+    "capacidad_institucional": 3,
+    "plazo_realista": 3,
+    "riesgo_implementacion": 2,
+    "efecto_habilitador": 1
+   },
+   "score": 48,
+   "justificacion": "Tema de fuerte polarización (plataformas, gremios, conductores); SUNAFIL y EsSalud con capacidad limitada de afiliación. Remite a la gestión algorítmica de IA-13.",
+   "habilita": [],
+   "requiere": [
+    "IA-13"
+   ],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "ECO-12",
+   "criterios": {
+    "viabilidad_politica": 4,
+    "viabilidad_fiscal": 3,
+    "capacidad_institucional": 4,
+    "plazo_realista": 5,
+    "riesgo_implementacion": 4,
+    "efecto_habilitador": 1
+   },
+   "score": 67,
+   "justificacion": "Simplificación de IGV a exportación de servicios: SUNAT tiene capacidad plena; requiere informe MEF por efecto recaudatorio. Ganancia rápida para la exportación de software.",
+   "habilita": [],
+   "requiere": [],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "ECO-13",
+   "criterios": {
+    "viabilidad_politica": 3,
+    "viabilidad_fiscal": 4,
+    "capacidad_institucional": 3,
+    "plazo_realista": 2,
+    "riesgo_implementacion": 3,
+    "efecto_habilitador": 1
+   },
+   "score": 53,
+   "justificacion": "Parques tecnológicos dependen de suelo, universidades y gobiernos regionales; plazo largo. Requiere régimen de emergentes y de transferencia de resultados.",
+   "habilita": [],
+   "requiere": [
+    "ECO-01",
+    "ECO-05"
+   ],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "ECO-14",
+   "criterios": {
+    "viabilidad_politica": 4,
+    "viabilidad_fiscal": 4,
+    "capacidad_institucional": 4,
+    "plazo_realista": 4,
+    "riesgo_implementacion": 4,
+    "efecto_habilitador": 1
+   },
+   "score": 68,
+   "justificacion": "SUNAT ya opera factura electrónica y factura negociable; conformidad electrónica automática es ejecutable. Impacto directo en liquidez MYPE. Riesgo: entidades públicas que no dan conformidad a tiempo.",
+   "habilita": [],
+   "requiere": [],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "TAL-01",
+   "criterios": {
+    "viabilidad_politica": 4,
+    "viabilidad_fiscal": 3,
+    "capacidad_institucional": 2,
+    "plazo_realista": 2,
+    "riesgo_implementacion": 2,
+    "efecto_habilitador": 3
+   },
+   "score": 55,
+   "justificacion": "MINEDU puede ajustar el currículo, pero formar docentes en escala y conectar escuelas toma años. Dueño del currículo digital: habilita TAL-05, TAL-14, CIB-10. Depende de conectividad escolar.",
+   "habilita": [
+    "TAL-05",
+    "TAL-14"
+   ],
+   "requiere": [
+    "CON-13"
+   ],
+   "n_dependientes_total": 2
+  },
+  {
+   "id": "TAL-02",
+   "criterios": {
+    "viabilidad_politica": 4,
+    "viabilidad_fiscal": 4,
+    "capacidad_institucional": 2,
+    "plazo_realista": 3,
+    "riesgo_implementacion": 3,
+    "efecto_habilitador": 1
+   },
+   "score": 55,
+   "justificacion": "Programas de alfabetización digital dispersos (MIMP, PRODUCE) y sin operador claro; impacto real pero difícil de escalar sin aliados privados y municipales.",
+   "habilita": [],
+   "requiere": [],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "TAL-03",
+   "criterios": {
+    "viabilidad_politica": 4,
+    "viabilidad_fiscal": 3,
+    "capacidad_institucional": 4,
+    "plazo_realista": 3,
+    "riesgo_implementacion": 3,
+    "efecto_habilitador": 1
+   },
+   "score": 60,
+   "justificacion": "PRONABEC tiene capacidad operativa probada; línea STEM y retorno de talento requieren recursos anuales con fuente. Efecto habilitador indirecto en todo el ecosistema.",
+   "habilita": [],
+   "requiere": [],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "TAL-04",
+   "criterios": {
+    "viabilidad_politica": 4,
+    "viabilidad_fiscal": 5,
+    "capacidad_institucional": 3,
+    "plazo_realista": 4,
+    "riesgo_implementacion": 3,
+    "efecto_habilitador": 1
+   },
+   "score": 64,
+   "justificacion": "Acreditación modular voluntaria vía SINEACE y MINEDU; costo bajo. Responde rápido a la demanda de talento digital. Riesgo: capacidad limitada de SINEACE.",
+   "habilita": [],
+   "requiere": [],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "TAL-05",
+   "criterios": {
+    "viabilidad_politica": 4,
+    "viabilidad_fiscal": 4,
+    "capacidad_institucional": 3,
+    "plazo_realista": 3,
+    "riesgo_implementacion": 3,
+    "efecto_habilitador": 1
+   },
+   "score": 59,
+   "justificacion": "Medidas de promoción STEM con enfoque de género; consenso alto. Remite al currículo de TAL-01 y a becas de TAL-03.",
+   "habilita": [],
+   "requiere": [
+    "TAL-01"
+   ],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "TAL-06",
+   "criterios": {
+    "viabilidad_politica": 4,
+    "viabilidad_fiscal": 3,
+    "capacidad_institucional": 2,
+    "plazo_realista": 2,
+    "riesgo_implementacion": 2,
+    "efecto_habilitador": 3
+   },
+   "score": 55,
+   "justificacion": "La historia clínica electrónica lleva una década sin interoperar (Ley 30024 de 2013): MINSA, EsSalud y GORE con sistemas dispares. Requiere interoperabilidad y portabilidad. Habilita receta electrónica e IA clínica.",
+   "habilita": [
+    "TAL-07",
+    "IA-08"
+   ],
+   "requiere": [
+    "GOB-01",
+    "IA-12"
+   ],
+   "n_dependientes_total": 2
+  },
+  {
+   "id": "TAL-07",
+   "criterios": {
+    "viabilidad_politica": 4,
+    "viabilidad_fiscal": 4,
+    "capacidad_institucional": 3,
+    "plazo_realista": 3,
+    "riesgo_implementacion": 3,
+    "efecto_habilitador": 1
+   },
+   "score": 59,
+   "justificacion": "Receta electrónica es ejecutable si existe historia clínica interoperable y firma digital; telesalud rural depende además de conectividad. Impacto sanitario alto.",
+   "habilita": [],
+   "requiere": [
+    "TAL-06",
+    "CIB-09",
+    "CON-13"
+   ],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "TAL-08",
+   "criterios": {
+    "viabilidad_politica": 4,
+    "viabilidad_fiscal": 5,
+    "capacidad_institucional": 4,
+    "plazo_realista": 4,
+    "riesgo_implementacion": 4,
+    "efecto_habilitador": 1
+   },
+   "score": 71,
+   "justificacion": "SENAMHI, ANA e INIA ya producen los datos; declararlos abiertos cuesta poco y beneficia al agro. Remite al régimen de apertura de IA-04. Ganancia rápida y de alcance territorial.",
+   "habilita": [],
+   "requiere": [
+    "IA-04"
+   ],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "TAL-09",
+   "criterios": {
+    "viabilidad_politica": 3,
+    "viabilidad_fiscal": 4,
+    "capacidad_institucional": 3,
+    "plazo_realista": 3,
+    "riesgo_implementacion": 3,
+    "efecto_habilitador": 1
+   },
+   "score": 55,
+   "justificacion": "OEFA ya tiene monitoreo en línea en algunas unidades; ampliar y abrir datos genera resistencia minera moderada. Trazabilidad de minerales relevante para el oro ilegal. Remite a IA-04.",
+   "habilita": [],
+   "requiere": [
+    "IA-04"
+   ],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "TAL-10",
+   "criterios": {
+    "viabilidad_politica": 5,
+    "viabilidad_fiscal": 4,
+    "capacidad_institucional": 3,
+    "plazo_realista": 4,
+    "riesgo_implementacion": 3,
+    "efecto_habilitador": 2
+   },
+   "score": 69,
+   "justificacion": "Red de alerta temprana con SISMATE ya operativo (Ley 30472); emisión automática para peligros súbitos salva vidas. Riesgo: articulación PCM-INDECI-MTC. Base de resiliencia de redes (CON-14).",
+   "habilita": [
+    "CON-14"
+   ],
+   "requiere": [],
+   "n_dependientes_total": 1
+  },
+  {
+   "id": "TAL-11",
+   "criterios": {
+    "viabilidad_politica": 3,
+    "viabilidad_fiscal": 4,
+    "capacidad_institucional": 3,
+    "plazo_realista": 3,
+    "riesgo_implementacion": 3,
+    "efecto_habilitador": 1
+   },
+   "score": 55,
+   "justificacion": "Estándares abiertos de pasaje en Lima y Callao: ATU y BCRP capaces, pero requiere acuerdos con operadores y recaudadores. Remite a datos de transporte de GOB-11.",
+   "habilita": [],
+   "requiere": [
+    "GOB-11"
+   ],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "TAL-12",
+   "criterios": {
+    "viabilidad_politica": 3,
+    "viabilidad_fiscal": 5,
+    "capacidad_institucional": 2,
+    "plazo_realista": 2,
+    "riesgo_implementacion": 3,
+    "efecto_habilitador": 1
+   },
+   "score": 52,
+   "justificacion": "Derecho a reparación y economía circular: INDECOPI y MINAM con capacidad limitada de fiscalización a fabricantes globales. Plazo largo; remite a actualizaciones de seguridad de CIB-07.",
+   "habilita": [],
+   "requiere": [
+    "CIB-07"
+   ],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "TAL-13",
+   "criterios": {
+    "viabilidad_politica": 4,
+    "viabilidad_fiscal": 4,
+    "capacidad_institucional": 3,
+    "plazo_realista": 3,
+    "riesgo_implementacion": 3,
+    "efecto_habilitador": 2
+   },
+   "score": 63,
+   "justificacion": "Accesibilidad digital con estándar y plazos: CONADIS y SGTD pueden supervisar. Dueña del estándar al que remiten GOB-09 y TAL-02. Riesgo: plazos incumplidos en entidades pequeñas.",
+   "habilita": [
+    "GOB-09"
+   ],
+   "requiere": [],
+   "n_dependientes_total": 1
+  },
+  {
+   "id": "TAL-14",
+   "criterios": {
+    "viabilidad_politica": 4,
+    "viabilidad_fiscal": 4,
+    "capacidad_institucional": 2,
+    "plazo_realista": 3,
+    "riesgo_implementacion": 3,
+    "efecto_habilitador": 1
+   },
+   "score": 55,
+   "justificacion": "Bienestar digital en Educación Básica complementa Ley 32385; ejecución docente débil. Remite al currículo de TAL-01 y al deber de diligencia de CIB-10.",
+   "habilita": [],
+   "requiere": [
+    "TAL-01",
+    "CIB-10"
+   ],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "SOB-01",
+   "criterios": {
+    "viabilidad_politica": 3,
+    "viabilidad_fiscal": 4,
+    "capacidad_institucional": 3,
+    "plazo_realista": 2,
+    "riesgo_implementacion": 3,
+    "efecto_habilitador": 1
+   },
+   "score": 53,
+   "justificacion": "Minerales críticos: INGEMMET tiene capacidad geocientífica; valor agregado tecnológico depende de inversión privada. Borrador sin revisión jurídica. Base de política industrial de mediano plazo.",
+   "habilita": [],
+   "requiere": [],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "SOB-02",
+   "criterios": {
+    "viabilidad_politica": 3,
+    "viabilidad_fiscal": 3,
+    "capacidad_institucional": 3,
+    "plazo_realista": 3,
+    "riesgo_implementacion": 3,
+    "efecto_habilitador": 1
+   },
+   "score": 52,
+   "justificacion": "Criterios de valor agregado en ZEE: MINCETUR y PRODUCE pueden evaluar, pero toca beneficios tributarios (informe MEF). Borrador sin revisión jurídica.",
+   "habilita": [],
+   "requiere": [],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "SOB-03",
+   "criterios": {
+    "viabilidad_politica": 4,
+    "viabilidad_fiscal": 5,
+    "capacidad_institucional": 4,
+    "plazo_realista": 4,
+    "riesgo_implementacion": 4,
+    "efecto_habilitador": 1
+   },
+   "score": 71,
+   "justificacion": "Ajuste a la Ley 30740 de drones para emergencias y agricultura: DGAC ya regula RPAS. Bajo costo y riesgo. Borrador sin revisión jurídica.",
+   "habilita": [],
+   "requiere": [],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "SOB-04",
+   "criterios": {
+    "viabilidad_politica": 3,
+    "viabilidad_fiscal": 5,
+    "capacidad_institucional": 3,
+    "plazo_realista": 3,
+    "riesgo_implementacion": 3,
+    "efecto_habilitador": 1
+   },
+   "score": 58,
+   "justificacion": "Interoperabilidad de carga eléctrica: OSINERGMIN y MINEM capaces, mercado aún pequeño. Derecho a instalar en edificios genera fricción con propiedad horizontal. Borrador.",
+   "habilita": [],
+   "requiere": [],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "SOB-05",
+   "criterios": {
+    "viabilidad_politica": 3,
+    "viabilidad_fiscal": 4,
+    "capacidad_institucional": 2,
+    "plazo_realista": 2,
+    "riesgo_implementacion": 2,
+    "efecto_habilitador": 1
+   },
+   "score": 46,
+   "justificacion": "Biobancos y datos genéticos: INS con capacidad parcial; riesgos éticos y de privacidad altos. Requiere ANPD fuerte y entornos seguros de datos. Borrador sin revisión jurídica.",
+   "habilita": [],
+   "requiere": [
+    "IA-11",
+    "IA-10"
+   ],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "SOB-06",
+   "criterios": {
+    "viabilidad_politica": 3,
+    "viabilidad_fiscal": 3,
+    "capacidad_institucional": 2,
+    "plazo_realista": 1,
+    "riesgo_implementacion": 2,
+    "efecto_habilitador": 1
+   },
+   "score": 41,
+   "justificacion": "Transición poscuántica: necesaria pero de horizonte largo; capacidad criptográfica estatal muy limitada. Requiere marco ciber y de nube primero. Borrador.",
+   "habilita": [],
+   "requiere": [
+    "CIB-01",
+    "GOB-13"
+   ],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "SOB-07",
+   "criterios": {
+    "viabilidad_politica": 3,
+    "viabilidad_fiscal": 2,
+    "capacidad_institucional": 3,
+    "plazo_realista": 2,
+    "riesgo_implementacion": 3,
+    "efecto_habilitador": 1
+   },
+   "score": 47,
+   "justificacion": "CITE de PRODUCE e ITP existen, pero adopción de robótica en mipymes requiere cofinanciamiento con fuente identificada. Borrador sin revisión jurídica.",
+   "habilita": [],
+   "requiere": [],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "SOB-08",
+   "criterios": {
+    "viabilidad_politica": 3,
+    "viabilidad_fiscal": 5,
+    "capacidad_institucional": 3,
+    "plazo_realista": 3,
+    "riesgo_implementacion": 3,
+    "efecto_habilitador": 1
+   },
+   "score": 58,
+   "justificacion": "Transparencia de la demanda tecnológica del Estado vía OECE y Perú Compras: bajo costo. Sujeta a acuerdos comerciales. Se apoya en compra pública de innovación (GOB-04). Borrador.",
+   "habilita": [],
+   "requiere": [
+    "GOB-04"
+   ],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "DER-01",
+   "criterios": {
+    "viabilidad_politica": 3,
+    "viabilidad_fiscal": 4,
+    "capacidad_institucional": 3,
+    "plazo_realista": 4,
+    "riesgo_implementacion": 3,
+    "efecto_habilitador": 2
+   },
+   "score": 61,
+   "justificacion": "El PJ ya hace audiencias virtuales y tiene EJE; dar garantías legales exige modificar la Ley Orgánica del PJ (mayoría calificada). Base de las garantías de IA en justicia (IA-09). Borrador.",
+   "habilita": [
+    "IA-09"
+   ],
+   "requiere": [],
+   "n_dependientes_total": 1
+  },
+  {
+   "id": "DER-02",
+   "criterios": {
+    "viabilidad_politica": 3,
+    "viabilidad_fiscal": 5,
+    "capacidad_institucional": 3,
+    "plazo_realista": 4,
+    "riesgo_implementacion": 3,
+    "efecto_habilitador": 1
+   },
+   "score": 60,
+   "justificacion": "Excepción de minería de textos y transparencia de obras: INDECOPI capaz; oposición de sociedades de gestión. Costo nulo. Borrador sin revisión jurídica.",
+   "habilita": [],
+   "requiere": [],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "DER-03",
+   "criterios": {
+    "viabilidad_politica": 2,
+    "viabilidad_fiscal": 5,
+    "capacidad_institucional": 2,
+    "plazo_realista": 3,
+    "riesgo_implementacion": 2,
+    "efecto_habilitador": 1
+   },
+   "score": 47,
+   "justificacion": "Transparencia de plataformas de gran alcance y publicidad política: difícil fiscalizar a plataformas globales y tema sensible en Congreso. Riesgo de litigio y de norma inaplicable. Borrador.",
+   "habilita": [],
+   "requiere": [],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "DER-04",
+   "criterios": {
+    "viabilidad_politica": 3,
+    "viabilidad_fiscal": 5,
+    "capacidad_institucional": 3,
+    "plazo_realista": 4,
+    "riesgo_implementacion": 3,
+    "efecto_habilitador": 1
+   },
+   "score": 60,
+   "justificacion": "Desindexación y legado digital: modifica Código Civil, aplicación por ANPD y PJ. Bajo costo. Depende de una ANPD con autonomía. Borrador.",
+   "habilita": [],
+   "requiere": [
+    "IA-11"
+   ],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "DER-05",
+   "criterios": {
+    "viabilidad_politica": 3,
+    "viabilidad_fiscal": 5,
+    "capacidad_institucional": 3,
+    "plazo_realista": 4,
+    "riesgo_implementacion": 3,
+    "efecto_habilitador": 1
+   },
+   "score": 60,
+   "justificacion": "Vigilancia laboral y desconexión digital: SUNAFIL y ANPD capaces; resistencia empresarial moderada. Costo nulo. Borrador sin revisión jurídica.",
+   "habilita": [],
+   "requiere": [],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "DER-06",
+   "criterios": {
+    "viabilidad_politica": 4,
+    "viabilidad_fiscal": 4,
+    "capacidad_institucional": 4,
+    "plazo_realista": 3,
+    "riesgo_implementacion": 4,
+    "efecto_habilitador": 1
+   },
+   "score": 66,
+   "justificacion": "INDECOPI ya tiene arbitraje de consumo y plataformas en línea; hacerlo íntegramente electrónico es incremental. Complementa ECO-10. Borrador.",
+   "habilita": [],
+   "requiere": [
+    "ECO-10"
+   ],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "DER-07",
+   "criterios": {
+    "viabilidad_politica": 5,
+    "viabilidad_fiscal": 4,
+    "capacidad_institucional": 3,
+    "plazo_realista": 4,
+    "riesgo_implementacion": 3,
+    "efecto_habilitador": 1
+   },
+   "score": 65,
+   "justificacion": "Violencia digital contra mujeres: consenso político alto; PJ, MP y PNP ya tienen rutas de la Ley 30364. Se apoya en tipos penales de CIB-04. Borrador.",
+   "habilita": [],
+   "requiere": [
+    "CIB-04"
+   ],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "DER-08",
+   "criterios": {
+    "viabilidad_politica": 3,
+    "viabilidad_fiscal": 3,
+    "capacidad_institucional": 4,
+    "plazo_realista": 3,
+    "riesgo_implementacion": 3,
+    "efecto_habilitador": 1
+   },
+   "score": 56,
+   "justificacion": "Adhesión digital con DNIe para participación ciudadana: RENIEC y ONPE capaces; toca leyes orgánicas y la Ley 26300. Requiere DNI digital y firma remota. Borrador.",
+   "habilita": [],
+   "requiere": [
+    "CIB-08",
+    "CIB-09"
+   ],
+   "n_dependientes_total": 0
+  }
+ ],
+ "olas": {
+  "ola_1_100_dias": {
+   "criterio": "Habilitadores de red y victorias tempranas de costo casi nulo, con entidad ejecutora ya existente; se presentan y dictaminan en los primeros 100 días para generar credibilidad y destrabar el resto.",
+   "ids": [
+    "GOB-01",
+    "IA-04",
+    "IA-11",
+    "CIB-01",
+    "GOB-14",
+    "IA-01",
+    "GOB-05",
+    "GOB-06",
+    "CIB-03",
+    "CIB-04",
+    "CON-02",
+    "CON-05",
+    "GOB-04",
+    "ECO-02",
+    "ECO-07",
+    "ECO-14",
+    "TAL-10",
+    "DER-07"
+   ]
+  },
+  "ola_2_2027": {
+   "criterio": "Reglas de mercado, derechos y servicios que se apoyan directamente en la ola 1 (registro de algoritmos, datos abiertos, CNSD, ANPD) y que reguladores con capacidad probada pueden ejecutar; reformas electorales con un año de anticipación mínima.",
+   "ids": [
+    "IA-02",
+    "IA-03",
+    "IA-07",
+    "IA-12",
+    "IA-13",
+    "IA-14",
+    "GOB-02",
+    "GOB-03",
+    "GOB-11",
+    "GOB-12",
+    "GOB-13",
+    "CIB-06",
+    "CIB-08",
+    "CIB-11",
+    "CIB-12",
+    "CON-01",
+    "CON-04",
+    "CON-06",
+    "CON-09",
+    "CON-12",
+    "ECO-01",
+    "ECO-03",
+    "ECO-04",
+    "ECO-05",
+    "ECO-09",
+    "ECO-10",
+    "ECO-12",
+    "TAL-04",
+    "TAL-08",
+    "TAL-13",
+    "DER-01",
+    "SOB-03",
+    "SOB-08"
+   ]
+  },
+  "ola_3_2028_2029": {
+   "criterio": "Reformas que exigen ley orgánica, inversión con fuente identificada, coordinación de muchos niveles de gobierno o enfrentan resistencia gremial; se lanzan cuando la interoperabilidad, la identidad digital y el talento ya operan.",
+   "ids": [
+    "CIB-02",
+    "CIB-05",
+    "CIB-09",
+    "CIB-10",
+    "CIB-13",
+    "CIB-14",
+    "GOB-07",
+    "GOB-08",
+    "GOB-09",
+    "GOB-10",
+    "CON-03",
+    "CON-07",
+    "CON-11",
+    "CON-13",
+    "CON-14",
+    "ECO-06",
+    "ECO-08",
+    "ECO-11",
+    "ECO-13",
+    "TAL-01",
+    "TAL-02",
+    "TAL-03",
+    "TAL-06",
+    "TAL-07",
+    "TAL-09",
+    "TAL-11",
+    "IA-06",
+    "IA-09",
+    "IA-10",
+    "DER-03",
+    "DER-04",
+    "DER-05",
+    "DER-06",
+    "SOB-01"
+   ]
+  },
+  "ola_4_2030_2031": {
+   "criterio": "Apuestas de frontera o de alto costo que dependen de datos, red, historia clínica y talento ya consolidados, y borradores que requieren maduración jurídica; dejan base para el periodo 2031-2036.",
+   "ids": [
+    "IA-05",
+    "IA-08",
+    "CIB-07",
+    "CON-08",
+    "CON-10",
+    "TAL-05",
+    "TAL-12",
+    "TAL-14",
+    "SOB-02",
+    "SOB-04",
+    "SOB-05",
+    "SOB-06",
+    "SOB-07",
+    "DER-02",
+    "DER-08"
+   ]
+  }
+ },
+ "vacios": [
+  {
+   "titulo": "Ley que encarga a la PCM una unidad de cumplimiento (delivery unit) de la agenda digital con tablero público de metas, sin crear pliego",
+   "por_que": "Ninguna propuesta asigna responsable del seguimiento transversal; sin rutina de cumplimiento las leyes quedan sin reglamentar ni ejecutar.",
+   "eje_sugerido": "gob"
+  },
+  {
+   "titulo": "Ley que establece plazos perentorios de reglamentación y reporte semestral al Congreso del estado de implementación de las leyes digitales",
+   "por_que": "La brecha principal en el Perú es la reglamentación tardía; falta un mecanismo de control posterior con consecuencias y transparencia.",
+   "eje_sugerido": "gob"
+  },
+  {
+   "titulo": "Ley que ordena un programa presupuestal orientado a resultados y tipologías de inversión Invierte.pe para transformación digital, a propuesta del Ejecutivo",
+   "por_que": "Sin vehículo de financiamiento multianual, las metas indicativas (CON-13, IA-05, TAL-06) dependen de asignaciones anuales discrecionales.",
+   "eje_sugerido": "eco"
+  },
+  {
+   "titulo": "Ley de energía para la conectividad rural: electrificación prioritaria de escuelas, postas y nodos de red",
+   "por_que": "CON-13, TAL-07 y TAL-01 fallan donde no hay energía estable; ninguna propuesta articula MINEM con MTC.",
+   "eje_sugerido": "con"
+  },
+  {
+   "titulo": "Ley que obliga al análisis de impacto regulatorio ex ante y a la evaluación ex post con cláusula de revisión para normas digitales",
+   "por_que": "Reduce el riesgo de leyes inaplicables o costosas para pymes y permite corregir en el periodo; hoy el AIR no es obligatorio para el Congreso.",
+   "eje_sugerido": "gob"
+  },
+  {
+   "titulo": "Ley de cooperación técnica obligatoria y mancomunidades digitales para municipalidades de baja capacidad",
+   "por_que": "La mayoría de municipalidades no tiene equipos TI; GOB-08 ofrece servicios pero falta el mecanismo de adhesión, asistencia y rendición de cuentas subnacional.",
+   "eje_sugerido": "gob"
+  }
+ ],
+ "fuentes": [
+  {
+   "titulo": "Contexto legislativo del repositorio: Ley 31988 (bicameralidad) y reglamentos del Congreso 2026",
+   "url": "https://busquedas.elperuano.pe/dispositivo/NL/2272076-2"
+  },
+  {
+   "titulo": "Tribunal Constitucional del Perú (STC 00018-2023-PI/TC, iniciativa de gasto)",
+   "url": "https://www.tc.gob.pe/"
+  },
+  {
+   "titulo": "Andrews, Pritchett y Woolcock, Building State Capability (Oxford UP, 2017), Harvard CID",
+   "url": "https://bsc.hks.harvard.edu/"
+  },
+  {
+   "titulo": "Banco Mundial, GovTech Maturity Index",
+   "url": "https://www.worldbank.org/en/programs/govtech/gtmi"
+  },
+  {
+   "titulo": "OCDE, Digital Government in Peru: Working Closely with Citizens (2019)",
+   "url": "https://doi.org/10.1787/0c1eb85b-en"
+  },
+  {
+   "titulo": "Servir: familias de puestos y servicio civil",
+   "url": "https://www.gob.pe/servir"
+  },
+  {
+   "titulo": "Plataforma Nacional de Datos Abiertos (SGTD-PCM)",
+   "url": "https://www.datosabiertos.gob.pe/"
+  }
+ ],
+ "nota_red": "habilita = inverso exacto de requiere, truncado a las 4 dependientes de mayor score; n_dependientes_total da el conteo completo. Grafo verificado sin ciclos."
+}

@@ -19,7 +19,22 @@ propuestas no tienen `revision_atendida` NO se publican salvo `--borradores`.
   Action `.github/workflows/comentarios.yml` (cada 6 h → data/comentarios.json → sección «Lo que dice la ciudadanía»).
 - [x] Sidebar en páginas de propuesta (`con_sidebar()` en build.py): índice con scrollspy, propuestas por eje con filtro, panel plegable en móvil, barra de lectura, botón arriba.
 
+- [x] v3 (22-oct-2026): sitio en 6 páginas (index, propuestas, vision, panorama, ciudadania, tramite) generadas por
+  `scripts/paginas.py` (plantilla común); datos divididos (`data/indice.json` liviano, `texto.json` perezoso para el
+  buscador, `actores.json`, `contexto.json`); `data/propuestas.json` queda solo como descarga. **Visión 2036**: 5 lentes
+  prospectivos en `data/prioridad/<lente>.json` (protocolo PRIORIZACION.md) → `scripts/build_prioridad.py` →
+  `data/prioridad.json` (score = promedio de percentiles, olas del lente de implementación, aristas habilita/requiere,
+  30 vacíos). Esfera 3D en `assets/esfera.js` (canvas, sin librerías). **Propuestas ciudadanas**: formulario
+  `.github/ISSUE_TEMPLATE/propuesta-ciudadana.yml` → etiquetas recibida/en-revision/publicada/incorporada/archivada →
+  `scripts/build_ciudadanas.py` → `data/ciudadanas.json` (solo muestra las etiquetadas `publicada`). Action
+  `participacion.yml` refresca comentarios + ciudadanas cada 6 h y ante eventos de issues.
+
 ## SIGUIENTE (en orden)
+0. [ ] **Moderar propuestas ciudadanas**: revisar issues con etiqueta `recibida`; poner `en-revision`/`publicada`/
+   `archivada`. Las que se incorporen: redactarlas como propuesta formal (SCHEMA v2) y pasarlas por REVISION.md.
+0b. [ ] **Vacíos de la Visión 2036** (`data/prioridad.json` → vacios, 30): convertir los más votados por los lentes en
+   nuevas propuestas (régimen tributario MYPE único, calidad regulatoria/AIR, energía para conectividad rural,
+   flujos transfronterizos de datos/adecuación UE, Oficina de Evaluación Tecnológica del Congreso, etc.).
 1. [ ] **Ejes nuevos SOB (soberanía tecnológica e industria 4.0, 8) y DER (justicia y derechos digitales, 8)** →
    llegar a 100 propuestas. Los redactores ya escribieron (ambos borradores están en el repo) `data/propuestas/sober.json` y
    `data/propuestas/derechos.json` con campos v2 y `revision_atendida: []`. Falta: (a) revisión con las 5 especialidades

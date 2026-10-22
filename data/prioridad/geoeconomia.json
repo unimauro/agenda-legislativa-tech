@@ -1,0 +1,1655 @@
+{
+ "lente": "geoeconomia",
+ "criterios": [
+  {
+   "clave": "ied",
+   "descripcion": "Atracción de inversión extranjera directa y nearshoring/friendshoring de servicios y manufactura (previsibilidad, costo de entrada).",
+   "peso": 0.25
+  },
+  {
+   "clave": "cadenas",
+   "descripcion": "Inserción en cadenas globales de valor tech: cobre y minerales críticos con valor agregado, data centers, cables, servicios digitales exportables.",
+   "peso": 0.25
+  },
+  {
+   "clave": "estandares",
+   "descripcion": "Compatibilidad con estándares OCDE (adhesión en curso), UE (adecuación de datos), APEC/GAFI y compromisos de los TLC.",
+   "peso": 0.2
+  },
+  {
+   "clave": "seguridad",
+   "descripcion": "Seguridad y soberanía tecnológica ante tensiones geopolíticas (EE.UU.–China): cadena de suministro, infraestructura crítica, injerencia.",
+   "peso": 0.15
+  },
+  {
+   "clave": "hub",
+   "descripcion": "Posicionamiento como hub regional: Chancay, cables submarinos, IXP, centros de datos, conectividad al Asia-Pacífico.",
+   "peso": 0.15
+  }
+ ],
+ "tesis": "Con un crecimiento proyectado por el FMI de alrededor de 3 % en 2026 y 2,9 % en 2027 (WEO, octubre 2026), el Perú no llegará a la senda de 6–7 % sin un salto en inversión extranjera y en la posición que ocupa en las cadenas globales. Su ventaja geoeconómica es concreta y verificable: es el tercer productor mundial de cobre (≈2,7 Mt en 2025, reservas de ≈85 Mt según el USGS), pero refina apenas ≈0,34 Mt; y desde fines de 2024 opera Chancay, que en su primer año comercial superó los 500 mil TEU y recortó el tránsito a Shanghái a unos 23 días según el operador. Al 2036 el Perú puede ganar posición en tres frentes: (1) cobre y minerales críticos con trazabilidad digital y más refinación, justo cuando EE.UU. grava con 50 % los semielaborados de cobre (Sección 232, agosto 2025) y anuncia aranceles graduales al refinado, y la UE exige debida diligencia; (2) un nodo digital del Pacífico sudamericano —cables, IXP, centros de datos con renovables— hoy disputado por Chile, donde aterrizará el cable Humboldt hacia Asia-Oceanía; (3) exportación de servicios digitales y nearshoring en la zona horaria de EE.UU., hoy frenada por fricciones del IGV y por la falta de adecuación de datos con la UE (Argentina, Brasil y Uruguay la tienen; el Perú no). El riesgo central es quedar atrapado en la rivalidad EE.UU.–China: Washington advirtió en 2026 sobre la soberanía del Perú por Chancay, un fallo judicial cuestionó la supervisión de OSITRAN sobre el puerto y el protocolo de optimización del TLC con China ya fue ratificado por el Perú. La legislación debe responder con reglas, no con vetos: gestión de riesgo de cadena de suministro en infraestructura crítica, nube con localización solo para lo crítico, protección de cables como activos críticos, evaluación transparente de inversiones en activos sensibles y cumplimiento estricto de estándares OCDE, cuya adhesión sigue en fase técnica (7 de 23 comités concluidos a junio de 2026). La neutralidad activa —abierto a ambos, previsible para todos y verificable por terceros— es la apuesta más rentable; la discrecionalidad es lo que convierte la geografía en vulnerabilidad.",
+ "puntajes": [
+  {
+   "id": "IA-01",
+   "criterios": {
+    "ied": 2,
+    "cadenas": 1,
+    "estandares": 4,
+    "seguridad": 2,
+    "hub": 1
+   },
+   "score": 40,
+   "justificacion": "Alinea con Principios de IA de la OCDE (transparencia y rendición de cuentas); suma a la revisión de adhesión, pero su efecto sobre IED o cadenas es marginal.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "IA-02",
+   "criterios": {
+    "ied": 1,
+    "cadenas": 1,
+    "estandares": 3,
+    "seguridad": 2,
+    "hub": 1
+   },
+   "score": 31,
+   "justificacion": "Seguridad jurídica en actos automatizados; aporte geoeconómico indirecto vía calidad regulatoria evaluada por la OCDE.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "IA-03",
+   "criterios": {
+    "ied": 4,
+    "cadenas": 3,
+    "estandares": 4,
+    "seguridad": 2,
+    "hub": 2
+   },
+   "score": 63,
+   "justificacion": "Sandbox legal reduce incertidumbre para pilotos de IA de inversionistas extranjeros en sectores regulados; la OCDE lo recomienda como herramienta de política regulatoria.",
+   "habilita": [],
+   "requiere": [
+    "IA-11"
+   ]
+  },
+  {
+   "id": "IA-04",
+   "criterios": {
+    "ied": 3,
+    "cadenas": 3,
+    "estandares": 5,
+    "seguridad": 2,
+    "hub": 2
+   },
+   "score": 62,
+   "justificacion": "Datos abiertos por defecto vía API es estándar OCDE (OURdata) y materia prima para servicios digitales exportables y geociencia para minería.",
+   "habilita": [
+    "TAL-08",
+    "SOB-01",
+    "CON-09"
+   ],
+   "requiere": []
+  },
+  {
+   "id": "IA-05",
+   "criterios": {
+    "ied": 3,
+    "cadenas": 3,
+    "estandares": 2,
+    "seguridad": 4,
+    "hub": 3
+   },
+   "score": 59,
+   "justificacion": "Cómputo propio para investigación reduce dependencia de capacidad extranjera y crea demanda ancla para centros de datos; impacto acotado por escala.",
+   "habilita": [],
+   "requiere": [
+    "CON-10"
+   ]
+  },
+  {
+   "id": "IA-06",
+   "criterios": {
+    "ied": 2,
+    "cadenas": 2,
+    "estandares": 2,
+    "seguridad": 3,
+    "hub": 1
+   },
+   "score": 40,
+   "justificacion": "Diferenciación cultural y soberanía de datos lingüísticos frente a modelos extranjeros; bajo efecto en IED o cadenas globales.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "IA-07",
+   "criterios": {
+    "ied": 1,
+    "cadenas": 1,
+    "estandares": 3,
+    "seguridad": 4,
+    "hub": 1
+   },
+   "score": 37,
+   "justificacion": "Mitiga operaciones de influencia extranjera con contenido sintético en elecciones; relevante para estabilidad política que percibe el inversionista.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "IA-08",
+   "criterios": {
+    "ied": 3,
+    "cadenas": 2,
+    "estandares": 4,
+    "seguridad": 2,
+    "hub": 2
+   },
+   "score": 53,
+   "justificacion": "La vía de confianza regulatoria facilita la entrada de software médico ya aprobado en jurisdicciones de referencia: convergencia regulatoria favorable al comercio.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "IA-09",
+   "criterios": {
+    "ied": 2,
+    "cadenas": 1,
+    "estandares": 3,
+    "seguridad": 2,
+    "hub": 1
+   },
+   "score": 36,
+   "justificacion": "Garantías en justicia asistida por IA mejoran previsibilidad judicial, factor de clima de inversión; efecto geoeconómico indirecto.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "IA-10",
+   "criterios": {
+    "ied": 2,
+    "cadenas": 3,
+    "estandares": 4,
+    "seguridad": 2,
+    "hub": 2
+   },
+   "score": 53,
+   "justificacion": "Entornos seguros de datos y anonimización estandarizada facilitan I+D con socios extranjeros sin riesgo de transferencia indebida.",
+   "habilita": [],
+   "requiere": [
+    "IA-11"
+   ]
+  },
+  {
+   "id": "IA-11",
+   "criterios": {
+    "ied": 4,
+    "cadenas": 4,
+    "estandares": 5,
+    "seguridad": 3,
+    "hub": 3
+   },
+   "score": 78,
+   "justificacion": "ANPD autónoma es condición práctica para buscar adecuación de la UE (Perú no la tiene; Argentina, Brasil y Uruguay sí) y habilitar flujos de datos de servicios exportables.",
+   "habilita": [
+    "ECO-12",
+    "IA-12",
+    "ECO-06",
+    "GOB-13"
+   ],
+   "requiere": []
+  },
+  {
+   "id": "IA-12",
+   "criterios": {
+    "ied": 2,
+    "cadenas": 2,
+    "estandares": 4,
+    "seguridad": 1,
+    "hub": 1
+   },
+   "score": 42,
+   "justificacion": "Portabilidad alineada con RGPD; aporta a convergencia de estándares, poco a IED.",
+   "habilita": [],
+   "requiere": [
+    "IA-11"
+   ]
+  },
+  {
+   "id": "IA-13",
+   "criterios": {
+    "ied": 1,
+    "cadenas": 1,
+    "estandares": 3,
+    "seguridad": 1,
+    "hub": 1
+   },
+   "score": 28,
+   "justificacion": "Estándar laboral alineado con OCDE/OIT; neutral en atracción de inversión, leve costo de cumplimiento.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "IA-14",
+   "criterios": {
+    "ied": 2,
+    "cadenas": 1,
+    "estandares": 3,
+    "seguridad": 4,
+    "hub": 1
+   },
+   "score": 42,
+   "justificacion": "Cláusulas de auditoría y portabilidad evitan dependencia de un proveedor extranjero de IA en funciones públicas.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "CIB-01",
+   "criterios": {
+    "ied": 4,
+    "cadenas": 3,
+    "estandares": 5,
+    "seguridad": 5,
+    "hub": 4
+   },
+   "score": 82,
+   "justificacion": "Autoridad de ciberseguridad con potestad sancionadora es requisito de confianza para data centers, cables y servicios exportables; alinea con Recomendación OCDE de seguridad digital.",
+   "habilita": [
+    "CIB-02",
+    "CIB-03",
+    "CON-11",
+    "GOB-13"
+   ],
+   "requiere": []
+  },
+  {
+   "id": "CIB-02",
+   "criterios": {
+    "ied": 3,
+    "cadenas": 3,
+    "estandares": 4,
+    "seguridad": 5,
+    "hub": 3
+   },
+   "score": 70,
+   "justificacion": "Incluye cadena de suministro en operadores esenciales: herramienta clave para gestionar riesgo de proveedores en contexto de rivalidad EE.UU.–China sin vetos discrecionales.",
+   "habilita": [
+    "CON-14",
+    "TAL-09"
+   ],
+   "requiere": [
+    "CIB-01"
+   ]
+  },
+  {
+   "id": "CIB-03",
+   "criterios": {
+    "ied": 2,
+    "cadenas": 2,
+    "estandares": 4,
+    "seguridad": 3,
+    "hub": 2
+   },
+   "score": 51,
+   "justificacion": "Ventanilla única de incidentes reduce costo de cumplimiento para multinacionales y converge con prácticas tipo NIS2.",
+   "habilita": [],
+   "requiere": [
+    "CIB-01"
+   ]
+  },
+  {
+   "id": "CIB-04",
+   "criterios": {
+    "ied": 2,
+    "cadenas": 1,
+    "estandares": 4,
+    "seguridad": 4,
+    "hub": 1
+   },
+   "score": 46,
+   "justificacion": "Tipificar ransomware completa la implementación del Convenio de Budapest; mejora cooperación penal internacional.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "CIB-05",
+   "criterios": {
+    "ied": 2,
+    "cadenas": 2,
+    "estandares": 3,
+    "seguridad": 3,
+    "hub": 1
+   },
+   "score": 44,
+   "justificacion": "Reduce fraude en pagos digitales; mejora confianza del ecosistema fintech, impacto internacional moderado.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "CIB-06",
+   "criterios": {
+    "ied": 1,
+    "cadenas": 1,
+    "estandares": 3,
+    "seguridad": 3,
+    "hub": 1
+   },
+   "score": 34,
+   "justificacion": "Autenticación de llamadas sigue estándares internacionales (STIR/SHAKEN); efecto doméstico principalmente.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "CIB-07",
+   "criterios": {
+    "ied": 2,
+    "cadenas": 2,
+    "estandares": 4,
+    "seguridad": 4,
+    "hub": 1
+   },
+   "score": 51,
+   "justificacion": "Requisitos IoT convergen con regímenes de la UE y Reino Unido; filtra importaciones inseguras y prepara a fabricantes de zona económica especial para exportar.",
+   "habilita": [
+    "SOB-02"
+   ],
+   "requiere": []
+  },
+  {
+   "id": "CIB-08",
+   "criterios": {
+    "ied": 3,
+    "cadenas": 2,
+    "estandares": 4,
+    "seguridad": 3,
+    "hub": 2
+   },
+   "score": 56,
+   "justificacion": "Credencial digital con rango legal habilita reconocimiento transfronterizo y onboarding remoto de inversionistas y no residentes.",
+   "habilita": [
+    "CIB-09",
+    "ECO-06"
+   ],
+   "requiere": []
+  },
+  {
+   "id": "CIB-09",
+   "criterios": {
+    "ied": 3,
+    "cadenas": 2,
+    "estandares": 4,
+    "seguridad": 2,
+    "hub": 2
+   },
+   "score": 53,
+   "justificacion": "Firma remota legal facilita contratos transfronterizos y cumplimiento de capítulos de comercio electrónico de los TLC.",
+   "habilita": [],
+   "requiere": [
+    "CIB-08"
+   ]
+  },
+  {
+   "id": "CIB-10",
+   "criterios": {
+    "ied": 1,
+    "cadenas": 1,
+    "estandares": 3,
+    "seguridad": 2,
+    "hub": 1
+   },
+   "score": 31,
+   "justificacion": "Alinea con estándares de protección infantil en línea; marginal para geoeconomía.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "CIB-11",
+   "criterios": {
+    "ied": 2,
+    "cadenas": 2,
+    "estandares": 4,
+    "seguridad": 4,
+    "hub": 2
+   },
+   "score": 54,
+   "justificacion": "Divulgación coordinada es buena práctica OCDE/UE; fortalece seguridad de infraestructura crítica y atrae talento de seguridad.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "CIB-12",
+   "criterios": {
+    "ied": 1,
+    "cadenas": 1,
+    "estandares": 3,
+    "seguridad": 4,
+    "hub": 1
+   },
+   "score": 37,
+   "justificacion": "Capacidad estatal de ciberseguridad; necesaria pero de impacto indirecto en posición global.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "CIB-13",
+   "criterios": {
+    "ied": 1,
+    "cadenas": 1,
+    "estandares": 3,
+    "seguridad": 5,
+    "hub": 1
+   },
+   "score": 40,
+   "justificacion": "Blinda sistemas electorales ante injerencia extranjera; estabilidad institucional es activo geoeconómico.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "CIB-14",
+   "criterios": {
+    "ied": 2,
+    "cadenas": 2,
+    "estandares": 3,
+    "seguridad": 3,
+    "hub": 1
+   },
+   "score": 44,
+   "justificacion": "Ciberresiliencia mipyme reduce riesgo en proveedores de cadenas exportadoras.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "GOB-01",
+   "criterios": {
+    "ied": 3,
+    "cadenas": 1,
+    "estandares": 5,
+    "seguridad": 2,
+    "hub": 1
+   },
+   "score": 49,
+   "justificacion": "Interoperabilidad y 'solo una vez' son ejes de la Recomendación OCDE de Gobierno Digital; reduce costo de hacer negocios.",
+   "habilita": [
+    "GOB-02"
+   ],
+   "requiere": []
+  },
+  {
+   "id": "GOB-02",
+   "criterios": {
+    "ied": 3,
+    "cadenas": 1,
+    "estandares": 4,
+    "seguridad": 1,
+    "hub": 1
+   },
+   "score": 42,
+   "justificacion": "Notificación electrónica única simplifica trato de empresas extranjeras con el Estado.",
+   "habilita": [],
+   "requiere": [
+    "GOB-01"
+   ]
+  },
+  {
+   "id": "GOB-03",
+   "criterios": {
+    "ied": 1,
+    "cadenas": 2,
+    "estandares": 3,
+    "seguridad": 3,
+    "hub": 1
+   },
+   "score": 39,
+   "justificacion": "Código abierto público reduce dependencia de licencias extranjeras; efecto en IED limitado.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "GOB-04",
+   "criterios": {
+    "ied": 3,
+    "cadenas": 3,
+    "estandares": 4,
+    "seguridad": 3,
+    "hub": 2
+   },
+   "score": 61,
+   "justificacion": "Compra pública de innovación crea demanda temprana que atrae proveedores tech y desarrolla capacidades exportables.",
+   "habilita": [
+    "SOB-08"
+   ],
+   "requiere": []
+  },
+  {
+   "id": "GOB-05",
+   "criterios": {
+    "ied": 3,
+    "cadenas": 1,
+    "estandares": 5,
+    "seguridad": 2,
+    "hub": 1
+   },
+   "score": 49,
+   "justificacion": "Contrataciones abiertas en OCDS: integridad pública es área sensible en la revisión OCDE y factor de riesgo-país.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "GOB-06",
+   "criterios": {
+    "ied": 2,
+    "cadenas": 1,
+    "estandares": 4,
+    "seguridad": 1,
+    "hub": 1
+   },
+   "score": 37,
+   "justificacion": "Trazabilidad legislativa mejora previsibilidad regulatoria que la OCDE evaluó en su revisión de política regulatoria 2026.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "GOB-07",
+   "criterios": {
+    "ied": 3,
+    "cadenas": 2,
+    "estandares": 3,
+    "seguridad": 2,
+    "hub": 2
+   },
+   "score": 49,
+   "justificacion": "Catastro interoperable da certeza de propiedad para inversión en infraestructura, logística y zonas económicas.",
+   "habilita": [
+    "SOB-02"
+   ],
+   "requiere": []
+  },
+  {
+   "id": "GOB-08",
+   "criterios": {
+    "ied": 2,
+    "cadenas": 1,
+    "estandares": 3,
+    "seguridad": 2,
+    "hub": 1
+   },
+   "score": 36,
+   "justificacion": "Cierra brecha subnacional; importante para territorios mineros y portuarios, impacto global indirecto.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "GOB-09",
+   "criterios": {
+    "ied": 1,
+    "cadenas": 1,
+    "estandares": 2,
+    "seguridad": 1,
+    "hub": 1
+   },
+   "score": 24,
+   "justificacion": "Inclusión digital doméstica; sin efecto geoeconómico relevante.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "GOB-10",
+   "criterios": {
+    "ied": 1,
+    "cadenas": 1,
+    "estandares": 2,
+    "seguridad": 2,
+    "hub": 1
+   },
+   "score": 27,
+   "justificacion": "Preservación digital; soberanía documental menor.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "GOB-11",
+   "criterios": {
+    "ied": 1,
+    "cadenas": 1,
+    "estandares": 2,
+    "seguridad": 1,
+    "hub": 1
+   },
+   "score": 24,
+   "justificacion": "Datos de transporte urbano; efecto local.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "GOB-12",
+   "criterios": {
+    "ied": 1,
+    "cadenas": 1,
+    "estandares": 3,
+    "seguridad": 1,
+    "hub": 1
+   },
+   "score": 28,
+   "justificacion": "Integridad administrativa; efecto geoeconómico marginal.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "GOB-13",
+   "criterios": {
+    "ied": 4,
+    "cadenas": 3,
+    "estandares": 4,
+    "seguridad": 5,
+    "hub": 4
+   },
+   "score": 78,
+   "justificacion": "Nube preferente con localización solo para información crítica: compatible con compromisos de TLC, crea demanda ancla para proveedores de nube y protege datos sensibles frente a jurisdicciones extranjeras.",
+   "habilita": [
+    "CON-10"
+   ],
+   "requiere": [
+    "CIB-01",
+    "IA-11"
+   ]
+  },
+  {
+   "id": "GOB-14",
+   "criterios": {
+    "ied": 1,
+    "cadenas": 1,
+    "estandares": 3,
+    "seguridad": 2,
+    "hub": 1
+   },
+   "score": 31,
+   "justificacion": "Profesionaliza conducción digital estatal; habilitador interno.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "CON-01",
+   "criterios": {
+    "ied": 2,
+    "cadenas": 2,
+    "estandares": 3,
+    "seguridad": 2,
+    "hub": 2
+   },
+   "score": 44,
+   "justificacion": "Conectividad significativa amplía base de talento y mercado digital; efecto global indirecto.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "CON-02",
+   "criterios": {
+    "ied": 2,
+    "cadenas": 1,
+    "estandares": 2,
+    "seguridad": 2,
+    "hub": 2
+   },
+   "score": 35,
+   "justificacion": "Sostenibilidad de redes públicas; relevante para demanda de capacidad internacional, no decisivo.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "CON-03",
+   "criterios": {
+    "ied": 4,
+    "cadenas": 3,
+    "estandares": 3,
+    "seguridad": 3,
+    "hub": 4
+   },
+   "score": 68,
+   "justificacion": "Red mayorista de acceso abierto con operador neutro abarata transporte nacional y conecta data centers y estaciones de cable fuera de Lima.",
+   "habilita": [
+    "CON-10",
+    "CON-13",
+    "CON-11"
+   ],
+   "requiere": []
+  },
+  {
+   "id": "CON-04",
+   "criterios": {
+    "ied": 3,
+    "cadenas": 2,
+    "estandares": 3,
+    "seguridad": 2,
+    "hub": 3
+   },
+   "score": 52,
+   "justificacion": "Ductos en obra pública bajan costo de fibra y favorecen corredores logísticos-digitales (p. ej., Lima–Chancay).",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "CON-05",
+   "criterios": {
+    "ied": 4,
+    "cadenas": 2,
+    "estandares": 3,
+    "seguridad": 2,
+    "hub": 3
+   },
+   "score": 57,
+   "justificacion": "Régimen permanente de despliegue da previsibilidad a inversión extranjera en telecomunicaciones.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "CON-06",
+   "criterios": {
+    "ied": 4,
+    "cadenas": 2,
+    "estandares": 3,
+    "seguridad": 3,
+    "hub": 3
+   },
+   "score": 60,
+   "justificacion": "Espectro con obligaciones verificables atrae CAPEX de operadores multinacionales y redes privadas 5G para minería y puertos.",
+   "habilita": [
+    "TAL-09"
+   ],
+   "requiere": []
+  },
+  {
+   "id": "CON-07",
+   "criterios": {
+    "ied": 1,
+    "cadenas": 1,
+    "estandares": 2,
+    "seguridad": 2,
+    "hub": 1
+   },
+   "score": 27,
+   "justificacion": "Redes comunitarias; cohesión territorial, impacto global bajo.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "CON-08",
+   "criterios": {
+    "ied": 4,
+    "cadenas": 3,
+    "estandares": 4,
+    "seguridad": 4,
+    "hub": 3
+   },
+   "score": 72,
+   "justificacion": "Ley espacial cumple obligaciones de tratados espaciales, da certeza a operadores satelitales y estaciones terrenas y permite gestionar riesgos de uso dual en rivalidad de potencias.",
+   "habilita": [
+    "CON-09"
+   ],
+   "requiere": []
+  },
+  {
+   "id": "CON-09",
+   "criterios": {
+    "ied": 2,
+    "cadenas": 2,
+    "estandares": 3,
+    "seguridad": 3,
+    "hub": 2
+   },
+   "score": 47,
+   "justificacion": "Datos de observación terrestre soberanos útiles para minería, agro y negociación climática.",
+   "habilita": [
+    "SOB-01"
+   ],
+   "requiere": [
+    "CON-08"
+   ]
+  },
+  {
+   "id": "CON-10",
+   "criterios": {
+    "ied": 5,
+    "cadenas": 4,
+    "estandares": 3,
+    "seguridad": 3,
+    "hub": 5
+   },
+   "score": 81,
+   "justificacion": "Reglas previsibles para data centers con renovables y agua: Lima ya tiene mercado de colocación en expansión pero sin hiperescala; clave para hub andino.",
+   "habilita": [
+    "GOB-13",
+    "IA-05",
+    "ECO-12"
+   ],
+   "requiere": [
+    "CON-11",
+    "CIB-01"
+   ]
+  },
+  {
+   "id": "CON-11",
+   "criterios": {
+    "ied": 5,
+    "cadenas": 4,
+    "estandares": 3,
+    "seguridad": 5,
+    "hub": 5
+   },
+   "score": 87,
+   "justificacion": "Diversificar cables, protegerlos como activos críticos e impulsar IXP regionales es la pieza central para competir con Chile como nodo Pacífico (Humboldt aterriza en Chile, no en Perú).",
+   "habilita": [
+    "CON-10",
+    "ECO-12",
+    "GOB-13"
+   ],
+   "requiere": [
+    "CIB-01"
+   ]
+  },
+  {
+   "id": "CON-12",
+   "criterios": {
+    "ied": 2,
+    "cadenas": 2,
+    "estandares": 4,
+    "seguridad": 1,
+    "hub": 2
+   },
+   "score": 45,
+   "justificacion": "Neutralidad con reglas claras para servicios especializados 5G; convergencia con estándares UE.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "CON-13",
+   "criterios": {
+    "ied": 1,
+    "cadenas": 1,
+    "estandares": 2,
+    "seguridad": 1,
+    "hub": 1
+   },
+   "score": 24,
+   "justificacion": "Demanda ancla educativa; impacto geoeconómico bajo.",
+   "habilita": [],
+   "requiere": [
+    "CON-03"
+   ]
+  },
+  {
+   "id": "CON-14",
+   "criterios": {
+    "ied": 3,
+    "cadenas": 2,
+    "estandares": 3,
+    "seguridad": 5,
+    "hub": 3
+   },
+   "score": 61,
+   "justificacion": "Resiliencia de redes ante desastres y ataques protege continuidad de un eventual hub; complementa protección de cables.",
+   "habilita": [],
+   "requiere": [
+    "CIB-02"
+   ]
+  },
+  {
+   "id": "ECO-01",
+   "criterios": {
+    "ied": 4,
+    "cadenas": 3,
+    "estandares": 3,
+    "seguridad": 1,
+    "hub": 2
+   },
+   "score": 56,
+   "justificacion": "Régimen societario con accionistas personas jurídicas y talento extranjero facilita capital de riesgo internacional y relocalización de startups.",
+   "habilita": [
+    "ECO-13"
+   ],
+   "requiere": []
+  },
+  {
+   "id": "ECO-02",
+   "criterios": {
+    "ied": 3,
+    "cadenas": 3,
+    "estandares": 2,
+    "seguridad": 1,
+    "hub": 2
+   },
+   "score": 47,
+   "justificacion": "Coinversión con multilaterales apalanca capital extranjero; escala limitada.",
+   "habilita": [],
+   "requiere": [
+    "ECO-01"
+   ]
+  },
+  {
+   "id": "ECO-03",
+   "criterios": {
+    "ied": 3,
+    "cadenas": 3,
+    "estandares": 3,
+    "seguridad": 2,
+    "hub": 1
+   },
+   "score": 51,
+   "justificacion": "Incentivo I+D accesible a mypes; atrae centros de I+D si es previsible.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "ECO-04",
+   "criterios": {
+    "ied": 3,
+    "cadenas": 4,
+    "estandares": 4,
+    "seguridad": 3,
+    "hub": 2
+   },
+   "score": 66,
+   "justificacion": "Senda de I+D es indicador que la OCDE monitorea; el Perú está muy por debajo del promedio OCDE, limitando su ascenso en cadenas de valor.",
+   "habilita": [
+    "ECO-03",
+    "ECO-05"
+   ],
+   "requiere": []
+  },
+  {
+   "id": "ECO-05",
+   "criterios": {
+    "ied": 3,
+    "cadenas": 3,
+    "estandares": 4,
+    "seguridad": 2,
+    "hub": 1
+   },
+   "score": 55,
+   "justificacion": "Titularidad tipo Bayh-Dole permite licenciar tecnología (incluida metalúrgica) a socios extranjeros.",
+   "habilita": [
+    "SOB-01"
+   ],
+   "requiere": []
+  },
+  {
+   "id": "ECO-06",
+   "criterios": {
+    "ied": 4,
+    "cadenas": 3,
+    "estandares": 4,
+    "seguridad": 2,
+    "hub": 3
+   },
+   "score": 66,
+   "justificacion": "Finanzas abiertas atraen fintech regionales y alinean con prácticas de mercados OCDE.",
+   "habilita": [
+    "ECO-07"
+   ],
+   "requiere": [
+    "IA-11",
+    "CIB-08"
+   ]
+  },
+  {
+   "id": "ECO-07",
+   "criterios": {
+    "ied": 3,
+    "cadenas": 2,
+    "estandares": 4,
+    "seguridad": 2,
+    "hub": 3
+   },
+   "score": 56,
+   "justificacion": "Iniciación de pagos interoperable fortalece infraestructura de pagos; base para pagos transfronterizos regionales.",
+   "habilita": [],
+   "requiere": [
+    "ECO-06"
+   ]
+  },
+  {
+   "id": "ECO-08",
+   "criterios": {
+    "ied": 3,
+    "cadenas": 2,
+    "estandares": 5,
+    "seguridad": 3,
+    "hub": 2
+   },
+   "score": 60,
+   "justificacion": "Registro y custodia de PSAV cumple Recomendación 15 del GAFI; evita riesgo de listas grises que encarece el financiamiento externo.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "ECO-09",
+   "criterios": {
+    "ied": 2,
+    "cadenas": 2,
+    "estandares": 3,
+    "seguridad": 1,
+    "hub": 1
+   },
+   "score": 38,
+   "justificacion": "Financiamiento participativo; impacto internacional menor.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "ECO-10",
+   "criterios": {
+    "ied": 2,
+    "cadenas": 1,
+    "estandares": 4,
+    "seguridad": 1,
+    "hub": 1
+   },
+   "score": 37,
+   "justificacion": "Protección del consumidor digital alineada con OCDE; neutral para IED.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "ECO-11",
+   "criterios": {
+    "ied": 2,
+    "cadenas": 1,
+    "estandares": 3,
+    "seguridad": 1,
+    "hub": 1
+   },
+   "score": 33,
+   "justificacion": "Piso social en plataformas; convergencia con estándares OIT/OCDE, bajo efecto geoeconómico.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "ECO-12",
+   "criterios": {
+    "ied": 5,
+    "cadenas": 5,
+    "estandares": 4,
+    "seguridad": 2,
+    "hub": 4
+   },
+   "score": 84,
+   "justificacion": "Destrabar el IGV y su devolución a exportadores de servicios digitales es la palanca más directa para nearshoring de servicios en zona horaria de EE.UU.",
+   "habilita": [
+    "ECO-13",
+    "TAL-04"
+   ],
+   "requiere": [
+    "IA-11",
+    "CON-11"
+   ]
+  },
+  {
+   "id": "ECO-13",
+   "criterios": {
+    "ied": 4,
+    "cadenas": 4,
+    "estandares": 3,
+    "seguridad": 2,
+    "hub": 3
+   },
+   "score": 67,
+   "justificacion": "Parques tecnológicos y registro de empresas del conocimiento ordenan la oferta para atraer centros de servicios e I+D extranjeros.",
+   "habilita": [
+    "SOB-02"
+   ],
+   "requiere": [
+    "ECO-01",
+    "ECO-05"
+   ]
+  },
+  {
+   "id": "ECO-14",
+   "criterios": {
+    "ied": 2,
+    "cadenas": 1,
+    "estandares": 2,
+    "seguridad": 1,
+    "hub": 1
+   },
+   "score": 29,
+   "justificacion": "Liquidez mype; efecto global marginal.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "TAL-01",
+   "criterios": {
+    "ied": 3,
+    "cadenas": 3,
+    "estandares": 3,
+    "seguridad": 2,
+    "hub": 2
+   },
+   "score": 54,
+   "justificacion": "Base de talento de largo plazo; PISA y competencias son métricas clave de la OCDE.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "TAL-02",
+   "criterios": {
+    "ied": 1,
+    "cadenas": 1,
+    "estandares": 2,
+    "seguridad": 1,
+    "hub": 1
+   },
+   "score": 24,
+   "justificacion": "Inclusión digital; sin efecto geoeconómico directo.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "TAL-03",
+   "criterios": {
+    "ied": 3,
+    "cadenas": 4,
+    "estandares": 3,
+    "seguridad": 3,
+    "hub": 2
+   },
+   "score": 62,
+   "justificacion": "Becas STEM y retorno de talento suplen la escasez de ingenieros que limita refinación, data centers y servicios exportables.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "TAL-04",
+   "criterios": {
+    "ied": 4,
+    "cadenas": 4,
+    "estandares": 3,
+    "seguridad": 1,
+    "hub": 2
+   },
+   "score": 61,
+   "justificacion": "Formación modular acreditada es la vía más rápida para ampliar oferta de talento que exige el nearshoring de servicios.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "TAL-05",
+   "criterios": {
+    "ied": 2,
+    "cadenas": 2,
+    "estandares": 3,
+    "seguridad": 1,
+    "hub": 1
+   },
+   "score": 38,
+   "justificacion": "Amplía talento STEM; efecto geoeconómico indirecto.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "TAL-06",
+   "criterios": {
+    "ied": 2,
+    "cadenas": 2,
+    "estandares": 4,
+    "seguridad": 2,
+    "hub": 1
+   },
+   "score": 45,
+   "justificacion": "HL7 FHIR es estándar global; abre mercado a proveedores y convergencia regulatoria.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "TAL-07",
+   "criterios": {
+    "ied": 1,
+    "cadenas": 1,
+    "estandares": 3,
+    "seguridad": 1,
+    "hub": 1
+   },
+   "score": 28,
+   "justificacion": "Receta electrónica; doméstico.",
+   "habilita": [],
+   "requiere": [
+    "TAL-06"
+   ]
+  },
+  {
+   "id": "TAL-08",
+   "criterios": {
+    "ied": 3,
+    "cadenas": 4,
+    "estandares": 3,
+    "seguridad": 2,
+    "hub": 2
+   },
+   "score": 59,
+   "justificacion": "Datos agroclimáticos abiertos apoyan agroexportación y trazabilidad que exigen mercados de destino (p. ej., normas UE sobre deforestación).",
+   "habilita": [],
+   "requiere": [
+    "IA-04"
+   ]
+  },
+  {
+   "id": "TAL-09",
+   "criterios": {
+    "ied": 4,
+    "cadenas": 5,
+    "estandares": 5,
+    "seguridad": 3,
+    "hub": 2
+   },
+   "score": 80,
+   "justificacion": "Trazabilidad digital y monitoreo en tiempo real responden a exigencias de debida diligencia de compradores (UE, EE.UU.) y diferencian el cobre peruano frente a competidores.",
+   "habilita": [
+    "SOB-01"
+   ],
+   "requiere": [
+    "CIB-02"
+   ]
+  },
+  {
+   "id": "TAL-10",
+   "criterios": {
+    "ied": 2,
+    "cadenas": 1,
+    "estandares": 3,
+    "seguridad": 3,
+    "hub": 2
+   },
+   "score": 42,
+   "justificacion": "Alerta temprana protege infraestructura costera (puertos, cables) ante sismos y tsunamis.",
+   "habilita": [
+    "CON-14"
+   ],
+   "requiere": []
+  },
+  {
+   "id": "TAL-11",
+   "criterios": {
+    "ied": 1,
+    "cadenas": 1,
+    "estandares": 2,
+    "seguridad": 1,
+    "hub": 1
+   },
+   "score": 24,
+   "justificacion": "Recaudo de transporte urbano; efecto local.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "TAL-12",
+   "criterios": {
+    "ied": 2,
+    "cadenas": 2,
+    "estandares": 4,
+    "seguridad": 2,
+    "hub": 1
+   },
+   "score": 45,
+   "justificacion": "Economía circular y derecho a reparar convergen con estándares UE; recupera minerales secundarios a pequeña escala.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "TAL-13",
+   "criterios": {
+    "ied": 1,
+    "cadenas": 1,
+    "estandares": 4,
+    "seguridad": 1,
+    "hub": 1
+   },
+   "score": 32,
+   "justificacion": "Accesibilidad WCAG 2.2: convergencia de estándares, sin efecto en IED.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "TAL-14",
+   "criterios": {
+    "ied": 1,
+    "cadenas": 1,
+    "estandares": 2,
+    "seguridad": 1,
+    "hub": 1
+   },
+   "score": 24,
+   "justificacion": "Ciudadanía digital escolar; doméstico.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "SOB-01",
+   "criterios": {
+    "ied": 5,
+    "cadenas": 5,
+    "estandares": 4,
+    "seguridad": 5,
+    "hub": 3
+   },
+   "score": 90,
+   "justificacion": "Perú es 3.º productor mundial de cobre (≈2,7 Mt en 2025) pero refina solo ≈0,34 Mt: una lista de minerales críticos y agenda metalúrgica es la base para negociar acuerdos de minerales críticos y capturar valor.",
+   "habilita": [
+    "TAL-09",
+    "SOB-02"
+   ],
+   "requiere": [
+    "IA-04",
+    "ECO-05"
+   ]
+  },
+  {
+   "id": "SOB-02",
+   "criterios": {
+    "ied": 4,
+    "cadenas": 4,
+    "estandares": 3,
+    "seguridad": 3,
+    "hub": 4
+   },
+   "score": 73,
+   "justificacion": "Exigir valor agregado real y desarrollo de proveedores evita que las ZEEP (incl. entorno de Chancay) sean solo ensamblaje con riesgo de reglas de origen y de triangulación.",
+   "habilita": [
+    "SOB-08"
+   ],
+   "requiere": [
+    "ECO-13",
+    "TAL-04"
+   ]
+  },
+  {
+   "id": "SOB-03",
+   "criterios": {
+    "ied": 2,
+    "cadenas": 2,
+    "estandares": 3,
+    "seguridad": 3,
+    "hub": 1
+   },
+   "score": 44,
+   "justificacion": "Drones para agro y emergencias; control de uso dual moderado.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "SOB-04",
+   "criterios": {
+    "ied": 2,
+    "cadenas": 2,
+    "estandares": 3,
+    "seguridad": 1,
+    "hub": 1
+   },
+   "score": 38,
+   "justificacion": "Electromovilidad conecta con demanda de cobre y litio, pero impacto de inserción global bajo.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "SOB-05",
+   "criterios": {
+    "ied": 2,
+    "cadenas": 2,
+    "estandares": 4,
+    "seguridad": 3,
+    "hub": 1
+   },
+   "score": 48,
+   "justificacion": "Biobancos con reglas de transferencia internacional atraen ensayos clínicos y protegen datos genéticos ante extracción extranjera.",
+   "habilita": [],
+   "requiere": [
+    "IA-11"
+   ]
+  },
+  {
+   "id": "SOB-06",
+   "criterios": {
+    "ied": 2,
+    "cadenas": 1,
+    "estandares": 4,
+    "seguridad": 5,
+    "hub": 2
+   },
+   "score": 52,
+   "justificacion": "Migración poscuántica protege secretos de Estado y comercio frente a 'cosechar ahora, descifrar después'; alineada con hojas de ruta de EE.UU. y UE.",
+   "habilita": [],
+   "requiere": [
+    "CIB-01"
+   ]
+  },
+  {
+   "id": "SOB-07",
+   "criterios": {
+    "ied": 3,
+    "cadenas": 3,
+    "estandares": 2,
+    "seguridad": 2,
+    "hub": 1
+   },
+   "score": 47,
+   "justificacion": "Automatización mipyme mejora productividad de proveedores; efecto en cadenas globales gradual.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "SOB-08",
+   "criterios": {
+    "ied": 2,
+    "cadenas": 3,
+    "estandares": 3,
+    "seguridad": 4,
+    "hub": 1
+   },
+   "score": 52,
+   "justificacion": "Desarrollo de proveedores tech con sujeción a TLC: evita conflicto con capítulos de compras públicas y reduce dependencia externa.",
+   "habilita": [],
+   "requiere": [
+    "GOB-04"
+   ]
+  },
+  {
+   "id": "DER-01",
+   "criterios": {
+    "ied": 2,
+    "cadenas": 1,
+    "estandares": 3,
+    "seguridad": 1,
+    "hub": 1
+   },
+   "score": 33,
+   "justificacion": "Justicia digital previsible mejora clima de inversión; efecto indirecto.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "DER-02",
+   "criterios": {
+    "ied": 3,
+    "cadenas": 3,
+    "estandares": 4,
+    "seguridad": 1,
+    "hub": 2
+   },
+   "score": 55,
+   "justificacion": "Excepción de minería de datos acotada atrae I+D en IA; debe cuidar compatibilidad con capítulos de PI de los TLC.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "DER-03",
+   "criterios": {
+    "ied": 1,
+    "cadenas": 1,
+    "estandares": 3,
+    "seguridad": 3,
+    "hub": 1
+   },
+   "score": 34,
+   "justificacion": "Transparencia de plataformas ayuda a detectar injerencia extranjera; impacto económico limitado.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "DER-04",
+   "criterios": {
+    "ied": 1,
+    "cadenas": 1,
+    "estandares": 3,
+    "seguridad": 1,
+    "hub": 1
+   },
+   "score": 28,
+   "justificacion": "Desindexación y herencia digital; doméstico.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "DER-05",
+   "criterios": {
+    "ied": 1,
+    "cadenas": 1,
+    "estandares": 3,
+    "seguridad": 1,
+    "hub": 1
+   },
+   "score": 28,
+   "justificacion": "Monitoreo laboral; convergencia normativa, neutral en IED.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "DER-06",
+   "criterios": {
+    "ied": 2,
+    "cadenas": 2,
+    "estandares": 4,
+    "seguridad": 1,
+    "hub": 2
+   },
+   "score": 45,
+   "justificacion": "Resolución de disputas en línea facilita comercio electrónico transfronterizo (prácticas UNCITRAL/APEC).",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "DER-07",
+   "criterios": {
+    "ied": 1,
+    "cadenas": 1,
+    "estandares": 3,
+    "seguridad": 1,
+    "hub": 1
+   },
+   "score": 28,
+   "justificacion": "Violencia digital; protección de derechos, no geoeconómica.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "DER-08",
+   "criterios": {
+    "ied": 1,
+    "cadenas": 1,
+    "estandares": 2,
+    "seguridad": 1,
+    "hub": 1
+   },
+   "score": 24,
+   "justificacion": "Participación ciudadana digital; doméstico.",
+   "habilita": [],
+   "requiere": []
+  }
+ ],
+ "vacios": [
+  {
+   "titulo": "Ley de evaluación de inversiones extranjeras en activos críticos y tecnologías sensibles",
+   "por_que": "Gestionar riesgos geopolíticos (puertos, cables, data centers, minerales) con un procedimiento transparente, acotado y no discriminatorio conforme a las Directrices OCDE de inversión y seguridad nacional, en lugar de reacciones ad hoc o presiones externas.",
+   "eje_sugerido": "sob"
+  },
+  {
+   "titulo": "Ley de flujos transfronterizos de datos y hoja de ruta hacia la adecuación de la UE",
+   "por_que": "El Perú no figura entre los países con decisión de adecuación de la UE; sin ella, exportar servicios con datos personales de europeos exige cláusulas costosas. Debe articular ANPD autónoma, transferencias y mecanismos de cooperación APEC.",
+   "eje_sugerido": "ia"
+  },
+  {
+   "titulo": "Ley de control de exportaciones de bienes y tecnologías de doble uso",
+   "por_que": "Para entrar en cadenas friendshoring (semiconductores, electrónica, espacio) el país debe demostrar control de reexportaciones y triangulación; hoy no hay régimen integral alineado con arreglos multilaterales.",
+   "eje_sugerido": "sob"
+  },
+  {
+   "titulo": "Ley del corredor logístico-digital Chancay–Lima: puerto inteligente, VUCE interoperable y supervisión regulatoria clara",
+   "por_que": "Chancay ya opera, pero la supervisión del regulador fue cuestionada judicialmente y no hay integración datos-aduana-puerto-fibra con estándares de seguridad; sin reglas claras se pierde la ventaja logística y crece el riesgo geopolítico.",
+   "eje_sugerido": "gob"
+  },
+  {
+   "titulo": "Ley de energía firme y renovable para cargas digitales e industriales estratégicas",
+   "por_que": "Data centers, refinación de cobre y manufactura en ZEEP requieren contratos de energía renovable y transmisión con plazos ciertos; CON-10 solo ordena conexión, no resuelve la oferta y transmisión.",
+   "eje_sugerido": "con"
+  },
+  {
+   "titulo": "Ley de diplomacia económica digital y negociación de acuerdos de economía digital",
+   "por_que": "Falta mandato legal para negociar capítulos digitales y acuerdos tipo DEPA, reconocimiento mutuo de firma/identidad y acuerdos de minerales críticos con EE.UU., UE, Japón y Corea, coordinando MINCETUR, RREE y PCM.",
+   "eje_sugerido": "eco"
+  }
+ ],
+ "fuentes": [
+  {
+   "titulo": "USGS, Mineral Commodity Summaries 2026: Copper",
+   "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-copper.pdf"
+  },
+  {
+   "titulo": "Andina: IMF raises Peru's 2026 economic growth forecast to 3% (oct. 2026)",
+   "url": "https://andina.pe/ingles/noticia-imf-raises-perus-2026-economic-growth-forecast-to-3-1095833.aspx"
+  },
+  {
+   "titulo": "FMI: Peru, 2026 Article IV consultation (mayo 2026)",
+   "url": "https://www.imf.org/en/news/articles/2026/05/18/pr26157-peru-imf-executive-board-concludes-2026-article-iv-consultation"
+  },
+  {
+   "titulo": "Andina: Prime Minister: Peru is 40% advanced in OECD accession process (jun. 2026)",
+   "url": "https://andina.pe/ingles/noticia-prime-minister-peru-is-40-advanced-in-oecd-accession-process-1077704.aspx"
+  },
+  {
+   "titulo": "OECD, Regulatory Policy in Peru 2026",
+   "url": "https://www.oecd.org/en/publications/regulatory-policy-in-peru-2026_ffd94f26-en/full-report.html"
+  },
+  {
+   "titulo": "Comisión Europea: decisiones de adecuación",
+   "url": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en"
+  },
+  {
+   "titulo": "China Global South: U.S. Warns Peru Over Chinese-Built Chancay Port (feb. 2026)",
+   "url": "https://chinaglobalsouth.com/2026/02/12/chancay-port-peru-china-us-pressure/"
+  },
+  {
+   "titulo": "Seatrade Maritime: Cosco's Peruvian port celebrates first year of operations",
+   "url": "https://seatrade-maritime.com/ports-logistics/cosco-s-peruvian-port-celebrates-first-year-of-operations"
+  },
+  {
+   "titulo": "La República: Puerto de Chancay moviliza 2,4 millones de toneladas en su primer año comercial (jun. 2026)",
+   "url": "https://larepublica.pe/economia/2026/06/18/puerto-de-chancay-moviliza-24-millones-de-toneladas-y-consolida-rutas-maritimas-entre-sudamerica-y-asia-que-deja-su-primer-ano-comercial-hnews-1523844"
+  },
+  {
+   "titulo": "Andina: Peru completes internal procedures to optimize FTA with China (ago. 2026)",
+   "url": "https://andina.pe/ingles/noticia-peru-completes-internal-procedures-to-optimize-fta-with-china-1086433.aspx"
+  },
+  {
+   "titulo": "EY: US imposes tariffs on copper products (Sección 232, 2025)",
+   "url": "https://www.ey.com/en_gl/technical/tax-alerts/us-imposes-tariffs-on-copper-products"
+  },
+  {
+   "titulo": "Capacity: 9 subsea cable projects redefining Latin America's digital future",
+   "url": "https://capacitymedia.com/article/9-subsea-cable-projects-redefining-latin-americas-digital-future"
+  },
+  {
+   "titulo": "Gestión: el mercado de data centers en Perú crecerá a US$378 millones al 2031",
+   "url": "https://gestion.pe/economia/empresas/el-mercado-de-data-centers-en-peru-crecera-a-us-378-millones-al-2031-por-que-noticia/"
+  },
+  {
+   "titulo": "OCDE, Recomendación OECD/LEGAL/0372: Directrices sobre políticas de inversión y seguridad nacional (2009)",
+   "url": "https://legalinstruments.oecd.org/public/doc/227/227.en.pdf"
+  }
+ ]
+}

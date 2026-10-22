@@ -1,0 +1,1761 @@
+{
+ "lente": "prospectiva_tecnologica",
+ "criterios": [
+  {
+   "clave": "megatendencias",
+   "descripcion": "Alineamiento con las megatendencias al 2036: IA generalizada y agentes, automatización, cuántica, transición energética y minerales críticos, biotecnología, cambio climático y estrés hídrico, demografía/urbanización, geopolítica tecnológica (contrastado con el informe prospectivo CEPLAN 2024-2050).",
+   "peso": 0.25
+  },
+  {
+   "clave": "anti_obsolescencia",
+   "descripcion": "Resistencia a la obsolescencia: neutralidad tecnológica, regula funciones y derechos y no productos; ¿seguirá sirviendo en 2036 sin reescribirse?",
+   "peso": 0.2
+  },
+  {
+   "clave": "leapfrogging",
+   "descripcion": "Potencial de saltar etapas (infraestructura pública digital tipo Estonia X-Road, pagos instantáneos tipo Pix o dinero móvil tipo M-Pesa) en lugar de replicar la secuencia de países ricos.",
+   "peso": 0.2
+  },
+  {
+   "clave": "capacidades_nacionales",
+   "descripcion": "Habilita capacidades nacionales acumulativas: datos, talento, cómputo, conectividad, energía e instituciones sobre las que se construyen otras leyes.",
+   "peso": 0.2
+  },
+  {
+   "clave": "costo_rezago",
+   "descripcion": "Riesgo y costo de quedar atrás si no se legisla en 2026-2031 (ventanas que se cierran: inversiones de cómputo, cadenas de minerales, migración criptográfica, talento).",
+   "peso": 0.15
+  }
+ ],
+ "tesis": "Desde la prospectiva, la pregunta no es qué tecnología estará de moda en 2036, sino qué capacidades legales y públicas seguirán siendo útiles con cualquier tecnología. El informe prospectivo 2024-2050 de CEPLAN ubica entre las tendencias de mayor impacto el estrés hídrico, el aumento de la conectividad digital/IoT y de las energías renovables, y entre los riesgos los eventos climáticos extremos y la geopolitización de recursos estratégicos. A ello se suman la difusión de la IA y los agentes (Stanford AI Index 2025), la demanda de minerales críticos para la transición energética (IEA 2024), donde el Perú figura entre los mayores productores de cobre (USGS 2025), y la migración a criptografía postcuántica ya estandarizada (NIST FIPS 203). Con el Perú 7º en el Índice Latinoamericano de IA 2025 (categoría 'adoptante'), se abren tres escenarios al 2036. (1) Rezagado: Estado fragmentado, IA importada sin datos ni reglas, cobre sin trazabilidad, talento que emigra. (2) Adaptador: adopción tardía concentrada en Lima, consumidor de IA más que productor. (3) Líder regional: nodo digital andino-pacífico. Lo que empuja hacia el tercero no son leyes sobre artefactos sino sobre infraestructura pública digital y capacidades acumulativas, que es exactamente donde ocurrieron los saltos de Estonia (X-Road), Brasil (Pix) o Kenia (M-Pesa, cuyo efecto en pobreza documentan Suri y Jack, 2016): interoperabilidad y 'solo una vez' (GOB-01), identidad digital (CIB-08), datos abiertos aptos para IA (IA-04), ley marco de ciberseguridad (CIB-01), conectividad mayorista, cables y centros de datos renovables (CON-03, CON-11, CON-10), minerales críticos con trazabilidad (SOB-01, TAL-09), talento (TAL-01, TAL-03) e inversión en CTI (ECO-04). Le siguen las reglas neutrales que vuelven gobernable la IA del Estado (IA-02, IA-03) y la exportación de servicios digitales (ECO-12). Las propuestas de menor puntaje no son malas: protegen derechos valiosos, pero regulan síntomas de la tecnología actual y aportan poco a construir capacidad. Advertencia: los puntajes son juicio experto; el escenario líder también requiere energía firme, estabilidad institucional y gestión del agua, que exceden este paquete.",
+ "escenarios_2036": [
+  {
+   "nombre": "Rezagado",
+   "descripcion": "Estado fragmentado y analógico en regiones; IA y nube importadas sin gobernanza ni datos propios; cobre exportado en bruto sin trazabilidad que exigen los compradores; ciberincidentes recurrentes; el talento STEM emigra. El crecimiento depende del ciclo de precios de metales."
+  },
+  {
+   "nombre": "Adaptador",
+   "descripcion": "Adopta tarde y por partes: identidad y servicios digitales funcionan en Lima y grandes ciudades, la IA se usa como consumidor, se atraen algunos centros de datos pero sin red mayorista ni datos aptos para IA; la brecha territorial persiste y la productividad mejora poco."
+  },
+  {
+   "nombre": "Líder regional (nodo digital andino-pacífico)",
+   "descripcion": "Infraestructura pública digital completa (identidad digital + interoperabilidad 'solo una vez' + datos abiertos aptos para IA + pagos/finanzas abiertas), cómputo con energía renovable conectado por nuevos cables y la red mayorista, minerales críticos con trazabilidad y valor agregado, y una base de talento que exporta servicios digitales; el Estado regula funciones y riesgos, no tecnologías."
+  }
+ ],
+ "puntajes": [
+  {
+   "id": "IA-01",
+   "criterios": {
+    "megatendencias": 4,
+    "anti_obsolescencia": 4,
+    "leapfrogging": 3,
+    "capacidades_nacionales": 3,
+    "costo_rezago": 3
+   },
+   "score": 69,
+   "justificacion": "Registro neutral de sistemas: sirve igual para modelos de 2026 que para agentes de 2036; base de confianza para escalar IA en el Estado.",
+   "habilita": [
+    "IA-14"
+   ],
+   "requiere": [
+    "IA-02"
+   ]
+  },
+  {
+   "id": "IA-02",
+   "criterios": {
+    "megatendencias": 5,
+    "anti_obsolescencia": 5,
+    "leapfrogging": 4,
+    "capacidades_nacionales": 3,
+    "costo_rezago": 4
+   },
+   "score": 85,
+   "justificacion": "Regula la actuación automatizada como función, no como tecnología: marco duradero para un Estado operado por agentes de IA.",
+   "habilita": [
+    "IA-01",
+    "IA-09"
+   ],
+   "requiere": []
+  },
+  {
+   "id": "IA-03",
+   "criterios": {
+    "megatendencias": 5,
+    "anti_obsolescencia": 5,
+    "leapfrogging": 4,
+    "capacidades_nacionales": 4,
+    "costo_rezago": 4
+   },
+   "score": 89,
+   "justificacion": "Sandbox permite probar IA y agentes antes de regular; instrumento adaptativo clásico de foresight regulatorio.",
+   "habilita": [
+    "IA-08",
+    "ECO-06"
+   ],
+   "requiere": []
+  },
+  {
+   "id": "IA-04",
+   "criterios": {
+    "megatendencias": 5,
+    "anti_obsolescencia": 5,
+    "leapfrogging": 5,
+    "capacidades_nacionales": 5,
+    "costo_rezago": 5
+   },
+   "score": 100,
+   "justificacion": "Datos abiertos por defecto, aptos para IA y vía APIs: la materia prima de toda IA nacional y de la infraestructura pública digital.",
+   "habilita": [
+    "IA-10",
+    "IA-06",
+    "CON-09",
+    "TAL-08"
+   ],
+   "requiere": [
+    "GOB-01"
+   ]
+  },
+  {
+   "id": "IA-05",
+   "criterios": {
+    "megatendencias": 5,
+    "anti_obsolescencia": 3,
+    "leapfrogging": 3,
+    "capacidades_nacionales": 5,
+    "costo_rezago": 4
+   },
+   "score": 81,
+   "justificacion": "Cómputo es cuello de botella de la IA; el hardware envejece rápido, pero la red institucional de acceso compartido perdura.",
+   "habilita": [
+    "IA-06",
+    "SOB-06"
+   ],
+   "requiere": [
+    "CON-10"
+   ]
+  },
+  {
+   "id": "IA-06",
+   "criterios": {
+    "megatendencias": 4,
+    "anti_obsolescencia": 4,
+    "leapfrogging": 4,
+    "capacidades_nacionales": 4,
+    "costo_rezago": 3
+   },
+   "score": 77,
+   "justificacion": "Modelos en lenguas originarias: nicho donde el Perú puede liderar y salto de inclusión en servicios por voz.",
+   "habilita": [],
+   "requiere": [
+    "IA-04",
+    "IA-05",
+    "DER-02"
+   ]
+  },
+  {
+   "id": "IA-07",
+   "criterios": {
+    "megatendencias": 4,
+    "anti_obsolescencia": 3,
+    "leapfrogging": 2,
+    "capacidades_nacionales": 2,
+    "costo_rezago": 4
+   },
+   "score": 60,
+   "justificacion": "Riesgo real de deepfakes electorales, pero regla atada a formatos actuales y con poco efecto en capacidades.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "IA-08",
+   "criterios": {
+    "megatendencias": 4,
+    "anti_obsolescencia": 4,
+    "leapfrogging": 3,
+    "capacidades_nacionales": 3,
+    "costo_rezago": 3
+   },
+   "score": 69,
+   "justificacion": "Validación clínica y vigilancia post-despliegue: condición para IA en salud segura y escalable.",
+   "habilita": [],
+   "requiere": [
+    "TAL-06",
+    "IA-03"
+   ]
+  },
+  {
+   "id": "IA-09",
+   "criterios": {
+    "megatendencias": 4,
+    "anti_obsolescencia": 4,
+    "leapfrogging": 3,
+    "capacidades_nacionales": 3,
+    "costo_rezago": 3
+   },
+   "score": 69,
+   "justificacion": "Garantías para IA judicial; habilita productividad judicial sin erosionar derechos.",
+   "habilita": [],
+   "requiere": [
+    "IA-02",
+    "DER-01"
+   ]
+  },
+  {
+   "id": "IA-10",
+   "criterios": {
+    "megatendencias": 5,
+    "anti_obsolescencia": 5,
+    "leapfrogging": 4,
+    "capacidades_nacionales": 5,
+    "costo_rezago": 4
+   },
+   "score": 93,
+   "justificacion": "Datos sintéticos y entornos seguros destraban investigación con datos sensibles sin reidentificación; capacidad clave al 2036.",
+   "habilita": [
+    "SOB-05",
+    "IA-08"
+   ],
+   "requiere": [
+    "IA-04",
+    "IA-11"
+   ]
+  },
+  {
+   "id": "IA-11",
+   "criterios": {
+    "megatendencias": 4,
+    "anti_obsolescencia": 5,
+    "leapfrogging": 2,
+    "capacidades_nacionales": 4,
+    "costo_rezago": 4
+   },
+   "score": 76,
+   "justificacion": "Autoridad de datos autónoma: institución que sostiene confianza en toda la economía de datos.",
+   "habilita": [
+    "IA-12",
+    "IA-10",
+    "ECO-06"
+   ],
+   "requiere": []
+  },
+  {
+   "id": "IA-12",
+   "criterios": {
+    "megatendencias": 4,
+    "anti_obsolescencia": 5,
+    "leapfrogging": 3,
+    "capacidades_nacionales": 4,
+    "costo_rezago": 3
+   },
+   "score": 77,
+   "justificacion": "Portabilidad e interoperabilidad: reduce lock-in de plataformas, neutral a la tecnología.",
+   "habilita": [
+    "ECO-06"
+   ],
+   "requiere": [
+    "IA-11"
+   ]
+  },
+  {
+   "id": "IA-13",
+   "criterios": {
+    "megatendencias": 5,
+    "anti_obsolescencia": 4,
+    "leapfrogging": 3,
+    "capacidades_nacionales": 4,
+    "costo_rezago": 4
+   },
+   "score": 81,
+   "justificacion": "Automatización y gestión algorítmica del trabajo son megatendencia; la reconversión amortigua el costo social.",
+   "habilita": [],
+   "requiere": [
+    "TAL-04"
+   ]
+  },
+  {
+   "id": "IA-14",
+   "criterios": {
+    "megatendencias": 4,
+    "anti_obsolescencia": 4,
+    "leapfrogging": 3,
+    "capacidades_nacionales": 3,
+    "costo_rezago": 3
+   },
+   "score": 69,
+   "justificacion": "Cláusulas de auditoría y portabilidad en compras de IA evitan dependencia de proveedor por una década.",
+   "habilita": [],
+   "requiere": [
+    "IA-01"
+   ]
+  },
+  {
+   "id": "CIB-01",
+   "criterios": {
+    "megatendencias": 5,
+    "anti_obsolescencia": 5,
+    "leapfrogging": 3,
+    "capacidades_nacionales": 5,
+    "costo_rezago": 5
+   },
+   "score": 92,
+   "justificacion": "Ley marco de ciberseguridad: capa institucional sin la cual toda digitalización amplía la superficie de ataque.",
+   "habilita": [
+    "CIB-02",
+    "CIB-03",
+    "CIB-12",
+    "SOB-06"
+   ],
+   "requiere": []
+  },
+  {
+   "id": "CIB-02",
+   "criterios": {
+    "megatendencias": 4,
+    "anti_obsolescencia": 5,
+    "leapfrogging": 2,
+    "capacidades_nacionales": 4,
+    "costo_rezago": 5
+   },
+   "score": 79,
+   "justificacion": "Obligaciones para servicios esenciales (energía, agua, finanzas): riesgo sistémico creciente con IoT y conflictos.",
+   "habilita": [],
+   "requiere": [
+    "CIB-01"
+   ]
+  },
+  {
+   "id": "CIB-03",
+   "criterios": {
+    "megatendencias": 3,
+    "anti_obsolescencia": 4,
+    "leapfrogging": 3,
+    "capacidades_nacionales": 3,
+    "costo_rezago": 4
+   },
+   "score": 67,
+   "justificacion": "Ventanilla única de incidentes reduce fricción y mejora inteligencia de amenazas.",
+   "habilita": [],
+   "requiere": [
+    "CIB-01"
+   ]
+  },
+  {
+   "id": "CIB-04",
+   "criterios": {
+    "megatendencias": 4,
+    "anti_obsolescencia": 3,
+    "leapfrogging": 1,
+    "capacidades_nacionales": 2,
+    "costo_rezago": 4
+   },
+   "score": 56,
+   "justificacion": "Actualiza tipos penales ante extorsión y material sintético; necesario pero reactivo y pronto desfasado.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "CIB-05",
+   "criterios": {
+    "megatendencias": 3,
+    "anti_obsolescencia": 4,
+    "leapfrogging": 2,
+    "capacidades_nacionales": 2,
+    "costo_rezago": 4
+   },
+   "score": 59,
+   "justificacion": "Responsabilidad compartida ante fraude sostiene confianza en pagos digitales.",
+   "habilita": [],
+   "requiere": [
+    "ECO-07"
+   ]
+  },
+  {
+   "id": "CIB-06",
+   "criterios": {
+    "megatendencias": 3,
+    "anti_obsolescencia": 3,
+    "leapfrogging": 2,
+    "capacidades_nacionales": 2,
+    "costo_rezago": 3
+   },
+   "score": 52,
+   "justificacion": "Spoofing telefónico: problema actual; útil pero acotado a la tecnología de hoy.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "CIB-07",
+   "criterios": {
+    "megatendencias": 4,
+    "anti_obsolescencia": 4,
+    "leapfrogging": 2,
+    "capacidades_nacionales": 2,
+    "costo_rezago": 3
+   },
+   "score": 61,
+   "justificacion": "IoT es tendencia nº 4 de CEPLAN; mínimos de seguridad por diseño evitan importar dispositivos vulnerables.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "CIB-08",
+   "criterios": {
+    "megatendencias": 5,
+    "anti_obsolescencia": 5,
+    "leapfrogging": 5,
+    "capacidades_nacionales": 5,
+    "costo_rezago": 5
+   },
+   "score": 100,
+   "justificacion": "Identidad digital con mínima divulgación: pilar de infraestructura pública digital (modelo Estonia); habilita todo lo demás.",
+   "habilita": [
+    "CIB-09",
+    "DER-08",
+    "GOB-09",
+    "ECO-06"
+   ],
+   "requiere": []
+  },
+  {
+   "id": "CIB-09",
+   "criterios": {
+    "megatendencias": 4,
+    "anti_obsolescencia": 4,
+    "leapfrogging": 4,
+    "capacidades_nacionales": 4,
+    "costo_rezago": 4
+   },
+   "score": 80,
+   "justificacion": "Firma remota gratuita elimina el cuello de botella de tokens físicos; salto directo a trámites 100 % digitales.",
+   "habilita": [
+    "GOB-02",
+    "ECO-14"
+   ],
+   "requiere": [
+    "CIB-08"
+   ]
+  },
+  {
+   "id": "CIB-10",
+   "criterios": {
+    "megatendencias": 3,
+    "anti_obsolescencia": 3,
+    "leapfrogging": 1,
+    "capacidades_nacionales": 2,
+    "costo_rezago": 3
+   },
+   "score": 48,
+   "justificacion": "Protección de NNA en servicios digitales: valiosa en derechos, baja contribución a capacidades.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "CIB-11",
+   "criterios": {
+    "megatendencias": 4,
+    "anti_obsolescencia": 5,
+    "leapfrogging": 3,
+    "capacidades_nacionales": 3,
+    "costo_rezago": 3
+   },
+   "score": 73,
+   "justificacion": "Divulgación coordinada legaliza a investigadores de seguridad: talento local como defensa barata.",
+   "habilita": [],
+   "requiere": [
+    "CIB-01"
+   ]
+  },
+  {
+   "id": "CIB-12",
+   "criterios": {
+    "megatendencias": 4,
+    "anti_obsolescencia": 5,
+    "leapfrogging": 2,
+    "capacidades_nacionales": 4,
+    "costo_rezago": 4
+   },
+   "score": 76,
+   "justificacion": "Carrera de ciberseguridad en el Estado: la escasez de talento es la restricción vinculante.",
+   "habilita": [],
+   "requiere": [
+    "GOB-14"
+   ]
+  },
+  {
+   "id": "CIB-13",
+   "criterios": {
+    "megatendencias": 3,
+    "anti_obsolescencia": 4,
+    "leapfrogging": 1,
+    "capacidades_nacionales": 2,
+    "costo_rezago": 4
+   },
+   "score": 55,
+   "justificacion": "Protege la integridad electoral digital; relevante para estabilidad, poco efecto de capacidad.",
+   "habilita": [
+    "DER-08"
+   ],
+   "requiere": []
+  },
+  {
+   "id": "CIB-14",
+   "criterios": {
+    "megatendencias": 3,
+    "anti_obsolescencia": 4,
+    "leapfrogging": 2,
+    "capacidades_nacionales": 3,
+    "costo_rezago": 3
+   },
+   "score": 60,
+   "justificacion": "Ciberresiliencia mipyme y transparencia de seguros: extiende defensa al tejido productivo.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "GOB-01",
+   "criterios": {
+    "megatendencias": 5,
+    "anti_obsolescencia": 5,
+    "leapfrogging": 5,
+    "capacidades_nacionales": 5,
+    "costo_rezago": 5
+   },
+   "score": 100,
+   "justificacion": "Interoperabilidad y 'solo una vez' es el corazón de X-Road estonio: salto de Estado de ventanillas a Estado plataforma.",
+   "habilita": [
+    "GOB-02",
+    "IA-04",
+    "GOB-08",
+    "TAL-06"
+   ],
+   "requiere": [
+    "GOB-14"
+   ]
+  },
+  {
+   "id": "GOB-02",
+   "criterios": {
+    "megatendencias": 4,
+    "anti_obsolescencia": 4,
+    "leapfrogging": 4,
+    "capacidades_nacionales": 4,
+    "costo_rezago": 4
+   },
+   "score": 80,
+   "justificacion": "Casilla y expediente únicos: elimina papel y prepara trámites resueltos por agentes de software.",
+   "habilita": [],
+   "requiere": [
+    "GOB-01",
+    "CIB-09"
+   ]
+  },
+  {
+   "id": "GOB-03",
+   "criterios": {
+    "megatendencias": 4,
+    "anti_obsolescencia": 5,
+    "leapfrogging": 4,
+    "capacidades_nacionales": 4,
+    "costo_rezago": 3
+   },
+   "score": 81,
+   "justificacion": "Código abierto por defecto evita lock-in y permite reutilizar soluciones entre entidades y países.",
+   "habilita": [
+    "GOB-08"
+   ],
+   "requiere": []
+  },
+  {
+   "id": "GOB-04",
+   "criterios": {
+    "megatendencias": 4,
+    "anti_obsolescencia": 5,
+    "leapfrogging": 4,
+    "capacidades_nacionales": 4,
+    "costo_rezago": 4
+   },
+   "score": 84,
+   "justificacion": "Compra pública de innovación convierte al Estado en primer cliente de tecnología nacional; instrumento neutral y duradero.",
+   "habilita": [
+    "SOB-08",
+    "ECO-01"
+   ],
+   "requiere": []
+  },
+  {
+   "id": "GOB-05",
+   "criterios": {
+    "megatendencias": 3,
+    "anti_obsolescencia": 4,
+    "leapfrogging": 3,
+    "capacidades_nacionales": 3,
+    "costo_rezago": 4
+   },
+   "score": 67,
+   "justificacion": "Gasto en tiempo real ataca la corrupción (tendencia nº 3 CEPLAN) y alimenta auditoría con IA.",
+   "habilita": [],
+   "requiere": [
+    "IA-04"
+   ]
+  },
+  {
+   "id": "GOB-06",
+   "criterios": {
+    "megatendencias": 2,
+    "anti_obsolescencia": 4,
+    "leapfrogging": 2,
+    "capacidades_nacionales": 2,
+    "costo_rezago": 2
+   },
+   "score": 48,
+   "justificacion": "Congreso abierto mejora rendición de cuentas; aporte limitado a capacidades tecnológicas.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "GOB-07",
+   "criterios": {
+    "megatendencias": 4,
+    "anti_obsolescencia": 4,
+    "leapfrogging": 4,
+    "capacidades_nacionales": 4,
+    "costo_rezago": 4
+   },
+   "score": 80,
+   "justificacion": "Catastro multipropósito y gemelos urbanos: base para planificación climática, urbana y tributaria.",
+   "habilita": [
+    "TAL-10"
+   ],
+   "requiere": [
+    "IA-04"
+   ]
+  },
+  {
+   "id": "GOB-08",
+   "criterios": {
+    "megatendencias": 4,
+    "anti_obsolescencia": 4,
+    "leapfrogging": 5,
+    "capacidades_nacionales": 4,
+    "costo_rezago": 4
+   },
+   "score": 84,
+   "justificacion": "Servicios compartidos para municipios: los gobiernos subnacionales saltan directamente a la nube sin construir TI propia.",
+   "habilita": [],
+   "requiere": [
+    "GOB-01",
+    "GOB-13"
+   ]
+  },
+  {
+   "id": "GOB-09",
+   "criterios": {
+    "megatendencias": 4,
+    "anti_obsolescencia": 3,
+    "leapfrogging": 5,
+    "capacidades_nacionales": 3,
+    "costo_rezago": 3
+   },
+   "score": 73,
+   "justificacion": "Servicios públicos por móvil y mensajería: salto tipo M-Pesa para población rural; el canal concreto puede cambiar.",
+   "habilita": [],
+   "requiere": [
+    "CIB-08"
+   ]
+  },
+  {
+   "id": "GOB-10",
+   "criterios": {
+    "megatendencias": 3,
+    "anti_obsolescencia": 5,
+    "leapfrogging": 2,
+    "capacidades_nacionales": 3,
+    "costo_rezago": 3
+   },
+   "score": 64,
+   "justificacion": "Preservación digital protege memoria institucional; neutral y de largo plazo.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "GOB-11",
+   "criterios": {
+    "megatendencias": 3,
+    "anti_obsolescencia": 4,
+    "leapfrogging": 3,
+    "capacidades_nacionales": 2,
+    "costo_rezago": 2
+   },
+   "score": 57,
+   "justificacion": "Datos abiertos de transporte habilitan movilidad inteligente; impacto acotado a ciudades.",
+   "habilita": [
+    "TAL-11"
+   ],
+   "requiere": [
+    "IA-04"
+   ]
+  },
+  {
+   "id": "GOB-12",
+   "criterios": {
+    "megatendencias": 2,
+    "anti_obsolescencia": 3,
+    "leapfrogging": 2,
+    "capacidades_nacionales": 2,
+    "costo_rezago": 2
+   },
+   "score": 44,
+   "justificacion": "Trazabilidad de denuncias: mejora de gestión con baja relación a megatendencias.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "GOB-13",
+   "criterios": {
+    "megatendencias": 5,
+    "anti_obsolescencia": 4,
+    "leapfrogging": 4,
+    "capacidades_nacionales": 5,
+    "costo_rezago": 4
+   },
+   "score": 89,
+   "justificacion": "Nube del Estado y portabilidad: soberanía de datos frente a la geopolítica tecnológica y base de cómputo público.",
+   "habilita": [
+    "GOB-08",
+    "IA-05"
+   ],
+   "requiere": []
+  },
+  {
+   "id": "GOB-14",
+   "criterios": {
+    "megatendencias": 4,
+    "anti_obsolescencia": 5,
+    "leapfrogging": 3,
+    "capacidades_nacionales": 5,
+    "costo_rezago": 5
+   },
+   "score": 87,
+   "justificacion": "Talento digital en el servicio civil: sin él ninguna ley de transformación digital se implementa.",
+   "habilita": [
+    "GOB-01",
+    "CIB-12"
+   ],
+   "requiere": []
+  },
+  {
+   "id": "CON-01",
+   "criterios": {
+    "megatendencias": 4,
+    "anti_obsolescencia": 4,
+    "leapfrogging": 3,
+    "capacidades_nacionales": 4,
+    "costo_rezago": 4
+   },
+   "score": 76,
+   "justificacion": "Banda ancha como servicio esencial con estándar de conectividad significativa: piso para la economía de la IA.",
+   "habilita": [
+    "CON-02"
+   ],
+   "requiere": []
+  },
+  {
+   "id": "CON-02",
+   "criterios": {
+    "megatendencias": 4,
+    "anti_obsolescencia": 4,
+    "leapfrogging": 3,
+    "capacidades_nacionales": 4,
+    "costo_rezago": 5
+   },
+   "score": 79,
+   "justificacion": "Operación y mantenimiento de redes universales: evita que la inversión ya hecha se pierda.",
+   "habilita": [],
+   "requiere": [
+    "CON-01"
+   ]
+  },
+  {
+   "id": "CON-03",
+   "criterios": {
+    "megatendencias": 4,
+    "anti_obsolescencia": 4,
+    "leapfrogging": 4,
+    "capacidades_nacionales": 5,
+    "costo_rezago": 5
+   },
+   "score": 87,
+   "justificacion": "Red mayorista de acceso abierto integrando la dorsal: troncal para conectividad rural y centros de datos.",
+   "habilita": [
+    "CON-13",
+    "CON-07"
+   ],
+   "requiere": []
+  },
+  {
+   "id": "CON-04",
+   "criterios": {
+    "megatendencias": 3,
+    "anti_obsolescencia": 5,
+    "leapfrogging": 3,
+    "capacidades_nacionales": 4,
+    "costo_rezago": 3
+   },
+   "score": 72,
+   "justificacion": "Ductos en obra pública ('dig once'): neutral a la tecnología y baja el costo de fibra futura.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "CON-05",
+   "criterios": {
+    "megatendencias": 3,
+    "anti_obsolescencia": 4,
+    "leapfrogging": 2,
+    "capacidades_nacionales": 3,
+    "costo_rezago": 4
+   },
+   "score": 63,
+   "justificacion": "Régimen permanente de despliegue de infraestructura: certeza para 5G y sucesores.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "CON-06",
+   "criterios": {
+    "megatendencias": 5,
+    "anti_obsolescencia": 4,
+    "leapfrogging": 4,
+    "capacidades_nacionales": 4,
+    "costo_rezago": 4
+   },
+   "score": 85,
+   "justificacion": "Gestión eficiente del espectro con cobertura rural: clave para 5G/6G y conexión satélite-celular directa.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "CON-07",
+   "criterios": {
+    "megatendencias": 3,
+    "anti_obsolescencia": 4,
+    "leapfrogging": 5,
+    "capacidades_nacionales": 3,
+    "costo_rezago": 3
+   },
+   "score": 72,
+   "justificacion": "Redes comunitarias: salto de última milla en zonas no rentables, como en México y Brasil.",
+   "habilita": [],
+   "requiere": [
+    "CON-03"
+   ]
+  },
+  {
+   "id": "CON-08",
+   "criterios": {
+    "megatendencias": 5,
+    "anti_obsolescencia": 5,
+    "leapfrogging": 4,
+    "capacidades_nacionales": 4,
+    "costo_rezago": 4
+   },
+   "score": 89,
+   "justificacion": "Ley espacial: economía orbital en expansión y autonomía en observación de la Tierra.",
+   "habilita": [
+    "CON-09"
+   ],
+   "requiere": []
+  },
+  {
+   "id": "CON-09",
+   "criterios": {
+    "megatendencias": 5,
+    "anti_obsolescencia": 5,
+    "leapfrogging": 5,
+    "capacidades_nacionales": 4,
+    "costo_rezago": 4
+   },
+   "score": 93,
+   "justificacion": "Datos satelitales abiertos para clima, minería ilegal, agro y riesgos: salto en gestión territorial con bajo costo.",
+   "habilita": [
+    "TAL-08",
+    "TAL-09",
+    "TAL-10"
+   ],
+   "requiere": [
+    "IA-04",
+    "CON-08"
+   ]
+  },
+  {
+   "id": "CON-10",
+   "criterios": {
+    "megatendencias": 5,
+    "anti_obsolescencia": 4,
+    "leapfrogging": 5,
+    "capacidades_nacionales": 5,
+    "costo_rezago": 5
+   },
+   "score": 96,
+   "justificacion": "Centros de datos renovables con uso responsable del agua: convierte energía limpia en ventaja de cómputo (eje del Plan IA 2050).",
+   "habilita": [
+    "IA-05"
+   ],
+   "requiere": [
+    "CON-11"
+   ]
+  },
+  {
+   "id": "CON-11",
+   "criterios": {
+    "megatendencias": 5,
+    "anti_obsolescencia": 5,
+    "leapfrogging": 4,
+    "capacidades_nacionales": 5,
+    "costo_rezago": 5
+   },
+   "score": 96,
+   "justificacion": "Cables submarinos e IXP regionales: geopolítica de la conectividad y oportunidad de hub en el Pacífico.",
+   "habilita": [
+    "CON-10"
+   ],
+   "requiere": []
+  },
+  {
+   "id": "CON-12",
+   "criterios": {
+    "megatendencias": 3,
+    "anti_obsolescencia": 4,
+    "leapfrogging": 2,
+    "capacidades_nacionales": 3,
+    "costo_rezago": 2
+   },
+   "score": 57,
+   "justificacion": "Medición abierta de calidad y neutralidad: buena gobernanza, efecto de capacidad moderado.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "CON-13",
+   "criterios": {
+    "megatendencias": 4,
+    "anti_obsolescencia": 4,
+    "leapfrogging": 4,
+    "capacidades_nacionales": 5,
+    "costo_rezago": 4
+   },
+   "score": 84,
+   "justificacion": "Banda ancha en escuelas y postas: condición para educación digital y telesalud rural.",
+   "habilita": [
+    "TAL-01",
+    "TAL-07"
+   ],
+   "requiere": [
+    "CON-03"
+   ]
+  },
+  {
+   "id": "CON-14",
+   "criterios": {
+    "megatendencias": 5,
+    "anti_obsolescencia": 5,
+    "leapfrogging": 2,
+    "capacidades_nacionales": 4,
+    "costo_rezago": 5
+   },
+   "score": 84,
+   "justificacion": "Resiliencia de redes ante desastres: el clima extremo y El Niño son riesgo top 3 CEPLAN.",
+   "habilita": [
+    "TAL-10"
+   ],
+   "requiere": []
+  },
+  {
+   "id": "ECO-01",
+   "criterios": {
+    "megatendencias": 4,
+    "anti_obsolescencia": 4,
+    "leapfrogging": 4,
+    "capacidades_nacionales": 4,
+    "costo_rezago": 4
+   },
+   "score": 80,
+   "justificacion": "Régimen simplificado para startups e incorporación de talento: vehículo de absorción de tecnología de frontera.",
+   "habilita": [
+    "ECO-02",
+    "ECO-09"
+   ],
+   "requiere": []
+  },
+  {
+   "id": "ECO-02",
+   "criterios": {
+    "megatendencias": 3,
+    "anti_obsolescencia": 3,
+    "leapfrogging": 3,
+    "capacidades_nacionales": 4,
+    "costo_rezago": 3
+   },
+   "score": 64,
+   "justificacion": "Continuidad del fondo de capital emprendedor; útil pero instrumento sujeto a ciclo fiscal.",
+   "habilita": [],
+   "requiere": [
+    "ECO-01"
+   ]
+  },
+  {
+   "id": "ECO-03",
+   "criterios": {
+    "megatendencias": 4,
+    "anti_obsolescencia": 4,
+    "leapfrogging": 3,
+    "capacidades_nacionales": 4,
+    "costo_rezago": 4
+   },
+   "score": 76,
+   "justificacion": "Incentivo I+D accesible a pymes y startups con evaluación: incrementa capacidad privada de innovación.",
+   "habilita": [],
+   "requiere": [
+    "ECO-04"
+   ]
+  },
+  {
+   "id": "ECO-04",
+   "criterios": {
+    "megatendencias": 5,
+    "anti_obsolescencia": 5,
+    "leapfrogging": 3,
+    "capacidades_nacionales": 5,
+    "costo_rezago": 5
+   },
+   "score": 92,
+   "justificacion": "Metas multianuales de CTI hacia 1 % del PBI: sin inversión sostenida no hay producción propia de tecnología.",
+   "habilita": [
+    "ECO-03",
+    "IA-05",
+    "TAL-03",
+    "SOB-01"
+   ],
+   "requiere": []
+  },
+  {
+   "id": "ECO-05",
+   "criterios": {
+    "megatendencias": 4,
+    "anti_obsolescencia": 5,
+    "leapfrogging": 3,
+    "capacidades_nacionales": 4,
+    "costo_rezago": 3
+   },
+   "score": 77,
+   "justificacion": "Titularidad de resultados y spin-offs (tipo Bayh-Dole): convierte investigación pública en empresas.",
+   "habilita": [
+    "ECO-13"
+   ],
+   "requiere": []
+  },
+  {
+   "id": "ECO-06",
+   "criterios": {
+    "megatendencias": 4,
+    "anti_obsolescencia": 4,
+    "leapfrogging": 5,
+    "capacidades_nacionales": 4,
+    "costo_rezago": 4
+   },
+   "score": 84,
+   "justificacion": "Finanzas abiertas: salto en inclusión financiera y competencia sobre datos del usuario.",
+   "habilita": [],
+   "requiere": [
+    "IA-12",
+    "CIB-08",
+    "IA-11"
+   ]
+  },
+  {
+   "id": "ECO-07",
+   "criterios": {
+    "megatendencias": 4,
+    "anti_obsolescencia": 4,
+    "leapfrogging": 5,
+    "capacidades_nacionales": 3,
+    "costo_rezago": 4
+   },
+   "score": 80,
+   "justificacion": "Iniciación de pagos y antifraude: ruta tipo Pix hacia pagos instantáneos interoperables.",
+   "habilita": [],
+   "requiere": [
+    "CIB-05"
+   ]
+  },
+  {
+   "id": "ECO-08",
+   "criterios": {
+    "megatendencias": 3,
+    "anti_obsolescencia": 3,
+    "leapfrogging": 3,
+    "capacidades_nacionales": 2,
+    "costo_rezago": 3
+   },
+   "score": 56,
+   "justificacion": "Registro de proveedores de activos virtuales: reduce riesgo, depende de un mercado volátil.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "ECO-09",
+   "criterios": {
+    "megatendencias": 3,
+    "anti_obsolescencia": 3,
+    "leapfrogging": 3,
+    "capacidades_nacionales": 3,
+    "costo_rezago": 2
+   },
+   "score": 57,
+   "justificacion": "Crowdfunding para startups y mipymes: complemento de financiamiento.",
+   "habilita": [],
+   "requiere": [
+    "ECO-01"
+   ]
+  },
+  {
+   "id": "ECO-10",
+   "criterios": {
+    "megatendencias": 2,
+    "anti_obsolescencia": 4,
+    "leapfrogging": 1,
+    "capacidades_nacionales": 1,
+    "costo_rezago": 2
+   },
+   "score": 40,
+   "justificacion": "Derechos del consumidor digital: necesario, escasa relación con capacidades al 2036.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "ECO-11",
+   "criterios": {
+    "megatendencias": 4,
+    "anti_obsolescencia": 3,
+    "leapfrogging": 2,
+    "capacidades_nacionales": 2,
+    "costo_rezago": 3
+   },
+   "score": 57,
+   "justificacion": "Protección en plataformas: responde a la economía gig; diseño ligado a modelos actuales.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "ECO-12",
+   "criterios": {
+    "megatendencias": 5,
+    "anti_obsolescencia": 4,
+    "leapfrogging": 5,
+    "capacidades_nacionales": 4,
+    "costo_rezago": 5
+   },
+   "score": 92,
+   "justificacion": "Exportación de servicios digitales sin trabas de IGV: ruta probada de salto (India, Costa Rica, Uruguay) para diversificar más allá de minerales.",
+   "habilita": [
+    "ECO-13"
+   ],
+   "requiere": []
+  },
+  {
+   "id": "ECO-13",
+   "criterios": {
+    "megatendencias": 4,
+    "anti_obsolescencia": 4,
+    "leapfrogging": 4,
+    "capacidades_nacionales": 4,
+    "costo_rezago": 4
+   },
+   "score": 80,
+   "justificacion": "Economía del conocimiento y parques: aglomeración de talento y empresas tecnológicas.",
+   "habilita": [],
+   "requiere": [
+    "ECO-05",
+    "ECO-12"
+   ]
+  },
+  {
+   "id": "ECO-14",
+   "criterios": {
+    "megatendencias": 3,
+    "anti_obsolescencia": 3,
+    "leapfrogging": 3,
+    "capacidades_nacionales": 2,
+    "costo_rezago": 3
+   },
+   "score": 56,
+   "justificacion": "Factura negociable electrónica: liquidez mipyme, mejora incremental.",
+   "habilita": [],
+   "requiere": [
+    "CIB-09"
+   ]
+  },
+  {
+   "id": "TAL-01",
+   "criterios": {
+    "megatendencias": 5,
+    "anti_obsolescencia": 4,
+    "leapfrogging": 4,
+    "capacidades_nacionales": 5,
+    "costo_rezago": 5
+   },
+   "score": 92,
+   "justificacion": "Pensamiento computacional e IA en la escuela: el talento de 2036 está hoy en primaria.",
+   "habilita": [],
+   "requiere": [
+    "CON-13"
+   ]
+  },
+  {
+   "id": "TAL-02",
+   "criterios": {
+    "megatendencias": 4,
+    "anti_obsolescencia": 3,
+    "leapfrogging": 2,
+    "capacidades_nacionales": 3,
+    "costo_rezago": 3
+   },
+   "score": 61,
+   "justificacion": "Alfabetización digital de adultos mayores: responde al envejecimiento y evita exclusión.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "TAL-03",
+   "criterios": {
+    "megatendencias": 5,
+    "anti_obsolescencia": 5,
+    "leapfrogging": 3,
+    "capacidades_nacionales": 5,
+    "costo_rezago": 5
+   },
+   "score": 92,
+   "justificacion": "Becas STEM con retorno de talento: capacidad crítica y escasa para IA, energía y minería avanzada.",
+   "habilita": [],
+   "requiere": [
+    "ECO-04"
+   ]
+  },
+  {
+   "id": "TAL-04",
+   "criterios": {
+    "megatendencias": 5,
+    "anti_obsolescencia": 4,
+    "leapfrogging": 4,
+    "capacidades_nacionales": 5,
+    "costo_rezago": 4
+   },
+   "score": 89,
+   "justificacion": "Formación modular corta: reconversión ágil ante automatización.",
+   "habilita": [
+    "IA-13"
+   ],
+   "requiere": []
+  },
+  {
+   "id": "TAL-05",
+   "criterios": {
+    "megatendencias": 4,
+    "anti_obsolescencia": 5,
+    "leapfrogging": 2,
+    "capacidades_nacionales": 4,
+    "costo_rezago": 3
+   },
+   "score": 73,
+   "justificacion": "Más mujeres en STEM amplía el pool de talento con efecto duradero.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "TAL-06",
+   "criterios": {
+    "megatendencias": 5,
+    "anti_obsolescencia": 5,
+    "leapfrogging": 4,
+    "capacidades_nacionales": 5,
+    "costo_rezago": 4
+   },
+   "score": 93,
+   "justificacion": "Historia clínica electrónica interoperable: base de salud digital, IA clínica y genómica.",
+   "habilita": [
+    "IA-08",
+    "TAL-07",
+    "SOB-05"
+   ],
+   "requiere": [
+    "GOB-01"
+   ]
+  },
+  {
+   "id": "TAL-07",
+   "criterios": {
+    "megatendencias": 4,
+    "anti_obsolescencia": 4,
+    "leapfrogging": 5,
+    "capacidades_nacionales": 3,
+    "costo_rezago": 4
+   },
+   "score": 80,
+   "justificacion": "Receta electrónica y telesalud rural: salto de acceso en primer nivel.",
+   "habilita": [],
+   "requiere": [
+    "TAL-06",
+    "CON-13"
+   ]
+  },
+  {
+   "id": "TAL-08",
+   "criterios": {
+    "megatendencias": 5,
+    "anti_obsolescencia": 4,
+    "leapfrogging": 4,
+    "capacidades_nacionales": 4,
+    "costo_rezago": 4
+   },
+   "score": 85,
+   "justificacion": "Agricultura de precisión y datos agroclimáticos abiertos: adaptación al estrés hídrico (tendencia nº 1 CEPLAN).",
+   "habilita": [],
+   "requiere": [
+    "IA-04",
+    "CON-09"
+   ]
+  },
+  {
+   "id": "TAL-09",
+   "criterios": {
+    "megatendencias": 5,
+    "anti_obsolescencia": 4,
+    "leapfrogging": 4,
+    "capacidades_nacionales": 4,
+    "costo_rezago": 5
+   },
+   "score": 88,
+   "justificacion": "Minería 4.0 con monitoreo en tiempo real y trazabilidad: exigencia creciente de compradores de minerales críticos.",
+   "habilita": [
+    "SOB-01"
+   ],
+   "requiere": [
+    "CON-09"
+   ]
+  },
+  {
+   "id": "TAL-10",
+   "criterios": {
+    "megatendencias": 5,
+    "anti_obsolescencia": 5,
+    "leapfrogging": 4,
+    "capacidades_nacionales": 4,
+    "costo_rezago": 5
+   },
+   "score": 92,
+   "justificacion": "Alerta temprana multiamenaza automática: adaptación climática con alto retorno social.",
+   "habilita": [],
+   "requiere": [
+    "CON-14",
+    "CON-09"
+   ]
+  },
+  {
+   "id": "TAL-11",
+   "criterios": {
+    "megatendencias": 3,
+    "anti_obsolescencia": 4,
+    "leapfrogging": 3,
+    "capacidades_nacionales": 2,
+    "costo_rezago": 3
+   },
+   "score": 60,
+   "justificacion": "Pasaje electrónico interoperable: mejora urbana acotada a Lima-Callao.",
+   "habilita": [],
+   "requiere": [
+    "GOB-11"
+   ]
+  },
+  {
+   "id": "TAL-12",
+   "criterios": {
+    "megatendencias": 3,
+    "anti_obsolescencia": 4,
+    "leapfrogging": 2,
+    "capacidades_nacionales": 2,
+    "costo_rezago": 2
+   },
+   "score": 53,
+   "justificacion": "Economía circular de electrónicos y derecho a reparar: tendencia real, baja palanca de capacidad.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "TAL-13",
+   "criterios": {
+    "megatendencias": 3,
+    "anti_obsolescencia": 5,
+    "leapfrogging": 2,
+    "capacidades_nacionales": 2,
+    "costo_rezago": 2
+   },
+   "score": 57,
+   "justificacion": "Accesibilidad digital: inclusión duradera ante el envejecimiento poblacional.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "TAL-14",
+   "criterios": {
+    "megatendencias": 3,
+    "anti_obsolescencia": 3,
+    "leapfrogging": 1,
+    "capacidades_nacionales": 2,
+    "costo_rezago": 2
+   },
+   "score": 45,
+   "justificacion": "Ciudadanía digital escolar: formativa, poco efecto sobre capacidades productivas.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "SOB-01",
+   "criterios": {
+    "megatendencias": 5,
+    "anti_obsolescencia": 4,
+    "leapfrogging": 4,
+    "capacidades_nacionales": 5,
+    "costo_rezago": 5
+   },
+   "score": 92,
+   "justificacion": "Minerales críticos con I+D metalúrgica y valor agregado: núcleo de la geopolítica de la transición energética.",
+   "habilita": [
+    "SOB-02"
+   ],
+   "requiere": [
+    "TAL-09",
+    "ECO-04"
+   ]
+  },
+  {
+   "id": "SOB-02",
+   "criterios": {
+    "megatendencias": 4,
+    "anti_obsolescencia": 3,
+    "leapfrogging": 3,
+    "capacidades_nacionales": 3,
+    "costo_rezago": 3
+   },
+   "score": 65,
+   "justificacion": "Manufactura electrónica en ZEE: oportunidad incierta frente a cadenas asiáticas consolidadas.",
+   "habilita": [],
+   "requiere": [
+    "SOB-01"
+   ]
+  },
+  {
+   "id": "SOB-03",
+   "criterios": {
+    "megatendencias": 5,
+    "anti_obsolescencia": 4,
+    "leapfrogging": 4,
+    "capacidades_nacionales": 3,
+    "costo_rezago": 4
+   },
+   "score": 81,
+   "justificacion": "Drones para agro, emergencias e identificación remota: salto logístico en Amazonía y Andes.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "SOB-04",
+   "criterios": {
+    "megatendencias": 4,
+    "anti_obsolescencia": 4,
+    "leapfrogging": 3,
+    "capacidades_nacionales": 2,
+    "costo_rezago": 3
+   },
+   "score": 65,
+   "justificacion": "Carga de vehículos eléctricos interoperable: electromovilidad en marcha, peso local moderado.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "SOB-05",
+   "criterios": {
+    "megatendencias": 5,
+    "anti_obsolescencia": 5,
+    "leapfrogging": 4,
+    "capacidades_nacionales": 4,
+    "costo_rezago": 4
+   },
+   "score": 89,
+   "justificacion": "Biobancos y datos genéticos: puerta a la biotecnología y medicina de precisión con población diversa.",
+   "habilita": [],
+   "requiere": [
+    "TAL-06",
+    "IA-10"
+   ]
+  },
+  {
+   "id": "SOB-06",
+   "criterios": {
+    "megatendencias": 5,
+    "anti_obsolescencia": 5,
+    "leapfrogging": 2,
+    "capacidades_nacionales": 4,
+    "costo_rezago": 4
+   },
+   "score": 81,
+   "justificacion": "Transición a criptografía postcuántica (estándares NIST 2024): lo cifrado hoy puede leerse mañana.",
+   "habilita": [],
+   "requiere": [
+    "CIB-01",
+    "IA-05"
+   ]
+  },
+  {
+   "id": "SOB-07",
+   "criterios": {
+    "megatendencias": 5,
+    "anti_obsolescencia": 4,
+    "leapfrogging": 3,
+    "capacidades_nacionales": 4,
+    "costo_rezago": 4
+   },
+   "score": 81,
+   "justificacion": "Automatización y robótica en mipymes vía CITE: difunde productividad de la industria 4.0.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "SOB-08",
+   "criterios": {
+    "megatendencias": 3,
+    "anti_obsolescencia": 4,
+    "leapfrogging": 3,
+    "capacidades_nacionales": 3,
+    "costo_rezago": 3
+   },
+   "score": 64,
+   "justificacion": "Transparentar demanda tecnológica estatal estimula proveedores locales.",
+   "habilita": [],
+   "requiere": [
+    "GOB-04"
+   ]
+  },
+  {
+   "id": "DER-01",
+   "criterios": {
+    "megatendencias": 3,
+    "anti_obsolescencia": 4,
+    "leapfrogging": 3,
+    "capacidades_nacionales": 3,
+    "costo_rezago": 3
+   },
+   "score": 64,
+   "justificacion": "Audiencias remotas y expediente judicial electrónico: justicia digital con garantías.",
+   "habilita": [
+    "IA-09"
+   ],
+   "requiere": []
+  },
+  {
+   "id": "DER-02",
+   "criterios": {
+    "megatendencias": 5,
+    "anti_obsolescencia": 4,
+    "leapfrogging": 4,
+    "capacidades_nacionales": 4,
+    "costo_rezago": 4
+   },
+   "score": 85,
+   "justificacion": "Excepción de minería de textos y datos con transparencia: atrae investigación y entrenamiento de IA (modelo Japón/Singapur).",
+   "habilita": [
+    "IA-06"
+   ],
+   "requiere": []
+  },
+  {
+   "id": "DER-03",
+   "criterios": {
+    "megatendencias": 3,
+    "anti_obsolescencia": 3,
+    "leapfrogging": 1,
+    "capacidades_nacionales": 1,
+    "costo_rezago": 3
+   },
+   "score": 44,
+   "justificacion": "Transparencia de plataformas y publicidad política: protege la deliberación, poca palanca de capacidad.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "DER-04",
+   "criterios": {
+    "megatendencias": 2,
+    "anti_obsolescencia": 4,
+    "leapfrogging": 1,
+    "capacidades_nacionales": 1,
+    "costo_rezago": 2
+   },
+   "score": 40,
+   "justificacion": "Desindexación y herencia digital: derechos válidos, baja relevancia prospectiva.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "DER-05",
+   "criterios": {
+    "megatendencias": 3,
+    "anti_obsolescencia": 4,
+    "leapfrogging": 1,
+    "capacidades_nacionales": 1,
+    "costo_rezago": 2
+   },
+   "score": 45,
+   "justificacion": "Vigilancia laboral y desconexión: protección duradera, sin efecto en capacidades.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "DER-06",
+   "criterios": {
+    "megatendencias": 3,
+    "anti_obsolescencia": 4,
+    "leapfrogging": 3,
+    "capacidades_nacionales": 2,
+    "costo_rezago": 2
+   },
+   "score": 57,
+   "justificacion": "Resolución de disputas en línea: eficiencia, posible soporte de IA en el futuro.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "DER-07",
+   "criterios": {
+    "megatendencias": 3,
+    "anti_obsolescencia": 3,
+    "leapfrogging": 1,
+    "capacidades_nacionales": 1,
+    "costo_rezago": 3
+   },
+   "score": 44,
+   "justificacion": "Violencia facilitada por tecnología: urgente en derechos, baja palanca tecnológica.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "DER-08",
+   "criterios": {
+    "megatendencias": 3,
+    "anti_obsolescencia": 4,
+    "leapfrogging": 3,
+    "capacidades_nacionales": 2,
+    "costo_rezago": 2
+   },
+   "score": 57,
+   "justificacion": "Firma ciudadana digital y voto digital gradual: participación del futuro, condicionada a ciberseguridad.",
+   "habilita": [],
+   "requiere": [
+    "CIB-08",
+    "CIB-13"
+   ]
+  }
+ ],
+ "vacios": [
+  {
+   "titulo": "Ley que crea la Oficina de Evaluación Tecnológica y Prospectiva del Congreso y exige cláusulas de revisión periódica en leyes tecnológicas",
+   "por_que": "Sin una capacidad parlamentaria de foresight (tipo POST del Reino Unido o STOA del Parlamento Europeo) y sin revisiones obligatorias a 3-5 años, las 100 leyes se volverán obsoletas antes de 2036.",
+   "eje_sugerido": "gob"
+  },
+  {
+   "titulo": "Ley de gestión digital del agua: medición telemétrica de usos, datos hídricos abiertos y gemelos digitales de cuencas",
+   "por_que": "El estrés hídrico es la tendencia nº 1 del informe prospectivo CEPLAN; TAL-08 cubre datos agroclimáticos pero no la medición y asignación del agua entre minería, agro, ciudades y centros de datos.",
+   "eje_sugerido": "sob"
+  },
+  {
+   "titulo": "Ley de bioeconomía y acceso a recursos genéticos con información digital de secuencias y reparto de beneficios",
+   "por_que": "La biotecnología es megatendencia y el Perú es megadiverso; SOB-05 regula biobancos humanos, pero falta el régimen para la biodiversidad y su información digital (DSI), hoy en negociación multilateral.",
+   "eje_sugerido": "sob"
+  },
+  {
+   "titulo": "Ley de energía firme renovable para cargas digitales e industriales: contratos bilaterales renovables, almacenamiento y transmisión anticipada",
+   "por_que": "CON-10 e IA-05 suponen electricidad limpia y abundante; sin reglas de contratación renovable, almacenamiento y transmisión, los centros de datos y el valor agregado minero no llegan.",
+   "eje_sugerido": "sob"
+  },
+  {
+   "titulo": "Ley de cuentas individuales de aprendizaje a lo largo de la vida para la transición por automatización",
+   "por_que": "IA-13 y TAL-04 abren reconversión y formación modular, pero no financian al trabajador; esquemas tipo SkillsFuture (Singapur) dan derecho portable a formación ante la automatización.",
+   "eje_sugerido": "tal"
+  },
+  {
+   "titulo": "Ley de responsabilidad civil y operación segura de sistemas autónomos y robótica (minería, transporte, logística)",
+   "por_que": "La IA física y los agentes autónomos llegarán primero a minería y logística; falta un régimen de responsabilidad, seguros y homologación neutral para vehículos y robots autónomos.",
+   "eje_sugerido": "ia"
+  },
+  {
+   "titulo": "Ley que habilita la adhesión a acuerdos de economía digital y la participación nacional en organismos de estándares tecnológicos",
+   "por_que": "La geopolítica tecnológica se juega en estándares y acuerdos (p. ej., DEPA); sin presencia en ellos el Perú adopta reglas ajenas y pierde acceso a flujos de datos para exportar servicios.",
+   "eje_sugerido": "eco"
+  }
+ ],
+ "fuentes": [
+  {
+   "titulo": "CEPLAN — Perú: Informe de análisis prospectivo 2024-2050 (tendencias y riesgos)",
+   "url": "https://cdn.www.gob.pe/uploads/document/file/5621307/4983083-ceplan-peru-informe-de-analisis-prospectivo-2024-2050.pdf"
+  },
+  {
+   "titulo": "CEPLAN — Plan Estratégico de Desarrollo Nacional al 2050",
+   "url": "https://peru2050.ceplan.gob.pe/"
+  },
+  {
+   "titulo": "CEPLAN — Informe de situación del país 2025",
+   "url": "https://www.gob.pe/institucion/ceplan/informes-publicaciones/7547219-informe-de-situacion-de-pais-2025"
+  },
+  {
+   "titulo": "Índice Latinoamericano de Inteligencia Artificial (ILIA) — CENIA",
+   "url": "https://indicelatam.cl/"
+  },
+  {
+   "titulo": "Stanford HAI — AI Index Report 2025",
+   "url": "https://hai.stanford.edu/ai-index/2025-ai-index-report"
+  },
+  {
+   "titulo": "IEA — Global Critical Minerals Outlook 2024",
+   "url": "https://www.iea.org/reports/global-critical-minerals-outlook-2024"
+  },
+  {
+   "titulo": "USGS — Mineral Commodity Summaries 2025",
+   "url": "https://pubs.usgs.gov/periodicals/mcs2025/mcs2025.pdf"
+  },
+  {
+   "titulo": "NIST — FIPS 203, Module-Lattice-Based Key-Encapsulation Mechanism Standard",
+   "url": "https://csrc.nist.gov/pubs/fips/203/final"
+  },
+  {
+   "titulo": "e-Estonia — X-Road, capa de interoperabilidad",
+   "url": "https://e-estonia.com/solutions/interoperability-services/x-road/"
+  },
+  {
+   "titulo": "Banco Central do Brasil — Pix",
+   "url": "https://www.bcb.gov.br/en/financialstability/pix_en"
+  },
+  {
+   "titulo": "Suri y Jack (2016), The long-run poverty and gender impacts of mobile money, Science 354(6317)",
+   "url": "https://doi.org/10.1126/science.aah5309"
+  },
+  {
+   "titulo": "World Economic Forum — The Future of Jobs Report 2025",
+   "url": "https://www.weforum.org/publications/the-future-of-jobs-report-2025/"
+  },
+  {
+   "titulo": "Institute for the Future — métodos de foresight",
+   "url": "https://www.iftf.org/"
+  }
+ ],
+ "metodo": "Escala 1-5 por criterio; score = promedio ponderado / 5 x 100 (rango 20-100). Lectura de foresight (escaneo de señales + megatendencias + escenarios exploratorios a 2036, en la línea de OCDE Strategic Foresight, IFTF y CEPLAN). Puntajes son juicio experto del lente, no estimaciones econométricas."
+}

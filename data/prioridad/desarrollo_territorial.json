@@ -1,0 +1,1799 @@
+{
+  "lente": "desarrollo_territorial",
+  "criterios": [
+    {
+      "clave": "brechas_territoriales",
+      "descripcion": "Reduce brechas rural/urbano, Lima/regiones y Amazonía/Andes en acceso a servicios, conectividad y oportunidades económicas (PNUD IDH, ENAHO).",
+      "peso": 0.25
+    },
+    {
+      "clave": "inclusion",
+      "descripcion": "Llega a población en pobreza, mujeres, pueblos indígenas y hablantes de lenguas originarias, personas con discapacidad, adultos mayores y jóvenes.",
+      "peso": 0.2
+    },
+    {
+      "clave": "capital_humano",
+      "descripcion": "Mejora educación, salud y habilidades (incluidas digitales) que sostienen productividad e ingresos a largo plazo.",
+      "peso": 0.15
+    },
+    {
+      "clave": "legitimidad_conflictos",
+      "descripcion": "Aumenta la legitimidad social del crecimiento: transparencia, participación, prevención de conflictos socioambientales y confianza en el Estado.",
+      "peso": 0.15
+    },
+    {
+      "clave": "sostenibilidad_resiliencia",
+      "descripcion": "Sostenibilidad ambiental y resiliencia climática/desastres (El Niño, sismos, friajes), gestión del territorio y recursos.",
+      "peso": 0.1
+    },
+    {
+      "clave": "derechos_tecnologia",
+      "descripcion": "Protege derechos frente a la tecnología (datos, no discriminación algorítmica, violencia digital, trabajo) con foco en quienes tienen menos poder.",
+      "peso": 0.15
+    }
+  ],
+  "metodo_score": "score = round(sum(peso*criterio)/5*100); criterios 1-5, pesos suman 1. Juicio experto, no estimación econométrica.",
+  "tesis": "Un Perú que lidere el crecimiento emergente al 2036 necesita que ese crecimiento se sienta en Cajamarca, Loreto o Puno y no solo en las cifras de Lima. La evidencia lo dice con claridad. En 2025 la pobreza monetaria bajó a 25,7 %, pero era 35,5 % en el área rural, 41,0 % en Cajamarca, 40,1 % en Loreto y 46,2 % en hogares cuyo jefe tiene una lengua amazónica como lengua materna (INEI). El PNUD registra que el IDH nacional apenas pasó de 0,648 a 0,662 entre 2017 y 2024, con Huancavelica, Huánuco, Puno y Amazonas al fondo. La Defensoría del Pueblo contaba 191 conflictos sociales a mediados de 2026, el 49 % socioambientales y la mayoría ligados a la minería, la misma actividad que tendría que impulsar el crecimiento. Por eso un crecimiento sin inclusión no se sostiene: las paralizaciones de proyectos, la desconfianza hacia el Estado y la volatilidad política son su principal riesgo endógeno. La brecha digital agrava el problema. A fines de 2025 el 78,2 % de los hogares de Lima tenía internet, frente a solo el 23,4 % de los rurales. El uso de internet llega apenas al 52,4 % en los adultos de 60 años o más (INEI, ENAHO-TIC). Si la tecnología solo llega a quien ya está conectado, va a ampliar la desigualdad en lugar de reducirla. Esta lente prioriza tres bloques de leyes. Primero, infraestructura que llegue y siga funcionando: banda ancha como servicio esencial, financiamiento para operar y mantener las redes de FITEL, redes comunitarias e indígenas, espectro con obligaciones rurales y conexión de escuelas y postas. Segundo, servicios que la gente sienta: telesalud y receta electrónica rural, historia clínica interoperable, servicios por SMS, USSD y voz, servicios digitales compartidos para municipios sin capacidades y tecnologías del lenguaje en quechua, aimara y lenguas amazónicas. Tercero, legitimidad: monitoreo ambiental minero abierto en tiempo real, transparencia diaria del gasto y del canon, observación satelital abierta y alerta temprana frente a El Niño. Las leyes de capital de riesgo, criptoactivos o manufactura en zonas especiales pueden aportar crecimiento, pero su efecto distributivo es bajo y no compensan la falta de los tres bloques anteriores. Las cifras de esta tesis son oficiales y están verificadas. Los puntajes son juicio experto, no estimaciones econométricas.",
+  "puntajes": [
+    {
+      "id": "IA-01",
+      "criterios": {
+        "brechas_territoriales": 2,
+        "inclusion": 3,
+        "capital_humano": 1,
+        "legitimidad_conflictos": 4,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 4
+      },
+      "score": 51,
+      "justificacion": "Registro abierto de algoritmos públicos protege a usuarios de programas sociales (SISFOH, Juntos) frente a errores de focalización automatizada; refuerza confianza, impacto territorial indirecto.",
+      "habilita": [
+        "IA-14"
+      ],
+      "requiere": [
+        "IA-04"
+      ]
+    },
+    {
+      "id": "IA-02",
+      "criterios": {
+        "brechas_territoriales": 2,
+        "inclusion": 3,
+        "capital_humano": 1,
+        "legitimidad_conflictos": 3,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 5
+      },
+      "score": 51,
+      "justificacion": "Garantías del procedimiento ante actos automatizados: decisivo para quienes menos pueden litigar (rurales, adultos mayores, no castellanohablantes).",
+      "habilita": [
+        "IA-09"
+      ],
+      "requiere": []
+    },
+    {
+      "id": "IA-03",
+      "criterios": {
+        "brechas_territoriales": 1,
+        "inclusion": 1,
+        "capital_humano": 1,
+        "legitimidad_conflictos": 2,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 2
+      },
+      "score": 26,
+      "justificacion": "Sandbox regulatorio útil para innovación, pero concentrado en Lima y empresas formales; efecto distributivo territorial bajo.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "IA-04",
+      "criterios": {
+        "brechas_territoriales": 3,
+        "inclusion": 2,
+        "capital_humano": 2,
+        "legitimidad_conflictos": 4,
+        "sostenibilidad_resiliencia": 3,
+        "derechos_tecnologia": 3
+      },
+      "score": 56,
+      "justificacion": "Datos abiertos por defecto permiten a regiones, universidades y sociedad civil vigilar gasto y servicios; base de observatorios territoriales.",
+      "habilita": [
+        "IA-01",
+        "IA-10",
+        "TAL-08",
+        "CON-09"
+      ],
+      "requiere": [
+        "GOB-01"
+      ]
+    },
+    {
+      "id": "IA-05",
+      "criterios": {
+        "brechas_territoriales": 2,
+        "inclusion": 1,
+        "capital_humano": 3,
+        "legitimidad_conflictos": 1,
+        "sostenibilidad_resiliencia": 2,
+        "derechos_tecnologia": 1
+      },
+      "score": 33,
+      "justificacion": "Red de cómputo podría descentralizar investigación si incluye nodos regionales (UNSAAC, UNAP, UNSA), pero la adhesión voluntaria favorece a Lima.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "IA-06",
+      "criterios": {
+        "brechas_territoriales": 4,
+        "inclusion": 5,
+        "capital_humano": 4,
+        "legitimidad_conflictos": 4,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 5
+      },
+      "score": 81,
+      "justificacion": "Única propuesta que pone a ~4,4 millones de hablantes de lenguas originarias dentro de la IA, con consentimiento y gobernanza indígena; habilita servicios públicos en su lengua.",
+      "habilita": [
+        "GOB-09",
+        "TAL-07"
+      ],
+      "requiere": [
+        "IA-04"
+      ]
+    },
+    {
+      "id": "IA-07",
+      "criterios": {
+        "brechas_territoriales": 1,
+        "inclusion": 2,
+        "capital_humano": 1,
+        "legitimidad_conflictos": 4,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 4
+      },
+      "score": 42,
+      "justificacion": "Contenido sintético electoral: protege integridad democrática y reduce desinformación que explota desconfianza regional; brecha territorial indirecta.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "IA-08",
+      "criterios": {
+        "brechas_territoriales": 3,
+        "inclusion": 3,
+        "capital_humano": 4,
+        "legitimidad_conflictos": 2,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 4
+      },
+      "score": 59,
+      "justificacion": "Validación clínica con población peruana evita sesgos de modelos entrenados fuera contra pacientes andinos y amazónicos; condiciona telesalud rural segura.",
+      "habilita": [
+        "TAL-07"
+      ],
+      "requiere": [
+        "TAL-06"
+      ]
+    },
+    {
+      "id": "IA-09",
+      "criterios": {
+        "brechas_territoriales": 2,
+        "inclusion": 3,
+        "capital_humano": 1,
+        "legitimidad_conflictos": 4,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 5
+      },
+      "score": 54,
+      "justificacion": "Garantías de IA en justicia protegen a litigantes vulnerables y a quienes no hablan castellano; refuerza confianza en justicia, fuente de conflictividad.",
+      "habilita": [],
+      "requiere": [
+        "DER-01"
+      ]
+    },
+    {
+      "id": "IA-10",
+      "criterios": {
+        "brechas_territoriales": 2,
+        "inclusion": 2,
+        "capital_humano": 3,
+        "legitimidad_conflictos": 2,
+        "sostenibilidad_resiliencia": 2,
+        "derechos_tecnologia": 3
+      },
+      "score": 46,
+      "justificacion": "Entornos seguros de datos permiten investigar pobreza, salud y educación regional con microdatos sin exponer a las personas.",
+      "habilita": [],
+      "requiere": [
+        "IA-04",
+        "IA-11"
+      ]
+    },
+    {
+      "id": "IA-11",
+      "criterios": {
+        "brechas_territoriales": 1,
+        "inclusion": 2,
+        "capital_humano": 1,
+        "legitimidad_conflictos": 3,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 5
+      },
+      "score": 42,
+      "justificacion": "Autoridad de datos con autonomía es condición para que la digitalización de programas sociales no se vuelva vigilancia; efecto territorial indirecto.",
+      "habilita": [
+        "IA-10",
+        "IA-12",
+        "CIB-08"
+      ],
+      "requiere": []
+    },
+    {
+      "id": "IA-12",
+      "criterios": {
+        "brechas_territoriales": 1,
+        "inclusion": 2,
+        "capital_humano": 1,
+        "legitimidad_conflictos": 2,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 4
+      },
+      "score": 36,
+      "justificacion": "Portabilidad de datos favorece competencia y control personal, beneficio sobre todo urbano y bancarizado.",
+      "habilita": [],
+      "requiere": [
+        "IA-11"
+      ]
+    },
+    {
+      "id": "IA-13",
+      "criterios": {
+        "brechas_territoriales": 1,
+        "inclusion": 3,
+        "capital_humano": 2,
+        "legitimidad_conflictos": 2,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 5
+      },
+      "score": 46,
+      "justificacion": "Transparencia algorítmica laboral y reconversión protegen a trabajadores menos calificados; alcance limitado por 70 %+ de informalidad.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "IA-14",
+      "criterios": {
+        "brechas_territoriales": 2,
+        "inclusion": 2,
+        "capital_humano": 1,
+        "legitimidad_conflictos": 4,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 4
+      },
+      "score": 47,
+      "justificacion": "Cláusulas de auditoría en compras de IA evitan cajas negras en prestaciones sociales y mejoran rendición de cuentas a gobiernos subnacionales.",
+      "habilita": [],
+      "requiere": [
+        "IA-01"
+      ]
+    },
+    {
+      "id": "CIB-01",
+      "criterios": {
+        "brechas_territoriales": 2,
+        "inclusion": 1,
+        "capital_humano": 1,
+        "legitimidad_conflictos": 3,
+        "sostenibilidad_resiliencia": 2,
+        "derechos_tecnologia": 3
+      },
+      "score": 39,
+      "justificacion": "Marco de ciberseguridad protege servicios esenciales de los que dependen regiones (agua, energía, salud); poco distributivo en sí mismo.",
+      "habilita": [
+        "CIB-02",
+        "CIB-03",
+        "CIB-12"
+      ],
+      "requiere": []
+    },
+    {
+      "id": "CIB-02",
+      "criterios": {
+        "brechas_territoriales": 1,
+        "inclusion": 1,
+        "capital_humano": 1,
+        "legitimidad_conflictos": 2,
+        "sostenibilidad_resiliencia": 2,
+        "derechos_tecnologia": 3
+      },
+      "score": 31,
+      "justificacion": "Obligaciones a operadores esenciales: continuidad de servicios, efecto territorial indirecto.",
+      "habilita": [],
+      "requiere": [
+        "CIB-01"
+      ]
+    },
+    {
+      "id": "CIB-03",
+      "criterios": {
+        "brechas_territoriales": 1,
+        "inclusion": 1,
+        "capital_humano": 1,
+        "legitimidad_conflictos": 2,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 3
+      },
+      "score": 29,
+      "justificacion": "Ventanilla única de incidentes: eficiencia regulatoria, bajo impacto distributivo.",
+      "habilita": [],
+      "requiere": [
+        "CIB-01"
+      ]
+    },
+    {
+      "id": "CIB-04",
+      "criterios": {
+        "brechas_territoriales": 2,
+        "inclusion": 3,
+        "capital_humano": 1,
+        "legitimidad_conflictos": 3,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 4
+      },
+      "score": 48,
+      "justificacion": "Extorsión informática y material sintético: la extorsión golpea a mypes y transportistas en regiones (Trujillo, Piura); protección a víctimas.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "CIB-05",
+      "criterios": {
+        "brechas_territoriales": 3,
+        "inclusion": 4,
+        "capital_humano": 1,
+        "legitimidad_conflictos": 3,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 5
+      },
+      "score": 60,
+      "justificacion": "Reembolso por fraude digital protege a nuevos usuarios de banca móvil y Yape en regiones y a adultos mayores, los más expuestos; sostiene inclusión financiera.",
+      "habilita": [
+        "ECO-06"
+      ],
+      "requiere": [
+        "CIB-06"
+      ]
+    },
+    {
+      "id": "CIB-06",
+      "criterios": {
+        "brechas_territoriales": 2,
+        "inclusion": 4,
+        "capital_humano": 1,
+        "legitimidad_conflictos": 2,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 4
+      },
+      "score": 49,
+      "justificacion": "Anti-suplantación telefónica protege a adultos mayores y usuarios con baja alfabetización digital, blanco principal de estafas.",
+      "habilita": [
+        "CIB-05"
+      ],
+      "requiere": []
+    },
+    {
+      "id": "CIB-07",
+      "criterios": {
+        "brechas_territoriales": 1,
+        "inclusion": 1,
+        "capital_humano": 1,
+        "legitimidad_conflictos": 1,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 3
+      },
+      "score": 26,
+      "justificacion": "Seguridad de dispositivos IoT de consumo: beneficio mayormente urbano.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "CIB-08",
+      "criterios": {
+        "brechas_territoriales": 4,
+        "inclusion": 4,
+        "capital_humano": 2,
+        "legitimidad_conflictos": 3,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 4
+      },
+      "score": 65,
+      "justificacion": "DNI digital con mínima divulgación habilita trámites remotos desde zonas rurales sin viajar a capitales; exige salvaguarda de alternativa presencial y lengua.",
+      "habilita": [
+        "CIB-09",
+        "DER-08",
+        "GOB-09",
+        "TAL-07"
+      ],
+      "requiere": [
+        "IA-11"
+      ]
+    },
+    {
+      "id": "CIB-09",
+      "criterios": {
+        "brechas_territoriales": 3,
+        "inclusion": 3,
+        "capital_humano": 1,
+        "legitimidad_conflictos": 2,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 3
+      },
+      "score": 47,
+      "justificacion": "Firma digital remota gratuita reduce costos de trámite y viaje para personas y mypes en regiones.",
+      "habilita": [
+        "ECO-14"
+      ],
+      "requiere": [
+        "CIB-08"
+      ]
+    },
+    {
+      "id": "CIB-10",
+      "criterios": {
+        "brechas_territoriales": 2,
+        "inclusion": 4,
+        "capital_humano": 3,
+        "legitimidad_conflictos": 2,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 5
+      },
+      "score": 58,
+      "justificacion": "Deber de diligencia de plataformas protege a niñas, niños y adolescentes, incluidos los rurales que se conectan por primera vez sin acompañamiento.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "CIB-11",
+      "criterios": {
+        "brechas_territoriales": 1,
+        "inclusion": 1,
+        "capital_humano": 1,
+        "legitimidad_conflictos": 2,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 3
+      },
+      "score": 29,
+      "justificacion": "Divulgación de vulnerabilidades: seguridad general del ecosistema, sin foco territorial.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "CIB-12",
+      "criterios": {
+        "brechas_territoriales": 2,
+        "inclusion": 1,
+        "capital_humano": 2,
+        "legitimidad_conflictos": 1,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 2
+      },
+      "score": 31,
+      "justificacion": "Puestos de ciberseguridad en el servicio civil: útil si alcanza a gobiernos regionales, que carecen de capacidades.",
+      "habilita": [],
+      "requiere": [
+        "CIB-01"
+      ]
+    },
+    {
+      "id": "CIB-13",
+      "criterios": {
+        "brechas_territoriales": 2,
+        "inclusion": 2,
+        "capital_humano": 1,
+        "legitimidad_conflictos": 5,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 3
+      },
+      "score": 47,
+      "justificacion": "Auditorías públicas de sistemas electorales: crucial para legitimidad en regiones donde se cuestionaron resultados; previene conflictos postelectorales.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "CIB-14",
+      "criterios": {
+        "brechas_territoriales": 2,
+        "inclusion": 3,
+        "capital_humano": 2,
+        "legitimidad_conflictos": 1,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 2
+      },
+      "score": 39,
+      "justificacion": "Ciberresiliencia de mipymes, que son la base del empleo regional; alcance práctico depende de la red CITE/PRODUCE en regiones.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "GOB-01",
+      "criterios": {
+        "brechas_territoriales": 4,
+        "inclusion": 4,
+        "capital_humano": 2,
+        "legitimidad_conflictos": 3,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 3
+      },
+      "score": 62,
+      "justificacion": "Solo una vez e interoperabilidad: elimina viajes y copias que cuestan más a quien vive lejos de una sede; condición de casi todo servicio digital territorial.",
+      "habilita": [
+        "GOB-02",
+        "GOB-08",
+        "GOB-09",
+        "TAL-06"
+      ],
+      "requiere": []
+    },
+    {
+      "id": "GOB-02",
+      "criterios": {
+        "brechas_territoriales": 3,
+        "inclusion": 3,
+        "capital_humano": 1,
+        "legitimidad_conflictos": 2,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 3
+      },
+      "score": 47,
+      "justificacion": "Casilla y expediente únicos reducen costos de trámite en regiones; voluntariedad protege a quien no tiene conectividad estable.",
+      "habilita": [],
+      "requiere": [
+        "GOB-01",
+        "CIB-08"
+      ]
+    },
+    {
+      "id": "GOB-03",
+      "criterios": {
+        "brechas_territoriales": 3,
+        "inclusion": 1,
+        "capital_humano": 1,
+        "legitimidad_conflictos": 3,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 2
+      },
+      "score": 39,
+      "justificacion": "Software público abierto permite a municipios pobres reutilizar sistemas sin licencias; reduce dependencia de proveedores.",
+      "habilita": [
+        "GOB-08"
+      ],
+      "requiere": []
+    },
+    {
+      "id": "GOB-04",
+      "criterios": {
+        "brechas_territoriales": 2,
+        "inclusion": 1,
+        "capital_humano": 1,
+        "legitimidad_conflictos": 2,
+        "sostenibilidad_resiliencia": 2,
+        "derechos_tecnologia": 1
+      },
+      "score": 30,
+      "justificacion": "Compra pública de innovación puede resolver retos regionales (agua, salud) si se descentraliza; hoy capacidades concentradas en Lima.",
+      "habilita": [
+        "SOB-08"
+      ],
+      "requiere": []
+    },
+    {
+      "id": "GOB-05",
+      "criterios": {
+        "brechas_territoriales": 4,
+        "inclusion": 2,
+        "capital_humano": 1,
+        "legitimidad_conflictos": 5,
+        "sostenibilidad_resiliencia": 2,
+        "derechos_tecnologia": 3
+      },
+      "score": 59,
+      "justificacion": "Transparencia diaria del gasto, incluido canon y obras regionales: insumo directo para vigilancia ciudadana y prevención de conflictos por uso de rentas.",
+      "habilita": [
+        "GOB-12"
+      ],
+      "requiere": [
+        "IA-04"
+      ]
+    },
+    {
+      "id": "GOB-06",
+      "criterios": {
+        "brechas_territoriales": 1,
+        "inclusion": 1,
+        "capital_humano": 1,
+        "legitimidad_conflictos": 4,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 2
+      },
+      "score": 32,
+      "justificacion": "Congreso abierto mejora rendición de cuentas de representantes regionales; impacto territorial indirecto.",
+      "habilita": [
+        "DER-08"
+      ],
+      "requiere": []
+    },
+    {
+      "id": "GOB-07",
+      "criterios": {
+        "brechas_territoriales": 4,
+        "inclusion": 2,
+        "capital_humano": 1,
+        "legitimidad_conflictos": 4,
+        "sostenibilidad_resiliencia": 4,
+        "derechos_tecnologia": 2
+      },
+      "score": 57,
+      "justificacion": "Catastro multipropósito: seguridad de tenencia, base tributaria municipal y gestión de riesgo; los conflictos por tierra y linderos son endémicos.",
+      "habilita": [
+        "CON-09"
+      ],
+      "requiere": [
+        "GOB-01"
+      ]
+    },
+    {
+      "id": "GOB-08",
+      "criterios": {
+        "brechas_territoriales": 5,
+        "inclusion": 3,
+        "capital_humano": 2,
+        "legitimidad_conflictos": 3,
+        "sostenibilidad_resiliencia": 2,
+        "derechos_tecnologia": 2
+      },
+      "score": 62,
+      "justificacion": "Servicios digitales compartidos para 1 890 municipalidades: cierra la brecha de capacidad del Estado subnacional, la mayor restricción para que el crecimiento llegue.",
+      "habilita": [
+        "GOB-09",
+        "TAL-13"
+      ],
+      "requiere": [
+        "GOB-01",
+        "GOB-03"
+      ]
+    },
+    {
+      "id": "GOB-09",
+      "criterios": {
+        "brechas_territoriales": 5,
+        "inclusion": 5,
+        "capital_humano": 2,
+        "legitimidad_conflictos": 3,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 4
+      },
+      "score": 74,
+      "justificacion": "Servicios por SMS, USSD y voz llegan a hogares rurales con teléfono básico (solo ~1 de 4 con internet fijo/hogar); diseño para la realidad de conectividad, no para Lima.",
+      "habilita": [],
+      "requiere": [
+        "GOB-01",
+        "CIB-08"
+      ]
+    },
+    {
+      "id": "GOB-10",
+      "criterios": {
+        "brechas_territoriales": 2,
+        "inclusion": 2,
+        "capital_humano": 1,
+        "legitimidad_conflictos": 2,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 2
+      },
+      "score": 35,
+      "justificacion": "Preservación digital protege registros (tierras, comunidades, actas) de valor territorial; efecto indirecto.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "GOB-11",
+      "criterios": {
+        "brechas_territoriales": 2,
+        "inclusion": 2,
+        "capital_humano": 1,
+        "legitimidad_conflictos": 1,
+        "sostenibilidad_resiliencia": 3,
+        "derechos_tecnologia": 1
+      },
+      "score": 33,
+      "justificacion": "Datos abiertos de transporte: beneficio urbano (Lima y grandes ciudades), algo interurbano.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "GOB-12",
+      "criterios": {
+        "brechas_territoriales": 3,
+        "inclusion": 3,
+        "capital_humano": 1,
+        "legitimidad_conflictos": 5,
+        "sostenibilidad_resiliencia": 2,
+        "derechos_tecnologia": 3
+      },
+      "score": 58,
+      "justificacion": "Trazabilidad de denuncias da canal efectivo de reclamo antes de que el malestar escale a conflicto.",
+      "habilita": [],
+      "requiere": [
+        "GOB-05"
+      ]
+    },
+    {
+      "id": "GOB-13",
+      "criterios": {
+        "brechas_territoriales": 1,
+        "inclusion": 1,
+        "capital_humano": 1,
+        "legitimidad_conflictos": 2,
+        "sostenibilidad_resiliencia": 2,
+        "derechos_tecnologia": 2
+      },
+      "score": 28,
+      "justificacion": "Nube del Estado y consolidación de centros de datos: eficiencia y soberanía, poco distributivo.",
+      "habilita": [
+        "GOB-08"
+      ],
+      "requiere": []
+    },
+    {
+      "id": "GOB-14",
+      "criterios": {
+        "brechas_territoriales": 3,
+        "inclusion": 1,
+        "capital_humano": 2,
+        "legitimidad_conflictos": 2,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 1
+      },
+      "score": 36,
+      "justificacion": "Profesionalizar líderes digitales; clave si alcanza a gobiernos regionales y locales, donde rota el personal.",
+      "habilita": [
+        "GOB-08"
+      ],
+      "requiere": []
+    },
+    {
+      "id": "CON-01",
+      "criterios": {
+        "brechas_territoriales": 5,
+        "inclusion": 5,
+        "capital_humano": 4,
+        "legitimidad_conflictos": 4,
+        "sostenibilidad_resiliencia": 2,
+        "derechos_tecnologia": 4
+      },
+      "score": 85,
+      "justificacion": "Banda ancha como servicio esencial con estándar medible: base de toda inclusión digital; solo 23,4 % de hogares rurales con internet (INEI, IV-2025).",
+      "habilita": [
+        "CON-13",
+        "GOB-09",
+        "TAL-07",
+        "TAL-01"
+      ],
+      "requiere": [
+        "CON-02"
+      ]
+    },
+    {
+      "id": "CON-02",
+      "criterios": {
+        "brechas_territoriales": 5,
+        "inclusion": 4,
+        "capital_humano": 3,
+        "legitimidad_conflictos": 3,
+        "sostenibilidad_resiliencia": 2,
+        "derechos_tecnologia": 2
+      },
+      "score": 69,
+      "justificacion": "Financiar operación y mantenimiento de redes de FITEL evita redes rurales abandonadas tras su construcción, falla documentada de proyectos regionales.",
+      "habilita": [
+        "CON-01",
+        "CON-13"
+      ],
+      "requiere": []
+    },
+    {
+      "id": "CON-03",
+      "criterios": {
+        "brechas_territoriales": 5,
+        "inclusion": 3,
+        "capital_humano": 2,
+        "legitimidad_conflictos": 3,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 2
+      },
+      "score": 60,
+      "justificacion": "Red mayorista abierta que integra Dorsal y redes regionales: aprovecha inversión pública subutilizada para bajar precios en provincias.",
+      "habilita": [
+        "CON-01",
+        "CON-07"
+      ],
+      "requiere": []
+    },
+    {
+      "id": "CON-04",
+      "criterios": {
+        "brechas_territoriales": 4,
+        "inclusion": 2,
+        "capital_humano": 1,
+        "legitimidad_conflictos": 1,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 1
+      },
+      "score": 39,
+      "justificacion": "Ductos en obras viales departamentales y vecinales abaratan el despliegue de fibra hacia zonas rurales.",
+      "habilita": [
+        "CON-03"
+      ],
+      "requiere": []
+    },
+    {
+      "id": "CON-05",
+      "criterios": {
+        "brechas_territoriales": 3,
+        "inclusion": 2,
+        "capital_humano": 1,
+        "legitimidad_conflictos": 1,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 1
+      },
+      "score": 34,
+      "justificacion": "Régimen permanente de despliegue de antenas con silencio positivo destraba cobertura en municipios lentos; atención a consulta y patrimonio.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "CON-06",
+      "criterios": {
+        "brechas_territoriales": 5,
+        "inclusion": 3,
+        "capital_humano": 2,
+        "legitimidad_conflictos": 2,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 1
+      },
+      "score": 54,
+      "justificacion": "Espectro con obligaciones de cobertura rural y pago en inversión: principal palanca para llevar 4G/5G a centros poblados sin señal.",
+      "habilita": [
+        "CON-01"
+      ],
+      "requiere": []
+    },
+    {
+      "id": "CON-07",
+      "criterios": {
+        "brechas_territoriales": 5,
+        "inclusion": 5,
+        "capital_humano": 3,
+        "legitimidad_conflictos": 4,
+        "sostenibilidad_resiliencia": 2,
+        "derechos_tecnologia": 3
+      },
+      "score": 79,
+      "justificacion": "Redes comunitarias e indígenas con concesión simplificada: conectividad gestionada por comunidades donde el mercado no llega; refuerza autonomía.",
+      "habilita": [
+        "IA-06",
+        "GOB-09"
+      ],
+      "requiere": [
+        "CON-03"
+      ]
+    },
+    {
+      "id": "CON-08",
+      "criterios": {
+        "brechas_territoriales": 1,
+        "inclusion": 1,
+        "capital_humano": 1,
+        "legitimidad_conflictos": 1,
+        "sostenibilidad_resiliencia": 2,
+        "derechos_tecnologia": 1
+      },
+      "score": 22,
+      "justificacion": "Ley espacial: relevancia territorial indirecta (observación, conectividad satelital).",
+      "habilita": [
+        "CON-09"
+      ],
+      "requiere": []
+    },
+    {
+      "id": "CON-09",
+      "criterios": {
+        "brechas_territoriales": 4,
+        "inclusion": 3,
+        "capital_humano": 1,
+        "legitimidad_conflictos": 4,
+        "sostenibilidad_resiliencia": 5,
+        "derechos_tecnologia": 2
+      },
+      "score": 63,
+      "justificacion": "Datos abiertos satelitales para monitorear deforestación, minería ilegal, cultivos y desastres; empodera a comunidades amazónicas y gobiernos regionales.",
+      "habilita": [
+        "TAL-08",
+        "TAL-09",
+        "TAL-10"
+      ],
+      "requiere": [
+        "IA-04"
+      ]
+    },
+    {
+      "id": "CON-10",
+      "criterios": {
+        "brechas_territoriales": 1,
+        "inclusion": 1,
+        "capital_humano": 1,
+        "legitimidad_conflictos": 2,
+        "sostenibilidad_resiliencia": 4,
+        "derechos_tecnologia": 1
+      },
+      "score": 29,
+      "justificacion": "Centros de datos con reporte de agua y energía: relevante para evitar conflictos por agua en costa desértica; beneficio territorial bajo.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "CON-11",
+      "criterios": {
+        "brechas_territoriales": 2,
+        "inclusion": 1,
+        "capital_humano": 1,
+        "legitimidad_conflictos": 1,
+        "sostenibilidad_resiliencia": 2,
+        "derechos_tecnologia": 1
+      },
+      "score": 27,
+      "justificacion": "Cables submarinos e IXP: resiliencia y costo mayorista; impacto regional indirecto.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "CON-12",
+      "criterios": {
+        "brechas_territoriales": 2,
+        "inclusion": 3,
+        "capital_humano": 1,
+        "legitimidad_conflictos": 2,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 4
+      },
+      "score": 45,
+      "justificacion": "Neutralidad y medición independiente de calidad: protege a usuarios con planes prepago y regiones con peor servicio real.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "CON-13",
+      "criterios": {
+        "brechas_territoriales": 5,
+        "inclusion": 4,
+        "capital_humano": 5,
+        "legitimidad_conflictos": 3,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 2
+      },
+      "score": 73,
+      "justificacion": "Conectar escuelas y postas públicas, sobre todo rurales: máximo efecto en capital humano y en servicios que la gente siente.",
+      "habilita": [
+        "TAL-01",
+        "TAL-07",
+        "TAL-14"
+      ],
+      "requiere": [
+        "CON-01",
+        "CON-02"
+      ]
+    },
+    {
+      "id": "CON-14",
+      "criterios": {
+        "brechas_territoriales": 4,
+        "inclusion": 3,
+        "capital_humano": 1,
+        "legitimidad_conflictos": 2,
+        "sostenibilidad_resiliencia": 5,
+        "derechos_tecnologia": 1
+      },
+      "score": 54,
+      "justificacion": "Resiliencia de redes ante desastres: en El Niño y sismos las regiones quedan incomunicadas; protege vidas y continuidad.",
+      "habilita": [
+        "TAL-10"
+      ],
+      "requiere": []
+    },
+    {
+      "id": "ECO-01",
+      "criterios": {
+        "brechas_territoriales": 1,
+        "inclusion": 2,
+        "capital_humano": 1,
+        "legitimidad_conflictos": 1,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 1
+      },
+      "score": 24,
+      "justificacion": "Régimen de startups: crecimiento de alto valor, concentrado en Lima; poco territorial.",
+      "habilita": [
+        "ECO-02",
+        "ECO-09"
+      ],
+      "requiere": []
+    },
+    {
+      "id": "ECO-02",
+      "criterios": {
+        "brechas_territoriales": 2,
+        "inclusion": 1,
+        "capital_humano": 1,
+        "legitimidad_conflictos": 1,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 1
+      },
+      "score": 25,
+      "justificacion": "Fondo de capital: podría tener ventanilla regional, hoy beneficia ecosistema limeño.",
+      "habilita": [],
+      "requiere": [
+        "ECO-01"
+      ]
+    },
+    {
+      "id": "ECO-03",
+      "criterios": {
+        "brechas_territoriales": 1,
+        "inclusion": 1,
+        "capital_humano": 1,
+        "legitimidad_conflictos": 1,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 1
+      },
+      "score": 20,
+      "justificacion": "Incentivo tributario a I+D para pequeñas empresas: efecto distributivo bajo.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "ECO-04",
+      "criterios": {
+        "brechas_territoriales": 2,
+        "inclusion": 1,
+        "capital_humano": 3,
+        "legitimidad_conflictos": 1,
+        "sostenibilidad_resiliencia": 2,
+        "derechos_tecnologia": 1
+      },
+      "score": 33,
+      "justificacion": "Senda de I+D al 1 % del PBI: capital humano científico, territorialidad depende de su distribución regional.",
+      "habilita": [
+        "TAL-03"
+      ],
+      "requiere": []
+    },
+    {
+      "id": "ECO-05",
+      "criterios": {
+        "brechas_territoriales": 2,
+        "inclusion": 1,
+        "capital_humano": 2,
+        "legitimidad_conflictos": 1,
+        "sostenibilidad_resiliencia": 2,
+        "derechos_tecnologia": 1
+      },
+      "score": 30,
+      "justificacion": "Transferencia de resultados de investigación puede beneficiar a universidades regionales con canon, si gestionan su PI.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "ECO-06",
+      "criterios": {
+        "brechas_territoriales": 2,
+        "inclusion": 3,
+        "capital_humano": 1,
+        "legitimidad_conflictos": 1,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 3
+      },
+      "score": 39,
+      "justificacion": "Finanzas abiertas pueden abaratar crédito a quienes no tienen historial; beneficio rural limitado sin agencias ni conectividad.",
+      "habilita": [],
+      "requiere": [
+        "IA-11",
+        "CIB-05"
+      ]
+    },
+    {
+      "id": "ECO-07",
+      "criterios": {
+        "brechas_territoriales": 3,
+        "inclusion": 3,
+        "capital_humano": 1,
+        "legitimidad_conflictos": 1,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 2
+      },
+      "score": 41,
+      "justificacion": "Iniciación de pagos e interoperabilidad: amplía pagos digitales baratos a mypes y regiones.",
+      "habilita": [
+        "ECO-14"
+      ],
+      "requiere": []
+    },
+    {
+      "id": "ECO-08",
+      "criterios": {
+        "brechas_territoriales": 1,
+        "inclusion": 1,
+        "capital_humano": 1,
+        "legitimidad_conflictos": 1,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 3
+      },
+      "score": 26,
+      "justificacion": "Protección en criptoactivos: protección al consumidor, sin foco territorial.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "ECO-09",
+      "criterios": {
+        "brechas_territoriales": 2,
+        "inclusion": 2,
+        "capital_humano": 1,
+        "legitimidad_conflictos": 1,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 1
+      },
+      "score": 29,
+      "justificacion": "Crowdfunding para mipymes: potencial regional limitado.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "ECO-10",
+      "criterios": {
+        "brechas_territoriales": 1,
+        "inclusion": 2,
+        "capital_humano": 1,
+        "legitimidad_conflictos": 1,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 3
+      },
+      "score": 30,
+      "justificacion": "Patrones oscuros y desistimiento: protección del consumidor digital, mayormente urbano.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "ECO-11",
+      "criterios": {
+        "brechas_territoriales": 2,
+        "inclusion": 4,
+        "capital_humano": 1,
+        "legitimidad_conflictos": 2,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 4
+      },
+      "score": 49,
+      "justificacion": "Piso de protección para repartidores y conductores de plataformas: jóvenes y migrantes internos sin seguro.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "ECO-12",
+      "criterios": {
+        "brechas_territoriales": 2,
+        "inclusion": 2,
+        "capital_humano": 1,
+        "legitimidad_conflictos": 1,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 1
+      },
+      "score": 29,
+      "justificacion": "Exportación de servicios digitales: podría generar empleo remoto en regiones si hay conectividad.",
+      "habilita": [],
+      "requiere": [
+        "CON-01"
+      ]
+    },
+    {
+      "id": "ECO-13",
+      "criterios": {
+        "brechas_territoriales": 2,
+        "inclusion": 1,
+        "capital_humano": 2,
+        "legitimidad_conflictos": 1,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 1
+      },
+      "score": 28,
+      "justificacion": "Parques científicos: riesgo de concentración en Lima; útil si se anclan en universidades regionales.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "ECO-14",
+      "criterios": {
+        "brechas_territoriales": 4,
+        "inclusion": 4,
+        "capital_humano": 1,
+        "legitimidad_conflictos": 2,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 2
+      },
+      "score": 53,
+      "justificacion": "Pago oportuno y factoring para MYPE: liquidez para proveedores regionales del Estado y la gran empresa.",
+      "habilita": [],
+      "requiere": [
+        "CIB-09"
+      ]
+    },
+    {
+      "id": "TAL-01",
+      "criterios": {
+        "brechas_territoriales": 4,
+        "inclusion": 4,
+        "capital_humano": 5,
+        "legitimidad_conflictos": 2,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 3
+      },
+      "score": 68,
+      "justificacion": "Pensamiento computacional e IA en Educación Básica con formación docente: si se implementa con equidad rural, cierra la brecha de habilidades de origen.",
+      "habilita": [
+        "TAL-04",
+        "TAL-05"
+      ],
+      "requiere": [
+        "CON-13"
+      ]
+    },
+    {
+      "id": "TAL-02",
+      "criterios": {
+        "brechas_territoriales": 3,
+        "inclusion": 5,
+        "capital_humano": 4,
+        "legitimidad_conflictos": 2,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 3
+      },
+      "score": 64,
+      "justificacion": "Alfabetización digital de adultos mayores y conductores de mypes: el uso de internet cae a 52,4 % en 60+ años (INEI, IV-2025).",
+      "habilita": [
+        "CIB-05",
+        "GOB-09"
+      ],
+      "requiere": []
+    },
+    {
+      "id": "TAL-03",
+      "criterios": {
+        "brechas_territoriales": 3,
+        "inclusion": 3,
+        "capital_humano": 4,
+        "legitimidad_conflictos": 1,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 1
+      },
+      "score": 47,
+      "justificacion": "Becas STEM con retorno: puede atraer talento a regiones si el retorno privilegia universidades y gobiernos regionales.",
+      "habilita": [],
+      "requiere": [
+        "ECO-04"
+      ]
+    },
+    {
+      "id": "TAL-04",
+      "criterios": {
+        "brechas_territoriales": 3,
+        "inclusion": 3,
+        "capital_humano": 4,
+        "legitimidad_conflictos": 1,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 1
+      },
+      "score": 47,
+      "justificacion": "Bootcamps con acreditación modular: vía rápida de empleabilidad para jóvenes de regiones, virtual o en institutos.",
+      "habilita": [],
+      "requiere": [
+        "TAL-01"
+      ]
+    },
+    {
+      "id": "TAL-05",
+      "criterios": {
+        "brechas_territoriales": 2,
+        "inclusion": 5,
+        "capital_humano": 4,
+        "legitimidad_conflictos": 2,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 3
+      },
+      "score": 59,
+      "justificacion": "Niñas y mujeres en STEM: brecha de género en carreras tecnológicas, con énfasis posible en estudiantes rurales.",
+      "habilita": [],
+      "requiere": [
+        "TAL-01"
+      ]
+    },
+    {
+      "id": "TAL-06",
+      "criterios": {
+        "brechas_territoriales": 4,
+        "inclusion": 3,
+        "capital_humano": 5,
+        "legitimidad_conflictos": 2,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 3
+      },
+      "score": 64,
+      "justificacion": "Historia clínica interoperable: continuidad de atención entre posta rural, hospital regional y Lima; reduce repetición de exámenes.",
+      "habilita": [
+        "TAL-07",
+        "IA-08"
+      ],
+      "requiere": [
+        "GOB-01",
+        "IA-11"
+      ]
+    },
+    {
+      "id": "TAL-07",
+      "criterios": {
+        "brechas_territoriales": 5,
+        "inclusion": 5,
+        "capital_humano": 5,
+        "legitimidad_conflictos": 3,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 3
+      },
+      "score": 80,
+      "justificacion": "Receta electrónica y telesalud en primer nivel rural: lleva especialistas donde no los hay; validación sin conexión adaptada a la realidad rural.",
+      "habilita": [],
+      "requiere": [
+        "CON-13",
+        "TAL-06"
+      ]
+    },
+    {
+      "id": "TAL-08",
+      "criterios": {
+        "brechas_territoriales": 5,
+        "inclusion": 4,
+        "capital_humano": 2,
+        "legitimidad_conflictos": 2,
+        "sostenibilidad_resiliencia": 5,
+        "derechos_tecnologia": 1
+      },
+      "score": 66,
+      "justificacion": "Datos agroclimáticos abiertos para 2,2 millones de unidades agropecuarias (CENAGRO 2012): adaptación climática de la agricultura familiar.",
+      "habilita": [],
+      "requiere": [
+        "IA-04"
+      ]
+    },
+    {
+      "id": "TAL-09",
+      "criterios": {
+        "brechas_territoriales": 4,
+        "inclusion": 3,
+        "capital_humano": 2,
+        "legitimidad_conflictos": 5,
+        "sostenibilidad_resiliencia": 5,
+        "derechos_tecnologia": 3
+      },
+      "score": 72,
+      "justificacion": "Monitoreo ambiental minero en tiempo real y abierto: ataca la desconfianza que alimenta los conflictos socioambientales (~49 % del total, Defensoría).",
+      "habilita": [],
+      "requiere": [
+        "CON-09",
+        "IA-04"
+      ]
+    },
+    {
+      "id": "TAL-10",
+      "criterios": {
+        "brechas_territoriales": 4,
+        "inclusion": 4,
+        "capital_humano": 1,
+        "legitimidad_conflictos": 3,
+        "sostenibilidad_resiliencia": 5,
+        "derechos_tecnologia": 1
+      },
+      "score": 61,
+      "justificacion": "Alerta temprana multiamenaza con difusión automática: protege a poblaciones rurales y costeras ante El Niño, huaicos y tsunamis.",
+      "habilita": [],
+      "requiere": [
+        "CON-14"
+      ]
+    },
+    {
+      "id": "TAL-11",
+      "criterios": {
+        "brechas_territoriales": 1,
+        "inclusion": 2,
+        "capital_humano": 1,
+        "legitimidad_conflictos": 1,
+        "sostenibilidad_resiliencia": 2,
+        "derechos_tecnologia": 1
+      },
+      "score": 26,
+      "justificacion": "Pasaje electrónico interoperable: beneficio limitado a Lima y Callao.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "TAL-12",
+      "criterios": {
+        "brechas_territoriales": 2,
+        "inclusion": 2,
+        "capital_humano": 1,
+        "legitimidad_conflictos": 1,
+        "sostenibilidad_resiliencia": 4,
+        "derechos_tecnologia": 2
+      },
+      "score": 38,
+      "justificacion": "Derecho a reparar y economía circular: abarata dispositivos para hogares pobres y genera oficios locales.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "TAL-13",
+      "criterios": {
+        "brechas_territoriales": 2,
+        "inclusion": 5,
+        "capital_humano": 3,
+        "legitimidad_conflictos": 2,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 5
+      },
+      "score": 62,
+      "justificacion": "Accesibilidad digital obligatoria: más de 3 millones de personas con discapacidad (INEI, ENEDIS 2012: 5,2 %; Censo 2017: 10,4 %).",
+      "habilita": [],
+      "requiere": [
+        "GOB-08"
+      ]
+    },
+    {
+      "id": "TAL-14",
+      "criterios": {
+        "brechas_territoriales": 3,
+        "inclusion": 4,
+        "capital_humano": 4,
+        "legitimidad_conflictos": 2,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 4
+      },
+      "score": 63,
+      "justificacion": "Bienestar y ciudadanía digital de niñas, niños y adolescentes con ruta de atención, también para escuelas rurales.",
+      "habilita": [],
+      "requiere": [
+        "TAL-01"
+      ]
+    },
+    {
+      "id": "SOB-01",
+      "criterios": {
+        "brechas_territoriales": 3,
+        "inclusion": 1,
+        "capital_humano": 2,
+        "legitimidad_conflictos": 3,
+        "sostenibilidad_resiliencia": 3,
+        "derechos_tecnologia": 1
+      },
+      "score": 43,
+      "justificacion": "Minerales críticos con valor agregado: potencial de encadenamientos regionales si se vincula a beneficio local y licencia social.",
+      "habilita": [
+        "TAL-09"
+      ],
+      "requiere": []
+    },
+    {
+      "id": "SOB-02",
+      "criterios": {
+        "brechas_territoriales": 1,
+        "inclusion": 1,
+        "capital_humano": 1,
+        "legitimidad_conflictos": 1,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 1
+      },
+      "score": 20,
+      "justificacion": "Manufactura electrónica en ZEEP: localizada, efecto distributivo bajo.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "SOB-03",
+      "criterios": {
+        "brechas_territoriales": 3,
+        "inclusion": 2,
+        "capital_humano": 1,
+        "legitimidad_conflictos": 2,
+        "sostenibilidad_resiliencia": 4,
+        "derechos_tecnologia": 1
+      },
+      "score": 43,
+      "justificacion": "Drones en emergencias y agricultura: útil para zonas aisladas y agricultura de precisión; requiere SENASA en regiones.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "SOB-04",
+      "criterios": {
+        "brechas_territoriales": 1,
+        "inclusion": 1,
+        "capital_humano": 1,
+        "legitimidad_conflictos": 1,
+        "sostenibilidad_resiliencia": 3,
+        "derechos_tecnologia": 1
+      },
+      "score": 24,
+      "justificacion": "Carga de vehículos eléctricos: beneficio urbano de altos ingresos.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "SOB-05",
+      "criterios": {
+        "brechas_territoriales": 2,
+        "inclusion": 4,
+        "capital_humano": 3,
+        "legitimidad_conflictos": 3,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 5
+      },
+      "score": 61,
+      "justificacion": "Biobancos con participación indígena y consentimiento: evita extractivismo de datos genéticos de pueblos originarios.",
+      "habilita": [],
+      "requiere": [
+        "IA-11"
+      ]
+    },
+    {
+      "id": "SOB-06",
+      "criterios": {
+        "brechas_territoriales": 1,
+        "inclusion": 1,
+        "capital_humano": 1,
+        "legitimidad_conflictos": 1,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 2
+      },
+      "score": 23,
+      "justificacion": "Criptografía poscuántica: técnica, sin efecto territorial.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "SOB-07",
+      "criterios": {
+        "brechas_territoriales": 3,
+        "inclusion": 2,
+        "capital_humano": 2,
+        "legitimidad_conflictos": 1,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 1
+      },
+      "score": 37,
+      "justificacion": "Automatización en mipymes vía CITE regionales: productividad manufacturera fuera de Lima; vigilar efecto en empleo.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "SOB-08",
+      "criterios": {
+        "brechas_territoriales": 3,
+        "inclusion": 2,
+        "capital_humano": 1,
+        "legitimidad_conflictos": 2,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 1
+      },
+      "score": 37,
+      "justificacion": "Proveedores nacionales en compra pública: lotes y no exigencia de domicilio en Lima abren mercado a empresas regionales.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "DER-01",
+      "criterios": {
+        "brechas_territoriales": 4,
+        "inclusion": 4,
+        "capital_humano": 1,
+        "legitimidad_conflictos": 4,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 4
+      },
+      "score": 65,
+      "justificacion": "Audiencias virtuales con intérprete y garantías: acerca la justicia a quien vive a días de una sede, con salvaguardas lingüísticas.",
+      "habilita": [
+        "IA-09"
+      ],
+      "requiere": [
+        "CON-01"
+      ]
+    },
+    {
+      "id": "DER-02",
+      "criterios": {
+        "brechas_territoriales": 1,
+        "inclusion": 1,
+        "capital_humano": 2,
+        "legitimidad_conflictos": 1,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 3
+      },
+      "score": 29,
+      "justificacion": "Autoría e IA: relevante para creadores y conocimiento tradicional, sin foco territorial claro.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "DER-03",
+      "criterios": {
+        "brechas_territoriales": 1,
+        "inclusion": 2,
+        "capital_humano": 1,
+        "legitimidad_conflictos": 3,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 4
+      },
+      "score": 39,
+      "justificacion": "Transparencia de plataformas grandes: desinformación y moderación, sin foco territorial.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "DER-04",
+      "criterios": {
+        "brechas_territoriales": 1,
+        "inclusion": 1,
+        "capital_humano": 1,
+        "legitimidad_conflictos": 1,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 3
+      },
+      "score": 26,
+      "justificacion": "Desindexación y herencia digital: protección individual, sobre todo urbana.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "DER-05",
+      "criterios": {
+        "brechas_territoriales": 1,
+        "inclusion": 3,
+        "capital_humano": 1,
+        "legitimidad_conflictos": 2,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 5
+      },
+      "score": 43,
+      "justificacion": "Límites a vigilancia digital laboral: protege trabajadores formales, minoría en regiones.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "DER-06",
+      "criterios": {
+        "brechas_territoriales": 3,
+        "inclusion": 3,
+        "capital_humano": 1,
+        "legitimidad_conflictos": 2,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 3
+      },
+      "score": 47,
+      "justificacion": "Resolución de disputas en línea: acceso a Indecopi sin oficina presencial, útil en regiones.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "DER-07",
+      "criterios": {
+        "brechas_territoriales": 3,
+        "inclusion": 5,
+        "capital_humano": 2,
+        "legitimidad_conflictos": 3,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 5
+      },
+      "score": 67,
+      "justificacion": "Violencia digital contra mujeres: mujeres jóvenes de todo el país, con medidas de protección que hoy no llegan a regiones.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "DER-08",
+      "criterios": {
+        "brechas_territoriales": 3,
+        "inclusion": 2,
+        "capital_humano": 1,
+        "legitimidad_conflictos": 5,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 3
+      },
+      "score": 52,
+      "justificacion": "Firma digital para iniciativas, revocatorias y control ciudadano: canal institucional de participación que reduce costo de movilizarse desde regiones.",
+      "habilita": [],
+      "requiere": [
+        "CIB-08"
+      ]
+    }
+  ],
+  "vacios": [
+    {
+      "titulo": "Ley que establece la consulta previa digital asistida y el registro público de acuerdos y compromisos de los procesos de diálogo y consulta",
+      "por_que": "Los conflictos socioambientales (~49 % del total) se reactivan por incumplimiento de compromisos; ninguna de las 100 propuestas obliga a publicar y dar seguimiento verificable a actas de diálogo y consulta previa (Ley 29785), ni garantiza que la digitalización no sustituya la consulta presencial e intercultural.",
+      "eje_sugerido": "gob"
+    },
+    {
+      "titulo": "Ley de transparencia y trazabilidad digital del canon, sobrecanon y regalías con presupuesto participativo en línea",
+      "por_que": "GOB-05 cubre gasto general, pero no vincula renta extractiva → proyecto → resultado en el distrito productor; es la pregunta central en zonas mineras y gasíferas.",
+      "eje_sugerido": "gob"
+    },
+    {
+      "titulo": "Ley de interculturalidad digital del Estado: servicios y contenidos públicos en lenguas originarias e intérpretes en canales digitales",
+      "por_que": "IA-06 crea corpus y modelos, pero no obliga a que portales, citas, alertas (TAL-10) y casillas (GOB-02) estén disponibles en quechua, aimara y lenguas amazónicas según la demanda local (Ley 29735).",
+      "eje_sugerido": "gob"
+    },
+    {
+      "titulo": "Ley de energía eléctrica distribuida y solar para conectividad en centros poblados aislados",
+      "por_que": "Las propuestas de conectividad suponen que hay energía en el sitio. En Amazonía y altoandes muchos centros poblados no tienen red eléctrica estable, y sin energía no funcionan las antenas, las postas ni las escuelas conectadas.",
+      "eje_sugerido": "conect"
+    },
+    {
+      "titulo": "Ley de economía digital rural: comercio electrónico, trazabilidad y pagos para la agricultura familiar y las cooperativas",
+      "por_que": "TAL-08 abre datos agroclimáticos, pero ninguna propuesta conecta a la agricultura familiar (la mayoría de las unidades agropecuarias) con los mercados digitales, la trazabilidad exigida por la exportación (por ejemplo, deforestación cero de la UE) y el crédito.",
+      "eje_sugerido": "econ"
+    },
+    {
+      "titulo": "Ley que establece la evaluación de impacto territorial y de género de las políticas y programas de transformación digital",
+      "por_que": "No hay obligación de medir si cada intervención digital reduce o amplía las brechas por área, región, sexo, lengua o discapacidad. Sin esa medición, la Agenda no puede comprobar si el crecimiento es inclusivo.",
+      "eje_sugerido": "gob"
+    }
+  ],
+  "fuentes": [
+    {
+      "titulo": "INEI vía El Peruano: Pobreza se redujo en 1,9 % en el 2025 y afecta al 25,7 % de peruanos (rural 35,5 %; por lengua materna)",
+      "url": "https://elperuano.pe/noticia/295035-inei-pobreza-se-redujo-en-19-en-el-2025-y-afecta-al-257-de-peruanos"
+    },
+    {
+      "titulo": "INEI: pobreza monetaria 2024 27,6 % (Canal N)",
+      "url": "https://canaln.pe/actualidad/pobreza-monetaria-bajo-276-2024-segun-inei-n483303"
+    },
+    {
+      "titulo": "INEI: Estadísticas de las TIC en los hogares, IV trimestre 2025 (hogares con internet: Lima 78,2 %, rural 23,4 %; uso 60+ años 52,4 %)",
+      "url": "https://www.inei.gob.pe/media/MenuRecursivo/boletines/boletin-tic-oct_dic2025.pdf"
+    },
+    {
+      "titulo": "Defensoría del Pueblo: Reporte de Conflictos Sociales N.° 268 (2026)",
+      "url": "https://www.defensoria.gob.pe/wp-content/uploads/2026/07/Reporte-de-Conflictos-Sociales-n-268.pdf"
+    },
+    {
+      "titulo": "Defensoría del Pueblo: Nota de prensa 465-2026 (191 conflictos; 94 socioambientales, 49,2 %)",
+      "url": "https://www.defensoria.gob.pe/wp-content/uploads/2026/08/NP-465-2026.pdf"
+    },
+    {
+      "titulo": "PNUD Perú: Informe Nacional sobre Desarrollo Humano 2025 'Actuar, confiar y conectar'",
+      "url": "https://www.undp.org/es/peru/actuar-confiar-y-conectar-caminos-informe-nacional-sobre-desarrollo-humano-2025"
+    },
+    {
+      "titulo": "El Comercio: INDH 2025 PNUD, ¿qué regiones presentan mayor desigualdad? (IDH 0,648→0,662)",
+      "url": "https://elcomercio.pe/lima/pnud-que-regiones-del-peru-presentan-mayor-desigualdad-noticia/"
+    }
+  ]
+}

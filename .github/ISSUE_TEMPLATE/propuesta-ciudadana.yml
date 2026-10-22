@@ -1,0 +1,82 @@
+name: "🗳️ Propuesta ciudadana de ley"
+description: Propón una ley en tecnología para el Congreso 2026–2031. Se revisa y, si procede, se incorpora a la agenda.
+title: "[Propuesta] "
+labels: ["propuesta-ciudadana", "recibida"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Gracias por proponer. Tu propuesta será **pública**. No incluyas datos personales de terceros (DNI, teléfonos, direcciones).
+        Pasa por revisión (constitucional, técnica legislativa, costo para el Estado) antes de publicarse en la agenda.
+  - type: input
+    id: titulo
+    attributes:
+      label: Título de la ley
+      description: 'Empieza con "Ley que..."'
+      placeholder: Ley que garantiza internet gratuito en las bibliotecas municipales
+    validations:
+      required: true
+  - type: dropdown
+    id: eje
+    attributes:
+      label: Eje temático
+      options:
+        - Inteligencia artificial y datos
+        - Ciberseguridad e identidad digital
+        - Gobierno digital y transparencia
+        - Conectividad, telecom y espacio
+        - Economía digital, startups y CTI
+        - Talento, educación y tech sectorial
+        - Soberanía tecnológica e industria 4.0
+        - Justicia y derechos digitales
+        - Otro
+    validations:
+      required: true
+  - type: textarea
+    id: problema
+    attributes:
+      label: ¿Qué problema resuelve?
+      description: Describe el problema con datos si los tienes (y su fuente).
+    validations:
+      required: true
+  - type: textarea
+    id: propuesta
+    attributes:
+      label: ¿Qué propones?
+      description: La idea central o, si puedes, los artículos.
+    validations:
+      required: true
+  - type: textarea
+    id: beneficiarios
+    attributes:
+      label: ¿A quién beneficia?
+  - type: textarea
+    id: entidades
+    attributes:
+      label: ¿Qué entidades deberían implementarla?
+      placeholder: MTC, MINEDU, municipalidades, OSIPTEL...
+  - type: dropdown
+    id: costo
+    attributes:
+      label: ¿Le costaría dinero al Estado?
+      options:
+        - No / casi nada
+        - Poco (se puede pagar con el presupuesto actual)
+        - Bastante (requiere presupuesto nuevo)
+        - No sé
+  - type: input
+    id: region
+    attributes:
+      label: Región desde donde propones
+      placeholder: Cusco
+  - type: input
+    id: autor
+    attributes:
+      label: Nombre o seudónimo (opcional)
+  - type: checkboxes
+    id: acepto
+    attributes:
+      label: Condiciones
+      options:
+        - label: Acepto que mi propuesta se publique con licencia CC BY 4.0 y no incluye datos personales de terceros.
+          required: true

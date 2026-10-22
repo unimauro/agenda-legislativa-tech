@@ -6,6 +6,10 @@ presente y entren a debate en comisión. Alineadas a las comisiones temáticas d
 
 **Live:** https://unimauro.github.io/agenda-legislativa-tech/
 
+## Páginas
+Inicio · Propuestas · Visión 2036 (esfera, olas, ranking por lente, vacíos) · Panorama · Ciudadanía (propón una ley,
+comentarios) · Cómo se tramita. Cada propuesta: `p/<id>.html` + PDF + Word.
+
 ## Ejes
 IA y datos · Ciberseguridad e identidad digital · Gobierno digital y transparencia · Conectividad, telecom y
 espacio · Economía digital, startups y CTI · Talento, educación y tech sectorial.
@@ -14,6 +18,8 @@ espacio · Economía digital, startups y CTI · Talento, educación y tech secto
 - `data/propuestas/<eje>.json` — fuente de verdad (una lista por eje, esquema en `SCHEMA.md`).
 - `data/antecedentes.json` — proyectos tech del periodo 2021–2026 (API SPLEY del Congreso), `scripts/build_antecedentes.py`.
 - `data/contexto_legislativo.json`, `data/marco_normativo.json` — trámite bicameral y normas vigentes.
+- `scripts/build_prioridad.py` — consolida los lentes de `data/prioridad/` (ver PRIORIZACION.md).
+- `scripts/build_ciudadanas.py`, `scripts/build_comentarios.py` — participación ciudadana (Action cada 6 h).
 - `scripts/build.py` — une todo en `data/propuestas.json`, genera `p/<id>.html`, `pdf/*.pdf`, `og.png` y `sitemap.xml`.
 
 ```bash

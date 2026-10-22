@@ -1,0 +1,1786 @@
+{
+  "lente": "economista_crecimiento",
+  "criterios": [
+    {
+      "clave": "productividad",
+      "descripcion": "Impacto esperado en la productividad total de factores y el PBI potencial (costos de transacción, asignación de recursos, capital humano, adopción tecnológica).",
+      "peso": 0.3
+    },
+    {
+      "clave": "inversion_privada",
+      "descripcion": "Inversión privada (nacional o IED) que la norma destraba o moviliza sin depender del presupuesto.",
+      "peso": 0.2
+    },
+    {
+      "clave": "mipyme_formalizacion",
+      "descripcion": "Efecto en formalización y difusión tecnológica en MIPYME, donde se concentra ~70 % del empleo informal.",
+      "peso": 0.2
+    },
+    {
+      "clave": "complejidad_exportadora",
+      "descripcion": "Contribución a exportaciones de mayor complejidad o diversificación adyacente (espacio de productos, Atlas de Complejidad).",
+      "peso": 0.1
+    },
+    {
+      "clave": "retorno_fiscal",
+      "descripcion": "Retorno esperado frente al costo fiscal (5 = costo nulo/bajo con alto retorno; 1 = costo medio/alto con retorno incierto).",
+      "peso": 0.1
+    },
+    {
+      "clave": "velocidad",
+      "descripcion": "Velocidad del efecto económico (5 = efecto en 1–2 años; 1 = más de 10 años).",
+      "peso": 0.1
+    }
+  ],
+  "nota_metodo": "score = promedio ponderado (escala 1–5) / 5 × 100; rango efectivo 20–100. Puntajes son juicio experto, no estimaciones econométricas.",
+  "tesis": "El Perú no tiene un problema de estabilidad sino de productividad. Su crecimiento potencial cayó desde 2014 y el FMI atribuye la mayor parte de la caída a la desaceleración de la productividad total de factores, con deterioro amplio de la productividad a nivel de empresa; el FMI proyecta alrededor de 3 % para 2026. Con ese ritmo, y con ~1 % de crecimiento poblacional, duplicar el PBI per cápita tomaría más de 30 años (cálculo propio); hacerlo al 2036 exige cerca de 7 % anual per cápita, una meta que solo alcanzaron los episodios excepcionales que estudió la Comisión de Crecimiento (Spence, 2008). Lo honesto es apuntar a 5–6 % sostenido y converger antes de 2045, en línea con el escenario reformista del Banco Mundial (2025), que ubica el ingreso alto a inicios de la década de 2040. Los episodios de crecimiento acelerado comparten tres rasgos aplicables aquí: integración agresiva a mercados globales con IED de eficiencia (Irlanda, Vietnam, Polonia), un Estado que reduce costos de transacción con infraestructura pública digital (Estonia) y acumulación deliberada de capacidades técnicas con disciplina de resultados (Corea). Chile 1985–1997 añade estabilidad, apertura y profundización financiera. Los cuellos de botella del Perú son conocidos: informalidad del empleo de 70,7 % en 2025 (INEI), regímenes tributarios por tamaño que incentivan el enanismo empresarial (OCDE, 2025), I+D cercano a 0,1–0,2 % del PBI (CONCYTEC) y una canasta exportadora concentrada en cobre y oro que ubica al país alrededor del puesto 90 en complejidad económica (OEC). Por eso esta lente prioriza tres bloques. (1) Infraestructura pública digital que abarata la formalidad: interoperabilidad, identidad y firma digital, pagos interoperables, finanzas abiertas y factura negociable; son baratas, rápidas y llegan a la MYPE. (2) Normas que destraban inversión privada sin costo fiscal: antenas, ductos, espectro con obligaciones, cables submarinos y centros de datos. (3) Diversificación hacia complejidad adyacente: exportación de servicios digitales, valor agregado en minerales críticos, minería y agro de precisión, compra pública de innovación e I+D en pequeñas empresas. Las leyes de derechos digitales y de seguridad son necesarias por su propio mérito, pero su canal hacia el PBI es indirecto y por eso puntúan bajo en esta lente. Advertencia: el paquete tecnológico es complementario y no sustituto de la reforma tributaria MYPE, la calidad regulatoria y la seguridad jurídica, que son los vacíos más críticos.",
+  "puntajes": [
+    {
+      "id": "IA-01",
+      "criterios": {
+        "productividad": 2,
+        "inversion_privada": 1,
+        "mipyme_formalizacion": 1,
+        "complejidad_exportadora": 1,
+        "retorno_fiscal": 4,
+        "velocidad": 3
+      },
+      "score": 36,
+      "justificacion": "Mejora gobernanza y confianza en IA estatal; efecto en PTF indirecto y acotado. Bajo costo, pero no moviliza inversión ni toca la MIPYME.",
+      "habilita": [],
+      "requiere": [
+        "IA-02"
+      ]
+    },
+    {
+      "id": "IA-02",
+      "criterios": {
+        "productividad": 3,
+        "inversion_privada": 1,
+        "mipyme_formalizacion": 2,
+        "complejidad_exportadora": 1,
+        "retorno_fiscal": 4,
+        "velocidad": 3
+      },
+      "score": 46,
+      "justificacion": "Seguridad jurídica para automatizar actos administrativos: reduce costos de transacción Estado-empresa. Condición para escalar trámites digitales.",
+      "habilita": [
+        "IA-01",
+        "GOB-02"
+      ],
+      "requiere": [
+        "GOB-01"
+      ]
+    },
+    {
+      "id": "IA-03",
+      "criterios": {
+        "productividad": 3,
+        "inversion_privada": 3,
+        "mipyme_formalizacion": 2,
+        "complejidad_exportadora": 3,
+        "retorno_fiscal": 5,
+        "velocidad": 4
+      },
+      "score": 62,
+      "justificacion": "Sandbox reduce la incertidumbre regulatoria y el costo de innovar en sectores regulados (finanzas, salud). Barato y rápido; atrae I+D aplicada.",
+      "habilita": [
+        "ECO-06",
+        "IA-08"
+      ],
+      "requiere": []
+    },
+    {
+      "id": "IA-04",
+      "criterios": {
+        "productividad": 4,
+        "inversion_privada": 3,
+        "mipyme_formalizacion": 3,
+        "complejidad_exportadora": 2,
+        "retorno_fiscal": 4,
+        "velocidad": 3
+      },
+      "score": 66,
+      "justificacion": "Datos públicos abiertos e interoperables son insumo de bajo costo para servicios de mayor valor; externalidad amplia sobre la productividad.",
+      "habilita": [
+        "IA-10",
+        "TAL-08",
+        "CON-09",
+        "GOB-11"
+      ],
+      "requiere": [
+        "GOB-01"
+      ]
+    },
+    {
+      "id": "IA-05",
+      "criterios": {
+        "productividad": 3,
+        "inversion_privada": 2,
+        "mipyme_formalizacion": 1,
+        "complejidad_exportadora": 3,
+        "retorno_fiscal": 2,
+        "velocidad": 1
+      },
+      "score": 42,
+      "justificacion": "Cómputo para investigación: bien público necesario pero costo medio, efecto lento y concentrado en academia; sin masa crítica de I+D su retorno es incierto.",
+      "habilita": [
+        "IA-06"
+      ],
+      "requiere": [
+        "ECO-04"
+      ]
+    },
+    {
+      "id": "IA-06",
+      "criterios": {
+        "productividad": 1,
+        "inversion_privada": 1,
+        "mipyme_formalizacion": 1,
+        "complejidad_exportadora": 1,
+        "retorno_fiscal": 3,
+        "velocidad": 2
+      },
+      "score": 26,
+      "justificacion": "Valor de inclusión lingüística y cultural; impacto en PTF y exportaciones marginal.",
+      "habilita": [],
+      "requiere": [
+        "IA-05"
+      ]
+    },
+    {
+      "id": "IA-07",
+      "criterios": {
+        "productividad": 1,
+        "inversion_privada": 1,
+        "mipyme_formalizacion": 1,
+        "complejidad_exportadora": 1,
+        "retorno_fiscal": 4,
+        "velocidad": 4
+      },
+      "score": 32,
+      "justificacion": "Protege integridad electoral (institucionalidad) pero sin canal directo de productividad.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "IA-08",
+      "criterios": {
+        "productividad": 2,
+        "inversion_privada": 2,
+        "mipyme_formalizacion": 1,
+        "complejidad_exportadora": 2,
+        "retorno_fiscal": 3,
+        "velocidad": 2
+      },
+      "score": 38,
+      "justificacion": "Calidad y seguridad de IA clínica; habilita mercado healthtech regulado, impacto agregado modesto.",
+      "habilita": [],
+      "requiere": [
+        "IA-03"
+      ]
+    },
+    {
+      "id": "IA-09",
+      "criterios": {
+        "productividad": 2,
+        "inversion_privada": 1,
+        "mipyme_formalizacion": 1,
+        "complejidad_exportadora": 1,
+        "retorno_fiscal": 4,
+        "velocidad": 3
+      },
+      "score": 36,
+      "justificacion": "Garantías procesales; contribuye a la confianza judicial, efecto en crecimiento indirecto.",
+      "habilita": [],
+      "requiere": [
+        "DER-01"
+      ]
+    },
+    {
+      "id": "IA-10",
+      "criterios": {
+        "productividad": 3,
+        "inversion_privada": 2,
+        "mipyme_formalizacion": 1,
+        "complejidad_exportadora": 3,
+        "retorno_fiscal": 4,
+        "velocidad": 2
+      },
+      "score": 48,
+      "justificacion": "Acceso seguro a microdatos para I+D y analítica: eleva la productividad de la investigación con bajo costo.",
+      "habilita": [
+        "SOB-05"
+      ],
+      "requiere": [
+        "IA-04"
+      ]
+    },
+    {
+      "id": "IA-11",
+      "criterios": {
+        "productividad": 2,
+        "inversion_privada": 2,
+        "mipyme_formalizacion": 1,
+        "complejidad_exportadora": 2,
+        "retorno_fiscal": 4,
+        "velocidad": 3
+      },
+      "score": 42,
+      "justificacion": "Autoridad de datos autónoma facilita adecuación con UE y comercio de servicios digitales; efecto indirecto.",
+      "habilita": [
+        "ECO-12"
+      ],
+      "requiere": []
+    },
+    {
+      "id": "IA-12",
+      "criterios": {
+        "productividad": 3,
+        "inversion_privada": 2,
+        "mipyme_formalizacion": 2,
+        "complejidad_exportadora": 1,
+        "retorno_fiscal": 5,
+        "velocidad": 2
+      },
+      "score": 50,
+      "justificacion": "Portabilidad reduce costos de cambio y aumenta competencia en servicios digitales; complementa finanzas abiertas.",
+      "habilita": [],
+      "requiere": [
+        "ECO-06"
+      ]
+    },
+    {
+      "id": "IA-13",
+      "criterios": {
+        "productividad": 2,
+        "inversion_privada": 1,
+        "mipyme_formalizacion": 2,
+        "complejidad_exportadora": 1,
+        "retorno_fiscal": 3,
+        "velocidad": 2
+      },
+      "score": 36,
+      "justificacion": "Transparencia algorítmica y reconversión laboral; efecto pequeño y algún costo de cumplimiento.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "IA-14",
+      "criterios": {
+        "productividad": 2,
+        "inversion_privada": 1,
+        "mipyme_formalizacion": 1,
+        "complejidad_exportadora": 1,
+        "retorno_fiscal": 5,
+        "velocidad": 4
+      },
+      "score": 40,
+      "justificacion": "Mejores compras de IA evitan dependencia de proveedor; ahorro fiscal, bajo efecto en crecimiento.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "CIB-01",
+      "criterios": {
+        "productividad": 3,
+        "inversion_privada": 3,
+        "mipyme_formalizacion": 2,
+        "complejidad_exportadora": 2,
+        "retorno_fiscal": 3,
+        "velocidad": 2
+      },
+      "score": 52,
+      "justificacion": "La ciberseguridad es infraestructura de confianza para la economía digital; reduce pérdidas, efecto gradual.",
+      "habilita": [
+        "CIB-02",
+        "CIB-03",
+        "CIB-12"
+      ],
+      "requiere": []
+    },
+    {
+      "id": "CIB-02",
+      "criterios": {
+        "productividad": 2,
+        "inversion_privada": 3,
+        "mipyme_formalizacion": 1,
+        "complejidad_exportadora": 2,
+        "retorno_fiscal": 4,
+        "velocidad": 2
+      },
+      "score": 44,
+      "justificacion": "Obligaciones a operadores esenciales reducen riesgo sistémico; genera demanda de servicios, con costo de cumplimiento.",
+      "habilita": [],
+      "requiere": [
+        "CIB-01"
+      ]
+    },
+    {
+      "id": "CIB-03",
+      "criterios": {
+        "productividad": 2,
+        "inversion_privada": 1,
+        "mipyme_formalizacion": 2,
+        "complejidad_exportadora": 1,
+        "retorno_fiscal": 5,
+        "velocidad": 4
+      },
+      "score": 44,
+      "justificacion": "Ventanilla única reduce carga regulatoria duplicada; ganancia de eficiencia pequeña pero rápida y barata.",
+      "habilita": [],
+      "requiere": [
+        "CIB-01"
+      ]
+    },
+    {
+      "id": "CIB-04",
+      "criterios": {
+        "productividad": 2,
+        "inversion_privada": 1,
+        "mipyme_formalizacion": 1,
+        "complejidad_exportadora": 1,
+        "retorno_fiscal": 4,
+        "velocidad": 3
+      },
+      "score": 36,
+      "justificacion": "Actualiza tipos penales; disuade fraude, efecto económico indirecto.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "CIB-05",
+      "criterios": {
+        "productividad": 3,
+        "inversion_privada": 2,
+        "mipyme_formalizacion": 3,
+        "complejidad_exportadora": 1,
+        "retorno_fiscal": 4,
+        "velocidad": 3
+      },
+      "score": 54,
+      "justificacion": "El fraude digital frena la adopción de pagos electrónicos; responsabilidad compartida eleva confianza y uso por hogares y MYPE.",
+      "habilita": [
+        "ECO-07"
+      ],
+      "requiere": []
+    },
+    {
+      "id": "CIB-06",
+      "criterios": {
+        "productividad": 2,
+        "inversion_privada": 2,
+        "mipyme_formalizacion": 2,
+        "complejidad_exportadora": 1,
+        "retorno_fiscal": 4,
+        "velocidad": 3
+      },
+      "score": 44,
+      "justificacion": "Reduce fraude telefónico que erosiona confianza en canales digitales.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "CIB-07",
+      "criterios": {
+        "productividad": 1,
+        "inversion_privada": 1,
+        "mipyme_formalizacion": 1,
+        "complejidad_exportadora": 1,
+        "retorno_fiscal": 4,
+        "velocidad": 2
+      },
+      "score": 28,
+      "justificacion": "Estándar de dispositivos IoT; beneficio de seguridad, impacto productivo bajo.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "CIB-08",
+      "criterios": {
+        "productividad": 4,
+        "inversion_privada": 3,
+        "mipyme_formalizacion": 4,
+        "complejidad_exportadora": 1,
+        "retorno_fiscal": 3,
+        "velocidad": 3
+      },
+      "score": 66,
+      "justificacion": "Identidad digital verificable baja el costo de onboarding, crédito y formalización; pieza base de la infraestructura pública digital (modelo Estonia, India).",
+      "habilita": [
+        "CIB-09",
+        "ECO-06",
+        "GOB-09",
+        "DER-08"
+      ],
+      "requiere": [
+        "GOB-01"
+      ]
+    },
+    {
+      "id": "CIB-09",
+      "criterios": {
+        "productividad": 4,
+        "inversion_privada": 2,
+        "mipyme_formalizacion": 4,
+        "complejidad_exportadora": 1,
+        "retorno_fiscal": 3,
+        "velocidad": 4
+      },
+      "score": 64,
+      "justificacion": "Firma remota gratuita elimina fricción en contratos, facturas y trámites; adopción masiva rápida en MYPE.",
+      "habilita": [
+        "GOB-02",
+        "ECO-14"
+      ],
+      "requiere": [
+        "CIB-08"
+      ]
+    },
+    {
+      "id": "CIB-10",
+      "criterios": {
+        "productividad": 1,
+        "inversion_privada": 1,
+        "mipyme_formalizacion": 1,
+        "complejidad_exportadora": 1,
+        "retorno_fiscal": 4,
+        "velocidad": 2
+      },
+      "score": 28,
+      "justificacion": "Protección infantil necesaria; neutral para el crecimiento.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "CIB-11",
+      "criterios": {
+        "productividad": 2,
+        "inversion_privada": 1,
+        "mipyme_formalizacion": 1,
+        "complejidad_exportadora": 1,
+        "retorno_fiscal": 5,
+        "velocidad": 4
+      },
+      "score": 40,
+      "justificacion": "Divulgación coordinada mejora seguridad a costo casi nulo.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "CIB-12",
+      "criterios": {
+        "productividad": 2,
+        "inversion_privada": 1,
+        "mipyme_formalizacion": 1,
+        "complejidad_exportadora": 1,
+        "retorno_fiscal": 3,
+        "velocidad": 2
+      },
+      "score": 32,
+      "justificacion": "Capacidad estatal en ciberseguridad; efecto en crecimiento indirecto.",
+      "habilita": [],
+      "requiere": [
+        "GOB-14"
+      ]
+    },
+    {
+      "id": "CIB-13",
+      "criterios": {
+        "productividad": 1,
+        "inversion_privada": 1,
+        "mipyme_formalizacion": 1,
+        "complejidad_exportadora": 1,
+        "retorno_fiscal": 4,
+        "velocidad": 3
+      },
+      "score": 30,
+      "justificacion": "Integridad electoral; sin canal productivo directo.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "CIB-14",
+      "criterios": {
+        "productividad": 2,
+        "inversion_privada": 2,
+        "mipyme_formalizacion": 3,
+        "complejidad_exportadora": 1,
+        "retorno_fiscal": 4,
+        "velocidad": 3
+      },
+      "score": 48,
+      "justificacion": "Ciberresiliencia MIPYME reduce un riesgo que frena la digitalización de pequeñas empresas.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "GOB-01",
+      "criterios": {
+        "productividad": 5,
+        "inversion_privada": 2,
+        "mipyme_formalizacion": 4,
+        "complejidad_exportadora": 1,
+        "retorno_fiscal": 5,
+        "velocidad": 3
+      },
+      "score": 72,
+      "justificacion": "Interoperabilidad y 'solo una vez' recorta costos regulatorios y tiempos de trámite para todas las empresas; condición base del Estado digital (X-Road en Estonia).",
+      "habilita": [
+        "GOB-02",
+        "IA-04",
+        "GOB-08",
+        "CIB-08"
+      ],
+      "requiere": []
+    },
+    {
+      "id": "GOB-02",
+      "criterios": {
+        "productividad": 4,
+        "inversion_privada": 1,
+        "mipyme_formalizacion": 4,
+        "complejidad_exportadora": 1,
+        "retorno_fiscal": 4,
+        "velocidad": 3
+      },
+      "score": 60,
+      "justificacion": "Casilla y expediente electrónico únicos reducen costos de cumplimiento y litigiosidad, clave para formalizar MYPE.",
+      "habilita": [
+        "DER-01"
+      ],
+      "requiere": [
+        "GOB-01"
+      ]
+    },
+    {
+      "id": "GOB-03",
+      "criterios": {
+        "productividad": 2,
+        "inversion_privada": 1,
+        "mipyme_formalizacion": 1,
+        "complejidad_exportadora": 2,
+        "retorno_fiscal": 5,
+        "velocidad": 3
+      },
+      "score": 40,
+      "justificacion": "Software público reutilizable ahorra gasto y genera algo de ecosistema local.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "GOB-04",
+      "criterios": {
+        "productividad": 4,
+        "inversion_privada": 4,
+        "mipyme_formalizacion": 3,
+        "complejidad_exportadora": 3,
+        "retorno_fiscal": 4,
+        "velocidad": 3
+      },
+      "score": 72,
+      "justificacion": "Compra pública de innovación usa demanda estatal para financiar I+D de proveedores locales; instrumento probado (SBIR, Corea).",
+      "habilita": [
+        "SOB-08",
+        "ECO-01"
+      ],
+      "requiere": []
+    },
+    {
+      "id": "GOB-05",
+      "criterios": {
+        "productividad": 3,
+        "inversion_privada": 1,
+        "mipyme_formalizacion": 1,
+        "complejidad_exportadora": 1,
+        "retorno_fiscal": 4,
+        "velocidad": 4
+      },
+      "score": 44,
+      "justificacion": "Transparencia del gasto reduce corrupción y mejora calidad de la inversión pública: canal institucional relevante para el crecimiento.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "GOB-06",
+      "criterios": {
+        "productividad": 1,
+        "inversion_privada": 1,
+        "mipyme_formalizacion": 1,
+        "complejidad_exportadora": 1,
+        "retorno_fiscal": 5,
+        "velocidad": 4
+      },
+      "score": 34,
+      "justificacion": "Congreso abierto: valor democrático; impacto económico indirecto vía calidad regulatoria.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "GOB-07",
+      "criterios": {
+        "productividad": 4,
+        "inversion_privada": 3,
+        "mipyme_formalizacion": 3,
+        "complejidad_exportadora": 1,
+        "retorno_fiscal": 2,
+        "velocidad": 1
+      },
+      "score": 56,
+      "justificacion": "Catastro interoperable da seguridad de la propiedad, base del crédito hipotecario y recaudación predial; costo medio y efecto lento.",
+      "habilita": [],
+      "requiere": [
+        "GOB-01"
+      ]
+    },
+    {
+      "id": "GOB-08",
+      "criterios": {
+        "productividad": 3,
+        "inversion_privada": 1,
+        "mipyme_formalizacion": 3,
+        "complejidad_exportadora": 1,
+        "retorno_fiscal": 3,
+        "velocidad": 2
+      },
+      "score": 46,
+      "justificacion": "Servicios compartidos subnacionales reducen la brecha de gestión territorial donde opera la MYPE.",
+      "habilita": [],
+      "requiere": [
+        "GOB-01"
+      ]
+    },
+    {
+      "id": "GOB-09",
+      "criterios": {
+        "productividad": 2,
+        "inversion_privada": 1,
+        "mipyme_formalizacion": 2,
+        "complejidad_exportadora": 1,
+        "retorno_fiscal": 4,
+        "velocidad": 4
+      },
+      "score": 42,
+      "justificacion": "Acceso por mensajería eleva el uso de servicios públicos digitales; efecto de inclusión más que productivo.",
+      "habilita": [],
+      "requiere": [
+        "CIB-08"
+      ]
+    },
+    {
+      "id": "GOB-10",
+      "criterios": {
+        "productividad": 1,
+        "inversion_privada": 1,
+        "mipyme_formalizacion": 1,
+        "complejidad_exportadora": 1,
+        "retorno_fiscal": 3,
+        "velocidad": 2
+      },
+      "score": 26,
+      "justificacion": "Preservación digital: bien público cultural, sin impacto productivo directo.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "GOB-11",
+      "criterios": {
+        "productividad": 2,
+        "inversion_privada": 2,
+        "mipyme_formalizacion": 1,
+        "complejidad_exportadora": 1,
+        "retorno_fiscal": 5,
+        "velocidad": 4
+      },
+      "score": 44,
+      "justificacion": "Datos de transporte abiertos permiten apps de movilidad; ahorro de tiempo urbano modesto.",
+      "habilita": [],
+      "requiere": [
+        "IA-04"
+      ]
+    },
+    {
+      "id": "GOB-12",
+      "criterios": {
+        "productividad": 2,
+        "inversion_privada": 1,
+        "mipyme_formalizacion": 1,
+        "complejidad_exportadora": 1,
+        "retorno_fiscal": 4,
+        "velocidad": 3
+      },
+      "score": 36,
+      "justificacion": "Trazabilidad de denuncias mejora rendición de cuentas; efecto indirecto.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "GOB-13",
+      "criterios": {
+        "productividad": 3,
+        "inversion_privada": 3,
+        "mipyme_formalizacion": 1,
+        "complejidad_exportadora": 1,
+        "retorno_fiscal": 4,
+        "velocidad": 2
+      },
+      "score": 48,
+      "justificacion": "Consolidar centros de datos y nube del Estado genera ahorros y demanda ancla para inversión en nube local.",
+      "habilita": [
+        "CON-10"
+      ],
+      "requiere": []
+    },
+    {
+      "id": "GOB-14",
+      "criterios": {
+        "productividad": 3,
+        "inversion_privada": 1,
+        "mipyme_formalizacion": 1,
+        "complejidad_exportadora": 1,
+        "retorno_fiscal": 3,
+        "velocidad": 2
+      },
+      "score": 38,
+      "justificacion": "Capacidad estatal digital es cuello de botella para ejecutar casi toda la agenda.",
+      "habilita": [
+        "GOB-01",
+        "CIB-12"
+      ],
+      "requiere": []
+    },
+    {
+      "id": "CON-01",
+      "criterios": {
+        "productividad": 3,
+        "inversion_privada": 3,
+        "mipyme_formalizacion": 3,
+        "complejidad_exportadora": 1,
+        "retorno_fiscal": 4,
+        "velocidad": 2
+      },
+      "score": 56,
+      "justificacion": "Banda ancha como servicio esencial ordena metas de cobertura; efecto depende de inversión posterior.",
+      "habilita": [
+        "CON-13"
+      ],
+      "requiere": []
+    },
+    {
+      "id": "CON-02",
+      "criterios": {
+        "productividad": 3,
+        "inversion_privada": 3,
+        "mipyme_formalizacion": 3,
+        "complejidad_exportadora": 1,
+        "retorno_fiscal": 3,
+        "velocidad": 3
+      },
+      "score": 56,
+      "justificacion": "Financiar operación y mantenimiento evita que redes rurales construidas queden ociosas; protege inversión hundida.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "CON-03",
+      "criterios": {
+        "productividad": 4,
+        "inversion_privada": 4,
+        "mipyme_formalizacion": 3,
+        "complejidad_exportadora": 1,
+        "retorno_fiscal": 2,
+        "velocidad": 2
+      },
+      "score": 62,
+      "justificacion": "Integrar la red dorsal y regionales con operador neutro puede destrabar un activo subutilizado; costo fiscal medio.",
+      "habilita": [
+        "CON-13"
+      ],
+      "requiere": []
+    },
+    {
+      "id": "CON-04",
+      "criterios": {
+        "productividad": 4,
+        "inversion_privada": 4,
+        "mipyme_formalizacion": 3,
+        "complejidad_exportadora": 1,
+        "retorno_fiscal": 5,
+        "velocidad": 2
+      },
+      "score": 68,
+      "justificacion": "'Dig once': ductos en obras públicas abaratan fuertemente la fibra de última milla; alto retorno, costo marginal bajo.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "CON-05",
+      "criterios": {
+        "productividad": 4,
+        "inversion_privada": 5,
+        "mipyme_formalizacion": 3,
+        "complejidad_exportadora": 1,
+        "retorno_fiscal": 5,
+        "velocidad": 5
+      },
+      "score": 78,
+      "justificacion": "Permisos permanentes para antenas destraban inversión privada inmediata en cobertura y 5G sin costo fiscal.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "CON-06",
+      "criterios": {
+        "productividad": 4,
+        "inversion_privada": 5,
+        "mipyme_formalizacion": 3,
+        "complejidad_exportadora": 1,
+        "retorno_fiscal": 3,
+        "velocidad": 3
+      },
+      "score": 70,
+      "justificacion": "Espectro con obligaciones de cobertura canjeables moviliza inversión privada rural; sacrifica parte del ingreso fiscal.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "CON-07",
+      "criterios": {
+        "productividad": 2,
+        "inversion_privada": 2,
+        "mipyme_formalizacion": 2,
+        "complejidad_exportadora": 1,
+        "retorno_fiscal": 4,
+        "velocidad": 3
+      },
+      "score": 44,
+      "justificacion": "Redes comunitarias cubren nichos donde el mercado no llega; escala limitada.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "CON-08",
+      "criterios": {
+        "productividad": 2,
+        "inversion_privada": 3,
+        "mipyme_formalizacion": 1,
+        "complejidad_exportadora": 3,
+        "retorno_fiscal": 4,
+        "velocidad": 2
+      },
+      "score": 46,
+      "justificacion": "Ley espacial da seguridad a inversión en satélites pequeños; nicho de alta complejidad, efecto agregado pequeño.",
+      "habilita": [
+        "CON-09"
+      ],
+      "requiere": []
+    },
+    {
+      "id": "CON-09",
+      "criterios": {
+        "productividad": 3,
+        "inversion_privada": 2,
+        "mipyme_formalizacion": 2,
+        "complejidad_exportadora": 2,
+        "retorno_fiscal": 5,
+        "velocidad": 3
+      },
+      "score": 54,
+      "justificacion": "Datos satelitales abiertos sirven a agro, minería y ordenamiento a costo bajo.",
+      "habilita": [
+        "TAL-08"
+      ],
+      "requiere": [
+        "IA-04"
+      ]
+    },
+    {
+      "id": "CON-10",
+      "criterios": {
+        "productividad": 3,
+        "inversion_privada": 5,
+        "mipyme_formalizacion": 1,
+        "complejidad_exportadora": 3,
+        "retorno_fiscal": 4,
+        "velocidad": 3
+      },
+      "score": 62,
+      "justificacion": "Reglas previsibles para centros de datos atraen IED intensiva en capital y conectividad internacional (patrón Chile, Querétaro).",
+      "habilita": [
+        "GOB-13"
+      ],
+      "requiere": [
+        "CON-11"
+      ]
+    },
+    {
+      "id": "CON-11",
+      "criterios": {
+        "productividad": 3,
+        "inversion_privada": 4,
+        "mipyme_formalizacion": 2,
+        "complejidad_exportadora": 3,
+        "retorno_fiscal": 4,
+        "velocidad": 2
+      },
+      "score": 60,
+      "justificacion": "Diversificar cables submarinos baja costos de tránsito internacional y riesgo de corte; condición para servicios exportables y data centers.",
+      "habilita": [
+        "CON-10",
+        "ECO-12"
+      ],
+      "requiere": []
+    },
+    {
+      "id": "CON-12",
+      "criterios": {
+        "productividad": 2,
+        "inversion_privada": 2,
+        "mipyme_formalizacion": 2,
+        "complejidad_exportadora": 1,
+        "retorno_fiscal": 5,
+        "velocidad": 4
+      },
+      "score": 48,
+      "justificacion": "Neutralidad con flexibilidad 5G da certidumbre; efecto productivo menor.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "CON-13",
+      "criterios": {
+        "productividad": 4,
+        "inversion_privada": 3,
+        "mipyme_formalizacion": 2,
+        "complejidad_exportadora": 1,
+        "retorno_fiscal": 2,
+        "velocidad": 2
+      },
+      "score": 54,
+      "justificacion": "Conectar escuelas y postas con demanda ancla estatal mejora capital humano y viabiliza redes rurales; costo medio.",
+      "habilita": [
+        "TAL-01",
+        "TAL-07"
+      ],
+      "requiere": [
+        "CON-03"
+      ]
+    },
+    {
+      "id": "CON-14",
+      "criterios": {
+        "productividad": 2,
+        "inversion_privada": 3,
+        "mipyme_formalizacion": 2,
+        "complejidad_exportadora": 1,
+        "retorno_fiscal": 4,
+        "velocidad": 3
+      },
+      "score": 48,
+      "justificacion": "Resiliencia de redes ante desastres reduce pérdidas económicas en eventos extremos.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "ECO-01",
+      "criterios": {
+        "productividad": 4,
+        "inversion_privada": 4,
+        "mipyme_formalizacion": 3,
+        "complejidad_exportadora": 4,
+        "retorno_fiscal": 5,
+        "velocidad": 4
+      },
+      "score": 78,
+      "justificacion": "Régimen simplificado para startups y talento reduce costos de constitución y atrae capital emprendedor; bajo costo, efecto rápido.",
+      "habilita": [
+        "ECO-02",
+        "ECO-09"
+      ],
+      "requiere": []
+    },
+    {
+      "id": "ECO-02",
+      "criterios": {
+        "productividad": 3,
+        "inversion_privada": 4,
+        "mipyme_formalizacion": 2,
+        "complejidad_exportadora": 3,
+        "retorno_fiscal": 3,
+        "velocidad": 4
+      },
+      "score": 62,
+      "justificacion": "Continuidad del fondo de capital emprendedor con multiplicador privado corrige falla de mercado en etapas tempranas.",
+      "habilita": [],
+      "requiere": [
+        "ECO-01"
+      ]
+    },
+    {
+      "id": "ECO-03",
+      "criterios": {
+        "productividad": 4,
+        "inversion_privada": 4,
+        "mipyme_formalizacion": 4,
+        "complejidad_exportadora": 3,
+        "retorno_fiscal": 3,
+        "velocidad": 3
+      },
+      "score": 74,
+      "justificacion": "Abrir el incentivo de I+D a pequeñas empresas ataca el bajísimo gasto privado en I+D; costo tributario acotado y evaluable.",
+      "habilita": [],
+      "requiere": [
+        "ECO-04"
+      ]
+    },
+    {
+      "id": "ECO-04",
+      "criterios": {
+        "productividad": 3,
+        "inversion_privada": 2,
+        "mipyme_formalizacion": 1,
+        "complejidad_exportadora": 3,
+        "retorno_fiscal": 2,
+        "velocidad": 1
+      },
+      "score": 42,
+      "justificacion": "Senda hacia 1 % del PBI en I+D da señal de largo plazo; meta indicativa sin financiamiento asegurado.",
+      "habilita": [
+        "ECO-03",
+        "IA-05",
+        "ECO-05"
+      ],
+      "requiere": []
+    },
+    {
+      "id": "ECO-05",
+      "criterios": {
+        "productividad": 3,
+        "inversion_privada": 3,
+        "mipyme_formalizacion": 1,
+        "complejidad_exportadora": 4,
+        "retorno_fiscal": 5,
+        "velocidad": 2
+      },
+      "score": 56,
+      "justificacion": "Titularidad tipo Bayh-Dole incentiva licencias y spin-offs desde universidades; costo nulo, efecto lento.",
+      "habilita": [
+        "ECO-13"
+      ],
+      "requiere": []
+    },
+    {
+      "id": "ECO-06",
+      "criterios": {
+        "productividad": 4,
+        "inversion_privada": 4,
+        "mipyme_formalizacion": 4,
+        "complejidad_exportadora": 1,
+        "retorno_fiscal": 5,
+        "velocidad": 3
+      },
+      "score": 74,
+      "justificacion": "Finanzas abiertas aumentan competencia y crédito a MYPE con historial de datos; alto retorno sin costo fiscal.",
+      "habilita": [
+        "ECO-14",
+        "ECO-09"
+      ],
+      "requiere": [
+        "CIB-08"
+      ]
+    },
+    {
+      "id": "ECO-07",
+      "criterios": {
+        "productividad": 4,
+        "inversion_privada": 3,
+        "mipyme_formalizacion": 4,
+        "complejidad_exportadora": 1,
+        "retorno_fiscal": 5,
+        "velocidad": 4
+      },
+      "score": 72,
+      "justificacion": "Iniciación de pagos e interoperabilidad abaratan pagos digitales, motor de formalización transaccional (Pix en Brasil).",
+      "habilita": [
+        "ECO-14"
+      ],
+      "requiere": [
+        "CIB-05"
+      ]
+    },
+    {
+      "id": "ECO-08",
+      "criterios": {
+        "productividad": 2,
+        "inversion_privada": 3,
+        "mipyme_formalizacion": 1,
+        "complejidad_exportadora": 2,
+        "retorno_fiscal": 5,
+        "velocidad": 3
+      },
+      "score": 48,
+      "justificacion": "Registro de activos virtuales da seguridad jurídica y reduce riesgos de lavado; impacto productivo limitado.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "ECO-09",
+      "criterios": {
+        "productividad": 3,
+        "inversion_privada": 3,
+        "mipyme_formalizacion": 4,
+        "complejidad_exportadora": 2,
+        "retorno_fiscal": 5,
+        "velocidad": 4
+      },
+      "score": 68,
+      "justificacion": "Crowdfunding amplía financiamiento a MIPYME y startups; costo nulo.",
+      "habilita": [],
+      "requiere": [
+        "ECO-01"
+      ]
+    },
+    {
+      "id": "ECO-10",
+      "criterios": {
+        "productividad": 2,
+        "inversion_privada": 1,
+        "mipyme_formalizacion": 2,
+        "complejidad_exportadora": 1,
+        "retorno_fiscal": 5,
+        "velocidad": 4
+      },
+      "score": 44,
+      "justificacion": "Reglas de consumo electrónico elevan confianza en e-commerce; efecto pequeño.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "ECO-11",
+      "criterios": {
+        "productividad": 2,
+        "inversion_privada": 1,
+        "mipyme_formalizacion": 2,
+        "complejidad_exportadora": 1,
+        "retorno_fiscal": 4,
+        "velocidad": 3
+      },
+      "score": 40,
+      "justificacion": "Piso de protección para trabajadores de plataformas; positivo socialmente, efecto ambiguo en costos laborales y formalidad.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "ECO-12",
+      "criterios": {
+        "productividad": 4,
+        "inversion_privada": 4,
+        "mipyme_formalizacion": 3,
+        "complejidad_exportadora": 5,
+        "retorno_fiscal": 4,
+        "velocidad": 4
+      },
+      "score": 78,
+      "justificacion": "Simplificar IGV a exportación de servicios digitales abre una vía de complejidad no minera (modelo Irlanda, Costa Rica, Uruguay).",
+      "habilita": [],
+      "requiere": [
+        "CON-11"
+      ]
+    },
+    {
+      "id": "ECO-13",
+      "criterios": {
+        "productividad": 3,
+        "inversion_privada": 4,
+        "mipyme_formalizacion": 2,
+        "complejidad_exportadora": 4,
+        "retorno_fiscal": 3,
+        "velocidad": 2
+      },
+      "score": 60,
+      "justificacion": "Parques tecnológicos aglomeran I+D y empresas; resultados dependen de ejecución y evaluación.",
+      "habilita": [],
+      "requiere": [
+        "ECO-05"
+      ]
+    },
+    {
+      "id": "ECO-14",
+      "criterios": {
+        "productividad": 4,
+        "inversion_privada": 3,
+        "mipyme_formalizacion": 5,
+        "complejidad_exportadora": 1,
+        "retorno_fiscal": 5,
+        "velocidad": 4
+      },
+      "score": 76,
+      "justificacion": "Conformidad electrónica y factoring liberan capital de trabajo MYPE y premian la factura formal; efecto rápido.",
+      "habilita": [],
+      "requiere": [
+        "ECO-06"
+      ]
+    },
+    {
+      "id": "TAL-01",
+      "criterios": {
+        "productividad": 4,
+        "inversion_privada": 1,
+        "mipyme_formalizacion": 2,
+        "complejidad_exportadora": 3,
+        "retorno_fiscal": 3,
+        "velocidad": 1
+      },
+      "score": 50,
+      "justificacion": "Pensamiento computacional en escuela eleva capital humano de largo plazo; requiere docentes formados, efecto en 10+ años.",
+      "habilita": [],
+      "requiere": [
+        "CON-13"
+      ]
+    },
+    {
+      "id": "TAL-02",
+      "criterios": {
+        "productividad": 3,
+        "inversion_privada": 1,
+        "mipyme_formalizacion": 4,
+        "complejidad_exportadora": 1,
+        "retorno_fiscal": 4,
+        "velocidad": 3
+      },
+      "score": 54,
+      "justificacion": "Alfabetización digital de conductores MYPE ataca la brecha de adopción; bajo costo.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "TAL-03",
+      "criterios": {
+        "productividad": 4,
+        "inversion_privada": 2,
+        "mipyme_formalizacion": 1,
+        "complejidad_exportadora": 4,
+        "retorno_fiscal": 3,
+        "velocidad": 2
+      },
+      "score": 54,
+      "justificacion": "Becas STEM con retorno aumentan stock de ingenieros y científicos, base de absorción tecnológica (Corea, Irlanda).",
+      "habilita": [
+        "ECO-13"
+      ],
+      "requiere": []
+    },
+    {
+      "id": "TAL-04",
+      "criterios": {
+        "productividad": 4,
+        "inversion_privada": 3,
+        "mipyme_formalizacion": 3,
+        "complejidad_exportadora": 3,
+        "retorno_fiscal": 4,
+        "velocidad": 4
+      },
+      "score": 70,
+      "justificacion": "Formación tecnológica corta y acreditable cierra brechas de habilidades rápido y con participación privada.",
+      "habilita": [
+        "SOB-07"
+      ],
+      "requiere": []
+    },
+    {
+      "id": "TAL-05",
+      "criterios": {
+        "productividad": 3,
+        "inversion_privada": 1,
+        "mipyme_formalizacion": 1,
+        "complejidad_exportadora": 2,
+        "retorno_fiscal": 4,
+        "velocidad": 2
+      },
+      "score": 42,
+      "justificacion": "Más mujeres en STEM amplía la oferta de talento; efecto gradual.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "TAL-06",
+      "criterios": {
+        "productividad": 3,
+        "inversion_privada": 2,
+        "mipyme_formalizacion": 1,
+        "complejidad_exportadora": 1,
+        "retorno_fiscal": 2,
+        "velocidad": 2
+      },
+      "score": 40,
+      "justificacion": "Historia clínica interoperable mejora productividad del sistema de salud; costo medio.",
+      "habilita": [
+        "TAL-07"
+      ],
+      "requiere": [
+        "GOB-01"
+      ]
+    },
+    {
+      "id": "TAL-07",
+      "criterios": {
+        "productividad": 3,
+        "inversion_privada": 2,
+        "mipyme_formalizacion": 2,
+        "complejidad_exportadora": 1,
+        "retorno_fiscal": 4,
+        "velocidad": 3
+      },
+      "score": 50,
+      "justificacion": "Receta electrónica y telesalud reducen costos y tiempos de atención rural.",
+      "habilita": [],
+      "requiere": [
+        "TAL-06"
+      ]
+    },
+    {
+      "id": "TAL-08",
+      "criterios": {
+        "productividad": 4,
+        "inversion_privada": 3,
+        "mipyme_formalizacion": 4,
+        "complejidad_exportadora": 3,
+        "retorno_fiscal": 4,
+        "velocidad": 3
+      },
+      "score": 72,
+      "justificacion": "Agricultura de precisión y datos agroclimáticos abiertos elevan productividad del agro, sector con la mayor informalidad y base agroexportadora.",
+      "habilita": [],
+      "requiere": [
+        "IA-04"
+      ]
+    },
+    {
+      "id": "TAL-09",
+      "criterios": {
+        "productividad": 4,
+        "inversion_privada": 4,
+        "mipyme_formalizacion": 1,
+        "complejidad_exportadora": 3,
+        "retorno_fiscal": 4,
+        "velocidad": 3
+      },
+      "score": 64,
+      "justificacion": "Minería 4.0 con monitoreo en tiempo real eleva productividad y licencia social del principal sector exportador.",
+      "habilita": [
+        "SOB-01"
+      ],
+      "requiere": []
+    },
+    {
+      "id": "TAL-10",
+      "criterios": {
+        "productividad": 2,
+        "inversion_privada": 1,
+        "mipyme_formalizacion": 1,
+        "complejidad_exportadora": 1,
+        "retorno_fiscal": 4,
+        "velocidad": 3
+      },
+      "score": 36,
+      "justificacion": "Alerta temprana reduce pérdidas por desastres (El Niño); efecto de protección del capital.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "TAL-11",
+      "criterios": {
+        "productividad": 2,
+        "inversion_privada": 2,
+        "mipyme_formalizacion": 1,
+        "complejidad_exportadora": 1,
+        "retorno_fiscal": 4,
+        "velocidad": 3
+      },
+      "score": 40,
+      "justificacion": "Pasaje electrónico abierto mejora eficiencia del transporte de Lima.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "TAL-12",
+      "criterios": {
+        "productividad": 1,
+        "inversion_privada": 1,
+        "mipyme_formalizacion": 2,
+        "complejidad_exportadora": 1,
+        "retorno_fiscal": 4,
+        "velocidad": 3
+      },
+      "score": 34,
+      "justificacion": "Economía circular de RAEE; beneficio ambiental, efecto productivo bajo.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "TAL-13",
+      "criterios": {
+        "productividad": 2,
+        "inversion_privada": 1,
+        "mipyme_formalizacion": 1,
+        "complejidad_exportadora": 1,
+        "retorno_fiscal": 4,
+        "velocidad": 2
+      },
+      "score": 34,
+      "justificacion": "Accesibilidad digital amplía participación laboral de personas con discapacidad; efecto acotado.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "TAL-14",
+      "criterios": {
+        "productividad": 1,
+        "inversion_privada": 1,
+        "mipyme_formalizacion": 1,
+        "complejidad_exportadora": 1,
+        "retorno_fiscal": 4,
+        "velocidad": 3
+      },
+      "score": 30,
+      "justificacion": "Bienestar digital escolar; neutral para el crecimiento.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "SOB-01",
+      "criterios": {
+        "productividad": 4,
+        "inversion_privada": 4,
+        "mipyme_formalizacion": 1,
+        "complejidad_exportadora": 5,
+        "retorno_fiscal": 4,
+        "velocidad": 2
+      },
+      "score": 66,
+      "justificacion": "Valor agregado en minerales críticos es la ruta de diversificación 'adyacente' que sugiere el espacio de productos (cobre refinado, precursores).",
+      "habilita": [],
+      "requiere": [
+        "TAL-09"
+      ]
+    },
+    {
+      "id": "SOB-02",
+      "criterios": {
+        "productividad": 3,
+        "inversion_privada": 3,
+        "mipyme_formalizacion": 1,
+        "complejidad_exportadora": 4,
+        "retorno_fiscal": 4,
+        "velocidad": 2
+      },
+      "score": 54,
+      "justificacion": "Criterios de valor agregado y desarrollo de proveedores para electrónica disciplinan incentivos, como exigía Corea a cambio de apoyo.",
+      "habilita": [],
+      "requiere": [
+        "SOB-08"
+      ]
+    },
+    {
+      "id": "SOB-03",
+      "criterios": {
+        "productividad": 3,
+        "inversion_privada": 3,
+        "mipyme_formalizacion": 3,
+        "complejidad_exportadora": 2,
+        "retorno_fiscal": 5,
+        "velocidad": 4
+      },
+      "score": 64,
+      "justificacion": "Operaciones con drones (agro, inspección) habilitan servicios productivos con bajo costo regulatorio.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "SOB-04",
+      "criterios": {
+        "productividad": 2,
+        "inversion_privada": 3,
+        "mipyme_formalizacion": 1,
+        "complejidad_exportadora": 1,
+        "retorno_fiscal": 5,
+        "velocidad": 3
+      },
+      "score": 46,
+      "justificacion": "Interoperabilidad de carga eléctrica reduce incertidumbre para inversores; mercado aún pequeño.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "SOB-05",
+      "criterios": {
+        "productividad": 2,
+        "inversion_privada": 2,
+        "mipyme_formalizacion": 1,
+        "complejidad_exportadora": 3,
+        "retorno_fiscal": 4,
+        "velocidad": 2
+      },
+      "score": 42,
+      "justificacion": "Biobancos regulados habilitan investigación clínica y genómica; nicho de alta complejidad.",
+      "habilita": [],
+      "requiere": [
+        "IA-10"
+      ]
+    },
+    {
+      "id": "SOB-06",
+      "criterios": {
+        "productividad": 1,
+        "inversion_privada": 2,
+        "mipyme_formalizacion": 1,
+        "complejidad_exportadora": 1,
+        "retorno_fiscal": 2,
+        "velocidad": 1
+      },
+      "score": 26,
+      "justificacion": "Transición poscuántica: prudente pero prematura frente a otras prioridades; costo medio, efecto en crecimiento casi nulo.",
+      "habilita": [],
+      "requiere": [
+        "CIB-01"
+      ]
+    },
+    {
+      "id": "SOB-07",
+      "criterios": {
+        "productividad": 4,
+        "inversion_privada": 3,
+        "mipyme_formalizacion": 5,
+        "complejidad_exportadora": 3,
+        "retorno_fiscal": 3,
+        "velocidad": 3
+      },
+      "score": 74,
+      "justificacion": "Extensionismo en automatización vía CITE ataca la brecha de productividad MIPYME manufacturera; costo medio, necesita evaluación.",
+      "habilita": [],
+      "requiere": [
+        "TAL-04"
+      ]
+    },
+    {
+      "id": "SOB-08",
+      "criterios": {
+        "productividad": 3,
+        "inversion_privada": 3,
+        "mipyme_formalizacion": 3,
+        "complejidad_exportadora": 3,
+        "retorno_fiscal": 4,
+        "velocidad": 3
+      },
+      "score": 62,
+      "justificacion": "Transparencia de demanda tecnológica estatal permite a proveedores nacionales escalar; complementa compra de innovación.",
+      "habilita": [],
+      "requiere": [
+        "GOB-04"
+      ]
+    },
+    {
+      "id": "DER-01",
+      "criterios": {
+        "productividad": 3,
+        "inversion_privada": 1,
+        "mipyme_formalizacion": 2,
+        "complejidad_exportadora": 1,
+        "retorno_fiscal": 4,
+        "velocidad": 3
+      },
+      "score": 46,
+      "justificacion": "Audiencias virtuales y expediente electrónico reducen la duración de procesos, mejorando el cumplimiento de contratos.",
+      "habilita": [],
+      "requiere": [
+        "GOB-02"
+      ]
+    },
+    {
+      "id": "DER-02",
+      "criterios": {
+        "productividad": 2,
+        "inversion_privada": 2,
+        "mipyme_formalizacion": 1,
+        "complejidad_exportadora": 2,
+        "retorno_fiscal": 5,
+        "velocidad": 4
+      },
+      "score": 46,
+      "justificacion": "Excepción de minería de datos da seguridad para entrenar IA e investigar; efecto acotado.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "DER-03",
+      "criterios": {
+        "productividad": 1,
+        "inversion_privada": 1,
+        "mipyme_formalizacion": 1,
+        "complejidad_exportadora": 1,
+        "retorno_fiscal": 4,
+        "velocidad": 3
+      },
+      "score": 30,
+      "justificacion": "Transparencia de grandes plataformas; tema de derechos, neutral para el crecimiento.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "DER-04",
+      "criterios": {
+        "productividad": 1,
+        "inversion_privada": 1,
+        "mipyme_formalizacion": 1,
+        "complejidad_exportadora": 1,
+        "retorno_fiscal": 5,
+        "velocidad": 3
+      },
+      "score": 32,
+      "justificacion": "Desindexación y herencia digital; sin canal productivo.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "DER-05",
+      "criterios": {
+        "productividad": 1,
+        "inversion_privada": 1,
+        "mipyme_formalizacion": 1,
+        "complejidad_exportadora": 1,
+        "retorno_fiscal": 4,
+        "velocidad": 3
+      },
+      "score": 30,
+      "justificacion": "Intimidad y desconexión laboral; efecto en productividad ambiguo.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "DER-06",
+      "criterios": {
+        "productividad": 3,
+        "inversion_privada": 2,
+        "mipyme_formalizacion": 3,
+        "complejidad_exportadora": 1,
+        "retorno_fiscal": 4,
+        "velocidad": 3
+      },
+      "score": 54,
+      "justificacion": "Resolución de disputas en línea reduce el costo de hacer cumplir contratos de consumo y alivia carga judicial.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "DER-07",
+      "criterios": {
+        "productividad": 1,
+        "inversion_privada": 1,
+        "mipyme_formalizacion": 1,
+        "complejidad_exportadora": 1,
+        "retorno_fiscal": 4,
+        "velocidad": 3
+      },
+      "score": 30,
+      "justificacion": "Protección contra violencia digital; prioridad social, sin canal productivo directo.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "DER-08",
+      "criterios": {
+        "productividad": 1,
+        "inversion_privada": 1,
+        "mipyme_formalizacion": 1,
+        "complejidad_exportadora": 1,
+        "retorno_fiscal": 3,
+        "velocidad": 2
+      },
+      "score": 26,
+      "justificacion": "Participación ciudadana con firma digital; valor democrático, costo medio.",
+      "habilita": [],
+      "requiere": [
+        "CIB-08"
+      ]
+    }
+  ],
+  "vacios": [
+    {
+      "titulo": "Ley que unifica los regímenes tributarios MYPE (RUS, RER, RMT) en un régimen único digital y progresivo y sustituye beneficios laborales por tamaño de empresa por subsidios ligados al ingreso del trabajador",
+      "por_que": "El FMI y la OCDE identifican los regímenes especiales por tamaño como causa del 'enanismo' empresarial y de la baja productividad; sin esta reforma la digitalización no basta para formalizar.",
+      "eje_sugerido": "econ"
+    },
+    {
+      "titulo": "Ley de calidad regulatoria que hace obligatorio el análisis de impacto regulatorio y crea una revisión periódica ('guillotina') de trámites con silencio positivo digital",
+      "por_que": "La sobrerregulación y la inestabilidad normativa elevan el costo de invertir y crecer; los episodios de convergencia (Estonia, Polonia en la UE) redujeron costos regulatorios de forma sistemática.",
+      "eje_sugerido": "gob"
+    },
+    {
+      "titulo": "Ley que otorga autonomía y mandato legal a un Consejo de Productividad independiente que evalúe ex post los incentivos y programas productivos y publique sus resultados",
+      "por_que": "Sin evaluación independiente, los incentivos (I+D, parques, fondos, CITE) no se corrigen ni se cierran; Corea condicionó el apoyo a metas y Australia tiene una Productivity Commission legal.",
+      "eje_sugerido": "econ"
+    },
+    {
+      "titulo": "Ley que crea un programa nacional de adopción tecnológica y prácticas gerenciales para MIPYME con bonos (vouchers) cofinanciados y diagnósticos digitales",
+      "por_que": "La brecha de productividad intraempresa se explica en buena parte por baja adopción de tecnologías y prácticas gerenciales básicas; SOB-07 cubre solo automatización manufacturera vía CITE.",
+      "eje_sugerido": "econ"
+    },
+    {
+      "titulo": "Ley que moderniza la agencia de promoción de inversiones para búsqueda activa de IED de eficiencia en sectores de mayor complejidad, con servicio posinstalación y programa de encadenamiento con proveedores",
+      "por_que": "Irlanda (IDA), Costa Rica y Vietnam crecieron atrayendo IED exportadora en manufactura y servicios avanzados; la promoción peruana está orientada a recursos naturales y concesiones.",
+      "eje_sugerido": "econ"
+    },
+    {
+      "titulo": "Ley de visa de talento tecnológico y reconocimiento ágil de títulos y certificaciones extranjeras en STEM",
+      "por_que": "La oferta de ingenieros y especialistas digitales es una restricción vinculante de corto plazo para servicios exportables y centros de datos; la formación local tarda una década.",
+      "eje_sugerido": "tal"
+    },
+    {
+      "titulo": "Ley que habilita a los fondos de pensiones y aseguradoras a invertir en capital de riesgo y deuda privada de empresas innovadoras con límites prudenciales",
+      "por_que": "El ahorro institucional no financia innovación; Chile e Israel profundizaron capital de riesgo con fondos institucionales. ECO-02 y ECO-09 son montos pequeños frente al ahorro previsional.",
+      "eje_sugerido": "econ"
+    }
+  ],
+  "fuentes": [
+    {
+      "titulo": "Commission on Growth and Development (2008). The Growth Report: Strategies for Sustained Growth and Inclusive Development. Banco Mundial.",
+      "url": "https://digitallibrary.un.org/record/640214"
+    },
+    {
+      "titulo": "FMI (2024). Peru: Selected Issues (Country Report) — caída del crecimiento potencial y de la PTF desde 2014.",
+      "url": "https://www.imf.org/en/Publications/CR/Issues/2024/05/20/Peru-Selected-Issues-549205"
+    },
+    {
+      "titulo": "Andina (oct-2026). FMI eleva proyección de crecimiento del Perú para 2026 a 3 % (World Economic Outlook).",
+      "url": "https://andina.pe/ingles/noticia-imf-raises-perus-2026-economic-growth-forecast-to-3-1095833.aspx"
+    },
+    {
+      "titulo": "Banco Mundial (2025). Peru: Seizing Opportunities for Growth and Prosperity (Country Economic Memorandum).",
+      "url": "https://openknowledge.worldbank.org/entities/publication/19ab5f55-97ea-4934-950d-ca6a65a2e5a6/full"
+    },
+    {
+      "titulo": "OCDE (2025). OECD Economic Surveys: Peru 2025.",
+      "url": "https://www.oecd.org/en/publications/oecd-economic-surveys-peru-2025_76f6eb73-en/full-report/achieving-strong-growth-and-safeguarding-fiscal-sustainability_000545c6"
+    },
+    {
+      "titulo": "Expreso, citando INEI: empleo informal 70,7 % de la población ocupada en 2025 / 69,8 % abr-2025 a mar-2026 (verificar en informe técnico INEI).",
+      "url": "https://www.expreso.com.pe/economia/empleo-informal-ya-alcanza-69-8-de-los-trabajadores-mercado-laboral-mantiene-alta-tasa-noticia/1288287/"
+    },
+    {
+      "titulo": "Observatory of Economic Complexity — perfil Perú (ECI, canasta exportadora).",
+      "url": "https://oec.world/profile/country/per"
+    },
+    {
+      "titulo": "Harvard Growth Lab — Atlas Peruano de Complejidad Económica (con CONCYTEC).",
+      "url": "https://growthlab.hks.harvard.edu/peru-atlas"
+    },
+    {
+      "titulo": "CONCYTEC (2025). Reporte de seguimiento 2016–2024 (gasto en I+D como % del PBI).",
+      "url": "https://transparencia.concytec.gob.pe/images/2025/Reporte-de-seguimiento-2016-2024.pdf"
+    },
+    {
+      "titulo": "OECD Ecoscope (2025). Breaking the vicious cycle between productivity and informality in Latin America.",
+      "url": "https://oecdecoscope.blog/2025/11/18/breaking-the-vicious-cycle-between-productivity-and-informality-in-latin-america-insights-from-the-2025-ministerial-conference-in-lima/"
+    }
+  ]
+}

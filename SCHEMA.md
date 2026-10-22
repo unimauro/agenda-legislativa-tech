@@ -32,3 +32,36 @@
 Reglas: anti-overclaiming (son PROPUESTAS ciudadanas, no proyectos presentados), no inventar números de ley ni de proyecto,
 no duplicar lo que ya es ley vigente (en ese caso proponer modificación puntual citando la norma), no mencionar a ningún político,
 español peruano formal legislativo, técnica legislativa del Manual de Técnica Legislativa del Congreso.
+
+## Campos v2 (fase 2: editores tras la revisión especializada)
+
+```json
+"implicados": {
+  "normas_modificadas": [ {"norma": "Ley 29733, Ley de Protección de Datos Personales", "articulo": "art. 32", "accion": "modifica | incorpora | deroga | complementa | eleva_rango", "url": "https://..."} ],
+  "entidades": [ {"entidad": "Autoridad Nacional de Protección de Datos Personales (ANPD)", "sigla": "ANPD", "sector": "MINJUSDH",
+                  "rol": "rectora | ejecutora | supervisora | sancionadora | financiadora | reglamentadora | regulada | beneficiaria | consultiva",
+                  "responsabilidad": "Qué debe hacer concretamente según la ley (con artículo)"} ],
+  "sujetos_obligados": "Quiénes deben cumplir (entidades públicas, empresas de X tamaño, operadores, etc.)",
+  "beneficiarios": "Quiénes se benefician y cuántos aproximadamente (con fuente si hay cifra)"
+},
+"impacto": {
+  "tipo": "neutro | gasto | inversion | ahorro | recaudacion | mixto",
+  "costo_estado": {
+    "rango": "S/ 0 | S/ 5–12 millones/año | No cuantificable con información pública",
+    "horizonte": "anual | único | 2027-2031",
+    "supuestos": "Supuestos explícitos del cálculo (n.º entidades, costo unitario, fuente del costo unitario)",
+    "financiamiento": "Presupuesto institucional del pliego X sin demandar recursos adicionales al Tesoro | FITEL | tasas | APP | Obras por Impuestos | cooperación"
+  },
+  "beneficio_estado": "Ahorros, recaudación, eficiencia — cuantificado solo si hay base; si no, cualitativo",
+  "beneficio_sociedad": "Beneficios para ciudadanos/empresas — cuantificado solo si hay base",
+  "inversion_privada": "Inversión privada que podría movilizar (o 'no aplica')",
+  "costo_privado": "Costos de cumplimiento para privados/sujetos obligados",
+  "riesgos": "Riesgos de implementación o efectos no deseados",
+  "confianza": "alta | media | baja"
+},
+"revision_atendida": [ {"especialidad": "constitucional", "severidad": "alta", "hallazgo": "resumen corto", "accion": "corregido | parcial | no_aplicado", "nota": "qué se cambió o por qué no"} ]
+```
+
+Reglas fase 2: toda cifra de costo/beneficio es ESTIMACIÓN con supuestos explícitos y "confianza"; nunca presentar
+como dato oficial. Si no hay base para cuantificar, decirlo. Mantener `costo_fiscal` (nulo/bajo/medio) coherente con
+`impacto.costo_estado.rango`.

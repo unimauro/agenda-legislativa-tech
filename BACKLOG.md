@@ -20,7 +20,7 @@ propuestas no tienen `revision_atendida` NO se publican salvo `--borradores`.
 
 ## SIGUIENTE (en orden)
 1. [ ] **Ejes nuevos SOB (soberanía tecnológica e industria 4.0, 8) y DER (justicia y derechos digitales, 8)** →
-   llegar a 100 propuestas. Los redactores escribieron (o están escribiendo) `data/propuestas/sober.json` y
+   llegar a 100 propuestas. Los redactores ya escribieron (ambos borradores están en el repo) `data/propuestas/sober.json` y
    `data/propuestas/derechos.json` con campos v2 y `revision_atendida: []`. Falta: (a) revisión con las 5 especialidades
    siguiendo REVISION.md → `data/revision/<especialidad>_C.json`; (b) editor por eje que aplique hallazgos y llene
    `revision_atendida`; (c) agregar sus filas de reparto a COORDINACION.md si hay cruces; (d) build + push. Los ejes ya
@@ -38,10 +38,11 @@ propuestas no tienen `revision_atendida` NO se publican salvo `--borradores`.
 4. [ ] **Diseño:** Carlos dice que la página "está un poquito fea". Mejorar la portada (hero con ilustración/mapa,
    tarjetas más visuales por eje, iconos por eje, menos texto denso), versión móvil del listado, y miniaturas del
    "mapa de la ley" en las tarjetas. Mantener mobile-first y modo claro/oscuro.
-5. [ ] Verificaciones pendientes marcadas "por verificar"/"verificar en SPIJ" dentro de `efecto_vigencia` de varias
+5. [ ] Enlace erróneo: `gob.pe/institucion/produce/normas-legales/235858-013-2013-produce` se cita como DS 013-2013-PRODUCE pero abre una resolución del Ministerio de Cultura (en: talento.json). Reemplazar por la URL correcta.
+6. [ ] Verificaciones pendientes marcadas "por verificar"/"verificar en SPIJ" dentro de `efecto_vigencia` de varias
    propuestas (numeración libre de artículos incorporados; p. ej. LOPJ 184-A, Ley 26702 349-A/B, Ley 29904 2-A, TUO
    Telecom 61-A..C, Ley 26497 7-A/7-B; art. 200 CP vigente; cifra del padrón en IA-07).
-6. [ ] Comentarios sin cuenta de GitHub (giscus exige login): formulario propio en VPS con rate-limit/moderación.
-7. [ ] Revisión jurídica humana antes de llevar a despachos; seguimiento si un despacho presenta alguna (registrar n.º de PL real).
-8. [ ] Cron de antecedentes 2026–2031 (scripts/build_antecedentes.py, ~3 min; la API SPLEY separa por `codTipoParl` D/S/C).
-9. [ ] Versión en quechua del resumen de cada propuesta.
+7. [ ] Comentarios sin cuenta de GitHub (giscus exige login): formulario propio en VPS con rate-limit/moderación.
+8. [ ] Revisión jurídica humana antes de llevar a despachos; seguimiento si un despacho presenta alguna (registrar n.º de PL real).
+9. [ ] Cron de antecedentes 2026–2031 (scripts/build_antecedentes.py, ~3 min; la API SPLEY separa por `codTipoParl` D/S/C).
+10. [ ] Versión en quechua del resumen de cada propuesta.

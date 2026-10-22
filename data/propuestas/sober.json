@@ -1,0 +1,1921 @@
+[
+ {
+  "id": "SOB-01",
+  "eje": "sober",
+  "titulo": "Ley que establece el marco para la identificación de los minerales críticos y estratégicos y promueve la investigación metalúrgica y el valor agregado tecnológico de sus cadenas productivas",
+  "titulo_corto": "Minerales críticos y valor agregado",
+  "sumilla": "Ordena aprobar por decreto supremo una lista nacional de minerales críticos y estratégicos con criterios técnicos y revisión periódica, prioriza la información geocientífica abierta y una agenda de investigación metalúrgica (refinación, relaves, litio y tierras raras) dentro del Sinacti, sin crear beneficios tributarios ni alterar el régimen de concesiones.",
+  "problema": "El Perú es uno de los principales productores de cobre del mundo, pero refina internamente una fracción pequeña de lo que extrae: según el Mineral Commodity Summaries 2025 del Servicio Geológico de los Estados Unidos (USGS), la producción minera de cobre del Perú se estimó en 2 600 miles de toneladas en 2024, mientras que la producción de refinería fue de unas 390 miles de toneladas, con reservas estimadas en 100 millones de toneladas. El mismo informe registra recursos identificados de litio en el Perú del orden de 1 millón de toneladas. Pese a ello, el país no cuenta con una definición legal ni una lista oficial de minerales críticos o estratégicos que oriente la información geológica, la investigación y la cooperación internacional; en 2021-2026 se presentaron múltiples proyectos sobre litio, fundiciones y refinerías, mayormente declarativos o para crear empresas estatales. El Plan Perú 2050 (Ciencia y Tecnología) señala que alrededor del 65% de las exportaciones corresponde a minerales sin valor agregado y (Capital del Conocimiento) que la inversión en I+D es de 0,13% del PBI frente a una meta de 2,5%. Al mismo tiempo, normas como el Reglamento (UE) 2024/1252 reconfiguran las cadenas de suministro de materias primas fundamentales, lo que abre oportunidades de asociación tecnológica que requieren una posición nacional informada.",
+  "objeto": "Establecer el marco para identificar los minerales críticos y estratégicos y promover la investigación metalúrgica, la información geocientífica abierta y el valor agregado tecnológico de sus cadenas productivas.",
+  "articulado": [
+   {
+    "n": "Artículo 1",
+    "titulo": "Objeto",
+    "texto": "La presente ley tiene por objeto establecer el marco para la identificación de los minerales críticos y estratégicos del país y promover la generación de información geocientífica, la investigación metalúrgica y el valor agregado tecnológico en sus cadenas productivas, en el marco de los artículos 66 y 88 de la Constitución Política del Perú y de la Ley 26821, Ley Orgánica para el Aprovechamiento Sostenible de los Recursos Naturales."
+   },
+   {
+    "n": "Artículo 2",
+    "titulo": "Definiciones",
+    "texto": "Para efectos de la presente ley se entiende por: a) Mineral crítico: sustancia mineral cuya importancia para la economía nacional o para las cadenas tecnológicas y de transición energética es alta y cuyo suministro presenta riesgos de concentración o interrupción. b) Mineral estratégico: sustancia mineral que, además, resulta relevante para la seguridad, la defensa o la autonomía tecnológica del país. c) Valor agregado tecnológico: transformación de minerales y concentrados en productos refinados, precursores, aleaciones, compuestos o componentes, incluida la recuperación de minerales a partir de relaves, desmontes y pasivos ambientales mineros."
+   },
+   {
+    "n": "Artículo 3",
+    "titulo": "Lista nacional de minerales críticos y estratégicos",
+    "texto": "3.1 El Poder Ejecutivo aprueba, mediante decreto supremo refrendado por el Ministro de Energía y Minas, la Lista Nacional de Minerales Críticos y Estratégicos, sobre la base de un informe técnico del Instituto Geológico, Minero y Metalúrgico (INGEMMET) y con opinión del Ministerio de la Producción, del Ministerio del Ambiente y del Consejo Nacional de Ciencia, Tecnología e Innovación Tecnológica (CONCYTEC). 3.2 La lista considera, como mínimo, la importancia económica y tecnológica, el riesgo de suministro, el potencial geológico nacional y la relevancia para la transición energética. Se revisa cada tres años y se publica con su metodología. 3.3 La inclusión de un mineral en la lista no modifica el régimen de concesiones, los derechos mineros vigentes, el régimen tributario ni las obligaciones ambientales y sociales aplicables, ni constituye por sí misma declaratoria de reserva o de exclusividad estatal."
+   },
+   {
+    "n": "Artículo 4",
+    "titulo": "Información geocientífica abierta",
+    "texto": "4.1 El INGEMMET prioriza, dentro de su programación multianual, la cartografía geológica, la prospección regional y la caracterización de los minerales incluidos en la lista nacional, incluido el potencial contenido en relaves y pasivos ambientales mineros. 4.2 La información geocientífica generada con fondos públicos se publica en formatos abiertos y georreferenciados, conforme al régimen de datos abiertos y sus excepciones previsto en la normativa vigente o la que haga sus veces. La trazabilidad digital de minerales se rige por la norma especial de la materia."
+   },
+   {
+    "n": "Artículo 5",
+    "titulo": "Agenda de investigación metalúrgica",
+    "texto": "5.1 El CONCYTEC, en coordinación con el Ministerio de Energía y Minas y el Ministerio de la Producción, incorpora en las prioridades del Sistema Nacional de Ciencia, Tecnología e Innovación (Sinacti), regulado por la Ley 31250, una agenda de investigación, desarrollo e innovación en minerales críticos que comprende, entre otras líneas, la refinación y la hidrometalurgia, la recuperación de minerales desde relaves, el procesamiento de litio de fuentes no salmuera, la separación de tierras raras y la reducción de impactos ambientales del procesamiento. 5.2 Los instrumentos de financiamiento existentes del Sinacti pueden priorizar convocatorias en dichas líneas, sin que ello implique la creación de fondos nuevos."
+   },
+   {
+    "n": "Artículo 6",
+    "titulo": "Plantas piloto y acceso a muestras para investigación",
+    "texto": "6.1 Las universidades, institutos públicos de investigación, los Centros de Innovación Productiva y Transferencia Tecnológica (CITE) y el INGEMMET pueden suscribir convenios con titulares de actividades mineras para el acceso a muestras, concentrados, relaves e instalaciones con fines de investigación y escalamiento piloto. 6.2 Los convenios establecen la titularidad de los resultados conforme a la normativa de propiedad intelectual y de transferencia de resultados de investigación vigente, y no eximen del cumplimiento de las obligaciones ambientales ni de las autorizaciones sectoriales correspondientes."
+   },
+   {
+    "n": "Artículo 7",
+    "titulo": "Reaprovechamiento de relaves y pasivos",
+    "texto": "7.1 El Ministerio de Energía y Minas evalúa y, de ser el caso, propone las adecuaciones reglamentarias necesarias para el reaprovechamiento de relaves, desmontes y pasivos ambientales mineros con contenido de minerales críticos, con las garantías ambientales y de participación ciudadana aplicables. 7.2 El reaprovechamiento no extingue ni reduce las obligaciones de cierre de minas establecidas en la Ley 28090 ni las de remediación de pasivos previstas en la Ley 28271."
+   },
+   {
+    "n": "Artículo 8",
+    "titulo": "Estudio de brechas de las cadenas de valor",
+    "texto": "8.1 El Ministerio de Energía y Minas, con el Ministerio de la Producción y el Ministerio de Economía y Finanzas, publica cada dos años un estudio de brechas de las cadenas de valor de los minerales de la lista nacional, que identifique cuellos de botella de infraestructura, energía, agua, permisos, talento y mercado para proyectos de fundición, refinación y fabricación de precursores. 8.2 La presente ley no otorga beneficios tributarios. Cualquier beneficio tributario vinculado a estas cadenas requiere ley expresa que cumpla con la Norma VII del Título Preliminar del Código Tributario e informe previo del Ministerio de Economía y Finanzas."
+   },
+   {
+    "n": "Artículo 9",
+    "titulo": "Minerales con contenido radiactivo",
+    "texto": "Cuando un mineral de la lista nacional se presente asociado a materiales radiactivos, su investigación, extracción y procesamiento se sujetan además a las competencias del Instituto Peruano de Energía Nuclear (IPEN) en materia de seguridad radiológica, sin que la presente ley modifique dicho régimen."
+   },
+   {
+    "n": "Artículo 10",
+    "titulo": "Cooperación internacional",
+    "texto": "El Ministerio de Energía y Minas, en coordinación con el Ministerio de Relaciones Exteriores y el Ministerio de Comercio Exterior y Turismo, promueve acuerdos de cooperación en materia de cadenas de suministro de minerales críticos que incluyan componentes de transferencia tecnológica, formación de talento e investigación conjunta, respetando los acuerdos comerciales vigentes y la soberanía permanente del Estado sobre sus recursos naturales."
+   },
+   {
+    "n": "Artículo 11",
+    "titulo": "Financiamiento",
+    "texto": "La implementación de la presente ley se financia con cargo al presupuesto institucional de las entidades involucradas, sin demandar recursos adicionales al Tesoro Público y sujeta a disponibilidad presupuestal."
+   }
+  ],
+  "disposiciones": [
+   {
+    "tipo": "Complementaria Final",
+    "n": "Primera",
+    "texto": "Reglamentación. El Poder Ejecutivo reglamenta la presente ley en un plazo de ciento veinte días hábiles contados desde su entrada en vigor, mediante decreto supremo refrendado por los Ministros de Energía y Minas y de la Producción."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Segunda",
+    "texto": "Primera lista nacional. La primera Lista Nacional de Minerales Críticos y Estratégicos se aprueba en un plazo de ciento ochenta días hábiles contados desde la entrada en vigor del reglamento."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Tercera",
+    "texto": "Informe al Congreso. El Ministro de Energía y Minas remite anualmente a la Comisión de Energía y Minas de la Cámara de Diputados y a la comisión competente del Senado un informe sobre la aplicación de la presente ley."
+   }
+  ],
+  "costo_beneficio": "La ley no impone gasto nuevo: ordena priorizar, dentro de la programación multianual, funciones que el INGEMMET, el MINEM y el CONCYTEC ya ejercen. Su costo incremental principal es técnico (elaborar y actualizar la lista y el estudio bienal de brechas), estimado en S/ 1–2,5 millones anuales de reasignación. No crea beneficios tributarios ni empresas estatales, lo que evita la objeción del MEF a los proyectos declarativos previos. El beneficio esperado es una base técnica común para orientar exploración, investigación y negociaciones internacionales, mejorar la información pública geocientífica y reducir la incertidumbre para inversiones en refinación y procesamiento. Requiere coordinación con el Poder Ejecutivo e informe del MEF antes del dictamen.",
+  "efecto_vigencia": "Complementa la Ley 26821, el Texto Único Ordenado de la Ley General de Minería, la Ley 31250 (Sinacti), la Ley 28090 y la Ley 28271. No modifica el régimen tributario ni de concesiones. No deroga normas.",
+  "normas_relacionadas": [
+   {
+    "norma": "Ley 26821, Ley Orgánica para el Aprovechamiento Sostenible de los Recursos Naturales",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/26821.pdf"
+   },
+   {
+    "norma": "Ley 31250, Ley del Sistema Nacional de Ciencia, Tecnología e Innovación (Sinacti)",
+    "url": "https://leyes.congreso.gob.pe/Documentos/2016_2021/ADLP/Normas_Legales/31250-LEY.pdf"
+   },
+   {
+    "norma": "Ley 28090, Ley que regula el Cierre de Minas",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/28090.pdf"
+   },
+   {
+    "norma": "Ley 28271, Ley que regula los pasivos ambientales de la actividad minera",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/28271.pdf"
+   },
+   {
+    "norma": "Ley 28611, Ley General del Ambiente",
+    "url": "https://leyes.congreso.gob.pe/Documentos/Leyes/28611.pdf"
+   }
+  ],
+  "antecedentes": "Según la API pública del SPLEY (consulta del 22-oct-2026), en el periodo 2021-2026 se presentaron, entre otros, el PL 05799/2023-CR (promueve la exploración, explotación e industrialización del litio; con dictamen), el PL 03319/2022-CR (industrialización del litio; con dictamen), el PL 09619/2024-CR (interés nacional de fundiciones y refinerías; en agenda del Consejo Directivo), el PL 13844/2025-CR (interés nacional de la industrialización minero-metalúrgica; en comisión) y varios proyectos para crear empresas estatales de litio (p. ej., PL 04184/2022-CR y PL 07698/2023-CR). Ninguno fue publicado como ley.",
+  "referencias_internacionales": [
+   {
+    "pais": "Unión Europea",
+    "norma": "Reglamento (UE) 2024/1252, marco para garantizar un suministro seguro y sostenible de materias primas fundamentales",
+    "url": "https://eur-lex.europa.eu/eli/reg/2024/1252/oj"
+   },
+   {
+    "pais": "Estados Unidos",
+    "norma": "USGS Mineral Commodity Summaries 2025 (metodología de seguimiento de minerales)",
+    "url": "https://pubs.usgs.gov/periodicals/mcs2025/mcs2025-copper.pdf"
+   }
+  ],
+  "comision_sugerida": "Energía y Minas",
+  "comision_secundaria": "Ciencia, Innovación Tecnológica y Sociedad Digital",
+  "plan2050": [
+   "mineria",
+   "metalurgia",
+   "ciencia-y-tecnologia"
+  ],
+  "ods": [
+   8,
+   9,
+   12
+  ],
+  "prioridad": "alta",
+  "costo_fiscal": "bajo",
+  "plazo": "mediano",
+  "indicador_exito": "A 2031, la Lista Nacional de Minerales Críticos y Estratégicos está aprobada y revisada al menos una vez; el INGEMMET publica en datos abiertos la caracterización de los minerales de la lista; y se han ejecutado al menos dos convocatorias del Sinacti en investigación metalúrgica de minerales críticos.",
+  "tags": [
+   "minerales críticos",
+   "cobre",
+   "litio",
+   "tierras raras",
+   "metalurgia",
+   "I+D"
+  ],
+  "fuentes": [
+   {
+    "titulo": "USGS, Mineral Commodity Summaries 2025: Copper",
+    "url": "https://pubs.usgs.gov/periodicals/mcs2025/mcs2025-copper.pdf"
+   },
+   {
+    "titulo": "USGS, Mineral Commodity Summaries 2025: Lithium",
+    "url": "https://pubs.usgs.gov/periodicals/mcs2025/mcs2025-lithium.pdf"
+   },
+   {
+    "titulo": "IEA, Global Critical Minerals Outlook 2025",
+    "url": "https://www.iea.org/reports/global-critical-minerals-outlook-2025"
+   },
+   {
+    "titulo": "Plan Perú 2050, Comisión Ciencia y Tecnología",
+    "url": "https://planperu2050.pe/c/ciencia-y-tecnologia.html"
+   },
+   {
+    "titulo": "Plan Perú 2050, Comisión Capital del Conocimiento",
+    "url": "https://planperu2050.pe/c/capital-del-conocimiento.html"
+   }
+  ],
+  "implicados": {
+   "normas_modificadas": [
+    {
+     "norma": "Ley 26821, Ley Orgánica para el Aprovechamiento Sostenible de los Recursos Naturales",
+     "articulo": "concordancia (no se modifica)",
+     "accion": "complementa",
+     "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/26821.pdf"
+    },
+    {
+     "norma": "Ley 31250, Ley del Sistema Nacional de Ciencia, Tecnología e Innovación",
+     "articulo": "prioridades del Sinacti",
+     "accion": "complementa",
+     "url": "https://leyes.congreso.gob.pe/Documentos/2016_2021/ADLP/Normas_Legales/31250-LEY.pdf"
+    },
+    {
+     "norma": "Ley 28090, Ley que regula el Cierre de Minas",
+     "articulo": "concordancia (art. 7.2 de la propuesta)",
+     "accion": "complementa",
+     "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/28090.pdf"
+    },
+    {
+     "norma": "Ley 28271, Ley que regula los pasivos ambientales de la actividad minera",
+     "articulo": "concordancia (art. 7.2 de la propuesta)",
+     "accion": "complementa",
+     "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/28271.pdf"
+    }
+   ],
+   "entidades": [
+    {
+     "entidad": "Ministerio de Energía y Minas",
+     "sigla": "MINEM",
+     "sector": "Energía y Minas",
+     "rol": "rectora",
+     "responsabilidad": "Refrenda la lista nacional (art. 3), evalúa adecuaciones para relaves (art. 7), publica el estudio bienal de brechas (art. 8), promueve cooperación (art. 10) e informa al Congreso (DCF Tercera)."
+    },
+    {
+     "entidad": "Instituto Geológico, Minero y Metalúrgico",
+     "sigla": "INGEMMET",
+     "sector": "Energía y Minas",
+     "rol": "ejecutora",
+     "responsabilidad": "Elabora el informe técnico de la lista (art. 3.1), prioriza cartografía y caracterización y publica datos abiertos (art. 4)."
+    },
+    {
+     "entidad": "Consejo Nacional de Ciencia, Tecnología e Innovación Tecnológica",
+     "sigla": "CONCYTEC",
+     "sector": "PCM",
+     "rol": "ejecutora",
+     "responsabilidad": "Incorpora la agenda de I+D metalúrgica en las prioridades del Sinacti (art. 5)."
+    },
+    {
+     "entidad": "Ministerio de la Producción",
+     "sigla": "PRODUCE",
+     "sector": "Producción",
+     "rol": "consultiva",
+     "responsabilidad": "Opina sobre la lista (art. 3.1) y coelabora el estudio de brechas (art. 8)."
+    },
+    {
+     "entidad": "Ministerio del Ambiente",
+     "sigla": "MINAM",
+     "sector": "Ambiente",
+     "rol": "consultiva",
+     "responsabilidad": "Opina sobre la lista (art. 3.1)."
+    },
+    {
+     "entidad": "Ministerio de Economía y Finanzas",
+     "sigla": "MEF",
+     "sector": "MEF",
+     "rol": "consultiva",
+     "responsabilidad": "Coelabora el estudio de brechas e informa previamente cualquier beneficio tributario futuro (art. 8)."
+    },
+    {
+     "entidad": "Instituto Peruano de Energía Nuclear",
+     "sigla": "IPEN",
+     "sector": "Energía y Minas",
+     "rol": "supervisora",
+     "responsabilidad": "Mantiene sus competencias en seguridad radiológica (art. 9)."
+    }
+   ],
+   "sujetos_obligados": "Entidades del Poder Ejecutivo señaladas. Para los titulares mineros la ley es facultativa (convenios de investigación, art. 6); no crea obligaciones nuevas para ellos.",
+   "beneficiarios": "Universidades, institutos de investigación y CITE (acceso a muestras y priorización de convocatorias), inversionistas en procesamiento (mejor información y estudio de brechas) y regiones con potencial de minerales críticos. No se cuantifica por falta de base."
+  },
+  "impacto": {
+   "tipo": "neutro",
+   "costo_estado": {
+    "rango": "S/ 1–2,5 millones/año",
+    "horizonte": "anual",
+    "supuestos": "Estimación del editor: un equipo técnico de 4–6 especialistas entre MINEM e INGEMMET para la lista y su revisión (aprox. S/ 0,5–0,9 millones/año a costos de referencia de CAS profesional) y un estudio bienal de brechas contratado o elaborado internamente (S/ 0,5–1,6 millones/año prorrateado). No incluye nuevas campañas geológicas, que se priorizan dentro de la programación existente del INGEMMET.",
+    "financiamiento": "Presupuesto institucional de los pliegos involucrados, sin demandar recursos adicionales al Tesoro Público y sujeto a disponibilidad presupuestal; requiere coordinación con el Poder Ejecutivo, fuente de financiamiento identificada e informe previo de sostenibilidad fiscal del MEF antes del dictamen (art. 79 de la Constitución; STC 00018-2023-PI/TC)."
+   },
+   "beneficio_estado": "Mejor base técnica para la negociación internacional, la priorización del gasto geocientífico existente y la evaluación de propuestas de inversión en refinación. No cuantificable con información pública.",
+   "beneficio_sociedad": "Mayor disponibilidad de información geocientífica abierta y oportunidades de investigación aplicada para universidades y empresas. No cuantificable con información pública.",
+   "inversion_privada": "Podría facilitar inversiones en refinación, procesamiento de relaves y precursores; el monto depende de condiciones de mercado y no se estima.",
+   "costo_privado": "Nulo como obligación; los convenios de investigación son voluntarios.",
+   "riesgos": "Que la lista se interprete como anuncio de reserva estatal o nuevos tributos (mitigado por el art. 3.3); presiones para incluir exoneraciones (bloqueado por el art. 8.2); que la agenda de I+D no reciba recursos por restricciones del Sinacti.",
+   "confianza": "baja"
+  },
+  "revision_atendida": []
+ },
+ {
+  "id": "SOB-02",
+  "eje": "sober",
+  "titulo": "Ley que establece criterios de valor agregado tecnológico, desarrollo de proveedores y evaluación de resultados para la manufactura electrónica y de dispositivos en las Zonas Económicas Especiales Privadas, complementando la Ley 32449",
+  "titulo_corto": "Manufactura electrónica en ZEEP",
+  "sumilla": "Precisa los procesos mínimos que deben acreditarse para que el ensamblaje electrónico en una ZEEP genere valor agregado real, exige planes de desarrollo de proveedores y reportes de resultados, y ordena evaluar el gasto tributario del régimen, sin crear ni ampliar beneficios tributarios.",
+  "problema": "La Ley 32449, publicada el 26 de setiembre de 2025, creó un tratamiento especial tributario y aduanero para las Zonas Económicas Especiales Privadas (ZEEP), reglamentado por el Decreto Supremo 005-2026-MINCETUR. Su artículo 4 permite actividades industriales, de ensamblaje y servicios 'que generen valor agregado, es decir, transformación de la materia prima', cuya acreditación corresponde al MINCETUR y al sector vinculado, pero la ley no fija criterios específicos para la manufactura electrónica, sector en el que el ensamblaje de kits completamente desarmados puede aportar poco empleo calificado y escasa transferencia tecnológica mientras accede a los mismos beneficios. Tampoco existe una obligación de reportar resultados por usuario y sector, lo que dificulta evaluar el costo fiscal del régimen frente a sus beneficios. Entre 2025 y 2026 se presentaron proyectos para crear nuevas ZEEP y un régimen de innovación tecnológica en Chancay (PL 14606/2025-CR), lo que anticipa la expansión del modelo. El Plan Perú 2050 (Capital del Conocimiento) fija como meta que las exportaciones de alta tecnología representen 20% de las exportaciones totales; la manufactura electrónica es una vía para ello solo si integra diseño, pruebas, firmware y proveedores locales.",
+  "objeto": "Establecer criterios de valor agregado tecnológico, planes de desarrollo de proveedores y obligaciones de información y evaluación para la manufactura electrónica en las ZEEP.",
+  "articulado": [
+   {
+    "n": "Artículo 1",
+    "titulo": "Objeto",
+    "texto": "La presente ley tiene por objeto establecer criterios de valor agregado tecnológico, planes de desarrollo de proveedores y obligaciones de información y evaluación aplicables a las actividades de manufactura y ensamblaje de aparatos eléctricos y electrónicos, sus componentes y dispositivos, que se desarrollen en las Zonas Económicas Especiales Privadas (ZEEP) reguladas por la Ley 32449."
+   },
+   {
+    "n": "Artículo 2",
+    "titulo": "Ámbito",
+    "texto": "La presente ley se aplica a los usuarios de las ZEEP que soliciten la acreditación de procesos de manufactura o ensamblaje de aparatos eléctricos y electrónicos, tarjetas y módulos electrónicos, equipos de telecomunicaciones, equipos informáticos, sensores, baterías y sus componentes, conforme a la clasificación que establezca el reglamento."
+   },
+   {
+    "n": "Artículo 3",
+    "titulo": "Criterios mínimos de acreditación del valor agregado",
+    "texto": "3.1 Para la acreditación prevista en el artículo 4 de la Ley 32449, el Ministerio de la Producción, en coordinación con el Ministerio de Comercio Exterior y Turismo, aprueba una matriz de procesos de manufactura electrónica que distinga niveles de transformación, considerando, entre otros: montaje superficial de componentes en tarjetas, pruebas funcionales y de calidad, programación y validación de firmware, integración y calibración de sistemas, y actividades de diseño e ingeniería. 3.2 No se consideran por sí mismos procesos que generan valor agregado el reempaque, el etiquetado, la simple unión de partes de conjuntos completos importados ni las operaciones que no alteren la naturaleza del producto, conforme al reglamento. 3.3 La matriz se publica y actualiza cada tres años."
+   },
+   {
+    "n": "Artículo 4",
+    "titulo": "Plan de desarrollo de proveedores y transferencia tecnológica",
+    "texto": "4.1 Los usuarios comprendidos en el artículo 2 presentan, junto con su solicitud de acreditación, un plan de desarrollo de proveedores y transferencia tecnológica con metas indicativas sobre compras a proveedores nacionales, formación de personal técnico y actividades de ingeniería o investigación realizadas en el país. 4.2 El incumplimiento de las metas indicativas no genera sanción, pero se informa en el reporte anual previsto en el artículo 6 y se considera en la renovación de la acreditación conforme al reglamento."
+   },
+   {
+    "n": "Artículo 5",
+    "titulo": "Laboratorios de ensayo y certificación",
+    "texto": "El Instituto Nacional de Calidad (INACAL), en el marco de la Ley 30224, promueve la acreditación de laboratorios públicos y privados de ensayo en compatibilidad electromagnética, seguridad eléctrica y eficiencia energética, y la adopción de normas técnicas peruanas armonizadas con normas internacionales aplicables a la manufactura electrónica."
+   },
+   {
+    "n": "Artículo 6",
+    "titulo": "Reporte anual de resultados",
+    "texto": "6.1 Los usuarios comprendidos en el artículo 2 reportan anualmente al Ministerio de Comercio Exterior y Turismo el empleo directo generado, las exportaciones, las compras a proveedores nacionales, el gasto en investigación y desarrollo realizado en el país y el avance de su plan de desarrollo de proveedores. 6.2 El MINCETUR publica la información en forma agregada por sector y por ZEEP, en formato abierto, sin revelar información protegida por la reserva tributaria ni secretos comerciales."
+   },
+   {
+    "n": "Artículo 7",
+    "titulo": "Evaluación del gasto tributario",
+    "texto": "7.1 El Ministerio de Economía y Finanzas incluye en la estimación anual del gasto tributario que publica la información correspondiente al régimen de las ZEEP, desagregada por sector económico en la medida en que lo permita la reserva tributaria. 7.2 Cada cinco años, el MINCETUR, en coordinación con el MEF, publica una evaluación de resultados del régimen aplicado a la manufactura electrónica que compare el gasto tributario con el empleo, las exportaciones y el valor agregado generados. La evaluación puede encargarse a universidades o centros de investigación independientes."
+   },
+   {
+    "n": "Artículo 8",
+    "titulo": "Economía circular y seguridad de los dispositivos",
+    "texto": "Los productos fabricados o ensamblados en las ZEEP y destinados al mercado nacional se sujetan al régimen de responsabilidad extendida del productor de residuos de aparatos eléctricos y electrónicos previsto en el Decreto Legislativo 1278 y su normativa especial, y a los requisitos de seguridad digital de dispositivos conectados que establezca la normativa vigente o la que haga sus veces."
+   },
+   {
+    "n": "Artículo 9",
+    "titulo": "No creación de beneficios tributarios",
+    "texto": "La presente ley no crea, amplía ni prorroga beneficios tributarios o aduaneros. Respeta la estabilidad tributaria y aduanera de los operadores y usuarios ya autorizados en los términos del artículo 25 de la Ley 32449; los criterios del artículo 3 se aplican a las acreditaciones nuevas y a sus renovaciones."
+   },
+   {
+    "n": "Artículo 10",
+    "titulo": "Financiamiento",
+    "texto": "La implementación de la presente ley se financia con cargo al presupuesto institucional de las entidades involucradas, sin demandar recursos adicionales al Tesoro Público."
+   }
+  ],
+  "disposiciones": [
+   {
+    "tipo": "Complementaria Final",
+    "n": "Primera",
+    "texto": "Reglamentación. El Poder Ejecutivo adecúa el Reglamento de la Ley 32449, aprobado por el Decreto Supremo 005-2026-MINCETUR, en un plazo de noventa días hábiles contados desde la entrada en vigor de la presente ley, mediante decreto supremo refrendado por los Ministros de Comercio Exterior y Turismo, de la Producción y de Economía y Finanzas."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Segunda",
+    "texto": "Matriz de procesos. La primera matriz de procesos prevista en el artículo 3 se aprueba en un plazo de ciento veinte días hábiles contados desde la entrada en vigor del reglamento."
+   }
+  ],
+  "costo_beneficio": "El costo para el Estado es bajo: elaboración de la matriz de procesos, recepción y publicación de reportes y una evaluación quinquenal, estimados en S/ 0,5–1,5 millones anuales dentro de los presupuestos de PRODUCE, MINCETUR y el MEF. La ley no crea gasto tributario adicional; por el contrario, busca que el gasto tributario ya autorizado por la Ley 32449 se asocie a transformación efectiva y sea medible. Para las empresas, el costo es administrativo (plan y reporte anual). El beneficio es reducir el riesgo de que el régimen financie ensamblaje de bajo valor, generar información para evaluar su continuidad y orientar la manufactura electrónica hacia diseño, pruebas y proveedores locales.",
+  "efecto_vigencia": "Complementa la Ley 32449 y su Reglamento (Decreto Supremo 005-2026-MINCETUR), la Ley 30224 y el Decreto Legislativo 1278. No modifica tasas ni elementos de los tributos. No deroga normas.",
+  "normas_relacionadas": [
+   {
+    "norma": "Ley 32449, Ley que crea el tratamiento especial tributario y aduanero para las Zonas Económicas Especiales Privadas (ZEEP)",
+    "url": "https://busquedas.elperuano.pe/dispositivo/NL/2442532-2"
+   },
+   {
+    "norma": "Decreto Supremo 005-2026-MINCETUR, Reglamento de la Ley 32449",
+    "url": "https://busquedas.elperuano.pe/dispositivo/NL/2508485-1"
+   },
+   {
+    "norma": "Ley 30224, Ley que crea el Sistema Nacional para la Calidad y el Instituto Nacional de Calidad",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/30224.pdf"
+   },
+   {
+    "norma": "Decreto Legislativo 1278, Ley de Gestión Integral de Residuos Sólidos",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/DecretosLegislativos/01278.pdf"
+   }
+  ],
+  "antecedentes": "Según la API pública del SPLEY (consulta del 22-oct-2026): PL 14606/2025-CR, que complementa el régimen de la ZEEP de Chancay y crea un régimen de innovación tecnológica (en comisión); PL 09982/2024-CR, que fomenta la competitividad de las zonas económicas especiales (con dictamen). Ninguno establece criterios de valor agregado para manufactura electrónica.",
+  "referencias_internacionales": [
+   {
+    "pais": "Unión Europea",
+    "norma": "Reglamento (UE) 2023/1781, Ley Europea de Chips (medidas para el ecosistema de semiconductores)",
+    "url": "https://eur-lex.europa.eu/eli/reg/2023/1781/oj"
+   },
+   {
+    "pais": "Estados Unidos",
+    "norma": "Public Law 117-167 (incluye la CHIPS Act of 2022, con condiciones y reportes para los apoyos)",
+    "url": "https://www.govinfo.gov/app/details/PLAW-117publ167"
+   }
+  ],
+  "comision_sugerida": "Producción, Comercio Exterior y Turismo",
+  "comision_secundaria": "Economía, Banca, Finanzas e Inteligencia Financiera",
+  "plan2050": [
+   "industria",
+   "comercio-exterior-e-insercion-en-el-merc",
+   "innovacion"
+  ],
+  "ods": [
+   8,
+   9,
+   12
+  ],
+  "prioridad": "media",
+  "costo_fiscal": "bajo",
+  "plazo": "corto",
+  "indicador_exito": "A 2031, la matriz de procesos está vigente; el 100% de usuarios de ZEEP en manufactura electrónica reporta resultados anuales publicados en datos abiertos; y se ha publicado al menos una evaluación del gasto tributario del régimen para el sector.",
+  "tags": [
+   "ZEEP",
+   "manufactura electrónica",
+   "valor agregado",
+   "gasto tributario",
+   "proveedores"
+  ],
+  "fuentes": [
+   {
+    "titulo": "El Peruano: Ley 32449, ZEEP",
+    "url": "https://busquedas.elperuano.pe/dispositivo/NL/2442532-2"
+   },
+   {
+    "titulo": "El Peruano: Decreto Supremo 005-2026-MINCETUR, Reglamento de la Ley 32449",
+    "url": "https://busquedas.elperuano.pe/dispositivo/NL/2508485-1"
+   },
+   {
+    "titulo": "Plan Perú 2050, Comisión Capital del Conocimiento",
+    "url": "https://planperu2050.pe/c/capital-del-conocimiento.html"
+   },
+   {
+    "titulo": "Plan Perú 2050, Comisión Desarrollo Humano e Industrialización",
+    "url": "https://planperu2050.pe/c/industria.html"
+   }
+  ],
+  "implicados": {
+   "normas_modificadas": [
+    {
+     "norma": "Ley 32449, Ley que crea el tratamiento especial tributario y aduanero para las ZEEP",
+     "articulo": "arts. 4 y 25 (concordancia)",
+     "accion": "complementa",
+     "url": "https://busquedas.elperuano.pe/dispositivo/NL/2442532-2"
+    },
+    {
+     "norma": "Decreto Supremo 005-2026-MINCETUR, Reglamento de la Ley 32449",
+     "articulo": "adecuación (DCF Primera)",
+     "accion": "complementa",
+     "url": "https://busquedas.elperuano.pe/dispositivo/NL/2508485-1"
+    },
+    {
+     "norma": "Ley 30224, Sistema Nacional para la Calidad",
+     "articulo": "concordancia (art. 5)",
+     "accion": "complementa",
+     "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/30224.pdf"
+    },
+    {
+     "norma": "Decreto Legislativo 1278, Ley de Gestión Integral de Residuos Sólidos",
+     "articulo": "concordancia (art. 8)",
+     "accion": "complementa",
+     "url": "https://www.leyes.congreso.gob.pe/Documentos/DecretosLegislativos/01278.pdf"
+    }
+   ],
+   "entidades": [
+    {
+     "entidad": "Ministerio de Comercio Exterior y Turismo",
+     "sigla": "MINCETUR",
+     "sector": "Comercio Exterior y Turismo",
+     "rol": "rectora",
+     "responsabilidad": "Coaprueba la matriz (art. 3), recibe y publica reportes (art. 6) y conduce la evaluación quinquenal (art. 7.2)."
+    },
+    {
+     "entidad": "Ministerio de la Producción",
+     "sigla": "PRODUCE",
+     "sector": "Producción",
+     "rol": "reglamentadora",
+     "responsabilidad": "Aprueba la matriz de procesos de manufactura electrónica (art. 3.1)."
+    },
+    {
+     "entidad": "Ministerio de Economía y Finanzas",
+     "sigla": "MEF",
+     "sector": "MEF",
+     "rol": "consultiva",
+     "responsabilidad": "Desagrega el gasto tributario de las ZEEP (art. 7.1) y coordina la evaluación (art. 7.2)."
+    },
+    {
+     "entidad": "Instituto Nacional de Calidad",
+     "sigla": "INACAL",
+     "sector": "Producción",
+     "rol": "ejecutora",
+     "responsabilidad": "Promueve acreditación de laboratorios y normas técnicas (art. 5)."
+    },
+    {
+     "entidad": "Superintendencia Nacional de Aduanas y de Administración Tributaria",
+     "sigla": "SUNAT",
+     "sector": "MEF",
+     "rol": "consultiva",
+     "responsabilidad": "Provee al MEF información para la estimación del gasto tributario dentro de la reserva tributaria (art. 7.1)."
+    }
+   ],
+   "sujetos_obligados": "Usuarios de ZEEP que soliciten acreditación de procesos de manufactura o ensamblaje electrónico.",
+   "beneficiarios": "Proveedores nacionales de componentes y servicios, técnicos y profesionales en electrónica, y el Estado por la mejor evaluación del gasto tributario. No se cuantifica: aún no hay ZEEP operando con datos públicos de usuarios."
+  },
+  "impacto": {
+   "tipo": "neutro",
+   "costo_estado": {
+    "rango": "S/ 0,5–1,5 millones/año",
+    "horizonte": "anual",
+    "supuestos": "Estimación del editor: 2–4 especialistas en PRODUCE/MINCETUR para la matriz y el procesamiento de reportes (S/ 0,3–0,6 millones/año) y una evaluación quinquenal externa prorrateada (S/ 0,2–0,9 millones/año). No incluye gasto tributario, que deriva de la Ley 32449 y no de esta propuesta.",
+    "financiamiento": "Presupuesto institucional de los pliegos involucrados, sin demandar recursos adicionales al Tesoro Público y sujeto a disponibilidad presupuestal; requiere coordinación con el Poder Ejecutivo, fuente de financiamiento identificada e informe previo de sostenibilidad fiscal del MEF antes del dictamen (art. 79 de la Constitución; STC 00018-2023-PI/TC)."
+   },
+   "beneficio_estado": "Información para decidir la continuidad o ajuste del régimen y posible reducción de gasto tributario asociado a actividades de bajo valor agregado. No cuantificable con información pública.",
+   "beneficio_sociedad": "Empleo de mayor calificación y encadenamientos con proveedores locales si los usuarios desarrollan procesos de mayor nivel. No cuantificable.",
+   "inversion_privada": "No aplica como efecto directo; orienta la composición de la inversión atraída por la Ley 32449.",
+   "costo_privado": "Bajo: elaboración del plan de proveedores y reporte anual.",
+   "riesgos": "Que criterios exigentes desalienten inversiones (mitigado con niveles de transformación y metas indicativas); conflicto con la estabilidad del art. 25 de la Ley 32449 (mitigado al aplicarse solo a acreditaciones nuevas y renovaciones); retraso en la desagregación del gasto tributario por reserva.",
+   "confianza": "media"
+  },
+  "revision_atendida": []
+ },
+ {
+  "id": "SOB-03",
+  "eje": "sober",
+  "titulo": "Ley que modifica la Ley 30740, Ley que regula el uso y las operaciones de los sistemas de aeronaves pilotadas a distancia (RPAS), para habilitar las operaciones de emergencia y de aplicación agrícola, la identificación remota y la gestión digital del tránsito de aeronaves no tripuladas",
+  "titulo_corto": "Drones: emergencias, agro y tránsito",
+  "sumilla": "Modifica la Ley 30740 para crear un procedimiento expedito de operación de drones en emergencias declaradas, regular la aplicación aérea agrícola con drones con intervención del SENASA, exigir identificación remota gradual, habilitar servicios de gestión digital del tránsito de drones y tipificar en la ley las principales infracciones.",
+  "problema": "La Ley 30740 (2018) regula las RPAS en siete artículos y remitió casi todo a la Dirección General de Aeronáutica Civil (DGAC), que durante años aplicó la Norma Técnica Complementaria NTC 001-2015 como marco transitorio. El 29 de mayo de 2026 se publicó el Decreto Supremo 012-2026-MTC, Reglamento de la Ley 30740, que introduce categorías de operación abierta, específica y certificada, licencias, registro y seguros; según análisis publicados en El Peruano, la plena aplicación de las categorías depende aún de la actualización de la NTC. El reglamento no regula de forma específica dos usos de alto impacto: la respuesta a emergencias por entidades del Sistema Nacional de Gestión del Riesgo de Desastres, que requieren despegar en minutos y no en días, y la aplicación aérea de plaguicidas y fertilizantes con drones, que involucra a la autoridad de sanidad agraria. Tampoco prevé la gestión digital del tránsito de drones (servicios tipo U-space/UTM) ni la identificación remota en vuelo, que son la base para operaciones más allá del alcance visual. Además, las infracciones de la Ley 30740 se remiten a normas reglamentarias, lo que es frágil frente al principio de tipicidad.",
+  "objeto": "Modificar la Ley 30740 para habilitar operaciones de emergencia y agrícolas, la identificación remota y la gestión digital del tránsito de RPAS, y tipificar sus infracciones principales.",
+  "articulado": [
+   {
+    "n": "Artículo 1",
+    "titulo": "Objeto",
+    "texto": "La presente ley tiene por objeto modificar la Ley 30740, Ley que regula el uso y las operaciones de los sistemas de aeronaves pilotadas a distancia (RPAS), para habilitar las operaciones en situaciones de emergencia y de aplicación aérea agrícola, establecer la identificación remota y la gestión digital del tránsito de aeronaves pilotadas a distancia y tipificar las infracciones principales."
+   },
+   {
+    "n": "Artículo 2",
+    "titulo": "Modificación del artículo 4 de la Ley 30740",
+    "texto": "Se modifica el artículo 4 de la Ley 30740, en los siguientes términos: \"Artículo 4. Registro de aeronaves pilotadas a distancia (RPA), de sistemas de aeronaves pilotadas a distancia (RPAS) y de sus propietarios. 4.1 La Dirección General de Aeronáutica Civil (DGAC) del Ministerio de Transportes y Comunicaciones constituye y administra un registro electrónico de las aeronaves pilotadas a distancia (RPA) y de sus propietarios, así como de los propietarios de los sistemas de aeronaves pilotadas a distancia (RPAS), cuya inscripción es gratuita y se realiza por medios digitales. 4.2 El registro es de acceso público respecto de la identificación de la aeronave, su categoría de operación y la vigencia de la inscripción. Los datos personales de los propietarios y pilotos se tratan conforme a la Ley 29733, Ley de Protección de Datos Personales, y solo se comunican a las autoridades aeronáuticas, policiales, de defensa, fiscales y judiciales en el ejercicio de sus funciones. 4.3 Los propietarios de dichas aeronaves y sistemas están obligados a registrarlos, bajo sanción conforme al artículo 6.\""
+   },
+   {
+    "n": "Artículo 3",
+    "titulo": "Incorporación de los artículos 4-A, 5-A y 5-B a la Ley 30740",
+    "texto": "Se incorporan los artículos 4-A, 5-A y 5-B a la Ley 30740, en los siguientes términos: \"Artículo 4-A. Identificación remota. 4-A.1 Las RPA que operen en las categorías específica y certificada transmiten durante el vuelo una señal de identificación remota que permita conocer, como mínimo, su número de registro, posición, altitud y la ubicación de la estación de pilotaje, conforme a las especificaciones que apruebe la DGAC en concordancia con los estándares de la Organización de Aviación Civil Internacional. 4-A.2 La información de identificación remota solo puede ser utilizada por las autoridades competentes para fines de seguridad operacional, seguridad pública y fiscalización. Artículo 5-A. Operaciones en situaciones de emergencia. 5-A.1 Las entidades integrantes del Sistema Nacional de Gestión del Riesgo de Desastres, el Cuerpo General de Bomberos Voluntarios del Perú y las personas que estas contraten pueden operar RPAS para búsqueda y rescate, evaluación de daños, monitoreo de peligros y apoyo logístico durante la vigencia de un estado de emergencia o de una emergencia declarada conforme a la Ley 29664, mediante comunicación previa electrónica a la DGAC y al proveedor de servicios de tránsito aéreo competente, sin requerir autorización previa, salvo en espacio aéreo controlado o en zonas prohibidas, donde la DGAC resuelve en un plazo máximo de dos horas. 5-A.2 Los pilotos deben contar con licencia vigente y la operación se sujeta a los protocolos de seguridad que apruebe la DGAC en coordinación con el Instituto Nacional de Defensa Civil. Artículo 5-B. Aplicación aérea agrícola con RPAS. 5-B.1 La aplicación aérea de plaguicidas, fertilizantes u otros insumos agrícolas mediante RPAS requiere licencia de operación en la categoría que corresponda emitida por la DGAC y el registro del aplicador ante el Servicio Nacional de Sanidad Agraria (SENASA), conforme a la normativa de plaguicidas de uso agrícola. 5-B.2 El SENASA establece las distancias de seguridad respecto de viviendas, centros educativos, cuerpos de agua y áreas naturales protegidas, y el registro electrónico de las aplicaciones realizadas.\""
+   },
+   {
+    "n": "Artículo 4",
+    "titulo": "Modificación del artículo 6 de la Ley 30740",
+    "texto": "Se modifica el artículo 6 de la Ley 30740, en los siguientes términos: \"Artículo 6. Infracciones y sanciones. 6.1 Constituyen infracciones: a) Leves: no portar la tarjeta de registro o no actualizar los datos del registro; b) Graves: operar una RPA no inscrita en el registro, operar sin la licencia exigible, operar sin la identificación remota exigible o sin el seguro obligatorio; c) Muy graves: operar en zonas prohibidas o restringidas sin autorización, poner en peligro la seguridad de las operaciones aéreas tripuladas, sobrevolar concentraciones de personas fuera de las condiciones autorizadas o realizar aplicaciones aéreas agrícolas sin el registro del SENASA. 6.2 Las infracciones leves se sancionan con amonestación o multa de hasta una (1) UIT; las graves, con multa de más de una (1) hasta cinco (5) UIT; y las muy graves, con multa de más de cinco (5) hasta veinte (20) UIT, suspensión o cancelación de la licencia y comiso de la RPA, según el reglamento. 6.3 La DGAC es competente para sancionar las infracciones aeronáuticas y el SENASA las relativas a la aplicación de insumos agrícolas, en el marco de los principios de la potestad sancionadora del Texto Único Ordenado de la Ley 27444, Ley del Procedimiento Administrativo General, aprobado por el Decreto Supremo 006-2026-JUS, sin que una misma conducta pueda ser sancionada dos veces cuando exista identidad de sujeto, hecho y fundamento. 6.4 Los daños causados al patrimonio cultural son sancionados por el Ministerio de Cultura. En caso de daños a terceros, se puede accionar por la vía civil o penal, según corresponda.\""
+   },
+   {
+    "n": "Artículo 5",
+    "titulo": "Modificación del artículo 7 de la Ley 30740",
+    "texto": "Se modifica el artículo 7 de la Ley 30740, en los siguientes términos: \"Artículo 7. Zonas geográficas para ensayos. En el reglamento de la presente ley se determinan las condiciones necesarias para fijar las zonas geográficas para ensayos de los sistemas de aeronaves pilotadas a distancia (RPAS) con el fin de promover la investigación científica y realizar pruebas para aplicaciones de nuevas tecnologías, incluidos los vuelos más allá del alcance visual, la entrega de carga ligera, la aplicación agrícola y los servicios de gestión digital del tránsito de aeronaves no tripuladas. La Dirección General de Aeronáutica Civil (DGAC) del Ministerio de Transportes y Comunicaciones otorga todas las facilidades a fin de emitir las licencias necesarias, que son gratuitas.\""
+   },
+   {
+    "n": "Artículo 6",
+    "titulo": "Incorporación del artículo 7-A a la Ley 30740",
+    "texto": "Se incorpora el artículo 7-A a la Ley 30740, en los siguientes términos: \"Artículo 7-A. Gestión digital del tránsito de aeronaves no tripuladas. 7-A.1 El Ministerio de Transportes y Comunicaciones, a través de la DGAC, establece el marco para la designación de espacios en los que las operaciones de RPAS se gestionen mediante servicios digitales de tránsito, que comprenden, como mínimo, la información de zonas geográficas, la autorización de vuelo, la identificación remota y la información de tránsito. 7-A.2 Dichos servicios pueden ser prestados por la Corporación Peruana de Aeropuertos y Aviación Comercial o por proveedores certificados por la DGAC, en condiciones no discriminatorias. 7-A.3 La DGAC publica, en formato digital abierto y actualizado, el mapa de zonas prohibidas, restringidas y peligrosas para RPAS, sin perjuicio de la reserva de la información calificada como secreta conforme a ley.\""
+   },
+   {
+    "n": "Artículo 7",
+    "titulo": "Protección de la privacidad",
+    "texto": "Las imágenes, videos y demás datos personales captados mediante RPAS se tratan conforme a la Ley 29733, Ley de Protección de Datos Personales, y su reglamento. La captación de datos de terceros en el marco de operaciones de emergencia se limita a la finalidad de la respuesta y se elimina o anonimiza al concluir la emergencia, salvo que deba conservarse por mandato legal."
+   },
+   {
+    "n": "Artículo 8",
+    "titulo": "Financiamiento",
+    "texto": "La implementación de la presente ley se financia con cargo al presupuesto institucional del Ministerio de Transportes y Comunicaciones, del SENASA y de las demás entidades involucradas, sin demandar recursos adicionales al Tesoro Público."
+   }
+  ],
+  "disposiciones": [
+   {
+    "tipo": "Complementaria Final",
+    "n": "Primera",
+    "texto": "Adecuación reglamentaria. El Poder Ejecutivo adecúa el Reglamento de la Ley 30740, aprobado por el Decreto Supremo 012-2026-MTC, en un plazo de ciento veinte días hábiles contados desde la entrada en vigor de la presente ley, mediante decreto supremo refrendado por los Ministros de Transportes y Comunicaciones y de Desarrollo Agrario y Riego."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Segunda",
+    "texto": "Protocolo de emergencias. La DGAC y el Instituto Nacional de Defensa Civil aprueban el protocolo de operaciones de emergencia previsto en el artículo 5-A dentro de los noventa días hábiles siguientes a la adecuación del reglamento."
+   },
+   {
+    "tipo": "Complementaria Transitoria",
+    "n": "Única",
+    "texto": "Gradualidad de la identificación remota. La obligación del artículo 4-A es exigible a los veinticuatro meses de aprobadas las especificaciones técnicas por la DGAC. Las RPA en operación pueden cumplirla mediante módulos adicionales de identificación."
+   }
+  ],
+  "costo_beneficio": "El costo para el Estado es bajo y principalmente único: adecuar el registro electrónico, publicar el mapa digital de zonas y aprobar especificaciones de identificación remota y protocolos, estimado en S/ 1–3 millones, dentro del presupuesto del MTC y del SENASA. La gestión digital del tránsito puede ser prestada por proveedores certificados, sin gasto obligatorio del Estado. Para los operadores, el costo es el módulo de identificación remota en las categorías específica y certificada. Los beneficios son respuesta más rápida en emergencias, reducción de riesgos de aplicación agrícola mal controlada para poblaciones y fuentes de agua, mejor fiscalización de vuelos ilícitos y condiciones para servicios más allá del alcance visual.",
+  "efecto_vigencia": "Modifica los artículos 4, 6 y 7 de la Ley 30740 e incorpora los artículos 4-A, 5-A, 5-B y 7-A. Obliga a adecuar el Reglamento aprobado por Decreto Supremo 012-2026-MTC. Complementa la Ley 27261, la Ley 29664 y la Ley 29733. No deroga normas.",
+  "normas_relacionadas": [
+   {
+    "norma": "Ley 30740, Ley que regula el uso y las operaciones de los sistemas de aeronaves pilotadas a distancia (RPAS)",
+    "url": "https://leyes.congreso.gob.pe/Documentos/2016_2021/ADLP/Normas_Legales/30740-LEY.pdf"
+   },
+   {
+    "norma": "Decreto Supremo 012-2026-MTC, Reglamento de la Ley 30740",
+    "url": "https://busquedas.elperuano.pe/dispositivo/NL/2520332-3"
+   },
+   {
+    "norma": "Ley 27261, Ley de Aeronáutica Civil del Perú",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/27261.pdf"
+   },
+   {
+    "norma": "Ley 29664, Ley que crea el Sistema Nacional de Gestión del Riesgo de Desastres (SINAGERD)",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/29664.pdf"
+   },
+   {
+    "norma": "Ley 29733, Ley de Protección de Datos Personales",
+    "url": "https://leyes.congreso.gob.pe/Documentos/Leyes/29733.pdf"
+   }
+  ],
+  "antecedentes": "Según la API pública del SPLEY (consulta del 22-oct-2026): Proposición 00434-2026-2031-CD, que incorpora la vigilancia aérea y el uso de naves no tripuladas en la lucha contra el crimen organizado (en comisión); PL 04874/2022-CR, sobre reconocimiento facial con cámaras y drones en Lima (con dictamen). No se identificaron proyectos sobre emergencias, aplicación agrícola o identificación remota de drones.",
+  "referencias_internacionales": [
+   {
+    "pais": "Unión Europea",
+    "norma": "Reglamento de Ejecución (UE) 2019/947, normas y procedimientos para la utilización de aeronaves no tripuladas",
+    "url": "https://eur-lex.europa.eu/eli/reg_impl/2019/947/oj"
+   },
+   {
+    "pais": "Unión Europea",
+    "norma": "Reglamento de Ejecución (UE) 2021/664, marco regulador del U-space",
+    "url": "https://eur-lex.europa.eu/eli/reg_impl/2021/664/oj"
+   }
+  ],
+  "comision_sugerida": "Infraestructura, Vivienda y Transportes",
+  "comision_secundaria": "Desarrollo Agrario",
+  "plan2050": [
+   "aeronautica",
+   "transportes",
+   "agricultura"
+  ],
+  "ods": [
+   2,
+   9,
+   11
+  ],
+  "prioridad": "media",
+  "costo_fiscal": "bajo",
+  "plazo": "corto",
+  "indicador_exito": "A 2031, el protocolo de emergencias está vigente y se reporta su uso en emergencias declaradas; el SENASA mantiene un registro electrónico de aplicadores y aplicaciones con drones; la DGAC publica el mapa digital de zonas y al menos un espacio con servicios digitales de tránsito opera en régimen de ensayo.",
+  "tags": [
+   "drones",
+   "RPAS",
+   "emergencias",
+   "agricultura",
+   "U-space",
+   "DGAC"
+  ],
+  "fuentes": [
+   {
+    "titulo": "El Peruano: Decreto Supremo 012-2026-MTC, Reglamento de la Ley 30740",
+    "url": "https://busquedas.elperuano.pe/dispositivo/NL/2520332-3"
+   },
+   {
+    "titulo": "El Peruano: Nuevo marco regulatorio de los drones en el Perú: avances y retos",
+    "url": "https://elperuano.pe/noticia/299385-nuevo-marco-regulatorio-de-los-drones-en-el-peru-avances-y-retos"
+   },
+   {
+    "titulo": "CMS: Nuevo Reglamento de RPAS, claves para operar drones en el Perú",
+    "url": "https://www.cms.law/en/per/publication/nuevo-reglamento-de-rpas-claves-para-operar-drones-en-el-peru"
+   },
+   {
+    "titulo": "SENASA: portal institucional",
+    "url": "https://www.gob.pe/senasa"
+   }
+  ],
+  "implicados": {
+   "normas_modificadas": [
+    {
+     "norma": "Ley 30740, Ley que regula el uso y las operaciones de los RPAS",
+     "articulo": "arts. 4, 6 y 7",
+     "accion": "modifica",
+     "url": "https://leyes.congreso.gob.pe/Documentos/2016_2021/ADLP/Normas_Legales/30740-LEY.pdf"
+    },
+    {
+     "norma": "Ley 30740, Ley que regula el uso y las operaciones de los RPAS",
+     "articulo": "arts. 4-A, 5-A, 5-B y 7-A",
+     "accion": "incorpora",
+     "url": "https://leyes.congreso.gob.pe/Documentos/2016_2021/ADLP/Normas_Legales/30740-LEY.pdf"
+    },
+    {
+     "norma": "Decreto Supremo 012-2026-MTC, Reglamento de la Ley 30740",
+     "articulo": "adecuación (DCF Primera)",
+     "accion": "complementa",
+     "url": "https://busquedas.elperuano.pe/dispositivo/NL/2520332-3"
+    },
+    {
+     "norma": "Ley 29664, Ley del SINAGERD",
+     "articulo": "concordancia (art. 5-A)",
+     "accion": "complementa",
+     "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/29664.pdf"
+    }
+   ],
+   "entidades": [
+    {
+     "entidad": "Ministerio de Transportes y Comunicaciones - Dirección General de Aeronáutica Civil",
+     "sigla": "MTC-DGAC",
+     "sector": "Transportes y Comunicaciones",
+     "rol": "rectora",
+     "responsabilidad": "Administra el registro electrónico (art. 4), aprueba especificaciones de identificación remota (art. 4-A), recibe comunicaciones de emergencia (art. 5-A), sanciona infracciones aeronáuticas (art. 6) y establece la gestión digital del tránsito y el mapa de zonas (art. 7-A)."
+    },
+    {
+     "entidad": "Servicio Nacional de Sanidad Agraria",
+     "sigla": "SENASA",
+     "sector": "Desarrollo Agrario y Riego",
+     "rol": "supervisora",
+     "responsabilidad": "Registra aplicadores con drones, fija distancias de seguridad y sanciona infracciones de aplicación agrícola (arts. 5-B y 6.3)."
+    },
+    {
+     "entidad": "Instituto Nacional de Defensa Civil",
+     "sigla": "INDECI",
+     "sector": "Defensa",
+     "rol": "consultiva",
+     "responsabilidad": "Coaprueba el protocolo de operaciones de emergencia (art. 5-A.2, DCF Segunda)."
+    },
+    {
+     "entidad": "Corporación Peruana de Aeropuertos y Aviación Comercial",
+     "sigla": "CORPAC",
+     "sector": "Transportes y Comunicaciones",
+     "rol": "ejecutora",
+     "responsabilidad": "Recibe comunicaciones de emergencia como proveedor de servicios de tránsito aéreo y puede prestar servicios digitales de tránsito (arts. 5-A y 7-A)."
+    },
+    {
+     "entidad": "Cuerpo General de Bomberos Voluntarios del Perú",
+     "sigla": "CGBVP",
+     "sector": "Interior",
+     "rol": "beneficiaria",
+     "responsabilidad": "Puede operar RPAS en emergencias con comunicación previa (art. 5-A)."
+    }
+   ],
+   "sujetos_obligados": "Propietarios y operadores de RPA y RPAS sujetos a la Ley 30740; aplicadores agrícolas con drones; entidades del SINAGERD que operen drones.",
+   "beneficiarios": "Entidades de respuesta a emergencias, productores agrícolas, poblaciones cercanas a zonas de aplicación y operadores de servicios con drones. No se cuenta con cifra oficial pública del número de drones registrados."
+  },
+  "impacto": {
+   "tipo": "neutro",
+   "costo_estado": {
+    "rango": "S/ 1–3 millones (único)",
+    "horizonte": "único",
+    "supuestos": "Estimación del editor: adecuación del registro electrónico y del mapa digital de zonas (desarrollo informático de 6–12 meses con 4–6 personas), especificaciones técnicas y protocolos; registro de aplicadores en SENASA sobre sus sistemas existentes. No incluye la operación de servicios digitales de tránsito, que pueden prestar terceros certificados.",
+    "financiamiento": "Presupuesto institucional de los pliegos involucrados, sin demandar recursos adicionales al Tesoro Público y sujeto a disponibilidad presupuestal; requiere coordinación con el Poder Ejecutivo, fuente de financiamiento identificada e informe previo de sostenibilidad fiscal del MEF antes del dictamen (art. 79 de la Constitución; STC 00018-2023-PI/TC)."
+   },
+   "beneficio_estado": "Mayor capacidad de fiscalización (identificación remota) y respuesta más rápida en emergencias; posible ahorro en evaluación de daños frente a medios tripulados. No cuantificable con información pública.",
+   "beneficio_sociedad": "Menor exposición de poblaciones a deriva de plaguicidas, servicios agrícolas de precisión y nuevos servicios logísticos. No cuantificable.",
+   "inversion_privada": "Proveedores de servicios digitales de tránsito y de aplicación agrícola con drones; monto no estimable.",
+   "costo_privado": "Módulo de identificación remota para categorías específica y certificada, registro ante SENASA para aplicadores y cumplimiento de distancias de seguridad.",
+   "riesgos": "Uso abusivo de la excepción de emergencia (mitigado con comunicación previa y protocolos); retraso de la DGAC en especificaciones; carga para pequeños operadores agrícolas.",
+   "confianza": "media"
+  },
+  "revision_atendida": []
+ },
+ {
+  "id": "SOB-04",
+  "eje": "sober",
+  "titulo": "Ley que establece la interoperabilidad, la transparencia de precios y el acceso abierto a la infraestructura de carga de vehículos eléctricos y reconoce el derecho a instalar puntos de carga en edificaciones",
+  "titulo_corto": "Carga eléctrica abierta e interoperable",
+  "sumilla": "Eleva a rango de ley reglas mínimas para la carga de vehículos eléctricos: protocolos abiertos, pago sin suscripción, precio visible por kWh, datos abiertos de puntos de carga, derecho del propietario a instalar un cargador en su estacionamiento y preinstalación en edificaciones nuevas, sin beneficios tributarios.",
+  "problema": "La infraestructura de carga para la movilidad eléctrica se rige por normas de rango reglamentario: el Decreto Supremo 022-2020-EM, que aprueba disposiciones sobre la infraestructura de carga y abastecimiento de energía eléctrica, y su reglamento, aprobado por el Decreto Supremo 036-2023-EM. Según la API pública del SPLEY, durante 2021-2026 se presentaron más de veinte proyectos de ley sobre electromovilidad (varios con dictamen) y ninguno fue publicado como ley; buena parte proponía beneficios tributarios, objetados por el Ministerio de Economía y Finanzas según reportes de prensa. Mientras tanto, quedan sin rango legal aspectos que no generan gasto fiscal pero sí determinan la adopción: que cualquier vehículo pueda cargar en cualquier punto público, que el usuario conozca el precio antes de cargar y pueda pagar sin afiliarse a una aplicación, que existan datos abiertos de ubicación y disponibilidad de cargadores, y que un propietario en un edificio pueda instalar un cargador en su estacionamiento sin veto arbitrario de la junta. La Agencia Internacional de Energía (Global EV Outlook 2025) documenta que la disponibilidad y confiabilidad de la carga pública es un determinante de la adopción; el Plan Perú 2050 plantea transporte y ciudades sostenibles.",
+  "objeto": "Establecer reglas de interoperabilidad, transparencia de precios, acceso abierto y datos de la infraestructura de carga de vehículos eléctricos y el derecho a instalar puntos de carga en edificaciones.",
+  "articulado": [
+   {
+    "n": "Artículo 1",
+    "titulo": "Objeto",
+    "texto": "La presente ley tiene por objeto establecer reglas de interoperabilidad, transparencia de precios, acceso abierto e información pública para la infraestructura de carga de vehículos eléctricos, y reconocer el derecho a instalar puntos de carga en edificaciones, en el marco del Decreto Supremo 022-2020-EM y su reglamento."
+   },
+   {
+    "n": "Artículo 2",
+    "titulo": "Definiciones",
+    "texto": "Para efectos de la presente ley se entiende por: a) Punto de carga de acceso público: infraestructura de carga ubicada en espacios abiertos al público, con independencia de la titularidad del predio; b) Operador del punto de carga: persona natural o jurídica responsable de la operación del punto de carga; c) Pago ad hoc: pago por una sesión de carga sin necesidad de suscripción, registro previo ni contrato con el operador."
+   },
+   {
+    "n": "Artículo 3",
+    "titulo": "Interoperabilidad",
+    "texto": "3.1 Los puntos de carga de acceso público que se instalen a partir de la vigencia del reglamento utilizan conectores conformes a las normas técnicas que establezca el Ministerio de Energía y Minas en coordinación con el Instituto Nacional de Calidad y protocolos de comunicación abiertos que permitan su gestión remota por distintos sistemas. 3.2 Los operadores no pueden restringir el acceso a sus puntos de carga de acceso público por la marca del vehículo."
+   },
+   {
+    "n": "Artículo 4",
+    "titulo": "Pago ad hoc y transparencia de precios",
+    "texto": "4.1 En los puntos de carga de acceso público el usuario puede pagar en modalidad ad hoc mediante al menos un medio de pago electrónico de uso general. 4.2 El operador informa, antes del inicio de la carga, el precio por kilovatio-hora y, de existir, los cargos por tiempo o por ocupación, en el punto de carga y por medios digitales. 4.3 Lo dispuesto en el presente artículo se aplica sin perjuicio de la Ley 29571, Código de Protección y Defensa del Consumidor."
+   },
+   {
+    "n": "Artículo 5",
+    "titulo": "Registro y datos abiertos de puntos de carga",
+    "texto": "5.1 Los operadores registran sus puntos de carga de acceso público en el registro que administre el Organismo Supervisor de la Inversión en Energía y Minería (OSINERGMIN) conforme a la normativa vigente o el que haga sus veces, con su ubicación, potencia, tipo de conector, horario y precio. 5.2 El OSINERGMIN publica dicha información en formato abierto y, para los puntos de carga de acceso público con potencia igual o superior a la que fije el reglamento, la disponibilidad en tiempo real, conforme al régimen de datos abiertos vigente o el que haga sus veces."
+   },
+   {
+    "n": "Artículo 6",
+    "titulo": "Derecho a instalar puntos de carga en edificaciones",
+    "texto": "6.1 En las edificaciones sujetas al régimen de unidades inmobiliarias de propiedad exclusiva y de propiedad común regulado por la Ley 27157, el propietario o poseedor de un estacionamiento de uso exclusivo puede instalar, a su costo, un punto de carga para uso propio, previa comunicación escrita a la junta de propietarios acompañada del proyecto suscrito por profesional habilitado. 6.2 La junta de propietarios solo puede oponerse dentro de los treinta días calendario siguientes a la comunicación, mediante acuerdo sustentado en un informe técnico que acredite riesgo para la seguridad o insuficiencia de la capacidad eléctrica no subsanable; en tal caso, propone la alternativa técnica. 6.3 El propietario asume los costos de instalación, consumo y mantenimiento y la responsabilidad por daños derivados de la instalación."
+   },
+   {
+    "n": "Artículo 7",
+    "titulo": "Preinstalación en edificaciones nuevas",
+    "texto": "El Ministerio de Vivienda, Construcción y Saneamiento incorpora en el Reglamento Nacional de Edificaciones la exigencia de canalizaciones y previsión de capacidad eléctrica para puntos de carga en un porcentaje de los estacionamientos de las edificaciones nuevas que determine el reglamento, de manera gradual y diferenciada según el tipo de edificación."
+   },
+   {
+    "n": "Artículo 8",
+    "titulo": "Baterías de tracción al final de su vida útil",
+    "texto": "El Ministerio del Ambiente incorpora las baterías de tracción de vehículos eléctricos entre los residuos sujetos al régimen de responsabilidad extendida del productor, conforme al Decreto Legislativo 1278, Ley de Gestión Integral de Residuos Sólidos, priorizando su reutilización, reciclaje y recuperación de materiales."
+   },
+   {
+    "n": "Artículo 9",
+    "titulo": "Infracciones y sanciones",
+    "texto": "9.1 Constituyen infracciones: a) Leve: no actualizar la información del registro; b) Grave: no informar previamente el precio, no permitir el pago ad hoc o restringir el acceso por marca del vehículo; c) Muy grave: operar puntos de carga de acceso público sin registro o sin cumplir las condiciones de seguridad eléctrica. 9.2 Las infracciones leves se sancionan con amonestación o multa de hasta una (1) UIT; las graves, con multa de más de una (1) hasta diez (10) UIT; y las muy graves, con multa de más de diez (10) hasta cincuenta (50) UIT. 9.3 El OSINERGMIN es competente respecto de las infracciones de seguridad, registro e interoperabilidad, y el Instituto Nacional de Defensa de la Competencia y de la Protección de la Propiedad Intelectual (INDECOPI) respecto de la información de precios y el pago, conforme a los principios de la potestad sancionadora del Texto Único Ordenado de la Ley 27444, aprobado por el Decreto Supremo 006-2026-JUS, y sin que una misma conducta sea sancionada dos veces cuando exista identidad de sujeto, hecho y fundamento."
+   },
+   {
+    "n": "Artículo 10",
+    "titulo": "No creación de beneficios tributarios",
+    "texto": "La presente ley no crea beneficios tributarios. Cualquier incentivo tributario a la movilidad eléctrica requiere ley expresa conforme a la Norma VII del Título Preliminar del Código Tributario, con informe previo del Ministerio de Economía y Finanzas."
+   },
+   {
+    "n": "Artículo 11",
+    "titulo": "Financiamiento",
+    "texto": "La implementación de la presente ley se financia con cargo al presupuesto institucional de las entidades involucradas, sin demandar recursos adicionales al Tesoro Público."
+   }
+  ],
+  "disposiciones": [
+   {
+    "tipo": "Complementaria Final",
+    "n": "Primera",
+    "texto": "Reglamentación. El Poder Ejecutivo adecúa el reglamento aprobado por el Decreto Supremo 036-2023-EM en un plazo de ciento veinte días hábiles contados desde la entrada en vigor de la presente ley, mediante decreto supremo refrendado por los Ministros de Energía y Minas, de Vivienda, Construcción y Saneamiento y del Ambiente."
+   },
+   {
+    "tipo": "Complementaria Transitoria",
+    "n": "Única",
+    "texto": "Puntos de carga existentes. Los puntos de carga de acceso público existentes se adecúan a lo dispuesto en los artículos 4 y 5 en un plazo de doce meses contados desde la entrada en vigor del reglamento; la obligación del artículo 3 se aplica a los puntos de carga nuevos o renovados."
+   }
+  ],
+  "costo_beneficio": "El costo para el Estado es bajo: OSINERGMIN amplía un registro y publica datos abiertos (estimado S/ 0,5–1,5 millones entre desarrollo y operación inicial) y el MVCS y el MINAM ajustan reglamentos existentes. La ley evita deliberadamente beneficios tributarios, principal objeción fiscal de los proyectos previos. Los costos privados recaen en los operadores (medio de pago ad hoc y conectividad) y en los constructores (canalizaciones en obra nueva, más baratas que la adecuación posterior). Los beneficios son menor incertidumbre para el usuario, competencia entre operadores, información para planificar la red eléctrica y menor conflicto en condominios.",
+  "efecto_vigencia": "Eleva a rango de ley reglas mínimas complementarias al Decreto Supremo 022-2020-EM y al Decreto Supremo 036-2023-EM; complementa la Ley 27157, la Ley 29571 y el Decreto Legislativo 1278. No deroga normas.",
+  "normas_relacionadas": [
+   {
+    "norma": "Decreto Supremo 022-2020-EM, disposiciones sobre la infraestructura de carga y abastecimiento de energía eléctrica para la movilidad eléctrica",
+    "url": "https://busquedas.elperuano.pe/dispositivo/NL/1879172-2"
+   },
+   {
+    "norma": "Decreto Supremo 036-2023-EM, Reglamento para la Instalación y Operación de la Infraestructura de Carga de la Movilidad Eléctrica",
+    "url": "https://busquedas.elperuano.pe/dispositivo/NL/2249540-3"
+   },
+   {
+    "norma": "Ley 27157, Ley de Regularización de Edificaciones, del Procedimiento para la Declaratoria de Fábrica y del Régimen de Unidades Inmobiliarias de Propiedad Exclusiva y de Propiedad Común",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/27157.pdf"
+   },
+   {
+    "norma": "Ley 29571, Código de Protección y Defensa del Consumidor",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/29571.pdf"
+   },
+   {
+    "norma": "Decreto Legislativo 1278, Ley de Gestión Integral de Residuos Sólidos",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/DecretosLegislativos/01278.pdf"
+   }
+  ],
+  "antecedentes": "Según la API pública del SPLEY (consulta del 22-oct-2026), en 2021-2026 se presentaron, entre otros, PL 01054/2021-CR, 03203/2022-CR (Ley General de Electromovilidad), 03448/2022-CR, 04852/2022-CR, 04903/2022-CR y 05188/2022-CR (todos con dictamen), PL 09367/2024-CR (red de puntos de carga; en Orden del Día) y PL 12396/2025-CR (vehículos pesados eléctricos; en comisión). Ninguno figura como publicado.",
+  "referencias_internacionales": [
+   {
+    "pais": "Unión Europea",
+    "norma": "Reglamento (UE) 2023/1804, relativo a la implantación de una infraestructura para los combustibles alternativos (pago ad hoc, transparencia de precios y datos)",
+    "url": "https://eur-lex.europa.eu/eli/reg/2023/1804/oj"
+   },
+   {
+    "pais": "Colombia",
+    "norma": "Ley 1964 de 2019, por medio de la cual se promueve el uso de vehículos eléctricos",
+    "url": "http://www.secretariasenado.gov.co/senado/basedoc/ley_1964_2019.html"
+   }
+  ],
+  "comision_sugerida": "Energía y Minas",
+  "comision_secundaria": "Infraestructura, Vivienda y Transportes",
+  "plan2050": [
+   "energia",
+   "transportes",
+   "ciudades-inteligentes"
+  ],
+  "ods": [
+   7,
+   11,
+   13
+  ],
+  "prioridad": "media",
+  "costo_fiscal": "bajo",
+  "plazo": "corto",
+  "indicador_exito": "A 2031, el 100% de los puntos de carga de acceso público registrados publica precio y ubicación en datos abiertos y permite pago ad hoc; el Reglamento Nacional de Edificaciones incluye la preinstalación; y las baterías de tracción están incorporadas al régimen de responsabilidad extendida del productor.",
+  "tags": [
+   "electromovilidad",
+   "infraestructura de carga",
+   "interoperabilidad",
+   "consumidor",
+   "datos abiertos"
+  ],
+  "fuentes": [
+   {
+    "titulo": "El Peruano: Decreto Supremo 022-2020-EM",
+    "url": "https://busquedas.elperuano.pe/dispositivo/NL/1879172-2"
+   },
+   {
+    "titulo": "El Peruano: Decreto Supremo 036-2023-EM",
+    "url": "https://busquedas.elperuano.pe/dispositivo/NL/2249540-3"
+   },
+   {
+    "titulo": "IEA, Global EV Outlook 2025",
+    "url": "https://www.iea.org/reports/global-ev-outlook-2025"
+   },
+   {
+    "titulo": "OSINERGMIN: portal institucional",
+    "url": "https://www.gob.pe/osinergmin"
+   }
+  ],
+  "implicados": {
+   "normas_modificadas": [
+    {
+     "norma": "Decreto Supremo 036-2023-EM, Reglamento para la Instalación y Operación de la Infraestructura de Carga",
+     "articulo": "adecuación (DCF Primera)",
+     "accion": "eleva_rango",
+     "url": "https://busquedas.elperuano.pe/dispositivo/NL/2249540-3"
+    },
+    {
+     "norma": "Ley 27157, régimen de unidades inmobiliarias de propiedad exclusiva y común",
+     "articulo": "regla especial (art. 6)",
+     "accion": "complementa",
+     "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/27157.pdf"
+    },
+    {
+     "norma": "Ley 29571, Código de Protección y Defensa del Consumidor",
+     "articulo": "concordancia (art. 4)",
+     "accion": "complementa",
+     "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/29571.pdf"
+    },
+    {
+     "norma": "Decreto Legislativo 1278, Ley de Gestión Integral de Residuos Sólidos",
+     "articulo": "responsabilidad extendida del productor (art. 8)",
+     "accion": "complementa",
+     "url": "https://www.leyes.congreso.gob.pe/Documentos/DecretosLegislativos/01278.pdf"
+    }
+   ],
+   "entidades": [
+    {
+     "entidad": "Ministerio de Energía y Minas",
+     "sigla": "MINEM",
+     "sector": "Energía y Minas",
+     "rol": "rectora",
+     "responsabilidad": "Fija conectores y protocolos (art. 3) y adecúa el reglamento (DCF Primera)."
+    },
+    {
+     "entidad": "Organismo Supervisor de la Inversión en Energía y Minería",
+     "sigla": "OSINERGMIN",
+     "sector": "PCM",
+     "rol": "supervisora",
+     "responsabilidad": "Administra el registro, publica datos abiertos (art. 5) y sanciona infracciones de seguridad, registro e interoperabilidad (art. 9)."
+    },
+    {
+     "entidad": "Instituto Nacional de Defensa de la Competencia y de la Protección de la Propiedad Intelectual",
+     "sigla": "INDECOPI",
+     "sector": "PCM",
+     "rol": "sancionadora",
+     "responsabilidad": "Sanciona infracciones de información de precios y pago (art. 9.3)."
+    },
+    {
+     "entidad": "Ministerio de Vivienda, Construcción y Saneamiento",
+     "sigla": "MVCS",
+     "sector": "Vivienda",
+     "rol": "reglamentadora",
+     "responsabilidad": "Incorpora la preinstalación en el Reglamento Nacional de Edificaciones (art. 7)."
+    },
+    {
+     "entidad": "Ministerio del Ambiente",
+     "sigla": "MINAM",
+     "sector": "Ambiente",
+     "rol": "reglamentadora",
+     "responsabilidad": "Incorpora las baterías de tracción al régimen de responsabilidad extendida del productor (art. 8)."
+    },
+    {
+     "entidad": "Instituto Nacional de Calidad",
+     "sigla": "INACAL",
+     "sector": "Producción",
+     "rol": "consultiva",
+     "responsabilidad": "Coordina normas técnicas de conectores (art. 3)."
+    }
+   ],
+   "sujetos_obligados": "Operadores de puntos de carga de acceso público; juntas de propietarios (art. 6); constructores de edificaciones nuevas (art. 7); productores e importadores de vehículos eléctricos respecto de baterías (art. 8).",
+   "beneficiarios": "Usuarios actuales y futuros de vehículos eléctricos, propietarios en condominios y operadores entrantes. No se dispone de una cifra oficial verificada del parque de vehículos eléctricos para cuantificar."
+  },
+  "impacto": {
+   "tipo": "neutro",
+   "costo_estado": {
+    "rango": "S/ 0,5–1,5 millones (único)",
+    "horizonte": "único",
+    "supuestos": "Estimación del editor: ampliación del registro y portal de datos abiertos de OSINERGMIN (desarrollo de 6–9 meses con 3–5 personas) y ajustes reglamentarios en MINEM, MVCS y MINAM con personal existente.",
+    "financiamiento": "Presupuesto institucional de los pliegos involucrados, sin demandar recursos adicionales al Tesoro Público y sujeto a disponibilidad presupuestal; requiere coordinación con el Poder Ejecutivo, fuente de financiamiento identificada e informe previo de sostenibilidad fiscal del MEF antes del dictamen (art. 79 de la Constitución; STC 00018-2023-PI/TC)."
+   },
+   "beneficio_estado": "Información para planificar redes de distribución y políticas de movilidad; ningún gasto tributario. No cuantificable con información pública.",
+   "beneficio_sociedad": "Menores barreras de uso, competencia de precios, menos conflictos en condominios y menor costo de adecuación futura de edificios. No cuantificable.",
+   "inversion_privada": "Puede facilitar la inversión de operadores de carga al reducir incertidumbre regulatoria; monto no estimable.",
+   "costo_privado": "Medios de pago ad hoc y conectividad en cargadores públicos; canalizaciones en edificaciones nuevas; gestión de baterías al final de su vida útil.",
+   "riesgos": "Exigencias técnicas que encarezcan cargadores en zonas de baja demanda (mitigado con gradualidad y umbral de potencia); conflictos en juntas de propietarios; retraso de la norma de responsabilidad extendida.",
+   "confianza": "media"
+  },
+  "revision_atendida": []
+ },
+ {
+  "id": "SOB-05",
+  "eje": "sober",
+  "titulo": "Ley que regula los biobancos y el tratamiento de muestras biológicas y datos genéticos humanos con fines de investigación y salud pública",
+  "titulo_corto": "Biobancos y datos genéticos",
+  "sumilla": "Crea un registro público de biobancos a cargo del INS, fija reglas de consentimiento, seudonimización, transferencia internacional y participación de pueblos indígenas para muestras y datos genéticos humanos, prohíbe la discriminación genética en el empleo y los seguros, y tipifica infracciones, sin afectar la moratoria de OVM vigente.",
+  "problema": "La investigación genómica y la medicina de precisión dependen de colecciones de muestras biológicas y datos genéticos, pero el Perú no cuenta con una ley específica sobre biobancos. Las reglas están dispersas en la Ley 26842, Ley General de Salud, en la normativa de ensayos clínicos y en el régimen de protección de datos personales: el Reglamento de la Ley 29733, aprobado por el Decreto Supremo 016-2024-JUS, califica los datos genéticos como datos sensibles (art. 2, num. 6), pero no regula el ciclo de vida de las muestras, el consentimiento para usos futuros, la transferencia de material al extranjero, la devolución de hallazgos ni la participación en beneficios de los pueblos indígenas cuyas muestras se estudian. Tampoco existe una prohibición legal expresa de usar información genética para decidir contrataciones laborales o primas de seguros. En el periodo 2021-2026 se presentó el PL 10388/2024-CR, que declaraba de interés nacional la creación de un banco nacional de datos genéticos (en comisión), sin régimen de garantías. El Plan Perú 2050 identifica la biotecnología y la biodiversidad como áreas de especialización inteligente (Capital del Conocimiento). Un marco claro protege a los participantes y, al mismo tiempo, da seguridad jurídica a la investigación nacional y a la cooperación internacional.",
+  "objeto": "Regular la constitución y funcionamiento de los biobancos y el tratamiento de muestras biológicas y datos genéticos humanos con fines de investigación y salud pública, con garantías para sus titulares.",
+  "articulado": [
+   {
+    "n": "Artículo 1",
+    "titulo": "Objeto",
+    "texto": "La presente ley tiene por objeto regular la constitución, el registro y el funcionamiento de los biobancos, así como la obtención, conservación, uso, transferencia y eliminación de muestras biológicas humanas y de los datos genéticos asociados, con fines de investigación y salud pública, garantizando la dignidad, la intimidad, la autodeterminación informativa y la no discriminación de las personas."
+   },
+   {
+    "n": "Artículo 2",
+    "titulo": "Ámbito",
+    "texto": "2.1 La presente ley se aplica a los biobancos y colecciones de muestras biológicas humanas, públicos y privados, que conserven muestras o datos genéticos para investigación o salud pública. 2.2 Se excluyen las bases de datos genéticos con fines forenses o de investigación criminal, los bancos de sangre, de células y tejidos con fines de trasplante o terapéuticos y las muestras de uso exclusivamente asistencial, que se rigen por su normativa especial. 2.3 La presente ley no regula los organismos vivos modificados; la moratoria establecida por la Ley 29811, ampliada por la Ley 31111 hasta el 31 de diciembre de 2035, se mantiene en sus términos."
+   },
+   {
+    "n": "Artículo 3",
+    "titulo": "Registro Nacional de Biobancos",
+    "texto": "3.1 El Instituto Nacional de Salud (INS) administra el Registro Nacional de Biobancos, de acceso público, en el que se inscriben los biobancos y colecciones comprendidos en el artículo 2 antes de iniciar actividades. 3.2 Para la inscripción se acredita: responsable técnico, comité de ética en investigación registrado, protocolos de calidad y bioseguridad, política de acceso a muestras y datos, y medidas de seguridad de la información. 3.3 El registro publica la naturaleza de las colecciones, las finalidades y las transferencias internacionales autorizadas, sin datos personales de los participantes."
+   },
+   {
+    "n": "Artículo 4",
+    "titulo": "Consentimiento informado",
+    "texto": "4.1 La obtención de muestras y datos genéticos para investigación requiere consentimiento previo, libre, expreso, informado y por escrito o por medio digital verificable. 4.2 El consentimiento puede ser específico para un proyecto o amplio para investigaciones futuras en un área determinada; en este último caso, cada nuevo uso requiere aprobación de un comité de ética en investigación y se informa a los participantes por medios accesibles. 4.3 El titular puede revocar su consentimiento en cualquier momento, con efecto de destrucción o anonimización de la muestra y de sus datos, salvo respecto de resultados ya publicados en forma anonimizada. 4.4 El titular decide si desea o no conocer hallazgos genéticos relevantes para su salud; los hallazgos se comunican con consejería genética."
+   },
+   {
+    "n": "Artículo 5",
+    "titulo": "Seudonimización y prohibición de reidentificación",
+    "texto": "5.1 Los biobancos conservan las muestras y datos genéticos seudonimizados, con separación de la clave de identificación y control de accesos con bitácora. 5.2 Está prohibido reidentificar o intentar reidentificar a los titulares a partir de muestras o datos anonimizados o seudonimizados, salvo por el propio biobanco para fines previstos en el consentimiento. 5.3 Los datos genéticos son datos sensibles y su tratamiento se rige, además, por la Ley 29733, Ley de Protección de Datos Personales, y su reglamento."
+   },
+   {
+    "n": "Artículo 6",
+    "titulo": "Prohibición de discriminación genética",
+    "texto": "6.1 Los empleadores no pueden solicitar, obtener ni utilizar información genética de postulantes o trabajadores para decisiones de contratación, permanencia, promoción o remuneración. 6.2 Las empresas de seguros no pueden exigir pruebas genéticas ni utilizar información genética para denegar la cobertura o fijar primas en seguros de salud y de vida. 6.3 Lo dispuesto en el presente artículo no impide el uso de información genética que el titular aporte voluntariamente para su propio beneficio, conforme al reglamento."
+   },
+   {
+    "n": "Artículo 7",
+    "titulo": "Transferencia internacional de muestras y datos",
+    "texto": "7.1 La transferencia de muestras o datos genéticos al extranjero requiere: aprobación del comité de ética, un acuerdo de transferencia de material que establezca la finalidad, la prohibición de cesión a terceros no autorizados, la titularidad de resultados y la participación de investigadores peruanos, y su comunicación al Registro Nacional de Biobancos. 7.2 El flujo transfronterizo de datos personales se sujeta a la Ley 29733 y su reglamento. 7.3 El biobanco conserva una alícuota o copia de los datos en el país cuando ello sea técnicamente posible."
+   },
+   {
+    "n": "Artículo 8",
+    "titulo": "Investigación con pueblos indígenas u originarios",
+    "texto": "8.1 La investigación que obtenga muestras de miembros de pueblos indígenas u originarios requiere, además del consentimiento individual, el acuerdo previo de sus organizaciones representativas, obtenido de buena fe y en su lengua, y la devolución de resultados en forma comprensible. 8.2 Los acuerdos de transferencia prevén la participación justa y equitativa en los beneficios derivados, en concordancia con la Ley 27811 y los tratados vigentes."
+   },
+   {
+    "n": "Artículo 9",
+    "titulo": "Acceso controlado para la investigación",
+    "texto": "Los datos genómicos producidos con financiamiento público se depositan en repositorios de acceso controlado administrados conforme al régimen de entornos seguros de acceso a datos que establezca la normativa vigente o el que haga sus veces, de modo que investigadores acreditados puedan reutilizarlos bajo condiciones de seguridad y sin reidentificación."
+   },
+   {
+    "n": "Artículo 10",
+    "titulo": "Infracciones y sanciones",
+    "texto": "10.1 Constituyen infracciones: a) Graves: operar un biobanco o colección sin inscripción en el registro, no comunicar transferencias internacionales o no contar con aprobación de comité de ética; b) Muy graves: transferir muestras o datos sin acuerdo de transferencia, reidentificar o intentar reidentificar a titulares, o utilizar información genética con fines discriminatorios prohibidos por el artículo 6. 10.2 Las infracciones graves se sancionan con multa de hasta veinte (20) UIT y las muy graves con multa de más de veinte (20) hasta cien (100) UIT, además de la suspensión o cancelación de la inscripción. 10.3 El INS sanciona las infracciones relativas al registro, la ética y las transferencias; la Autoridad Nacional de Protección de Datos Personales, las relativas al tratamiento de datos personales; la Superintendencia de Banca, Seguros y AFP supervisa el cumplimiento del artículo 6.2 por las empresas de seguros en el marco de sus competencias; y la Superintendencia Nacional de Fiscalización Laboral, el del artículo 6.1. Se aplican los principios de la potestad sancionadora del Texto Único Ordenado de la Ley 27444, aprobado por el Decreto Supremo 006-2026-JUS, sin que una misma conducta sea sancionada dos veces cuando exista identidad de sujeto, hecho y fundamento."
+   },
+   {
+    "n": "Artículo 11",
+    "titulo": "Financiamiento",
+    "texto": "La implementación de la presente ley se financia con cargo al presupuesto institucional del INS y de las demás entidades involucradas, sin demandar recursos adicionales al Tesoro Público."
+   }
+  ],
+  "disposiciones": [
+   {
+    "tipo": "Complementaria Final",
+    "n": "Primera",
+    "texto": "Reglamentación. El Poder Ejecutivo reglamenta la presente ley en un plazo de ciento veinte días hábiles contados desde su entrada en vigor, mediante decreto supremo refrendado por los Ministros de Salud y de Justicia y Derechos Humanos."
+   },
+   {
+    "tipo": "Complementaria Transitoria",
+    "n": "Única",
+    "texto": "Adecuación de colecciones existentes. Los biobancos y colecciones existentes se inscriben en el registro en un plazo de dieciocho meses contados desde la entrada en vigor del reglamento. Las muestras obtenidas antes de la vigencia de la presente ley pueden seguir utilizándose conforme al consentimiento otorgado; para usos no comprendidos en él se requiere aprobación de un comité de ética, que puede dispensar un nuevo consentimiento cuando sea imposible o desproporcionado obtenerlo y se garantice la seudonimización."
+   }
+  ],
+  "costo_beneficio": "El costo para el Estado es bajo: el INS habilita un registro electrónico y funciones de supervisión con su estructura existente (estimado S/ 0,5–1,5 millones anuales). Para los biobancos, el costo es de cumplimiento (seudonimización, control de accesos, comités de ética), en buena medida ya exigido por buenas prácticas internacionales. Los beneficios son confianza de los participantes, seguridad jurídica para la investigación y la cooperación internacional, protección contra la discriminación genética y retorno de beneficios a comunidades. No modifica la Ley 26702 ni crea organismos nuevos.",
+  "efecto_vigencia": "Complementa la Ley 26842, la Ley 29733 y su Reglamento (Decreto Supremo 016-2024-JUS) y la Ley 27811. No modifica la Ley 29811 ni la Ley 31111. No modifica la Ley 26702: la supervisión de la SBS se ejerce en el marco de sus competencias vigentes. No deroga normas.",
+  "normas_relacionadas": [
+   {
+    "norma": "Ley 26842, Ley General de Salud",
+    "url": "https://leyes.congreso.gob.pe/Documentos/Leyes/26842.pdf"
+   },
+   {
+    "norma": "Ley 29733, Ley de Protección de Datos Personales",
+    "url": "https://leyes.congreso.gob.pe/Documentos/Leyes/29733.pdf"
+   },
+   {
+    "norma": "Decreto Supremo 016-2024-JUS, Reglamento de la Ley 29733",
+    "url": "https://www3.congreso.gob.pe/Docs/DGP/DIDP/files/ds_016-2024-jus.pdf"
+   },
+   {
+    "norma": "Ley 27811, Ley que establece el régimen de protección de los conocimientos colectivos de los pueblos indígenas vinculados a los recursos biológicos",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/27811.pdf"
+   },
+   {
+    "norma": "Ley 29811, Ley que establece la moratoria al ingreso y producción de organismos vivos modificados",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/29811.pdf"
+   }
+  ],
+  "antecedentes": "Según la API pública del SPLEY (consulta del 22-oct-2026): PL 10388/2024-CR, que declara de interés nacional la creación del Banco Nacional de Datos Genéticos (en comisión), y PL 10443/2024-CR, de igual materia (retirado por su autor); PL 11262/2024-CR, sobre células progenitoras con fines terapéuticos y de investigación (en agenda del Pleno); PL 11776/2024-CR, Ley de promoción de la biotecnología (Orden del Día).",
+  "referencias_internacionales": [
+   {
+    "pais": "España",
+    "norma": "Ley 14/2007, de 3 de julio, de Investigación biomédica (régimen de biobancos)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2007-12945"
+   },
+   {
+    "pais": "UNESCO",
+    "norma": "Declaración Internacional sobre los Datos Genéticos Humanos (2003)",
+    "url": "https://www.unesco.org/en/legal-affairs/international-declaration-human-genetic-data"
+   },
+   {
+    "pais": "Estados Unidos",
+    "norma": "Genetic Information Nondiscrimination Act (GINA), Título II (empleo)",
+    "url": "https://www.eeoc.gov/genetic-information-discrimination"
+   }
+  ],
+  "comision_sugerida": "Salud",
+  "comision_secundaria": "Ciencia, Innovación Tecnológica y Sociedad Digital",
+  "plan2050": [
+   "biotecnologia",
+   "salud",
+   "ciencia-y-tecnologia"
+  ],
+  "ods": [
+   3,
+   9,
+   16
+  ],
+  "prioridad": "media",
+  "costo_fiscal": "bajo",
+  "plazo": "mediano",
+  "indicador_exito": "A 2031, el Registro Nacional de Biobancos está operativo y público con las colecciones existentes inscritas; el 100% de transferencias internacionales de muestras se comunica al registro; y no se registran sanciones firmes por discriminación genética sin respuesta de la autoridad.",
+  "tags": [
+   "biobancos",
+   "genómica",
+   "datos genéticos",
+   "bioética",
+   "pueblos indígenas"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Decreto Supremo 016-2024-JUS, Reglamento de la Ley 29733 (art. 2, datos sensibles)",
+    "url": "https://www3.congreso.gob.pe/Docs/DGP/DIDP/files/ds_016-2024-jus.pdf"
+   },
+   {
+    "titulo": "Instituto Nacional de Salud: portal institucional",
+    "url": "https://www.gob.pe/ins"
+   },
+   {
+    "titulo": "Centro de Intercambio de Información sobre Seguridad de la Biotecnología del Perú (MINAM)",
+    "url": "https://bioseguridad.minam.gob.pe/"
+   },
+   {
+    "titulo": "Plan Perú 2050, Comisión Capital del Conocimiento",
+    "url": "https://planperu2050.pe/c/capital-del-conocimiento.html"
+   }
+  ],
+  "implicados": {
+   "normas_modificadas": [
+    {
+     "norma": "Ley 26842, Ley General de Salud",
+     "articulo": "concordancia (investigación en salud)",
+     "accion": "complementa",
+     "url": "https://leyes.congreso.gob.pe/Documentos/Leyes/26842.pdf"
+    },
+    {
+     "norma": "Ley 29733, Ley de Protección de Datos Personales",
+     "articulo": "datos sensibles y flujo transfronterizo (arts. 5 y 7 de la propuesta)",
+     "accion": "complementa",
+     "url": "https://leyes.congreso.gob.pe/Documentos/Leyes/29733.pdf"
+    },
+    {
+     "norma": "Decreto Supremo 016-2024-JUS, Reglamento de la Ley 29733",
+     "articulo": "art. 2, num. 6 (datos sensibles)",
+     "accion": "eleva_rango",
+     "url": "https://www3.congreso.gob.pe/Docs/DGP/DIDP/files/ds_016-2024-jus.pdf"
+    },
+    {
+     "norma": "Ley 27811, régimen de protección de conocimientos colectivos",
+     "articulo": "concordancia (art. 8)",
+     "accion": "complementa",
+     "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/27811.pdf"
+    }
+   ],
+   "entidades": [
+    {
+     "entidad": "Instituto Nacional de Salud",
+     "sigla": "INS",
+     "sector": "Salud",
+     "rol": "rectora",
+     "responsabilidad": "Administra el Registro Nacional de Biobancos (art. 3), recibe comunicaciones de transferencias (art. 7) y sanciona infracciones de registro, ética y transferencias (art. 10)."
+    },
+    {
+     "entidad": "Ministerio de Salud",
+     "sigla": "MINSA",
+     "sector": "Salud",
+     "rol": "reglamentadora",
+     "responsabilidad": "Refrenda el reglamento (DCF Primera)."
+    },
+    {
+     "entidad": "Autoridad Nacional de Protección de Datos Personales",
+     "sigla": "ANPD",
+     "sector": "MINJUSDH",
+     "rol": "sancionadora",
+     "responsabilidad": "Sanciona infracciones de tratamiento de datos genéticos (art. 10.3)."
+    },
+    {
+     "entidad": "Superintendencia de Banca, Seguros y AFP",
+     "sigla": "SBS",
+     "sector": "Organismo constitucional autónomo",
+     "rol": "supervisora",
+     "responsabilidad": "Supervisa la prohibición de discriminación genética en seguros (art. 6.2) dentro de sus competencias."
+    },
+    {
+     "entidad": "Superintendencia Nacional de Fiscalización Laboral",
+     "sigla": "SUNAFIL",
+     "sector": "Trabajo",
+     "rol": "supervisora",
+     "responsabilidad": "Fiscaliza la prohibición de discriminación genética en el empleo (art. 6.1)."
+    }
+   ],
+   "sujetos_obligados": "Biobancos y colecciones de muestras humanas públicos y privados con fines de investigación o salud pública (universidades, institutos, hospitales, empresas); empleadores y empresas de seguros respecto del art. 6.",
+   "beneficiarios": "Participantes en investigación, pueblos indígenas, investigadores nacionales y el sistema de salud. No existe un censo público de biobancos que permita cuantificar."
+  },
+  "impacto": {
+   "tipo": "neutro",
+   "costo_estado": {
+    "rango": "S/ 0,5–1,5 millones/año",
+    "horizonte": "anual",
+    "supuestos": "Estimación del editor: registro electrónico y 3–6 especialistas en el INS para inscripción y supervisión; la ANPD, SBS y SUNAFIL actúan con sus estructuras existentes.",
+    "financiamiento": "Presupuesto institucional de los pliegos involucrados, sin demandar recursos adicionales al Tesoro Público y sujeto a disponibilidad presupuestal; requiere coordinación con el Poder Ejecutivo, fuente de financiamiento identificada e informe previo de sostenibilidad fiscal del MEF antes del dictamen (art. 79 de la Constitución; STC 00018-2023-PI/TC)."
+   },
+   "beneficio_estado": "Mayor capacidad de supervisión ética y de negociación en cooperación internacional; base para políticas de medicina de precisión. No cuantificable con información pública.",
+   "beneficio_sociedad": "Protección de la intimidad genética, no discriminación y retorno de beneficios a comunidades. No cuantificable.",
+   "inversion_privada": "Podría facilitar proyectos de investigación clínica y genómica que exigen marcos de gobernanza; monto no estimable.",
+   "costo_privado": "Inscripción, seudonimización, comités de ética y acuerdos de transferencia; moderado para colecciones pequeñas.",
+   "riesgos": "Carga excesiva para colecciones académicas pequeñas (mitigado con plazos de adecuación y reglas para muestras previas); conflicto de competencias entre INS y ANPD (mitigado con reparto expreso y non bis in idem).",
+   "confianza": "media"
+  },
+  "revision_atendida": []
+ },
+ {
+  "id": "SOB-06",
+  "eje": "sober",
+  "titulo": "Ley que establece la transición de las entidades públicas a la criptografía resistente a la computación cuántica y promueve la investigación en tecnologías cuánticas",
+  "titulo_corto": "Criptografía poscuántica en el Estado",
+  "sumilla": "Encarga a la Secretaría de Gobierno y Transformación Digital una hoja de ruta nacional de migración a criptografía poscuántica, obliga a las entidades a inventariar sus usos de criptografía de clave pública, incorpora la agilidad criptográfica en las compras de tecnología, actualiza la infraestructura de firma digital y prioriza las tecnologías cuánticas en el Sinacti.",
+  "problema": "Los sistemas del Estado protegen información y firmas con criptografía de clave pública (RSA y curvas elípticas) que podría quedar vulnerable ante computadoras cuánticas suficientemente potentes; el riesgo es actual porque datos cifrados capturados hoy pueden descifrarse en el futuro ('capturar ahora, descifrar después'), lo que afecta información con valor de confidencialidad de largo plazo (salud, identidad, defensa, tributaria) y documentos firmados digitalmente que deben seguir siendo verificables por décadas. En agosto de 2024 el NIST de los Estados Unidos publicó los primeros estándares de criptografía poscuántica (FIPS 203 y FIPS 204, entre otros) y su borrador IR 8547 propone retirar progresivamente los algoritmos vulnerables; la Public Law 117-260 de los Estados Unidos obliga a las agencias federales a inventariar sus sistemas criptográficos. En el Perú, el Decreto Legislativo 1412 (Gobierno Digital), el Decreto de Urgencia 007-2020 (Marco de Confianza Digital) y la Ley 27269 (Firmas y Certificados Digitales) dan base institucional, pero no existe un inventario ni un plan de migración, y la migración de grandes sistemas toma años. Según la API del SPLEY, no hay proyectos de ley en 2021-2026 sobre tecnologías cuánticas o criptografía poscuántica.",
+  "objeto": "Establecer la transición planificada de las entidades públicas a la criptografía resistente a la computación cuántica y promover la investigación en tecnologías cuánticas.",
+  "articulado": [
+   {
+    "n": "Artículo 1",
+    "titulo": "Objeto",
+    "texto": "La presente ley tiene por objeto establecer la transición planificada de las entidades de la Administración Pública a algoritmos criptográficos resistentes a la computación cuántica y promover la investigación, el desarrollo y la formación en tecnologías cuánticas."
+   },
+   {
+    "n": "Artículo 2",
+    "titulo": "Ámbito",
+    "texto": "2.1 La presente ley se aplica a las entidades comprendidas en el artículo I del Título Preliminar del Texto Único Ordenado de la Ley 27444, aprobado por el Decreto Supremo 006-2026-JUS, y a los prestadores de servicios de certificación digital acreditados. 2.2 Los organismos constitucionalmente autónomos aplican la presente ley conforme a su autonomía y pueden adherirse a la hoja de ruta nacional mediante convenio con la Presidencia del Consejo de Ministros."
+   },
+   {
+    "n": "Artículo 3",
+    "titulo": "Hoja de ruta nacional de migración",
+    "texto": "3.1 La Presidencia del Consejo de Ministros, a través de la Secretaría de Gobierno y Transformación Digital, en su calidad de ente rector de la seguridad digital conforme al Decreto de Urgencia 007-2020 y al Decreto Legislativo 1412, aprueba la Hoja de Ruta Nacional de Migración a Criptografía Poscuántica, en coordinación con el Instituto Nacional de Defensa de la Competencia y de la Protección de la Propiedad Intelectual (INDECOPI), en su calidad de autoridad administrativa competente de la Infraestructura Oficial de Firma Electrónica, y con el Ministerio de Defensa. 3.2 La hoja de ruta establece los algoritmos y estándares recomendados con base en estándares internacionales abiertos, las fases de migración, los criterios de priorización y los mecanismos de seguimiento, y se actualiza cada dos años."
+   },
+   {
+    "n": "Artículo 4",
+    "titulo": "Inventario criptográfico",
+    "texto": "4.1 Cada entidad elabora y mantiene actualizado un inventario de los sistemas, servicios, certificados y dispositivos que emplean criptografía de clave pública, identificando los algoritmos, su función, el tiempo durante el cual la información protegida debe mantenerse confidencial y la dependencia de proveedores. 4.2 El inventario se remite a la Secretaría de Gobierno y Transformación Digital dentro de los dieciocho meses siguientes a la aprobación de la hoja de ruta y, en adelante, con periodicidad anual. 4.3 El inventario tiene carácter de información reservada en lo que pueda comprometer la seguridad de los sistemas, conforme al Texto Único Ordenado de la Ley 27806; la Secretaría publica únicamente indicadores agregados de avance."
+   },
+   {
+    "n": "Artículo 5",
+    "titulo": "Priorización",
+    "texto": "Las entidades priorizan la migración de: a) sistemas que protegen información con necesidad de confidencialidad por más de diez años; b) sistemas de identidad digital, firma digital y sellado de tiempo; c) servicios digitales que soporten infraestructuras críticas, conforme a la normativa vigente sobre activos críticos nacionales; y d) comunicaciones de seguridad y defensa nacional."
+   },
+   {
+    "n": "Artículo 6",
+    "titulo": "Agilidad criptográfica en las contrataciones",
+    "texto": "6.1 En las contrataciones de bienes y servicios de tecnología que incorporen funciones criptográficas, las entidades incluyen en los requerimientos la capacidad de actualizar los algoritmos sin sustitución integral del sistema y la compatibilidad con los estándares recomendados en la hoja de ruta, conforme a la Ley 32069, Ley General de Contrataciones Públicas, y su reglamento. 6.2 La Secretaría de Gobierno y Transformación Digital publica especificaciones de referencia para dicho fin."
+   },
+   {
+    "n": "Artículo 7",
+    "titulo": "Infraestructura Oficial de Firma Electrónica",
+    "texto": "7.1 El INDECOPI actualiza los requisitos de acreditación de las entidades de certificación y de los prestadores de servicios de valor añadido para incorporar algoritmos resistentes a la computación cuántica, una vez adoptados en la hoja de ruta, con periodos de transición que no afecten la validez de los certificados vigentes. 7.2 Los documentos firmados digitalmente conservan su validez jurídica; para su verificación a largo plazo se aplican mecanismos de preservación, resellado o refirma conforme al reglamento."
+   },
+   {
+    "n": "Artículo 8",
+    "titulo": "Metas indicativas",
+    "texto": "La hoja de ruta establece como meta indicativa que las entidades completen la migración de los sistemas comprendidos en los literales a) y b) del artículo 5 al año 2032 y del resto de sistemas priorizados al año 2035, sujeta a la programación multianual y a la disponibilidad presupuestal de cada entidad, aprovechando los ciclos ordinarios de renovación tecnológica."
+   },
+   {
+    "n": "Artículo 9",
+    "titulo": "Investigación y formación en tecnologías cuánticas",
+    "texto": "El Consejo Nacional de Ciencia, Tecnología e Innovación Tecnológica (CONCYTEC) incorpora las tecnologías cuánticas (computación, comunicaciones, sensores y criptografía) entre las áreas priorizadas del Sinacti y promueve la cooperación internacional, la formación de posgrado y el acceso de investigadores nacionales a infraestructura de cómputo cuántico, con cargo a los instrumentos existentes."
+   },
+   {
+    "n": "Artículo 10",
+    "titulo": "Informe anual",
+    "texto": "La Secretaría de Gobierno y Transformación Digital publica anualmente un informe con indicadores agregados de avance del inventario y de la migración, y lo remite a la Comisión de Ciencia, Innovación Tecnológica y Sociedad Digital de la Cámara de Diputados y a la comisión competente del Senado."
+   },
+   {
+    "n": "Artículo 11",
+    "titulo": "Financiamiento",
+    "texto": "La implementación de la presente ley se financia con cargo al presupuesto institucional de las entidades involucradas, sin demandar recursos adicionales al Tesoro Público y sujeta a disponibilidad presupuestal."
+   }
+  ],
+  "disposiciones": [
+   {
+    "tipo": "Complementaria Final",
+    "n": "Primera",
+    "texto": "Hoja de ruta. La Hoja de Ruta Nacional de Migración a Criptografía Poscuántica se aprueba mediante resolución de la Secretaría de Gobierno y Transformación Digital en un plazo de doce meses contados desde la entrada en vigor de la presente ley."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Segunda",
+    "texto": "Reglamentación. El Poder Ejecutivo reglamenta la presente ley en un plazo de ciento veinte días hábiles mediante decreto supremo refrendado por el Presidente del Consejo de Ministros."
+   }
+  ],
+  "costo_beneficio": "La ley ordena planificar y no impone un plazo cerrado de gasto: la migración se integra a los ciclos ordinarios de renovación tecnológica y las metas son indicativas. El costo identificable de corto plazo es el inventario criptográfico y la hoja de ruta (estimado S/ 3–9 millones en total). El costo de la migración no es cuantificable con información pública y será significativo en sistemas antiguos; postergarlo lo eleva, porque obliga a migraciones de emergencia. El beneficio es reducir el riesgo de exposición futura de datos de larga vida y preservar la validez de la firma digital del Estado. Requiere coordinación con el Poder Ejecutivo e informe del MEF antes del dictamen.",
+  "efecto_vigencia": "Complementa el Decreto Legislativo 1412, el Decreto de Urgencia 007-2020, la Ley 27269, la Ley 32069 y la Ley 31250. No deroga normas.",
+  "normas_relacionadas": [
+   {
+    "norma": "Decreto Legislativo 1412, Ley de Gobierno Digital",
+    "url": "https://busquedas.elperuano.pe/dispositivo/NL/1691026-1"
+   },
+   {
+    "norma": "Decreto de Urgencia 007-2020, Marco de Confianza Digital",
+    "url": "https://busquedas.elperuano.pe/dispositivo/NL/1844001-2"
+   },
+   {
+    "norma": "Ley 27269, Ley de Firmas y Certificados Digitales",
+    "url": "https://leyes.congreso.gob.pe/Documentos/Leyes/27269.pdf"
+   },
+   {
+    "norma": "Ley 32069, Ley General de Contrataciones Públicas",
+    "url": "https://leyes.congreso.gob.pe/Documentos/2021_2026/ADLP/Texto_Consolidado/32069-TXM.pdf"
+   },
+   {
+    "norma": "Ley 31250, Ley del Sistema Nacional de Ciencia, Tecnología e Innovación",
+    "url": "https://leyes.congreso.gob.pe/Documentos/2016_2021/ADLP/Normas_Legales/31250-LEY.pdf"
+   }
+  ],
+  "antecedentes": "Por verificar en SPLEY. En la consulta a la API pública del SPLEY del 22-oct-2026 no se identificaron proyectos de ley con los términos 'cuántica', 'criptografía' o 'poscuántica' en el título (Congreso 2021-2026 y Cámara de Diputados 2026-2031).",
+  "referencias_internacionales": [
+   {
+    "pais": "Estados Unidos",
+    "norma": "Public Law 117-260, Quantum Computing Cybersecurity Preparedness Act",
+    "url": "https://www.govinfo.gov/app/details/PLAW-117publ260"
+   },
+   {
+    "pais": "Estados Unidos",
+    "norma": "NIST FIPS 203, Module-Lattice-Based Key-Encapsulation Mechanism Standard",
+    "url": "https://csrc.nist.gov/pubs/fips/203/final"
+   },
+   {
+    "pais": "Estados Unidos",
+    "norma": "NIST FIPS 204, Module-Lattice-Based Digital Signature Standard",
+    "url": "https://csrc.nist.gov/pubs/fips/204/final"
+   }
+  ],
+  "comision_sugerida": "Ciencia, Innovación Tecnológica y Sociedad Digital",
+  "comision_secundaria": "Defensa Nacional y Orden Interno",
+  "plan2050": [
+   "ciber-seguridad",
+   "transformacion-digital",
+   "ciencia-y-tecnologia"
+  ],
+  "ods": [
+   9,
+   16
+  ],
+  "prioridad": "media",
+  "costo_fiscal": "medio",
+  "plazo": "largo",
+  "indicador_exito": "A 2031, la hoja de ruta está aprobada y actualizada; al menos el 80% de entidades del Poder Ejecutivo ha remitido su inventario criptográfico; y la Infraestructura Oficial de Firma Electrónica cuenta con requisitos de acreditación que incorporan algoritmos poscuánticos.",
+  "tags": [
+   "criptografía poscuántica",
+   "computación cuántica",
+   "seguridad digital",
+   "firma digital"
+  ],
+  "fuentes": [
+   {
+    "titulo": "NIST IR 8547 (borrador), Transition to Post-Quantum Cryptography Standards",
+    "url": "https://csrc.nist.gov/pubs/ir/8547/ipd"
+   },
+   {
+    "titulo": "NIST FIPS 203",
+    "url": "https://csrc.nist.gov/pubs/fips/203/final"
+   },
+   {
+    "titulo": "GovInfo: Public Law 117-260, Quantum Computing Cybersecurity Preparedness Act",
+    "url": "https://www.govinfo.gov/app/details/PLAW-117publ260"
+   },
+   {
+    "titulo": "Plan Perú 2050, Comisión Perú en la Era Digital",
+    "url": "https://planperu2050.pe/c/peru-en-la-era-digital.html"
+   }
+  ],
+  "implicados": {
+   "normas_modificadas": [
+    {
+     "norma": "Decreto Legislativo 1412, Ley de Gobierno Digital",
+     "articulo": "concordancia (rectoría)",
+     "accion": "complementa",
+     "url": "https://busquedas.elperuano.pe/dispositivo/NL/1691026-1"
+    },
+    {
+     "norma": "Decreto de Urgencia 007-2020, Marco de Confianza Digital",
+     "articulo": "concordancia (seguridad digital)",
+     "accion": "complementa",
+     "url": "https://busquedas.elperuano.pe/dispositivo/NL/1844001-2"
+    },
+    {
+     "norma": "Ley 27269, Ley de Firmas y Certificados Digitales",
+     "articulo": "concordancia (art. 7 de la propuesta)",
+     "accion": "complementa",
+     "url": "https://leyes.congreso.gob.pe/Documentos/Leyes/27269.pdf"
+    },
+    {
+     "norma": "Ley 32069, Ley General de Contrataciones Públicas",
+     "articulo": "requerimientos (art. 6 de la propuesta)",
+     "accion": "complementa",
+     "url": "https://leyes.congreso.gob.pe/Documentos/2021_2026/ADLP/Texto_Consolidado/32069-TXM.pdf"
+    }
+   ],
+   "entidades": [
+    {
+     "entidad": "Presidencia del Consejo de Ministros - Secretaría de Gobierno y Transformación Digital",
+     "sigla": "PCM-SGTD",
+     "sector": "PCM",
+     "rol": "rectora",
+     "responsabilidad": "Aprueba y actualiza la hoja de ruta (art. 3), recibe inventarios (art. 4), publica especificaciones (art. 6) e informa anualmente (art. 10)."
+    },
+    {
+     "entidad": "Instituto Nacional de Defensa de la Competencia y de la Protección de la Propiedad Intelectual",
+     "sigla": "INDECOPI",
+     "sector": "PCM",
+     "rol": "reglamentadora",
+     "responsabilidad": "Actualiza los requisitos de acreditación de la IOFE (art. 7)."
+    },
+    {
+     "entidad": "Ministerio de Defensa",
+     "sigla": "MINDEF",
+     "sector": "Defensa",
+     "rol": "consultiva",
+     "responsabilidad": "Coordina la hoja de ruta en lo relativo a comunicaciones de defensa (arts. 3 y 5)."
+    },
+    {
+     "entidad": "Consejo Nacional de Ciencia, Tecnología e Innovación Tecnológica",
+     "sigla": "CONCYTEC",
+     "sector": "PCM",
+     "rol": "ejecutora",
+     "responsabilidad": "Prioriza tecnologías cuánticas en el Sinacti (art. 9)."
+    },
+    {
+     "entidad": "Entidades de la Administración Pública",
+     "sigla": "—",
+     "sector": "Varios",
+     "rol": "regulada",
+     "responsabilidad": "Elaboran inventarios y migran sistemas priorizados (arts. 4, 5 y 8)."
+    }
+   ],
+   "sujetos_obligados": "Entidades de la Administración Pública (art. I del TUO de la Ley 27444) y prestadores de servicios de certificación digital acreditados; adhesión voluntaria de organismos constitucionalmente autónomos.",
+   "beneficiarios": "Ciudadanos y empresas cuya información y documentos firmados custodia el Estado; comunidad científica en tecnologías cuánticas."
+  },
+  "impacto": {
+   "tipo": "gasto",
+   "costo_estado": {
+    "rango": "S/ 3–9 millones (único, inventario y hoja de ruta); migración no cuantificable con información pública",
+    "horizonte": "2027-2031",
+    "supuestos": "Estimación del editor: 300–600 entidades con sistemas relevantes (no existe cifra oficial verificada) y un costo medio de S/ 10–15 mil por inventario con personal propio y herramientas de descubrimiento; hoja de ruta con equipo de la SGTD. La migración se asume dentro de ciclos de renovación (5–8 años), por lo que su costo incremental depende del estado de cada sistema.",
+    "financiamiento": "Presupuesto institucional de los pliegos involucrados, sin demandar recursos adicionales al Tesoro Público y sujeto a disponibilidad presupuestal; requiere coordinación con el Poder Ejecutivo, fuente de financiamiento identificada e informe previo de sostenibilidad fiscal del MEF antes del dictamen (art. 79 de la Constitución; STC 00018-2023-PI/TC)."
+   },
+   "beneficio_estado": "Menor riesgo de exposición de información de largo plazo y continuidad de la validez de la firma digital; evita migraciones de emergencia más costosas. No cuantificable.",
+   "beneficio_sociedad": "Protección de datos personales y de documentos firmados de los ciudadanos. No cuantificable.",
+   "inversion_privada": "Demanda de servicios de ciberseguridad y actualización tecnológica; monto no estimable.",
+   "costo_privado": "Prestadores de certificación digital: actualización de infraestructura de clave pública en los periodos de transición.",
+   "riesgos": "Estándares aún en evolución (mitigado con actualización bienal); baja capacidad técnica en entidades pequeñas; exposición de vulnerabilidades si los inventarios se publican (mitigado con reserva del art. 4.3).",
+   "confianza": "baja"
+  },
+  "revision_atendida": []
+ },
+ {
+  "id": "SOB-07",
+  "eje": "sober",
+  "titulo": "Ley que promueve la adopción de automatización, robótica y manufactura avanzada en la micro, pequeña y mediana empresa manufacturera a través de los Centros de Innovación Productiva y Transferencia Tecnológica",
+  "titulo_corto": "Robótica y automatización en MIPYME",
+  "sumilla": "Incorpora en los servicios de la red de CITE la demostración, el diagnóstico y la asistencia para adoptar automatización, robótica colaborativa, visión artificial, sensórica industrial y fabricación aditiva en la MIPYME manufacturera, con un diagnóstico de madurez tecnológica, un directorio de integradores nacionales y reglas de seguridad para robots colaborativos.",
+  "problema": "La productividad de la MIPYME manufacturera peruana es baja y su adopción de tecnologías de automatización es escasa; no existe una medición oficial periódica de madurez tecnológica ni de densidad de robots en la industria nacional, lo que impide focalizar políticas. El Plan Perú 2050 (Comisión MYPE) fija como meta que el 85% de las MYPE opere con madurez digital plena al 2050 y (Desarrollo Humano e Industrialización) que las exportaciones metalmecánicas pasen de US$ 712 millones en 2024 a US$ 20 000 millones. El país ya cuenta con una red de Centros de Innovación Productiva y Transferencia Tecnológica (CITE), regulada por el Decreto Legislativo 1228, cuyos CITE públicos dependen del Instituto Tecnológico de la Producción (ITP), y con instrumentos de cofinanciamiento operados por ProInnóvate; pero la oferta de servicios de manufactura avanzada (celdas de demostración, pruebas antes de invertir, integración) es limitada y dispersa. En 2021-2026 se presentaron proyectos para fortalecer los CITE (PL 04683/2022-CR, con dictamen) y para promover la automatización modificando la Ley 23407 (PL 07828/2023-CR, en Orden del Día), sin instrumentos operativos específicos para la MIPYME.",
+  "objeto": "Promover la adopción de automatización, robótica y manufactura avanzada en la MIPYME manufacturera mediante servicios de la red de CITE y la articulación de instrumentos existentes.",
+  "articulado": [
+   {
+    "n": "Artículo 1",
+    "titulo": "Objeto",
+    "texto": "La presente ley tiene por objeto promover la adopción de tecnologías de automatización, robótica y manufactura avanzada en la micro, pequeña y mediana empresa manufacturera, mediante servicios especializados de la red de Centros de Innovación Productiva y Transferencia Tecnológica (CITE) y la articulación de los instrumentos de apoyo existentes."
+   },
+   {
+    "n": "Artículo 2",
+    "titulo": "Ámbito y definiciones",
+    "texto": "2.1 La presente ley se aplica a las micro, pequeñas y medianas empresas que desarrollan actividades manufactureras, conforme a los umbrales del Texto Único Ordenado de la Ley de Impulso al Desarrollo Productivo y al Crecimiento Empresarial, aprobado por el Decreto Supremo 013-2013-PRODUCE. 2.2 Se entiende por manufactura avanzada el uso de automatización industrial, robots industriales y colaborativos, visión artificial, sensórica e internet industrial de las cosas, fabricación aditiva, gemelos digitales y sistemas de gestión de la producción basados en datos."
+   },
+   {
+    "n": "Artículo 3",
+    "titulo": "Servicios de manufactura avanzada en la red CITE",
+    "texto": "3.1 El Instituto Tecnológico de la Producción (ITP) incorpora progresivamente, en los CITE públicos que atienden cadenas manufactureras, servicios de: a) demostración y pruebas en celdas de manufactura avanzada; b) diagnóstico de madurez tecnológica; c) asistencia técnica para la selección, integración y puesta en marcha de soluciones; y d) capacitación de operarios y técnicos. 3.2 Los servicios se prestan conforme al régimen de servicios y tarifas de los CITE previsto en el Decreto Legislativo 1228 y su reglamento. 3.3 El ITP promueve que los CITE privados calificados ofrezcan servicios equivalentes."
+   },
+   {
+    "n": "Artículo 4",
+    "titulo": "Diagnóstico de madurez tecnológica",
+    "texto": "4.1 El Ministerio de la Producción aprueba una metodología nacional de diagnóstico de madurez digital y tecnológica para la MIPYME manufacturera, alineada con referencias internacionales, y una herramienta de autodiagnóstico en línea de uso gratuito. 4.2 Los resultados se publican en forma agregada y anonimizada, por región y cadena productiva, en formato abierto, como línea de base para la política industrial."
+   },
+   {
+    "n": "Artículo 5",
+    "titulo": "Directorio de integradores tecnológicos",
+    "texto": "El ITP publica un directorio voluntario de empresas nacionales integradoras de soluciones de automatización y robótica, con información sobre sus capacidades y casos de implementación, sin que la inscripción constituya certificación ni garantía del Estado."
+   },
+   {
+    "n": "Artículo 6",
+    "titulo": "Articulación con instrumentos de cofinanciamiento",
+    "texto": "El Ministerio de la Producción puede priorizar, en las convocatorias de los instrumentos de cofinanciamiento que administra el Programa Nacional de Desarrollo Tecnológico e Innovación (ProInnóvate) con cargo a los fondos existentes, proyectos de adopción de manufactura avanzada en MIPYME que cuenten con diagnóstico de madurez y plan de implementación, sin que ello implique la creación de fondos nuevos."
+   },
+   {
+    "n": "Artículo 7",
+    "titulo": "Formación técnica",
+    "texto": "El Ministerio de la Producción, en coordinación con el Ministerio de Educación, promueve con institutos de educación superior tecnológica y centros de formación sectorial programas modulares en mantenimiento de sistemas automatizados, programación de robots y control de calidad basado en datos, con certificación modular conforme a la normativa vigente o la que haga sus veces."
+   },
+   {
+    "n": "Artículo 8",
+    "titulo": "Seguridad y salud en el trabajo",
+    "texto": "El Ministerio de Trabajo y Promoción del Empleo, en el marco de la Ley 29783, Ley de Seguridad y Salud en el Trabajo, aprueba lineamientos para la evaluación de riesgos en la interacción entre personas y robots industriales y colaborativos; el Instituto Nacional de Calidad (INACAL) promueve la adopción de normas técnicas peruanas armonizadas con las normas internacionales de seguridad de robots."
+   },
+   {
+    "n": "Artículo 9",
+    "titulo": "Transición laboral",
+    "texto": "Las medidas de reconversión y de información a los trabajadores afectados por la automatización se rigen por la normativa laboral vigente o la que haga sus veces; la presente ley no establece reglas especiales en dicha materia."
+   },
+   {
+    "n": "Artículo 10",
+    "titulo": "Información y evaluación",
+    "texto": "El ITP publica anualmente indicadores de los servicios prestados en el marco de la presente ley: empresas atendidas por tamaño y región, diagnósticos realizados, proyectos implementados y, cuando sea posible, variaciones de productividad reportadas por las empresas."
+   },
+   {
+    "n": "Artículo 11",
+    "titulo": "Financiamiento",
+    "texto": "La implementación de la presente ley se financia con cargo al presupuesto institucional del Ministerio de la Producción y del ITP, sin demandar recursos adicionales al Tesoro Público y sujeta a disponibilidad presupuestal. La implementación de celdas de demostración se programa como meta indicativa en la programación multianual del ITP."
+   }
+  ],
+  "disposiciones": [
+   {
+    "tipo": "Complementaria Final",
+    "n": "Primera",
+    "texto": "Reglamentación. El Poder Ejecutivo reglamenta la presente ley en un plazo de noventa días hábiles mediante decreto supremo refrendado por el Ministro de la Producción."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Segunda",
+    "texto": "Metodología de diagnóstico. La metodología y la herramienta de autodiagnóstico del artículo 4 se aprueban en un plazo de ciento ochenta días hábiles contados desde la entrada en vigor del reglamento."
+   }
+  ],
+  "costo_beneficio": "El costo para el Estado depende del número de CITE que incorporen celdas de demostración; se plantea como meta indicativa, sujeta a disponibilidad presupuestal, con un rango estimado de S/ 4–12 millones en 2027-2031. El diagnóstico en línea, el directorio y la priorización de convocatorias existentes tienen costo bajo. Los servicios de los CITE pueden recuperar parte de su costo mediante tarifas. El beneficio esperado es reducir el riesgo de inversión de la MIPYME (probar antes de comprar), elevar la productividad y la calidad, generar demanda para integradores nacionales y producir, por primera vez, una línea de base pública de madurez tecnológica. Requiere coordinación con el Poder Ejecutivo e informe del MEF antes del dictamen.",
+  "efecto_vigencia": "Complementa el Decreto Legislativo 1228 y su reglamento, el Texto Único Ordenado aprobado por Decreto Supremo 013-2013-PRODUCE, la Ley 29783 y la Ley 30224. No deroga normas.",
+  "normas_relacionadas": [
+   {
+    "norma": "Decreto Legislativo 1228, Decreto Legislativo de Centros de Innovación Productiva y Transferencia Tecnológica (CITE)",
+    "url": "https://busquedas.elperuano.pe/normaslegales/decreto-legislativo-de-centros-de-innovacion-productiva-y-tr-decreto-legislativo-n-1228-1292138-7/"
+   },
+   {
+    "norma": "Ley 29783, Ley de Seguridad y Salud en el Trabajo",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/29783.pdf"
+   },
+   {
+    "norma": "Ley 30224, Ley que crea el Sistema Nacional para la Calidad y el Instituto Nacional de Calidad",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/30224.pdf"
+   },
+   {
+    "norma": "Ley 31250, Ley del Sistema Nacional de Ciencia, Tecnología e Innovación",
+    "url": "https://leyes.congreso.gob.pe/Documentos/2016_2021/ADLP/Normas_Legales/31250-LEY.pdf"
+   },
+   {
+    "norma": "Ley 30309, Ley que promueve la investigación científica, desarrollo tecnológico e innovación tecnológica",
+    "url": "https://leyes.congreso.gob.pe/Documentos/Leyes/30309.pdf"
+   }
+  ],
+  "antecedentes": "Según la API pública del SPLEY (consulta del 22-oct-2026): PL 04683/2022-CR, que declara de interés nacional el fortalecimiento de los CITE en zonas y parques industriales (con dictamen); PL 07828/2023-CR, que modifica el artículo 1 de la Ley 23407 para promover la automatización en la producción industrial (en Orden del Día); PL 06845/2023-CR, sobre fortalecimiento y ampliación del presupuesto de los CITE (en comisión).",
+  "referencias_internacionales": [
+   {
+    "pais": "Estados Unidos",
+    "norma": "Manufacturing USA, red de institutos de manufactura avanzada (asociación público-privada)",
+    "url": "https://www.manufacturingusa.com/"
+   }
+  ],
+  "comision_sugerida": "Producción, Comercio Exterior y Turismo",
+  "comision_secundaria": "Ciencia, Innovación Tecnológica y Sociedad Digital",
+  "plan2050": [
+   "mipymes",
+   "industria",
+   "innovacion"
+  ],
+  "ods": [
+   8,
+   9
+  ],
+  "prioridad": "media",
+  "costo_fiscal": "medio",
+  "plazo": "mediano",
+  "indicador_exito": "A 2031, la metodología de madurez tecnológica está vigente con al menos 5 000 autodiagnósticos registrados y publicados en forma agregada; al menos cuatro CITE ofrecen servicios de demostración de manufactura avanzada; y el ITP publica anualmente los indicadores del artículo 10.",
+  "tags": [
+   "robótica",
+   "automatización",
+   "industria 4.0",
+   "MIPYME",
+   "CITE"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Instituto Tecnológico de la Producción (ITP): portal institucional",
+    "url": "https://www.gob.pe/itp"
+   },
+   {
+    "titulo": "ProInnóvate: portal institucional",
+    "url": "https://www.proinnovate.gob.pe/"
+   },
+   {
+    "titulo": "Plan Perú 2050, Comisión MYPE / MIPYMES",
+    "url": "https://planperu2050.pe/c/mipymes.html"
+   },
+   {
+    "titulo": "Plan Perú 2050, Comisión Desarrollo Humano e Industrialización",
+    "url": "https://planperu2050.pe/c/industria.html"
+   }
+  ],
+  "implicados": {
+   "normas_modificadas": [
+    {
+     "norma": "Decreto Legislativo 1228, Decreto Legislativo de CITE",
+     "articulo": "servicios de los CITE (art. 3 de la propuesta)",
+     "accion": "complementa",
+     "url": "https://busquedas.elperuano.pe/normaslegales/decreto-legislativo-de-centros-de-innovacion-productiva-y-tr-decreto-legislativo-n-1228-1292138-7/"
+    },
+    {
+     "norma": "Ley 29783, Ley de Seguridad y Salud en el Trabajo",
+     "articulo": "concordancia (art. 8)",
+     "accion": "complementa",
+     "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/29783.pdf"
+    },
+    {
+     "norma": "Ley 30224, Sistema Nacional para la Calidad",
+     "articulo": "concordancia (art. 8)",
+     "accion": "complementa",
+     "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/30224.pdf"
+    }
+   ],
+   "entidades": [
+    {
+     "entidad": "Ministerio de la Producción",
+     "sigla": "PRODUCE",
+     "sector": "Producción",
+     "rol": "rectora",
+     "responsabilidad": "Aprueba la metodología de diagnóstico (art. 4), prioriza convocatorias de ProInnóvate (art. 6), promueve formación (art. 7) y reglamenta (DCF Primera)."
+    },
+    {
+     "entidad": "Instituto Tecnológico de la Producción",
+     "sigla": "ITP",
+     "sector": "Producción",
+     "rol": "ejecutora",
+     "responsabilidad": "Incorpora servicios de manufactura avanzada en CITE públicos (art. 3), publica el directorio (art. 5) e indicadores (art. 10)."
+    },
+    {
+     "entidad": "Programa Nacional de Desarrollo Tecnológico e Innovación",
+     "sigla": "ProInnóvate",
+     "sector": "Producción",
+     "rol": "financiadora",
+     "responsabilidad": "Puede priorizar proyectos de adopción en sus convocatorias existentes (art. 6)."
+    },
+    {
+     "entidad": "Ministerio de Trabajo y Promoción del Empleo",
+     "sigla": "MTPE",
+     "sector": "Trabajo",
+     "rol": "reglamentadora",
+     "responsabilidad": "Aprueba lineamientos de seguridad para robots industriales y colaborativos (art. 8)."
+    },
+    {
+     "entidad": "Instituto Nacional de Calidad",
+     "sigla": "INACAL",
+     "sector": "Producción",
+     "rol": "ejecutora",
+     "responsabilidad": "Promueve normas técnicas de seguridad de robots (art. 8)."
+    },
+    {
+     "entidad": "Ministerio de Educación",
+     "sigla": "MINEDU",
+     "sector": "Educación",
+     "rol": "consultiva",
+     "responsabilidad": "Coordina programas modulares (art. 7)."
+    }
+   ],
+   "sujetos_obligados": "Entidades del Poder Ejecutivo señaladas. Para las MIPYME la participación es voluntaria.",
+   "beneficiarios": "MIPYME manufactureras, integradores tecnológicos nacionales y trabajadores técnicos. No se cuantifica por falta de línea de base oficial de adopción tecnológica."
+  },
+  "impacto": {
+   "tipo": "inversion",
+   "costo_estado": {
+    "rango": "S/ 4–12 millones (2027-2031)",
+    "horizonte": "2027-2031",
+    "supuestos": "Estimación del editor: 4–6 CITE con celdas de demostración a S/ 0,8–2 millones cada una (equipamiento y adecuación; referencia de mercado no verificada oficialmente), más herramienta de autodiagnóstico y directorio (S/ 0,2–0,5 millones). No incluye cofinanciamiento a empresas, que se atiende con fondos existentes de ProInnóvate.",
+    "financiamiento": "Presupuesto institucional de los pliegos involucrados, sin demandar recursos adicionales al Tesoro Público y sujeto a disponibilidad presupuestal; requiere coordinación con el Poder Ejecutivo, fuente de financiamiento identificada e informe previo de sostenibilidad fiscal del MEF antes del dictamen (art. 79 de la Constitución; STC 00018-2023-PI/TC)."
+   },
+   "beneficio_estado": "Línea de base pública para política industrial y mayor recuperación de costos de los CITE vía tarifas. No cuantificable.",
+   "beneficio_sociedad": "Mayor productividad y calidad en MIPYME, empleo técnico calificado y demanda para integradores nacionales. No cuantificable con información pública.",
+   "inversion_privada": "Inversión de MIPYME en equipamiento de automatización, facilitada por la reducción del riesgo técnico; monto no estimable.",
+   "costo_privado": "Voluntario: tarifas de servicios CITE y cofinanciamiento propio de proyectos.",
+   "riesgos": "Celdas de demostración subutilizadas si no se vinculan a cadenas productivas reales; restricción presupuestal del ITP; obsolescencia tecnológica de equipos.",
+   "confianza": "baja"
+  },
+  "revision_atendida": []
+ },
+ {
+  "id": "SOB-08",
+  "eje": "sober",
+  "titulo": "Ley que promueve el desarrollo de proveedores nacionales de tecnología en la contratación pública mediante la transparencia de la demanda tecnológica del Estado, con sujeción a los acuerdos comerciales",
+  "titulo_corto": "Proveedores tech y compra pública",
+  "sumilla": "Obliga a las entidades a publicar anticipadamente su demanda de bienes y servicios tecnológicos, realizar consultas abiertas al mercado, dividir en lotes cuando sea técnicamente viable y no exigir domicilio para el soporte; articula el Programa de Desarrollo de Proveedores con la demanda pública y ordena al OECE medir la participación de proveedores nacionales, sin márgenes de preferencia contrarios a los tratados.",
+  "problema": "El Estado es uno de los principales compradores de tecnología del país, pero su demanda es poco previsible y se concentra en contratos grandes con especificaciones que favorecen a proveedores establecidos, lo que limita la participación de empresas tecnológicas nacionales, en especial MIPYME. La Ley 32069, Ley General de Contrataciones Públicas, reconoce la innovación como principio y regula la compra pública de innovación (art. 38), pero no contiene reglas específicas de transparencia anticipada de la demanda tecnológica ni de medición de la participación de proveedores nacionales. A su vez, su artículo 8 obliga a cumplir los acuerdos comerciales y a otorgar trato nacional a los bienes, servicios y proveedores de las partes, por lo que las preferencias por origen son jurídicamente riesgosas. La Ley 31578 fijó una cuota mínima de 40% de compras de bienes a MYPE que fabrican en el territorio nacional, centrada en manufactura. El Plan Perú 2050 (Comisión MYPE) propone que las MYPE cubran el 25% de la proveeduría de megaproyectos y compras estatales; la vía compatible con los tratados es reducir barreras de información y de diseño de los procedimientos y fortalecer capacidades de los proveedores, no discriminar por origen.",
+  "objeto": "Promover la participación de proveedores nacionales de tecnología en la contratación pública mediante transparencia de la demanda, diseño procompetitivo de los procedimientos y desarrollo de capacidades, con sujeción a los acuerdos comerciales.",
+  "articulado": [
+   {
+    "n": "Artículo 1",
+    "titulo": "Objeto",
+    "texto": "La presente ley tiene por objeto promover la participación de proveedores nacionales de bienes y servicios tecnológicos, en especial de la micro, pequeña y mediana empresa, en la contratación pública, mediante la transparencia anticipada de la demanda tecnológica del Estado, el diseño procompetitivo de los procedimientos y el desarrollo de capacidades, con sujeción a los acuerdos comerciales vigentes."
+   },
+   {
+    "n": "Artículo 2",
+    "titulo": "Ámbito",
+    "texto": "La presente ley se aplica a las entidades contratantes comprendidas en la Ley 32069, Ley General de Contrataciones Públicas, respecto de la contratación de software, servicios digitales, equipamiento informático y de comunicaciones, sensores, sistemas de automatización y servicios de ingeniería tecnológica, conforme a la clasificación que establezca el reglamento."
+   },
+   {
+    "n": "Artículo 3",
+    "titulo": "Sujeción a los acuerdos comerciales",
+    "texto": "Las medidas de la presente ley se aplican de conformidad con el artículo 8 de la Ley 32069 y con los acuerdos comerciales vigentes. Ninguna disposición de la presente ley autoriza márgenes de preferencia, puntajes adicionales o requisitos basados en el origen de los bienes o en la nacionalidad o domicilio de los proveedores en las contrataciones cubiertas por dichos acuerdos."
+   },
+   {
+    "n": "Artículo 4",
+    "titulo": "Publicación anticipada de la demanda tecnológica",
+    "texto": "4.1 Las entidades contratantes publican en la Plataforma Digital para las Contrataciones Públicas (Pladicop), en formato abierto, una previsión anual de su demanda de bienes y servicios tecnológicos para el ejercicio siguiente, con descripción funcional, cantidades estimadas y trimestre previsto de convocatoria, derivada de su programación de necesidades. 4.2 La previsión es referencial y no obliga a contratar."
+   },
+   {
+    "n": "Artículo 5",
+    "titulo": "Consultas abiertas al mercado",
+    "texto": "5.1 Para contrataciones de bienes y servicios tecnológicos cuyo valor estimado supere el umbral que fije el reglamento, las entidades realizan una consulta abierta al mercado antes de definir el requerimiento, publicando su resultado en la Pladicop. 5.2 Los requerimientos se formulan en términos funcionales y de desempeño, basados en estándares abiertos cuando existan, sin referencia a marcas o fabricantes salvo las excepciones previstas en la Ley 32069 y su reglamento."
+   },
+   {
+    "n": "Artículo 6",
+    "titulo": "División en lotes y participación de la MIPYME",
+    "texto": "6.1 Cuando sea técnica y económicamente viable, las entidades dividen las contrataciones tecnológicas en lotes funcionales o geográficos y permiten la participación en consorcio. La decisión de no dividir se sustenta en el expediente. 6.2 Los requisitos de experiencia y capacidad económica son proporcionales al objeto de cada lote."
+   },
+   {
+    "n": "Artículo 7",
+    "titulo": "Soporte técnico sin requisito de domicilio",
+    "texto": "Los requerimientos pueden exigir niveles de servicio de soporte técnico, tiempos de respuesta y disponibilidad de repuestos verificables, pero no pueden exigir domicilio, establecimiento o constitución previa en una localidad determinada como condición para participar; dichos niveles pueden acreditarse mediante socios o subcontratistas."
+   },
+   {
+    "n": "Artículo 8",
+    "titulo": "Desarrollo de proveedores tecnológicos",
+    "texto": "8.1 El Ministerio de la Producción puede priorizar, en el Programa de Desarrollo de Proveedores y en los demás instrumentos que administra con cargo a los fondos existentes, proyectos de mejora de capacidades de proveedores tecnológicos nacionales, tales como certificaciones de calidad y seguridad de la información, que se vinculen con la demanda publicada conforme al artículo 4. 8.2 La Central de Compras Públicas (Perú Compras) evalúa la incorporación en los catálogos electrónicos de acuerdos marco de bienes y servicios tecnológicos ofrecidos por MIPYME, en condiciones de igualdad."
+   },
+   {
+    "n": "Artículo 9",
+    "titulo": "Medición y transparencia",
+    "texto": "El Organismo Especializado para las Contrataciones Públicas Eficientes (OECE) publica anualmente, en formato abierto, indicadores de las contrataciones tecnológicas: número de postores por procedimiento, procedimientos con postor único, proporción de contratos adjudicados a MIPYME y a proveedores nacionales y extranjeros, y uso de la división en lotes."
+   },
+   {
+    "n": "Artículo 10",
+    "titulo": "Financiamiento",
+    "texto": "La implementación de la presente ley se financia con cargo al presupuesto institucional de las entidades involucradas, sin demandar recursos adicionales al Tesoro Público."
+   }
+  ],
+  "disposiciones": [
+   {
+    "tipo": "Complementaria Final",
+    "n": "Primera",
+    "texto": "Reglamentación. El Poder Ejecutivo adecúa el Reglamento de la Ley 32069, aprobado por el Decreto Supremo 009-2025-EF, en un plazo de ciento veinte días hábiles contados desde la entrada en vigor de la presente ley, mediante decreto supremo refrendado por los Ministros de Economía y Finanzas y de la Producción."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Segunda",
+    "texto": "Concordancia. La presente ley se aplica sin perjuicio de la Ley 31578 y de las reglas de compra pública de innovación del artículo 38 de la Ley 32069."
+   }
+  ],
+  "costo_beneficio": "El costo para el Estado es bajo: ajustes en la Pladicop para publicar previsiones y resultados de consultas, y producción de indicadores por el OECE (estimado S/ 0,5–2 millones únicos y costos recurrentes menores). Las entidades asumen una carga moderada de planificación que mejora la calidad de sus requerimientos. La ley no crea preferencias por origen, por lo que no expone al Estado a controversias bajo los acuerdos comerciales. Los beneficios esperados son mayor competencia (menos postores únicos), mejores precios, menor dependencia de un solo proveedor y más oportunidades para empresas tecnológicas nacionales, medibles con los indicadores del artículo 9.",
+  "efecto_vigencia": "Complementa la Ley 32069 y su Reglamento (Decreto Supremo 009-2025-EF), la Ley 31578 y el Decreto Legislativo 1414. No deroga normas. No modifica el artículo 38 de la Ley 32069.",
+  "normas_relacionadas": [
+   {
+    "norma": "Ley 32069, Ley General de Contrataciones Públicas",
+    "url": "https://leyes.congreso.gob.pe/Documentos/2021_2026/ADLP/Texto_Consolidado/32069-TXM.pdf"
+   },
+   {
+    "norma": "Ley 31578, Ley que promueve la reactivación económica a través de compras públicas de las MYPE manufactureras nacionales",
+    "url": "https://leyes.congreso.gob.pe/Documentos/2021_2026/ADLP/Texto_Consolidado/31578-TXM.pdf"
+   },
+   {
+    "norma": "Decreto Legislativo 1414, que autoriza al Ministerio de la Producción a conformar núcleos ejecutores de compras",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/DecretosLegislativos/01414.pdf"
+   },
+   {
+    "norma": "Ley 30230, artículo 30 (crea el Fondo MIPYME, hoy Fondo MIPYME Emprendedor, que financia el Programa de Desarrollo de Proveedores)",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/30230.pdf"
+   }
+  ],
+  "antecedentes": "Según la API pública del SPLEY (consulta del 22-oct-2026): PL 02483/2021-CR, que promueve la dinamización de la economía a través de compras públicas de las MYPE manufactureras nacionales (figura como publicado en El Peruano); PL 07016/2023-CR y PL 07039/2023-CR, que modificaron la Ley 31578 (publicados); PL 04118/2022-CR, que garantiza el cumplimiento de las compras públicas a MYPE manufactureras (en comisión). No se identificaron proyectos específicos sobre demanda tecnológica del Estado.",
+  "referencias_internacionales": [
+   {
+    "pais": "OMC",
+    "norma": "Acuerdo sobre Contratación Pública (ACP), referencia de trato nacional y transparencia",
+    "url": "https://www.wto.org/english/tratop_e/gproc_e/gp_gpa_e.htm"
+   },
+   {
+    "pais": "Perú - Estados Unidos",
+    "norma": "Acuerdo de Promoción Comercial, capítulo de contratación pública (texto final)",
+    "url": "https://ustr.gov/trade-agreements/free-trade-agreements/peru-tpa/final-text"
+   },
+   {
+    "pais": "Estados Unidos",
+    "norma": "Small Business Innovation Research (SBIR), programa de compra de I+D a pequeñas empresas",
+    "url": "https://www.sbir.gov/"
+   }
+  ],
+  "comision_sugerida": "Economía, Banca, Finanzas e Inteligencia Financiera",
+  "comision_secundaria": "Producción, Comercio Exterior y Turismo",
+  "plan2050": [
+   "mipymes",
+   "innovacion",
+   "industria"
+  ],
+  "ods": [
+   8,
+   9,
+   12,
+   16
+  ],
+  "prioridad": "media",
+  "costo_fiscal": "bajo",
+  "plazo": "corto",
+  "indicador_exito": "A 2031, el 100% de entidades del Gobierno Nacional publica su previsión anual de demanda tecnológica en la Pladicop; el OECE publica anualmente los indicadores del artículo 9; y la proporción de procedimientos tecnológicos con postor único se reduce respecto de la línea de base del primer reporte.",
+  "tags": [
+   "compra pública",
+   "proveedores",
+   "MIPYME",
+   "tecnología",
+   "acuerdos comerciales"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Ley 32069, texto consolidado (arts. 8 y 38)",
+    "url": "https://leyes.congreso.gob.pe/Documentos/2021_2026/ADLP/Texto_Consolidado/32069-TXM.pdf"
+   },
+   {
+    "titulo": "Ley 31578, texto consolidado",
+    "url": "https://leyes.congreso.gob.pe/Documentos/2021_2026/ADLP/Texto_Consolidado/31578-TXM.pdf"
+   },
+   {
+    "titulo": "OECE: portal institucional",
+    "url": "https://www.gob.pe/oece"
+   },
+   {
+    "titulo": "Plan Perú 2050, Comisión MYPE / MIPYMES",
+    "url": "https://planperu2050.pe/c/mipymes.html"
+   }
+  ],
+  "implicados": {
+   "normas_modificadas": [
+    {
+     "norma": "Ley 32069, Ley General de Contrataciones Públicas",
+     "articulo": "arts. 8 y 38 (concordancia)",
+     "accion": "complementa",
+     "url": "https://leyes.congreso.gob.pe/Documentos/2021_2026/ADLP/Texto_Consolidado/32069-TXM.pdf"
+    },
+    {
+     "norma": "Ley 31578, compras públicas a MYPE manufactureras",
+     "articulo": "concordancia (DCF Segunda)",
+     "accion": "complementa",
+     "url": "https://leyes.congreso.gob.pe/Documentos/2021_2026/ADLP/Texto_Consolidado/31578-TXM.pdf"
+    },
+    {
+     "norma": "Decreto Legislativo 1414, núcleos ejecutores de compras",
+     "articulo": "concordancia",
+     "accion": "complementa",
+     "url": "https://www.leyes.congreso.gob.pe/Documentos/DecretosLegislativos/01414.pdf"
+    }
+   ],
+   "entidades": [
+    {
+     "entidad": "Organismo Especializado para las Contrataciones Públicas Eficientes",
+     "sigla": "OECE",
+     "sector": "MEF",
+     "rol": "supervisora",
+     "responsabilidad": "Habilita la publicación en la Pladicop (arts. 4 y 5) y publica indicadores anuales (art. 9)."
+    },
+    {
+     "entidad": "Ministerio de Economía y Finanzas",
+     "sigla": "MEF",
+     "sector": "MEF",
+     "rol": "reglamentadora",
+     "responsabilidad": "Adecúa el Reglamento de la Ley 32069 (DCF Primera)."
+    },
+    {
+     "entidad": "Ministerio de la Producción",
+     "sigla": "PRODUCE",
+     "sector": "Producción",
+     "rol": "ejecutora",
+     "responsabilidad": "Prioriza instrumentos de desarrollo de proveedores tecnológicos (art. 8.1)."
+    },
+    {
+     "entidad": "Central de Compras Públicas",
+     "sigla": "PERÚ COMPRAS",
+     "sector": "MEF",
+     "rol": "ejecutora",
+     "responsabilidad": "Evalúa incorporar bienes y servicios tecnológicos de MIPYME en catálogos electrónicos (art. 8.2)."
+    },
+    {
+     "entidad": "Entidades contratantes",
+     "sigla": "—",
+     "sector": "Varios",
+     "rol": "regulada",
+     "responsabilidad": "Publican previsiones, realizan consultas al mercado y sustentan la división en lotes (arts. 4 a 7)."
+    }
+   ],
+   "sujetos_obligados": "Entidades contratantes sujetas a la Ley 32069 en sus contrataciones tecnológicas.",
+   "beneficiarios": "Empresas tecnológicas nacionales, en especial MIPYME, y entidades públicas por mayor competencia. No se cuantifica: no existe un indicador público de participación de proveedores nacionales en compras tecnológicas (lo crea el art. 9)."
+  },
+  "impacto": {
+   "tipo": "ahorro",
+   "costo_estado": {
+    "rango": "S/ 0,5–2 millones (único)",
+    "horizonte": "único",
+    "supuestos": "Estimación del editor: adecuaciones de la Pladicop (módulos de previsión y consultas) y tablero de indicadores del OECE con equipos existentes; carga de planificación de las entidades absorbida por sus órganos encargados de contrataciones.",
+    "financiamiento": "Presupuesto institucional de los pliegos involucrados, sin demandar recursos adicionales al Tesoro Público y sujeto a disponibilidad presupuestal; requiere coordinación con el Poder Ejecutivo, fuente de financiamiento identificada e informe previo de sostenibilidad fiscal del MEF antes del dictamen (art. 79 de la Constitución; STC 00018-2023-PI/TC)."
+   },
+   "beneficio_estado": "Posibles ahorros por mayor competencia y menor dependencia de proveedores únicos; no cuantificable sin la línea de base que crea el art. 9.",
+   "beneficio_sociedad": "Más oportunidades para empresas tecnológicas nacionales y mejores servicios públicos digitales. No cuantificable.",
+   "inversion_privada": "Inversión de empresas nacionales en capacidades y certificaciones para competir; no estimable.",
+   "costo_privado": "Bajo: participación voluntaria en consultas y procedimientos.",
+   "riesgos": "Que las consultas al mercado se usen para orientar requerimientos a un proveedor (mitigado con requerimientos funcionales y publicación de resultados); que la división en lotes eleve costos de coordinación; interpretación de preferencias encubiertas contraria a los tratados (mitigado por el art. 3).",
+   "confianza": "media"
+  },
+  "revision_atendida": []
+ }
+]

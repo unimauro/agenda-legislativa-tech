@@ -141,6 +141,51 @@ module.exports = function makeAgenda({ DATA_DIR, json: jsonBase, clean }) {
     return true;
   }
 
+
+  // ---- asistente con IA: recuperación en el servidor + gateway ai.tunky.net (token solo en el .env del VPS) ----
+  const AI_TOKEN = process.env.AGENDA_AI_TOKEN || "";
+  const AI_URL = process.env.AGENDA_AI_URL || "https://ai.tunky.net/v1/chat";
+  const AI_MODEL = process.env.AGENDA_AI_MODEL || "openai/gpt-oss-120b:free";
+  const AI_DIA = +(process.env.AGENDA_AI_MAX_DIA || 800);
+  const INDICE_URL = "https://unimauro.github.io/agenda-legislativa-tech/data/indice.json";
+  let IDX = [], idxT = 0, usoDia = { d: "", n: 0 };
+  const norm = (t) => String(t || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+  async function indice() {
+    if (IDX.length && Date.now() - idxT < 30 * 60e3) return IDX;
+    try {
+      const r = await fetch(INDICE_URL, { signal: AbortSignal.timeout(10000) });
+      const d = await r.json();
+      IDX = d.propuestas.map((p) => ({ ...p, _t: norm([p.id, p.titulo, p.titulo_corto].join(" ")), _s: norm([p.sumilla, (p.tags || []).join(" "), (p.arts || []).join(" "), (p.ent || []).map((e) => e[0]).join(" "), p.problema].join(" ")) }));
+      idxT = Date.now();
+    } catch (e) {}
+    return IDX;
+  }
+  const STOP = new Set("de la el los las y o a en que con por para del un una se su sus es al lo como mas sobre hay cual cuales me mi te tu le les esta este estas estos ley leyes propuesta propuestas proponen propone quien quienes cuanto cuesta algo tema dime quiero saber hola gracias".split(" "));
+  const SIN = { robo: ["hurto", "imei"], celular: ["movil", "imei", "linea"], celulares: ["movil", "imei", "linea"], estafa: ["fraude", "suplantacion"], estafas: ["fraude", "suplantacion"],
+    internet: ["banda", "conectividad"], colegio: ["escuela", "educacion"], colegios: ["escuela", "educacion"], hospital: ["salud"], trabajo: ["empleo", "laboral"], chamba: ["empleo", "laboral"], ninos: ["menores", "adolescentes"] };
+  function recuperar(L, q, k = 6) {
+    const ws = norm(q).split(/[^a-z0-9ñ]+/).filter((w) => w.length > 2 && !STOP.has(w)).flatMap((w) => [w, ...(SIN[w] || [])]);
+    const idm = q.toUpperCase().match(/\b(IA|CIB|GOB|CON|ECO|TAL|SOB|DER)-?(\d{1,2})\b/);
+    const fijo = idm ? L.find((p) => p.id === `${idm[1]}-${idm[2].padStart(2, "0")}`) : null;
+    const r = L.map((p) => { let sc = 0; for (const w of ws) { const x = w.length > 5 ? w.slice(0, -2) : w; if (p._t.includes(x)) sc += 6; if (p._s.includes(x)) sc += 2; } return { p, sc }; })
+      .filter((x) => x.sc >= 2).sort((a, b) => b.sc - a.sc).slice(0, k).map((x) => x.p);
+    if (fijo) r.unshift(...[fijo].filter((p) => !r.includes(p)));
+    if (/(no|nada|cero|sin)\s.*(cuest|cost|gast)|gratis|costo nulo/.test(norm(q))) r.push(...L.filter((p) => p.costo_fiscal === "nulo" && !r.includes(p)).slice(0, 5));
+    return r.slice(0, 7);
+  }
+  const ficha = (p) => [`[${p.id}] ${p.titulo}`, `Qué hace: ${p.sumilla}`, p.benef ? `A quién beneficia: ${String(p.benef).slice(0, 220)}` : "",
+    (p.ent || []).length ? `Quién la implementa: ${(p.ent || []).slice(0, 6).map((e) => e[0] + " (" + e[1] + ")").join(", ")}` : "",
+    `Costo fiscal: ${p.costo_fiscal}${p.imp && p.imp.costo ? " — " + p.imp.costo : ""}`, p.imp && p.imp.bs ? `Beneficio social: ${p.imp.bs}` : "",
+    `Comisión: ${p.comision_sugerida} · Plazo: ${p.plazo}`].filter(Boolean).join("\n");
+  async function llamarIA(messages, model) {
+    const r = await fetch(AI_URL, { method: "POST", signal: AbortSignal.timeout(25000),
+      headers: { "Content-Type": "application/json", "X-Client-Token": AI_TOKEN, Origin: "https://unimauro.github.io" },
+      body: JSON.stringify(model ? { project: "agenda-tech", messages, model } : { project: "agenda-tech", messages }) });
+    const j = await r.json().catch(() => ({}));
+    if (!r.ok || !j.reply) throw new Error("gateway " + r.status);
+    return j.reply;
+  }
+
   // caché corta del resumen (lo leen todas las páginas)
   let cache = { t: 0, v: null };
 
@@ -157,6 +202,29 @@ module.exports = function makeAgenda({ DATA_DIR, json: jsonBase, clean }) {
       p.rows.forEach((r) => { ciudadanas[r.estado] = r.n; ciudadanas.recibidas += r.n; });
       cache = { t: Date.now(), v: { ok: true, votos, comentarios, ciudadanas, ts: new Date().toISOString() } };
       return json(res, 200, cache.v);
+    },
+
+
+    "POST /agenda/chat": async (req, res) => {
+      if (!AI_TOKEN) return json(res, 503, { ok: false, error: "Asistente con IA no configurado." });
+      const h = hashIp(ipOf(req));
+      if (limitado("ia:" + h, 12, 10 * 60e3)) return json(res, 429, { ok: false, error: "Muchas preguntas seguidas; espera unos minutos." });
+      const hoy = new Date().toISOString().slice(0, 10);
+      if (usoDia.d !== hoy) usoDia = { d: hoy, n: 0 };
+      if (usoDia.n >= AI_DIA) return json(res, 503, { ok: false, error: "El asistente alcanzó su límite de hoy." });
+      const b = await cuerpo(req, res, 6000); if (!b) return;
+      const q = txt(b.q, 400);
+      if (q.length < 2) return json(res, 400, { ok: false, error: "Escribe tu pregunta." });
+      const hist = (Array.isArray(b.hist) ? b.hist : []).slice(-4).map((m) => (m && m.r === "a" ? "Asistente: " : "Ciudadano: ") + txt(m && m.t, 500)).join("\n");
+      const L = await indice();
+      const ctx = recuperar(L, q + " " + hist.slice(-300));
+      const contenido = `PROPUESTAS DE LA AGENDA (únicas fuentes válidas; si la respuesta no está aquí, dilo):\n\n${ctx.length ? ctx.map(ficha).join("\n\n") : "(ninguna propuesta coincide con la pregunta)"}\n\n` +
+        (hist ? `CONVERSACIÓN PREVIA:\n${hist}\n\n` : "") + `PREGUNTA DEL CIUDADANO: ${q}`;
+      usoDia.n++;
+      let reply;
+      try { reply = await llamarIA([{ role: "user", content: contenido }], AI_MODEL); }
+      catch (e) { try { reply = await llamarIA([{ role: "user", content: contenido }]); } catch (e2) { return json(res, 502, { ok: false, error: "El asistente no respondió." }); } }
+      return json(res, 200, { ok: true, reply: txt(reply, 2500), ids: ctx.map((p) => p.id) });
     },
 
     "GET /agenda/comentarios": async (req, res) => {

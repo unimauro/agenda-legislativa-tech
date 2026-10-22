@@ -142,7 +142,28 @@
     ultimo = r[0].p;
     return "Encontré estas propuestas relacionadas:<br>" + r.map(({ p }) => `• ${L(p)} — ${corto(p.sumilla, 110)}`).join("<br>") + `<br>Pregúntame por una (por ejemplo «${r[0].p.id} ¿cuánto cuesta?»).`;
   }
-  const preguntar = async (q) => { add("user", esc(q)); document.getElementById("chat-sug")?.remove(); await cargarTexto(); setTimeout(() => add("bot", responder(q)), 200); };
+  // Respuesta con IA (api.tunky.net/agenda/chat: el servidor busca las propuestas y llama al modelo); si falla, modo sin IA.
+  const HIST = [];
+  const enlazar = (t) => esc(t).replace(/\*\*([^*]+)\*\*/g, "<b>$1</b>")
+    .replace(/\b((?:IA|CIB|GOB|CON|ECO|TAL|SOB|DER)-\d{2})\b/g, (m) => `<a href="p/${m}.html"><b>${m}</b></a>`)
+    .replace(/(^|\s)#(tramite|ciudadania|foro|vision)\b/g, (_, a, k) => `${a}<a href="${k}.html">${k}</a>`).replace(/\n/g, "<br>");
+  async function preguntaIA(q) {
+    try {
+      const ctl = new AbortController(), t = setTimeout(() => ctl.abort(), 30000);
+      const r = await fetch("https://api.tunky.net/agenda/chat", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ q, hist: HIST.slice(-4) }), signal: ctl.signal });
+      clearTimeout(t);
+      const j = await r.json();
+      return j && j.ok && j.reply ? j.reply : null;
+    } catch (_) { return null; }
+  }
+  const preguntar = async (q) => {
+    add("user", esc(q)); document.getElementById("chat-sug")?.remove();
+    log.insertAdjacentHTML("beforeend", `<div class="msg bot escribiendo" aria-label="Escribiendo"><span></span><span></span><span></span></div>`); log.scrollTop = log.scrollHeight;
+    const [ia] = await Promise.all([preguntaIA(q), cargarTexto()]);
+    log.querySelector(".escribiendo")?.remove();
+    if (ia) { add("bot", enlazar(ia)); HIST.push({ r: "u", t: q }, { r: "a", t: ia }); }
+    else add("bot", responder(q));
+  };
   $("#chat-f").onsubmit = (ev) => { ev.preventDefault(); const q = $("#chat-q").value.trim(); if (q) { $("#chat-q").value = ""; preguntar(q); } };
   log.addEventListener("click", (ev) => { const b = ev.target.closest("#chat-sug .chip"); if (b) preguntar(b.textContent); });
   if (location.hash === "#chat") abrir(true);

@@ -1,0 +1,1807 @@
+[
+ {
+  "id": "DER-01",
+  "eje": "derechos",
+  "titulo": "Ley que establece garantías para las audiencias judiciales por medios tecnológicos y el acceso al expediente judicial electrónico, modificando el Texto Único Ordenado de la Ley Orgánica del Poder Judicial",
+  "titulo_corto": "Audiencias virtuales con garantías",
+  "sumilla": "Eleva a rango de ley las garantías mínimas de las audiencias virtuales y mixtas del Poder Judicial (decisión motivada de la modalidad, comunicación reservada abogado-cliente, intérprete, grabación, no perjuicio por fallas de conexión) y el acceso permanente y gratuito de las partes al expediente judicial electrónico con bitácora de accesos.",
+  "problema": "El Poder Judicial generalizó las audiencias por videoconferencia desde la pandemia: según una nota de Andina del 24 de junio de 2022, entre enero de 2021 y esa fecha realizó 1 483 922 audiencias virtuales, el 92 % de las audiencias del periodo. Esta práctica descansa principalmente en resoluciones administrativas del Consejo Ejecutivo y en la regulación de la notificación electrónica que la Ley 30229 incorporó al Texto Único Ordenado de la Ley Orgánica del Poder Judicial (artículos 155-A a 155-I), pero no existe una norma con rango de ley que fije garantías comunes para la audiencia virtual: quién decide la modalidad y con qué motivación, cómo se asegura la comunicación reservada entre abogado y patrocinado, el intérprete en lenguas originarias o lengua de señas, la identificación de testigos, la grabación íntegra o las consecuencias de una caída de conexión. En la práctica, una falla técnica puede derivar en la frustración de la audiencia o en consecuencias procesales adversas para quien no tiene buena conectividad. Paralelamente, el proyecto del Poder Judicial que regula el expediente judicial electrónico (actualizado como 00481-2026-2031-CD) se encuentra en comisión; esta propuesta es complementaria y puede acumularse a él: no regula la arquitectura del expediente, sino las garantías de las personas usuarias.",
+  "objeto": "Establecer garantías mínimas para la realización de audiencias judiciales por medios tecnológicos y para el acceso de las partes al expediente judicial electrónico, en resguardo del debido proceso, la tutela jurisdiccional efectiva, la publicidad y la protección de datos personales.",
+  "articulado": [
+   {
+    "n": "Artículo 1",
+    "titulo": "Objeto",
+    "texto": "La presente ley tiene por objeto establecer garantías mínimas para la realización de audiencias judiciales por medios tecnológicos y para el acceso de las partes al expediente judicial electrónico, en resguardo del debido proceso, la tutela jurisdiccional efectiva, la publicidad de los procesos y la protección de los datos personales, conforme al artículo 139 de la Constitución Política del Perú."
+   },
+   {
+    "n": "Artículo 2",
+    "titulo": "Ámbito de aplicación",
+    "texto": "2.1 La presente ley se aplica a los órganos jurisdiccionales del Poder Judicial en todos los procesos, sin perjuicio de las reglas especiales previstas en los códigos procesales, que prevalecen en lo que resulten más garantistas.\n2.2 Los demás organismos que ejercen función jurisdiccional o fiscal pueden adoptar las garantías de la presente ley en el marco de su autonomía y de sus leyes orgánicas."
+   },
+   {
+    "n": "Artículo 3",
+    "titulo": "Definiciones",
+    "texto": "Para efectos de la presente ley se entiende por:\na) Audiencia virtual: aquella en la que todos los intervinientes participan por videoconferencia u otro medio tecnológico que permita la comunicación simultánea de audio y video.\nb) Audiencia mixta: aquella en la que uno o más intervinientes participan presencialmente y otros por medios tecnológicos.\nc) Punto de acceso judicial: espacio habilitado en una sede judicial o en una entidad pública con convenio, dotado de equipo y conectividad, para que las personas sin medios propios participen en audiencias virtuales o mixtas."
+   },
+   {
+    "n": "Artículo 4",
+    "titulo": "Determinación de la modalidad de audiencia",
+    "texto": "4.1 El juez determina, mediante decisión motivada, la modalidad presencial, virtual o mixta de cada audiencia, considerando la naturaleza del acto, la actuación de pruebas, la condición de vulnerabilidad de los intervinientes, la distancia, los costos de traslado y la disponibilidad de medios tecnológicos de las partes.\n4.2 Cualquiera de las partes puede oponerse a la modalidad dispuesta, de manera fundamentada, antes de la audiencia. El juez resuelve sin dilación y, si la parte acredita no contar con medios tecnológicos adecuados, dispone su participación presencial o desde un punto de acceso judicial.\n4.3 Las víctimas de violencia, las niñas, niños y adolescentes y las personas en condición de vulnerabilidad pueden solicitar participar por medios tecnológicos para evitar la confrontación con la persona investigada o demandada."
+   },
+   {
+    "n": "Artículo 5",
+    "titulo": "Garantías mínimas de la audiencia virtual o mixta",
+    "texto": "En toda audiencia virtual o mixta se garantiza:\na) La identificación fehaciente de los intervinientes, con verificación del documento de identidad.\nb) La visibilidad y audibilidad recíproca del juez, las partes, los abogados y los órganos de prueba durante toda la actuación.\nc) La comunicación privada y confidencial entre el abogado y su patrocinado, mediante un canal separado o una pausa solicitada, sin grabación.\nd) La intervención de intérprete o traductor en lenguas originarias, lengua extranjera o lengua de señas peruana, cuando corresponda.\ne) Las medidas razonables para que los testigos y peritos declaren sin asistencia ni presencia de terceros no autorizados.\nf) La grabación íntegra de la audiencia y su incorporación al expediente judicial electrónico."
+   },
+   {
+    "n": "Artículo 6",
+    "titulo": "Fallas de conectividad",
+    "texto": "6.1 La interrupción de la conexión no imputable a la parte, acreditada por cualquier medio idóneo, no genera rebeldía, abandono, desistimiento, preclusión ni ninguna otra consecuencia procesal adversa.\n6.2 Si la interrupción impide la continuación válida de la audiencia, el juez la suspende y la reprograma en el plazo más breve posible, conservando la validez de lo actuado hasta la interrupción."
+   },
+   {
+    "n": "Artículo 7",
+    "titulo": "Puntos de acceso judicial",
+    "texto": "7.1 El Poder Judicial habilita puntos de acceso judicial en sus sedes, de manera progresiva y priorizando los distritos judiciales con menor conectividad.\n7.2 El Poder Judicial puede celebrar convenios con gobiernos locales y otras entidades públicas para habilitar puntos de acceso judicial en sus locales, con garantía de privacidad del ambiente y de la comunicación."
+   },
+   {
+    "n": "Artículo 8",
+    "titulo": "Acceso al expediente judicial electrónico",
+    "texto": "8.1 Las partes, sus abogados y los terceros legitimados tienen acceso en línea, permanente y gratuito, al expediente judicial electrónico de los procesos en que intervienen, incluidas las grabaciones de audiencia, salvo reserva dispuesta por ley o por resolución motivada.\n8.2 La obtención de copias digitales del expediente judicial electrónico por las partes es gratuita.\n8.3 El sistema registra cada acceso al expediente en una bitácora que identifica al usuario, la fecha y la actuación consultada. Las partes pueden conocer los accesos a su propio expediente."
+   },
+   {
+    "n": "Artículo 9",
+    "titulo": "Publicidad, reserva y protección de datos",
+    "texto": "9.1 La publicidad de las audiencias virtuales se garantiza mediante su transmisión o puesta a disposición en los casos en que no exista reserva, conforme a ley.\n9.2 Las grabaciones y los datos personales contenidos en el expediente judicial electrónico se tratan conforme a la Ley 29733, Ley de Protección de Datos Personales. Se prohíbe la difusión, por cualquier interviniente, de la grabación de una audiencia declarada reservada.\n9.3 La plataforma de audiencias garantiza el cifrado de las comunicaciones y la conservación de las grabaciones en infraestructura bajo control del Poder Judicial o de proveedores sujetos a obligaciones contractuales de confidencialidad y localización acordes con la clasificación de la información."
+   },
+   {
+    "n": "Artículo 10",
+    "titulo": "Accesibilidad",
+    "texto": "Las plataformas de audiencias y de acceso al expediente judicial electrónico cumplen los estándares de accesibilidad digital vigentes para las entidades públicas y los que se establezcan por la ley de la materia."
+   },
+   {
+    "n": "Artículo 11",
+    "titulo": "Incorporación del artículo 155-J al Texto Único Ordenado de la Ley Orgánica del Poder Judicial",
+    "texto": "Se incorpora el artículo 155-J al Texto Único Ordenado de la Ley Orgánica del Poder Judicial, aprobado por el Decreto Supremo 017-93-JUS, con el siguiente texto:\n\"Artículo 155-J. Audiencias por medios tecnológicos y acceso al expediente judicial electrónico\nLas audiencias pueden realizarse de forma presencial, virtual o mixta, por decisión motivada del juez. Su realización por medios tecnológicos y el acceso de las partes al expediente judicial electrónico se rigen por las garantías establecidas en la ley de la materia. La interrupción de la conexión no imputable a la parte no genera consecuencia procesal adversa.\""
+   },
+   {
+    "n": "Artículo 12",
+    "titulo": "Información pública",
+    "texto": "El Poder Judicial publica anualmente, en formato abierto y por distrito judicial, el número de audiencias presenciales, virtuales y mixtas realizadas, las frustradas o reprogramadas por fallas de conectividad y los puntos de acceso judicial habilitados."
+   }
+  ],
+  "disposiciones": [
+   {
+    "tipo": "Complementaria Final",
+    "n": "Primera",
+    "texto": "Adecuación normativa. El Consejo Ejecutivo del Poder Judicial adecua sus disposiciones sobre audiencias virtuales y expediente judicial electrónico a la presente ley en un plazo de noventa días hábiles contados desde su entrada en vigencia."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Segunda",
+    "texto": "Financiamiento. La implementación de la presente ley se financia con cargo al presupuesto institucional del Poder Judicial, sin demandar recursos adicionales al Tesoro Público. La habilitación de puntos de acceso judicial es progresiva y se programa como meta en la programación multianual del pliego, sujeta a disponibilidad presupuestal."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Tercera",
+    "texto": "Concordancia con la regulación del expediente judicial electrónico. Lo dispuesto en la presente ley se aplica de manera complementaria a la ley que regule el expediente judicial electrónico."
+   }
+  ],
+  "costo_beneficio": "La ley no crea plazas ni órganos: ordena garantías sobre una práctica ya extendida en el Poder Judicial. Los costos se concentran en adecuar la plataforma de audiencias (canal reservado abogado-cliente, bitácora de accesos, grabación íntegra) y en habilitar progresivamente puntos de acceso judicial, que se programan como metas sujetas a disponibilidad presupuestal. Los beneficios son menores nulidades y reprogramaciones por vicios de motivación o fallas técnicas, menores costos de traslado para litigantes de zonas alejadas y mayor confianza en la audiencia virtual. Para las personas sin conectividad, los puntos de acceso evitan que la virtualidad se convierta en una barrera de acceso a la justicia. No genera gasto adicional al Tesoro: se financia con el presupuesto institucional del Poder Judicial.",
+  "efecto_vigencia": "Incorpora el artículo 155-J al TUO de la Ley Orgánica del Poder Judicial (D.S. 017-93-JUS), a continuación de los artículos 155-A a 155-I incorporados por la Ley 30229; la numeración debe confirmarse en SPIJ antes del dictamen por si hubiera sido ocupada. Por modificar la Ley Orgánica del Poder Judicial, requiere votación de ley orgánica (art. 106 de la Constitución). Complementa la Ley 29733 y es acumulable con la proposición 00481-2026-2031-CD sobre expediente judicial electrónico. No deroga normas.",
+  "normas_relacionadas": [
+   {
+    "norma": "Constitución Política del Perú, art. 139 (principios de la función jurisdiccional)",
+    "url": "https://www3.congreso.gob.pe/Docs/constitucion/constitucion/Constitucion-web_2026.pdf"
+   },
+   {
+    "norma": "Ley 30229, que adecúa el uso de las TIC en el sistema de remates judiciales y en los servicios de notificaciones de las resoluciones judiciales (incorpora arts. 155-A a 155-I a la LOPJ)",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/30229.pdf"
+   },
+   {
+    "norma": "Texto Único Ordenado de la Ley Orgánica del Poder Judicial, D.S. 017-93-JUS (edición de normas legales actualizadas de El Peruano)",
+    "url": "https://diariooficial.elperuano.pe/Normas/obtenerDocumento?idNorma=71"
+   },
+   {
+    "norma": "Ley 29733, Ley de Protección de Datos Personales",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/29733.pdf"
+   }
+  ],
+  "antecedentes": "Relacionados (SPLEY, data/antecedentes.json): 00481-2026-2031-CD (actualización del PL 05854/2023-PJ, que regula el expediente judicial electrónico; en comisión de Justicia y Derechos Humanos); 06161/2023-CR (obligatoriedad del expediente judicial digital y mesa de partes virtual); 08551/2024-CR (interoperabilidad y digitalización de los procesos judiciales); 06480/2023-CR (acceso directo de las partes a expedientes a través de la tecnología); 06427/2023-CR (notificaciones electrónicas en el proceso penal y copias digitales gratuitas, publicada según SPLEY; número de ley por verificar). Ninguno regula específicamente las garantías de la audiencia virtual.",
+  "referencias_internacionales": [
+   {
+    "pais": "España",
+    "norma": "Real Decreto-ley 6/2023 (servicio público de justicia: actuaciones y vistas mediante presencia telemática)",
+    "url": "https://www.boe.es/eli/es/rdl/2023/12/19/6/con"
+   },
+   {
+    "pais": "Colombia",
+    "norma": "Ley 2213 de 2022 (uso de las TIC en las actuaciones judiciales y audiencias virtuales)",
+    "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=187626"
+   },
+   {
+    "pais": "Brasil",
+    "norma": "Lei 11.419/2006 (informatização do processo judicial)",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/lei/l11419.htm"
+   }
+  ],
+  "comision_sugerida": "Justicia y Derechos Humanos",
+  "comision_secundaria": "Ciencia, Innovación Tecnológica y Sociedad Digital",
+  "plan2050": [
+   "reforma-judicial",
+   "transformacion-digital",
+   "institucionalidad"
+  ],
+  "ods": [
+   16,
+   10
+  ],
+  "prioridad": "alta",
+  "costo_fiscal": "bajo",
+  "plazo": "corto",
+  "indicador_exito": "Al 2028, disposiciones del Consejo Ejecutivo adecuadas y reporte anual publicado; al 2031, punto de acceso judicial en todos los distritos judiciales y tasa de audiencias frustradas por fallas de conectividad publicada y decreciente respecto de la línea de base 2027.",
+  "tags": [
+   "justicia",
+   "audiencias virtuales",
+   "expediente judicial electrónico",
+   "debido proceso",
+   "ley orgánica"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Andina (24-jun-2022): PJ realizó cerca de un millón y medio de audiencias virtuales desde enero del 2021",
+    "url": "https://andina.pe/agencia/noticia-pj-realizo-cerca-un-millon-y-medio-audiencias-virtuales-desde-enero-del-2021-898729.aspx"
+   },
+   {
+    "titulo": "Ley 30229 (texto publicado, Archivo Digital de la Legislación del Congreso)",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/30229.pdf"
+   },
+   {
+    "titulo": "Poder Judicial: portal del Expediente Judicial Electrónico",
+    "url": "https://eje.pj.gob.pe/"
+   }
+  ],
+  "implicados": {
+   "normas_modificadas": [
+    {
+     "norma": "TUO de la Ley Orgánica del Poder Judicial, D.S. 017-93-JUS",
+     "articulo": "art. 155-J (nuevo)",
+     "accion": "incorpora",
+     "url": "https://diariooficial.elperuano.pe/Normas/obtenerDocumento?idNorma=71"
+    },
+    {
+     "norma": "Ley 30229 (régimen de notificación electrónica, arts. 155-A a 155-I LOPJ)",
+     "articulo": "aplicación concordada",
+     "accion": "complementa",
+     "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/30229.pdf"
+    },
+    {
+     "norma": "Ley 29733, Ley de Protección de Datos Personales",
+     "articulo": "tratamiento de grabaciones y bitácora",
+     "accion": "complementa",
+     "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/29733.pdf"
+    }
+   ],
+   "entidades": [
+    {
+     "entidad": "Poder Judicial — Consejo Ejecutivo",
+     "sigla": "CEPJ",
+     "sector": "Poder Judicial",
+     "rol": "reglamentadora",
+     "responsabilidad": "Adecua sus disposiciones sobre audiencias virtuales y EJE (DCF Primera) y publica el reporte anual (art. 12)."
+    },
+    {
+     "entidad": "Órganos jurisdiccionales del Poder Judicial",
+     "sigla": "PJ",
+     "sector": "Poder Judicial",
+     "rol": "ejecutora",
+     "responsabilidad": "Deciden motivadamente la modalidad (art. 4), aseguran las garantías mínimas (art. 5) y reprograman ante fallas (art. 6)."
+    },
+    {
+     "entidad": "Gerencia General del Poder Judicial",
+     "sigla": "GG-PJ",
+     "sector": "Poder Judicial",
+     "rol": "ejecutora",
+     "responsabilidad": "Adecua la plataforma (canal reservado, grabación, bitácora, cifrado; arts. 5, 8 y 9) y habilita puntos de acceso (art. 7)."
+    },
+    {
+     "entidad": "Gobiernos locales y entidades públicas con convenio",
+     "sigla": "—",
+     "sector": "Varios",
+     "rol": "beneficiaria",
+     "responsabilidad": "Pueden ceder ambientes para puntos de acceso judicial mediante convenio (art. 7.2)."
+    },
+    {
+     "entidad": "Autoridad Nacional de Protección de Datos Personales",
+     "sigla": "ANPD",
+     "sector": "MINJUSDH",
+     "rol": "supervisora",
+     "responsabilidad": "Supervisa el tratamiento de datos personales de grabaciones y bitácoras conforme a la Ley 29733 (art. 9.2)."
+    }
+   ],
+   "sujetos_obligados": "Poder Judicial (órganos jurisdiccionales y administrativos); intervinientes en audiencias respecto de la prohibición de difundir grabaciones reservadas.",
+   "beneficiarios": "Litigantes, abogados, víctimas, testigos y peritos que participan en audiencias del Poder Judicial; en especial personas de zonas alejadas o sin conectividad. Magnitud de referencia: 1 483 922 audiencias virtuales entre enero de 2021 y junio de 2022 (Andina)."
+  },
+  "impacto": {
+   "tipo": "gasto",
+   "costo_estado": {
+    "rango": "S/ 1,5–5 millones (único) + S/ 0,3–1 millón/año",
+    "horizonte": "2027-2031",
+    "supuestos": "Estimación del editor, no dato oficial. Adecuación de plataforma (canal reservado, bitácora, grabación íntegra): S/ 0,5–1,5 millones únicos. Puntos de acceso: suponiendo 30–35 distritos judiciales y 1–3 puntos cada uno, con equipo, cámara, audio y conectividad a S/ 15 000–30 000 por punto (referencia de mercado de equipos de videoconferencia, no cotización oficial): S/ 0,5–3 millones. Operación y mantenimiento S/ 0,3–1 millón/año. Sin plazas nuevas.",
+    "financiamiento": "Presupuesto institucional del Poder Judicial sin demandar recursos adicionales al Tesoro; puntos de acceso como meta progresiva sujeta a disponibilidad presupuestal. Requiere coordinación con el Poder Ejecutivo, fuente de financiamiento identificada e informe previo de sostenibilidad fiscal del MEF antes del dictamen."
+   },
+   "beneficio_estado": "Menos audiencias frustradas y nulidades por falta de garantías; reducción de traslados de internos y efectivos en audiencias que se realizan virtualmente. No cuantificable con información pública.",
+   "beneficio_sociedad": "Ahorro de traslados y tiempo para litigantes, previsibilidad de reglas y protección frente a consecuencias adversas por fallas técnicas. No cuantificable con información pública.",
+   "inversion_privada": "No aplica.",
+   "costo_privado": "Nulo para litigantes; los abogados pueden requerir equipos mínimos ya habituales en la práctica.",
+   "riesgos": "Falta de presupuesto para puntos de acceso; uso de la virtualidad para actos que requieren inmediación plena (se mitiga con la decisión motivada y la oposición); colisión de numeración en la LOPJ si el art. 155-J ya hubiera sido ocupado.",
+   "confianza": "baja"
+  },
+  "revision_atendida": []
+ },
+ {
+  "id": "DER-02",
+  "eje": "derechos",
+  "titulo": "Ley que establece reglas de autoría, una excepción de minería de textos y datos para la investigación y obligaciones de transparencia sobre las obras utilizadas en el desarrollo de sistemas de inteligencia artificial, modificando el Decreto Legislativo 822, Ley sobre el Derecho de Autor",
+  "titulo_corto": "IA generativa y derecho de autor",
+  "sumilla": "Precisa que solo hay obra protegida cuando existe aporte creativo humano, crea una excepción acotada de minería de textos y datos para investigación sin fines comerciales, obliga a respetar las reservas de derechos expresadas en formato legible por máquina y exige a los proveedores de modelos de IA de propósito general publicar un resumen del contenido usado para su entrenamiento, dentro de los límites de la Decisión 351.",
+  "problema": "El Decreto Legislativo 822 define al autor como la «persona natural que realiza la creación intelectual» (art. 2, numeral 1) y declara que las excepciones a los derechos patrimoniales son de interpretación restrictiva (art. 50). La ley no prevé una excepción para la minería de textos y datos ni se pronuncia sobre los productos generados por sistemas de IA sin intervención creativa humana, ni existen reglas de transparencia sobre las obras utilizadas para entrenar modelos de IA. En 2026 el Decreto Legislativo 1724 incorporó un régimen de exención de responsabilidad de proveedores de servicios de internet (Título XIV, arts. 208-218), que no se ocupa de la IA. La Ley 31814 y su reglamento (D.S. 115-2025-PCM) promueven la IA pero no regulan su relación con el derecho de autor. Esta ausencia genera inseguridad para autores, que no pueden saber si sus obras fueron utilizadas, para investigadores y universidades, que carecen de una excepción clara para el análisis computacional de corpus, y para desarrolladores. Cualquier reforma está sujeta a la Decisión 351 de la Comunidad Andina, de aplicación preferente, cuyo artículo 21 limita las excepciones nacionales a casos que no atenten contra la explotación normal de la obra ni causen perjuicio injustificado a los intereses del titular.",
+  "objeto": "Establecer reglas sobre autoría y titularidad en relación con contenidos generados con sistemas de inteligencia artificial, una excepción de minería de textos y datos con fines de investigación y obligaciones de transparencia para los proveedores de modelos de inteligencia artificial de propósito general, en concordancia con la Decisión 351.",
+  "articulado": [
+   {
+    "n": "Artículo 1",
+    "titulo": "Objeto",
+    "texto": "La presente ley tiene por objeto modificar el Decreto Legislativo 822, Ley sobre el Derecho de Autor, para establecer reglas sobre autoría en relación con los contenidos generados con sistemas de inteligencia artificial, una excepción de minería de textos y datos con fines de investigación y obligaciones de transparencia sobre las obras utilizadas para el entrenamiento de modelos de inteligencia artificial de propósito general."
+   },
+   {
+    "n": "Artículo 2",
+    "titulo": "Incorporación de los numerales 56, 57 y 58 al artículo 2 del Decreto Legislativo 822",
+    "texto": "Se incorporan los numerales 56, 57 y 58 al artículo 2 del Decreto Legislativo 822, Ley sobre el Derecho de Autor, con el siguiente texto:\n\"Artículo 2. [...]\n56. Sistema de inteligencia artificial: sistema basado en máquinas que, a partir de la información que recibe, infiere cómo generar resultados como contenidos, predicciones, recomendaciones o decisiones.\n57. Modelo de inteligencia artificial de propósito general: modelo entrenado con grandes volúmenes de datos, capaz de realizar con competencia una amplia variedad de tareas distintas y que puede integrarse en diversos sistemas o aplicaciones.\n58. Minería de textos y datos: técnica de análisis automatizado de textos, sonidos, imágenes u otros datos en formato digital con el fin de generar información, como patrones, tendencias o correlaciones.\""
+   },
+   {
+    "n": "Artículo 3",
+    "titulo": "Incorporación del Título XV al Decreto Legislativo 822",
+    "texto": "Se incorpora el Título XV, «De la inteligencia artificial», al Decreto Legislativo 822, Ley sobre el Derecho de Autor, que comprende los artículos 219 a 224, conforme al texto de los artículos 4 a 9 de la presente ley."
+   },
+   {
+    "n": "Artículo 4",
+    "titulo": "Artículo 219 del Decreto Legislativo 822: autoría humana",
+    "texto": "\"Artículo 219. Autoría y contenidos generados con inteligencia artificial\n219.1 Solo es obra protegida por la presente ley la creación intelectual original de una persona natural. El contenido generado de manera autónoma por un sistema de inteligencia artificial, sin un aporte creativo humano que determine sus elementos expresivos, no constituye obra.\n219.2 Cuando una persona natural utiliza un sistema de inteligencia artificial como herramienta y realiza aportes creativos originales, mediante la selección, disposición, modificación o combinación de elementos, se protegen dichos aportes conforme a las reglas generales.\n219.3 En la solicitud de registro ante la Dirección de Derecho de Autor del Indecopi, el solicitante declara si en la obra se incorporó contenido generado con inteligencia artificial e identifica su aporte creativo. El registro es declarativo y no prejuzga sobre la existencia de la obra.\""
+   },
+   {
+    "n": "Artículo 5",
+    "titulo": "Artículo 220 del Decreto Legislativo 822: minería de textos y datos para investigación",
+    "texto": "\"Artículo 220. Minería de textos y datos con fines de investigación\n220.1 Es lícita, sin autorización del autor ni pago de remuneración, la reproducción de obras y bases de datos a las que se haya tenido acceso lícito, realizada por universidades, organismos de investigación, bibliotecas, archivos y museos, con el único fin de aplicar técnicas de minería de textos y datos para la investigación científica sin fines comerciales.\n220.2 Las copias se conservan con medidas de seguridad adecuadas, solo durante el tiempo necesario para la investigación y su verificación, y no pueden ponerse a disposición del público.\n220.3 Esta excepción es de interpretación restrictiva y se aplica en los casos en que no atente contra la explotación normal de la obra ni cause perjuicio injustificado a los legítimos intereses del titular, conforme al artículo 21 de la Decisión 351 de la Comunidad Andina.\""
+   },
+   {
+    "n": "Artículo 6",
+    "titulo": "Artículo 221 del Decreto Legislativo 822: usos no comprendidos y reserva de derechos",
+    "texto": "\"Artículo 221. Usos para entrenamiento no comprendidos en la excepción\n221.1 La reproducción de obras con fines de entrenamiento de sistemas de inteligencia artificial no comprendida en el artículo 220 requiere autorización del titular, conforme a las reglas generales de la presente ley.\n221.2 La reserva de derechos expresada por el titular mediante protocolos o metadatos legibles por máquina, o en las condiciones de uso del sitio en que la obra está disponible, se presume conocida por quien realiza la reproducción automatizada.\n221.3 Las sociedades de gestión colectiva pueden ofrecer licencias para estos usos respecto de su repertorio, sin perjuicio de la gestión individual por los titulares.\""
+   },
+   {
+    "n": "Artículo 7",
+    "titulo": "Artículo 222 del Decreto Legislativo 822: transparencia del entrenamiento",
+    "texto": "\"Artículo 222. Obligaciones de transparencia de los proveedores de modelos de propósito general\n222.1 El proveedor de un modelo de inteligencia artificial de propósito general que lo ofrezca o ponga a disposición en el territorio nacional publica, en español y de forma accesible:\na) Un resumen suficientemente detallado del contenido utilizado para su entrenamiento, que indique las principales categorías, colecciones y fuentes de datos, incluidos los dominios de internet más relevantes de los que se extrajo contenido.\nb) Su política de cumplimiento de los derechos de autor, incluido el modo en que identifica y respeta las reservas de derechos a que se refiere el artículo 221.\nc) Un canal electrónico para atender consultas y reclamos de los titulares de derechos.\n222.2 El resumen no obliga a revelar secretos comerciales ni la lista individual de obras. El proveedor que haya publicado un resumen equivalente conforme a la normativa de otra jurisdicción cumple esta obligación poniéndolo a disposición en español.\n222.3 Están exceptuados los modelos publicados bajo licencias libres y de código abierto que hagan públicos sus parámetros, salvo en lo relativo al literal b) del numeral 222.1, y las microempresas.\""
+   },
+   {
+    "n": "Artículo 8",
+    "titulo": "Artículo 223 del Decreto Legislativo 822: infracciones",
+    "texto": "\"Artículo 223. Infracciones administrativas\n223.1 Constituye infracción leve la publicación incompleta o desactualizada de la información prevista en el artículo 222.\n223.2 Constituye infracción grave la omisión de publicar la información prevista en el artículo 222 luego de haber sido requerida por la autoridad.\n223.3 La Comisión de Derecho de Autor del Indecopi conoce las infracciones previstas en este artículo y aplica las sanciones previstas en la presente ley, conforme al principio de razonabilidad y al artículo 248 del Texto Único Ordenado de la Ley 27444, aprobado por Decreto Supremo 006-2026-JUS. Lo dispuesto no excluye las acciones por infracción a los derechos de autor.\""
+   },
+   {
+    "n": "Artículo 9",
+    "titulo": "Artículo 224 del Decreto Legislativo 822: prevalencia del ordenamiento andino",
+    "texto": "\"Artículo 224. Aplicación conforme a la Decisión 351\nLas disposiciones del presente título se interpretan y aplican de conformidad con la Decisión 351 de la Comisión de la Comunidad Andina, Régimen Común sobre Derecho de Autor y Derechos Conexos, que prevalece en caso de conflicto.\""
+   }
+  ],
+  "disposiciones": [
+   {
+    "tipo": "Complementaria Final",
+    "n": "Primera",
+    "texto": "Lineamientos. El Indecopi aprueba, en un plazo de ciento veinte días hábiles, lineamientos sobre el contenido mínimo del resumen a que se refiere el artículo 222 del Decreto Legislativo 822 y sobre los protocolos de reserva de derechos legibles por máquina reconocidos, previa consulta pública."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Segunda",
+    "texto": "Financiamiento. La aplicación de la presente ley se financia con cargo al presupuesto institucional del Indecopi, sin demandar recursos adicionales al Tesoro Público."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Tercera",
+    "texto": "Vigencia diferida. Las obligaciones del artículo 222 del Decreto Legislativo 822 son exigibles a los doce meses de la publicación de los lineamientos señalados en la Primera Disposición Complementaria Final."
+   }
+  ],
+  "costo_beneficio": "El costo para el Estado es bajo: la supervisión de la transparencia se integra a las funciones de la Dirección y la Comisión de Derecho de Autor del Indecopi. Para los proveedores de modelos de propósito general, el costo de publicar un resumen es marginal, y se reduce si ya lo elaboran por exigencias de otras jurisdicciones (Reglamento europeo de IA, art. 53). Los beneficios son: seguridad jurídica para universidades y centros de investigación que analizan corpus, que hoy carecen de excepción; información para que autores e industrias culturales ejerzan sus derechos o negocien licencias; y claridad sobre que el contenido generado sin aporte humano no es obra, lo que evita apropiaciones del dominio común. El principal riesgo es la colisión con el art. 21 de la Decisión 351, que se mitiga acotando la excepción a fines de investigación no comerciales.",
+  "efecto_vigencia": "Incorpora los numerales 56, 57 y 58 al artículo 2 y el Título XV (arts. 219 a 224) al Decreto Legislativo 822, a continuación del Título XIV (arts. 208-218) incorporado por el Decreto Legislativo 1724 (2026); numeración a confirmar en SPIJ antes del dictamen. No modifica los arts. 43-A y 43-B (Ley 31117). Complementa la Ley 31814. Se aplica sin perjuicio de la Decisión 351, que prevalece.",
+  "normas_relacionadas": [
+   {
+    "norma": "Decreto Legislativo 822, Ley sobre el Derecho de Autor (arts. 2.1, 41-50)",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/DecretosLegislativos/00822.pdf"
+   },
+   {
+    "norma": "Decreto Legislativo 1724, que modifica el Decreto Legislativo 822 (limitación de responsabilidad de proveedores de servicios de internet; El Peruano, 7-feb-2026)",
+    "url": "https://busquedas.elperuano.pe/dispositivo/NL/2484948-7"
+   },
+   {
+    "norma": "Decisión 351 de la Comunidad Andina, Régimen Común sobre Derecho de Autor y Derechos Conexos (art. 21)",
+    "url": "https://www.wipo.int/wipolex/es/legislation/details/9445"
+   },
+   {
+    "norma": "Ley 31814, Ley que promueve el uso de la inteligencia artificial en favor del desarrollo económico y social del país",
+    "url": "https://leyes.congreso.gob.pe/Documentos/2021_2026/ADLP/Texto_Consolidado/31814-TXM.pdf"
+   },
+   {
+    "norma": "Ley 31117, que incorpora los arts. 43-A y 43-B al Decreto Legislativo 822 (Tratado de Marrakech)",
+    "url": "https://www.wipo.int/wipolex/es/legislation/details/23876"
+   }
+  ],
+  "antecedentes": "Relacionado (SPLEY): 04627/2022-CR, que modificaba el Decreto Legislativo 822 sobre protección de derechos en la nube (archivado). No se identificó en data/antecedentes.json un proyecto sobre IA y derecho de autor; por verificar en SPLEY.",
+  "referencias_internacionales": [
+   {
+    "pais": "Unión Europea",
+    "norma": "Reglamento (UE) 2024/1689 de Inteligencia Artificial, art. 53.1, letras c) y d) (política de derechos de autor y resumen del contenido de entrenamiento)",
+    "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+   },
+   {
+    "pais": "Unión Europea",
+    "norma": "Directiva (UE) 2019/790, arts. 3 y 4 (minería de textos y datos)",
+    "url": "https://eur-lex.europa.eu/eli/dir/2019/790/oj"
+   },
+   {
+    "pais": "Estados Unidos",
+    "norma": "U.S. Copyright Office, Copyright and Artificial Intelligence, Part 2: Copyrightability (2025)",
+    "url": "https://www.copyright.gov/ai/Copyright-and-Artificial-Intelligence-Part-2-Copyrightability-Report.pdf"
+   }
+  ],
+  "comision_sugerida": "Ciencia, Innovación Tecnológica y Sociedad Digital",
+  "comision_secundaria": "Educación, Cultura y Deporte",
+  "plan2050": [
+   "inteligencia-artificial",
+   "capital-del-conocimiento",
+   "ciencia-y-tecnologia"
+  ],
+  "ods": [
+   9,
+   4
+  ],
+  "prioridad": "media",
+  "costo_fiscal": "nulo",
+  "plazo": "corto",
+  "indicador_exito": "Al 2028, lineamientos del Indecopi aprobados y al menos los principales proveedores de modelos de propósito general ofrecidos en el Perú con resumen de entrenamiento publicado en español; al 2031, universidades que declaren proyectos de minería de textos y datos al amparo del art. 220.",
+  "tags": [
+   "derecho de autor",
+   "IA generativa",
+   "minería de datos",
+   "Indecopi",
+   "Decisión 351"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Decreto Legislativo 822 (texto publicado, Archivo Digital de la Legislación del Congreso)",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/DecretosLegislativos/00822.pdf"
+   },
+   {
+    "titulo": "Decisión 351, texto en el portal del Tribunal de Justicia de la Comunidad Andina",
+    "url": "https://www.tribunalandino.org.ec/decisiones/normativa/DEC351.pdf"
+   },
+   {
+    "titulo": "El Peruano: Decreto Legislativo 1724 (7-feb-2026)",
+    "url": "https://busquedas.elperuano.pe/dispositivo/NL/2484948-7"
+   },
+   {
+    "titulo": "U.S. Copyright Office, Copyright and Artificial Intelligence, Part 2",
+    "url": "https://www.copyright.gov/ai/Copyright-and-Artificial-Intelligence-Part-2-Copyrightability-Report.pdf"
+   }
+  ],
+  "implicados": {
+   "normas_modificadas": [
+    {
+     "norma": "Decreto Legislativo 822, Ley sobre el Derecho de Autor",
+     "articulo": "art. 2, numerales 56, 57 y 58",
+     "accion": "incorpora",
+     "url": "https://www.leyes.congreso.gob.pe/Documentos/DecretosLegislativos/00822.pdf"
+    },
+    {
+     "norma": "Decreto Legislativo 822, Ley sobre el Derecho de Autor",
+     "articulo": "Título XV, arts. 219-224 (nuevos)",
+     "accion": "incorpora",
+     "url": "https://www.leyes.congreso.gob.pe/Documentos/DecretosLegislativos/00822.pdf"
+    },
+    {
+     "norma": "Decisión 351 de la CAN",
+     "articulo": "art. 21 (límite de excepciones)",
+     "accion": "complementa",
+     "url": "https://www.wipo.int/wipolex/es/legislation/details/9445"
+    },
+    {
+     "norma": "Ley 31814",
+     "articulo": "marco general de IA",
+     "accion": "complementa",
+     "url": "https://leyes.congreso.gob.pe/Documentos/2021_2026/ADLP/Texto_Consolidado/31814-TXM.pdf"
+    }
+   ],
+   "entidades": [
+    {
+     "entidad": "Dirección de Derecho de Autor del Indecopi",
+     "sigla": "DDA-INDECOPI",
+     "sector": "PCM",
+     "rol": "rectora",
+     "responsabilidad": "Aprueba lineamientos del resumen y de protocolos de reserva (DCF Primera); recibe la declaración de uso de IA en el registro (art. 219.3)."
+    },
+    {
+     "entidad": "Comisión de Derecho de Autor del Indecopi",
+     "sigla": "CDA-INDECOPI",
+     "sector": "PCM",
+     "rol": "sancionadora",
+     "responsabilidad": "Conoce las infracciones de transparencia (art. 223)."
+    },
+    {
+     "entidad": "Universidades, organismos de investigación, bibliotecas, archivos y museos",
+     "sigla": "—",
+     "sector": "Varios",
+     "rol": "beneficiaria",
+     "responsabilidad": "Aplican la excepción de minería de textos y datos con medidas de seguridad (art. 220)."
+    },
+    {
+     "entidad": "Sociedades de gestión colectiva",
+     "sigla": "—",
+     "sector": "Privado",
+     "rol": "consultiva",
+     "responsabilidad": "Pueden ofrecer licencias para entrenamiento (art. 221.3)."
+    }
+   ],
+   "sujetos_obligados": "Proveedores de modelos de IA de propósito general ofrecidos en el Perú (excepto modelos de código abierto con parámetros públicos, en lo indicado, y microempresas); solicitantes de registro de obras; quienes reproducen obras para entrenamiento.",
+   "beneficiarios": "Autores, artistas e industrias culturales; universidades y centros de investigación; desarrolladores que requieren reglas claras. Sin cifra verificable de titulares afectados."
+  },
+  "impacto": {
+   "tipo": "neutro",
+   "costo_estado": {
+    "rango": "S/ 0 adicional (S/ 0,2–0,4 millones/año absorbidos)",
+    "horizonte": "anual",
+    "supuestos": "Estimación del editor, no dato oficial. Dedicación equivalente a 2–3 especialistas del Indecopi para lineamientos, monitoreo de publicaciones y procedimientos, a un costo referencial de S/ 8 000–12 000 mensuales por persona; se absorbe con el presupuesto institucional.",
+    "financiamiento": "Presupuesto institucional del Indecopi, sin demandar recursos adicionales al Tesoro."
+   },
+   "beneficio_estado": "Menor litigiosidad por indefinición de la autoría; información para la política cultural. No cuantificable.",
+   "beneficio_sociedad": "Transparencia para titulares, excepción de investigación para la academia y base para mercados de licencias. No cuantificable con información pública.",
+   "inversion_privada": "Podría facilitar acuerdos de licencia entre desarrolladores y titulares; no cuantificable.",
+   "costo_privado": "Bajo para proveedores de modelos (resumen y canal de reclamos); costo de licencias para quienes entrenen con obras protegidas fuera de la excepción, que hoy ya requieren autorización.",
+   "riesgos": "Cuestionamiento de compatibilidad con el art. 21 de la Decisión 351; dificultad de hacer cumplir la transparencia a proveedores sin presencia en el país; obsolescencia de definiciones técnicas.",
+   "confianza": "media"
+  },
+  "revision_atendida": []
+ },
+ {
+  "id": "DER-03",
+  "eje": "derechos",
+  "titulo": "Ley que establece obligaciones de transparencia de las plataformas digitales de gran alcance sobre moderación de contenidos, sistemas de recomendación y publicidad política pagada, con garantía de la prohibición de censura previa",
+  "titulo_corto": "Transparencia de grandes plataformas",
+  "sumilla": "Obliga a las plataformas en línea con más de tres millones de usuarios activos mensuales en el Perú a explicar sus reglas y decisiones de moderación con vía de reclamo y revisión humana, a ofrecer una opción de recomendación no basada en perfilado, a mantener un repositorio público de publicidad política pagada y a publicar informes semestrales, sin facultar a ninguna autoridad administrativa a ordenar el retiro de contenidos lícitos.",
+  "problema": "Una parte creciente del debate público peruano ocurre en redes sociales, plataformas de video y buscadores operados desde el extranjero, cuyas decisiones de moderación (retiro de publicaciones, reducción de alcance, suspensión de cuentas) y cuyos algoritmos de recomendación inciden en la libertad de expresión e información (art. 2.4 de la Constitución) sin reglas legales de transparencia ni vías de reclamo exigibles en el país. El Código de Protección y Defensa del Consumidor exige información relevante y el Reglamento de la Ley 29733 (D.S. 016-2024-JUS) reconoce la oposición al perfilado con fines publicitarios (art. 86.4) y la desindexación (art. 86.5), pero no hay obligaciones específicas sobre explicación de decisiones de moderación ni sobre la publicidad política pagada en plataformas. El Decreto Legislativo 1724 (2026) estableció, en materia de derecho de autor, que los proveedores no tienen una obligación general de supervisión (art. 208 del D. Leg. 822). En el Congreso hay iniciativas sobre redes coordinadas inauténticas (00403-2026-2031-CD) y desinformación electoral; esta propuesta evita el control de contenidos y se limita a transparencia y debido proceso privado, en línea con la prohibición de censura previa. El contenido sintético electoral se regula en IA-07 y la protección de la niñez en CIB-10.",
+  "objeto": "Establecer obligaciones de transparencia y de debido proceso para las plataformas digitales de gran alcance respecto de la moderación de contenidos, los sistemas de recomendación y la publicidad política pagada, garantizando la libertad de expresión y la prohibición de censura previa.",
+  "articulado": [
+   {
+    "n": "Artículo 1",
+    "titulo": "Objeto",
+    "texto": "La presente ley tiene por objeto establecer obligaciones de transparencia y de debido proceso a cargo de las plataformas digitales de gran alcance respecto de la moderación de contenidos, los sistemas de recomendación y la publicidad política pagada, en garantía de las libertades de información, opinión, expresión y difusión del pensamiento reconocidas en el numeral 4 del artículo 2 de la Constitución Política del Perú."
+   },
+   {
+    "n": "Artículo 2",
+    "titulo": "Ámbito de aplicación",
+    "texto": "2.1 La presente ley se aplica a las plataformas en línea que alojan y difunden al público información proporcionada por sus usuarios, incluidas las redes sociales y las plataformas de intercambio de videos, y a los motores de búsqueda, que alcancen un promedio mensual igual o superior a tres millones de usuarios activos en el territorio nacional durante el último semestre.\n2.2 No se aplica a los servicios de mensajería interpersonal privada, a los servicios de correo electrónico ni a los sitios de los medios de comunicación respecto de sus propios contenidos.\n2.3 Los proveedores comprendidos declaran ante el Indecopi su número promedio de usuarios activos mensuales en el país, conforme al reglamento."
+   },
+   {
+    "n": "Artículo 3",
+    "titulo": "Garantías de la libertad de expresión",
+    "texto": "3.1 Ninguna disposición de la presente ley autoriza la censura previa ni impone a los proveedores una obligación general de supervisar los contenidos que transmiten o alojan.\n3.2 La presente ley no faculta a autoridad administrativa alguna a ordenar el retiro, bloqueo o reducción de alcance de contenidos por su carácter lícito o ilícito; dichas medidas se rigen por las leyes vigentes y por las órdenes judiciales.\n3.3 Las obligaciones de la presente ley son de transparencia y procedimiento, y se aplican con neutralidad respecto del punto de vista expresado en los contenidos."
+   },
+   {
+    "n": "Artículo 4",
+    "titulo": "Reglas de moderación y decisiones motivadas",
+    "texto": "4.1 El proveedor publica en español sus condiciones de uso y reglas de moderación de manera clara, incluidas las herramientas automatizadas que emplea.\n4.2 Cuando el proveedor retira un contenido, restringe su visibilidad o alcance, suspende o cancela una cuenta o su monetización, comunica al usuario afectado, de manera inmediata, la medida adoptada, la regla aplicada, los hechos considerados y si la decisión fue automatizada, salvo que ello frustre una investigación penal o una orden judicial.\n4.3 El usuario afectado y quien reportó el contenido pueden presentar un reclamo interno gratuito, que es resuelto con revisión humana en un plazo máximo de quince días hábiles."
+   },
+   {
+    "n": "Artículo 5",
+    "titulo": "Sistemas de recomendación",
+    "texto": "5.1 El proveedor explica, en sus condiciones de uso y en lenguaje sencillo, los principales parámetros de sus sistemas de recomendación y la forma en que el usuario puede modificarlos.\n5.2 El proveedor ofrece al usuario, de manera accesible, al menos una opción de presentación de contenidos que no se base en la elaboración de perfiles a partir de sus datos personales, en concordancia con el derecho de oposición previsto en la Ley 29733, Ley de Protección de Datos Personales."
+   },
+   {
+    "n": "Artículo 6",
+    "titulo": "Repositorio de publicidad política pagada",
+    "texto": "6.1 El proveedor mantiene un repositorio público, gratuito y consultable en línea de los anuncios pagados dirigidos al público en el territorio nacional que se refieran a organizaciones políticas, candidatos, autoridades electas, procesos electorales, de participación ciudadana o asuntos sometidos a decisión de los poderes públicos.\n6.2 Por cada anuncio se registra: el contenido, la identidad del anunciante y de quien pagó, el monto invertido en rangos, el periodo de difusión, los criterios de segmentación utilizados y el alcance aproximado. La información se conserva por cinco años.\n6.3 El proveedor verifica la identidad del anunciante antes de difundir anuncios comprendidos en este artículo.\n6.4 La Oficina Nacional de Procesos Electorales accede al repositorio para el ejercicio de sus funciones de verificación y control de la actividad económico-financiera de las organizaciones políticas, conforme a la Ley 28094, Ley de Organizaciones Políticas."
+   },
+   {
+    "n": "Artículo 7",
+    "titulo": "Informe semestral de transparencia",
+    "texto": "El proveedor publica cada semestre, en formato abierto, un informe referido al territorio nacional que contiene, como mínimo: el número de medidas de moderación por tipo y por regla aplicada; la proporción de decisiones automatizadas; los reclamos recibidos, resueltos y revertidos y su tiempo promedio de atención; y el número de requerimientos y órdenes recibidos de autoridades nacionales, con indicación de la autoridad y del resultado."
+   },
+   {
+    "n": "Artículo 8",
+    "titulo": "Acceso a datos para investigación",
+    "texto": "El proveedor facilita a investigadores de universidades y centros de investigación, acreditados conforme al reglamento, el acceso a datos públicamente accesibles en su servicio con fines de investigación sobre riesgos para el debate público, con salvaguardas de seguridad y protección de datos personales conforme a la Ley 29733."
+   },
+   {
+    "n": "Artículo 9",
+    "titulo": "Representante y canal de comunicación",
+    "texto": "El proveedor designa un representante con domicilio en el país o un canal electrónico de contacto en español para la recepción de notificaciones de autoridades y usuarios, y lo comunica al Indecopi."
+   },
+   {
+    "n": "Artículo 10",
+    "titulo": "Supervisión e infracciones",
+    "texto": "10.1 El Indecopi, a través de sus órganos de protección al consumidor, supervisa el cumplimiento de los artículos 2.3, 4, 5.1, 6, 7, 8 y 9. La Autoridad Nacional de Protección de Datos Personales supervisa el artículo 5.2 conforme a la Ley 29733.\n10.2 Constituyen infracciones leves la publicación incompleta del informe del artículo 7 y la falta de comunicación del representante del artículo 9; infracciones graves el incumplimiento de los artículos 4 y 5.1; e infracciones muy graves la omisión del repositorio del artículo 6 o la declaración falsa del número de usuarios.\n10.3 Las infracciones se sancionan conforme a las escalas del artículo 110 del Código de Protección y Defensa del Consumidor, aprobado por la Ley 29571, con observancia de los principios del artículo 248 del Texto Único Ordenado de la Ley 27444, aprobado por Decreto Supremo 006-2026-JUS. Un mismo hecho no es sancionado por ambas autoridades cuando exista identidad de sujeto, hecho y fundamento."
+   }
+  ],
+  "disposiciones": [
+   {
+    "tipo": "Complementaria Final",
+    "n": "Primera",
+    "texto": "Reglamentación. El Poder Ejecutivo, mediante decreto supremo refrendado por el Presidente del Consejo de Ministros, con opinión del Indecopi, de la Autoridad Nacional de Protección de Datos Personales y de la Oficina Nacional de Procesos Electorales, reglamenta la presente ley en un plazo de ciento veinte días hábiles, previa publicación del proyecto para comentarios."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Segunda",
+    "texto": "Vigencia diferida. Las obligaciones de la presente ley son exigibles a los doce meses de la publicación de su reglamento."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Tercera",
+    "texto": "Financiamiento. La aplicación de la presente ley se financia con cargo al presupuesto institucional de las entidades involucradas, sin demandar recursos adicionales al Tesoro Público."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Cuarta",
+    "texto": "Evaluación. El Indecopi presenta a la comisión competente del Congreso, a los tres años de la vigencia de las obligaciones, un informe de evaluación de la aplicación de la ley y de su efecto en la libertad de expresión."
+   }
+  ],
+  "costo_beneficio": "La ley impone deberes de transparencia y procedimiento a un número reducido de grandes proveedores, que en su mayoría ya publican informes y repositorios similares por exigencia de otras jurisdicciones, por lo que el costo marginal de adaptarlos al Perú es moderado. Para el Estado, el costo es la supervisión por el Indecopi con su presupuesto institucional. Los beneficios son: usuarios que conocen por qué se moderó su contenido y pueden reclamar; ciudadanos y órganos electorales que pueden ver quién paga la publicidad política y a quién se dirige; e investigadores con acceso a datos para estudiar riesgos para el debate público. Al prohibir expresamente la censura previa y que la administración ordene retiros, la ley reduce el riesgo de uso político de la regulación.",
+  "efecto_vigencia": "Ley especial que complementa el Código de Protección y Defensa del Consumidor (Ley 29571), la Ley 29733 y la Ley 28094, sin modificarlas. No modifica la Ley Orgánica de Elecciones ni las leyes orgánicas de los organismos electorales: la ONPE solo accede al repositorio en ejercicio de funciones existentes; si en el dictamen se optara por asignarle funciones sancionadoras, se requiere modificar su ley orgánica con votación calificada. Concordante con el régimen de exención de responsabilidad del D. Leg. 1724 (no obligación general de supervisión). No deroga normas.",
+  "normas_relacionadas": [
+   {
+    "norma": "Constitución Política del Perú, art. 2.4 (libertades de información, opinión y expresión sin previa autorización ni censura)",
+    "url": "https://www3.congreso.gob.pe/Docs/constitucion/constitucion/Constitucion-web_2026.pdf"
+   },
+   {
+    "norma": "Ley 29571, Código de Protección y Defensa del Consumidor (art. 110, escala de multas)",
+    "url": "https://leyes.congreso.gob.pe/Documentos/Leyes/29571.pdf"
+   },
+   {
+    "norma": "Reglamento de la Ley 29733, D.S. 016-2024-JUS (art. 86.4 y 86.5, oposición al perfilado y desindexación)",
+    "url": "https://www3.congreso.gob.pe/Docs/DGP/DIDP/files/ds_016-2024-jus.pdf"
+   },
+   {
+    "norma": "Ley 28094, Ley de Organizaciones Políticas",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/28094.pdf"
+   },
+   {
+    "norma": "Decreto Legislativo 1724 (art. 208 del D. Leg. 822: sin obligación general de supervisión)",
+    "url": "https://busquedas.elperuano.pe/dispositivo/NL/2484948-7"
+   }
+  ],
+  "antecedentes": "Relacionados (SPLEY, data/antecedentes.json): 00403-2026-2031-CD (manipulación digital coordinada mediante granjas de bots, en comisión de Justicia y Derechos Humanos); 13268/2025-CR (actos de discriminación en plataformas digitales, con dictamen); 14322/2025-CR y 13706/2025-CR (datos personales en plataformas); 13075/2025-CR (desinformación electoral mediante IA). Ninguno regula transparencia de moderación ni repositorio de publicidad política.",
+  "referencias_internacionales": [
+   {
+    "pais": "Unión Europea",
+    "norma": "Reglamento (UE) 2022/2065, Ley de Servicios Digitales (arts. 17, 20, 27, 38, 39, 40)",
+    "url": "https://eur-lex.europa.eu/eli/reg/2022/2065/oj"
+   },
+   {
+    "pais": "Unión Europea",
+    "norma": "Reglamento (UE) 2024/900 sobre transparencia y segmentación de la publicidad política",
+    "url": "https://eur-lex.europa.eu/eli/reg/2024/900/oj"
+   }
+  ],
+  "comision_sugerida": "Defensa del Consumidor y Regulación de los Servicios Públicos",
+  "comision_secundaria": "Constitución, Reglamento y Relaciones Exteriores",
+  "plan2050": [
+   "peru-en-la-era-digital",
+   "institucionalidad",
+   "etica"
+  ],
+  "ods": [
+   16
+  ],
+  "prioridad": "alta",
+  "costo_fiscal": "bajo",
+  "plazo": "mediano",
+  "indicador_exito": "Al 2029, todos los proveedores comprendidos con informe semestral y repositorio de publicidad política en funcionamiento para el Perú; al 2031, tasa de reclamos internos resueltos con revisión humana dentro del plazo legal publicada por cada proveedor.",
+  "tags": [
+   "plataformas",
+   "moderación de contenidos",
+   "publicidad política",
+   "libertad de expresión",
+   "algoritmos"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Reglamento (UE) 2022/2065, Ley de Servicios Digitales (EUR-Lex)",
+    "url": "https://eur-lex.europa.eu/eli/reg/2022/2065/oj"
+   },
+   {
+    "titulo": "Reglamento (UE) 2024/900 sobre publicidad política (EUR-Lex)",
+    "url": "https://eur-lex.europa.eu/eli/reg/2024/900/oj"
+   },
+   {
+    "titulo": "Constitución Política del Perú, edición 2026 (Congreso)",
+    "url": "https://www3.congreso.gob.pe/Docs/constitucion/constitucion/Constitucion-web_2026.pdf"
+   }
+  ],
+  "implicados": {
+   "normas_modificadas": [
+    {
+     "norma": "Ley 29571, Código de Protección y Defensa del Consumidor",
+     "articulo": "art. 110 (escala de sanciones aplicable)",
+     "accion": "complementa",
+     "url": "https://leyes.congreso.gob.pe/Documentos/Leyes/29571.pdf"
+    },
+    {
+     "norma": "Ley 29733, Ley de Protección de Datos Personales",
+     "articulo": "derecho de oposición al perfilado",
+     "accion": "complementa",
+     "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/29733.pdf"
+    },
+    {
+     "norma": "Ley 28094, Ley de Organizaciones Políticas",
+     "articulo": "control de la actividad económico-financiera",
+     "accion": "complementa",
+     "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/28094.pdf"
+    }
+   ],
+   "entidades": [
+    {
+     "entidad": "Instituto Nacional de Defensa de la Competencia y de la Protección de la Propiedad Intelectual",
+     "sigla": "INDECOPI",
+     "sector": "PCM",
+     "rol": "supervisora",
+     "responsabilidad": "Recibe declaraciones de usuarios (art. 2.3), supervisa y sanciona arts. 4, 5.1, 6, 7, 8 y 9 (art. 10) y evalúa la ley (DCF Cuarta)."
+    },
+    {
+     "entidad": "Autoridad Nacional de Protección de Datos Personales",
+     "sigla": "ANPD",
+     "sector": "MINJUSDH",
+     "rol": "sancionadora",
+     "responsabilidad": "Supervisa la opción no basada en perfilado (art. 5.2) y las salvaguardas del acceso a datos (art. 8)."
+    },
+    {
+     "entidad": "Oficina Nacional de Procesos Electorales",
+     "sigla": "ONPE",
+     "sector": "Organismo electoral",
+     "rol": "beneficiaria",
+     "responsabilidad": "Accede al repositorio de publicidad política para la verificación de fondos partidarios (art. 6.4); opina sobre el reglamento."
+    },
+    {
+     "entidad": "Presidencia del Consejo de Ministros",
+     "sigla": "PCM",
+     "sector": "PCM",
+     "rol": "reglamentadora",
+     "responsabilidad": "Refrenda el reglamento (DCF Primera)."
+    },
+    {
+     "entidad": "Plataformas en línea y motores de búsqueda con ≥ 3 millones de usuarios activos mensuales en el Perú",
+     "sigla": "—",
+     "sector": "Privado",
+     "rol": "regulada",
+     "responsabilidad": "Cumplen arts. 4 a 9."
+    }
+   ],
+   "sujetos_obligados": "Proveedores de plataformas en línea y motores de búsqueda con un promedio de al menos tres millones de usuarios activos mensuales en el Perú (umbral fijado por el editor como aproximadamente una décima parte de la población, por analogía con el criterio europeo del 10 %; ajustable en el dictamen).",
+   "beneficiarios": "Usuarios de redes sociales y buscadores en el Perú, electores, organizaciones políticas, periodistas e investigadores. Sin cifra oficial verificada de usuarios por plataforma."
+  },
+  "impacto": {
+   "tipo": "gasto",
+   "costo_estado": {
+    "rango": "S/ 0,8–2 millones/año",
+    "horizonte": "anual",
+    "supuestos": "Estimación del editor, no dato oficial. Equipo de 6–12 profesionales en el Indecopi (abogados, analistas de datos) a un costo referencial de S/ 10 000–14 000 mensuales por persona, más herramientas de monitoreo. Número de proveedores comprendidos estimado en 5–10, sin dato oficial de usuarios por plataforma.",
+    "financiamiento": "Presupuesto institucional del Indecopi sin demandar recursos adicionales al Tesoro; las multas que se recauden se rigen por el Código. Requiere coordinación con el Poder Ejecutivo, fuente de financiamiento identificada e informe previo de sostenibilidad fiscal del MEF antes del dictamen."
+   },
+   "beneficio_estado": "Mejor información para la fiscalización del financiamiento político y para la política pública sobre el entorno digital. No cuantificable.",
+   "beneficio_sociedad": "Debido proceso frente a decisiones de moderación, mayor control del usuario sobre lo que ve y transparencia de la publicidad política. No cuantificable con información pública.",
+   "inversion_privada": "No aplica.",
+   "costo_privado": "Moderado para los grandes proveedores (adaptación de informes, repositorio y vía de reclamos al Perú); bajo si ya cumplen obligaciones equivalentes en otras jurisdicciones.",
+   "riesgos": "Dificultad de ejecución frente a proveedores sin domicilio en el país; uso de la vía de reclamo para hostigamiento; definición amplia de publicidad política que alcance a organizaciones de la sociedad civil; percepción de control estatal de contenidos (mitigada por el art. 3).",
+   "confianza": "baja"
+  },
+  "revision_atendida": []
+ },
+ {
+  "id": "DER-04",
+  "eje": "derechos",
+  "titulo": "Ley que regula la desindexación de datos personales en motores de búsqueda y el destino de los datos, cuentas y contenidos digitales de las personas fallecidas, modificando el Código Civil",
+  "titulo_corto": "Derecho al olvido y herencia digital",
+  "sumilla": "Eleva a rango de ley los criterios de ponderación para desindexar datos personales en buscadores sin borrar la fuente periodística, permite a las personas dejar instrucciones sobre sus cuentas y datos tras su muerte, regula el acceso de herederos a contenidos patrimoniales sin vulnerar el secreto de las comunicaciones de terceros y exige asentimiento para recrear digitalmente la imagen y la voz de una persona fallecida.",
+  "problema": "La Ley 29733 reconoce el derecho de supresión (art. 20) y el Reglamento aprobado por D.S. 016-2024-JUS define la desindexación y la admite como parte del derecho de oposición en internet (art. III, numeral 7, del Título Preliminar y art. 86.5), pero ninguna norma con rango de ley fija los criterios para ponderar la desindexación frente a las libertades de información y expresión (art. 2.4 de la Constitución): interés público, rol público de la persona, tiempo transcurrido o naturaleza sensible de la información. Esa indefinición traslada la ponderación a decisiones caso por caso y expone a medios y hemerotecas a pedidos de supresión de la fuente. Por otro lado, ni la Ley 29733 ni su reglamento regulan qué ocurre con los datos personales, cuentas y contenidos digitales de una persona fallecida (una búsqueda textual del reglamento no arroja referencias a personas fallecidas, sucesores o herederos). El Código Civil transmite a los sucesores los bienes, derechos y obligaciones (art. 660) y protege la imagen y la voz después de la muerte (art. 15), pero no distingue entre contenidos patrimoniales (archivos, obras, saldos) y comunicaciones privadas con terceros, ni prevé instrucciones digitales. Las familias dependen de las políticas privadas de cada proveedor, y la IA generativa ya permite recrear la imagen y la voz de personas fallecidas.",
+  "objeto": "Establecer criterios legales para la desindexación de datos personales en motores de búsqueda y regular el destino de los datos personales, cuentas y contenidos digitales de las personas fallecidas, respetando la libertad de expresión, el secreto de las comunicaciones y los derechos sucesorios.",
+  "articulado": [
+   {
+    "n": "Artículo 1",
+    "titulo": "Objeto",
+    "texto": "La presente ley tiene por objeto establecer criterios para la desindexación de datos personales en motores de búsqueda y regular el destino de los datos personales, cuentas y contenidos digitales de las personas fallecidas, en concordancia con la Ley 29733, Ley de Protección de Datos Personales, y el Código Civil."
+   },
+   {
+    "n": "Artículo 2",
+    "titulo": "Desindexación en motores de búsqueda",
+    "texto": "2.1 El titular de datos personales puede solicitar al proveedor de un motor de búsqueda que los resultados obtenidos a partir de su nombre no muestren enlaces a información que le concierne cuando esta sea inexacta, inadecuada, no pertinente o excesiva en relación con los fines del tratamiento y el tiempo transcurrido.\n2.2 La desindexación no supone la supresión del contenido en el sitio de origen, ni procede respecto de búsquedas por términos distintos del nombre del titular."
+   },
+   {
+    "n": "Artículo 3",
+    "titulo": "Criterios de ponderación",
+    "texto": "3.1 Para resolver la solicitud, el proveedor y, en su caso, la Autoridad Nacional de Protección de Datos Personales ponderan, entre otros: a) el interés público de la información y su contribución al debate público; b) si el titular ejerce o ejerció función pública, cargo de elección popular o tiene proyección pública, y la relación de la información con dicho rol; c) el tiempo transcurrido; d) la veracidad de la información; e) si se trata de datos sensibles o de hechos ocurridos cuando el titular era menor de edad; y f) si existe una sentencia absolutoria, sobreseimiento o rehabilitación vinculados a la información.\n3.2 Se presume el interés público de la información sobre el ejercicio de la función pública, el uso de recursos públicos y los procesos por delitos contra la administración pública, mientras no haya transcurrido el plazo que fije el reglamento.\n3.3 No procede la supresión ni la alteración de contenidos de archivos periodísticos o hemerotecas por esta vía; el titular conserva los derechos de rectificación previstos en la ley de la materia."
+   },
+   {
+    "n": "Artículo 4",
+    "titulo": "Procedimiento",
+    "texto": "4.1 El proveedor resuelve la solicitud en un plazo máximo de veinte días hábiles, de manera motivada. Cuando desindexe un enlace, informa de ello al responsable del sitio de origen, salvo oposición fundada del titular.\n4.2 Ante la denegatoria o falta de respuesta, el titular puede iniciar el procedimiento trilateral de tutela ante la Autoridad Nacional de Protección de Datos Personales, en la que puede intervenir el responsable del sitio de origen."
+   },
+   {
+    "n": "Artículo 5",
+    "titulo": "Instrucciones digitales",
+    "texto": "5.1 Toda persona mayor de edad puede dejar instrucciones sobre el acceso, conservación, transferencia, conmemoración o eliminación de sus datos personales, cuentas y contenidos digitales para después de su muerte, y designar a una o más personas para ejecutarlas.\n5.2 Las instrucciones pueden constar en testamento o en las herramientas que el proveedor del servicio digital ponga a disposición para tal fin. En caso de contradicción, prevalece la instrucción de fecha posterior.\n5.3 Los proveedores de servicios digitales que gestionen cuentas de usuarios en el país ofrecen una herramienta gratuita para registrar instrucciones digitales y designar contactos."
+   },
+   {
+    "n": "Artículo 6",
+    "titulo": "Datos personales de personas fallecidas",
+    "texto": "6.1 A falta de prohibición expresa del causante, la persona designada conforme al artículo 5 o, en su defecto, el cónyuge o integrante de la unión de hecho, los descendientes, ascendientes o hermanos, excluyentemente y en ese orden, pueden ejercer ante los responsables del tratamiento los derechos de acceso, rectificación, supresión y oposición respecto de los datos personales del fallecido, acreditando el fallecimiento y el vínculo.\n6.2 El ejercicio de estos derechos no comprende el acceso al contenido de las comunicaciones privadas del causante con terceros, que se mantiene protegido conforme al numeral 10 del artículo 2 de la Constitución, salvo autorización expresa del causante o mandato judicial motivado."
+   },
+   {
+    "n": "Artículo 7",
+    "titulo": "Contenidos digitales patrimoniales",
+    "texto": "7.1 Los contenidos digitales de valor patrimonial del causante, como archivos de su titularidad, obras, saldos y activos virtuales, forman parte de la herencia y se transmiten conforme al Código Civil.\n7.2 El proveedor entrega a los sucesores acreditados, con testamento o sucesión intestada inscritos, los contenidos patrimoniales en un plazo de treinta días hábiles, sin incluir comunicaciones privadas con terceros, salvo lo dispuesto en el numeral 6.2."
+   },
+   {
+    "n": "Artículo 8",
+    "titulo": "Modificación del artículo 15 del Código Civil",
+    "texto": "Se modifica el artículo 15 del Código Civil, aprobado por el Decreto Legislativo 295, con el siguiente texto:\n\"Artículo 15. Derecho a la imagen y voz\nLa imagen y la voz de una persona no pueden ser aprovechadas sin autorización expresa de ella o, si ha muerto, sin el asentimiento de su cónyuge, descendientes, ascendientes o hermanos, excluyentemente y en este orden.\nDicho asentimiento no es necesario cuando la utilización de la imagen y la voz se justifique por la notoriedad de la persona, por el cargo que desempeñe, por hechos de importancia o interés público o por motivos de índole científica, didáctica o cultural y siempre que se relacione con hechos o ceremonias de interés general que se celebren en público. No rigen estas excepciones cuando la utilización de la imagen o la voz atente contra el honor, el decoro o la reputación de la persona a quien corresponden.\nLa generación, mediante sistemas de inteligencia artificial u otras técnicas, de imágenes, voces o representaciones sintéticas que simulen a una persona fallecida requiere el asentimiento previsto en el primer párrafo y no procede si la persona lo prohibió en vida.\""
+   },
+   {
+    "n": "Artículo 9",
+    "titulo": "Supervisión",
+    "texto": "La Autoridad Nacional de Protección de Datos Personales supervisa el cumplimiento de los artículos 2 a 6 y del numeral 5.3 conforme al régimen sancionador de la Ley 29733. Las controversias sobre contenidos patrimoniales y sobre el artículo 15 del Código Civil se resuelven en la vía judicial."
+   }
+  ],
+  "disposiciones": [
+   {
+    "tipo": "Complementaria Final",
+    "n": "Primera",
+    "texto": "Reglamentación. El Poder Ejecutivo, mediante decreto supremo refrendado por el Ministro de Justicia y Derechos Humanos, adecua el Reglamento de la Ley 29733 a la presente ley en un plazo de noventa días hábiles, incluido el plazo de presunción de interés público del numeral 3.2."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Segunda",
+    "texto": "Financiamiento. La aplicación de la presente ley se financia con cargo al presupuesto institucional del Ministerio de Justicia y Derechos Humanos, sin demandar recursos adicionales al Tesoro Público."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Tercera",
+    "texto": "Adecuación de proveedores. Los proveedores de servicios digitales implementan la herramienta del numeral 5.3 en un plazo de doce meses desde la vigencia del reglamento."
+   }
+  ],
+  "costo_beneficio": "El costo para el Estado es bajo: la ANPD ya tramita procedimientos de tutela y la ley ordena criterios que hoy se aplican sin base legal específica. Los proveedores asumen costos de procesar solicitudes y ofrecer herramientas de instrucciones digitales, que varios grandes servicios ya tienen. Los beneficios son: seguridad jurídica para titulares, buscadores y medios, al fijar criterios que protegen las hemerotecas y la información de interés público; y certeza para familias en duelo, que hoy dependen de políticas privadas, con protección del secreto de las comunicaciones de terceros. La regla sobre representaciones sintéticas de personas fallecidas previene usos no consentidos de imagen y voz mediante IA.",
+  "efecto_vigencia": "Modifica el artículo 15 del Código Civil (D. Leg. 295), con texto íntegro; el primer y segundo párrafo reproducen el texto vigente según la Décimo Cuarta Edición Oficial del MINJUS (2014) y deben cotejarse en SPIJ antes del dictamen. Complementa la Ley 29733 (arts. 20 y 22) y su Reglamento (art. III.7 del Título Preliminar, arts. 82 y 86), sin modificarlos. No deroga normas.",
+  "normas_relacionadas": [
+   {
+    "norma": "Ley 29733, Ley de Protección de Datos Personales (arts. 20 y 22)",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/29733.pdf"
+   },
+   {
+    "norma": "Reglamento de la Ley 29733, D.S. 016-2024-JUS (art. III.7 del Título Preliminar, arts. 82 y 86.5)",
+    "url": "https://www3.congreso.gob.pe/Docs/DGP/DIDP/files/ds_016-2024-jus.pdf"
+   },
+   {
+    "norma": "Código Civil, Decreto Legislativo 295, Décimo Cuarta Edición Oficial MINJUS (arts. 15 y 660)",
+    "url": "https://www.minjus.gob.pe/wp-content/uploads/2015/01/Codigo-Civil-MINJUS-BCP.pdf"
+   },
+   {
+    "norma": "Constitución Política del Perú, art. 2, numerales 4, 6 y 10",
+    "url": "https://www3.congreso.gob.pe/Docs/constitucion/constitucion/Constitucion-web_2026.pdf"
+   }
+  ],
+  "antecedentes": "Relacionados (SPLEY): 04708/2022-CR (modifica la Ley 29733, en comisión). No se identificó en data/antecedentes.json un proyecto sobre herencia digital o desindexación; por verificar en SPLEY.",
+  "referencias_internacionales": [
+   {
+    "pais": "España",
+    "norma": "Ley Orgánica 3/2018, arts. 3 (datos de personas fallecidas), 93 (derecho al olvido en búsquedas) y 96 (testamento digital)",
+    "url": "https://www.boe.es/eli/es/lo/2018/12/05/3/con"
+   },
+   {
+    "pais": "Unión Europea",
+    "norma": "TJUE, asunto C-131/12, Google Spain (2014)",
+    "url": "https://curia.europa.eu/juris/liste.jsf?num=C-131/12"
+   },
+   {
+    "pais": "Unión Europea",
+    "norma": "Reglamento (UE) 2016/679, art. 17 (derecho de supresión)",
+    "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj"
+   }
+  ],
+  "comision_sugerida": "Justicia y Derechos Humanos",
+  "comision_secundaria": "Ciencia, Innovación Tecnológica y Sociedad Digital",
+  "plan2050": [
+   "peru-en-la-era-digital",
+   "la-familia",
+   "etica"
+  ],
+  "ods": [
+   16
+  ],
+  "prioridad": "media",
+  "costo_fiscal": "nulo",
+  "plazo": "corto",
+  "indicador_exito": "Al 2028, reglamento adecuado y principales proveedores con herramienta de instrucciones digitales disponible en el Perú; al 2031, la ANPD publica anualmente el número de procedimientos de desindexación y su resultado.",
+  "tags": [
+   "derecho al olvido",
+   "herencia digital",
+   "datos personales",
+   "fallecidos",
+   "libertad de expresión"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Reglamento de la Ley 29733 (D.S. 016-2024-JUS), edición del Congreso",
+    "url": "https://www3.congreso.gob.pe/Docs/DGP/DIDP/files/ds_016-2024-jus.pdf"
+   },
+   {
+    "titulo": "Ley Orgánica 3/2018 de Protección de Datos Personales y garantía de los derechos digitales (BOE)",
+    "url": "https://www.boe.es/eli/es/lo/2018/12/05/3/con"
+   },
+   {
+    "titulo": "TJUE, asunto C-131/12 (CURIA)",
+    "url": "https://curia.europa.eu/juris/liste.jsf?num=C-131/12"
+   }
+  ],
+  "implicados": {
+   "normas_modificadas": [
+    {
+     "norma": "Código Civil, Decreto Legislativo 295",
+     "articulo": "art. 15",
+     "accion": "modifica",
+     "url": "https://www.minjus.gob.pe/wp-content/uploads/2015/01/Codigo-Civil-MINJUS-BCP.pdf"
+    },
+    {
+     "norma": "Ley 29733, Ley de Protección de Datos Personales",
+     "articulo": "arts. 20 y 22",
+     "accion": "complementa",
+     "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/29733.pdf"
+    },
+    {
+     "norma": "Reglamento de la Ley 29733, D.S. 016-2024-JUS",
+     "articulo": "art. III.7 TP, arts. 82 y 86",
+     "accion": "complementa",
+     "url": "https://www3.congreso.gob.pe/Docs/DGP/DIDP/files/ds_016-2024-jus.pdf"
+    }
+   ],
+   "entidades": [
+    {
+     "entidad": "Autoridad Nacional de Protección de Datos Personales",
+     "sigla": "ANPD",
+     "sector": "MINJUSDH",
+     "rol": "sancionadora",
+     "responsabilidad": "Resuelve tutelas de desindexación (art. 4.2) y supervisa arts. 2 a 6 y 5.3 (art. 9)."
+    },
+    {
+     "entidad": "Ministerio de Justicia y Derechos Humanos",
+     "sigla": "MINJUSDH",
+     "sector": "MINJUSDH",
+     "rol": "reglamentadora",
+     "responsabilidad": "Adecua el Reglamento de la Ley 29733 (DCF Primera)."
+    },
+    {
+     "entidad": "Poder Judicial",
+     "sigla": "PJ",
+     "sector": "Poder Judicial",
+     "rol": "ejecutora",
+     "responsabilidad": "Resuelve controversias patrimoniales y de imagen y voz (art. 9) y autoriza acceso excepcional a comunicaciones (art. 6.2)."
+    },
+    {
+     "entidad": "Proveedores de motores de búsqueda y de servicios digitales con cuentas de usuarios",
+     "sigla": "—",
+     "sector": "Privado",
+     "rol": "regulada",
+     "responsabilidad": "Resuelven solicitudes (art. 4), ofrecen herramienta de instrucciones (art. 5.3) y entregan contenidos patrimoniales (art. 7.2)."
+    }
+   ],
+   "sujetos_obligados": "Proveedores de motores de búsqueda; responsables de tratamiento de datos personales; proveedores de servicios digitales que gestionan cuentas de usuarios en el país; quienes generen representaciones sintéticas de personas fallecidas.",
+   "beneficiarios": "Titulares de datos personales, familias y sucesores de personas fallecidas, medios de comunicación (por la protección expresa de hemerotecas). Sin cifra verificable."
+  },
+  "impacto": {
+   "tipo": "neutro",
+   "costo_estado": {
+    "rango": "S/ 0 adicional (S/ 0,1–0,3 millones/año absorbidos)",
+    "horizonte": "anual",
+    "supuestos": "Estimación del editor, no dato oficial. Aumento de procedimientos trilaterales en la ANPD atendido con 1–2 especialistas reasignados (S/ 8 000–12 000 mensuales por persona). Sin plazas nuevas.",
+    "financiamiento": "Presupuesto institucional del MINJUSDH (ANPD), sin demandar recursos adicionales al Tesoro."
+   },
+   "beneficio_estado": "Menor litigiosidad por falta de criterios; reglas claras para la ANPD. No cuantificable.",
+   "beneficio_sociedad": "Protección de la reputación de personas sin proyección pública, de la memoria y la privacidad de fallecidos y de terceros, y del archivo periodístico. No cuantificable con información pública.",
+   "inversion_privada": "No aplica.",
+   "costo_privado": "Bajo a moderado para buscadores y proveedores de cuentas (gestión de solicitudes y herramienta de instrucciones).",
+   "riesgos": "Uso de la desindexación para ocultar información de interés público (mitigado por la presunción del art. 3.2 y la exclusión de hemerotecas); conflictos entre herederos; dificultad de exigir cumplimiento a proveedores extranjeros.",
+   "confianza": "media"
+  },
+  "revision_atendida": []
+ },
+ {
+  "id": "DER-05",
+  "eje": "derechos",
+  "titulo": "Ley que regula la vigilancia y el monitoreo digital de las personas trabajadoras y garantiza su intimidad y su desconexión digital, modificando la Ley 31572, Ley del Teletrabajo",
+  "titulo_corto": "Monitoreo laboral digital",
+  "sumilla": "Fija límites al monitoreo digital del empleador en todas las modalidades de trabajo: política previa informada, evaluación de impacto, prohibición de activar cámara o micrófono sin aviso, registro de pulsaciones, reconocimiento de emociones, vigilancia en espacios de descanso o fuera de jornada y acceso a cuentas personales, con fiscalización de SUNAFIL y de la ANPD sin doble sanción.",
+  "problema": "La Ley 31572, Ley del Teletrabajo, ya reconoce el derecho a la desconexión digital (arts. 6.3 y 22) y a la intimidad, privacidad e inviolabilidad de las comunicaciones del teletrabajador (art. 6.4), y dispone que el empleador establece los medios de control y supervisión «respetando la privacidad» (art. 5). Pero estas reglas solo alcanzan al teletrabajo y no fijan límites concretos frente a herramientas que hoy se ofrecen comercialmente: software que toma capturas de pantalla periódicas, registra pulsaciones de teclado, activa la cámara, mide «productividad» por actividad del ratón, geolocaliza permanentemente o infiere emociones. Las personas que trabajan presencialmente o en modalidad híbrida también están expuestas a estos sistemas. La Ley 29733 y su Reglamento (D.S. 016-2024-JUS), que califica como sensibles los datos biométricos, neuronales y emocionales, se aplican, y la ANPD aprobó en 2020 una directiva sobre videovigilancia que incluye el control laboral; sin embargo, no hay una norma laboral con rango de ley que tipifique los usos prohibidos ni articule la fiscalización entre SUNAFIL y la ANPD. El artículo 23 de la Constitución dispone que ninguna relación laboral puede limitar el ejercicio de los derechos constitucionales ni desconocer o rebajar la dignidad del trabajador. La gestión algorítmica (decisiones automatizadas sobre el trabajador) se regula en IA-13; esta propuesta se limita a la vigilancia y el monitoreo.",
+  "objeto": "Establecer los límites, garantías y obligaciones aplicables al monitoreo digital que realizan los empleadores sobre las personas trabajadoras, en resguardo de la intimidad, la protección de datos personales, la dignidad y la desconexión digital.",
+  "articulado": [
+   {
+    "n": "Artículo 1",
+    "titulo": "Objeto",
+    "texto": "La presente ley tiene por objeto establecer los límites, garantías y obligaciones aplicables al monitoreo digital que realizan los empleadores sobre las personas trabajadoras, en resguardo de la intimidad, la protección de datos personales, la dignidad y la desconexión digital, conforme a los artículos 2 y 23 de la Constitución Política del Perú."
+   },
+   {
+    "n": "Artículo 2",
+    "titulo": "Ámbito de aplicación",
+    "texto": "La presente ley se aplica a los empleadores del sector privado y a las entidades públicas, cualquiera sea el régimen laboral, respecto de sus trabajadores y servidores en modalidad presencial, teletrabajo o mixta, y a las empresas de tercerización y de intermediación respecto del personal destacado."
+   },
+   {
+    "n": "Artículo 3",
+    "titulo": "Definición y principios",
+    "texto": "3.1 Monitoreo digital es la recopilación, registro o análisis, mediante tecnologías digitales, de información sobre la actividad, comunicaciones, ubicación, rendimiento, imagen, voz o características físicas de la persona trabajadora.\n3.2 El monitoreo digital solo procede con una finalidad legítima, determinada y vinculada a la relación laboral, por los medios menos invasivos disponibles, y en forma proporcional, transparente y limitada a la jornada y a los equipos o cuentas de trabajo, conforme a los principios de la Ley 29733, Ley de Protección de Datos Personales."
+   },
+   {
+    "n": "Artículo 4",
+    "titulo": "Política de monitoreo e información previa",
+    "texto": "4.1 Antes de implementar cualquier herramienta de monitoreo digital, el empleador aprueba y entrega a las personas trabajadoras una política escrita que indica: la herramienta, los datos recopilados, la finalidad, la frecuencia, el plazo de conservación, quiénes acceden a la información y cómo ejercer los derechos de acceso, rectificación, supresión y oposición.\n4.2 La política se pone en conocimiento previo de la organización sindical o, a falta de esta, de los representantes de los trabajadores, que pueden formular observaciones dentro de diez días hábiles. Sus observaciones no son vinculantes, pero el empleador debe responderlas por escrito."
+   },
+   {
+    "n": "Artículo 5",
+    "titulo": "Evaluación de impacto",
+    "texto": "El monitoreo digital sistemático, el que emplee datos biométricos o geolocalización continua, y el que se aplique al conjunto o a una parte significativa del personal, requiere una evaluación de impacto relativa a la protección de datos personales previa, conforme a la Ley 29733 y su reglamento, que se pone a disposición de la autoridad cuando esta la requiera."
+   },
+   {
+    "n": "Artículo 6",
+    "titulo": "Prácticas prohibidas",
+    "texto": "Se prohíbe al empleador:\na) Activar remotamente la cámara o el micrófono de un dispositivo sin aviso simultáneo y visible a la persona trabajadora.\nb) Registrar las pulsaciones de teclado o capturar de forma continua o aleatoria la pantalla de manera generalizada, salvo en sistemas críticos de seguridad, previa evaluación de impacto y con aviso.\nc) Utilizar sistemas de reconocimiento o inferencia de emociones o de estados de ánimo de la persona trabajadora, salvo por razones médicas o de seguridad debidamente justificadas.\nd) Monitorear vestuarios, servicios higiénicos, lactarios, comedores y espacios de descanso.\ne) Monitorear o geolocalizar a la persona trabajadora fuera de su jornada, durante su tiempo de desconexión digital, descansos, vacaciones o licencias.\nf) Exigir el acceso a las cuentas personales de redes sociales, correo o mensajería, o monitorear dispositivos personales fuera del espacio o aplicación de trabajo separado que se haya habilitado.\ng) Utilizar el monitoreo para identificar la afiliación o actividad sindical."
+   },
+   {
+    "n": "Artículo 7",
+    "titulo": "Uso de la información",
+    "texto": "7.1 La información obtenida mediante monitoreo digital no informado conforme al artículo 4 o mediante prácticas prohibidas por el artículo 6 no puede sustentar sanciones disciplinarias ni la extinción del vínculo laboral.\n7.2 La persona trabajadora tiene derecho a acceder a los datos que el empleador haya recopilado sobre ella mediante monitoreo digital.\n7.3 Las decisiones adoptadas sobre la base de tratamientos automatizados se rigen por el artículo 23 de la Ley 29733 y por la ley que regule la gestión algorítmica en las relaciones laborales."
+   },
+   {
+    "n": "Artículo 8",
+    "titulo": "Modificación del artículo 5 de la Ley 31572, Ley del Teletrabajo",
+    "texto": "Se modifica el artículo 5 de la Ley 31572, Ley del Teletrabajo, con el siguiente texto:\n\"Artículo 5. Coordinaciones para el teletrabajo\nEl empleador establece el medio y las herramientas necesarias para las disposiciones, coordinaciones, control y supervisión para desarrollar el teletrabajo, respetando la privacidad del teletrabajador y su derecho a la desconexión digital. Las herramientas de monitoreo digital se sujetan a la ley que regula la vigilancia y el monitoreo digital de las personas trabajadoras y no pueden operar fuera de la jornada laboral.\""
+   },
+   {
+    "n": "Artículo 9",
+    "titulo": "Fiscalización e infracciones",
+    "texto": "9.1 La Superintendencia Nacional de Fiscalización Laboral fiscaliza el cumplimiento de los artículos 4, 6 y 7.1. El incumplimiento del artículo 4 constituye infracción grave y el del artículo 6, infracción muy grave en materia de relaciones laborales, conforme a la Ley 28806, Ley General de Inspección del Trabajo.\n9.2 La Autoridad Nacional de Protección de Datos Personales fiscaliza el tratamiento de datos personales derivado del monitoreo digital, incluido el artículo 5, conforme a la Ley 29733.\n9.3 Cuando un mismo hecho sea fiscalizado por ambas autoridades, se coordinan y no se impone más de una sanción cuando exista identidad de sujeto, hecho y fundamento, conforme al artículo 248 del Texto Único Ordenado de la Ley 27444, aprobado por Decreto Supremo 006-2026-JUS."
+   }
+  ],
+  "disposiciones": [
+   {
+    "tipo": "Complementaria Final",
+    "n": "Primera",
+    "texto": "Reglamentación. El Poder Ejecutivo, mediante decreto supremo refrendado por el Ministro de Trabajo y Promoción del Empleo y el Ministro de Justicia y Derechos Humanos, reglamenta la presente ley en un plazo de noventa días hábiles y adecua el Reglamento de la Ley General de Inspección del Trabajo para incorporar las infracciones del artículo 9."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Segunda",
+    "texto": "Financiamiento. La aplicación de la presente ley se financia con cargo al presupuesto institucional de la SUNAFIL y del Ministerio de Justicia y Derechos Humanos, sin demandar recursos adicionales al Tesoro Público."
+   },
+   {
+    "tipo": "Complementaria Transitoria",
+    "n": "Única",
+    "texto": "Adecuación. Los empleadores que, a la entrada en vigencia de la presente ley, utilicen herramientas de monitoreo digital se adecuan a ella en un plazo de ciento ochenta días calendario."
+   }
+  ],
+  "costo_beneficio": "La ley no crea entidades ni plazas: ordena límites a una práctica privada y pública y asigna su fiscalización a SUNAFIL y a la ANPD dentro de sus funciones. Para los empleadores, el costo es elaborar una política de monitoreo, realizar evaluaciones de impacto en los casos de monitoreo intensivo y, cuando corresponda, desactivar funciones prohibidas de sus herramientas; para las MYPE que no usan monitoreo intensivo el costo es prácticamente nulo. Los beneficios son: protección de la intimidad y de los datos sensibles de los trabajadores, menor litigiosidad por despidos basados en pruebas obtenidas sin información previa y reglas claras para empleadores y proveedores de software. Se respeta la facultad de dirección: el monitoreo proporcional e informado sigue siendo lícito.",
+  "efecto_vigencia": "Modifica el artículo 5 de la Ley 31572, Ley del Teletrabajo (texto íntegro). Complementa los arts. 6.3, 6.4 y 22 de la Ley 31572, la Ley 29733 y su reglamento, y la Ley 28806 (cuyo reglamento debe adecuarse para tipificar las infracciones). Remite a la propuesta IA-13 para decisiones automatizadas. No deroga normas.",
+  "normas_relacionadas": [
+   {
+    "norma": "Ley 31572, Ley del Teletrabajo (arts. 5, 6 y 22), texto consolidado",
+    "url": "https://leyes.congreso.gob.pe/Documentos/2021_2026/ADLP/Texto_Consolidado/31572-TXM.pdf"
+   },
+   {
+    "norma": "Ley 29733, Ley de Protección de Datos Personales (art. 23)",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/29733.pdf"
+   },
+   {
+    "norma": "Reglamento de la Ley 29733, D.S. 016-2024-JUS (art. III.6 TP: datos sensibles incluyen neuronales y emocionales)",
+    "url": "https://www3.congreso.gob.pe/Docs/DGP/DIDP/files/ds_016-2024-jus.pdf"
+   },
+   {
+    "norma": "Directiva 01-2020-JUS/DGTAIPD, Tratamiento de datos personales mediante sistemas de videovigilancia",
+    "url": "https://www.gob.pe/institucion/anpd/informes-publicaciones/1938476-directiva-para-el-tratamiento-de-datos-personales-mediante-sistemas-de-videovigilancia"
+   },
+   {
+    "norma": "Ley 28806, Ley General de Inspección del Trabajo",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/28806.pdf"
+   }
+  ],
+  "antecedentes": "Relacionados (SPLEY): 10612/2024-CR (modifica el numeral 9.3 del artículo 9 de la Ley 31572); 05889/2023-CR (modifica la Ley 31572, publicada según SPLEY). Ninguno regula el monitoreo digital. Por verificar en SPLEY otras iniciativas sobre vigilancia laboral.",
+  "referencias_internacionales": [
+   {
+    "pais": "España",
+    "norma": "Ley Orgánica 3/2018, arts. 87 a 90 (intimidad ante dispositivos digitales, desconexión, videovigilancia y geolocalización en el ámbito laboral)",
+    "url": "https://www.boe.es/eli/es/lo/2018/12/05/3/con"
+   },
+   {
+    "pais": "Unión Europea",
+    "norma": "Reglamento (UE) 2024/1689, art. 5.1.f (prohibición de sistemas de reconocimiento de emociones en el lugar de trabajo)",
+    "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+   },
+   {
+    "pais": "OIT",
+    "norma": "Repertorio de recomendaciones prácticas sobre protección de los datos personales de los trabajadores (1997)",
+    "url": "https://www.ilo.org/sites/default/files/wcmsp5/groups/public/@ed_protect/@protrav/@safework/documents/normativeinstrument/wcms_107797.pdf"
+   }
+  ],
+  "comision_sugerida": "Trabajo y Seguridad Social",
+  "comision_secundaria": "Justicia y Derechos Humanos",
+  "plan2050": [
+   "peru-en-la-era-digital",
+   "etica",
+   "cohesion-social"
+  ],
+  "ods": [
+   8,
+   16
+  ],
+  "prioridad": "media",
+  "costo_fiscal": "nulo",
+  "plazo": "corto",
+  "indicador_exito": "Al 2028, reglamento aprobado e infracciones incorporadas al Reglamento de la Ley General de Inspección del Trabajo; al 2031, SUNAFIL y ANPD publican anualmente el número de actuaciones y sanciones por monitoreo digital.",
+  "tags": [
+   "trabajo",
+   "monitoreo",
+   "privacidad",
+   "teletrabajo",
+   "desconexión digital"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Ley 31572, texto consolidado (Archivo Digital de la Legislación del Congreso)",
+    "url": "https://leyes.congreso.gob.pe/Documentos/2021_2026/ADLP/Texto_Consolidado/31572-TXM.pdf"
+   },
+   {
+    "titulo": "ANPD: Directiva para el tratamiento de datos personales mediante sistemas de videovigilancia",
+    "url": "https://www.gob.pe/institucion/anpd/informes-publicaciones/1938476-directiva-para-el-tratamiento-de-datos-personales-mediante-sistemas-de-videovigilancia"
+   },
+   {
+    "titulo": "OIT: Protection of workers' personal data. An ILO code of practice (1997)",
+    "url": "https://www.ilo.org/sites/default/files/wcmsp5/groups/public/@ed_protect/@protrav/@safework/documents/normativeinstrument/wcms_107797.pdf"
+   }
+  ],
+  "implicados": {
+   "normas_modificadas": [
+    {
+     "norma": "Ley 31572, Ley del Teletrabajo",
+     "articulo": "art. 5",
+     "accion": "modifica",
+     "url": "https://leyes.congreso.gob.pe/Documentos/2021_2026/ADLP/Texto_Consolidado/31572-TXM.pdf"
+    },
+    {
+     "norma": "Ley 29733, Ley de Protección de Datos Personales",
+     "articulo": "principios y art. 23",
+     "accion": "complementa",
+     "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/29733.pdf"
+    },
+    {
+     "norma": "Ley 28806, Ley General de Inspección del Trabajo",
+     "articulo": "infracciones (vía reglamento)",
+     "accion": "complementa",
+     "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/28806.pdf"
+    }
+   ],
+   "entidades": [
+    {
+     "entidad": "Superintendencia Nacional de Fiscalización Laboral",
+     "sigla": "SUNAFIL",
+     "sector": "MTPE",
+     "rol": "sancionadora",
+     "responsabilidad": "Fiscaliza y sanciona arts. 4, 6 y 7.1 (art. 9.1)."
+    },
+    {
+     "entidad": "Autoridad Nacional de Protección de Datos Personales",
+     "sigla": "ANPD",
+     "sector": "MINJUSDH",
+     "rol": "sancionadora",
+     "responsabilidad": "Fiscaliza el tratamiento de datos y la evaluación de impacto (arts. 5 y 9.2)."
+    },
+    {
+     "entidad": "Ministerio de Trabajo y Promoción del Empleo",
+     "sigla": "MTPE",
+     "sector": "MTPE",
+     "rol": "reglamentadora",
+     "responsabilidad": "Reglamenta y adecua el Reglamento de la LGIT (DCF Primera)."
+    },
+    {
+     "entidad": "Organizaciones sindicales y representantes de los trabajadores",
+     "sigla": "—",
+     "sector": "Privado",
+     "rol": "consultiva",
+     "responsabilidad": "Reciben la política y formulan observaciones (art. 4.2)."
+    },
+    {
+     "entidad": "Empleadores públicos y privados",
+     "sigla": "—",
+     "sector": "Varios",
+     "rol": "regulada",
+     "responsabilidad": "Aprueban política, evalúan impacto y se abstienen de prácticas prohibidas (arts. 4-7)."
+    }
+   ],
+   "sujetos_obligados": "Empleadores privados y entidades públicas de cualquier régimen laboral, y empresas de tercerización e intermediación respecto del personal destacado.",
+   "beneficiarios": "Personas trabajadoras y servidores públicos en modalidad presencial, teletrabajo o mixta. Sin cifra verificada de trabajadores sujetos a monitoreo digital."
+  },
+  "impacto": {
+   "tipo": "neutro",
+   "costo_estado": {
+    "rango": "S/ 0 adicional",
+    "horizonte": "anual",
+    "supuestos": "Estimación del editor, no dato oficial. La fiscalización se integra a los planes ordinarios de SUNAFIL y ANPD; puede requerir capacitación de inspectores, absorbible en el presupuesto institucional. No se crean plazas.",
+    "financiamiento": "Presupuesto institucional de SUNAFIL y MINJUSDH, sin demandar recursos adicionales al Tesoro."
+   },
+   "beneficio_estado": "Reglas claras reducen la conflictividad laboral y la carga judicial por despidos basados en pruebas ilícitas. No cuantificable.",
+   "beneficio_sociedad": "Protección de la intimidad, de datos sensibles y del tiempo de descanso de los trabajadores. No cuantificable con información pública.",
+   "inversion_privada": "No aplica.",
+   "costo_privado": "Bajo: elaboración de política de monitoreo (todas las empresas que monitoreen) y evaluación de impacto (solo monitoreo intensivo); posible reconfiguración de software.",
+   "riesgos": "Baja capacidad inspectiva para detectar software de monitoreo; resistencia por percepción de límite a la facultad de dirección; necesidad de actualizar la lista de prácticas prohibidas ante nuevas tecnologías.",
+   "confianza": "media"
+  },
+  "revision_atendida": []
+ },
+ {
+  "id": "DER-06",
+  "eje": "derechos",
+  "titulo": "Ley que promueve la resolución de disputas de consumo en línea y habilita el arbitraje de consumo íntegramente electrónico, modificando el Código de Protección y Defensa del Consumidor",
+  "titulo_corto": "Resolución de disputas en línea",
+  "sumilla": "Ordena al Indecopi integrar en sus canales digitales una plataforma de resolución de disputas en línea (negociación asistida, conciliación y arbitraje de consumo electrónico), obliga a los grandes proveedores de comercio electrónico a participar en la etapa de negociación, mantiene el carácter voluntario del arbitraje y extiende el acceso a microempresarios en situación de asimetría.",
+  "problema": "El Código de Protección y Defensa del Consumidor creó el Sistema de Arbitraje de Consumo para resolver conflictos «de manera sencilla, gratuita, rápida y con carácter vinculante» (art. 137), de adhesión voluntaria y cuya sumisión debe constar «por escrito o en cualquier otro medio fehaciente» (art. 140), y prevé conciliación y mediación (arts. 147 y 148); su reglamento vigente es el D.S. 103-2019-PCM, y el Indecopi admite presentar la solicitud de arbitraje por su mesa de partes virtual, con un plazo máximo de 45 días hábiles. Sin embargo, el Código no regula un procedimiento de resolución de disputas en línea de extremo a extremo ni obliga a los proveedores de comercio electrónico a participar siquiera en una etapa de negociación asistida, por lo que la solución depende de la voluntad del proveedor y, en su defecto, de un procedimiento administrativo sancionador que no siempre devuelve el dinero al consumidor de manera oportuna. La experiencia comparada (consumidor.gov.br en Brasil, Concilianet en México) y las Notas Técnicas de la CNUDMI sobre solución de controversias en línea (2016) muestran que una etapa de negociación en línea con plazos cortos resuelve una parte de los casos sin llegar a un tercero. La propuesta ECO-10 regula desistimiento, patrones oscuros y cancelación de suscripciones; esta se limita a la vía de solución de disputas.",
+  "objeto": "Promover la resolución de disputas de consumo en línea mediante una plataforma integrada a los canales digitales del Indecopi y habilitar el arbitraje de consumo íntegramente electrónico, preservando su carácter voluntario.",
+  "articulado": [
+   {
+    "n": "Artículo 1",
+    "titulo": "Objeto",
+    "texto": "La presente ley tiene por objeto modificar el Código de Protección y Defensa del Consumidor, aprobado por la Ley 29571, para promover la resolución de disputas de consumo en línea y habilitar el arbitraje de consumo íntegramente electrónico, preservando su carácter voluntario."
+   },
+   {
+    "n": "Artículo 2",
+    "titulo": "Modificación del artículo 140 del Código de Protección y Defensa del Consumidor",
+    "texto": "Se modifica el artículo 140 del Código de Protección y Defensa del Consumidor, aprobado por la Ley 29571, con el siguiente texto:\n\"Artículo 140. Carácter voluntario\nLa sumisión de las partes al Sistema Arbitral de Consumo es voluntaria y debe constar por escrito, por medios electrónicos que permitan acreditar la manifestación de voluntad o en cualquier otro medio fehaciente. La aceptación del consumidor no puede ser impuesta como condición para contratar.\""
+   },
+   {
+    "n": "Artículo 3",
+    "titulo": "Incorporación del artículo 144-A al Código de Protección y Defensa del Consumidor",
+    "texto": "Se incorpora el artículo 144-A al Código de Protección y Defensa del Consumidor, aprobado por la Ley 29571, con el siguiente texto:\n\"Artículo 144-A. Arbitraje de consumo electrónico\n144-A.1 El arbitraje de consumo puede tramitarse íntegramente por medios electrónicos, incluidas la presentación de la solicitud, la aceptación del proveedor, la actuación de pruebas, las audiencias por videoconferencia, la notificación electrónica y la emisión del laudo con firma digital.\n144-A.2 El consumidor puede solicitar la actuación presencial o asistida cuando no cuente con medios tecnológicos. El laudo emitido por medios electrónicos tiene la misma validez y eficacia que el emitido en soporte físico.\""
+   },
+   {
+    "n": "Artículo 4",
+    "titulo": "Incorporación del artículo 148-A al Código de Protección y Defensa del Consumidor",
+    "texto": "Se incorpora el artículo 148-A al Código de Protección y Defensa del Consumidor, aprobado por la Ley 29571, con el siguiente texto:\n\"Artículo 148-A. Resolución de disputas de consumo en línea\n148-A.1 La Autoridad Nacional de Protección del Consumidor integra en sus canales digitales una plataforma de resolución de disputas de consumo en línea, gratuita para el consumidor, que comprende las etapas de negociación asistida, conciliación o mediación en línea y, cuando ambas partes lo acepten, arbitraje de consumo electrónico.\n148-A.2 En la etapa de negociación asistida, el proveedor responde en un plazo máximo de diez días hábiles a través de la plataforma. Si no hay acuerdo, el consumidor puede optar por la conciliación o mediación en línea, por el arbitraje si el proveedor está adherido o lo acepta, o por el procedimiento administrativo.\n148-A.3 Los acuerdos alcanzados en la plataforma constan en acta electrónica y tienen los efectos del artículo 144.\n148-A.4 El uso de la plataforma no impide a la autoridad iniciar procedimientos de oficio en defensa del interés colectivo, conforme al artículo 143.\""
+   },
+   {
+    "n": "Artículo 5",
+    "titulo": "Proveedores obligados a la etapa de negociación",
+    "texto": "5.1 Los proveedores que ofrecen productos o servicios a consumidores por medios electrónicos y que no califican como micro o pequeña empresa están obligados a registrarse en la plataforma del artículo 148-A del Código y a participar de buena fe en la etapa de negociación asistida.\n5.2 Estos proveedores informan en su sitio web o aplicación, en un lugar visible, el enlace a la plataforma y su condición de adheridos o no al Sistema de Arbitraje de Consumo.\n5.3 La participación en la conciliación, la mediación y el arbitraje sigue siendo voluntaria para ambas partes."
+   },
+   {
+    "n": "Artículo 6",
+    "titulo": "Microempresarios",
+    "texto": "Pueden utilizar la plataforma los microempresarios que, conforme al numeral 1.2 del artículo IV del Título Preliminar del Código, sean considerados consumidores por encontrarse en una situación de asimetría informativa respecto del proveedor."
+   },
+   {
+    "n": "Artículo 7",
+    "titulo": "Interoperabilidad con el Libro de Reclamaciones",
+    "texto": "El reglamento establece la interoperabilidad entre la plataforma y el Libro de Reclamaciones virtual, de modo que el consumidor pueda escalar un reclamo no atendido a la etapa de negociación asistida sin volver a ingresar la información."
+   },
+   {
+    "n": "Artículo 8",
+    "titulo": "Accesibilidad y canal asistido",
+    "texto": "La plataforma cumple los estándares de accesibilidad digital vigentes y se complementa con atención asistida presencial y telefónica en las oficinas del Indecopi para las personas que no cuentan con medios tecnológicos."
+   },
+   {
+    "n": "Artículo 9",
+    "titulo": "Información pública",
+    "texto": "El Indecopi publica trimestralmente, en formato abierto, por proveedor obligado: el número de disputas recibidas, la tasa de respuesta en plazo, la proporción de acuerdos y el tiempo promedio de solución, sin datos personales de los consumidores."
+   },
+   {
+    "n": "Artículo 10",
+    "titulo": "Infracción",
+    "texto": "Constituye infracción leve, sancionable conforme al artículo 110 del Código, el incumplimiento por el proveedor obligado de registrarse en la plataforma, informar el enlace o responder en el plazo de la etapa de negociación asistida."
+   }
+  ],
+  "disposiciones": [
+   {
+    "tipo": "Complementaria Final",
+    "n": "Primera",
+    "texto": "Reglamentación. El Poder Ejecutivo, mediante decreto supremo refrendado por el Presidente del Consejo de Ministros, a propuesta del Indecopi, adecua el Reglamento del Sistema de Arbitraje de Consumo y reglamenta la plataforma en un plazo de ciento veinte días hábiles."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Segunda",
+    "texto": "Implementación progresiva y financiamiento. La plataforma se implementa de manera progresiva sobre los canales digitales existentes del Indecopi, con cargo a su presupuesto institucional y sin demandar recursos adicionales al Tesoro Público. La obligación del artículo 5 es exigible a los seis meses de la puesta en funcionamiento de la plataforma, que el Indecopi comunica en el diario oficial."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Tercera",
+    "texto": "Conciliación extrajudicial en línea entre empresas. El Ministerio de Justicia y Derechos Humanos evalúa y, de ser el caso, propone las medidas para promover la conciliación extrajudicial en línea de controversias entre micro y pequeñas empresas, en el marco de la Ley 26872, Ley de Conciliación."
+   }
+  ],
+  "costo_beneficio": "El costo para el Estado se concentra en el desarrollo de la plataforma sobre los canales digitales existentes del Indecopi y su operación; se programa con su presupuesto institucional y de forma progresiva. Para los proveedores medianos y grandes de comercio electrónico el costo es responder reclamos en una plataforma común, lo que muchos ya hacen por canales propios. Los beneficios son: soluciones más rápidas y baratas para reclamos de bajo monto, menor carga de procedimientos sancionadores, arbitraje íntegramente electrónico con validez legal clara e información pública que incentiva la atención oportuna. Se preserva el carácter voluntario del arbitraje, exigido por su naturaleza consensual.",
+  "efecto_vigencia": "Modifica el artículo 140 e incorpora los artículos 144-A y 148-A al Código de Protección y Defensa del Consumidor (Ley 29571); numeración de los artículos incorporados a confirmar en SPIJ antes del dictamen. Complementa el D.S. 103-2019-PCM (Reglamento del Sistema de Arbitraje de Consumo), que debe adecuarse. Remite a ECO-10 para desistimiento y suscripciones. No deroga normas.",
+  "normas_relacionadas": [
+   {
+    "norma": "Ley 29571, Código de Protección y Defensa del Consumidor (arts. 137-148 y 110)",
+    "url": "https://leyes.congreso.gob.pe/Documentos/Leyes/29571.pdf"
+   },
+   {
+    "norma": "Decreto Supremo 103-2019-PCM, Reglamento del Sistema de Arbitraje de Consumo (El Peruano, 29-may-2019; copia FAOLEX)",
+    "url": "https://faolex.fao.org/docs/pdf/per188295.pdf"
+   },
+   {
+    "norma": "Ley 26872, Ley de Conciliación",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/26872.pdf"
+   }
+  ],
+  "antecedentes": "Relacionados (SPLEY, data/antecedentes.json): 03738/2022-CR (ventanilla digital única de atención de reclamos de los consumidores, con dictamen); 10281/2024-CR (protección y defensa del consumidor digital, en Orden del Día); 10746/2024-CR (actualiza el Código para la era digital, en comisión). Ninguno habilita el arbitraje de consumo íntegramente electrónico.",
+  "referencias_internacionales": [
+   {
+    "pais": "Naciones Unidas (CNUDMI)",
+    "norma": "Notas Técnicas de la CNUDMI sobre la Solución de Controversias en Línea (2016)",
+    "url": "https://uncitral.un.org/en/texts/onlinedispute"
+   },
+   {
+    "pais": "Brasil",
+    "norma": "Plataforma pública consumidor.gov.br",
+    "url": "https://www.consumidor.gov.br/"
+   },
+   {
+    "pais": "México",
+    "norma": "Concilianet, conciliación en línea de la PROFECO",
+    "url": "https://concilianet.profeco.gob.mx/"
+   }
+  ],
+  "comision_sugerida": "Defensa del Consumidor y Regulación de los Servicios Públicos",
+  "comision_secundaria": "Producción, Comercio Exterior y Turismo",
+  "plan2050": [
+   "peru-en-la-era-digital",
+   "mipymes",
+   "transformacion-digital"
+  ],
+  "ods": [
+   16,
+   12
+  ],
+  "prioridad": "media",
+  "costo_fiscal": "bajo",
+  "plazo": "mediano",
+  "indicador_exito": "Al 2028, plataforma en funcionamiento y proveedores obligados registrados; al 2031, tasa de respuesta en plazo y proporción de acuerdos publicados trimestralmente, con tiempo promedio de solución inferior al de los procedimientos sancionadores.",
+  "tags": [
+   "consumidor",
+   "ODR",
+   "arbitraje",
+   "comercio electrónico",
+   "Indecopi"
+  ],
+  "fuentes": [
+   {
+    "titulo": "gob.pe: Presentar reclamos en Indecopi - Arbitraje de Consumo",
+    "url": "https://www.gob.pe/638-presentar-reclamos-en-indecopi-arbitraje-de-consumo"
+   },
+   {
+    "titulo": "CNUDMI: Technical Notes on Online Dispute Resolution (2016)",
+    "url": "https://uncitral.un.org/en/texts/onlinedispute"
+   },
+   {
+    "titulo": "Ley 29571, texto publicado (Archivo Digital de la Legislación del Congreso)",
+    "url": "https://leyes.congreso.gob.pe/Documentos/Leyes/29571.pdf"
+   }
+  ],
+  "implicados": {
+   "normas_modificadas": [
+    {
+     "norma": "Ley 29571, Código de Protección y Defensa del Consumidor",
+     "articulo": "art. 140",
+     "accion": "modifica",
+     "url": "https://leyes.congreso.gob.pe/Documentos/Leyes/29571.pdf"
+    },
+    {
+     "norma": "Ley 29571, Código de Protección y Defensa del Consumidor",
+     "articulo": "arts. 144-A y 148-A (nuevos)",
+     "accion": "incorpora",
+     "url": "https://leyes.congreso.gob.pe/Documentos/Leyes/29571.pdf"
+    },
+    {
+     "norma": "Decreto Supremo 103-2019-PCM",
+     "articulo": "adecuación del reglamento",
+     "accion": "complementa",
+     "url": "https://faolex.fao.org/docs/pdf/per188295.pdf"
+    }
+   ],
+   "entidades": [
+    {
+     "entidad": "Indecopi — Autoridad Nacional de Protección del Consumidor",
+     "sigla": "INDECOPI",
+     "sector": "PCM",
+     "rol": "ejecutora",
+     "responsabilidad": "Integra la plataforma (art. 148-A), publica información (art. 9), sanciona la infracción (art. 10) y propone el reglamento (DCF Primera)."
+    },
+    {
+     "entidad": "Juntas Arbitrales de Consumo",
+     "sigla": "—",
+     "sector": "PCM",
+     "rol": "ejecutora",
+     "responsabilidad": "Tramitan el arbitraje electrónico (art. 144-A)."
+    },
+    {
+     "entidad": "Presidencia del Consejo de Ministros",
+     "sigla": "PCM",
+     "sector": "PCM",
+     "rol": "reglamentadora",
+     "responsabilidad": "Refrenda el decreto supremo (DCF Primera)."
+    },
+    {
+     "entidad": "Ministerio de Justicia y Derechos Humanos",
+     "sigla": "MINJUSDH",
+     "sector": "MINJUSDH",
+     "rol": "consultiva",
+     "responsabilidad": "Evalúa la conciliación en línea entre MYPE (DCF Tercera)."
+    },
+    {
+     "entidad": "Proveedores de comercio electrónico que no son micro ni pequeña empresa",
+     "sigla": "—",
+     "sector": "Privado",
+     "rol": "regulada",
+     "responsabilidad": "Se registran, informan el enlace y responden en la negociación (art. 5)."
+    }
+   ],
+   "sujetos_obligados": "Proveedores que venden a consumidores por medios electrónicos y que no califican como micro o pequeña empresa; Indecopi.",
+   "beneficiarios": "Consumidores y microempresarios en situación de asimetría que compran por medios electrónicos. Sin cifra verificada de reclamos de comercio electrónico."
+  },
+  "impacto": {
+   "tipo": "gasto",
+   "costo_estado": {
+    "rango": "S/ 1,5–4 millones (único) + S/ 0,5–1,2 millones/año",
+    "horizonte": "2027-2031",
+    "supuestos": "Estimación del editor, no dato oficial. Desarrollo sobre los canales digitales existentes del Indecopi: equipo de 8–12 personas durante 12 meses a S/ 12 000 mensuales por persona (≈ S/ 1,2–1,7 millones) más integración y seguridad (S/ 0,3–2,3 millones). Operación: soporte, conciliadores y árbitros adicionales según demanda.",
+    "financiamiento": "Presupuesto institucional del Indecopi (incluidos recursos directamente recaudados), sin demandar recursos adicionales al Tesoro; implementación progresiva. Requiere coordinación con el Poder Ejecutivo, fuente de financiamiento identificada e informe previo de sostenibilidad fiscal del MEF antes del dictamen."
+   },
+   "beneficio_estado": "Menos procedimientos sancionadores por casos resueltos en negociación; datos para supervisión focalizada. No cuantificable con información pública.",
+   "beneficio_sociedad": "Solución más rápida y barata de reclamos de bajo monto; acceso para microempresarios. No cuantificable con información pública.",
+   "inversion_privada": "No aplica.",
+   "costo_privado": "Bajo para proveedores medianos y grandes (gestión de reclamos en la plataforma).",
+   "riesgos": "Baja adhesión de proveedores al arbitraje; saturación de la plataforma; brecha digital de consumidores (mitigada con canal asistido); proveedores extranjeros sin domicilio.",
+   "confianza": "baja"
+  },
+  "revision_atendida": []
+ },
+ {
+  "id": "DER-07",
+  "eje": "derechos",
+  "titulo": "Ley que fortalece la protección frente a la violencia facilitada por las tecnologías digitales contra las mujeres y los integrantes del grupo familiar, modificando la Ley 30364",
+  "titulo_corto": "Violencia digital de género",
+  "sumilla": "Eleva a rango de ley el reconocimiento de la violencia facilitada por tecnologías digitales, incorpora medidas de protección digitales (retiro y desindexación de contenido íntimo o sintético, cese de acceso a cuentas, prohibición de geolocalización y software espía), fija plazos para que las plataformas cumplan órdenes judiciales y asegura la preservación de evidencia digital, sin crear nuevos delitos.",
+  "problema": "El Decreto Supremo 002-2025-MIMP modificó el Reglamento de la Ley 30364 para incorporar la «violencia facilitada por las tecnologías digitales», definida como la conducta «cometida, asistida o agravada, en parte o en su totalidad, por el uso de las tecnologías digitales». Sin embargo, ese reconocimiento tiene rango reglamentario y la Ley 30364 no contiene medidas de protección específicamente digitales: su catálogo prevé la prohibición de comunicación «vía chat, redes sociales» u otras formas, pero no órdenes de retiro o desindexación de contenido íntimo difundido sin consentimiento, de cese de acceso a cuentas de la víctima, de prohibición de geolocalización o de instalación de software espía, ni plazos para que las plataformas cumplan. En el plano penal ya existen tipos aplicables (difusión de imágenes con contenido sexual, acoso, chantaje sexual) y la Ley 32314 agravó los delitos cometidos con IA, por lo que esta propuesta no crea delitos; la sextorsión se aborda en CIB-04. Proyectos para incorporar la violencia digital en el artículo 8 de la Ley 30364 (02881/2022-CR, 08350/2023-CR) obtuvieron dictamen en el periodo anterior pero no se aprobaron. La difusión de contenido íntimo se propaga en horas; sin plazos de cumplimiento ni preservación de evidencia, la tutela judicial llega tarde.",
+  "objeto": "Fortalecer la prevención y la protección frente a la violencia facilitada por las tecnologías digitales contra las mujeres y los integrantes del grupo familiar, mediante su reconocimiento legal, medidas de protección digitales, plazos de cumplimiento para las plataformas y preservación de evidencia digital.",
+  "articulado": [
+   {
+    "n": "Artículo 1",
+    "titulo": "Objeto",
+    "texto": "La presente ley tiene por objeto modificar la Ley 30364, Ley para prevenir, sancionar y erradicar la violencia contra las mujeres y los integrantes del grupo familiar, para fortalecer la protección frente a la violencia facilitada por las tecnologías digitales."
+   },
+   {
+    "n": "Artículo 2",
+    "titulo": "Incorporación de un párrafo final al artículo 8 de la Ley 30364",
+    "texto": "Se incorpora un párrafo final al artículo 8 de la Ley 30364, con el siguiente texto:\n\"Artículo 8. Tipos de violencia\n[...]\nLos tipos de violencia previstos en el presente artículo comprenden las conductas cometidas, asistidas o agravadas, en todo o en parte, mediante el uso de tecnologías digitales, tales como la difusión no consentida de contenido íntimo real o generado artificialmente, el acoso u hostigamiento en línea, la suplantación de identidad, la vigilancia o geolocalización no consentida y el control de dispositivos o cuentas.\""
+   },
+   {
+    "n": "Artículo 3",
+    "titulo": "Incorporación del artículo 22-D a la Ley 30364",
+    "texto": "Se incorpora el artículo 22-D a la Ley 30364, con el siguiente texto:\n\"Artículo 22-D. Medidas de protección en entornos digitales\nAdemás de las medidas previstas en el artículo 22, el juzgado puede dictar, entre otras, las siguientes medidas de protección en entornos digitales:\na) Retiro o inhabilitación del acceso, por la persona agresora y por los proveedores de servicios digitales, del contenido íntimo o sexual, real o generado artificialmente, difundido sin consentimiento de la víctima, y su desindexación en motores de búsqueda.\nb) Prohibición de crear o utilizar perfiles, cuentas o identidades que suplanten o refieran a la víctima.\nc) Cese inmediato de todo acceso de la persona agresora a las cuentas y dispositivos de la víctima y devolución o cambio de credenciales.\nd) Prohibición de geolocalizar a la víctima y de instalar o mantener programas o dispositivos de vigilancia en sus bienes.\ne) Orden de conservación de los datos y del contenido necesarios como evidencia, dirigida a los proveedores de servicios digitales.\nLa medida identifica con precisión el contenido o la cuenta y se notifica electrónicamente a los proveedores.\""
+   },
+   {
+    "n": "Artículo 4",
+    "titulo": "Plazos de cumplimiento para los proveedores de servicios digitales",
+    "texto": "4.1 Los proveedores de servicios digitales que presten servicios en el territorio nacional cumplen las medidas del artículo 22-D de la Ley 30364 en un plazo máximo de veinticuatro horas cuando se trate de contenido íntimo o sexual, y de cuarenta y ocho horas en los demás casos, contadas desde la notificación.\n4.2 Los proveedores designan un canal electrónico en español para recibir notificaciones judiciales y fiscales y lo comunican al Poder Judicial y al Ministerio Público.\n4.3 El incumplimiento injustificado de la medida se pone en conocimiento del Ministerio Público conforme al artículo 24 de la Ley 30364, sin perjuicio de las responsabilidades que correspondan."
+   },
+   {
+    "n": "Artículo 5",
+    "titulo": "Canal de reporte para víctimas",
+    "texto": "5.1 Los proveedores de plataformas en línea que alojen contenido de usuarios ponen a disposición de las víctimas un canal de reporte en español, gratuito y prioritario, para solicitar el retiro de contenido íntimo difundido sin su consentimiento, aun sin orden judicial, y resuelven la solicitud con revisión humana.\n5.2 Los proveedores pueden emplear tecnologías de coincidencia de huellas digitales de contenido para impedir la nueva difusión del contenido retirado, con garantías de protección de datos personales."
+   },
+   {
+    "n": "Artículo 6",
+    "titulo": "Preservación de evidencia digital",
+    "texto": "6.1 La Policía Nacional del Perú y el Ministerio Público, desde la recepción de la denuncia, pueden requerir a los proveedores de servicios digitales la conservación inmediata de los datos informáticos y del contenido relacionados con los hechos, por un plazo de noventa días prorrogable, conforme a la legislación procesal penal y a las normas de protección de datos personales.\n6.2 La recepción de la denuncia no puede condicionarse a que la víctima entregue copias impresas del contenido; basta su identificación mediante enlaces, capturas o descripción."
+   },
+   {
+    "n": "Artículo 7",
+    "titulo": "Atención especializada",
+    "texto": "El Ministerio de la Mujer y Poblaciones Vulnerables incorpora en los servicios de atención existentes de su ámbito la orientación especializada sobre violencia facilitada por tecnologías digitales, incluida la asistencia para el reporte y la preservación de evidencia, con cargo a su presupuesto institucional."
+   },
+   {
+    "n": "Artículo 8",
+    "titulo": "Registro y estadística",
+    "texto": "Los registros administrativos del Sistema Nacional para la Prevención, Sanción y Erradicación de la Violencia contra las Mujeres y los Integrantes del Grupo Familiar identifican los casos de violencia facilitada por tecnologías digitales, para fines estadísticos y de política pública, con datos anonimizados en su publicación."
+   },
+   {
+    "n": "Artículo 9",
+    "titulo": "Garantías",
+    "texto": "Las medidas previstas en la presente ley se dictan por resolución motivada, se limitan al contenido o cuenta identificados y no autorizan el bloqueo general de servicios ni la supervisión general de contenidos."
+   }
+  ],
+  "disposiciones": [
+   {
+    "tipo": "Complementaria Final",
+    "n": "Primera",
+    "texto": "Adecuación reglamentaria. El Poder Ejecutivo, mediante decreto supremo refrendado por la Ministra o el Ministro de la Mujer y Poblaciones Vulnerables, adecua el Reglamento de la Ley 30364 en un plazo de sesenta días hábiles. El Poder Judicial y el Ministerio Público adecuan sus protocolos en el mismo plazo, en el marco de su autonomía."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Segunda",
+    "texto": "Financiamiento. La aplicación de la presente ley se financia con cargo al presupuesto institucional de las entidades involucradas, sin demandar recursos adicionales al Tesoro Público."
+   }
+  ],
+  "costo_beneficio": "La ley no crea delitos, entidades ni plazas: dota a los jueces de medidas de protección adecuadas al entorno digital, fija plazos a los proveedores y ordena la preservación de evidencia. Los costos para el Estado son de adecuación de protocolos y capacitación del personal judicial, fiscal, policial y de los servicios del MIMP, absorbibles en sus presupuestos. Para los proveedores, el costo es atender órdenes y reportes en plazos cortos, lo que los grandes servicios ya hacen en otras jurisdicciones. El beneficio principal es reducir el daño de la difusión de contenido íntimo y del control digital, que se agrava cada hora, y mejorar la persecución penal por la conservación oportuna de evidencia.",
+  "efecto_vigencia": "Incorpora un párrafo final al artículo 8 y el artículo 22-D a la Ley 30364; la letra del artículo incorporado debe confirmarse en SPIJ antes del dictamen, pues los artículos 22-A y 22-B existen y el 22-C fue materia de iniciativas previas. Eleva a rango de ley el reconocimiento del D.S. 002-2025-MIMP. Complementa el Código Penal, la Ley 30096 y la Ley 32314, sin modificarlos; la tipificación de la sextorsión corresponde a CIB-04. No deroga normas.",
+  "normas_relacionadas": [
+   {
+    "norma": "Ley 30364, Ley para prevenir, sancionar y erradicar la violencia contra las mujeres y los integrantes del grupo familiar (arts. 8, 22 y 24)",
+    "url": "https://leyes.congreso.gob.pe/Documentos/ExpVirPal/Texto_Consolidado/30364-TXM.pdf"
+   },
+   {
+    "norma": "Decreto Supremo 002-2025-MIMP, que modifica el Reglamento de la Ley 30364 (violencia facilitada por las tecnologías digitales)",
+    "url": "https://busquedas.elperuano.pe/dispositivo/NL/2387420-5"
+   },
+   {
+    "norma": "Ley 32314, que modifica el Código Penal y la Ley 30096 para incluir el uso de la IA en la comisión de delitos",
+    "url": "https://leyes.congreso.gob.pe/Documentos/2021_2026/ADLP/Texto_Consolidado/32314-TXM.pdf"
+   },
+   {
+    "norma": "Ley 30096, Ley de Delitos Informáticos, texto consolidado",
+    "url": "https://leyes.congreso.gob.pe/Documentos/ExpVirPal/Texto_Consolidado/30096-TXM.pdf"
+   }
+  ],
+  "antecedentes": "Relacionados (SPLEY, data/antecedentes.json): 02881/2022-CR (incorpora la violencia digital al art. 8 de la Ley 30364, con dictamen); 08350/2023-CR (incorpora el ciberacoso como tipo de violencia, con dictamen); 09717/2024-CR (denuncias por canales digitales en la Ley 30364); 02943/2022-CR (notificación electrónica de medidas de protección, art. 22-C, con dictamen); 05222/2022-CR (delitos de acoso y difusión de imágenes); 00006-2026-2031-CD (violencia sexual digital mediante IA, en comisión); 00447-2026-2031-CD (retiro urgente de contenido digital para proteger a niños y adolescentes, en comisión).",
+  "referencias_internacionales": [
+   {
+    "pais": "Reino Unido",
+    "norma": "Online Safety Act 2023 (deberes de los proveedores y delitos de difusión de imágenes íntimas)",
+    "url": "https://www.legislation.gov.uk/ukpga/2023/50/contents"
+   },
+   {
+    "pais": "Unión Europea",
+    "norma": "Reglamento (UE) 2022/2065, Ley de Servicios Digitales (art. 9, órdenes de actuación contra contenidos ilícitos)",
+    "url": "https://eur-lex.europa.eu/eli/reg/2022/2065/oj"
+   }
+  ],
+  "comision_sugerida": "Inclusión Social, Familia, Mujer y Pueblos Andinos, Amazónicos y Afroperuanos",
+  "comision_secundaria": "Justicia y Derechos Humanos",
+  "plan2050": [
+   "la-familia",
+   "orden-publico-y-seguridad",
+   "peru-en-la-era-digital"
+  ],
+  "ods": [
+   5,
+   16
+  ],
+  "prioridad": "alta",
+  "costo_fiscal": "bajo",
+  "plazo": "corto",
+  "indicador_exito": "Al 2028, reglamento y protocolos adecuados y casos de violencia digital identificados en los registros del Sistema Nacional; al 2031, tiempo de cumplimiento de las medidas del art. 22-D por los proveedores medido y publicado.",
+  "tags": [
+   "violencia de género",
+   "violencia digital",
+   "medidas de protección",
+   "plataformas",
+   "evidencia digital"
+  ],
+  "fuentes": [
+   {
+    "titulo": "El Peruano: D.S. 002-2025-MIMP (4-abr-2025)",
+    "url": "https://busquedas.elperuano.pe/dispositivo/NL/2387420-5"
+   },
+   {
+    "titulo": "Ley 30364, texto consolidado (Archivo Digital de la Legislación del Congreso)",
+    "url": "https://leyes.congreso.gob.pe/Documentos/ExpVirPal/Texto_Consolidado/30364-TXM.pdf"
+   },
+   {
+    "titulo": "Ley 32314, texto consolidado (Congreso)",
+    "url": "https://leyes.congreso.gob.pe/Documentos/2021_2026/ADLP/Texto_Consolidado/32314-TXM.pdf"
+   }
+  ],
+  "implicados": {
+   "normas_modificadas": [
+    {
+     "norma": "Ley 30364",
+     "articulo": "art. 8 (párrafo final)",
+     "accion": "incorpora",
+     "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/30364.pdf"
+    },
+    {
+     "norma": "Ley 30364",
+     "articulo": "art. 22-D (nuevo)",
+     "accion": "incorpora",
+     "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/30364.pdf"
+    },
+    {
+     "norma": "Reglamento de la Ley 30364 (modificado por D.S. 002-2025-MIMP)",
+     "articulo": "art. 8",
+     "accion": "eleva_rango",
+     "url": "https://busquedas.elperuano.pe/dispositivo/NL/2387420-5"
+    },
+    {
+     "norma": "Ley 30096 y Ley 32314",
+     "articulo": "tipos penales vigentes",
+     "accion": "complementa",
+     "url": "https://leyes.congreso.gob.pe/Documentos/2021_2026/ADLP/Texto_Consolidado/32314-TXM.pdf"
+    }
+   ],
+   "entidades": [
+    {
+     "entidad": "Juzgados de familia y órganos competentes del Poder Judicial",
+     "sigla": "PJ",
+     "sector": "Poder Judicial",
+     "rol": "ejecutora",
+     "responsabilidad": "Dictan las medidas del art. 22-D y las notifican electrónicamente (art. 3)."
+    },
+    {
+     "entidad": "Ministerio Público",
+     "sigla": "MP",
+     "sector": "Ministerio Público",
+     "rol": "ejecutora",
+     "responsabilidad": "Requiere conservación de evidencia (art. 6) y persigue el incumplimiento (art. 4.3)."
+    },
+    {
+     "entidad": "Policía Nacional del Perú",
+     "sigla": "PNP",
+     "sector": "MININTER",
+     "rol": "ejecutora",
+     "responsabilidad": "Recibe denuncias sin exigir copias impresas y requiere conservación (art. 6)."
+    },
+    {
+     "entidad": "Ministerio de la Mujer y Poblaciones Vulnerables",
+     "sigla": "MIMP",
+     "sector": "MIMP",
+     "rol": "rectora",
+     "responsabilidad": "Adecua el reglamento (DCF Primera), incorpora orientación especializada (art. 7) y los registros (art. 8)."
+    },
+    {
+     "entidad": "Proveedores de servicios digitales y plataformas en línea",
+     "sigla": "—",
+     "sector": "Privado",
+     "rol": "regulada",
+     "responsabilidad": "Cumplen medidas en 24/48 h, designan canal y ofrecen reporte prioritario (arts. 4 y 5)."
+    }
+   ],
+   "sujetos_obligados": "Personas agresoras sujetas a medidas; proveedores de servicios digitales que presten servicios en el país; entidades del Sistema Nacional de la Ley 30364.",
+   "beneficiarios": "Mujeres e integrantes del grupo familiar víctimas de violencia facilitada por tecnologías digitales. Sin cifra oficial verificada de casos de violencia digital."
+  },
+  "impacto": {
+   "tipo": "neutro",
+   "costo_estado": {
+    "rango": "S/ 0,3–1 millón (único, capacitación y protocolos)",
+    "horizonte": "único",
+    "supuestos": "Estimación del editor, no dato oficial. Capacitación virtual de jueces de familia, fiscales, policías y personal de servicios del MIMP mediante plataformas existentes y adecuación de formularios y sistemas de notificación. Sin plazas nuevas.",
+    "financiamiento": "Presupuestos institucionales del PJ, MP, MININTER y MIMP, sin demandar recursos adicionales al Tesoro."
+   },
+   "beneficio_estado": "Mejor calidad probatoria y mayor eficacia de las medidas de protección. No cuantificable.",
+   "beneficio_sociedad": "Reducción del daño a víctimas por retiro oportuno de contenido y cese del control digital. No cuantificable con información pública.",
+   "inversion_privada": "No aplica.",
+   "costo_privado": "Moderado para plataformas (atención en plazos cortos y canal prioritario), bajo si ya operan sistemas equivalentes.",
+   "riesgos": "Incumplimiento de proveedores sin domicilio en el país; uso abusivo de reportes para retirar contenido lícito (mitigado por revisión humana y precisión de la orden); limitaciones técnicas para retirar contenido replicado en múltiples sitios.",
+   "confianza": "media"
+  },
+  "revision_atendida": []
+ },
+ {
+  "id": "DER-08",
+  "eje": "derechos",
+  "titulo": "Ley que habilita la adhesión digital con firma digital del documento nacional de identidad electrónico en los mecanismos de participación y control ciudadanos y establece condiciones para la ampliación del voto digital, modificando la Ley 26300",
+  "titulo_corto": "Firma digital para iniciativas ciudadanas",
+  "sumilla": "Permite que la ciudadanía respalde iniciativas legislativas, de reforma constitucional, revocatorias y demás mecanismos de la Ley 26300 con la firma digital del DNI electrónico en una plataforma oficial de la ONPE con verificación del RENIEC, sin que los promotores recolecten datos, y condiciona toda ampliación del voto digital remoto más allá del piloto de la Ley 32270 a una evaluación pública y auditada.",
+  "problema": "La Ley 26300 exige que las iniciativas ciudadanas acrediten firmas de adherentes (por ejemplo, el 0,3 % de la población electoral nacional para una iniciativa legislativa, art. 11) y que la autoridad electoral verifique su autenticidad (art. 6). En la práctica, la recolección se hace en planillones físicos con firma y huella, lo que encarece la participación, favorece a organizaciones con estructura territorial y expone los datos de los adherentes a terceros. Al mismo tiempo, el Estado ya cuenta con la infraestructura para una alternativa digital: el DNI electrónico incorpora certificados digitales (Ley 27269) y, según una nota de prensa basada en datos del RENIEC, 9 332 713 personas tenían DNI electrónico al 30 de junio de 2026. La Ley 32270 (2025) incorporó a la Ley Orgánica de Elecciones el voto digital como mecanismo alternativo, voluntario y progresivo, utilizable incluso en los procesos de la Ley 26300 (art. 223-B), con piloto definido por la ONPE, auditoría antes y después de cada proceso y fiscalización del JNE (Resolución 168-2025-JNE). Sin embargo, la ley no habilita la adhesión digital a las iniciativas ni establece condiciones de evaluación pública antes de ampliar el voto digital remoto más allá del piloto. La ciberseguridad electoral (auditorías independientes y pruebas públicas) se aborda en CIB-13; esta propuesta remite a ella.",
+  "objeto": "Habilitar la adhesión digital mediante firma digital en los mecanismos de participación y control ciudadanos regulados por la Ley 26300, con garantías de autenticidad, protección de datos personales y accesibilidad, y establecer condiciones de evaluación pública para la ampliación del voto digital.",
+  "articulado": [
+   {
+    "n": "Artículo 1",
+    "titulo": "Objeto",
+    "texto": "La presente ley tiene por objeto modificar la Ley 26300, Ley de los Derechos de Participación y Control Ciudadanos, para habilitar la adhesión digital mediante firma digital en los mecanismos de participación y control ciudadanos, y establecer condiciones de evaluación pública para la ampliación del voto digital."
+   },
+   {
+    "n": "Artículo 2",
+    "titulo": "Incorporación del artículo 6-A a la Ley 26300",
+    "texto": "Se incorpora el artículo 6-A a la Ley 26300, Ley de los Derechos de Participación y Control Ciudadanos, con el siguiente texto:\n\"Artículo 6-A. Adhesión digital\n6-A.1 Los ciudadanos pueden adherirse a las iniciativas y solicitudes reguladas por la presente ley mediante la firma digital generada con el certificado digital del documento nacional de identidad electrónico u otro certificado digital emitido por el Registro Nacional de Identificación y Estado Civil, a través de la plataforma oficial que habilita la Oficina Nacional de Procesos Electorales.\n6-A.2 La adhesión digital tiene la misma validez que la adhesión con firma manuscrita y huella. Ambas modalidades se suman para alcanzar el número requerido; el sistema impide el cómputo duplicado de un mismo ciudadano.\n6-A.3 El Registro Nacional de Identificación y Estado Civil verifica en línea la identidad del adherente y la vigencia del certificado; la verificación de la habilitación del adherente se realiza conforme al artículo 8.\n6-A.4 El adherente puede revocar su adhesión digital hasta la presentación de la solicitud ante la autoridad electoral.\n6-A.5 Los promotores no recopilan ni almacenan los datos personales de los adherentes digitales. Solo reciben el número acumulado de adhesiones válidas.\""
+   },
+   {
+    "n": "Artículo 3",
+    "titulo": "Protección de datos personales de los adherentes",
+    "texto": "3.1 Los datos de los adherentes digitales se tratan exclusivamente para verificar la autenticidad y el cómputo de las adhesiones, conforme a la Ley 29733, Ley de Protección de Datos Personales.\n3.2 Se prohíbe la publicación individualizada de los adherentes, su uso con fines comerciales o de propaganda y su cesión a terceros. La autoridad electoral publica solo cifras agregadas.\n3.3 Los datos se suprimen al concluir el procedimiento, salvo los necesarios para atender impugnaciones o procesos judiciales, que se conservan por el plazo que fije el reglamento."
+   },
+   {
+    "n": "Artículo 4",
+    "titulo": "Gratuidad y accesibilidad",
+    "texto": "4.1 La adhesión digital es gratuita para el ciudadano.\n4.2 La plataforma cumple los estándares de accesibilidad digital vigentes, se ofrece en castellano y progresivamente en lenguas originarias, y no sustituye a la adhesión con firma manuscrita y huella, que se mantiene en todos los casos."
+   },
+   {
+    "n": "Artículo 5",
+    "titulo": "Seguridad y fiscalización de la plataforma",
+    "texto": "5.1 La plataforma de adhesión digital se somete a auditoría técnica antes de su puesta en producción y anualmente, y su informe ejecutivo se publica, sin revelar información que comprometa su seguridad.\n5.2 El Jurado Nacional de Elecciones fiscaliza el funcionamiento de la plataforma en el marco de sus competencias.\n5.3 Los promotores pueden designar personeros técnicos para presenciar las pruebas de la plataforma, conforme al artículo 9."
+   },
+   {
+    "n": "Artículo 6",
+    "titulo": "Condiciones para la ampliación del voto digital",
+    "texto": "6.1 Antes de extender el voto digital por medios remotos a poblaciones distintas de las priorizadas en el programa piloto previsto en la Primera Disposición Complementaria Final de la Ley 32270, la Oficina Nacional de Procesos Electorales publica un informe de evaluación de cada proceso piloto que incluya, como mínimo: participación, incidencias, resultados de las auditorías previstas en el artículo 223-F de la Ley 26859 y medidas correctivas adoptadas.\n6.2 La ampliación requiere, además, el informe de fiscalización del Jurado Nacional de Elecciones sobre el proceso piloto evaluado.\n6.3 El voto digital se mantiene como alternativa voluntaria al sufragio por cédula, conforme al artículo 223-A de la Ley 26859."
+   }
+  ],
+  "disposiciones": [
+   {
+    "tipo": "Complementaria Final",
+    "n": "Primera",
+    "texto": "Implementación. La Oficina Nacional de Procesos Electorales y el Registro Nacional de Identificación y Estado Civil, en el marco de sus competencias, emiten las disposiciones para la implementación de la plataforma de adhesión digital en un plazo de ciento ochenta días hábiles. La plataforma no se utiliza en procesos que estén en curso a la fecha de entrada en vigencia de la presente ley."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Segunda",
+    "texto": "Financiamiento. La implementación de la presente ley se programa con cargo al presupuesto institucional de la Oficina Nacional de Procesos Electorales y del Registro Nacional de Identificación y Estado Civil, de manera progresiva y sujeta a disponibilidad presupuestal, sin demandar recursos adicionales al Tesoro Público."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Tercera",
+    "texto": "Concordancia. Lo dispuesto en el artículo 5 se aplica sin perjuicio de las normas que regulen las auditorías independientes y las pruebas públicas de seguridad de los sistemas electorales."
+   }
+  ],
+  "costo_beneficio": "El costo para el Estado se concentra en desarrollar y auditar una plataforma de adhesión que reutiliza la infraestructura de certificados digitales del DNI electrónico y de verificación del RENIEC, y en su operación; se programa de forma progresiva con los presupuestos de la ONPE y el RENIEC. Para la ciudadanía, la adhesión digital elimina costos de impresión, traslados y verificación manual de planillones, reduce el riesgo de firmas falsas y protege los datos de los adherentes, que hoy circulan en papel en manos de terceros. La condición de evaluación pública antes de ampliar el voto digital remoto no tiene costo adicional relevante y reduce el riesgo de pérdida de confianza en el sistema electoral. Mantener la firma manuscrita evita excluir a quienes no tienen DNI electrónico.",
+  "efecto_vigencia": "Incorpora el artículo 6-A a la Ley 26300 (numeración a confirmar en SPIJ por modificaciones posteriores al texto original) y establece condiciones para aplicar la Primera Disposición Complementaria Final de la Ley 32270 y los arts. 223-A a 223-G de la Ley 26859. Por desarrollar derechos de participación (art. 31 de la Constitución), incidir en la Ley Orgánica de Elecciones y asignar funciones a ONPE y RENIEC, cuyas leyes orgánicas (26487 y 26497) rigen su organización, debe aprobarse con votación de ley orgánica (art. 106 de la Constitución). Complementa la Ley 27269 y la Ley 29733. No deroga normas.",
+  "normas_relacionadas": [
+   {
+    "norma": "Ley 26300, Ley de los Derechos de Participación y Control Ciudadanos (texto original, arts. 4, 6, 8, 9 y 11)",
+    "url": "https://leyes.congreso.gob.pe/Documentos/Leyes/26300.pdf"
+   },
+   {
+    "norma": "Ley 32270, que modifica la Ley 26859, Ley Orgánica de Elecciones, a fin de incorporar el voto digital (El Peruano, 24-mar-2025)",
+    "url": "https://img.lpderecho.pe/wp-content/uploads/2025/03/Ley-32270-LPDerecho.pdf"
+   },
+   {
+    "norma": "Resolución 168-2025-JNE, Reglamento general sobre las competencias del JNE en el marco del voto digital",
+    "url": "https://busquedas.elperuano.pe/dispositivo/NL/2391968-1"
+   },
+   {
+    "norma": "Ley 27269, Ley de Firmas y Certificados Digitales",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/27269.pdf"
+   },
+   {
+    "norma": "Ley 26497, Ley Orgánica del Registro Nacional de Identificación y Estado Civil",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/26497.pdf"
+   },
+   {
+    "norma": "Ley 26487, Ley Orgánica de la Oficina Nacional de Procesos Electorales",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/26487.pdf"
+   }
+  ],
+  "antecedentes": "Relacionados (SPLEY, data/antecedentes.json): 05879/2023-CR (voto digital para peruanos en el exterior, publicada según SPLEY); 09359/2024-CR (voto electrónico semipresencial en el distrito electoral de peruanos en el extranjero, publicada según SPLEY); 10410/2024-CR (voto electrónico para peruanos en el extranjero); 11144/2024-CR (sanciona firmas falsas y suplantación en afiliaciones, en comisión). No se identificó un proyecto sobre adhesión digital a iniciativas de la Ley 26300; por verificar en SPLEY.",
+  "referencias_internacionales": [
+   {
+    "pais": "España",
+    "norma": "Ley Orgánica 3/1984, reguladora de la iniciativa legislativa popular (art. 7.4, firma electrónica de adhesiones)",
+    "url": "https://www.boe.es/eli/es/lo/1984/03/26/3/con"
+   },
+   {
+    "pais": "Unión Europea",
+    "norma": "Reglamento (UE) 2019/788 sobre la iniciativa ciudadana europea (sistema central de recogida en línea)",
+    "url": "https://eur-lex.europa.eu/eli/reg/2019/788/oj"
+   }
+  ],
+  "comision_sugerida": "Constitución, Reglamento y Relaciones Exteriores",
+  "comision_secundaria": "Ciencia, Innovación Tecnológica y Sociedad Digital",
+  "plan2050": [
+   "institucionalidad",
+   "transformacion-digital",
+   "etica"
+  ],
+  "ods": [
+   16
+  ],
+  "prioridad": "media",
+  "costo_fiscal": "medio",
+  "plazo": "mediano",
+  "indicador_exito": "Al 2028, plataforma de adhesión digital auditada y en producción; al 2031, al menos una iniciativa ciudadana tramitada con adhesiones digitales y los informes de evaluación de los pilotos de voto digital publicados antes de cualquier ampliación.",
+  "tags": [
+   "participación ciudadana",
+   "firma digital",
+   "DNI electrónico",
+   "voto digital",
+   "ley orgánica"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Ley 32270 (El Peruano, 24-mar-2025), reproducción en PDF",
+    "url": "https://img.lpderecho.pe/wp-content/uploads/2025/03/Ley-32270-LPDerecho.pdf"
+   },
+   {
+    "titulo": "Ley 26300, texto original (Archivo Digital de la Legislación del Congreso)",
+    "url": "https://leyes.congreso.gob.pe/Documentos/Leyes/26300.pdf"
+   },
+   {
+    "titulo": "Panamericana: RENIEC, 9 332 713 personas con DNI electrónico al 30-06-2026",
+    "url": "https://panamericana.pe/nacionales/471197-reniec-37-292-920-peruanos-identificados-representa-99-2-poblacion-nacional/amp"
+   },
+   {
+    "titulo": "El Peruano: Resolución 168-2025-JNE",
+    "url": "https://busquedas.elperuano.pe/dispositivo/NL/2391968-1"
+   }
+  ],
+  "implicados": {
+   "normas_modificadas": [
+    {
+     "norma": "Ley 26300, Ley de los Derechos de Participación y Control Ciudadanos",
+     "articulo": "art. 6-A (nuevo)",
+     "accion": "incorpora",
+     "url": "https://leyes.congreso.gob.pe/Documentos/Leyes/26300.pdf"
+    },
+    {
+     "norma": "Ley 32270 y Ley 26859 (arts. 223-A a 223-G)",
+     "articulo": "condiciones de ampliación del piloto",
+     "accion": "complementa",
+     "url": "https://img.lpderecho.pe/wp-content/uploads/2025/03/Ley-32270-LPDerecho.pdf"
+    },
+    {
+     "norma": "Ley 27269, Ley de Firmas y Certificados Digitales",
+     "articulo": "firma digital del DNIe",
+     "accion": "complementa",
+     "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/27269.pdf"
+    },
+    {
+     "norma": "Ley 29733, Ley de Protección de Datos Personales",
+     "articulo": "tratamiento de datos de adherentes",
+     "accion": "complementa",
+     "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/29733.pdf"
+    }
+   ],
+   "entidades": [
+    {
+     "entidad": "Oficina Nacional de Procesos Electorales",
+     "sigla": "ONPE",
+     "sector": "Organismo electoral",
+     "rol": "ejecutora",
+     "responsabilidad": "Habilita y opera la plataforma de adhesión digital (art. 6-A.1), publica auditorías (art. 5.1) y los informes de evaluación del voto digital (art. 6.1)."
+    },
+    {
+     "entidad": "Registro Nacional de Identificación y Estado Civil",
+     "sigla": "RENIEC",
+     "sector": "Organismo electoral",
+     "rol": "ejecutora",
+     "responsabilidad": "Verifica identidad y vigencia del certificado (art. 6-A.3)."
+    },
+    {
+     "entidad": "Jurado Nacional de Elecciones",
+     "sigla": "JNE",
+     "sector": "Organismo electoral",
+     "rol": "supervisora",
+     "responsabilidad": "Fiscaliza la plataforma (art. 5.2) y emite el informe de fiscalización del piloto (art. 6.2)."
+    },
+    {
+     "entidad": "Autoridad Nacional de Protección de Datos Personales",
+     "sigla": "ANPD",
+     "sector": "MINJUSDH",
+     "rol": "supervisora",
+     "responsabilidad": "Supervisa el tratamiento de datos de adherentes (art. 3)."
+    }
+   ],
+   "sujetos_obligados": "ONPE, RENIEC, JNE; promotores de iniciativas (prohibición de recopilar datos de adherentes digitales).",
+   "beneficiarios": "Ciudadanos que promueven o respaldan mecanismos de participación y control; en especial quienes viven lejos de los puntos de recolección o en el extranjero. Población con DNI electrónico: 9 332 713 al 30-06-2026 (RENIEC, vía Panamericana)."
+  },
+  "impacto": {
+   "tipo": "gasto",
+   "costo_estado": {
+    "rango": "S/ 3–7 millones (único) + S/ 0,5–1,5 millones/año",
+    "horizonte": "2027-2031",
+    "supuestos": "Estimación del editor, no dato oficial. Desarrollo de la plataforma de adhesión con firma digital y verificación en línea: equipo de 10–15 personas durante 12–18 meses a S/ 12 000 mensuales por persona (≈ S/ 1,4–3,2 millones) más infraestructura, alta disponibilidad, pruebas de seguridad y auditoría externa (S/ 1,6–3,8 millones). Operación, soporte y auditoría anual: S/ 0,5–1,5 millones/año. Reutiliza la infraestructura de certificados del DNIe.",
+    "financiamiento": "Presupuestos institucionales de ONPE y RENIEC, implementación progresiva sujeta a disponibilidad presupuestal, sin demandar recursos adicionales al Tesoro. Requiere coordinación con el Poder Ejecutivo, fuente de financiamiento identificada e informe previo de sostenibilidad fiscal del MEF antes del dictamen."
+   },
+   "beneficio_estado": "Verificación automatizada de firmas en lugar de revisión manual de planillones; menor riesgo de firmas falsas. No cuantificable con información pública.",
+   "beneficio_sociedad": "Menor costo de participar en iniciativas ciudadanas y protección de los datos de los adherentes. No cuantificable con información pública.",
+   "inversion_privada": "No aplica.",
+   "costo_privado": "Nulo para adherentes; los promotores dejan de asumir costos de impresión y recolección física para las adhesiones digitales.",
+   "riesgos": "Brecha en la tenencia y uso del DNI electrónico (mitigada al mantener la firma manuscrita); ataques a la plataforma; presión por ampliar el voto remoto sin evaluación (mitigada por el art. 6); desconfianza ciudadana si las auditorías no se publican.",
+   "confianza": "baja"
+  },
+  "revision_atendida": []
+ }
+]

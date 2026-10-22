@@ -3,6 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data: https://www.googletagmanager.com https://*.google-analytics.com; connect-src 'self' https://api.tunky.net https://*.google-analytics.com https://*.analytics.google.com https://www.googletagmanager.com; frame-src 'none'; object-src 'none'; base-uri 'self'; form-action 'self'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Propuestas · Agenda Legislativa Tech Perú</title>
 <meta name="description" content="Explora y filtra las propuestas de ley tech por eje, comisión, prioridad y costo fiscal. PDF y Word de cada una.">
 <link rel="canonical" href="https://unimauro.github.io/agenda-legislativa-tech/propuestas.html">
@@ -17,18 +19,17 @@
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/style.css">
 <script>try{const t=localStorage.getItem('theme');if(t)document.documentElement.dataset.theme=t}catch(_){}</script>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-YKRRVYDYQ8"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-YKRRVYDYQ8');</script>
+<script src="assets/consent.js"></script>
 </head>
 <body data-page="propuestas">
 <header class="top">
   <a class="brand" href="index.html">⚖️ Agenda Legislativa Tech</a>
-  <nav class="nav" id="nav"><a href="index.html">Inicio</a><a href="propuestas.html" class=on aria-current=page>Propuestas</a><a href="vision.html">Visión 2036</a><a href="panorama.html">Panorama</a><a href="ciudadania.html">Ciudadanía</a><a href="tramite.html">Cómo se tramita</a></nav>
+  <nav class="nav" id="nav"><a href="index.html">Inicio</a><a href="propuestas.html" class=on aria-current=page>Propuestas</a><a href="vision.html">Visión 2036</a><a href="panorama.html">Panorama</a><a href="ciudadania.html">Ciudadanía</a><a href="foro.html">Foro</a><a href="tramite.html">Cómo se tramita</a></nav>
   <span class="spacer"></span>
   <button class="ghost nav-toggle" id="nav-btn" aria-expanded="false" aria-controls="nav-m">☰</button>
   <button class="ghost" id="theme" aria-label="Cambiar tema claro/oscuro">◐</button>
 </header>
-<nav class="nav-m" id="nav-m" hidden><a href="index.html">Inicio</a><a href="propuestas.html" class=on aria-current=page>Propuestas</a><a href="vision.html">Visión 2036</a><a href="panorama.html">Panorama</a><a href="ciudadania.html">Ciudadanía</a><a href="tramite.html">Cómo se tramita</a></nav>
+<nav class="nav-m" id="nav-m" hidden><a href="index.html">Inicio</a><a href="propuestas.html" class=on aria-current=page>Propuestas</a><a href="vision.html">Visión 2036</a><a href="panorama.html">Panorama</a><a href="ciudadania.html">Ciudadanía</a><a href="foro.html">Foro</a><a href="tramite.html">Cómo se tramita</a></nav>
 <main class="wrap">
   <section class="block first" id="propuestas">
     <h1 class="page-h">Las propuestas</h1>
@@ -56,7 +57,7 @@
       <a class="s-paypal" href="https://paypal.me/unimauro" target="_blank" rel="noopener">🅿️ PayPal</a>
     </div>
     <div class="yape-inline" id="yape-box"><b>Yape · Carlos Cárdenas Fernández</b><br>
-      <img src="https://raw.githubusercontent.com/unimauro/salariosperu/main/yape.png" alt="Código QR de Yape" loading="lazy" onerror="this.style.display='none'"></div>
+      <img src="assets/yape.png" alt="Código QR de Yape" loading="lazy" onerror="this.style.display='none'"></div>
     <div class="share">
       <a id="sh-x" target="_blank" rel="noopener">𝕏 Twitter/X</a><a id="sh-wa" target="_blank" rel="noopener">🟢 WhatsApp</a>
       <a id="sh-in" target="_blank" rel="noopener">💼 LinkedIn</a><a id="sh-fb" target="_blank" rel="noopener">📘 Facebook</a>
@@ -66,7 +67,7 @@
   </section>
   <footer>
     <p><b>Nota.</b> Son <b>propuestas ciudadanas</b> de libre uso (CC BY 4.0): no son proyectos de ley presentados ni tienen
-      número en el Congreso. Las cifras citan su fuente y las estimaciones lo dicen. Actualizado: <span id="upd">—</span>.</p>
+      número en el Congreso. Las cifras citan su fuente y las estimaciones lo dicen. Actualizado: <span id="upd">—</span>. <a href="privacidad.html">Privacidad</a>.</p>
   </footer>
 </main>
 <button class="chat-fab" id="chat-fab" aria-expanded="false" aria-controls="chat">💬 Pregúntale a la agenda</button>

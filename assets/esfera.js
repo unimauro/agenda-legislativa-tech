@@ -4,6 +4,7 @@
   const TAU = Math.PI * 2;
   const reducido = matchMedia("(prefers-reduced-motion: reduce)").matches;
 
+  const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
   function hexRgb(h) { const n = parseInt(h.slice(1), 16); return [(n >> 16) & 255, (n >> 8) & 255, n & 255]; }
 
   // Direcciones bien repartidas (Fibonacci) para el centro de cada eje; las propuestas se agrupan alrededor.
@@ -154,7 +155,7 @@
       if (i < 0) { tip.hidden = true; return; }
       const n = M.nodos[i], olaTxt = n.ola && opts.olas && opts.olas[n.ola] ? opts.olas[n.ola].nombre : "";
       tip.hidden = false;
-      tip.innerHTML = `<b style="color:${n.eje.color}">${n.p.id}</b> ${n.p.titulo_corto}<br><small>${n.eje.nombre}${olaTxt ? " · " + olaTxt : ""} · prioridad ${Math.round(n.s)} · ${M.vecinos[i].size} conexiones</small><br><small class="muted">${matchMedia("(pointer:coarse)").matches ? "Toca de nuevo para abrir" : "Clic para abrir"}</small>`;
+      tip.innerHTML = `<b style="color:${/^#[0-9a-f]{6}$/i.test(n.eje.color) ? n.eje.color : "inherit"}">${esc(n.p.id)}</b> ${esc(n.p.titulo_corto)}<br><small>${esc(n.eje.nombre)}${olaTxt ? " · " + esc(olaTxt) : ""} · prioridad ${Math.round(n.s)} · ${M.vecinos[i].size} conexiones</small><br><small class="muted">${matchMedia("(pointer:coarse)").matches ? "Toca de nuevo para abrir" : "Clic para abrir"}</small>`;
     }
   }
 
@@ -164,10 +165,10 @@
       if (!canvas) return;
       const M = modelo(P, EJES, PR), E = motor(canvas, M, { olas: PR && PR.olas });
       E.interactivo(ui.tip);
-      ui.leyenda.innerHTML = M.ejes.map((e) => `<span><i style="background:${e.color}"></i>${e.nombre}</span>`).join("");
+      ui.leyenda.innerHTML = M.ejes.map((e) => `<span><i style="background:${esc(e.color)}"></i>${esc(e.nombre)}</span>`).join("");
       ui.pausa.onclick = () => { E.auto = !E.auto; ui.pausa.textContent = E.auto ? "⏸ Pausar" : "▶ Girar"; };
       if (reducido) ui.pausa.textContent = "▶ Girar";
-      Object.entries((PR && PR.olas) || {}).forEach(([k, o]) => ui.ola.insertAdjacentHTML("beforeend", `<option value="${k}">${o.nombre} (${o.ids.length})</option>`));
+      Object.entries((PR && PR.olas) || {}).forEach(([k, o]) => ui.ola.insertAdjacentHTML("beforeend", `<option value="${esc(k)}">${esc(o.nombre)} (${o.ids.length})</option>`));
       if (!PR) ui.ola.hidden = true;
       ui.ola.onchange = () => (E.ola = ui.ola.value);
     },

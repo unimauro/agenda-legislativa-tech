@@ -35,7 +35,18 @@ propuestas no tienen `revision_atendida` NO se publican salvo `--borradores`.
   `assets/participa.js`; si la API no responde, cae a GitHub (issues/giscus). Carga liviana: `data/home.json` (~12 KB)
   para portada/visión, `indice.json` perezoso para buscador/asistente, listado paginado (20), antecedentes perezosos.
 
+- [x] v5 seguridad (22-oct-2026): foro propio (temas T-n + respuestas en hilo) y fuera giscus/issues/Action (todo en
+  api.tunky.net). Pruebas adversariales a la API en vivo (CORS, SQLi, JSON roto, 200 KB, prototype pollution, rutas,
+  honeypot) + auditoría del front (sin XSS explotable). Arreglos: panel de moderación movido a
+  **https://api.tunky.net/agenda/admin** (CSP con nonce, frame-ancestors none, token solo en memoria), límite de intentos
+  de admin, tope de 5 votos por red/propuesta, 413 limpio, ids validados, sal propia para hashes, vid hasheado, sin UA
+  ni respaldos .jsonl, rechazo de DNI/teléfono/correo, CSP meta en todas las páginas, SRI de Chart.js, QR de Yape local,
+  página de privacidad y GA4 solo con consentimiento.
+
 ## SIGUIENTE (en orden)
+000. [ ] **Redesplegar la API v2** (foro + endurecimiento + panel): `bash deploy/api-tunky/deploy.sh`. Luego borrar en el
+     VPS los respaldos viejos de prueba `data/agenda-*.jsonl` si existen. Riesgo residual aceptado: inflar votos rotando
+     el identificador de dispositivo (tope 5 por red y propuesta).
 00. [x] **(HECHO 22-oct por Carlos, verificado: CORS, votos, admin 403, El Loro intacto)** DESPLEGAR el módulo en api.tunky.net (el clasificador bloqueó el deploy a producción desde la sesión):
     `bash deploy/api-tunky/deploy.sh` (respalda server.js, `node -c` antes de reconstruir, prueba /agenda/resumen).
     Código: `deploy/api-tunky/agenda.js` + `patch.py` (añade 2 líneas tras makeCounter en src/server.js).
@@ -52,7 +63,7 @@ propuestas no tienen `revision_atendida` NO se publican salvo `--borradores`.
    `revision_atendida`; (c) agregar sus filas de reparto a COORDINACION.md si hay cruces; (d) build + push. Los ejes ya
    están registrados en `EJES` de scripts/build.py (colores #b45309 y #4f46e5). Actualizar textos "84" → total real
    donde esté fijo (index.html usa el total dinámico; README/portafolio dicen 84).
-2. [ ] **Instalar la app giscus** (lo hace Carlos en github.com/apps/giscus → solo este repo). Sin eso no cargan los hilos.
+2. [x] ~~Instalar la app giscus~~ (descartado: foro propio en Tunky) (lo hace Carlos en github.com/apps/giscus → solo este repo). Sin eso no cargan los hilos.
 3. [ ] **Asistente con IA** (desde otra sesión; el clasificador de esta sesión bloqueó escribir el .env del gateway y
    meter token en el front): dar de alta el proyecto `agenda-tech` en ai.tunky.net (token cliente en CLIENT_TOKENS +
    persona en /opt/ai-tunky-gateway/data/prompts.json + `docker compose up -d --force-recreate`; ver memoria

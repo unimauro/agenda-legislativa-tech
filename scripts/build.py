@@ -366,6 +366,8 @@ def pagina(p, plan, prev, nxt):
     desc = e(p.get("sumilla"))[:280]
     return f"""<!doctype html><html lang="es"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data: https://www.googletagmanager.com https://*.google-analytics.com; connect-src 'self' https://api.tunky.net https://*.google-analytics.com https://*.analytics.google.com https://www.googletagmanager.com; frame-src 'none'; object-src 'none'; base-uri 'self'; form-action 'self'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <title>{e(p['id'])} · {e(p['titulo_corto'])} — Agenda Legislativa Tech</title>
 <meta name="description" content="{desc}">
 <link rel="canonical" href="{url}">
@@ -375,14 +377,7 @@ def pagina(p, plan, prev, nxt):
 <link rel="icon" href="../favicon.svg" type="image/svg+xml"><link rel="icon" href="../favicon.png" sizes="64x64">
 <link rel="stylesheet" href="../assets/style.css">
 <script>try{{const t=localStorage.getItem('theme');if(t)document.documentElement.dataset.theme=t}}catch(_){{}}</script>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-YKRRVYDYQ8"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){{dataLayer.push(arguments);}}
-  gtag('js', new Date());
-  gtag('config', 'G-YKRRVYDYQ8');
-</script>
+<script src="../assets/consent.js"></script>
 </head><body class="doc" style="--eje:{color}">
 <header class="top"><a class="brand" href="../index.html">⚖️ Agenda Legislativa Tech</a>
 <span class="spacer"></span><button class="ghost" id="theme" aria-label="Cambiar tema">◐</button></header>
@@ -424,14 +419,8 @@ def pagina(p, plan, prev, nxt):
 <div class="participa" id="participa" hidden></div>
 <script src="../assets/participa.js"></script>
 <script>Participa.montar(document.getElementById('participa'), '{e(p['id'])}');</script>
-<details class="gh-alt"><summary>O comenta con tu cuenta de GitHub</summary>
-<script src="https://giscus.app/client.js" data-repo="unimauro/agenda-legislativa-tech" data-repo-id="R_kgDOVTPOaQ"
- data-category="Announcements" data-category-id="DIC_kwDOVTPOac4DJV9_" data-mapping="specific" data-term="{e(p['id'])}"
- data-strict="1" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="preferred_color_scheme"
- data-lang="es" data-loading="lazy" crossorigin="anonymous" async></script>
-</details>
 </section>
-<p class="disclaimer">Propuesta ciudadana de libre uso para cualquier congresista, bancada o colectivo que quiera presentarla. No es un proyecto de ley presentado ni tiene número en el Congreso. Cítala y mejórala.</p>
+<p class="disclaimer"><a href="../privacidad.html">Privacidad</a> · Propuesta ciudadana de libre uso para cualquier congresista, bancada o colectivo que quiera presentarla. No es un proyecto de ley presentado ni tiene número en el Congreso. Cítala y mejórala.</p>
 <nav class="pager">{nav}</nav>
 </main>
 <script>document.getElementById('wa').href='https://wa.me/?text='+encodeURIComponent(document.title+' '+location.href);

@@ -32,7 +32,7 @@
     const R = await resumen();
     if (!R) { el.hidden = true; return false; }
     el.hidden = false;
-    const [up, down] = (R.votos && R.votos[pid]) || [0, 0];
+    const [up, down] = ((R.votos && R.votos[pid]) || [0, 0]).map((x) => +x || 0);
     const mio = misVotos()[pid] || 0;
     el.innerHTML = `<div class="votos" role="group" aria-label="Apoyo ciudadano">
         <button class="voto up${mio === 1 ? " on" : ""}" data-v="1" aria-pressed="${mio === 1}">👍 Apoyo <b>${up}</b></button>
@@ -52,16 +52,35 @@
       el.querySelectorAll(".voto").forEach((x) => (x.disabled = false));
       if (!j.ok) return alertaSuave(el, j.error);
       guardarVoto(pid, nuevo);
-      el.querySelector(".up b").textContent = j.up; el.querySelector(".down b").textContent = j.down;
+      el.querySelector(".up b").textContent = +j.up || 0; el.querySelector(".down b").textContent = +j.down || 0;
       el.querySelectorAll(".voto").forEach((x) => { const on = +x.dataset.v === nuevo; x.classList.toggle("on", on); x.setAttribute("aria-pressed", on); });
     }));
     if (opts.sinComentarios) return true;
     const lista = el.querySelector(".com-list"), form = el.querySelector(".com-f"), msg = el.querySelector(".com-msg");
+    const item = (c) => `<div class="cm" data-id="${+c.id}"><b>${esc(c.nombre || "Anónimo")}</b> <span class="muted">· ${hace(c.ts)}</span><p>${esc(c.texto)}</p>`;
     const pintar = (cs) => {
       el.querySelector("[data-n]").textContent = cs.length ? `(${cs.length})` : "";
-      lista.innerHTML = cs.length ? cs.map((c) => `<div class="cm"><b>${esc(c.nombre || "Anónimo")}</b> <span class="muted">· ${hace(c.ts)}</span><p>${esc(c.texto)}</p></div>`).join("")
+      const raiz = cs.filter((c) => !c.parent).reverse(), hijos = {};
+      cs.filter((c) => c.parent).forEach((c) => (hijos[c.parent] = hijos[c.parent] || []).push(c));
+      lista.innerHTML = raiz.length ? raiz.map((c) => item(c) +
+          `<div class="hilo">${(hijos[c.id] || []).map((r) => item(r) + "</div>").join("")}</div>` +
+          `<button class="chip responder" data-r="${+c.id}">↩ Responder</button></div>`).join("")
         : `<p class="muted">Aún no hay comentarios. ¡Sé la primera persona en opinar!</p>`;
     };
+    lista.addEventListener("click", (ev) => {
+      const b = ev.target.closest(".responder"); if (!b) return;
+      if (b.nextElementSibling && b.nextElementSibling.classList.contains("resp-f")) return b.nextElementSibling.remove();
+      b.insertAdjacentHTML("afterend", `<form class="com-f resp-f"><input name="nombre" maxlength="60" placeholder="Tu nombre o seudónimo (opcional)">
+        <textarea name="texto" maxlength="1000" rows="2" placeholder="Tu respuesta…" required></textarea><input name="website" tabindex="-1" autocomplete="off" class="hp" aria-hidden="true">
+        <div class="com-acts"><button class="btn" type="submit">Responder</button><span class="muted com-msg" aria-live="polite"></span></div></form>`);
+      const rf = b.nextElementSibling;
+      rf.onsubmit = async (e) => {
+        e.preventDefault(); const f = new FormData(rf), m = rf.querySelector(".com-msg"); m.textContent = "Publicando…";
+        const j = await pedir("/comentario", { pid, parent: +b.dataset.r, nombre: f.get("nombre"), texto: f.get("texto"), website: f.get("website"), vid });
+        if (!j.ok) { m.textContent = "⚠️ " + j.error; return; }
+        cargar();
+      };
+    });
     const cargar = async () => { const j = await pedir("/comentarios?pid=" + encodeURIComponent(pid)); pintar(j.ok ? j.comentarios : []); };
     cargar();
     form.onsubmit = async (ev) => {
@@ -83,5 +102,7 @@
     proponer: (d) => pedir("/propuesta", d),
     propuestas: () => pedir("/propuestas"),
     recientes: () => pedir("/comentarios"),
+    temas: () => pedir("/temas"),
+    abrirTema: (d) => pedir("/tema", d),
   };
 })();

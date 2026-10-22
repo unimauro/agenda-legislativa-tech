@@ -358,3 +358,14 @@ section.block.first{border-top:0;padding-top:28px}
 .gh-alt{margin-top:16px}
 .gh-alt summary{cursor:pointer;color:var(--muted);font-size:13.5px}
 .ciud .participa{margin-top:10px;border-top:1px dashed var(--border);padding-top:6px}
+/* foro e hilos */
+.hilo{margin-left:18px;border-left:2px solid var(--border);padding-left:12px}
+.hilo .cm{border-bottom:0;padding:6px 0}
+.responder{margin:4px 0 10px;cursor:pointer}
+.resp-f{margin:0 0 12px 18px}
+.foro-top{display:flex;gap:12px;align-items:center;margin:12px 0}
+.tema-txt{white-space:pre-line}
+#foro-f{margin-bottom:14px}
+.consent{position:fixed;left:16px;bottom:16px;z-index:50;max-width:min(520px,calc(100vw - 32px));background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:12px 14px;box-shadow:0 12px 32px rgba(0,0,0,.25);font-size:13.5px;display:grid;gap:8px}
+.consent span{display:flex;gap:8px}
+.prosa{max-width:760px}.prosa li{margin-bottom:6px}

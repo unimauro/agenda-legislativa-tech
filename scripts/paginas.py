@@ -1,11 +1,11 @@
 """Páginas del sitio (plantilla común). Cada página carga solo los datos que necesita (ver assets/app.js)."""
 
 BASE = "https://unimauro.github.io/agenda-legislativa-tech/"
-GA = """<script async src="https://www.googletagmanager.com/gtag/js?id=G-YKRRVYDYQ8"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-YKRRVYDYQ8');</script>"""
+GA = '<script src="assets/consent.js"></script>'
+CSP = """<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data: https://www.googletagmanager.com https://*.google-analytics.com; connect-src 'self' https://api.tunky.net https://*.google-analytics.com https://*.analytics.google.com https://www.googletagmanager.com; frame-src 'none'; object-src 'none'; base-uri 'self'; form-action 'self'">"""
 
 NAV = [("index", "index.html", "Inicio"), ("propuestas", "propuestas.html", "Propuestas"), ("vision", "vision.html", "Visión 2036"),
-       ("panorama", "panorama.html", "Panorama"), ("ciudadania", "ciudadania.html", "Ciudadanía"), ("tramite", "tramite.html", "Cómo se tramita")]
+       ("panorama", "panorama.html", "Panorama"), ("ciudadania", "ciudadania.html", "Ciudadanía"), ("foro", "foro.html", "Foro"), ("tramite", "tramite.html", "Cómo se tramita")]
 
 RELACIONADOS = [
     ("https://planperu2050.pe/", "🇵🇪 Plan Perú 2050", "Comisiones, indicadores y metas del CNPP / CIP."),
@@ -30,6 +30,8 @@ def shell(page, titulo, desc, cuerpo, scripts=""):
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
+{CSP}
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <title>{titulo}</title>
 <meta name="description" content="{desc}">
 <link rel="canonical" href="{canon}">
@@ -67,7 +69,7 @@ def shell(page, titulo, desc, cuerpo, scripts=""):
       <a class="s-paypal" href="https://paypal.me/unimauro" target="_blank" rel="noopener">🅿️ PayPal</a>
     </div>
     <div class="yape-inline" id="yape-box"><b>Yape · Carlos Cárdenas Fernández</b><br>
-      <img src="https://raw.githubusercontent.com/unimauro/salariosperu/main/yape.png" alt="Código QR de Yape" loading="lazy" onerror="this.style.display='none'"></div>
+      <img src="assets/yape.png" alt="Código QR de Yape" loading="lazy" onerror="this.style.display='none'"></div>
     <div class="share">
       <a id="sh-x" target="_blank" rel="noopener">𝕏 Twitter/X</a><a id="sh-wa" target="_blank" rel="noopener">🟢 WhatsApp</a>
       <a id="sh-in" target="_blank" rel="noopener">💼 LinkedIn</a><a id="sh-fb" target="_blank" rel="noopener">📘 Facebook</a>
@@ -77,7 +79,7 @@ def shell(page, titulo, desc, cuerpo, scripts=""):
   </section>
   <footer>
     <p><b>Nota.</b> Son <b>propuestas ciudadanas</b> de libre uso (CC BY 4.0): no son proyectos de ley presentados ni tienen
-      número en el Congreso. Las cifras citan su fuente y las estimaciones lo dicen. Actualizado: <span id="upd">—</span>.</p>
+      número en el Congreso. Las cifras citan su fuente y las estimaciones lo dicen. Actualizado: <span id="upd">—</span>. <a href="privacidad.html">Privacidad</a>.</p>
   </footer>
 </main>
 <button class="chat-fab" id="chat-fab" aria-expanded="false" aria-controls="chat">💬 Pregúntale a la agenda</button>
@@ -102,7 +104,7 @@ def shell(page, titulo, desc, cuerpo, scripts=""):
 """
 
 
-CHART = '<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>\n'
+CHART = '<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js" integrity="sha384-bs/nf9FbdNouRbMiFcrcZfLXYPKiPaGVGplVbv7dLGECccEXDW+S3zjqSKR5ZEaD" crossorigin="anonymous" referrerpolicy="no-referrer"></script>\n'
 ESFERA = '<script src="assets/esfera.js"></script>\n'
 
 
@@ -234,13 +236,11 @@ def generar(root, total):
         <div class="com-acts"><button class="btn" type="submit">🗳️ Enviar propuesta</button><span class="muted" id="prop-msg" aria-live="polite"></span></div>
         <p class="muted com-legal">Se registra con fecha y pasa por revisión (constitucional, técnica, costo para el Estado). Solo se publica tras la revisión. No necesitas cuenta.</p>
       </form>
-      <div id="prop-gh"><h2>Tu idea puede ser la próxima propuesta</h2>
-        <p>Llena el formulario: queda <b>registrado y público</b>, pasa por la misma revisión que las demás y, si procede, se incorpora a la agenda.</p>
-        <a class="btn" id="form-link" href="https://github.com/unimauro/agenda-legislativa-tech/issues/new?template=propuesta-ciudadana.yml" target="_blank" rel="noopener">🗳️ Proponer una ley (GitHub)</a></div>
+      <div id="prop-off" hidden><h2>Formulario temporalmente no disponible</h2><p>No pudimos conectar con el servidor. Intenta en unos minutos.</p></div>
       <div><div class="kpis" id="cd-kpis"></div>
         <ol class="mini-steps"><li><b>Recibida</b> — queda registrada con fecha.</li><li><b>En revisión</b> — se evalúa viabilidad y duplicidad.</li>
           <li><b>Publicada</b> — aparece aquí para recibir apoyo.</li><li><b>Incorporada</b> — se redacta como propuesta formal con articulado.</li></ol>
-        <p class="muted" style="font-size:12.5px">¿Tienes cuenta de GitHub? También puedes <a id="form-link2" href="https://github.com/unimauro/agenda-legislativa-tech/issues/new?template=propuesta-ciudadana.yml" target="_blank" rel="noopener">proponer por GitHub</a>.</p></div>
+</div>
     </div>
   </section>
   <section class="block" id="ciudadanas"><h2>Propuestas de la ciudadanía</h2><p class="sub">Solo se muestran las aprobadas tras revisión. Apoya las que te convenzan.</p><div id="cd-list"></div></section>
@@ -249,6 +249,46 @@ def generar(root, total):
     <p class="sub">Apoyos (👍), rechazos (👎) y comentarios en cada propuesta de la agenda, en tiempo real.</p>
     <div class="grid2"><div class="card"><h3>Más apoyadas y comentadas</h3><div class="tbl-scroll" id="cm-rank"></div></div>
       <div class="card"><h3>Comentarios recientes</h3><div class="tbl-scroll" id="cm-feed"></div></div></div>
+  </section>
+""", ""),
+        "foro": ("Foro ciudadano · Agenda Legislativa Tech Perú",
+                 "Foro abierto para debatir la agenda legislativa tech: ideas de nuevas leyes, dudas, debate y miradas desde las regiones. Sin cuenta.",
+                 """  <section class="block first" id="foro">
+    <h1 class="page-h">Foro ciudadano</h1>
+    <p class="sub">Debate la agenda, propone ideas, pregunta. Cada tema tiene votos y respuestas en hilo. Para comentar una ley concreta, entra a su página;
+      para proponer una ley formal, usa <a href="ciudadania.html">Propón una ley</a>.</p>
+    <div class="eje-pills" id="foro-cats"></div>
+    <div class="foro-top"><button class="btn" id="foro-nuevo-btn" aria-expanded="false">✍️ Abrir un tema</button><span class="muted" id="foro-estado"></span></div>
+    <form id="foro-f" class="prop-f card" hidden>
+      <label>Título *<input name="titulo" required minlength="8" maxlength="160" placeholder="¿Qué ley falta para la Amazonía conectada?"></label>
+      <label>Categoría<select name="categoria"><option value="ideas">💡 Ideas</option><option value="dudas">❓ Dudas</option><option value="debate">⚖️ Debate</option><option value="regiones">📍 Regiones</option><option value="otros">💬 Otros</option></select></label>
+      <label>Tu mensaje *<textarea name="texto" required minlength="15" maxlength="3000" rows="5"></textarea></label>
+      <label>Nombre o seudónimo (opcional)<input name="nombre" maxlength="60"></label>
+      <input name="website" tabindex="-1" autocomplete="off" class="hp" aria-hidden="true">
+      <div class="com-acts"><button class="btn" type="submit">Publicar tema</button><span class="muted" id="foro-msg" aria-live="polite"></span></div>
+      <p class="muted com-legal">Es público. No compartas datos personales tuyos ni de terceros. Se moderan insultos, spam y desinformación evidente.</p>
+    </form>
+    <div id="foro-list"></div>
+  </section>
+""", ""),
+        "privacidad": ("Privacidad · Agenda Legislativa Tech Perú",
+                       "Qué datos recoge la Agenda Legislativa Tech Perú, para qué, por cuánto tiempo y cómo ejercer tus derechos.",
+                       """  <section class="block first" id="privacidad">
+    <h1 class="page-h">Privacidad</h1>
+    <div class="prosa">
+    <p>Este sitio es un proyecto ciudadano sin fines de lucro. Recogemos <b>lo mínimo</b> para que puedas participar.</p>
+    <h3>Qué guardamos cuando participas</h3>
+    <ul><li><b>Propuestas, comentarios y temas del foro:</b> el texto que escribes y el nombre o seudónimo que elijas (opcional). Son <b>públicos</b> una vez publicados. No escribas DNI, teléfonos ni correos: el sistema los rechaza.</li>
+      <li><b>Votos 👍/👎:</b> un identificador aleatorio de tu navegador, guardado en el servidor solo como <i>hash</i>, para contar un voto por dispositivo.</li>
+      <li><b>Tu red:</b> la dirección IP se guarda solo como <i>hash</i> irreversible con sal secreta, para frenar spam y abuso. No guardamos tu IP en claro ni tu navegador en las tablas de participación.</li></ul>
+    <h3>Analítica</h3>
+    <p>Usamos Google Analytics (con IP anonimizada) <b>solo si lo aceptas</b> en el aviso inferior. Puedes cambiar tu decisión borrando los datos del sitio en tu navegador.</p>
+    <h3>Dónde y por cuánto tiempo</h3>
+    <p>Los datos de participación se guardan en un servidor propio (api.tunky.net). Lo moderado como spam u ofensivo se oculta; puedes pedir que borremos tu aporte.</p>
+    <h3>Tus derechos</h3>
+    <p>Puedes pedir acceso, corrección o eliminación de tus aportes (Ley 29733, Ley de Protección de Datos Personales) escribiendo a través de <a href="https://github.com/unimauro" target="_blank" rel="noopener">github.com/unimauro</a>, indicando el código de tu aporte (por ejemplo C-12 o T-3) y la fecha.</p>
+    <p class="muted">Este aviso no reemplaza asesoría legal. Última actualización: 22 de octubre de 2026.</p>
+    </div>
   </section>
 """, ""),
         "tramite": ("Cómo se tramita · Agenda Legislativa Tech Perú",
@@ -263,38 +303,8 @@ def generar(root, total):
   <section class="block" id="antecedentes"><h2>Lo que pasó en el Congreso 2021–2026</h2><p class="sub" id="ant-sub"></p><div id="ant"></div></section>
 """, ""),
     }
-    (root / "admin.html").write_text(ADMIN_HTML)
     for k, (t, d, cuerpo, scripts) in paginas.items():
         (root / ("index.html" if k == "index" else f"{k}.html")).write_text(shell(k, t, d, cuerpo, scripts))
     urls = [BASE] + [BASE + f"{k}.html" for k in paginas if k != "index"]
     return urls
 
-
-ADMIN_HTML = """<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="robots" content="noindex,nofollow"><title>Moderación · Agenda Legislativa Tech</title><link rel="stylesheet" href="assets/style.css">
-<script>try{const t=localStorage.getItem('theme');if(t)document.documentElement.dataset.theme=t}catch(_){}</script></head>
-<body><main class="wrap" style="padding-top:24px"><h1 class="page-h">Moderación</h1>
-<p class="muted">Panel privado. El token se guarda solo en esta pestaña (sessionStorage) y nunca está en el código del sitio.</p>
-<form id="tk" class="com-acts"><input id="tok" type="password" placeholder="ADMIN_TOKEN de api.tunky.net" class="search-wide" style="max-width:420px"><button class="btn">Entrar</button><span id="st" class="muted"></span></form>
-<div class="eje-pills" style="margin-top:14px"><button class="eje-pill on" data-t="propuestas">Propuestas</button><button class="eje-pill" data-t="comentarios">Comentarios</button></div>
-<div id="out"></div></main>
-<script src="assets/participa.js"></script>
-<script>
-const E=Participa.esc;let tipo='propuestas';const tok=()=>sessionStorage.getItem('agenda_tok')||'';
-document.getElementById('tk').onsubmit=e=>{e.preventDefault();sessionStorage.setItem('agenda_tok',document.getElementById('tok').value);cargar()};
-document.querySelectorAll('[data-t]').forEach(b=>b.onclick=()=>{tipo=b.dataset.t;document.querySelectorAll('[data-t]').forEach(x=>x.classList.toggle('on',x===b));cargar()});
-async function cargar(){const st=document.getElementById('st');if(!tok())return;st.textContent='Cargando…';
- const j=await Participa.pedir('/admin/listar',{token:tok(),tipo});if(!j.ok){st.textContent='⚠️ '+j.error;return}st.textContent=j.items.length+' registros';
- const out=document.getElementById('out');
- if(tipo==='comentarios'){out.innerHTML='<table class="tbl"><tr><th>#</th><th>Propuesta</th><th>Comentario</th><th></th></tr>'+j.items.map(c=>`<tr style="opacity:${c.oculto?.45:1}"><td>${c.id}<br><small class=muted>${E(c.ts.slice(0,16))}</small></td><td>${E(c.pid)}</td><td><b>${E(c.nombre)}</b> <small class=muted>${E(c.iphash)}</small><br>${E(c.texto)}</td><td><button class="chip" data-oc="${c.id}" data-v="${!c.oculto}">${c.oculto?'Mostrar':'Ocultar'}</button></td></tr>`).join('')+'</table>';
-  out.querySelectorAll('[data-oc]').forEach(b=>b.onclick=async()=>{await Participa.pedir('/admin/ocultar',{token:tok(),id:+b.dataset.oc,oculto:b.dataset.v==='true'});cargar()});return}
- const EST=['recibida','en-revision','publicada','incorporada','archivada'];
- out.innerHTML=j.items.map(p=>`<details class="prop" ${p.estado==='recibida'?'open':''}><summary><span class="pid">C-${p.id}</span><div><h3>${E(p.titulo)}</h3><div class="tagline"><span class="pill">${E(p.estado)}</span><span class="pill">${E(p.eje)}</span><span class="pill">${E(p.region||'')}</span><span class="pill">${E(p.ts.slice(0,10))}</span></div></div></summary>
- <div class="body"><h4>Problema</h4><p>${E(p.problema)}</p><h4>Propuesta</h4><p>${E(p.propuesta)}</p><h4>Beneficia</h4><p>${E(p.beneficiarios)}</p><h4>Entidades · costo</h4><p>${E(p.entidades)} · ${E(p.costo)}</p>
- <p class=muted>Autor: ${E(p.autor||'—')} · ${E(p.iphash)}</p><input class="search-wide" placeholder="Nota (opcional)" data-nota="${p.id}" value="${E(p.nota_admin||'')}">
- <div class="acts">${EST.map(s=>`<button class="chip${s===p.estado?' on':''}" data-id="${p.id}" data-e="${s}">${s}</button>`).join('')}</div></div></details>`).join('');
- out.querySelectorAll('[data-e]').forEach(b=>b.onclick=async()=>{const nota=out.querySelector(`[data-nota="${b.dataset.id}"]`).value;const r=await Participa.pedir('/admin/estado',{token:tok(),id:+b.dataset.id,estado:b.dataset.e,nota});if(!r.ok)alertar(r.error);cargar()});}
-function alertar(t){document.getElementById('st').textContent='⚠️ '+t}
-cargar();
-</script></body></html>
-"""

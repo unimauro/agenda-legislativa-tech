@@ -301,11 +301,10 @@
   }
 
   if (PAGE === "ciudadania") {
-    const [C, CD] = await Promise.all([json("data/comentarios.json"), json("data/ciudadanas.json")]);
-    const R = window.Participa ? await Participa.resumen() : null; // null = API no disponible → modo GitHub
-    if (CD && CD.formulario) { $("#form-link").href = CD.formulario; $("#form-link2").href = CD.formulario; }
-    if (R) {
-      $("#prop-f").hidden = false; $("#prop-gh").hidden = true;
+    const R = window.Participa ? await Participa.resumen() : null;
+    if (!R) { $("#prop-off").hidden = false; }
+    else {
+      $("#prop-f").hidden = false;
       $("#prop-f").onsubmit = async (ev) => {
         ev.preventDefault();
         const f = Object.fromEntries(new FormData(ev.target)); f.acepto = !!f.acepto;
@@ -316,33 +315,59 @@
         ev.target.reset(); msg.innerHTML = `✅ ¡Recibida! Tu propuesta es la <b>${esc(j.codigo)}</b>. Pasará por revisión y, si procede, se publicará aquí.`;
       };
     }
-    const t = (CD && CD.totales) || {}, rc = (R && R.ciudadanas) || {};
-    const suma = (k1, k2) => (t[k1] || 0) + (rc[k2 || k1] || 0);
-    $("#cd-kpis").innerHTML = [[(t.recibidas || 0) + (rc.recibidas || 0), "propuestas recibidas"], [suma("en-revision"), "en revisión"],
-      [(t.publicadas || 0) + (rc.publicada || 0) + (rc.incorporada || 0), "publicadas"], [suma("incorporada"), "incorporadas a la agenda"]]
-      .map(([b, s]) => `<div class="kpi"><b>${esc(b)}</b><span>${esc(s)}</span></div>`).join("");
+    const rc = (R && R.ciudadanas) || {}, n = (k) => +(rc[k] || 0);
+    $("#cd-kpis").innerHTML = [[n("recibidas"), "propuestas recibidas"], [n("en-revision"), "en revisión"], [n("publicada") + n("incorporada"), "publicadas"], [n("incorporada"), "incorporadas a la agenda"]]
+      .map(([b, s]) => `<div class="kpi"><b>${b}</b><span>${esc(s)}</span></div>`).join("");
     const EST = { recibida: "Recibida", "en-revision": "En revisión", publicada: "Publicada", incorporada: "Incorporada ✓", archivada: "Archivada" };
-    const api = R ? ((await Participa.propuestas()).propuestas || []) : [];
-    const items = [...api.map((x) => ({ ...x, cod: x.codigo, fecha: String(x.ts).slice(0, 10), fuente: "api" })), ...((CD && CD.items) || []).map((x) => ({ ...x, cod: "#" + x.n, fuente: "gh" }))];
-    $("#cd-list").innerHTML = items.length ? items.map((x) => `<details class="prop ciud" data-cod="${esc(x.cod)}"><summary><span class="pid">${esc(x.cod)}</span><div><h3>${esc(x.titulo)}</h3>
-      <div class="tagline"><span class="pill">${esc(EST[x.estado] || x.estado)}</span>${x.eje ? `<span class="pill">${esc(x.eje)}</span>` : ""}${x.region ? `<span class="pill">📍 ${esc(x.region)}</span>` : ""}${x.fuente === "api" && R && R.votos[x.cod] ? `<span class="pill">👍 ${R.votos[x.cod][0]}</span>` : ""}</div></div><span class="chev">▶</span></summary>
+    const items = R ? ((await Participa.propuestas()).propuestas || []) : [];
+    $("#cd-list").innerHTML = items.length ? items.map((x) => `<details class="prop ciud" id="${esc(x.codigo)}"><summary><span class="pid">${esc(x.codigo)}</span><div><h3>${esc(x.titulo)}</h3>
+      <div class="tagline"><span class="pill">${esc(EST[x.estado] || x.estado)}</span>${x.eje ? `<span class="pill">${esc(x.eje)}</span>` : ""}${x.region ? `<span class="pill">📍 ${esc(x.region)}</span>` : ""}${R.votos[x.codigo] ? `<span class="pill">👍 ${+R.votos[x.codigo][0]}</span>` : ""}</div></div><span class="chev">▶</span></summary>
       <div class="body"><h4>Problema</h4><p>${esc(x.problema)}</p><h4>Propuesta</h4><p>${esc(x.propuesta)}</p>${x.beneficiarios ? `<h4>Beneficia a</h4><p>${esc(x.beneficiarios)}</p>` : ""}
-      <p class="muted" style="font-size:12.5px">${x.autor ? "Por " + esc(x.autor) + " · " : ""}${esc(x.fecha)}</p>
-      ${x.fuente === "api" ? `<div class="participa" data-pid="${esc(x.cod)}"></div>` : `<div class="acts"><a class="btn ghost" href="${esc(x.url)}" target="_blank" rel="noopener">👍 Apoyar u opinar en GitHub</a></div>`}</div></details>`).join("")
+      <p class="muted" style="font-size:12.5px">${x.autor ? "Por " + esc(x.autor) + " · " : ""}${esc(String(x.ts).slice(0, 10))}</p><div class="participa" data-pid="${esc(x.codigo)}"></div></div></details>`).join("")
       : `<p class="muted">Aún no hay propuestas ciudadanas publicadas. ¡Sé la primera persona en proponer!</p>`;
     $("#cd-list").addEventListener("toggle", (ev) => { const w = ev.target.querySelector && ev.target.querySelector(".participa:not([data-ok])"); if (ev.target.open && w) { w.dataset.ok = 1; Participa.montar(w, w.dataset.pid); } }, true);
-    // ranking y feed: API (en vivo) + giscus (GitHub)
-    const filas = {};
-    if (R) { Object.entries(R.votos || {}).forEach(([id, [u, n]]) => (filas[id] = { id, u, n, c: 0 })); Object.entries(R.comentarios || {}).forEach(([id, c]) => ((filas[id] = filas[id] || { id, u: 0, n: 0, c: 0 }).c += c)); }
-    if (C) Object.entries(C.por_propuesta || {}).forEach(([id, v]) => { const f = (filas[id] = filas[id] || { id, u: 0, n: 0, c: 0 }); f.u += v.apoyo; f.n += v.rechazo; f.c += v.comentarios + v.respuestas; });
-    const rows = Object.values(filas).filter((r) => byId[r.id]).sort((a, b) => b.u + b.c - (a.u + a.c));
+    const filas = R ? Object.keys({ ...R.votos, ...R.comentarios }).map((id) => ({ id, u: +((R.votos[id] || [])[0] || 0), n: +((R.votos[id] || [])[1] || 0), c: +(R.comentarios[id] || 0) })) : [];
+    const rows = filas.filter((r) => byId[r.id]).sort((a, b) => b.u + b.c - (a.u + a.c));
     $("#cm-rank").innerHTML = rows.length ? `<table class="tbl"><tr><th>Propuesta</th><th>👍</th><th>👎</th><th>💬</th></tr>${rows.slice(0, 25).map((r) =>
       `<tr><td>${ejeTag(byId[r.id])} <a href="p/${esc(r.id)}.html#comentarios">${esc(byId[r.id].titulo_corto)}</a></td><td>${r.u}</td><td>${r.n}</td><td>${r.c}</td></tr>`).join("")}</table>`
       : `<p class="muted">Aún no hay apoyos ni comentarios. Entra a cualquier propuesta y baja hasta «¿Qué opinas?».</p>`;
-    const feedApi = R ? ((await Participa.recientes()).comentarios || []).map((c) => ({ id: c.pid, autor: c.nombre, fecha: c.ts, texto: c.texto })) : [];
-    const feed = [...feedApi, ...((C && C.recientes) || []).map((c) => ({ ...c, autor: "@" + c.autor }))].sort((a, b) => String(b.fecha).localeCompare(String(a.fecha)));
-    $("#cm-feed").innerHTML = feed.length ? feed.slice(0, 20).map((c) => `<div class="cm"><a href="${/^C-/.test(c.id) ? "#ciudadanas" : "p/" + esc(c.id) + ".html#comentarios"}"><b>${esc(c.id)}</b></a> · <span class="muted">${esc(c.autor || "Anónimo")} · ${esc(String(c.fecha).slice(0, 10))}</span><p>${esc(c.texto)}</p></div>`).join("")
+    const feed = R ? ((await Participa.recientes()).comentarios || []) : [];
+    const enlace = (id) => /^T-\d+$/.test(id) ? "foro.html#" + id : /^C-\d+$/.test(id) ? "#" + id : "p/" + id + ".html#comentarios";
+    $("#cm-feed").innerHTML = feed.length ? feed.slice(0, 20).map((c) => `<div class="cm"><a href="${esc(enlace(c.pid))}"><b>${esc(c.pid)}</b></a> · <span class="muted">${esc(c.nombre || "Anónimo")} · ${esc(String(c.ts).slice(0, 10))}</span><p>${esc(c.texto)}</p></div>`).join("")
       : `<p class="muted">Los comentarios aparecerán aquí.</p>`;
+  }
+
+  if (PAGE === "foro") {
+    const CAT = { "": "Todos", ideas: "💡 Ideas", dudas: "❓ Dudas", debate: "⚖️ Debate", regiones: "📍 Regiones", otros: "💬 Otros" };
+    const R = window.Participa ? await Participa.resumen() : null;
+    if (!R) { $("#foro-list").innerHTML = `<p class="muted">El foro no está disponible en este momento. Intenta más tarde.</p>`; $("#foro-nuevo-btn").hidden = true; }
+    else {
+      let temas = (await Participa.temas()).temas || [], cat = "";
+      $("#foro-cats").innerHTML = Object.entries(CAT).map(([k, v]) => `<button class="eje-pill${k ? "" : " on"}" data-c="${k}">${v}</button>`).join("");
+      $("#foro-cats").onclick = (ev) => { const b = ev.target.closest("[data-c]"); if (!b) return; cat = b.dataset.c; document.querySelectorAll("#foro-cats .eje-pill").forEach((x) => x.classList.toggle("on", x === b)); pintar(); };
+      const pintar = () => {
+        const f = temas.filter((t) => !cat || t.categoria === cat);
+        $("#foro-estado").textContent = `${temas.length} temas`;
+        $("#foro-list").innerHTML = f.length ? f.map((t) => `<details class="prop tema" id="${esc(t.codigo)}"><summary><span class="pid">${esc(t.codigo)}</span><div><h3>${esc(t.titulo)}</h3>
+          <div class="tagline"><span class="pill">${esc(CAT[t.categoria] || t.categoria)}</span><span class="pill">${esc(t.nombre || "Anónimo")} · ${Participa.hace(t.ts)}</span><span class="pill">💬 ${+t.respuestas || 0} · 👍 ${+t.apoyos || 0}</span></div></div><span class="chev">▶</span></summary>
+          <div class="body"><p class="tema-txt">${esc(t.texto)}</p><div class="participa" data-pid="${esc(t.codigo)}"></div></div></details>`).join("")
+          : `<p class="muted">Aún no hay temas${cat ? " en esta categoría" : ""}. ¡Abre el primero!</p>`;
+      };
+      pintar();
+      $("#foro-list").addEventListener("toggle", (ev) => { const w = ev.target.querySelector && ev.target.querySelector(".participa:not([data-ok])"); if (ev.target.open && w) { w.dataset.ok = 1; Participa.montar(w, w.dataset.pid); } }, true);
+      const btn = $("#foro-nuevo-btn"), form = $("#foro-f");
+      btn.onclick = () => { form.hidden = !form.hidden; btn.setAttribute("aria-expanded", !form.hidden); };
+      form.onsubmit = async (ev) => {
+        ev.preventDefault(); const d = Object.fromEntries(new FormData(form)), b = form.querySelector("button[type=submit]");
+        b.disabled = true; $("#foro-msg").textContent = "Publicando…";
+        const j = await Participa.abrirTema(d); b.disabled = false;
+        if (!j.ok) { $("#foro-msg").textContent = "⚠️ " + j.error; return; }
+        form.reset(); form.hidden = true; $("#foro-msg").textContent = "";
+        temas = (await Participa.temas()).temas || []; pintar();
+        const el = document.getElementById(j.codigo); if (el) { el.open = true; el.scrollIntoView({ behavior: "smooth" }); }
+      };
+      let h = ""; try { h = decodeURIComponent(location.hash.slice(1)); } catch (_) {} if (/^T-\d+$/.test(h) && document.getElementById(h)) { document.getElementById(h).open = true; document.getElementById(h).scrollIntoView(); }
+    }
   }
 
   if (PAGE === "tramite") {

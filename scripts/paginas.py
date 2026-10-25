@@ -181,7 +181,7 @@ def generar(root, total):
   <section class="block" id="olas"><h2>Las olas de implementación</h2><p class="sub" id="olas-sub"></p><div class="lanes olas" id="olas-grid"></div></section>
   <section class="block" id="ranking"><h2>Ranking por lente</h2><p class="sub">Puntaje 0–100 por cada lente y el consolidado.</p><div class="card tbl-scroll" id="rank-tbl"></div></section>
   <section class="block" id="tesis"><h2>Qué dice cada lente</h2><div class="tesis-grid" id="tesis-grid"></div></section>
-  <section class="block" id="vacios"><h2>Lo que falta: leyes que la visión necesita</h2><p class="sub">Vacíos detectados por el panel; candidatos a nuevas propuestas.</p><div id="vacios-list"></div></section>
+  <section class="block" id="vacios"><h2>Lo que faltaba: leyes que la visión necesita</h2><p class="sub">Vacíos detectados por el panel prospectivo. Ya se convirtieron en propuestas nuevas, redactadas y revisadas por los mismos especialistas.</p><div id="vacios-list"></div></section>
 """, ESFERA),
         "panorama": ("Panorama · Agenda Legislativa Tech Perú",
                      "Gráficos, quién hace qué, revisión especializada y alineamiento con el Plan Perú 2050 de las propuestas de ley tech.",

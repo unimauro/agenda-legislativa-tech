@@ -1,0 +1,422 @@
+{
+ "A_sober_conect": [
+  {
+   "id": "SOB-09",
+   "eje": "sober",
+   "vacios": [
+    {
+     "titulo": "Ley de energía firme renovable para cargas digitales e industriales: contratos bilaterales renovables, almacenamiento y transmisión anticipada",
+     "por_que": "CON-10 e IA-05 suponen electricidad limpia y abundante; sin reglas de contratación renovable, almacenamiento y transmisión, los centros de datos y el valor agregado minero no llegan.",
+     "eje_sugerido": "sob",
+     "lentes": [
+      "Prospectiva tecnológica",
+      "Geoeconomía"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "SOB-10",
+   "eje": "sober",
+   "vacios": [
+    {
+     "titulo": "Ley de gestión digital del agua: medición telemétrica de usos, datos hídricos abiertos y gemelos digitales de cuencas",
+     "por_que": "El estrés hídrico es la tendencia nº 1 del informe prospectivo CEPLAN; TAL-08 cubre datos agroclimáticos pero no la medición y asignación del agua entre minería, agro, ciudades y centros de datos.",
+     "eje_sugerido": "sob",
+     "lentes": [
+      "Prospectiva tecnológica"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "SOB-11",
+   "eje": "sober",
+   "vacios": [
+    {
+     "titulo": "Ley de bioeconomía y acceso a recursos genéticos con información digital de secuencias y reparto de beneficios",
+     "por_que": "La biotecnología es megatendencia y el Perú es megadiverso; SOB-05 regula biobancos humanos, pero falta el régimen para la biodiversidad y su información digital (DSI), hoy en negociación multilateral.",
+     "eje_sugerido": "sob",
+     "lentes": [
+      "Prospectiva tecnológica"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "SOB-12",
+   "eje": "sober",
+   "vacios": [
+    {
+     "titulo": "Ley de evaluación de inversiones extranjeras en activos críticos y tecnologías sensibles",
+     "por_que": "Gestionar riesgos geopolíticos (puertos, cables, data centers, minerales) con un procedimiento transparente, acotado y no discriminatorio conforme a las Directrices OCDE de inversión y seguridad nacional, en lugar de reacciones ad hoc o presiones externas.",
+     "eje_sugerido": "sob",
+     "lentes": [
+      "Geoeconomía"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "SOB-13",
+   "eje": "sober",
+   "vacios": [
+    {
+     "titulo": "Ley de control de exportaciones de bienes y tecnologías de doble uso",
+     "por_que": "Para entrar en cadenas friendshoring (semiconductores, electrónica, espacio) el país debe demostrar control de reexportaciones y triangulación; hoy no hay régimen integral alineado con arreglos multilaterales.",
+     "eje_sugerido": "sob",
+     "lentes": [
+      "Geoeconomía"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "CON-15",
+   "eje": "conect",
+   "vacios": [
+    {
+     "titulo": "Ley de energía para la conectividad rural: electrificación prioritaria de escuelas, postas y nodos de red",
+     "por_que": "CON-13, TAL-07 y TAL-01 fallan donde no hay energía estable; ninguna propuesta articula MINEM con MTC.",
+     "eje_sugerido": "con",
+     "lentes": [
+      "Implementación en el Estado",
+      "Desarrollo humano y territorial"
+     ]
+    }
+   ]
+  }
+ ],
+ "B_econ": [
+  {
+   "id": "ECO-15",
+   "eje": "econ",
+   "vacios": [
+    {
+     "titulo": "Ley que unifica los regímenes tributarios MYPE (RUS, RER, RMT) en un régimen único digital y progresivo y sustituye beneficios laborales por tamaño de empresa por subsidios ligados al ingreso del trabajador",
+     "por_que": "El FMI y la OCDE identifican los regímenes especiales por tamaño como causa del 'enanismo' empresarial y de la baja productividad; sin esta reforma la digitalización no basta para formalizar.",
+     "eje_sugerido": "econ",
+     "lentes": [
+      "Crecimiento económico"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ECO-16",
+   "eje": "econ",
+   "vacios": [
+    {
+     "titulo": "Ley que otorga autonomía y mandato legal a un Consejo de Productividad independiente que evalúe ex post los incentivos y programas productivos y publique sus resultados",
+     "por_que": "Sin evaluación independiente, los incentivos (I+D, parques, fondos, CITE) no se corrigen ni se cierran; Corea condicionó el apoyo a metas y Australia tiene una Productivity Commission legal.",
+     "eje_sugerido": "econ",
+     "lentes": [
+      "Crecimiento económico"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ECO-17",
+   "eje": "econ",
+   "vacios": [
+    {
+     "titulo": "Ley que crea un programa nacional de adopción tecnológica y prácticas gerenciales para MIPYME con bonos (vouchers) cofinanciados y diagnósticos digitales",
+     "por_que": "La brecha de productividad intraempresa se explica en buena parte por baja adopción de tecnologías y prácticas gerenciales básicas; SOB-07 cubre solo automatización manufacturera vía CITE.",
+     "eje_sugerido": "econ",
+     "lentes": [
+      "Crecimiento económico"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ECO-18",
+   "eje": "econ",
+   "vacios": [
+    {
+     "titulo": "Ley que moderniza la agencia de promoción de inversiones para búsqueda activa de IED de eficiencia en sectores de mayor complejidad, con servicio posinstalación y programa de encadenamiento con proveedores",
+     "por_que": "Irlanda (IDA), Costa Rica y Vietnam crecieron atrayendo IED exportadora en manufactura y servicios avanzados; la promoción peruana está orientada a recursos naturales y concesiones.",
+     "eje_sugerido": "econ",
+     "lentes": [
+      "Crecimiento económico"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ECO-19",
+   "eje": "econ",
+   "vacios": [
+    {
+     "titulo": "Ley que habilita a los fondos de pensiones y aseguradoras a invertir en capital de riesgo y deuda privada de empresas innovadoras con límites prudenciales",
+     "por_que": "El ahorro institucional no financia innovación; Chile e Israel profundizaron capital de riesgo con fondos institucionales. ECO-02 y ECO-09 son montos pequeños frente al ahorro previsional.",
+     "eje_sugerido": "econ",
+     "lentes": [
+      "Crecimiento económico"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ECO-20",
+   "eje": "econ",
+   "vacios": [
+    {
+     "titulo": "Ley que habilita la adhesión a acuerdos de economía digital y la participación nacional en organismos de estándares tecnológicos",
+     "por_que": "La geopolítica tecnológica se juega en estándares y acuerdos (p. ej., DEPA); sin presencia en ellos el Perú adopta reglas ajenas y pierde acceso a flujos de datos para exportar servicios.",
+     "eje_sugerido": "eco",
+     "lentes": [
+      "Prospectiva tecnológica"
+     ]
+    },
+    {
+     "titulo": "Ley de diplomacia económica digital y negociación de acuerdos de economía digital",
+     "por_que": "Falta mandato legal para negociar capítulos digitales y acuerdos tipo DEPA, reconocimiento mutuo de firma/identidad y acuerdos de minerales críticos con EE.UU., UE, Japón y Corea, coordinando MINCETUR, RREE y PCM.",
+     "eje_sugerido": "eco",
+     "lentes": [
+      "Geoeconomía"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ECO-21",
+   "eje": "econ",
+   "vacios": [
+    {
+     "titulo": "Ley que ordena un programa presupuestal orientado a resultados y tipologías de inversión Invierte.pe para transformación digital, a propuesta del Ejecutivo",
+     "por_que": "Sin vehículo de financiamiento multianual, las metas indicativas (CON-13, IA-05, TAL-06) dependen de asignaciones anuales discrecionales.",
+     "eje_sugerido": "eco",
+     "lentes": [
+      "Implementación en el Estado"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ECO-22",
+   "eje": "econ",
+   "vacios": [
+    {
+     "titulo": "Ley de economía digital rural: comercio electrónico, trazabilidad y pagos para la agricultura familiar y las cooperativas",
+     "por_que": "TAL-08 abre datos agroclimáticos, pero ninguna propuesta conecta a la agricultura familiar (la mayoría de las unidades agropecuarias) con los mercados digitales, la trazabilidad exigida por la exportación (por ejemplo, deforestación cero de la UE) y el crédito.",
+     "eje_sugerido": "econ",
+     "lentes": [
+      "Desarrollo humano y territorial"
+     ]
+    }
+   ]
+  }
+ ],
+ "C_gob_estado": [
+  {
+   "id": "GOB-15",
+   "eje": "gob",
+   "vacios": [
+    {
+     "titulo": "Ley de calidad regulatoria que hace obligatorio el análisis de impacto regulatorio y crea una revisión periódica ('guillotina') de trámites con silencio positivo digital",
+     "por_que": "La sobrerregulación y la inestabilidad normativa elevan el costo de invertir y crecer; los episodios de convergencia (Estonia, Polonia en la UE) redujeron costos regulatorios de forma sistemática.",
+     "eje_sugerido": "gob",
+     "lentes": [
+      "Crecimiento económico"
+     ]
+    },
+    {
+     "titulo": "Ley que obliga al análisis de impacto regulatorio ex ante y a la evaluación ex post con cláusula de revisión para normas digitales",
+     "por_que": "Reduce el riesgo de leyes inaplicables o costosas para pymes y permite corregir en el periodo; hoy el AIR no es obligatorio para el Congreso.",
+     "eje_sugerido": "gob",
+     "lentes": [
+      "Implementación en el Estado"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "GOB-16",
+   "eje": "gob",
+   "vacios": [
+    {
+     "titulo": "Ley que crea la Oficina de Evaluación Tecnológica y Prospectiva del Congreso y exige cláusulas de revisión periódica en leyes tecnológicas",
+     "por_que": "Sin una capacidad parlamentaria de foresight (tipo POST del Reino Unido o STOA del Parlamento Europeo) y sin revisiones obligatorias a 3-5 años, las 100 leyes se volverán obsoletas antes de 2036.",
+     "eje_sugerido": "gob",
+     "lentes": [
+      "Prospectiva tecnológica"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "GOB-17",
+   "eje": "gob",
+   "vacios": [
+    {
+     "titulo": "Ley que encarga a la PCM una unidad de cumplimiento (delivery unit) de la agenda digital con tablero público de metas, sin crear pliego",
+     "por_que": "Ninguna propuesta asigna responsable del seguimiento transversal; sin rutina de cumplimiento las leyes quedan sin reglamentar ni ejecutar.",
+     "eje_sugerido": "gob",
+     "lentes": [
+      "Implementación en el Estado"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "GOB-18",
+   "eje": "gob",
+   "vacios": [
+    {
+     "titulo": "Ley que establece plazos perentorios de reglamentación y reporte semestral al Congreso del estado de implementación de las leyes digitales",
+     "por_que": "La brecha principal en el Perú es la reglamentación tardía; falta un mecanismo de control posterior con consecuencias y transparencia.",
+     "eje_sugerido": "gob",
+     "lentes": [
+      "Implementación en el Estado"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "GOB-19",
+   "eje": "gob",
+   "vacios": [
+    {
+     "titulo": "Ley de cooperación técnica obligatoria y mancomunidades digitales para municipalidades de baja capacidad",
+     "por_que": "La mayoría de municipalidades no tiene equipos TI; GOB-08 ofrece servicios pero falta el mecanismo de adhesión, asistencia y rendición de cuentas subnacional.",
+     "eje_sugerido": "gob",
+     "lentes": [
+      "Implementación en el Estado"
+     ]
+    }
+   ]
+  }
+ ],
+ "D_gob_territorio": [
+  {
+   "id": "GOB-20",
+   "eje": "gob",
+   "vacios": [
+    {
+     "titulo": "Ley del corredor logístico-digital Chancay–Lima: puerto inteligente, VUCE interoperable y supervisión regulatoria clara",
+     "por_que": "Chancay ya opera, pero la supervisión del regulador fue cuestionada judicialmente y no hay integración datos-aduana-puerto-fibra con estándares de seguridad; sin reglas claras se pierde la ventaja logística y crece el riesgo geopolítico.",
+     "eje_sugerido": "gob",
+     "lentes": [
+      "Geoeconomía"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "GOB-21",
+   "eje": "gob",
+   "vacios": [
+    {
+     "titulo": "Ley que establece la consulta previa digital asistida y el registro público de acuerdos y compromisos de los procesos de diálogo y consulta",
+     "por_que": "Los conflictos socioambientales (~49 % del total) se reactivan por incumplimiento de compromisos; ninguna de las 100 propuestas obliga a publicar y dar seguimiento verificable a actas de diálogo y consulta previa (Ley 29785), ni garantiza que la digitalización no sustituya la consulta presencial e intercultural.",
+     "eje_sugerido": "gob",
+     "lentes": [
+      "Desarrollo humano y territorial"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "GOB-22",
+   "eje": "gob",
+   "vacios": [
+    {
+     "titulo": "Ley de transparencia y trazabilidad digital del canon, sobrecanon y regalías con presupuesto participativo en línea",
+     "por_que": "GOB-05 cubre gasto general, pero no vincula renta extractiva → proyecto → resultado en el distrito productor; es la pregunta central en zonas mineras y gasíferas.",
+     "eje_sugerido": "gob",
+     "lentes": [
+      "Desarrollo humano y territorial"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "GOB-23",
+   "eje": "gob",
+   "vacios": [
+    {
+     "titulo": "Ley de interculturalidad digital del Estado: servicios y contenidos públicos en lenguas originarias e intérpretes en canales digitales",
+     "por_que": "IA-06 crea corpus y modelos, pero no obliga a que portales, citas, alertas (TAL-10) y casillas (GOB-02) estén disponibles en quechua, aimara y lenguas amazónicas según la demanda local (Ley 29735).",
+     "eje_sugerido": "gob",
+     "lentes": [
+      "Desarrollo humano y territorial"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "GOB-24",
+   "eje": "gob",
+   "vacios": [
+    {
+     "titulo": "Ley que establece la evaluación de impacto territorial y de género de las políticas y programas de transformación digital",
+     "por_que": "No hay obligación de medir si cada intervención digital reduce o amplía las brechas por área, región, sexo, lengua o discapacidad. Sin esa medición, la Agenda no puede comprobar si el crecimiento es inclusivo.",
+     "eje_sugerido": "gob",
+     "lentes": [
+      "Desarrollo humano y territorial"
+     ]
+    }
+   ]
+  }
+ ],
+ "E_talento_ia": [
+  {
+   "id": "TAL-15",
+   "eje": "talento",
+   "vacios": [
+    {
+     "titulo": "Ley de visa de talento tecnológico y reconocimiento ágil de títulos y certificaciones extranjeras en STEM",
+     "por_que": "La oferta de ingenieros y especialistas digitales es una restricción vinculante de corto plazo para servicios exportables y centros de datos; la formación local tarda una década.",
+     "eje_sugerido": "tal",
+     "lentes": [
+      "Crecimiento económico"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "TAL-16",
+   "eje": "talento",
+   "vacios": [
+    {
+     "titulo": "Ley de cuentas individuales de aprendizaje a lo largo de la vida para la transición por automatización",
+     "por_que": "IA-13 y TAL-04 abren reconversión y formación modular, pero no financian al trabajador; esquemas tipo SkillsFuture (Singapur) dan derecho portable a formación ante la automatización.",
+     "eje_sugerido": "tal",
+     "lentes": [
+      "Prospectiva tecnológica"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "IA-15",
+   "eje": "ia",
+   "vacios": [
+    {
+     "titulo": "Ley de responsabilidad civil y operación segura de sistemas autónomos y robótica (minería, transporte, logística)",
+     "por_que": "La IA física y los agentes autónomos llegarán primero a minería y logística; falta un régimen de responsabilidad, seguros y homologación neutral para vehículos y robots autónomos.",
+     "eje_sugerido": "ia",
+     "lentes": [
+      "Prospectiva tecnológica"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "IA-16",
+   "eje": "ia",
+   "vacios": [
+    {
+     "titulo": "Ley de flujos transfronterizos de datos y hoja de ruta hacia la adecuación de la UE",
+     "por_que": "El Perú no figura entre los países con decisión de adecuación de la UE; sin ella, exportar servicios con datos personales de europeos exige cláusulas costosas. Debe articular ANPD autónoma, transferencias y mecanismos de cooperación APEC.",
+     "eje_sugerido": "ia",
+     "lentes": [
+      "Geoeconomía"
+     ]
+    }
+   ]
+  }
+ ]
+}

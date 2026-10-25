@@ -1,0 +1,688 @@
+[
+ {
+  "id": "ECO-15",
+  "especialidad": "normativo",
+  "veredicto": "observaciones",
+  "resumen": "Las citas centrales son correctas: D.L. 1269 (RMT, tope 1700 UIT, escala 10 % hasta 15 UIT y 29,5 % por el exceso), Capítulo XV del TUO de la LIR (D.S. 179-2004-EF), arts. 14 y 55 de la LIR, arts. 85 y 166 del TUO del Código Tributario (D.S. 133-2013-EF) y TUO D.S. 013-2013-PRODUCE. Las observaciones son de concordancia (remisiones al RER en otras normas que quedan huérfanas), URLs genéricas y cifras de FMI/OCDE no verificables con la fuente enlazada.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Disposición Complementaria Derogatoria Única",
+    "problema": "Derogar el Capítulo XV de la LIR deja sin objeto las remisiones al RER que hacen otras normas (p. ej. el propio D.L. 1269 sobre cambio de régimen, el D.L. 937 sobre acogimiento y paso entre regímenes, y el Reglamento de la LIR). Sin una cláusula de remisión, esas referencias generan dudas interpretativas sobre el régimen de destino.",
+    "correccion": "Añadir una Disposición Complementaria Final: 'Toda referencia al Régimen Especial del Impuesto a la Renta contenida en el Decreto Legislativo 937, el Decreto Legislativo 1269, el Reglamento de la Ley del Impuesto a la Renta y demás normas se entiende hecha al Régimen MYPE Tributario a partir de la entrada en vigor de la presente ley.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "normas_relacionadas",
+    "problema": "Dos URLs no apuntan a la norma citada sino a índices genéricos: 'https://www.sunat.gob.pe/legislacion/codigo/' (sin artículo) y 'https://www.gob.pe/institucion/produce/normas-legales/' (listado general de PRODUCE, no el D.S. 013-2013-PRODUCE).",
+    "correccion": "Reemplazar la URL del D.S. 013-2013-PRODUCE por la ficha de la norma en El Peruano o gob.pe (buscar 'Decreto Supremo 013-2013-PRODUCE' en busquedas.elperuano.pe) y la del Código Tributario por la página del TUO en SUNAT (https://www.sunat.gob.pe/legislacion/codigo/index.html) o SPIJ."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Problema / fuentes",
+    "problema": "Las cifras del FMI (1,2 millones de contribuyentes, 92 %, 0,3 % del PBI) y de la OCDE (presión tributaria 16,3 % del PBI en 2024) tienen fuente nombrada, pero los enlaces devuelven 403 a consultas automatizadas y no pude contrastar los valores. El estudio de la Delegación de la UE se cita sin autor ni año.",
+    "correccion": "Indicar página o cuadro del informe del FMI (Country Report 2022) y de la OCDE 2026 de donde salen las cifras; precisar autor y año del estudio difundido por la Delegación de la UE. Si no se pueden ubicar, marcar las cifras como 'por verificar'."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "TUO de la LIR (D.S. 179-2004-EF), Capítulo XV (deroga)",
+    "D.L. 1269 (complementa; escala en ley)",
+    "D.L. 937 y Reglamento de la LIR (remisiones al RER a actualizar)"
+   ],
+   "entidades_implicadas": [
+    "SUNAT — administración y declaración precompletada",
+    "MEF — informe previo",
+    "MTPE, PRODUCE, CNTPE — informe laboral"
+   ]
+  }
+ },
+ {
+  "id": "ECO-16",
+  "especialidad": "normativo",
+  "veredicto": "observaciones",
+  "resumen": "Normas citadas existen y siguen vigentes: D.S. 024-2002-PCM, D.S. 345-2018-EF (Política), D.S. 203-2024-EF (actualiza el Plan y lo denomina 2024-2030; El Peruano 26-oct-2024), Ley 30309 (vigente hasta 31-dic-2028 por Ley 32539), D.L. 1228, D.U. 013-2020, Ley 31227, art. 85 CT y art. 140 Ley 26702. Hay una URL que no corresponde a la norma rotulada y fuentes secundarias para normas que tienen publicación oficial.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "normas_relacionadas / fuentes",
+    "problema": "La URL rotulada 'Decreto Supremo 345-2018-EF, Política Nacional de Competitividad y Productividad' (mef.gob.pe/contenidos/archivos-descarga/PNCP_2019.pdf) abre el D.S. 237-2019-EF, que aprobó el Plan Nacional de Competitividad y Productividad 2019-2030 (El Peruano, 28-jul-2019), no la Política del D.S. 345-2018-EF.",
+    "correccion": "Rotular ese enlace como 'D.S. 237-2019-EF, Plan Nacional de Competitividad y Productividad 2019-2030 (actualizado por D.S. 203-2024-EF)' o sustituirlo por la publicación oficial del D.S. 345-2018-EF (El Peruano, 31-dic-2018)."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "normas_relacionadas",
+    "problema": "El D.S. 024-2002-PCM se enlaza a sni.org.pe y el D.S. 203-2024-EF a vlex.com.pe (fuentes secundarias, la segunda con muro de pago). El problema dice 'Consejo Nacional de Competitividad y Formalización' pero no cita la norma que le dio esa denominación.",
+    "correccion": "Usar las fichas de El Peruano o gob.pe/mef para ambos decretos y citar la norma que cambió la denominación a CNCF (verificar en SPIJ; si no se ubica, decir 'normas posteriores')."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "referencias_internacionales",
+    "problema": "'Productivity Commission Act 1998' se enlaza a la página institucional (pc.gov.au/about), no al texto legal.",
+    "correccion": "Enlazar https://www.legislation.gov.au/C2004A05404/latest (Productivity Commission Act 1998) o renombrar la referencia como 'Productivity Commission (Australia)'."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley nueva que da rango legal al CNCF (no modifica normas)",
+    "Ley 32539 / Ley 30309 (concordancia: vencimiento 31-dic-2028 del incentivo I+D+i, prioridad en la agenda trienal)"
+   ],
+   "entidades_implicadas": [
+    "MEF — Secretaría Técnica del CNCF",
+    "SERVIR — concurso de méritos"
+   ]
+  }
+ },
+ {
+  "id": "ECO-17",
+  "especialidad": "normativo",
+  "veredicto": "conforme",
+  "resumen": "Citas correctas y vigentes: D.S. 009-2021-PRODUCE (crea ProInnóvate; URL de El Peruano verificada), D.L. 1228 (CITE), Ley 29733, TUO D.S. 013-2013-PRODUCE y art. 248 del TUO de la Ley 27444. El régimen sancionador está tipificado en la ley con autoridad competente. Solo observaciones menores de fuentes.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 8.1 y 8.3",
+    "problema": "Se cita 'Texto Único Ordenado de la Ley 27444' sin decreto aprobatorio. Según COORDINACION.md punto 10, el TUO vigente es el aprobado por D.S. 006-2026-JUS.",
+    "correccion": "Escribir 'Texto Único Ordenado de la Ley 27444, Ley del Procedimiento Administrativo General, aprobado por Decreto Supremo 006-2026-JUS' en la primera mención, y mantener 'artículo 248' tras confirmar la numeración en el nuevo TUO."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Problema / fuentes",
+    "problema": "La cifra de 81,5 % de beneficiarios con aumento de ventas se atribuye a una evaluación del Ministerio de la Producción, pero la fuente enlazada es un medio secundario (ecosistemastartup.com). La URL del TUO D.S. 013-2013-PRODUCE es el listado genérico de PRODUCE.",
+    "correccion": "Enlazar el informe o nota oficial de PRODUCE/ProInnóvate con la cifra y la ficha específica del D.S. 013-2013-PRODUCE en El Peruano o gob.pe."
+   }
+  ]
+ },
+ {
+  "id": "ECO-18",
+  "especialidad": "normativo",
+  "veredicto": "conforme",
+  "resumen": "Las normas citadas existen y están bien identificadas: D.L. 1362, D.L. 662, D.L. 757, D.L. 1256 (Comisión de Eliminación de Barreras Burocráticas del Indecopi), Ley 30224 (INACAL), Ley 27790 (MINCETUR) y Ley 32449. No crea beneficios tributarios ni requisitos de contenido nacional. Observaciones menores sobre la base legal de las funciones de ProInversión y la fuente de una cifra.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "ubicacion": "efecto_vigencia / Artículo 3.1",
+    "problema": "Se presenta el D.L. 1362 como base de las funciones de ProInversión, pero ese decreto regula APP y Proyectos en Activos. La función general de promover la inversión privada no vinculada a APP figura en su Reglamento de Organización y Funciones y en normas propias de la agencia.",
+    "correccion": "En efecto_vigencia, decir: 'Complementa las funciones de ProInversión previstas en su normativa de organización y en el Decreto Legislativo 1362, en lo que corresponda'. Verificar en SPIJ el ROF vigente de ProInversión y citarlo."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Problema / fuentes",
+    "problema": "Las utilidades de US$ 23 405 millones en 2025 se atribuyen al BCRP, pero la fuente es un medio secundario (Revista Economía). El saldo de US$ 30 172 millones de ProInversión también se toma de prensa (Energiminas).",
+    "correccion": "Enlazar la nota o reporte del BCRP (balanza de pagos 2025, renta de factores) y el registro de IED de ProInversión."
+   }
+  ]
+ },
+ {
+  "id": "ECO-19",
+  "especialidad": "normativo",
+  "veredicto": "observaciones",
+  "resumen": "El art. 25-B del TUO del SPP (D.S. 054-97-EF) fija los límites por clase de activo y permite a la SBS fijar sublímites con opinión del MEF, como se cita. El FCEI está en el Título V del D.U. 013-2020 (art. 39; reglamento D.S. 375-2020-EF). También están bien citadas la Ley 32123 y la Res. SBS 00907-2025. Advierte bien que tocar la Ley 26702 exigiría votación de ley orgánica. Falla la URL del TUO del SPP y falta la concordancia con la Ley 32428.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "normas_relacionadas",
+    "problema": "La URL del TUO del SPP (https://diariooficial.elperuano.pe/Normas/obtenerDocumento?idNorma=44) descarga un PDF dañado y sin texto, así que no se puede comprobar que corresponda al D.S. 054-97-EF ni al art. 25-B vigente.",
+    "correccion": "Reemplazar por el texto vigente del TUO publicado por la SBS (sección Normatividad > SPP) o por SPIJ, y anotar las modificaciones del art. 25-B."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "efecto_vigencia / Problema",
+    "problema": "No menciona la Ley 32428, que modificó los límites de inversión de los fondos de pensiones (art. 25-D, inversión en el exterior hasta 80 %). Es concordante: el sublímite del art. 5 debe aplicarse sin perjuicio de ese límite, que en lo operativo fija el BCRP cuando el fondo invierte en el exterior.",
+    "correccion": "Añadir en efecto_vigencia: 'Concordante con el artículo 25-D del TUO del SPP, modificado por la Ley 32428; las inversiones en fondos extranjeros del artículo 3 computan dentro del límite de inversión en el exterior'. Incluir la Ley 32428 en normas_relacionadas."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Problema / fuentes",
+    "problema": "El octavo retiro de 2025 (hasta 4 UIT) se menciona sin fuente ni número de ley. El dato de que Chile elevó a 20 % el límite de activos alternativos se apoya en una página paginada de Funds Society que no lleva al artículo.",
+    "correccion": "Citar la ley del octavo retiro (verificar en SPIJ) y enlazar la resolución o el comunicado del Banco Central de Chile que fija el límite, o retirar el porcentaje."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "TUO del SPP (D.S. 054-97-EF), art. 25-B (complementa)",
+    "Ley 32428 (concordancia, art. 25-D)"
+   ],
+   "entidades_implicadas": [
+    "SBS — sublímites y regulación",
+    "MEF — opinión previa",
+    "BCRP — límite operativo de inversión en el exterior",
+    "SMV — supervisión de los gestores de fondos"
+   ]
+  }
+ },
+ {
+  "id": "ECO-20",
+  "especialidad": "normativo",
+  "veredicto": "conforme",
+  "resumen": "Concordancia correcta: art. 118 inciso 11 y arts. 56-57 de la Constitución, Ley 26647, Ley 27790, Ley 29357, Ley 30224, Ley 27269, Ley 29733 y TUO de la Ley 27806. Respeta la competencia del Ejecutivo en política exterior. Los datos del DEPA (Corea en 2024; decisión favorable del Comité Conjunto en enero de 2026) se apoyan en El Peruano y Andina. Solo dos precisiones menores.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 5.2",
+    "problema": "Cita el 'Texto Único Ordenado de la Ley 27806' sin el decreto que lo aprueba.",
+    "correccion": "'…del Texto Único Ordenado de la Ley 27806, Ley de Transparencia y Acceso a la Información Pública, aprobado por Decreto Supremo 021-2019-JUS' (confirmar en SPIJ que no ha sido sustituido)."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 4.2",
+    "problema": "La remisión al 'artículo 36 de la Ley 29158' es correcta para crear comisiones multisectoriales por resolución suprema, pero el art. 35 es el que define sus tipos (sectoriales, multisectoriales temporales o permanentes) y conviene citarlo también.",
+    "correccion": "'…conforme a los artículos 35 y 36 de la Ley 29158, Ley Orgánica del Poder Ejecutivo…'."
+   }
+  ]
+ },
+ {
+  "id": "ECO-21",
+  "especialidad": "normativo",
+  "veredicto": "observaciones",
+  "resumen": "Las normas citadas existen y siguen vigentes: D.L. 1440 (art. 16, programas presupuestales), D.L. 1252 (Invierte.pe), D.U. 006-2020, D.S. 085-2023-PCM y arts. 78-80 de la Constitución. Respeta la iniciativa de gasto del Ejecutivo. Pero dos de las cuatro URLs de normas_relacionadas llevan a otra norma, y una fuente es un documento de MINSA que no es la norma.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "normas_relacionadas (D.S. 085-2023-PCM)",
+    "problema": "La URL https://www.gob.pe/institucion/pcm/normas-legales/4562779-085-2023-pcm no abre el D.S. 085-2023-PCM: abre la 'Resolución de Alcaldía N.° 730-2020-MDS' de la Municipalidad Distrital de Santiago (Ica).",
+    "correccion": "Usar https://busquedas.elperuano.pe/dispositivo/NL/2200457-5 (comprobado: 'Decreto Supremo que aprueba la Política Nacional de Transformación Digital al 2030')."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "normas_relacionadas (D.U. 006-2020)",
+    "problema": "La URL de El Peruano con slug '...decreto-de-urgencia-n-006-2020-1844001-2' abre el 'Decreto de Urgencia que aprueba el Marco de Confianza Digital' (D.U. 007-2020), no el D.U. 006-2020 que crea el Sistema Nacional de Transformación Digital.",
+    "correccion": "Usar https://www.gob.pe/institucion/pcm/normas-legales/395320-006-2020 (comprobado: 'Decreto de Urgencia N.° 006-2020')."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "fuentes / normas_relacionadas (D.L. 1440)",
+    "problema": "El D.L. 1440 se enlaza a una presentación de capacitación del MEF y la definición del PPoR a un documento de MINSA que devuelve 403 (Cloudflare). Ninguno es el texto de la norma. La URL de la R.D. 0003-2025-EF/63.01 devuelve una página sin título y no pude comprobar su contenido.",
+    "correccion": "Enlazar el texto oficial del D.L. 1440 (El Peruano o leyes.congreso.gob.pe) y la ficha de la R.D. 0003-2025-EF/63.01 en gob.pe/mef o El Peruano. Si no se ubica, marcar la R.D. 'por verificar'."
+   }
+  ]
+ },
+ {
+  "id": "ECO-22",
+  "especialidad": "normativo",
+  "veredicto": "conforme",
+  "resumen": "Citas verificadas: Ley 30355, Ley 31335 (modificada por Ley 32167, nov-2024, que cambió el art. 26 y plazos del RNCA), su reglamento (la URL de El Peruano confirma que es el Reglamento de la Ley 31335), Ley 31071 (la URL lleva a la página de El Peruano con las Leyes 31070 y 31071), Ley 29985 y Ley 29733. El Reglamento (UE) 2023/1115 modificado por el Reglamento (UE) 2025/2650 (DOUE 23-dic-2025) aplica desde el 30-dic-2026 y el 30-jun-2027, como dice la propuesta. Señala bien que no requiere votación de ley orgánica.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "ubicacion": "normas_relacionadas / fuentes",
+    "problema": "La Ley 30355 se enlaza a vlex.com.pe (secundaria, con muro de pago). La cifra del CENAGRO 2012 (97 % de 2,2 millones de unidades) se toma de un blog de Gestión y no del INEI/MIDAGRI.",
+    "correccion": "Enlazar la Ley 30355 en leyes.congreso.gob.pe o El Peruano y citar el IV CENAGRO 2012 (INEI) o la ENAF del MIDAGRI como fuente primaria de la cifra."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 7",
+    "problema": "Las asambleas virtuales de cooperativas pueden estar ya reguladas en el TUO de la Ley General de Cooperativas (D.S. 074-90-TR) o en normas posteriores a la pandemia. La propuesta no cita cuáles son 'otras normas que ya lo permitan'.",
+    "correccion": "Verificar en SPIJ si la Ley General de Cooperativas, la Ley 31335 o su reglamento ya permiten sesiones no presenciales. Si lo permiten, convertir el art. 7 en una remisión; si no, incorporar la regla como artículo nuevo de la Ley 31335 (p. ej. 'Se incorpora el artículo 12-A…', previa verificación de la numeración libre)."
+   }
+  ]
+ },
+ {
+  "id": "GOB-15",
+  "especialidad": "normativo",
+  "veredicto": "conforme",
+  "resumen": "Contrasté las citas del Reglamento del D.L. 1565 (D.S. 023-2025-PCM) con su texto y son exactas: el art. 6.1 limita la obligación al Poder Ejecutivo, el 6.2 deja la aplicación subnacional como gradual, el art. 33 regula el ámbito del AIR ex ante, el 42.1 dice que el AIR ex post 'no implica la derogación', el art. 54 regula la ratificación del ACR de stock y la obligación para normas de menor jerarquía rige 'a partir de enero de 2027'. Cita el TUO de la Ley 27444 con el D.S. 006-2026-JUS. Las observaciones son de fuentes.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "ubicacion": "normas_relacionadas",
+    "problema": "La entrada 'Ley 27444 (TUO aprobado por Decreto Supremo 006-2026-JUS)' enlaza al PDF original de la Ley 27444 de 2001 (leyes.congreso.gob.pe/Documentos/Leyes/27444.pdf), no al TUO de 2026. El D.L. 1565 y el D.S. 023-2025-PCM se enlazan a LP Derecho (fuente secundaria; la página del D.L. 1565 devuelve 403).",
+    "correccion": "Enlazar el D.S. 006-2026-JUS en El Peruano y el D.L. 1565 y el D.S. 023-2025-PCM en busquedas.elperuano.pe o gob.pe/pcm."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 6",
+    "problema": "El TUO de la Ley 27444 ya prevé que el administrado acredite el silencio positivo con la cargo de presentación o con una declaración jurada. El art. 6.2 dice que la constancia exime de la declaración jurada, pero no identifica el artículo del TUO con el que se articula, y eso deja dudas sobre si lo sustituye o lo complementa.",
+    "correccion": "Añadir en 6.2: 'La constancia complementa, sin sustituir, los medios de acreditación previstos en el artículo [numeración según el TUO aprobado por D.S. 006-2026-JUS] del Texto Único Ordenado de la Ley 27444'. Verificar el número en el nuevo TUO."
+   }
+  ]
+ },
+ {
+  "id": "GOB-16",
+  "especialidad": "normativo",
+  "veredicto": "observaciones",
+  "resumen": "Revisé la edición oficial del Reglamento del Congreso (mayo 2026). No contiene ningún artículo con sufijo literal, así que 3-A, 3-B, 110-A y 110-B están libres. El art. 110 modificado reproduce el texto vigente y solo añade 'evaluación tecnológica y prospectiva'. Los arts. 78 (iniciativa de senadores y diputados), 80 (más de la mitad del número legal de cada cámara) y 101 (servicio parlamentario imparcial y políticamente neutral) están bien citados. La observación principal es dónde se ubican las reglas sobre el contenido del dictamen.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículos 2 y 3 (arts. 3-A y 3-B)",
+    "problema": "El art. 3 del Reglamento del Congreso está en las disposiciones generales sobre la 'Función legislativa'. El contenido y el trámite de los dictámenes los regula cada cámara (p. ej. Reglamento de la Cámara de Diputados, RL 005-2025-2026-CR). Insertar reglas de dictamen como 3-A/3-B en el reglamento común es posible, porque tiene fuerza de ley y naturaleza orgánica (art. I), pero se superpone con las normas de cada cámara. La DCF Tercera solo pide 'concordancia' y no dice cuál prevalece.",
+    "correccion": "Opción A (preferible): mantener en el Reglamento del Congreso solo la Oficina (110, 110-A, 110-B) y el registro de cláusulas, y trasladar 3-A.1 y 3-B.1 a sendas resoluciones legislativas que modifiquen el artículo sobre contenido del dictamen del Reglamento de la Cámara de Diputados y del Senado (identificar los artículos exactos). Opción B: conservar 3-A/3-B y redactar la DCF Tercera así: 'Los artículos 3-A y 3-B prevalecen sobre las disposiciones de los reglamentos de cada cámara en lo relativo a la cláusula de revisión'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "efecto_vigencia",
+    "problema": "Dice que la iniciativa corresponde a senadores y diputados 'art. 78' sin precisar el cuerpo normativo. Es el art. 78 del Reglamento del Congreso, no de la Constitución, cuyo art. 78 regula el proyecto de presupuesto.",
+    "correccion": "Escribir: '(art. 80 del Reglamento del Congreso)' y '(art. 78 del Reglamento del Congreso)'."
+   }
+  ]
+ },
+ {
+  "id": "GOB-17",
+  "especialidad": "normativo",
+  "veredicto": "conforme",
+  "resumen": "Concordancia correcta. Las URLs del D.U. 006-2020 (gob.pe) y del D.S. 085-2023-PCM (El Peruano) llevan a la norma rotulada. La Decisión (UE) 2022/2481 y la Policy on Results de Canadá (2016) existen. No modifica la Ley 29158 y señala bien que no requiere votación orgánica. Observaciones menores.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 7.4",
+    "problema": "Cita el 'Texto Único Ordenado de la Ley 27806' sin decreto aprobatorio, y normas_relacionadas enlaza la Ley 27806 original de 2002.",
+    "correccion": "'…Texto Único Ordenado de la Ley 27806, aprobado por Decreto Supremo 021-2019-JUS…' y enlazar ese TUO."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 8",
+    "problema": "Habla de 'la comisión ordinaria competente' en singular, pero el Congreso es bicameral desde 2026: hay comisiones en la Cámara de Diputados y en el Senado.",
+    "correccion": "'…lo sustenta ante las comisiones ordinarias competentes de cada cámara cuando sea citado'."
+   }
+  ]
+ },
+ {
+  "id": "GOB-18",
+  "especialidad": "normativo",
+  "veredicto": "observaciones",
+  "resumen": "El art. 13 de la Ley 29158 se reproduce bien en sus numerales 1 a 3 según el texto original. El efecto_vigencia anota correctamente que exige votación de ley orgánica (art. 106). La Ley 26889 y su reglamento (D.S. 007-2022-JUS) están bien citados. Hay dos fuentes rotas (404), una cifra sin fuente identificable y faltan antecedentes legislativos directos.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "fuentes",
+    "problema": "Dos URLs del Congreso devuelven 404: 'https://www.congreso.gob.pe/Docs/DGP/DIDP/files/inf-54-la-potestad-reglamentaria-d-p-ejecutivo.pdf' y 'https://www.congreso.gob.pe/Docs/DGP/DIDP/files/reglamleyes/05-10-2021.pdf'.",
+    "correccion": "Ubicar las versiones vigentes en www3.congreso.gob.pe/Docs/DGP/DIDP/files/ (el Congreso movió parte del repositorio DIDP a www3) o eliminarlas. La nota de prensa de noviembre de 2022 (comunicaciones.congreso.gob.pe/?p=205394, verificada) basta para la cifra de 30 leyes."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Problema",
+    "problema": "La cifra 'de 79 normas que requerían reglamentación entre 2016 y 2022, 64 superaron el plazo' se atribuye a la Defensoría del Pueblo 'citada en un proyecto de ley del periodo 2021-2026' sin número de proyecto ni informe defensorial. Así no se puede verificar.",
+    "correccion": "Citar el número del proyecto y del informe de la Defensoría (p. ej. el PL 8873/2024-CR, que según el expediente de la Comisión de Constitución cita datos de la Defensoría; verificar en SPLEY), o eliminar la cifra."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "antecedentes / efecto_vigencia",
+    "problema": "Hay antecedentes directos sobre el mismo artículo: el dictamen de la Comisión de Constitución de 2023 que fijaba 90 días hábiles (la propia fuente comunicaciones.congreso.gob.pe/?p=227622) y el PL 8873/2024-CR, que incorpora los numerales 4 y 5 al art. 13. No pude confirmar si alguno llegó a publicarse como ley. Si se publicó, los numerales 4 y 5 ya estarían ocupados.",
+    "correccion": "Consignar estos antecedentes y verificar en SPIJ el texto vigente del art. 13 de la Ley 29158. Si ya tiene numerales 4 o 5, reenumerar (p. ej. '4 a 8') o redactar la modificación sobre el texto vigente."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 29158, art. 13 (modifica; votación orgánica)",
+    "D.S. 007-2022-JUS, Reglamento de la Ley 26889 (adecuación)"
+   ],
+   "entidades_implicadas": [
+    "PCM — registro y reporte",
+    "MINJUSDH — coordinación de producción normativa"
+   ]
+  }
+ },
+ {
+  "id": "GOB-19",
+  "especialidad": "normativo",
+  "veredicto": "conforme",
+  "resumen": "Concordancia correcta: Ley 29029 (modificada por Ley 29341 y D.L. 1445), su reglamento D.S. 021-2020-PCM, art. 124 de la Ley 27972 (relaciones de coordinación, cooperación y asociación entre municipalidades), art. 194 de la Constitución, Ley 29733 y art. 36 de la Ley española 7/1985 (servicios de administración electrónica en municipios de menos de 20 000 habitantes). Justifica bien que no requiere votación orgánica: no modifica la LOM ni impone obligaciones a municipalidades no adheridas. Las cifras del RENAMU 2022 son coherentes entre sí (196 + 1678 = 1874).",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "ubicacion": "normas_relacionadas / fuentes",
+    "problema": "El D.S. 021-2020-PCM se enlaza a LP Derecho, que devuelve 403 a consultas automatizadas y es fuente secundaria.",
+    "correccion": "Usar la publicación en El Peruano o en gob.pe/pcm del D.S. 021-2020-PCM."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Problema",
+    "problema": "Atribuye al 'art. 4' de la Ley 29029 los objetivos de modernización de la gestión municipal y desarrollo de capacidades con universidades, sin precisar que se trata del texto modificado por el D.L. 1445. La ley original de 2007 enlazada no lo refleja.",
+    "correccion": "Escribir 'art. 4 de la Ley 29029, modificado por el Decreto Legislativo 1445' y enlazar el texto consolidado (SPIJ)."
+   }
+  ]
+ },
+ {
+  "id": "GOB-20",
+  "especialidad": "normativo",
+  "veredicto": "conforme",
+  "resumen": "Contrasté el art. 12 de la Ley 30860 con su texto consolidado. Los numerales 12.1 y 12.2 se reproducen literalmente, así que 12.3 y 12.4 son numerales nuevos libres. Las remisiones al art. 9 (prohibición de pedir información ya presentada por la VUCE o la PIDE) y al art. 13 (zonas económicas especiales) son exactas. También son correctas las citas de Ley 27943, Ley 32048, Ley 26917, Ley 28977, D.S. 106-2017-PCM, TUO de la Ley 27444 (D.S. 006-2026-JUS, art. 248.3), Convenio FAL (ventanilla única obligatoria desde 2024) y la Ley chilena 21.180. El régimen sancionador está tipificado con autoridad competente. Observaciones menores.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 9.3",
+    "problema": "Se atribuye a la APN la potestad de sancionar obligaciones de integración a la VUCE, plataforma que administra el MINCETUR (art. 4 de la Ley 30860). La atribución es válida porque la hace la ley, pero no se articula con el régimen de infracciones portuarias vigente de la APN (Ley 27943 y su reglamento), y podría haber doble tipificación.",
+    "correccion": "Añadir al 9.3: 'Las infracciones de la presente ley se incorporan al Reglamento de Infracciones y Sanciones de la Autoridad Portuaria Nacional, sin que una misma conducta pueda sancionarse por ambos regímenes'. Prever que el MINCETUR informe a la APN los incumplimientos detectados en la VUCE."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 4 (numeral 12.4)",
+    "problema": "Cita la 'Ley 27806' en lugar de su TUO vigente.",
+    "correccion": "'…y al Texto Único Ordenado de la Ley 27806, aprobado por Decreto Supremo 021-2019-JUS'."
+   }
+  ]
+ },
+ {
+  "id": "GOB-21",
+  "especialidad": "normativo",
+  "veredicto": "observaciones",
+  "resumen": "La modificación del literal g) del art. 19 de la Ley 29785 (función de registrar los resultados de las consultas) tiene base correcta. También lo están las remisiones a los arts. 8 (etapas), 15 (acuerdos exigibles), 18 (recursos) y 16 (idioma), al D.S. 001-2012-MC y al Convenio 169. Pero la remisión de las etapas presenciales omite el artículo de evaluación interna, y una cita a la Ley 29735 no se pudo verificar. Señala bien que la propia medida debe consultarse.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3.1",
+    "problema": "Dice que 'las etapas de información, evaluación interna y diálogo intercultural' se realizan presencialmente 'conforme a los artículos 11, 12, 14 y 16' de la Ley 29785. En la ley, el art. 11 regula la publicidad de la medida, el 12 la información, el 13 la evaluación interna en las organizaciones indígenas, el 14 el diálogo intercultural y el 16 el idioma. Falta el art. 13, que es justamente el de la evaluación interna.",
+    "correccion": "'…conforme a los artículos 12, 13, 14 y 16 de la citada ley' (contrastar con el texto vigente en SPIJ antes del dictamen)."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "efecto_vigencia",
+    "problema": "Atribuye al 'artículo 20 de la Ley 29735' los 'mecanismos de consulta en la lengua predominante'. No pude comprobar que ese sea el contenido del art. 20, porque el PDF enlazado es una imagen sin texto.",
+    "correccion": "Verificar en SPIJ el artículo de la Ley 29735 sobre el uso de lenguas originarias en procesos de consulta y servicios públicos y corregir el número. Si no se confirma, retirar la remisión y dejar solo el art. 16 de la Ley 29785."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 8.2 / normas_relacionadas",
+    "problema": "Cita la 'Ley 27806' en lugar de su TUO vigente.",
+    "correccion": "'…conforme a las excepciones del Texto Único Ordenado de la Ley 27806, aprobado por Decreto Supremo 021-2019-JUS'."
+   }
+  ]
+ },
+ {
+  "id": "GOB-22",
+  "especialidad": "normativo",
+  "veredicto": "conforme",
+  "resumen": "Revisé el texto concordado de la Ley 28056. Tiene arts. 1 a 12 sin artículos con sufijo: el art. 10 es 'Acceso a la información pública', el 6 'Fases del proceso participativo' y el 11 'Rendición de cuentas'. El 10-A queda libre y bien ubicado, y las remisiones internas son exactas. La Ley 29298 solo modificó los arts. 4 a 7. Las Leyes 27506, 28258, 28451, el D.L. 1353 y la cifra del Reporte Temático DIDP 206/2025-2026 (URL verificada) están bien citados. La intangibilidad de la distribución del canon (art. 3) evita choques con las leyes especiales.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "ubicacion": "efecto_vigencia",
+    "problema": "Pide verificar la numeración del 10-A. El texto concordado consultado (compilación 2018 publicada en gob.pe) confirma que está libre, pero no descarta modificaciones posteriores a 2018.",
+    "correccion": "Reemplazar '(numeración por verificar…)' por '(el texto concordado no registra artículos 10-A ni posteriores con sufijo; confirmar en SPIJ que no haya modificaciones desde 2018)'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 2.1",
+    "problema": "Incluye las 'regalías contractuales' entre los recursos transferidos a gobiernos subnacionales 'conforme a sus leyes especiales' sin identificar qué ley ordena esa transferencia. En hidrocarburos, lo que se distribuye es el canon y sobrecanon que se calcula sobre la regalía, no la regalía misma.",
+    "correccion": "Precisar: '…el sobrecanon, la regalía minera de la Ley 28258 y, cuando una ley especial disponga su transferencia, las regalías contractuales…', o suprimir 'regalías contractuales'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 10.2",
+    "problema": "Cita el 'Texto Único Ordenado de la Ley 27806' sin decreto aprobatorio.",
+    "correccion": "'…aprobado por Decreto Supremo 021-2019-JUS'."
+   }
+  ]
+ },
+ {
+  "id": "GOB-23",
+  "especialidad": "normativo",
+  "veredicto": "conforme",
+  "resumen": "La Ley 31986 (URL verificada) solo incorporó el numeral 8.3 al art. 8 de la Ley 29735, así que no ocupa el 15-A. Son correctas las citas de los D.S. 004-2016-MC (reglamento) y 012-2021-MC (Política al 2040, URL verificada), el art. 48 de la Constitución, la Ley 29733, el D.L. 1412, el Māori Language Act 2016 y la Ley boliviana 269. La propuesta reconoce que las remisiones a los arts. 4, 10, 15 y 20 de la Ley 29735 deben contrastarse con el texto consolidado. Lo comparto: los arts. 4 y 10 coinciden con fuentes secundarias, pero no pude confirmar el contenido de los arts. 15 y 20 porque el PDF enlazado es una imagen.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículos 3.2 e), 4.2 y efecto_vigencia",
+    "problema": "Atribuye al art. 15 de la Ley 29735 tanto la publicación de normas en lengua originaria como la obligación de capacitar o contratar personal que hable la lengua predominante. Al art. 20 le atribuye otra materia. No pude confirmar esos contenidos con texto oficial. Si el art. 15 no regula ambas cosas, las remisiones quedarían equivocadas.",
+    "correccion": "Contrastar con el texto consolidado de la Ley 29735 en SPIJ y ajustar los números (p. ej. separar 'artículo 15' para la publicación de normas y el artículo que corresponda para el personal bilingüe). Si no se confirma, reemplazar por 'conforme a la Ley 29735 y su reglamento'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "efecto_vigencia",
+    "problema": "Afirma que el D.L. 1489 modificó la Ley 29735 (art. 8). No pude verificarlo. El D.L. 1489 (2020) regula acciones para pueblos indígenas durante la emergencia sanitaria.",
+    "correccion": "Verificar en SPIJ si el D.L. 1489 modificó la Ley 29735 y, si no lo hizo, eliminar la mención y conservar solo la Ley 31986."
+   }
+  ]
+ },
+ {
+  "id": "GOB-24",
+  "especialidad": "normativo",
+  "veredicto": "conforme",
+  "resumen": "No modifica normas con rango de ley. Las citas existen y están vigentes: D.S. 085-2023-PCM, D.U. 006-2020, D.S. 029-2018-PCM (modificado por D.S. 076-2026-PCM; copia verificada), Ley 28983, Ley 29973 y Ley 29733. La Ley Orgánica española 3/2007 y la Canadian Gender Budgeting Act (S.C. 2018, c. 27) están bien identificadas. Las cifras del INEI tienen fuente oficial enlazada. Solo una precisión de base legal.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 2.1 / efecto_vigencia",
+    "problema": "Obliga a los gobiernos regionales mediante ley ordinaria. Es válido porque la obligación se inserta en sistemas administrativos de rectoría nacional (planeamiento, presupuesto, inversiones), pero la propuesta no cita la ley del Sistema Nacional de Planeamiento Estratégico que sustenta esa rectoría. Sin esa cita, puede objetarse que afecta la autonomía regional (art. 191 de la Constitución).",
+    "correccion": "Añadir en efecto_vigencia: 'Se dicta en el marco de la rectoría del Sistema Nacional de Planeamiento Estratégico (Decreto Legislativo 1088), del Sistema Nacional de Presupuesto Público (Decreto Legislativo 1440) y del Sistema Nacional de Programación Multianual y Gestión de Inversiones (Decreto Legislativo 1252); no modifica la Ley 27867, por lo que no requiere votación de ley orgánica'."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "D.S. 029-2018-PCM (adecuación)",
+    "D.L. 1088 (concordancia, rectoría CEPLAN)"
+   ]
+  }
+ },
+ {
+  "id": "TAL-15",
+  "especialidad": "normativo",
+  "veredicto": "observaciones",
+  "resumen": "Son correctas las citas del D.L. 689 (arts. 2, 4 con los topes de 20 % y 30 %, y 6), D.S. 014-92-TR, D.S. 007-2017-IN, D.L. 1582 (nómada digital), Ley 30220, Ley 30512, Ley 28806, Ley 30001, la Ley chilena 21.325 y la Directiva (UE) 2021/1883. En el texto del D.L. 689 publicado en gob.pe, el art. 3 llega hasta el literal h) y su párrafo final exonera del trámite de aprobación, así que el literal i) es coherente. Queda sin verificar que el art. 29-A del D.L. 1350 esté libre, y la técnica para crear la nueva calidad migratoria no sigue la estructura del decreto.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3 (art. 29-A del D.L. 1350)",
+    "problema": "En el D.L. 1350, las calidades migratorias de residente se enumeran como literales del art. 29.2, y el D.L. 1582 incorporó la de nómada digital dentro de esa estructura. Crear un art. 29-A con una 'residencia' propia rompe la sistemática y genera dudas sobre su relación con la calidad 'Trabajador' del 29.2. Además, el PDF enlazado del D.L. 1350 es una imagen sin texto, así que no pude confirmar que el 29-A esté libre tras los D.L. 1582 y posteriores.",
+    "correccion": "Opción preferible: 'Se incorpora el literal [siguiente libre] al numeral 29.2 del artículo 29 del Decreto Legislativo 1350: «[x]) Talento tecnológico: permite…»' y trasladar los numerales 29-A.2 a 29-A.5 a ese literal o al reglamento. Si se mantiene el 29-A, verificarlo en SPIJ (texto consolidado del D.L. 1350) antes del dictamen."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 4 (literal i del art. 3 del D.L. 689)",
+    "problema": "La verificación se hizo sobre el texto de gob.pe, que no garantiza estar actualizado. Si normas posteriores incorporaron literales al art. 3, el i) podría estar ocupado.",
+    "correccion": "Confirmar en SPIJ el último literal vigente del art. 3 del D.L. 689 y ajustar la letra."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "efecto_vigencia",
+    "problema": "Identifica el reglamento de reconocimiento de grados de la SUNEDU como 'Resolución 099-2020-SUNEDU/CD' sin fuente que lo respalde.",
+    "correccion": "Verificar el número de la resolución del Consejo Directivo que aprueba el Reglamento de Reconocimiento de Grados y Títulos otorgados en el extranjero (y sus modificatorias, incluida la Res. 0021-2026-SUNEDU/CD) y enlazarla."
+   }
+  ]
+ },
+ {
+  "id": "TAL-16",
+  "especialidad": "normativo",
+  "veredicto": "conforme",
+  "resumen": "Las citas existen y están vigentes: inciso ll) del art. 37 de la LIR (D.S. 179-2004-EF; tope de 5 % por Ley 29498), TUO del D.L. 650 (D.S. 001-97-TR), arts. 108 y 110 de la Ley 29571 (infracciones y graduación de sanciones), Ley 28806, Ley 29733 y Code du travail arts. L6323-1 y ss. No crea tributos ni beneficios, y el aporte público queda como meta indicativa. Dos precisiones de concordancia tributaria y laboral.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 5",
+    "problema": "El art. 5 regula el tratamiento del aporte para el empleador (inciso ll del art. 37 LIR) y lo declara no remunerativo a efectos laborales, pero calla sobre el trabajador. Si el aporte se considera renta de quinta categoría (art. 34 LIR) y la ley lo declarara inafecto, sería un beneficio tributario sujeto a la Norma VII y al art. 74. Si no dice nada, queda incierto cómo tributa.",
+    "correccion": "Añadir 5.4: 'Para el trabajador, el aporte del empleador se rige por las reglas generales de la Ley del Impuesto a la Renta sobre condiciones de trabajo; la presente ley no establece inafectaciones ni exoneraciones'. Pedir opinión de la SUNAT y del MEF antes del dictamen."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 5.1",
+    "problema": "Calificar el aporte como 'condición de trabajo' no remunerativa debe concordar con la lista de conceptos no remunerativos del TUO del D.L. 650 (art. 19) y con la base de aportes de EsSalud (Ley 26790) y del sistema de pensiones, para evitar controversias de fiscalización.",
+    "correccion": "Escribir: '…no tienen carácter remunerativo para ningún efecto legal, conforme al literal [que corresponda] del artículo 19 del TUO del Decreto Legislativo 650, y no forman parte de la base de cálculo de aportes a EsSalud ni al sistema de pensiones'. Verificar el literal en SPIJ."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Disposición Complementaria Final Tercera",
+    "problema": "Dice 'la comisión competente del Congreso' en singular, pese a que el Congreso es bicameral.",
+    "correccion": "'…a las comisiones competentes de ambas cámaras del Congreso de la República…'."
+   }
+  ]
+ },
+ {
+  "id": "IA-15",
+  "especialidad": "normativo",
+  "veredicto": "observaciones",
+  "resumen": "La base civil es correcta: arts. 1970, 1972 y 1983 del Código Civil y art. 282 del CPC. También lo son las citas de Ley 26790 (SCTR), Ley 27181 (SOAT), Ley 29783, D.S. 024-2016-EM, ISO 17757, Directiva (UE) 2024/2853, Reglamento (UE) 2023/1230 y Automated Vehicles Act 2024. Contrasté el art. 24.1 del D.S. 115-2025-PCM y los plazos de 2 años (transporte) y 3 años (minería) con El Peruano del 9-sep-2025, y son exactos. Pero la propuesta simplifica el literal j) y trata como de riesgo alto a todo sistema autónomo basado en IA. Además, una URL lleva a otra norma.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Problema y Artículo 7.4",
+    "problema": "El literal j) del art. 24.1 del D.S. 115-2025-PCM no califica como de riesgo alto 'todo uso que suponga riesgo para la vida o la seguridad física' sin más. Exige además, de forma cumulativa, que el desempeño implique (i) elevada probabilidad de estigmatización, discriminación o sesgo cultural, o (ii) elevada complejidad para la supervisión humana. El literal a) se refiere a la gestión de Activos Críticos Nacionales, categoría que no incluye a todo camión o robot. El art. 7.4 impone 'las obligaciones aplicables a los usos de riesgo alto' a todo sistema basado en IA, lo que excede el Reglamento y crea una calificación por remisión imprecisa.",
+    "correccion": "Problema: '…califica como de riesgo alto los sistemas de IA que gestionan activos críticos nacionales de servicios esenciales como el transporte (art. 24.1.a) y los usos que suponen riesgo para la vida o la seguridad física cuando además presentan elevada complejidad para la supervisión humana (art. 24.1.j)…'. Art. 7.4: 'Cuando el sistema se base en inteligencia artificial y su uso califique como de riesgo alto conforme al artículo 24 del Reglamento de la Ley 31814, el operador cumple además…'."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "implicados / normas (D.S. 024-2016-EM)",
+    "problema": "La URL https://www.gob.pe/institucion/minem/normas-legales/26484-024-2016-em no abre el D.S. 024-2016-EM. Abre la 'Resolución Directoral N.° 3721-2013-MINCETUR/DGJCMT'.",
+    "correccion": "Reemplazar por la publicación del D.S. 024-2016-EM en El Peruano o por su ficha correcta en gob.pe/minem (buscar 'Decreto Supremo 024-2016-EM')."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 9.1",
+    "problema": "'La autoridad competente en seguridad minera conforme a su ley' es indeterminado. La supervisión de la seguridad y salud en minería está repartida (SUNAFIL en seguridad laboral; Osinergmin en infraestructura geotécnica y otras materias), y el texto ya nombra a la SUNAFIL por separado.",
+    "correccion": "Precisar: 'en actividades mineras, el Osinergmin en lo relativo a la seguridad de la infraestructura y de las operaciones conforme a la Ley 29901 y normas complementarias, y la SUNAFIL en seguridad y salud en el trabajo', previa verificación del reparto vigente en SPIJ."
+   }
+  ]
+ },
+ {
+  "id": "IA-16",
+  "especialidad": "normativo",
+  "veredicto": "conforme",
+  "resumen": "El art. 15 sustitutorio conserva literalmente las 8 excepciones del texto original de la Ley 29733 y solo precisa la 7. Contrasté los arts. 18 a 21 del D.S. 016-2024-JUS con El Peruano del 30-nov-2024 y dicen lo que la propuesta afirma: resolución de nivel adecuado con criterios concurrentes, cláusulas modelo y comunicación obligatoria del flujo para su inscripción. Las referencias al art. 45 del RGPD y al Convenio 108 son correctas, y la adhesión a tratados queda sujeta a los arts. 56, 57 y 118. Precisiones menores sobre el régimen de infracciones y una cita sin fuente primaria.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 7",
+    "problema": "Tipifica infracciones 'a la Ley 29733' en una ley autónoma y remite solo al art. 39 (sanciones). Desde el D.L. 1353, el art. 38 de la Ley 29733 regula la calificación de las infracciones como leves, graves y muy graves y remite su tipificación al reglamento, que hoy está en el D.S. 016-2024-JUS. La tipificación quedaría dispersa entre dos normas.",
+    "correccion": "Redactar el art. 7.2: '…conforme a los artículos 38 y 39 de la Ley 29733…' y ordenar en la DCF Primera que el D.S. 016-2024-JUS incorpore ambas conductas a su cuadro de infracciones. Otra opción es incorporarlas directamente como numerales del art. 38."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Problema / referencias_internacionales",
+    "problema": "El número de la 'Decisión de Ejecución (UE) 2026/179' (adecuación de Brasil) se apoya solo en Baker McKenzie, que devuelve 403 y es fuente secundaria. No pude verificarlo en EUR-Lex.",
+    "correccion": "Enlazar la decisión en EUR-Lex (eur-lex.europa.eu/eli/dec_impl/2026/179/oj, si ese es el número) o la nota de prensa de la Comisión Europea. Si no se confirma, escribir 'decisión de adecuación de enero de 2026' sin número."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 5.3",
+    "problema": "Dice 'la comisión competente del Congreso' en singular, pese a la bicameralidad.",
+    "correccion": "'…a las comisiones competentes de ambas cámaras del Congreso de la República…'."
+   }
+  ]
+ },
+ {
+  "id": "SOB-09",
+  "especialidad": "normativo",
+  "veredicto": "conforme",
+  "resumen": "Revisé la Ley 32249 en El Peruano. Modificó el art. 1 de la Ley 28832 y lo dejó en el numeral 39 (Proveedores de servicios complementarios), así que los numerales 40, 41 y 42 están libres. Incorporó el capítulo octavo con un único art. 33 (Mercado de servicios complementarios), por lo que los arts. 33-A y 33-B encajan. El art. 3.1 citado coincide con su texto vigente y la Ley 32249 no regula el almacenamiento. Son correctas las citas de D.L. 25844, D.L. 1002, Ley chilena 21.505, Directiva (UE) 2018/2001 (art. 19) e IEA Energy and AI (415 TWh en 2024 y 945 TWh en 2030). No requiere votación orgánica.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículos 3 y 4 (numerales 3.4 y 21.4)",
+    "problema": "La Ley 32249 no tocó los arts. 3 (salvo el párrafo 3.1) ni 21, de modo que 3.4 y 21.4 dependen del texto original de 2006. No pude confirmar con texto legible que el art. 3 termine en 3.3 ni que el art. 21 termine en 21.3: el PDF enlazado de la Ley 28832 es una imagen.",
+    "correccion": "Verificar en SPIJ el último numeral vigente de los arts. 3 y 21 de la Ley 28832 y ajustar la numeración si fuese necesario."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Problema / fuentes",
+    "problema": "Las cifras de producción de 2024 (63 565 GWh; RER no convencional 5777 GWh) se atribuyen al MINEM, pero se enlaza un medio secundario (Energiminas).",
+    "correccion": "Enlazar el Anuario o el Boletín Estadístico de Electricidad 2024 de la DGE-MINEM, o el informe anual del COES 2024."
+   }
+  ]
+ },
+ {
+  "id": "SOB-10",
+  "especialidad": "normativo",
+  "veredicto": "observaciones",
+  "resumen": "Los textos sustitutorios de los arts. 18 y 57 de la Ley 29338 reproducen el texto original de 2009 y solo agregan el párrafo de datos abiertos y la telemetría en el numeral 5. Son correctas las citas del D.S. 001-2010-AG, la Ley 29733, la Ley chilena 21.064 y la Water Act 2007 australiana. La observación principal es de tipicidad: el art. 8 crea una conducta sancionable (manipular registros) por remisión genérica.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 8",
+    "problema": "Sanciona 'la manipulación o alteración de los registros de medición' remitiéndose genéricamente 'al régimen de infracciones y sanciones de dicha ley'. Las infracciones de la Ley 29338 están enumeradas en su art. 120, y alterar registros telemétricos no figura expresamente, de modo que la remisión no satisface el principio de tipicidad (art. 248.4 del TUO de la Ley 27444). Además, se cita el TUO sin decreto aprobatorio.",
+    "correccion": "Incorporar al art. 120 de la Ley 29338 dos numerales, verificando en SPIJ cuál es el último vigente: '[n]. No instalar, no operar o no transmitir la medición continua exigible conforme al numeral 5 del artículo 57' y '[n+1]. Alterar, manipular o destruir los registros de medición o su transmisión'. Calificar la segunda como muy grave en el art. 121. Citar 'TUO de la Ley 27444, aprobado por Decreto Supremo 006-2026-JUS'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "efecto_vigencia / normas_relacionadas",
+    "problema": "La propuesta reconoce que no verificó si los arts. 18 y 57 tienen modificaciones posteriores a 2009. El reglamento D.S. 001-2010-AG se enlaza a LEAP-UNEP (secundaria) y el PDF de la Ley 29338 es una imagen sin texto.",
+    "correccion": "Contrastar en SPIJ el texto vigente de los arts. 18, 57, 120 y 121 antes del dictamen. Enlazar el D.S. 001-2010-AG en El Peruano o en gob.pe/ana."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Problema / fuentes",
+    "problema": "La cifra de que 'los usos consuntivos representaron 29,3 % del uso total' (OCDE 2021 con datos ANA 2018) no se pudo verificar: la página de la OCDE devuelve 403. El porcentaje parece bajo para usos consuntivos frente a no consuntivos (hidroenergía) y conviene revisar la definición.",
+    "correccion": "Citar la página o figura exacta del informe de la OCDE o la fuente ANA, y precisar si el 29,3 % se refiere a volumen consuntivo sobre uso total incluido el no consuntivo."
+   }
+  ]
+ },
+ {
+  "id": "SOB-11",
+  "especialidad": "normativo",
+  "veredicto": "observaciones",
+  "resumen": "La concordancia es en general correcta: Decisión 391 (con prevalencia), Protocolo de Nagoya (R.L. 30217), Ley 26839, Ley 27811 (Fondo para el Desarrollo de los Pueblos Indígenas), Ley 28216 (nombre exacto de la Comisión), art. 26 de la Decisión 486, D.S. 019-2021-MINAM (URL de El Peruano verificada), decisión COP16 16/2 (Fondo Cali: 1 % de utilidades o 0,1 % de ingresos) y la Lei brasileña 13.123/2015. Excluye bien los recursos genéticos humanos, conforme a COORDINACION.md. El punto delicado es la compatibilidad del art. 5.1 con la Decisión 391, que es norma supranacional.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 5.1 y DCF Primera",
+    "problema": "El art. 5.1 exime de autorización o contrato de acceso el uso de DSI de bases abiertas, y la DCF Primera ordena que la definición de 'obtención' del D.S. 019-2021-MINAM 'se interprete conforme al artículo 5'. La Decisión 391 define el acceso como obtención y utilización de recursos genéticos 'o sus productos derivados' y prevalece sobre la ley nacional (primacía del derecho comunitario andino, que el propio art. 2.3 reconoce). Si la DSI se considerase comprendida en el ámbito de la Decisión, una ley nacional no podría excluirla. El texto no resuelve esa tensión, y la técnica de 'interpretar' una definición reglamentaria es imprecisa.",
+    "correccion": "Art. 5.1: 'En la medida en que no constituya acceso conforme a la Decisión 391, la consulta, descarga y utilización… no requiere autorización ni contrato de acceso'. DCF Primera: 'adecúa… modificando el literal [x] del artículo [y] del Reglamento aprobado por D.S. 019-2021-MINAM (definición de obtención) para excluir la información de bases de datos de acceso abierto, conforme al artículo 5' (identificar el artículo exacto). Encargar al MINAM y a la Cancillería promover ante la CAN la interpretación o armonización sobre la DSI (enlazar con el art. 10)."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Problema / fuentes",
+    "problema": "La cifra de '424 casos' de biopiratería se toma de Actualidad Ambiental y no de la Comisión Nacional contra la Biopiratería. La nota del MINAM habla de '35 certificaciones' y el texto dice '35 investigaciones'.",
+    "correccion": "Enlazar la fuente de la Comisión Nacional contra la Biopiratería (biopirateria.gob.pe o informe del INDECOPI) y unificar la redacción: '35 certificados de cumplimiento reconocidos internacionalmente emitidos en 2025'."
+   }
+  ]
+ },
+ {
+  "id": "SOB-12",
+  "especialidad": "normativo",
+  "veredicto": "conforme",
+  "resumen": "Las citas están bien: arts. 44, 58, 61, 63 y 163 de la Constitución, D.S. 106-2017-PCM, D.L. 662 y 757, Ley 29158, Recomendación OECD/LEGAL/0372 (2009), Wehrlé y Pohl (OCDE, 2016), Reglamento (UE) 2019/452 y National Security and Investment Act 2021 (c. 25). El 'Sistema Garantizado de Transmisión' es una categoría de la Ley 28832. Tipifica sanciones en la ley con autoridad competente y montos máximos. Observaciones menores de concordancia y fuentes.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "ubicacion": "efecto_vigencia / Artículo 3",
+    "problema": "Dice que no modifica 'la legislación de libre competencia (control de concentraciones)' sin citarla. Una misma operación puede requerir autorización del Indecopi conforme a la Ley 31112, con plazos propios, y la ley no regula cómo se coordinan ambos procedimientos.",
+    "correccion": "Citar la Ley 31112, Ley que establece el control previo de operaciones de concentración empresarial, y añadir al art. 6: 'Cuando la operación requiera además autorización conforme a la Ley 31112, ambos procedimientos se tramitan en paralelo y la autoridad de evaluación y el Indecopi intercambian la información no confidencial necesaria'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "normas_relacionadas / Artículo 8.2",
+    "problema": "El D.S. 106-2017-PCM se enlaza a una página de orientación de gob.pe y no al texto de la norma. El TUO de la Ley 27806 se cita sin decreto aprobatorio.",
+    "correccion": "Enlazar el D.S. 106-2017-PCM en gob.pe/pcm (https://www.gob.pe/institucion/pcm/normas-legales/454348-106-2017-pcm, verificada) y escribir 'TUO de la Ley 27806, aprobado por Decreto Supremo 021-2019-JUS'."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 31112 (concordancia procedimental con control de concentraciones)"
+   ],
+   "entidades_implicadas": [
+    "MEF (DGPPIP) — autoridad de evaluación",
+    "DINI — apoyo técnico",
+    "Indecopi — control de concentraciones paralelo"
+   ]
+  }
+ },
+ {
+  "id": "SOB-13",
+  "especialidad": "normativo",
+  "veredicto": "conforme",
+  "resumen": "Concordancia correcta. Los regímenes especiales que prevalecen están bien identificados: Ley 30299 (SUCAMEC; URL del texto consolidado verificada), Ley 29239 (armas químicas), Ley 28028 (IPEN) y bienes de FF.AA. y PNP. También lo están el D.L. 1053 (mercancías restringidas), la Ley 28008, la Ley 29158, el Reglamento (UE) 2021/821 y la Resolución 1540 (2004). Los datos del Arreglo de Wassenaar (42 Estados, México desde 2012, Argentina participante) y la ratificación del Tratado sobre el Comercio de Armas en 2016 son exactos. El régimen sancionador está tipificado con autoridad y topes. Solo precisiones menores.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "ubicacion": "Problema / Artículo 3.2",
+    "problema": "El problema menciona el control de 'insumos químicos para drogas por la SUNAT', pero el art. 3.2 no lo excluye entre los regímenes especiales ni cita su norma (D.L. 1126). Un insumo químico fiscalizado que figure también en la Lista Nacional podría quedar sujeto a doble autorización.",
+    "correccion": "Añadir al 3.2: '…y los insumos químicos y productos fiscalizados (Decreto Legislativo 1126)…', con la misma regla de coordinación."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículos 5.4, 12.1 y DCF Quinta / fuentes",
+    "problema": "Cita el 'Texto Único Ordenado de la Ley 27444' sin decreto aprobatorio. La Ley 29239 se respalda con un resumen de sni.org.pe en lugar de su texto oficial, que ya figura en normas_relacionadas.",
+    "correccion": "'…TUO de la Ley 27444, aprobado por Decreto Supremo 006-2026-JUS…'. Retirar la fuente secundaria de sni.org.pe."
+   }
+  ]
+ },
+ {
+  "id": "CON-15",
+  "especialidad": "normativo",
+  "veredicto": "conforme",
+  "resumen": "Revisé el texto actualizado de la Ley 28749 (Editora Perú, junto con el D.S. 018-2020-EM). El art. 7 trata de los recursos para la electrificación, el art. 10 del Plan Nacional de Electrificación Rural y el art. 14 de la tarifa, y no hay artículos 10-A ni con otro sufijo, así que la incorporación está libre y bien ubicada después del art. 10. Son correctas las citas del D.S. 018-2020-EM (URL de El Peruano verificada), el D.L. 1207, la Ley 28900 y el D.L. 25844, y la cifra del Censo Educativo 2022 viene de Edudatos 46 (MINEDU, verificado). Una sola precisión de técnica.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 2 (numeral 10-A.2)",
+    "problema": "Remite al 'inventario a que se refiere la ley que regula la energía para la conectividad rural'. Esa ley indeterminada es la propia ley que incorpora el 10-A (art. 3). Una vez incorporado el texto a la Ley 28749, la remisión queda vacía.",
+    "correccion": "'…elaborado con la información del inventario georreferenciado de sitios de servicio público prioritarios que publica el Ministerio de Energía y Minas conforme al reglamento…', o trasladar el art. 3 de la ley como numeral 10-A.4 de la Ley 28749."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Problema / fuentes",
+    "problema": "El coeficiente de electrificación rural de 86,6 % a diciembre de 2024 se atribuye al MINEM, pero se enlaza un medio secundario (Energiminas).",
+    "correccion": "Enlazar la nota de prensa o el Plan Nacional de Electrificación Rural del MINEM (DGER) que reporta el coeficiente."
+   }
+  ]
+ }
+]

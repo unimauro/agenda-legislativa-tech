@@ -5635,5 +5635,792 @@
     "nota": "Incorporado como relacionado."
    }
   ]
+ },
+ {
+  "id": "IA-15",
+  "eje": "ia",
+  "titulo": "Ley que establece reglas de responsabilidad civil, seguro y operación segura de sistemas autónomos y robóticos en la minería, el transporte y la logística",
+  "titulo_corto": "Sistemas autónomos: responsabilidad y seguridad",
+  "sumilla": "Precisa que la operación de sistemas autónomos y robóticos en minería, transporte y logística es actividad riesgosa a efectos del artículo 1970 del Código Civil, atribuye la responsabilidad frente a terceros al operador, con derecho de repetición contra fabricantes e integradores, y excluye que la conducta del sistema sea tratada como caso fortuito o hecho de tercero; exige registro de eventos, seguro de responsabilidad civil, gestión de riesgos con referencia a normas técnicas internacionales neutrales y supervisión humana, y somete su circulación en vías públicas a autorización del MTC.",
+  "problema": "La automatización física ya opera en el Perú: según ProActivo, la mina Quellaveco (Moquegua) trabaja desde 2021 con una flota de camiones de acarreo autónomos de 320 toneladas y ya superó los 500 millones de toneladas acarreadas de forma autónoma. El Reglamento de la Ley 31814, aprobado por el Decreto Supremo 115-2025-PCM, califica como de riesgo alto los sistemas de IA que gestionan activos críticos nacionales de servicios esenciales como el transporte (art. 24.1.a) y los usos que suponen riesgo para la vida o la seguridad física cuando además presentan elevada complejidad para la supervisión humana (art. 24.1.j), y da al sector privado dos años (transporte) y tres años (minería) para adecuarse; pero no regula quién responde por los daños. El Código Civil ofrece la cláusula general de responsabilidad por bienes o actividades riesgosas (art. 1970) y sus eximentes (art. 1972: caso fortuito, hecho determinante de tercero, imprudencia de la víctima); sin embargo, no hay certeza sobre si un fallo autónomo del sistema puede alegarse como caso fortuito, ni sobre el acceso de la víctima a los registros del sistema. La Unión Europea actualizó en 2024 su directiva de responsabilidad por productos defectuosos para incluir el software, y el Reino Unido aprobó su Ley de Vehículos Automatizados de 2024.",
+  "objeto": "Dar seguridad jurídica a víctimas, operadores y fabricantes sobre la responsabilidad civil por daños causados por sistemas autónomos y robóticos en minería, transporte y logística, y fijar condiciones mínimas de operación segura, registro de eventos y aseguramiento, en coherencia con la Ley 31814 y su reglamento.",
+  "articulado": [
+   {
+    "n": "Artículo 1",
+    "titulo": "Objeto",
+    "texto": "La presente ley tiene por objeto establecer reglas de responsabilidad civil, aseguramiento, registro de eventos y operación segura aplicables a los sistemas autónomos y robóticos que operan en actividades mineras, de transporte y de logística, en concordancia con el Código Civil y con la Ley 31814, Ley que promueve el uso de la inteligencia artificial en favor del desarrollo económico y social del país, y su reglamento."
+   },
+   {
+    "n": "Artículo 2",
+    "titulo": "Ámbito de aplicación",
+    "texto": "2.1 La presente ley se aplica a los sistemas autónomos y robóticos que operan en:\na) Actividades mineras de explotación, beneficio y transporte minero, a cielo abierto o subterráneas;\nb) El transporte terrestre, ferroviario o acuático de personas o de mercancías;\nc) Las actividades de almacenamiento, manipulación y distribución de mercancías, incluidas las desarrolladas en puertos, aeropuertos y centros logísticos.\n2.2 No se aplica a las aeronaves no tripuladas, que se rigen por su legislación especial, ni a los sistemas destinados exclusivamente a la defensa nacional."
+   },
+   {
+    "n": "Artículo 3",
+    "titulo": "Definiciones",
+    "texto": "Para efectos de la presente ley se entiende por:\na) Sistema autónomo o robótico: máquina, vehículo o equipo móvil que, mediante sensores y programas, incluidos sistemas basados en inteligencia artificial, percibe su entorno y determina por sí mismo su trayectoria o maniobras en espacios donde puede interactuar con personas, vehículos tripulados u otros equipos, sin control humano directo en tiempo real, con supervisión humana remota o sin ella. No comprende los equipos automatizados de ciclo fijo o de ubicación fija, tales como fajas transportadoras, sistemas controlados por autómatas programables, puertas, ascensores o brazos de envasado confinados en zonas sin acceso de personas durante su operación, que se rigen por las normas de seguridad de máquinas y de seguridad y salud en el trabajo.\nb) Operador: persona natural o jurídica que decide la puesta en funcionamiento del sistema y obtiene provecho de su operación, sea propietaria, arrendataria o contratista.\nc) Fabricante o integrador: quien diseña, produce, integra o actualiza el equipo físico o los programas que determinan el comportamiento autónomo del sistema.\nd) Registro de eventos: registro automático, íntegro y fechado de los datos de operación, de las decisiones del sistema y de las intervenciones humanas, necesario para reconstruir un incidente.\ne) Zona de operación autónoma: área delimitada en la que el operador autoriza la operación del sistema conforme a su análisis de riesgos."
+   },
+   {
+    "n": "Artículo 4",
+    "titulo": "Responsabilidad civil del operador",
+    "texto": "4.1 La operación de un sistema autónomo o robótico comprendido en el ámbito de la presente ley constituye ejercicio de una actividad riesgosa para efectos del artículo 1970 del Código Civil.\n4.2 El operador responde frente a los terceros perjudicados por los daños causados por el sistema. Solo se exime de responsabilidad en los supuestos del artículo 1972 del Código Civil. El funcionamiento, el error o la decisión del propio sistema, de sus programas o de sus actualizaciones no constituyen caso fortuito, fuerza mayor ni hecho determinante de tercero. Tampoco constituye hecho determinante de tercero el acceso no autorizado o el ataque informático al sistema, salvo que el operador acredite que aplicaba las medidas de seguridad digital del literal e) del numeral 7.1 y que el ataque no era razonablemente previsible ni evitable con ellas; en todo caso conserva su derecho de repetición contra el autor. Se aplica el artículo 1973 del Código Civil cuando la imprudencia de la víctima solo hubiera concurrido en la producción del daño.\n4.3 Cuando el daño sea consecuencia de un defecto de diseño, fabricación, integración o actualización, el fabricante o integrador responde solidariamente con el operador frente a la víctima, conforme al artículo 1983 del Código Civil, sin perjuicio del derecho de repetición entre ellos y de la responsabilidad que corresponda conforme al Código de Protección y Defensa del Consumidor.\n4.4 Se presume, salvo prueba en contrario, el defecto del sistema y su relación causal con el daño cuando el fabricante o integrador no exhiba, a requerimiento judicial, la información técnica pertinente que obre en su poder, o cuando el registro de eventos acredite un funcionamiento anómalo no atribuible a la operación.\n4.5 Es nulo todo pacto que limite o excluya la responsabilidad del operador o del fabricante frente a los terceros perjudicados.\n4.6 Los daños sufridos por los trabajadores del operador se rigen por la Ley 29783, Ley de Seguridad y Salud en el Trabajo, y por el Seguro Complementario de Trabajo de Riesgo de la Ley 26790, sin perjuicio de la indemnización que corresponda conforme a ley."
+   },
+   {
+    "n": "Artículo 5",
+    "titulo": "Registro de eventos y acceso a la información",
+    "texto": "5.1 Todo sistema comprendido en el ámbito de la presente ley cuenta con un registro de eventos que: a) se genera automáticamente con marcas de tiempo sincronizadas con una fuente horaria confiable; b) se protege contra alteraciones mediante encadenamiento criptográfico o firma digital que permita verificar su integridad; c) puede exportarse en un formato documentado y legible; y d) es accesible para el operador en el territorio nacional sin depender de la autorización del fabricante. El operador lo conserva por un plazo no menor de dos años desde su generación y, si ocurre un incidente con daños, hasta la conclusión de los procedimientos que se inicien.\n5.2 Ante un incidente con daños personales o materiales a terceros, el operador preserva el registro de eventos y lo pone a disposición de la autoridad competente, del Ministerio Público y del órgano jurisdiccional cuando lo requieran. La víctima puede solicitar al juez su exhibición, incluso como prueba anticipada. La extracción se documenta con el valor de verificación de integridad del registro y se sujeta a las reglas de cadena de custodia del Ministerio Público.\n5.3 Si el operador no conserva o no exhibe el registro de eventos, el juez puede extraer conclusiones en su contra conforme al artículo 282 del Código Procesal Civil.\n5.4 El tratamiento de datos personales contenidos en el registro de eventos se sujeta a la Ley 29733, Ley de Protección de Datos Personales; el registro no puede usarse para evaluar el desempeño de trabajadores, salvo para la investigación de incidentes, conforme a las normas sobre monitoreo digital y gestión algorítmica en el trabajo.\n5.5 El reglamento establece, por tipo de sistema, el contenido mínimo del registro de eventos, que comprende al menos el estado y modo de operación, la posición y velocidad, las detecciones relevantes, las órdenes del sistema, las intervenciones y paradas y la versión de los programas, tomando como referencia normas técnicas internacionales. El fabricante o integrador pone a disposición del operador los medios para extraer el registro en formato legible y documentado, y de la autoridad y del juez cuando lo requieran; su negativa injustificada lo hace responsable solidario de los efectos del numeral 5.3."
+   },
+   {
+    "n": "Artículo 6",
+    "titulo": "Seguro de responsabilidad civil",
+    "texto": "6.1 El operador contrata un seguro de responsabilidad civil extracontractual u otra garantía financiera equivalente que cubra los daños a terceros causados por los sistemas autónomos o robóticos que opera, con los montos mínimos que fije el reglamento según el tipo de sistema, su masa, velocidad y entorno de operación.\n6.2 En el caso de vehículos que circulen en vías públicas, dicho seguro es adicional al Seguro Obligatorio de Accidentes de Tránsito previsto en la Ley 27181, Ley General de Transporte y Tránsito Terrestre.\n6.3 La Superintendencia de Banca, Seguros y AFP dicta las disposiciones necesarias para la comercialización de estos seguros.\n6.4 La víctima tiene acción directa contra el asegurador hasta el límite de la suma asegurada, conforme a la Ley 29946, Ley del Contrato de Seguro. El asegurador no puede oponerle las excepciones derivadas de la conducta del asegurado posterior al siniestro."
+   },
+   {
+    "n": "Artículo 7",
+    "titulo": "Operación segura",
+    "texto": "7.1 Antes de poner en funcionamiento un sistema autónomo o robótico, el operador:\na) Elabora un análisis de riesgos que considere la interacción con personas, vehículos tripulados y equipos, y define la zona de operación autónoma;\nb) Verifica que el sistema cuente con dispositivos de parada de emergencia local y remota, detección de personas y obstáculos, y estado seguro ante fallas o pérdida de comunicación;\nc) Asegura supervisión humana por personal capacitado, con capacidad efectiva de intervenir o detener el sistema;\nd) Gestiona las actualizaciones de programas mediante pruebas previas y registro de versiones;\ne) Aplica medidas de seguridad digital proporcionales al riesgo que incluyan, como mínimo, autenticación fuerte y cifrado de los canales de control y supervisión remota, verificación de la firma digital de las actualizaciones de programas antes de su instalación, segregación de la red de control respecto de las redes corporativas y monitoreo de eventos de seguridad, sin perjuicio de las obligaciones aplicables a los Activos Críticos Nacionales; la conformidad puede acreditarse con la serie IEC 62443 o normas equivalentes;\nf) Cuenta con un plan de respuesta a incidentes; los incidentes de seguridad digital que afecten el control del sistema se notifican conforme al régimen vigente de notificación de incidentes de seguridad digital, sin plazos propios distintos;\ng) Mantiene, por sí o a través del fabricante, un canal público de recepción de reportes de vulnerabilidades, que se atienden conforme a la normativa vigente sobre divulgación coordinada de vulnerabilidades.\n7.2 La conformidad del sistema puede acreditarse mediante normas técnicas peruanas o, en su defecto, normas internacionales tales como la ISO 17757 para maquinaria autónoma de movimiento de tierras y minería, la ISO 3691-4 para vehículos industriales sin conductor, la serie ISO 10218 para robots industriales, los Reglamentos de las Naciones Unidas n.º 155, 156 y 157 para la ciberseguridad, las actualizaciones de software y la conducción automatizada de vehículos, y la serie IEC 62443 para la seguridad de los sistemas de control, o las que las sustituyan, evaluadas por organismos de evaluación de la conformidad acreditados ante el Instituto Nacional de Calidad (INACAL) o por sus pares con reconocimiento mutuo. Las exigencias se formulan en términos de desempeño y son neutrales respecto de la tecnología y del fabricante.\n7.3 Antes de introducir sistemas autónomos que modifiquen puestos de trabajo, el operador informa y consulta al comité o supervisor de seguridad y salud en el trabajo conforme a la Ley 29783.\n7.4 Cuando el sistema se base en inteligencia artificial y su uso califique como de riesgo alto conforme al artículo 24 del Reglamento de la Ley 31814, el operador cumple además las obligaciones aplicables a dichos usos, incluida la evaluación de impacto; el análisis de riesgos del literal a) del numeral 7.1 puede integrarse en dicha evaluación."
+   },
+   {
+    "n": "Artículo 8",
+    "titulo": "Circulación en vías públicas",
+    "texto": "8.1 Los vehículos que circulen sin conductor humano a bordo o sin control humano directo en las vías públicas requieren autorización previa del Ministerio de Transportes y Comunicaciones, que se otorga por ruta o zona, plazo y condiciones determinados, previa acreditación del cumplimiento de los artículos 5, 6 y 7.\n8.2 Mientras el reglamento no establezca un régimen general, las autorizaciones se otorgan como pruebas piloto, con informe público de resultados e incidentes, y pueden tramitarse en los entornos controlados de pruebas regulatorias de inteligencia artificial que establezca la normativa vigente.\n8.3 Lo dispuesto en el presente artículo no se aplica a la circulación dentro de zonas de operación autónoma cerradas al tránsito público."
+   },
+   {
+    "n": "Artículo 9",
+    "titulo": "Supervisión, infracciones y sanciones",
+    "texto": "9.1 Supervisan y sancionan el cumplimiento de los artículos 5 a 7, en el ámbito de sus competencias: en actividades mineras, el Organismo Supervisor de la Inversión en Energía y Minería (OSINERGMIN) respecto de la seguridad de la infraestructura y de las operaciones de la gran y mediana minería, conforme a la Ley 29901, y los gobiernos regionales respecto de la pequeña minería y la minería artesanal, conforme a sus leyes; en el transporte, el Ministerio de Transportes y Comunicaciones y la Superintendencia de Transporte Terrestre de Personas, Carga y Mercancías (SUTRAN); en la seguridad y salud de los trabajadores, la SUNAFIL; y en la logística portuaria y aeroportuaria, la autoridad sectorial competente.\n9.2 Constituyen infracciones muy graves: a) operar sin análisis de riesgos o sin los dispositivos de parada de emergencia y de estado seguro del numeral 7.1; b) alterar, destruir u ocultar el registro de eventos; c) circular en vías públicas sin la autorización del artículo 8. Constituyen infracciones graves: a) operar sin el seguro o garantía del artículo 6; b) no conservar el registro de eventos en el plazo del numeral 5.1; c) no informar ni consultar conforme al numeral 7.3; d) operar sin las medidas mínimas de seguridad digital del literal e) del numeral 7.1.\n9.3 Las infracciones graves se sancionan con multa de hasta cincuenta unidades impositivas tributarias y las muy graves con multa de más de cincuenta hasta quinientas unidades impositivas tributarias, sin exceder el diez por ciento de los ingresos brutos anuales del infractor del ejercicio anterior, graduadas por la autoridad competente conforme al principio de razonabilidad del artículo 248 del Texto Único Ordenado de la Ley 27444, aprobado por el Decreto Supremo 006-2026-JUS. Las infracciones muy graves pueden dar lugar, además, a la paralización del sistema hasta la subsanación. En ningún caso se sanciona dos veces el mismo hecho con identidad de sujeto y fundamento."
+   }
+  ],
+  "disposiciones": [
+   {
+    "tipo": "Complementaria Final",
+    "n": "Primera",
+    "texto": "Reglamentación. El Poder Ejecutivo, mediante decreto supremo refrendado por el presidente del Consejo de Ministros y los ministros de Energía y Minas, de Transportes y Comunicaciones, de Trabajo y Promoción del Empleo y de Justicia y Derechos Humanos, reglamenta la presente ley en un plazo de ciento ochenta días hábiles contados desde su entrada en vigencia, y adecúa el Reglamento de Seguridad y Salud Ocupacional en Minería, aprobado por el Decreto Supremo 024-2016-EM, y los reglamentos nacionales de tránsito y de vehículos."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Segunda",
+    "texto": "Coherencia con la Ley 31814. Los plazos de adecuación de la presente ley para sistemas basados en inteligencia artificial no exceden los plazos graduales que el Reglamento de la Ley 31814 fija para el sector privado en los sectores de transporte y de minería."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Tercera",
+    "texto": "Financiamiento. La implementación de la presente ley se financia con cargo al presupuesto institucional de las entidades involucradas, sin demandar recursos adicionales al Tesoro Público."
+   },
+   {
+    "tipo": "Complementaria Transitoria",
+    "n": "Única",
+    "texto": "Adecuación de sistemas en operación. Los operadores de sistemas en funcionamiento a la entrada en vigencia de la presente ley se adecúan a los artículos 5, 6 y 7 en un plazo de doce meses contados desde la entrada en vigencia del reglamento. Las reglas de responsabilidad civil del artículo 4 se aplican a los hechos dañosos ocurridos desde la entrada en vigencia de la presente ley."
+   }
+  ],
+  "costo_beneficio": "El costo para el Estado es bajo: la supervisión se asigna a autoridades que ya fiscalizan la seguridad minera, el transporte y la seguridad laboral, y el MTC evalúa autorizaciones de vías públicas con supuestos acotados. Los costos recaen en los operadores (registro de eventos, seguro, análisis de riesgos), que en su mayoría ya los asumen por exigencias de los fabricantes y de las aseguradoras. El beneficio central es la seguridad jurídica: la víctima sabe a quién demandar y accede a la prueba; el operador y el fabricante conocen sus riesgos y pueden asegurarlos; y se evita que la novedad tecnológica se invoque como caso fortuito. La referencia a normas técnicas internacionales con criterio de desempeño evita homologaciones nacionales que encarezcan o favorezcan a un fabricante. No modifica el Código Civil.",
+  "efecto_vigencia": "Ley especial que precisa la aplicación de los artículos 1970, 1972, 1973 y 1983 del Código Civil (Decreto Legislativo 295) a los sistemas autónomos y robóticos, sin modificarlos. Complementa la Ley 31814 y su Reglamento (D.S. 115-2025-PCM, art. 24: solo obliga como riesgo alto a los sistemas que califiquen conforme a ese artículo), la Ley 29783, la Ley 26790, la Ley 27181, la Ley 29571, la Ley 29946 (acción directa contra el asegurador), la Ley 29901 (OSINERGMIN), la Ley 29733, la Ley 30224 (INACAL) y el art. 282 del Código Procesal Civil. Dispone adecuar el D.S. 024-2016-EM y los reglamentos nacionales de tránsito y de vehículos. Tipifica infracciones con rangos de multa en la propia ley y atribuye la potestad sancionadora a autoridades existentes (OSINERGMIN, gobiernos regionales, MTC, SUTRAN, SUNAFIL). Las aeronaves no tripuladas se rigen por la Ley 30740. No deroga normas. No requiere votación de ley orgánica.",
+  "normas_relacionadas": [
+   {
+    "norma": "Código Civil (Decreto Legislativo 295), arts. 1969, 1970, 1972 y 1983",
+    "url": "https://leyes.congreso.gob.pe/Documentos/DecretosLegislativos/00295.pdf"
+   },
+   {
+    "norma": "Ley 31814, Ley que promueve el uso de la inteligencia artificial",
+    "url": "https://leyes.congreso.gob.pe/Documentos/2021_2026/ADLP/Texto_Consolidado/31814-TXM.pdf"
+   },
+   {
+    "norma": "Decreto Supremo 115-2025-PCM, Reglamento de la Ley 31814",
+    "url": "https://www.gob.pe/institucion/pcm/normas-legales/7133522-115-2025-pcm"
+   },
+   {
+    "norma": "Ley 29783, Ley de Seguridad y Salud en el Trabajo",
+    "url": "https://leyes.congreso.gob.pe/Documentos/Leyes/29783.pdf"
+   },
+   {
+    "norma": "Ley 27181, Ley General de Transporte y Tránsito Terrestre",
+    "url": "https://leyes.congreso.gob.pe/Documentos/Leyes/27181.pdf"
+   },
+   {
+    "norma": "Ley 30224, Ley que crea el Sistema Nacional para la Calidad y el Instituto Nacional de Calidad",
+    "url": "https://leyes.congreso.gob.pe/Documentos/Leyes/30224.pdf"
+   },
+   {
+    "norma": "Decreto Supremo 024-2016-EM, Reglamento de Seguridad y Salud Ocupacional en Minería (FAOLEX)",
+    "url": "https://faolex.fao.org/docs/pdf/per160277.pdf"
+   }
+  ],
+  "antecedentes": "Por verificar en SPLEY.",
+  "referencias_internacionales": [
+   {
+    "pais": "Unión Europea",
+    "norma": "Directiva (UE) 2024/2853 sobre responsabilidad por los daños causados por productos defectuosos (incluye programas informáticos)",
+    "url": "https://eur-lex.europa.eu/eli/dir/2024/2853/oj"
+   },
+   {
+    "pais": "Reino Unido",
+    "norma": "Automated Vehicles Act 2024",
+    "url": "https://www.legislation.gov.uk/ukpga/2024/10/contents"
+   },
+   {
+    "pais": "Unión Europea",
+    "norma": "Reglamento (UE) 2023/1230 relativo a las máquinas",
+    "url": "https://eur-lex.europa.eu/eli/reg/2023/1230/oj"
+   }
+  ],
+  "comision_sugerida": "Ciencia, Innovación Tecnológica y Sociedad Digital",
+  "comision_secundaria": "Justicia y Derechos Humanos",
+  "plan2050": [
+   "inteligencia-artificial",
+   "mineria",
+   "transportes"
+  ],
+  "ods": [
+   8,
+   9,
+   3
+  ],
+  "prioridad": "media",
+  "costo_fiscal": "bajo",
+  "plazo": "mediano",
+  "indicador_exito": "Al 2031, reglamento aprobado; el 100 % de los sistemas autónomos de acarreo minero en operación con registro de eventos y seguro verificados por la autoridad competente; informes públicos de las pruebas piloto en vías públicas autorizadas por el MTC.",
+  "tags": [
+   "robótica",
+   "vehículos autónomos",
+   "responsabilidad civil",
+   "minería",
+   "seguros"
+  ],
+  "fuentes": [
+   {
+    "titulo": "ProActivo — Caterpillar reconoce a Quellaveco por acarrear 500 millones de toneladas de forma autónoma",
+    "url": "https://proactivo.com.pe/caterpillar-reconoce-a-quellaveco-por-acarrear-500-millones-de-toneladas-de-forma-autonoma/"
+   },
+   {
+    "titulo": "ProActivo — Ferreyros implementa en Quellaveco el primer proyecto de camiones mineros autónomos del Perú",
+    "url": "https://proactivo.com.pe/ferreyros-implementa-en-quellaveco-el-primer-proyecto-de-camiones-mineros-autonomos-del-peru/"
+   },
+   {
+    "titulo": "El Peruano — Decreto Supremo 115-2025-PCM, Reglamento de la Ley 31814 (9-9-2025)",
+    "url": "https://busquedas.elperuano.pe/dispositivo/NL/2436426-1"
+   },
+   {
+    "titulo": "EUR-Lex — Directiva (UE) 2024/2853 sobre responsabilidad por productos defectuosos",
+    "url": "https://eur-lex.europa.eu/eli/dir/2024/2853/oj"
+   }
+  ],
+  "implicados": {
+   "normas_modificadas": [
+    {
+     "norma": "Código Civil (Decreto Legislativo 295)",
+     "articulo": "arts. 1970, 1972, 1973 y 1983 (precisión de aplicación, sin modificar)",
+     "accion": "complementa",
+     "url": "https://leyes.congreso.gob.pe/Documentos/DecretosLegislativos/00295.pdf"
+    },
+    {
+     "norma": "Decreto Supremo 115-2025-PCM, Reglamento de la Ley 31814",
+     "articulo": "art. 24 (riesgo alto) y evaluación de impacto",
+     "accion": "complementa",
+     "url": "https://www.gob.pe/institucion/pcm/normas-legales/7133522-115-2025-pcm"
+    },
+    {
+     "norma": "Decreto Supremo 024-2016-EM, Reglamento de Seguridad y Salud Ocupacional en Minería",
+     "articulo": "adecuación (DCF Primera)",
+     "accion": "complementa",
+     "url": "https://faolex.fao.org/docs/pdf/per160277.pdf"
+    },
+    {
+     "norma": "Ley 27181, Ley General de Transporte y Tránsito Terrestre",
+     "articulo": "SOAT (seguro adicional, art. 6.2)",
+     "accion": "complementa",
+     "url": "https://leyes.congreso.gob.pe/Documentos/Leyes/27181.pdf"
+    },
+    {
+     "norma": "Ley 29783, Ley de Seguridad y Salud en el Trabajo",
+     "articulo": "consulta al comité SST (art. 7.3)",
+     "accion": "complementa",
+     "url": "https://leyes.congreso.gob.pe/Documentos/Leyes/29783.pdf"
+    },
+    {
+     "norma": "Ley 29946, Ley del Contrato de Seguro",
+     "articulo": "acción directa de la víctima (art. 6.4)",
+     "accion": "complementa",
+     "url": "https://leyes.congreso.gob.pe/Documentos/Leyes/29946.pdf"
+    }
+   ],
+   "entidades": [
+    {
+     "entidad": "Ministerio de Transportes y Comunicaciones",
+     "sigla": "MTC",
+     "sector": "Transportes",
+     "rol": "reglamentadora",
+     "responsabilidad": "Autoriza pruebas piloto y circulación en vías públicas (art. 8), supervisa y sanciona en transporte (art. 9) y adecúa los reglamentos de tránsito y vehículos (DCF Primera)."
+    },
+    {
+     "entidad": "Ministerio de Energía y Minas",
+     "sigla": "MINEM",
+     "sector": "Energía y Minas",
+     "rol": "reglamentadora",
+     "responsabilidad": "Adecúa el Reglamento de SSO en Minería (DCF Primera)."
+    },
+    {
+     "entidad": "Organismo Supervisor de la Inversión en Energía y Minería",
+     "sigla": "OSINERGMIN",
+     "sector": "PCM",
+     "rol": "sancionadora",
+     "responsabilidad": "Supervisa y sanciona los arts. 5 a 7 en la gran y mediana minería (art. 9.1)."
+    },
+    {
+     "entidad": "Superintendencia de Transporte Terrestre de Personas, Carga y Mercancías",
+     "sigla": "SUTRAN",
+     "sector": "Transportes",
+     "rol": "sancionadora",
+     "responsabilidad": "Fiscaliza y sanciona en el transporte terrestre (art. 9)."
+    },
+    {
+     "entidad": "Superintendencia Nacional de Fiscalización Laboral",
+     "sigla": "SUNAFIL",
+     "sector": "Trabajo",
+     "rol": "sancionadora",
+     "responsabilidad": "Fiscaliza seguridad y salud de los trabajadores y la consulta del art. 7.3 (art. 9)."
+    },
+    {
+     "entidad": "Superintendencia de Banca, Seguros y AFP",
+     "sigla": "SBS",
+     "sector": "Organismo constitucional autónomo",
+     "rol": "reglamentadora",
+     "responsabilidad": "Disposiciones para la comercialización del seguro (art. 6.3)."
+    },
+    {
+     "entidad": "Instituto Nacional de Calidad",
+     "sigla": "INACAL",
+     "sector": "Producción",
+     "rol": "consultiva",
+     "responsabilidad": "Acredita organismos de evaluación de la conformidad y aprueba normas técnicas peruanas (art. 7.2)."
+    },
+    {
+     "entidad": "Gobiernos regionales",
+     "sigla": "GORE",
+     "sector": "Gobiernos regionales",
+     "rol": "sancionadora",
+     "responsabilidad": "Supervisan y sancionan los arts. 5 a 7 en pequeña minería y minería artesanal (art. 9.1)."
+    }
+   ],
+   "sujetos_obligados": "Operadores de sistemas autónomos y robóticos en minería, transporte y logística; fabricantes e integradores (responsabilidad solidaria por defectos).",
+   "beneficiarios": "Terceros potencialmente afectados (trabajadores de contratistas, peatones, usuarios de vías), operadores y aseguradoras que ganan certeza jurídica. Número no estimable con información pública."
+  },
+  "impacto": {
+   "tipo": "neutro",
+   "costo_estado": {
+    "rango": "S/ 0,5–1,5 millones/año (supervisión y autorizaciones)",
+    "horizonte": "anual",
+    "supuestos": "Estimación del redactor: 3 a 8 especialistas adicionales distribuidos entre MTC, autoridad de seguridad minera y SUNAFIL, con costo laboral anual de S/ 150 000 a S/ 190 000 por plaza (supuesto propio sin fuente oficial), y gastos menores de evaluación de pilotos.",
+    "financiamiento": "Presupuesto institucional de MTC, MINEM, SUTRAN, SUNAFIL y la autoridad de seguridad minera, sin demandar recursos adicionales al Tesoro Público y sujeto a disponibilidad presupuestal."
+   },
+   "beneficio_estado": "Menor litigiosidad por indeterminación del responsable y mejor información para investigar accidentes; no cuantificable con información pública.",
+   "beneficio_sociedad": "Reparación más rápida y segura de las víctimas y operación más segura de sistemas autónomos; no cuantificable con información pública.",
+   "inversion_privada": "Certeza jurídica para inversiones en automatización minera y logística y en pilotos de vehículos autónomos; monto no estimable.",
+   "costo_privado": "Primas de seguro de responsabilidad civil, conservación del registro de eventos y análisis de riesgos; incremental para operadores que ya cumplen estándares de fabricantes. La definición acotada excluye la automatización fija, lo que concentra el costo en flotas y robots móviles; el sellado criptográfico de registros y la firma de actualizaciones son capacidades estándar de los fabricantes.",
+   "riesgos": "Montos mínimos de seguro mal calibrados que encarezcan la adopción; insuficiente capacidad técnica de las autoridades para evaluar pilotos; conflictos de competencia entre supervisores (mitigado con reparto por ámbito y non bis in idem).",
+   "confianza": "media"
+  },
+  "revision_atendida": [
+   {
+    "especialidad": "seguridad",
+    "severidad": "alta",
+    "hallazgo": "La intrusión informática podría invocarse como hecho de tercero",
+    "accion": "corregido",
+    "nota": "Art. 4.2: solo exime si el operador acredita medidas del art. 7.1.e y ataque no previsible ni evitable; repetición contra el autor."
+   },
+   {
+    "especialidad": "jurista",
+    "severidad": "media",
+    "hallazgo": "Ciberataque como eximente del art. 1972",
+    "accion": "corregido",
+    "nota": "Ídem art. 4.2."
+   },
+   {
+    "especialidad": "seguridad",
+    "severidad": "alta",
+    "hallazgo": "Registro sin sellado, hora confiable, exportabilidad ni acceso local",
+    "accion": "corregido",
+    "nota": "Art. 5.1 a)-d) y cadena de custodia en 5.2."
+   },
+   {
+    "especialidad": "tecnologico",
+    "severidad": "media",
+    "hallazgo": "Registro sin contenido mínimo y dependiente del fabricante",
+    "accion": "corregido",
+    "nota": "Art. 5.5: contenido mínimo por reglamento y deber del fabricante de facilitar la extracción."
+   },
+   {
+    "especialidad": "jurista",
+    "severidad": "media",
+    "hallazgo": "Carga de la prueba del defecto",
+    "accion": "corregido",
+    "nota": "Art. 4.4: presunción de defecto si no se exhibe información técnica o el registro muestra anomalía."
+   },
+   {
+    "especialidad": "tecnologico",
+    "severidad": "media",
+    "hallazgo": "Definición incluye automatización fija",
+    "accion": "corregido",
+    "nota": "Art. 3.a acotado a equipos móviles que deciden trayectorias; excluye ciclo fijo, PLC, fajas y puertas."
+   },
+   {
+    "especialidad": "normativo",
+    "severidad": "media",
+    "hallazgo": "Cita imprecisa del art. 24.1.j y calificación por remisión",
+    "accion": "corregido",
+    "nota": "Problema cita la condición cumulativa; art. 7.4 aplica solo si califica como riesgo alto según el art. 24."
+   },
+   {
+    "especialidad": "jurista",
+    "severidad": "media",
+    "hallazgo": "Autoridad minera indeterminada y multas por remisión reglamentaria",
+    "accion": "corregido",
+    "nota": "Art. 9.1 nombra a OSINERGMIN (Ley 29901) y gobiernos regionales; art. 9.3 fija rangos de multa en la ley."
+   },
+   {
+    "especialidad": "normativo",
+    "severidad": "media",
+    "hallazgo": "URL del D.S. 024-2016-EM errónea",
+    "accion": "corregido",
+    "nota": "Se usa la publicación en FAOLEX (per160277), verificada."
+   },
+   {
+    "especialidad": "seguridad",
+    "severidad": "media",
+    "hallazgo": "Seguridad digital sin contenido mínimo",
+    "accion": "corregido",
+    "nota": "Art. 7.1.e con medidas mínimas e IEC 62443; nueva infracción grave en 9.2.d."
+   },
+   {
+    "especialidad": "seguridad",
+    "severidad": "media",
+    "hallazgo": "Notificación de incidentes digitales",
+    "accion": "corregido",
+    "nota": "Art. 7.1.f remite al régimen vigente sin plazos propios."
+   },
+   {
+    "especialidad": "constitucional",
+    "severidad": "baja",
+    "hallazgo": "Autoridad minera indeterminada",
+    "accion": "corregido",
+    "nota": "Art. 9.1. SUNAFIL se mantiene para seguridad y salud en el trabajo."
+   },
+   {
+    "especialidad": "constitucional",
+    "severidad": "baja",
+    "hallazgo": "Topes de multa en la ley",
+    "accion": "corregido",
+    "nota": "Art. 9.3 (hasta 50 UIT y de 50 a 500 UIT, tope 10 % de ingresos)."
+   },
+   {
+    "especialidad": "normativo",
+    "severidad": "baja",
+    "hallazgo": "Precisar reparto OSINERGMIN/SUNAFIL",
+    "accion": "corregido",
+    "nota": "Art. 9.1; reparto vigente por confirmar en SPIJ antes del dictamen."
+   },
+   {
+    "especialidad": "jurista",
+    "severidad": "baja",
+    "hallazgo": "Acción directa contra el asegurador",
+    "accion": "corregido",
+    "nota": "Art. 6.4 con remisión a la Ley 29946 (sin número de artículo, no verificado)."
+   },
+   {
+    "especialidad": "jurista",
+    "severidad": "baja",
+    "hallazgo": "Concurrencia de culpa de la víctima (art. 1973)",
+    "accion": "corregido",
+    "nota": "Art. 4.2."
+   },
+   {
+    "especialidad": "tecnologico",
+    "severidad": "baja",
+    "hallazgo": "Referencias técnicas para logística y transporte",
+    "accion": "corregido",
+    "nota": "Art. 7.2: ISO 3691-4, ISO 10218, Reglamentos ONU 155/156/157 e IEC 62443."
+   },
+   {
+    "especialidad": "tecnologico",
+    "severidad": "baja",
+    "hallazgo": "Seguridad de actualizaciones remotas y régimen ACN",
+    "accion": "corregido",
+    "nota": "Art. 7.1.e."
+   },
+   {
+    "especialidad": "tecnologico",
+    "severidad": "baja",
+    "hallazgo": "Uso del registro para evaluar desempeño",
+    "accion": "corregido",
+    "nota": "Art. 5.4: prohibido salvo investigación de incidentes; remisión genérica a normas de monitoreo y gestión algorítmica."
+   },
+   {
+    "especialidad": "seguridad",
+    "severidad": "baja",
+    "hallazgo": "Canal de reporte de vulnerabilidades",
+    "accion": "corregido",
+    "nota": "Art. 7.1.g."
+   }
+  ]
+ },
+ {
+  "id": "IA-16",
+  "eje": "ia",
+  "titulo": "Ley que modifica el artículo 15 de la Ley 29733, Ley de Protección de Datos Personales, para modernizar el régimen de flujo transfronterizo de datos personales y establece una hoja de ruta hacia el reconocimiento de nivel adecuado de protección por la Unión Europea",
+  "titulo_corto": "Flujos de datos y adecuación UE",
+  "sumilla": "Sustituye el artículo 15 de la Ley 29733 para dar rango legal a las decisiones de nivel adecuado, a las cláusulas contractuales modelo, a las normas corporativas vinculantes y a las certificaciones reconocidas, acotar las excepciones con reserva de ley y precisar la responsabilidad del exportador; simplifica la comunicación de flujos a la autoridad; y encarga al Poder Ejecutivo una hoja de ruta con hitos públicos para solicitar a la Comisión Europea una decisión de adecuación y evaluar la participación en el Foro Global CBPR y la adhesión al Convenio 108 modernizado, sin crear organismos.",
+  "problema": "La Comisión Europea reconoce un nivel adecuado de protección de datos a Andorra, Argentina, Brasil, Canadá (organizaciones comerciales), Islas Feroe, Guernsey, Israel, Isla de Man, Japón, Jersey, Nueva Zelanda, Corea del Sur, Suiza, Reino Unido, Estados Unidos (empresas del Marco de Privacidad de Datos), Uruguay y la Organización Europea de Patentes; el Perú no figura en la lista. Brasil obtuvo su decisión de adecuación mutua en enero de 2026. Sin ella, las empresas peruanas que prestan servicios con datos de europeos deben negociar cláusulas tipo y evaluaciones de transferencia caso por caso, lo que encarece sus exportaciones. El marco interno ya tiene piezas: el artículo 15 de la Ley 29733 exige nivel adecuado o garantías del emisor, con ocho excepciones, y el Reglamento aprobado por el Decreto Supremo 016-2024-JUS regula la resolución de nivel adecuado, las cláusulas modelo y la comunicación de cada flujo a la autoridad para su registro (arts. 18 a 21). La ley no menciona normas corporativas vinculantes ni certificaciones, no fija límites a excepciones amplias como la de 'mejora y soporte del servicio' y no hay un plan para cerrar las brechas que la Comisión evalúa conforme al artículo 45 del Reglamento General de Protección de Datos. Según el portal del Foro Global CBPR, el Perú tampoco participa en ese sistema.",
+  "objeto": "Modernizar el régimen de flujo transfronterizo de datos personales de la Ley 29733 con mecanismos de transferencia reconocidos internacionalmente y fijar una hoja de ruta verificable para obtener el reconocimiento de nivel adecuado de protección por la Unión Europea y otros esquemas de interoperabilidad.",
+  "articulado": [
+   {
+    "n": "Artículo 1",
+    "titulo": "Objeto",
+    "texto": "La presente ley tiene por objeto modificar el artículo 15 de la Ley 29733, Ley de Protección de Datos Personales, para modernizar el régimen de flujo transfronterizo de datos personales, y establecer una hoja de ruta hacia el reconocimiento de nivel adecuado de protección por la Unión Europea y la interoperabilidad con otros mecanismos internacionales de transferencia."
+   },
+   {
+    "n": "Artículo 2",
+    "titulo": "Modificación del artículo 15 de la Ley 29733",
+    "texto": "Se modifica el artículo 15 de la Ley 29733, Ley de Protección de Datos Personales, con el texto siguiente:\n\n\"Artículo 15. Flujo transfronterizo de datos personales\n15.1 El titular y el encargado del banco de datos personales pueden realizar el flujo transfronterizo de datos personales cuando el país, territorio, sector específico u organización internacional destinatario cuente con un nivel de protección adecuado reconocido por la Autoridad Nacional de Protección de Datos Personales mediante resolución publicada.\n15.2 A falta de dicho reconocimiento, el emisor del flujo transfronterizo garantiza que el tratamiento de los datos personales se efectúe conforme a lo dispuesto por la presente Ley, mediante alguno de los instrumentos siguientes:\na) Cláusulas contractuales modelo aprobadas o reconocidas por la Autoridad Nacional de Protección de Datos Personales;\nb) Normas corporativas vinculantes aprobadas por la Autoridad Nacional de Protección de Datos Personales para transferencias dentro de un grupo empresarial;\nc) Certificaciones o códigos de conducta reconocidos por la Autoridad Nacional de Protección de Datos Personales que contengan compromisos vinculantes y exigibles del destinatario;\nd) Otros instrumentos jurídicos vinculantes que establezcan cuando menos las mismas obligaciones a las que se encuentra sujeto el emisor, conforme al reglamento.\nLos instrumentos del presente párrafo obligan al destinatario a no realizar transferencias ulteriores a terceros sino en condiciones que garanticen el mismo nivel de protección y a notificar al emisor cualquier solicitud de acceso de autoridades extranjeras, en la medida en que la ley aplicable lo permita.\n15.3 No se aplica lo dispuesto en el numeral 15.2 en los siguientes casos:\n1. Acuerdos en el marco de tratados internacionales sobre la materia en los cuales la República del Perú sea parte.\n2. Cooperación judicial internacional.\n3. Cooperación internacional entre organismos de inteligencia para la lucha contra el terrorismo, tráfico ilícito de drogas, lavado de activos, corrupción, trata de personas y otras formas de criminalidad organizada, conforme a tratados o acuerdos interinstitucionales y al Decreto Legislativo 1141 o la norma que regule el Sistema de Inteligencia Nacional, con registro de las transferencias realizadas y sujeta al control de la comisión de inteligencia del Congreso de la República; solo comprende los datos necesarios y proporcionales al caso concreto.\n4. Cuando la transferencia sea ocasional y necesaria para la ejecución de una relación contractual en la que el titular de datos personales sea parte o para la adopción de medidas precontractuales a su solicitud.\n5. Cuando se trate de transferencias bancarias o bursátiles, en lo relativo a las transacciones respectivas y conforme a la ley aplicable.\n6. Cuando el flujo transfronterizo de datos personales se realice para la protección, prevención, diagnóstico o tratamiento médico o quirúrgico de su titular; o cuando sea necesario para la realización de estudios epidemiológicos o análogos, en tanto se apliquen procedimientos de disociación adecuados.\n7. Cuando el titular de los datos personales haya dado su consentimiento previo, informado, expreso e inequívoco, luego de ser informado de los riesgos derivados de la ausencia de nivel adecuado y de garantías.\n8. Cuando el flujo sea necesario para proteger intereses vitales del titular o de un tercero, si el titular está física o jurídicamente incapacitado para dar su consentimiento.\nSolo por ley pueden establecerse otros supuestos, con respeto del principio de proporcionalidad.\n15.4 Las excepciones de los numerales 4 a 8 del párrafo 15.3 se interpretan restrictivamente y solo amparan los flujos estrictamente necesarios para la finalidad que los justifica; no amparan transferencias sistemáticas o masivas que puedan realizarse mediante los instrumentos del párrafo 15.2.\n15.5 El emisor conserva la responsabilidad por el cumplimiento de la presente Ley respecto de los datos transferidos y responde frente al titular de los datos personales por los daños derivados del incumplimiento de los instrumentos del párrafo 15.2, sin perjuicio de su derecho de repetición contra el destinatario.\n15.6 Para reconocer un nivel adecuado de protección, la Autoridad Nacional de Protección de Datos Personales evalúa, además de los criterios que establezca el reglamento, la existencia de una autoridad de control independiente con potestad sancionadora, de vías efectivas de tutela para los titulares y de límites legales y control independiente sobre el acceso de autoridades públicas a los datos. La existencia de tratados o estándares comunes suscritos por el Perú se considera en la evaluación, pero no la sustituye. La Autoridad publica y mantiene actualizada la relación de países, territorios, sectores y organizaciones internacionales reconocidos, así como los modelos de cláusulas y las normas corporativas vinculantes aprobadas.\n15.7 El flujo transfronterizo de datos sensibles y de bancos de datos personales de entidades públicas requiere, además, cifrado en tránsito y en reposo con gestión de claves bajo control del emisor y evaluación de impacto previa conforme al reglamento, sin perjuicio de las reglas de alojamiento en territorio nacional de la información pública clasificada como crítica o reservada.\""
+   },
+   {
+    "n": "Artículo 3",
+    "titulo": "Comunicación simplificada de flujos",
+    "texto": "La comunicación del flujo transfronterizo a la Autoridad Nacional de Protección de Datos Personales para su inscripción en el Registro Nacional de Protección de Datos Personales se realiza una sola vez por banco de datos y por categoría de destinatarios y de países de destino, indicando el instrumento del párrafo 15.2 o la excepción del párrafo 15.3 del artículo 15 de la Ley 29733 en que se sustenta, y se actualiza solo ante cambios sustanciales. La comunicación no constituye autorización previa."
+   },
+   {
+    "n": "Artículo 4",
+    "titulo": "Incorporación del párrafo 3.2 al artículo 3 de la Ley 29733",
+    "texto": "Se incorpora el párrafo 3.2 al artículo 3 de la Ley 29733, Ley de Protección de Datos Personales (numeración por verificar en SPIJ; el texto vigente pasa a ser el párrafo 3.1), con el texto siguiente:\n\n\"Artículo 3. (...)\n3.2 Los derechos y garantías de la presente Ley amparan a toda persona natural cuyos datos personales sean tratados por titulares o encargados de bancos de datos establecidos en el territorio nacional, con independencia de su nacionalidad o lugar de residencia, incluidos los datos recibidos del extranjero.\""
+   },
+   {
+    "n": "Artículo 5",
+    "titulo": "Hoja de ruta hacia la adecuación con la Unión Europea",
+    "texto": "5.1 El Poder Ejecutivo, a través del Ministerio de Justicia y Derechos Humanos, en coordinación con el Ministerio de Relaciones Exteriores, el Ministerio de Comercio Exterior y Turismo y la Presidencia del Consejo de Ministros, aprueba y publica, en el plazo de doce meses contados desde la entrada en vigencia de la presente ley, una hoja de ruta orientada a una eventual solicitud de decisión de adecuación conforme al artículo 45 del Reglamento (UE) 2016/679, cuya presentación decide el Poder Ejecutivo conforme al inciso 11 del artículo 118 de la Constitución.\n5.2 La hoja de ruta contiene, como mínimo: a) un análisis de brechas del marco peruano frente a los criterios del artículo 45 del Reglamento (UE) 2016/679, incluidos la independencia de la autoridad de control, las transferencias ulteriores, el acceso de autoridades públicas a los datos y las vías de tutela, con análisis específico del régimen de conservación y acceso a datos derivados de las telecomunicaciones del Decreto Legislativo 1182, del Decreto Legislativo 1141 y de las demás normas que habiliten el acceso de autoridades a datos personales, a la luz de los criterios de necesidad, proporcionalidad y control independiente; b) las medidas normativas y administrativas para cerrarlas, con responsables y plazos; c) el cronograma de diálogo técnico con la Comisión Europea; y d) indicadores de avance.\n5.3 El Ministerio de Justicia y Derechos Humanos presenta anualmente a las comisiones competentes de ambas cámaras del Congreso de la República un informe público de avance de la hoja de ruta."
+   },
+   {
+    "n": "Artículo 6",
+    "titulo": "Interoperabilidad con otros mecanismos internacionales",
+    "texto": "Se encarga al Poder Ejecutivo evaluar y, de ser el caso, iniciar conforme a sus atribuciones constitucionales en materia de relaciones exteriores y tratados: a) la participación del Perú en el Foro Global de Reglas de Privacidad Transfronterizas (Global CBPR Forum) y el reconocimiento de sus certificaciones como instrumento del literal c) del párrafo 15.2 del artículo 15 de la Ley 29733; b) la adhesión al Convenio para la protección de las personas con respecto al tratamiento automatizado de datos de carácter personal (Convenio 108 del Consejo de Europa) y a su Protocolo de modernización; y c) la convergencia de las cláusulas contractuales modelo nacionales con las de la Unión Europea y las de la Red Iberoamericana de Protección de Datos. Los resultados de la evaluación se incluyen en el informe del numeral 5.3."
+   },
+   {
+    "n": "Artículo 7",
+    "titulo": "Infracciones",
+    "texto": "7.1 Constituye infracción grave a la Ley 29733 realizar un flujo transfronterizo de datos personales sin contar con reconocimiento de nivel adecuado, con alguno de los instrumentos del párrafo 15.2 ni con alguna de las excepciones del párrafo 15.3 de su artículo 15. La omisión de comunicar el flujo conforme al artículo 3 de la presente ley se mantiene como infracción leve conforme al reglamento vigente, sin duplicarse.\n7.2 Las infracciones se sancionan por la Autoridad Nacional de Protección de Datos Personales conforme a los artículos 38 y 39 de la Ley 29733 y al Texto Único Ordenado de la Ley 27444, aprobado por el Decreto Supremo 006-2026-JUS. El reglamento incorpora la conducta del numeral 7.1 en su cuadro de infracciones y adecúa las infracciones reglamentarias que se superpongan."
+   }
+  ],
+  "disposiciones": [
+   {
+    "tipo": "Complementaria Final",
+    "n": "Primera",
+    "texto": "Adecuación reglamentaria. El Poder Ejecutivo, mediante decreto supremo refrendado por el ministro de Justicia y Derechos Humanos, adecúa los artículos 18 a 21, incluido el párrafo 19.3, y el régimen de infracciones del Reglamento de la Ley 29733, aprobado por el Decreto Supremo 016-2024-JUS, en un plazo de ciento veinte días hábiles contados desde la entrada en vigencia de la presente ley, incluido el procedimiento de aprobación de normas corporativas vinculantes y de reconocimiento de certificaciones. Las infracciones reglamentarias que se superpongan con las del artículo 7 se adecúan o derogan."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Segunda",
+    "texto": "Primera relación de nivel adecuado. La Autoridad Nacional de Protección de Datos Personales publica la primera relación de países, territorios y organizaciones con nivel adecuado de protección en un plazo de doce meses contados desde la entrada en vigencia de la presente ley, priorizando la evaluación de los Estados del Espacio Económico Europeo y de los principales destinos de los flujos comunicados al Registro Nacional de Protección de Datos Personales."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Tercera",
+    "texto": "Concordancia con otras normas. Lo dispuesto en la presente ley no afecta las reglas de alojamiento en territorio nacional de la información pública clasificada como crítica o reservada que establezca la normativa de gobierno digital, ni las competencias de la Autoridad Nacional de Protección de Datos Personales previstas en el artículo 32 de la Ley 29733."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Cuarta",
+    "texto": "Financiamiento. La implementación de la presente ley se financia con cargo al presupuesto institucional del Ministerio de Justicia y Derechos Humanos y de las demás entidades involucradas, sin demandar recursos adicionales al Tesoro Público."
+   },
+   {
+    "tipo": "Complementaria Transitoria",
+    "n": "Única",
+    "texto": "Flujos en curso. Los flujos transfronterizos que se realicen a la entrada en vigencia de la presente ley conforme a la normativa anterior se adecúan a lo dispuesto en el artículo 15 de la Ley 29733, modificado por la presente ley, en un plazo de doce meses contados desde la entrada en vigencia de la adecuación reglamentaria."
+   }
+  ],
+  "costo_beneficio": "El costo para el Estado es bajo: la Autoridad Nacional de Protección de Datos Personales ya emite resoluciones de nivel adecuado y modelos de cláusulas, y la hoja de ruta se elabora con personal del MINJUSDH, la Cancillería y el MINCETUR. La aprobación de normas corporativas vinculantes y de certificaciones exige capacidad técnica adicional moderada. Para las empresas, la ley reduce costos al ofrecer instrumentos estandarizados y simplificar la comunicación de flujos, aunque limita el uso de excepciones amplias. El principal beneficio potencial es la decisión de adecuación de la Unión Europea, que eliminaría la necesidad de cláusulas tipo para recibir datos de europeos y mejoraría la competitividad de los servicios exportables; su obtención no está garantizada y depende también de reformas sobre la autonomía de la autoridad y el acceso estatal a datos.",
+  "efecto_vigencia": "Modifica el artículo 15 de la Ley 29733 (texto íntegro sustitutorio: conserva las excepciones 1, 2, 5, 6 y 7; acota la 3 con salvaguardas conforme al D.Leg. 1141; restringe la 4 a transferencias ocasionales y suprime \"mejora y soporte del servicio\"; sustituye la cláusula abierta reglamentaria del numeral 8 por el supuesto de intereses vitales, con reserva de ley para nuevas excepciones) e incorpora el párrafo 3.2 a su artículo 3 (numeración por verificar en SPIJ). Dispone adecuar los artículos 18 a 21 (incluido el 19.3) y el cuadro de infracciones del D.S. 016-2024-JUS. Complementa los artículos 32, 38 y 39 de la Ley 29733 sin modificarlos; la autonomía de la autoridad y la portabilidad son materias ajenas a esta ley. La hoja de ruta analiza el D.Leg. 1182 y el D.Leg. 1141; su eventual presentación y la adhesión a tratados quedan sujetas a los artículos 56, 57 y 118 de la Constitución. No crea organismos ni pliegos. No deroga normas. No requiere votación de ley orgánica.",
+  "normas_relacionadas": [
+   {
+    "norma": "Ley 29733, Ley de Protección de Datos Personales (art. 15)",
+    "url": "https://www.minjus.gob.pe/wp-content/uploads/2013/04/LEY-29733.pdf"
+   },
+   {
+    "norma": "Decreto Supremo 016-2024-JUS, Reglamento de la Ley 29733 (arts. 18 a 21)",
+    "url": "https://www3.congreso.gob.pe/Docs/DGP/DIDP/files/ds_016-2024-jus.pdf"
+   },
+   {
+    "norma": "Reglamento (UE) 2016/679, Reglamento General de Protección de Datos (art. 45)",
+    "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj"
+   }
+  ],
+  "antecedentes": "Por verificar en SPLEY.",
+  "referencias_internacionales": [
+   {
+    "pais": "Unión Europea",
+    "norma": "Decisiones de adecuación de la Comisión Europea (lista oficial)",
+    "url": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en"
+   },
+   {
+    "pais": "Brasil",
+    "norma": "Decisión de adecuación mutua UE–Brasil de enero de 2026 (número de decisión según fuentes secundarias: Decisión de Ejecución (UE) 2026/179; por verificar en EUR-Lex)",
+    "url": "https://www.bakermckenzie.com/en/insight/publications/2026/01/brazil-and-european-union-mutual-data-protection-adequacy-decision"
+   },
+   {
+    "pais": "Internacional",
+    "norma": "Global Cross-Border Privacy Rules Forum (membresía)",
+    "url": "https://www.globalcbpr.org/membership/"
+   }
+  ],
+  "comision_sugerida": "Ciencia, Innovación Tecnológica y Sociedad Digital",
+  "comision_secundaria": "Justicia y Derechos Humanos",
+  "plan2050": [
+   "peru-en-la-era-digital",
+   "comercio-exterior-e-insercion-en-el-merc",
+   "transformacion-digital"
+  ],
+  "ods": [
+   9,
+   16,
+   17
+  ],
+  "prioridad": "alta",
+  "costo_fiscal": "bajo",
+  "plazo": "mediano",
+  "indicador_exito": "Al 2031, hoja de ruta publicada con informes anuales al Congreso, relación oficial de países con nivel adecuado publicada por la ANPD, procedimiento de normas corporativas vinculantes operativo y diálogo formal de adecuación iniciado con la Comisión Europea.",
+  "tags": [
+   "datos personales",
+   "flujos transfronterizos",
+   "Unión Europea",
+   "comercio digital",
+   "ANPD"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Comisión Europea — Adequacy decisions (lista de países reconocidos)",
+    "url": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en"
+   },
+   {
+    "titulo": "Baker McKenzie — Brazil and European Union mutual data protection adequacy decision (enero 2026)",
+    "url": "https://www.bakermckenzie.com/en/insight/publications/2026/01/brazil-and-european-union-mutual-data-protection-adequacy-decision"
+   },
+   {
+    "titulo": "Decreto Supremo 016-2024-JUS, Reglamento de la Ley 29733 (copia del Congreso)",
+    "url": "https://www3.congreso.gob.pe/Docs/DGP/DIDP/files/ds_016-2024-jus.pdf"
+   },
+   {
+    "titulo": "Ley 29733 (MINJUSDH)",
+    "url": "https://www.minjus.gob.pe/wp-content/uploads/2013/04/LEY-29733.pdf"
+   },
+   {
+    "titulo": "Global CBPR Forum — Membership",
+    "url": "https://www.globalcbpr.org/membership/"
+   }
+  ],
+  "implicados": {
+   "normas_modificadas": [
+    {
+     "norma": "Ley 29733, Ley de Protección de Datos Personales",
+     "articulo": "art. 15",
+     "accion": "modifica",
+     "url": "https://www.minjus.gob.pe/wp-content/uploads/2013/04/LEY-29733.pdf"
+    },
+    {
+     "norma": "Ley 29733, Ley de Protección de Datos Personales",
+     "articulo": "art. 3 (incorpora párrafo 3.2)",
+     "accion": "incorpora",
+     "url": "https://www.minjus.gob.pe/wp-content/uploads/2013/04/LEY-29733.pdf"
+    },
+    {
+     "norma": "Decreto Supremo 016-2024-JUS, Reglamento de la Ley 29733",
+     "articulo": "arts. 18 a 21 e infracciones (adecuación)",
+     "accion": "complementa",
+     "url": "https://www3.congreso.gob.pe/Docs/DGP/DIDP/files/ds_016-2024-jus.pdf"
+    },
+    {
+     "norma": "Ley 29733, Ley de Protección de Datos Personales",
+     "articulo": "art. 39 (sanciones, remisión)",
+     "accion": "complementa",
+     "url": "https://www.minjus.gob.pe/wp-content/uploads/2013/04/LEY-29733.pdf"
+    },
+    {
+     "norma": "Decreto Legislativo 1182 y Decreto Legislativo 1141",
+     "articulo": "objeto de análisis en la hoja de ruta (art. 5.2.a)",
+     "accion": "complementa",
+     "url": "https://leyes.congreso.gob.pe/Documentos/DecretosLegislativos/01182.pdf"
+    }
+   ],
+   "entidades": [
+    {
+     "entidad": "Autoridad Nacional de Protección de Datos Personales (Dirección General de Transparencia, Acceso a la Información Pública y Protección de Datos Personales)",
+     "sigla": "ANPD",
+     "sector": "MINJUSDH",
+     "rol": "rectora",
+     "responsabilidad": "Reconoce nivel adecuado y publica la relación (art. 2, párrafo 15.6; DCF Segunda), aprueba cláusulas, normas corporativas y certificaciones (párrafo 15.2), registra comunicaciones (art. 3) y sanciona (art. 7)."
+    },
+    {
+     "entidad": "Ministerio de Justicia y Derechos Humanos",
+     "sigla": "MINJUSDH",
+     "sector": "Justicia",
+     "rol": "ejecutora",
+     "responsabilidad": "Lidera la hoja de ruta de adecuación UE e informa anualmente al Congreso (art. 5); adecúa el reglamento (DCF Primera)."
+    },
+    {
+     "entidad": "Ministerio de Relaciones Exteriores",
+     "sigla": "RREE",
+     "sector": "Relaciones Exteriores",
+     "rol": "consultiva",
+     "responsabilidad": "Coordina el diálogo con la Comisión Europea y la evaluación de adhesión al Convenio 108 y al Foro Global CBPR (arts. 5 y 6)."
+    },
+    {
+     "entidad": "Ministerio de Comercio Exterior y Turismo",
+     "sigla": "MINCETUR",
+     "sector": "Comercio Exterior",
+     "rol": "consultiva",
+     "responsabilidad": "Aporta el análisis de exportación de servicios a la hoja de ruta (art. 5.1)."
+    },
+    {
+     "entidad": "Presidencia del Consejo de Ministros (Secretaría de Gobierno y Transformación Digital)",
+     "sigla": "PCM-SGTD",
+     "sector": "PCM",
+     "rol": "consultiva",
+     "responsabilidad": "Coordina la hoja de ruta con la política de gobierno digital (art. 5.1)."
+    },
+    {
+     "entidad": "Dirección Nacional de Inteligencia",
+     "sigla": "DINI",
+     "sector": "PCM",
+     "rol": "regulada",
+     "responsabilidad": "Registra las transferencias de cooperación en inteligencia sujetas a control parlamentario (art. 2, párrafo 15.3.3)."
+    }
+   ],
+   "sujetos_obligados": "Titulares y encargados de bancos de datos personales que realizan flujos transfronterizos; entidades públicas responsables de la hoja de ruta.",
+   "beneficiarios": "Empresas exportadoras de servicios con datos personales (software, centros de contacto, analítica, nube) y titulares de datos, peruanos y extranjeros. Número no estimable con información pública."
+  },
+  "impacto": {
+   "tipo": "neutro",
+   "costo_estado": {
+    "rango": "S/ 0,4–1 millón/año",
+    "horizonte": "2027-2031",
+    "supuestos": "Estimación del redactor: 3 a 5 especialistas de la ANPD para evaluar normas corporativas vinculantes, certificaciones y países (costo laboral anual de S/ 120 000 a S/ 160 000 por plaza, supuesto propio sin fuente oficial), más gastos de diálogo técnico internacional.",
+    "financiamiento": "Presupuesto institucional del MINJUSDH, RREE y MINCETUR, sin demandar recursos adicionales al Tesoro Público y sujeto a disponibilidad presupuestal."
+   },
+   "beneficio_estado": "Mayor posicionamiento para negociar acuerdos comerciales digitales y menor carga administrativa en el registro de flujos; no cuantificable con información pública.",
+   "beneficio_sociedad": "Menores costos de cumplimiento para exportar servicios con datos personales si se obtiene la adecuación; mejor protección de titulares por límites a excepciones y responsabilidad del exportador. No cuantificable con información pública.",
+   "inversion_privada": "Potencial atracción de centros de servicios y operaciones de datos orientados a Europa; monto no estimable.",
+   "costo_privado": "Adecuación de contratos a cláusulas modelo o normas corporativas y revisión de flujos amparados en excepciones amplias; moderado y concentrado en el plazo de adecuación.",
+   "riesgos": "La adecuación depende de la evaluación soberana de la Comisión Europea y de reformas no incluidas aquí (autonomía de la autoridad, acceso estatal a datos); restricción de excepciones podría afectar operaciones que hoy dependen de ellas (mitigado con plazo transitorio e instrumentos estandarizados); capacidad limitada de la ANPD.",
+   "confianza": "media"
+  },
+  "revision_atendida": [
+   {
+    "especialidad": "constitucional",
+    "severidad": "media",
+    "hallazgo": "Numeral 8: el reglamento no puede crear excepciones (reserva de ley)",
+    "accion": "corregido",
+    "nota": "Se sustituye por el supuesto de intereses vitales y se dispone que solo por ley se crean otros."
+   },
+   {
+    "especialidad": "jurista",
+    "severidad": "media",
+    "hallazgo": "Numeral 8 permite excepciones por decreto supremo",
+    "accion": "corregido",
+    "nota": "Ídem; el 15.4 se mantiene para numerales 4 a 8."
+   },
+   {
+    "especialidad": "tecnologico",
+    "severidad": "media",
+    "hallazgo": "Numeral 4 mantiene 'mejora y soporte del servicio'",
+    "accion": "corregido",
+    "nota": "Restringido a transferencias ocasionales necesarias para el contrato o medidas precontractuales (cf. art. 49.1.b RGPD)."
+   },
+   {
+    "especialidad": "tecnologico",
+    "severidad": "media",
+    "hallazgo": "Hoja de ruta no nombra DL 1182 ni DL 1141",
+    "accion": "corregido",
+    "nota": "Art. 5.2.a con análisis específico de ambos decretos."
+   },
+   {
+    "especialidad": "seguridad",
+    "severidad": "media",
+    "hallazgo": "Excepción de inteligencia sin salvaguardas",
+    "accion": "corregido",
+    "nota": "Numeral 3: tratados/acuerdos, DL 1141, registro, control parlamentario, necesidad y proporcionalidad."
+   },
+   {
+    "especialidad": "seguridad",
+    "severidad": "media",
+    "hallazgo": "Transferencias ulteriores no reguladas",
+    "accion": "corregido",
+    "nota": "Párrafo final del 15.2."
+   },
+   {
+    "especialidad": "seguridad",
+    "severidad": "media",
+    "hallazgo": "Datos sensibles y bancos públicos sin salvaguardas reforzadas",
+    "accion": "corregido",
+    "nota": "Nuevo 15.7: cifrado con claves bajo control del emisor y evaluación de impacto previa."
+   },
+   {
+    "especialidad": "constitucional",
+    "severidad": "baja",
+    "hallazgo": "Inteligencia sin garantías",
+    "accion": "corregido",
+    "nota": "Numeral 3."
+   },
+   {
+    "especialidad": "constitucional",
+    "severidad": "baja",
+    "hallazgo": "Hoja de ruta 'para solicitar' toca art. 118.11",
+    "accion": "corregido",
+    "nota": "Art. 5.1: 'orientada a una eventual solicitud' que decide el Ejecutivo."
+   },
+   {
+    "especialidad": "jurista",
+    "severidad": "baja",
+    "hallazgo": "Doble tipificación con el reglamento",
+    "accion": "corregido",
+    "nota": "Art. 7 y DCF Primera: se adecúan o derogan infracciones superpuestas; la leve por no comunicar se mantiene en el reglamento."
+   },
+   {
+    "especialidad": "jurista",
+    "severidad": "baja",
+    "hallazgo": "Bicameralidad y financiamiento en el articulado",
+    "accion": "corregido",
+    "nota": "Art. 5.3 refiere a ambas cámaras; financiamiento pasa a DCF Cuarta."
+   },
+   {
+    "especialidad": "tecnologico",
+    "severidad": "baja",
+    "hallazgo": "Vía abreviada del art. 19.3 del reglamento vacía los criterios",
+    "accion": "corregido",
+    "nota": "15.6: los tratados se consideran pero no sustituyen la evaluación; DCF Primera adecúa el 19.3."
+   },
+   {
+    "especialidad": "tecnologico",
+    "severidad": "baja",
+    "hallazgo": "Arts. 4 y 7 sueltos fuera de la Ley 29733",
+    "accion": "parcial",
+    "nota": "El art. 4 se incorpora como párrafo 3.2 de la Ley 29733; las infracciones quedan tipificadas en la ley con remisión a los arts. 38 y 39 y orden de incorporación al cuadro reglamentario."
+   },
+   {
+    "especialidad": "normativo",
+    "severidad": "baja",
+    "hallazgo": "Remitir también al art. 38 de la Ley 29733",
+    "accion": "corregido",
+    "nota": "Art. 7.2."
+   },
+   {
+    "especialidad": "normativo",
+    "severidad": "baja",
+    "hallazgo": "Número de la decisión UE–Brasil no verificado en EUR-Lex",
+    "accion": "corregido",
+    "nota": "Se retira del problema; en referencias se indica 'por verificar en EUR-Lex' (EUR-Lex devuelve 202 a consultas automatizadas)."
+   },
+   {
+    "especialidad": "normativo",
+    "severidad": "baja",
+    "hallazgo": "Bicameralidad en art. 5.3",
+    "accion": "corregido",
+    "nota": "Ambas cámaras."
+   }
+  ]
  }
 ]

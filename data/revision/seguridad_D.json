@@ -1,0 +1,764 @@
+[
+ {
+  "id": "ECO-15",
+  "especialidad": "seguridad",
+  "veredicto": "observaciones",
+  "resumen": "Riesgo de seguridad acotado: la declaración precompletada concentra información de terceros y los indicadores agregados por régimen y tramo pueden aislar a pocos contribuyentes. Se requieren salvaguardas de supresión de celdas pequeñas y de autenticación reforzada en la plataforma.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 6.2",
+    "problema": "La publicación de indicadores 'por régimen y tramo de ingresos' en formato abierto puede producir celdas con muy pocos contribuyentes (p. ej. tramos altos en regiones pequeñas), lo que permite inferir datos individuales protegidos por la reserva tributaria (art. 2.5 de la Constitución; art. 85 del TUO del Código Tributario). La sola mención de 'sin identificar contribuyentes' no impide la reidentificación por combinación de variables.",
+    "correccion": "Añadir al final del 6.2: 'La SUNAT aplica reglas de control de divulgación estadística, incluida la supresión o agregación de celdas con menos de diez contribuyentes y la verificación de que el cruce de tablas publicadas no permita inferir información individual.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 4.1",
+    "problema": "La propuesta precompletada expone en línea, en un solo punto, comprobantes emitidos y recibidos e información de terceros de cada contribuyente. El acceso solo con Clave SOL (usuario y contraseña) es un vector conocido de suplantación y fraude tributario (robo de credenciales, emisión fraudulenta de comprobantes).",
+    "correccion": "Añadir numeral 4.4: 'El acceso a la propuesta de declaración y su confirmación requieren autenticación conforme al nivel de seguridad que establezca la SUNAT en concordancia con el Decreto Legislativo 1412 y su reglamento, incluida la autenticación multifactor para la confirmación; la SUNAT registra los accesos y notifica al contribuyente cada confirmación o modificación por su buzón electrónico.'"
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [],
+   "entidades_implicadas": [
+    "SGTD/PCM — estándares de autenticación (D.L. 1412, D.S. 029-2021-PCM)"
+   ],
+   "impacto_economico": "MFA y bitácora sobre la plataforma SOL existente: costo marginal bajo; reduce pérdidas por fraude con comprobantes."
+  }
+ },
+ {
+  "id": "ECO-16",
+  "especialidad": "seguridad",
+  "veredicto": "observaciones",
+  "resumen": "La entrega de bases de datos de beneficiarios a un comité de expertos externos es razonable para evaluar, pero carece de régimen de acceso seguro, deber de reserva de los miembros y prohibición de reidentificación; la 'anonimización' de microdatos tributarios es insuficiente sin entorno controlado.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 6",
+    "problema": "El art. 6.1 obliga a entregar 'bases de datos de beneficiarios' a un comité de cinco expertos externos sin fijar dónde ni cómo se procesan. Los microdatos de beneficiarios de incentivos tributarios (Ley 30309) seudonimizados siguen siendo reidentificables por combinación de monto, sector y región (pocas empresas por celda), lo que vulnera la reserva tributaria (art. 2.5 de la Constitución) y la Ley 29733. COORDINACION.md asigna los entornos seguros de datos y la prohibición de reidentificación a IA-10.",
+    "correccion": "Sustituir el 6.2 por: '6.2 La información sujeta a reserva tributaria, secreto bancario o que contenga datos personales se pone a disposición del Comité únicamente en forma agregada o, cuando la evaluación requiera microdatos, seudonimizada y dentro de un entorno seguro de datos administrado por la entidad titular o por el Instituto Nacional de Estadística e Informática, sin posibilidad de descarga de registros individuales, con control de accesos, bitácora de consultas y revisión de los resultados antes de su salida. Está prohibido todo intento de reidentificación conforme al régimen de entornos seguros y reidentificación que establezca la ley de la materia o, en su defecto, la Ley 29733.' Añadir 6.3: 'Los miembros del Comité y el personal de apoyo suscriben compromiso de confidencialidad y están sujetos a las responsabilidades de los artículos 85 y 86 del TUO del Código Tributario respecto de la información reservada a la que accedan.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 7.1",
+    "problema": "La publicación de 'datos no protegidos' en formato abierto no define quién califica la protección ni exige evaluación de riesgo de reidentificación antes de abrir bases derivadas.",
+    "correccion": "Añadir: 'Antes de publicar bases derivadas de las evaluaciones, la entidad titular de los datos realiza una evaluación de riesgo de reidentificación conforme al régimen general de datos abiertos.'"
+   }
+  ],
+  "aportes": {
+   "entidades_implicadas": [
+    "INEI — entorno seguro de microdatos",
+    "SUNAT — titular de la información reservada"
+   ]
+  }
+ },
+ {
+  "id": "ECO-17",
+  "especialidad": "seguridad",
+  "veredicto": "observaciones",
+  "resumen": "Buen diseño antifraude y exigencia de controles de seguridad del catálogo. Faltan: confidencialidad reforzada de los autodiagnósticos (revelan debilidades de seguridad de cada empresa), umbrales de agregación y obligaciones de los proveedores acreditados respecto de incidentes y reutilización de los datos de sus clientes.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 4.2",
+    "problema": "El autodiagnóstico de madurez digital incluye ciberseguridad básica: el resultado individual es un mapa de vulnerabilidades de la empresa. Declararlo 'confidencial' sin base legal no lo sustrae de pedidos de acceso a la información; y los agregados 'por tamaño, sector y región' pueden aislar empresas en regiones pequeñas.",
+    "correccion": "Reemplazar el 4.2 por: 'El resultado individual constituye información confidencial de la empresa comprendida en el numeral 2 del artículo 17 del TUO de la Ley 27806 (secreto comercial y tecnológico); solo se usa para orientar a la empresa y determinar su elegibilidad y no se comparte con proveedores sin consentimiento expreso de la empresa. Los resultados agregados se publican con supresión de celdas de menos de diez empresas.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 6.2",
+    "problema": "Los controles básicos de seguridad del catálogo no incluyen obligaciones del proveedor frente a incidentes ni límites al uso de los datos de las MIPYME. Un proveedor acreditado por el Estado con acceso masivo a sistemas contables y de clientes de miles de microempresas es un punto de ataque a la cadena de suministro.",
+    "correccion": "Añadir al 6.2: 'Los proveedores acreditados: a) notifican a la empresa usuaria y a la autoridad competente los incidentes de seguridad que afecten sus datos, conforme al régimen de notificación de incidentes vigente; b) no usan los datos de la empresa usuaria ni de sus clientes para fines distintos de la prestación contratada; c) aplican autenticación multifactor en los accesos administrativos y copias de respaldo; y d) al término del servicio eliminan los datos, previa exportación.' Tipificar en el 8.2 como infracción grave el incumplimiento de los literales a) y b)."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 8.2",
+    "problema": "El uso de los datos de las empresas usuarias para fines no autorizados no está tipificado, aunque sí la falta de exportación.",
+    "correccion": "Incorporar en el 8.2 literal d): 'usar o transferir los datos de la empresa usuaria o de sus clientes para fines distintos del servicio contratado'."
+   }
+  ]
+ },
+ {
+  "id": "ECO-18",
+  "especialidad": "seguridad",
+  "veredicto": "observaciones",
+  "resumen": "Sin riesgos graves. Debe aclararse que el gestor único y la búsqueda activa no eximen de la evaluación de seguridad de inversiones en activos críticos ni de los controles de exportación de doble uso, y que la información del inversionista compartida con misiones en el exterior tiene reserva.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 4.2",
+    "problema": "El gestor único articula procedimientos con las entidades, pero el texto no menciona que la inversión puede quedar sujeta a una evaluación de seguridad (adquisiciones de control sobre activos críticos, propuesta SOB-12) o a licencias de exportación de bienes de doble uso (SOB-13). Sin la salvedad, se genera presión institucional para acelerar o eximir esas evaluaciones en proyectos 'prioritarios'.",
+    "correccion": "Añadir al final del 4.2: 'Tampoco exime ni acelera la evaluación de seguridad de inversiones en activos críticos nacionales ni los controles de exportación de bienes y tecnologías de doble uso que resulten aplicables conforme a la legislación vigente.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 9.1",
+    "problema": "La publicación de proyectos 'por sector y región' puede revelar la ubicación de instalaciones de inversionistas en sectores sensibles (centros de datos, semiconductores, defensa).",
+    "correccion": "Añadir: 'ProInversión puede agregar o reservar la información de proyectos cuya publicación afecte la seguridad de infraestructura crítica, conforme a los artículos 15 a 17 del TUO de la Ley 27806.'"
+   }
+  ]
+ },
+ {
+  "id": "ECO-19",
+  "especialidad": "seguridad",
+  "veredicto": "conforme",
+  "resumen": "Desde la seguridad, la norma incluye la identificación de beneficiarios finales (LA/FT) y la exclusión de vínculos. Solo se sugiere una precisión respecto de fondos extranjeros que adquieran control de empresas innovadoras en tecnologías sensibles.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 4",
+    "problema": "Los fondos extranjeros elegibles pueden adquirir participaciones de control en empresas nacionales de tecnologías sensibles (ciberseguridad, criptografía, satélites); la norma no recuerda que esas adquisiciones pueden estar sujetas a evaluación de seguridad de inversiones.",
+    "correccion": "Añadir un literal h): 'cumplir, respecto de sus inversiones en empresas nacionales, las normas de evaluación de seguridad de inversiones en activos críticos y de control de exportaciones de doble uso que resulten aplicables.'"
+   }
+  ]
+ },
+ {
+  "id": "ECO-20",
+  "especialidad": "seguridad",
+  "veredicto": "observaciones",
+  "resumen": "Los lineamientos de flujo de datos son razonables, pero falta preservar dos espacios regulatorios de seguridad que los acuerdos de economía digital suelen restringir: la excepción de seguridad esencial y el acceso de la autoridad al código fuente para certificación y auditoría de seguridad de sistemas críticos.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3",
+    "problema": "Los capítulos de comercio digital (p. ej. CPTPP, art. 14.17) suelen prohibir exigir la transferencia o el acceso al código fuente como condición de importación. Sin un lineamiento expreso, el Perú podría comprometerse a cláusulas que impidan exigir auditorías de código en sistemas de infraestructura crítica, sistemas electorales o equipos de telecomunicaciones de proveedores de alto riesgo. El literal g) menciona 'seguridad nacional' de forma genérica.",
+    "correccion": "Añadir literales: 'i) preservar la facultad de las autoridades competentes de exigir acceso al código fuente o a algoritmos para fines de certificación, evaluación de seguridad, auditoría regulatoria o investigación, en particular respecto de sistemas que operen en activos críticos nacionales, sistemas electorales y redes de telecomunicaciones; j) incluir excepciones de seguridad esencial autocalificables y de ciberseguridad, sin someter su invocación a solución de controversias que la desnaturalice.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3, literal a)",
+    "problema": "El flujo transfronterizo de datos personales 'con niveles de protección adecuados' omite datos no personales sensibles (geoespaciales de alta resolución, de infraestructura, de seguridad) y la cooperación con terceros Estados en acceso gubernamental a datos.",
+    "correccion": "Añadir al literal a): '...y salvaguardas frente al acceso gubernamental extranjero no sujeto a garantías equivalentes, conforme al artículo 15 de la Ley 29733 y a los principios de la Declaración de la OCDE sobre acceso gubernamental a datos personales en poder del sector privado (2022)'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 7.1",
+    "problema": "La participación en ISO/IEC JTC 1 es pertinente; falta priorizar los subcomités de seguridad y criptografía (JTC 1/SC 27) y la coordinación con la autoridad de ciberseguridad nacional.",
+    "correccion": "Insertar en 7.1: 'incluido el subcomité de seguridad de la información, ciberseguridad y protección de la privacidad (ISO/IEC JTC 1/SC 27), en coordinación con el Centro Nacional de Seguridad Digital'."
+   }
+  ],
+  "aportes": {
+   "entidades_implicadas": [
+    "Centro Nacional de Seguridad Digital (SGTD/PCM) — posición nacional en ciberseguridad y SC 27",
+    "DINI/MINDEF — opinión sobre excepciones de seguridad esencial"
+   ]
+  }
+ },
+ {
+  "id": "ECO-21",
+  "especialidad": "seguridad",
+  "veredicto": "observaciones",
+  "resumen": "La seguridad digital desde el diseño en los lineamientos de inversión es un acierto. Debe incluirse la ciberseguridad como componente identificable del marcador presupuestal y evitar que la publicación desagregada revele capacidades de defensa, inteligencia u orden interno.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 4",
+    "problema": "El marcador de gasto digital publicado en formato abierto a nivel de proyecto/actividad puede revelar inversiones de ciberdefensa, inteligencia o sistemas de seguridad de MINDEF, DINI, PNP o INPE (proveedor, monto, objeto), información clasificada conforme a la Ley 30999 y al Decreto Legislativo 1141.",
+    "correccion": "Añadir 4.3: 'La publicación excluye el detalle de los gastos e inversiones calificados como secretos o reservados conforme a los artículos 15 y 16 del TUO de la Ley 27806, los cuales solo se informan en forma agregada por pliego.' Añadir 4.4: 'El marcador identifica por separado el gasto en seguridad digital y ciberseguridad.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 3",
+    "problema": "Los lineamientos no exigen que los proyectos de TI costeen el mantenimiento de seguridad (parches, monitoreo, pruebas de penetración) durante el ciclo de vida, lo que genera sistemas sin soporte.",
+    "correccion": "Añadir a la lista: 'el costeo de la operación segura durante el ciclo de vida, incluidas actualizaciones, monitoreo y pruebas de seguridad periódicas, y la gestión de riesgos de proveedores'."
+   }
+  ]
+ },
+ {
+  "id": "ECO-22",
+  "especialidad": "seguridad",
+  "veredicto": "observaciones",
+  "resumen": "El consentimiento y la titularidad de los datos del productor están bien planteados, pero el polígono de una parcela es dato personal y de localización reidentificable, la constancia de no deforestación necesita garantías de integridad contra falsificación y el intercambio con financieras requiere controles técnicos. Las asambleas virtuales necesitan autenticación robusta.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 3.3",
+    "problema": "Los polígonos georreferenciados de parcelas identifican al titular (cruzándolos con catastro o imágenes) y su ubicación; también revelan tierras de comunidades campesinas y nativas. Publicarlos como datos 'anonimizados' no es posible a nivel de parcela, y su exposición facilita invasiones, extorsión y presión de economías ilegales (minería ilegal, narcotráfico) en zonas cocaleras y de frontera. Constituye riesgo grave de reidentificación (Ley 29733; régimen de datos abiertos de IA-04).",
+    "correccion": "Reemplazar la salvedad final del 3.3 por: '...salvo datos agregados a nivel no inferior al distrito o a una grilla que impida identificar parcelas, previa evaluación de riesgo de reidentificación conforme al régimen general de datos abiertos. En ningún caso se publican polígonos o coordenadas individuales de parcelas ni de tierras de comunidades campesinas y nativas sin consentimiento expreso del titular y, en el caso de comunidades, de su asamblea.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3.1",
+    "problema": "Las constancias de no pérdida de cobertura boscosa tendrán valor comercial en la exportación a la UE (Reglamento 2023/1115): son objetivo de falsificación y de 'lavado' de producción de zonas deforestadas mediante polígonos de parcelas ajenas.",
+    "correccion": "Añadir 3.4: 'Las constancias se emiten con firma o sello electrónico de la entidad conforme a la Ley 27269, código único verificable en línea, y registro de la consulta a la información de monitoreo utilizada. El sistema detecta superposición de polígonos y registra la trazabilidad de cada modificación. La emisión o uso de constancias falsas se comunica al Ministerio Público.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 6",
+    "problema": "El intercambio con financieras no define el canal técnico: compartir extractos por correo o planillas expone datos. Falta registro de accesos, revocación efectiva y prohibición de condicionar el crédito a ceder más datos que los necesarios.",
+    "correccion": "Añadir 6.3: 'El intercambio se realiza mediante interfaces de programación seguras con autenticación de la entidad receptora, cifrado en tránsito, alcance limitado a los datos autorizados y bitácora de accesos consultable por el productor. La revocación surte efecto inmediato para nuevas consultas. Las entidades receptoras no pueden transferir los datos a terceros ni usarlos para comercialización.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 7",
+    "problema": "El 'voto verificable' en asambleas virtuales no fija un mínimo de autenticación; el uso de enlaces abiertos facilita suplantación de socios y captura de cooperativas.",
+    "correccion": "Añadir: 'La identificación de los socios se realiza mediante el DNI electrónico, la firma digital o un mecanismo de autenticación de al menos dos factores, y el sistema de votación conserva un registro auditable de cada voto emitido, sin revelar el sentido del voto cuando el estatuto disponga voto secreto.'"
+   }
+  ],
+  "aportes": {
+   "entidades_implicadas": [
+    "ANPD/MINJUSDH — supervisión de datos georreferenciados y consentimiento",
+    "SERFOR/MINAM — integridad de constancias"
+   ]
+  }
+ },
+ {
+  "id": "GOB-15",
+  "especialidad": "seguridad",
+  "veredicto": "observaciones",
+  "resumen": "La pérdida automática de exigibilidad de requisitos no ratificados y la aprobación ficta emitida por sistema son eficaces contra la sobrerregulación, pero sin salvedades pueden eliminar controles de seguridad por mera inacción de la entidad y convertir una caída o un ataque a la plataforma en aprobaciones masivas. Requiere exclusiones expresas y garantías de integridad de la constancia.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 5.3",
+    "problema": "La caída automática de exigibilidad alcanza a cualquier procedimiento o requisito de rango infralegal no ratificado a tiempo. Ello incluye controles de seguridad pública y nacional establecidos por reglamento: licencias y verificaciones de SUCAMEC (armas, explosivos, servicios de seguridad privada), control de insumos químicos y bienes fiscalizados, requisitos de seguridad digital de servicios críticos, certificaciones aeronáuticas. Un incumplimiento administrativo de cronograma no debe desactivar un control de seguridad (riesgo grave de seguridad).",
+    "correccion": "Añadir numeral 5.6: 'Lo dispuesto en el numeral 5.3 no se aplica a los procedimientos y requisitos vinculados a la defensa nacional, el orden interno, la seguridad ciudadana, el control de armas, municiones, explosivos, productos pirotécnicos e insumos químicos y bienes fiscalizados, la seguridad digital de activos críticos nacionales, la salud pública y la seguridad aeronáutica y marítima. Respecto de ellos, el vencimiento del cronograma sin ratificación se comunica a la Presidencia del Consejo de Ministros y a la Contraloría General de la República para la determinación de responsabilidades, sin pérdida de exigibilidad.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 6.1 y 6.3",
+    "problema": "El cómputo automatizado convierte la indisponibilidad del sistema de notificación (falla técnica, ciberataque, ransomware) en aprobaciones fictas automáticas en masa. Además, una constancia que 'acredita ante cualquier tercero' es objetivo de falsificación.",
+    "correccion": "Añadir 6.6: 'Cuando la entidad o la Secretaría de Gobierno y Transformación Digital declaren y publiquen la indisponibilidad de la plataforma por incidente de seguridad digital o falla técnica, el cómputo del plazo se suspende por el periodo de indisponibilidad debidamente registrado y comunicado al Centro Nacional de Seguridad Digital, lo que se notifica al administrado.' Y en 6.1, tras 'con código de verificación': 'y sello electrónico de la entidad conforme a la Ley 27269, verificable en línea en GOB.PE; el sistema conserva registro inalterable de la fecha de presentación, de cada suspensión y de la emisión'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 4.3",
+    "problema": "Los 'datos utilizados' en los análisis ex post de normas de seguridad digital pueden incluir estadísticas de incidentes por entidad o sector que revelen vulnerabilidades.",
+    "correccion": "Añadir: 'Los datos sobre incidentes y vulnerabilidades de seguridad digital se publican de forma agregada, sin identificar entidades ni sistemas concretos.'"
+   }
+  ]
+ },
+ {
+  "id": "GOB-16",
+  "especialidad": "seguridad",
+  "veredicto": "conforme",
+  "resumen": "Desde la seguridad no hay riesgos significativos. Solo conviene prever el manejo de información clasificada cuando la Oficina analice proposiciones sobre ciberdefensa o inteligencia y evitar que las notas técnicas publiquen detalles explotables de vulnerabilidades.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 5 (art. 110-A.3 incorporado)",
+    "problema": "Las notas técnicas y análisis 'de libre acceso' sobre ciberseguridad, sistemas electorales o infraestructura crítica pueden incluir detalles técnicos de vulnerabilidades no corregidas; y los análisis de iniciativas sobre inteligencia o ciberdefensa pueden requerir información clasificada.",
+    "correccion": "Añadir al 110-A.3: 'Los productos no incluyen información clasificada ni detalles técnicos de vulnerabilidades no corregidas; cuando el análisis requiera información clasificada, se tramita a través de la Comisión de Inteligencia y conforme a las normas del Sistema de Inteligencia Nacional, y solo se publica una versión no clasificada.'"
+   }
+  ]
+ },
+ {
+  "id": "GOB-17",
+  "especialidad": "seguridad",
+  "veredicto": "conforme",
+  "resumen": "El Tablero ya excluye información clasificada y agrega la de seguridad digital (art. 7.4). Publica cargos y no nombres, lo que es adecuado. Solo se sugiere precisar la protección de la interfaz de reporte.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 6.1",
+    "problema": "El reporte trimestral 'a través de los mecanismos de interoperabilidad' no explicita que la integridad de los datos del tablero (que puede usarse para evaluar a titulares) debe asegurarse frente a manipulación.",
+    "correccion": "Añadir: 'El reporte se realiza con autenticación de la entidad y registro de cada carga y modificación, conforme a los estándares de seguridad de la Plataforma de Interoperabilidad del Estado.'"
+   }
+  ]
+ },
+ {
+  "id": "GOB-18",
+  "especialidad": "seguridad",
+  "veredicto": "conforme",
+  "resumen": "Sin riesgos de seguridad relevantes. Se sugiere prever que los reglamentos con contenido clasificado (inteligencia, defensa) se registren sin revelar su contenido.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 3.2",
+    "problema": "El Registro Público de Reglamentación publicará el 'estado del proyecto' y las disposiciones a reglamentar; algunos reglamentos de leyes de inteligencia, defensa o ciberdefensa tienen anexos clasificados.",
+    "correccion": "Añadir 3.4: 'Respecto de los reglamentos o anexos clasificados conforme a los artículos 15 y 16 del TUO de la Ley 27806, el Registro consigna únicamente el cumplimiento del plazo y la fecha de aprobación.'"
+   }
+  ]
+ },
+ {
+  "id": "GOB-19",
+  "especialidad": "seguridad",
+  "veredicto": "observaciones",
+  "resumen": "Buena base de seguridad (separación lógica, MFA, registro inalterable, agregación de datos de seguridad). Faltan reglas de continuidad y respaldo para sistemas compartidos, que concentran riesgo en muchas municipalidades, y cuidado al publicar la relación de municipalidades de baja capacidad digital.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 4.2",
+    "problema": "Un sistema compartido por una mancomunidad concentra el riesgo: un ransomware o una credencial comprometida afecta a todas las municipalidades a la vez (riesgo de contagio). No se exigen respaldos, plan de continuidad ni notificación de incidentes.",
+    "correccion": "Añadir 4.3: 'La mancomunidad mantiene copias de respaldo cifradas y aisladas de la red operativa, un plan de continuidad y recuperación probado al menos una vez al año, y notifica los incidentes de seguridad digital al Centro Nacional de Seguridad Digital y a cada municipalidad afectada conforme al régimen de notificación de incidentes vigente. Los proveedores que contrate la mancomunidad quedan sujetos a las mismas obligaciones mediante cláusula contractual.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 2.1",
+    "problema": "La relación pública de municipalidades de baja capacidad digital, si detalla subindicadores (personal de TI, seguridad), funciona como lista de objetivos débiles para atacantes.",
+    "correccion": "Añadir al 2.1: 'La relación se publica con la clasificación final; los subindicadores relativos a seguridad digital no se publican de manera individualizada.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 3.1, literal b)",
+    "problema": "Un oficial de seguridad digital compartido sin acceso a la red de alertas nacional pierde eficacia.",
+    "correccion": "Añadir: 'El oficial compartido de seguridad digital se integra a la Red Nacional de Seguridad Digital y recibe las alertas del Centro Nacional de Seguridad Digital para todas las municipalidades de la mancomunidad.'"
+   }
+  ],
+  "aportes": {
+   "entidades_implicadas": [
+    "Centro Nacional de Seguridad Digital (SGTD/PCM) — alertas e incidentes de mancomunidades"
+   ]
+  }
+ },
+ {
+  "id": "GOB-20",
+  "especialidad": "seguridad",
+  "veredicto": "observaciones",
+  "resumen": "La propuesta incorpora bien el régimen ACN sin crear categorías, la segregación de redes OT, la bitácora inalterable y la neutralidad frente al origen del proveedor. Sin embargo, concentrar en la VUCE los eventos logísticos en tiempo real de todos los terminales crea un objetivo de alto valor (robo de carga, contaminación de contenedores por el narcotráfico, rastreo de mercancía sensible) y la plataforma 'abierta' a todos los actores privados no tiene reglas de acceso mínimo ni de integridad.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 4 (art. 12.1 y 12.4 de la Ley 30860)",
+    "problema": "La plataforma es 'abierta y neutral' para 'todos los actores públicos y privados'. El 12.4 solo limita el acceso de los administradores de la plataforma, no de los demás actores privados. Los eventos en tiempo real (descarga, ingreso/salida por puerta, levante) por contenedor permiten a organizaciones criminales ubicar cargas para robo o para el método de 'gancho ciego'/contaminación de contenedores con droga, problema documentado en los puertos del Pacífico. No se prevé restricción para mercancías sensibles (armas, explosivos, material radiactivo, insumos químicos fiscalizados). Riesgo de seguridad grave.",
+    "correccion": "Sustituir el 12.4 por: '12.4 El acceso de cada actor público o privado a la información de la plataforma se limita a las operaciones en las que interviene y a los datos necesarios para su función, con autenticación multifactor, registro inalterable de accesos y conservación de dichos registros por no menos de cinco años. La información sobre mercancías restringidas, fiscalizadas o de doble uso, y sobre operaciones bajo control aduanero o investigación, solo es accesible para las entidades competentes. La integración a la plataforma no otorga a sus administradores acceso a secretos comerciales de los operadores, conforme a la Ley 29733 y al TUO de la Ley 27806.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 6",
+    "problema": "Se regula la seguridad de los terminales, pero no la del propio componente portuario de la VUCE, que pasa a ser un nodo del cual depende la operación de todos los puertos de uso público (la imposibilidad de transmitir eventos puede paralizar el levante). No se exigen integridad de los mensajes, continuidad ni procedimiento de contingencia.",
+    "correccion": "Añadir 6.4: 'El Ministerio de Comercio Exterior y Turismo evalúa el componente portuario de la VUCE conforme al régimen de Activos Críticos Nacionales; asegura la integridad de los eventos transmitidos mediante autenticación de origen y sellado de tiempo, mantiene un plan de continuidad con procedimiento de contingencia documentado que permita continuar las operaciones ante su indisponibilidad, y somete la plataforma a pruebas de seguridad independientes al menos una vez al año.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 6.2",
+    "problema": "La obligación de 'conservar los registros de eventos de seguridad' no fija plazo; tampoco se regulan los accesos remotos de proveedores de equipos de manipulación de carga (grúas, sistemas operativos de terminal), vector reconocido en sistemas portuarios. Debe hacerse de modo neutral, sin discriminar por origen.",
+    "correccion": "Añadir en el 6.2: '...conservados por no menos de doce meses los registros de eventos de seguridad; y sujetos a autorización previa, autenticación multifactor, registro y supervisión los accesos remotos de cualquier proveedor a los sistemas de tecnología operativa, que se habilitan solo por el tiempo necesario.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 5.1, literal c)",
+    "problema": "La programación digital de citas del transporte terrestre registra placas, conductores y horarios: datos personales y patrones útiles para robos en ruta.",
+    "correccion": "Añadir: 'Los datos de conductores y vehículos se tratan conforme a la Ley 29733 y solo se publican en forma agregada.'"
+   }
+  ],
+  "aportes": {
+   "entidades_implicadas": [
+    "MINCETUR — operador de la VUCE (evaluación ACN del componente portuario)",
+    "SUNAT-Aduanas — restricción de acceso a datos de control",
+    "DICAPI/MGP — seguridad marítima y protección portuaria (Código PBIP)"
+   ]
+  }
+ },
+ {
+  "id": "GOB-21",
+  "especialidad": "seguridad",
+  "veredicto": "observaciones_graves",
+  "resumen": "El Registro es valioso para la rendición de cuentas y el art. 8 protege a los firmantes y la información de sitios sagrados y pueblos en aislamiento. Pero el art. 5.3 a) ordena publicar 'el acta íntegra', que normalmente contiene nombres, DNI y firmas de dirigentes indígenas y defensores, lo que contradice el art. 8.1 y expone a personas defensoras en zonas de conflicto a represalias.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 5.3, literal a)",
+    "problema": "Las actas de consulta previa y de mesas de diálogo consignan nombres, DNI, firmas, cargos comunales y a veces domicilios de dirigentes. Publicarlas 'íntegras' en formato abierto anula la reserva del art. 8.1 y expone a personas defensoras de derechos humanos y ambientales a amenazas en un contexto de violencia documentada contra defensores (el Mecanismo intersectorial para la protección de las personas defensoras de derechos humanos, D.S. 004-2021-JUS, existe precisamente por ese riesgo). Riesgo de seguridad grave.",
+    "correccion": "Sustituir el literal a) por: 'a) la versión pública del acta, en la que se suprimen los nombres, números de documento de identidad, firmas y demás datos personales de quienes suscriben en representación de pueblos u organizaciones sociales que no hayan consentido su publicación conforme al artículo 8.1; el acta íntegra se conserva en el Registro con acceso restringido a las partes, a la Defensoría del Pueblo y a las autoridades competentes'."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 6.2",
+    "problema": "Las observaciones que registran las organizaciones sobre el cumplimiento no tienen mecanismo de autenticación: cualquiera podría suplantar a una organización para registrar falsas conformidades o desacreditar a la contraparte. Y las observaciones pueden identificar a quien denuncia incumplimientos de empresas.",
+    "correccion": "Añadir: 'El registro de observaciones requiere la autenticación de la organización representativa mediante las credenciales que le otorgue el órgano a cargo de la sección; la identidad de la persona natural que registra la observación no se publica.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 4.3",
+    "problema": "Las grabaciones de reuniones de consulta pueden contener posiciones internas de las comunidades y la identificación de opositores a proyectos. No se regulan su custodia, plazo de conservación ni acceso.",
+    "correccion": "Añadir: 'Las grabaciones se conservan cifradas por la entidad promotora, con acceso restringido a las partes y a las autoridades competentes, por el plazo que fije el reglamento; no se publican salvo acuerdo expreso de las organizaciones representativas.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 6.3",
+    "problema": "Las constancias del Registro tendrán valor probatorio; sin firma electrónica pueden falsificarse o alterarse.",
+    "correccion": "Añadir: 'Las constancias se emiten con sello electrónico de la entidad y código de verificación en línea, y el Registro conserva el historial inalterable de cada modificación.'"
+   }
+  ],
+  "aportes": {
+   "entidades_implicadas": [
+    "MINJUSDH — Mecanismo intersectorial para la protección de las personas defensoras de derechos humanos (D.S. 004-2021-JUS)",
+    "Defensoría del Pueblo — acceso al acta íntegra",
+    "ANPD — datos personales de firmantes"
+   ]
+  }
+ },
+ {
+  "id": "GOB-22",
+  "especialidad": "seguridad",
+  "veredicto": "observaciones",
+  "resumen": "La trazabilidad se publica a nivel agregado y respeta la reserva tributaria, lo que resuelve el principal riesgo. Persisten dos exposiciones de personas: la publicación de los 'agentes participantes inscritos' del presupuesto participativo y la identidad de quienes reportan inconsistencias en zonas con economías ilegales.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 8",
+    "problema": "Los reportes ciudadanos sobre obras paralizadas o inconsistencias con la realidad son, en la práctica, denuncias de posibles irregularidades. En distritos con presencia de minería ilegal, extorsión o captura de gobiernos locales, revelar al denunciante a la entidad denunciada lo expone a represalias. El texto deriva el reporte a la propia entidad receptora sin reserva de identidad.",
+    "correccion": "Añadir 8.3: 'La identidad de quien formula el reporte no se comunica a la entidad receptora ni se publica, salvo su consentimiento expreso. Cuando el reporte contenga hechos que puedan constituir infracción o delito, se deriva a la Contraloría General de la República con las medidas de protección al denunciante previstas en el Decreto Legislativo 1327 y la Ley 29542.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 7 (art. 10-A.1 de la Ley 28056)",
+    "problema": "Publicar en formato abierto a los 'agentes participantes inscritos' puede incluir nombres, DNI y datos de contacto de dirigentes vecinales; agregado con otras bases, facilita su perfilamiento y su hostigamiento.",
+    "correccion": "Precisar: 'los agentes participantes inscritos, identificados por la organización a la que representan y, en el caso de personas naturales, solo por su nombre, sin número de documento ni datos de contacto'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 4.1",
+    "problema": "La interfaz de programación de libre acceso debe garantizar la integridad de la información publicada (que servirá de prueba en vigilancia y denuncias).",
+    "correccion": "Añadir: 'Los conjuntos de datos se publican con sello de tiempo y suma de verificación, y se conserva el historial de versiones.'"
+   }
+  ]
+ },
+ {
+  "id": "GOB-23",
+  "especialidad": "seguridad",
+  "veredicto": "observaciones",
+  "resumen": "Buen enfoque de confidencialidad en la interpretación y de consentimiento para la lengua preferida. Debe reconocerse que la lengua preferida puede revelar origen étnico (dato sensible), fijar reglas de seguridad para los canales de interpretación remota y para el uso de traducción automática externa, y proteger las alertas en lenguas originarias frente a suplantación.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 6",
+    "problema": "La lengua preferida, asociada al perfil de la persona en GOB.PE, permite inferir el origen étnico, que el artículo 2 de la Ley 29733 califica como dato sensible. Si se comparte por interoperabilidad, podría usarse para discriminar o para segmentar poblaciones con fines ajenos (incluidos usos políticos o de seguridad).",
+    "correccion": "Añadir 6.4: 'El dato de lengua preferida se trata como dato sensible; no se transfiere a otras entidades mediante la Plataforma de Interoperabilidad salvo para el envío de comunicaciones en esa lengua, no se incluye en conjuntos de datos abiertos y solo se usa en forma agregada para fines estadísticos.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 4.3",
+    "problema": "La interpretación remota interviene en atenciones de salud, justicia, violencia y programas sociales. Si se presta por teléfonos personales de intérpretes o por aplicaciones de mensajería no gestionadas, la información sensible queda fuera del control de la entidad.",
+    "correccion": "Añadir: 'La interpretación remota se presta a través de canales gestionados por la entidad o por el Ministerio de Cultura, con cifrado de las comunicaciones; los intérpretes suscriben compromisos de confidencialidad y no conservan copias de la información de las personas atendidas.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 5.2",
+    "problema": "El uso de traducción automática o IA de terceros puede implicar enviar al exterior notificaciones, citas médicas u otros datos personales, sin evaluación de flujo transfronterizo (art. 15 de la Ley 29733).",
+    "correccion": "Añadir: 'Las entidades no envían datos personales a servicios de traducción automática o de inteligencia artificial de terceros sin contrato que garantice la confidencialidad, la no reutilización para entrenamiento y el cumplimiento del artículo 15 de la Ley 29733.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 3.2, literales c) y d)",
+    "problema": "Los mensajes de citas y alertas en lenguas originarias por SMS o mensajería son susceptibles de suplantación (fraude dirigido a población vulnerable), especialmente si la población no está habituada a verificar remitentes.",
+    "correccion": "Añadir: 'Los mensajes se envían desde remitentes verificados conforme al régimen de identificación de remitentes de mensajes del Estado vigente y no contienen enlaces que soliciten credenciales o pagos.'"
+   }
+  ]
+ },
+ {
+  "id": "GOB-24",
+  "especialidad": "seguridad",
+  "veredicto": "observaciones",
+  "resumen": "Riesgo bajo, pero la desagregación múltiple (departamento × sexo × edad × lengua × discapacidad × etnia) sobre registros administrativos de intervenciones pequeñas produce celdas con pocos individuos y permite reidentificar a personas con datos sensibles.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3.3",
+    "problema": "La referencia genérica a datos 'anonimizados o agregados' no impide que la combinación de variables sensibles (autoidentificación étnica, discapacidad, lengua) en ámbitos pequeños identifique a personas concretas, sobre todo con registros administrativos de programas focalizados. Contraviene el principio de seguridad de la Ley 29733 y el régimen de datos abiertos con evaluación de reidentificación.",
+    "correccion": "Añadir: 'Antes de publicar indicadores desagregados se aplican reglas de control de divulgación estadística, incluida la supresión o agregación de celdas con menos de diez personas y la verificación de que el cruce de tablas no permita inferir datos sensibles individuales, conforme a las pautas del Instituto Nacional de Estadística e Informática.'"
+   }
+  ]
+ },
+ {
+  "id": "TAL-15",
+  "especialidad": "seguridad",
+  "veredicto": "conforme",
+  "resumen": "Mantiene la verificación de antecedentes y las causales de impedimento migratorio, y el reconocimiento ágil se apoya en verificación digital de autenticidad. Solo se sugieren precisiones sobre fraude documental y publicación de estadísticas con celdas pequeñas.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 5.1",
+    "problema": "El plazo de quince días es razonable solo si la verificación digital es fuerte; los títulos de 'universidades fantasma' y los certificados técnicos falsificados son un riesgo conocido, y el literal b) del 29-A.1 admite títulos 'en trámite de reconocimiento'.",
+    "correccion": "Añadir 5.5: 'Cuando la plataforma del país emisor no permita verificar la autenticidad, o existan indicios de falsedad, el procedimiento se tramita por la vía ordinaria. La SUNEDU comunica a MIGRACIONES la denegatoria por falsedad para la cancelación de la residencia otorgada con base en un título en trámite.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 8",
+    "problema": "Las estadísticas 'por ocupación, país de origen y región de residencia' con remuneración mediana pueden identificar a personas cuando una celda contiene uno o dos residentes.",
+    "correccion": "Añadir: 'con supresión de las celdas con menos de cinco personas'."
+   }
+  ]
+ },
+ {
+  "id": "TAL-16",
+  "especialidad": "seguridad",
+  "veredicto": "conforme",
+  "resumen": "Sin riesgos graves: el pago directo a entidades formadoras y la prohibición de devoluciones reducen el fraude. Se sugiere asegurar la verificabilidad de las credenciales del registro digital y la autenticación reforzada de la cuenta.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 2, literal b), y artículo 8.1",
+    "problema": "El registro digital de aprendizaje acreditará credenciales ante empleadores; si es descargable sin firma, puede alterarse. Además, la cuenta podría ser objeto de suplantación para desviar fondos a entidades formadoras coludidas.",
+    "correccion": "Añadir 8.3: 'Las credenciales del registro se emiten con firma o sello electrónico verificable conforme a la Ley 27269. El acceso al registro y la autorización de pagos desde la cuenta requieren autenticación multifactor, y cada pago se notifica al titular.'"
+   }
+  ]
+ },
+ {
+  "id": "IA-15",
+  "especialidad": "seguridad",
+  "veredicto": "observaciones",
+  "resumen": "El registro de eventos, la exhibición judicial y la inferencia adversa son aciertos. Pero 'protegido contra alteraciones' es insuficiente para la cadena de custodia; el art. 7.1 e) no fija mínimos de ciberseguridad para el control remoto de equipos de cientos de toneladas, y el art. 4.2 deja abierta la exoneración por 'hecho de tercero' cuando el daño proviene de una intrusión informática.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 4.2",
+    "problema": "Si un atacante toma el control remoto de un camión autónomo o de una grúa, el operador podría invocar el 'hecho determinante de tercero' del art. 1972 del Código Civil para eximirse, aun cuando no aplicó medidas de seguridad digital. El texto solo excluye como eximente el error del propio sistema, no la intrusión. Ello desincentiva la inversión en ciberseguridad de sistemas físicos peligrosos.",
+    "correccion": "Añadir al final del 4.2: 'Tampoco constituye hecho determinante de tercero el acceso no autorizado o el ataque informático al sistema, salvo que el operador acredite que aplicaba las medidas de seguridad digital exigidas en el literal e) del numeral 7.1 y que el ataque no era razonablemente previsible ni evitable con ellas.'"
+   },
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 5.1 y 5.2",
+    "problema": "'Protegido contra alteraciones' no garantiza la cadena de custodia exigible en un proceso penal o civil: no se exige sellado criptográfico, sincronización horaria, formato exportable, ni que el operador (y no solo el fabricante, a menudo en el extranjero) tenga acceso efectivo al registro. Sin esto, la prueba será impugnada o inaccesible.",
+    "correccion": "Sustituir el 5.1 por: '5.1 Todo sistema comprendido en el ámbito de la presente ley cuenta con un registro de eventos que: a) se genera automáticamente con marcas de tiempo sincronizadas con una fuente horaria confiable; b) se protege contra alteraciones mediante encadenamiento criptográfico o firma digital que permita verificar su integridad; c) puede exportarse en un formato documentado y legible; y d) es accesible para el operador en el territorio nacional sin depender de la autorización del fabricante. El operador lo conserva por un plazo no menor de dos años desde su generación y, si ocurre un incidente con daños, hasta la conclusión de los procedimientos que se inicien.' Añadir al 5.2: 'La extracción se documenta con el valor de verificación de integridad del registro y se sujeta a las reglas de cadena de custodia del Ministerio Público.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 7.1, literal e)",
+    "problema": "'Medidas proporcionales al riesgo' carece de contenido mínimo verificable para sancionar. Los canales de supervisión remota y las actualizaciones por aire son vectores de toma de control.",
+    "correccion": "Sustituir el literal e) por: 'e) Aplica medidas de seguridad digital proporcionales al riesgo que incluyan, como mínimo: autenticación fuerte y cifrado de los canales de control y supervisión remota; verificación de la firma digital de las actualizaciones de programas antes de su instalación; segregación de la red de control respecto de redes corporativas; y monitoreo de eventos de seguridad. La conformidad puede acreditarse con la serie IEC 62443 o normas equivalentes.' Añadir en 9.2 como infracción grave: 'operar sin las medidas mínimas de seguridad digital del literal e) del numeral 7.1'."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 7.1, literal f)",
+    "problema": "El plan de respuesta a incidentes no prevé la notificación de incidentes de seguridad digital que afecten el control del sistema.",
+    "correccion": "Añadir: 'Los incidentes de seguridad digital que afecten el control de un sistema autónomo se notifican conforme al régimen vigente de notificación de incidentes de seguridad digital, sin plazos propios distintos.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 7.1 (nuevo literal)",
+    "problema": "No se prevé un canal para que investigadores reporten vulnerabilidades de estos sistemas, lo que es buena práctica y coherente con el criterio 8 de no criminalizar la investigación de buena fe.",
+    "correccion": "Añadir literal g): 'Mantiene, por sí o a través del fabricante, un canal público de recepción de reportes de vulnerabilidades; los reportes de buena fe se atienden conforme a la normativa vigente sobre divulgación coordinada de vulnerabilidades.'"
+   }
+  ],
+  "aportes": {
+   "entidades_implicadas": [
+    "Ministerio Público — cadena de custodia del registro de eventos",
+    "Centro Nacional de Seguridad Digital — notificación de incidentes"
+   ],
+   "impacto_economico": "Sellado criptográfico de logs y firma de actualizaciones son capacidades estándar de los fabricantes de flotas autónomas; el costo incremental para el operador es bajo frente al valor probatorio y la reducción de riesgo de toma de control."
+  }
+ },
+ {
+  "id": "IA-16",
+  "especialidad": "seguridad",
+  "veredicto": "observaciones",
+  "resumen": "La modernización del art. 15 con instrumentos tipo cláusulas modelo, BCR y certificaciones, y el criterio de acceso gubernamental en el 15.6 son positivos para la seguridad de los datos. Faltan reglas sobre transferencias ulteriores, salvaguardas reforzadas para datos sensibles y biométricos, y control de la excepción de cooperación entre organismos de inteligencia, que la UE examinará en cualquier evaluación de adecuación.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 2 (art. 15.3, numeral 3)",
+    "problema": "La excepción de 'cooperación internacional entre organismos de inteligencia' se mantiene sin ninguna salvaguarda (necesidad, proporcionalidad, registro, control). El art. 45.2.a del Reglamento (UE) 2016/679 exige evaluar el acceso de autoridades públicas para seguridad nacional; una excepción abierta es una brecha de adecuación y un riesgo para los derechos de los titulares.",
+    "correccion": "Añadir al numeral 3: '...conforme al Decreto Legislativo 1141 o la norma que regule el Sistema de Inteligencia Nacional, con registro de las transferencias realizadas y sujeto al control de la Comisión de Inteligencia del Congreso de la República; solo comprende los datos necesarios y proporcionales al caso concreto.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 2 (art. 15.2)",
+    "problema": "No se regulan las transferencias ulteriores (del destinatario extranjero a terceros países), vía habitual de pérdida de control y criterio expreso de adecuación de la UE.",
+    "correccion": "Añadir 15.2-bis o un párrafo final al 15.2: 'Los instrumentos del presente párrafo obligan al destinatario a no realizar transferencias ulteriores a terceros sino en condiciones que garanticen el mismo nivel de protección y a notificar al emisor cualquier solicitud de acceso de autoridades extranjeras, en la medida en que la ley aplicable lo permita.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 2 (art. 15, nuevo numeral)",
+    "problema": "Los datos sensibles (biométricos, genéticos, de salud) y los bancos de datos públicos de gran escala (identidad, salud, programas sociales) se transfieren con las mismas reglas que cualquier dato. Su filtración en el extranjero tiene impacto en la seguridad nacional (p. ej., bases biométricas de identidad).",
+    "correccion": "Añadir 15.7: 'El flujo transfronterizo de datos sensibles y de bancos de datos personales de entidades públicas requiere, además, cifrado en tránsito y en reposo con gestión de claves bajo control del emisor y evaluación de impacto previa conforme al reglamento. Se aplica sin perjuicio de las reglas de alojamiento en territorio nacional de la información pública clasificada como crítica o reservada.'"
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 29733, art. 15 (ya modificado por la propuesta; añadir 15.7 y salvaguardas de inteligencia)"
+   ],
+   "entidades_implicadas": [
+    "Comisión de Inteligencia del Congreso — control de transferencias de inteligencia",
+    "DINI — registro de transferencias"
+   ]
+  }
+ },
+ {
+  "id": "SOB-09",
+  "especialidad": "seguridad",
+  "veredicto": "observaciones",
+  "resumen": "Remite correctamente la seguridad de instalaciones al régimen ACN y agrega la información sensible del mapa de conexión. El punto débil es la participación de grandes cargas flexibles y almacenamiento en servicios complementarios: su control remoto agregado puede desestabilizar el SEIN si se compromete, y la exigencia de seguridad solo 'cuando corresponda' por calificación ACN deja fuera a la mayoría de esos recursos.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 6",
+    "problema": "Centros de datos de cientos de MW y sistemas de almacenamiento que responden a señales remotas del COES pueden, si se comprometen sus canales de control o los del agregador, variar súbitamente grandes bloques de demanda o inyección (ataques de alteración de carga), afectando la frecuencia y la seguridad del sistema. Condicionar los requisitos de seguridad digital a que el recurso 'corresponda' a un ACN deja sin exigencias a recursos que, agregados, sí son críticos. Riesgo de seguridad grave para infraestructura crítica.",
+    "correccion": "Sustituir la última oración del art. 6 por: 'Los procedimientos del COES establecen requisitos de medición, verificación y telecomunicaciones proporcionales y, para todo proveedor de servicios complementarios, sea o no Activo Crítico Nacional, requisitos mínimos de seguridad digital de los canales de control remoto: autenticación mutua y cifrado de las señales de despacho, segregación de los sistemas de control respecto de redes corporativas, registro de eventos y capacidad de desconexión segura ante comandos anómalos. El COES puede suspender la habilitación del proveedor que incumpla dichos requisitos. Los incidentes se notifican conforme al régimen vigente de notificación de incidentes de seguridad digital.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 5 (art. 33-A incorporado)",
+    "problema": "Los sistemas de almacenamiento se operan mediante sistemas de gestión de baterías e inversores con acceso remoto del fabricante para mantenimiento y actualizaciones, vector reconocido de riesgo en redes eléctricas. El texto no lo aborda.",
+    "correccion": "Añadir 33-A.4: 'Los titulares de Sistemas de Almacenamiento de Energía y Centrales Híbridas sujetan a autorización, registro y supervisión todo acceso remoto de terceros, incluidos fabricantes, a sus sistemas de control, y verifican la integridad de las actualizaciones de programas antes de instalarlas. Estas exigencias son técnicas, verificables y aplicables por igual con independencia del origen del proveedor.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 5 (art. 33-B incorporado)",
+    "problema": "El Registro de Garantías de Origen tendrá valor económico transable; sin controles de integridad es susceptible de doble emisión o manipulación.",
+    "correccion": "Añadir a 33-B.2: 'El Registro asegura la integridad e inalterabilidad de los asientos, la autenticación multifactor de los usuarios y la auditoría externa anual de sus sistemas.'"
+   }
+  ],
+  "aportes": {
+   "entidades_implicadas": [
+    "COES — requisitos de ciberseguridad para servicios complementarios",
+    "Osinergmin — supervisión",
+    "Centro Nacional de Seguridad Digital"
+   ]
+  }
+ },
+ {
+  "id": "SOB-10",
+  "especialidad": "seguridad",
+  "veredicto": "observaciones_graves",
+  "resumen": "La telemetría y la publicidad de derechos mejoran la gestión del agua y el texto alude a 'estándares técnicos y de seguridad'. Sin embargo, conectar a la ANA en tiempo real las captaciones de empresas de saneamiento, centrales hidroeléctricas y minas sin exigir arquitectura segregada y unidireccional abre una vía de ataque hacia sistemas OT/SCADA críticos; y la publicación georreferenciada por API de puntos de captación y volúmenes en tiempo real expone infraestructura de agua potable que no siempre está formalmente calificada como ACN.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 3 (art. 57, numeral 5)",
+    "problema": "La transmisión telemétrica desde captaciones poblacionales (EPS), energéticas y mineras suele implementarse tomando datos del propio SCADA del operador. Sin exigencia de segregación, cada enlace hacia la ANA crea una ruta de entrada a sistemas de control industrial de infraestructura crítica (riesgo documentado en ataques a sistemas de agua). Además, la plataforma receptora de la ANA concentra conexiones de miles de puntos. 'Estándares técnicos y de seguridad que esta apruebe' no fija mínimos.",
+    "correccion": "Añadir al numeral 5, después de 'que esta apruebe': 'La transmisión se realiza desde dispositivos de medición o pasarelas segregados de los sistemas de control operativo del titular, en modo de solo lectura y, cuando la infraestructura sea Activo Crítico Nacional o sirva al uso poblacional, mediante arquitectura unidireccional o equivalente que impida el acceso remoto desde la plataforma receptora a dichos sistemas. Ninguna disposición de la presente ley autoriza a la Autoridad Nacional a acceder a los sistemas de control de los titulares ni a enviarles comandos.' Añadir en el art. 4.2: 'Los estándares incluyen requisitos de autenticación de dispositivos, cifrado e integridad de las transmisiones y se aprueban con opinión del Centro Nacional de Seguridad Digital. La plataforma receptora de la Autoridad Nacional se evalúa conforme al régimen de Activos Críticos Nacionales.'"
+   },
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 2 (art. 18, tercer párrafo)",
+    "problema": "Publicar mediante API, georreferenciado, el titular, la fuente y los volúmenes efectivamente captados en tiempo casi real de cada captación de prestadores de saneamiento y de centrales hidroeléctricas revela el estado operativo de infraestructura que abastece a ciudades. La salvaguarda solo cubre lo 'calificado como Activo Crítico Nacional', pero numerosas captaciones de EPS y reservorios no han sido formalmente calificados, y la relación de ACN no es pública.",
+    "correccion": "Sustituir la última oración por: 'La información de captaciones de uso poblacional, de generación eléctrica y de cualquier infraestructura cuya divulgación comprometa la seguridad de servicios esenciales, esté o no calificada como Activo Crítico Nacional, se publica con la ubicación generalizada y los volúmenes con un desfase no menor de un mes o agregados por periodo, conforme determine la Autoridad Nacional con opinión del sector competente. Los datos en tiempo real solo son accesibles para las entidades competentes mediante la Plataforma de Interoperabilidad, con autenticación y registro de accesos.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 6.2",
+    "problema": "El acceso de universidades a 'datos de detalle' mediante convenio puede incluir series en tiempo real de infraestructura crítica.",
+    "correccion": "Añadir: 'Los convenios establecen obligaciones de confidencialidad, seguridad y no divulgación de datos de detalle sobre infraestructura de uso poblacional o energético, y excluyen la difusión de dichos datos en publicaciones sin agregación.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 8",
+    "problema": "La manipulación de registros está prevista como infracción, pero no la del propio dispositivo (bypass del medidor, inyección de datos falsos) ni la obligación de reportar fallas o intrusiones.",
+    "correccion": "Añadir: 'Constituye también incumplimiento la manipulación del dispositivo de medición o del canal de transmisión. El titular comunica a la Autoridad Nacional las fallas o accesos no autorizados que afecten la medición dentro del plazo que fije el reglamento.'"
+   }
+  ],
+  "aportes": {
+   "entidades_implicadas": [
+    "Centro Nacional de Seguridad Digital — opinión sobre estándares de telemetría",
+    "SUNASS / EPS — infraestructura de uso poblacional",
+    "Ministerio de Vivienda — sector del agua potable para fines ACN"
+   ],
+   "impacto_economico": "Pasarelas de solo lectura o diodos de datos en puntos ACN/poblacionales elevan el costo por punto, pero son marginales frente al costo de un incidente en SCADA de agua; para usos no críticos basta segregación lógica."
+  }
+ },
+ {
+  "id": "SOB-11",
+  "especialidad": "seguridad",
+  "veredicto": "observaciones",
+  "resumen": "Excluye material genético humano y protege la ubicación de especies amenazadas. Falta una salvaguarda de bioseguridad: el depósito obligatorio en abierto y la colecta con silencio positivo alcanzan también a secuencias de patógenos y toxinas de interés para armas biológicas.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 4.1, literal a), y artículo 4.2",
+    "problema": "La obligación de depositar en bases de acceso abierto toda secuencia generada no distingue los agentes biológicos y toxinas incluidos en las listas de control (Grupo Australia, Convención sobre Armas Biológicas). La difusión de genomas completos de patógenos nativos de alto riesgo o de elementos genéticos de toxinas es un riesgo de doble uso.",
+    "correccion": "Añadir al 4.2: 'Asimismo, el depósito puede limitarse o sujetarse a acceso controlado cuando la secuencia corresponda a agentes biológicos o toxinas comprendidos en la Lista Nacional de Control de Bienes de Doble Uso o en las listas de los arreglos multilaterales de no proliferación, previa opinión del Instituto Nacional de Salud y de la autoridad de control de exportaciones de doble uso.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 6.2",
+    "problema": "El silencio positivo para la autorización de colecta e investigación no excluye los proyectos con agentes patógenos para humanos, animales o plantas de alto riesgo, cuya colecta y transporte requieren evaluación de bioseguridad.",
+    "correccion": "Añadir a las excepciones de silencio negativo: 'o agentes biológicos patógenos o toxinas de los grupos de riesgo que determine el reglamento, o bienes comprendidos en la Lista Nacional de Control de Bienes de Doble Uso'."
+   }
+  ],
+  "aportes": {
+   "entidades_implicadas": [
+    "Instituto Nacional de Salud / SENASA — bioseguridad de patógenos",
+    "Autoridad de control de exportaciones de doble uso (SOB-13)"
+   ]
+  }
+ },
+ {
+  "id": "SOB-12",
+  "especialidad": "seguridad",
+  "veredicto": "observaciones",
+  "resumen": "Diseño sólido y alineado con la Recomendación OCDE: no discriminación por nacionalidad, factores tasados, decisión al máximo nivel, anexo reservado y control judicial. Persisten tres problemas: el silencio positivo en fase detallada aprueba por inacción operaciones con riesgo de seguridad; la obligación de notificar depende de la calificación ACN, cuya relación no es pública; y el anexo reservado no tiene reglas de manejo que concilien seguridad y derecho de defensa.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 6.3",
+    "problema": "En la fase detallada ya se identificaron 'indicios razonables de riesgo'. Que el vencimiento del plazo sin pronunciamiento autorice la operación permite que la inacción (o la falta de quórum de la comisión) apruebe una adquisición riesgosa, en contra de la regla general del TUO de la Ley 27444 que reserva el silencio negativo para la defensa nacional.",
+    "correccion": "Sustituir el 6.3 por: '6.3 Vencido el plazo de la fase inicial sin pronunciamiento, la operación se entiende autorizada. Vencido el plazo de la fase de evaluación detallada sin pronunciamiento, la operación se entiende autorizada salvo que la comisión multisectorial haya emitido opinión desfavorable, en cuyo caso la autoridad resuelve dentro de los diez días hábiles siguientes, bajo responsabilidad; la omisión se comunica a la Contraloría General de la República.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3.1, literal a)",
+    "problema": "La obligación de notificar se activa si la sociedad objetivo es titular de un ACN, pero la calificación de ACN y su relación se manejan con reserva bajo el D.S. 106-2017-PCM (por verificar si la relación tiene carácter reservado). El adquirente no puede saber si debe notificar, lo que afecta la tipicidad de la infracción del art. 10.1 a).",
+    "correccion": "Añadir 3.4: 'El sector competente comunica de manera reservada a cada titular su calificación como Activo Crítico Nacional. El titular informa de dicha calificación, bajo compromiso de confidencialidad, a quienes negocien la adquisición de su control. El incumplimiento de este deber por el titular exime de sanción al adquirente que actuó de buena fe y no impide la revisión de oficio del artículo 9.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 8.2",
+    "problema": "El anexo reservado se pone a disposición del juez, pero no se regula el acceso del notificante ni de su abogado; una decisión basada íntegramente en información que el afectado no conoce vulnera el derecho de defensa (art. 139.14 de la Constitución) y debilita la decisión en sede judicial. Tampoco se fija quién custodia el anexo.",
+    "correccion": "Añadir: 'La autoridad entrega al notificante un resumen no clasificado de los fundamentos del anexo reservado que le permita ejercer su defensa. El anexo se custodia conforme a las normas del Sistema de Inteligencia Nacional y el órgano jurisdiccional lo examina con las reservas que garanticen su confidencialidad.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 11.1",
+    "problema": "La confidencialidad de la información comercial no alcanza expresamente a los integrantes de la comisión multisectorial ni a la DINI, que reciben datos de alto valor estratégico de las empresas.",
+    "correccion": "Añadir: 'Los integrantes de la comisión multisectorial y el personal de apoyo están sujetos al deber de reserva y responden por su divulgación; la información recibida no puede usarse para fines distintos de la evaluación.'"
+   }
+  ],
+  "aportes": {
+   "entidades_implicadas": [
+    "Sectores competentes del régimen ACN — comunicación reservada de la calificación",
+    "Poder Judicial — manejo del anexo reservado"
+   ]
+  }
+ },
+ {
+  "id": "SOB-13",
+  "especialidad": "seguridad",
+  "veredicto": "observaciones_graves",
+  "resumen": "Régimen técnicamente bien construido (listas multilaterales, criterios no comerciales, cláusula de uso final, anexo reservado, excepciones de dominio público e investigación básica). Pero al incorporar automáticamente las listas de Wassenaar sin las salvedades de divulgación de vulnerabilidades y respuesta a incidentes, sujeta a licencia previa el intercambio de exploits y herramientas de prueba de penetración propio de la investigación de seguridad de buena fe, contrario al criterio 8 de COORDINACION.md.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículos 4.1 y 5.2",
+    "problema": "La Lista de Wassenaar controla software de intrusión y tecnología para su desarrollo (categoría 4, entradas 4.A.5, 4.D.4 y 4.E.1.c) y herramientas de vigilancia de redes. Incorporarla sin salvedades exige licencia previa para enviar a un fabricante extranjero una prueba de concepto de una vulnerabilidad, compartir indicadores con un CSIRT extranjero o participar en programas de recompensas, con infracciones muy graves de hasta 1000 UIT. Wassenaar en 2017 introdujo notas que excluyen la 'divulgación de vulnerabilidades' y la 'respuesta a incidentes cibernéticos'; la propuesta no las recoge. Criminaliza de facto la investigación de seguridad de buena fe.",
+    "correccion": "Añadir art. 9.3: 'No requieren licencia la divulgación de vulnerabilidades al responsable del producto o sistema, a un equipo de respuesta ante incidentes o a la autoridad competente con el fin de su corrección, ni el intercambio de información, muestras o herramientas con fines de respuesta a incidentes de seguridad digital, conforme a las notas de exclusión de los arreglos multilaterales. La Lista Nacional de Control recoge dichas notas.' Precisar en el 12.1 a): 'salvo las operaciones exceptuadas en el artículo 9'."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 2, literal b)",
+    "problema": "La 'transferencia intangible' a persona extranjera en territorio nacional (exportación presunta) puede restringir la participación de estudiantes e investigadores extranjeros en laboratorios universitarios y de empresas, con efecto discriminatorio por nacionalidad y chilling en la academia, si el reglamento la extiende sin límites.",
+    "correccion": "Añadir: '...cuando el reglamento así lo determine, solo respecto de tecnologías de las categorías más sensibles de la Lista y con exclusión de la investigación científica básica, la información de dominio público y la enseñanza a que se refiere el artículo 9.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 5.3",
+    "problema": "Las solicitudes vía VUCE contienen información altamente sensible (usuario final, especificaciones de bienes controlados, rutas). El componente de la VUCE debe tener acceso restringido y no compartirse por interoperabilidad general.",
+    "correccion": "Añadir: 'La información de las solicitudes y licencias es accesible solo para la autoridad de control, los miembros del comité técnico y la SUNAT en el ámbito de sus funciones, con autenticación multifactor y registro inalterable de accesos; no se integra a los servicios de intercambio general de la VUCE.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 9.1",
+    "problema": "La excepción por enseñanza y dominio público depende de que el docente no tenga 'conocimiento efectivo'; conviene ofrecer seguridad jurídica a la publicación académica en ciberseguridad.",
+    "correccion": "Añadir: 'La publicación de resultados de investigación en ciberseguridad en revistas, congresos o repositorios abiertos se considera información de dominio público.'"
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [],
+   "entidades_implicadas": [
+    "Centro Nacional de Seguridad Digital / PeCERT — excepciones de respuesta a incidentes",
+    "Universidades — guías de cumplimiento"
+   ]
+  }
+ },
+ {
+  "id": "CON-15",
+  "especialidad": "seguridad",
+  "veredicto": "observaciones",
+  "resumen": "Propuesta de bajo riesgo que ya limita el detalle de instalaciones ACN. Sin embargo, el inventario georreferenciado abierto de nodos con su condición energética y los sistemas fotovoltaicos con baterías en zonas aisladas facilita el robo de equipos (problema recurrente en sitios rurales de telecomunicaciones) y la ubicación de nodos en zonas de frontera con economías ilegales.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3.2",
+    "problema": "La salvaguarda solo cubre instalaciones de telecomunicaciones calificadas como ACN. Los nodos rurales financiados con fondos públicos y sus sistemas autónomos (paneles, baterías) normalmente no son ACN, pero su publicación georreferenciada junto con la 'condición de suministro' identifica qué sitios tienen equipos de alto valor y sin vigilancia; en zonas de frontera y del VRAEM, la ubicación de nodos es además información sensible para el orden interno.",
+    "correccion": "Sustituir el final del 3.2 por: '...sin datos personales. La ubicación exacta de los nodos y estaciones de telecomunicaciones y de los sistemas de almacenamiento de energía se publica con coordenadas generalizadas a nivel de centro poblado o distrito; las coordenadas precisas se comparten solo con las entidades competentes mediante la Plataforma de Interoperabilidad.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 6",
+    "problema": "El 'monitoreo remoto' de los sistemas de suministro conectados a internet suele implementarse con dispositivos con credenciales por defecto, que pueden apagarse remotamente.",
+    "correccion": "Añadir: 'Los dispositivos de monitoreo remoto cumplen requisitos mínimos de seguridad digital: credenciales únicas, actualizaciones de seguridad durante su vida útil y comunicación cifrada, y no permiten el control remoto del suministro sin autenticación fuerte.'"
+   }
+  ]
+ }
+]

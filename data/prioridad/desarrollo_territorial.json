@@ -1732,6 +1732,471 @@
       "requiere": [
         "CIB-08"
       ]
+    },
+    {
+      "id": "SOB-09",
+      "criterios": {
+        "brechas_territoriales": 2,
+        "inclusion": 1,
+        "capital_humano": 1,
+        "legitimidad_conflictos": 2,
+        "sostenibilidad_resiliencia": 5,
+        "derechos_tecnologia": 1
+      },
+      "score": 36,
+      "justificacion": "Fuerte aporte a la transición energética y a la transmisión hacia zonas de recurso, pero el beneficio llega a grandes cargas; protege a usuarios regulados sin mejorar su acceso.",
+      "habilita": [
+        "CON-10",
+        "IA-05",
+        "SOB-01"
+      ],
+      "requiere": []
+    },
+    {
+      "id": "SOB-10",
+      "criterios": {
+        "brechas_territoriales": 3,
+        "inclusion": 3,
+        "capital_humano": 1,
+        "legitimidad_conflictos": 5,
+        "sostenibilidad_resiliencia": 5,
+        "derechos_tecnologia": 2
+      },
+      "score": 61,
+      "justificacion": "Ataca una causa central de los conflictos socioambientales al hacer visible quién usa cuánta agua, protegiendo a pequeños usuarios agrarios; aporte alto a la resiliencia climática.",
+      "habilita": [],
+      "requiere": [
+        "IA-04"
+      ]
+    },
+    {
+      "id": "SOB-11",
+      "criterios": {
+        "brechas_territoriales": 3,
+        "inclusion": 4,
+        "capital_humano": 2,
+        "legitimidad_conflictos": 3,
+        "sostenibilidad_resiliencia": 4,
+        "derechos_tecnologia": 4
+      },
+      "score": 66,
+      "justificacion": "Reparto de beneficios y protección de conocimientos colectivos favorece a pueblos amazónicos y andinos y a la conservación de la biodiversidad.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "SOB-12",
+      "criterios": {
+        "brechas_territoriales": 1,
+        "inclusion": 1,
+        "capital_humano": 1,
+        "legitimidad_conflictos": 2,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 2
+      },
+      "score": 26,
+      "justificacion": "Protege la continuidad de servicios críticos y datos masivos, pero no tiene efecto territorial ni distributivo directo.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "SOB-13",
+      "criterios": {
+        "brechas_territoriales": 1,
+        "inclusion": 1,
+        "capital_humano": 1,
+        "legitimidad_conflictos": 1,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 2
+      },
+      "score": 23,
+      "justificacion": "Sin efecto territorial; las excepciones para investigación y divulgación de vulnerabilidades evitan daños a la academia.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "CON-15",
+      "criterios": {
+        "brechas_territoriales": 5,
+        "inclusion": 5,
+        "capital_humano": 5,
+        "legitimidad_conflictos": 3,
+        "sostenibilidad_resiliencia": 4,
+        "derechos_tecnologia": 1
+      },
+      "score": 80,
+      "justificacion": "Llega directamente a locales educativos y de salud rurales sin suministro confiable; sin energía la conectividad de CON-13 no sirve, y la solución solar refuerza la resiliencia.",
+      "habilita": [
+        "CON-13",
+        "TAL-07"
+      ],
+      "requiere": [
+        "CON-02"
+      ]
+    },
+    {
+      "id": "ECO-15",
+      "criterios": {
+        "brechas_territoriales": 3,
+        "inclusion": 4,
+        "capital_humano": 1,
+        "legitimidad_conflictos": 2,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 2
+      },
+      "score": 48,
+      "justificacion": "Beneficia a microempresas regionales y a mujeres emprendedoras con menor costo de cumplimiento; la cláusula de no regresividad laboral protege a trabajadores.",
+      "habilita": [],
+      "requiere": [
+        "ECO-14"
+      ]
+    },
+    {
+      "id": "ECO-16",
+      "criterios": {
+        "brechas_territoriales": 1,
+        "inclusion": 1,
+        "capital_humano": 1,
+        "legitimidad_conflictos": 3,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 1
+      },
+      "score": 26,
+      "justificacion": "Transparencia sobre incentivos productivos mejora la confianza, sin efecto territorial directo.",
+      "habilita": [
+        "ECO-03"
+      ],
+      "requiere": []
+    },
+    {
+      "id": "ECO-17",
+      "criterios": {
+        "brechas_territoriales": 3,
+        "inclusion": 3,
+        "capital_humano": 4,
+        "legitimidad_conflictos": 2,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 2
+      },
+      "score": 53,
+      "justificacion": "Mejora habilidades gerenciales y digitales de MIPYME regionales; su alcance territorial depende de que el diagnóstico gratuito llegue fuera de Lima.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "ECO-18",
+      "criterios": {
+        "brechas_territoriales": 2,
+        "inclusion": 2,
+        "capital_humano": 3,
+        "legitimidad_conflictos": 2,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 1
+      },
+      "score": 38,
+      "justificacion": "Empleo formal de mayor productividad, pero concentrado en Lima y polos costeros.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "ECO-19",
+      "criterios": {
+        "brechas_territoriales": 1,
+        "inclusion": 1,
+        "capital_humano": 1,
+        "legitimidad_conflictos": 2,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 1
+      },
+      "score": 23,
+      "justificacion": "Beneficio concentrado en startups limeñas; la exclusión de fondos conservadores limita el riesgo para afiliados próximos a jubilarse.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "ECO-20",
+      "criterios": {
+        "brechas_territoriales": 1,
+        "inclusion": 1,
+        "capital_humano": 1,
+        "legitimidad_conflictos": 2,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 2
+      },
+      "score": 26,
+      "justificacion": "Transparencia y consulta en negociaciones digitales; sin efecto territorial directo.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "ECO-21",
+      "criterios": {
+        "brechas_territoriales": 2,
+        "inclusion": 1,
+        "capital_humano": 1,
+        "legitimidad_conflictos": 3,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 1
+      },
+      "score": 31,
+      "justificacion": "El marcador del gasto digital permite vigilar a dónde va la inversión; efecto territorial indirecto.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "ECO-22",
+      "criterios": {
+        "brechas_territoriales": 5,
+        "inclusion": 5,
+        "capital_humano": 3,
+        "legitimidad_conflictos": 3,
+        "sostenibilidad_resiliencia": 5,
+        "derechos_tecnologia": 4
+      },
+      "score": 85,
+      "justificacion": "Llega a agricultores familiares y cooperativas amazónicas y andinas, protege sus datos de parcela y premia la conservación del bosque.",
+      "habilita": [
+        "TAL-08"
+      ],
+      "requiere": [
+        "CON-09"
+      ]
+    },
+    {
+      "id": "GOB-15",
+      "criterios": {
+        "brechas_territoriales": 2,
+        "inclusion": 2,
+        "capital_humano": 1,
+        "legitimidad_conflictos": 3,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 2
+      },
+      "score": 38,
+      "justificacion": "Certeza frente a la inacción administrativa beneficia a ciudadanos con menos acceso a gestores; efecto territorial limitado a trámites del Ejecutivo.",
+      "habilita": [],
+      "requiere": [
+        "GOB-02"
+      ]
+    },
+    {
+      "id": "GOB-16",
+      "criterios": {
+        "brechas_territoriales": 1,
+        "inclusion": 1,
+        "capital_humano": 1,
+        "legitimidad_conflictos": 3,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 2
+      },
+      "score": 29,
+      "justificacion": "Información técnica pública mejora la deliberación, sin efecto territorial directo.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "GOB-17",
+      "criterios": {
+        "brechas_territoriales": 2,
+        "inclusion": 1,
+        "capital_humano": 1,
+        "legitimidad_conflictos": 4,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 1
+      },
+      "score": 34,
+      "justificacion": "Tablero público de metas digitales fortalece la rendición de cuentas y la confianza, sin focalización territorial.",
+      "habilita": [
+        "GOB-18"
+      ],
+      "requiere": []
+    },
+    {
+      "id": "GOB-18",
+      "criterios": {
+        "brechas_territoriales": 2,
+        "inclusion": 2,
+        "capital_humano": 1,
+        "legitimidad_conflictos": 3,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 2
+      },
+      "score": 38,
+      "justificacion": "Derechos legales que se hacen efectivos a tiempo; efecto distributivo indirecto.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "GOB-19",
+      "criterios": {
+        "brechas_territoriales": 5,
+        "inclusion": 4,
+        "capital_humano": 2,
+        "legitimidad_conflictos": 4,
+        "sostenibilidad_resiliencia": 2,
+        "derechos_tecnologia": 2
+      },
+      "score": 69,
+      "justificacion": "Lleva trámites y pagos en línea a distritos rurales de baja capacidad y mejora la transparencia local.",
+      "habilita": [],
+      "requiere": [
+        "GOB-08",
+        "GOB-14"
+      ]
+    },
+    {
+      "id": "GOB-20",
+      "criterios": {
+        "brechas_territoriales": 2,
+        "inclusion": 1,
+        "capital_humano": 1,
+        "legitimidad_conflictos": 2,
+        "sostenibilidad_resiliencia": 2,
+        "derechos_tecnologia": 1
+      },
+      "score": 30,
+      "justificacion": "Beneficio concentrado en el corredor Lima–Chancay; poco efecto en brechas territoriales.",
+      "habilita": [
+        "SOB-02"
+      ],
+      "requiere": [
+        "CIB-01"
+      ]
+    },
+    {
+      "id": "GOB-21",
+      "criterios": {
+        "brechas_territoriales": 4,
+        "inclusion": 5,
+        "capital_humano": 1,
+        "legitimidad_conflictos": 5,
+        "sostenibilidad_resiliencia": 3,
+        "derechos_tecnologia": 4
+      },
+      "score": 76,
+      "justificacion": "Hace exigibles los acuerdos con pueblos indígenas y comunidades, causa recurrente de conflictos, y garantiza que lo digital no desplace la consulta presencial.",
+      "habilita": [
+        "SOB-01"
+      ],
+      "requiere": []
+    },
+    {
+      "id": "GOB-22",
+      "criterios": {
+        "brechas_territoriales": 4,
+        "inclusion": 3,
+        "capital_humano": 2,
+        "legitimidad_conflictos": 5,
+        "sostenibilidad_resiliencia": 2,
+        "derechos_tecnologia": 2
+      },
+      "score": 63,
+      "justificacion": "Responde qué se hizo con el canon en cada distrito, clave para la legitimidad del crecimiento minero; participación digital complementaria sin reemplazar talleres.",
+      "habilita": [],
+      "requiere": [
+        "GOB-05",
+        "IA-04"
+      ]
+    },
+    {
+      "id": "GOB-23",
+      "criterios": {
+        "brechas_territoriales": 4,
+        "inclusion": 5,
+        "capital_humano": 3,
+        "legitimidad_conflictos": 4,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 5
+      },
+      "score": 78,
+      "justificacion": "Garantiza acceso a servicios digitales a hablantes de lenguas originarias, con interpretación gratuita y protección frente a traducciones automáticas erróneas.",
+      "habilita": [],
+      "requiere": [
+        "TAL-13"
+      ]
+    },
+    {
+      "id": "GOB-24",
+      "criterios": {
+        "brechas_territoriales": 5,
+        "inclusion": 5,
+        "capital_humano": 2,
+        "legitimidad_conflictos": 4,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 3
+      },
+      "score": 74,
+      "justificacion": "Obliga a medir si cada intervención digital reduce o amplía brechas rurales, de género, lengua y discapacidad.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "TAL-15",
+      "criterios": {
+        "brechas_territoriales": 1,
+        "inclusion": 1,
+        "capital_humano": 3,
+        "legitimidad_conflictos": 1,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 2
+      },
+      "score": 29,
+      "justificacion": "Beneficio concentrado en Lima; el reconocimiento ágil de títulos ayuda a peruanos retornados.",
+      "habilita": [
+        "CON-10"
+      ],
+      "requiere": []
+    },
+    {
+      "id": "TAL-16",
+      "criterios": {
+        "brechas_territoriales": 2,
+        "inclusion": 3,
+        "capital_humano": 5,
+        "legitimidad_conflictos": 2,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 3
+      },
+      "score": 54,
+      "justificacion": "Fuerte en capital humano e incluye a independientes; sin aportes públicos su alcance a los más pobres es limitado.",
+      "habilita": [],
+      "requiere": [
+        "IA-13"
+      ]
+    },
+    {
+      "id": "IA-15",
+      "criterios": {
+        "brechas_territoriales": 1,
+        "inclusion": 1,
+        "capital_humano": 1,
+        "legitimidad_conflictos": 3,
+        "sostenibilidad_resiliencia": 2,
+        "derechos_tecnologia": 4
+      },
+      "score": 37,
+      "justificacion": "Reparación más rápida para víctimas frente a operadores con más poder; efecto territorial bajo salvo en zonas mineras.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "IA-16",
+      "criterios": {
+        "brechas_territoriales": 1,
+        "inclusion": 1,
+        "capital_humano": 1,
+        "legitimidad_conflictos": 2,
+        "sostenibilidad_resiliencia": 1,
+        "derechos_tecnologia": 4
+      },
+      "score": 32,
+      "justificacion": "Protege mejor a titulares al acotar excepciones y responsabilizar al exportador; sin efecto territorial.",
+      "habilita": [
+        "ECO-12"
+      ],
+      "requiere": [
+        "IA-11"
+      ]
     }
   ],
   "vacios": [

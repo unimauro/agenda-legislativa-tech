@@ -1,0 +1,2133 @@
+[
+ {
+  "id": "SOB-09",
+  "eje": "sober",
+  "titulo": "Ley que modifica la Ley 28832, Ley para asegurar el desarrollo eficiente de la generación eléctrica, para promover el suministro de energía firme de fuentes renovables a grandes cargas digitales e industriales mediante contratos por bloques horarios, almacenamiento de energía y planificación anticipada de la transmisión",
+  "titulo_corto": "Energía firme renovable para cargas digitales",
+  "sumilla": "Incorpora en la Ley 28832 el reconocimiento del almacenamiento de energía como actividad que participa en el mercado, una metodología tecnológicamente neutral de potencia y energía firme para centrales renovables, híbridas y con almacenamiento, contratos bilaterales por bloques horarios con usuarios libres, un registro de garantías de origen a cargo del COES y criterios de planificación anticipada de la transmisión hacia zonas de recurso renovable y grandes cargas, sin subsidios ni traslado de costos a los usuarios regulados.",
+  "problema": "Los centros de datos (CON-10), el cómputo para IA (IA-05) y la refinación de minerales (SOB-01) requieren electricidad limpia y firme que el marco vigente no permite contratar bien. Según el Ministerio de Energía y Minas, en 2024 la producción nacional de electricidad fue de 63 565 GWh y la generación con recursos energéticos renovables no convencionales alcanzó 5 777 GWh (eólica 3 915 GWh y solar 1 263 GWh) (alrededor de 9 %). La Agencia Internacional de Energía (Energy and AI, 2025) estima que los centros de datos consumieron unos 415 TWh en 2024 y llegarían a unos 945 TWh en 2030. La Ley 32249 (El Peruano, 19-ene-2025) permitió licitar potencia y energía por separado y en bloques horarios para el mercado regulado y creó el mercado de servicios complementarios, pero no reconoce el almacenamiento como actividad, no fija cómo se calcula la potencia firme de centrales solares, eólicas o híbridas con baterías —lo que limita su capacidad de contratar con usuarios libres por la regla del artículo 3 de la Ley 28832— y el Plan de Transmisión se elabora para un horizonte no mayor de diez años sin criterios explícitos para zonas de recurso renovable ni grandes cargas nuevas. Sin estas reglas, la inversión que exige energía firme y renovable verificable se ubica en otros mercados.",
+  "objeto": "Modificar la Ley 28832 para habilitar el suministro de energía firme de fuentes renovables a grandes cargas mediante almacenamiento, metodologías neutrales de potencia y energía firme, contratos por bloques horarios, garantías de origen y planificación anticipada de la transmisión.",
+  "articulado": [
+   {
+    "n": "Artículo 1",
+    "titulo": "Objeto",
+    "texto": "La presente ley tiene por objeto modificar la Ley 28832, Ley para asegurar el desarrollo eficiente de la generación eléctrica, a fin de promover el suministro seguro, eficiente y de origen renovable verificable de electricidad a usuarios libres de gran demanda, incluidos centros de datos, instalaciones de cómputo y plantas de transformación industrial, mediante el almacenamiento de energía, metodologías tecnológicamente neutrales de potencia y energía firme, contratos por bloques horarios, un registro de garantías de origen y la planificación anticipada de la transmisión, sin otorgar subsidios ni trasladar costos a los usuarios regulados."
+   },
+   {
+    "n": "Artículo 2",
+    "titulo": "Incorporación de numerales al artículo 1 de la Ley 28832",
+    "texto": "Se incorporan los numerales 40, 41 y 42 al artículo 1 de la Ley 28832, Ley para asegurar el desarrollo eficiente de la generación eléctrica, en los siguientes términos:\n\n\"Artículo 1. Definiciones\n[…]\n40. Sistema de Almacenamiento de Energía. Instalación que absorbe energía eléctrica del sistema, la almacena en cualquier forma y la inyecta posteriormente, de manera independiente o asociada a una central de generación o a las instalaciones de un usuario.\n41. Central Híbrida. Conjunto de instalaciones de generación de distintas tecnologías, con o sin Sistema de Almacenamiento de Energía, que comparten un mismo punto de conexión y se despachan de manera coordinada.\n42. Garantía de Origen. Registro electrónico único que acredita que una cantidad determinada de energía eléctrica fue producida a partir de recursos energéticos renovables en una instalación, un periodo y un punto del sistema determinados.\""
+   },
+   {
+    "n": "Artículo 3",
+    "titulo": "Incorporación del numeral 3.3 al artículo 3 de la Ley 28832",
+    "texto": "Se incorpora el numeral 3.3 al artículo 3 de la Ley 28832, Ley para asegurar el desarrollo eficiente de la generación eléctrica, en los siguientes términos:\n\n\"Artículo 3. De los contratos\n[…]\n3.3. Para efectos del numeral 3.1, la potencia firme y la energía firme de las centrales de recursos energéticos renovables, de las Centrales Híbridas y de los Sistemas de Almacenamiento de Energía se determinan conforme a una metodología tecnológicamente neutral, basada en su contribución probabilística a la suficiencia del sistema en cada bloque horario, aprobada por el Ministerio de Energía y Minas con opinión del Osinergmin y sobre la base de una propuesta del COES. Los generadores pueden celebrar con usuarios libres contratos de suministro por bloques horarios, de potencia y energía en forma separada o conjunta, dentro de los límites de dicho numeral.\""
+   },
+   {
+    "n": "Artículo 4",
+    "titulo": "Incorporación del numeral 21.4 al artículo 21 de la Ley 28832",
+    "texto": "Se incorpora el numeral 21.4 al artículo 21 de la Ley 28832, Ley para asegurar el desarrollo eficiente de la generación eléctrica, en los siguientes términos:\n\n\"Artículo 21. Plan de Transmisión\n[…]\n21.4. El estudio del COES para el Plan de Transmisión incluye escenarios de desarrollo de zonas con alto potencial de recursos energéticos renovables y de conexión de grandes cargas, identificados a partir de las solicitudes de conexión, factibilidades de suministro y estudios de pre-operatividad en trámite. Las obras de transmisión destinadas a anticipar dicho desarrollo solo se incluyen en el Plan cuando: a) un análisis de beneficio-costo para el conjunto del sistema, publicado con sus supuestos, resulte positivo bajo escenarios conservadores; o b) los interesados asuman compromisos de capacidad respaldados por garantías, en las condiciones que fije el reglamento. El reglamento establece la ejecución por etapas y los mecanismos para evitar que el costo de capacidad no utilizada se traslade a los usuarios regulados.\""
+   },
+   {
+    "n": "Artículo 5",
+    "titulo": "Incorporación de los artículos 33-A y 33-B a la Ley 28832",
+    "texto": "Se incorporan los artículos 33-A y 33-B al capítulo octavo de la Ley 28832, Ley para asegurar el desarrollo eficiente de la generación eléctrica, en los siguientes términos:\n\n\"Artículo 33-A. Sistemas de Almacenamiento de Energía\n33-A.1. Los titulares de Sistemas de Almacenamiento de Energía conectados al Sistema Eléctrico Interconectado Nacional (SEIN) participan, como Agentes, en el Mercado de Corto Plazo, en el mercado de servicios complementarios y en la contratación de potencia y energía, conforme a la metodología del numeral 3.3 y a los procedimientos del COES.\n33-A.2. El Ministerio de Energía y Minas establece el título habilitante aplicable a los Sistemas de Almacenamiento de Energía independientes, con un procedimiento simplificado cuando se instalen asociados a centrales existentes o en instalaciones de usuarios libres. La energía absorbida para su almacenamiento y luego reinyectada no se considera retiro para efectos del pago de los peajes de transmisión y de los cargos que remuneran la energía, en los términos que fije el reglamento con opinión del Osinergmin, sin afectar los cargos del mecanismo de compensación establecido al amparo del Decreto Legislativo 1002.\n33-A.3. El COES despacha los Sistemas de Almacenamiento de Energía y las Centrales Híbridas sobre la base del mínimo costo y de la seguridad del sistema, sin trato preferente.\n33-A.4. Los titulares de Sistemas de Almacenamiento de Energía y de Centrales Híbridas sujetan a autorización, registro y supervisión todo acceso remoto de terceros a sus sistemas de control, incluido el de los fabricantes, y verifican la integridad de las actualizaciones de programas antes de instalarlas. Estas exigencias son técnicas, verificables y se aplican por igual con independencia del origen del proveedor.\n\nArtículo 33-B. Registro de Garantías de Origen\n33-B.1. El COES administra el Registro de Garantías de Origen, que emite, transfiere y cancela una Garantía de Origen por cada megavatio hora producido con recursos energéticos renovables e inyectado al SEIN, con indicación de la instalación, la hora y la barra de inyección.\n33-B.2. Las Garantías de Origen son transferibles e independientes de los contratos de suministro; se cancelan cuando se declaran consumidas y no pueden contarse dos veces. El Registro asegura la integridad de los asientos, la autenticación multifactor de sus usuarios y la auditoría externa anual de sus sistemas. El Osinergmin supervisa el Registro; la inscripción como usuario del Registro implica la sujeción a dicha supervisión en lo relativo a él.\n33-B.3. Los usuarios libres pueden acreditar su consumo de origen renovable con Garantías de Origen canceladas, contratos de suministro con centrales renovables o autogeneración, con indicación de su correspondencia horaria y geográfica. El Registro emite certificados con granularidad horaria en un formato de datos abierto y documentado, interoperable con los registros y estándares internacionales de certificados de atributos energéticos, y es la fuente de verificación del consumo renovable que los usuarios libres reporten conforme a la normativa sectorial.\n33-B.4. El COES financia el Registro con los aportes de sus integrantes y puede cobrar a los usuarios del Registro un monto que es una contraprestación por servicio, no tiene naturaleza tributaria y se limita a recuperar su costo, conforme a la metodología que apruebe el Osinergmin.\n33-B.5. Constituyen infracciones graves, que el Osinergmin sanciona conforme a su ley y a su escala de multas, solicitar la emisión de Garantías de Origen sobre energía que no cumple los requisitos de este artículo y transferir o declarar como consumidas Garantías de Origen ya canceladas. La difusión al público de declaraciones de consumo de origen renovable no sustentadas en Garantías de Origen canceladas, contratos de suministro con centrales renovables o autogeneración constituye acto de engaño conforme al Decreto Legislativo 1044, Ley de Represión de la Competencia Desleal.\""
+   },
+   {
+    "n": "Artículo 6",
+    "titulo": "Cargas flexibles, servicios complementarios y seguridad digital",
+    "texto": "6.1. Los usuarios libres de gran demanda, incluidos los centros de datos, pueden ofrecer reducción o desplazamiento de su consumo y la operación de sus Sistemas de Almacenamiento de Energía como proveedores de servicios complementarios, en el marco del capítulo octavo de la Ley 28832 y de los procedimientos del COES.\n6.2. Los procedimientos del COES establecen requisitos de medición, verificación y telecomunicaciones proporcionales y, para todo proveedor de servicios complementarios y todo Sistema de Almacenamiento de Energía conectado a sus sistemas de control, sea o no Activo Crítico Nacional, requisitos mínimos de seguridad digital de los canales de control remoto, proporcionales al riesgo agregado: autenticación mutua y cifrado de las señales de despacho, segregación de los sistemas de control respecto de las redes corporativas, registro de eventos y capacidad de desconexión segura ante comandos anómalos, sin perjuicio de los requisitos adicionales aplicables a los Activos Críticos Nacionales.\n6.3. El COES puede suspender la habilitación del proveedor que incumpla dichos requisitos. Los incidentes de seguridad digital se notifican conforme al régimen vigente de notificación de incidentes."
+   },
+   {
+    "n": "Artículo 7",
+    "titulo": "Neutralidad y protección de los usuarios regulados",
+    "texto": "7.1. Las medidas de la presente ley no otorgan beneficios tributarios, precios garantizados, primas ni subsidios a ninguna tecnología o actividad, ni modifican los cargos del mecanismo de compensación de los recursos energéticos renovables establecidos al amparo del Decreto Legislativo 1002.\n7.2. Los costos de conexión, de refuerzo de transmisión exclusivamente asociados a un usuario libre y del Registro de Garantías de Origen son asumidos por quienes los originan. El Osinergmin verifica, al fijar las tarifas, que ningún costo derivado de la presente ley se traslade a los usuarios regulados sin el beneficio-costo previsto en el numeral 21.4."
+   },
+   {
+    "n": "Artículo 8",
+    "titulo": "Transparencia de la capacidad de conexión",
+    "texto": "El COES publica y actualiza semestralmente, en formato abierto, un mapa de la capacidad de conexión disponible en las barras del SEIN, la cola de solicitudes de conexión y estudios de pre-operatividad en trámite, sin datos comerciales de los solicitantes, y el estado de las obras del Plan de Transmisión. La información cuya divulgación comprometa la seguridad de instalaciones calificadas como Activos Críticos Nacionales se publica con el nivel de agregación que determine el COES con opinión del Ministerio de Energía y Minas."
+   },
+   {
+    "n": "Artículo 9",
+    "titulo": "Relación con otras normas",
+    "texto": "La conexión, el uso del agua y la evaluación ambiental de los centros de datos se rigen por la normativa sectorial vigente. La seguridad de las instalaciones se rige por el régimen de Activos Críticos Nacionales. La presente ley no modifica el régimen de licitaciones para usuarios regulados establecido por la Ley 32249."
+   }
+  ],
+  "disposiciones": [
+   {
+    "tipo": "Complementaria Final",
+    "n": "Primera",
+    "texto": "Reglamentación. El Poder Ejecutivo, mediante decreto supremo refrendado por el Ministro de Energía y Minas, adecúa el Reglamento de la Ley 28832 y demás normas reglamentarias en un plazo de ciento veinte días hábiles contados a partir del día siguiente de la publicación de la presente ley."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Segunda",
+    "texto": "Metodología de potencia y energía firme y procedimientos del COES. El COES remite al Ministerio de Energía y Minas la propuesta de metodología a que se refiere el numeral 3.3 y presenta al Osinergmin los procedimientos de despacho de almacenamiento, de servicios complementarios con cargas flexibles y del Registro de Garantías de Origen en un plazo de ciento ochenta días hábiles contados a partir de la publicación del reglamento."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Tercera",
+    "texto": "Informe al Congreso. El Ministerio de Energía y Minas informa anualmente a las comisiones competentes de ambas cámaras del Congreso, incluida la Comisión de Energía y Minas de la Cámara de Diputados, sobre la capacidad de almacenamiento conectada, las Garantías de Origen emitidas y canceladas y las obras de transmisión anticipada incluidas en el Plan de Transmisión."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Cuarta",
+    "texto": "Financiamiento. La implementación de la presente ley se financia con cargo al presupuesto institucional del Ministerio de Energía y Minas y del Osinergmin y con los recursos del COES, sin demandar recursos adicionales al Tesoro Público."
+   }
+  ],
+  "costo_beneficio": "La ley no crea pliegos, fondos, tributos ni subsidios. El costo para el Estado se limita a la adecuación reglamentaria del MINEM y a la supervisión del Osinergmin, absorbibles en sus presupuestos institucionales; el Osinergmin se financia con el aporte por regulación de las empresas supervisadas. El Registro de Garantías de Origen lo administra el COES, entidad privada sin fines de lucro, con los aportes de sus integrantes y cobros que cubren solo su costo. El beneficio es habilitar inversión privada en almacenamiento, centrales híbridas y transmisión, y contratos de suministro renovable verificable, condición para atraer centros de datos y transformación industrial. El riesgo principal, el traslado de costos de transmisión anticipada a usuarios regulados, se acota con el beneficio-costo previo y las garantías de los interesados.",
+  "efecto_vigencia": "Modifica la Ley 28832 (ya modificada por la Ley 32249): incorpora los numerales 40, 41 y 42 al artículo 1, el numeral 3.3 al artículo 3, el numeral 21.4 al artículo 21 (el texto original del artículo 3 termina en el numeral 3.2 y el del artículo 21 en el numeral 21.3, y la Ley 32249 no los alteró salvo el párrafo 3.1) y los artículos 33-A y 33-B al capítulo octavo. Concordancia con el Decreto Legislativo 1044 (actos de engaño), el Decreto Ley 25844, Ley de Concesiones Eléctricas, y el Decreto Legislativo 1002 (no se modifican los cargos RER existentes). Antes del dictamen debe verificarse en el SPIJ que los numerales y artículos incorporados no hayan sido ocupados por normas posteriores. No deroga normas.",
+  "normas_relacionadas": [
+   {
+    "norma": "Ley 28832, Ley para asegurar el desarrollo eficiente de la generación eléctrica",
+    "url": "https://leyes.congreso.gob.pe/Documentos/Leyes/28832.pdf"
+   },
+   {
+    "norma": "Ley 32249, Ley que modifica la Ley 28832 para garantizar el abastecimiento seguro, confiable y eficiente del suministro eléctrico y promover la diversificación de la matriz energética",
+    "url": "https://busquedas.elperuano.pe/dispositivo/NL/2363369-2"
+   },
+   {
+    "norma": "Decreto Ley 25844, Ley de Concesiones Eléctricas",
+    "url": "https://leyes.congreso.gob.pe/Documentos/Leyes/25844.pdf"
+   },
+   {
+    "norma": "Decreto Legislativo 1002, de promoción de la inversión para la generación de electricidad con el uso de energías renovables",
+    "url": "https://leyes.congreso.gob.pe/Documentos/DecretosLegislativos/01002.pdf"
+   },
+   {
+    "norma": "Decreto Legislativo 1044, Ley de Represión de la Competencia Desleal",
+    "url": "https://leyes.congreso.gob.pe/Documentos/DecretosLegislativos/01044.pdf"
+   }
+  ],
+  "antecedentes": "Por verificar en SPLEY. La Ley 32249 (2025), que modificó la Ley 28832, es el antecedente normativo inmediato; su reglamento fue prepublicado por Resolución Ministerial 127-2025-MINEM/DM (estado de aprobación por verificar).",
+  "referencias_internacionales": [
+   {
+    "pais": "Chile",
+    "norma": "Ley 21.505, que promueve el almacenamiento de energía eléctrica y la electromovilidad (2022)",
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=1184572"
+   },
+   {
+    "pais": "Unión Europea",
+    "norma": "Directiva (UE) 2018/2001, relativa al fomento del uso de energía procedente de fuentes renovables (garantías de origen, art. 19)",
+    "url": "https://eur-lex.europa.eu/eli/dir/2018/2001/oj"
+   }
+  ],
+  "comision_sugerida": "Energía y Minas",
+  "comision_secundaria": "Ciencia, Innovación Tecnológica y Sociedad Digital",
+  "plan2050": [
+   "energia-electrica",
+   "energia",
+   "promocion-de-la-inversion"
+  ],
+  "ods": [
+   7,
+   9,
+   13
+  ],
+  "prioridad": "alta",
+  "costo_fiscal": "nulo",
+  "plazo": "mediano",
+  "indicador_exito": "A 2031: metodología de potencia y energía firme para renovables, híbridas y almacenamiento aprobada; Registro de Garantías de Origen operando con emisiones horarias publicadas; al menos un Plan de Transmisión con escenarios de zonas renovables y grandes cargas; y capacidad de almacenamiento conectada al SEIN reportada anualmente por el COES.",
+  "tags": [
+   "energía renovable",
+   "almacenamiento",
+   "centros de datos",
+   "transmisión",
+   "garantías de origen"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Ley 32249 (El Peruano, 19-ene-2025)",
+    "url": "https://busquedas.elperuano.pe/dispositivo/NL/2363369-2"
+   },
+   {
+    "titulo": "Comunicado del MINEM (DGE) sobre la producción eléctrica 2024, reproducido por Energiminas",
+    "url": "https://energiminas.com/2025/03/06/minem-generacion-electrica-eolica-y-solar-aumento-en-66-y-32-respectivamente-durante-2024"
+   },
+   {
+    "titulo": "IEA, Energy and AI (2025), resumen ejecutivo",
+    "url": "https://www.iea.org/reports/energy-and-ai/executive-summary"
+   },
+   {
+    "titulo": "Osinergmin, Informe Técnico Legal 301-2025-GRT (adecuación a la Ley 32249)",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/8045881/6755010-informe-tecnico-legal-301-2025-grt.pdf"
+   }
+  ],
+  "implicados": {
+   "normas_modificadas": [
+    {
+     "norma": "Ley 28832, Ley para asegurar el desarrollo eficiente de la generación eléctrica",
+     "articulo": "art. 1 (numerales 40-42)",
+     "accion": "incorpora",
+     "url": "https://leyes.congreso.gob.pe/Documentos/Leyes/28832.pdf"
+    },
+    {
+     "norma": "Ley 28832",
+     "articulo": "art. 3 (numeral 3.3)",
+     "accion": "incorpora",
+     "url": "https://leyes.congreso.gob.pe/Documentos/Leyes/28832.pdf"
+    },
+    {
+     "norma": "Ley 28832",
+     "articulo": "art. 21 (numeral 21.4)",
+     "accion": "incorpora",
+     "url": "https://leyes.congreso.gob.pe/Documentos/Leyes/28832.pdf"
+    },
+    {
+     "norma": "Ley 28832",
+     "articulo": "arts. 33-A y 33-B (capítulo octavo)",
+     "accion": "incorpora",
+     "url": "https://leyes.congreso.gob.pe/Documentos/Leyes/28832.pdf"
+    },
+    {
+     "norma": "Decreto Legislativo 1002",
+     "articulo": "concordancia (art. 7.1 de la propuesta)",
+     "accion": "complementa",
+     "url": "https://leyes.congreso.gob.pe/Documentos/DecretosLegislativos/01002.pdf"
+    }
+   ],
+   "entidades": [
+    {
+     "entidad": "Ministerio de Energía y Minas",
+     "sigla": "MINEM",
+     "sector": "Energía y Minas",
+     "rol": "rectora",
+     "responsabilidad": "Aprueba la metodología de potencia y energía firme (art. 3), el título habilitante del almacenamiento (art. 5), adecúa el reglamento (DCF Primera) e informa al Congreso (DCF Tercera)."
+    },
+    {
+     "entidad": "Comité de Operación Económica del Sistema",
+     "sigla": "COES",
+     "sector": "Energía y Minas (entidad privada)",
+     "rol": "ejecutora",
+     "responsabilidad": "Propone la metodología, despacha el almacenamiento, administra el Registro de Garantías de Origen (art. 5), incluye escenarios anticipados en el Plan de Transmisión (art. 4) y publica el mapa de capacidad de conexión (art. 8)."
+    },
+    {
+     "entidad": "Organismo Supervisor de la Inversión en Energía y Minería",
+     "sigla": "Osinergmin",
+     "sector": "PCM",
+     "rol": "supervisora",
+     "responsabilidad": "Opina sobre la metodología, aprueba procedimientos del COES, supervisa el Registro y verifica que no se trasladen costos a usuarios regulados (arts. 3, 5 y 7). Sanciona las infracciones del art. 33-B.5."
+    },
+    {
+     "entidad": "Instituto Nacional de Defensa de la Competencia y de la Protección de la Propiedad Intelectual",
+     "sigla": "INDECOPI",
+     "sector": "PCM",
+     "rol": "sancionadora",
+     "responsabilidad": "Sanciona como acto de engaño las declaraciones de consumo renovable no sustentadas (art. 33-B.5)."
+    }
+   ],
+   "sujetos_obligados": "COES; generadores, titulares de almacenamiento y usuarios libres que opten por los nuevos contratos, el Registro o la provisión de servicios complementarios.",
+   "beneficiarios": "Usuarios libres de gran demanda (centros de datos, minería, industria), inversionistas en generación renovable, almacenamiento y transmisión; indirectamente, usuarios regulados por mayor competencia en bloques horarios. No se cuantifica por falta de base."
+  },
+  "impacto": {
+   "tipo": "neutro",
+   "costo_estado": {
+    "rango": "S/ 0",
+    "horizonte": "anual",
+    "supuestos": "Estimación del redactor: la adecuación reglamentaria y la supervisión adicional se absorben en las funciones ordinarias del MINEM y del Osinergmin; el Registro lo opera el COES con recursos propios. No se cuantifica el costo interno del COES (privado).",
+    "financiamiento": "Presupuesto institucional del MINEM y del Osinergmin, sin demandar recursos adicionales al Tesoro Público; recursos del COES y cobros de recuperación de costo del Registro."
+   },
+   "beneficio_estado": "Mayor seguridad de suministro y diversificación de la matriz; base técnica para atraer inversión digital e industrial. No cuantificable con información pública.",
+   "beneficio_sociedad": "Más competencia y oferta renovable; potencial reducción de precios en bloques solares. No cuantificable con información pública.",
+   "inversion_privada": "Podría movilizar inversión en almacenamiento, centrales híbridas y transmisión; el monto depende del mercado y no se estima.",
+   "costo_privado": "Costos de registro y medición horaria para quienes usen el Registro; garantías de los interesados en transmisión anticipada. Requisitos de seguridad digital de los canales de control para proveedores de servicios complementarios y almacenamiento (art. 6.2 y 33-A.4).",
+   "riesgos": "Traslado de costos de transmisión anticipada a usuarios regulados (mitigado por el numeral 21.4 y el art. 7); metodología de potencia firme que sobrevalore o infravalore tecnologías; demoras en procedimientos del COES; doble conteo de atributos si no se coordina con certificados voluntarios internacionales. Ataques de alteración de carga sobre cargas flexibles y almacenamiento (mitigado por el art. 6.2 y 33-A.4).",
+   "confianza": "media"
+  },
+  "revision_atendida": [
+   {
+    "especialidad": "seguridad",
+    "severidad": "alta",
+    "hallazgo": "Seguridad digital de cargas flexibles y almacenamiento solo si son ACN.",
+    "accion": "corregido",
+    "nota": "Art. 6.2-6.3: requisitos mínimos para todo proveedor de servicios complementarios y almacenamiento, sea o no ACN, con suspensión por incumplimiento y notificación de incidentes."
+   },
+   {
+    "especialidad": "jurista",
+    "severidad": "media",
+    "hallazgo": "Remisión a una 'ley especial' de centros de datos inexistente.",
+    "accion": "corregido",
+    "nota": "Art. 9 remite a la normativa sectorial vigente."
+   },
+   {
+    "especialidad": "jurista",
+    "severidad": "media",
+    "hallazgo": "Sin tipificación del uso indebido de Garantías de Origen.",
+    "accion": "corregido",
+    "nota": "Nuevo 33-B.5: infracciones graves sancionadas por el Osinergmin y acto de engaño conforme al D.L. 1044."
+   },
+   {
+    "especialidad": "seguridad",
+    "severidad": "media",
+    "hallazgo": "Acceso remoto de fabricantes a sistemas de almacenamiento.",
+    "accion": "corregido",
+    "nota": "Nuevo 33-A.4, aplicable sin distinción del origen del proveedor."
+   },
+   {
+    "especialidad": "constitucional",
+    "severidad": "baja",
+    "hallazgo": "Cobro del Registro podría calificarse como tasa.",
+    "accion": "corregido",
+    "nota": "33-B.4: contraprestación por servicio sin naturaleza tributaria."
+   },
+   {
+    "especialidad": "jurista",
+    "severidad": "baja",
+    "hallazgo": "Cargos que no paga el almacenamiento indeterminados.",
+    "accion": "corregido",
+    "nota": "33-A.2 precisa peajes y cargos de energía y deja a salvo el cargo del D.L. 1002."
+   },
+   {
+    "especialidad": "normativo",
+    "severidad": "baja",
+    "hallazgo": "Numeración de 3.4 y 21.4 no verificada.",
+    "accion": "corregido",
+    "nota": "Revisado el texto original (El Peruano, 23-jul-2006): el art. 3 termina en 3.2, por lo que el numeral incorporado pasa a ser 3.3; el art. 21 termina en 21.3 y se mantiene 21.4. Se recomienda confirmar en el SPIJ."
+   },
+   {
+    "especialidad": "normativo",
+    "severidad": "baja",
+    "hallazgo": "Cifras del MINEM enlazadas a un medio secundario.",
+    "accion": "parcial",
+    "nota": "No se halló el comunicado original en gob.pe; se rotula la fuente como reproducción del comunicado del MINEM."
+   },
+   {
+    "especialidad": "seguridad",
+    "severidad": "baja",
+    "hallazgo": "Integridad del Registro de Garantías de Origen.",
+    "accion": "corregido",
+    "nota": "33-B.2: integridad de asientos, autenticación multifactor y auditoría externa anual."
+   },
+   {
+    "especialidad": "tecnologico",
+    "severidad": "baja",
+    "hallazgo": "Formato de certificados granulares no definido.",
+    "accion": "corregido",
+    "nota": "33-B.3: granularidad horaria, formato abierto e interoperable y fuente de verificación del consumo renovable."
+   },
+   {
+    "especialidad": "tecnologico",
+    "severidad": "baja",
+    "hallazgo": "Seguridad de cargas flexibles remitida a ACN 'cuando corresponda'.",
+    "accion": "corregido",
+    "nota": "Atendido junto con el hallazgo alto de seguridad (art. 6.2)."
+   }
+  ]
+ },
+ {
+  "id": "SOB-10",
+  "eje": "sober",
+  "titulo": "Ley que modifica los artículos 18, 57, 120 y 121 de la Ley 29338, Ley de Recursos Hídricos, para establecer la medición telemétrica segura de los usos del agua, la publicidad de los derechos y volúmenes utilizados y el uso de modelos y gemelos digitales de cuencas en la planificación hídrica",
+  "titulo_corto": "Gestión digital del agua",
+  "sumilla": "Precisa en la Ley 29338 la obligación de medir los volúmenes captados con transmisión telemétrica por pasarelas segregadas, de solo lectura y unidireccionales, de forma escalonada y según umbrales de volumen, empezando por los grandes usos no agrarios y las captaciones de las organizaciones de usuarios; ordena publicar en formato abierto los derechos de uso y los volúmenes efectivamente utilizados con reserva de datos personales de pequeños usuarios y publicación generalizada y desfasada para infraestructura sensible; tipifica la manipulación de la medición en el artículo 120; y dispone balances hídricos públicos y modelos o gemelos digitales en las cuencas con estrés hídrico como sustento de la asignación de nuevos derechos.",
+  "problema": "El estrés hídrico es una tendencia central de la prospectiva nacional: el estudio del CEPLAN sobre estrés hídrico e inseguridad alimentaria (2023) proyecta que se agudizará hacia 2040, con niveles extremadamente altos en Piura, Lima, Ica, Arequipa y Tacna, y el CEPLAN estimó que al 2030 el 58 % de la población viviría en zonas con escasez de agua. La OCDE (Gobernanza del agua en Perú, 2021), con datos de la Autoridad Nacional del Agua (ANA) para 2018, reporta que los usos consuntivos representaron 29,3 % del volumen total utilizado, incluidos los no consuntivos como la hidroenergía, y que la agricultura concentra la mayor parte de ellos. La asignación entre agro, minería, ciudades, energía y nuevas cargas como los centros de datos se decide, sin embargo, con información incompleta: el artículo 57 de la Ley 29338 obliga a instalar dispositivos de medición, pero no exige registro continuo ni transmisión de datos, y el artículo 18 ordena difundir información hídrica sin estándar de datos abiertos ni publicación de los volúmenes realmente usados por cada derecho. Sin datos verificables de uso, la ANA no puede detectar sobreexplotación de acuíferos, sustentar balances hídricos ni otorgar nuevos derechos con transparencia, lo que alimenta conflictos sociales por el agua.",
+  "objeto": "Modificar la Ley 29338 para establecer la medición telemétrica escalonada de los usos del agua, la publicidad abierta de derechos y volúmenes utilizados y el uso de balances hídricos y gemelos digitales de cuencas en la planificación y la asignación de derechos.",
+  "articulado": [
+   {
+    "n": "Artículo 1",
+    "titulo": "Objeto",
+    "texto": "La presente ley tiene por objeto modificar la Ley 29338, Ley de Recursos Hídricos, para establecer la medición telemétrica escalonada de los volúmenes de agua captados, la publicidad en formato abierto de los derechos de uso y de los volúmenes utilizados y el uso de balances hídricos y de modelos o gemelos digitales de cuencas en la planificación hídrica y en el otorgamiento de derechos de uso de agua."
+   },
+   {
+    "n": "Artículo 2",
+    "titulo": "Modificación del artículo 18 de la Ley 29338",
+    "texto": "Se modifica el artículo 18 de la Ley 29338, Ley de Recursos Hídricos, en los siguientes términos:\n\n\"Artículo 18. Información en materia de recursos hídricos\nLos integrantes del Sistema Nacional de Gestión de los Recursos Hídricos proporcionan la información que, en materia de recursos hídricos, sea solicitada por el ente rector en el ámbito de su competencia, para el cumplimiento de sus funciones al amparo de lo establecido en la presente norma.\nLa Autoridad Nacional dispone la difusión de la información en materia de recursos hídricos a fin de asegurar el aprovechamiento eficiente de dichos recursos y su inclusión en el Sistema Nacional de Información Ambiental.\nLa Autoridad Nacional publica en formato abierto, georreferenciado y mediante interfaces de programación, a través del Sistema Nacional de Información de Recursos Hídricos, el registro de derechos de uso de agua con su titular, fuente, volumen otorgado y clase de uso, así como los volúmenes efectivamente captados según la medición de los titulares. Tratándose de titulares personas naturales con volúmenes inferiores al umbral que fije el reglamento, la información se publica agregada por bloque, comisión o junta de usuarios, conforme a la Ley 29733, Ley de Protección de Datos Personales. La información de captaciones de uso poblacional, de generación eléctrica y de cualquier infraestructura cuya divulgación comprometa la seguridad de servicios esenciales, esté o no calificada como Activo Crítico Nacional, se publica con la ubicación generalizada y con los volúmenes desfasados no menos de un mes o agregados por periodo, conforme determine la Autoridad Nacional con opinión del sector competente. Los datos en tiempo real solo son accesibles para las entidades competentes mediante la Plataforma de Interoperabilidad del Estado, con autenticación y registro de accesos.\""
+   },
+   {
+    "n": "Artículo 3",
+    "titulo": "Modificación del artículo 57 de la Ley 29338",
+    "texto": "Se modifica el artículo 57 de la Ley 29338, Ley de Recursos Hídricos, en los siguientes términos:\n\n\"Artículo 57. Obligaciones de los titulares de licencia de uso\nLos titulares de licencia de uso tienen las siguientes obligaciones:\n1. utilizar el agua con la mayor eficiencia técnica y económica, en la cantidad, lugar y para el uso otorgado, garantizando el mantenimiento de los procesos ecológicos esenciales, y evitando su contaminación;\n2. cumplir oportunamente con el pago de la retribución económica por el uso del agua y las tarifas, cuando corresponda;\n3. mantener en buenas condiciones la infraestructura necesaria para el uso del agua que le fue otorgada en los términos y condiciones que establece la Ley y el Reglamento, sin afectar a terceros, al desarrollo hidráulico, a las fuentes de agua, ni a la cuenca;\n4. permitir las inspecciones que realice o disponga la Autoridad Nacional, en cumplimiento de sus funciones;\n5. instalar los dispositivos de control y medición de agua, conservándolos y manteniéndolos en buen estado. Cuando el volumen otorgado supere el umbral que establezca la Autoridad Nacional por clase de uso y tipo de fuente, la medición es continua, con registro protegido contra su alteración mediante mecanismos que permitan detectarla, como el sellado o la firma del dato en el dispositivo y la conservación local de los registros durante el plazo que fije la Autoridad Nacional, y con transmisión telemétrica a esta conforme a los estándares técnicos y de seguridad que apruebe. La transmisión se realiza desde dispositivos de medición o pasarelas segregados de los sistemas de control operativo del titular, en modo de solo lectura y, cuando la infraestructura sea Activo Crítico Nacional o sirva al uso poblacional o a la generación eléctrica, mediante arquitectura unidireccional o equivalente que impida el acceso desde la plataforma receptora a dichos sistemas. Ninguna disposición de esta Ley autoriza a la Autoridad Nacional a acceder a los sistemas de control de los titulares ni a enviarles comandos. El titular comunica a la Autoridad Nacional las fallas o accesos no autorizados que afecten la medición, en el plazo que fije el Reglamento. En el uso agrario, esta obligación se cumple en los puntos de captación y distribución a cargo de los operadores de infraestructura hidráulica y de las organizaciones de usuarios, y no en cada predio de los pequeños usuarios;\n6. dar aviso oportuno a la Autoridad Nacional cuando, por causa justificada, no utilice transitoria, parcial o totalmente las aguas; situación que no acarrea la pérdida del derecho otorgado;\n7. contribuir a la conservación, mantenimiento y desarrollo de la cuenca;\n8. participar en las organizaciones de usuarios de agua correspondientes; y\n9. las demás previstas en la Ley.\""
+   },
+   {
+    "n": "Artículo 4",
+    "titulo": "Gradualidad de la medición telemétrica",
+    "texto": "4.1. La obligación de medición telemétrica del numeral 5 del artículo 57 de la Ley 29338 se exige en forma escalonada: a) en el primer año desde la aprobación de los estándares, a los usos minero, industrial, energético y poblacional a cargo de prestadores de servicios de saneamiento con volúmenes superiores al umbral mayor, y a las captaciones de aguas subterráneas en acuíferos declarados en veda o en zonas de protección; b) en el tercer año, a las captaciones principales de las organizaciones de usuarios de agua agraria y a los demás usos no agrarios sobre el umbral; y c) en el quinto año, a los restantes puntos de captación y distribución que defina el reglamento.\n4.2. La Autoridad Nacional del Agua aprueba estándares abiertos de comunicación y formatos de datos, tomando como referencia estándares internacionales abiertos para series temporales hidrológicas y datos de sensores, como WaterML 2.0 y SensorThings API del Open Geospatial Consortium, sin exigir marcas ni proveedores determinados, y admite soluciones de bajo costo y de transmisión diferida donde no exista cobertura de telecomunicaciones. Los estándares incluyen requisitos de autenticación de dispositivos, cifrado e integridad de las transmisiones y se aprueban con opinión técnica del Centro Nacional de Seguridad Digital de la Presidencia del Consejo de Ministros. La plataforma receptora de la Autoridad Nacional se evalúa conforme al régimen de Activos Críticos Nacionales.\n4.3. Las obligaciones de medición telemétrica se aplican a los titulares de derechos de uso de agua vigentes a la entrada en vigor de la presente ley, conforme a la gradualidad del numeral 4.1, sin afectar el volumen ni las condiciones de los derechos otorgados.\n4.4. Durante el primer año de exigibilidad de cada tramo, la Autoridad Nacional del Agua prioriza la orientación y las medidas correctivas."
+   },
+   {
+    "n": "Artículo 5",
+    "titulo": "Balance hídrico público y asignación de derechos",
+    "texto": "5.1. La Autoridad Nacional del Agua publica y actualiza, para cada cuenca y acuífero, un balance hídrico que contraste la disponibilidad estimada, los volúmenes otorgados y los volúmenes efectivamente captados según la medición.\n5.2. En las cuencas y acuíferos con fuentes declaradas en agotamiento, en veda o en zonas de protección, la resolución que otorga un nuevo derecho de uso de agua, o que modifica uno existente aumentando el volumen, se sustenta en el balance hídrico publicado, cuyos supuestos y datos se ponen a disposición del público, sin perjuicio de la prioridad del uso primario y poblacional establecida en la Ley 29338."
+   },
+   {
+    "n": "Artículo 6",
+    "titulo": "Modelos y gemelos digitales de cuencas",
+    "texto": "6.1. La Autoridad Nacional del Agua desarrolla, de manera progresiva y priorizando las cuencas con estrés hídrico, modelos hidrológicos e hidrogeológicos integrados o gemelos digitales que combinen la medición telemétrica, la información hidrometeorológica abierta y las demandas proyectadas, como herramienta de los planes de gestión de recursos hídricos en la cuenca y de los Consejos de Recursos Hídricos de Cuenca.\n6.2. Los modelos, sus supuestos, sus resultados y su código, este último conforme al régimen de software público aplicable a las entidades públicas, se publican, salvo la información sujeta a reserva o a publicación generalizada conforme al artículo 18 de la Ley 29338. Las universidades e institutos de investigación pueden acceder a los datos de detalle mediante convenio, que establece obligaciones de confidencialidad, seguridad y no divulgación de los datos de detalle sobre infraestructura de uso poblacional o energético y excluye su difusión sin agregación.\n6.3. Los modelos son instrumentos de apoyo; las decisiones sobre derechos de uso se adoptan por la autoridad competente mediante acto motivado."
+   },
+   {
+    "n": "Artículo 7",
+    "titulo": "Interoperabilidad",
+    "texto": "La Autoridad Nacional del Agua intercambia información, mediante la Plataforma de Interoperabilidad del Estado o la que haga sus veces, con el Servicio Nacional de Meteorología e Hidrología del Perú (SENAMHI), la Superintendencia Nacional de Servicios de Saneamiento (SUNASS), el Organismo de Evaluación y Fiscalización Ambiental (OEFA), el Comité de Operación Económica del Sistema (COES) y los gobiernos regionales. La publicación de la información a que se refiere la presente ley se rige por el régimen general de datos abiertos y sus excepciones, sin perjuicio de las reglas de reserva y generalización del artículo 18 de la Ley 29338."
+   },
+   {
+    "n": "Artículo 8",
+    "titulo": "Incorporación de los numerales 14 y 15 al artículo 120 y de un párrafo al artículo 121 de la Ley 29338",
+    "texto": "Se incorporan los numerales 14 y 15 al artículo 120 y un párrafo final al artículo 121 de la Ley 29338, Ley de Recursos Hídricos, en los siguientes términos:\n\n\"Artículo 120. Infracción en materia de agua\n[…]\n14. no instalar, no mantener operativos o no transmitir los datos de los dispositivos de medición continua exigibles conforme al numeral 5 del artículo 57;\n15. alterar, manipular o falsear los registros de medición, los dispositivos de medición o su canal de transmisión.\"\n\n\"Artículo 121. Calificación de las infracciones\n[…]\nSin perjuicio de los criterios anteriores, la infracción prevista en el numeral 14 del artículo 120 se califica como grave y la prevista en el numeral 15 como muy grave.\""
+   },
+   {
+    "n": "Artículo 9",
+    "titulo": "Usuarios agrarios de pequeña escala",
+    "texto": "La presente ley no impone a los pequeños usuarios agrarios ni a las comunidades campesinas y nativas la instalación de equipos de telemetría en sus predios. La Autoridad Nacional del Agua y el Ministerio de Desarrollo Agrario y Riego promueven, dentro de sus programas existentes, el apoyo técnico a las organizaciones de usuarios para la medición en sus puntos de captación y distribución, respetando los usos y costumbres reconocidos en la Ley 29338. La aplicación del numeral 5 del artículo 57 a sistemas de riego de comunidades campesinas y nativas se realiza previa coordinación con ellas y, cuando exista afectación directa de derechos colectivos, previa consulta conforme a la Ley 29785, Ley del derecho a la consulta previa a los pueblos indígenas u originarios."
+   }
+  ],
+  "disposiciones": [
+   {
+    "tipo": "Complementaria Final",
+    "n": "Primera",
+    "texto": "Reglamentación. El Poder Ejecutivo, mediante decreto supremo refrendado por el Ministro de Desarrollo Agrario y Riego, adecúa el Reglamento de la Ley 29338 en un plazo de noventa días hábiles contados a partir del día siguiente de la publicación de la presente ley. La Autoridad Nacional del Agua aprueba los umbrales y estándares técnicos de medición en un plazo de ciento veinte días hábiles contados desde la publicación del reglamento."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Segunda",
+    "texto": "Informe al Congreso. La Autoridad Nacional del Agua informa anualmente a las comisiones competentes de ambas cámaras del Congreso, incluida la Comisión de Desarrollo Agrario de la Cámara de Diputados, sobre el porcentaje del volumen otorgado que cuenta con medición telemétrica, por clase de uso y cuenca, y sobre los balances hídricos publicados."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Tercera",
+    "texto": "Financiamiento. La implementación de la presente ley se financia con cargo al presupuesto institucional de la Autoridad Nacional del Agua, incluidos los recursos provenientes de las retribuciones económicas por el uso del agua, sin demandar recursos adicionales al Tesoro Público. El costo de los equipos de medición es asumido por los titulares obligados."
+   }
+  ],
+  "costo_beneficio": "El costo principal es privado: equipos de medición y pasarelas segregadas de transmisión de los titulares obligados, escalonados y concentrados en los grandes usos. Para el Estado, la plataforma de recepción, el control de calidad de datos y los modelos de cuenca tienen un costo estimado de S/ 4–10 millones anuales en régimen, que la ANA atendería con su presupuesto institucional y las retribuciones económicas, sujeto a disponibilidad presupuestal; requiere coordinación con el Poder Ejecutivo, fuente de financiamiento identificada e informe previo de sostenibilidad fiscal del MEF antes del dictamen. El beneficio es pasar de asignar el agua con volúmenes otorgados a hacerlo con volúmenes medidos: detectar sobreexplotación de acuíferos, mejorar la cobranza de la retribución económica, sustentar nuevos derechos con transparencia y reducir conflictos.",
+  "efecto_vigencia": "Modifica los artículos 18 y 57 e incorpora los numerales 14 y 15 al artículo 120 y un párrafo final al artículo 121 de la Ley 29338, Ley de Recursos Hídricos. Ordena adecuar su reglamento (Decreto Supremo 001-2010-AG). Concordancia con la Ley 29733, la Ley 29785 (consulta previa cuando haya afectación directa a comunidades) y el régimen de Activos Críticos Nacionales. Antes del dictamen debe verificarse en el SPIJ el texto vigente de los artículos 18, 57, 120 y 121, por posibles modificaciones posteriores a 2009 (el texto original del artículo 120 termina en el numeral 13). No deroga normas.",
+  "normas_relacionadas": [
+   {
+    "norma": "Ley 29338, Ley de Recursos Hídricos",
+    "url": "https://leyes.congreso.gob.pe/Documentos/Leyes/29338.pdf"
+   },
+   {
+    "norma": "Decreto Supremo 001-2010-AG, Reglamento de la Ley 29338",
+    "url": "https://leap.unep.org/en/countries/pe/national-legislation/decreto-supremo-no-001-2010-ag-reglamento-de-la-ley-no-29338-ley"
+   },
+   {
+    "norma": "Ley 29733, Ley de Protección de Datos Personales",
+    "url": "https://leyes.congreso.gob.pe/Documentos/Leyes/29733.pdf"
+   },
+   {
+    "norma": "Ley 29785, Ley del derecho a la consulta previa a los pueblos indígenas u originarios",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/29785.pdf"
+   }
+  ],
+  "antecedentes": "Por verificar en SPLEY.",
+  "referencias_internacionales": [
+   {
+    "pais": "Chile",
+    "norma": "Ley 21.064 (2018), que modifica el Código de Aguas en materia de fiscalización y sanciones, incluido el monitoreo y transmisión de extracciones efectivas",
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=1114175"
+   },
+   {
+    "pais": "Australia",
+    "norma": "Water Act 2007 y la política de medición de extracciones de la cuenca Murray-Darling",
+    "url": "https://www.legislation.gov.au/C2007A00137/latest/text"
+   }
+  ],
+  "comision_sugerida": "Desarrollo Agrario",
+  "comision_secundaria": "Medio Ambiente y Sostenibilidad",
+  "plan2050": [
+   "aguas",
+   "cuencas-hidrograficas",
+   "transformacion-digital"
+  ],
+  "ods": [
+   6,
+   13,
+   9
+  ],
+  "prioridad": "alta",
+  "costo_fiscal": "bajo",
+  "plazo": "mediano",
+  "indicador_exito": "A 2031: más del 70 % del volumen otorgado para usos no agrarios y las captaciones principales de las juntas de usuarios cuentan con medición telemétrica; la ANA publica en datos abiertos el registro de derechos y volúmenes captados; y existen balances hídricos públicos y modelos de cuenca para todas las cuencas con fuentes en agotamiento o veda.",
+  "tags": [
+   "agua",
+   "telemetría",
+   "datos abiertos",
+   "gemelos digitales",
+   "cuencas"
+  ],
+  "fuentes": [
+   {
+    "titulo": "CEPLAN: Perú, alto riesgo de vulnerabilidad debido a crisis del agua",
+    "url": "https://www.gob.pe/institucion/ceplan/noticias/690049-peru-alto-riesgo-de-vulnerabilidad-debido-a-crisis-del-agua"
+   },
+   {
+    "titulo": "CEPLAN, presentación del estudio prospectivo Estrés hídrico e inseguridad alimentaria (2023)",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/5511476/4909702-cd-presentacion-de-estudio-prospectivo-estres-hidrico-e-inseguridad-alimentaria-ceplan.pdf"
+   },
+   {
+    "titulo": "OCDE, Gobernanza del agua en Perú (2021)",
+    "url": "https://www.oecd.org/es/publications/gobernanza-del-agua-en-peru_f826f55f-es/full-report/component-6.html"
+   },
+   {
+    "titulo": "Ley 29338, Ley de Recursos Hídricos (texto publicado)",
+    "url": "https://leyes.congreso.gob.pe/Documentos/Leyes/29338.pdf"
+   }
+  ],
+  "implicados": {
+   "normas_modificadas": [
+    {
+     "norma": "Ley 29338, Ley de Recursos Hídricos",
+     "articulo": "art. 18",
+     "accion": "modifica",
+     "url": "https://leyes.congreso.gob.pe/Documentos/Leyes/29338.pdf"
+    },
+    {
+     "norma": "Ley 29338, Ley de Recursos Hídricos",
+     "articulo": "art. 57 (numeral 5)",
+     "accion": "modifica",
+     "url": "https://leyes.congreso.gob.pe/Documentos/Leyes/29338.pdf"
+    },
+    {
+     "norma": "Ley 29338, Ley de Recursos Hídricos",
+     "articulo": "art. 120 (numerales 14 y 15) y art. 121 (párrafo final)",
+     "accion": "incorpora",
+     "url": "https://leyes.congreso.gob.pe/Documentos/Leyes/29338.pdf"
+    },
+    {
+     "norma": "Decreto Supremo 001-2010-AG, Reglamento de la Ley 29338",
+     "articulo": "adecuación (DCF Primera)",
+     "accion": "complementa"
+    }
+   ],
+   "entidades": [
+    {
+     "entidad": "Autoridad Nacional del Agua",
+     "sigla": "ANA",
+     "sector": "Desarrollo Agrario y Riego",
+     "rol": "rectora",
+     "responsabilidad": "Fija umbrales y estándares (art. 4, DCF Primera), recibe la telemetría, publica derechos, volúmenes y balances (arts. 2 y 5), desarrolla modelos de cuenca (art. 6), fiscaliza (art. 8) e informa al Congreso (DCF Segunda)."
+    },
+    {
+     "entidad": "Ministerio de Desarrollo Agrario y Riego",
+     "sigla": "MIDAGRI",
+     "sector": "Desarrollo Agrario y Riego",
+     "rol": "reglamentadora",
+     "responsabilidad": "Refrenda la adecuación del reglamento (DCF Primera) y apoya a organizaciones de usuarios (art. 9)."
+    },
+    {
+     "entidad": "Servicio Nacional de Meteorología e Hidrología",
+     "sigla": "SENAMHI",
+     "sector": "Ambiente",
+     "rol": "consultiva",
+     "responsabilidad": "Intercambia información hidrometeorológica (art. 7)."
+    },
+    {
+     "entidad": "Superintendencia Nacional de Servicios de Saneamiento",
+     "sigla": "SUNASS",
+     "sector": "PCM",
+     "rol": "consultiva",
+     "responsabilidad": "Intercambia información de captaciones de los prestadores de saneamiento (art. 7)."
+    },
+    {
+     "entidad": "Organismo de Evaluación y Fiscalización Ambiental",
+     "sigla": "OEFA",
+     "sector": "Ambiente",
+     "rol": "consultiva",
+     "responsabilidad": "Intercambia información de monitoreo (art. 7)."
+    },
+    {
+     "entidad": "Consejos de Recursos Hídricos de Cuenca",
+     "sigla": "CRHC",
+     "sector": "ANA / gobiernos regionales",
+     "rol": "beneficiaria",
+     "responsabilidad": "Usan los modelos de cuenca en la planificación (art. 6)."
+    },
+    {
+     "entidad": "Centro Nacional de Seguridad Digital (PCM)",
+     "sigla": "CNSD",
+     "sector": "PCM",
+     "rol": "consultiva",
+     "responsabilidad": "Emite opinión técnica sobre los estándares de seguridad de la telemetría (art. 4.2)."
+    }
+   ],
+   "sujetos_obligados": "Titulares de licencias de uso de agua con volúmenes sobre los umbrales (mineros, industriales, energéticos, prestadores de saneamiento, usuarios de acuíferos en veda) y operadores de infraestructura hidráulica y organizaciones de usuarios agrarios en sus captaciones principales.",
+   "beneficiarios": "Población de cuencas con estrés hídrico, pequeños agricultores (asignación más transparente), prestadores de saneamiento y la propia ANA. No se cuantifica por falta de base."
+  },
+  "impacto": {
+   "tipo": "gasto",
+   "costo_estado": {
+    "rango": "S/ 4–10 millones/año",
+    "horizonte": "anual",
+    "supuestos": "Estimación del redactor: plataforma de recepción y control de calidad de datos telemétricos (S/ 1–3 millones/año, incluida nube y soporte), equipo de 10–20 especialistas en datos y modelación en la ANA (S/ 1,5–4 millones/año a costos de referencia CAS profesional) y desarrollo progresivo de modelos de cuenca (S/ 1,5–3 millones/año). No incluye equipos de medición, que pagan los titulares.",
+    "financiamiento": "Presupuesto institucional de la ANA, incluidas las retribuciones económicas por el uso del agua, sin demandar recursos adicionales al Tesoro Público y sujeto a disponibilidad presupuestal; requiere coordinación con el Poder Ejecutivo, fuente de financiamiento identificada e informe previo de sostenibilidad fiscal del MEF antes del dictamen (art. 79 de la Constitución)."
+   },
+   "beneficio_estado": "Mejor cobranza de la retribución económica al facturar sobre volúmenes medidos, menor conflictividad y mejor sustento técnico de las decisiones de asignación. No cuantificable con información pública.",
+   "beneficio_sociedad": "Transparencia sobre quién usa cuánta agua, protección de acuíferos sobreexplotados y base para la adaptación al cambio climático. No cuantificable con información pública.",
+   "inversion_privada": "Mercado de equipos y servicios de medición y telemetría; no se estima.",
+   "costo_privado": "Equipos de medición y transmisión de los titulares obligados; el costo unitario varía según caudal y tipo de captación y no se estima con información pública.",
+   "riesgos": "Resistencia de usuarios a la publicidad de volúmenes; falta de cobertura de telecomunicaciones en captaciones remotas (mitigado con transmisión diferida); calidad de datos y manipulación de registros; capacidad institucional limitada de la ANA para modelación. Superficie de ataque hacia sistemas de control industrial (mitigada con pasarelas segregadas, de solo lectura y unidireccionales, art. 3) y exposición de infraestructura de agua potable (mitigada con publicación generalizada y desfasada, art. 2).",
+   "confianza": "baja"
+  },
+  "revision_atendida": [
+   {
+    "especialidad": "seguridad",
+    "severidad": "alta",
+    "hallazgo": "Telemetría sin segregación abre ruta hacia SCADA de infraestructura crítica.",
+    "accion": "corregido",
+    "nota": "Art. 57.5: pasarelas segregadas, solo lectura y unidireccionales para ACN, uso poblacional y generación; prohibición de acceso o comandos de la ANA; art. 4.2: autenticación, cifrado e integridad con opinión del CNSD; plataforma evaluada como ACN."
+   },
+   {
+    "especialidad": "seguridad",
+    "severidad": "alta",
+    "hallazgo": "Publicación georreferenciada en tiempo real expone captaciones de agua potable no calificadas ACN.",
+    "accion": "corregido",
+    "nota": "Art. 18: ubicación generalizada y desfase no menor de un mes para captaciones poblacionales, energéticas y sensibles; tiempo real solo por la Plataforma de Interoperabilidad con registro de accesos."
+   },
+   {
+    "especialidad": "jurista",
+    "severidad": "media",
+    "hallazgo": "Manipulación de registros sancionada por remisión genérica.",
+    "accion": "corregido",
+    "nota": "Art. 8 incorpora los numerales 14 y 15 al art. 120 de la Ley 29338 y califica como grave y muy grave en el art. 121."
+   },
+   {
+    "especialidad": "normativo",
+    "severidad": "media",
+    "hallazgo": "Tipicidad de la manipulación y cita del TUO sin decreto.",
+    "accion": "corregido",
+    "nota": "Mismo cambio del art. 8; la ley ya no cita el TUO de la Ley 27444."
+   },
+   {
+    "especialidad": "seguridad",
+    "severidad": "media",
+    "hallazgo": "Convenios con universidades pueden dar acceso a series en tiempo real.",
+    "accion": "corregido",
+    "nota": "Art. 6.2: obligaciones de confidencialidad, seguridad y no divulgación sin agregación."
+   },
+   {
+    "especialidad": "tecnologico",
+    "severidad": "media",
+    "hallazgo": "'Registro inalterable' no es verificable.",
+    "accion": "corregido",
+    "nota": "Art. 57.5: registro protegido con mecanismos que detecten la alteración (sellado o firma del dato y conservación local)."
+   },
+   {
+    "especialidad": "constitucional",
+    "severidad": "baja",
+    "hallazgo": "Sistemas de riego comunales y consulta previa.",
+    "accion": "corregido",
+    "nota": "Art. 9: coordinación previa y consulta conforme a la Ley 29785 cuando haya afectación directa."
+   },
+   {
+    "especialidad": "jurista",
+    "severidad": "baja",
+    "hallazgo": "Remisión a una ley de datos agroclimáticos que es solo propuesta.",
+    "accion": "corregido",
+    "nota": "Art. 7 remite al régimen general de datos abiertos; se retiró la mención a TAL-08 del problema."
+   },
+   {
+    "especialidad": "jurista",
+    "severidad": "baja",
+    "hallazgo": "Aplicación a licencias vigentes.",
+    "accion": "corregido",
+    "nota": "Nuevo 4.3."
+   },
+   {
+    "especialidad": "normativo",
+    "severidad": "baja",
+    "hallazgo": "Textos vigentes de los arts. 18, 57, 120 y 121 no contrastados en SPIJ; fuente secundaria del reglamento.",
+    "accion": "parcial",
+    "nota": "Se contrastó el texto original publicado (OCR); queda pendiente el SPIJ, indicado en efecto_vigencia. No se halló una URL oficial estable del D.S. 001-2010-AG y se mantiene la de LEAP-UNEP."
+   },
+   {
+    "especialidad": "normativo",
+    "severidad": "baja",
+    "hallazgo": "Precisar el alcance del 29,3 % de la OCDE.",
+    "accion": "corregido",
+    "nota": "Se aclara que es la proporción del volumen total, incluidos los usos no consuntivos (hidroenergía)."
+   },
+   {
+    "especialidad": "seguridad",
+    "severidad": "baja",
+    "hallazgo": "Manipulación del dispositivo y reporte de fallas.",
+    "accion": "corregido",
+    "nota": "Numeral 15 del art. 120 incluye dispositivo y canal; art. 57.5 obliga a comunicar fallas o accesos no autorizados."
+   },
+   {
+    "especialidad": "tecnologico",
+    "severidad": "baja",
+    "hallazgo": "Estándares de datos sin referencia.",
+    "accion": "corregido",
+    "nota": "Art. 4.2: WaterML 2.0 y SensorThings API (OGC) como referencia."
+   },
+   {
+    "especialidad": "tecnologico",
+    "severidad": "baja",
+    "hallazgo": "Regla paralela sobre el código de los modelos.",
+    "accion": "corregido",
+    "nota": "Art. 6.2 remite al régimen de software público aplicable a las entidades públicas."
+   }
+  ]
+ },
+ {
+  "id": "SOB-11",
+  "eje": "sober",
+  "titulo": "Ley que promueve la bioeconomía basada en la biodiversidad y establece reglas para el acceso a los recursos genéticos, la información digital de secuencias y la participación justa y equitativa en los beneficios",
+  "titulo_corto": "Bioeconomía, recursos genéticos y DSI",
+  "sumilla": "En el marco de la Decisión 391 de la CAN y del Protocolo de Nagoya, da rango de ley a reglas sobre la información digital de secuencias (DSI): obligaciones de depósito con origen y de reparto de beneficios cuando la DSI se genera bajo un contrato de acceso peruano, y libre uso para investigación de la DSI en bases de datos abiertas, en tanto sea compatible con la Decisión 391; integra el procedimiento de acceso para investigación no comercial con resolución expresa y silencio negativo; fortalece los puntos de verificación y la vigilancia contra la biopiratería; y ordena una hoja de ruta de bioeconomía, sin crear tributos ni entidades.",
+  "problema": "El Perú fue pionero contra la biopiratería: según la Comisión Nacional contra la Biopiratería, en dos décadas se identificaron 424 casos en sistemas de patentes que involucran recursos de origen peruano. Sin embargo, el régimen de acceso apenas canaliza investigación: el MINAM informó que en 2025 se emitieron 35 certificados de cumplimiento reconocidos internacionalmente para investigaciones con recursos genéticos peruanos. El Reglamento de Acceso a los Recursos Genéticos (Decreto Supremo 019-2021-MINAM) considera \"obtención\" de recursos genéticos la extracción de información depositada en repositorios digitales, lo que, sin reglas de rango legal, deja en incertidumbre a investigadores que usan secuencias de bases de datos públicas y es difícil de fiscalizar. En paralelo, la COP16 del Convenio sobre la Diversidad Biológica (decisión 16/2, Cali, 2024) creó un mecanismo multilateral para la DSI, el Fondo Cali, con una contribución indicativa y voluntaria de 1 % de las utilidades o 0,1 % de los ingresos de las empresas que se benefician de ella,. No existe un régimen legal que distinga la DSI generada en el país de la DSI de acceso abierto, ni una estrategia que convierta la biodiversidad en bioeconomía con capacidades nacionales de secuenciación. Por afectar conocimientos colectivos, la propuesta requiere consulta previa antes de su votación en el Pleno.",
+  "objeto": "Promover la bioeconomía basada en la biodiversidad y establecer reglas de rango legal sobre la información digital de secuencias, el procedimiento de acceso para investigación y la participación en los beneficios, en el marco de la Decisión 391 y del Protocolo de Nagoya.",
+  "articulado": [
+   {
+    "n": "Artículo 1",
+    "titulo": "Objeto",
+    "texto": "La presente ley tiene por objeto promover la bioeconomía basada en la diversidad biológica y establecer reglas sobre la información digital de secuencias de recursos genéticos, el procedimiento de acceso con fines de investigación y la participación justa y equitativa en los beneficios, en el marco de los artículos 66 y 68 de la Constitución Política del Perú, de la Decisión 391 de la Comisión del Acuerdo de Cartagena, Régimen Común sobre Acceso a los Recursos Genéticos, del Protocolo de Nagoya, aprobado por la Resolución Legislativa 30217, y de la Ley 26839, Ley sobre la conservación y aprovechamiento sostenible de la diversidad biológica."
+   },
+   {
+    "n": "Artículo 2",
+    "titulo": "Ámbito y prevalencia",
+    "texto": "2.1. La presente ley se aplica a los recursos genéticos de los que el Perú es país de origen, sus productos derivados y la información digital de secuencias obtenida de ellos.\n2.2. No comprende los recursos genéticos humanos, cuyas muestras y datos se rigen por la ley de la materia sobre biobancos y datos genéticos humanos, ni los recursos fitogenéticos comprendidos en el Sistema Multilateral del Tratado Internacional sobre los Recursos Fitogenéticos para la Alimentación y la Agricultura, que se rigen por dicho tratado.\n2.3. La presente ley se aplica sin perjuicio de la Decisión 391, que prevalece en lo que regula, y de la Ley 27811, Ley que establece el régimen de protección de los conocimientos colectivos de los pueblos indígenas vinculados a los recursos biológicos."
+   },
+   {
+    "n": "Artículo 3",
+    "titulo": "Definiciones",
+    "texto": "Para efectos de la presente ley se entiende por: a) Información digital de secuencias: datos de secuencias de ácidos nucleicos o de proteínas y sus metadatos asociados, obtenidos de recursos genéticos, en formato digital. b) Base de datos de acceso abierto: repositorio público de secuencias cuyo contenido puede ser consultado y descargado por cualquier persona en condiciones no discriminatorias, como los integrantes de la Colaboración Internacional de Bases de Datos de Secuencias de Nucleótidos. c) Bioeconomía: actividades económicas basadas en el uso sostenible de recursos biológicos y del conocimiento biológico, incluida la biotecnología, para producir bienes y servicios. Los demás términos se interpretan conforme a la Decisión 391 y al Reglamento de Acceso a los Recursos Genéticos vigente."
+   },
+   {
+    "n": "Artículo 4",
+    "titulo": "Información digital de secuencias generada bajo autorización o contrato de acceso",
+    "texto": "4.1. Las autorizaciones y los contratos de acceso a recursos genéticos incluyen obligatoriamente cláusulas sobre la información digital de secuencias que se genere a partir de las muestras accedidas, que comprenden: a) su depósito en bases de datos de acceso abierto, consignando el Perú como país de origen y la localidad de colecta en los campos normalizados de metadatos de la base de datos, conforme a estándares abiertos de metadatos de biodiversidad, y el identificador del certificado de cumplimiento reconocido internacionalmente registrado en el Centro de Intercambio de Información sobre Acceso y Participación en los Beneficios; b) la participación en los beneficios derivados de la utilización comercial de dicha información y de los productos que se obtengan de ella; y c) el deber de informar a la autoridad nacional competente sobre su utilización comercial.\n4.2. El contrato puede autorizar, por razones justificadas, un periodo de embargo del depósito no mayor de dos años, o su exclusión cuando la secuencia corresponda a especies amenazadas cuya ubicación deba protegerse o a información vinculada a conocimientos colectivos sin consentimiento para su divulgación. Asimismo, el depósito puede limitarse o sujetarse a acceso controlado cuando la secuencia corresponda a agentes biológicos o toxinas comprendidos en las listas de los arreglos multilaterales de no proliferación o en la lista nacional de control de bienes de doble uso que establezca la normativa vigente, previa opinión del Instituto Nacional de Salud."
+   },
+   {
+    "n": "Artículo 5",
+    "titulo": "Información digital de secuencias en bases de datos de acceso abierto",
+    "texto": "5.1. Para efectos del Reglamento de Acceso a los Recursos Genéticos, y en tanto no se oponga a la Decisión 391 ni a su interpretación por el Tribunal de Justicia de la Comunidad Andina, no constituye obtención de recursos genéticos ni requiere autorización o contrato de acceso la consulta, descarga y utilización de información digital de secuencias disponible en bases de datos de acceso abierto con fines de investigación científica, educación, conservación, salud pública o vigilancia sanitaria.\n5.2. Quien utilice comercialmente información digital de secuencias de origen peruano obtenida de bases de datos de acceso abierto, sin haber accedido a las muestras, está sujeto, cuando solicite una patente en el Perú, al deber de indicar el origen conforme al artículo 26 de la Decisión 486 y al numeral 9.1, y puede cumplir con la participación en los beneficios mediante contribuciones al mecanismo multilateral establecido en el marco del Convenio sobre la Diversidad Biológica o mediante un acuerdo de participación en los beneficios con la autoridad nacional competente. La presente ley no establece contribuciones obligatorias de naturaleza tributaria.\n5.3. Lo dispuesto en el presente artículo no afecta las obligaciones de quien haya accedido a las muestras físicas conforme al artículo 4 ni el régimen de los conocimientos colectivos."
+   },
+   {
+    "n": "Artículo 6",
+    "titulo": "Procedimiento integrado para investigación sin fines comerciales",
+    "texto": "6.1. Las autoridades nacionales competentes en materia de acceso, en coordinación con el Servicio Nacional Forestal y de Fauna Silvestre (SERFOR) y el Servicio Nacional de Áreas Naturales Protegidas por el Estado (SERNANP), tramitan en un procedimiento integrado, a través de una ventanilla digital única, la autorización de acceso sin fines comerciales y las autorizaciones de colecta o investigación que correspondan, con un plazo máximo de treinta días hábiles.\n6.2. El componente de acceso a recursos genéticos se resuelve expresamente, mediante resolución y contrato conforme a la Decisión 391; vencido el plazo sin pronunciamiento, se aplica el silencio administrativo negativo y el administrado puede solicitar la intervención del superior jerárquico, que resuelve en diez días hábiles bajo responsabilidad. Las autorizaciones de colecta o investigación que se tramitan en el procedimiento integrado y que no impliquen acceso a recursos genéticos se sujetan a silencio administrativo positivo, salvo cuando involucren territorios o conocimientos colectivos de pueblos indígenas u originarios, áreas naturales protegidas de uso indirecto, especies amenazadas o agentes biológicos patógenos o toxinas de los grupos de riesgo que determine el reglamento con opinión del Instituto Nacional de Salud, en cuyo caso se aplica el silencio administrativo negativo.\n6.3. El cambio a una finalidad comercial requiere la suscripción previa del contrato de acceso con participación en los beneficios."
+   },
+   {
+    "n": "Artículo 7",
+    "titulo": "Conocimientos colectivos y beneficios para los pueblos indígenas",
+    "texto": "7.1. Cuando la investigación o el uso comercial, incluido el de información digital de secuencias, se vincule a conocimientos colectivos de pueblos indígenas u originarios, se requiere su consentimiento informado previo y la licencia de uso conforme a la Ley 27811.\n7.2. Los beneficios monetarios que correspondan al Perú como país de origen por la utilización de información digital de secuencias vinculada a conocimientos colectivos se destinan, en una proporción no menor del cincuenta por ciento que establece el reglamento con opinión previa del Ministerio de Economía y Finanzas, al Fondo para el Desarrollo de los Pueblos Indígenas previsto en la Ley 27811.\n7.3. Las disposiciones reglamentarias que desarrollen el presente artículo y los numerales 4.2 y 5.2 en lo relativo a conocimientos colectivos se aprueban previa consulta a los pueblos indígenas u originarios conforme a la Ley 29785."
+   },
+   {
+    "n": "Artículo 8",
+    "titulo": "Hoja de ruta de bioeconomía",
+    "texto": "8.1. El Poder Ejecutivo, a propuesta del Ministerio del Ambiente, del Ministerio de la Producción, del Ministerio de Desarrollo Agrario y Riego y del Consejo Nacional de Ciencia, Tecnología e Innovación Tecnológica (CONCYTEC), aprueba mediante decreto supremo una hoja de ruta de bioeconomía basada en la biodiversidad, con metas indicativas y revisión cada cuatro años, que priorice: a) las capacidades nacionales de secuenciación, bioinformática y conservación ex situ; b) las cadenas de valor de biocomercio, ingredientes naturales y bioinsumos; c) la participación de universidades, institutos y empresas nacionales en los proyectos de bioprospección; y d) la inclusión de comunidades proveedoras.\n8.2. Los instrumentos existentes del Sistema Nacional de Ciencia, Tecnología e Innovación (Sinacti) y de los programas de innovación productiva pueden priorizar convocatorias alineadas con la hoja de ruta, sin crear fondos nuevos."
+   },
+   {
+    "n": "Artículo 9",
+    "titulo": "Puntos de verificación y divulgación de origen",
+    "texto": "9.1. El Instituto Nacional de Defensa de la Competencia y de la Protección de la Propiedad Intelectual (INDECOPI), en aplicación del artículo 26 de la Decisión 486 de la Comisión de la Comunidad Andina, Régimen Común sobre Propiedad Industrial, verifica que las solicitudes de patente de invenciones obtenidas o desarrolladas a partir de recursos genéticos o productos derivados de origen peruano indiquen su origen y acompañen el contrato de acceso cuando corresponda. Cuando la solicitud reivindique o utilice información digital de secuencias de origen peruano, el INDECOPI requiere la declaración de su origen y de la base de datos de procedencia, con fines de transparencia y vigilancia, sin perjuicio de lo que establezca la normativa andina.\n9.2. La Comisión Nacional para la Protección al Acceso a la Diversidad Biológica Peruana y a los Conocimientos Colectivos de los Pueblos Indígenas, creada por la Ley 28216, incluye en sus labores de vigilancia las bases de datos de secuencias y las solicitudes de patente que reivindiquen secuencias de origen peruano.\n9.3. Las entidades públicas que financian investigación con recursos genéticos actúan como puntos de verificación y exigen, como condición de financiamiento, la autorización o contrato de acceso correspondiente."
+   },
+   {
+    "n": "Artículo 10",
+    "titulo": "Posición internacional",
+    "texto": "El Ministerio de Relaciones Exteriores, que conduce la negociación, con el Ministerio del Ambiente, promueve en los foros del Convenio sobre la Diversidad Biológica y de la Comunidad Andina mecanismos multilaterales de participación en los beneficios de la información digital de secuencias que sean eficaces, trazables y que asignen recursos a los países de origen y a los pueblos indígenas y comunidades locales, y la armonización andina del tratamiento de la información digital de secuencias. El Ministerio del Ambiente y el Ministerio de Relaciones Exteriores promueven ante los órganos de la Comunidad Andina una decisión o interpretación sobre el tratamiento de la información digital de secuencias en el régimen común de acceso."
+   }
+  ],
+  "disposiciones": [
+   {
+    "tipo": "Complementaria Final",
+    "n": "Primera",
+    "texto": "Adecuación del reglamento. El Poder Ejecutivo, mediante decreto supremo refrendado por el Ministro del Ambiente, el Ministro de Desarrollo Agrario y Riego y el Ministro de la Producción, adecúa el Reglamento de Acceso a los Recursos Genéticos y sus Derivados, aprobado por el Decreto Supremo 019-2021-MINAM, a la presente ley en un plazo de noventa días hábiles contados a partir del día siguiente de su publicación, incluida la modificación del literal s) de su artículo 3 (definición de obtención de recursos genéticos) para excluir la información de bases de datos de acceso abierto en los términos del numeral 5.1. Lo relativo a conocimientos colectivos se aprueba previa consulta conforme a la Ley 29785."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Segunda",
+    "texto": "Hoja de ruta. La hoja de ruta de bioeconomía a que se refiere el artículo 8 se aprueba en un plazo de doscientos setenta días hábiles contados a partir del día siguiente de la publicación de la presente ley."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Tercera",
+    "texto": "Informe al Congreso. El Ministerio del Ambiente informa anualmente a las comisiones competentes de ambas cámaras del Congreso, incluida la Comisión de Medio Ambiente y Sostenibilidad de la Cámara de Diputados, sobre las autorizaciones y contratos de acceso otorgados, los plazos de tramitación, los beneficios pactados y los casos de biopiratería identificados."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Cuarta",
+    "texto": "Financiamiento. La implementación de la presente ley se financia con cargo al presupuesto institucional de las entidades involucradas, sin demandar recursos adicionales al Tesoro Público."
+   }
+  ],
+  "costo_beneficio": "La ley no crea entidades, fondos ni tributos. La ventanilla digital integrada y la adecuación del reglamento tienen un costo estimado de S/ 0,5–1,5 millones (único) y de S/ 0,3–0,8 millones anuales de operación, atendible con los presupuestos institucionales del MINAM y de las autoridades competentes (SERFOR, INIA, PRODUCE), sujeto a disponibilidad presupuestal. El beneficio es triple: reducir el costo y el plazo de la investigación legal con recursos genéticos peruanos, lo que aumenta la generación de conocimiento y de oportunidades de bioeconomía; dar seguridad jurídica a quienes usan secuencias de bases de datos abiertas; y asegurar trazabilidad y reparto de beneficios donde es exigible —las muestras accedidas en el país— alineando al Perú con el mecanismo multilateral de la COP16 en lugar de reglas bilaterales difíciles de fiscalizar.",
+  "efecto_vigencia": "Complementa la Decisión 391 de la CAN (que prevalece), el Protocolo de Nagoya (Resolución Legislativa 30217), la Ley 26839, la Ley 27811 y la Ley 28216, y la Decisión 486 de la CAN en su aplicación por el INDECOPI. Ordena adecuar el Decreto Supremo 019-2021-MINAM (literal s del artículo 3). El numeral 5.1 rige en tanto no se oponga a la Decisión 391 ni a su interpretación por el Tribunal de Justicia de la Comunidad Andina. Los artículos 4.2, 5 y 7 afectan directamente derechos colectivos de los pueblos indígenas u originarios: la proposición REQUIERE consulta previa (Convenio 169 de la OIT, art. 6; Ley 29785) antes de su votación en el Pleno. No modifica el régimen de biobancos humanos ni el Sistema Multilateral del TIRFAA. No deroga normas legales.",
+  "normas_relacionadas": [
+   {
+    "norma": "Decisión 391 de la CAN, Régimen Común sobre Acceso a los Recursos Genéticos",
+    "url": "https://www.tribunalandino.org.ec/decisiones/normativa/DEC391.pdf"
+   },
+   {
+    "norma": "Decreto Supremo 019-2021-MINAM, Reglamento de Acceso a los Recursos Genéticos y sus Derivados",
+    "url": "https://busquedas.elperuano.pe/dispositivo/NL/1976265-7"
+   },
+   {
+    "norma": "Ley 27811, régimen de protección de los conocimientos colectivos de los pueblos indígenas vinculados a los recursos biológicos",
+    "url": "https://leyes.congreso.gob.pe/Documentos/Leyes/27811.pdf"
+   },
+   {
+    "norma": "Ley 28216, Ley de protección al acceso a la diversidad biológica peruana y los conocimientos colectivos de los pueblos indígenas",
+    "url": "https://leyes.congreso.gob.pe/Documentos/Leyes/28216.pdf"
+   },
+   {
+    "norma": "Ley 26839, Ley sobre la conservación y aprovechamiento sostenible de la diversidad biológica",
+    "url": "https://leyes.congreso.gob.pe/Documentos/Leyes/26839.pdf"
+   },
+   {
+    "norma": "Ley 29785, Ley del derecho a la consulta previa a los pueblos indígenas u originarios",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/29785.pdf"
+   }
+  ],
+  "antecedentes": "Por verificar en SPLEY.",
+  "referencias_internacionales": [
+   {
+    "pais": "Multilateral",
+    "norma": "Convenio sobre la Diversidad Biológica, decisión 16/2 sobre información digital de secuencias y Fondo Cali (COP16, 2024)",
+    "url": "https://www.cbd.int/doc/decisions/cop-16/cop-16-dec-02-es.pdf"
+   },
+   {
+    "pais": "Brasil",
+    "norma": "Lei 13.123/2015, sobre acceso al patrimonio genético y reparto de beneficios (incluye la información de origen genético)",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13123.htm"
+   }
+  ],
+  "comision_sugerida": "Medio Ambiente y Sostenibilidad",
+  "comision_secundaria": "Ciencia, Innovación Tecnológica y Sociedad Digital",
+  "plan2050": [
+   "biotecnologia",
+   "medio-ambiente",
+   "ciencia-y-tecnologia"
+  ],
+  "ods": [
+   15,
+   9,
+   17
+  ],
+  "prioridad": "media",
+  "costo_fiscal": "bajo",
+  "plazo": "mediano",
+  "indicador_exito": "A 2031: plazo mediano de las autorizaciones de acceso sin fines comerciales no mayor de 30 días hábiles; número anual de investigaciones con recursos genéticos peruanos registradas en el ABSCH al menos triplicado respecto de los 35 certificados de cumplimiento de 2025; contratos de acceso con cláusulas de DSI; y hoja de ruta de bioeconomía aprobada y revisada.",
+  "tags": [
+   "biodiversidad",
+   "recursos genéticos",
+   "DSI",
+   "bioeconomía",
+   "biopiratería",
+   "Nagoya"
+  ],
+  "fuentes": [
+   {
+    "titulo": "MINAM: 35 certificados de cumplimiento reconocidos internacionalmente emitidos en 2025",
+    "url": "https://www.gob.pe/institucion/minam/noticias/1342839-peru-avanza-en-la-conservacion-de-su-biodiversidad-con-35-certificaciones-que-garantizan-su-uso-responsable"
+   },
+   {
+    "titulo": "Actualidad Ambiental: el Perú, pionero en la lucha contra la biopiratería (424 casos en dos décadas)",
+    "url": "https://www.actualidadambiental.pe/como-el-peru-se-convirtio-en-pionero-en-la-lucha-contra-la-biopirateria-a-nivel-mundial/"
+   },
+   {
+    "titulo": "PNUMA: cómo un acuerdo pionero podría recaudar miles de millones para proteger la vida (Fondo Cali)",
+    "url": "https://unep.org/news-and-stories/story/how-groundbreaking-agreement-could-raise-billions-protect-web-life"
+   },
+   {
+    "titulo": "Decreto Supremo 019-2021-MINAM (texto en FAOLEX)",
+    "url": "https://faolex.fao.org/docs/pdf/per206847.pdf"
+   }
+  ],
+  "implicados": {
+   "normas_modificadas": [
+    {
+     "norma": "Decreto Supremo 019-2021-MINAM, Reglamento de Acceso a los Recursos Genéticos y sus Derivados",
+     "articulo": "adecuación (definición de obtención; procedimiento sin fines comerciales)",
+     "accion": "complementa",
+     "url": "https://busquedas.elperuano.pe/dispositivo/NL/1976265-7"
+    },
+    {
+     "norma": "Decisión 391 de la CAN",
+     "articulo": "concordancia (prevalece)",
+     "accion": "complementa",
+     "url": "https://www.tribunalandino.org.ec/decisiones/normativa/DEC391.pdf"
+    },
+    {
+     "norma": "Ley 27811",
+     "articulo": "concordancia (art. 7 de la propuesta)",
+     "accion": "complementa",
+     "url": "https://leyes.congreso.gob.pe/Documentos/Leyes/27811.pdf"
+    },
+    {
+     "norma": "Ley 28216",
+     "articulo": "concordancia (art. 9.2 de la propuesta)",
+     "accion": "complementa",
+     "url": "https://leyes.congreso.gob.pe/Documentos/Leyes/28216.pdf"
+    }
+   ],
+   "entidades": [
+    {
+     "entidad": "Ministerio del Ambiente",
+     "sigla": "MINAM",
+     "sector": "Ambiente",
+     "rol": "rectora",
+     "responsabilidad": "Propone la hoja de ruta (art. 8), adecúa el reglamento (DCF Primera) e informa al Congreso (DCF Tercera)."
+    },
+    {
+     "entidad": "Servicio Nacional Forestal y de Fauna Silvestre",
+     "sigla": "SERFOR",
+     "sector": "Desarrollo Agrario y Riego",
+     "rol": "ejecutora",
+     "responsabilidad": "Autoridad competente de acceso para el patrimonio forestal y de fauna; integra la ventanilla y el procedimiento (art. 6)."
+    },
+    {
+     "entidad": "Instituto Nacional de Innovación Agraria",
+     "sigla": "INIA",
+     "sector": "Desarrollo Agrario y Riego",
+     "rol": "ejecutora",
+     "responsabilidad": "Autoridad competente de acceso para especies cultivadas; aplica las cláusulas de DSI (art. 4) y el procedimiento integrado (art. 6)."
+    },
+    {
+     "entidad": "Ministerio de la Producción",
+     "sigla": "PRODUCE",
+     "sector": "Producción",
+     "rol": "ejecutora",
+     "responsabilidad": "Autoridad competente de acceso para especies hidrobiológicas; coproponente de la hoja de ruta (arts. 4, 6 y 8)."
+    },
+    {
+     "entidad": "Servicio Nacional de Áreas Naturales Protegidas por el Estado",
+     "sigla": "SERNANP",
+     "sector": "Ambiente",
+     "rol": "consultiva",
+     "responsabilidad": "Integra las autorizaciones de investigación en áreas protegidas al procedimiento (art. 6)."
+    },
+    {
+     "entidad": "Instituto Nacional de Defensa de la Competencia y de la Protección de la Propiedad Intelectual",
+     "sigla": "INDECOPI",
+     "sector": "PCM",
+     "rol": "supervisora",
+     "responsabilidad": "Punto de verificación en patentes; verifica origen y contrato de acceso (art. 9.1)."
+    },
+    {
+     "entidad": "Comisión Nacional contra la Biopiratería",
+     "sigla": "CNB",
+     "sector": "PCM (presidida por el INDECOPI)",
+     "rol": "supervisora",
+     "responsabilidad": "Vigila bases de datos de secuencias y patentes (art. 9.2)."
+    },
+    {
+     "entidad": "Consejo Nacional de Ciencia, Tecnología e Innovación Tecnológica",
+     "sigla": "CONCYTEC",
+     "sector": "PCM",
+     "rol": "consultiva",
+     "responsabilidad": "Coproponente de la hoja de ruta y punto de verificación en financiamiento (arts. 8 y 9.3)."
+    },
+    {
+     "entidad": "Ministerio de Relaciones Exteriores",
+     "sigla": "RREE",
+     "sector": "Relaciones Exteriores",
+     "rol": "ejecutora",
+     "responsabilidad": "Conduce la negociación internacional sobre DSI (art. 10)."
+    },
+    {
+     "entidad": "Instituto Nacional de Salud",
+     "sigla": "INS",
+     "sector": "Salud",
+     "rol": "consultiva",
+     "responsabilidad": "Opina sobre la limitación del depósito de secuencias de agentes patógenos o toxinas y sobre los grupos de riesgo excluidos del silencio positivo (arts. 4.2 y 6.2)."
+    },
+    {
+     "entidad": "Ministerio de Cultura — Viceministerio de Interculturalidad",
+     "sigla": "MINCUL",
+     "sector": "Cultura",
+     "rol": "consultiva",
+     "responsabilidad": "Órgano técnico especializado en la consulta previa de la proposición y del reglamento (art. 7.3, DCF Primera)."
+    }
+   ],
+   "sujetos_obligados": "Usuarios de recursos genéticos peruanos con autorización o contrato de acceso; solicitantes de patentes basadas en recursos genéticos o DSI de origen peruano; entidades públicas que financian investigación.",
+   "beneficiarios": "Investigadores y universidades (procedimiento más corto y seguridad jurídica), pueblos indígenas y comunidades proveedoras (beneficios y consentimiento), emprendimientos de bioeconomía. No se cuantifica por falta de base."
+  },
+  "impacto": {
+   "tipo": "gasto",
+   "costo_estado": {
+    "rango": "S/ 0,5–1,5 millones (único) y S/ 0,3–0,8 millones/año",
+    "horizonte": "2027-2031",
+    "supuestos": "Estimación del redactor: desarrollo de la ventanilla digital sobre plataformas existentes de gob.pe (S/ 0,5–1,5 millones único) y 3–6 especialistas adicionales distribuidos entre MINAM y autoridades competentes (S/ 0,3–0,8 millones/año a costos de referencia CAS profesional). La vigilancia de la CNB se realiza con su presupuesto vigente.",
+    "financiamiento": "Presupuesto institucional del MINAM, SERFOR, INIA y PRODUCE, sin demandar recursos adicionales al Tesoro Público y sujeto a disponibilidad presupuestal; requiere coordinación con el Poder Ejecutivo e informe previo de sostenibilidad fiscal del MEF antes del dictamen."
+   },
+   "beneficio_estado": "Mayor trazabilidad y capacidad de negociar beneficios; posible recepción de recursos del mecanismo multilateral. No cuantificable con información pública.",
+   "beneficio_sociedad": "Más investigación sobre biodiversidad peruana, oportunidades de bioeconomía y beneficios para pueblos indígenas. No cuantificable con información pública.",
+   "inversion_privada": "Podría facilitar proyectos de bioprospección y biocomercio con socios nacionales; no se estima.",
+   "costo_privado": "Cumplimiento de cláusulas de depósito y divulgación de origen; reducción de costos de tramitación para investigadores.",
+   "riesgos": "Que la liberalización del uso de DSI abierta se perciba como renuncia a beneficios (mitigado con el mecanismo multilateral y la divulgación de origen); tensión con la interpretación andina si la CAN adopta otra solución; difusión de secuencias de patógenos de alto riesgo (mitigado por el art. 4.2); demora del procedimiento de acceso con silencio negativo (mitigado por la intervención del superior jerárquico); revisión de las reglas del Fondo Cali en la COP17.",
+   "confianza": "baja"
+  },
+  "revision_atendida": [
+   {
+    "especialidad": "jurista",
+    "severidad": "alta",
+    "hallazgo": "Silencio positivo en el acceso a recursos genéticos incompatible con la Decisión 391.",
+    "accion": "corregido",
+    "nota": "Art. 6.2: el acceso se resuelve expresamente con silencio negativo e intervención del superior jerárquico; el silencio positivo queda solo para colectas sin acceso, con excepciones."
+   },
+   {
+    "especialidad": "constitucional",
+    "severidad": "media",
+    "hallazgo": "La ley nacional 'interpreta' la Decisión 391.",
+    "accion": "corregido",
+    "nota": "Art. 5.1 condicionado a no oponerse a la Decisión 391 ni a su interpretación por el TJCAN; se suprime 'se interpreta' de la DCF Primera; art. 10 promueve una decisión andina."
+   },
+   {
+    "especialidad": "constitucional",
+    "severidad": "media",
+    "hallazgo": "Silencio positivo en el acceso.",
+    "accion": "corregido",
+    "nota": "Mismo cambio del art. 6.2."
+   },
+   {
+    "especialidad": "constitucional",
+    "severidad": "media",
+    "hallazgo": "Medidas sobre conocimientos colectivos sin consulta previa.",
+    "accion": "corregido",
+    "nota": "efecto_vigencia y problema declaran que se requiere consulta previa antes del Pleno; nuevo 7.3 y DCF Primera para el reglamento."
+   },
+   {
+    "especialidad": "jurista",
+    "severidad": "media",
+    "hallazgo": "Exención de la DSI abierta contraria a la primacía andina.",
+    "accion": "corregido",
+    "nota": "Art. 5.1 redactado como regla del Reglamento nacional y condicionado a la Decisión 391."
+   },
+   {
+    "especialidad": "jurista",
+    "severidad": "media",
+    "hallazgo": "Remisión vacía a 'deberes de divulgación del artículo 9'.",
+    "accion": "corregido",
+    "nota": "Art. 5.2 remite al deber de indicar el origen al solicitar patente (art. 26 de la Decisión 486 y numeral 9.1)."
+   },
+   {
+    "especialidad": "normativo",
+    "severidad": "media",
+    "hallazgo": "Tensión del art. 5.1 con la Decisión 391 y técnica de 'interpretar'.",
+    "accion": "corregido",
+    "nota": "Art. 5.1 condicionado; DCF Primera ordena modificar el literal s) del art. 3 del D.S. 019-2021-MINAM."
+   },
+   {
+    "especialidad": "seguridad",
+    "severidad": "media",
+    "hallazgo": "Depósito abierto de secuencias de patógenos y toxinas.",
+    "accion": "corregido",
+    "nota": "Art. 4.2: depósito limitado o con acceso controlado, previa opinión del INS."
+   },
+   {
+    "especialidad": "seguridad",
+    "severidad": "media",
+    "hallazgo": "Silencio positivo para colectas de patógenos de alto riesgo.",
+    "accion": "corregido",
+    "nota": "Art. 6.2 excluye agentes patógenos y toxinas de los grupos de riesgo que determine el reglamento."
+   },
+   {
+    "especialidad": "tecnologico",
+    "severidad": "media",
+    "hallazgo": "Extender el art. 26 de la Decisión 486 a la DSI.",
+    "accion": "corregido",
+    "nota": "Art. 9.1: el contrato se exige según la Decisión 486; para la DSI solo se pide una declaración de origen con fines de transparencia, sin perjuicio de la normativa andina."
+   },
+   {
+    "especialidad": "jurista",
+    "severidad": "baja",
+    "hallazgo": "Proporción para el Fondo sin rango legal.",
+    "accion": "corregido",
+    "nota": "Art. 7.2: no menor del 50 %, con opinión previa del MEF."
+   },
+   {
+    "especialidad": "normativo",
+    "severidad": "baja",
+    "hallazgo": "Fuente secundaria de los 424 casos; '35 investigaciones' vs. '35 certificaciones'.",
+    "accion": "parcial",
+    "nota": "Se unificó la redacción ('35 certificados de cumplimiento'); el portal de la CNB no respondió, por lo que se mantiene la fuente periodística."
+   },
+   {
+    "especialidad": "tecnologico",
+    "severidad": "baja",
+    "hallazgo": "Metadatos de origen no estandarizados.",
+    "accion": "corregido",
+    "nota": "Art. 4.1 a): campos normalizados de país y localidad y el identificador del certificado del ABSCH."
+   }
+  ]
+ },
+ {
+  "id": "SOB-12",
+  "eje": "sober",
+  "titulo": "Ley que establece el procedimiento de evaluación de seguridad de las adquisiciones de control sobre activos críticos nacionales y empresas de tecnologías sensibles",
+  "titulo_corto": "Evaluación de inversiones en activos críticos",
+  "sumilla": "Establece, por razón de seguridad nacional (art. 72 de la Constitución) y conforme a la Recomendación de la OCDE de 2009, un procedimiento temporal, reglado y de plazos cortos para evaluar las adquisiciones de control sobre titulares de Activos Críticos Nacionales y empresas de tecnologías sensibles, aplicable a todo adquirente sin discriminación por nacionalidad, con deber de notificar basado en la comunicación reservada de la calificación al titular, factores de riesgo tasados, medidas proporcionales de hasta cinco años renovables, prohibición solo como último recurso por resolución suprema motivada, resumen no clasificado para la defensa, reglas de desinversión, control judicial y vigencia de diez años con evaluación, sin crear organismos.",
+  "problema": "Puertos, cables submarinos, centros de datos, redes eléctricas y yacimientos de minerales críticos se han convertido en objeto de competencia geopolítica; su control por actores que respondan a Estados extranjeros puede afectar servicios esenciales y datos. El Perú identifica y protege Activos Críticos Nacionales mediante el Decreto Supremo 106-2017-PCM, pero ese régimen gestiona riesgos físicos y digitales y no permite evaluar quién adquiere el control de su titular. Ante esa ausencia, las preocupaciones se procesan de manera ad hoc —declaraciones, presiones externas o iniciativas legislativas puntuales— con mayor incertidumbre para los inversionistas que un procedimiento reglado. La Recomendación del Consejo de la OCDE sobre directrices para las políticas de inversión de los países receptores relativas a la seguridad nacional (2009) admite estas evaluaciones siempre que respeten no discriminación, transparencia y previsibilidad, proporcionalidad y rendición de cuentas; un estudio de la OCDE (Wehrlé y Pohl, 2016) relevó políticas de inversión relacionadas con la seguridad nacional en 54 economías. El Perú, en proceso de adhesión a la OCDE, debe además respetar el artículo 63 de la Constitución —igualdad de condiciones entre inversión nacional y extranjera— y el artículo 72, que solo permite restricciones temporales y específicas por seguridad nacional, así como las excepciones de seguridad esencial de sus tratados.",
+  "objeto": "Establecer un procedimiento reglado, proporcional y no discriminatorio de evaluación de seguridad de las adquisiciones de control sobre titulares de Activos Críticos Nacionales y empresas de tecnologías sensibles.",
+  "articulado": [
+   {
+    "n": "Artículo 1",
+    "titulo": "Objeto",
+    "texto": "La presente ley tiene por objeto establecer, por razón de seguridad nacional y en forma temporal y específica, el procedimiento de evaluación de seguridad de las adquisiciones de control sobre titulares de Activos Críticos Nacionales y sobre empresas que desarrollan tecnologías sensibles, a fin de prevenir riesgos para la seguridad nacional y la continuidad de servicios esenciales, en el marco de los artículos 44, 58, 61, 63, 72 y 163 de la Constitución Política del Perú."
+   },
+   {
+    "n": "Artículo 2",
+    "titulo": "Principios",
+    "texto": "El procedimiento se rige por los principios de: a) no discriminación: se aplica a todo adquirente, nacional o extranjero, y la nacionalidad del inversionista no constituye por sí misma causa de restricción; b) transparencia y previsibilidad: los supuestos, factores de riesgo, plazos y consecuencias se establecen en la presente ley y su reglamento y se publican; c) proporcionalidad: se adopta la medida menos restrictiva eficaz para mitigar un riesgo concreto y debidamente acreditado; y d) rendición de cuentas: las decisiones restrictivas se adoptan al más alto nivel político, se motivan y son revisables judicialmente. Se interpreta conforme a la Recomendación del Consejo de la OCDE sobre directrices para las políticas de inversión de los países receptores relativas a la seguridad nacional."
+   },
+   {
+    "n": "Artículo 3",
+    "titulo": "Operaciones comprendidas",
+    "texto": "3.1. Están sujetas a notificación previa obligatoria las operaciones por las que una persona natural o jurídica, directa o indirectamente, adquiera el control de: a) una persona jurídica titular de un activo calificado como Activo Crítico Nacional conforme a la normativa vigente; b) una persona jurídica titular de infraestructura que, sin estar calificada como Activo Crítico Nacional, pertenezca a las categorías que el reglamento del régimen de Activos Críticos Nacionales identifique y publique como de notificación obligatoria para efectos de la presente ley; y c) una empresa que desarrolle o fabrique en el país bienes o tecnologías incluidos en la lista de tecnologías sensibles a que se refiere el artículo 4.\n3.2. Se entiende por control la adquisición de al menos el veinticinco por ciento de los derechos de voto, del derecho a designar a la mayoría del directorio, de derechos de veto sobre decisiones estratégicas o de cualquier otra forma de influencia decisiva, conforme al reglamento.\n3.3. El reglamento fija umbrales mínimos de valor o de tamaño del activo para excluir operaciones de escasa relevancia, y exceptúa las reorganizaciones dentro de un mismo grupo económico sin cambio del controlante final.\n3.4. El sector competente comunica de manera reservada a cada titular su calificación como Activo Crítico Nacional para efectos de la presente ley. El titular informa dicha condición, bajo compromiso de confidencialidad, a quienes negocien la adquisición de su control y comunica la operación a la autoridad de evaluación. El incumplimiento de este deber por el titular exime de sanción al adquirente que actuó de buena fe, sin perjuicio de la revisión de oficio del artículo 10.\n3.5. La presente ley solo se aplica a los activos y tecnologías definidos en este artículo y en el artículo 4."
+   },
+   {
+    "n": "Artículo 4",
+    "titulo": "Lista de tecnologías sensibles",
+    "texto": "El Poder Ejecutivo aprueba, mediante decreto supremo refrendado por el Presidente del Consejo de Ministros y los Ministros de Economía y Finanzas, de Relaciones Exteriores y de Defensa, una lista acotada de tecnologías sensibles, definida por referencia a las categorías de la lista nacional de control de bienes de doble uso que establezca la normativa vigente o, en su defecto, a las listas de los arreglos multilaterales de control de exportaciones, que puede comprender semiconductores avanzados, sistemas espaciales y criptografía o herramientas de ciberseguridad sujetas a control. No comprende los productos de software de uso masivo ni los servicios de ciberseguridad que no involucren tecnología controlada. La lista se revisa cada tres años y se publica."
+   },
+   {
+    "n": "Artículo 5",
+    "titulo": "Autoridad de evaluación",
+    "texto": "5.1. El Ministerio de Economía y Finanzas, a través de su órgano de línea competente en materia de promoción de la inversión privada, conduce el procedimiento como autoridad de evaluación.\n5.2. El Poder Ejecutivo constituye, conforme a la Ley 29158, Ley Orgánica del Poder Ejecutivo, una comisión multisectorial de naturaleza permanente, presidida por el Ministerio de Economía y Finanzas e integrada por la Presidencia del Consejo de Ministros, los Ministerios de Relaciones Exteriores, de Defensa, del Interior y el ministerio del sector del activo, con la Dirección Nacional de Inteligencia (DINI) como órgano de apoyo técnico, que emite opinión en la fase de evaluación detallada. La comisión no tiene personería jurídica ni genera gasto adicional."
+   },
+   {
+    "n": "Artículo 6",
+    "titulo": "Procedimiento y plazos",
+    "texto": "6.1. La notificación se presenta antes del cierre de la operación. La autoridad de evaluación, en un plazo de veinte días hábiles desde la notificación completa, autoriza la operación o, si identifica indicios razonables de riesgo conforme al artículo 7, inicia la fase de evaluación detallada mediante resolución motivada.\n6.2. La fase de evaluación detallada dura cuarenta y cinco días hábiles, prorrogables por única vez por quince días hábiles mediante resolución motivada, e incluye la opinión de la comisión multisectorial y la audiencia del notificante.\n6.3. Vencido el plazo de la fase inicial sin pronunciamiento, la operación se entiende autorizada por silencio administrativo positivo. Vencido el plazo de la fase de evaluación detallada sin pronunciamiento, la operación se entiende autorizada, salvo que la comisión multisectorial haya emitido opinión desfavorable, en cuyo caso la autoridad resuelve dentro de los diez días hábiles siguientes, bajo responsabilidad, y la omisión se comunica a la Contraloría General de la República. Esta regla preserva la previsibilidad exigida por el artículo 2 sin permitir que la inacción autorice una operación con riesgo acreditado.\n6.4. Mientras dure el procedimiento, la operación no puede cerrarse. El notificante puede consultar previamente a la autoridad si una operación está comprendida; la consulta se absuelve en diez días hábiles y es vinculante respecto de ese punto.\n6.5. Cuando la operación requiera además autorización conforme a la Ley 31112, Ley que establece el control previo de operaciones de concentración empresarial, ambos procedimientos se tramitan en paralelo y la autoridad de evaluación y el INDECOPI intercambian la información no confidencial necesaria."
+   },
+   {
+    "n": "Artículo 7",
+    "titulo": "Factores de riesgo",
+    "texto": "La evaluación considera exclusivamente: a) si el adquirente o su controlante final es controlado, financiado o dirigido por un Estado extranjero, sus fuerzas armadas o servicios de inteligencia, en la medida en que ello genere un riesgo concreto y acreditado para la continuidad, integridad o confidencialidad del activo; b) si el adquirente está sujeto a sanciones del Consejo de Seguridad de las Naciones Unidas o ha participado en actividades que afectaron la seguridad nacional; c) el efecto de la operación sobre la continuidad, la integridad y la seguridad del activo o servicio y sobre el acceso a datos personales o información sensible a gran escala; d) el grado de dependencia del país respecto del activo o la tecnología y la existencia de alternativas; y e) los compromisos de mitigación ofrecidos. No constituyen factores de riesgo la competencia económica ni la protección de empresas nacionales frente a competidores."
+   },
+   {
+    "n": "Artículo 8",
+    "titulo": "Decisión y medidas",
+    "texto": "8.1. Concluida la evaluación, la autoridad: a) autoriza la operación; b) la autoriza con condiciones, como compromisos de continuidad del servicio, controles de acceso a datos personales e información sensible, incluidos el cifrado con claves gestionadas en el país y la restricción de accesos remotos desde el extranjero, localización de datos solo cuando una ley lo exija, designación de responsables de seguridad, auditorías independientes, límites a derechos de información o de gobierno, o separación de activos; o c) propone su prohibición, cuando ninguna condición pueda mitigar el riesgo.\n8.2. La prohibición y la orden de revertir una operación cerrada sin notificación se adoptan por resolución suprema refrendada por el Presidente del Consejo de Ministros, el Ministro de Economía y Finanzas y el ministro del sector, debidamente motivada. La información clasificada que la sustente se consigna en anexo reservado conforme al Texto Único Ordenado de la Ley 27806, Ley de Transparencia y Acceso a la Información Pública, aprobado por el Decreto Supremo 021-2019-JUS; se custodia conforme a las normas del Sistema de Inteligencia Nacional y el órgano jurisdiccional que conozca la impugnación lo examina con las reservas que garanticen su confidencialidad. La autoridad entrega al notificante un resumen no clasificado de los fundamentos del anexo reservado que le permita ejercer su defensa.\n8.3. La orden de revertir dispone la desinversión de la participación adquirida en un plazo razonable no menor de seis meses, mediante su transferencia a terceros no vinculados en condiciones de mercado, sin afectar la validez de los actos celebrados con terceros de buena fe ni los derechos patrimoniales del adquirente sobre el precio de la transferencia. Hasta la desinversión, quedan suspendidos los derechos políticos del adquirente.\n8.4. Las decisiones son impugnables en el proceso contencioso-administrativo."
+   },
+   {
+    "n": "Artículo 9",
+    "titulo": "Temporalidad de las medidas",
+    "texto": "Las prohibiciones y condiciones se imponen por un plazo determinado, no mayor de cinco años, renovable mediante resolución motivada adoptada por el mismo órgano, previa nueva evaluación del riesgo conforme al artículo 7. Vencido el plazo sin renovación, la medida caduca de pleno derecho."
+   },
+   {
+    "n": "Artículo 10",
+    "titulo": "Revisión de oficio de operaciones no notificadas",
+    "texto": "La autoridad de evaluación puede iniciar de oficio el procedimiento respecto de una operación comprendida en el artículo 3 que no fue notificada, dentro de los dos años siguientes a su cierre. Iniciado el procedimiento, la autoridad puede disponer, mediante resolución motivada y como medida provisional conforme al Texto Único Ordenado de la Ley 27444, Ley del Procedimiento Administrativo General, aprobado por el Decreto Supremo 006-2026-JUS, la suspensión total o parcial del ejercicio de los derechos políticos derivados de la participación adquirida, cuando sea indispensable para evitar un riesgo grave e inminente, previa audiencia del adquirente salvo urgencia acreditada. La medida es impugnable sin efecto suspensivo y caduca con la resolución que pone fin al procedimiento."
+   },
+   {
+    "n": "Artículo 11",
+    "titulo": "Infracciones y sanciones",
+    "texto": "11.1. Constituyen infracciones, que sanciona el Ministerio de Economía y Finanzas conforme a los principios de la potestad sancionadora administrativa del Texto Único Ordenado de la Ley 27444, Ley del Procedimiento Administrativo General, aprobado por el Decreto Supremo 006-2026-JUS: a) muy graves: cerrar una operación comprendida sin notificarla o antes de su autorización, cuando el adquirente conocía o debía conocer que estaba comprendida; incumplir una condición impuesta; o incumplir la orden de desinversión; b) grave: presentar información falsa o incompleta en la notificación.\n11.2. Las infracciones muy graves se sancionan con multa de hasta el cinco por ciento del valor de la operación, sin exceder de diez mil unidades impositivas tributarias, y las graves con multa de hasta mil unidades impositivas tributarias, graduadas conforme a los criterios del principio de razonabilidad de la potestad sancionadora previstos en el citado Texto Único Ordenado.\n11.3. La responsabilidad administrativa requiere dolo o culpa."
+   },
+   {
+    "n": "Artículo 12",
+    "titulo": "Confidencialidad, tratados y transparencia",
+    "texto": "12.1. La información comercial presentada por los notificantes es confidencial y solo se usa para los fines de la presente ley. Los integrantes de la comisión multisectorial y el personal de apoyo están sujetos al deber de reserva y responden por su divulgación.\n12.2. La presente ley se aplica de conformidad con los tratados vigentes para el Perú, incluidas sus excepciones de seguridad esencial, y sin perjuicio de los convenios de estabilidad jurídica suscritos al amparo de los Decretos Legislativos 662 y 757 respecto de los derechos que estos garantizan.\n12.3. La autoridad de evaluación publica anualmente un informe con el número de operaciones notificadas, autorizadas, condicionadas y prohibidas, por sector y sin identificar a las partes salvo en las prohibiciones, y lo remite a las comisiones competentes de ambas cámaras del Congreso, incluida la Comisión de Economía, Banca, Finanzas e Inteligencia Financiera de la Cámara de Diputados."
+   }
+  ],
+  "disposiciones": [
+   {
+    "tipo": "Complementaria Final",
+    "n": "Primera",
+    "texto": "Reglamentación. El Poder Ejecutivo reglamenta la presente ley en un plazo de ciento veinte días hábiles contados a partir del día siguiente de su publicación, mediante decreto supremo refrendado por el Presidente del Consejo de Ministros y el Ministro de Economía y Finanzas. La lista de tecnologías sensibles y la constitución de la comisión multisectorial se aprueban en el mismo plazo."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Segunda",
+    "texto": "Vigencia diferida. La obligación de notificación rige a partir del día siguiente de la publicación del reglamento y no se aplica a operaciones cerradas antes de esa fecha."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Tercera",
+    "texto": "Vigencia temporal y evaluación. La presente ley rige por diez años contados desde su entrada en vigencia. El Poder Ejecutivo remite al Congreso, al octavo año, una evaluación de su aplicación para su eventual prórroga por ley."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Cuarta",
+    "texto": "Financiamiento. La implementación de la presente ley se financia con cargo al presupuesto institucional del Ministerio de Economía y Finanzas y de las entidades integrantes de la comisión multisectorial, sin demandar recursos adicionales al Tesoro Público."
+   }
+  ],
+  "costo_beneficio": "La ley no crea organismos, pliegos ni tasas: asigna la conducción a un órgano existente del MEF y una comisión multisectorial sin personería. El costo estimado es de S/ 1–2,5 millones anuales (equipo técnico-legal de 6–12 especialistas y apoyo de inteligencia ya presupuestado), atendible con el presupuesto institucional del MEF, sujeto a disponibilidad presupuestal y con informe previo de sostenibilidad fiscal antes del dictamen. Para los inversionistas, el costo es la notificación y la espera acotada (20 días hábiles en la mayoría de casos). El beneficio es sustituir la reacción ad hoc —más costosa en reputación y riesgo de controversias— por reglas ciertas alineadas con la OCDE, proteger activos críticos y dar señales de confiabilidad a socios que exigen estándares de seguridad en cadenas tecnológicas.",
+  "efecto_vigencia": "Ley temporal (diez años, con evaluación al octavo año) fundada en el artículo 72 de la Constitución. Complementa el régimen de Activos Críticos Nacionales (Decreto Supremo 106-2017-PCM), la Ley 29158 (comisión multisectorial), el TUO de la Ley 27806 (D.S. 021-2019-JUS, reserva por seguridad nacional) y el TUO de la Ley 27444 (D.S. 006-2026-JUS). Se coordina con el control previo de concentraciones de la Ley 31112, sin modificarlo. Concordancia con los Decretos Legislativos 662 y 757 y con los tratados de libre comercio e inversión vigentes, cuyas excepciones de seguridad esencial se respetan. No deroga normas.",
+  "normas_relacionadas": [
+   {
+    "norma": "Decreto Supremo 106-2017-PCM, Reglamento para la identificación, evaluación y gestión de riesgos de los Activos Críticos Nacionales",
+    "url": "https://www.gob.pe/institucion/pcm/normas-legales/454348-106-2017-pcm"
+   },
+   {
+    "norma": "Decreto Legislativo 662, régimen de estabilidad jurídica a las inversiones extranjeras",
+    "url": "https://leyes.congreso.gob.pe/Documentos/DecretosLegislativos/00662.pdf"
+   },
+   {
+    "norma": "Decreto Legislativo 757, Ley Marco para el crecimiento de la inversión privada",
+    "url": "https://leyes.congreso.gob.pe/Documentos/DecretosLegislativos/00757.pdf"
+   },
+   {
+    "norma": "Ley 29158, Ley Orgánica del Poder Ejecutivo",
+    "url": "https://leyes.congreso.gob.pe/Documentos/Leyes/29158.pdf"
+   },
+   {
+    "norma": "Ley 31112, Ley que establece el control previo de operaciones de concentración empresarial",
+    "url": "https://leyes.congreso.gob.pe/Documentos/2016_2021/ADLP/Normas_Legales/31112-LEY.pdf"
+   }
+  ],
+  "antecedentes": "Por verificar en SPLEY.",
+  "referencias_internacionales": [
+   {
+    "pais": "OCDE",
+    "norma": "Recomendación del Consejo sobre directrices para las políticas de inversión de los países receptores relativas a la seguridad nacional (OECD/LEGAL/0372, 2009)",
+    "url": "https://legalinstruments.oecd.org/en/instruments/OECD-LEGAL-0372"
+   },
+   {
+    "pais": "Unión Europea",
+    "norma": "Reglamento (UE) 2019/452, marco para el control de las inversiones extranjeras directas",
+    "url": "https://eur-lex.europa.eu/eli/reg/2019/452/oj"
+   },
+   {
+    "pais": "Reino Unido",
+    "norma": "National Security and Investment Act 2021",
+    "url": "https://www.legislation.gov.uk/ukpga/2021/25/contents"
+   }
+  ],
+  "comision_sugerida": "Economía, Banca, Finanzas e Inteligencia Financiera",
+  "comision_secundaria": "Defensa Nacional y Orden Interno",
+  "plan2050": [
+   "promocion-de-la-inversion",
+   "defensa",
+   "comercio-exterior-e-insercion-en-el-merc"
+  ],
+  "ods": [
+   16,
+   9,
+   17
+  ],
+  "prioridad": "media",
+  "costo_fiscal": "bajo",
+  "plazo": "corto",
+  "indicador_exito": "A 2031: reglamento y lista de tecnologías sensibles aprobados; al menos el 80 % de las operaciones notificadas resueltas en la primera fase (20 días hábiles); informes anuales publicados; y ninguna decisión restrictiva anulada judicialmente por falta de motivación.",
+  "tags": [
+   "inversión extranjera",
+   "seguridad nacional",
+   "activos críticos",
+   "OCDE",
+   "geoeconomía"
+  ],
+  "fuentes": [
+   {
+    "titulo": "OCDE, Recomendación OECD/LEGAL/0372 (2009)",
+    "url": "https://legalinstruments.oecd.org/en/instruments/OECD-LEGAL-0372"
+   },
+   {
+    "titulo": "Wehrlé y Pohl, Investment Policies Related to National Security: A Survey of Country Practices (OCDE, 2016)",
+    "url": "https://www.oecd.org/en/publications/investment-policies-related-to-national-security_5jlwrrf038nx-en.html"
+   },
+   {
+    "titulo": "gob.pe, Activos Críticos Nacionales (ACN)",
+    "url": "https://www.gob.pe/10400-activos-criticos-nacionales-acn"
+   }
+  ],
+  "implicados": {
+   "normas_modificadas": [
+    {
+     "norma": "Decreto Supremo 106-2017-PCM (régimen de Activos Críticos Nacionales)",
+     "articulo": "concordancia (art. 3.1 de la propuesta)",
+     "accion": "complementa",
+     "url": "https://www.gob.pe/institucion/pcm/normas-legales/454348-106-2017-pcm"
+    },
+    {
+     "norma": "Ley 29158, Ley Orgánica del Poder Ejecutivo",
+     "articulo": "concordancia (comisión multisectorial, art. 5.2)",
+     "accion": "complementa",
+     "url": "https://leyes.congreso.gob.pe/Documentos/Leyes/29158.pdf"
+    },
+    {
+     "norma": "Decretos Legislativos 662 y 757",
+     "articulo": "concordancia (art. 11.2)",
+     "accion": "complementa"
+    },
+    {
+     "norma": "Ley 31112, control previo de operaciones de concentración empresarial",
+     "articulo": "concordancia (art. 6.5)",
+     "accion": "complementa",
+     "url": "https://leyes.congreso.gob.pe/Documentos/2016_2021/ADLP/Normas_Legales/31112-LEY.pdf"
+    }
+   ],
+   "entidades": [
+    {
+     "entidad": "Ministerio de Economía y Finanzas",
+     "sigla": "MEF",
+     "sector": "Economía y Finanzas",
+     "rol": "rectora",
+     "responsabilidad": "Autoridad de evaluación: conduce el procedimiento (arts. 5-6), decide autorizaciones y condiciones (art. 8.1), revisa de oficio con medidas provisionales motivadas (art. 10), sanciona (art. 11) e informa (art. 12.3)."
+    },
+    {
+     "entidad": "Presidencia del Consejo de Ministros",
+     "sigla": "PCM",
+     "sector": "PCM",
+     "rol": "consultiva",
+     "responsabilidad": "Integra la comisión y refrenda la resolución suprema de prohibición (arts. 5.2 y 8.2)."
+    },
+    {
+     "entidad": "Dirección Nacional de Inteligencia",
+     "sigla": "DINI",
+     "sector": "PCM",
+     "rol": "consultiva",
+     "responsabilidad": "Apoyo técnico con informes reservados en la fase detallada (art. 5.2)."
+    },
+    {
+     "entidad": "Ministerio de Relaciones Exteriores",
+     "sigla": "RREE",
+     "sector": "Relaciones Exteriores",
+     "rol": "consultiva",
+     "responsabilidad": "Integra la comisión y refrenda la lista de tecnologías sensibles (arts. 4 y 5.2)."
+    },
+    {
+     "entidad": "Ministerio de Defensa",
+     "sigla": "MINDEF",
+     "sector": "Defensa",
+     "rol": "consultiva",
+     "responsabilidad": "Integra la comisión y refrenda la lista (arts. 4 y 5.2)."
+    },
+    {
+     "entidad": "Ministerios sectoriales (MTC, MINEM y otros)",
+     "sigla": "—",
+     "sector": "Varios",
+     "rol": "consultiva",
+     "responsabilidad": "Integran la comisión según el activo y refrendan la prohibición (arts. 5.2 y 8.2)."
+    },
+    {
+     "entidad": "Instituto Nacional de Defensa de la Competencia y de la Protección de la Propiedad Intelectual",
+     "sigla": "INDECOPI",
+     "sector": "PCM",
+     "rol": "consultiva",
+     "responsabilidad": "Tramita en paralelo el control de concentraciones e intercambia información no confidencial (art. 6.5)."
+    },
+    {
+     "entidad": "Contraloría General de la República",
+     "sigla": "CGR",
+     "sector": "Organismo constitucional autónomo",
+     "rol": "supervisora",
+     "responsabilidad": "Recibe la comunicación de la omisión de resolver cuando existe opinión desfavorable (art. 6.3)."
+    }
+   ],
+   "sujetos_obligados": "Adquirentes, nacionales o extranjeros, del control de titulares de Activos Críticos Nacionales, de concesiones de infraestructura listadas y de empresas de tecnologías sensibles, por encima de los umbrales reglamentarios. Los titulares de Activos Críticos Nacionales deben informar su calificación a los potenciales adquirentes (art. 3.4).",
+   "beneficiarios": "Población usuaria de servicios esenciales; inversionistas, por la certeza de reglas y plazos. No se cuantifica por falta de base."
+  },
+  "impacto": {
+   "tipo": "gasto",
+   "costo_estado": {
+    "rango": "S/ 1–2,5 millones/año",
+    "horizonte": "anual",
+    "supuestos": "Estimación del redactor: 6–12 especialistas legales, económicos y técnicos en el MEF (S/ 0,8–2 millones/año a costos de referencia CAS profesional) y gastos operativos y de sistemas (S/ 0,2–0,5 millones/año). Se asume un número reducido de operaciones notificadas por año; no hay base pública para estimarlo.",
+    "financiamiento": "Presupuesto institucional del MEF, sin demandar recursos adicionales al Tesoro Público y sujeto a disponibilidad presupuestal; requiere informe previo de sostenibilidad fiscal del MEF antes del dictamen (art. 79 de la Constitución)."
+   },
+   "beneficio_estado": "Reducción del riesgo sobre servicios esenciales y de controversias por decisiones ad hoc; alineamiento con estándares OCDE. No cuantificable con información pública.",
+   "beneficio_sociedad": "Mayor continuidad y seguridad de servicios críticos y protección de datos a gran escala. No cuantificable con información pública.",
+   "inversion_privada": "Neutral o positiva si los plazos se cumplen; podría facilitar inversiones de socios que exigen estándares de seguridad.",
+   "costo_privado": "Costos de notificación y de cumplimiento de condiciones; espera de hasta 20 días hábiles (fase 1) o 80 días hábiles (fase detallada con prórroga).",
+   "riesgos": "Uso proteccionista o político del procedimiento (mitigado por factores tasados, art. 7, y control judicial); controversias inversionista-Estado si se aplica fuera de las excepciones de seguridad de los tratados; tensión con el artículo 63 si se aplica de modo discriminatorio; capacidad técnica insuficiente para cumplir plazos. Deber de notificar con calificación ACN reservada (mitigado por la comunicación al titular y la exigencia de dolo o culpa, arts. 3.4 y 11.3).",
+   "confianza": "baja"
+  },
+  "revision_atendida": [
+   {
+    "especialidad": "constitucional",
+    "severidad": "alta",
+    "hallazgo": "Falta el fundamento del art. 72 y la temporalidad del régimen y de las medidas.",
+    "accion": "corregido",
+    "nota": "Art. 1 invoca el art. 72; nuevo art. 9 (medidas de hasta cinco años renovables con nueva evaluación); DCF Tercera (vigencia de diez años con evaluación al octavo); art. 3.5 limita la ley a los activos y tecnologías definidos."
+   },
+   {
+    "especialidad": "constitucional",
+    "severidad": "media",
+    "hallazgo": "Control estatal extranjero como factor de riesgo debe vincularse a un riesgo concreto.",
+    "accion": "corregido",
+    "nota": "Art. 7 a) exige riesgo concreto y acreditado."
+   },
+   {
+    "especialidad": "constitucional",
+    "severidad": "media",
+    "hallazgo": "Suspensión automática de derechos políticos sin decisión motivada.",
+    "accion": "corregido",
+    "nota": "Art. 10: medida provisional motivada, con audiencia salvo urgencia, impugnable y con caducidad."
+   },
+   {
+    "especialidad": "jurista",
+    "severidad": "media",
+    "hallazgo": "Deber de notificar basado en la calificación ACN no pública.",
+    "accion": "corregido",
+    "nota": "Art. 3.4: comunicación reservada al titular, deber del titular de informar y exención del adquirente de buena fe; art. 11.1 a) y 11.3 exigen conocimiento y culpa; consulta vinculante en el art. 6.4."
+   },
+   {
+    "especialidad": "jurista",
+    "severidad": "media",
+    "hallazgo": "Suspensión de voto sin garantías.",
+    "accion": "corregido",
+    "nota": "Mismo cambio del art. 10."
+   },
+   {
+    "especialidad": "jurista",
+    "severidad": "media",
+    "hallazgo": "La orden de revertir no regula la desinversión ni a los terceros.",
+    "accion": "corregido",
+    "nota": "Nuevo 8.3: desinversión en no menos de seis meses a terceros no vinculados, protección de terceros de buena fe y nueva infracción muy grave por incumplirla."
+   },
+   {
+    "especialidad": "seguridad",
+    "severidad": "media",
+    "hallazgo": "Silencio positivo en la fase detallada.",
+    "accion": "corregido",
+    "nota": "Art. 6.3: el silencio positivo no opera si la comisión emitió opinión desfavorable; se resuelve en diez días bajo responsabilidad, con aviso a la CGR. Se justifica por la previsibilidad de la Recomendación OCDE."
+   },
+   {
+    "especialidad": "seguridad",
+    "severidad": "media",
+    "hallazgo": "Calificación ACN reservada.",
+    "accion": "corregido",
+    "nota": "Mismo cambio del art. 3.4."
+   },
+   {
+    "especialidad": "seguridad",
+    "severidad": "media",
+    "hallazgo": "Anexo reservado sin reglas de defensa ni custodia.",
+    "accion": "corregido",
+    "nota": "Art. 8.2: resumen no clasificado al notificante, custodia conforme al Sistema de Inteligencia Nacional y examen judicial reservado."
+   },
+   {
+    "especialidad": "tecnologico",
+    "severidad": "media",
+    "hallazgo": "Sanción sin posibilidad de conocer la calificación ACN.",
+    "accion": "corregido",
+    "nota": "Arts. 3.4, 6.4 y 11.1 a)."
+   },
+   {
+    "especialidad": "tecnologico",
+    "severidad": "media",
+    "hallazgo": "Lista de tecnologías sensibles demasiado amplia y distinta de la de doble uso.",
+    "accion": "corregido",
+    "nota": "Art. 4 remite a la lista nacional de control de doble uso o a las listas multilaterales y excluye el software de uso masivo y los servicios sin tecnología controlada."
+   },
+   {
+    "especialidad": "tecnologico",
+    "severidad": "media",
+    "hallazgo": "El literal b) crea categorías de infraestructura fuera del régimen ACN.",
+    "accion": "corregido",
+    "nota": "Art. 3.1 b) remite a las categorías que identifique y publique el reglamento del régimen ACN."
+   },
+   {
+    "especialidad": "constitucional",
+    "severidad": "baja",
+    "hallazgo": "Graduación de multas remitida al reglamento.",
+    "accion": "corregido",
+    "nota": "Art. 11.2 remite a los criterios del principio de razonabilidad del TUO; se cita sin numeral porque no se verificó la numeración del nuevo TUO."
+   },
+   {
+    "especialidad": "jurista",
+    "severidad": "baja",
+    "hallazgo": "Graduación sin criterios legales.",
+    "accion": "corregido",
+    "nota": "Mismo cambio del art. 11.2."
+   },
+   {
+    "especialidad": "normativo",
+    "severidad": "baja",
+    "hallazgo": "Coordinación con la Ley 31112.",
+    "accion": "corregido",
+    "nota": "Nuevo 6.5 y cita en efecto_vigencia y normas_relacionadas."
+   },
+   {
+    "especialidad": "normativo",
+    "severidad": "baja",
+    "hallazgo": "URL del D.S. 106-2017-PCM y cita del TUO de la Ley 27806.",
+    "accion": "corregido",
+    "nota": "Enlace a gob.pe/pcm y TUO aprobado por D.S. 021-2019-JUS."
+   },
+   {
+    "especialidad": "seguridad",
+    "severidad": "baja",
+    "hallazgo": "Reserva de los integrantes de la comisión.",
+    "accion": "corregido",
+    "nota": "Art. 12.1."
+   },
+   {
+    "especialidad": "tecnologico",
+    "severidad": "baja",
+    "hallazgo": "Localización de datos como condición.",
+    "accion": "corregido",
+    "nota": "Art. 8.1 b): controles de acceso y cifrado; localización solo cuando una ley lo exija."
+   }
+  ]
+ },
+ {
+  "id": "SOB-13",
+  "eje": "sober",
+  "titulo": "Ley que establece el régimen de control de las exportaciones, reexportaciones, tránsito, corretaje y transferencias de tecnología de bienes y tecnologías de doble uso",
+  "titulo_corto": "Control de exportaciones de doble uso",
+  "sumilla": "Crea el régimen nacional de control de bienes, software y tecnologías de doble uso: lista nacional alineada con los regímenes multilaterales e incorporando sus notas de criptografía, de software y de tecnología, con exclusión del código abierto; licencias individuales, globales y generales en la VUCE con información de acceso restringido; cláusula de uso final para armas de destrucción masiva y embargos del Consejo de Seguridad; control del tránsito, el corretaje y las transferencias intangibles, con supuestos de transferencia a extranjeros en el país fijados en la propia ley; excepciones expresas para la investigación básica, la información de dominio público, la divulgación de vulnerabilidades y la respuesta a incidentes; e infracciones tipificadas con regla de non bis in idem, sin crear organismos.",
+  "problema": "Las cadenas de semiconductores, electrónica y espacio se reorganizan entre países que controlan la reexportación y la triangulación; la Unión Europea, por ejemplo, aplica el Reglamento (UE) 2021/821 con una lista común actualizada según el Arreglo de Wassenaar, el Grupo Australia, el Grupo de Suministradores Nucleares y el Régimen de Control de la Tecnología de Misiles. El Arreglo de Wassenaar tiene 42 Estados participantes, entre ellos Argentina y México —que se incorporó en 2012 y regula sus exportaciones de uso dual por acuerdo de su Secretaría de Economía—; el Perú no participa. El Perú ratificó el Tratado sobre el Comercio de Armas en 2016 y cuenta con controles sectoriales dispersos: armas de uso civil por la SUCAMEC (Ley 30299), sustancias de la Convención sobre Armas Químicas por PRODUCE (Ley 29239), fuentes radiactivas por el IPEN (Ley 28028) e insumos químicos para drogas por la SUNAT, pero no tiene un régimen integral para bienes y tecnologías de doble uso (máquinas herramienta, cifrado, electrónica, aeroespacio, software y tecnología transferida electrónicamente), como exige además la Resolución 1540 (2004) del Consejo de Seguridad para prevenir la proliferación de armas de destrucción masiva. Sin ese régimen, el país es un eslabón débil para el desvío y pierde acceso a insumos y socios tecnológicos que exigen garantías de uso final.",
+  "objeto": "Establecer el régimen nacional de control de exportaciones, reexportaciones, tránsito, corretaje, asistencia técnica y transferencias de tecnología de bienes y tecnologías de doble uso.",
+  "articulado": [
+   {
+    "n": "Artículo 1",
+    "titulo": "Objeto",
+    "texto": "La presente ley tiene por objeto establecer el régimen de control de las exportaciones, reexportaciones, tránsito, transbordo, corretaje, asistencia técnica y transferencias de tecnología, incluidas las realizadas por medios electrónicos, de bienes, software y tecnologías de doble uso, a fin de prevenir su desvío hacia programas de armas de destrucción masiva, usos militares no autorizados o el terrorismo, y de cumplir los compromisos internacionales del Perú."
+   },
+   {
+    "n": "Artículo 2",
+    "titulo": "Definiciones",
+    "texto": "Para efectos de la presente ley se entiende por: a) Bienes de doble uso: bienes, software y tecnologías que pueden destinarse a usos civiles y militares o a la fabricación de armas de destrucción masiva o de sus vectores. b) Transferencia intangible de tecnología: la transmisión de tecnología controlada por medios electrónicos, verbales o de otra forma no física a una persona situada fuera del territorio nacional. Solo se equipara a transferencia la comunicación, dentro del territorio nacional, de tecnología de la Lista vinculada a armas de destrucción masiva o a sus vectores a una persona que sea nacional de un Estado sujeto a embargo del Consejo de Seguridad de las Naciones Unidas o figure en sus listas de sanciones, y en ningún caso comprende las actividades exceptuadas en el artículo 9. El almacenamiento de tecnología controlada en servicios de nube ubicados en el extranjero no constituye transferencia cuando la información esté cifrada y solo sea accesible por el titular o por personas autorizadas en el país. c) Corretaje: la negociación u organización de operaciones de compraventa de bienes de doble uso entre terceros países, realizada por personas naturales o jurídicas domiciliadas en el Perú o desde el territorio nacional. d) Información de dominio público: la que ha sido puesta a disposición del público sin restricciones a su difusión ulterior. e) Investigación científica básica: trabajo experimental o teórico cuyo objetivo principal es adquirir conocimientos nuevos sobre los fundamentos de fenómenos, sin orientarse a un fin práctico específico."
+   },
+   {
+    "n": "Artículo 3",
+    "titulo": "Ámbito y regímenes especiales",
+    "texto": "3.1. La presente ley se aplica a los bienes de la Lista Nacional de Control y a los comprendidos en el artículo 6.\n3.2. Se rigen por su legislación especial, que prevalece, las armas de fuego, municiones, explosivos y materiales relacionados de uso civil (Ley 30299), las sustancias químicas de la Convención sobre Armas Químicas (Ley 29239), las fuentes de radiación ionizante y los materiales nucleares (Ley 28028), los insumos químicos y productos fiscalizados (Decreto Legislativo 1126) y los bienes y materiales de las Fuerzas Armadas y de la Policía Nacional del Perú. La autoridad de control coordina con las autoridades de dichos regímenes para evitar duplicidad de autorizaciones."
+   },
+   {
+    "n": "Artículo 4",
+    "titulo": "Lista Nacional de Control",
+    "texto": "4.1. El Poder Ejecutivo aprueba, mediante decreto supremo refrendado por los Ministros de Comercio Exterior y Turismo, de Relaciones Exteriores, de Defensa y de la Producción, la Lista Nacional de Control de Bienes de Doble Uso, que incorpora las listas de los arreglos multilaterales de control de exportaciones y las correlaciona con las subpartidas del Arancel de Aduanas.\n4.2. La Lista se actualiza al menos una vez al año para reflejar los cambios en dichos arreglos, y se publica. Los bienes de la Lista tienen la condición de mercancías restringidas para efectos de la Ley General de Aduanas, aprobada por el Decreto Legislativo 1053.\n4.3. La Lista Nacional de Control incorpora las notas generales de tecnología y de software y la nota de criptografía de los arreglos multilaterales, de modo que no se sujetan a licencia: a) los bienes y el software de uso masivo con funciones criptográficas que cumplan las condiciones de dicha nota; b) el software de venta al por menor sin restricciones que cumpla la nota general de software; y c) el software y la tecnología de dominio público, incluido el código abierto publicado en repositorios con licencias que permitan su libre acceso. Incorpora asimismo las notas de exclusión sobre divulgación de vulnerabilidades y respuesta a incidentes cibernéticos."
+   },
+   {
+    "n": "Artículo 5",
+    "titulo": "Autoridad de control y licencias",
+    "texto": "5.1. El Ministerio de Comercio Exterior y Turismo (MINCETUR) es la autoridad de control. Otorga, deniega, suspende o revoca las licencias, previa opinión de un comité técnico multisectorial integrado por los Ministerios de Relaciones Exteriores, de Defensa, del Interior y de la Producción, el Instituto Peruano de Energía Nuclear, la Comisión Nacional de Investigación y Desarrollo Aeroespacial, la Superintendencia Nacional de Aduanas y de Administración Tributaria y la Dirección Nacional de Inteligencia, que se constituye conforme a la Ley 29158, Ley Orgánica del Poder Ejecutivo, sin personería jurídica ni gasto adicional.\n5.2. Requieren licencia previa la exportación, reexportación, corretaje, asistencia técnica y transferencia intangible de bienes de la Lista. Las licencias pueden ser: a) individuales, por operación; b) globales, para varias operaciones de un exportador con programa interno de cumplimiento verificado; y c) generales, aprobadas por decreto supremo para bienes y destinos de bajo riesgo.\n5.3. Las solicitudes se tramitan a través de la Ventanilla Única de Comercio Exterior (VUCE) en un plazo máximo de treinta días hábiles, prorrogable por quince días hábiles en casos complejos. Por razones de seguridad, se aplica el silencio administrativo negativo. La información de las solicitudes y licencias es accesible solo para la autoridad de control, los miembros del comité técnico y la SUNAT en el ámbito de sus funciones, con autenticación multifactor y registro de accesos protegido contra alteraciones, y no se integra a los servicios de intercambio general de la VUCE.\n5.4. La denegatoria se motiva sobre la base de los criterios del artículo 7; la información clasificada que la sustente se consigna en anexo reservado. Es impugnable conforme al Texto Único Ordenado de la Ley 27444, Ley del Procedimiento Administrativo General, aprobado por el Decreto Supremo 006-2026-JUS, y en el proceso contencioso-administrativo."
+   },
+   {
+    "n": "Artículo 6",
+    "titulo": "Cláusula de uso final",
+    "texto": "Requiere licencia la exportación de un bien no incluido en la Lista cuando: a) la autoridad de control haya informado al exportador que el bien está o puede estar destinado, total o parcialmente, a programas de armas químicas, biológicas o nucleares o de sus vectores; b) el exportador tenga conocimiento efectivo de dicho destino; o c) el destino esté sujeto a un embargo de armas del Consejo de Seguridad de las Naciones Unidas y el bien vaya a tener un uso final militar."
+   },
+   {
+    "n": "Artículo 7",
+    "titulo": "Criterios de evaluación",
+    "texto": "La autoridad de control evalúa: a) las obligaciones internacionales del Perú, incluidas las sanciones y embargos del Consejo de Seguridad de las Naciones Unidas y los tratados de no proliferación y de comercio de armas; b) el riesgo de desvío o reexportación no autorizada; c) el uso final y la fiabilidad del usuario final declarado; d) el riesgo de contribuir a violaciones graves de los derechos humanos o del derecho internacional humanitario; y e) la seguridad nacional. No se consideran criterios de política comercial."
+   },
+   {
+    "n": "Artículo 8",
+    "titulo": "Tránsito, transbordo y depósito",
+    "texto": "La Superintendencia Nacional de Aduanas y de Administración Tributaria puede retener, por un plazo máximo de diez días hábiles, prorrogable por igual plazo, los bienes de la Lista en tránsito, transbordo o depósito aduanero cuando existan indicios razonables de que se destinan a los fines del artículo 6, y comunica de inmediato el hecho a la autoridad de control, que resuelve si la operación requiere licencia. La retención se rige por los procedimientos de la Ley General de Aduanas."
+   },
+   {
+    "n": "Artículo 9",
+    "titulo": "Investigación, educación, dominio público y seguridad digital",
+    "texto": "9.1. No requieren licencia la difusión de información de dominio público, los resultados de investigación científica básica, la información mínima necesaria para solicitar una patente ni la enseñanza en instituciones educativas, salvo que el docente o investigador tenga conocimiento efectivo de que se destinan a los fines del artículo 6.\n9.2. La autoridad de control publica guías de cumplimiento para universidades e institutos de investigación y un procedimiento de consulta previa gratuita sobre la clasificación de bienes y tecnologías.\n9.3. No requieren licencia, aun cuando se refieran a bienes o tecnologías de la Lista relacionados con software de intrusión o con vigilancia de redes: a) la divulgación de vulnerabilidades a su propietario, al fabricante, a un equipo de respuesta ante incidentes de seguridad digital o a la autoridad competente, nacionales o extranjeros, con el fin de corregirlas; b) el intercambio de información, indicadores, muestras, herramientas y asistencia técnica con fines de respuesta a incidentes de seguridad digital, incluido el que se realiza con equipos de respuesta o fabricantes extranjeros; y c) la investigación de seguridad realizada de buena fe para identificar, comprobar o corregir vulnerabilidades.\n9.4. La publicación de resultados de investigación en ciberseguridad en revistas, congresos o repositorios abiertos se considera información de dominio público."
+   },
+   {
+    "n": "Artículo 10",
+    "titulo": "Certificados de importación y de usuario final",
+    "texto": "10.1. El MINCETUR emite, a solicitud del importador nacional, certificados internacionales de importación y de verificación de entrega, y legaliza declaraciones de usuario final, para facilitar que proveedores extranjeros obtengan las licencias de exportación de sus países.\n10.2. El importador que obtenga un certificado se obliga a no reexportar ni desviar el bien sin autorización de la autoridad de control y a permitir verificaciones posteriores al envío."
+   },
+   {
+    "n": "Artículo 11",
+    "titulo": "Obligaciones de los operadores",
+    "texto": "Los exportadores, corredores y proveedores de asistencia técnica de bienes de la Lista: a) clasifican sus bienes y tecnologías; b) conservan por cinco años la documentación de las operaciones, incluidas las declaraciones de usuario final; y c) cuando soliciten licencias globales, implementan un programa interno de cumplimiento conforme a los lineamientos que apruebe la autoridad de control."
+   },
+   {
+    "n": "Artículo 12",
+    "titulo": "Infracciones y sanciones",
+    "texto": "12.1. El MINCETUR sanciona, conforme a los principios de la potestad sancionadora administrativa del Texto Único Ordenado de la Ley 27444, Ley del Procedimiento Administrativo General, aprobado por el Decreto Supremo 006-2026-JUS, las siguientes infracciones: a) muy graves: exportar, reexportar, realizar corretaje o transferir tecnología de bienes de la Lista o comprendidos en el artículo 6 sin licencia, salvo las operaciones exceptuadas en los artículos 4.3 y 9, o incumplir sus condiciones; desviar bienes importados con certificado de importación; b) graves: proporcionar información falsa o incompleta en la solicitud o en la declaración de usuario final; c) leves: incumplir el deber de conservación de documentos.\n12.2. Las infracciones se sancionan con multa de hasta mil unidades impositivas tributarias las muy graves, hasta doscientas las graves y hasta veinte las leves, graduadas conforme a los criterios del principio de razonabilidad de la potestad sancionadora previstos en el citado Texto Único Ordenado, y, en las muy graves, con la suspensión o revocación de licencias globales y generales. El comiso de las mercancías se rige por la legislación aduanera.\n12.3. Cuando los hechos puedan constituir delito conforme a la Ley 28008, Ley de los Delitos Aduaneros, o al Código Penal, la autoridad de control comunica al Ministerio Público y suspende el procedimiento sancionador respecto de la misma conducta hasta que exista pronunciamiento firme en la vía penal, sin perjuicio de las medidas provisionales y de la suspensión o revocación de licencias, que tienen naturaleza distinta."
+   }
+  ],
+  "disposiciones": [
+   {
+    "tipo": "Complementaria Final",
+    "n": "Primera",
+    "texto": "Reglamentación. El Poder Ejecutivo reglamenta la presente ley en un plazo de ciento ochenta días hábiles contados a partir del día siguiente de su publicación, mediante decreto supremo refrendado por los Ministros de Comercio Exterior y Turismo, de Relaciones Exteriores, de Defensa y de la Producción."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Segunda",
+    "texto": "Vigencia escalonada. La exigencia de licencias rige a los noventa días calendario de publicada la primera Lista Nacional de Control; durante los primeros doce meses, la autoridad de control prioriza la orientación y aplica la cláusula de uso final del artículo 6 con preferencia a las sanciones."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Tercera",
+    "texto": "Arreglos multilaterales. El Ministerio de Relaciones Exteriores evalúa y, de ser el caso, propone la participación del Perú en los arreglos multilaterales de control de exportaciones, conforme a sus requisitos."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Cuarta",
+    "texto": "Informe. El MINCETUR publica anualmente estadísticas agregadas de licencias otorgadas y denegadas por categoría de bien y región de destino, y las remite a las comisiones competentes de ambas cámaras del Congreso, incluida la Comisión de Producción, Comercio Exterior y Turismo de la Cámara de Diputados."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Quinta",
+    "texto": "Financiamiento. La implementación de la presente ley se financia con cargo al presupuesto institucional del MINCETUR y de las entidades integrantes del comité técnico, sin demandar recursos adicionales al Tesoro Público. Los derechos de tramitación se rigen por el Texto Único Ordenado de la Ley 27444, Ley del Procedimiento Administrativo General, aprobado por el Decreto Supremo 006-2026-JUS."
+   }
+  ],
+  "costo_beneficio": "La ley no crea organismos ni tributos: asigna la autoridad al MINCETUR, usa la VUCE existente y un comité técnico sin personería. El costo estimado es de S/ 2–4 millones el primer año (lista, módulo VUCE, capacitación aduanera) y de S/ 1,5–3 millones anuales luego (equipo técnico de licencias y clasificación), atendible con el presupuesto institucional del MINCETUR, sujeto a disponibilidad presupuestal y con informe previo del MEF antes del dictamen. El costo privado se concentra en pocos exportadores de bienes sensibles y se reduce con licencias generales y globales. El beneficio es acreditar al Perú como socio confiable en cadenas tecnológicas, facilitar importaciones de insumos controlados mediante certificados de usuario final y cumplir la Resolución 1540 del Consejo de Seguridad.",
+  "efecto_vigencia": "Norma autónoma que complementa la Ley General de Aduanas (Decreto Legislativo 1053), la Ley 28008 (con regla de prelación penal, art. 12.3), la Ley 29158 y el TUO de la Ley 27444 (D.S. 006-2026-JUS). Respeta y no modifica los regímenes especiales de la Ley 30299, la Ley 29239, la Ley 28028, el Decreto Legislativo 1126 y los bienes de las Fuerzas Armadas y la Policía Nacional. Concordancia con el Tratado sobre el Comercio de Armas y la Resolución 1540 (2004) del Consejo de Seguridad. No deroga normas.",
+  "normas_relacionadas": [
+   {
+    "norma": "Ley 29239, Ley sobre medidas de control de sustancias químicas susceptibles de empleo para la fabricación de armas químicas",
+    "url": "https://leyes.congreso.gob.pe/Documentos/Leyes/29239.pdf"
+   },
+   {
+    "norma": "Ley 30299, Ley de armas de fuego, municiones, explosivos, productos pirotécnicos y materiales relacionados de uso civil (texto consolidado)",
+    "url": "https://leyes.congreso.gob.pe/Documentos/ExpVirPal/Texto_Consolidado/30299-TXM.pdf"
+   },
+   {
+    "norma": "Decreto Legislativo 1053, Ley General de Aduanas",
+    "url": "https://leyes.congreso.gob.pe/Documentos/DecretosLegislativos/01053.pdf"
+   },
+   {
+    "norma": "Ley 28008, Ley de los Delitos Aduaneros",
+    "url": "https://leyes.congreso.gob.pe/Documentos/Leyes/28008.pdf"
+   },
+   {
+    "norma": "Ley 28028, Ley de regulación del uso de fuentes de radiación ionizante",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/28028.pdf"
+   },
+   {
+    "norma": "Decreto Legislativo 1126, que establece medidas de control en los insumos químicos y productos fiscalizados",
+    "url": "https://leyes.congreso.gob.pe/Documentos/DecretosLegislativos/01126.pdf"
+   }
+  ],
+  "antecedentes": "Por verificar en SPLEY.",
+  "referencias_internacionales": [
+   {
+    "pais": "Unión Europea",
+    "norma": "Reglamento (UE) 2021/821, régimen de la Unión de control de las exportaciones, el corretaje, la asistencia técnica, el tránsito y la transferencia de productos de doble uso",
+    "url": "https://eur-lex.europa.eu/eli/reg/2021/821/oj"
+   },
+   {
+    "pais": "Multilateral",
+    "norma": "Arreglo de Wassenaar sobre control de exportaciones de armas convencionales y bienes y tecnologías de doble uso",
+    "url": "https://www.wassenaar.org/about-us/"
+   },
+   {
+    "pais": "Naciones Unidas",
+    "norma": "Resolución 1540 (2004) del Consejo de Seguridad y su Comité",
+    "url": "https://www.un.org/en/sc/1540/"
+   }
+  ],
+  "comision_sugerida": "Producción, Comercio Exterior y Turismo",
+  "comision_secundaria": "Defensa Nacional y Orden Interno",
+  "plan2050": [
+   "comercio-exterior-e-insercion-en-el-merc",
+   "defensa",
+   "industria"
+  ],
+  "ods": [
+   16,
+   9,
+   17
+  ],
+  "prioridad": "media",
+  "costo_fiscal": "bajo",
+  "plazo": "mediano",
+  "indicador_exito": "A 2031: Lista Nacional de Control publicada y actualizada anualmente; módulo de licencias en la VUCE operativo con plazo mediano no mayor de 30 días hábiles; certificados de importación y usuario final emitidos; y evaluación formal de la participación del Perú en al menos un arreglo multilateral.",
+  "tags": [
+   "doble uso",
+   "control de exportaciones",
+   "no proliferación",
+   "friendshoring",
+   "semiconductores"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Arreglo de Wassenaar, Estados participantes",
+    "url": "https://www.wassenaar.org/about-us/"
+   },
+   {
+    "titulo": "Intervención del Perú en la Conferencia de Estados Partes del Tratado sobre el Comercio de Armas (ratificación 2016)",
+    "url": "https://www.thearmstradetreaty.org/hyper-images/file/Peru_Intervención_Perú_ATT_22_agosto/Peru_Intervención_Perú_ATT_22_agosto.pdf"
+   },
+   {
+    "titulo": "EUR-Lex, Reglamento (UE) 2021/821",
+    "url": "https://eur-lex.europa.eu/eli/reg/2021/821/oj"
+   },
+   {
+    "titulo": "Ley 29239, texto oficial (archivo de leyes del Congreso)",
+    "url": "https://leyes.congreso.gob.pe/Documentos/Leyes/29239.pdf"
+   }
+  ],
+  "implicados": {
+   "normas_modificadas": [
+    {
+     "norma": "Decreto Legislativo 1053, Ley General de Aduanas",
+     "articulo": "concordancia (mercancías restringidas, art. 4.2; retención, art. 8)",
+     "accion": "complementa",
+     "url": "https://leyes.congreso.gob.pe/Documentos/DecretosLegislativos/01053.pdf"
+    },
+    {
+     "norma": "Ley 28008, Ley de los Delitos Aduaneros",
+     "articulo": "concordancia (art. 12.1)",
+     "accion": "complementa",
+     "url": "https://leyes.congreso.gob.pe/Documentos/Leyes/28008.pdf"
+    },
+    {
+     "norma": "Leyes 30299, 29239 y 28028 y Decreto Legislativo 1126",
+     "articulo": "regímenes especiales que prevalecen (art. 3.2)",
+     "accion": "complementa"
+    }
+   ],
+   "entidades": [
+    {
+     "entidad": "Ministerio de Comercio Exterior y Turismo",
+     "sigla": "MINCETUR",
+     "sector": "Comercio Exterior y Turismo",
+     "rol": "rectora",
+     "responsabilidad": "Autoridad de control: otorga licencias vía VUCE (art. 5), emite certificados de importación (art. 10), publica guías (art. 9.2), sanciona (art. 12) e informa (DCF Cuarta)."
+    },
+    {
+     "entidad": "Superintendencia Nacional de Aduanas y de Administración Tributaria",
+     "sigla": "SUNAT",
+     "sector": "Economía y Finanzas",
+     "rol": "supervisora",
+     "responsabilidad": "Control aduanero de mercancías restringidas, retención en tránsito (art. 8) e integración del comité técnico (art. 5.1)."
+    },
+    {
+     "entidad": "Ministerio de Relaciones Exteriores",
+     "sigla": "RREE",
+     "sector": "Relaciones Exteriores",
+     "rol": "consultiva",
+     "responsabilidad": "Comité técnico, refrendo de la Lista y evaluación de participación en arreglos multilaterales (art. 4, DCF Tercera)."
+    },
+    {
+     "entidad": "Ministerio de Defensa",
+     "sigla": "MINDEF",
+     "sector": "Defensa",
+     "rol": "consultiva",
+     "responsabilidad": "Comité técnico y refrendo de la Lista (arts. 4 y 5.1)."
+    },
+    {
+     "entidad": "Ministerio de la Producción",
+     "sigla": "PRODUCE",
+     "sector": "Producción",
+     "rol": "consultiva",
+     "responsabilidad": "Comité técnico, refrendo de la Lista y coordinación con el régimen de la Ley 29239 (arts. 3.2 y 4)."
+    },
+    {
+     "entidad": "Instituto Peruano de Energía Nuclear",
+     "sigla": "IPEN",
+     "sector": "Energía y Minas",
+     "rol": "consultiva",
+     "responsabilidad": "Comité técnico y coordinación con el régimen nuclear (arts. 3.2 y 5.1)."
+    },
+    {
+     "entidad": "Comisión Nacional de Investigación y Desarrollo Aeroespacial",
+     "sigla": "CONIDA",
+     "sector": "Defensa",
+     "rol": "consultiva",
+     "responsabilidad": "Comité técnico para bienes espaciales y de misiles (art. 5.1)."
+    },
+    {
+     "entidad": "Dirección Nacional de Inteligencia",
+     "sigla": "DINI",
+     "sector": "PCM",
+     "rol": "consultiva",
+     "responsabilidad": "Comité técnico: evaluación de riesgo de desvío (arts. 5.1 y 7)."
+    },
+    {
+     "entidad": "Ministerio Público",
+     "sigla": "MP",
+     "sector": "Organismo constitucional autónomo",
+     "rol": "beneficiaria",
+     "responsabilidad": "Recibe la comunicación de hechos que pueden constituir delito (art. 12.3)."
+    }
+   ],
+   "sujetos_obligados": "Exportadores, reexportadores, corredores y proveedores de asistencia técnica o transferencias de tecnología de bienes de la Lista o comprendidos en la cláusula de uso final; importadores que soliciten certificados.",
+   "beneficiarios": "Empresas que importan insumos controlados o se integran a cadenas tecnológicas, universidades (seguridad jurídica) y el Estado en sus compromisos de no proliferación. No se cuantifica por falta de base."
+  },
+  "impacto": {
+   "tipo": "gasto",
+   "costo_estado": {
+    "rango": "S/ 2–4 millones (primer año) y S/ 1,5–3 millones/año",
+    "horizonte": "2027-2031",
+    "supuestos": "Estimación del redactor: módulo VUCE y correlación de la lista con el arancel (S/ 0,8–1,5 millones único), capacitación a aduanas (S/ 0,2–0,5 millones), equipo de 8–15 especialistas en licencias y clasificación (S/ 1,2–2,5 millones/año a costos de referencia CAS profesional). Volumen de solicitudes desconocido.",
+    "financiamiento": "Presupuesto institucional del MINCETUR, sin demandar recursos adicionales al Tesoro Público y sujeto a disponibilidad presupuestal; requiere coordinación con el Poder Ejecutivo e informe previo de sostenibilidad fiscal del MEF antes del dictamen."
+   },
+   "beneficio_estado": "Cumplimiento de la Resolución 1540 y del Tratado sobre el Comercio de Armas; mejor posición en negociaciones tecnológicas y de comercio. No cuantificable con información pública.",
+   "beneficio_sociedad": "Menor riesgo de que el país sea usado para desvío; acceso a insumos y tecnologías que requieren garantías de uso final. No cuantificable con información pública.",
+   "inversion_privada": "Podría facilitar inversiones en electrónica, espacio y manufactura avanzada que exigen controles de exportación creíbles; no se estima.",
+   "costo_privado": "Clasificación de bienes, solicitudes de licencia, conservación documental y programas de cumplimiento para licencias globales; concentrado en pocos exportadores.",
+   "riesgos": "Sobrecontrol que afecte exportaciones legítimas de software, la investigación o la ciberseguridad (mitigado por las notas del art. 4.3, las excepciones del art. 9 y las licencias generales); capacidad técnica insuficiente para clasificar; demoras en la VUCE; listas desactualizadas si no se revisan anualmente.",
+   "confianza": "baja"
+  },
+  "revision_atendida": [
+   {
+    "especialidad": "seguridad",
+    "severidad": "alta",
+    "hallazgo": "Incorporar Wassenaar sin salvedades sujeta a licencia la divulgación de vulnerabilidades y la respuesta a incidentes.",
+    "accion": "corregido",
+    "nota": "Nuevo 9.3 (divulgación, respuesta a incidentes e investigación de buena fe, incluido el intercambio con CSIRT o fabricantes extranjeros); 4.3 incorpora las notas de exclusión; 12.1 a) salva las operaciones exceptuadas."
+   },
+   {
+    "especialidad": "tecnologico",
+    "severidad": "alta",
+    "hallazgo": "Software de intrusión: investigación de seguridad criminalizada de facto.",
+    "accion": "corregido",
+    "nota": "Mismos cambios de los arts. 4.3, 9.3 y 12.1."
+   },
+   {
+    "especialidad": "constitucional",
+    "severidad": "media",
+    "hallazgo": "Exportación presunta librada al reglamento.",
+    "accion": "corregido",
+    "nota": "Art. 2 b): los supuestos se fijan en la ley (tecnología vinculada a armas de destrucción masiva y nacionales de Estados bajo embargo o en listas de sanciones), con exclusión de lo previsto en el art. 9."
+   },
+   {
+    "especialidad": "jurista",
+    "severidad": "media",
+    "hallazgo": "Concurrencia con la vía penal aduanera (non bis in idem).",
+    "accion": "corregido",
+    "nota": "Nuevo 12.3: comunicación al Ministerio Público y suspensión del procedimiento hasta pronunciamiento penal firme."
+   },
+   {
+    "especialidad": "seguridad",
+    "severidad": "media",
+    "hallazgo": "Exportación presunta con efecto discriminatorio en la academia.",
+    "accion": "corregido",
+    "nota": "Art. 2 b) acotado en la ley."
+   },
+   {
+    "especialidad": "seguridad",
+    "severidad": "media",
+    "hallazgo": "Información sensible de las solicitudes en la VUCE.",
+    "accion": "corregido",
+    "nota": "Art. 5.3: acceso restringido, autenticación multifactor, registro de accesos y exclusión del intercambio general."
+   },
+   {
+    "especialidad": "tecnologico",
+    "severidad": "media",
+    "hallazgo": "Faltan la nota de criptografía y la nota general de software; código abierto.",
+    "accion": "corregido",
+    "nota": "Nuevo 4.3."
+   },
+   {
+    "especialidad": "tecnologico",
+    "severidad": "media",
+    "hallazgo": "La exportación presunta choca con la atracción de talento; nube en el extranjero.",
+    "accion": "corregido",
+    "nota": "Art. 2 b) acotado y regla sobre almacenamiento cifrado en la nube."
+   },
+   {
+    "especialidad": "constitucional",
+    "severidad": "baja",
+    "hallazgo": "Graduación de multas remitida al reglamento.",
+    "accion": "corregido",
+    "nota": "Art. 12.2 remite a los criterios del principio de razonabilidad del TUO; se cita sin numeral porque no se verificó la numeración del nuevo TUO."
+   },
+   {
+    "especialidad": "jurista",
+    "severidad": "baja",
+    "hallazgo": "Alcance territorial del corretaje.",
+    "accion": "corregido",
+    "nota": "Art. 2 c): corredores domiciliados en el Perú o que actúan desde el territorio."
+   },
+   {
+    "especialidad": "jurista",
+    "severidad": "baja",
+    "hallazgo": "Criterios legales para transferencias a extranjeros en el país.",
+    "accion": "corregido",
+    "nota": "Art. 2 b)."
+   },
+   {
+    "especialidad": "normativo",
+    "severidad": "baja",
+    "hallazgo": "Insumos químicos fiscalizados (D.L. 1126).",
+    "accion": "corregido",
+    "nota": "Añadido al art. 3.2 y a normas_relacionadas."
+   },
+   {
+    "especialidad": "normativo",
+    "severidad": "baja",
+    "hallazgo": "TUO de la Ley 27444 sin decreto y fuente secundaria de la Ley 29239.",
+    "accion": "corregido",
+    "nota": "Se cita el D.S. 006-2026-JUS y se reemplaza la fuente de sni.org.pe por el texto oficial."
+   },
+   {
+    "especialidad": "seguridad",
+    "severidad": "baja",
+    "hallazgo": "Publicación académica en ciberseguridad.",
+    "accion": "corregido",
+    "nota": "Nuevo 9.4."
+   }
+  ]
+ },
+ {
+  "id": "CON-15",
+  "eje": "conect",
+  "titulo": "Ley que incorpora el artículo 10-A en la Ley 28749, Ley General de Electrificación Rural, para priorizar el suministro eléctrico confiable de las instituciones educativas, los establecimientos de salud y los nodos de conectividad públicos en zonas rurales y articular la electrificación rural con la conectividad",
+  "titulo_corto": "Energía para la conectividad rural",
+  "sumilla": "Incorpora en la Ley 28749 la priorización, dentro del Plan Nacional de Electrificación Rural, de los locales educativos, establecimientos de salud y nodos de telecomunicaciones públicos sin suministro o con suministro no confiable; incorpora en la misma ley un inventario georreferenciado abierto, con ubicación generalizada de nodos y baterías, elaborado por el MINEM con información de MINEDU, MINSA y MTC; articula las carteras de electrificación rural y de conectividad; y exige que toda solución, incluida la fotovoltaica autónoma, tenga operador, mantenimiento y reposición asegurados, sin crear fondos ni entidades.",
+  "problema": "Las metas de conectividad de escuelas y postas (CON-13), la telesalud (TAL-07) y el currículo digital (TAL-01) fallan donde no hay energía estable. Según el Censo Educativo 2022 del MINEDU (Edudatos 46), de 65 659 locales de educación básica, solo el 82 % tiene conexión de electricidad a la red pública y el 9 % no tiene ningún tipo de conexión eléctrica; entre los locales públicos la conexión a la red llega al 79 %. El MINEM reportó un coeficiente de electrificación rural de 86,6 % a diciembre de 2024. La Ley 28749 ordena un Plan Nacional de Electrificación Rural a diez años centrado en viviendas y usos productivos, pero no prioriza los locales de servicio público ni coordina con los proyectos de banda ancha del MTC: hoy un nodo de PRONATEL, una escuela y una posta de la misma localidad pueden recibir soluciones energéticas separadas, o ninguna. Además, los sistemas fotovoltaicos autónomos instalados sin operador ni fondos de reposición de baterías dejan de funcionar en pocos años; ninguna regla impide entregar instalaciones sin responsable de su operación y mantenimiento.",
+  "objeto": "Incorporar en la Ley 28749 la priorización del suministro eléctrico confiable de los locales educativos, establecimientos de salud y nodos de conectividad públicos en zonas rurales y su articulación con los proyectos de conectividad.",
+  "articulado": [
+   {
+    "n": "Artículo 1",
+    "titulo": "Objeto",
+    "texto": "La presente ley tiene por objeto priorizar, en el marco de la Ley 28749, Ley General de Electrificación Rural, el suministro eléctrico confiable de los locales educativos, establecimientos de salud y nodos de telecomunicaciones públicos ubicados en zonas rurales, localidades aisladas y de frontera, y articular la electrificación rural con los proyectos de conectividad de banda ancha."
+   },
+   {
+    "n": "Artículo 2",
+    "titulo": "Incorporación del artículo 10-A a la Ley 28749",
+    "texto": "Se incorpora el artículo 10-A a la Ley 28749, Ley General de Electrificación Rural, en los siguientes términos:\n\n\"Artículo 10-A. Sitios de servicio público prioritarios\n10-A.1. Son sitios de servicio público prioritarios los locales de instituciones educativas públicas, los establecimientos de salud públicos del primer nivel de atención y los nodos y estaciones de redes de telecomunicaciones financiados con recursos públicos, ubicados en zonas rurales, localidades aisladas y de frontera, que carecen de suministro eléctrico o cuyo suministro no cumple la norma técnica de calidad aplicable.\n10-A.2. El Plan Nacional de Electrificación Rural incorpora un componente específico para atender los sitios de servicio público prioritarios, elaborado con la información del inventario previsto en el numeral 10-A.4, en coordinación con los Ministerios de Educación, de Salud y de Transportes y Comunicaciones. La evaluación técnico-económica de los proyectos considera, como beneficio social, la continuidad de los servicios educativos, de salud y de conectividad atendidos.\n10-A.3. Toda solución de suministro para un sitio de servicio público prioritario, sea por extensión de redes, minirred o sistema fotovoltaico autónomo con almacenamiento, se ejecuta solo si está identificado el responsable de su operación, mantenimiento y reposición de componentes durante su vida útil y la fuente de pago correspondiente, conforme al reglamento.\n10-A.4. El Ministerio de Energía y Minas elabora y actualiza anualmente un inventario georreferenciado de los sitios de servicio público prioritarios, con su condición de suministro eléctrico y de conectividad, con la información del Censo Educativo del Ministerio de Educación, del Registro Nacional de Instituciones Prestadoras de Servicios de Salud y de los proyectos de conectividad del Ministerio de Transportes y Comunicaciones. Usa como identificadores comunes los códigos de local del Censo Educativo y de establecimiento del registro de IPRESS y se integra, sin duplicarlo, con el inventario de conectividad de instituciones educativas y establecimientos de salud que exista. Se publica en formato abierto, conforme al régimen general de datos abiertos y sus excepciones, sin datos personales; la ubicación exacta de los nodos y estaciones de telecomunicaciones y de los sistemas de almacenamiento de energía se publica con coordenadas generalizadas a nivel de centro poblado o distrito, y las coordenadas precisas se comparten solo con las entidades competentes mediante la Plataforma de Interoperabilidad del Estado.\""
+   },
+   {
+    "n": "Artículo 3",
+    "titulo": "Articulación de las carteras de electrificación y conectividad",
+    "texto": "3.1. El Ministerio de Energía y Minas y el Ministerio de Transportes y Comunicaciones, a través de la Dirección General de Electrificación Rural y del Programa Nacional de Telecomunicaciones o los órganos que hagan sus veces, suscriben un convenio de programación conjunta que establece, para cada ejercicio, la relación de localidades en las que coinciden proyectos de electrificación rural y de conectividad, la solución energética común y el cronograma coordinado.\n3.2. Cuando un proyecto de conectividad financiado con recursos públicos requiera energía en una localidad sin suministro, la solución energética del nodo se dimensiona, cuando sea técnicamente viable y exista disponibilidad presupuestal de la entidad que financia el proyecto o en el Plan Nacional de Electrificación Rural, para abastecer también a los sitios de servicio público prioritarios cercanos, conforme a las reglas que establezca el Ministerio de Energía y Minas y sin perjuicio del régimen de la Ley de Concesiones Eléctricas.\n3.3. Las metas de conectividad de las instituciones educativas y establecimientos de salud se rigen por la normativa vigente en la materia; la presente ley regula solo su componente de suministro eléctrico."
+   },
+   {
+    "n": "Artículo 4",
+    "titulo": "Operación, mantenimiento y reposición",
+    "texto": "4.1. Los sistemas de suministro de los sitios de servicio público prioritarios se entregan, preferentemente, a la empresa concesionaria de distribución eléctrica o de electrificación rural de la zona, previa su conformidad técnica, y esta los opera y mantiene con el reconocimiento de los costos de operación, mantenimiento y reposición en la tarifa eléctrica rural para suministros convencionales o no convencionales que fija el Osinergmin conforme al artículo 14 de la Ley 28749, o se ejecutan mediante modalidades contractuales que incluyan la operación, el mantenimiento y la reposición de componentes por su vida útil.\n4.2. El pago del consumo eléctrico de cada sitio corresponde a la entidad a cargo del servicio educativo, de salud o de telecomunicaciones, con cargo a su presupuesto institucional, en las mismas condiciones que los locales conectados a la red.\n4.3. Las entidades públicas no reciben en transferencia instalaciones de suministro eléctrico para sitios de servicio público prioritarios sin acta que identifique al responsable de su operación y mantenimiento."
+   },
+   {
+    "n": "Artículo 5",
+    "titulo": "Estándar técnico",
+    "texto": "El Ministerio de Energía y Minas, a través de la Dirección General de Electricidad, aprueba especificaciones técnicas mínimas para el suministro de los sitios de servicio público prioritarios, que consideren la carga de equipos de cómputo y de telecomunicaciones, la cadena de frío de vacunas en los establecimientos de salud, la autonomía mínima de almacenamiento, la protección frente a descargas atmosféricas y el monitoreo remoto del estado de los sistemas aprovechando la conectividad del sitio. El monitoreo remoto se implementa en una red lógicamente separada de la red de usuarios del sitio, con dispositivos con credenciales únicas, autenticación, comunicación cifrada y actualizaciones de seguridad durante su vida útil, y no permite el control remoto del suministro sin autenticación fuerte."
+   },
+   {
+    "n": "Artículo 6",
+    "titulo": "Monitoreo y supervisión",
+    "texto": "6.1. Los operadores de los sistemas de suministro de los sitios de servicio público prioritarios reportan su disponibilidad mensual al Ministerio de Energía y Minas, que publica los resultados agregados por región.\n6.2. El Organismo Supervisor de la Inversión en Energía y Minería (Osinergmin) supervisa la calidad del suministro de los sitios atendidos por concesionarias conforme a la norma técnica de calidad aplicable a los Sistemas Eléctricos Rurales."
+   },
+   {
+    "n": "Artículo 7",
+    "titulo": "Metas indicativas",
+    "texto": "El Poder Ejecutivo establece, dentro del Plan Nacional de Electrificación Rural y de la programación multianual presupuestaria y de inversiones, metas indicativas de atención de los sitios de servicio público prioritarios, priorizando los incluidos en el cronograma de conectividad de instituciones educativas y establecimientos de salud y las comunidades nativas y zonas de frontera, sujetas a la disponibilidad presupuestal de las entidades involucradas."
+   },
+   {
+    "n": "Artículo 8",
+    "titulo": "Relación con otras normas",
+    "texto": "La resiliencia y el respaldo energético de las redes de los concesionarios de telecomunicaciones ante emergencias se rigen por la normativa vigente en la materia. La presente ley no modifica el destino de los recursos del Fondo de Inversión en Telecomunicaciones ni los aportes previstos en el artículo 7 de la Ley 28749."
+   }
+  ],
+  "disposiciones": [
+   {
+    "tipo": "Complementaria Final",
+    "n": "Primera",
+    "texto": "Reglamentación. El Poder Ejecutivo, mediante decreto supremo refrendado por los Ministros de Energía y Minas, de Transportes y Comunicaciones, de Educación y de Salud, adecúa el Reglamento de la Ley 28749, aprobado por el Decreto Supremo 018-2020-EM, en un plazo de noventa días hábiles contados a partir del día siguiente de la publicación de la presente ley."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Segunda",
+    "texto": "Primer inventario y convenio. El primer inventario a que se refiere el numeral 10-A.4 de la Ley 28749 se publica y el convenio a que se refiere el artículo 3 se suscribe en un plazo de ciento ochenta días hábiles contados a partir del día siguiente de la publicación de la presente ley."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Tercera",
+    "texto": "Informe al Congreso. El Ministerio de Energía y Minas informa anualmente a las comisiones competentes de ambas cámaras del Congreso, incluidas la Comisión de Energía y Minas y la Comisión de Ciencia, Innovación Tecnológica y Sociedad Digital de la Cámara de Diputados, sobre el número de sitios de servicio público prioritarios atendidos, su disponibilidad y los pendientes."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Cuarta",
+    "texto": "Financiamiento. La implementación de la presente ley se financia con cargo al presupuesto institucional de las entidades involucradas y a los recursos para la electrificación rural previstos en el artículo 7 de la Ley 28749, sin demandar recursos adicionales al Tesoro Público."
+   }
+  ],
+  "costo_beneficio": "La ley no crea fondos ni entidades: reordena prioridades dentro del Plan Nacional de Electrificación Rural y de los proyectos de conectividad existentes. El inventario y el convenio tienen un costo bajo (S/ 0,3–0,8 millones anuales en MINEM). La inversión en suministro para sitios prioritarios se financia con los recursos de electrificación rural (el MINEM informó haber concluido en 2024 catorce proyectos de electrificación rural por S/ 183 millones) y se programa como meta indicativa sujeta a disponibilidad presupuestal; requiere coordinación con el Poder Ejecutivo, fuente de financiamiento identificada e informe previo de sostenibilidad fiscal del MEF antes del dictamen. El beneficio es evitar inversiones de conectividad, equipos educativos y cadena de frío que quedan inutilizadas por falta de energía, y reducir el abandono de sistemas fotovoltaicos al exigir operador y reposición desde el diseño.",
+  "efecto_vigencia": "Incorpora el artículo 10-A (numerales 10-A.1 a 10-A.4) en la Ley 28749, Ley General de Electrificación Rural (modificada por el Decreto Legislativo 1207). Concordancia con el artículo 14 de la Ley 28749 (tarifa eléctrica rural), su reglamento (Decreto Supremo 018-2020-EM), que se adecúa, y el Decreto Ley 25844. No modifica la Ley 28900 (FITEL) ni el artículo 7 de la Ley 28749. Antes del dictamen debe verificarse en el SPIJ que el artículo 10-A no haya sido ocupado. No deroga normas.",
+  "normas_relacionadas": [
+   {
+    "norma": "Ley 28749, Ley General de Electrificación Rural",
+    "url": "https://leyes.congreso.gob.pe/Documentos/Leyes/28749.pdf"
+   },
+   {
+    "norma": "Ley 28749 y su Reglamento (Decreto Supremo 018-2020-EM), texto actualizado por Editora Perú",
+    "url": "https://faolex.fao.org/docs/pdf/per64393.pdf"
+   },
+   {
+    "norma": "Decreto Supremo 018-2020-EM, Reglamento de la Ley 28749",
+    "url": "https://busquedas.elperuano.pe/dispositivo/NL/1871077-4"
+   },
+   {
+    "norma": "Ley 28900, Ley que otorga al FITEL la calidad de persona jurídica de derecho público",
+    "url": "https://leyes.congreso.gob.pe/Documentos/Leyes/28900.pdf"
+   }
+  ],
+  "antecedentes": "Por verificar en SPLEY.",
+  "referencias_internacionales": [
+   {
+    "pais": "Multilateral",
+    "norma": "Banco Mundial / ESMAP, Tracking SDG7: The Energy Progress Report (electrificación de escuelas y centros de salud)",
+    "url": "https://trackingsdg7.esmap.org/"
+   },
+   {
+    "pais": "Multilateral",
+    "norma": "OMS, Energizing health: accelerating electricity access in health-care facilities (2023)",
+    "url": "https://www.who.int/publications/i/item/9789240066960"
+   }
+  ],
+  "comision_sugerida": "Energía y Minas",
+  "comision_secundaria": "Ciencia, Innovación Tecnológica y Sociedad Digital",
+  "plan2050": [
+   "energia-electrica",
+   "telecomunicaciones",
+   "desarrollo-rural"
+  ],
+  "ods": [
+   7,
+   4,
+   3,
+   9
+  ],
+  "prioridad": "alta",
+  "costo_fiscal": "medio",
+  "plazo": "mediano",
+  "indicador_exito": "A 2031: inventario georreferenciado abierto publicado y actualizado anualmente; porcentaje de locales educativos públicos sin ningún tipo de conexión eléctrica reducido a menos de la mitad del nivel del Censo Educativo 2022; y disponibilidad mensual reportada de al menos 95 % en los sistemas de sitios prioritarios atendidos.",
+  "tags": [
+   "electrificación rural",
+   "escuelas",
+   "postas",
+   "conectividad",
+   "fotovoltaica"
+  ],
+  "fuentes": [
+   {
+    "titulo": "MINEDU, Edudatos 46: acceso a servicios básicos en locales educativos (Censo Educativo 2022)",
+    "url": "https://escale.minedu.gob.pe/documents/inicio/Analisis/Edudatos/Edudatos%2046-servicios%20basicos.pdf"
+   },
+   {
+    "titulo": "Comunicado del MINEM sobre ejecución 2024 y coeficiente de electrificación rural de 86,6 %, reproducido por Energiminas",
+    "url": "https://energiminas.com/2025/01/06/minem-ejecuto-el-96-5-de-su-presupuesto-en-2024-con-mayor-enfasis-en-electrificacion"
+   },
+   {
+    "titulo": "Ley 28749 y Reglamento, texto actualizado (Editora Perú, en FAOLEX)",
+    "url": "https://faolex.fao.org/docs/pdf/per64393.pdf"
+   }
+  ],
+  "implicados": {
+   "normas_modificadas": [
+    {
+     "norma": "Ley 28749, Ley General de Electrificación Rural",
+     "articulo": "art. 10-A",
+     "accion": "incorpora",
+     "url": "https://leyes.congreso.gob.pe/Documentos/Leyes/28749.pdf"
+    },
+    {
+     "norma": "Decreto Supremo 018-2020-EM, Reglamento de la Ley 28749",
+     "articulo": "adecuación (DCF Primera)",
+     "accion": "complementa",
+     "url": "https://busquedas.elperuano.pe/dispositivo/NL/1871077-4"
+    }
+   ],
+   "entidades": [
+    {
+     "entidad": "Ministerio de Energía y Minas — Dirección General de Electrificación Rural",
+     "sigla": "MINEM-DGER",
+     "sector": "Energía y Minas",
+     "rol": "rectora",
+     "responsabilidad": "Incorpora el componente en el PNER y elabora y publica el inventario (art. 10-A.2 y 10-A.4), suscribe el convenio (art. 3), aprueba especificaciones (art. 5), publica disponibilidad (art. 6) e informa al Congreso (DCF Tercera)."
+    },
+    {
+     "entidad": "Ministerio de Transportes y Comunicaciones — PRONATEL",
+     "sigla": "MTC",
+     "sector": "Transportes y Comunicaciones",
+     "rol": "ejecutora",
+     "responsabilidad": "Aporta información de proyectos, suscribe el convenio y dimensiona la energía de nodos para sitios cercanos cuando haya disponibilidad presupuestal (art. 10-A.4 y art. 3)."
+    },
+    {
+     "entidad": "Ministerio de Educación",
+     "sigla": "MINEDU",
+     "sector": "Educación",
+     "rol": "consultiva",
+     "responsabilidad": "Aporta el Censo Educativo (art. 3) y paga el consumo de sus locales (art. 5.2)."
+    },
+    {
+     "entidad": "Ministerio de Salud",
+     "sigla": "MINSA",
+     "sector": "Salud",
+     "rol": "consultiva",
+     "responsabilidad": "Aporta información de establecimientos (art. 3) y paga el consumo (art. 5.2)."
+    },
+    {
+     "entidad": "Organismo Supervisor de la Inversión en Energía y Minería",
+     "sigla": "Osinergmin",
+     "sector": "PCM",
+     "rol": "supervisora",
+     "responsabilidad": "Reconoce los costos de operación, mantenimiento y reposición en la tarifa rural (art. 4.1) y supervisa la calidad del suministro (art. 6.2)."
+    },
+    {
+     "entidad": "Empresas de distribución eléctrica bajo el ámbito de FONAFE y ADINELSA",
+     "sigla": "—",
+     "sector": "FONAFE",
+     "rol": "ejecutora",
+     "responsabilidad": "Operan y mantienen los sistemas entregados (art. 5.1)."
+    }
+   ],
+   "sujetos_obligados": "MINEM, MTC, MINEDU y MINSA; operadores de sistemas de suministro de sitios prioritarios (concesionarias o contratistas con O&M).",
+   "beneficiarios": "Estudiantes, docentes y pacientes de zonas rurales; según el Censo Educativo 2022, alrededor del 9 % de 65 659 locales de educación básica no tenía ningún tipo de conexión eléctrica."
+  },
+  "impacto": {
+   "tipo": "inversion",
+   "costo_estado": {
+    "rango": "S/ 0,3–0,8 millones/año (coordinación); inversión no cuantificable con información pública",
+    "horizonte": "2027-2031",
+    "supuestos": "Estimación del redactor: equipo de 3–6 especialistas y sistemas para el inventario y la programación conjunta (S/ 0,3–0,8 millones/año). La inversión depende del número de sitios sin suministro y de la solución técnica; no hay base pública consolidada para escuelas, postas y nodos, y se programa con los recursos existentes de electrificación rural.",
+    "financiamiento": "Recursos para la electrificación rural del artículo 7 de la Ley 28749 y presupuestos institucionales de MINEM, MTC, MINEDU y MINSA, sin demandar recursos adicionales al Tesoro Público y sujeto a disponibilidad presupuestal; requiere coordinación con el Poder Ejecutivo, fuente de financiamiento identificada e informe previo de sostenibilidad fiscal del MEF antes del dictamen (art. 79 de la Constitución)."
+   },
+   "beneficio_estado": "Mayor rendimiento de inversiones ya realizadas en conectividad, equipamiento educativo y cadena de frío; menor abandono de sistemas fotovoltaicos. No cuantificable con información pública.",
+   "beneficio_sociedad": "Continuidad de clases con recursos digitales, telesalud y conservación de vacunas en zonas rurales. No cuantificable con información pública.",
+   "inversion_privada": "Posible participación de concesionarias y contratistas en esquemas con operación y mantenimiento; no se estima.",
+   "costo_privado": "No aplica como obligación nueva; los operadores se remuneran con la tarifa rural o el contrato.",
+   "riesgos": "Desplazar la electrificación de viviendas si no hay recursos adicionales; capacidad limitada de las concesionarias para atender sitios dispersos; falta de presupuesto de las entidades usuarias para pagar el consumo; fallas de coordinación interministerial.",
+   "confianza": "baja"
+  },
+  "revision_atendida": [
+   {
+    "especialidad": "jurista",
+    "severidad": "media",
+    "hallazgo": "Remisión circular del art. 10-A.2 a la propia ley modificatoria.",
+    "accion": "corregido",
+    "nota": "El inventario se incorpora como numeral 10-A.4 de la Ley 28749 y el 10-A.2 remite a él; se suprimió el artículo autónomo y se renumeró."
+   },
+   {
+    "especialidad": "tecnologico",
+    "severidad": "media",
+    "hallazgo": "Remisión a una ley inexistente en el art. 10-A.2.",
+    "accion": "corregido",
+    "nota": "Mismo cambio (numeral 10-A.4)."
+   },
+   {
+    "especialidad": "seguridad",
+    "severidad": "media",
+    "hallazgo": "Publicar la ubicación de nodos y baterías no ACN facilita robos y afecta el orden interno.",
+    "accion": "corregido",
+    "nota": "10-A.4: coordenadas generalizadas a nivel de centro poblado o distrito; las precisas solo por la Plataforma de Interoperabilidad."
+   },
+   {
+    "especialidad": "constitucional",
+    "severidad": "baja",
+    "hallazgo": "Dimensionar la energía del nodo implica gasto adicional.",
+    "accion": "corregido",
+    "nota": "Art. 3.2 condicionado a la disponibilidad presupuestal."
+   },
+   {
+    "especialidad": "jurista",
+    "severidad": "baja",
+    "hallazgo": "Entrega de activos sin conformidad ni reconocimiento tarifario.",
+    "accion": "corregido",
+    "nota": "Art. 4.1: conformidad técnica de la concesionaria y reconocimiento de costos en la tarifa rural por el Osinergmin."
+   },
+   {
+    "especialidad": "jurista",
+    "severidad": "baja",
+    "hallazgo": "Remisiones a 'la ley de la materia'.",
+    "accion": "corregido",
+    "nota": "Arts. 3.3 y 8 remiten a la normativa vigente en la materia."
+   },
+   {
+    "especialidad": "normativo",
+    "severidad": "baja",
+    "hallazgo": "Remisión al inventario de una ley indeterminada.",
+    "accion": "corregido",
+    "nota": "Numeral 10-A.4."
+   },
+   {
+    "especialidad": "normativo",
+    "severidad": "baja",
+    "hallazgo": "Coeficiente de electrificación enlazado a un medio secundario.",
+    "accion": "parcial",
+    "nota": "No se halló el comunicado original en gob.pe; se rotula como reproducción del comunicado del MINEM."
+   },
+   {
+    "especialidad": "seguridad",
+    "severidad": "baja",
+    "hallazgo": "Monitoreo remoto con credenciales por defecto.",
+    "accion": "corregido",
+    "nota": "Art. 5: credenciales únicas, cifrado, actualizaciones y autenticación fuerte para el control remoto."
+   },
+   {
+    "especialidad": "tecnologico",
+    "severidad": "baja",
+    "hallazgo": "Inventario duplicado con el de conectividad.",
+    "accion": "corregido",
+    "nota": "10-A.4: identificadores comunes (códigos de local y de IPRESS) e integración sin duplicar."
+   },
+   {
+    "especialidad": "tecnologico",
+    "severidad": "baja",
+    "hallazgo": "Monitoreo remoto en la misma red de usuarios.",
+    "accion": "corregido",
+    "nota": "Art. 5: red lógicamente separada."
+   }
+  ]
+ }
+]

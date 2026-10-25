@@ -325,6 +325,7 @@ section.block.first{border-top:0;padding-top:28px}
 .tesis p{white-space:pre-line}
 .vacio{border-left:3px solid var(--accent);background:var(--surface);border-radius:8px;padding:10px 14px;margin-bottom:8px}
 .vacio p{margin:4px 0;font-size:14px}
+.vacio.hecho{border-left-color:#16a34a}.vacio-ok{display:inline-block;margin-bottom:4px;background:#dcfce7;color:#166534;text-decoration:none;font-weight:600}
 /* ciudadanía */
 .cta-card{display:grid;grid-template-columns:1.4fr 1fr;gap:20px;align-items:start;background:var(--surface);border:1px solid var(--border);border-radius:18px;padding:20px;box-shadow:var(--shadow)}
 .cta-card h2{margin-top:0}

@@ -5493,5 +5493,305 @@
         "nota": "Texto del revisor normativo."
       }
     ]
+  },
+  {
+    "id": "CON-15",
+    "eje": "conect",
+    "titulo": "Ley que incorpora el artículo 10-A en la Ley 28749, Ley General de Electrificación Rural, para priorizar el suministro eléctrico confiable de las instituciones educativas, los establecimientos de salud y los nodos de conectividad públicos en zonas rurales y articular la electrificación rural con la conectividad",
+    "titulo_corto": "Energía para la conectividad rural",
+    "sumilla": "Incorpora en la Ley 28749 la priorización, dentro del Plan Nacional de Electrificación Rural, de los locales educativos, establecimientos de salud y nodos de telecomunicaciones públicos sin suministro o con suministro no confiable; incorpora en la misma ley un inventario georreferenciado abierto, con ubicación generalizada de nodos y baterías, elaborado por el MINEM con información de MINEDU, MINSA y MTC; articula las carteras de electrificación rural y de conectividad; y exige que toda solución, incluida la fotovoltaica autónoma, tenga operador, mantenimiento y reposición asegurados, sin crear fondos ni entidades.",
+    "problema": "Las metas de conectividad de escuelas y postas (CON-13), la telesalud (TAL-07) y el currículo digital (TAL-01) fallan donde no hay energía estable. Según el Censo Educativo 2022 del MINEDU (Edudatos 46), de 65 659 locales de educación básica, solo el 82 % tiene conexión de electricidad a la red pública y el 9 % no tiene ningún tipo de conexión eléctrica; entre los locales públicos la conexión a la red llega al 79 %. El MINEM reportó un coeficiente de electrificación rural de 86,6 % a diciembre de 2024. La Ley 28749 ordena un Plan Nacional de Electrificación Rural a diez años centrado en viviendas y usos productivos, pero no prioriza los locales de servicio público ni coordina con los proyectos de banda ancha del MTC: hoy un nodo de PRONATEL, una escuela y una posta de la misma localidad pueden recibir soluciones energéticas separadas, o ninguna. Además, los sistemas fotovoltaicos autónomos instalados sin operador ni fondos de reposición de baterías dejan de funcionar en pocos años; ninguna regla impide entregar instalaciones sin responsable de su operación y mantenimiento.",
+    "objeto": "Incorporar en la Ley 28749 la priorización del suministro eléctrico confiable de los locales educativos, establecimientos de salud y nodos de conectividad públicos en zonas rurales y su articulación con los proyectos de conectividad.",
+    "articulado": [
+      {
+        "n": "Artículo 1",
+        "titulo": "Objeto",
+        "texto": "La presente ley tiene por objeto priorizar, en el marco de la Ley 28749, Ley General de Electrificación Rural, el suministro eléctrico confiable de los locales educativos, establecimientos de salud y nodos de telecomunicaciones públicos ubicados en zonas rurales, localidades aisladas y de frontera, y articular la electrificación rural con los proyectos de conectividad de banda ancha."
+      },
+      {
+        "n": "Artículo 2",
+        "titulo": "Incorporación del artículo 10-A a la Ley 28749",
+        "texto": "Se incorpora el artículo 10-A a la Ley 28749, Ley General de Electrificación Rural, en los siguientes términos:\n\n\"Artículo 10-A. Sitios de servicio público prioritarios\n10-A.1. Son sitios de servicio público prioritarios los locales de instituciones educativas públicas, los establecimientos de salud públicos del primer nivel de atención y los nodos y estaciones de redes de telecomunicaciones financiados con recursos públicos, ubicados en zonas rurales, localidades aisladas y de frontera, que carecen de suministro eléctrico o cuyo suministro no cumple la norma técnica de calidad aplicable.\n10-A.2. El Plan Nacional de Electrificación Rural incorpora un componente específico para atender los sitios de servicio público prioritarios, elaborado con la información del inventario previsto en el numeral 10-A.4, en coordinación con los Ministerios de Educación, de Salud y de Transportes y Comunicaciones. La evaluación técnico-económica de los proyectos considera, como beneficio social, la continuidad de los servicios educativos, de salud y de conectividad atendidos.\n10-A.3. Toda solución de suministro para un sitio de servicio público prioritario, sea por extensión de redes, minirred o sistema fotovoltaico autónomo con almacenamiento, se ejecuta solo si está identificado el responsable de su operación, mantenimiento y reposición de componentes durante su vida útil y la fuente de pago correspondiente, conforme al reglamento.\n10-A.4. El Ministerio de Energía y Minas elabora y actualiza anualmente un inventario georreferenciado de los sitios de servicio público prioritarios, con su condición de suministro eléctrico y de conectividad, con la información del Censo Educativo del Ministerio de Educación, del Registro Nacional de Instituciones Prestadoras de Servicios de Salud y de los proyectos de conectividad del Ministerio de Transportes y Comunicaciones. Usa como identificadores comunes los códigos de local del Censo Educativo y de establecimiento del registro de IPRESS y se integra, sin duplicarlo, con el inventario de conectividad de instituciones educativas y establecimientos de salud que exista. Se publica en formato abierto, conforme al régimen general de datos abiertos y sus excepciones, sin datos personales; la ubicación exacta de los nodos y estaciones de telecomunicaciones y de los sistemas de almacenamiento de energía se publica con coordenadas generalizadas a nivel de centro poblado o distrito, y las coordenadas precisas se comparten solo con las entidades competentes mediante la Plataforma de Interoperabilidad del Estado.\""
+      },
+      {
+        "n": "Artículo 3",
+        "titulo": "Articulación de las carteras de electrificación y conectividad",
+        "texto": "3.1. El Ministerio de Energía y Minas y el Ministerio de Transportes y Comunicaciones, a través de la Dirección General de Electrificación Rural y del Programa Nacional de Telecomunicaciones o los órganos que hagan sus veces, suscriben un convenio de programación conjunta que establece, para cada ejercicio, la relación de localidades en las que coinciden proyectos de electrificación rural y de conectividad, la solución energética común y el cronograma coordinado.\n3.2. Cuando un proyecto de conectividad financiado con recursos públicos requiera energía en una localidad sin suministro, la solución energética del nodo se dimensiona, cuando sea técnicamente viable y exista disponibilidad presupuestal de la entidad que financia el proyecto o en el Plan Nacional de Electrificación Rural, para abastecer también a los sitios de servicio público prioritarios cercanos, conforme a las reglas que establezca el Ministerio de Energía y Minas y sin perjuicio del régimen de la Ley de Concesiones Eléctricas.\n3.3. Las metas de conectividad de las instituciones educativas y establecimientos de salud se rigen por la normativa vigente en la materia; la presente ley regula solo su componente de suministro eléctrico."
+      },
+      {
+        "n": "Artículo 4",
+        "titulo": "Operación, mantenimiento y reposición",
+        "texto": "4.1. Los sistemas de suministro de los sitios de servicio público prioritarios se entregan, preferentemente, a la empresa concesionaria de distribución eléctrica o de electrificación rural de la zona, previa su conformidad técnica, y esta los opera y mantiene con el reconocimiento de los costos de operación, mantenimiento y reposición en la tarifa eléctrica rural para suministros convencionales o no convencionales que fija el Osinergmin conforme al artículo 14 de la Ley 28749, o se ejecutan mediante modalidades contractuales que incluyan la operación, el mantenimiento y la reposición de componentes por su vida útil.\n4.2. El pago del consumo eléctrico de cada sitio corresponde a la entidad a cargo del servicio educativo, de salud o de telecomunicaciones, con cargo a su presupuesto institucional, en las mismas condiciones que los locales conectados a la red.\n4.3. Las entidades públicas no reciben en transferencia instalaciones de suministro eléctrico para sitios de servicio público prioritarios sin acta que identifique al responsable de su operación y mantenimiento."
+      },
+      {
+        "n": "Artículo 5",
+        "titulo": "Estándar técnico",
+        "texto": "El Ministerio de Energía y Minas, a través de la Dirección General de Electricidad, aprueba especificaciones técnicas mínimas para el suministro de los sitios de servicio público prioritarios, que consideren la carga de equipos de cómputo y de telecomunicaciones, la cadena de frío de vacunas en los establecimientos de salud, la autonomía mínima de almacenamiento, la protección frente a descargas atmosféricas y el monitoreo remoto del estado de los sistemas aprovechando la conectividad del sitio. El monitoreo remoto se implementa en una red lógicamente separada de la red de usuarios del sitio, con dispositivos con credenciales únicas, autenticación, comunicación cifrada y actualizaciones de seguridad durante su vida útil, y no permite el control remoto del suministro sin autenticación fuerte."
+      },
+      {
+        "n": "Artículo 6",
+        "titulo": "Monitoreo y supervisión",
+        "texto": "6.1. Los operadores de los sistemas de suministro de los sitios de servicio público prioritarios reportan su disponibilidad mensual al Ministerio de Energía y Minas, que publica los resultados agregados por región.\n6.2. El Organismo Supervisor de la Inversión en Energía y Minería (Osinergmin) supervisa la calidad del suministro de los sitios atendidos por concesionarias conforme a la norma técnica de calidad aplicable a los Sistemas Eléctricos Rurales."
+      },
+      {
+        "n": "Artículo 7",
+        "titulo": "Metas indicativas",
+        "texto": "El Poder Ejecutivo establece, dentro del Plan Nacional de Electrificación Rural y de la programación multianual presupuestaria y de inversiones, metas indicativas de atención de los sitios de servicio público prioritarios, priorizando los incluidos en el cronograma de conectividad de instituciones educativas y establecimientos de salud y las comunidades nativas y zonas de frontera, sujetas a la disponibilidad presupuestal de las entidades involucradas."
+      },
+      {
+        "n": "Artículo 8",
+        "titulo": "Relación con otras normas",
+        "texto": "La resiliencia y el respaldo energético de las redes de los concesionarios de telecomunicaciones ante emergencias se rigen por la normativa vigente en la materia. La presente ley no modifica el destino de los recursos del Fondo de Inversión en Telecomunicaciones ni los aportes previstos en el artículo 7 de la Ley 28749."
+      }
+    ],
+    "disposiciones": [
+      {
+        "tipo": "Complementaria Final",
+        "n": "Primera",
+        "texto": "Reglamentación. El Poder Ejecutivo, mediante decreto supremo refrendado por los Ministros de Energía y Minas, de Transportes y Comunicaciones, de Educación y de Salud, adecúa el Reglamento de la Ley 28749, aprobado por el Decreto Supremo 018-2020-EM, en un plazo de noventa días hábiles contados a partir del día siguiente de la publicación de la presente ley."
+      },
+      {
+        "tipo": "Complementaria Final",
+        "n": "Segunda",
+        "texto": "Primer inventario y convenio. El primer inventario a que se refiere el numeral 10-A.4 de la Ley 28749 se publica y el convenio a que se refiere el artículo 3 se suscribe en un plazo de ciento ochenta días hábiles contados a partir del día siguiente de la publicación de la presente ley."
+      },
+      {
+        "tipo": "Complementaria Final",
+        "n": "Tercera",
+        "texto": "Informe al Congreso. El Ministerio de Energía y Minas informa anualmente a las comisiones competentes de ambas cámaras del Congreso, incluidas la Comisión de Energía y Minas y la Comisión de Ciencia, Innovación Tecnológica y Sociedad Digital de la Cámara de Diputados, sobre el número de sitios de servicio público prioritarios atendidos, su disponibilidad y los pendientes."
+      },
+      {
+        "tipo": "Complementaria Final",
+        "n": "Cuarta",
+        "texto": "Financiamiento. La implementación de la presente ley se financia con cargo al presupuesto institucional de las entidades involucradas y a los recursos para la electrificación rural previstos en el artículo 7 de la Ley 28749, sin demandar recursos adicionales al Tesoro Público."
+      }
+    ],
+    "costo_beneficio": "La ley no crea fondos ni entidades: reordena prioridades dentro del Plan Nacional de Electrificación Rural y de los proyectos de conectividad existentes. El inventario y el convenio tienen un costo bajo (S/ 0,3–0,8 millones anuales en MINEM). La inversión en suministro para sitios prioritarios se financia con los recursos de electrificación rural (el MINEM informó haber concluido en 2024 catorce proyectos de electrificación rural por S/ 183 millones) y se programa como meta indicativa sujeta a disponibilidad presupuestal; requiere coordinación con el Poder Ejecutivo, fuente de financiamiento identificada e informe previo de sostenibilidad fiscal del MEF antes del dictamen. El beneficio es evitar inversiones de conectividad, equipos educativos y cadena de frío que quedan inutilizadas por falta de energía, y reducir el abandono de sistemas fotovoltaicos al exigir operador y reposición desde el diseño.",
+    "efecto_vigencia": "Incorpora el artículo 10-A (numerales 10-A.1 a 10-A.4) en la Ley 28749, Ley General de Electrificación Rural (modificada por el Decreto Legislativo 1207). Concordancia con el artículo 14 de la Ley 28749 (tarifa eléctrica rural), su reglamento (Decreto Supremo 018-2020-EM), que se adecúa, y el Decreto Ley 25844. No modifica la Ley 28900 (FITEL) ni el artículo 7 de la Ley 28749. Antes del dictamen debe verificarse en el SPIJ que el artículo 10-A no haya sido ocupado. No deroga normas.",
+    "normas_relacionadas": [
+      {
+        "norma": "Ley 28749, Ley General de Electrificación Rural",
+        "url": "https://leyes.congreso.gob.pe/Documentos/Leyes/28749.pdf"
+      },
+      {
+        "norma": "Ley 28749 y su Reglamento (Decreto Supremo 018-2020-EM), texto actualizado por Editora Perú",
+        "url": "https://faolex.fao.org/docs/pdf/per64393.pdf"
+      },
+      {
+        "norma": "Decreto Supremo 018-2020-EM, Reglamento de la Ley 28749",
+        "url": "https://busquedas.elperuano.pe/dispositivo/NL/1871077-4"
+      },
+      {
+        "norma": "Ley 28900, Ley que otorga al FITEL la calidad de persona jurídica de derecho público",
+        "url": "https://leyes.congreso.gob.pe/Documentos/Leyes/28900.pdf"
+      }
+    ],
+    "antecedentes": "Por verificar en SPLEY.",
+    "referencias_internacionales": [
+      {
+        "pais": "Multilateral",
+        "norma": "Banco Mundial / ESMAP, Tracking SDG7: The Energy Progress Report (electrificación de escuelas y centros de salud)",
+        "url": "https://trackingsdg7.esmap.org/"
+      },
+      {
+        "pais": "Multilateral",
+        "norma": "OMS, Energizing health: accelerating electricity access in health-care facilities (2023)",
+        "url": "https://www.who.int/publications/i/item/9789240066960"
+      }
+    ],
+    "comision_sugerida": "Energía y Minas",
+    "comision_secundaria": "Ciencia, Innovación Tecnológica y Sociedad Digital",
+    "plan2050": [
+      "energia-electrica",
+      "telecomunicaciones",
+      "desarrollo-rural"
+    ],
+    "ods": [
+      7,
+      4,
+      3,
+      9
+    ],
+    "prioridad": "alta",
+    "costo_fiscal": "medio",
+    "plazo": "mediano",
+    "indicador_exito": "A 2031: inventario georreferenciado abierto publicado y actualizado anualmente; porcentaje de locales educativos públicos sin ningún tipo de conexión eléctrica reducido a menos de la mitad del nivel del Censo Educativo 2022; y disponibilidad mensual reportada de al menos 95 % en los sistemas de sitios prioritarios atendidos.",
+    "tags": [
+      "electrificación rural",
+      "escuelas",
+      "postas",
+      "conectividad",
+      "fotovoltaica"
+    ],
+    "fuentes": [
+      {
+        "titulo": "MINEDU, Edudatos 46: acceso a servicios básicos en locales educativos (Censo Educativo 2022)",
+        "url": "https://escale.minedu.gob.pe/documents/inicio/Analisis/Edudatos/Edudatos%2046-servicios%20basicos.pdf"
+      },
+      {
+        "titulo": "Comunicado del MINEM sobre ejecución 2024 y coeficiente de electrificación rural de 86,6 %, reproducido por Energiminas",
+        "url": "https://energiminas.com/2025/01/06/minem-ejecuto-el-96-5-de-su-presupuesto-en-2024-con-mayor-enfasis-en-electrificacion"
+      },
+      {
+        "titulo": "Ley 28749 y Reglamento, texto actualizado (Editora Perú, en FAOLEX)",
+        "url": "https://faolex.fao.org/docs/pdf/per64393.pdf"
+      }
+    ],
+    "implicados": {
+      "normas_modificadas": [
+        {
+          "norma": "Ley 28749, Ley General de Electrificación Rural",
+          "articulo": "art. 10-A",
+          "accion": "incorpora",
+          "url": "https://leyes.congreso.gob.pe/Documentos/Leyes/28749.pdf"
+        },
+        {
+          "norma": "Decreto Supremo 018-2020-EM, Reglamento de la Ley 28749",
+          "articulo": "adecuación (DCF Primera)",
+          "accion": "complementa",
+          "url": "https://busquedas.elperuano.pe/dispositivo/NL/1871077-4"
+        }
+      ],
+      "entidades": [
+        {
+          "entidad": "Ministerio de Energía y Minas — Dirección General de Electrificación Rural",
+          "sigla": "MINEM-DGER",
+          "sector": "Energía y Minas",
+          "rol": "rectora",
+          "responsabilidad": "Incorpora el componente en el PNER y elabora y publica el inventario (art. 10-A.2 y 10-A.4), suscribe el convenio (art. 3), aprueba especificaciones (art. 5), publica disponibilidad (art. 6) e informa al Congreso (DCF Tercera)."
+        },
+        {
+          "entidad": "Ministerio de Transportes y Comunicaciones — PRONATEL",
+          "sigla": "MTC",
+          "sector": "Transportes y Comunicaciones",
+          "rol": "ejecutora",
+          "responsabilidad": "Aporta información de proyectos, suscribe el convenio y dimensiona la energía de nodos para sitios cercanos cuando haya disponibilidad presupuestal (art. 10-A.4 y art. 3)."
+        },
+        {
+          "entidad": "Ministerio de Educación",
+          "sigla": "MINEDU",
+          "sector": "Educación",
+          "rol": "consultiva",
+          "responsabilidad": "Aporta el Censo Educativo (art. 3) y paga el consumo de sus locales (art. 5.2)."
+        },
+        {
+          "entidad": "Ministerio de Salud",
+          "sigla": "MINSA",
+          "sector": "Salud",
+          "rol": "consultiva",
+          "responsabilidad": "Aporta información de establecimientos (art. 3) y paga el consumo (art. 5.2)."
+        },
+        {
+          "entidad": "Organismo Supervisor de la Inversión en Energía y Minería",
+          "sigla": "Osinergmin",
+          "sector": "PCM",
+          "rol": "supervisora",
+          "responsabilidad": "Reconoce los costos de operación, mantenimiento y reposición en la tarifa rural (art. 4.1) y supervisa la calidad del suministro (art. 6.2)."
+        },
+        {
+          "entidad": "Empresas de distribución eléctrica bajo el ámbito de FONAFE y ADINELSA",
+          "sigla": "—",
+          "sector": "FONAFE",
+          "rol": "ejecutora",
+          "responsabilidad": "Operan y mantienen los sistemas entregados (art. 5.1)."
+        }
+      ],
+      "sujetos_obligados": "MINEM, MTC, MINEDU y MINSA; operadores de sistemas de suministro de sitios prioritarios (concesionarias o contratistas con O&M).",
+      "beneficiarios": "Estudiantes, docentes y pacientes de zonas rurales; según el Censo Educativo 2022, alrededor del 9 % de 65 659 locales de educación básica no tenía ningún tipo de conexión eléctrica."
+    },
+    "impacto": {
+      "tipo": "inversion",
+      "costo_estado": {
+        "rango": "S/ 0,3–0,8 millones/año (coordinación); inversión no cuantificable con información pública",
+        "horizonte": "2027-2031",
+        "supuestos": "Estimación del redactor: equipo de 3–6 especialistas y sistemas para el inventario y la programación conjunta (S/ 0,3–0,8 millones/año). La inversión depende del número de sitios sin suministro y de la solución técnica; no hay base pública consolidada para escuelas, postas y nodos, y se programa con los recursos existentes de electrificación rural.",
+        "financiamiento": "Recursos para la electrificación rural del artículo 7 de la Ley 28749 y presupuestos institucionales de MINEM, MTC, MINEDU y MINSA, sin demandar recursos adicionales al Tesoro Público y sujeto a disponibilidad presupuestal; requiere coordinación con el Poder Ejecutivo, fuente de financiamiento identificada e informe previo de sostenibilidad fiscal del MEF antes del dictamen (art. 79 de la Constitución)."
+      },
+      "beneficio_estado": "Mayor rendimiento de inversiones ya realizadas en conectividad, equipamiento educativo y cadena de frío; menor abandono de sistemas fotovoltaicos. No cuantificable con información pública.",
+      "beneficio_sociedad": "Continuidad de clases con recursos digitales, telesalud y conservación de vacunas en zonas rurales. No cuantificable con información pública.",
+      "inversion_privada": "Posible participación de concesionarias y contratistas en esquemas con operación y mantenimiento; no se estima.",
+      "costo_privado": "No aplica como obligación nueva; los operadores se remuneran con la tarifa rural o el contrato.",
+      "riesgos": "Desplazar la electrificación de viviendas si no hay recursos adicionales; capacidad limitada de las concesionarias para atender sitios dispersos; falta de presupuesto de las entidades usuarias para pagar el consumo; fallas de coordinación interministerial.",
+      "confianza": "baja"
+    },
+    "revision_atendida": [
+      {
+        "especialidad": "jurista",
+        "severidad": "media",
+        "hallazgo": "Remisión circular del art. 10-A.2 a la propia ley modificatoria.",
+        "accion": "corregido",
+        "nota": "El inventario se incorpora como numeral 10-A.4 de la Ley 28749 y el 10-A.2 remite a él; se suprimió el artículo autónomo y se renumeró."
+      },
+      {
+        "especialidad": "tecnologico",
+        "severidad": "media",
+        "hallazgo": "Remisión a una ley inexistente en el art. 10-A.2.",
+        "accion": "corregido",
+        "nota": "Mismo cambio (numeral 10-A.4)."
+      },
+      {
+        "especialidad": "seguridad",
+        "severidad": "media",
+        "hallazgo": "Publicar la ubicación de nodos y baterías no ACN facilita robos y afecta el orden interno.",
+        "accion": "corregido",
+        "nota": "10-A.4: coordenadas generalizadas a nivel de centro poblado o distrito; las precisas solo por la Plataforma de Interoperabilidad."
+      },
+      {
+        "especialidad": "constitucional",
+        "severidad": "baja",
+        "hallazgo": "Dimensionar la energía del nodo implica gasto adicional.",
+        "accion": "corregido",
+        "nota": "Art. 3.2 condicionado a la disponibilidad presupuestal."
+      },
+      {
+        "especialidad": "jurista",
+        "severidad": "baja",
+        "hallazgo": "Entrega de activos sin conformidad ni reconocimiento tarifario.",
+        "accion": "corregido",
+        "nota": "Art. 4.1: conformidad técnica de la concesionaria y reconocimiento de costos en la tarifa rural por el Osinergmin."
+      },
+      {
+        "especialidad": "jurista",
+        "severidad": "baja",
+        "hallazgo": "Remisiones a 'la ley de la materia'.",
+        "accion": "corregido",
+        "nota": "Arts. 3.3 y 8 remiten a la normativa vigente en la materia."
+      },
+      {
+        "especialidad": "normativo",
+        "severidad": "baja",
+        "hallazgo": "Remisión al inventario de una ley indeterminada.",
+        "accion": "corregido",
+        "nota": "Numeral 10-A.4."
+      },
+      {
+        "especialidad": "normativo",
+        "severidad": "baja",
+        "hallazgo": "Coeficiente de electrificación enlazado a un medio secundario.",
+        "accion": "parcial",
+        "nota": "No se halló el comunicado original en gob.pe; se rotula como reproducción del comunicado del MINEM."
+      },
+      {
+        "especialidad": "seguridad",
+        "severidad": "baja",
+        "hallazgo": "Monitoreo remoto con credenciales por defecto.",
+        "accion": "corregido",
+        "nota": "Art. 5: credenciales únicas, cifrado, actualizaciones y autenticación fuerte para el control remoto."
+      },
+      {
+        "especialidad": "tecnologico",
+        "severidad": "baja",
+        "hallazgo": "Inventario duplicado con el de conectividad.",
+        "accion": "corregido",
+        "nota": "10-A.4: identificadores comunes (códigos de local y de IPRESS) e integración sin duplicar."
+      },
+      {
+        "especialidad": "tecnologico",
+        "severidad": "baja",
+        "hallazgo": "Monitoreo remoto en la misma red de usuarios.",
+        "accion": "corregido",
+        "nota": "Art. 5: red lógicamente separada."
+      }
+    ]
   }
 ]

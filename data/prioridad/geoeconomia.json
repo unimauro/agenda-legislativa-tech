@@ -1560,6 +1560,443 @@
    "justificacion": "Participación ciudadana digital; doméstico.",
    "habilita": [],
    "requiere": []
+  },
+  {
+   "id": "SOB-09",
+   "criterios": {
+    "ied": 5,
+    "cadenas": 5,
+    "estandares": 3,
+    "seguridad": 3,
+    "hub": 4
+   },
+   "score": 83,
+   "justificacion": "Energía renovable firme contratable por bloques es lo que piden los hiperescaladores y las refinerías antes de elegir país; con garantías de origen compite con Chile como nodo del Pacífico.",
+   "habilita": [
+    "CON-10",
+    "IA-05",
+    "SOB-01"
+   ],
+   "requiere": []
+  },
+  {
+   "id": "SOB-10",
+   "criterios": {
+    "ied": 2,
+    "cadenas": 3,
+    "estandares": 4,
+    "seguridad": 3,
+    "hub": 1
+   },
+   "score": 53,
+   "justificacion": "Medición pública del agua se alinea con los Principios de Gobernanza del Agua de la OCDE y con la debida diligencia ESG que exigen compradores de cobre y agroexportaciones.",
+   "habilita": [],
+   "requiere": [
+    "IA-04"
+   ]
+  },
+  {
+   "id": "SOB-11",
+   "criterios": {
+    "ied": 2,
+    "cadenas": 3,
+    "estandares": 4,
+    "seguridad": 3,
+    "hub": 1
+   },
+   "score": 53,
+   "justificacion": "Alinea con el Protocolo de Nagoya y el Marco Kunming-Montreal y protege la soberanía sobre recursos genéticos frente a la biopiratería; poca IED directa.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "SOB-12",
+   "criterios": {
+    "ied": 3,
+    "cadenas": 3,
+    "estandares": 5,
+    "seguridad": 5,
+    "hub": 3
+   },
+   "score": 74,
+   "justificacion": "Filtro de inversiones no discriminatorio conforme a la Recomendación OCDE de 2009, como el que tienen casi todos los miembros; da garantías a socios de seguridad sin cerrar el país a ningún origen.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "SOB-13",
+   "criterios": {
+    "ied": 3,
+    "cadenas": 4,
+    "estandares": 5,
+    "seguridad": 5,
+    "hub": 3
+   },
+   "score": 79,
+   "justificacion": "Alinea al Perú con la Resolución 1540 y con los regímenes multilaterales, condición para integrarse a cadenas de semiconductores y tecnologías sensibles como proveedor confiable.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "CON-15",
+   "criterios": {
+    "ied": 1,
+    "cadenas": 1,
+    "estandares": 2,
+    "seguridad": 2,
+    "hub": 1
+   },
+   "score": 27,
+   "justificacion": "Política doméstica de brecha; aporte geoeconómico marginal.",
+   "habilita": [
+    "CON-13",
+    "TAL-07"
+   ],
+   "requiere": [
+    "CON-02"
+   ]
+  },
+  {
+   "id": "ECO-15",
+   "criterios": {
+    "ied": 1,
+    "cadenas": 1,
+    "estandares": 3,
+    "seguridad": 1,
+    "hub": 1
+   },
+   "score": 28,
+   "justificacion": "Simplificación alineada con recomendaciones OCDE sobre regímenes especiales, sin efecto en IED ni cadenas.",
+   "habilita": [],
+   "requiere": [
+    "ECO-14"
+   ]
+  },
+  {
+   "id": "ECO-16",
+   "criterios": {
+    "ied": 2,
+    "cadenas": 1,
+    "estandares": 5,
+    "seguridad": 1,
+    "hub": 1
+   },
+   "score": 41,
+   "justificacion": "Responde a la recomendación OCDE de consejos nacionales de productividad, punto valorado en la adhesión.",
+   "habilita": [
+    "ECO-03"
+   ],
+   "requiere": []
+  },
+  {
+   "id": "ECO-17",
+   "criterios": {
+    "ied": 1,
+    "cadenas": 2,
+    "estandares": 3,
+    "seguridad": 1,
+    "hub": 1
+   },
+   "score": 33,
+   "justificacion": "Programa doméstico con buenas prácticas OCDE de vouchers; aporte geoeconómico bajo.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "ECO-18",
+   "criterios": {
+    "ied": 5,
+    "cadenas": 5,
+    "estandares": 3,
+    "seguridad": 2,
+    "hub": 4
+   },
+   "score": 80,
+   "justificacion": "Búsqueda activa de IED de eficiencia en zona horaria de EE.UU. con encadenamiento local: la pieza más directa para nearshoring de manufactura y servicios.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "ECO-19",
+   "criterios": {
+    "ied": 3,
+    "cadenas": 2,
+    "estandares": 4,
+    "seguridad": 1,
+    "hub": 2
+   },
+   "score": 50,
+   "justificacion": "Coinversión con fondos extranjeros conforme a las directrices OCDE de inversión de fondos de pensiones; atrae gestores de capital de riesgo regionales.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "ECO-20",
+   "criterios": {
+    "ied": 3,
+    "cadenas": 4,
+    "estandares": 5,
+    "seguridad": 4,
+    "hub": 3
+   },
+   "score": 76,
+   "justificacion": "Ordena la posición peruana en el DEPA, la APEC y la OCDE sobre flujos de datos y excepciones de seguridad; presencia en normalización internacional.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "ECO-21",
+   "criterios": {
+    "ied": 1,
+    "cadenas": 1,
+    "estandares": 3,
+    "seguridad": 1,
+    "hub": 1
+   },
+   "score": 28,
+   "justificacion": "Presupuesto por resultados alineado con la OCDE; sin efecto geoeconómico directo.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "ECO-22",
+   "criterios": {
+    "ied": 2,
+    "cadenas": 5,
+    "estandares": 5,
+    "seguridad": 1,
+    "hub": 2
+   },
+   "score": 64,
+   "justificacion": "Responde directamente al reglamento europeo de productos libres de deforestación, que condiciona exportaciones agrarias peruanas a la UE.",
+   "habilita": [
+    "TAL-08"
+   ],
+   "requiere": [
+    "CON-09"
+   ]
+  },
+  {
+   "id": "GOB-15",
+   "criterios": {
+    "ied": 3,
+    "cadenas": 1,
+    "estandares": 5,
+    "seguridad": 1,
+    "hub": 1
+   },
+   "score": 46,
+   "justificacion": "Cierra brechas señaladas por la OCDE en política regulatoria (AIR ex post y revisión de stock), relevante para la adhesión.",
+   "habilita": [],
+   "requiere": [
+    "GOB-02"
+   ]
+  },
+  {
+   "id": "GOB-16",
+   "criterios": {
+    "ied": 1,
+    "cadenas": 1,
+    "estandares": 3,
+    "seguridad": 1,
+    "hub": 1
+   },
+   "score": 28,
+   "justificacion": "Buena práctica parlamentaria reconocida por la OCDE; sin efecto geoeconómico.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "GOB-17",
+   "criterios": {
+    "ied": 1,
+    "cadenas": 1,
+    "estandares": 3,
+    "seguridad": 1,
+    "hub": 1
+   },
+   "score": 28,
+   "justificacion": "Seguimiento basado en evidencia alineado con la gobernanza digital de la OCDE; sin efecto geoeconómico.",
+   "habilita": [
+    "GOB-18"
+   ],
+   "requiere": []
+  },
+  {
+   "id": "GOB-18",
+   "criterios": {
+    "ied": 2,
+    "cadenas": 1,
+    "estandares": 4,
+    "seguridad": 1,
+    "hub": 1
+   },
+   "score": 37,
+   "justificacion": "Previsibilidad regulatoria valorada por la OCDE y los inversionistas extranjeros.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "GOB-19",
+   "criterios": {
+    "ied": 1,
+    "cadenas": 1,
+    "estandares": 2,
+    "seguridad": 2,
+    "hub": 1
+   },
+   "score": 27,
+   "justificacion": "Política subnacional; aporte geoeconómico marginal.",
+   "habilita": [],
+   "requiere": [
+    "GOB-08",
+    "GOB-14"
+   ]
+  },
+  {
+   "id": "GOB-20",
+   "criterios": {
+    "ied": 4,
+    "cadenas": 4,
+    "estandares": 4,
+    "seguridad": 4,
+    "hub": 5
+   },
+   "score": 83,
+   "justificacion": "Consolida a Chancay como hub del Pacífico sudamericano con trazabilidad y seguridad neutrales, respondiendo a las preocupaciones de soberanía sin discriminar operadores.",
+   "habilita": [
+    "SOB-02"
+   ],
+   "requiere": [
+    "CIB-01"
+   ]
+  },
+  {
+   "id": "GOB-21",
+   "criterios": {
+    "ied": 3,
+    "cadenas": 3,
+    "estandares": 4,
+    "seguridad": 1,
+    "hub": 1
+   },
+   "score": 52,
+   "justificacion": "Alinea con el Convenio 169 de la OIT y la debida diligencia OCDE para minería responsable; mejora la licencia social que pesa en la IED minera.",
+   "habilita": [
+    "SOB-01"
+   ],
+   "requiere": []
+  },
+  {
+   "id": "GOB-22",
+   "criterios": {
+    "ied": 2,
+    "cadenas": 3,
+    "estandares": 4,
+    "seguridad": 1,
+    "hub": 1
+   },
+   "score": 47,
+   "justificacion": "Alinea con el estándar EITI y mejora la percepción de beneficios locales de la minería.",
+   "habilita": [],
+   "requiere": [
+    "GOB-05",
+    "IA-04"
+   ]
+  },
+  {
+   "id": "GOB-23",
+   "criterios": {
+    "ied": 1,
+    "cadenas": 1,
+    "estandares": 2,
+    "seguridad": 1,
+    "hub": 1
+   },
+   "score": 24,
+   "justificacion": "Sin efecto geoeconómico.",
+   "habilita": [],
+   "requiere": [
+    "TAL-13"
+   ]
+  },
+  {
+   "id": "GOB-24",
+   "criterios": {
+    "ied": 1,
+    "cadenas": 1,
+    "estandares": 3,
+    "seguridad": 1,
+    "hub": 1
+   },
+   "score": 28,
+   "justificacion": "Indicadores alineados con estándares OCDE de medición de la brecha digital; sin efecto geoeconómico.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "TAL-15",
+   "criterios": {
+    "ied": 4,
+    "cadenas": 3,
+    "estandares": 3,
+    "seguridad": 2,
+    "hub": 4
+   },
+   "score": 65,
+   "justificacion": "Facilita instalar centros de servicios y datos que dependen de talento especializado; posiciona al Perú en la competencia regional por nómadas y expertos.",
+   "habilita": [
+    "CON-10"
+   ],
+   "requiere": []
+  },
+  {
+   "id": "TAL-16",
+   "criterios": {
+    "ied": 1,
+    "cadenas": 1,
+    "estandares": 3,
+    "seguridad": 1,
+    "hub": 1
+   },
+   "score": 28,
+   "justificacion": "Alineada con la recomendación OCDE de aprendizaje de adultos; sin efecto geoeconómico.",
+   "habilita": [],
+   "requiere": [
+    "IA-13"
+   ]
+  },
+  {
+   "id": "IA-15",
+   "criterios": {
+    "ied": 3,
+    "cadenas": 4,
+    "estandares": 3,
+    "seguridad": 2,
+    "hub": 1
+   },
+   "score": 56,
+   "justificacion": "Seguridad jurídica para la automatización de la minería del cobre, alineada con normas técnicas internacionales neutrales.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "IA-16",
+   "criterios": {
+    "ied": 4,
+    "cadenas": 4,
+    "estandares": 5,
+    "seguridad": 3,
+    "hub": 4
+   },
+   "score": 81,
+   "justificacion": "Cierra la desventaja frente a Argentina, Uruguay y Brasil para atraer centros de servicios orientados a Europa; alinea con el Convenio 108+ y el CBPR.",
+   "habilita": [
+    "ECO-12"
+   ],
+   "requiere": [
+    "IA-11"
+   ]
   }
  ],
  "vacios": [

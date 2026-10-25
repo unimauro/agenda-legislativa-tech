@@ -43,6 +43,25 @@ propuestas no tienen `revision_atendida` NO se publican salvo `--borradores`.
   ni respaldos .jsonl, rechazo de DNI/teléfono/correo, CSP meta en todas las páginas, SRI de Chart.js, QR de Yape local,
   página de privacidad y GA4 solo con consentimiento.
 
+
+### Hecho 25-oct-2026 — 28 leyes nuevas desde los 30 vacíos de la Visión 2036 (total 128)
+- Vacíos depurados 30→28 (fusionados: AIR ×2 → GOB-15; acuerdos de economía digital + diplomacia → ECO-20). Encargo y brief en
+  `data/nuevas/` (encargo.json, BRIEF.md, borradores por grupo A–E). Ids: SOB-09..13, CON-15, ECO-15..22, GOB-15..24, TAL-15/16, IA-15/16.
+- Pipeline: 5 redactores → 5 revisores (`data/revision/*_D.json`, 388 hallazgos) → los redactores aplican (`revision_atendida`)
+  → panel futurista puntúa en los 5 lentes (fórmula reproducida sin desvío) → `build_prioridad.py` marca `convertido_en` en vacíos.
+- GOB-16 = Resolución Legislativa (modifica Reglamento del Congreso y de cada cámara); GOB-18 = ley orgánica (art. 13 LOPE).
+- GOB-21, GOB-23 y SOB-11 REQUIEREN consulta previa (Convenio 169) antes del Pleno.
+
+### Pendientes que dejó esta tanda
+- [ ] **Ley 32353 (may-2025)** sustituirá el TUO D.S. 013-2013-PRODUCE (régimen laboral MYPE) al publicarse su reglamento:
+      revisar ECO-14 y toda propuesta antigua que cite ese TUO (ECO-15/17 ya remiten "al régimen vigente").
+- [ ] Verificar en SPIJ numeraciones marcadas "por verificar": literal nuevo art. 29.2 DL 1350 (TAL-15), literal art. 19 TUO CTS
+      (TAL-16), art. 13 LOPE (GOB-18), art. 4 Ley 29029 (GOB-19), arts. 18/57/120/121 Ley 29338 (SOB-10), Leyes 28832 y 28749,
+      arts. 15/20 Ley 29735 (GOB-23), nuevo artículo Ley 31335 (ECO-22), numeración del TUO 27444 (D.S. 006-2026-JUS).
+- [ ] Fuentes oficiales faltantes: DL 1565, DS 023-2025-PCM, DS 021-2020-PCM (hoy copias secundarias); cifras FMI/OCDE de ECO-15;
+      condición del Perú en la IEC (ECO-20); decisión UE de adecuación de Brasil (n.º no confirmado).
+- [ ] Discutible: adelantar GOB-18 a la ola 2 (muy habilitadora, pero ley orgánica).
+
 ## SIGUIENTE (en orden)
 000. [x] API v2 desplegada y re-probada (22-oct): 413, PII rechazada, ids/parent validados, cabeceras del panel, X-Forwarded-For no falsificable (429 al intento 11), El Loro intacto. Riesgo residual aceptado: inflar votos rotando el identificador de dispositivo (tope 5 por red y propuesta).
 00. [x] **(HECHO 22-oct por Carlos, verificado: CORS, votos, admin 403, El Loro intacto)** DESPLEGAR el módulo en api.tunky.net (el clasificador bloqueó el deploy a producción desde la sesión):

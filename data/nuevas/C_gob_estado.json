@@ -1,0 +1,1558 @@
+[
+ {
+  "id": "GOB-15",
+  "eje": "gob",
+  "titulo": "Ley que complementa el Decreto Legislativo 1565, Ley General de Mejora de la Calidad Regulatoria, con la cláusula de revisión y la evaluación ex post obligatoria de las normas digitales, la revisión periódica de los procedimientos administrativos y el silencio positivo digital",
+  "titulo_corto": "Calidad regulatoria y silencio positivo digital",
+  "sumilla": "Parte del régimen vigente —el Decreto Legislativo 1565 y su reglamento (D.S. 023-2025-PCM) ya hacen obligatorio el análisis de impacto regulatorio (AIR) ex ante en el Poder Ejecutivo— y agrega solo lo que falta: cláusula de revisión y AIR ex post obligatorio a más tardar a los cinco años para las normas cuyo objeto principal es regular tecnologías digitales; una revisión quinquenal obligatoria de todos los procedimientos administrativos (análisis de calidad regulatoria de stock) con pérdida de exigibilidad de los no ratificados; con excepciones para los controles de salud, seguridad, ambiente y defensa; y la constancia electrónica automática de aprobación por silencio positivo, firmada por agente automatizado y calculada con un calendario oficial de días hábiles, en los procedimientos con expediente y notificación electrónicos. No regula el procedimiento legislativo, que corresponde al Reglamento del Congreso, ni impone obligaciones a los gobiernos regionales y locales.",
+  "problema": "El Perú ya cuenta con un régimen de calidad regulatoria. El Decreto Legislativo 1565 (28-may-2023) sustituyó el régimen del artículo 2 del Decreto Legislativo 1310; su reglamento, aprobado por el Decreto Supremo 023-2025-PCM recién en febrero de 2025, obliga a los proyectos normativos del Poder Ejecutivo que generan costos o limitan derechos a pasar por un AIR ex ante con dictamen de la Comisión Multisectorial de Calidad Regulatoria (art. 33); para las normas de menor jerarquía esa obligación rige desde enero de 2027. Subsisten tres vacíos. Primero, el AIR ex post se aplica solo al stock que se priorice y, según el artículo 42.1 del reglamento, 'no implica la derogación': ninguna norma digital nace con fecha de evaluación. Segundo, el análisis de calidad regulatoria de stock de los procedimientos administrativos no tiene una periodicidad fijada en la ley, por lo que la depuración de trámites depende de cada gestión. Tercero, aunque el TUO de la Ley 27444 (D.S. 006-2026-JUS, art. 188.1) da por aprobado el procedimiento al vencer el plazo más el de notificación, en la práctica el ciudadano debe acreditar la aprobación ficta, aunque la plataforma conoce el vencimiento. Los gobiernos regionales y locales aplican estos instrumentos de forma gradual (art. 6.2).",
+  "objeto": "Complementar el Decreto Legislativo 1565 para que las normas digitales del Poder Ejecutivo nazcan con cláusula de revisión y se evalúen ex post, los procedimientos administrativos se revisen al menos cada cinco años y el silencio positivo se acredite de forma automática en los trámites digitales.",
+  "articulado": [
+   {
+    "n": "Artículo 1",
+    "titulo": "Objeto",
+    "texto": "La presente ley tiene por objeto complementar el Decreto Legislativo 1565, Decreto Legislativo que aprueba la Ley General de Mejora de la Calidad Regulatoria, con reglas sobre la cláusula de revisión y la evaluación ex post de las normas digitales, la revisión periódica de los procedimientos administrativos y la constancia electrónica de aprobación por silencio administrativo positivo."
+   },
+   {
+    "n": "Artículo 2",
+    "titulo": "Ámbito de aplicación y definición",
+    "texto": "2.1. La presente ley es de aplicación a las entidades del Poder Ejecutivo comprendidas en el ámbito del Decreto Legislativo 1565.\n2.2. Los gobiernos regionales, los gobiernos locales y los organismos constitucionalmente autónomos pueden aplicar las reglas de la presente ley, en el marco de su autonomía, conforme a los lineamientos que emita la Presidencia del Consejo de Ministros a través de la Secretaría de Gestión Pública.\n2.3. Para efectos de la presente ley, se entiende por norma digital la norma de carácter general cuyo objeto principal es regular el diseño, la provisión, el uso o la seguridad de tecnologías digitales. Se entiende por tecnologías digitales las tecnologías de la información y las comunicaciones, incluidos los servicios digitales, el tratamiento automatizado de datos, los sistemas basados en inteligencia artificial, las telecomunicaciones, la identidad y la firma digitales, el comercio y los pagos electrónicos y la seguridad digital."
+   },
+   {
+    "n": "Artículo 3",
+    "titulo": "Cláusula de revisión de las normas digitales",
+    "texto": "3.1. Las normas digitales que, conforme al Decreto Legislativo 1565 y su reglamento, requieren análisis de impacto regulatorio ex ante consignan en su texto una fecha de evaluación ex post, que no puede exceder de cinco años contados desde su entrada en vigencia, y los indicadores con los que se mide el cumplimiento de sus objetivos, consistentes con los mecanismos de monitoreo y evaluación del análisis ex ante.\n3.2. La Comisión Multisectorial de Calidad Regulatoria verifica la inclusión de la cláusula de revisión al emitir su dictamen sobre el análisis de impacto regulatorio ex ante.\n3.3. La cláusula de revisión no determina la pérdida de vigencia de la norma, salvo que esta lo disponga expresamente."
+   },
+   {
+    "n": "Artículo 4",
+    "titulo": "Evaluación ex post obligatoria",
+    "texto": "4.1. Cumplida la fecha de evaluación prevista en la cláusula de revisión, la entidad que aprobó o propuso la norma digital realiza el análisis de impacto regulatorio ex post conforme al Decreto Legislativo 1565 y a los lineamientos de la Secretaría de Gestión Pública, en un plazo máximo de doce meses, y lo remite a la Comisión Multisectorial de Calidad Regulatoria.\n4.2. El análisis concluye en la recomendación de mantener, modificar o derogar la norma. Dentro de los seis meses siguientes al dictamen de la Comisión Multisectorial de Calidad Regulatoria, la entidad aprueba o propone la modificación o derogación que corresponda o publica las razones para mantenerla sin cambios.\n4.3. El análisis ex post, el dictamen y los datos utilizados se publican en la plataforma de mejora regulatoria de la Presidencia del Consejo de Ministros, conforme al régimen general de datos abiertos y con licencia abierta, previa anonimización y evaluación del riesgo de reidentificación de los microdatos. Se excluye la información protegida por la Ley 29733, Ley de Protección de Datos Personales, y la clasificada como secreta, reservada o confidencial conforme al Texto Único Ordenado de la Ley 27806, Ley de Transparencia y Acceso a la Información Pública, aprobado por Decreto Supremo 021-2019-JUS. Los datos sobre incidentes y vulnerabilidades de seguridad digital se publican de forma agregada, sin identificar entidades ni sistemas.\n4.4. Las normas digitales vigentes a la entrada en vigencia de la presente ley se incorporan a la priorización del análisis de impacto regulatorio ex post conforme al cronograma que apruebe la Secretaría de Gestión Pública, que no puede exceder de cinco años."
+   },
+   {
+    "n": "Artículo 5",
+    "titulo": "Revisión periódica de los procedimientos administrativos",
+    "texto": "5.1. Las entidades del Poder Ejecutivo someten la totalidad de los procedimientos administrativos y servicios prestados en exclusividad contenidos en su Texto Único de Procedimientos Administrativos al análisis de calidad regulatoria de stock al menos una vez cada cinco años, conforme al cronograma que aprueba la Presidencia del Consejo de Ministros a través de la Secretaría de Gestión Pública, previa coordinación con la Comisión Multisectorial de Calidad Regulatoria.\n5.2. El análisis evalúa además la posibilidad de tramitar el procedimiento íntegramente por medios digitales, la eliminación de requisitos referidos a información que ya obra en poder de entidades públicas y la aplicación del silencio administrativo positivo.\n5.3. Sin perjuicio de lo dispuesto en los numerales 5.4 a 5.6, los procedimientos y requisitos establecidos en normas de rango inferior a la ley que, vencido el plazo asignado a la entidad en el cronograma, no hayan sido ratificados conforme al Decreto Legislativo 1565 y su reglamento dejan de ser exigibles a los administrados. La entidad adecúa su Texto Único de Procedimientos Administrativos dentro de los treinta días hábiles siguientes, bajo responsabilidad de su titular.\n5.4. Los procedimientos establecidos expresamente en normas con rango de ley no pierden exigibilidad por efecto del numeral 5.3; respecto de ellos, la entidad remite a la Presidencia del Consejo de Ministros las propuestas de simplificación que resulten del análisis.\n5.5. Cuando una norma con rango de ley exija un título habilitante cuyo procedimiento, establecido en norma de rango inferior, no haya sido ratificado, dejan de ser exigibles los requisitos no ratificados y el procedimiento se tramita, hasta su ratificación, como de aprobación automática con la declaración jurada del administrado. Si el procedimiento está sujeto por ley a silencio administrativo negativo, se mantiene exigible por un plazo improrrogable de doce meses adicionales, dentro del cual la entidad debe ratificarlo.\n5.6. Lo dispuesto en los numerales 5.3 y 5.5 no se aplica a los procedimientos y requisitos vinculados a la protección de la vida y la salud pública, el ambiente, la defensa nacional, el orden interno, la seguridad ciudadana, el control de armas, municiones, explosivos, productos pirotécnicos de uso civil, insumos químicos y bienes fiscalizados, la seguridad digital de los activos críticos nacionales y la seguridad aeronáutica y marítima. Respecto de ellos, el vencimiento del cronograma sin ratificación no genera pérdida de exigibilidad; la entidad los ratifica en un plazo máximo de noventa días hábiles, bajo responsabilidad de su titular, y el incumplimiento se comunica a la Secretaría de Gestión Pública y a la Contraloría General de la República.\n5.7. La exigencia de un procedimiento o requisito que ha dejado de ser exigible constituye barrera burocrática ilegal, cuya eliminación e inaplicación corresponde al Instituto Nacional de Defensa de la Competencia y de la Protección de la Propiedad Intelectual conforme al Decreto Legislativo 1256, Ley de Prevención y Eliminación de Barreras Burocráticas, incluidas las sanciones previstas en dicha norma."
+   },
+   {
+    "n": "Artículo 6",
+    "titulo": "Constancia electrónica de aprobación por silencio positivo",
+    "texto": "6.1. En los procedimientos de evaluación previa sujetos a silencio administrativo positivo cuyo expediente y notificación son electrónicos, vencido el plazo para resolver, más el plazo máximo para notificar previsto en el numeral 24.1 del artículo 24 del Texto Único Ordenado de la Ley 27444, Ley del Procedimiento Administrativo General, aprobado por Decreto Supremo 006-2026-JUS, sin que se haya notificado el pronunciamiento, y siempre que la solicitud no haya sido observada por incumplimiento de requisitos dentro del plazo legal, el sistema emite de forma automática, dentro del día hábil siguiente, una constancia electrónica de aprobación ficta. La constancia se firma digitalmente por la entidad mediante certificado de agente automatizado conforme a la Ley 27269, Ley de Firmas y Certificados Digitales, y su reglamento, lleva sello de tiempo y código de verificación consultable en línea en la Plataforma Digital Única del Estado Peruano para Orientación al Ciudadano (GOB.PE), y se notifica al administrado.\n6.2. La emisión se basa en la fecha de presentación registrada en el expediente electrónico y en la ausencia de notificación del pronunciamiento en la casilla electrónica o en el registro de notificaciones de la entidad. El sistema conserva un registro de la presentación, de cada suspensión y de la emisión, protegido contra su alteración o eliminación no autorizada mediante mecanismos que permitan detectarla.\n6.3. La constancia acredita la aprobación ficta ante cualquier entidad pública o tercero y complementa, sin sustituir, los medios de acreditación del silencio administrativo positivo previstos en el Texto Único Ordenado de la Ley 27444. Su emisión no limita la potestad de la entidad de declarar la nulidad de oficio conforme a dicho Texto Único Ordenado.\n6.4. El plazo se computa en el sistema desde la presentación de la solicitud. Solo se suspende por las causales previstas en la ley, registradas y motivadas en el expediente electrónico y notificadas al administrado. Cuando la entidad o la Secretaría de Gobierno y Transformación Digital declaren y publiquen la indisponibilidad de la plataforma por incidente de seguridad digital o falla técnica, el cómputo se suspende por el periodo de indisponibilidad registrado y comunicado al Centro Nacional de Seguridad Digital, lo que se notifica al administrado.\n6.5. La Secretaría de Gobierno y Transformación Digital publica y mantiene, en formato abierto y mediante interfaz de programación, el calendario oficial de días hábiles para el cómputo de plazos administrativos, que incluye los días no laborables de alcance nacional, regional o local y las interrupciones de plataformas digitales que suspendan plazos. Los sistemas de las entidades lo usan como fuente única.\n6.6. Lo dispuesto en el presente artículo no se aplica a los procedimientos sujetos a silencio administrativo negativo conforme al Texto Único Ordenado de la Ley 27444 o a leyes especiales.\n6.7. Si la constancia no se emite por causa atribuible a la entidad, el administrado puede solicitarla y la entidad la expide en un plazo máximo de dos días hábiles. La omisión no afecta la aprobación ficta."
+   },
+   {
+    "n": "Artículo 7",
+    "titulo": "Responsabilidades",
+    "texto": "7.1. La Presidencia del Consejo de Ministros, a través de la Secretaría de Gestión Pública, emite los lineamientos y cronogramas de los artículos 4 y 5 y supervisa su cumplimiento.\n7.2. La Presidencia del Consejo de Ministros, a través de la Secretaría de Gobierno y Transformación Digital, implementa en GOB.PE, en la mesa de partes digital y en la casilla electrónica la funcionalidad del artículo 6, mantiene el calendario oficial del numeral 6.5 y aprueba los estándares técnicos que deben cumplir las plataformas propias de las entidades.\n7.3. El titular de cada entidad es responsable de la realización oportuna de los análisis de los artículos 4 y 5 y de la adecuación de sus sistemas al artículo 6."
+   },
+   {
+    "n": "Artículo 8",
+    "titulo": "Transparencia y reporte anual",
+    "texto": "La Presidencia del Consejo de Ministros publica anualmente, en formato abierto, la relación de normas digitales con cláusula de revisión y sus fechas de evaluación, los análisis ex post realizados y pendientes, los procedimientos ratificados, simplificados o que dejaron de ser exigibles por entidad, y el número de constancias de aprobación ficta emitidas por entidad y procedimiento. El informe se remite al Congreso de la República dentro del primer trimestre de cada año."
+   }
+  ],
+  "disposiciones": [
+   {
+    "tipo": "Complementaria Final",
+    "n": "Primera",
+    "texto": "Reglamentación. El Poder Ejecutivo, mediante decreto supremo refrendado por el presidente del Consejo de Ministros, adecúa el Reglamento del Decreto Legislativo 1565, aprobado por Decreto Supremo 023-2025-PCM, a lo dispuesto en la presente ley en un plazo de ciento veinte días hábiles contados a partir del día siguiente de su publicación."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Segunda",
+    "texto": "Implementación gradual del silencio positivo digital. El calendario oficial del numeral 6.5 se publica dentro de los seis meses siguientes a la entrada en vigencia del reglamento. La funcionalidad del artículo 6 se implementa en GOB.PE y en la mesa de partes digital dentro de los dieciocho meses siguientes a la entrada en vigencia del reglamento, y en las plataformas propias de las entidades dentro de los treinta y seis meses siguientes."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Tercera",
+    "texto": "Primer ciclo de revisión. La Secretaría de Gestión Pública aprueba el cronograma del primer ciclo de revisión de procedimientos administrativos dentro de los ciento ochenta días calendario siguientes a la entrada en vigencia del reglamento. El primer ciclo concluye en un plazo no mayor de cinco años."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Cuarta",
+    "texto": "Financiamiento. La implementación de la presente ley se financia con cargo al presupuesto institucional de las entidades involucradas, sin demandar recursos adicionales al Tesoro Público."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Quinta",
+    "texto": "Procedimiento legislativo. La presente ley no regula el procedimiento legislativo ni la elaboración de proposiciones de ley, materias reservadas al Reglamento del Congreso de la República conforme al artículo 94 de la Constitución Política del Perú."
+   }
+  ],
+  "costo_beneficio": "El costo es principalmente administrativo y se concentra en el Poder Ejecutivo: la Secretaría de Gestión Pública y la Comisión Multisectorial de Calidad Regulatoria ya existen y ya evalúan análisis ex ante y ex post; la ley ordena su carga en el tiempo (cláusula de revisión, ciclo quinquenal). El desarrollo de la constancia automática en GOB.PE y la mesa de partes digital es un costo único acotado, porque esas plataformas ya registran fechas de presentación y notificación. Se financia con presupuestos institucionales sin recursos adicionales al Tesoro. Beneficios: normas digitales que se corrigen a tiempo, depuración periódica de trámites con una consecuencia clara para los no ratificados, certeza inmediata para el ciudadano cuando la administración no responde y datos públicos para el control. Costo fiscal: bajo.",
+  "efecto_vigencia": "Complementa el Decreto Legislativo 1565, Ley General de Mejora de la Calidad Regulatoria, sin modificar su articulado, y ordena adecuar su reglamento (Decreto Supremo 023-2025-PCM). Complementa, sin modificarlos, el régimen del silencio administrativo positivo del Texto Único Ordenado de la Ley 27444 (Decreto Supremo 006-2026-JUS, arts. 24.1, 33-B, 188 y 202), el Decreto Legislativo 1256 (barreras burocráticas) y la Ley 27269 (firma digital de agente automatizado). No deroga normas. Es ley ordinaria y no requiere votación de ley orgánica, porque solo obliga a entidades del Poder Ejecutivo y deja la aplicación subnacional a la autonomía de cada nivel de gobierno. Si el dictamen prefiere incorporar estas reglas al propio Decreto Legislativo 1565, debe verificarse en el SPIJ la numeración libre de los artículos que se incorporen.",
+  "normas_relacionadas": [
+   {
+    "norma": "Decreto Legislativo 1565, Ley General de Mejora de la Calidad Regulatoria (2023)",
+    "url": "https://lpderecho.pe/ley-general-mejora-calidad-regulatoria-decreto-legislativo-1565/"
+   },
+   {
+    "norma": "Decreto Supremo 023-2025-PCM, Reglamento del Decreto Legislativo 1565 (arts. 6, 33, 42, 54, 59-60; copia de la separata oficial)",
+    "url": "https://img.lpderecho.pe/wp-content/uploads/2025/02/Decreto-Supremo-023-2025-PCM-LPDerecho.pdf"
+   },
+   {
+    "norma": "TUO de la Ley 27444, Ley del Procedimiento Administrativo General, aprobado por Decreto Supremo 006-2026-JUS (arts. 24.1, 33-B, 188 y 202; copia del texto publicado)",
+    "url": "https://rc-consulting.org/pdf/normativas/tuo-ley-27444.pdf"
+   },
+   {
+    "norma": "TUO de la Ley 27806, Ley de Transparencia y Acceso a la Información Pública, aprobado por Decreto Supremo 021-2019-JUS",
+    "url": "https://sinia.minam.gob.pe/normas/texto-unico-ordenado-ley-ndeg-27806-ley-transparencia-acceso-informacion"
+   },
+   {
+    "norma": "Ley 27269, Ley de Firmas y Certificados Digitales",
+    "url": "https://leyes.congreso.gob.pe/Documentos/Leyes/27269.pdf"
+   }
+  ],
+  "antecedentes": "Por verificar en SPLEY.",
+  "referencias_internacionales": [
+   {
+    "pais": "OCDE",
+    "norma": "Recomendación del Consejo sobre Política y Gobernanza Regulatoria (2012), incluida la evaluación ex post sistemática del stock regulatorio",
+    "url": "https://legalinstruments.oecd.org/en/instruments/OECD-LEGAL-0390"
+   },
+   {
+    "pais": "México",
+    "norma": "Ley General de Mejora Regulatoria (2018)",
+    "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LGMR.pdf"
+   },
+   {
+    "pais": "Unión Europea",
+    "norma": "Acuerdo interinstitucional sobre la mejora de la legislación (2016), cláusulas de revisión y evaluación ex post",
+    "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32016Q0512(01)"
+   }
+  ],
+  "comision_sugerida": "Modernización de la Gestión del Estado y Contraloría",
+  "comision_secundaria": "Ciencia, Innovación Tecnológica y Sociedad Digital",
+  "plan2050": [
+   "reforma-del-estado",
+   "transformacion-digital",
+   "competitividad"
+  ],
+  "ods": [
+   8,
+   9,
+   16
+  ],
+  "prioridad": "alta",
+  "costo_fiscal": "bajo",
+  "plazo": "mediano",
+  "indicador_exito": "Al 2031, el 100 % de las normas digitales del Poder Ejecutivo sujetas a AIR ex ante aprobadas desde la vigencia de la ley tiene cláusula de revisión; las entidades del Poder Ejecutivo han concluido el primer ciclo quinquenal de revisión de procedimientos; y la constancia automática de aprobación ficta opera en GOB.PE, según el informe anual de la PCM.",
+  "tags": [
+   "calidad regulatoria",
+   "AIR",
+   "simplificación administrativa",
+   "silencio positivo",
+   "Estado"
+  ],
+  "fuentes": [
+   {
+    "titulo": "LP Derecho — Reglamento de la Ley General de Mejora de la Calidad Regulatoria, Decreto Supremo 023-2025-PCM (texto)",
+    "url": "https://img.lpderecho.pe/wp-content/uploads/2025/02/Decreto-Supremo-023-2025-PCM-LPDerecho.pdf"
+   },
+   {
+    "titulo": "LP Derecho — Ley General de Mejora de la Calidad Regulatoria, Decreto Legislativo 1565",
+    "url": "https://lpderecho.pe/ley-general-mejora-calidad-regulatoria-decreto-legislativo-1565/"
+   },
+   {
+    "titulo": "Garrigues — Perú: la Ley General de Mejora de la Calidad Regulatoria impulsa una elaboración normativa más eficiente",
+    "url": "https://www.garrigues.com/es_ES/noticia/peru-ley-general-mejora-calidad-regulatoria-impulsa-elaboracion-normativa-mas-eficiente"
+   },
+   {
+    "titulo": "OCDE — Recommendation of the Council on Regulatory Policy and Governance (2012)",
+    "url": "https://legalinstruments.oecd.org/en/instruments/OECD-LEGAL-0390"
+   }
+  ],
+  "implicados": {
+   "normas_modificadas": [
+    {
+     "norma": "Decreto Legislativo 1565, Ley General de Mejora de la Calidad Regulatoria",
+     "articulo": "régimen de AIR ex ante, AIR ex post y ACR",
+     "accion": "complementa",
+     "url": "https://lpderecho.pe/ley-general-mejora-calidad-regulatoria-decreto-legislativo-1565/"
+    },
+    {
+     "norma": "Decreto Supremo 023-2025-PCM, Reglamento del Decreto Legislativo 1565",
+     "articulo": "arts. 33, 42 y 54 (adecuación)",
+     "accion": "complementa",
+     "url": "https://img.lpderecho.pe/wp-content/uploads/2025/02/Decreto-Supremo-023-2025-PCM-LPDerecho.pdf"
+    },
+    {
+     "norma": "TUO de la Ley 27444 (Decreto Supremo 006-2026-JUS)",
+     "articulo": "arts. 24.1 y 188 (silencio positivo), 202 (nulidad de oficio)",
+     "accion": "complementa",
+     "url": "https://rc-consulting.org/pdf/normativas/tuo-ley-27444.pdf"
+    },
+    {
+     "norma": "Ley 27269, Ley de Firmas y Certificados Digitales",
+     "articulo": "certificado de agente automatizado",
+     "accion": "complementa",
+     "url": "https://leyes.congreso.gob.pe/Documentos/Leyes/27269.pdf"
+    }
+   ],
+   "entidades": [
+    {
+     "entidad": "Presidencia del Consejo de Ministros — Secretaría de Gestión Pública",
+     "sigla": "PCM-SGP",
+     "sector": "PCM",
+     "rol": "rectora",
+     "responsabilidad": "Lineamientos y cronogramas de AIR ex post y de revisión de procedimientos (arts. 4.4, 5.1, 7.1), reporte anual al Congreso (art. 8)."
+    },
+    {
+     "entidad": "Comisión Multisectorial de Calidad Regulatoria",
+     "sigla": "CMCR",
+     "sector": "PCM/MEF/MINJUSDH",
+     "rol": "supervisora",
+     "responsabilidad": "Verifica la cláusula de revisión (art. 3.2) y dictamina los análisis ex post y de stock (arts. 4.1, 5.1)."
+    },
+    {
+     "entidad": "Presidencia del Consejo de Ministros — Secretaría de Gobierno y Transformación Digital",
+     "sigla": "PCM-SGTD",
+     "sector": "PCM",
+     "rol": "ejecutora",
+     "responsabilidad": "Implementa la constancia firmada por agente automatizado en GOB.PE, la mesa de partes y la casilla electrónica, mantiene el calendario oficial de días hábiles y fija estándares para plataformas propias (arts. 6, 7.2)."
+    },
+    {
+     "entidad": "Instituto Nacional de Defensa de la Competencia y de la Protección de la Propiedad Intelectual",
+     "sigla": "INDECOPI",
+     "sector": "PCM",
+     "rol": "sancionadora",
+     "responsabilidad": "Elimina e inaplica, conforme al Decreto Legislativo 1256, la exigencia de procedimientos que perdieron exigibilidad y sanciona según esa norma (art. 5.7)."
+    },
+    {
+     "entidad": "Entidades del Poder Ejecutivo",
+     "sigla": "",
+     "sector": "Varios",
+     "rol": "regulada",
+     "responsabilidad": "Incluyen cláusula de revisión, realizan AIR ex post y revisión quinquenal de procedimientos, adecúan TUPA y plataformas (arts. 3-5, 7.3)."
+    },
+    {
+     "entidad": "Contraloría General de la República",
+     "sigla": "CGR",
+     "sector": "Organismo autónomo",
+     "rol": "supervisora",
+     "responsabilidad": "Recibe la comunicación de procedimientos de salud, seguridad, ambiente o defensa no ratificados a tiempo, para determinar responsabilidades (art. 5.6)."
+    },
+    {
+     "entidad": "Centro Nacional de Seguridad Digital",
+     "sigla": "CNSD",
+     "sector": "PCM",
+     "rol": "supervisora",
+     "responsabilidad": "Recibe la comunicación de indisponibilidad de plataformas que suspende el cómputo de plazos (art. 6.4)."
+    }
+   ],
+   "sujetos_obligados": "Ministerios y organismos públicos del Poder Ejecutivo con potestad normativa general o con procedimientos administrativos en TUPA. Gobiernos regionales, locales y organismos autónomos solo si deciden aplicarla.",
+   "beneficiarios": "Ciudadanos y empresas que tramitan ante el Poder Ejecutivo, en especial mipymes y sectores digitales sujetos a normas sectoriales; número no cuantificado con información pública."
+  },
+  "impacto": {
+   "tipo": "ahorro",
+   "costo_estado": {
+    "rango": "S/ 1–3 millones (único) más carga recurrente absorbida por equipos existentes",
+    "horizonte": "2027-2031",
+    "supuestos": "Estimación del redactor, no oficial: desarrollo de la constancia automática con firma de agente automatizado, integración con la casilla electrónica y calendario oficial de días hábiles sobre GOB.PE y la mesa de partes digital (equipo de 6-10 personas durante 12-18 meses); el AIR ex post y el ACR de stock los realizan los oficiales de mejora de calidad regulatoria y equipos existentes, redistribuyendo carga en el ciclo quinquenal.",
+    "financiamiento": "Presupuesto institucional de la PCM y de las entidades del Poder Ejecutivo, sin demandar recursos adicionales al Tesoro Público."
+   },
+   "beneficio_estado": "Menos normas obsoletas y procedimientos innecesarios que gestionar; menos controversias sobre silencio positivo; información para priorizar la simplificación. No cuantificable con información pública.",
+   "beneficio_sociedad": "Reducción de cargas administrativas y de incertidumbre para ciudadanos y empresas; certeza inmediata cuando la administración no responde a tiempo. Monto no cuantificable sin una medición de costos de cumplimiento.",
+   "inversion_privada": "No aplica de forma directa; un entorno regulatorio más estable puede favorecer la inversión en servicios digitales.",
+   "costo_privado": "Nulo o negativo: la ley reduce cargas; los regulados pueden participar en la consulta de los análisis ex post.",
+   "riesgos": "Que las entidades ratifiquen procedimientos en bloque sin análisis real; saturación de la CMCR si el cronograma no se escalona; aprobaciones fictas erróneas si el sistema no está conectado a la notificación (mitigado: solo expedientes y notificaciones electrónicos, firma de agente automatizado, calendario único y suspensión por indisponibilidad); desprotección en controles críticos (mitigado con las exclusiones del art. 5.6).",
+   "confianza": "media"
+  },
+  "revision_atendida": [
+   {
+    "especialidad": "seguridad",
+    "severidad": "alta",
+    "hallazgo": "Caída automática de exigibilidad alcanzaba controles de seguridad (SUCAMEC, insumos químicos, activos críticos).",
+    "accion": "corregido",
+    "nota": "Nuevo art. 5.6: exclusión de salud pública, ambiente, defensa, orden interno, seguridad ciudadana, armas, explosivos, pirotécnicos, insumos químicos y bienes fiscalizados, activos críticos y seguridad aeronáutica y marítima; ratificación en 90 días hábiles y comunicación a SGP y Contraloría, sin pérdida de exigibilidad."
+   },
+   {
+    "especialidad": "constitucional",
+    "severidad": "media",
+    "hallazgo": "Art. 5.3 sin salvaguarda de bienes constitucionales.",
+    "accion": "corregido",
+    "nota": "Integrado en el art. 5.6 junto con la observación de seguridad, con la obligación de ratificar en 90 días hábiles bajo responsabilidad del titular."
+   },
+   {
+    "especialidad": "jurista",
+    "severidad": "media",
+    "hallazgo": "Constancia emitida antes de que opere la aprobación ficta (falta el plazo de notificación).",
+    "accion": "corregido",
+    "nota": "Art. 6.1 computa el plazo para resolver más el plazo máximo de notificación de cinco días del numeral 24.1 del art. 24 del TUO (D.S. 006-2026-JUS), conforme a su art. 188.1, verificado en el texto del TUO."
+   },
+   {
+    "especialidad": "jurista",
+    "severidad": "media",
+    "hallazgo": "Vacío cuando una ley exige título habilitante cuyo procedimiento no se ratifica.",
+    "accion": "corregido",
+    "nota": "Nuevo art. 5.5: aprobación automática con declaración jurada hasta la ratificación; si hay silencio negativo legal, se mantiene doce meses improrrogables."
+   },
+   {
+    "especialidad": "derecho_tecnologico",
+    "severidad": "media",
+    "hallazgo": "Constancia sin firma digital y no conectada a la notificación electrónica.",
+    "accion": "corregido",
+    "nota": "Arts. 6.1-6.2: firma por certificado de agente automatizado (Ley 27269), sello de tiempo, verificación en GOB.PE, emisión basada en la casilla o registro de notificaciones y solo en expedientes y notificaciones electrónicos."
+   },
+   {
+    "especialidad": "derecho_tecnologico",
+    "severidad": "media",
+    "hallazgo": "Falta calendario oficial de días hábiles legible por máquina.",
+    "accion": "corregido",
+    "nota": "Nuevo art. 6.5 (calendario oficial con API como fuente única) y plazo de seis meses en la DCF Segunda."
+   },
+   {
+    "especialidad": "derecho_tecnologico",
+    "severidad": "media",
+    "hallazgo": "Definición de norma digital demasiado amplia y distinta de GOB-16/17/18.",
+    "accion": "corregido",
+    "nota": "Art. 2.3 adopta la definición común por objeto principal y la definición de tecnologías digitales propuesta por el revisor, idéntica en GOB-16, 17 y 18."
+   },
+   {
+    "especialidad": "seguridad",
+    "severidad": "media",
+    "hallazgo": "Indisponibilidad o ataque a la plataforma podía generar aprobaciones masivas; constancia falsificable.",
+    "accion": "corregido",
+    "nota": "Art. 6.4 suspende el cómputo por indisponibilidad declarada y comunicada al CNSD; arts. 6.1-6.2 exigen firma de agente automatizado, sello de tiempo y registro protegido contra alteración."
+   },
+   {
+    "especialidad": "constitucional",
+    "severidad": "baja",
+    "hallazgo": "Precisar que no opera si la solicitud fue observada a tiempo.",
+    "accion": "corregido",
+    "nota": "Incorporado en el art. 6.1."
+   },
+   {
+    "especialidad": "jurista",
+    "severidad": "baja",
+    "hallazgo": "Precisar DL 1256 y sanciones en la barrera burocrática.",
+    "accion": "corregido",
+    "nota": "Art. 5.7 remite al Decreto Legislativo 1256 e incluye sus sanciones."
+   },
+   {
+    "especialidad": "normativo",
+    "severidad": "baja",
+    "hallazgo": "Articular la constancia con los medios de acreditación del TUO.",
+    "accion": "corregido",
+    "nota": "Art. 6.3: la constancia complementa, sin sustituir, los medios de acreditación del TUO; se cita sin número de artículo de acreditación, con referencia a los arts. 33-B y 188 en efecto_vigencia."
+   },
+   {
+    "especialidad": "normativo",
+    "severidad": "baja",
+    "hallazgo": "URLs secundarias o del texto original de la Ley 27444.",
+    "accion": "parcial",
+    "nota": "El TUO de la Ley 27444 se enlaza a una copia del texto aprobado por D.S. 006-2026-JUS y el TUO de la Ley 27806 a SINIA-MINAM. No se halló URL oficial verificable del D.L. 1565 ni del D.S. 023-2025-PCM en El Peruano/gob.pe; se mantiene la copia íntegra de la separata."
+   },
+   {
+    "especialidad": "seguridad",
+    "severidad": "baja",
+    "hallazgo": "Datos de incidentes en los análisis ex post.",
+    "accion": "corregido",
+    "nota": "Art. 4.3: publicación agregada sin identificar entidades ni sistemas."
+   },
+   {
+    "especialidad": "derecho_tecnologico",
+    "severidad": "baja",
+    "hallazgo": "Remitir al régimen de datos abiertos, licencia y anonimización.",
+    "accion": "corregido",
+    "nota": "Art. 4.3: régimen general de datos abiertos, licencia abierta, anonimización y evaluación de reidentificación."
+   }
+  ]
+ },
+ {
+  "id": "GOB-16",
+  "eje": "gob",
+  "titulo": "Resolución Legislativa del Congreso que modifica el Reglamento del Congreso de la República para incorporar la evaluación tecnológica y prospectiva en el servicio parlamentario y el seguimiento de las cláusulas de revisión, con resoluciones legislativas conexas que modifican los Reglamentos de la Cámara de Diputados y del Senado sobre el contenido de los dictámenes",
+  "titulo_corto": "Evaluación tecnológica en el Congreso",
+  "sumilla": "Tres resoluciones legislativas coordinadas —no una ley, pues la organización y el procedimiento del Congreso están reservados a sus reglamentos (art. 94 de la Constitución)—. En el Reglamento del Congreso: añade la evaluación tecnológica y prospectiva a los servicios especializados (art. 110), incorpora la Oficina de Evaluación Tecnológica y Prospectiva como unidad de la Dirección General de Servicios Especializados con un consejo consultivo ad honorem (arts. 110-A y 110-B) y regula como procedimiento común el seguimiento de las cláusulas de revisión (art. 82-A). En los reglamentos de cada cámara (art. 137 de Diputados y art. 140 del Senado): el dictamen de las leyes cuyo objeto principal es regular tecnologías digitales o emergentes evalúa una cláusula de revisión de tres a cinco años. No crea pliego ni organismo: se implementa con personal y presupuesto del pliego Congreso.",
+  "problema": "Con el retorno a la bicameralidad (Ley 31988), el Reglamento del Congreso (Resolución Legislativa 004-2025-2026-CR) organiza un servicio parlamentario único, imparcial y políticamente neutral (art. 101), cuya Dirección General de Servicios Especializados gestiona asesoría jurídica, investigación parlamentaria, biblioteca y calidad legislativa, entre otros servicios (art. 110). Los reglamentos de la Cámara de Diputados (art. 137) y del Senado (art. 140) ya exigen que los dictámenes incluyan un análisis costo-beneficio, pero no existe una función específica de evaluación tecnológica ni de prospectiva: las comisiones dictaminan iniciativas sobre inteligencia artificial, datos, ciberseguridad o telecomunicaciones sin un insumo técnico estandarizado sobre su viabilidad, sus costos de cumplimiento y la evolución previsible de la tecnología. Tampoco hay una regla que obligue a revisar las leyes tecnológicas al cabo de pocos años. En el Poder Ejecutivo, el análisis de impacto regulatorio ex ante y ex post solo obliga a las entidades del Poder Ejecutivo (art. 6.1 del Decreto Supremo 023-2025-PCM), no al Congreso. Los parlamentos que legislan sobre tecnología cuentan con oficinas técnicas permanentes y neutrales: el panel STOA del Parlamento Europeo (creado en 1987) y la Oficina de Evaluación Tecnológica del Bundestag (TAB), entre otras oficinas articuladas en la red europea EPTA. El Perú puede hacerlo sin crear pliego, como unidad del servicio parlamentario.",
+  "objeto": "Dotar al Congreso de una capacidad técnica permanente de evaluación tecnológica y prospectiva dentro del servicio parlamentario y establecer la evaluación de cláusulas de revisión en las leyes sobre tecnologías, con su seguimiento público.",
+  "articulado": [
+   {
+    "n": "Artículo 1",
+    "titulo": "Objeto",
+    "texto": "La presente propuesta tiene por objeto modificar el Reglamento del Congreso de la República, aprobado por Resolución Legislativa 004-2025-2026-CR, para incorporar la evaluación tecnológica y prospectiva en el servicio parlamentario y el seguimiento común de las cláusulas de revisión, y, mediante resoluciones legislativas conexas de cada cámara, incorporar la evaluación de dichas cláusulas en el contenido de los dictámenes."
+   },
+   {
+    "n": "Artículo 2",
+    "titulo": "Incorporación del artículo 82-A al Reglamento del Congreso de la República",
+    "texto": "Se incorpora el artículo 82-A al Reglamento del Congreso de la República, en los términos siguientes:\n«Artículo 82-A. Seguimiento de las cláusulas de revisión\n82-A.1. Constituye procedimiento parlamentario común a ambas cámaras el seguimiento de las leyes que contienen cláusula de revisión. La Oficina de Evaluación Tecnológica y Prospectiva lleva su registro público y comunica a las comisiones competentes de ambas cámaras, con seis meses de anticipación, el vencimiento de cada plazo de revisión.\n82-A.2. Al vencer el plazo de revisión, la Oficina remite a las comisiones competentes de ambas cámaras un informe de evaluación que integra la información remitida por las entidades obligadas, incluidos los análisis de impacto regulatorio ex post del Poder Ejecutivo cuando existan. La obligación de reporte de las entidades del Poder Ejecutivo se establece en la ley que contiene la cláusula de revisión; en su defecto, las comisiones solicitan la información conforme al artículo 96 de la Constitución Política del Perú.\n82-A.3. El informe se publica y cada comisión lo debate dentro de los sesenta días calendario siguientes a su recepción; sus miembros pueden presentar las proposiciones de modificación o derogación que estimen pertinentes.\n82-A.4. La cláusula de revisión no produce la pérdida de vigencia de la ley, salvo disposición expresa de esta.»"
+   },
+   {
+    "n": "Artículo 3",
+    "titulo": "Modificación del artículo 110 del Reglamento del Congreso de la República",
+    "texto": "Se modifica el artículo 110 del Reglamento del Congreso de la República, en los términos siguientes:\n«Artículo 110. Dirección General de Servicios Especializados\nLa Dirección General de Servicios Especializados es un órgano de alta dirección del servicio parlamentario. Está a cargo de un funcionario denominado director general de servicios especializados.\nSu finalidad es la administración y gestión de los servicios especializados de asesoría jurídica, comunicaciones, protocolo y asuntos interparlamentarios, participación y enlace con la ciudadanía, investigación parlamentaria, evaluación tecnológica y prospectiva, biblioteca, seguridad, calidad legislativa, protección del patrimonio cultural del Congreso y otros servicios que determine la Comisión Directiva del Congreso, a cargo de las unidades administrativas competentes del servicio parlamentario.\nLas funciones de la Dirección General de Servicios Especializados se encuentran previstas en el presente reglamento, en el Estatuto del Servicio Parlamentario, en el Reglamento de Organización y Funciones del Servicio Parlamentario y en otros instrumentos de gestión.»"
+   },
+   {
+    "n": "Artículo 4",
+    "titulo": "Incorporación del artículo 110-A al Reglamento del Congreso de la República",
+    "texto": "Se incorpora el artículo 110-A al Reglamento del Congreso de la República, en los términos siguientes:\n«Artículo 110-A. Oficina de Evaluación Tecnológica y Prospectiva\n110-A.1. La Oficina de Evaluación Tecnológica y Prospectiva es una unidad orgánica de la Dirección General de Servicios Especializados que brinda a ambas cámaras, a sus órganos y a los parlamentarios apoyo técnico imparcial y políticamente neutral sobre ciencia, tecnología e innovación.\n110-A.2. Son funciones de la Oficina:\na) Elaborar y publicar notas técnicas breves, de libre acceso, sobre tecnologías emergentes, sus usos, riesgos e impactos sociales, económicos y jurídicos.\nb) Emitir, a solicitud de la Mesa Directiva de cualquiera de las cámaras o del presidente de una comisión, un análisis técnico de las proposiciones legislativas que regulen tecnologías, que comprenda su viabilidad técnica, las condiciones para su implementación, los costos de cumplimiento estimados, en especial para las micro y pequeñas empresas, los riesgos, su relación con las normas vigentes, su neutralidad tecnológica, su compatibilidad con las normas técnicas internacionales y nacionales pertinentes y con el marco de interoperabilidad del Estado, su impacto en la protección de datos personales y la experiencia comparada. El análisis se emite en un plazo no mayor de treinta días calendario y su solicitud no suspende los plazos de dictamen previstos en los reglamentos de cada cámara.\nc) Elaborar, al inicio de cada periodo parlamentario y con actualización a su mitad, un informe de horizonte prospectivo sobre las tendencias tecnológicas con incidencia legislativa en los diez años siguientes.\nd) Llevar el registro público y el seguimiento de las leyes que contienen cláusula de revisión, conforme al artículo 82-A.\ne) Celebrar, a través de los órganos competentes del servicio parlamentario, convenios de cooperación sin contraprestación con universidades, institutos públicos de investigación, el Consejo Nacional de Ciencia, Tecnología e Innovación y entidades del Poder Ejecutivo, para acceder a información y a opinión experta.\n110-A.3. Los productos de la Oficina son técnicos y no vinculantes, no se pronuncian sobre la conveniencia política de las iniciativas, identifican sus fuentes y métodos y se publican en formato abierto en el portal web institucional. Quienes los elaboran y los expertos consultados declaran previamente sus conflictos de intereses. Los productos no incluyen información clasificada ni detalles técnicos de vulnerabilidades no corregidas; cuando un análisis requiera información clasificada, se tramita a través de la comisión competente en materia de inteligencia conforme a las normas del Sistema de Inteligencia Nacional, y solo se publica una versión no clasificada.\n110-A.4. El personal de la Oficina pertenece al servicio parlamentario y es seleccionado por mérito conforme al Estatuto del Servicio Parlamentario.»"
+   },
+   {
+    "n": "Artículo 5",
+    "titulo": "Incorporación del artículo 110-B al Reglamento del Congreso de la República",
+    "texto": "Se incorpora el artículo 110-B al Reglamento del Congreso de la República, en los términos siguientes:\n«Artículo 110-B. Consejo consultivo de evaluación tecnológica\n110-B.1. La Oficina de Evaluación Tecnológica y Prospectiva cuenta con un consejo consultivo de hasta siete miembros ad honorem, provenientes de universidades, academias científicas, colegios profesionales y organizaciones de la sociedad civil, designados por la Comisión Directiva del Congreso por un periodo de dos años, con criterios de idoneidad, pluralidad y equilibrio territorial y de género.\n110-B.2. El consejo consultivo propone temas para las notas técnicas y el informe prospectivo y revisa la calidad metodológica de los productos de la Oficina, sin intervenir en los análisis de proposiciones específicas.\n110-B.3. Sus miembros presentan declaración jurada de intereses, que se publica, y se abstienen en los asuntos en los que tengan conflicto de intereses. Su participación no genera retribución alguna.»"
+   },
+   {
+    "n": "Artículo 6",
+    "titulo": "Modificación del artículo 137 del Reglamento de la Cámara de Diputados (resolución legislativa conexa)",
+    "texto": "Mediante resolución legislativa de la Cámara de Diputados, se modifica el artículo 137 del Reglamento de la Cámara de Diputados, aprobado por Resolución Legislativa 005-2025-2026-CR, en los términos siguientes:\n«Artículo 137. Estructura básica de un dictamen\nLos dictámenes deben contener los siguientes requisitos:\na) La exposición debidamente sustentada del problema público que se pretende resolver, la evidencia que lo sustenta y la determinación de los actores y grupos de interés que se verían afectados directa o indirectamente.\nb) El objetivo general y los objetivos específicos consistentes con el problema público que se pretende resolver.\nc) Una sumilla de las opiniones técnicas solicitadas y recibidas, y las que hubieran hecho llegar los ciudadanos y sus organizaciones.\nd) La referencia al estudio de antecedentes legislativos o normas relacionadas.\ne) El efecto de la propuesta sobre la legislación nacional, con precisión de las normas cuya derogación o modificación se propone.\nf) La ponderación del impacto de la futura norma legal, realizada conforme al análisis costo-beneficio que incluya la identificación de los actores y grupos de interés que se verían afectados por la futura norma legal, los efectos monetarios y no monetarios de la propuesta, el impacto económico y, cuando corresponda, el impacto presupuestal. Cuando corresponda, la evaluación de impactos considera también los impactos ambientales.\ng) Conclusión y la fórmula legal propuesta.\nLos dictámenes de ley y de resolución legislativa deben considerar los criterios de técnica y calidad legislativa.\nCuando la proposición de ley tenga por objeto principal regular el diseño, la provisión, el uso o la seguridad de tecnologías digitales, la biotecnología u otras tecnologías emergentes, el dictamen evalúa además la inclusión de una cláusula de revisión que fije un plazo de entre tres y cinco años para la evaluación de la ley, los indicadores de cumplimiento y la entidad obligada a reportar; si la comisión decide no incluirla, expone las razones en el dictamen. Para estos efectos, se entiende por tecnologías digitales las tecnologías de la información y las comunicaciones, incluidos los servicios digitales, el tratamiento automatizado de datos, los sistemas basados en inteligencia artificial, las telecomunicaciones, la identidad y la firma digitales, el comercio y los pagos electrónicos y la seguridad digital.»"
+   },
+   {
+    "n": "Artículo 7",
+    "titulo": "Modificación del artículo 140 del Reglamento del Senado (resolución legislativa conexa)",
+    "texto": "Mediante resolución legislativa del Senado, se modifica el artículo 140 del Reglamento del Senado, aprobado por Resolución Legislativa 006-2025-2026-CR, en los términos siguientes:\n«Artículo 140. Estructura básica de los dictámenes\nLos dictámenes deben incluir como mínimo lo siguiente:\na) La exposición debidamente sustentada del problema público que se pretende resolver, la evidencia que lo sustenta y la determinación de los actores y grupos de interés que se verían afectados directa o indirectamente.\nb) El objetivo general y los objetivos específicos consistentes con el problema que se pretende resolver.\nc) Una sumilla de las opiniones técnicas solicitadas y recibidas, y las que hubieran hecho llegar los ciudadanos y sus organizaciones.\nd) La referencia al estudio de antecedentes legislativos o normas relacionadas.\ne) El efecto de la propuesta sobre la legislación nacional, con precisión de las normas cuya derogación o modificación se propone.\nf) La ponderación del impacto de la futura norma legal, realizada conforme al análisis costo-beneficio que incluya la identificación de los actores y grupos de interés que se verían afectados por la futura norma legal, los efectos monetarios y no monetarios de la propuesta, el impacto económico y, cuando corresponda, el impacto presupuestal. Cuando corresponda, la evaluación de impactos considera también los impactos ambientales.\ng) Conclusión y la fórmula legal propuesta.\nLos dictámenes de ley y de resolución legislativa deben considerar los criterios de técnica y calidad legislativa.\nCuando la proposición de ley tenga por objeto principal regular el diseño, la provisión, el uso o la seguridad de tecnologías digitales, la biotecnología u otras tecnologías emergentes, el dictamen evalúa además la inclusión de una cláusula de revisión que fije un plazo de entre tres y cinco años para la evaluación de la ley, los indicadores de cumplimiento y la entidad obligada a reportar; si la comisión decide no incluirla, expone las razones en el dictamen. Para estos efectos, se entiende por tecnologías digitales las tecnologías de la información y las comunicaciones, incluidos los servicios digitales, el tratamiento automatizado de datos, los sistemas basados en inteligencia artificial, las telecomunicaciones, la identidad y la firma digitales, el comercio y los pagos electrónicos y la seguridad digital.»"
+   }
+  ],
+  "disposiciones": [
+   {
+    "tipo": "Complementaria Final",
+    "n": "Primera",
+    "texto": "Adecuación de los instrumentos de gestión. La Comisión Directiva del Congreso adecúa el Reglamento de Organización y Funciones del Servicio Parlamentario y los demás instrumentos de gestión a lo dispuesto en la presente resolución legislativa en un plazo de ciento ochenta días calendario contados desde su entrada en vigencia."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Segunda",
+    "texto": "Financiamiento. La implementación se financia con cargo al presupuesto institucional del pliego Congreso de la República, sin demandar recursos adicionales al Tesoro Público. La Oficina se conforma preferentemente con personal del servicio parlamentario reasignado de las unidades de investigación y documentación parlamentaria."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Tercera",
+    "texto": "Resoluciones legislativas conexas. Las modificaciones de los artículos 137 del Reglamento de la Cámara de Diputados y 140 del Reglamento del Senado se aprueban por cada cámara mediante resolución legislativa, conforme a su propio reglamento, y se tramitan en forma coordinada con la presente resolución legislativa."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Cuarta",
+    "texto": "Primer informe prospectivo. El primer informe de horizonte prospectivo se publica dentro de los doce meses siguientes a la adecuación de los instrumentos de gestión."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Quinta",
+    "texto": "Vigencia. La presente resolución legislativa entra en vigencia al día siguiente de su publicación en el diario oficial El Peruano."
+   }
+  ],
+  "costo_beneficio": "El costo es bajo y recae en el pliego Congreso: una unidad pequeña de analistas, conformada preferentemente con personal reasignado del servicio parlamentario, un consejo consultivo ad honorem y convenios sin contraprestación con universidades y el CONCYTEC. No crea pliego, organismo ni programa. Beneficios: dictámenes mejor informados sobre tecnologías complejas, menor riesgo de leyes inaplicables o costosas para las mipymes, una agenda de revisión que evita la obsolescencia de las leyes tecnológicas y productos públicos reutilizables por la ciudadanía y la academia. La vía de resolución legislativa respeta la reserva de Reglamento del artículo 94 de la Constitución y evita una ley que invada la autonomía organizativa del Congreso. Costo fiscal: bajo.",
+  "efecto_vigencia": "Resolución legislativa principal: modifica el artículo 110 e incorpora los artículos 82-A, 110-A y 110-B al Reglamento del Congreso de la República (Resolución Legislativa 004-2025-2026-CR; la edición oficial de mayo de 2026 no contiene artículos con sufijo literal, por lo que la numeración está libre). Su aprobación requiere el voto favorable de más de la mitad del número legal de miembros de cada cámara (art. 80 del Reglamento del Congreso). Resoluciones conexas: modifican el artículo 137 del Reglamento de la Cámara de Diputados (Resolución Legislativa 005-2025-2026-CR) y el artículo 140 del Reglamento del Senado (Resolución Legislativa 006-2025-2026-CR), que aprueba cada cámara según su reglamento (mayoría requerida por verificar en cada uno). Al no proceder la iniciativa ciudadana en resoluciones legislativas que modifican los reglamentos parlamentarios (art. 107 de la Constitución), la propuesta debe ser asumida y presentada por senadores o diputados (art. 78 del Reglamento del Congreso). El gasto se enmarca en la excepción del artículo 79 de la Constitución (presupuesto del propio Congreso). Es compatible con el artículo 8-A que propone GOB-06.",
+  "normas_relacionadas": [
+   {
+    "norma": "Reglamento del Congreso de la República (Resolución Legislativa 004-2025-2026-CR), arts. 37, 78-82, 101-103 y 110",
+    "url": "https://www.congreso.gob.pe/wp-content/uploads/2026/07/Reglamento-del-Congreso-de-la-Republica-1.pdf"
+   },
+   {
+    "norma": "Reglamento de la Cámara de Diputados (Resolución Legislativa 005-2025-2026-CR), art. 137 (estructura del dictamen)",
+    "url": "https://www.congreso.gob.pe/wp-content/uploads/2026/07/Reglamento-de-la-Camara-de-Diputados.pdf"
+   },
+   {
+    "norma": "Reglamento del Senado (Resolución Legislativa 006-2025-2026-CR), art. 140 (estructura de los dictámenes)",
+    "url": "https://www.congreso.gob.pe/wp-content/uploads/2026/07/Reglamento-del-Senado-de-la-Republica.pdf"
+   },
+   {
+    "norma": "Decreto Supremo 023-2025-PCM, Reglamento del Decreto Legislativo 1565 (art. 6, ámbito limitado al Poder Ejecutivo)",
+    "url": "https://img.lpderecho.pe/wp-content/uploads/2025/02/Decreto-Supremo-023-2025-PCM-LPDerecho.pdf"
+   }
+  ],
+  "antecedentes": "Por verificar en SPLEY.",
+  "referencias_internacionales": [
+   {
+    "pais": "Unión Europea",
+    "norma": "Panel para el Futuro de la Ciencia y la Tecnología (STOA) del Parlamento Europeo, creado en 1987",
+    "url": "https://www.europarl.europa.eu/stoa/"
+   },
+   {
+    "pais": "Alemania",
+    "norma": "Oficina de Evaluación Tecnológica del Bundestag (TAB)",
+    "url": "https://www.tab-beim-bundestag.de/"
+   },
+   {
+    "pais": "Internacional",
+    "norma": "Red Europea de Evaluación Tecnológica Parlamentaria (EPTA)",
+    "url": "https://eptanetwork.org/"
+   }
+  ],
+  "comision_sugerida": "Constitución, Reglamento y Relaciones Exteriores",
+  "comision_secundaria": "Ciencia, Innovación Tecnológica y Sociedad Digital",
+  "plan2050": [
+   "parlamento-academico",
+   "ciencia-y-tecnologia",
+   "institucionalidad"
+  ],
+  "ods": [
+   9,
+   16
+  ],
+  "prioridad": "media",
+  "costo_fiscal": "bajo",
+  "plazo": "corto",
+  "indicador_exito": "Al 2031, la Oficina opera con su informe prospectivo publicado, al menos 40 notas técnicas y análisis de proposiciones en formato abierto, y el 100 % de los dictámenes de leyes tecnológicas evalúa la cláusula de revisión, según el portal del Congreso.",
+  "tags": [
+   "Congreso",
+   "prospectiva",
+   "evaluación tecnológica",
+   "cláusula de revisión",
+   "calidad legislativa"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Congreso de la República — Reglamento del Congreso de la República, edición oficial (mayo 2026)",
+    "url": "https://www.congreso.gob.pe/wp-content/uploads/2026/07/Reglamento-del-Congreso-de-la-Republica-1.pdf"
+   },
+   {
+    "titulo": "Parlamento Europeo — Panel for the Future of Science and Technology (STOA)",
+    "url": "https://www.europarl.europa.eu/stoa/"
+   },
+   {
+    "titulo": "European Parliamentary Technology Assessment network (EPTA)",
+    "url": "https://eptanetwork.org/"
+   },
+   {
+    "titulo": "Bundestag — Büro für Technikfolgen-Abschätzung (TAB)",
+    "url": "https://www.tab-beim-bundestag.de/"
+   }
+  ],
+  "implicados": {
+   "normas_modificadas": [
+    {
+     "norma": "Reglamento del Congreso de la República (Resolución Legislativa 004-2025-2026-CR)",
+     "articulo": "art. 110",
+     "accion": "modifica",
+     "url": "https://www.congreso.gob.pe/wp-content/uploads/2026/07/Reglamento-del-Congreso-de-la-Republica-1.pdf"
+    },
+    {
+     "norma": "Reglamento del Congreso de la República (Resolución Legislativa 004-2025-2026-CR)",
+     "articulo": "arts. 82-A, 110-A y 110-B",
+     "accion": "incorpora",
+     "url": "https://www.congreso.gob.pe/wp-content/uploads/2026/07/Reglamento-del-Congreso-de-la-Republica-1.pdf"
+    },
+    {
+     "norma": "Reglamento de la Cámara de Diputados (Resolución Legislativa 005-2025-2026-CR)",
+     "articulo": "art. 137",
+     "accion": "modifica",
+     "url": "https://www.congreso.gob.pe/wp-content/uploads/2026/07/Reglamento-de-la-Camara-de-Diputados.pdf"
+    },
+    {
+     "norma": "Reglamento del Senado (Resolución Legislativa 006-2025-2026-CR)",
+     "articulo": "art. 140",
+     "accion": "modifica",
+     "url": "https://www.congreso.gob.pe/wp-content/uploads/2026/07/Reglamento-del-Senado-de-la-Republica.pdf"
+    }
+   ],
+   "entidades": [
+    {
+     "entidad": "Comisión Directiva del Congreso",
+     "sigla": "",
+     "sector": "Congreso",
+     "rol": "reglamentadora",
+     "responsabilidad": "Adecúa el ROF del servicio parlamentario y designa el consejo consultivo (art. 110-B; DCF Primera)."
+    },
+    {
+     "entidad": "Dirección General de Servicios Especializados — Oficina de Evaluación Tecnológica y Prospectiva",
+     "sigla": "DGSE",
+     "sector": "Congreso",
+     "rol": "ejecutora",
+     "responsabilidad": "Notas técnicas, análisis de proposiciones, informe prospectivo y registro y seguimiento de cláusulas de revisión (arts. 110-A.2 y 82-A)."
+    },
+    {
+     "entidad": "Comisiones ordinarias del Senado y de la Cámara de Diputados",
+     "sigla": "",
+     "sector": "Congreso",
+     "rol": "regulada",
+     "responsabilidad": "Evalúan la cláusula de revisión en los dictámenes (art. 137 Diputados, art. 140 Senado) y debaten los informes de revisión (art. 82-A.3)."
+    },
+    {
+     "entidad": "Consejo Nacional de Ciencia, Tecnología e Innovación",
+     "sigla": "CONCYTEC",
+     "sector": "PCM",
+     "rol": "consultiva",
+     "responsabilidad": "Coopera mediante convenio con información y opinión experta (art. 110-A.2.e)."
+    }
+   ],
+   "sujetos_obligados": "Servicio parlamentario y comisiones del Congreso que dictaminan proposiciones sobre tecnologías.",
+   "beneficiarios": "Senadores, diputados y sus comisiones; ciudadanía, academia y empresas que acceden a los productos públicos de la Oficina."
+  },
+  "impacto": {
+   "tipo": "gasto",
+   "costo_estado": {
+    "rango": "S/ 1,5–2,5 millones/año (si no se cubre íntegramente con reasignación)",
+    "horizonte": "anual",
+    "supuestos": "Estimación del redactor, no oficial: 8 a 10 analistas y un jefe de unidad con remuneraciones mensuales de S/ 10 000 a S/ 15 000, catorce pagos al año, más gastos operativos menores; el costo neto baja en la medida en que se reasigne personal existente del servicio parlamentario.",
+    "financiamiento": "Presupuesto institucional del pliego Congreso de la República, sin demandar recursos adicionales al Tesoro Público."
+   },
+   "beneficio_estado": "Menos leyes inaplicables o que requieren corrección temprana; mejor coordinación con el análisis ex post del Poder Ejecutivo. No cuantificable con información pública.",
+   "beneficio_sociedad": "Leyes tecnológicas más implementables y actualizadas; información técnica pública y gratuita sobre tecnologías emergentes.",
+   "inversion_privada": "No aplica.",
+   "costo_privado": "Nulo.",
+   "riesgos": "Captura o percepción de sesgo si la selección no es meritocrática; productos ignorados si las comisiones no los solicitan; plazos de 30 días insuficientes para temas complejos; rotación de personal entre periodos parlamentarios.",
+   "confianza": "media"
+  },
+  "revision_atendida": [
+   {
+    "especialidad": "constitucional",
+    "severidad": "media",
+    "hallazgo": "Contenido del dictamen impuesto desde el Reglamento común con cláusula de concordancia.",
+    "accion": "corregido",
+    "nota": "Se sigue la opción preferente: la regla del dictamen pasa a resoluciones conexas que modifican el art. 137 del Reglamento de Diputados y el art. 140 del Reglamento del Senado (textos verificados en la edición oficial); el Reglamento común conserva la Oficina y el seguimiento."
+   },
+   {
+    "especialidad": "jurista",
+    "severidad": "media",
+    "hallazgo": "Ubicación sistemática de 3-A/3-B y dudas sobre su fuerza en cada cámara.",
+    "accion": "corregido",
+    "nota": "Eliminados 3-A y 3-B; la evaluación de la cláusula se incorpora como párrafo final en los arts. 137 (Diputados) y 140 (Senado), sin reordenar sus literales."
+   },
+   {
+    "especialidad": "normativo",
+    "severidad": "media",
+    "hallazgo": "Superposición con las normas de dictamen de cada cámara (DCF Tercera).",
+    "accion": "corregido",
+    "nota": "Opción A del revisor: DCF Tercera ahora regula la aprobación coordinada de las resoluciones conexas por cada cámara."
+   },
+   {
+    "especialidad": "constitucional",
+    "severidad": "baja",
+    "hallazgo": "Iniciativa: no procede la ciudadana en resoluciones legislativas reglamentarias.",
+    "accion": "corregido",
+    "nota": "efecto_vigencia cita el art. 107 de la Constitución y el art. 78 del Reglamento del Congreso."
+   },
+   {
+    "especialidad": "constitucional",
+    "severidad": "baja",
+    "hallazgo": "Reubicar 3-A/3-B fuera de las disposiciones generales.",
+    "accion": "corregido",
+    "nota": "El seguimiento se ubica como art. 82-A, a continuación del capítulo sobre autógrafas, numeración libre según la edición oficial."
+   },
+   {
+    "especialidad": "jurista",
+    "severidad": "baja",
+    "hallazgo": "Citas de arts. 78 y 80 sin cuerpo normativo; excepción del art. 79.",
+    "accion": "corregido",
+    "nota": "efecto_vigencia precisa 'del Reglamento del Congreso' y menciona la excepción del art. 79 de la Constitución."
+   },
+   {
+    "especialidad": "normativo",
+    "severidad": "baja",
+    "hallazgo": "Precisar cuerpo normativo de los arts. 78 y 80.",
+    "accion": "corregido",
+    "nota": "Ídem."
+   },
+   {
+    "especialidad": "jurista",
+    "severidad": "baja",
+    "hallazgo": "El Reglamento no puede imponer deberes de reporte al Ejecutivo.",
+    "accion": "corregido",
+    "nota": "Art. 82-A.2: el deber de reporte proviene de la ley con cláusula de revisión; en su defecto, pedido de información conforme al art. 96 de la Constitución."
+   },
+   {
+    "especialidad": "seguridad",
+    "severidad": "baja",
+    "hallazgo": "Información clasificada y vulnerabilidades en productos públicos.",
+    "accion": "corregido",
+    "nota": "Art. 110-A.3: exclusión de información clasificada y de vulnerabilidades no corregidas; trámite por la comisión competente en inteligencia y versión no clasificada."
+   },
+   {
+    "especialidad": "derecho_tecnologico",
+    "severidad": "baja",
+    "hallazgo": "Análisis técnico sin neutralidad tecnológica, normas técnicas, interoperabilidad y datos personales.",
+    "accion": "corregido",
+    "nota": "Incorporado en el art. 110-A.2 b)."
+   },
+   {
+    "especialidad": "derecho_tecnologico",
+    "severidad": "baja",
+    "hallazgo": "Definición de ámbito distinta de GOB-15/17/18.",
+    "accion": "corregido",
+    "nota": "Los arts. 137 y 140 modificados usan el criterio de objeto principal y la definición común de tecnologías digitales, más biotecnología y tecnologías emergentes como ámbito propio del Congreso."
+   }
+  ]
+ },
+ {
+  "id": "GOB-17",
+  "eje": "gob",
+  "titulo": "Ley que encarga a la Presidencia del Consejo de Ministros la función de seguimiento del cumplimiento de la agenda digital y establece el Tablero Público de Metas Digitales",
+  "titulo_corto": "Cumplimiento de la agenda digital",
+  "sumilla": "Sin crear pliego, órgano ni plazas, asigna a la PCM, a través de la Secretaría de Gobierno y Transformación Digital y en coordinación con el CEPLAN, la función de unidad de cumplimiento de la agenda digital: hasta quince metas prioritarias aprobadas por decreto supremo con refrendo de los sectores, con responsable, línea de base y trayectoria; rutinas trimestrales de seguimiento con los titulares de los sectores; planes de recuperación para metas en riesgo; y un tablero público en datos abiertos que muestra también el estado de reglamentación de las leyes digitales.",
+  "problema": "La Política Nacional de Transformación Digital al 2030 (Decreto Supremo 085-2023-PCM) fija objetivos y el Decreto de Urgencia 006-2020 creó el Sistema Nacional de Transformación Digital con la Secretaría de Gobierno y Transformación Digital de la PCM como ente rector; el CEPLAN, a su vez, hace seguimiento de las políticas nacionales. Sin embargo, ninguna norma establece una rutina de cumplimiento transversal para la agenda digital: un número acotado de metas con responsables identificados, revisiones periódicas con los titulares de los sectores, resolución de cuellos de botella y publicación del avance. Las metas digitales dependen de varios sectores a la vez —conectividad (MTC), escuelas (MINEDU), salud (MINSA), identidad (RENIEC)— y de que las leyes se reglamenten a tiempo. La experiencia peruana muestra los límites de hacerlo sin respaldo normativo: en enero de 2017 se presentó en la PCM una unidad de cumplimiento basada en el modelo británico, centrada en siete áreas prioritarias, y un estudio publicado en 2023 en la Revista de Estudios de Políticas Públicas de la Universidad de Chile concluye que, al depender del voluntarismo político y carecer de herramientas suficientes, resultó poco influyente. La Unión Europea, en cambio, fijó por decisión legislativa metas digitales a 2030 con indicadores y un informe anual público del estado de la Década Digital.",
+  "objeto": "Establecer, dentro de la estructura existente de la PCM, una función permanente de seguimiento del cumplimiento de la agenda digital con metas priorizadas, rutinas de seguimiento y un tablero público.",
+  "articulado": [
+   {
+    "n": "Artículo 1",
+    "titulo": "Objeto",
+    "texto": "La presente ley tiene por objeto encargar a la Presidencia del Consejo de Ministros la función de seguimiento del cumplimiento de la agenda digital y establecer el Tablero Público de Metas Digitales, sin crear órganos, pliegos ni plazas."
+   },
+   {
+    "n": "Artículo 2",
+    "titulo": "Definiciones",
+    "texto": "Para efectos de la presente ley se entiende por:\na) Agenda digital: conjunto de objetivos y metas de la Política Nacional de Transformación Digital, o la que haga sus veces, y de las normas vigentes cuyo objeto principal es regular el diseño, la provisión, el uso o la seguridad de tecnologías digitales, sin perjuicio de que la presente ley se aplique aun cuando dichas normas no existan.\nb) Metas digitales prioritarias: metas de la agenda digital seleccionadas conforme al artículo 4, con indicador, línea de base, trayectoria y responsable.\nc) Tecnologías digitales: las tecnologías de la información y las comunicaciones, incluidos los servicios digitales, el tratamiento automatizado de datos, los sistemas basados en inteligencia artificial, las telecomunicaciones, la identidad y la firma digitales, el comercio y los pagos electrónicos y la seguridad digital."
+   },
+   {
+    "n": "Artículo 3",
+    "titulo": "Función de seguimiento del cumplimiento",
+    "texto": "3.1. La Presidencia del Consejo de Ministros ejerce, a través de la Secretaría de Gobierno y Transformación Digital o del órgano que haga sus veces conforme a su Reglamento de Organización y Funciones, en coordinación con el Centro Nacional de Planeamiento Estratégico y con el órgano de la Presidencia del Consejo de Ministros a cargo del seguimiento de las prioridades de gobierno, la función de seguimiento del cumplimiento de la agenda digital.\n3.2. La función se ejerce con los órganos y el personal existentes. No implica la creación de órganos, unidades ejecutoras, pliegos ni plazas. La Presidencia del Consejo de Ministros puede adecuar sus instrumentos de organización para asignarla.\n3.3. La función no sustituye las competencias de los sectores ni el seguimiento de políticas nacionales a cargo del Centro Nacional de Planeamiento Estratégico; se articula con ellos y utiliza sus indicadores cuando existan."
+   },
+   {
+    "n": "Artículo 4",
+    "titulo": "Metas digitales prioritarias",
+    "texto": "4.1. Las metas digitales prioritarias, en número no mayor de quince, se aprueban mediante decreto supremo con el voto aprobatorio del Consejo de Ministros, refrendado por el presidente del Consejo de Ministros y por los ministros de los sectores responsables, dentro de los noventa días calendario siguientes al inicio de cada gobierno, y se actualizan anualmente por el mismo medio.\n4.2. Cada meta precisa el indicador, la línea de base, el valor esperado anual y a cinco años, la trayectoria trimestral, la entidad y el cargo responsable, la fuente de datos y su vinculación con la programación multianual presupuestaria de la entidad responsable.\n4.3. Las metas son consistentes con la Política Nacional de Transformación Digital y se financian con los presupuestos institucionales de las entidades responsables, sujetas a su disponibilidad presupuestal. Su aprobación no autoriza gasto adicional."
+   },
+   {
+    "n": "Artículo 5",
+    "titulo": "Rutinas de seguimiento",
+    "texto": "5.1. La Secretaría de Gobierno y Transformación Digital realiza, al menos una vez por trimestre, sesiones de seguimiento con el titular de cada entidad responsable de una meta digital prioritaria, en las que se revisan el avance, los riesgos, los cuellos de botella y los compromisos de acción, que constan en acta.\n5.2. Cuando una meta registra durante dos trimestres consecutivos un avance inferior a su trayectoria, la entidad responsable presenta un plan de recuperación dentro de los treinta días calendario siguientes.\n5.3. El presidente del Consejo de Ministros informa al Consejo de Ministros, al menos semestralmente, sobre el avance de las metas y las decisiones que requieren coordinación multisectorial."
+   },
+   {
+    "n": "Artículo 6",
+    "titulo": "Obligaciones de las entidades",
+    "texto": "6.1. Las entidades del Poder Ejecutivo responsables de metas digitales prioritarias designan como enlace a su Líder de Gobierno y Transformación Digital, o a quien haga sus veces, y reportan trimestralmente la información de avance a través de los mecanismos de interoperabilidad que defina la Secretaría de Gobierno y Transformación Digital. El reporte se realiza con autenticación de la entidad y registro de cada carga y modificación, conforme a los estándares de seguridad de la Plataforma de Interoperabilidad del Estado.\n6.2. Los organismos constitucionalmente autónomos y los gobiernos regionales y locales pueden incorporarse al seguimiento mediante convenio, en el marco de su autonomía."
+   },
+   {
+    "n": "Artículo 7",
+    "titulo": "Tablero Público de Metas Digitales",
+    "texto": "7.1. La Presidencia del Consejo de Ministros publica en la Plataforma Digital Única del Estado Peruano para Orientación al Ciudadano (GOB.PE) y, como conjunto de datos, en la Plataforma Nacional de Datos Abiertos, con licencia abierta e interfaz de programación documentada y versionada, conforme al régimen general de datos abiertos, el Tablero Público de Metas Digitales, actualizado al menos trimestralmente, con cada meta, su línea de base, trayectoria, avance, estado, entidad y cargo responsable, fuente y fecha de actualización.\n7.2. El Tablero incluye el estado de reglamentación e implementación de las leyes que integran la agenda digital, a partir del registro de reglamentación de leyes que administre el Poder Ejecutivo o, en su defecto, de la información que reporten las entidades.\n7.3. La metodología del Tablero se publica. Las modificaciones de metas, líneas de base o trayectorias se registran con su justificación y se conserva el historial de versiones.\n7.4. No se publica información clasificada como secreta, reservada o confidencial conforme al Texto Único Ordenado de la Ley 27806, Ley de Transparencia y Acceso a la Información Pública, aprobado por Decreto Supremo 021-2019-JUS. La información sobre seguridad digital se publica de forma agregada."
+   },
+   {
+    "n": "Artículo 8",
+    "titulo": "Informe anual",
+    "texto": "La Presidencia del Consejo de Ministros publica un informe anual de cumplimiento de la agenda digital y lo remite al Congreso de la República dentro del primer trimestre de cada año. El informe integra, cuando existan, la información sobre reglamentación de leyes digitales y sobre gasto en transformación digital que otras normas exijan reportar al Congreso, sin duplicar reportes. El secretario de Gobierno y Transformación Digital lo sustenta ante las comisiones ordinarias competentes de cada cámara cuando sea citado."
+   },
+   {
+    "n": "Artículo 9",
+    "titulo": "Evaluación de la función",
+    "texto": "A los tres años de la entrada en vigencia de la presente ley, la Presidencia del Consejo de Ministros publica una evaluación de la función de seguimiento del cumplimiento, que puede encargar mediante convenio a una universidad, y la remite al Congreso de la República con las propuestas de ajuste que correspondan."
+   }
+  ],
+  "disposiciones": [
+   {
+    "tipo": "Complementaria Final",
+    "n": "Primera",
+    "texto": "Reglamentación. El Poder Ejecutivo, mediante decreto supremo refrendado por el presidente del Consejo de Ministros, reglamenta la presente ley en un plazo de noventa días hábiles contados a partir del día siguiente de su publicación."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Segunda",
+    "texto": "Primeras metas. Las primeras metas digitales prioritarias se aprueban dentro de los ciento veinte días calendario siguientes a la entrada en vigencia del reglamento. El Tablero se publica dentro de los sesenta días calendario siguientes a su aprobación."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Tercera",
+    "texto": "Financiamiento. La implementación de la presente ley se financia con cargo al presupuesto institucional de la Presidencia del Consejo de Ministros y de las entidades involucradas, sin demandar recursos adicionales al Tesoro Público. La presente ley no autoriza la creación de plazas."
+   }
+  ],
+  "costo_beneficio": "La ley no crea órganos, pliegos ni plazas: la función se asigna a la Secretaría de Gobierno y Transformación Digital, que ya es ente rector del Sistema Nacional de Transformación Digital, en coordinación con el CEPLAN. El costo es un equipo reducido de análisis y el desarrollo del tablero sobre GOB.PE y la plataforma nacional de datos abiertos, financiados con el presupuesto institucional de la PCM. Las metas se financian dentro de los presupuestos sectoriales, sujetas a disponibilidad, por lo que la ley no impone gasto. Beneficios: responsables identificados, alertas tempranas sobre metas en riesgo, mejor coordinación multisectorial, menos leyes sin reglamentar y control ciudadano y parlamentario basado en datos públicos. Costo fiscal: bajo.",
+  "efecto_vigencia": "Complementa el Decreto de Urgencia 006-2020, que crea el Sistema Nacional de Transformación Digital, y la Política Nacional de Transformación Digital al 2030 (Decreto Supremo 085-2023-PCM), sin modificarlos. No modifica la Ley 29158, Ley Orgánica del Poder Ejecutivo, ni crea entidades; las metas se aprueban por decreto supremo multisectorial, conforme a su artículo 11, porque obligan a varios sectores: asigna una función a un órgano existente de la PCM. Ley ordinaria; no requiere votación de ley orgánica.",
+  "normas_relacionadas": [
+   {
+    "norma": "Decreto de Urgencia 006-2020, crea el Sistema Nacional de Transformación Digital",
+    "url": "https://www.gob.pe/institucion/pcm/normas-legales/395320-006-2020"
+   },
+   {
+    "norma": "Decreto Supremo 085-2023-PCM, Política Nacional de Transformación Digital al 2030",
+    "url": "https://busquedas.elperuano.pe/dispositivo/NL/2200457-5"
+   },
+   {
+    "norma": "TUO de la Ley 27806, Ley de Transparencia y Acceso a la Información Pública, aprobado por Decreto Supremo 021-2019-JUS",
+    "url": "https://sinia.minam.gob.pe/normas/texto-unico-ordenado-ley-ndeg-27806-ley-transparencia-acceso-informacion"
+   },
+   {
+    "norma": "Ley 29158, Ley Orgánica del Poder Ejecutivo",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/29158.pdf"
+   }
+  ],
+  "antecedentes": "Por verificar en SPLEY.",
+  "referencias_internacionales": [
+   {
+    "pais": "Unión Europea",
+    "norma": "Decisión (UE) 2022/2481, programa estratégico de la Década Digital para 2030 (metas, indicadores e informe anual sobre el estado de la Década Digital)",
+    "url": "https://eur-lex.europa.eu/eli/dec/2022/2481/oj"
+   },
+   {
+    "pais": "Canadá",
+    "norma": "Policy on Results (Treasury Board, 2016)",
+    "url": "https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=31300"
+   }
+  ],
+  "comision_sugerida": "Modernización de la Gestión del Estado y Contraloría",
+  "comision_secundaria": "Ciencia, Innovación Tecnológica y Sociedad Digital",
+  "plan2050": [
+   "transformacion-digital",
+   "reforma-del-estado",
+   "peru-en-la-era-digital"
+  ],
+  "ods": [
+   9,
+   16,
+   17
+  ],
+  "prioridad": "alta",
+  "costo_fiscal": "bajo",
+  "plazo": "corto",
+  "indicador_exito": "Al 2031, el Tablero Público de Metas Digitales se ha actualizado trimestralmente sin interrupciones, cuatro informes anuales han sido remitidos al Congreso y al menos el 70 % de las metas digitales prioritarias alcanza su valor anual esperado, según el propio Tablero.",
+  "tags": [
+   "agenda digital",
+   "unidad de cumplimiento",
+   "PCM",
+   "transparencia",
+   "datos abiertos"
+  ],
+  "fuentes": [
+   {
+    "titulo": "GOV.UK — Sir Michael Barber advises Peru's new Delivery Unit to deliver tangible results (2017)",
+    "url": "https://www.gov.uk/government/news/sir-michael-barber-advises-perus-new-delivery-unit-to-deliver-tangible-results"
+   },
+   {
+    "titulo": "Revista de Estudios de Políticas Públicas (U. de Chile, 2023) — Creation of Delivery Unit as means to fulfill of Objectives in Peru: 2014-2021",
+    "url": "https://revistaschilenas.uchile.cl/handle/2250/230721"
+   },
+   {
+    "titulo": "BID, blog Gobernarte — De las promesas electorales al tablero de control",
+    "url": "https://blogs.iadb.org/administracion-publica/es/de-las-promesas-electorales-al-tablero-de-control"
+   },
+   {
+    "titulo": "EUR-Lex — Decisión (UE) 2022/2481 (Década Digital 2030)",
+    "url": "https://eur-lex.europa.eu/eli/dec/2022/2481/oj"
+   }
+  ],
+  "implicados": {
+   "normas_modificadas": [
+    {
+     "norma": "Decreto de Urgencia 006-2020, Sistema Nacional de Transformación Digital",
+     "articulo": "seguimiento de la agenda digital",
+     "accion": "complementa",
+     "url": "https://www.gob.pe/institucion/pcm/normas-legales/395320-006-2020"
+    },
+    {
+     "norma": "Decreto Supremo 085-2023-PCM, Política Nacional de Transformación Digital al 2030",
+     "articulo": "metas e indicadores",
+     "accion": "complementa",
+     "url": "https://busquedas.elperuano.pe/dispositivo/NL/2200457-5"
+    }
+   ],
+   "entidades": [
+    {
+     "entidad": "Presidencia del Consejo de Ministros — Secretaría de Gobierno y Transformación Digital",
+     "sigla": "PCM-SGTD",
+     "sector": "PCM",
+     "rol": "rectora",
+     "responsabilidad": "Ejerce la función de seguimiento, conduce las rutinas trimestrales y publica el Tablero y el informe anual (arts. 3, 5, 7, 8)."
+    },
+    {
+     "entidad": "Centro Nacional de Planeamiento Estratégico",
+     "sigla": "CEPLAN",
+     "sector": "PCM",
+     "rol": "consultiva",
+     "responsabilidad": "Coordina la consistencia de metas e indicadores con el seguimiento de políticas nacionales (arts. 3.1, 3.3)."
+    },
+    {
+     "entidad": "Consejo de Ministros, presidente del Consejo de Ministros y ministros de los sectores responsables",
+     "sigla": "",
+     "sector": "PCM",
+     "rol": "rectora",
+     "responsabilidad": "Aprueban y refrendan las metas por decreto supremo con voto aprobatorio del Consejo de Ministros y reciben el informe semestral (arts. 4.1, 5.3)."
+    },
+    {
+     "entidad": "Ministerios y organismos responsables de metas (MTC, MINEDU, MINSA, RENIEC, entre otros)",
+     "sigla": "",
+     "sector": "Varios",
+     "rol": "regulada",
+     "responsabilidad": "Designan enlace, reportan avance trimestral y presentan planes de recuperación (arts. 5.2, 6.1)."
+    }
+   ],
+   "sujetos_obligados": "Presidencia del Consejo de Ministros y entidades del Poder Ejecutivo responsables de metas digitales prioritarias.",
+   "beneficiarios": "Ciudadanía, Congreso, prensa y academia, que acceden a información verificable del avance de la agenda digital; sectores que obtienen coordinación multisectorial."
+  },
+  "impacto": {
+   "tipo": "neutro",
+   "costo_estado": {
+    "rango": "S/ 0,5–1,5 millones/año",
+    "horizonte": "anual",
+    "supuestos": "Estimación del redactor, no oficial: 4 a 8 analistas de la SGTD dedicados total o parcialmente a la función y mantenimiento del tablero sobre GOB.PE y la plataforma de datos abiertos; costo cubierto en gran parte con personal existente.",
+    "financiamiento": "Presupuesto institucional de la PCM, sin demandar recursos adicionales al Tesoro Público."
+   },
+   "beneficio_estado": "Mejor ejecución de metas digitales ya presupuestadas y detección temprana de bloqueos multisectoriales. No cuantificable con información pública.",
+   "beneficio_sociedad": "Transparencia sobre compromisos digitales del Estado y su cumplimiento; servicios digitales que llegan antes.",
+   "inversion_privada": "No aplica.",
+   "costo_privado": "Nulo.",
+   "riesgos": "Metas poco ambiciosas para mostrar cumplimiento (mitigado con historial de versiones y metodología pública); rotación de autoridades; sobrecarga de reportes si no se automatiza la interoperabilidad.",
+   "confianza": "media"
+  },
+  "revision_atendida": [
+   {
+    "especialidad": "jurista",
+    "severidad": "media",
+    "hallazgo": "Metas multisectoriales aprobadas por resolución ministerial de la PCM.",
+    "accion": "corregido",
+    "nota": "Art. 4.1: decreto supremo con voto aprobatorio del Consejo de Ministros, refrendado por el PCM y los ministros de los sectores responsables (art. 11 de la Ley 29158)."
+   },
+   {
+    "especialidad": "constitucional",
+    "severidad": "baja",
+    "hallazgo": "Fijar por ley el órgano interno de la PCM.",
+    "accion": "corregido",
+    "nota": "Art. 3.1 añade 'o del órgano que haga sus veces conforme a su Reglamento de Organización y Funciones'."
+   },
+   {
+    "especialidad": "jurista",
+    "severidad": "baja",
+    "hallazgo": "Comisión en singular pese a la bicameralidad.",
+    "accion": "corregido",
+    "nota": "Art. 8: comisiones ordinarias competentes de cada cámara."
+   },
+   {
+    "especialidad": "normativo",
+    "severidad": "baja",
+    "hallazgo": "Comisión en singular.",
+    "accion": "corregido",
+    "nota": "Ídem."
+   },
+   {
+    "especialidad": "jurista",
+    "severidad": "baja",
+    "hallazgo": "Definición de agenda digital dependiente de otras leyes.",
+    "accion": "corregido",
+    "nota": "Art. 2 a): normas vigentes, aplicable aun cuando no existan; se adopta la definición común de tecnologías digitales (art. 2 c)."
+   },
+   {
+    "especialidad": "normativo",
+    "severidad": "baja",
+    "hallazgo": "TUO de la Ley 27806 sin decreto aprobatorio y enlace a la ley original.",
+    "accion": "corregido",
+    "nota": "Art. 7.4 cita el D.S. 021-2019-JUS y normas_relacionadas enlaza el TUO (SINIA-MINAM)."
+   },
+   {
+    "especialidad": "seguridad",
+    "severidad": "baja",
+    "hallazgo": "Integridad de los datos reportados al tablero.",
+    "accion": "corregido",
+    "nota": "Art. 6.1: autenticación de la entidad y registro de cada carga y modificación."
+   },
+   {
+    "especialidad": "derecho_tecnologico",
+    "severidad": "baja",
+    "hallazgo": "Canal de publicación, licencia y documentación de la API.",
+    "accion": "corregido",
+    "nota": "Art. 7.1: Plataforma Nacional de Datos Abiertos, licencia abierta, API documentada y versionada, régimen general de datos abiertos."
+   },
+   {
+    "especialidad": "derecho_tecnologico",
+    "severidad": "baja",
+    "hallazgo": "Duplicidad con otros reportes de la PCM al Congreso.",
+    "accion": "corregido",
+    "nota": "Art. 8 integra la información de reglamentación de leyes digitales y de gasto digital que otras normas exijan, sin duplicar reportes, sin remitir a propuestas no aprobadas."
+   }
+  ]
+ },
+ {
+  "id": "GOB-18",
+  "eje": "gob",
+  "titulo": "Ley que modifica el artículo 13 de la Ley 29158, Ley Orgánica del Poder Ejecutivo, para establecer plazos de reglamentación de cumplimiento obligatorio y el reporte semestral al Congreso sobre la reglamentación e implementación de las leyes",
+  "titulo_corto": "Reglamentación a tiempo",
+  "sumilla": "Con votación de ley orgánica, modifica el artículo 13 de la Ley Orgánica del Poder Ejecutivo: plazo supletorio de noventa días hábiles cuando la ley o la norma con rango de ley no fija uno, carácter obligatorio del plazo sin que su vencimiento extinga la potestad reglamentaria ni invalide el reglamento tardío (art. 118.8 de la Constitución), prórroga única y motivada de hasta cuarenta y cinco días hábiles comunicada al Congreso, aplicación inmediata de lo que no requiere reglamento e informe del ministro al Congreso cuando el plazo vence. Tipifica el incumplimiento injustificado como negligencia (literal d del art. 85 de la Ley 30057) y crea un registro público de reglamentación y un reporte semestral al Congreso, con un capítulo sobre las leyes digitales.",
+  "problema": "La reglamentación tardía es una de las principales brechas de implementación de las leyes en el Perú. El artículo 13 de la Ley 29158 solo dispone que los reglamentos 'se aprueban, dentro del plazo establecido, mediante decreto supremo', sin plazo supletorio ni consecuencia alguna por su incumplimiento. El Departamento de Investigación y Documentación Parlamentaria del Congreso informó en noviembre de 2022 que había 30 leyes pendientes de reglamentación del periodo 2021-2022, de las cuales 15 ya habían superado el plazo fijado. Un estudio publicado en 2025 en la Revista de Direito Sanitário (Universidad de São Paulo) halló que, de 21 leyes y decretos legislativos de salud analizados, solo 3 (14,3 %) fueron reglamentados, todos fuera de plazo, sin controles institucionalizados ante el incumplimiento. En las leyes digitales el problema se agrava, porque la tecnología cambia antes de que el reglamento llegue. El Congreso publica reportes de leyes pendientes de reglamentación, pero el Poder Ejecutivo no tiene la obligación de mantener un registro propio, explicar los retrasos ni informar periódicamente sobre la implementación.",
+  "objeto": "Establecer plazos supletorios y de cumplimiento obligatorio de reglamentación, consecuencias por su incumplimiento y mecanismos de transparencia y reporte al Congreso sobre la reglamentación e implementación de las leyes, con atención especial a las leyes digitales.",
+  "articulado": [
+   {
+    "n": "Artículo 1",
+    "titulo": "Objeto",
+    "texto": "La presente ley tiene por objeto establecer plazos de reglamentación de cumplimiento obligatorio de las leyes, un registro público de reglamentación y un reporte semestral al Congreso de la República sobre la reglamentación e implementación de las leyes, con un capítulo especial sobre las leyes digitales."
+   },
+   {
+    "n": "Artículo 2",
+    "titulo": "Modificación del artículo 13 de la Ley 29158, Ley Orgánica del Poder Ejecutivo",
+    "texto": "Se modifica el artículo 13 de la Ley 29158, Ley Orgánica del Poder Ejecutivo, en los términos siguientes:\n«Artículo 13.- Potestad reglamentaria\nLa potestad reglamentaria del Presidente de la República se sujeta a las siguientes normas:\n1. El proyecto de norma reglamentaria es elaborado por la entidad competente. Se tramita acompañado de la exposición de motivos, los informes, estudios y consultas realizados.\n2. Los reglamentos se ajustan a los principios de competencia, transparencia y jerarquía. No pueden transgredir ni desnaturalizar la ley. Se aprueban, dentro del plazo establecido, mediante decreto supremo, salvo disposición expresa con rango de ley.\n3. Los proyectos de reglamento se publican en el portal electrónico respectivo y por no menos de cinco (5) días calendario, para recibir aportes de la ciudadanía, cuando así lo requiera la Ley.\n4. Cuando la ley o la norma con rango de ley no establece plazo para su reglamentación, el reglamento se aprueba en un plazo máximo de noventa (90) días hábiles contados desde el día siguiente de su publicación. El plazo fijado por la norma o, en su defecto, el previsto en el presente numeral es de cumplimiento obligatorio. Su vencimiento no extingue la potestad reglamentaria ni afecta la validez del reglamento aprobado con posterioridad; genera las obligaciones de información previstas en el numeral 7 y las responsabilidades que establece la ley.\n5. El plazo de reglamentación puede prorrogarse por una sola vez y hasta por cuarenta y cinco (45) días hábiles, mediante decreto supremo motivado publicado antes de su vencimiento, que expone las causas y el estado de avance del proyecto. La prórroga se comunica al Congreso de la República dentro de los tres (3) días hábiles siguientes a su publicación.\n6. La falta de reglamentación no impide la aplicación de las disposiciones de la ley que no requieren desarrollo reglamentario para su ejecución.\n7. Vencido el plazo de reglamentación sin que se haya aprobado el reglamento, el ministro del sector responsable de su elaboración informa por escrito al Congreso de la República, dentro de los quince (15) días hábiles siguientes, sobre las causas del incumplimiento y la fecha comprometida de aprobación, sin perjuicio de la responsabilidad política que corresponda. El vencimiento del plazo no afecta la validez del reglamento que se apruebe con posterioridad.»"
+   },
+   {
+    "n": "Artículo 3",
+    "titulo": "Registro Público de Reglamentación de Leyes",
+    "texto": "3.1. La Presidencia del Consejo de Ministros, en coordinación con el Ministerio de Justicia y Derechos Humanos, administra el Registro Público de Reglamentación de Leyes, que se publica en la Plataforma Digital Única del Estado Peruano para Orientación al Ciudadano (GOB.PE) en formato abierto y mediante interfaz de programación.\n3.2. El Registro contiene, por cada ley, decreto legislativo o decreto de urgencia que ordena su reglamentación: las disposiciones que requieren desarrollo reglamentario, la entidad responsable, el plazo, la prórroga si la hubiera, el estado del proyecto —sin proyecto, publicado para comentarios, en análisis de impacto regulatorio, en refrendo o aprobado— y el decreto supremo aprobatorio.\n3.3. Las entidades responsables actualizan la información dentro de los cinco días hábiles siguientes a cada cambio de estado.\n3.4. Respecto de los reglamentos o anexos clasificados conforme a las excepciones del Texto Único Ordenado de la Ley 27806, Ley de Transparencia y Acceso a la Información Pública, aprobado por Decreto Supremo 021-2019-JUS, el Registro consigna únicamente el cumplimiento del plazo y la fecha de aprobación.\n3.5. El Registro usa identificadores normalizados de las normas (tipo, número, año y enlace permanente al Sistema Peruano de Información Jurídica y a la edición oficial del diario oficial El Peruano), se publica con licencia abierta y con un esquema de datos documentado, y se integra con el Sistema Peruano de Información Jurídica a cargo del Ministerio de Justicia y Derechos Humanos."
+   },
+   {
+    "n": "Artículo 4",
+    "titulo": "Reporte semestral al Congreso de la República",
+    "texto": "4.1. La Presidencia del Consejo de Ministros remite al Congreso de la República, a más tardar el 31 de marzo y el 30 de setiembre de cada año, un reporte sobre la reglamentación e implementación de las leyes, que comprende como mínimo: a) las leyes con plazo de reglamentación vencido y las causas de cada retraso; b) las leyes cuyo plazo vence en los noventa días calendario siguientes; c) las prórrogas aprobadas; y d) el capítulo de leyes digitales previsto en el artículo 5.\n4.2. El reporte se publica en GOB.PE en la misma fecha de su remisión."
+   },
+   {
+    "n": "Artículo 5",
+    "titulo": "Capítulo de leyes digitales",
+    "texto": "5.1. Para efectos de la presente ley, son leyes digitales las normas con rango de ley cuyo objeto principal es regular el diseño, la provisión, el uso o la seguridad de tecnologías digitales. Se entiende por tecnologías digitales las tecnologías de la información y las comunicaciones, incluidos los servicios digitales, el tratamiento automatizado de datos, los sistemas basados en inteligencia artificial, las telecomunicaciones, la identidad y la firma digitales, el comercio y los pagos electrónicos y la seguridad digital.\n5.2. El capítulo de leyes digitales informa el estado de su reglamentación y de sus normas complementarias pendientes; la información sobre metas e implementación se toma del mecanismo de seguimiento de la agenda digital a cargo de la Presidencia del Consejo de Ministros, cuando exista, sin duplicar reportes."
+   },
+   {
+    "n": "Artículo 6",
+    "titulo": "Responsabilidad",
+    "texto": "6.1. El incumplimiento injustificado del plazo de reglamentación sin prórroga aprobada, imputable al servidor o directivo responsable de elaborar el proyecto, constituye negligencia en el desempeño de las funciones para efectos del literal d) del artículo 85 de la Ley 30057, Ley del Servicio Civil, o de la falta equivalente del régimen al que pertenezca el servidor, y se considera en su evaluación de desempeño. La determinación de la responsabilidad corresponde a las autoridades del procedimiento administrativo disciplinario de la entidad, conforme a dicha ley.\n6.2. La omisión de los informes previstos en el numeral 7 del artículo 13 de la Ley 29158 y en el artículo 4 de la presente ley se comunica a las comisiones ordinarias competentes de ambas cámaras del Congreso de la República para el ejercicio de la función de control político."
+   },
+   {
+    "n": "Artículo 7",
+    "titulo": "Aplicación de los plazos",
+    "texto": "Lo dispuesto en los numerales 4 y 5 del artículo 13 de la Ley 29158 se aplica a las leyes publicadas a partir de la entrada en vigencia de la presente ley. Las leyes vigentes con plazo de reglamentación vencido se rigen por la Disposición Complementaria Transitoria Única."
+   }
+  ],
+  "disposiciones": [
+   {
+    "tipo": "Complementaria Final",
+    "n": "Primera",
+    "texto": "Implementación del Registro. El Registro Público de Reglamentación de Leyes se publica dentro de los noventa días calendario siguientes a la entrada en vigencia de la presente ley. El primer reporte semestral se remite en la primera fecha prevista en el artículo 4 que ocurra después de la publicación del Registro."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Segunda",
+    "texto": "Adecuación reglamentaria. El Poder Ejecutivo adecúa el Reglamento de la Ley 26889, Ley Marco para la Producción y Sistematización Legislativa, aprobado por Decreto Supremo 007-2022-JUS, a lo dispuesto en la presente ley, en un plazo de sesenta días hábiles, y deja sin efecto toda disposición reglamentaria que fije un plazo supletorio de reglamentación distinto del previsto en el numeral 4 del artículo 13 de la Ley 29158."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Tercera",
+    "texto": "Financiamiento. La implementación de la presente ley se financia con cargo al presupuesto institucional de las entidades involucradas, sin demandar recursos adicionales al Tesoro Público."
+   },
+   {
+    "tipo": "Complementaria Transitoria",
+    "n": "Única",
+    "texto": "Leyes con plazo vencido. Dentro de los sesenta días hábiles siguientes a la entrada en vigencia de la presente ley, la Presidencia del Consejo de Ministros publica el inventario de leyes con plazo de reglamentación vencido y un cronograma de aprobación de sus reglamentos, que no puede exceder de doce meses, y lo remite al Congreso de la República."
+   }
+  ],
+  "costo_beneficio": "El costo es bajo: el registro se construye sobre GOB.PE y la información que las entidades ya producen al tramitar sus proyectos de reglamento; el reporte semestral es un documento de gestión. No crea órganos ni plazas y se financia con presupuestos institucionales. El plazo supletorio de noventa días hábiles, cuyo vencimiento no invalida el reglamento tardío, es compatible con el análisis de impacto regulatorio ex ante y la prórroga única cubre los casos complejos. Beneficios: leyes que se aplican a tiempo, menor incertidumbre para ciudadanos y empresas, aplicación inmediata de las disposiciones autoaplicativas, control parlamentario basado en información verificable y trazabilidad pública de los retrasos. Costo fiscal: bajo.",
+  "efecto_vigencia": "Modifica el artículo 13 de la Ley 29158, Ley Orgánica del Poder Ejecutivo; por tratarse de una ley orgánica (art. 106 de la Constitución), requiere votación de ley orgánica en ambas cámaras. Los demás artículos son de naturaleza ordinaria pero se votan conjuntamente. Ordena adecuar el Reglamento de la Ley 26889 (Decreto Supremo 007-2022-JUS). Los numerales 1 a 3 del artículo 13 conservan su texto vigente según la publicación original de la Ley 29158; verificar en el SPIJ que no existan modificaciones posteriores antes del dictamen; si el dictamen de 2023 o el PL 8873/2024-CR se hubieran convertido en ley y ocupado los numerales 4 o 5, reenumerar sobre el texto vigente. La Ley 26889 no contiene un plazo supletorio de reglamentación en su texto original; la DCF Segunda deja sin efecto cualquier plazo supletorio reglamentario distinto. Concordancia con el literal d) del artículo 85 de la Ley 30057. No deroga normas.",
+  "normas_relacionadas": [
+   {
+    "norma": "Ley 29158, Ley Orgánica del Poder Ejecutivo (art. 13)",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/29158.pdf"
+   },
+   {
+    "norma": "Ley 26889, Ley Marco para la Producción y Sistematización Legislativa",
+    "url": "https://leyes.congreso.gob.pe/Documentos/Leyes/26889.pdf"
+   },
+   {
+    "norma": "Decreto Supremo 023-2025-PCM, Reglamento del Decreto Legislativo 1565 (AIR ex ante de los reglamentos)",
+    "url": "https://img.lpderecho.pe/wp-content/uploads/2025/02/Decreto-Supremo-023-2025-PCM-LPDerecho.pdf"
+   },
+   {
+    "norma": "Reglamento del Congreso de la República (Resolución Legislativa 004-2025-2026-CR), art. 4 (control político sobre los actos normativos del Poder Ejecutivo)",
+    "url": "https://www.congreso.gob.pe/wp-content/uploads/2026/07/Reglamento-del-Congreso-de-la-Republica-1.pdf"
+   },
+   {
+    "norma": "Ley 30057, Ley del Servicio Civil (art. 85, literal d)",
+    "url": "https://leyes.congreso.gob.pe/Documentos/Leyes/30057.pdf"
+   }
+  ],
+  "antecedentes": "Según nota de prensa del Congreso del 31-mar-2023, la Comisión de Constitución y Reglamento aprobó un dictamen que modificaba la Ley 29158 para fijar un plazo de reglamentación de las leyes (la nota menciona 90 días; el texto sustitutorio, 120 días hábiles); no consta que haya sido votado en el Pleno ni publicado como ley. Documentos de la Comisión de Constitución mencionan además un proyecto (PL 8873/2024-CR, según el revisor normativo) para sancionar el incumplimiento de plazos reglamentarios. Números, contenido y estado: por verificar en SPLEY.",
+  "referencias_internacionales": [
+   {
+    "pais": "España",
+    "norma": "Ley 50/1997, del Gobierno, arts. 25 (Plan Anual Normativo) y 28 (Informe anual de evaluación normativa)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1997-25336"
+   }
+  ],
+  "comision_sugerida": "Constitución, Reglamento y Relaciones Exteriores",
+  "comision_secundaria": "Modernización de la Gestión del Estado y Contraloría",
+  "plan2050": [
+   "institucionalidad",
+   "reforma-del-estado",
+   "transformacion-digital"
+  ],
+  "ods": [
+   16
+  ],
+  "prioridad": "alta",
+  "costo_fiscal": "bajo",
+  "plazo": "corto",
+  "indicador_exito": "Al 2031, al menos el 80 % de las leyes publicadas desde la vigencia de esta ley se reglamenta dentro del plazo legal o de su prórroga, y diez reportes semestrales han sido remitidos al Congreso, según el Registro Público de Reglamentación de Leyes.",
+  "tags": [
+   "reglamentación",
+   "control político",
+   "implementación",
+   "transparencia",
+   "Poder Ejecutivo"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Congreso de la República — Ejecutivo tiene 30 leyes sin reglamentar en el período 2021-2022 (nota de prensa, nov. 2022)",
+    "url": "https://comunicaciones.congreso.gob.pe/?p=205394"
+   },
+   {
+    "titulo": "Revista de Direito Sanitário (USP, 2025) — estudio sobre la reglamentación de leyes de salud en el Perú",
+    "url": "https://revistas.usp.br/rdisan/en/article/download/220930/220678/806608"
+   },
+   {
+    "titulo": "Congreso de la República, DIDP — Informe sobre la potestad reglamentaria del Poder Ejecutivo",
+    "url": "https://www3.congreso.gob.pe/Docs/DGP/DIDP/files/inf-54-la-potestad-reglamentaria-d-p-ejecutivo.pdf"
+   },
+   {
+    "titulo": "Congreso de la República, DIDP — Reporte de leyes pendientes de reglamentación (5-oct-2021)",
+    "url": "https://www3.congreso.gob.pe/Docs/DGP/DIDP/files/reglamleyes/05-10-2021.pdf"
+   },
+   {
+    "titulo": "Congreso de la República — Comisión de Constitución y Reglamento aprueba dictamen (nota de prensa, 2023)",
+    "url": "https://comunicaciones.congreso.gob.pe/?p=227622"
+   }
+  ],
+  "implicados": {
+   "normas_modificadas": [
+    {
+     "norma": "Ley 29158, Ley Orgánica del Poder Ejecutivo",
+     "articulo": "art. 13 (numerales 4 a 7)",
+     "accion": "modifica",
+     "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/29158.pdf"
+    },
+    {
+     "norma": "Decreto Supremo 007-2022-JUS, Reglamento de la Ley 26889",
+     "articulo": "adecuación",
+     "accion": "complementa",
+     "url": "https://leyes.congreso.gob.pe/Documentos/Leyes/26889.pdf"
+    },
+    {
+     "norma": "Ley 30057, Ley del Servicio Civil",
+     "articulo": "art. 85, literal d) (concordancia)",
+     "accion": "complementa",
+     "url": "https://leyes.congreso.gob.pe/Documentos/Leyes/30057.pdf"
+    }
+   ],
+   "entidades": [
+    {
+     "entidad": "Presidencia del Consejo de Ministros",
+     "sigla": "PCM",
+     "sector": "PCM",
+     "rol": "rectora",
+     "responsabilidad": "Administra el Registro (art. 3), remite el reporte semestral (art. 4) y publica el inventario de leyes con plazo vencido (DCT Única)."
+    },
+    {
+     "entidad": "Ministerio de Justicia y Derechos Humanos",
+     "sigla": "MINJUSDH",
+     "sector": "MINJUSDH",
+     "rol": "ejecutora",
+     "responsabilidad": "Coordina el Registro con la sistematización normativa (art. 3.1) y adecúa el Reglamento de la Ley 26889 (DCF Segunda)."
+    },
+    {
+     "entidad": "Ministerios responsables de reglamentar",
+     "sigla": "",
+     "sector": "Varios",
+     "rol": "reglamentadora",
+     "responsabilidad": "Reglamentan en plazo, motivan prórrogas, actualizan el Registro e informan al Congreso al vencer el plazo (art. 13 LOPE; arts. 3.3, 6)."
+    },
+    {
+     "entidad": "Congreso de la República — comisiones ordinarias",
+     "sigla": "",
+     "sector": "Congreso",
+     "rol": "supervisora",
+     "responsabilidad": "Recibe prórrogas, informes y reportes semestrales para el control político (arts. 2, 4, 6.2)."
+    },
+    {
+     "entidad": "Autoridades del procedimiento administrativo disciplinario de cada entidad",
+     "sigla": "",
+     "sector": "Varios",
+     "rol": "sancionadora",
+     "responsabilidad": "Determinan la responsabilidad por negligencia en el incumplimiento injustificado del plazo (art. 6.1)."
+    }
+   ],
+   "sujetos_obligados": "Poder Ejecutivo: Presidencia del Consejo de Ministros, ministerios y organismos públicos a cargo de proyectos de reglamento.",
+   "beneficiarios": "Ciudadanos y empresas destinatarios de leyes que hoy no se aplican por falta de reglamento; Congreso y sociedad civil, que obtienen información para el control."
+  },
+  "impacto": {
+   "tipo": "neutro",
+   "costo_estado": {
+    "rango": "S/ 0,2–0,6 millones (único) y costo recurrente marginal",
+    "horizonte": "único",
+    "supuestos": "Estimación del redactor, no oficial: desarrollo del registro sobre GOB.PE (3-4 personas durante 4-6 meses) y elaboración del reporte semestral con personal existente de la PCM.",
+    "financiamiento": "Presupuesto institucional de la PCM y del MINJUSDH, sin demandar recursos adicionales al Tesoro Público."
+   },
+   "beneficio_estado": "Mayor eficacia de las leyes aprobadas y menos conflictos por vacíos reglamentarios. No cuantificable con información pública.",
+   "beneficio_sociedad": "Derechos y obligaciones legales que se hacen efectivos a tiempo; previsibilidad para la inversión.",
+   "inversion_privada": "No aplica de forma directa.",
+   "costo_privado": "Nulo.",
+   "riesgos": "Reglamentos aprobados a la carrera y de baja calidad para cumplir el plazo (mitigado con la prórroga única y el AIR ex ante); prórrogas usadas por defecto; leyes con mandatos de reglamentación poco realistas desde el Congreso.",
+   "confianza": "media"
+  },
+  "revision_atendida": [
+   {
+    "especialidad": "constitucional",
+    "severidad": "media",
+    "hallazgo": "'Perentorio' podía leerse como caducidad de la potestad reglamentaria (art. 118.8).",
+    "accion": "corregido",
+    "nota": "Numeral 4: 'de cumplimiento obligatorio'; su vencimiento no extingue la potestad ni afecta la validez del reglamento posterior; lo mismo se reitera en el numeral 7. Título y sumilla ajustados."
+   },
+   {
+    "especialidad": "jurista",
+    "severidad": "media",
+    "hallazgo": "Mismo riesgo de caducidad del plazo perentorio.",
+    "accion": "corregido",
+    "nota": "Ídem, con la redacción propuesta por el revisor."
+   },
+   {
+    "especialidad": "jurista",
+    "severidad": "media",
+    "hallazgo": "Responsabilidad disciplinaria sin falta tipificada.",
+    "accion": "corregido",
+    "nota": "Art. 6.1: negligencia en el desempeño de las funciones del literal d) del art. 85 de la Ley 30057 o falta equivalente del régimen del servidor, determinada por las autoridades del PAD."
+   },
+   {
+    "especialidad": "normativo",
+    "severidad": "media",
+    "hallazgo": "Dos fuentes con 404.",
+    "accion": "corregido",
+    "nota": "Reemplazadas por sus versiones vigentes en www3.congreso.gob.pe (verificadas: devuelven el PDF)."
+   },
+   {
+    "especialidad": "normativo",
+    "severidad": "media",
+    "hallazgo": "Cifra de la Defensoría sin número de proyecto ni de informe.",
+    "accion": "corregido",
+    "nota": "Cifra eliminada del problema; se mantienen las cifras con fuente identificable (DIDP 2022 y estudio USP 2025)."
+   },
+   {
+    "especialidad": "normativo",
+    "severidad": "media",
+    "hallazgo": "Antecedentes directos y riesgo de numerales 4-5 ya ocupados.",
+    "accion": "parcial",
+    "nota": "Antecedentes consignan el dictamen de 2023 y el PL 8873/2024-CR; efecto_vigencia ordena verificar en SPIJ y reenumerar si alguno fue publicado. No se pudo confirmar en SPIJ desde esta revisión."
+   },
+   {
+    "especialidad": "derecho_tecnologico",
+    "severidad": "media",
+    "hallazgo": "Cuarta definición distinta de leyes digitales y duplicidad con el tablero de metas.",
+    "accion": "corregido",
+    "nota": "Art. 5.1 adopta la definición común por objeto principal; art. 5.2 toma metas e implementación del mecanismo de seguimiento de la PCM, cuando exista, sin duplicar."
+   },
+   {
+    "especialidad": "constitucional",
+    "severidad": "baja",
+    "hallazgo": "Responsabilidad sin tipificar.",
+    "accion": "corregido",
+    "nota": "Ver art. 6.1."
+   },
+   {
+    "especialidad": "constitucional",
+    "severidad": "baja",
+    "hallazgo": "Armonizar el plazo supletorio con la Ley 26889 y su reglamento.",
+    "accion": "corregido",
+    "nota": "DCF Segunda deja sin efecto todo plazo supletorio reglamentario distinto; el texto original de la Ley 26889 no fija plazo supletorio."
+   },
+   {
+    "especialidad": "jurista",
+    "severidad": "baja",
+    "hallazgo": "Plazo supletorio solo para 'la ley'.",
+    "accion": "corregido",
+    "nota": "Numeral 4: 'la ley o la norma con rango de ley'."
+   },
+   {
+    "especialidad": "seguridad",
+    "severidad": "baja",
+    "hallazgo": "Reglamentos con anexos clasificados en el Registro.",
+    "accion": "corregido",
+    "nota": "Nuevo art. 3.4."
+   },
+   {
+    "especialidad": "derecho_tecnologico",
+    "severidad": "baja",
+    "hallazgo": "Identificadores normalizados e integración con SPIJ.",
+    "accion": "corregido",
+    "nota": "Nuevo art. 3.5."
+   }
+  ]
+ },
+ {
+  "id": "GOB-19",
+  "eje": "gob",
+  "titulo": "Ley que promueve las mancomunidades municipales para la transformación digital y establece la cooperación técnica del Gobierno Nacional con las municipalidades de baja capacidad digital",
+  "titulo_corto": "Mancomunidades digitales municipales",
+  "sumilla": "En el marco de la Ley 29029, Ley de la Mancomunidad Municipal, reconoce la mancomunidad con objeto de transformación digital (unidad de tecnologías compartida, designación en común del Líder de Gobierno y Transformación Digital y del Oficial de Seguridad y Confianza Digital, adopción conjunta de servicios compartidos y compras conjuntas, con respaldos, continuidad y notificación de incidentes) y obliga al Gobierno Nacional —no a las municipalidades— a ofrecer un paquete de cooperación técnica a las municipalidades de baja capacidad que lo soliciten. La adhesión es voluntaria, con convenio tipo, posible articulación del gobierno regional y rendición de cuentas pública. No modifica la Ley Orgánica de Municipalidades, no transfiere competencias y usa los servicios digitales compartidos que provea la PCM.",
+  "problema": "Según el INEI (Indicadores de Gestión Municipal 2022, RENAMU), 196 municipalidades provinciales y 1 678 distritales reportaron información; 1 798 tenían servicio de internet, pero solo el 38,3 % de las 1 874 municipalidades contaba con el Portal de Transparencia Estándar y, entre las que no lo tenían, el 43,9 % declaró desconocer cómo implementarlo. El problema es de capacidades: muchas municipalidades rurales carecen de personal de TI y de escala para contratar, operar y asegurar sistemas. La Ley 29029 (modificada por la Ley 29341 y el Decreto Legislativo 1445) permite que dos o más municipalidades se asocien para prestar servicios conjuntos y, entre sus objetivos, menciona la modernización de la gestión municipal y el desarrollo de capacidades con universidades (art. 4, numerales 4 y 5 del texto original), pero no prevé expresamente servicios digitales compartidos ni un apoyo técnico nacional para ese fin. La propuesta GOB-08 ofrece un catálogo de servicios compartidos de la PCM y GOB-14 permite compartir un responsable de transformación digital mediante mancomunidades; falta el mecanismo de adhesión, la asistencia técnica con obligaciones claras para el nivel nacional y la rendición de cuentas subnacional. En España, la Ley 7/1985 de Bases del Régimen Local encarga a las diputaciones provinciales prestar servicios de administración electrónica a los municipios de menos de 20 000 habitantes.",
+  "objeto": "Facilitar la transformación digital de las municipalidades de baja capacidad mediante mancomunidades municipales con objeto digital y un paquete de cooperación técnica del Gobierno Nacional de adhesión voluntaria, con rendición de cuentas pública.",
+  "articulado": [
+   {
+    "n": "Artículo 1",
+    "titulo": "Objeto",
+    "texto": "La presente ley tiene por objeto promover las mancomunidades municipales para la transformación digital, en el marco de la Ley 29029, Ley de la Mancomunidad Municipal, y establecer la cooperación técnica del Gobierno Nacional con las municipalidades de baja capacidad digital que la soliciten."
+   },
+   {
+    "n": "Artículo 2",
+    "titulo": "Municipalidades de baja capacidad digital",
+    "texto": "2.1. La Presidencia del Consejo de Ministros, a través de la Secretaría de Gobierno y Transformación Digital, define y publica cada dos años la relación de municipalidades de baja capacidad digital, con criterios objetivos que consideran, entre otros, la población, el personal de tecnologías de la información, la conectividad, los servicios digitales disponibles y los resultados del índice de madurez digital subnacional o del instrumento que haga sus veces, sobre la base de información del Registro Nacional de Municipalidades del Instituto Nacional de Estadística e Informática. La relación se publica con la clasificación final; los subindicadores relativos a seguridad digital no se publican de manera individualizada.\n2.2. La clasificación tiene por única finalidad priorizar la cooperación técnica y no genera sanciones ni restricciones para las municipalidades, ni puede utilizarse como criterio para condicionar transferencias, recursos o competencias."
+   },
+   {
+    "n": "Artículo 3",
+    "titulo": "Mancomunidades municipales para la transformación digital",
+    "texto": "3.1. Las municipalidades pueden constituir mancomunidades municipales conforme a la Ley 29029, o ampliar el objeto de las existentes, para uno o más de los siguientes fines: a) operar una unidad compartida de tecnologías de la información y soporte técnico; b) designar en común al Líder de Gobierno y Transformación Digital y al Oficial de Seguridad y Confianza Digital, o a quienes hagan sus veces, para todas o parte de las municipalidades mancomunadas, conforme al Decreto Legislativo 1412, Ley de Gobierno Digital, y su reglamento; c) adoptar en conjunto servicios digitales compartidos provistos por la Presidencia del Consejo de Ministros; d) contratar en conjunto bienes y servicios de tecnologías de la información conforme a la normativa de contrataciones públicas; e) gestionar datos e interoperabilidad; y f) capacitar al personal municipal.\n3.2. La designación en común prevista en el literal b) satisface, para cada municipalidad integrante, la obligación de designar dichos roles, sin perjuicio de que cada titular mantenga su responsabilidad. El Oficial de Seguridad y Confianza Digital designado en común se integra a la Red Nacional de Seguridad Digital y recibe las alertas del Centro Nacional de Seguridad Digital para todas las municipalidades de la mancomunidad.\n3.3. El personal de la unidad compartida se rige por el régimen laboral de la entidad que lo contrata, conforme a la Ley 29029 y su reglamento.\n3.4. La Secretaría de Descentralización de la Presidencia del Consejo de Ministros brinda asistencia técnica para la constitución de estas mancomunidades y su inscripción en el Registro de Mancomunidades Municipales."
+   },
+   {
+    "n": "Artículo 4",
+    "titulo": "Titularidad y protección de los datos",
+    "texto": "4.1. Los datos que registra cada municipalidad en los sistemas compartidos son de su titularidad. Cada municipalidad mantiene la condición de titular del banco de datos personales conforme a la Ley 29733, Ley de Protección de Datos Personales; la mancomunidad actúa como encargada del tratamiento según el convenio respectivo. La exportación de los datos es completa, en formatos estructurados, documentados y de lectura mecánica, incluye los metadatos y los documentos asociados y se entrega en un plazo no mayor de treinta días hábiles desde la solicitud o el retiro de la mancomunidad.\n4.2. Los sistemas compartidos aseguran la separación lógica de la información de cada municipalidad, el control de accesos por roles, la autenticación multifactor de los usuarios con privilegios y el registro de accesos y operaciones protegido contra su alteración o eliminación no autorizada mediante mecanismos que permitan detectarla, como el sellado de tiempo o el encadenamiento criptográfico. El registro se conserva por un plazo no menor de dos años, o el mayor que fije la Secretaría de Gobierno y Transformación Digital, y es consultable por cada municipalidad respecto de su información.\n4.3. La mancomunidad mantiene copias de respaldo cifradas y aisladas de la red operativa, un plan de continuidad y recuperación probado al menos una vez al año, y notifica los incidentes de seguridad digital al Centro Nacional de Seguridad Digital y a cada municipalidad afectada conforme al régimen de notificación de incidentes vigente. Los proveedores que contrate la mancomunidad quedan sujetos a las mismas obligaciones mediante cláusula contractual."
+   },
+   {
+    "n": "Artículo 5",
+    "titulo": "Paquete de cooperación técnica del Gobierno Nacional",
+    "texto": "5.1. La Presidencia del Consejo de Ministros, a través de la Secretaría de Gobierno y Transformación Digital y en coordinación con la Secretaría de Descentralización, establece y ofrece a las municipalidades de baja capacidad digital que lo soliciten, de manera individual o mediante mancomunidad, un paquete de cooperación técnica que comprende: a) diagnóstico y hoja de ruta digital mínima; b) acceso prioritario a los servicios digitales compartidos de la Presidencia del Consejo de Ministros; c) acompañamiento en la implementación de la mesa de partes digital, la notificación mediante la casilla electrónica que corresponda conforme a la normativa vigente, los pagos en línea y las licencias; d) modelos de términos de referencia, convenios y políticas de seguridad; e) capacitación virtual del personal, en coordinación con la Escuela Nacional de Administración Pública; y f) orientación ante incidentes de seguridad digital a través del Centro Nacional de Seguridad Digital.\n5.2. Las solicitudes se atienden en orden de prioridad según la relación del artículo 2, con cargo al presupuesto institucional de la Presidencia del Consejo de Ministros y conforme a su disponibilidad presupuestal."
+   },
+   {
+    "n": "Artículo 6",
+    "titulo": "Adhesión voluntaria y autonomía municipal",
+    "texto": "6.1. La adhesión al paquete de cooperación técnica es voluntaria y se formaliza por acuerdo de concejo y convenio con la Presidencia del Consejo de Ministros, conforme al convenio tipo que esta aprueba.\n6.2. La cooperación técnica no implica transferencia ni delegación de competencias ni sustituye las decisiones de los órganos municipales, y se ejerce con respeto de la autonomía política, económica y administrativa que el artículo 194 de la Constitución reconoce a las municipalidades."
+   },
+   {
+    "n": "Artículo 7",
+    "titulo": "Articulación regional y académica",
+    "texto": "7.1. Los gobiernos regionales pueden actuar, mediante convenio, como articuladores de la demanda de las municipalidades de su circunscripción, alojar nodos regionales de soporte y promover la agregación de compras, en el marco de su autonomía.\n7.2. La Presidencia del Consejo de Ministros, los gobiernos regionales y las mancomunidades pueden celebrar convenios con universidades e institutos de educación superior para el soporte técnico y la formación, incluidas modalidades formativas conforme a la normativa vigente."
+   },
+   {
+    "n": "Artículo 8",
+    "titulo": "Rendición de cuentas",
+    "texto": "8.1. Las municipalidades adheridas publican anualmente en su sede digital, conforme a un formato simplificado aprobado por la Secretaría de Gobierno y Transformación Digital, el avance de su hoja de ruta digital, los servicios y trámites digitales disponibles y el uso de los servicios compartidos.\n8.2. La Presidencia del Consejo de Ministros publica anualmente, en formato abierto, los resultados consolidados de la cooperación técnica por departamento y por mancomunidad, y los remite al Congreso de la República. La información sobre seguridad digital se publica de forma agregada, sin identificar vulnerabilidades de entidades concretas."
+   }
+  ],
+  "disposiciones": [
+   {
+    "tipo": "Complementaria Final",
+    "n": "Primera",
+    "texto": "Reglamentación. El Poder Ejecutivo, mediante decreto supremo refrendado por el presidente del Consejo de Ministros, reglamenta la presente ley en un plazo de noventa días hábiles contados a partir del día siguiente de su publicación y adecúa, en el mismo plazo, el Reglamento de la Ley 29029, aprobado por Decreto Supremo 021-2020-PCM."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Segunda",
+    "texto": "Convenio tipo y primera relación. La Presidencia del Consejo de Ministros aprueba el convenio tipo dentro de los sesenta días calendario siguientes a la entrada en vigencia del reglamento y publica la primera relación de municipalidades de baja capacidad digital dentro de los ciento ochenta días calendario siguientes."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Tercera",
+    "texto": "Financiamiento. La implementación de la presente ley se financia con cargo al presupuesto institucional de la Presidencia del Consejo de Ministros y de los gobiernos regionales y locales y mancomunidades que participen, sin demandar recursos adicionales al Tesoro Público. La ampliación de la cobertura del paquete de cooperación técnica se programa como meta dentro de la programación multianual de la Presidencia del Consejo de Ministros, sujeta a disponibilidad presupuestal."
+   }
+  ],
+  "costo_beneficio": "La ley no crea entidades, programas ni plazas y no impone gasto: la cooperación técnica se presta con el presupuesto institucional de la PCM, según disponibilidad y en orden de prioridad, y su ampliación es una meta de la programación multianual. Antes del dictamen, conviene contar con la opinión del Poder Ejecutivo sobre la cobertura financiable y con informe del MEF. Para las municipalidades el efecto esperado es de ahorro: comparten personal especializado, compran en conjunto y adoptan servicios sin costo de licencia. Beneficios: trámites digitales en distritos que hoy no los ofrecen, mejor seguridad digital, cumplimiento de obligaciones de transparencia y datos para orientar el apoyo. Costo fiscal: medio, por la escala potencial del acompañamiento.",
+  "efecto_vigencia": "Complementa la Ley 29029, Ley de la Mancomunidad Municipal (modificada por la Ley 29341 y el Decreto Legislativo 1445), y ordena adecuar su reglamento (Decreto Supremo 021-2020-PCM), sin modificar el articulado de la ley. No modifica la Ley 27972, Ley Orgánica de Municipalidades; se desarrolla en el marco de su artículo 124 sobre relaciones entre municipalidades, no transfiere competencias y solo genera obligaciones para las municipalidades que se adhieren voluntariamente, por lo que no requiere votación de ley orgánica. Se articula con GOB-08 (servicios digitales compartidos e índice de madurez) y GOB-14 (responsable de transformación digital) o los instrumentos que hagan sus veces.",
+  "normas_relacionadas": [
+   {
+    "norma": "Ley 29029, Ley de la Mancomunidad Municipal (texto original, 2007)",
+    "url": "https://leyes.congreso.gob.pe/Documentos/Leyes/29029.pdf"
+   },
+   {
+    "norma": "Ley 29341, que modifica la Ley 29029",
+    "url": "https://leyes.congreso.gob.pe/Documentos/Leyes/29341.pdf"
+   },
+   {
+    "norma": "Decreto Supremo 021-2020-PCM, Reglamento de la Ley 29029",
+    "url": "https://lpderecho.pe/aprueban-reglamento-ley-mancomunidad-municipal-decreto-supremo-021-2020-pcm/"
+   },
+   {
+    "norma": "Ley 27972, Ley Orgánica de Municipalidades (art. 124)",
+    "url": "https://leyes.congreso.gob.pe/Documentos/Leyes/27972.pdf"
+   },
+   {
+    "norma": "Reglamento del Registro de Mancomunidades Municipales (Secretaría de Descentralización, PCM)",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/1783485/Reglamento%20del%20Registro%20de%20Mancomunidades%20Municipales.pdf.pdf"
+   },
+   {
+    "norma": "Decreto Legislativo 1412, Ley de Gobierno Digital",
+    "url": "https://busquedas.elperuano.pe/dispositivo/NL/1691026-1"
+   }
+  ],
+  "antecedentes": "Por verificar en SPLEY.",
+  "referencias_internacionales": [
+   {
+    "pais": "España",
+    "norma": "Ley 7/1985, Reguladora de las Bases del Régimen Local, art. 36 (asistencia y cooperación de las diputaciones a los municipios; administración electrónica en municipios de menos de 20 000 habitantes)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392"
+   }
+  ],
+  "comision_sugerida": "Modernización de la Gestión del Estado y Contraloría",
+  "comision_secundaria": "Ciencia, Innovación Tecnológica y Sociedad Digital",
+  "plan2050": [
+   "transformacion-digital",
+   "desarrollo-rural",
+   "reforma-del-estado"
+  ],
+  "ods": [
+   9,
+   11,
+   16
+  ],
+  "prioridad": "media",
+  "costo_fiscal": "medio",
+  "plazo": "mediano",
+  "indicador_exito": "Al 2031, al menos 300 municipalidades de baja capacidad digital adheridas al paquete de cooperación técnica, 20 mancomunidades con objeto digital inscritas y una mejora medible de su puntaje en el índice de madurez digital subnacional o el instrumento que haga sus veces, según el informe anual de la PCM.",
+  "tags": [
+   "municipalidades",
+   "mancomunidades",
+   "gobierno digital",
+   "descentralización",
+   "cooperación técnica"
+  ],
+  "fuentes": [
+   {
+    "titulo": "INEI — Perú: Indicadores de Gestión Municipal 2022 (RENAMU)",
+    "url": "https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1902/libro.pdf"
+   },
+   {
+    "titulo": "Ley 29029, Ley de la Mancomunidad Municipal (Archivo del Congreso)",
+    "url": "https://leyes.congreso.gob.pe/Documentos/Leyes/29029.pdf"
+   },
+   {
+    "titulo": "LP Derecho — Reglamento de la Ley de la Mancomunidad Municipal, Decreto Supremo 021-2020-PCM",
+    "url": "https://lpderecho.pe/aprueban-reglamento-ley-mancomunidad-municipal-decreto-supremo-021-2020-pcm/"
+   },
+   {
+    "titulo": "BOE — Ley 7/1985, Reguladora de las Bases del Régimen Local (texto consolidado)",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392"
+   }
+  ],
+  "implicados": {
+   "normas_modificadas": [
+    {
+     "norma": "Ley 29029, Ley de la Mancomunidad Municipal",
+     "articulo": "objeto de las mancomunidades (fines digitales)",
+     "accion": "complementa",
+     "url": "https://leyes.congreso.gob.pe/Documentos/Leyes/29029.pdf"
+    },
+    {
+     "norma": "Decreto Supremo 021-2020-PCM, Reglamento de la Ley 29029",
+     "articulo": "adecuación",
+     "accion": "complementa",
+     "url": "https://lpderecho.pe/aprueban-reglamento-ley-mancomunidad-municipal-decreto-supremo-021-2020-pcm/"
+    },
+    {
+     "norma": "Decreto Legislativo 1412, Ley de Gobierno Digital, y Decreto de Urgencia 007-2020",
+     "articulo": "designación de Líder de Gobierno y Transformación Digital y Oficial de Seguridad y Confianza Digital (concordancia)",
+     "accion": "complementa",
+     "url": "https://busquedas.elperuano.pe/dispositivo/NL/1691026-1"
+    }
+   ],
+   "entidades": [
+    {
+     "entidad": "Presidencia del Consejo de Ministros — Secretaría de Gobierno y Transformación Digital",
+     "sigla": "PCM-SGTD",
+     "sector": "PCM",
+     "rol": "ejecutora",
+     "responsabilidad": "Define la relación de municipalidades de baja capacidad (art. 2), ofrece el paquete de cooperación técnica (art. 5), aprueba el formato de rendición de cuentas y consolida resultados (art. 8)."
+    },
+    {
+     "entidad": "Presidencia del Consejo de Ministros — Secretaría de Descentralización",
+     "sigla": "PCM-SD",
+     "sector": "PCM",
+     "rol": "ejecutora",
+     "responsabilidad": "Asistencia para constituir mancomunidades digitales e inscribirlas en el Registro (art. 3.2); coordina el paquete (art. 5.1)."
+    },
+    {
+     "entidad": "Instituto Nacional de Estadística e Informática",
+     "sigla": "INEI",
+     "sector": "PCM",
+     "rol": "consultiva",
+     "responsabilidad": "Provee la información del RENAMU para la clasificación (art. 2.1)."
+    },
+    {
+     "entidad": "Municipalidades y mancomunidades municipales",
+     "sigla": "",
+     "sector": "Gobiernos locales",
+     "rol": "beneficiaria",
+     "responsabilidad": "Se adhieren voluntariamente; la mancomunidad protege los datos, mantiene respaldos y continuidad y notifica incidentes; las adheridas publican su avance anual (arts. 4, 6, 8.1)."
+    },
+    {
+     "entidad": "Gobiernos regionales",
+     "sigla": "",
+     "sector": "Gobiernos regionales",
+     "rol": "ejecutora",
+     "responsabilidad": "Pueden articular la demanda y alojar nodos regionales de soporte mediante convenio (art. 7.1)."
+    },
+    {
+     "entidad": "Escuela Nacional de Administración Pública y Centro Nacional de Seguridad Digital",
+     "sigla": "ENAP / CNSD",
+     "sector": "SERVIR / PCM",
+     "rol": "ejecutora",
+     "responsabilidad": "Capacitación virtual y orientación ante incidentes (art. 5.1 e y f); el CNSD recibe notificaciones de incidentes de las mancomunidades y envía alertas al oficial designado en común (arts. 3.2, 4.3)."
+    }
+   ],
+   "sujetos_obligados": "Presidencia del Consejo de Ministros (oferta de cooperación técnica); municipalidades y mancomunidades solo cuando se adhieren voluntariamente.",
+   "beneficiarios": "Municipalidades de baja capacidad digital y sus vecinos; en 2022 el RENAMU registró 1 874 municipalidades que reportaron información (INEI), de las cuales la relación del art. 2 identificaría a las prioritarias."
+  },
+  "impacto": {
+   "tipo": "gasto",
+   "costo_estado": {
+    "rango": "S/ 3–6 millones/año",
+    "horizonte": "2027-2031",
+    "supuestos": "Estimación del redactor, no oficial: atención de 150 a 300 municipalidades por año con un costo de acompañamiento de S/ 15 000 a S/ 20 000 por municipalidad (diagnóstico, implementación asistida y capacitación virtual), sobre plataformas nacionales ya existentes.",
+    "financiamiento": "Presupuesto institucional de la PCM según disponibilidad presupuestal, sin demandar recursos adicionales al Tesoro Público; la ampliación de cobertura requiere coordinación con el Poder Ejecutivo, fuente de financiamiento identificada e informe previo de sostenibilidad fiscal del MEF antes del dictamen. Complementariamente, cooperación técnica internacional no reembolsable."
+   },
+   "beneficio_estado": "Economías de escala en contratación y operación de sistemas municipales; menos proyectos de software aislados que no interoperan. No cuantificable con información pública.",
+   "beneficio_sociedad": "Acceso a trámites y pagos municipales en línea en distritos rurales, menos traslados y mayor transparencia local.",
+   "inversion_privada": "Demanda agregada de servicios de conectividad y soporte TI regional; monto no estimable.",
+   "costo_privado": "Nulo.",
+   "riesgos": "Baja adhesión por desconfianza o rotación de autoridades; mancomunidades inactivas tras su inscripción; contagio de incidentes entre municipalidades que comparten sistemas (mitigado con respaldos aislados, plan de continuidad y notificación al CNSD); dependencia de un proveedor central (mitigado con exportación completa en 30 días y separación lógica); cobertura limitada por disponibilidad presupuestal.",
+   "confianza": "baja"
+  },
+  "revision_atendida": [
+   {
+    "especialidad": "seguridad",
+    "severidad": "media",
+    "hallazgo": "Sistemas compartidos sin respaldos, continuidad ni notificación de incidentes.",
+    "accion": "corregido",
+    "nota": "Nuevo art. 4.3: respaldos cifrados y aislados, plan de continuidad probado anualmente, notificación al CNSD y a cada municipalidad, obligaciones extendidas a proveedores."
+   },
+   {
+    "especialidad": "derecho_tecnologico",
+    "severidad": "media",
+    "hallazgo": "Denominaciones nuevas en lugar del Líder de GyTD y el Oficial de Seguridad y Confianza Digital.",
+    "accion": "corregido",
+    "nota": "Art. 3.1 b) usa las figuras del D.L. 1412 y su reglamento, designadas en común."
+   },
+   {
+    "especialidad": "derecho_tecnologico",
+    "severidad": "media",
+    "hallazgo": "'Registro inalterable' no verificable y sin plazo de conservación.",
+    "accion": "corregido",
+    "nota": "Art. 4.2: registro protegido con mecanismos de detección de alteración, conservación mínima de dos años y consulta por cada municipalidad."
+   },
+   {
+    "especialidad": "constitucional",
+    "severidad": "baja",
+    "hallazgo": "Evitar que la relación se use para condicionar transferencias.",
+    "accion": "corregido",
+    "nota": "Art. 2.2 lo prohíbe expresamente."
+   },
+   {
+    "especialidad": "jurista",
+    "severidad": "baja",
+    "hallazgo": "Efecto de la designación compartida frente a la obligación de cada entidad.",
+    "accion": "corregido",
+    "nota": "Nuevo art. 3.2: la designación en común satisface la obligación de cada integrante, sin perjuicio de la responsabilidad de cada titular."
+   },
+   {
+    "especialidad": "jurista",
+    "severidad": "baja",
+    "hallazgo": "Régimen del personal de la unidad compartida.",
+    "accion": "corregido",
+    "nota": "Nuevo art. 3.3."
+   },
+   {
+    "especialidad": "seguridad",
+    "severidad": "baja",
+    "hallazgo": "Subindicadores de seguridad en la relación pública.",
+    "accion": "corregido",
+    "nota": "Art. 2.1: solo se publica la clasificación final."
+   },
+   {
+    "especialidad": "seguridad",
+    "severidad": "baja",
+    "hallazgo": "Oficial compartido sin acceso a alertas nacionales.",
+    "accion": "corregido",
+    "nota": "Art. 3.2: integración a la Red Nacional de Seguridad Digital y alertas del CNSD."
+   },
+   {
+    "especialidad": "derecho_tecnologico",
+    "severidad": "baja",
+    "hallazgo": "Exportación de datos sin estructura ni plazo.",
+    "accion": "corregido",
+    "nota": "Art. 4.1: exportación completa, estructurada, documentada, con metadatos, en treinta días hábiles."
+   },
+   {
+    "especialidad": "derecho_tecnologico",
+    "severidad": "baja",
+    "hallazgo": "Casilla electrónica propia por municipio.",
+    "accion": "corregido",
+    "nota": "Art. 5.1 c): notificación mediante la casilla electrónica que corresponda conforme a la normativa vigente, sin remitir a propuestas no aprobadas."
+   },
+   {
+    "especialidad": "normativo",
+    "severidad": "baja",
+    "hallazgo": "D.S. 021-2020-PCM enlazado a fuente secundaria.",
+    "accion": "no_aplicado",
+    "nota": "No se halló una publicación oficial verificable en El Peruano o gob.pe (el resultado NL/1940380-2 corresponde a otra norma); se mantiene la copia de LP Derecho como referencia y la cita del decreto es exacta."
+   },
+   {
+    "especialidad": "normativo",
+    "severidad": "baja",
+    "hallazgo": "Art. 4 de la Ley 29029 atribuido sin precisar el texto modificado.",
+    "accion": "parcial",
+    "nota": "Se verificó por OCR que los numerales 4 y 5 del art. 4 ya figuraban en el texto original de 2007 enlazado; se precisa y se indica verificar el texto vigente tras el D.L. 1445 en SPIJ."
+   }
+  ]
+ }
+]

@@ -1,0 +1,796 @@
+[
+ {
+  "id": "ECO-15",
+  "especialidad": "derecho_tecnologico",
+  "veredicto": "observaciones",
+  "resumen": "Desde el derecho tecnológico la gestión digital es viable porque se apoya en los comprobantes electrónicos y en el Sistema Integrado de Registros Electrónicos (SIRE) que la SUNAT ya opera. Dos riesgos: la 'información de terceros' que alimenta la propuesta de declaración incluye datos personales de personas naturales con negocio, y la ley debe asegurar su calidad y trazabilidad. Además, el artículo 5 no debe atar la obligación a una plataforma concreta.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 4.1 y 4.3",
+    "problema": "La propuesta precompletada usa 'información de terceros de que disponga' la SUNAT sin decir de qué fuentes, con qué calidad ni con qué trazabilidad. Si el contribuyente no puede ver de dónde salió cada dato, el art. 4.3 (gradualidad por error de tercero) no se puede aplicar: no hay forma de probar que el error vino del tercero. Sin un deber de informar el origen de cada partida tampoco se cumple el principio de calidad del art. 8 de la Ley 29733 cuando el contribuyente es persona natural.",
+    "correccion": "Agregar al art. 4.1: 'La propuesta identifica, por cada partida, la fuente de la información (comprobante electrónico, registro o declaración informativa de tercero, con su identificador) y la fecha de corte, y permite descargarla en formato estructurado de lectura mecánica.' Agregar 4.4: 'La SUNAT conserva un registro de las versiones de la propuesta y de las modificaciones del contribuyente, que sirve de medio probatorio para el numeral 4.3.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 5",
+    "problema": "Habla de 'la plataforma de la SUNAT' como si fuera la única vía. La SUNAT ya regula el SIRE por resolución de superintendencia, y los libros electrónicos también pueden llevarse con programas propios o del mercado (PLE/SLE). Atar la obligación a una plataforma va contra la neutralidad tecnológica y puede excluir a los proveedores de software contable.",
+    "correccion": "Reemplazar 'que genere la plataforma de la SUNAT' por 'que genere la SUNAT a partir de los comprobantes electrónicos, o que el contribuyente lleve mediante sistemas propios o de terceros que cumplan las especificaciones técnicas publicadas por la SUNAT'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 6.2",
+    "problema": "La publicación en formato abierto de indicadores agregados no remite al régimen general de datos abiertos, cuya materia corresponde a IA-04 según COORDINACION.md. Tampoco prevé control estadístico de celdas pequeñas: un tramo de ingresos por régimen y región con pocos contribuyentes permitiría identificarlos y vulnerar la reserva del art. 85 del Código Tributario.",
+    "correccion": "Añadir al final del art. 6.2: ', aplicando reglas de supresión o agregación de celdas con menos contribuyentes que el umbral que fije la SUNAT, conforme al régimen general de datos abiertos.'"
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [],
+   "entidades_implicadas": [
+    "SUNAT — operador del SIRE y de los comprobantes electrónicos",
+    "ANPD/MINJUSDH — calidad del dato cuando el contribuyente es persona natural"
+   ],
+   "impacto_economico": "El costo de la declaración precompletada es marginal porque el SIRE ya genera propuestas del Registro de Ventas e Ingresos y del Registro de Compras; el costo nuevo es la trazabilidad por partida."
+  }
+ },
+ {
+  "id": "ECO-16",
+  "veredicto": "observaciones",
+  "resumen": "La materia no es tecnológica, pero el acceso del Comité a bases de datos de beneficiarios plantea problemas de datos. Llamar a esas bases 'anonimizadas' no basta: las de beneficiarios son altamente reidentificables (RUC de personas naturales, montos, región, sector). Las reglas de reidentificación y de entornos seguros de datos corresponden a IA-10, y la publicación en formato abierto a IA-04.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 6.2",
+    "problema": "Supone que la información 'anonimizada' sale del ámbito de protección. Los microdatos de beneficiarios (persona natural con negocio, monto del beneficio, ubigeo, CIIU) pueden reidentificarse cruzándolos con fuentes públicas (padrón RUC, SEACE). COORDINACION.md asigna a IA-10 la prohibición de reidentificar y los entornos seguros de acceso a datos públicos, y la ECO-16 no remite a ella. El art. 85 del TUO del Código Tributario solo exceptúa la información estadística que, por su generalidad, no permita individualizar.",
+    "correccion": "Reemplazar la primera oración del 6.2 por: 'La información protegida por la reserva tributaria o el secreto bancario solo se proporciona en forma agregada o, cuando la evaluación requiera microdatos, mediante acceso en un entorno seguro de datos de la entidad titular, sin descarga de registros individuales y con evaluación previa del riesgo de reidentificación, conforme al régimen de entornos seguros y de prohibición de reidentificación que establezca la ley de la materia o, en su defecto, la Ley 29733 y su reglamento aprobado por Decreto Supremo 016-2024-JUS.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 7.1",
+    "problema": "Ordena publicar en formato abierto 'los datos no protegidos' sin remitir al régimen general de datos abiertos (IA-04) ni fijar formato ni licencia. Sin licencia abierta, la reutilización de los datos de evaluación queda en duda.",
+    "correccion": "Agregar: 'conforme al régimen general de datos abiertos, con licencia abierta y en formatos estructurados de lectura mecánica, junto con el código de análisis empleado cuando no esté protegido'."
+   }
+  ],
+  "aportes": {
+   "entidades_implicadas": [
+    "ANPD/MINJUSDH — protección de datos en el acceso a microdatos de beneficiarios"
+   ]
+  },
+  "especialidad": "derecho_tecnologico"
+ },
+ {
+  "id": "ECO-17",
+  "veredicto": "observaciones",
+  "resumen": "El diseño es técnicamente sólido: pago al proveedor contra entregable verificado con comprobante electrónico, exportación de datos y controles de seguridad. Hay que precisar cuatro cosas: el estándar de seguridad del catálogo (con referencias técnicas neutrales), qué significa 'formatos abiertos' para que la portabilidad entre empresas sea exigible, el rol del proveedor como encargado del tratamiento de los datos personales de los clientes de la MIPYME, y la remisión a CIB-14 como propuesta, no como programa existente.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 6.2",
+    "problema": "Los 'controles básicos de seguridad digital aprobados por PRODUCE' no tienen referencia técnica, así que cada convocatoria podría inventar requisitos (riesgo de barrera de entrada para proveedores nacionales). En la práctica, el proveedor de nube, contabilidad o CRM trata datos personales de los clientes de la MIPYME por encargo de esta, y el artículo no lo dice: quedan sin fijar las obligaciones del encargado del tratamiento de la Ley 29733 y su reglamento (DS 016-2024-JUS) ni las reglas sobre transferencias internacionales si el servicio está alojado en el extranjero.",
+    "correccion": "Reemplazar el final del 6.2 por: '...y cumplir controles básicos de seguridad digital proporcionales al riesgo, que el Ministerio de la Producción aprueba con opinión favorable de la Secretaría de Gobierno y Transformación Digital tomando como referencia normas técnicas peruanas o internacionales de gestión de seguridad de la información (serie NTP-ISO/IEC 27000) o marcos equivalentes para pequeñas organizaciones, sin exigir certificación a las micro y pequeñas empresas proveedoras. El proveedor que trate datos personales por cuenta de la empresa beneficiaria actúa como encargado del tratamiento conforme a la Ley 29733 y su reglamento, y lo declara en el catálogo junto con el país de alojamiento de los datos.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 6.2 y 8.2 (infracción grave por no exportar datos)",
+    "problema": "La infracción grave por incumplir la 'exportación de datos en formatos abiertos y de uso común' no se puede aplicar con certeza, porque no se define el formato. El principio de tipicidad (art. 248.4 del TUO de la Ley 27444) exige que la conducta sancionable esté descrita con suficiente precisión. Además, cuando los datos exportados son personales, la portabilidad en sentido estricto corresponde a IA-12, que COORDINACION.md designa dueña de la regla general.",
+    "correccion": "Agregar al 6.2: 'Se entiende por formato abierto y de uso común un formato estructurado, documentado y de lectura mecánica (como CSV, JSON o XML), y, para comprobantes electrónicos, el formato XML aprobado por la SUNAT; la exportación incluye los metadatos necesarios para reutilizarlos y se entrega en un plazo no mayor de quince días hábiles desde la solicitud. Cuando se trate de datos personales, se aplica además el régimen de portabilidad de la Ley 29733.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Disposición Complementaria Final Segunda",
+    "problema": "Se remite a 'programas... de ciberresiliencia de las MIPYME existentes', pero ese programa lo propone CIB-14, que todavía no es ley. Según COORDINACION.md, cada propuesta debe poder aplicarse sola.",
+    "correccion": "Reemplazar por: '...con los programas de alfabetización digital y, de existir, de ciberresiliencia de las MIPYME o los instrumentos que hagan sus veces, sin duplicar sus servicios.'"
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [],
+   "entidades_implicadas": [
+    "SGTD/PCM — opinión técnica sobre controles de seguridad del catálogo",
+    "ANPD/MINJUSDH — régimen de encargado del tratamiento"
+   ],
+   "impacto_economico": "Exigir certificación ISO/IEC 27001 a microproveedores costaría entre miles y decenas de miles de soles por proveedor y excluiría a los proveedores nacionales pequeños; una línea base sin certificación evita esa barrera."
+  },
+  "especialidad": "derecho_tecnologico"
+ },
+ {
+  "id": "ECO-18",
+  "veredicto": "conforme",
+  "resumen": "Sin reparos sustantivos desde el derecho tecnológico. La única observación menor es sobre la publicación en formato abierto y el tratamiento de los datos del directorio de proveedores.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículos 6.1 y 9.1",
+    "problema": "El directorio de capacidades de proveedores nacionales y los reportes en formato abierto pueden incluir datos de personas naturales con negocio, y el texto no remite a la Ley 29733 ni al régimen de datos abiertos (IA-04).",
+    "correccion": "Agregar al 6.1: 'La inscripción en el directorio es voluntaria y los datos personales se tratan conforme a la Ley 29733.' Agregar al 9.1: 'conforme al régimen general de datos abiertos'."
+   }
+  ],
+  "especialidad": "derecho_tecnologico"
+ },
+ {
+  "id": "ECO-19",
+  "veredicto": "conforme",
+  "resumen": "Es una materia financiero-previsional sin implicancias de derecho tecnológico relevantes. Remite bien al registro de empresas de base tecnológica 'que esté vigente', sin depender de ECO-13.",
+  "hallazgos": [],
+  "especialidad": "derecho_tecnologico"
+ },
+ {
+  "id": "ECO-20",
+  "veredicto": "observaciones",
+  "resumen": "La propuesta acierta al mandar participar en la normalización y al alinear la negociación digital con la Ley 29733, la Ley 27269 y la localización acotada de datos. Tiene cuatro problemas: nombra a la IEC y al comité técnico conjunto ISO/IEC sin precisar los subcomités ni la condición del Perú en la IEC (que hay que verificar); deja fuera de la coordinación al Centro Nacional de Seguridad Digital y a la autoridad de firma digital (INDECOPI); no recoge los cambios que la IA-16 propone sobre flujo transfronterizo ni la regla de localización por clasificación de la GOB-13; y omite el DL 1412 y el marco de IA (Ley 31814 / DS 115-2025-PCM) como referentes de la posición negociadora.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 7.1",
+    "problema": "Menciona 'su comité técnico conjunto de tecnologías de la información' sin nombrarlo: es el ISO/IEC JTC 1. Tampoco identifica los subcomités donde se definen las normas que el Perú ya adopta o exige: SC 42 (IA, p. ej. ISO/IEC 42001 y 42005), SC 27 (seguridad de la información, serie 27000, que el reglamento del DL 1412 hace exigible a las entidades), SC 38 (nube), SC 41 (IoT) y SC 17 (tarjetas e identificación, relevante para el DNIe). Además, fuentes de prensa indican que el Perú participa en la IEC mediante su Programa de Países Afiliados y no como miembro pleno (por verificar en iec.ch). Un afiliado no puede ser miembro participante (P) de los comités técnicos de la IEC, así que un mandato de 'fortalecer la participación en la IEC' puede no poder cumplirse tal como está escrito.",
+    "correccion": "Reemplazar 7.1 por: 'El Instituto Nacional de Calidad, como organismo nacional de normalización y miembro del Perú ante la ISO, evalúa y, de ser viable, gestiona la condición de miembro participante (P) en el comité técnico conjunto ISO/IEC JTC 1 y, de forma prioritaria, en sus subcomités de inteligencia artificial (SC 42), seguridad de la información, ciberseguridad y privacidad (SC 27), computación en la nube y plataformas distribuidas (SC 38), internet de las cosas (SC 41) y tarjetas y dispositivos de identificación (SC 17). Asimismo, evalúa la conveniencia de que el Perú pase a una categoría de miembro de la Comisión Electrotécnica Internacional que permita participar en sus comités técnicos.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 4.1",
+    "problema": "La coordinación omite al Centro Nacional de Seguridad Digital (DU 007-2020 y su reglamento, DS 126-2025-PCM), aunque el lineamiento f) trata de cooperación en ciberseguridad. También omite al INDECOPI como Autoridad Administrativa Competente de la Infraestructura Oficial de Firma Electrónica (Ley 27269 y su reglamento), que decide la equivalencia de certificados extranjeros, y al RENIEC para la identidad digital. Sin ellos, los compromisos de reconocimiento mutuo del lineamiento c) no tienen quien los ejecute.",
+    "correccion": "Agregar a la lista del 4.1: 'el Centro Nacional de Seguridad Digital, el INDECOPI en su condición de Autoridad Administrativa Competente de la Infraestructura Oficial de Firma Electrónica, el Registro Nacional de Identificación y Estado Civil en materia de identidad digital'."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3, literales a) y b)",
+    "problema": "El literal a) habla de protección 'adecuada conforme a la Ley 29733', pero la IA-16 propone modificar el art. 15 de esa ley (flujo transfronterizo) con mecanismos nuevos, y el art. 3 debería ser neutral frente a esa reforma. El literal b) coincide con la materia que COORDINACION.md asigna a GOB-13 (localización por clasificación: solo datos críticos o reservados), pero no remite a ella y el estándar 'información crítica o reservada' no coincide con el de GOB-13.",
+    "correccion": "Redactar a) así: 'promover el flujo transfronterizo de datos personales con las garantías y mecanismos de transferencia que establezca la legislación de protección de datos personales vigente'. Redactar b) así: 'evitar exigencias generales de localización de datos, sin perjuicio de las que, por ley, se establezcan para los datos públicos según su clasificación de seguridad'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 3, literales c) y f); Efecto y vigencia",
+    "problema": "Los lineamientos no mencionan el DL 1412 (Ley de Gobierno Digital) ni la Ley 31814 y su reglamento (DS 115-2025-PCM), que son el referente interno para los capítulos de identidad digital, interoperabilidad e IA confiable de los acuerdos tipo DEPA. Así crece el riesgo de asumir compromisos ajenos al enfoque de riesgos del DS 115-2025-PCM.",
+    "correccion": "En c) añadir 'y al Decreto Legislativo 1412'; en f) sustituir por 'cooperar en ciberseguridad y en inteligencia artificial confiable, de forma coherente con la Ley 31814 y su reglamento y con la participación del Perú en normas técnicas internacionales'. Añadir el DL 1412 y la Ley 31814 en efecto_vigencia y normas_relacionadas."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [],
+   "entidades_implicadas": [
+    "CNSD/SGTD-PCM — cooperación en ciberseguridad",
+    "INDECOPI — Autoridad Administrativa Competente de la IOFE",
+    "RENIEC — identidad digital",
+    "INACAL — miembro ISO; condición ante la IEC por verificar"
+   ],
+   "impacto_economico": "Ser miembro P de 5 subcomités del JTC 1 exige expertos que voten y comenten de forma sostenida; con participación remota y comités espejo financiados por universidades y gremios, el costo directo es bajo (viajes puntuales)."
+  },
+  "especialidad": "derecho_tecnologico"
+ },
+ {
+  "id": "ECO-21",
+  "veredicto": "conforme",
+  "resumen": "Es técnicamente pertinente: las tipologías de inversión para software, nube e interoperabilidad con costo total de propiedad, reutilización y seguridad desde el diseño corrigen un vacío real de Invierte.pe. Solo se recomienda conectar los criterios del art. 3 con las propuestas dueñas de esas materias (GOB-03 software público, GOB-13 nube) y con el DL 1412.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 3",
+    "problema": "Los criterios ('reutilización de soluciones', 'servicios en la nube', 'interoperabilidad') son materias de GOB-03 (software público), GOB-13 (marco de nube y localización por clasificación) y GOB-01 (interoperabilidad), y del DL 1412. Sin remisión, los lineamientos de la DGPMI podrían fijar criterios distintos de los del ente rector de gobierno digital. Falta además un criterio clave para software: financiar por producto o servicio digital iterativo y no solo por 'obra' terminada.",
+    "correccion": "Agregar al final del art. 3: 'Los lineamientos se sujetan a las normas de gobierno digital, interoperabilidad, software público y nube emitidas por la Secretaría de Gobierno y Transformación Digital conforme al Decreto Legislativo 1412, y admiten la formulación por fases o incrementos funcionales verificables.'"
+   }
+  ],
+  "especialidad": "derecho_tecnologico"
+ },
+ {
+  "id": "ECO-22",
+  "veredicto": "observaciones",
+  "resumen": "Es necesaria frente al Reglamento (UE) 2023/1115, pero tiene cuatro problemas técnico-jurídicos. Afirma que los datos 'pertenecen' al productor, una categoría que el ordenamiento no reconoce y que no protege a las cooperativas (personas jurídicas, fuera de la Ley 29733). Las 'constancias de no pérdida de cobertura' pueden leerse como certificación de cumplimiento, que el reglamento europeo deja en el operador. La georreferenciación de parcelas no se puede anonimizar con facilidad. Y la regla de datos para crédito debe remitir a la portabilidad (IA-12 y ECO-06).",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3.3",
+    "problema": "'Los datos de la parcela y de la producción pertenecen al productor' introduce una propiedad sobre datos que el ordenamiento peruano no regula: la Ley 29733 da derechos de control (acceso, rectificación, cancelación, oposición) al titular persona natural, no dominio. A las cooperativas agrarias (personas jurídicas) la Ley 29733 no les aplica, así que la garantía del consentimiento 'conforme a la Ley 29733' queda sin base cuando el productor es una cooperativa.",
+    "correccion": "Reemplazar la primera oración por: 'El agricultor familiar y la cooperativa agraria controlan el acceso a los datos de su parcela y producción registrados en el servicio. Estos datos solo se comparten con terceros con su autorización previa, expresa, informada y revocable; cuando el productor es persona natural se aplican además la Ley 29733 y su reglamento aprobado por Decreto Supremo 016-2024-JUS.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3.3 (excepción de datos 'agregados o anonimizados')",
+    "problema": "El polígono o las coordenadas de una parcela familiar identifican por sí mismos al hogar productor: no hay anonimización posible del dato geográfico a nivel de parcela, solo agregación espacial. Publicarlos como datos abiertos 'anonimizados' expondría la ubicación de familias y la de sus cultivos de alto valor (café y cacao), con riesgo de robo. La reidentificación corresponde a IA-10 y las excepciones a datos abiertos a IA-04, y la ECO-22 no remite a ninguna.",
+    "correccion": "Sustituir 'salvo los datos agregados o anonimizados que se publiquen conforme al régimen general de datos abiertos' por 'salvo los datos agregados a una escala territorial que impida identificar parcelas individuales (no inferior al nivel distrital o a la grilla que fije el reglamento), que se publican conforme al régimen general de datos abiertos. Las coordenadas y los polígonos individuales no son datos abiertos.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3.1 y 3.2",
+    "problema": "La 'constancia verificable de no pérdida de cobertura boscosa' puede confundirse con una certificación de cumplimiento. Según el Reglamento (UE) 2023/1115, la diligencia debida y la declaración las hace el operador que comercializa en la UE, y la constancia estatal solo puede ser un insumo. Los 'estándares abiertos' no se especifican. El sistema de información de la UE recibe la geolocalización en GeoJSON, con coordenadas WGS84 (EPSG:4326) y polígono obligatorio para parcelas de más de 4 hectáreas. Sin ese mínimo, el servicio puede generar datos inservibles para la exportación.",
+    "correccion": "Agregar a 3.1: 'La constancia es un documento informativo basado en la información oficial de monitoreo de bosques disponible, indica la fuente, la resolución y la fecha de las imágenes, y no sustituye la diligencia debida que corresponda a los operadores conforme a la normativa del mercado de destino.' Agregar a 3.2: 'Como mínimo, la georreferenciación se registra en el sistema de referencia WGS84, con punto o polígono según el tamaño de la parcela que exija el mercado de destino, y se exporta en formatos abiertos de intercambio geoespacial (como GeoJSON), conforme a las normas de la Infraestructura de Datos Espaciales del Perú.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 6",
+    "problema": "La autorización para compartir datos de producción, ventas y pagos con entidades financieras es portabilidad de datos personales. COORDINACION.md asigna esa materia a IA-12 (regla general) y a ECO-06 (regla especial financiera), y la ECO-22 crea una vía paralela sin remitir a ellas. Además, no fija cómo se transmite (interfaz segura y trazable) ni qué pasa con los datos ya entregados cuando el productor revoca.",
+    "correccion": "Agregar 6.3: 'La transmisión se realiza mediante interfaces de programación seguras o la Plataforma de Interoperabilidad del Estado, con registro de cada acceso consultable por el productor. La revocación impide nuevos accesos; la entidad receptora conserva los datos ya recibidos solo por el plazo necesario para la evaluación o el que exija la regulación prudencial. En lo no previsto se aplica el régimen general de portabilidad de datos personales y, para entidades supervisadas por la SBS, su régimen especial.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 7",
+    "problema": "Pide 'identificación de los socios' y 'voto verificable', pero no dice con qué medios, lo que deja la validez de los acuerdos expuesta a impugnaciones.",
+    "correccion": "Agregar: 'La identificación puede realizarse mediante DNI electrónico, certificado o firma digital, credenciales de la Plataforma Nacional de Identificación Digital u otros mecanismos de autenticación que fije el reglamento, conforme al Decreto Legislativo 1412.'"
+   }
+  ],
+  "aportes": {
+   "entidades_implicadas": [
+    "MINAM (Geobosques) — fuente oficial de monitoreo de cobertura",
+    "IDEP/PCM — estándares geoespaciales",
+    "SBS — si los datos se integran a la evaluación crediticia de supervisadas"
+   ],
+   "impacto_economico": "Si los polígonos no cumplen el formato europeo, cada exportador tendrá que relevarlos de nuevo; fijar WGS84/GeoJSON desde el inicio evita duplicar esa inversión."
+  },
+  "especialidad": "derecho_tecnologico"
+ },
+ {
+  "id": "GOB-15",
+  "veredicto": "observaciones",
+  "resumen": "La constancia electrónica automática de silencio positivo es una mejora de alto valor y técnicamente viable. Tiene tres problemas. Para tener valor probatorio frente a terceros, la constancia necesita firma o sello digital de la entidad y un cómputo de plazos confiable conectado a la notificación electrónica, no a la mesa de partes. La definición de 'norma digital' es tan amplia que alcanza casi toda la regulación sectorial. Y esa definición convive con otras tres distintas en GOB-16, GOB-17 y GOB-18.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 6.1 y 6.2",
+    "problema": "Una constancia 'con código de verificación' emitida por un 'sistema' no basta para acreditar la aprobación ficta 'ante cualquier entidad pública o tercero'. Sin firma digital, un tercero no puede verificar su integridad ni su autoría. La Ley 27269 y su reglamento admiten certificados digitales para agentes automatizados, que permiten firmar documentos emitidos sin intervención humana. Además, una mesa de partes digital solo registra el ingreso: no sabe si la entidad notificó el pronunciamiento. Si el sistema que emite la constancia no está conectado con el registro de notificaciones (casilla electrónica), se emitirán constancias falsas positivas en expedientes que sí se resolvieron.",
+    "correccion": "Reemplazar 6.1 por: '...el sistema emite de forma automática, dentro del día hábil siguiente, una constancia electrónica de aprobación ficta firmada digitalmente por la entidad mediante certificado de agente automatizado conforme a la Ley 27269 y su reglamento, con sello de tiempo y código de verificación consultable en línea. La emisión se basa en la fecha de presentación registrada y en la ausencia de notificación del pronunciamiento en la casilla electrónica o en el registro de notificaciones de la entidad, por lo que la funcionalidad solo se habilita en los procedimientos cuyo expediente y notificación son electrónicos.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 6.3",
+    "problema": "El cómputo automático en días hábiles exige un calendario oficial común y legible por máquina: feriados nacionales, días no laborables decretados, feriados regionales o locales y suspensiones por fallas de la plataforma. Si cada entidad lo configura a su modo, la misma solicitud tendrá vencimientos distintos según el sistema y la constancia será impugnable.",
+    "correccion": "Agregar 6.6: 'La Secretaría de Gobierno y Transformación Digital publica y mantiene, en formato abierto y mediante interfaz de programación, el calendario oficial de días hábiles para el cómputo de plazos administrativos, que incluye los días no laborables de alcance nacional, regional o local y las interrupciones de plataformas digitales que suspendan plazos. Los sistemas de las entidades lo usan como fuente única.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 2.3 (definición de norma digital)",
+    "problema": "Califica como digital cualquier norma 'referida a' tratamiento de datos o pagos electrónicos. Casi toda regulación sectorial (salud, tributos, transporte) trata datos, así que la cláusula de revisión obligatoria de cinco años terminaría aplicándose a gran parte del stock regulatorio y desbordaría a la Comisión Multisectorial de Calidad Regulatoria. Además, se define por la tecnología mencionada y no por el objeto regulado, lo que va contra la neutralidad tecnológica. GOB-16 (art. 3-A), GOB-17 (art. 2.a) y GOB-18 (art. 5.1) usan otras tres definiciones distintas del mismo concepto.",
+    "correccion": "Reemplazar 2.3 por: 'Para efectos de la presente ley, se entiende por norma digital la norma de carácter general cuyo objeto principal es regular el diseño, la provisión, el uso o la seguridad de tecnologías digitales. Se entiende por 'tecnologías digitales': las tecnologías de la información y las comunicaciones, incluidos los servicios digitales, el tratamiento automatizado de datos, los sistemas basados en inteligencia artificial, las telecomunicaciones, la identidad y la firma digitales, el comercio y los pagos electrónicos y la seguridad digital.' Usar la misma definición en GOB-16, GOB-17 y GOB-18."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 4.3 y artículo 8",
+    "problema": "Ordena publicar 'en formato abierto' sin remitir al régimen general de datos abiertos (dueño: IA-04) ni prever licencia. 'Datos utilizados' en un análisis ex post puede incluir microdatos de administrados.",
+    "correccion": "Añadir en 4.3: 'conforme al régimen general de datos abiertos, con licencia abierta, previa anonimización y evaluación del riesgo de reidentificación de los microdatos'."
+   }
+  ],
+  "aportes": {
+   "entidades_implicadas": [
+    "SGTD/PCM — calendario oficial de plazos y estándar técnico de la constancia",
+    "INDECOPI (AAC de la IOFE) — certificados de agente automatizado"
+   ],
+   "impacto_economico": "Conectar la constancia a la casilla y al expediente electrónico evita litigios por constancias erróneas; el costo es de integración y se reduce si GOB-02 (casilla única) avanza."
+  },
+  "especialidad": "derecho_tecnologico"
+ },
+ {
+  "id": "GOB-16",
+  "veredicto": "conforme",
+  "resumen": "El instrumento es correcto (resolución legislativa) y el diseño está bien hecho. Desde el derecho tecnológico solo se sugiere que el análisis técnico del art. 110-A revise siempre la coherencia con estándares técnicos, interoperabilidad y protección de datos, y que la definición del ámbito del art. 3-A sea la misma que la de GOB-15 y GOB-18.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 110-A.2, literal b)",
+    "problema": "El contenido mínimo del análisis técnico omite tres puntos que más vuelven inaplicables a las leyes tecnológicas: la neutralidad tecnológica (que no imponga una tecnología o proveedor concreto), la compatibilidad con normas técnicas internacionales (ISO/IEC, UIT) y con la interoperabilidad del Estado, y el impacto en la protección de datos personales.",
+    "correccion": "Agregar al literal b), después de 'su relación con las normas vigentes': ', su neutralidad tecnológica, su compatibilidad con las normas técnicas internacionales y nacionales pertinentes y con el marco de interoperabilidad del Estado, su impacto en la protección de datos personales'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 3-A.1",
+    "problema": "La lista ('tecnologías digitales, inteligencia artificial, datos...') es distinta de la definición de 'norma digital' de GOB-15 y de 'leyes digitales' de GOB-18. Con tres definiciones distintas, el registro de cláusulas de revisión del Congreso y el cronograma ex post del Ejecutivo no podrán cruzarse.",
+    "correccion": "Usar la definición común de tecnologías digitales propuesta para GOB-15 (art. 2.3), añadiendo 'biotecnología y otras tecnologías emergentes' como ámbito propio del Congreso."
+   }
+  ],
+  "especialidad": "derecho_tecnologico"
+ },
+ {
+  "id": "GOB-17",
+  "veredicto": "conforme",
+  "resumen": "Está técnicamente bien construida: metas versionadas, metodología pública, API y exclusión de información sensible de seguridad. Solo hay que precisar el canal (la Plataforma Nacional de Datos Abiertos y no GOB.PE, que es la plataforma de orientación), remitir al régimen de IA-04 y evitar que su informe anual se duplique con el reporte de GOB-18 y el informe de gasto digital de ECO-21.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 7.1",
+    "problema": "GOB.PE es la plataforma de orientación al ciudadano; los conjuntos de datos y sus API se publican en la Plataforma Nacional de Datos Abiertos. Tampoco se fija licencia ni se exige documentar la API, y sin eso su reutilización y su estabilidad no están garantizadas.",
+    "correccion": "Reemplazar por: '...publica en la Plataforma Digital Única del Estado Peruano para Orientación al Ciudadano (GOB.PE) y, como conjunto de datos, en la Plataforma Nacional de Datos Abiertos, con licencia abierta e interfaz de programación documentada y versionada, conforme al régimen general de datos abiertos...'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 8 (informe anual)",
+    "problema": "GOB-18 (art. 5) ordena un 'capítulo de leyes digitales' semestral y ECO-21 (art. 7) un informe anual de gasto digital al Congreso, ambos a cargo de la PCM. Tres reportes sobre la misma agenda y entidad generan carga duplicada e información inconsistente.",
+    "correccion": "Agregar: 'El informe anual integra, cuando existan, el capítulo de leyes digitales del reporte de reglamentación y la información sobre gasto en transformación digital que la ley exija, sin duplicar reportes.'"
+   }
+  ],
+  "especialidad": "derecho_tecnologico"
+ },
+ {
+  "id": "GOB-18",
+  "veredicto": "observaciones",
+  "resumen": "No es una materia técnica en sentido estricto. El registro público de reglamentación con API es viable y útil, pero debe apoyarse en el SPIJ y en un esquema de datos estable. La definición de 'leyes digitales' del art. 5.1 es la cuarta distinta en este grupo de propuestas, y el capítulo digital duplica funciones del tablero de GOB-17.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 5.1 y 5.2",
+    "problema": "Define 'leyes digitales' con una lista distinta de la de GOB-15 (norma digital), GOB-16 (art. 3-A) y GOB-17 (agenda digital). El capítulo de leyes digitales del art. 5.2 repite el seguimiento de implementación y metas que GOB-17 asigna al Tablero Público de Metas Digitales. Si ambas se aprueban, la PCM producirá dos reportes con universos distintos.",
+    "correccion": "Reemplazar 5.1 por la definición común de tecnologías digitales propuesta para GOB-15. Reemplazar 5.2 por: 'El capítulo de leyes digitales informa el estado de su reglamentación y de sus normas complementarias pendientes; la información sobre metas e implementación se toma del mecanismo de seguimiento de la agenda digital a cargo de la Presidencia del Consejo de Ministros, cuando exista, sin duplicar reportes.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 3.1 y 3.2",
+    "problema": "No dice con qué identificadores se vincula cada ley con su reglamento. Sin identificadores estables (número de norma, fecha, enlace al SPIJ y a El Peruano), el Congreso no podrá cruzar automáticamente sus propios reportes de leyes pendientes con el registro del Ejecutivo.",
+    "correccion": "Agregar 3.4: 'El Registro usa identificadores normalizados de las normas (tipo, número, año y enlace permanente al Sistema Peruano de Información Jurídica y a la edición oficial de El Peruano), se publica con licencia abierta y con un esquema de datos documentado, y se integra con el Sistema Peruano de Información Jurídica a cargo del Ministerio de Justicia y Derechos Humanos.'"
+   }
+  ],
+  "especialidad": "derecho_tecnologico"
+ },
+ {
+  "id": "GOB-19",
+  "veredicto": "observaciones",
+  "resumen": "Es técnicamente sólida: separación lógica entre municipalidades, MFA para cuentas privilegiadas, municipalidad como titular y mancomunidad como encargada del tratamiento conforme a la Ley 29733. Hay que ajustar dos nombres al marco del DL 1412 (Oficial de Seguridad y Confianza Digital; Líder de Gobierno y Transformación Digital), precisar el 'registro inalterable' y la exportación de datos, y remitir la casilla electrónica a GOB-02.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3.1, literal b)",
+    "problema": "El reglamento del DL 1412 (DS 029-2021-PCM) y las normas de la SGTD usan las figuras de 'Líder de Gobierno y Transformación Digital' y 'Oficial de Seguridad y Confianza Digital'. 'Responsable compartido de gobierno y transformación digital' y 'oficial compartido de seguridad digital' son denominaciones nuevas que dejan en duda si las funciones legales de esas figuras pueden ejercerse de forma compartida. COORDINACION.md asigna a GOB-14 la conducción digital y a IA-04 el uso del oficial de datos existente, sin cargos nuevos.",
+    "correccion": "Reemplazar el literal b) por: 'b) designar en común al Líder de Gobierno y Transformación Digital y al Oficial de Seguridad y Confianza Digital, o a quienes hagan sus veces, para todas o parte de las municipalidades mancomunadas, conforme al Decreto Legislativo 1412 y su reglamento.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 4.2",
+    "problema": "'Registro inalterable de accesos' no es un requisito que se pueda verificar: técnicamente ningún registro es inalterable, solo se puede detectar si fue alterado. Falta además un plazo de conservación, sin el cual el registro no sirve para investigar incidentes ni para atender los derechos ARCO.",
+    "correccion": "Reemplazar por: '...y el registro de accesos y operaciones protegido contra su alteración o eliminación no autorizada mediante mecanismos que permitan detectarla (como sellado de tiempo o encadenamiento criptográfico), conservado por un plazo no menor de dos años o el que fije la Secretaría de Gobierno y Transformación Digital, y consultable por cada municipalidad respecto de su información.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 4.1",
+    "problema": "Ordena exportar 'en formatos abiertos' sin precisar estructura ni metadatos. Si una municipalidad se retira de la mancomunidad con un volcado inservible, queda atrapada en el proveedor o en el sistema compartido.",
+    "correccion": "Agregar: 'La exportación es completa, en formatos estructurados, documentados y de lectura mecánica, incluye los metadatos y los documentos asociados y se entrega en un plazo no mayor de treinta días hábiles desde la solicitud o el retiro de la mancomunidad.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 5.1, literal c)",
+    "problema": "Acompañar la implementación de la 'casilla electrónica' podría llevar a cada municipalidad a montar su propia casilla, en contra de la casilla única nacional que propone GOB-02 (dueña de la materia).",
+    "correccion": "Reemplazar por: 'c) acompañamiento en la implementación de la mesa de partes digital, la notificación mediante la casilla electrónica que corresponda conforme a la normativa vigente, los pagos en línea y las licencias'."
+   }
+  ],
+  "aportes": {
+   "entidades_implicadas": [
+    "CNSD/SGTD-PCM — orientación ante incidentes (ya prevista)",
+    "Perú Compras/OECE — compras corporativas de TI bajo la Ley 32069"
+   ]
+  },
+  "especialidad": "derecho_tecnologico"
+ },
+ {
+  "id": "GOB-20",
+  "veredicto": "observaciones",
+  "resumen": "Es técnicamente sólida y neutral: usa la VUCE y la PIDE, estándares OMI/OMA, acceso mínimo con bitácora y criterios de seguridad sin distinguir por origen del capital ni del proveedor. Tres ajustes. El art. 6.2 fija controles de ciberseguridad propios para los terminales, materia que COORDINACION.md asigna al régimen ACN más CIB-02. La lista de estándares debe incluir ISO 28005 y UN/CEFACT. 'Bitácora inalterable' y 'tiempo real' deben convertirse en requisitos verificables, porque de ellos dependen las infracciones del art. 9.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 6.2",
+    "problema": "Impone a los operadores de terminales controles concretos (segregación OT/IT, inventario de componentes, conservación de registros). Según COORDINACION.md, la infraestructura crítica corresponde al régimen ACN (DS 106-2017-PCM) más CIB-02 (contenido mínimo y régimen de las obligaciones de ciberseguridad), y las demás propuestas 'remiten; no crean categorías nuevas'. Aunque el 6.1 respeta esa regla, el 6.2 crea un catálogo sectorial de controles que puede chocar con el de CIB-02 o con las normas del CNSD. Tampoco cita la referencia técnica natural para tecnología operativa portuaria (serie IEC 62443) ni la guía de la OMI sobre gestión del riesgo cibernético marítimo.",
+    "correccion": "Reemplazar 6.2 por: 'Los operadores de terminales calificados como Activos Críticos Nacionales o como operadores de servicios esenciales cumplen las obligaciones de seguridad digital que establezca la normativa general aplicable a dichos activos. El reglamento de dicha normativa considera, para la tecnología operativa portuaria, como mínimo la segregación de las redes de tecnología operativa respecto de las corporativas y de los accesos remotos, el inventario de componentes que controlan equipos de manipulación de carga y la conservación de registros de eventos de seguridad, tomando como referencia normas técnicas internacionales como la serie IEC 62443 y las directrices de la Organización Marítima Internacional sobre gestión del riesgo cibernético.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3.1, artículo 3.3 y artículo 9.1, literal b)",
+    "problema": "'Tiempo real' y 'bitácora inalterable' no son conductas verificables. La infracción leve por transmitir 'fuera del plazo reglamentario' exige que el plazo sea medible, conforme al principio de tipicidad (art. 248.4 del TUO de la Ley 27444). Técnicamente ninguna bitácora es inalterable: se puede proteger y detectar su alteración.",
+    "correccion": "En 3.1, reemplazar 'en tiempo real o en el plazo máximo que fije el reglamento' por 'dentro del plazo máximo que fije el reglamento por tipo de evento, que no excede de quince minutos desde su ocurrencia para los eventos de nave y de puerta, salvo contingencia técnica registrada'. En 3.3, reemplazar 'bitácora inalterable' por 'bitácora protegida contra su alteración o eliminación no autorizada mediante mecanismos que permitan detectarla, conservada por un plazo no menor de cinco años'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 2.2, literal c)",
+    "problema": "Remite a 'las recomendadas por la OMI en el marco del Convenio FAL' y al Modelo de Datos de la OMA, pero omite la norma ISO 28005 (despacho portuario electrónico), que es la referencia del Compendio FAL de la OMI, y las especificaciones UN/CEFACT, usadas para los mensajes de logística terrestre. Desde el 1 de enero de 2024, las enmiendas al Convenio FAL hacen obligatoria la ventanilla única marítima, lo que refuerza el argumento de la exposición de motivos.",
+    "correccion": "Redactar: 'c) Estándares abiertos de datos: especificaciones públicas y sin costo de licencia para el intercambio electrónico de información, tales como el Compendio de la OMI sobre facilitación y comercio electrónico y la norma ISO 28005, el Modelo de Datos de la Organización Mundial de Aduanas y las especificaciones del Centro de las Naciones Unidas para la Facilitación del Comercio y las Transacciones Electrónicas (UN/CEFACT).' Mencionar en la exposición de motivos la obligatoriedad de la ventanilla única marítima desde 2024."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 8",
+    "problema": "Publica datos abiertos sin remitir al régimen general de datos abiertos (IA-04), que excluye la información sensible de infraestructura crítica. Datos de desempeño muy granulares (por ejemplo, hora de cada atraque) pueden revelar patrones operativos de un activo crítico.",
+    "correccion": "Añadir: 'conforme al régimen general de datos abiertos, con un nivel de agregación temporal que no revele patrones operativos sensibles para la seguridad de los Activos Críticos Nacionales'."
+   }
+  ],
+  "aportes": {
+   "entidades_implicadas": [
+    "CNSD/SGTD-PCM — obligaciones de ciberseguridad de ACN",
+    "APN — sector competente ACN portuario"
+   ]
+  },
+  "especialidad": "derecho_tecnologico"
+ },
+ {
+  "id": "GOB-21",
+  "veredicto": "observaciones",
+  "resumen": "Desde el derecho tecnológico, el principio de no sustitución y las salvaguardas de grabación y publicación son correctos. Faltan tres cosas: valor probatorio verificable para las constancias del Registro (firma o sello digital), una prohibición expresa de reutilizar las grabaciones en lenguas originarias para corpus o IA fuera del régimen de IA-06, y referencias de accesibilidad.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 4.3",
+    "problema": "Las grabaciones de audio y video de reuniones de consulta en lenguas originarias tienen alto valor como corpus de voz para entrenar modelos. Limitarlas a 'documentar el proceso' no impide expresamente que la entidad o sus contratistas las reutilicen para ese fin. COORDINACION.md hace a IA-06 dueña del régimen de corpus de lenguas originarias (consentimiento individual de cada hablante, acuerdo de las organizaciones representativas, prohibición de clonación de voz).",
+    "correccion": "Agregar a 4.3: 'Las grabaciones no pueden emplearse para conformar corpus lingüísticos, entrenar sistemas de inteligencia artificial ni sintetizar voces, salvo consentimiento específico de cada hablante y acuerdo de las organizaciones representativas conforme al régimen de corpus y tecnologías del lenguaje en lenguas indígenas u originarias que establezca la ley de la materia. Se conservan con controles de acceso y se eliminan al cumplirse su finalidad documental, salvo su valor archivístico.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 6.3",
+    "problema": "Las constancias del contenido inscrito servirán como 'medio probatorio' para exigir acuerdos en sede judicial (art. 15 de la Ley 29785). Para eso deben poder verificarse sin depender de que la plataforma siga en línea. La ley no exige ni firma digital ni historial de versiones del estado informado.",
+    "correccion": "Agregar: 'Las constancias se emiten firmadas digitalmente por la entidad a cargo de la sección del Registro conforme a la Ley 27269, con sello de tiempo, y el Registro conserva el historial de versiones de cada acuerdo y de su estado de cumplimiento.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículos 4.1, 4.2 y 5.4",
+    "problema": "Los contenidos en audio y los portales del Registro no remiten al estándar de accesibilidad digital. Según COORDINACION.md, el estándar y los plazos de accesibilidad corresponden a TAL-13.",
+    "correccion": "Agregar a 5.4: 'y cumple el estándar de accesibilidad digital aplicable a los servicios públicos digitales'."
+   }
+  ],
+  "especialidad": "derecho_tecnologico"
+ },
+ {
+  "id": "GOB-22",
+  "veredicto": "observaciones",
+  "resumen": "Enlazar transferencia, CUI, SEACE e INFOBRAS es técnicamente viable y aporta mucho. Hay que nombrar el estándar de contrataciones (OCDS, que GOB-05 ya adopta) para no duplicar formatos. También hay que corregir la publicación de los 'agentes participantes inscritos' del presupuesto participativo, que expone datos personales de ciudadanos sin base de licitud ni minimización.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 7 (artículo 10-A.1 de la Ley 28056)",
+    "problema": "Ordena publicar en formato abierto 'los agentes participantes inscritos'. Muchos son personas naturales (representantes de organizaciones vecinales, comunales o de base). Publicar sus nombres y datos de contacto en datos abiertos, reutilizables sin control, va contra los principios de finalidad y proporcionalidad de la Ley 29733 y puede exponer a dirigentes en zonas de conflicto socioambiental, justo las de canon.",
+    "correccion": "Reemplazar 'los agentes participantes inscritos' por 'la relación de organizaciones e instituciones inscritas como agentes participantes, con el nombre de sus representantes solo cuando estos lo autoricen, sin datos de contacto personales'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 4.2 y artículo 9",
+    "problema": "El enlace con el SEACE se hace mediante 'identificadores de contratación' sin nombrar el estándar. GOB-05 (dueña de la transparencia general del gasto y las contrataciones) ya ordena publicar bajo el Estándar de Datos de Contrataciones Abiertas (OCDS). Sin una referencia expresa, el MEF podría crear un identificador propio incompatible con el ocid del OCDS.",
+    "correccion": "En 4.2, reemplazar 'los identificadores de contratación' por 'el identificador del proceso de contratación conforme al Estándar de Datos de Contrataciones Abiertas (OCDS) que publique el Organismo Especializado para las Contrataciones Públicas Eficientes'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 8.1",
+    "problema": "La suscripción de alertas y los reportes ciudadanos recogen datos personales (correo, teléfono, identidad del denunciante), y el texto no remite a la Ley 29733 ni a la reserva de identidad del denunciante.",
+    "correccion": "Agregar 8.3: 'Los datos de quienes suscriben alertas o reportan inconsistencias se usan solo para ese fin conforme a la Ley 29733; los reportes pueden presentarse de forma anónima y la identidad del reportante no se comunica a la entidad receptora sin su consentimiento.'"
+   }
+  ],
+  "especialidad": "derecho_tecnologico"
+ },
+ {
+  "id": "GOB-23",
+  "veredicto": "observaciones",
+  "resumen": "Su diseño acierta: validación humana de la traducción automática en actos que inciden en derechos y remisión a IA-06 de corpus y modelos. El problema principal es que el registro de 'lengua preferida' puede revelar origen étnico, un dato sensible según la Ley 29733, así que exige consentimiento por escrito y salvaguardas reforzadas. La extensión del art. 15-A a privados que prestan servicios públicos necesita supervisor y gradualidad, y conviene alinear el art. 5.2 con el régimen de IA de riesgo.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 6.1 y 6.2",
+    "problema": "La lengua preferida o materna indígena funciona como indicador de origen étnico, y la Ley 29733 (art. 2, numeral 5) incluye el origen racial y étnico entre los datos sensibles. Su tratamiento exige consentimiento por escrito, salvo excepción legal (art. 13.6). El texto habla solo de 'consentimiento expreso' y no limita el acceso de las entidades, así que el dato podría circular por interoperabilidad hacia cualquier entidad.",
+    "correccion": "Reemplazar 6.2 por: 'El dato de lengua preferida se trata como dato sensible conforme a la Ley 29733: requiere consentimiento expreso otorgado por escrito o por medio electrónico equivalente, se usa solo para adecuar la lengua de las comunicaciones, se comparte con otras entidades únicamente para ese fin y con registro de accesos, y no puede usarse para perfilar, segmentar, elaborar estadísticas nominativas ni condicionar el acceso a servicios.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 8 (artículo 15-A.1 de la Ley 29735)",
+    "problema": "Extiende la obligación a las 'privadas que prestan servicios públicos' (telecomunicaciones, electricidad, saneamiento) sin decir quién supervisa ni con qué régimen, y sin gradualidad propia. Para las empresas operadoras la obligación no se puede exigir de forma verificable. Además, los regímenes sectoriales de usuarios (por ejemplo, las condiciones de uso de OSIPTEL) son el lugar natural para esta obligación.",
+    "correccion": "Agregar 15-A.4: 'Para las empresas privadas que prestan servicios públicos, el organismo regulador sectorial incorpora estas obligaciones, de forma gradual y proporcional al tamaño de la empresa y a la demanda territorial, en sus normas de atención a usuarios, y fiscaliza su cumplimiento conforme a su régimen sancionador.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 5.2",
+    "problema": "No vincula el uso de traducción automática o IA con el marco de la Ley 31814 y su reglamento (DS 115-2025-PCM), que pide supervisión humana y transparencia en sistemas de IA usados por entidades públicas. Tampoco coordina con IA-06, que ya regula los asistentes virtuales de IA en lenguas originarias con validación por intérpretes registrados. Puede haber dos estándares de validación para el mismo servicio.",
+    "correccion": "Agregar al final de 5.2: 'El uso de sistemas de inteligencia artificial se sujeta a la Ley 31814 y su reglamento y, en lo relativo a asistentes virtuales en lenguas originarias, al régimen de tecnologías del lenguaje en lenguas indígenas u originarias que establezca la ley de la materia.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 3.2, literal d)",
+    "problema": "Los mensajes de alerta se difunden por SISMATE (difusión celular), que no admite audio y limita la longitud del texto. La exigencia de audio del 3.3 no puede cumplirse en ese canal. La materia corresponde a TAL-10.",
+    "correccion": "Agregar a 3.3: 'En los canales que por su naturaleza técnica no admitan audio, como la difusión celular de alertas, se aplica solo la versión escrita, conforme a los protocolos del sistema de alerta temprana vigente.'"
+   }
+  ],
+  "especialidad": "derecho_tecnologico"
+ },
+ {
+  "id": "GOB-24",
+  "veredicto": "observaciones",
+  "resumen": "La medición desagregada es correcta y no crea procedimientos. Pero pedir lengua, autoidentificación étnica y discapacidad en los registros administrativos de servicios digitales supone tratar datos sensibles. 'Anonimizados o agregados' no basta cuando se cruzan distrito, lengua, sexo y discapacidad: se necesita control de divulgación estadística y priorizar las fuentes estadísticas antes que los registros nominativos.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3.2 y 3.3",
+    "problema": "Autoriza usar 'registros administrativos' para desagregar por lengua, autoidentificación étnica y discapacidad. La Ley 29733 (art. 2.5) califica esos datos como sensibles (origen étnico, salud) y exige consentimiento por escrito para tratarlos (art. 13.6). La voluntariedad del 3.3 no basta. Además, cruzar distrito, sexo, edad, lengua y discapacidad produce celdas de pocas personas, reidentificables aunque sean 'agregadas'. La reidentificación es materia de IA-10.",
+    "correccion": "Reemplazar 3.3 por: 'La desagregación prioriza las fuentes del Sistema Estadístico Nacional. Cuando se usen registros administrativos, los datos de lengua, autoidentificación étnica y discapacidad se recogen solo con consentimiento expreso otorgado por escrito o por medio electrónico equivalente, conforme a la Ley 29733, no condicionan el acceso a ningún servicio y se publican únicamente agregados con técnicas de control de divulgación estadística (supresión o agregación de celdas por debajo del umbral que fije el INEI). Se aplica el secreto estadístico.'"
+   }
+  ],
+  "aportes": {
+   "entidades_implicadas": [
+    "INEI — umbrales de control de divulgación estadística",
+    "ANPD/MINJUSDH — tratamiento de datos sensibles"
+   ]
+  },
+  "especialidad": "derecho_tecnologico"
+ },
+ {
+  "id": "TAL-15",
+  "veredicto": "conforme",
+  "resumen": "Es técnicamente viable. La verificación digital de diplomas es la clave del plazo de 15 días y conviene abrirla a credenciales verificables y a la apostilla electrónica, sin atarla a 'plataformas'. La estadística por ocupación, país y región debe aplicar control de celdas pequeñas.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 5.1",
+    "problema": "Condiciona el plazo abreviado a verificar 'mediante plataformas digitales oficiales del país emisor o de la institución'. Deja fuera las credenciales digitales firmadas verificables sin consultar una plataforma (estándar W3C de credenciales verificables, credenciales digitales europeas) y la apostilla electrónica, que el Perú ya emite y recibe. Atar la verificación a 'plataformas' va contra la neutralidad tecnológica.",
+    "correccion": "Reemplazar 'cuya autenticidad pueda verificarse mediante plataformas digitales oficiales del país emisor o de la institución' por 'cuya autenticidad pueda verificarse por medios electrónicos, tales como plataformas oficiales de verificación del país emisor o de la institución, credenciales digitales firmadas conforme a estándares abiertos o apostilla electrónica'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 8",
+    "problema": "Publicar residencias por ocupación, país de origen y región, junto con la remuneración mediana, crea celdas de una o pocas personas (por ejemplo, un solo especialista de un país en una región) que permiten identificarlas.",
+    "correccion": "Agregar: 'Las celdas con menos de cinco personas se suprimen o agregan, y la remuneración mediana solo se publica para grupos de al menos diez personas.'"
+   }
+  ],
+  "especialidad": "derecho_tecnologico"
+ },
+ {
+  "id": "TAL-16",
+  "veredicto": "observaciones",
+  "resumen": "La cuenta portable es coherente con IA-13 y TAL-04, pero el registro digital mezcla dos tipos de información: datos de formación (MTPE) y aportes y saldos de una cuenta bancaria, protegidos por el secreto bancario. Para que el MTPE los muestre hace falta una excepción con consentimiento como la de ECO-06. Además, el registro de credenciales debe ser interoperable y verificable, no un repositorio aislado del MTPE.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 2, literal b), y artículo 8.1",
+    "problema": "El registro digital del MTPE incluye 'los aportes recibidos', es decir, movimientos de una cuenta de depósito en una empresa del sistema financiero. El art. 140 de la Ley 26702 protege esa información con el secreto bancario, que solo cede con consentimiento del titular o por excepción legal. COORDINACION.md (criterio 5) exige para ECO-06 una 'excepción expresa al art. 140 Ley 26702 con consentimiento'. Sin ella, la empresa financiera no puede enviar al MTPE los aportes y pagos y el registro queda incompleto. Ojo: si la excepción se inserta en la propia Ley 26702, se modifica una ley orgánica.",
+    "correccion": "Agregar 8.3: 'Al abrir la cuenta, el titular puede autorizar expresamente a la empresa del sistema financiero para que transmita al registro digital de aprendizaje la información de los aportes y pagos de formación de su cuenta de depósito de aprendizaje. Esta autorización constituye consentimiento a efectos del artículo 140 de la Ley 26702 y se limita a dicha finalidad. La transmisión se realiza por medios interoperables seguros y con registro de accesos consultable por el titular.' Precisar en efecto_vigencia que no se modifica la Ley 26702."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 2, literal b), y artículo 8.1",
+    "problema": "El registro de credenciales del MTPE puede duplicar el Registro Nacional de Grados y Títulos (SUNEDU), los registros del MINEDU y la certificación de competencias, y no prevé que las credenciales sean verificables por terceros. La 'descarga en formato abierto' sirve para portar datos, pero no permite que un empleador verifique la credencial sin llamar a la entidad emisora.",
+    "correccion": "Agregar al art. 8.1: 'El registro obtiene las credenciales por interoperabilidad de las entidades emisoras a través de la Plataforma de Interoperabilidad del Estado, sin exigir al titular que las presente, y permite emitirlas como credenciales digitales verificables conforme a estándares abiertos, compatibles con la billetera de identidad digital del Estado cuando exista.'"
+   }
+  ],
+  "aportes": {
+   "entidades_implicadas": [
+    "SBS — secreto bancario y normas de la cuenta",
+    "SUNEDU/MINEDU — fuentes de credenciales por PIDE",
+    "SGTD/PCM — interoperabilidad y billetera digital"
+   ]
+  },
+  "especialidad": "derecho_tecnologico"
+ },
+ {
+  "id": "IA-15",
+  "veredicto": "observaciones",
+  "resumen": "Es una propuesta valiosa y bien anclada en el Código Civil y en el DS 115-2025-PCM (art. 24.1 a y j), con normas técnicas de desempeño. Hay cuatro problemas. La definición de 'sistema autónomo o robótico' abarca cualquier equipo automatizado (fajas, puertas, PLC) y extendería seguro y registro de eventos a toda la automatización industrial. El registro de eventos no fija contenido mínimo ni obliga al fabricante a hacerlo legible. Faltan referencias técnicas clave para logística y vehículos (ISO 3691-4, ISO 10218, UNECE R155/R156/R157). Y la seguridad digital del 7.1 e) no remite al régimen de activos críticos.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3, literal a)",
+    "problema": "'Máquina... que mediante sensores y programas ejecuta movimientos... sin control humano directo en tiempo real' incluye fajas transportadoras, puertas automáticas, ascensores, sistemas de clasificación por PLC y brazos de envasado de ciclo fijo. Con el art. 2.1 c), todo almacén automatizado tendría que contratar el seguro del art. 6 y mantener el registro del art. 5, con un costo desproporcionado y sin relación con el riesgo específico de la autonomía (navegar y decidir trayectorias en entornos compartidos con personas).",
+    "correccion": "Reemplazar el literal a) por: 'a) Sistema autónomo o robótico: máquina, vehículo o equipo móvil que, mediante sensores y programas, incluidos sistemas basados en inteligencia artificial, percibe su entorno y determina por sí mismo su trayectoria o maniobras en espacios donde puede interactuar con personas, vehículos tripulados u otros equipos, sin control humano directo en tiempo real. No comprende los equipos automatizados de ciclo fijo o ubicación fija confinados en zonas sin acceso de personas durante su operación, que se rigen por las normas de seguridad de máquinas y de seguridad y salud en el trabajo.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 5.1 y 5.2",
+    "problema": "No define qué datos mínimos registra el sistema ni en qué formato se entregan. En la práctica, los registros de fabricantes suelen ser propietarios o estar cifrados, y solo el fabricante puede leerlos. Así, la exhibición judicial (5.2) y la presunción del art. 282 CPC (5.3) recaen en un operador que quizá no puede extraerlos. Para vehículos existen referencias internacionales de contenido mínimo: los registradores de datos de eventos (Reglamento ONU n.º 160) y los sistemas de almacenamiento de datos de conducción automatizada (Reglamento ONU n.º 157).",
+    "correccion": "Agregar 5.5: 'El reglamento establece, por tipo de sistema, el contenido mínimo del registro de eventos (como estado y modo de operación, posición y velocidad, detecciones relevantes, órdenes del sistema, intervenciones y paradas, y versión de programas), tomando como referencia normas técnicas internacionales. El fabricante o integrador pone a disposición del operador los medios para extraer el registro en un formato legible y documentado, y de la autoridad y del juez cuando lo requieran; la negativa injustificada lo hace responsable solidario de los efectos del numeral 5.3.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 7.2",
+    "problema": "Solo cita la ISO 17757 (minería), y dos de los tres sectores del ámbito quedan sin referencia: la logística (vehículos industriales sin conductor: ISO 3691-4; robots industriales y colaborativos: ISO 10218-1/-2) y el transporte vial (sistemas automatizados de mantenimiento de carril: Reglamento ONU n.º 157; ciberseguridad y actualizaciones de software de vehículos: Reglamentos ONU n.º 155 y 156). Tampoco cita la serie IEC 62443 para el control remoto.",
+    "correccion": "Reemplazar 'tales como la ISO 17757 para maquinaria autónoma de movimiento de tierras y minería' por 'tales como la ISO 17757 para maquinaria autónoma de movimiento de tierras y minería, la ISO 3691-4 para vehículos industriales sin conductor, la serie ISO 10218 para robots industriales, los Reglamentos de las Naciones Unidas n.º 155, 156 y 157 para la ciberseguridad, las actualizaciones de software y la conducción automatizada de vehículos, y la serie IEC 62443 para la seguridad de los sistemas de control'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 7.1, literal e)",
+    "problema": "'Medidas de seguridad digital proporcionales al riesgo' no remite al régimen ACN más CIB-02, aunque una mina u operador logístico calificado como activo crítico ya tiene obligaciones (según COORDINACION.md, la infraestructura crítica es materia del régimen ACN + CIB-02). Tampoco cubre el riesgo específico de las actualizaciones remotas (OTA).",
+    "correccion": "Reemplazar por: 'e) Aplica medidas de seguridad digital proporcionales al riesgo para el control, la supervisión remota y las actualizaciones de programas a distancia, que incluyen la autenticación e integridad de las actualizaciones, sin perjuicio de las obligaciones aplicables a los Activos Críticos Nacionales.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 5.4",
+    "problema": "Remite el monitoreo de trabajadores a 'la normativa laboral', pero COORDINACION.md asigna esa materia a DER-05 (monitoreo digital) y a IA-13 (gestión algorítmica). Por su granularidad, el registro de eventos es un insumo directo para evaluar el desempeño del supervisor humano.",
+    "correccion": "Reemplazar el final por: '...el registro no puede usarse para evaluar el desempeño de trabajadores, salvo para la investigación de incidentes, conforme a las normas sobre monitoreo digital y gestión algorítmica en el trabajo.'"
+   }
+  ],
+  "aportes": {
+   "entidades_implicadas": [
+    "INACAL — adopción como NTP de ISO 17757, ISO 3691-4 e ISO 10218",
+    "MTC — adopción de reglamentos ONU de vehículos (WP.29)"
+   ],
+   "impacto_economico": "Acotar la definición evita imponer seguro y registro a miles de equipos automatizados de ciclo fijo; el costo queda concentrado en flotas autónomas (mineras grandes, AGV de centros logísticos), que ya registran eventos por exigencia del fabricante."
+  },
+  "especialidad": "derecho_tecnologico"
+ },
+ {
+  "id": "IA-16",
+  "veredicto": "observaciones",
+  "resumen": "Es la propuesta técnicamente más madura del grupo. El art. 15 sustitutorio reproduce fielmente las ocho excepciones vigentes y sube a la ley los instrumentos que hoy solo están en el DS 016-2024-JUS (arts. 18-21, verificados en El Peruano, 30-nov-2024). Ajustes recomendados: quitar del numeral 4 la 'mejora del servicio', que el propio problema señala; alinear el art. 15.6 con el art. 19.3 del reglamento; incorporar las infracciones y la regla de ámbito al cuerpo de la Ley 29733; y que la hoja de ruta analice expresamente las normas de acceso estatal a datos que la Comisión Europea revisará (DL 1182 y DL 1141).",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 2 (art. 15.3, numeral 4)",
+    "problema": "El problema identifica como brecha la excepción amplia de 'mejora y soporte del servicio', pero el texto sustitutorio la mantiene literal, y el art. 15.4 queda como único freno, con un parámetro indeterminado ('transferencias sistemáticas o masivas'). La mayoría de los flujos a proveedores de nube y soporte son sistemáticos por naturaleza. La excepción contractual del art. 49.1.b del RGPD cubre solo transferencias ocasionales necesarias para el contrato, y la Comisión Europea evalúa precisamente las excepciones amplias.",
+    "correccion": "Redactar el numeral 4 así: '4. Cuando la transferencia sea ocasional y necesaria para la ejecución de una relación contractual en la que el titular de datos personales sea parte o para la adopción de medidas precontractuales a su solicitud.' Mantener el 15.4."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 5.2, literal a)",
+    "problema": "El análisis de brechas menciona en general 'el acceso de autoridades públicas a los datos', sin nombrar las normas que la Comisión Europea revisará primero: el Decreto Legislativo 1182, que permite a la Policía acceder a datos de geolocalización sin orden judicial previa en flagrancia y obliga a los operadores de telecomunicaciones a conservar datos derivados de las comunicaciones por tres años, y el Decreto Legislativo 1141 (Sistema de Inteligencia Nacional). Tras las sentencias del TJUE (Digital Rights Ireland, Tele2/Watson y Schrems II), la conservación general de datos de tráfico y el acceso sin control independiente son objeciones típicas para conceder la adecuación. Sin esa mención expresa, la hoja de ruta puede terminar en un análisis genérico.",
+    "correccion": "Agregar al literal a): ', con análisis específico del régimen de conservación y acceso a datos derivados de las telecomunicaciones del Decreto Legislativo 1182, del Decreto Legislativo 1141 y de las demás normas que habiliten el acceso de autoridades a datos personales, a la luz de los criterios de necesidad, proporcionalidad y control independiente'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 2 (art. 15.6)",
+    "problema": "Añade criterios de adecuación más exigentes que los del art. 19.2 del DS 016-2024-JUS (autoridad independiente, control del acceso estatal), pero el art. 19.3 del reglamento permite prescindir de la evaluación si el país 'ha negociado y suscrito estándares comunes' con el Perú. El texto no aclara si esa vía abreviada sobrevive, y si sobrevive puede vaciar de contenido los nuevos criterios. Ojo además: la autoridad peruana (Dirección de Protección de Datos Personales de la DGTAIPD del MINJUSDH) no cumple hoy el criterio de independencia que se exige a terceros países, lo que refuerza el vínculo con IA-11.",
+    "correccion": "Agregar al 15.6: 'La existencia de tratados o estándares comunes suscritos por el Perú se considera en la evaluación, pero no la sustituye.' Disponer en la DCF Primera que se adecúe también el art. 19.3 del reglamento."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículos 4 y 7",
+    "problema": "La regla de ámbito subjetivo (art. 4) y las infracciones (art. 7) quedan como artículos sueltos de una ley modificatoria, fuera del cuerpo de la Ley 29733. Eso dispersa el régimen y genera doble tipificación con el art. 132.8 del DS 016-2024-JUS (infracción leve por no comunicar el flujo). La técnica legislativa de la Guía de la Cámara de Diputados (criterio 7 de COORDINACION.md) recomienda incorporar artículos en la ley base.",
+    "correccion": "Convertir el art. 4 en un párrafo incorporado al art. 3 de la Ley 29733 ('Se incorpora el párrafo 3.2...'), y el art. 7 en una modificación del artículo de infracciones de la Ley 29733 o en una disposición que ordene al reglamento tipificar como grave el flujo sin base legal. Precisar que la infracción leve por no comunicar ya prevista en el art. 132.8 del reglamento se mantiene sin duplicarse."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 29733, art. 15 (sustituye)",
+    "Ley 29733, art. 3 (incorpora párrafo sobre ámbito)",
+    "DS 016-2024-JUS, arts. 18-21, 19.3 y 132.8 (adecuación)"
+   ],
+   "entidades_implicadas": [
+    "DGTAIPD/MINJUSDH (ANPD) — resoluciones de nivel adecuado, normas corporativas vinculantes, certificaciones",
+    "MTC/PNP/DINI — insumo para el análisis de acceso estatal (DL 1182, DL 1141)"
+   ],
+   "impacto_economico": "Brasil obtuvo su decisión de adecuación (Decisión de Ejecución (UE) 2026/179, adoptada el 26-ene-2026), con exclusión expresa de transferencias para seguridad pública. El ahorro principal para exportadores de servicios es no negociar cláusulas tipo y evaluaciones de transferencia caso por caso."
+  },
+  "especialidad": "derecho_tecnologico"
+ },
+ {
+  "id": "SOB-09",
+  "veredicto": "conforme",
+  "resumen": "Es tecnológicamente neutral: hay una metodología probabilística de potencia firme para cualquier tecnología y el almacenamiento se despacha sin trato preferente. Desde el derecho tecnológico solo se recomienda precisar que las garantías de origen horarias sigan un estándar de certificados granulares, y que CON-10 (reporte de centros de datos) use este registro como fuente.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 5 (art. 33-B.1 y 33-B.3)",
+    "problema": "El registro emite certificados por MWh 'con indicación de la hora' y exige 'correspondencia horaria y geográfica', pero la compatibilidad 'con los estándares internacionales' es genérica. Los compradores de energía 24/7 (centros de datos) exigen certificados granulares interoperables, y los registros internacionales de atributos energéticos usan esquemas de datos específicos. Sin una referencia, el COES podría diseñar un formato que no se pueda exportar. Además, CON-10 obliga a los centros de datos a reportar su proporción de energía renovable, y conviene que lo hagan con este registro para evitar doble conteo.",
+    "correccion": "Agregar a 33-B.3: 'El Registro emite certificados con granularidad horaria en un formato de datos abierto y documentado, interoperable con los registros y estándares internacionales de certificados de atributos energéticos, y es la fuente de verificación del consumo renovable que los usuarios libres reporten conforme a la normativa sectorial.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 6 (cargas flexibles)",
+    "problema": "La operación de cargas flexibles y almacenamiento como servicio complementario exige telemedición y órdenes remotas del COES, lo que crea una superficie de ataque sobre el control de la red. El texto remite a la seguridad de los ACN 'cuando corresponda', pero los agregadores de cargas pequeñas pueden no ser ACN y aun así afectar al sistema en conjunto.",
+    "correccion": "Reemplazar el final por: '...con requisitos de seguridad digital que el COES establece para todo proveedor de servicios complementarios conectado a sus sistemas de control, proporcionales al riesgo agregado, sin perjuicio de los requisitos aplicables a los Activos Críticos Nacionales.'"
+   }
+  ],
+  "especialidad": "derecho_tecnologico"
+ },
+ {
+  "id": "SOB-10",
+  "veredicto": "observaciones",
+  "resumen": "La telemetría escalonada con estándares abiertos 'sin exigir marcas ni proveedores' y con transmisión diferida donde no hay cobertura es técnicamente acertada. Hay tres ajustes. 'Registro inalterable' debe convertirse en un requisito verificable, porque de él depende la infracción por manipulación. Hay que nombrar estándares de referencia para series hidrológicas. Y la publicación del código de los modelos debe remitir al régimen de software público de GOB-03.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3 (art. 57, numeral 5) y artículo 8",
+    "problema": "Exige 'registro inalterable', y el art. 8 sanciona 'la manipulación o alteración de los registros'. Técnicamente ningún registro es inalterable: solo se puede detectar su alteración (firma o sello del dato en el medidor, registro encadenado, comparación con el dato transmitido). Sin un requisito verificable, la infracción no puede probarse y el titular no sabe qué debe garantizar.",
+    "correccion": "Reemplazar 'con registro inalterable' por 'con registro protegido contra su alteración mediante mecanismos que permitan detectarla, como el sellado o la firma del dato en el dispositivo de medición y la conservación local de los registros durante el plazo que fije la Autoridad Nacional'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 4.2",
+    "problema": "Los 'estándares abiertos de comunicación y formatos de datos' no tienen referencia, y los datos de extracción deben poder fusionarse con los hidrometeorológicos del SENAMHI (TAL-08) y con los modelos del art. 6.",
+    "correccion": "Agregar: 'tomando como referencia estándares abiertos internacionales para series temporales hidrológicas y datos de sensores, como WaterML 2.0 y SensorThings API del Open Geospatial Consortium, y requisitos de seguridad digital para la transmisión y los equipos conectados'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 6.2",
+    "problema": "Publicar el código de los modelos 'cuando sea desarrollado con fondos públicos' coincide con la regla general de GOB-03 (software a medida de entidades públicas en código abierto por defecto, con sus excepciones), dueña de la materia según COORDINACION.md. Una regla paralela puede generar licencias o excepciones distintas.",
+    "correccion": "Reemplazar 'su código cuando sea desarrollado con fondos públicos' por 'su código, conforme al régimen de software público y código abierto aplicable a las entidades públicas'."
+   }
+  ],
+  "especialidad": "derecho_tecnologico"
+ },
+ {
+  "id": "SOB-11",
+  "veredicto": "observaciones",
+  "resumen": "Distinguir la DSI generada bajo contrato de acceso de la DSI de acceso abierto es técnicamente sensato y coherente con la decisión 16/2 de la COP16. Pero la trazabilidad del origen que exigen los arts. 4.1 y 5.2 depende de metadatos que la ley no estandariza. Además, extender el art. 26 de la Decisión 486 a la DSI es una interpretación de una norma comunitaria que el legislador nacional no puede fijar por sí solo.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 9.1",
+    "problema": "El art. 26 de la Decisión 486 de la CAN exige, cuando corresponda, copia del contrato de acceso si los productos o procedimientos cuya patente se solicita se obtuvieron o desarrollaron a partir de recursos genéticos. Que una ley nacional extienda ese requisito a 'la información digital de secuencias' es una interpretación del alcance de la norma comunitaria, que prevalece y cuya interpretación auténtica corresponde al Tribunal de Justicia de la Comunidad Andina. Si el INDECOPI deniega o declara el abandono de solicitudes con base en esa extensión, se expone a nulidades.",
+    "correccion": "Reemplazar 9.1 por: 'El INDECOPI, en aplicación del artículo 26 de la Decisión 486, verifica que las solicitudes de patente de invenciones obtenidas o desarrolladas a partir de recursos genéticos o productos derivados de origen peruano indiquen su origen y acompañen el contrato de acceso cuando corresponda. Cuando la solicitud reivindique o utilice información digital de secuencias de origen peruano, el INDECOPI requiere la declaración de su origen y de la base de datos de procedencia, con fines de transparencia y vigilancia, sin perjuicio de lo que se establezca en la normativa andina.' Añadir en la Disposición sobre posición internacional la promoción de una interpretación o decisión andina sobre DSI."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 4.1, literal a), y artículo 5.2",
+    "problema": "La obligación de depositar 'con indicación del Perú como país de origen y del identificador del certificado de cumplimiento' y la divulgación de origen de la DSI de bases abiertas dependen de campos de metadatos que la ley no estandariza. Las bases de la Colaboración Internacional de Bases de Datos de Secuencias de Nucleótidos (INSDC) tienen campos normalizados de país y localidad de colecta, y el identificador del certificado internacional de cumplimiento lo asigna el Centro de Intercambio de Información sobre Acceso y Participación en los Beneficios. Sin esos campos, la 'DSI de origen peruano' del art. 5.2 no se puede trazar.",
+    "correccion": "Agregar a 4.1.a): 'consignando el país de origen y la localidad de colecta en los campos normalizados de metadatos de la base de datos, conforme a estándares abiertos de metadatos de biodiversidad, y el identificador del certificado de cumplimiento reconocido internacionalmente registrado en el Centro de Intercambio de Información sobre Acceso y Participación en los Beneficios'."
+   }
+  ],
+  "especialidad": "derecho_tecnologico"
+ },
+ {
+  "id": "SOB-12",
+  "veredicto": "observaciones",
+  "resumen": "El procedimiento está bien diseñado según la Recomendación OCDE de 2009 (no discriminación, plazos, silencio positivo, control judicial). Tres problemas técnico-jurídicos. Sancionar la falta de notificación cuando la condición de ACN no es pública choca con los principios de tipicidad y culpabilidad. La lista de 'tecnologías sensibles' (criptografía y ciberseguridad en general) atraparía a cualquier empresa de software o ciberseguridad nacional, y debe alinearse con la Lista Nacional de Control de SOB-13. Y el art. 3.1.b añade categorías de infraestructura fuera del régimen ACN.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3.1, literal a), y artículo 10",
+    "problema": "La obligación de notificar depende de que el activo esté 'calificado como Activo Crítico Nacional conforme a la normativa vigente'. Por razones de seguridad, el régimen del DS 106-2017-PCM no hace pública la relación de ACN (su carácter clasificado debe verificarse en el texto vigente), así que el adquirente puede no saber si la operación está comprendida. Multar con hasta 10 000 UIT el cierre sin notificación cuando el sujeto obligado no puede conocer el supuesto de hecho vulnera los principios de tipicidad y culpabilidad (art. 248, numerales 4 y 10, del TUO de la Ley 27444).",
+    "correccion": "Agregar 3.4: 'El titular del Activo Crítico Nacional que sea parte o tenga conocimiento de una operación comprendida informa al adquirente, bajo confidencialidad, de su condición, y la comunica a la autoridad de evaluación. La consulta del numeral 6.4 se absuelve en diez días hábiles y es vinculante respecto de si la operación está comprendida.' En el art. 10.1.a), precisar: 'cerrar una operación comprendida sin notificarla, cuando el adquirente conocía o debía conocer que estaba comprendida'."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 4",
+    "problema": "Incluir 'criptografía' y 'ciberseguridad' sin calificación sujeta a control de inversiones a casi cualquier empresa peruana de software (todo producto usa cifrado) y a las pymes de servicios de ciberseguridad. La lista no va contra la neutralidad tecnológica, pero su amplitud desborda el ámbito 'acotado' que el propio artículo promete. Además, SOB-13 crea una Lista Nacional de Control de Bienes de Doble Uso alineada con el Arreglo de Wassenaar, y tener dos listas distintas de 'tecnologías sensibles' en el mismo paquete crea inconsistencia.",
+    "correccion": "Reemplazar la enumeración por: '...una lista acotada de tecnologías sensibles, definida por referencia a las categorías de la Lista Nacional de Control de Bienes de Doble Uso o, en su defecto, a las listas de los arreglos multilaterales de control de exportaciones, que puede comprender, entre otras, semiconductores avanzados, sistemas espaciales y criptografía o herramientas de ciberseguridad sujetas a control. No comprende los productos de software de uso masivo ni los servicios de ciberseguridad que no involucren tecnología controlada.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3.1, literal b)",
+    "problema": "Añade una lista propia de infraestructuras (concesiones portuarias y aeroportuarias de alcance nacional, transmisión del SGT, cables submarinos y estaciones de aterrizaje) que no coincide con el régimen ACN. COORDINACION.md asigna la infraestructura crítica al régimen ACN (DS 106-2017-PCM) más CIB-02, y las demás propuestas 'remiten; no crean categorías nuevas'. Los cables submarinos son además materia de CON-11.",
+    "correccion": "Suprimir el literal b) o reformularlo así: 'b) una persona jurídica titular de infraestructura que, sin estar calificada como Activo Crítico Nacional, pertenezca a las categorías que el reglamento del régimen de Activos Críticos Nacionales identifique como de notificación obligatoria para efectos de la presente ley.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 8.1, literal b)",
+    "problema": "Entre las condiciones se menciona la 'localización de datos críticos conforme a la ley de la materia'. La regla vigente de localización por clasificación (materia de GOB-13) se refiere a datos públicos, no a datos de privados. Imponer localización como condición puede chocar con los compromisos de flujo de datos que se negocien (ECO-20) y existen medidas igual de eficaces y menos restrictivas.",
+    "correccion": "Reemplazar por: '...compromisos de continuidad del servicio, controles de acceso a datos personales e información sensible (incluidos el cifrado con claves gestionadas en el país y la restricción de accesos remotos desde el extranjero), localización de datos solo cuando una ley lo exija, designación de responsables de seguridad...'."
+   }
+  ],
+  "aportes": {
+   "entidades_implicadas": [
+    "SGTD/CNSD-PCM — gestor del régimen ACN",
+    "MINCETUR — Lista Nacional de Control (SOB-13), para alinear tecnologías sensibles"
+   ]
+  },
+  "especialidad": "derecho_tecnologico"
+ },
+ {
+  "id": "SOB-13",
+  "veredicto": "observaciones_graves",
+  "resumen": "El régimen es necesario (Resolución 1540) y está bien construido en lo aduanero, pero tiene tres vacíos técnico-jurídicos graves para el sector tecnológico. No incorpora las notas de criptografía de uso masivo, con lo que casi toda exportación peruana de software o SaaS requeriría licencia. No excluye la investigación de seguridad, la divulgación de vulnerabilidades ni la respuesta a incidentes de los controles de 'software de intrusión', algo contrario al criterio transversal 8 de COORDINACION.md. Y su 'exportación presunta' a extranjeros en el país choca con la atracción de talento de TAL-15.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículos 2, literal b), 5.2 y 12.1, literal a)",
+    "problema": "La lista Wassenaar (categoría 4 y categoría 5, parte 2) controla el 'software de intrusión' y la tecnología para desarrollarlo. Sin exclusiones expresas, compartir una prueba de concepto de una vulnerabilidad con un fabricante o un CSIRT extranjero, o dar asistencia técnica a un incidente en otro país, sería 'transferencia intangible' o 'asistencia técnica' sin licencia: infracción muy grave de hasta 1000 UIT, más riesgo penal. El art. 9.1 (dominio público e investigación básica) no cubre estos casos, porque la investigación de vulnerabilidades es aplicada y la información no es pública antes de la divulgación coordinada. Esto contradice el criterio 8 de COORDINACION.md ('no criminalizar la investigación de seguridad de buena fe') y lo que regulan CIB-11 (divulgación coordinada) y CIB-03 (respuesta a incidentes). Desde 2017, el propio Arreglo de Wassenaar excluye de esos controles la divulgación de vulnerabilidades y la respuesta a incidentes cibernéticos.",
+    "correccion": "Agregar 9.3: 'No requieren licencia, aun cuando se refieran a bienes o tecnologías de la Lista relacionados con software de intrusión o con vigilancia de redes: a) la divulgación de vulnerabilidades a su propietario, al fabricante, a un equipo de respuesta ante incidentes o a la autoridad, con el fin de corregirlas; b) la información y asistencia técnica proporcionadas para la respuesta a un incidente de seguridad digital; y c) la investigación de seguridad de buena fe conforme a la ley de la materia. El reglamento incorpora las notas y exclusiones de los arreglos multilaterales sobre estas materias.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículos 4.1 y 9.1",
+    "problema": "Incorporar 'las listas de los arreglos multilaterales' sin mencionar sus notas generales deja dudoso si la Lista Nacional incluye la 'Nota de Criptografía' (bienes de uso masivo) y la 'Nota General de Software' (software de venta al por menor sin restricciones y software de dominio público). Sin ellas, cualquier aplicación con cifrado estándar (TLS, AES) se clasificaría en la categoría 5, parte 2, y su exportación o descarga desde el extranjero requeriría licencia. Eso paralizaría la exportación de servicios de software que promueve ECO-12. La definición de 'información de dominio público' del art. 2.d tampoco aclara si comprende el software de código abierto publicado en repositorios.",
+    "correccion": "Agregar 4.3: 'La Lista Nacional de Control incorpora las notas generales de tecnología y de software y la nota de criptografía de los arreglos multilaterales, de modo que no se sujetan a licencia los bienes y el software de uso masivo con funciones criptográficas que cumplan sus condiciones, ni el software de dominio público, incluido el publicado en repositorios abiertos con licencias que permitan su libre acceso.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 2, literal b) (transferencia intangible 'a una persona extranjera en el territorio nacional')",
+    "problema": "Faculta al reglamento a tratar como exportación la entrega de tecnología controlada a extranjeros en el país (exportación presunta o deemed export), algo que el Reglamento (UE) 2021/821 no hace con carácter general. Eso choca con TAL-15, que atrae talento STEM extranjero precisamente en semiconductores, ciberseguridad y espacio, y obligaría a universidades y empresas a pedir licencia para cada investigador o ingeniero extranjero. Tampoco aclara si alojar tecnología controlada en servidores de nube ubicados en el extranjero es exportación.",
+    "correccion": "Reemplazar el literal b) por: 'b) Transferencia intangible de tecnología: la transmisión de tecnología controlada por medios electrónicos, verbales o de otra forma no física a una persona situada fuera del territorio nacional. El almacenamiento de tecnología controlada en servicios de nube ubicados en el extranjero no constituye transferencia cuando la información esté cifrada y solo sea accesible por el titular o personas autorizadas en el país, conforme al reglamento.' Suprimir el supuesto de persona extranjera en territorio nacional o limitarlo expresamente a nacionales de destinos sujetos a embargo del Consejo de Seguridad."
+   }
+  ],
+  "aportes": {
+   "entidades_implicadas": [
+    "CNSD/SGTD-PCM — opinión sobre exclusiones de investigación de seguridad y respuesta a incidentes",
+    "PRODUCE/PROMPERÚ — impacto en exportadores de software (ECO-12)"
+   ],
+   "impacto_economico": "Sin la nota de criptografía y las exclusiones de software, el universo de exportaciones sujetas a licencia pasaría de unas pocas decenas de exportadores de bienes sensibles a prácticamente todo el sector de software exportador, con plazos de 30-45 días hábiles por licencia individual."
+  },
+  "especialidad": "derecho_tecnologico"
+ },
+ {
+  "id": "CON-15",
+  "veredicto": "observaciones",
+  "resumen": "Articular energía y conectividad y exigir operador y reposición desde el diseño es técnicamente correcto. Hay que corregir una remisión circular en el art. 10-A.2 (cita una 'ley que regula la energía para la conectividad rural' que es esta misma propuesta), integrar el inventario con el de conectividad de CON-13 en lugar de duplicarlo y fijar requisitos de seguridad para el monitoreo remoto.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 2 (art. 10-A.2 de la Ley 28749)",
+    "problema": "El artículo incorporado a la Ley 28749 remite al 'inventario a que se refiere la ley que regula la energía para la conectividad rural', pero ese inventario lo crea el art. 3 de la propia ley modificatoria, que no tiene esa denominación. Una vez incorporado, el art. 10-A quedaría remitiendo a una ley inexistente, un defecto de técnica legislativa que lo vuelve inaplicable en ese punto.",
+    "correccion": "Reemplazar por: '...elaborado con la información del inventario georreferenciado de sitios de servicio público prioritarios que el Ministerio de Energía y Minas elabora y actualiza anualmente con la información de los Ministerios de Educación, de Salud y de Transportes y Comunicaciones...'. Trasladar el contenido esencial del art. 3 a un numeral 10-A.4."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 3",
+    "problema": "CON-13 (dueña de las metas de conectividad de escuelas y postas) ya ordena un inventario abierto de conectividad de esas mismas instituciones. Dos inventarios georreferenciados de los mismos locales, en MINEM y MTC, tendrían identificadores y fechas de corte distintos.",
+    "correccion": "Agregar 3.3: 'El inventario usa los códigos de local del Censo Educativo y de establecimiento del Registro Nacional de IPRESS como identificadores comunes, y se integra con el inventario de conectividad de instituciones educativas y establecimientos de salud que exista, sin duplicarlo.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 6",
+    "problema": "Prevé el 'monitoreo remoto del estado de los sistemas aprovechando la conectividad del sitio' sin requisitos de seguridad. Controladores fotovoltaicos e inversores conectados a la misma red que usan escuela y posta son equipos IoT vulnerables y pueden servir de puerta de entrada a la red del sitio.",
+    "correccion": "Agregar: 'El monitoreo remoto se implementa en una red lógicamente separada de la red de usuarios del sitio, con autenticación de los dispositivos y actualizaciones de seguridad, conforme a los requisitos mínimos de ciberseguridad para dispositivos conectados que resulten aplicables.'"
+   }
+  ],
+  "especialidad": "derecho_tecnologico"
+ }
+]

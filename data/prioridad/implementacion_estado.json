@@ -107,7 +107,7 @@
     "CON-09"
    ],
    "requiere": [],
-   "n_dependientes_total": 8
+   "n_dependientes_total": 10
   },
   {
    "id": "IA-05",
@@ -238,11 +238,11 @@
    "habilita": [
     "CIB-08",
     "IA-12",
-    "DER-04",
-    "CIB-10"
+    "IA-16",
+    "DER-04"
    ],
    "requiere": [],
-   "n_dependientes_total": 6
+   "n_dependientes_total": 7
   },
   {
    "id": "IA-12",
@@ -279,10 +279,11 @@
    "score": 58,
    "justificacion": "Oposición gremial probable en un Congreso fragmentado; SUNAFIL fiscaliza con recursos limitados. Costo fiscal nulo. Es la regla madre que ECO-11 necesita para gestión algorítmica en plataformas.",
    "habilita": [
+    "TAL-16",
     "ECO-11"
    ],
    "requiere": [],
-   "n_dependientes_total": 1
+   "n_dependientes_total": 2
   },
   {
    "id": "IA-14",
@@ -322,7 +323,7 @@
     "CIB-02"
    ],
    "requiere": [],
-   "n_dependientes_total": 5
+   "n_dependientes_total": 6
   },
   {
    "id": "CIB-02",
@@ -612,6 +613,7 @@
    "score": 71,
    "justificacion": "Ley 31736 y la casilla de SUNAT ya existen; unificar es factible con SGTD y AGN. Base para trazabilidad de denuncias y preservación. Requiere interoperabilidad e identidad digital.",
    "habilita": [
+    "GOB-15",
     "GOB-12",
     "GOB-10"
    ],
@@ -619,7 +621,7 @@
     "GOB-01",
     "CIB-08"
    ],
-   "n_dependientes_total": 2
+   "n_dependientes_total": 3
   },
   {
    "id": "GOB-03",
@@ -669,11 +671,13 @@
    },
    "score": 81,
    "justificacion": "MEF ya publica Consulta Amigable y OECE datos OCDS: es formalizar y acelerar lo existente. Ganancia rápida de alta visibilidad anticorrupción. Requiere excepciones de seguridad y el régimen de IA-04.",
-   "habilita": [],
+   "habilita": [
+    "GOB-22"
+   ],
    "requiere": [
     "IA-04"
    ],
-   "n_dependientes_total": 0
+   "n_dependientes_total": 1
   },
   {
    "id": "GOB-06",
@@ -722,13 +726,15 @@
    },
    "score": 67,
    "justificacion": "Servicios compartidos son la única vía realista para municipios sin equipos TI; SGTD puede operarlos sobre nube estatal. Riesgo: heterogeneidad subnacional y rotación de autoridades.",
-   "habilita": [],
+   "habilita": [
+    "GOB-19"
+   ],
    "requiere": [
     "GOB-01",
     "GOB-13",
     "GOB-03"
    ],
-   "n_dependientes_total": 0
+   "n_dependientes_total": 1
   },
   {
    "id": "GOB-09",
@@ -840,10 +846,11 @@
    "score": 80,
    "justificacion": "Servir ya gestiona familias de puestos; crear la de talento digital es acto de gestión con base legal. Es el insumo humano de toda la agenda de gobierno digital y ciber. Riesgo: escalas salariales del sector público.",
    "habilita": [
-    "CIB-12"
+    "CIB-12",
+    "GOB-19"
    ],
    "requiere": [],
-   "n_dependientes_total": 1
+   "n_dependientes_total": 2
   },
   {
    "id": "CON-01",
@@ -876,11 +883,12 @@
    "score": 76,
    "justificacion": "PRONATEL ya opera el fondo de servicio universal; asegurar operación y mantenimiento evita que las redes regionales queden ociosas. Precondición de red mayorista y conectividad de escuelas y postas.",
    "habilita": [
+    "CON-15",
     "CON-13",
     "CON-03"
    ],
    "requiere": [],
-   "n_dependientes_total": 2
+   "n_dependientes_total": 3
   },
   {
    "id": "CON-03",
@@ -1000,12 +1008,13 @@
    "score": 68,
    "justificacion": "CONIDA ya distribuye imágenes PerúSAT-1; abrir datos de observación de la Tierra cuesta poco y alimenta catastro, agro y minería. Remite al régimen de apertura de IA-04; excepciones de defensa necesarias.",
    "habilita": [
+    "ECO-22",
     "GOB-07"
    ],
    "requiere": [
     "IA-04"
    ],
-   "n_dependientes_total": 1
+   "n_dependientes_total": 2
   },
   {
    "id": "CON-10",
@@ -1343,9 +1352,11 @@
    },
    "score": 68,
    "justificacion": "SUNAT ya opera factura electrónica y factura negociable; conformidad electrónica automática es ejecutable. Impacto directo en liquidez MYPE. Riesgo: entidades públicas que no dan conformidad a tiempo.",
-   "habilita": [],
+   "habilita": [
+    "ECO-15"
+   ],
    "requiere": [],
-   "n_dependientes_total": 0
+   "n_dependientes_total": 1
   },
   {
    "id": "TAL-01",
@@ -1579,10 +1590,11 @@
    "score": 63,
    "justificacion": "Accesibilidad digital con estándar y plazos: CONADIS y SGTD pueden supervisar. Dueña del estándar al que remiten GOB-09 y TAL-02. Riesgo: plazos incumplidos en entidades pequeñas.",
    "habilita": [
-    "GOB-09"
+    "GOB-09",
+    "GOB-23"
    ],
    "requiere": [],
-   "n_dependientes_total": 1
+   "n_dependientes_total": 2
   },
   {
    "id": "TAL-14",
@@ -1877,6 +1889,478 @@
     "CIB-09"
    ],
    "n_dependientes_total": 0
+  },
+  {
+   "id": "SOB-09",
+   "criterios": {
+    "viabilidad_politica": 3,
+    "viabilidad_fiscal": 5,
+    "capacidad_institucional": 4,
+    "plazo_realista": 3,
+    "riesgo_implementacion": 3,
+    "efecto_habilitador": 3
+   },
+   "score": 70,
+   "justificacion": "COES, OSINERGMIN y MINEM tienen capacidad probada y no hay gasto, pero los generadores térmicos y el cálculo de potencia firme anticipan litigio regulatorio.",
+   "habilita": [],
+   "requiere": [],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "SOB-10",
+   "criterios": {
+    "viabilidad_politica": 2,
+    "viabilidad_fiscal": 3,
+    "capacidad_institucional": 3,
+    "plazo_realista": 3,
+    "riesgo_implementacion": 2,
+    "efecto_habilitador": 2
+   },
+   "score": 49,
+   "justificacion": "La ANA existe pero con poca cobertura en campo; grandes usuarios resistirán la publicidad de volúmenes y la telemetría remota depende de conectividad. Necesita la base de datos abiertos de IA-04.",
+   "habilita": [],
+   "requiere": [
+    "IA-04"
+   ],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "SOB-11",
+   "criterios": {
+    "viabilidad_politica": 3,
+    "viabilidad_fiscal": 4,
+    "capacidad_institucional": 3,
+    "plazo_realista": 2,
+    "riesgo_implementacion": 2,
+    "efecto_habilitador": 1
+   },
+   "score": 50,
+   "justificacion": "Varias entidades (MINAM, SERFOR, INDECOPI) y tensión con la Decisión 391 de la CAN; los artículos sobre conocimientos colectivos requieren consulta previa, lo que retrasa su aprobación.",
+   "habilita": [],
+   "requiere": [],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "SOB-12",
+   "criterios": {
+    "viabilidad_politica": 3,
+    "viabilidad_fiscal": 4,
+    "capacidad_institucional": 3,
+    "plazo_realista": 4,
+    "riesgo_implementacion": 2,
+    "efecto_habilitador": 1
+   },
+   "score": 54,
+   "justificacion": "Se apoya en el régimen de Activos Críticos Nacionales y en una comisión multisectorial existente, pero hay riesgo de uso político y de controversias inversionista-Estado en un momento sensible por Chancay.",
+   "habilita": [],
+   "requiere": [],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "SOB-13",
+   "criterios": {
+    "viabilidad_politica": 4,
+    "viabilidad_fiscal": 3,
+    "capacidad_institucional": 2,
+    "plazo_realista": 3,
+    "riesgo_implementacion": 2,
+    "efecto_habilitador": 1
+   },
+   "score": 49,
+   "justificacion": "Poco conflicto político, pero no existe hoy autoridad con pericia técnica en listas de control; exige capacidades especializadas en VUCE, SUNAT y sectores, propio de una apuesta de frontera.",
+   "habilita": [],
+   "requiere": [],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "CON-15",
+   "criterios": {
+    "viabilidad_politica": 5,
+    "viabilidad_fiscal": 2,
+    "capacidad_institucional": 4,
+    "plazo_realista": 3,
+    "riesgo_implementacion": 3,
+    "efecto_habilitador": 3
+   },
+   "score": 69,
+   "justificacion": "Alta aceptación política y la DGER del MINEM ya ejecuta electrificación rural, pero la inversión no tiene fuente adicional; articula con PRONATEL reformado (CON-02) y habilita escuelas y postas conectadas.",
+   "habilita": [],
+   "requiere": [
+    "CON-02"
+   ],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "ECO-15",
+   "criterios": {
+    "viabilidad_politica": 2,
+    "viabilidad_fiscal": 4,
+    "capacidad_institucional": 5,
+    "plazo_realista": 3,
+    "riesgo_implementacion": 3,
+    "efecto_habilitador": 1
+   },
+   "score": 59,
+   "justificacion": "La SUNAT tiene plena capacidad y se apoya en la factura electrónica (ECO-14), pero gremios MYPE y la evaluación del régimen laboral especial generarán resistencia fuerte.",
+   "habilita": [],
+   "requiere": [
+    "ECO-14"
+   ],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "ECO-16",
+   "criterios": {
+    "viabilidad_politica": 4,
+    "viabilidad_fiscal": 5,
+    "capacidad_institucional": 4,
+    "plazo_realista": 4,
+    "riesgo_implementacion": 4,
+    "efecto_habilitador": 2
+   },
+   "score": 75,
+   "justificacion": "Usa el CNCF existente, expertos ad honorem y datos que procesa la SUNAT: victoria temprana sin gasto. Riesgo: atraer expertos sin retribución y que las entidades ignoren sus informes.",
+   "habilita": [],
+   "requiere": [],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "ECO-17",
+   "criterios": {
+    "viabilidad_politica": 4,
+    "viabilidad_fiscal": 3,
+    "capacidad_institucional": 4,
+    "plazo_realista": 4,
+    "riesgo_implementacion": 3,
+    "efecto_habilitador": 1
+   },
+   "score": 62,
+   "justificacion": "PRODUCE ya opera programas de cofinanciamiento, pero los bonos dependen de disponibilidad presupuestal y el riesgo de colusión proveedor-beneficiario exige control.",
+   "habilita": [],
+   "requiere": [],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "ECO-18",
+   "criterios": {
+    "viabilidad_politica": 4,
+    "viabilidad_fiscal": 3,
+    "capacidad_institucional": 4,
+    "plazo_realista": 3,
+    "riesgo_implementacion": 3,
+    "efecto_habilitador": 1
+   },
+   "score": 60,
+   "justificacion": "ProInversión, PRODUCE y MINCETUR existen; costo moderado. Las metas dependen de factores macro y de seguridad jurídica ajenos a la ley.",
+   "habilita": [],
+   "requiere": [],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "ECO-19",
+   "criterios": {
+    "viabilidad_politica": 3,
+    "viabilidad_fiscal": 5,
+    "capacidad_institucional": 4,
+    "plazo_realista": 3,
+    "riesgo_implementacion": 3,
+    "efecto_habilitador": 1
+   },
+   "score": 62,
+   "justificacion": "La SBS tiene capacidad y no hay gasto, pero el ahorro de las AFP es políticamente sensible tras los retiros y la reforma de pensiones.",
+   "habilita": [],
+   "requiere": [],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "ECO-20",
+   "criterios": {
+    "viabilidad_politica": 4,
+    "viabilidad_fiscal": 4,
+    "capacidad_institucional": 4,
+    "plazo_realista": 4,
+    "riesgo_implementacion": 4,
+    "efecto_habilitador": 1
+   },
+   "score": 68,
+   "justificacion": "Lineamientos orientadores ejecutables por MINCETUR, Relaciones Exteriores e INACAL sin tocar la competencia presidencial; bajo riesgo y bajo costo.",
+   "habilita": [],
+   "requiere": [],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "ECO-21",
+   "criterios": {
+    "viabilidad_politica": 5,
+    "viabilidad_fiscal": 5,
+    "capacidad_institucional": 4,
+    "plazo_realista": 3,
+    "riesgo_implementacion": 4,
+    "efecto_habilitador": 3
+   },
+   "score": 81,
+   "justificacion": "Respeta la iniciativa presupuestal del Ejecutivo y la ejecutan el MEF y la PCM: es el vehículo financiero que necesitan muchas leyes digitales con metas indicativas. El diseño del PPoR toma más de un año.",
+   "habilita": [],
+   "requiere": [],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "ECO-22",
+   "criterios": {
+    "viabilidad_politica": 4,
+    "viabilidad_fiscal": 3,
+    "capacidad_institucional": 3,
+    "plazo_realista": 4,
+    "riesgo_implementacion": 3,
+    "efecto_habilitador": 1
+   },
+   "score": 58,
+   "justificacion": "MIDAGRI y SERFOR tienen base, y la cobertura boscosa se apoya en datos satelitales abiertos (CON-09); cobertura sujeta a presupuesto y brecha de conectividad rural.",
+   "habilita": [],
+   "requiere": [
+    "CON-09"
+   ],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "GOB-15",
+   "criterios": {
+    "viabilidad_politica": 4,
+    "viabilidad_fiscal": 5,
+    "capacidad_institucional": 4,
+    "plazo_realista": 3,
+    "riesgo_implementacion": 3,
+    "efecto_habilitador": 2
+   },
+   "score": 70,
+   "justificacion": "Se monta sobre el D.L. 1565 y la CMCR existentes, pero 2 500 entidades deben revisar trámites y la constancia automática requiere expediente y notificación electrónicos (GOB-02).",
+   "habilita": [],
+   "requiere": [
+    "GOB-02"
+   ],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "GOB-16",
+   "criterios": {
+    "viabilidad_politica": 3,
+    "viabilidad_fiscal": 4,
+    "capacidad_institucional": 4,
+    "plazo_realista": 4,
+    "riesgo_implementacion": 4,
+    "efecto_habilitador": 2
+   },
+   "score": 68,
+   "justificacion": "Se aprueba por resolución legislativa y se implementa en la Dirección General de Servicios Especializados existente; depende de la voluntad del propio Congreso y de presupuesto del pliego.",
+   "habilita": [],
+   "requiere": [],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "GOB-17",
+   "criterios": {
+    "viabilidad_politica": 5,
+    "viabilidad_fiscal": 4,
+    "capacidad_institucional": 4,
+    "plazo_realista": 5,
+    "riesgo_implementacion": 4,
+    "efecto_habilitador": 3
+   },
+   "score": 82,
+   "justificacion": "Asigna una función a la SGTD existente, con resultados visibles en meses y bajo costo; es la pieza que da seguimiento a la ejecución del resto de la agenda.",
+   "habilita": [],
+   "requiere": [],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "GOB-18",
+   "criterios": {
+    "viabilidad_politica": 3,
+    "viabilidad_fiscal": 5,
+    "capacidad_institucional": 4,
+    "plazo_realista": 4,
+    "riesgo_implementacion": 4,
+    "efecto_habilitador": 4
+   },
+   "score": 79,
+   "justificacion": "Muy habilitadora, pues toda ley de la agenda necesita reglamento, y sin costo; pero modifica la Ley 29158 y exige votación de ley orgánica en ambas cámaras.",
+   "habilita": [],
+   "requiere": [],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "GOB-19",
+   "criterios": {
+    "viabilidad_politica": 4,
+    "viabilidad_fiscal": 3,
+    "capacidad_institucional": 3,
+    "plazo_realista": 3,
+    "riesgo_implementacion": 2,
+    "efecto_habilitador": 1
+   },
+   "score": 53,
+   "justificacion": "Adhesión voluntaria sin tocar la LOM, pero depende de cientos de municipalidades con alta rotación y de los servicios compartidos de GOB-08 y los líderes digitales de GOB-14.",
+   "habilita": [],
+   "requiere": [
+    "GOB-08",
+    "GOB-14"
+   ],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "GOB-20",
+   "criterios": {
+    "viabilidad_politica": 3,
+    "viabilidad_fiscal": 4,
+    "capacidad_institucional": 4,
+    "plazo_realista": 3,
+    "riesgo_implementacion": 3,
+    "efecto_habilitador": 1
+   },
+   "score": 59,
+   "justificacion": "La VUCE y la APN existen, pero la disputa sobre la supervisión de Chancay y la resistencia de operadores a compartir datos elevan el riesgo; la seguridad digital se apoya en CIB-01.",
+   "habilita": [],
+   "requiere": [
+    "CIB-01"
+   ],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "GOB-21",
+   "criterios": {
+    "viabilidad_politica": 2,
+    "viabilidad_fiscal": 4,
+    "capacidad_institucional": 3,
+    "plazo_realista": 2,
+    "riesgo_implementacion": 2,
+    "efecto_habilitador": 1
+   },
+   "score": 46,
+   "justificacion": "Viceministerio de Interculturalidad y entidades promotoras existen, pero la propia norma requiere consulta previa antes del Pleno y el registro abarca muchas entidades.",
+   "habilita": [],
+   "requiere": [],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "GOB-22",
+   "criterios": {
+    "viabilidad_politica": 4,
+    "viabilidad_fiscal": 4,
+    "capacidad_institucional": 4,
+    "plazo_realista": 4,
+    "riesgo_implementacion": 3,
+    "efecto_habilitador": 1
+   },
+   "score": 65,
+   "justificacion": "Se apoya en la Consulta Amigable e Invierte.pe y en la transparencia fiscal (GOB-05) y los datos abiertos (IA-04); el registro municipal será desigual.",
+   "habilita": [],
+   "requiere": [
+    "GOB-05",
+    "IA-04"
+   ],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "GOB-23",
+   "criterios": {
+    "viabilidad_politica": 4,
+    "viabilidad_fiscal": 3,
+    "capacidad_institucional": 3,
+    "plazo_realista": 2,
+    "riesgo_implementacion": 3,
+    "efecto_habilitador": 1
+   },
+   "score": 54,
+   "justificacion": "La Central de Interpretación del Ministerio de Cultura existe, pero hay escasez de intérpretes y la norma requiere consulta previa, lo que retrasa su vigencia; usa estándares de accesibilidad (TAL-13).",
+   "habilita": [],
+   "requiere": [
+    "TAL-13"
+   ],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "GOB-24",
+   "criterios": {
+    "viabilidad_politica": 4,
+    "viabilidad_fiscal": 5,
+    "capacidad_institucional": 3,
+    "plazo_realista": 4,
+    "riesgo_implementacion": 3,
+    "efecto_habilitador": 1
+   },
+   "score": 64,
+   "justificacion": "Sin órganos nuevos, usa instrumentos de CEPLAN, MEF y la SGTD; riesgo de cumplimiento formal sin análisis real.",
+   "habilita": [],
+   "requiere": [],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "TAL-15",
+   "criterios": {
+    "viabilidad_politica": 3,
+    "viabilidad_fiscal": 5,
+    "capacidad_institucional": 4,
+    "plazo_realista": 4,
+    "riesgo_implementacion": 3,
+    "efecto_habilitador": 1
+   },
+   "score": 64,
+   "justificacion": "MIGRACIONES y SUNEDU tienen sistemas, pero hay sensibilidad política frente a la migración y resistencia de colegios profesionales.",
+   "habilita": [],
+   "requiere": [],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "TAL-16",
+   "criterios": {
+    "viabilidad_politica": 4,
+    "viabilidad_fiscal": 4,
+    "capacidad_institucional": 3,
+    "plazo_realista": 3,
+    "riesgo_implementacion": 3,
+    "efecto_habilitador": 1
+   },
+   "score": 59,
+   "justificacion": "Sin gasto obligatorio, pero requiere plataforma del MTPE, sistema financiero y empleadores; depende del marco de reconversión de IA-13.",
+   "habilita": [],
+   "requiere": [
+    "IA-13"
+   ],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "IA-15",
+   "criterios": {
+    "viabilidad_politica": 3,
+    "viabilidad_fiscal": 4,
+    "capacidad_institucional": 3,
+    "plazo_realista": 3,
+    "riesgo_implementacion": 3,
+    "efecto_habilitador": 1
+   },
+   "score": 55,
+   "justificacion": "Varios supervisores (MTC, OSINERGMIN, SUNAFIL) y lobby de aseguradoras y mineras; precisa el Código Civil sin modificarlo.",
+   "habilita": [],
+   "requiere": [],
+   "n_dependientes_total": 0
+  },
+  {
+   "id": "IA-16",
+   "criterios": {
+    "viabilidad_politica": 4,
+    "viabilidad_fiscal": 5,
+    "capacidad_institucional": 3,
+    "plazo_realista": 2,
+    "riesgo_implementacion": 3,
+    "efecto_habilitador": 2
+   },
+   "score": 64,
+   "justificacion": "Sustituye un artículo de la Ley 29733 sin gasto, pero la adecuación depende de la autonomía de la ANPD (IA-11) y de la evaluación de la Comisión Europea.",
+   "habilita": [],
+   "requiere": [
+    "IA-11"
+   ],
+   "n_dependientes_total": 0
   }
  ],
  "olas": {
@@ -1900,7 +2384,11 @@
     "ECO-07",
     "ECO-14",
     "TAL-10",
-    "DER-07"
+    "DER-07",
+    "ECO-16",
+    "ECO-21",
+    "GOB-16",
+    "GOB-17"
    ]
   },
   "ola_2_2027": {
@@ -1938,7 +2426,20 @@
     "TAL-13",
     "DER-01",
     "SOB-03",
-    "SOB-08"
+    "SOB-08",
+    "SOB-09",
+    "CON-15",
+    "ECO-17",
+    "ECO-18",
+    "ECO-19",
+    "ECO-20",
+    "ECO-22",
+    "GOB-15",
+    "GOB-20",
+    "GOB-22",
+    "GOB-24",
+    "TAL-15",
+    "IA-16"
    ]
   },
   "ola_3_2028_2029": {
@@ -1977,7 +2478,17 @@
     "DER-04",
     "DER-05",
     "DER-06",
-    "SOB-01"
+    "SOB-01",
+    "SOB-10",
+    "SOB-11",
+    "SOB-12",
+    "ECO-15",
+    "GOB-18",
+    "GOB-19",
+    "GOB-21",
+    "GOB-23",
+    "TAL-16",
+    "IA-15"
    ]
   },
   "ola_4_2030_2031": {
@@ -1997,7 +2508,8 @@
     "SOB-06",
     "SOB-07",
     "DER-02",
-    "DER-08"
+    "DER-08",
+    "SOB-13"
    ]
   }
  },

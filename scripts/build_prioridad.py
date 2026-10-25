@@ -88,8 +88,18 @@ def main():
             else:
                 vacios.append({"titulo": v.get("titulo"), "por_que": v.get("por_que"), "eje_sugerido": v.get("eje_sugerido"),
                                "lentes": [NOMBRES[k]], "_t": t})
+    # Vacíos ya convertidos en propuesta (data/nuevas/encargo.json: id ← títulos de los vacíos de origen)
+    enc = ROOT / "data/nuevas/encargo.json"
+    convertido = {}
+    if enc.exists():
+        for grupo in json.loads(enc.read_text()).values():
+            for it in grupo:
+                for v in it["vacios"]:
+                    convertido[v["titulo"]] = it["id"]
     for v in vacios:
         v.pop("_t")
+        if v["titulo"] in convertido:
+            v["convertido_en"] = convertido[v["titulo"]]
     vacios.sort(key=lambda v: -len(v["lentes"]))
 
     out = {

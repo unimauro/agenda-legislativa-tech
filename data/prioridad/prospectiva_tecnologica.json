@@ -1664,6 +1664,443 @@
     "CIB-08",
     "CIB-13"
    ]
+  },
+  {
+   "id": "SOB-09",
+   "criterios": {
+    "megatendencias": 5,
+    "anti_obsolescencia": 4,
+    "leapfrogging": 4,
+    "capacidades_nacionales": 5,
+    "costo_rezago": 5
+   },
+   "score": 92,
+   "justificacion": "Energía firme limpia es el insumo crítico del cómputo para IA y de la refinación; la metodología neutral de potencia firme sobrevive a cambios de tecnología de almacenamiento.",
+   "habilita": [
+    "CON-10",
+    "IA-05",
+    "SOB-01"
+   ],
+   "requiere": []
+  },
+  {
+   "id": "SOB-10",
+   "criterios": {
+    "megatendencias": 5,
+    "anti_obsolescencia": 4,
+    "leapfrogging": 4,
+    "capacidades_nacionales": 4,
+    "costo_rezago": 4
+   },
+   "score": 85,
+   "justificacion": "El estrés hídrico es la tendencia de mayor impacto del informe CEPLAN; gemelos digitales de cuenca y telemetría abierta son capacidad acumulativa para la adaptación.",
+   "habilita": [],
+   "requiere": [
+    "IA-04"
+   ]
+  },
+  {
+   "id": "SOB-11",
+   "criterios": {
+    "megatendencias": 5,
+    "anti_obsolescencia": 4,
+    "leapfrogging": 3,
+    "capacidades_nacionales": 4,
+    "costo_rezago": 4
+   },
+   "score": 81,
+   "justificacion": "La biotecnología y la DSI son frontera al 2036; fijar reglas antes de que opere el mecanismo multilateral de beneficios evita que el país quede como mero proveedor de muestras.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "SOB-12",
+   "criterios": {
+    "megatendencias": 4,
+    "anti_obsolescencia": 4,
+    "leapfrogging": 2,
+    "capacidades_nacionales": 3,
+    "costo_rezago": 4
+   },
+   "score": 68,
+   "justificacion": "La geopolitización de infraestructura y tecnologías sensibles es tendencia estable al 2036; el procedimiento reglado y temporal resiste cambios de contexto.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "SOB-13",
+   "criterios": {
+    "megatendencias": 4,
+    "anti_obsolescencia": 4,
+    "leapfrogging": 2,
+    "capacidades_nacionales": 3,
+    "costo_rezago": 3
+   },
+   "score": 65,
+   "justificacion": "La rivalidad tecnológica hace más exigentes los controles de uso final; la lista alineada a regímenes multilaterales se actualiza sin reescribir la ley.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "CON-15",
+   "criterios": {
+    "megatendencias": 4,
+    "anti_obsolescencia": 4,
+    "leapfrogging": 4,
+    "capacidades_nacionales": 4,
+    "costo_rezago": 3
+   },
+   "score": 77,
+   "justificacion": "Solar autónoma con operación y reposición asegurada permite saltar la red convencional en sitios dispersos; capacidad base para telesalud y educación digital.",
+   "habilita": [
+    "CON-13",
+    "TAL-07"
+   ],
+   "requiere": [
+    "CON-02"
+   ]
+  },
+  {
+   "id": "ECO-15",
+   "criterios": {
+    "megatendencias": 2,
+    "anti_obsolescencia": 4,
+    "leapfrogging": 3,
+    "capacidades_nacionales": 3,
+    "costo_rezago": 2
+   },
+   "score": 56,
+   "justificacion": "Simplificación tributaria apoyada en comprobantes electrónicos; útil y duradera, pero no es una apuesta de frontera tecnológica.",
+   "habilita": [],
+   "requiere": [
+    "ECO-14"
+   ]
+  },
+  {
+   "id": "ECO-16",
+   "criterios": {
+    "megatendencias": 2,
+    "anti_obsolescencia": 5,
+    "leapfrogging": 2,
+    "capacidades_nacionales": 4,
+    "costo_rezago": 2
+   },
+   "score": 60,
+   "justificacion": "Institución de evaluación neutral a la tecnología; capacidad acumulativa para corregir políticas, sin contenido tecnológico propio.",
+   "habilita": [
+    "ECO-03"
+   ],
+   "requiere": []
+  },
+  {
+   "id": "ECO-17",
+   "criterios": {
+    "megatendencias": 4,
+    "anti_obsolescencia": 4,
+    "leapfrogging": 3,
+    "capacidades_nacionales": 4,
+    "costo_rezago": 3
+   },
+   "score": 73,
+   "justificacion": "Difusión de IA y herramientas digitales en la base empresarial, neutral a la tecnología vía catálogo; acumula capacidades de proveedores nacionales.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "ECO-18",
+   "criterios": {
+    "megatendencias": 3,
+    "anti_obsolescencia": 4,
+    "leapfrogging": 3,
+    "capacidades_nacionales": 4,
+    "costo_rezago": 4
+   },
+   "score": 71,
+   "justificacion": "La ventana de nearshoring se cierra en esta década; atraer manufactura y servicios complejos construye capacidades de proveedores y talento.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "ECO-19",
+   "criterios": {
+    "megatendencias": 3,
+    "anti_obsolescencia": 4,
+    "leapfrogging": 3,
+    "capacidades_nacionales": 4,
+    "costo_rezago": 3
+   },
+   "score": 68,
+   "justificacion": "Profundiza el ecosistema de financiamiento de innovación; las reglas prudenciales delegadas a la SBS se adaptan sin reformar la ley.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "ECO-20",
+   "criterios": {
+    "megatendencias": 4,
+    "anti_obsolescencia": 4,
+    "leapfrogging": 3,
+    "capacidades_nacionales": 3,
+    "costo_rezago": 4
+   },
+   "score": 72,
+   "justificacion": "Participar en ISO/IEC JTC 1 y negociar reglas de datos y código fuente evita ser solo tomador de estándares en IA y economía digital.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "ECO-21",
+   "criterios": {
+    "megatendencias": 3,
+    "anti_obsolescencia": 5,
+    "leapfrogging": 3,
+    "capacidades_nacionales": 4,
+    "costo_rezago": 3
+   },
+   "score": 72,
+   "justificacion": "Un programa presupuestal por resultados sirve a cualquier tecnología y da continuidad multianual a la transformación digital.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "ECO-22",
+   "criterios": {
+    "megatendencias": 4,
+    "anti_obsolescencia": 4,
+    "leapfrogging": 4,
+    "capacidades_nacionales": 4,
+    "costo_rezago": 5
+   },
+   "score": 83,
+   "justificacion": "Trazabilidad georreferenciada es exigencia creciente de los mercados (reglamento UE de deforestación); si no se provee como servicio público, el pequeño productor queda fuera.",
+   "habilita": [
+    "TAL-08"
+   ],
+   "requiere": [
+    "CON-09"
+   ]
+  },
+  {
+   "id": "GOB-15",
+   "criterios": {
+    "megatendencias": 3,
+    "anti_obsolescencia": 5,
+    "leapfrogging": 4,
+    "capacidades_nacionales": 4,
+    "costo_rezago": 3
+   },
+   "score": 76,
+   "justificacion": "Cláusulas de revisión y AIR ex post son el instrumento clásico de regulación adaptativa; la aprobación ficta automática es un salto hacia el Estado operado por agentes.",
+   "habilita": [],
+   "requiere": [
+    "GOB-02"
+   ]
+  },
+  {
+   "id": "GOB-16",
+   "criterios": {
+    "megatendencias": 4,
+    "anti_obsolescencia": 5,
+    "leapfrogging": 3,
+    "capacidades_nacionales": 4,
+    "costo_rezago": 3
+   },
+   "score": 77,
+   "justificacion": "Una oficina de evaluación tecnológica y prospectiva (modelo POST, STOA) es la capacidad institucional más resistente a la obsolescencia normativa.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "GOB-17",
+   "criterios": {
+    "megatendencias": 3,
+    "anti_obsolescencia": 4,
+    "leapfrogging": 3,
+    "capacidades_nacionales": 4,
+    "costo_rezago": 3
+   },
+   "score": 68,
+   "justificacion": "Metas, rutinas y tablero público son una capacidad de gestión que sobrevive a cambios de tecnología y gobierno.",
+   "habilita": [
+    "GOB-18"
+   ],
+   "requiere": []
+  },
+  {
+   "id": "GOB-18",
+   "criterios": {
+    "megatendencias": 2,
+    "anti_obsolescencia": 5,
+    "leapfrogging": 2,
+    "capacidades_nacionales": 4,
+    "costo_rezago": 3
+   },
+   "score": 63,
+   "justificacion": "Regla procesal permanente que acorta la brecha entre ley y aplicación para cualquier materia, incluidas las leyes digitales.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "GOB-19",
+   "criterios": {
+    "megatendencias": 3,
+    "anti_obsolescencia": 4,
+    "leapfrogging": 4,
+    "capacidades_nacionales": 4,
+    "costo_rezago": 3
+   },
+   "score": 72,
+   "justificacion": "Mancomunidades con servicios compartidos permiten a distritos pequeños saltar a la nube y a plataformas comunes sin replicar áreas de TI.",
+   "habilita": [],
+   "requiere": [
+    "GOB-08",
+    "GOB-14"
+   ]
+  },
+  {
+   "id": "GOB-20",
+   "criterios": {
+    "megatendencias": 4,
+    "anti_obsolescencia": 4,
+    "leapfrogging": 3,
+    "capacidades_nacionales": 4,
+    "costo_rezago": 4
+   },
+   "score": 76,
+   "justificacion": "Datos portuarios en tiempo real por estándares abiertos son la infraestructura de un hub logístico; la ventana es ahora, con Chancay en operación.",
+   "habilita": [
+    "SOB-02"
+   ],
+   "requiere": [
+    "CIB-01"
+   ]
+  },
+  {
+   "id": "GOB-21",
+   "criterios": {
+    "megatendencias": 2,
+    "anti_obsolescencia": 4,
+    "leapfrogging": 3,
+    "capacidades_nacionales": 3,
+    "costo_rezago": 2
+   },
+   "score": 56,
+   "justificacion": "Uso prudente de lo digital como complemento, no como sustituto; capacidad institucional duradera, poco ligada a megatendencias.",
+   "habilita": [
+    "SOB-01"
+   ],
+   "requiere": []
+  },
+  {
+   "id": "GOB-22",
+   "criterios": {
+    "megatendencias": 2,
+    "anti_obsolescencia": 4,
+    "leapfrogging": 3,
+    "capacidades_nacionales": 3,
+    "costo_rezago": 2
+   },
+   "score": 56,
+   "justificacion": "Transparencia por datos abiertos de la renta extractiva; útil pero poco ligada a tendencias tecnológicas.",
+   "habilita": [],
+   "requiere": [
+    "GOB-05",
+    "IA-04"
+   ]
+  },
+  {
+   "id": "GOB-23",
+   "criterios": {
+    "megatendencias": 3,
+    "anti_obsolescencia": 4,
+    "leapfrogging": 3,
+    "capacidades_nacionales": 3,
+    "costo_rezago": 2
+   },
+   "score": 61,
+   "justificacion": "Catálogo actualizable de servicios en lenguas originarias con validación humana; complementa la IA en lenguas originarias sin depender de ella.",
+   "habilita": [],
+   "requiere": [
+    "TAL-13"
+   ]
+  },
+  {
+   "id": "GOB-24",
+   "criterios": {
+    "megatendencias": 3,
+    "anti_obsolescencia": 5,
+    "leapfrogging": 2,
+    "capacidades_nacionales": 3,
+    "costo_rezago": 2
+   },
+   "score": 61,
+   "justificacion": "Medición desagregada ex ante y ex post sirve a cualquier tecnología; capacidad estadística acumulativa.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "TAL-15",
+   "criterios": {
+    "megatendencias": 4,
+    "anti_obsolescencia": 4,
+    "leapfrogging": 3,
+    "capacidades_nacionales": 5,
+    "costo_rezago": 4
+   },
+   "score": 80,
+   "justificacion": "La competencia global por talento en IA se intensifica; una residencia ágil y reconocimiento digital de títulos acumulan capacidades nacionales.",
+   "habilita": [
+    "CON-10"
+   ],
+   "requiere": []
+  },
+  {
+   "id": "TAL-16",
+   "criterios": {
+    "megatendencias": 5,
+    "anti_obsolescencia": 5,
+    "leapfrogging": 3,
+    "capacidades_nacionales": 4,
+    "costo_rezago": 3
+   },
+   "score": 82,
+   "justificacion": "La automatización exige reconversión continua; una cuenta portable de aprendizaje (modelo SkillsFuture) no depende de ninguna tecnología.",
+   "habilita": [],
+   "requiere": [
+    "IA-13"
+   ]
+  },
+  {
+   "id": "IA-15",
+   "criterios": {
+    "megatendencias": 5,
+    "anti_obsolescencia": 4,
+    "leapfrogging": 3,
+    "capacidades_nacionales": 3,
+    "costo_rezago": 4
+   },
+   "score": 77,
+   "justificacion": "Sistemas autónomos se generalizan en minería y transporte al 2036; regular por función (operador responsable) evita reescribir la ley con cada tecnología.",
+   "habilita": [],
+   "requiere": []
+  },
+  {
+   "id": "IA-16",
+   "criterios": {
+    "megatendencias": 4,
+    "anti_obsolescencia": 5,
+    "leapfrogging": 3,
+    "capacidades_nacionales": 4,
+    "costo_rezago": 4
+   },
+   "score": 80,
+   "justificacion": "Mecanismos de transferencia reconocidos internacionalmente son condición estable de la economía de datos; la ventana se cierra mientras vecinos ya tienen adecuación.",
+   "habilita": [
+    "ECO-12"
+   ],
+   "requiere": [
+    "IA-11"
+   ]
   }
  ],
  "vacios": [

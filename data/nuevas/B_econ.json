@@ -1,0 +1,2633 @@
+[
+ {
+  "id": "ECO-15",
+  "eje": "econ",
+  "titulo": "Ley que unifica el Régimen Especial del Impuesto a la Renta en el Régimen MYPE Tributario, establece su gestión digital con declaración precompletada y encarga la evaluación técnica del régimen laboral especial de la micro y pequeña empresa",
+  "titulo_corto": "Régimen tributario MYPE único digital",
+  "sumilla": "Modifica el Decreto Legislativo 1269 para integrar en el Régimen MYPE Tributario a los contribuyentes del Régimen Especial del Impuesto a la Renta, cuyo Capítulo XV se deroga con vigencia diferida y con adecuación expresa de las remisiones que otras normas le hacen; mantiene el Nuevo RUS; ordena a la SUNAT una declaración precompletada trazable por partida, con autenticación reforzada y sin sanción ni intereses por errores de información de terceros o de la Administración; y encarga al Poder Ejecutivo, con consulta tripartita, evaluar el régimen laboral especial MYPE, sin reducir derechos laborales vigentes.",
+  "problema": "El Perú mantiene cuatro regímenes del impuesto a la renta empresarial: el Nuevo Régimen Único Simplificado (Decreto Legislativo 937), el Régimen Especial del Impuesto a la Renta (Capítulo XV del TUO de la LIR), el Régimen MYPE Tributario (Decreto Legislativo 1269) y el régimen general. Según un informe de asistencia técnica del FMI publicado en 2022 con información de 2019 (por verificar), los regímenes para pequeños contribuyentes agrupaban cerca de 1,2 millones de contribuyentes activos (92 % del total) pero recaudaban apenas alrededor de 0,3 % del PBI. La OCDE (Tax Policy Reviews: Peru 2026, cifra por verificar) estima la presión tributaria en 16,3 % del PBI en 2024 y señala que ciertas disposiciones de los regímenes simplificados obstaculizan el crecimiento formal de las empresas; un estudio difundido por la Delegación de la UE (autor y año por verificar) advierte que el RER y el RMT pueden fomentar el enanismo empresarial. A la vez, el régimen laboral especial (TUO aprobado por D.S. 013-2013-PRODUCE, que la Ley 32353 sustituirá cuando entre en vigor con su reglamento) fija, por tamaño, vacaciones de quince días y, en la microempresa, ausencia de CTS y gratificaciones, de modo que crecer también eleva costos laborales. Toda revisión laboral debe respetar la progresividad de los derechos sociales.",
+  "objeto": "Simplificar la estructura tributaria de la micro y pequeña empresa integrando el RER en el Régimen MYPE Tributario mediante la modificación expresa del Decreto Legislativo 1269, reducir costos de cumplimiento con gestión digital segura y encargar una evaluación técnica, tripartita y sin regresividad del régimen laboral especial.",
+  "articulado": [
+   {
+    "n": "Artículo 1",
+    "titulo": "Objeto",
+    "texto": "La presente ley tiene por objeto integrar a los contribuyentes del Régimen Especial del Impuesto a la Renta en el Régimen MYPE Tributario regulado por el Decreto Legislativo 1269, establecer la gestión digital de este régimen mediante declaraciones precompletadas y registros simplificados, y encargar al Poder Ejecutivo la evaluación técnica del régimen laboral especial de la micro y pequeña empresa."
+   },
+   {
+    "n": "Artículo 2",
+    "titulo": "Modificación de los artículos 3, 7 y 8 del Decreto Legislativo 1269",
+    "texto": "Se modifican el último párrafo del artículo 3 y los artículos 7 y 8 del Decreto Legislativo 1269, Decreto Legislativo que crea el Régimen MYPE Tributario del Impuesto a la Renta, en los términos siguientes:\n\n«Artículo 3.- Sujetos no comprendidos\nNo están comprendidos en el RMT los que incurran en cualquiera de los siguientes supuestos:\na) Tengan vinculación, directa o indirectamente, en función del capital con otras personas naturales o jurídicas; y, cuyos ingresos netos anuales en conjunto superen el límite establecido en el artículo 1. Para los efectos del presente inciso, el reglamento del presente decreto legislativo señalará los supuestos en que se configura esta vinculación.\nb) Sean sucursales, agencias o cualquier otro establecimiento permanente en el país de empresas unipersonales, sociedades y entidades de cualquier naturaleza constituidas en el exterior.\nc) Hayan obtenido en el ejercicio gravable anterior ingresos netos anuales superiores a 1700 UIT.\nEn el caso que los sujetos se hubieran encontrado en más de un régimen tributario respecto de las rentas de tercera categoría, deberán sumar todos los ingresos, de acuerdo al siguiente detalle, de corresponder:\n- Del Régimen General y del RMT se considera el ingreso neto anual;\n- Del Nuevo RUS deberán sumar el total de ingresos brutos declarados en cada mes.»\n\n«Artículo 7.- Acogimiento al RMT\nLos sujetos que inicien actividades en el transcurso del ejercicio gravable podrán acogerse al RMT, en tanto no se hayan acogido al Nuevo RUS o afectado al Régimen General y siempre que no se encuentren en algunos de los supuestos señalados en los incisos a) y b) del artículo 3.\nEl acogimiento al RMT se realizará únicamente con ocasión de la declaración jurada mensual que corresponde al mes de inicio de actividades declarado en el RUC, siempre que se efectúe dentro de la fecha de vencimiento.»\n\n«Artículo 8.- Cambio de Régimen\n8.1 Los contribuyentes del Régimen General se afectarán al RMT, con la declaración correspondiente al mes de enero del ejercicio gravable siguiente a aquel en el que no incurrieron en los supuestos señalados en el artículo 3. Los sujetos del RMT ingresarán al Régimen General en cualquier mes del ejercicio gravable, de acuerdo a lo que establece el artículo 9.\n8.2 Los contribuyentes del Nuevo RUS se acogerán al RMT, o los contribuyentes del RMT al Nuevo RUS, de acuerdo con las disposiciones de la Ley del Nuevo RUS.»"
+   },
+   {
+    "n": "Artículo 3",
+    "titulo": "Ausencia de beneficios tributarios",
+    "texto": "La presente ley no modifica la escala de tasas del artículo 5 ni el régimen de pagos a cuenta del artículo 6 del Decreto Legislativo 1269, ni establece exoneraciones, inafectaciones u otros beneficios tributarios."
+   },
+   {
+    "n": "Artículo 4",
+    "titulo": "Declaración precompletada",
+    "texto": "4.1 La SUNAT pone a disposición de los contribuyentes del Régimen MYPE Tributario una propuesta de declaración mensual y anual elaborada con la información de los comprobantes de pago electrónicos emitidos y recibidos, de los registros electrónicos y de las declaraciones informativas de terceros de que disponga. La propuesta identifica, por cada partida, la fuente de la información, con su identificador, y la fecha de corte, y puede descargarse en formato estructurado de lectura mecánica.\n4.2 El contribuyente confirma, modifica o complementa la propuesta. La confirmación no limita las facultades de fiscalización de la SUNAT ni traslada a esta la responsabilidad por la veracidad de la declaración.\n4.3 Cuando la omisión o el error provengan exclusivamente de información de terceros o de la propia Administración incorporada en la propuesta y el contribuyente la haya confirmado sin modificarla, no se aplican sanciones ni intereses moratorios por dicha diferencia, siempre que el contribuyente regularice el tributo dentro del plazo que la SUNAT le otorgue al comunicársela. Lo dispuesto no constituye beneficio tributario.\n4.4 El acceso a la propuesta y su confirmación requieren autenticación conforme al nivel de seguridad que establezca la SUNAT, en concordancia con el Decreto Legislativo 1412 y su reglamento, incluida la autenticación multifactor para la confirmación. La SUNAT registra los accesos, conserva las versiones de la propuesta y las modificaciones del contribuyente, que sirven de medio probatorio para el numeral 4.3, y notifica cada confirmación o modificación en el buzón electrónico del contribuyente."
+   },
+   {
+    "n": "Artículo 5",
+    "titulo": "Registros simplificados",
+    "texto": "Los contribuyentes del Régimen MYPE Tributario cuyos ingresos netos anuales no superen las 300 UIT cumplen su obligación de llevar los registros a que se refiere el literal a) del artículo 11 del Decreto Legislativo 1269 con los registros electrónicos de ventas e ingresos y de compras que genere la SUNAT a partir de los comprobantes electrónicos, o que el contribuyente lleve mediante sistemas propios o de terceros que cumplan las especificaciones técnicas publicadas por la SUNAT, y con el registro adicional que esta determine mediante resolución de superintendencia. La SUNAT no exige registros que dupliquen información que ya obra en su poder."
+   },
+   {
+    "n": "Artículo 6",
+    "titulo": "Acompañamiento en la transición e indicadores",
+    "texto": "6.1 Durante los doce primeros meses de su incorporación, los contribuyentes provenientes del Régimen Especial del Impuesto a la Renta y quienes durante el primer año de vigencia se acojan voluntariamente desde el Nuevo Régimen Único Simplificado reciben acciones inductivas de la SUNAT, con prioridad sobre la aplicación de sanciones por infracciones formales, en el marco del artículo 166 del Texto Único Ordenado del Código Tributario.\n6.2 La SUNAT publica en formato abierto, conforme al régimen general de datos abiertos, indicadores agregados de migración, cumplimiento y recaudación por régimen y tramo de ingresos, sin identificar contribuyentes y conforme al artículo 85 del Texto Único Ordenado del Código Tributario. Aplica reglas de control de divulgación estadística, incluida la supresión o agregación de celdas con menos de diez contribuyentes y la verificación de que el cruce de tablas publicadas no permita inferir información individual."
+   },
+   {
+    "n": "Artículo 7",
+    "titulo": "Evaluación técnica del régimen laboral especial",
+    "texto": "7.1 Encárgase al Ministerio de Trabajo y Promoción del Empleo y al Ministerio de Economía y Finanzas, con la participación del Ministerio de la Producción, elaborar en el plazo de dieciocho meses un informe técnico sobre: a) los efectos del régimen laboral especial de la micro y pequeña empresa vigente, previsto en el Texto Único Ordenado aprobado por Decreto Supremo 013-2013-PRODUCE o, desde su entrada en vigor, en la Ley 32353, Ley para la Formalización, Desarrollo y Competitividad de la Micro y Pequeña Empresa, sobre el empleo formal, la productividad y el crecimiento de las empresas; y b) alternativas de protección social vinculadas al trabajador y a su nivel de ingresos, incluido su costo fiscal y la fuente de financiamiento.\n7.2 El informe se somete a consulta previa del Consejo Nacional de Trabajo y Promoción del Empleo antes de su remisión a las comisiones competentes de ambas cámaras del Congreso de la República, y se publica. Cualquier modificación del régimen laboral especial que derive del informe se tramita mediante ley, previa consulta tripartita.\n7.3 Nada de lo dispuesto en la presente ley reduce, suspende o sustituye los derechos laborales vigentes. Toda propuesta que derive del informe respeta los artículos 23, 24, 26 y 27 de la Constitución Política del Perú, el principio de progresividad y no regresividad de los derechos sociales y los derechos adquiridos en los contratos en curso."
+   },
+   {
+    "n": "Artículo 8",
+    "titulo": "Evaluación de la reforma",
+    "texto": "El Ministerio de Economía y Finanzas publica, al tercer año de vigencia de la presente ley, una evaluación de sus efectos en la formalización, el crecimiento empresarial, los costos de cumplimiento y la recaudación, con base en los indicadores del artículo 6, y la remite a las comisiones competentes de ambas cámaras del Congreso de la República."
+   }
+  ],
+  "disposiciones": [
+   {
+    "tipo": "Complementaria Final",
+    "n": "Primera",
+    "texto": "Reglamentación. El Poder Ejecutivo, mediante decreto supremo refrendado por el Ministro de Economía y Finanzas, adecúa el Reglamento del Decreto Legislativo 1269 y el Reglamento de la Ley del Impuesto a la Renta en el plazo de ciento ochenta días calendario. La SUNAT aprueba las resoluciones de superintendencia de los artículos 4 y 5 en el mismo plazo."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Segunda",
+    "texto": "Vigencia. La presente ley entra en vigor el 1 de enero del ejercicio gravable siguiente a aquel en que se cumplan doce meses desde su publicación, salvo esta disposición, la Primera Disposición Complementaria Final y el artículo 7, que rigen desde el día siguiente de su publicación."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Tercera",
+    "texto": "Remisiones. A partir de la entrada en vigor de la presente ley, toda referencia al Régimen Especial del Impuesto a la Renta contenida en el Decreto Legislativo 937, en el Decreto Legislativo 1269, en el Reglamento de la Ley del Impuesto a la Renta y en las demás normas se entiende hecha al Régimen MYPE Tributario, salvo en lo relativo a obligaciones de ejercicios anteriores."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Cuarta",
+    "texto": "Financiamiento. La implementación de la presente ley se financia con cargo al presupuesto institucional de la SUNAT y de los ministerios involucrados, sin demandar recursos adicionales al Tesoro Público."
+   },
+   {
+    "tipo": "Complementaria Transitoria",
+    "n": "Única",
+    "texto": "Contribuyentes del RER. Los contribuyentes acogidos al Régimen Especial del Impuesto a la Renta al 31 de diciembre del ejercicio anterior a la entrada en vigor de la presente ley quedan incorporados de oficio al Régimen MYPE Tributario desde el 1 de enero siguiente, sin perjuicio de su derecho a optar por el régimen general o, de cumplir los requisitos, por el Nuevo Régimen Único Simplificado. La SUNAT regula el tratamiento de los saldos y pagos a cuenta. Las obligaciones tributarias de los ejercicios anteriores se rigen por las normas vigentes en su oportunidad."
+   },
+   {
+    "tipo": "Complementaria Derogatoria",
+    "n": "Única",
+    "texto": "Derogación. A partir de la entrada en vigor de la presente ley, se derogan: a) el Capítulo XV del Texto Único Ordenado de la Ley del Impuesto a la Renta, aprobado por Decreto Supremo 179-2004-EF, que comprende los artículos 117 a 124-A; b) el literal h) del artículo 2 del Decreto Legislativo 1269; y c) las demás disposiciones que regulan exclusivamente el Régimen Especial del Impuesto a la Renta y que identifique el Ministerio de Economía y Finanzas en su informe previo al dictamen, las cuales se consignan en el texto aprobado."
+   }
+  ],
+  "costo_beneficio": "El efecto recaudatorio neto es incierto y debe cuantificarlo el MEF: los contribuyentes del RER, que hoy pagan 1,5 % de sus ingresos netos mensuales, pasan a pagos a cuenta del RMT y a la escala vigente sobre renta neta; los de margen bajo pagarían menos y los de margen alto más. Por su posible efecto recaudatorio, requiere coordinación con el Poder Ejecutivo, informe previo de la SUNAT y del MEF sobre impacto fiscal y sostenibilidad antes del dictamen (criterio de responsabilidad fiscal, D.L. 1276 y STC 00018-2023-PI/TC). No crea beneficios tributarios, por lo que no se activa la Norma VII. Los costos de la SUNAT (declaración precompletada trazable, autenticación multifactor, registros automáticos) se apoyan en los sistemas existentes de comprobantes y registros electrónicos. Beneficios: menor costo de cumplimiento, menor incentivo a fragmentar empresas para no cambiar de régimen y mejor información para la fiscalización. La parte laboral se limita a un informe técnico tripartito; no modifica derechos.",
+  "efecto_vigencia": "Modifica el último párrafo del artículo 3 y los artículos 7 y 8 del Decreto Legislativo 1269 (texto base: publicación original en El Peruano del 20-dic-2016, a contrastar con modificatorias posteriores antes del dictamen); deroga el literal h) de su artículo 2 y el Capítulo XV del TUO de la Ley del Impuesto a la Renta (D.S. 179-2004-EF, arts. 117 a 124-A) desde el 1 de enero del ejercicio siguiente a los doce meses de publicación, con cláusula expresa de remisión al RMT para el D.L. 937, el D.L. 1269 y el Reglamento de la LIR. No modifica la escala ni los pagos a cuenta del D.L. 1269, las categorías del Nuevo RUS ni el régimen laboral especial (TUO aprobado por D.S. 013-2013-PRODUCE o Ley 32353, según su vigencia). Concordante con los arts. 85, 165 y 166 del TUO del Código Tributario y con el D.L. 1412. Requiere coordinación con el Poder Ejecutivo e informe previo de la SUNAT y del MEF sobre impacto fiscal antes del dictamen.",
+  "normas_relacionadas": [
+   {
+    "norma": "Decreto Legislativo 1269, que crea el Régimen MYPE Tributario del Impuesto a la Renta",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/DecretosLegislativos/01269.pdf"
+   },
+   {
+    "norma": "Decreto Legislativo 937, Texto del Nuevo Régimen Único Simplificado",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/DecretosLegislativos/00937.pdf"
+   },
+   {
+    "norma": "TUO de la Ley del Impuesto a la Renta (D.S. 179-2004-EF), Capítulo XV (Régimen Especial del Impuesto a la Renta)",
+    "url": "https://www.sunat.gob.pe/legislacion/renta/ley/index.html"
+   },
+   {
+    "norma": "TUO del Código Tributario (D.S. 133-2013-EF), Norma VII y arts. 85, 165 y 166",
+    "url": "https://www.sunat.gob.pe/legislacion/codigo/index.html"
+   },
+   {
+    "norma": "TUO de la Ley de Impulso al Desarrollo Productivo y al Crecimiento Empresarial (D.S. 013-2013-PRODUCE), régimen laboral especial MYPE",
+    "url": "https://busquedas.elperuano.pe/dispositivo/NL/1033071-5"
+   },
+   {
+    "norma": "Ley 32353, Ley para la Formalización, Desarrollo y Competitividad de la Micro y Pequeña Empresa (publicada el 27-may-2025; entra en vigor con su reglamento)",
+    "url": "https://leyes.congreso.gob.pe/Documentos/2021_2026/ADLP/Texto_Consolidado/32353-TXM.pdf"
+   }
+  ],
+  "antecedentes": "Por verificar en SPLEY. El Poder Ejecutivo ha planteado en distintos pedidos de facultades la simplificación de los regímenes MYPE (según la prensa especializada); no se citan números de proyecto por no haberse verificado.",
+  "referencias_internacionales": [
+   {
+    "pais": "OCDE",
+    "norma": "OECD Tax Policy Reviews: Peru 2026 (regímenes simplificados y crecimiento formal)",
+    "url": "https://www.oecd.org/en/publications/oecd-tax-policy-reviews-peru-2026_47e6c63e-en.html"
+   },
+   {
+    "pais": "FMI",
+    "norma": "Peru: Technical Assistance Report — Special Tax Regime for Small Enterprises (Country Report 2022)",
+    "url": "https://www.imf.org/-/media/Files/Publications/CR/2022/English/1PEREA2022001.ashx"
+   }
+  ],
+  "comision_sugerida": "Economía, Banca, Finanzas e Inteligencia Financiera",
+  "comision_secundaria": "Producción, Comercio Exterior y Turismo",
+  "plan2050": [
+   "mipymes",
+   "macroeconomia",
+   "competitividad"
+  ],
+  "ods": [
+   8,
+   9,
+   17
+  ],
+  "prioridad": "alta",
+  "costo_fiscal": "bajo",
+  "plazo": "mediano",
+  "indicador_exito": "Al 2031, al menos 70 % de los contribuyentes del RMT declara usando la propuesta precompletada y aumenta la proporción de empresas que superan los 300 UIT de ingresos respecto de la línea de base de la SUNAT (indicadores agregados del art. 6).",
+  "tags": [
+   "MYPE",
+   "tributación",
+   "formalización",
+   "SUNAT",
+   "productividad"
+  ],
+  "fuentes": [
+   {
+    "titulo": "FMI — Peru: Technical Assistance Report on the special tax regime for small enterprises (2022)",
+    "url": "https://www.imf.org/-/media/Files/Publications/CR/2022/English/1PEREA2022001.ashx"
+   },
+   {
+    "titulo": "OCDE — OECD Tax Policy Reviews: Peru 2026",
+    "url": "https://www.oecd.org/en/publications/oecd-tax-policy-reviews-peru-2026_47e6c63e-en.html"
+   },
+   {
+    "titulo": "Delegación de la UE en el Perú — Simplificar los regímenes tributarios podría reducir la informalidad empresarial y laboral",
+    "url": "https://www.eeas.europa.eu/delegations/per%C3%BA/simplificar-los-reg%C3%ADmenes-tributarios-podr%C3%ADa-reducir-la-informalidad-empresarial-y-laboral-en-el_es"
+   },
+   {
+    "titulo": "La Cámara (CCL) — Radiografía del régimen laboral MYPE",
+    "url": "https://lacamara.pe/radiografia-del-regimen-laboral-mype/?print=pdf"
+   }
+  ],
+  "implicados": {
+   "normas_modificadas": [
+    {
+     "norma": "Decreto Legislativo 1269, Régimen MYPE Tributario",
+     "articulo": "art. 3 (último párrafo), arts. 7 y 8",
+     "accion": "modifica",
+     "url": "https://www.leyes.congreso.gob.pe/Documentos/DecretosLegislativos/01269.pdf"
+    },
+    {
+     "norma": "Decreto Legislativo 1269",
+     "articulo": "art. 2, literal h)",
+     "accion": "deroga",
+     "url": "https://www.leyes.congreso.gob.pe/Documentos/DecretosLegislativos/01269.pdf"
+    },
+    {
+     "norma": "TUO de la Ley del Impuesto a la Renta (D.S. 179-2004-EF)",
+     "articulo": "Capítulo XV, arts. 117 a 124-A (RER)",
+     "accion": "deroga",
+     "url": "https://www.sunat.gob.pe/legislacion/renta/ley/index.html"
+    },
+    {
+     "norma": "Decreto Legislativo 937 y Reglamento de la LIR",
+     "articulo": "remisiones al RER (DCF Tercera)",
+     "accion": "complementa",
+     "url": "https://www.leyes.congreso.gob.pe/Documentos/DecretosLegislativos/00937.pdf"
+    },
+    {
+     "norma": "TUO del Código Tributario (D.S. 133-2013-EF)",
+     "articulo": "arts. 85 y 166",
+     "accion": "complementa",
+     "url": "https://www.sunat.gob.pe/legislacion/codigo/index.html"
+    }
+   ],
+   "entidades": [
+    {
+     "entidad": "Superintendencia Nacional de Aduanas y de Administración Tributaria",
+     "sigla": "SUNAT",
+     "sector": "MEF",
+     "rol": "ejecutora",
+     "responsabilidad": "Declaración precompletada (art. 4), registros simplificados (art. 5), acciones inductivas e indicadores agregados (art. 6), migración de oficio (DCT Primera)."
+    },
+    {
+     "entidad": "Ministerio de Economía y Finanzas",
+     "sigla": "MEF",
+     "sector": "Economía y Finanzas",
+     "rol": "reglamentadora",
+     "responsabilidad": "Informe previo al dictamen, adecuación del reglamento (DCF Primera), coautor del informe laboral (art. 7) y evaluación al tercer año (art. 8)."
+    },
+    {
+     "entidad": "Ministerio de Trabajo y Promoción del Empleo",
+     "sigla": "MTPE",
+     "sector": "Trabajo",
+     "rol": "rectora",
+     "responsabilidad": "Conduce el informe técnico del régimen laboral especial y su consulta tripartita (art. 7)."
+    },
+    {
+     "entidad": "Consejo Nacional de Trabajo y Promoción del Empleo",
+     "sigla": "CNTPE",
+     "sector": "Trabajo",
+     "rol": "consultiva",
+     "responsabilidad": "Emite opinión sobre el informe técnico (art. 7.2)."
+    },
+    {
+     "entidad": "Ministerio de la Producción",
+     "sigla": "PRODUCE",
+     "sector": "Producción",
+     "rol": "consultiva",
+     "responsabilidad": "Participa en el informe técnico (art. 7.1)."
+    },
+    {
+     "entidad": "Secretaría de Gobierno y Transformación Digital",
+     "sigla": "SGTD",
+     "sector": "PCM",
+     "rol": "consultiva",
+     "responsabilidad": "Marco de niveles de autenticación digital (D.L. 1412) aplicable a la confirmación de la declaración (art. 4.4)."
+    }
+   ],
+   "sujetos_obligados": "Contribuyentes con ingresos netos de hasta 1700 UIT que hoy están en el RER o el RMT; SUNAT.",
+   "beneficiarios": "Micro y pequeñas empresas formales (cerca de 1,2 millones de contribuyentes activos en regímenes especiales según el FMI con datos de 2019) y sus trabajadores."
+  },
+  "impacto": {
+   "tipo": "mixto",
+   "costo_estado": {
+    "rango": "No cuantificable con información pública (efecto recaudatorio a estimar por el MEF); desarrollos SUNAT de orden bajo",
+    "horizonte": "2027-2031",
+    "supuestos": "La declaración precompletada y los registros se construyen sobre los sistemas existentes de comprobantes y registros electrónicos de la SUNAT; el efecto recaudatorio depende de la distribución de márgenes de los contribuyentes del RER, que solo la SUNAT conoce. Supuesto de revisión: para márgenes de renta neta sobre ingresos inferiores a alrededor del 15 %, el 10 % sobre la renta neta resulta menor que el 1,5 % mensual sobre ingresos del RER (confianza baja).",
+    "financiamiento": "Presupuesto institucional de la SUNAT y ministerios, sin recursos adicionales al Tesoro. Por su posible efecto recaudatorio requiere coordinación con el Poder Ejecutivo, informe previo de la SUNAT y del MEF sobre impacto fiscal y sostenibilidad antes del dictamen."
+   },
+   "beneficio_estado": "Simplificación administrativa y mejor control cruzado con comprobantes electrónicos; posible mayor recaudación por menor fragmentación empresarial (no cuantificado).",
+   "beneficio_sociedad": "Menores costos de cumplimiento y eliminación de un escalón de régimen que desincentiva crecer; cualitativo.",
+   "inversion_privada": "No aplica directamente.",
+   "costo_privado": "Contribuyentes del RER deberán determinar renta neta; mitigado con registros automáticos y acompañamiento de doce meses.",
+   "riesgos": "Mayor carga para ex RER de margen alto; resistencia gremial; que la evaluación laboral se perciba como antesala de recorte de derechos (mitigado con la cláusula de no regresividad del art. 7.3).",
+   "confianza": "media"
+  },
+  "revision_atendida": [
+   {
+    "especialidad": "constitucional",
+    "severidad": "media",
+    "hallazgo": "Ley paralela al D.L. 1269 para ámbito y tasas (art. 74)",
+    "accion": "corregido",
+    "nota": "Se suprime la reproducción del ámbito y la escala; el art. 2 modifica expresamente los arts. 3, 7 y 8 del D.L. 1269 con texto íntegro y el art. 3 aclara que la escala del art. 5 no cambia."
+   },
+   {
+    "especialidad": "constitucional",
+    "severidad": "media",
+    "hallazgo": "Cita imprecisa del art. 79 sobre informe MEF",
+    "accion": "corregido",
+    "nota": "costo_beneficio, efecto_vigencia y financiamiento dicen ahora: coordinación con el Ejecutivo e informe previo de SUNAT y MEF sobre impacto fiscal (D.L. 1276, STC 00018-2023-PI/TC)."
+   },
+   {
+    "especialidad": "constitucional",
+    "severidad": "baja",
+    "hallazgo": "Cambios laborales solo por ley y con consulta previa",
+    "accion": "corregido",
+    "nota": "Art. 7.2: consulta previa al CNTPE antes de la remisión y cambios solo mediante ley."
+   },
+   {
+    "especialidad": "jurista",
+    "severidad": "media",
+    "hallazgo": "Reproduce ámbito y escala del D.L. 1269",
+    "accion": "corregido",
+    "nota": "Ver art. 2 (fórmula «Se modifican…») y art. 3."
+   },
+   {
+    "especialidad": "jurista",
+    "severidad": "media",
+    "hallazgo": "Remisiones huérfanas al RER y derogación genérica",
+    "accion": "corregido",
+    "nota": "DCF Tercera de remisión al RMT y DCD con lista cerrada (Cap. XV LIR arts. 117-124-A, literal h del art. 2 del D.L. 1269 y las disposiciones que identifique el informe del MEF, que se consignan en el texto aprobado)."
+   },
+   {
+    "especialidad": "jurista",
+    "severidad": "media",
+    "hallazgo": "Error de terceros librado a gradualidad discrecional",
+    "accion": "corregido",
+    "nota": "Art. 4.3: sin sanción ni intereses si regulariza en el plazo que otorgue la SUNAT; se precisa que no es beneficio tributario."
+   },
+   {
+    "especialidad": "jurista",
+    "severidad": "baja",
+    "hallazgo": "Acompañamiento a ex NRUS no migrados",
+    "accion": "corregido",
+    "nota": "Art. 6.1 se limita a quienes se acojan voluntariamente desde el NRUS en el primer año."
+   },
+   {
+    "especialidad": "jurista",
+    "severidad": "baja",
+    "hallazgo": "Numeración de la DCT y ubicación del financiamiento",
+    "accion": "corregido",
+    "nota": "Única DCT; financiamiento pasa a DCF Cuarta."
+   },
+   {
+    "especialidad": "normativo",
+    "severidad": "media",
+    "hallazgo": "Remisiones al RER en D.L. 937, D.L. 1269 y Reglamento LIR",
+    "accion": "corregido",
+    "nota": "DCF Tercera."
+   },
+   {
+    "especialidad": "normativo",
+    "severidad": "baja",
+    "hallazgo": "URLs genéricas del D.S. 013-2013-PRODUCE y del Código Tributario",
+    "accion": "corregido",
+    "nota": "Ficha de El Peruano del D.S. 013-2013-PRODUCE e índice del TUO en SUNAT."
+   },
+   {
+    "especialidad": "normativo",
+    "severidad": "baja",
+    "hallazgo": "Cifras FMI/OCDE no verificables; estudio UE sin autor",
+    "accion": "parcial",
+    "nota": "Se marcan en el texto como «por verificar»; no fue posible ubicar página ni autor por bloqueo de acceso automatizado a las fuentes."
+   },
+   {
+    "especialidad": "seguridad",
+    "severidad": "media",
+    "hallazgo": "Celdas pequeñas en indicadores agregados",
+    "accion": "corregido",
+    "nota": "Art. 6.2: supresión de celdas con menos de diez contribuyentes y control de cruces."
+   },
+   {
+    "especialidad": "seguridad",
+    "severidad": "media",
+    "hallazgo": "Acceso con Clave SOL a la propuesta precompletada",
+    "accion": "corregido",
+    "nota": "Art. 4.4: autenticación multifactor para confirmar, registro de accesos y notificación en buzón."
+   },
+   {
+    "especialidad": "tecnologico",
+    "severidad": "media",
+    "hallazgo": "Origen y trazabilidad de la información de terceros",
+    "accion": "corregido",
+    "nota": "Art. 4.1 (fuente por partida, fecha de corte, descarga estructurada) y art. 4.4 (versiones como medio probatorio)."
+   },
+   {
+    "especialidad": "tecnologico",
+    "severidad": "baja",
+    "hallazgo": "Neutralidad tecnológica de los registros",
+    "accion": "corregido",
+    "nota": "Art. 5 admite sistemas propios o de terceros que cumplan especificaciones de la SUNAT."
+   },
+   {
+    "especialidad": "tecnologico",
+    "severidad": "baja",
+    "hallazgo": "Datos abiertos y celdas pequeñas",
+    "accion": "corregido",
+    "nota": "Art. 6.2 remite al régimen general de datos abiertos y fija umbral de diez."
+   },
+   {
+    "especialidad": "normativo",
+    "severidad": "media",
+    "hallazgo": "(Detectado por el editor) Ley 32353 sustituirá el TUO D.S. 013-2013-PRODUCE",
+    "accion": "corregido",
+    "nota": "El art. 7 y el problema remiten al régimen vigente: TUO D.S. 013-2013-PRODUCE o, desde su entrada en vigor con su reglamento, la Ley 32353."
+   }
+  ]
+ },
+ {
+  "id": "ECO-16",
+  "eje": "econ",
+  "titulo": "Ley que otorga rango legal al Consejo Nacional de Competitividad y Formalización y encarga la conformación de un comité técnico independiente para la evaluación ex post de los programas e incentivos productivos",
+  "titulo_corto": "Evaluación independiente de la productividad",
+  "sumilla": "Sin crear entidades, pliegos ni gasto, eleva a rango legal al Consejo Nacional de Competitividad y Formalización (CNCF) y encarga al Poder Ejecutivo conformar por decreto supremo, en su seno, un Comité de Evaluación de la Productividad de expertos ad honorem seleccionados por concurso, con garantías legales de idoneidad, independencia y causales cerradas de remoción, para evaluar ex post los incentivos y programas productivos; los datos bajo reserva tributaria los procesa la SUNAT y solo se entregan resultados estadísticos, y los microdatos se consultan en entornos seguros sin descarga; las entidades evaluadas deben responder públicamente.",
+  "problema": "El Perú dispone de múltiples instrumentos de apoyo productivo: el incentivo tributario a la I+D+i de la Ley 30309, la red de Centros de Innovación Productiva y Transferencia Tecnológica (Decreto Legislativo 1228), los fondos concursables de ProInnóvate (D.S. 009-2021-PRODUCE), el Fondo de Capital para Emprendimientos Innovadores (Decreto de Urgencia 013-2020) y, desde 2025, las Zonas Económicas Especiales Privadas (Ley 32449). Su evaluación es dispersa: depende de cada entidad promotora o de evaluaciones presupuestales del MEF, y no existe un órgano con mandato legal para examinar todos ellos con criterios comunes y recomendar su continuidad, rediseño o cierre. El Consejo Nacional de Competitividad y Formalización, creado como Consejo Nacional de la Competitividad por el D.S. 024-2002-PCM y renombrado por normas posteriores (número por verificar en SPIJ), articula la Política Nacional de Competitividad y Productividad (D.S. 345-2018-EF) y el Plan Nacional de Competitividad y Productividad, actualizado al periodo 2024-2030 por el D.S. 203-2024-EF, pero su base es reglamentaria y carece de garantías de independencia técnica. La OCDE ha recomendado al Perú reforzar la productividad, la competencia y la regulación (Economic Survey 2023). Australia tiene una Productivity Commission con ley propia (Productivity Commission Act 1998) y Chile cuenta con la Comisión Nacional de Evaluación y Productividad.",
+  "objeto": "Dotar al Estado de una evaluación ex post independiente, pública y periódica de los incentivos y programas productivos, aprovechando el CNCF existente.",
+  "articulado": [
+   {
+    "n": "Artículo 1",
+    "titulo": "Objeto",
+    "texto": "La presente ley tiene por objeto otorgar rango legal al Consejo Nacional de Competitividad y Formalización y encargar la conformación, en su seno, de un comité técnico independiente que evalúe ex post los incentivos y programas productivos del Estado y publique sus resultados, sin crear entidades, pliegos presupuestales ni gasto adicional."
+   },
+   {
+    "n": "Artículo 2",
+    "titulo": "Naturaleza del Consejo",
+    "texto": "2.1 El Consejo Nacional de Competitividad y Formalización (CNCF) es la instancia de coordinación público-privada en materia de competitividad y productividad, adscrita al Ministerio de Economía y Finanzas, sin personería jurídica propia. Su composición y funciones de coordinación se rigen por las normas reglamentarias vigentes, en lo que no se opongan a la presente ley.\n2.2 La Secretaría Técnica del CNCF continúa a cargo del órgano del Ministerio de Economía y Finanzas que determine su Reglamento de Organización y Funciones y brinda soporte técnico y administrativo al comité a que se refiere el artículo 3."
+   },
+   {
+    "n": "Artículo 3",
+    "titulo": "Comité de Evaluación de la Productividad",
+    "texto": "3.1 Encárgase al Ministerio de Economía y Finanzas conformar, mediante decreto supremo y conforme a los artículos 35 y 36 de la Ley 29158, Ley Orgánica del Poder Ejecutivo, en el seno del CNCF, un Comité de Evaluación de la Productividad integrado por cinco expertos de reconocida trayectoria en economía, evaluación de políticas públicas o innovación, con las garantías mínimas de los numerales siguientes.\n3.2 Los miembros ejercen el cargo ad honorem; no perciben dietas ni retribución alguna.\n3.3 Los miembros son seleccionados por concurso público de méritos conducido por la Autoridad Nacional del Servicio Civil y designados por un periodo de cinco años, renovable por una sola vez, con renovación escalonada. Solo pueden ser removidos por: a) condena consentida por delito doloso; b) incapacidad física o mental permanente declarada; c) incompatibilidad sobrevenida conforme al numeral 3.4; d) inasistencia injustificada a tres sesiones consecutivas o cinco alternas en un año; o e) falta grave en el ejercicio del cargo, acreditada en procedimiento con derecho de defensa.\n3.4 No pueden ser miembros quienes, en los dos años previos, hayan ejercido cargos de dirección en entidades que administran los instrumentos evaluados o en empresas que hayan recibido beneficios de ellos por montos significativos según el reglamento. Los miembros presentan declaración jurada de intereses conforme a la Ley 31227.\n3.5 Los informes del Comité no requieren aprobación previa de ninguna autoridad."
+   },
+   {
+    "n": "Artículo 4",
+    "titulo": "Funciones del Comité",
+    "texto": "Son funciones del Comité: a) evaluar ex post la eficacia, eficiencia y costo-efectividad de los incentivos tributarios y no tributarios, fondos, programas y regímenes de promoción productiva y de innovación, incluidos los previstos en la Ley 30309, el Decreto Legislativo 1228, el Decreto de Urgencia 013-2020 y la Ley 32449; b) recomendar su continuidad, rediseño o cierre; c) publicar un informe anual sobre la evolución de la productividad; y d) emitir opinión técnica no vinculante sobre proyectos de ley que creen o prorroguen incentivos productivos, a pedido de las comisiones del Congreso de la República o del Poder Ejecutivo."
+   },
+   {
+    "n": "Artículo 5",
+    "titulo": "Agenda trienal de evaluación",
+    "texto": "5.1 El Comité aprueba y publica una agenda trienal de evaluaciones, que prioriza los instrumentos de mayor costo y los beneficios tributarios cuyo plazo de vigencia venza durante el periodo, de modo que su evaluación esté disponible antes de cualquier propuesta de prórroga conforme a la Norma VII del Título Preliminar del Texto Único Ordenado del Código Tributario.\n5.2 Las evaluaciones del Comité complementan y no sustituyen las evaluaciones a cargo del Ministerio de Economía y Finanzas y de las entidades promotoras."
+   },
+   {
+    "n": "Artículo 6",
+    "titulo": "Acceso a información y seguridad de los datos",
+    "texto": "6.1 Las entidades públicas entregan al Comité, en el plazo de treinta días hábiles, la información necesaria para las evaluaciones, con las reglas de los numerales siguientes.\n6.2 La información protegida por la reserva tributaria es procesada por la propia SUNAT, a solicitud del Comité, mediante los modelos o consultas que este proporcione, y solo se entregan resultados estadísticos que no permitan individualizar a contribuyente alguno, conforme al artículo 85 del Texto Único Ordenado del Código Tributario. La información amparada por el secreto bancario solo se proporciona agregada.\n6.3 Los demás microdatos que contengan datos personales o información confidencial se ponen a disposición únicamente seudonimizados y dentro de un entorno seguro de datos administrado por la entidad titular o por el Instituto Nacional de Estadística e Informática, sin posibilidad de descarga de registros individuales, con control de accesos, bitácora de consultas y revisión de los resultados antes de su salida. Está prohibido todo intento de reidentificación. Los datos personales se tratan conforme a la Ley 29733, Ley de Protección de Datos Personales, y su reglamento aprobado por Decreto Supremo 016-2024-JUS, y solo con fines de evaluación.\n6.4 Los miembros del Comité y el personal de apoyo suscriben un compromiso de confidencialidad y responden conforme a las normas que sancionan la divulgación de información reservada, incluidos los artículos 85 y 86 del Texto Único Ordenado del Código Tributario cuando corresponda."
+   },
+   {
+    "n": "Artículo 7",
+    "titulo": "Publicidad y deber de respuesta",
+    "texto": "7.1 Los informes de evaluación y sus metodologías se publican en el portal del Ministerio de Economía y Finanzas, conforme al régimen general de datos abiertos, con licencia abierta y en formatos estructurados de lectura mecánica, junto con el código de análisis cuando no esté protegido. Antes de publicar bases derivadas, la entidad titular de los datos realiza una evaluación de riesgo de reidentificación.\n7.2 La entidad responsable del instrumento evaluado publica, en el plazo de noventa días hábiles, una respuesta en la que indica qué recomendaciones acoge y, cuando no las acoge, sus razones.\n7.3 El Ministerio de Economía y Finanzas considera los informes en la programación multianual presupuestaria."
+   },
+   {
+    "n": "Artículo 8",
+    "titulo": "Rendición de cuentas al Congreso",
+    "texto": "El presidente del Comité presenta anualmente el informe de productividad y las evaluaciones del año ante las comisiones competentes en materia de economía y de producción de ambas cámaras del Congreso de la República."
+   }
+  ],
+  "disposiciones": [
+   {
+    "tipo": "Complementaria Final",
+    "n": "Primera",
+    "texto": "Conformación y reglamentación. El decreto supremo del artículo 3, refrendado por el Ministro de Economía y Finanzas, se aprueba en el plazo de ciento veinte días hábiles e incluye el procedimiento del concurso y las reglas de funcionamiento del Comité."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Segunda",
+    "texto": "Primera agenda. El Comité aprueba su primera agenda trienal dentro de los seis meses siguientes a su instalación."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Tercera",
+    "texto": "Financiamiento. La implementación de la presente ley se financia con cargo al presupuesto institucional del Ministerio de Economía y Finanzas, sin demandar recursos adicionales al Tesoro Público. Las evaluaciones externas se contratan sujeto a disponibilidad presupuestal y pueden contar con apoyo de la cooperación técnica internacional y de universidades mediante convenios, sin que ello afecte la autonomía técnica del Comité."
+   },
+   {
+    "tipo": "Complementaria Transitoria",
+    "n": "Única",
+    "texto": "Continuidad. El CNCF mantiene su conformación y funciones de coordinación vigentes mientras se adecúan sus normas reglamentarias a la presente ley."
+   }
+  ],
+  "costo_beneficio": "No crea entidad, pliego ni gasto obligatorio: el Comité lo conforma el Ejecutivo por decreto supremo, sus miembros son ad honorem y funciona con el soporte de la Secretaría Técnica existente del CNCF en el MEF, por lo que se respeta el art. 79 de la Constitución. El único costo es la eventual contratación de evaluaciones externas, sujeta a disponibilidad presupuestal o financiada con cooperación. El beneficio es reasignar recursos desde instrumentos ineficaces y dar información técnica al Congreso antes de prorrogar beneficios tributarios. La reserva tributaria y el secreto bancario se preservan: la SUNAT procesa los datos y entrega solo resultados estadísticos, y los demás microdatos se consultan en entornos seguros sin descarga.",
+  "efecto_vigencia": "Otorga rango legal al CNCF (creado por D.S. 024-2002-PCM; norma que le dio su denominación actual por verificar en SPIJ) y encarga al Ejecutivo conformar por decreto supremo un comité técnico en su seno (arts. 35-36 de la Ley 29158), sin personería ni pliego. Complementa la Norma VII del TUO del Código Tributario, la Ley 30309 (vigente hasta el 31-dic-2028 por la Ley 32539), el D.L. 1228, el D.U. 013-2020 y la Ley 32449 en materia de evaluación. Respeta los arts. 85 y 86 del TUO del Código Tributario y el art. 140 de la Ley 26702 (no los modifica, por lo que no requiere votación de ley orgánica). No deroga normas.",
+  "normas_relacionadas": [
+   {
+    "norma": "Decreto Supremo 024-2002-PCM, que crea el Consejo Nacional de la Competitividad (hoy CNCF) — normas de fortalecimiento (fuente secundaria)",
+    "url": "https://sni.org.pe/establecen-disposiciones-para-el-fortalecimiento-del-consejo-nacional-de-la-competitividad-creado-mediante-decreto-supremo-n-024-2002-pcm/"
+   },
+   {
+    "norma": "Decreto Supremo 345-2018-EF, Política Nacional de Competitividad y Productividad (El Peruano, 31-dic-2018; ficha UNEP LEAP)",
+    "url": "https://leap.unep.org/en/countries/pe/national-legislation/decreto-supremo-no-345-2018-ef-aprueba-la-politica-nacional-de"
+   },
+   {
+    "norma": "Decreto Supremo 237-2019-EF, Plan Nacional de Competitividad y Productividad 2019-2030 (actualizado por D.S. 203-2024-EF)",
+    "url": "https://mef.gob.pe/contenidos/archivos-descarga/PNCP_2019.pdf"
+   },
+   {
+    "norma": "Ley 30309, incentivo tributario a la I+D+i",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/30309.pdf"
+   },
+   {
+    "norma": "TUO del Código Tributario (D.S. 133-2013-EF), Norma VII y arts. 85-86",
+    "url": "https://www.sunat.gob.pe/legislacion/codigo/index.html"
+   }
+  ],
+  "antecedentes": "Por verificar en SPLEY.",
+  "referencias_internacionales": [
+   {
+    "pais": "Australia",
+    "norma": "Productivity Commission Act 1998",
+    "url": "https://www.legislation.gov.au/C2004A05404/latest"
+   },
+   {
+    "pais": "Chile",
+    "norma": "Comisión Nacional de Evaluación y Productividad",
+    "url": "https://cnep.cl/"
+   }
+  ],
+  "comision_sugerida": "Economía, Banca, Finanzas e Inteligencia Financiera",
+  "comision_secundaria": "Producción, Comercio Exterior y Turismo",
+  "plan2050": [
+   "competitividad",
+   "institucionalidad",
+   "reforma-del-estado"
+  ],
+  "ods": [
+   8,
+   9,
+   16
+  ],
+  "prioridad": "alta",
+  "costo_fiscal": "nulo",
+  "plazo": "corto",
+  "indicador_exito": "Al 2031, al menos ocho instrumentos productivos evaluados y publicados, con respuesta pública de la entidad en el 100 % de los casos, y toda prórroga de beneficio tributario productivo precedida de una evaluación del Comité.",
+  "tags": [
+   "productividad",
+   "evaluación",
+   "incentivos",
+   "competitividad"
+  ],
+  "fuentes": [
+   {
+    "titulo": "MEF — Plan Nacional de Competitividad y Productividad 2019-2030 (D.S. 237-2019-EF)",
+    "url": "https://mef.gob.pe/contenidos/archivos-descarga/PNCP_2019.pdf"
+   },
+   {
+    "titulo": "OCDE — Boosting productivity, competition and investment while tackling informality (Economic Survey Peru 2023)",
+    "url": "https://www.oecd.org/en/about/news/press-releases/2023/09/boosting-productivity-competition-and-investment-while-tackling-informality-will-help-secure-higher-living-standards-in-peru.html"
+   },
+   {
+    "titulo": "Federal Register of Legislation (Australia) — Productivity Commission Act 1998",
+    "url": "https://www.legislation.gov.au/C2004A05404/latest"
+   }
+  ],
+  "implicados": {
+   "normas_modificadas": [
+    {
+     "norma": "Decreto Supremo 024-2002-PCM (CNCF)",
+     "articulo": "naturaleza (rango legal); comité conformado por decreto supremo",
+     "accion": "eleva_rango",
+     "url": "https://sni.org.pe/establecen-disposiciones-para-el-fortalecimiento-del-consejo-nacional-de-la-competitividad-creado-mediante-decreto-supremo-n-024-2002-pcm/"
+    },
+    {
+     "norma": "TUO del Código Tributario (D.S. 133-2013-EF)",
+     "articulo": "Norma VII (evaluación previa a prórrogas)",
+     "accion": "complementa",
+     "url": "https://www.sunat.gob.pe/legislacion/codigo/"
+    }
+   ],
+   "entidades": [
+    {
+     "entidad": "Consejo Nacional de Competitividad y Formalización",
+     "sigla": "CNCF",
+     "sector": "MEF",
+     "rol": "consultiva",
+     "responsabilidad": "Aloja al Comité de Evaluación (arts. 2-3)."
+    },
+    {
+     "entidad": "Comité de Evaluación de la Productividad",
+     "sigla": "",
+     "sector": "MEF",
+     "rol": "supervisora",
+     "responsabilidad": "Conformado por decreto supremo con miembros ad honorem: agenda trienal, evaluaciones ex post, informe anual y opiniones técnicas (arts. 3-5, 8)."
+    },
+    {
+     "entidad": "Ministerio de Economía y Finanzas",
+     "sigla": "MEF",
+     "sector": "Economía y Finanzas",
+     "rol": "financiadora",
+     "responsabilidad": "Conforma el Comité por decreto supremo, brinda la secretaría técnica, publica y usa los informes en la programación (arts. 2, 3, 7; DCF)."
+    },
+    {
+     "entidad": "Autoridad Nacional del Servicio Civil",
+     "sigla": "SERVIR",
+     "sector": "PCM",
+     "rol": "ejecutora",
+     "responsabilidad": "Conduce el concurso de selección (art. 3.2)."
+    },
+    {
+     "entidad": "Entidades administradoras de instrumentos productivos (PRODUCE, ProInnóvate, ITP, COFIDE, CONCYTEC, SUNAT)",
+     "sigla": "",
+     "sector": "Varios",
+     "rol": "regulada",
+     "responsabilidad": "Entregan información y publican respuesta a las recomendaciones (arts. 6-7)."
+    },
+    {
+     "entidad": "Superintendencia Nacional de Aduanas y de Administración Tributaria",
+     "sigla": "SUNAT",
+     "sector": "MEF",
+     "rol": "ejecutora",
+     "responsabilidad": "Procesa los datos bajo reserva tributaria y entrega solo resultados estadísticos (art. 6.2)."
+    },
+    {
+     "entidad": "Instituto Nacional de Estadística e Informática",
+     "sigla": "INEI",
+     "sector": "PCM",
+     "rol": "ejecutora",
+     "responsabilidad": "Puede administrar el entorno seguro de microdatos (art. 6.3)."
+    }
+   ],
+   "sujetos_obligados": "Entidades públicas que administran incentivos y programas productivos.",
+   "beneficiarios": "Contribuyentes y empresas, por una mejor asignación del gasto público y tributario productivo; el Congreso, por información técnica antes de legislar."
+  },
+  "impacto": {
+   "tipo": "neutro",
+   "costo_estado": {
+    "rango": "S/ 0–1,2 millones/año (solo si se contratan evaluaciones externas)",
+    "horizonte": "anual",
+    "supuestos": "Miembros ad honorem; soporte de la Secretaría Técnica existente. Si se contratan dos o tres evaluaciones externas por año, a S/ 150–400 mil cada una (estimación de la revisión jurídica, confianza baja), sujeto a disponibilidad o con cooperación.",
+    "financiamiento": "Presupuesto institucional del MEF sin demandar recursos adicionales al Tesoro, sujeto a disponibilidad presupuestal; convenios con universidades y cooperación."
+   },
+   "beneficio_estado": "Posible reasignación de gasto y gasto tributario desde instrumentos ineficaces; no cuantificable ex ante.",
+   "beneficio_sociedad": "Mejores políticas productivas y transparencia sobre su desempeño.",
+   "inversion_privada": "No aplica.",
+   "costo_privado": "Ninguno relevante.",
+   "riesgos": "Dificultad para atraer expertos sin retribución; captura si el concurso es débil; demoras de la SUNAT en procesar consultas; resistencia de entidades evaluadas.",
+   "confianza": "media"
+  },
+  "revision_atendida": [
+   {
+    "especialidad": "constitucional",
+    "severidad": "alta",
+    "hallazgo": "Comité retribuido = gasto de iniciativa parlamentaria (art. 79)",
+    "accion": "corregido",
+    "nota": "Art. 3.2: miembros ad honorem, sin dietas ni retribución; se elimina el régimen de dietas de la DCF; costo_fiscal pasa a «nulo»."
+   },
+   {
+    "especialidad": "constitucional",
+    "severidad": "media",
+    "hallazgo": "Creación por ley de órgano colegiado del Ejecutivo (arts. 35-36 LOPE)",
+    "accion": "corregido",
+    "nota": "Art. 3.1: se encarga al MEF conformarlo por decreto supremo, con garantías mínimas fijadas en la ley."
+   },
+   {
+    "especialidad": "constitucional",
+    "severidad": "baja",
+    "hallazgo": "Norma que dio la denominación CNCF",
+    "accion": "parcial",
+    "nota": "Se indica «por verificar en SPIJ» en problema y efecto_vigencia; no se pudo ubicar el número con certeza."
+   },
+   {
+    "especialidad": "jurista",
+    "severidad": "media",
+    "hallazgo": "Dietas o retribución sin fórmula de COORDINACION",
+    "accion": "corregido",
+    "nota": "Ad honorem; las evaluaciones externas sujetas a disponibilidad (DCF Tercera)."
+   },
+   {
+    "especialidad": "jurista",
+    "severidad": "media",
+    "hallazgo": "Microdatos anonimizados exceden el art. 85 CT",
+    "accion": "corregido",
+    "nota": "Art. 6.2: la SUNAT procesa los modelos del Comité y solo entrega resultados estadísticos; secreto bancario solo agregado."
+   },
+   {
+    "especialidad": "jurista",
+    "severidad": "baja",
+    "hallazgo": "Causales de remoción en el reglamento",
+    "accion": "corregido",
+    "nota": "Art. 3.3 enumera causales cerradas; se suprimen de la DCF."
+   },
+   {
+    "especialidad": "jurista",
+    "severidad": "baja",
+    "hallazgo": "Financiamiento en el articulado",
+    "accion": "corregido",
+    "nota": "Pasa a DCF Tercera."
+   },
+   {
+    "especialidad": "normativo",
+    "severidad": "media",
+    "hallazgo": "URL rotulada D.S. 345-2018-EF abre el D.S. 237-2019-EF",
+    "accion": "corregido",
+    "nota": "Se reetiqueta como D.S. 237-2019-EF y se agrega ficha del D.S. 345-2018-EF."
+   },
+   {
+    "especialidad": "normativo",
+    "severidad": "baja",
+    "hallazgo": "Fuentes secundarias para decretos del CNCF",
+    "accion": "parcial",
+    "nota": "Se mantiene sni.org.pe rotulada como fuente secundaria; no se ubicó ficha oficial del D.S. 024-2002-PCM accesible."
+   },
+   {
+    "especialidad": "normativo",
+    "severidad": "baja",
+    "hallazgo": "Productivity Commission Act enlazada a página institucional",
+    "accion": "corregido",
+    "nota": "Enlace al Federal Register of Legislation."
+   },
+   {
+    "especialidad": "seguridad",
+    "severidad": "alta",
+    "hallazgo": "Entrega de bases de beneficiarios sin entorno seguro",
+    "accion": "corregido",
+    "nota": "Art. 6.3: microdatos seudonimizados solo en entorno seguro (entidad titular o INEI), sin descarga, con bitácora y revisión de salidas; prohibición de reidentificación; art. 6.4 confidencialidad y responsabilidad (arts. 85-86 CT). Prima la opción más protectora: la información tributaria nunca sale de la SUNAT (art. 6.2)."
+   },
+   {
+    "especialidad": "seguridad",
+    "severidad": "baja",
+    "hallazgo": "Evaluación de reidentificación antes de publicar",
+    "accion": "corregido",
+    "nota": "Art. 7.1."
+   },
+   {
+    "especialidad": "tecnologico",
+    "severidad": "media",
+    "hallazgo": "«Anonimizados» insuficiente; remisión a entornos seguros",
+    "accion": "corregido",
+    "nota": "Arts. 6.2-6.3; se cita la Ley 29733 y el D.S. 016-2024-JUS sin depender de otra propuesta."
+   },
+   {
+    "especialidad": "tecnologico",
+    "severidad": "baja",
+    "hallazgo": "Datos abiertos sin licencia ni formato",
+    "accion": "corregido",
+    "nota": "Art. 7.1: licencia abierta, formatos de lectura mecánica y código de análisis."
+   }
+  ]
+ },
+ {
+  "id": "ECO-17",
+  "eje": "econ",
+  "titulo": "Ley que promueve la adopción de tecnologías digitales y prácticas gerenciales en la micro, pequeña y mediana empresa mediante diagnósticos digitales y bonos de adopción cofinanciados",
+  "titulo_corto": "Bonos de adopción tecnológica MIPYME",
+  "sumilla": "Autoriza al Ministerio de la Producción a otorgar, dentro de sus programas existentes y sujeto a disponibilidad presupuestal, subvenciones cofinanciadas (bonos de adopción) para que las MIPYME incorporen tecnologías digitales y prácticas gerenciales, con autodiagnóstico gratuito confidencial, pago directo al proveedor contra entregable verificado, catálogo abierto de proveedores con controles de seguridad proporcionales, deberes de encargado del tratamiento y portabilidad definida, infracciones tipificadas para proveedores y beneficiarios, y evaluación de impacto obligatoria.",
+  "problema": "La brecha de productividad de las empresas peruanas se explica en buena parte por la baja adopción de tecnologías y de prácticas gerenciales básicas (gestión de inventarios, contabilidad, ventas digitales, planificación), un patrón documentado por el Banco Mundial para países en desarrollo en «The Innovation Paradox» (2017). El Estado ya tiene instrumentos: ProInnóvate, creado por el D.S. 009-2021-PRODUCE, cofinancia proyectos de innovación y tuvo una línea de digitalización MIPYME; según una evaluación del Ministerio de la Producción difundida en 2026, el 81,5 % de las empresas beneficiarias de los concursos 2020 y 2021 aumentó sus ventas (medición sin grupo de control, por lo que no prueba causalidad). Sin embargo, estos concursos exigen proyectos formulados que pocas microempresas pueden preparar, no existe un diagnóstico digital universal ni un catálogo de soluciones con requisitos de portabilidad y seguridad, y la red de CITE (Decreto Legislativo 1228) atiende sobre todo necesidades manufactureras. España (Kit Digital) e Irlanda (Trading Online Voucher) usan bonos de importe fijo canjeables ante proveedores acreditados para acelerar la adopción en pymes.",
+  "objeto": "Elevar la adopción de tecnologías digitales y prácticas gerenciales en las MIPYME mediante diagnósticos gratuitos y bonos cofinanciados, sin crear programas ni gasto adicional.",
+  "articulado": [
+   {
+    "n": "Artículo 1",
+    "titulo": "Objeto",
+    "texto": "La presente ley tiene por objeto promover la adopción de tecnologías digitales y de prácticas gerenciales en la micro, pequeña y mediana empresa, mediante diagnósticos digitales y bonos de adopción cofinanciados, en el marco de los programas y servicios existentes del Ministerio de la Producción."
+   },
+   {
+    "n": "Artículo 2",
+    "titulo": "Definiciones",
+    "texto": "Para efectos de la presente ley se entiende por: a) adopción tecnológica: incorporación efectiva en la operación de la empresa de soluciones digitales como facturación y contabilidad electrónicas, gestión de inventarios, comercio electrónico, pagos digitales, gestión de clientes, ciberseguridad básica o computación en la nube; b) prácticas gerenciales: métodos de planificación, monitoreo de indicadores, gestión de personal y mejora de procesos; c) bono de adopción: cofinanciamiento de importe máximo predeterminado, intransferible, canjeable únicamente ante un proveedor del catálogo; d) proveedor acreditado: persona natural o jurídica inscrita en el catálogo del artículo 7; e) MIPYME: micro, pequeña y mediana empresa según los niveles de ventas anuales que establezca la norma vigente sobre la materia: el Texto Único Ordenado aprobado por Decreto Supremo 013-2013-PRODUCE o, desde su entrada en vigor, la Ley 32353, Ley para la Formalización, Desarrollo y Competitividad de la Micro y Pequeña Empresa."
+   },
+   {
+    "n": "Artículo 3",
+    "titulo": "Línea de adopción tecnológica y gerencial",
+    "texto": "3.1 El Ministerio de la Producción implementa, a través de ProInnóvate o el programa que haga sus veces y de los Centros de Desarrollo Empresarial, una línea de adopción tecnológica y gerencial dirigida a MIPYME con inscripción vigente en el RUC, sujeta a la disponibilidad presupuestal del pliego.\n3.2 La línea prioriza a las microempresas, a las empresas lideradas por mujeres y a las ubicadas fuera de Lima Metropolitana y el Callao, conforme a los criterios del reglamento. La priorización se revisa con la evaluación del artículo 10 y se mantiene mientras subsista la brecha que la justifica.\n3.3 La automatización y robótica en la manufactura se atienden mediante la red de CITE conforme al Decreto Legislativo 1228; la alfabetización digital básica de conductores y trabajadores, mediante los programas correspondientes del Ministerio de la Producción."
+   },
+   {
+    "n": "Artículo 4",
+    "titulo": "Diagnóstico digital gratuito",
+    "texto": "4.1 El Ministerio de la Producción pone a disposición, en forma gratuita y en línea, una herramienta de autodiagnóstico de madurez digital y gerencial, con versión asistida en los Centros de Desarrollo Empresarial.\n4.2 El resultado individual constituye información confidencial de la empresa, comprendida en la excepción de secreto comercial del Texto Único Ordenado de la Ley 27806, Ley de Transparencia y Acceso a la Información Pública, aprobado por Decreto Supremo 021-2019-JUS; solo se usa para orientar a la empresa y determinar su elegibilidad, y no se comparte con proveedores sin consentimiento expreso de la empresa. Los datos personales se tratan conforme a la Ley 29733.\n4.3 Los resultados agregados por tamaño, sector y región se publican en formato abierto, con supresión de celdas de menos de diez empresas."
+   },
+   {
+    "n": "Artículo 5",
+    "titulo": "Bonos de adopción cofinanciados",
+    "texto": "5.1 La empresa con diagnóstico vigente puede acceder a un bono de adopción por cada periodo de dos años, para soluciones del catálogo vinculadas a las brechas identificadas.\n5.2 El cofinanciamiento público es decreciente según el tamaño de la empresa y no puede superar el porcentaje y el monto máximos que fije el reglamento; la diferencia es aportada por la empresa.\n5.3 El bono se paga directamente al proveedor acreditado contra la verificación electrónica del entregable y de la puesta en uso de la solución, y del comprobante de pago electrónico emitido a la empresa. En ningún caso se entrega dinero a la empresa beneficiaria."
+   },
+   {
+    "n": "Artículo 6",
+    "titulo": "Autorización para otorgar subvenciones",
+    "texto": "6.1 Autorízase al Ministerio de la Producción, a través de ProInnóvate o el programa que haga sus veces, a otorgar los cofinanciamientos del artículo 5 como subvenciones a favor de personas naturales y jurídicas privadas, con cargo a su presupuesto institucional, sujeto a disponibilidad presupuestal y sin demandar recursos adicionales al Tesoro Público.\n6.2 Su otorgamiento se aprueba por resolución del titular del pliego, previo informe favorable de la oficina de presupuesto, y se publica en el portal institucional. El pago al proveedor por cuenta de la empresa beneficiaria no constituye una contratación regida por la Ley 32069, Ley General de Contrataciones Públicas."
+   },
+   {
+    "n": "Artículo 7",
+    "titulo": "Catálogo abierto de soluciones y proveedores",
+    "texto": "7.1 El Ministerio de la Producción administra un catálogo público y abierto de soluciones y proveedores acreditados. La inscripción es gratuita y se otorga a quien acredite RUC activo y habido, ausencia de sanciones vigentes conforme al artículo 9 y cumplimiento de los requisitos técnicos mínimos.\n7.2 Las soluciones del catálogo deben: a) permitir a la empresa exportar sus datos al término del servicio, sin costo adicional, en un formato estructurado, documentado y de lectura mecánica (como CSV, JSON o XML) y, para comprobantes electrónicos, en el formato XML aprobado por la SUNAT, con los metadatos necesarios para reutilizarlos y en un plazo no mayor de quince días hábiles desde la solicitud; cuando se trate de datos personales, se aplica además el régimen de la Ley 29733; b) informar el precio total y el de renovación; y c) cumplir controles básicos de seguridad digital proporcionales al riesgo, que el Ministerio de la Producción aprueba con opinión favorable de la Secretaría de Gobierno y Transformación Digital tomando como referencia normas técnicas peruanas o internacionales de gestión de seguridad de la información o marcos equivalentes para pequeñas organizaciones, sin exigir certificación a los proveedores que sean micro o pequeñas empresas.\n7.3 Los proveedores acreditados: a) notifican a la empresa usuaria y a la autoridad competente los incidentes de seguridad que afecten sus datos, conforme al régimen de notificación de incidentes vigente; b) no usan ni transfieren los datos de la empresa usuaria ni de sus clientes para fines distintos de la prestación contratada; c) aplican autenticación multifactor en los accesos administrativos y copias de respaldo; y d) al término del servicio eliminan los datos, previa exportación. El proveedor que trate datos personales por cuenta de la empresa beneficiaria actúa como encargado del tratamiento conforme a la Ley 29733 y su reglamento aprobado por Decreto Supremo 016-2024-JUS, y lo declara en el catálogo junto con el país de alojamiento de los datos.\n7.4 Se publica en formato abierto el número de bonos canjeados por proveedor y la valoración de las empresas usuarias."
+   },
+   {
+    "n": "Artículo 8",
+    "titulo": "Integridad y prevención del fraude",
+    "texto": "8.1 Está prohibido canjear un bono a favor de una empresa con la que el proveedor tenga vinculación económica conforme a las normas tributarias.\n8.2 El Ministerio de la Producción verifica la información con la SUNAT, mediante cruce de comprobantes electrónicos y sin acceso a información protegida por la reserva tributaria distinta de la necesaria para validar el comprobante, y realiza verificaciones aleatorias posteriores."
+   },
+   {
+    "n": "Artículo 9",
+    "titulo": "Infracciones y sanciones",
+    "texto": "9.1 El Ministerio de la Producción es la autoridad competente para sancionar, conforme al procedimiento sancionador del Texto Único Ordenado de la Ley 27444, Ley del Procedimiento Administrativo General, aprobado por Decreto Supremo 006-2026-JUS, y a sus principios de legalidad, tipicidad y razonabilidad.\n9.2 Constituyen infracciones muy graves del proveedor acreditado: a) declarar entregables no prestados o no puestos en uso; b) ofrecer o entregar a la empresa beneficiaria devoluciones, comisiones o bienes a cambio del canje; y c) canjear un bono a favor de una empresa con la que tenga vinculación económica conforme al numeral 8.1. Constituyen infracciones graves: d) usar o transferir los datos de la empresa usuaria o de sus clientes para fines distintos del servicio contratado; e) incumplir la obligación de exportación de datos del literal a) del numeral 7.2; y f) no notificar los incidentes de seguridad conforme al literal a) del numeral 7.3.\n9.3 Las infracciones muy graves se sancionan con exclusión del catálogo por tres años y multa de hasta diez UIT; las graves, con suspensión de hasta un año y multa de hasta tres UIT, graduadas según los criterios de razonabilidad del Texto Único Ordenado de la Ley 27444. En todos los casos se dispone, como medida correctiva, el reintegro del cofinanciamiento indebidamente percibido, con los intereses legales, sin perjuicio de la responsabilidad civil y penal.\n9.4 Constituye infracción muy grave de la empresa beneficiaria participar a sabiendas en las conductas de los literales a), b) o c) del numeral 9.2. Se sanciona, previo procedimiento sancionador, con inhabilitación para acceder a la línea por cinco años. El reintegro del cofinanciamiento se dispone como medida correctiva."
+   },
+   {
+    "n": "Artículo 10",
+    "titulo": "Evaluación de impacto",
+    "texto": "La línea se diseña de modo que permita evaluar su impacto con grupos de comparación. El Ministerio de la Producción publica una evaluación de impacto independiente a los tres años de su implementación y la remite a las comisiones competentes de ambas cámaras del Congreso de la República."
+   }
+  ],
+  "disposiciones": [
+   {
+    "tipo": "Complementaria Final",
+    "n": "Primera",
+    "texto": "Reglamentación. El Poder Ejecutivo, mediante decreto supremo refrendado por el Ministro de la Producción, reglamenta la presente ley en el plazo de ciento veinte días hábiles, incluidos los porcentajes y montos máximos de cofinanciamiento, los requisitos técnicos del catálogo y la metodología del diagnóstico."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Segunda",
+    "texto": "Articulación. El Ministerio de la Producción articula la línea con los programas de alfabetización digital y, de existir, de ciberresiliencia de las MIPYME o los instrumentos que hagan sus veces, sin duplicar sus servicios."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Tercera",
+    "texto": "Financiamiento. La implementación de la presente ley se financia con cargo al presupuesto institucional del Ministerio de la Producción, sujeto a disponibilidad presupuestal y sin demandar recursos adicionales al Tesoro Público; cuando los contratos de préstamo vigentes lo permitan, con recursos de endeudamiento concertado conforme al Decreto Legislativo 1437; y con recursos de la cooperación internacional. Los gobiernos regionales y locales pueden cofinanciar bonos en su ámbito mediante convenio."
+   }
+  ],
+  "costo_beneficio": "La ley no crea un programa ni asigna recursos; da la habilitación legal para otorgar subvenciones a privados, sujeta a disponibilidad presupuestal, y ordena una línea dentro de ProInnóvate o el programa que haga sus veces y de los Centros de Desarrollo Empresarial, sujeta a disponibilidad presupuestal. El costo depende del número de bonos que el Ejecutivo decida financiar; el diagnóstico en línea y el catálogo tienen costos bajos de desarrollo. El diseño reduce riesgos fiscales y de fraude: pago al proveedor contra entregable verificado, cofinanciamiento obligatorio de la empresa, cruce con comprobantes electrónicos y sanciones tipificadas. Beneficios esperados: mayor productividad intraempresa, formalización de transacciones (facturación y pagos digitales) y desarrollo de un mercado nacional de proveedores tecnológicos. La evaluación de impacto obligatoria permite corregir o cerrar la línea si no funciona.",
+  "efecto_vigencia": "Complementa el TUO aprobado por D.S. 013-2013-PRODUCE (o la Ley 32353 desde su entrada en vigor), el D.S. 009-2021-PRODUCE (ProInnóvate) y el D.L. 1228 (CITE, al que remite la automatización manufacturera). Habilita expresamente subvenciones a privados en el marco del D.L. 1440 y precisa que el pago al proveedor no es contratación de la Ley 32069. Tipifica infracciones con el Ministerio de la Producción como autoridad sancionadora (TUO de la Ley 27444, D.S. 006-2026-JUS). Concordante con la Ley 29733 y su reglamento (D.S. 016-2024-JUS), el TUO de la Ley 27806 (D.S. 021-2019-JUS) y el D.L. 1437. No deroga normas.",
+  "normas_relacionadas": [
+   {
+    "norma": "Decreto Supremo 009-2021-PRODUCE, que crea el Programa Nacional de Desarrollo Tecnológico e Innovación (ProInnóvate)",
+    "url": "https://busquedas.elperuano.pe/dispositivo/NL/1938018-7"
+   },
+   {
+    "norma": "TUO de la Ley de Impulso al Desarrollo Productivo y al Crecimiento Empresarial (D.S. 013-2013-PRODUCE)",
+    "url": "https://busquedas.elperuano.pe/dispositivo/NL/1033071-5"
+   },
+   {
+    "norma": "Decreto Legislativo 1228, de Centros de Innovación Productiva y Transferencia Tecnológica (CITE)",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/DecretosLegislativos/01228.pdf"
+   },
+   {
+    "norma": "Ley 29733, Ley de Protección de Datos Personales",
+    "url": "https://leyes.congreso.gob.pe/Documentos/Leyes/29733.pdf"
+   },
+   {
+    "norma": "Ley 32353, Ley para la Formalización, Desarrollo y Competitividad de la Micro y Pequeña Empresa (publicada el 27-may-2025; entra en vigor con su reglamento)",
+    "url": "https://leyes.congreso.gob.pe/Documentos/2021_2026/ADLP/Texto_Consolidado/32353-TXM.pdf"
+   }
+  ],
+  "antecedentes": "Por verificar en SPLEY.",
+  "referencias_internacionales": [
+   {
+    "pais": "España",
+    "norma": "Programa Kit Digital (Orden ETD/1498/2021, bases reguladoras)",
+    "url": "https://www.acelerapyme.gob.es/kit-digital"
+   },
+   {
+    "pais": "Irlanda",
+    "norma": "Trading Online Voucher Scheme (Local Enterprise Offices)",
+    "url": "https://www.localenterprise.ie/"
+   }
+  ],
+  "comision_sugerida": "Producción, Comercio Exterior y Turismo",
+  "comision_secundaria": "Ciencia, Innovación Tecnológica y Sociedad Digital",
+  "plan2050": [
+   "mipymes",
+   "transformacion-digital",
+   "innovacion"
+  ],
+  "ods": [
+   8,
+   9,
+   5
+  ],
+  "prioridad": "alta",
+  "costo_fiscal": "bajo",
+  "plazo": "mediano",
+  "indicador_exito": "Al 2031, al menos 100 000 MIPYME con diagnóstico digital y una evaluación de impacto publicada que mida el efecto de los bonos en ventas y productividad frente a un grupo de comparación.",
+  "tags": [
+   "MIPYME",
+   "adopción tecnológica",
+   "vouchers",
+   "productividad",
+   "PRODUCE"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Banco Mundial — The Innovation Paradox: Developing-Country Capabilities and the Unrealized Promise of Technological Catch-Up (2017)",
+    "url": "https://openknowledge.worldbank.org/handle/10986/28341"
+   },
+   {
+    "titulo": "Ecosistema Startup — ProInnóvate: 81 % de mipymes elevó ventas tras cofinanciamiento",
+    "url": "https://ecosistemastartup.com/proinnovate-81-de-mipymes-elevo-ventas-tras-cofinanciamiento/"
+   },
+   {
+    "titulo": "Gestión — ProInnóvate autoriza subvenciones para cofinanciar proyectos de innovación",
+    "url": "https://gestion.pe/economia/gobierno-peruano-proinnovate-autoriza-subvenciones-para-cofinanciar-proyectos-de-innovacion-y-tecnologia-noticia/"
+   },
+   {
+    "titulo": "Acelera pyme — Kit Digital",
+    "url": "https://www.acelerapyme.gob.es/kit-digital"
+   }
+  ],
+  "implicados": {
+   "normas_modificadas": [
+    {
+     "norma": "TUO aprobado por D.S. 013-2013-PRODUCE",
+     "articulo": "instrumentos de desarrollo empresarial",
+     "accion": "complementa",
+     "url": "https://busquedas.elperuano.pe/dispositivo/NL/1033071-5"
+    },
+    {
+     "norma": "D.S. 009-2021-PRODUCE (ProInnóvate)",
+     "articulo": "líneas de cofinanciamiento",
+     "accion": "complementa",
+     "url": "https://busquedas.elperuano.pe/dispositivo/NL/1938018-7"
+    },
+    {
+     "norma": "Decreto Legislativo 1440 / leyes anuales de presupuesto",
+     "articulo": "habilitación expresa de subvenciones a privados (art. 6)",
+     "accion": "complementa",
+     "url": "https://www.leyes.congreso.gob.pe/Documentos/DecretosLegislativos/01440.pdf"
+    }
+   ],
+   "entidades": [
+    {
+     "entidad": "Ministerio de la Producción",
+     "sigla": "PRODUCE",
+     "sector": "Producción",
+     "rol": "rectora",
+     "responsabilidad": "Implementa la línea, el diagnóstico, el catálogo y la evaluación de impacto; sanciona (arts. 3-9)."
+    },
+    {
+     "entidad": "Programa ProInnóvate o el que haga sus veces",
+     "sigla": "ProInnóvate",
+     "sector": "Producción",
+     "rol": "ejecutora",
+     "responsabilidad": "Opera los bonos de adopción (art. 3.1, art. 5)."
+    },
+    {
+     "entidad": "Superintendencia Nacional de Aduanas y de Administración Tributaria",
+     "sigla": "SUNAT",
+     "sector": "MEF",
+     "rol": "consultiva",
+     "responsabilidad": "Validación de comprobantes electrónicos para el pago del bono (art. 7.2)."
+    },
+    {
+     "entidad": "Secretaría de Gobierno y Transformación Digital",
+     "sigla": "SGTD",
+     "sector": "PCM",
+     "rol": "consultiva",
+     "responsabilidad": "Opinión sobre controles básicos de seguridad digital del catálogo (art. 6.2)."
+    },
+    {
+     "entidad": "Proveedores acreditados de soluciones digitales",
+     "sigla": "",
+     "sector": "Privado",
+     "rol": "regulada",
+     "responsabilidad": "Cumplen requisitos del catálogo, portabilidad y reglas de integridad (arts. 6-8)."
+    }
+   ],
+   "sujetos_obligados": "Ministerio de la Producción y proveedores que se inscriban en el catálogo.",
+   "beneficiarios": "Micro, pequeñas y medianas empresas formales, con prioridad para microempresas, empresas lideradas por mujeres y empresas de regiones."
+  },
+  "impacto": {
+   "tipo": "inversion",
+   "costo_estado": {
+    "rango": "No cuantificable con información pública: depende del número de bonos que el Ejecutivo decida financiar",
+    "horizonte": "2027-2031",
+    "supuestos": "El diagnóstico y el catálogo se desarrollan sobre plataformas existentes de PRODUCE; el volumen de bonos se fija en la programación presupuestal del pliego.",
+    "financiamiento": "Presupuesto institucional de PRODUCE sujeto a disponibilidad presupuestal y sin recursos adicionales al Tesoro; endeudamiento concertado solo si los contratos de préstamo vigentes lo permiten (D.L. 1437); cooperación."
+   },
+   "beneficio_estado": "Mayor formalización de transacciones y base tributaria por facturación y pagos digitales; no cuantificado.",
+   "beneficio_sociedad": "Mayor productividad y ventas de MIPYME; magnitud a establecer con la evaluación de impacto (el dato de 81,5 % de beneficiarios con más ventas no prueba causalidad y no se usa como beneficio esperado).",
+   "inversion_privada": "Aporte de contrapartida de las empresas y desarrollo de proveedores tecnológicos nacionales.",
+   "costo_privado": "Contrapartida de las MIPYME y requisitos de inscripción para proveedores.",
+   "riesgos": "Colusión proveedor-beneficiario, captura del catálogo por pocos proveedores, adopción nominal sin uso real (mitigados con verificación de puesta en uso, sanciones y publicación de datos por proveedor).",
+   "confianza": "media"
+  },
+  "revision_atendida": [
+   {
+    "especialidad": "constitucional",
+    "severidad": "media",
+    "hallazgo": "Ley no puede reasignar endeudamiento concertado",
+    "accion": "corregido",
+    "nota": "DCF Tercera: solo «cuando los contratos de préstamo vigentes lo permitan», conforme al D.L. 1437."
+   },
+   {
+    "especialidad": "constitucional",
+    "severidad": "baja",
+    "hallazgo": "Sanción a la beneficiaria sin tipificar",
+    "accion": "corregido",
+    "nota": "Art. 9.4 tipifica la infracción muy grave y su procedimiento."
+   },
+   {
+    "especialidad": "constitucional",
+    "severidad": "baja",
+    "hallazgo": "Priorización por género como acción afirmativa temporal",
+    "accion": "corregido",
+    "nota": "Art. 3.2 añade revisión con la evaluación y vigencia mientras subsista la brecha."
+   },
+   {
+    "especialidad": "jurista",
+    "severidad": "media",
+    "hallazgo": "Falta habilitación legal para subvenciones a privados",
+    "accion": "corregido",
+    "nota": "Nuevo art. 6: autorización expresa, resolución del titular con informe de presupuesto, publicación y precisión de que no es contratación de la Ley 32069."
+   },
+   {
+    "especialidad": "jurista",
+    "severidad": "media",
+    "hallazgo": "Prohibición de vinculación vs. tipo «no declarada»",
+    "accion": "corregido",
+    "nota": "Art. 8.1 y art. 9.2.c sancionan todo canje con empresa vinculada."
+   },
+   {
+    "especialidad": "jurista",
+    "severidad": "media",
+    "hallazgo": "Pérdida de acceso de la beneficiaria sin tipificación",
+    "accion": "corregido",
+    "nota": "Art. 9.4; reintegro como medida correctiva."
+   },
+   {
+    "especialidad": "jurista",
+    "severidad": "baja",
+    "hallazgo": "Reintegro no es sanción",
+    "accion": "corregido",
+    "nota": "Art. 9.3 lo califica como medida correctiva; se cita el D.S. 006-2026-JUS sin número de artículo no verificado."
+   },
+   {
+    "especialidad": "jurista",
+    "severidad": "baja",
+    "hallazgo": "MIPYME sin definir; financiamiento en articulado",
+    "accion": "corregido",
+    "nota": "Art. 2.e remite a los umbrales de la norma vigente (TUO D.S. 013-2013-PRODUCE o Ley 32353 desde su vigencia); financiamiento pasa a DCF Tercera."
+   },
+   {
+    "especialidad": "normativo",
+    "severidad": "baja",
+    "hallazgo": "TUO Ley 27444 sin decreto aprobatorio",
+    "accion": "corregido",
+    "nota": "Art. 9.1 cita el D.S. 006-2026-JUS y alude a principios sin numeración no verificada."
+   },
+   {
+    "especialidad": "normativo",
+    "severidad": "baja",
+    "hallazgo": "Cifra 81,5 % de medio secundario; URL genérica del D.S. 013-2013-PRODUCE",
+    "accion": "parcial",
+    "nota": "Se reemplaza la URL por la ficha de El Peruano; no se ubicó la nota oficial de PRODUCE, por lo que la cifra se mantiene con advertencia de no causalidad."
+   },
+   {
+    "especialidad": "seguridad",
+    "severidad": "media",
+    "hallazgo": "Confidencialidad del autodiagnóstico y celdas pequeñas",
+    "accion": "corregido",
+    "nota": "Art. 4.2-4.3: secreto comercial (TUO 27806, D.S. 021-2019-JUS), sin compartir con proveedores sin consentimiento y supresión de celdas menores de diez."
+   },
+   {
+    "especialidad": "seguridad",
+    "severidad": "media",
+    "hallazgo": "Obligaciones de proveedores ante incidentes y uso de datos",
+    "accion": "corregido",
+    "nota": "Art. 7.3 (incidentes, finalidad, MFA, respaldo, eliminación) y tipos graves en art. 9.2 d) y f)."
+   },
+   {
+    "especialidad": "seguridad",
+    "severidad": "baja",
+    "hallazgo": "Uso de datos para fines no autorizados sin tipificar",
+    "accion": "corregido",
+    "nota": "Art. 9.2.d."
+   },
+   {
+    "especialidad": "tecnologico",
+    "severidad": "media",
+    "hallazgo": "Controles de seguridad sin referencia y encargado del tratamiento",
+    "accion": "corregido",
+    "nota": "Art. 7.2.c (referencia a normas técnicas, sin certificación para micro y pequeños proveedores) y art. 7.3 (encargado del tratamiento y país de alojamiento)."
+   },
+   {
+    "especialidad": "tecnologico",
+    "severidad": "media",
+    "hallazgo": "Formato de exportación indeterminado (tipicidad)",
+    "accion": "corregido",
+    "nota": "Art. 7.2.a define formato, metadatos y plazo de quince días hábiles; remite a la Ley 29733 para datos personales."
+   },
+   {
+    "especialidad": "tecnologico",
+    "severidad": "baja",
+    "hallazgo": "Remisión a programa de ciberresiliencia inexistente",
+    "accion": "corregido",
+    "nota": "DCF Segunda: «de existir, … o los instrumentos que hagan sus veces»."
+   }
+  ]
+ },
+ {
+  "id": "ECO-18",
+  "eje": "econ",
+  "titulo": "Ley que fortalece la promoción activa de la inversión extranjera directa de eficiencia en sectores de mayor complejidad, con servicios posinstalación y encadenamiento con proveedores nacionales",
+  "titulo_corto": "IED de eficiencia y proveedores",
+  "sumilla": "Sin crear entidades ni beneficios tributarios, encarga a ProInversión, en coordinación con PRODUCE, MINCETUR y Relaciones Exteriores, una estrategia multianual de búsqueda activa de inversión extranjera directa orientada a exportar manufacturas y servicios de mayor complejidad, con gestor único y servicio posinstalación que se prestan en las mismas condiciones a los proyectos de inversión nacional que cumplan los mismos criterios (art. 63 de la Constitución), reporte de barreras burocráticas, encadenamiento voluntario con proveedores nacionales y metas e indicadores públicos.",
+  "problema": "La inversión extranjera directa (IED) en el Perú está concentrada en recursos naturales y servicios regulados. Según el registro de ProInversión difundido en 2024, el saldo de IED registrada era de US$ 30 172 millones al 31 de diciembre de 2023, concentrado en minería (23 %), finanzas (22 %) y comunicaciones (18 %). La CEPAL reportó un flujo de US$ 6799 millones en 2024, 57 % más que en 2023, y el BCRP informó que las empresas con IED obtuvieron utilidades por US$ 23 405 millones en 2025, más de la mitad en minería, lo que liga su desempeño al ciclo de precios de materias primas. La promoción estatal se orienta sobre todo a asociaciones público-privadas y proyectos en activos (Decreto Legislativo 1362), mientras la atracción de inversión productiva exportadora no tiene estrategia legal, metas ni servicio sistemático de seguimiento al inversionista ya instalado. Irlanda, mediante la IDA (Industrial Development Act 1986), y Costa Rica, mediante CINDE, combinaron búsqueda activa de empresas en manufactura avanzada y servicios, atención posinstalación y programas de proveedores locales para multiplicar el efecto de la IED en empleo y capacidades. La Ley 32449 (ZEEP) ofrece un régimen territorial, pero no sustituye una estrategia de promoción.",
+  "objeto": "Ordenar la promoción de la IED de eficiencia con metas públicas, servicio posinstalación y encadenamiento con proveedores nacionales, dentro de las entidades existentes y sin incentivos tributarios nuevos.",
+  "articulado": [
+   {
+    "n": "Artículo 1",
+    "titulo": "Objeto",
+    "texto": "La presente ley tiene por objeto fortalecer la promoción activa de la inversión extranjera directa de eficiencia en sectores de mayor complejidad productiva, el servicio posinstalación al inversionista y el encadenamiento de dicha inversión con proveedores nacionales, en el marco de las entidades existentes."
+   },
+   {
+    "n": "Artículo 2",
+    "titulo": "Definiciones",
+    "texto": "Para efectos de la presente ley se entiende por: a) inversión extranjera directa de eficiencia: inversión extranjera en los términos del Decreto Legislativo 662, efectuada directamente o a través de empresas constituidas en el país, en actividades de manufactura o de servicios orientadas principalmente a la exportación y basadas en capacidades productivas o de talento, distinta de la explotación de recursos naturales y de las concesiones de infraestructura y servicios públicos; b) servicio posinstalación: acompañamiento al inversionista instalado para resolver obstáculos administrativos y promover la reinversión; c) encadenamiento productivo: incorporación de empresas nacionales como proveedoras de bienes y servicios de las empresas con inversión extranjera."
+   },
+   {
+    "n": "Artículo 3",
+    "titulo": "Estrategia multianual de promoción",
+    "texto": "3.1 La Agencia de Promoción de la Inversión Privada (ProInversión), en el marco de su función de ejecutar la política nacional de promoción de la inversión privada prevista en su normativa de organización, elabora con el Ministerio de la Producción y el Ministerio de Comercio Exterior y Turismo una estrategia multianual de promoción de la inversión extranjera directa de eficiencia, alineada con el Plan Nacional de Competitividad y Productividad, que se aprueba por decreto supremo refrendado por los Ministros de Economía y Finanzas, de la Producción y de Comercio Exterior y Turismo.\n3.2 La estrategia identifica sectores y segmentos prioritarios con criterios técnicos de complejidad, potencial exportador, empleo formal y encadenamiento; fija metas anuales de proyectos, inversión, empleo y exportaciones; y se actualiza cada tres años."
+   },
+   {
+    "n": "Artículo 4",
+    "titulo": "Búsqueda activa y gestor único",
+    "texto": "4.1 ProInversión identifica y contacta de manera proactiva a empresas de los segmentos prioritarios, con el apoyo de las Oficinas Comerciales del Perú en el Exterior del Ministerio de Comercio Exterior y Turismo y de las misiones diplomáticas del Ministerio de Relaciones Exteriores. La información del inversionista compartida con dichas oficinas y misiones se trata con reserva comercial.\n4.2 Para cada proyecto calificado según la estrategia, ProInversión designa un gestor que actúa como punto único de contacto y articula con las entidades competentes los procedimientos necesarios. La gestión no exime del cumplimiento de requisitos legales, ambientales, laborales ni tributarios, ni otorga tratamiento preferente en la evaluación de procedimientos. Tampoco exime ni acelera las evaluaciones de seguridad de inversiones en activos críticos nacionales ni los controles de exportación de bienes y tecnologías de doble uso que resulten aplicables conforme a la legislación vigente.\n4.3 Los servicios de gestor único del numeral 4.2 y de posinstalación del artículo 5 se prestan, en las mismas condiciones, a los proyectos de inversión nacional que cumplan los criterios de eficiencia, complejidad y orientación exportadora de la estrategia, conforme al artículo 63 de la Constitución Política del Perú."
+   },
+   {
+    "n": "Artículo 5",
+    "titulo": "Servicio posinstalación y barreras burocráticas",
+    "texto": "5.1 ProInversión brinda servicio posinstalación a las empresas a que se refiere el numeral 4.3, orientado a resolver obstáculos administrativos y promover su reinversión y expansión.\n5.2 Cuando identifique exigencias que podrían constituir barreras burocráticas ilegales o carentes de razonabilidad, ProInversión las pone en conocimiento de la Comisión de Eliminación de Barreras Burocráticas del INDECOPI, conforme al Decreto Legislativo 1256, y del Consejo Nacional de Competitividad y Formalización."
+   },
+   {
+    "n": "Artículo 6",
+    "titulo": "Encadenamiento con proveedores nacionales",
+    "texto": "6.1 El Ministerio de la Producción, en coordinación con ProInversión y dentro de sus programas existentes, implementa acciones de encadenamiento que incluyen un directorio de capacidades de proveedores nacionales, rondas de vinculación con las empresas instaladas y asistencia para que los proveedores cumplan estándares de calidad, con apoyo del Instituto Nacional de Calidad conforme a la Ley 30224. La inscripción en el directorio es voluntaria y los datos personales se tratan conforme a la Ley 29733.\n6.2 La participación de las empresas con inversión extranjera es voluntaria. La presente ley no establece requisitos de contenido nacional."
+   },
+   {
+    "n": "Artículo 7",
+    "titulo": "Información sobre demanda de talento",
+    "texto": "ProInversión comunica semestralmente al Ministerio de Trabajo y Promoción del Empleo y al Ministerio de Educación, sin identificar a las empresas cuando estas lo soliciten, las necesidades de habilidades técnicas y profesionales identificadas en los proyectos atendidos, para su consideración en la oferta formativa."
+   },
+   {
+    "n": "Artículo 8",
+    "titulo": "Régimen aplicable",
+    "texto": "La presente ley no crea beneficios tributarios ni modifica el régimen de convenios de estabilidad jurídica de los Decretos Legislativos 662 y 757, ni el régimen de la Ley 32449. El trato al inversionista extranjero se rige por la Constitución Política del Perú, dichas normas y los tratados vigentes."
+   },
+   {
+    "n": "Artículo 9",
+    "titulo": "Transparencia y evaluación",
+    "texto": "9.1 ProInversión publica anualmente, en formato abierto y conforme al régimen general de datos abiertos, el avance de las metas de la estrategia, los proyectos atendidos por sector y región, el empleo y las exportaciones declaradas, y el número de contratos con proveedores nacionales reportados, respetando la confidencialidad comercial que soliciten las empresas. ProInversión puede agregar o reservar la información de proyectos cuya publicación afecte la seguridad de infraestructura crítica, conforme a las excepciones del Texto Único Ordenado de la Ley 27806, Ley de Transparencia y Acceso a la Información Pública, aprobado por Decreto Supremo 021-2019-JUS.\n9.2 La estrategia se somete a evaluación independiente al término de cada periodo trienal y sus resultados se remiten a las comisiones competentes de ambas cámaras del Congreso de la República."
+   }
+  ],
+  "disposiciones": [
+   {
+    "tipo": "Complementaria Final",
+    "n": "Primera",
+    "texto": "Plazo. La primera estrategia multianual se aprueba en el plazo de nueve meses contados desde la entrada en vigor de la presente ley."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Segunda",
+    "texto": "Adecuación y criterios. ProInversión adecúa sus documentos de gestión a lo dispuesto en la presente ley en el plazo de ciento veinte días hábiles, sin crear órganos que demanden recursos adicionales. El Poder Ejecutivo, mediante decreto supremo refrendado por el Ministro de Economía y Finanzas, establece los criterios de calificación de proyectos del artículo 4 en el plazo de noventa días hábiles."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Tercera",
+    "texto": "Financiamiento. La implementación de la presente ley se financia con cargo al presupuesto institucional de ProInversión, del Ministerio de la Producción, del Ministerio de Comercio Exterior y Turismo y del Ministerio de Relaciones Exteriores, sin demandar recursos adicionales al Tesoro Público. Su ejecución no obliga a contratar personal adicional y se sujeta a la disponibilidad presupuestal."
+   }
+  ],
+  "costo_beneficio": "No crea entidades ni incentivos tributarios: reorienta funciones de ProInversión, PRODUCE, MINCETUR y Relaciones Exteriores. El costo incremental (personal especializado en búsqueda activa y posinstalación, estudios sectoriales, rondas de proveedores) es bajo y se cubre con presupuestos institucionales, sujeto a disponibilidad. Los beneficios potenciales son diversificar la IED hacia sectores exportadores de mayor complejidad, empleo formal mejor remunerado, transferencia de capacidades a proveedores nacionales y menor dependencia del ciclo minero. El reporte de barreras al INDECOPI aprovecha mecanismos existentes. Las metas públicas y la evaluación trienal permiten medir si la estrategia funciona.",
+  "efecto_vigencia": "Complementa las funciones de ProInversión previstas en su normativa de organización (ROF vigente, por verificar en SPIJ) y en el Decreto Legislativo 1362 en lo que corresponda; el Decreto Legislativo 662 (definición de inversión extranjera) y el Decreto Legislativo 757, sin modificarlos; el Decreto Legislativo 1256 (barreras burocráticas), la Ley 30224 (INACAL) y la Ley 27790 (MINCETUR). Aplica el art. 63 de la Constitución (igualdad de trato a la inversión nacional) y el art. 11 de la Ley 29158 (refrendo). No modifica la Ley 32449. No deroga normas.",
+  "normas_relacionadas": [
+   {
+    "norma": "Decreto Legislativo 1362, que regula la promoción de la inversión privada mediante APP y Proyectos en Activos",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/DecretosLegislativos/01362.pdf"
+   },
+   {
+    "norma": "Decreto Legislativo 662, que aprueba el régimen de estabilidad jurídica a la inversión extranjera",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/DecretosLegislativos/00662.pdf"
+   },
+   {
+    "norma": "Decreto Legislativo 1256, Ley de prevención y eliminación de barreras burocráticas",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/DecretosLegislativos/01256.pdf"
+   },
+   {
+    "norma": "Ley 30224, que crea el Sistema Nacional para la Calidad y el INACAL",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/30224.pdf"
+   }
+  ],
+  "antecedentes": "Por verificar en SPLEY.",
+  "referencias_internacionales": [
+   {
+    "pais": "Irlanda",
+    "norma": "Industrial Development Act 1986 (IDA Ireland)",
+    "url": "https://revisedacts.lawreform.ie/eli/1986/act/9/section/25/revised/en/html"
+   },
+   {
+    "pais": "Costa Rica",
+    "norma": "Coalición Costarricense de Iniciativas de Desarrollo (CINDE), agencia de promoción de inversiones",
+    "url": "https://www.cinde.org/"
+   }
+  ],
+  "comision_sugerida": "Producción, Comercio Exterior y Turismo",
+  "comision_secundaria": "Economía, Banca, Finanzas e Inteligencia Financiera",
+  "plan2050": [
+   "promocion-de-la-inversion",
+   "industria",
+   "comercio-exterior-e-insercion-en-el-merc"
+  ],
+  "ods": [
+   8,
+   9,
+   17
+  ],
+  "prioridad": "media",
+  "costo_fiscal": "bajo",
+  "plazo": "mediano",
+  "indicador_exito": "Al 2031, estrategia aprobada y evaluada, con al menos 40 proyectos de IED de eficiencia atendidos y aumento de la participación de la manufactura y los servicios basados en conocimiento en el saldo de IED registrado por ProInversión respecto de 2023.",
+  "tags": [
+   "IED",
+   "ProInversión",
+   "proveedores",
+   "diversificación productiva"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Energiminas — IED en el Perú se concentra en minería (23 %), finanzas (22 %) y comunicaciones (18 %) (registro de ProInversión; fuente secundaria)",
+    "url": "https://energiminas.com/2024/03/21/inversion-extranjera-directa-en-el-peru-se-concentra-en-mineria-23-finanzas-22-y-comunicaciones-18"
+   },
+   {
+    "titulo": "El Peruano — Inversión extranjera directa en Perú creció 57 % el 2024 (CEPAL)",
+    "url": "https://elperuano.pe/noticia/274914-inversion-extranjera-directa-en-peru-crecio-57-el-2024"
+   },
+   {
+    "titulo": "Revista Economía — Utilidades 2025 de empresas con IED sumaron US$ 23 405 millones (cita al BCRP; fuente secundaria)",
+    "url": "https://revistaeconomia.com/utilidades-2025-empresas-con-inversion-extranjera-directa-generaron-us-23405-millones-impulsadas-por-mineria"
+   }
+  ],
+  "implicados": {
+   "normas_modificadas": [
+    {
+     "norma": "Decreto Legislativo 1362",
+     "articulo": "funciones de ProInversión",
+     "accion": "complementa",
+     "url": "https://www.leyes.congreso.gob.pe/Documentos/DecretosLegislativos/01362.pdf"
+    },
+    {
+     "norma": "Decreto Legislativo 1256",
+     "articulo": "comunicación de barreras",
+     "accion": "complementa",
+     "url": "https://www.leyes.congreso.gob.pe/Documentos/DecretosLegislativos/01256.pdf"
+    }
+   ],
+   "entidades": [
+    {
+     "entidad": "Agencia de Promoción de la Inversión Privada",
+     "sigla": "ProInversión",
+     "sector": "MEF",
+     "rol": "ejecutora",
+     "responsabilidad": "Estrategia, búsqueda activa, gestor único, posinstalación, reporte de barreras y transparencia (arts. 3-5, 7, 9)."
+    },
+    {
+     "entidad": "Ministerio de la Producción",
+     "sigla": "PRODUCE",
+     "sector": "Producción",
+     "rol": "ejecutora",
+     "responsabilidad": "Coelabora la estrategia e implementa el encadenamiento con proveedores (arts. 3, 6)."
+    },
+    {
+     "entidad": "Ministerio de Comercio Exterior y Turismo",
+     "sigla": "MINCETUR",
+     "sector": "Comercio Exterior",
+     "rol": "ejecutora",
+     "responsabilidad": "Coelabora la estrategia y apoya la búsqueda mediante las OCEX (arts. 3-4)."
+    },
+    {
+     "entidad": "Ministerio de Relaciones Exteriores",
+     "sigla": "RREE",
+     "sector": "Relaciones Exteriores",
+     "rol": "ejecutora",
+     "responsabilidad": "Apoyo de las misiones diplomáticas (art. 4.1)."
+    },
+    {
+     "entidad": "Instituto Nacional de Defensa de la Competencia y de la Protección de la Propiedad Intelectual",
+     "sigla": "INDECOPI",
+     "sector": "PCM",
+     "rol": "supervisora",
+     "responsabilidad": "Recibe reportes de posibles barreras burocráticas (art. 5.2)."
+    },
+    {
+     "entidad": "Instituto Nacional de Calidad",
+     "sigla": "INACAL",
+     "sector": "Producción",
+     "rol": "ejecutora",
+     "responsabilidad": "Apoya la calidad de proveedores nacionales (art. 6.1)."
+    }
+   ],
+   "sujetos_obligados": "Entidades del Poder Ejecutivo señaladas; ninguna obligación nueva para empresas.",
+   "beneficiarios": "Trabajadores y proveedores nacionales vinculados a nuevas inversiones exportadoras; regiones con capacidad manufacturera o de servicios."
+  },
+  "impacto": {
+   "tipo": "neutro",
+   "costo_estado": {
+    "rango": "S/ 2–5 millones/año",
+    "horizonte": "anual",
+    "supuestos": "Estimación del redactor: equipo de búsqueda activa y posinstalación de 10 a 15 especialistas, estudios sectoriales y rondas de proveedores, mayormente por reasignación de personal y programas existentes; el texto no ordena contratar.",
+    "financiamiento": "Presupuesto institucional de ProInversión, PRODUCE, MINCETUR y RREE, sin recursos adicionales al Tesoro y sujeto a disponibilidad presupuestal."
+   },
+   "beneficio_estado": "Mayor base tributaria futura por nuevas inversiones y exportaciones; no cuantificable ex ante.",
+   "beneficio_sociedad": "Empleo formal en sectores de mayor productividad y aprendizaje de proveedores nacionales.",
+   "inversion_privada": "IED adicional en manufactura y servicios exportadores; monto no estimable ex ante.",
+   "costo_privado": "Ninguno obligatorio.",
+   "riesgos": "Que el gestor único se perciba como trato preferente (mitigado en art. 4.2); metas no alcanzadas por factores macroeconómicos o de seguridad jurídica ajenos a la ley.",
+   "confianza": "media"
+  },
+  "revision_atendida": [
+   {
+    "especialidad": "constitucional",
+    "severidad": "media",
+    "hallazgo": "Gestor único y posinstalación solo para inversión extranjera (art. 63)",
+    "accion": "corregido",
+    "nota": "Nuevo art. 4.3: los servicios se prestan en las mismas condiciones a proyectos nacionales que cumplan los criterios; el art. 5.1 remite a ese universo."
+   },
+   {
+    "especialidad": "constitucional",
+    "severidad": "baja",
+    "hallazgo": "D.L. 1362 no es la base de la promoción no APP",
+    "accion": "parcial",
+    "nota": "Art. 3.1 y efecto_vigencia remiten a la normativa de organización de ProInversión; el número del ROF vigente queda «por verificar en SPIJ»."
+   },
+   {
+    "especialidad": "jurista",
+    "severidad": "media",
+    "hallazgo": "Definición con categoría tributaria «no domiciliados»",
+    "accion": "corregido",
+    "nota": "Art. 2.a remite a la inversión extranjera del D.L. 662, directa o mediante empresas constituidas en el país."
+   },
+   {
+    "especialidad": "jurista",
+    "severidad": "baja",
+    "hallazgo": "Refrendo multisectorial del decreto supremo",
+    "accion": "corregido",
+    "nota": "Art. 3.1: refrendo de MEF, PRODUCE y MINCETUR."
+   },
+   {
+    "especialidad": "jurista",
+    "severidad": "baja",
+    "hallazgo": "Financiamiento en articulado y falta de reglamentación",
+    "accion": "corregido",
+    "nota": "Financiamiento pasa a DCF Tercera; DCF Segunda fija criterios de calificación por decreto supremo en noventa días hábiles."
+   },
+   {
+    "especialidad": "normativo",
+    "severidad": "baja",
+    "hallazgo": "Base legal de funciones de ProInversión",
+    "accion": "parcial",
+    "nota": "Ver efecto_vigencia; ROF por verificar."
+   },
+   {
+    "especialidad": "normativo",
+    "severidad": "baja",
+    "hallazgo": "Cifras del BCRP y ProInversión tomadas de prensa",
+    "accion": "parcial",
+    "nota": "Las fuentes se rotulan como secundarias; no se ubicó en línea el reporte primario con las mismas cifras."
+   },
+   {
+    "especialidad": "seguridad",
+    "severidad": "media",
+    "hallazgo": "Gestor único podría presionar evaluaciones de seguridad y doble uso",
+    "accion": "corregido",
+    "nota": "Art. 4.2 añade que no exime ni acelera esas evaluaciones."
+   },
+   {
+    "especialidad": "seguridad",
+    "severidad": "baja",
+    "hallazgo": "Publicación por sector y región en sectores sensibles",
+    "accion": "corregido",
+    "nota": "Art. 9.1 permite agregar o reservar conforme al TUO de la Ley 27806 (D.S. 021-2019-JUS); art. 4.1 reserva comercial de la información compartida con misiones."
+   },
+   {
+    "especialidad": "tecnologico",
+    "severidad": "baja",
+    "hallazgo": "Directorio y datos abiertos sin remisión",
+    "accion": "corregido",
+    "nota": "Arts. 6.1 (Ley 29733, voluntariedad) y 9.1 (régimen general de datos abiertos)."
+   }
+  ]
+ },
+ {
+  "id": "ECO-19",
+  "eje": "econ",
+  "titulo": "Ley que habilita, con límites prudenciales, la inversión de los fondos de pensiones en fondos de capital de riesgo y de deuda privada de empresas innovadoras y encarga a la SBS evaluar su admisión para las empresas de seguros",
+  "titulo_corto": "Ahorro previsional y capital de riesgo",
+  "sumilla": "Reconoce expresamente como inversión elegible de los fondos del Sistema Privado de Pensiones las cuotas de fondos de capital de riesgo y de deuda privada de empresas innovadoras, sin obligar a invertir; fija en la ley condiciones prudenciales mínimas (gestor supervisado, coinversión del gestor, valorización independiente, conflictos de interés, comisiones transparentes) deja a la SBS, en ejercicio de su autonomía, el sublímite por tipo de fondo y excluye los Fondos Tipo 0 y Tipo 1; permite coinvertir con el fondo de fondos del Decreto de Urgencia 013-2020; y encarga a la SBS evaluar el tratamiento de estas inversiones para las aseguradoras sin modificar la Ley 26702.",
+  "problema": "El ahorro previsional es el mayor fondo de capital de largo plazo del país, pero casi no financia innovación. El artículo 25-B del TUO de la Ley del Sistema Privado de Pensiones (D.S. 054-97-EF) fija topes de inversión por clase de activo y faculta a la SBS, con opinión previa del MEF, a fijar sublímites; la SBS reconoció en 2025 como elegibles las acciones colocadas por oferta privada con compromiso de inscripción en bolsa (Resolución SBS 00907-2025) y prepublicó reglas sobre deuda privada y coinversiones. Sin embargo, la ley no menciona el capital de riesgo como categoría, y las inversiones alternativas se concentran en fondos de capital privado de empresas maduras e infraestructura. A la vez, los retiros extraordinarios (el octavo, de hasta cuatro UIT, autorizado por la Ley 32445 de 2025) obligan a vender activos, la Ley 32428 elevó a 80 % el límite de inversión en el exterior, y la Ley 32123 abrió la gestión de fondos a nuevas administradoras. El Fondo de Capital para Emprendimientos Innovadores (Decreto de Urgencia 013-2020) y el financiamiento participativo movilizan montos pequeños frente al ahorro previsional. En Chile, la Ley 20.956 (2016) incorporó los activos alternativos al régimen de inversión de los fondos de pensiones con límites que fija el Banco Central dentro del rango que señala la ley.",
+  "objeto": "Habilitar expresamente y con salvaguardas prudenciales que una fracción acotada del ahorro previsional financie capital de riesgo y deuda privada de empresas innovadoras, sin imponer inversiones ni garantías públicas.",
+  "articulado": [
+   {
+    "n": "Artículo 1",
+    "titulo": "Objeto",
+    "texto": "La presente ley tiene por objeto habilitar, con límites prudenciales y en el exclusivo interés de los afiliados, la inversión de los fondos de pensiones en fondos de capital de riesgo y de deuda privada de empresas innovadoras, y encargar a la Superintendencia de Banca, Seguros y AFP la evaluación de su tratamiento para las empresas de seguros."
+   },
+   {
+    "n": "Artículo 2",
+    "titulo": "Definiciones",
+    "texto": "Para efectos de la presente ley se entiende por: a) fondo de capital de riesgo: fondo de inversión cuyo objeto principal es adquirir participaciones en empresas innovadoras no listadas en etapas tempranas o de crecimiento; b) fondo de deuda privada para la innovación: fondo de inversión cuyo objeto principal es otorgar financiamiento no bancario a dichas empresas; c) empresa innovadora: empresa cuyo modelo de negocio se basa en el desarrollo o uso intensivo de tecnología o conocimiento, conforme a los criterios que establezca el reglamento, incluidas las empresas emergentes acreditadas en el registro de empresas de base tecnológica que esté vigente."
+   },
+   {
+    "n": "Artículo 3",
+    "titulo": "Inversión elegible",
+    "texto": "3.1 Los fondos de pensiones administrados conforme al Texto Único Ordenado de la Ley del Sistema Privado de Administración de Fondos de Pensiones, aprobado por Decreto Supremo 054-97-EF, y la Ley 32123, pueden invertir en cuotas de fondos de capital de riesgo y de fondos de deuda privada para la innovación, nacionales o extranjeros, dentro de los límites por categoría de instrumentos del artículo 25-B de dicho Texto Único Ordenado y de los sublímites que establezca la Superintendencia de Banca, Seguros y AFP. Las inversiones en fondos extranjeros computan dentro del límite de inversión en el exterior del artículo 25-D del citado Texto Único Ordenado, modificado por la Ley 32428, y del límite operativo que fije el Banco Central de Reserva del Perú.\n3.2 La presente ley no obliga a invertir. Las decisiones de inversión se adoptan con sujeción al deber fiduciario de actuar en el exclusivo interés de los afiliados, y en ningún caso el Estado garantiza la rentabilidad ni el capital de estas inversiones."
+   },
+   {
+    "n": "Artículo 4",
+    "titulo": "Condiciones prudenciales mínimas",
+    "texto": "Solo son elegibles los fondos que cumplan, como mínimo, las condiciones siguientes: a) ser administrados por una sociedad autorizada por la Superintendencia del Mercado de Valores o por un supervisor extranjero reconocido por la Superintendencia de Banca, Seguros y AFP; b) contar con coinversión del gestor o de sus socios en el porcentaje mínimo que fije el reglamento; c) valorizar sus inversiones con metodologías reconocidas internacionalmente y someterlas a auditoría externa anual; d) contar con un comité de vigilancia con participación de los inversionistas; e) revelar íntegramente comisiones, gastos y conflictos de interés; f) identificar a sus beneficiarios finales conforme a las normas de prevención del lavado de activos y del financiamiento del terrorismo; g) no estar vinculados a la administradora del fondo de pensiones inversora, salvo las excepciones y controles que establezca la Superintendencia de Banca, Seguros y AFP; y h) cumplir, respecto de sus inversiones en empresas nacionales, las normas de evaluación de seguridad de inversiones en activos críticos y de control de exportaciones de doble uso que resulten aplicables."
+   },
+   {
+    "n": "Artículo 5",
+    "titulo": "Sublímites",
+    "texto": "5.1 La Superintendencia de Banca, Seguros y AFP, en ejercicio de su autonomía, establece un sublímite máximo para las inversiones del artículo 3 dentro de los límites por categoría de instrumentos, diferenciado según el tipo de fondo y su horizonte de inversión, así como límites de concentración por fondo y por gestor. Puede solicitar opinión técnica no vinculante del Banco Central de Reserva del Perú y del Ministerio de Economía y Finanzas.\n5.2 No pueden invertir en los instrumentos del artículo 3 el Fondo de Pensiones Tipo 0, el Fondo de Pensiones Tipo 1, o los que hagan sus veces conforme a la Ley 32123, ni los fondos o carteras que la Superintendencia determine para afiliados a menos de diez años de la edad legal de jubilación."
+   },
+   {
+    "n": "Artículo 6",
+    "titulo": "Coinversión con el fondo de fondos público",
+    "texto": "Los fondos de pensiones pueden coinvertir con el Fondo de Capital para Emprendimientos Innovadores regulado en el Título V del Decreto de Urgencia 013-2020, en los mismos términos y condiciones que este y sin que dicho fondo otorgue garantías, retornos preferentes ni cobertura de pérdidas a los inversionistas privados."
+   },
+   {
+    "n": "Artículo 7",
+    "titulo": "Empresas de seguros",
+    "texto": "Encárgase a la Superintendencia de Banca, Seguros y AFP evaluar, en ejercicio de sus atribuciones conforme a la Ley 26702, Ley General del Sistema Financiero y del Sistema de Seguros y Orgánica de la Superintendencia de Banca y Seguros, la admisión de las inversiones del artículo 3 entre las inversiones elegibles de las empresas de seguros, con límites prudenciales acordes con el plazo de sus obligaciones técnicas, y publicar sus conclusiones en el plazo de doce meses. El presente encargo no modifica las atribuciones de la Superintendencia previstas en la Ley 26702."
+   },
+   {
+    "n": "Artículo 8",
+    "titulo": "Transparencia",
+    "texto": "La Superintendencia de Banca, Seguros y AFP publica trimestralmente, en formato abierto, los montos agregados invertidos en los instrumentos del artículo 3 por tipo de fondo y por administradora. Las administradoras informan a sus afiliados la proporción de cada fondo invertida en dichos instrumentos y su rentabilidad, en el estado de cuenta."
+   },
+   {
+    "n": "Artículo 9",
+    "titulo": "Evaluación",
+    "texto": "La Superintendencia de Banca, Seguros y AFP evalúa, al quinto año de vigencia de la presente ley, los efectos de estas inversiones en la rentabilidad ajustada por riesgo de los fondos y en el financiamiento de empresas innovadoras, y remite el informe a las comisiones competentes de ambas cámaras del Congreso de la República."
+   }
+  ],
+  "disposiciones": [
+   {
+    "tipo": "Complementaria Final",
+    "n": "Primera",
+    "texto": "Adecuación normativa. La Superintendencia de Banca, Seguros y AFP adecúa su normativa de inversiones de los fondos de pensiones a la presente ley en el plazo de ciento ochenta días calendario, previa publicación del proyecto para comentarios."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Segunda",
+    "texto": "Otras administradoras. Lo dispuesto en la presente ley se aplica a toda entidad autorizada para administrar fondos de pensiones conforme a la Ley 32123 y sus normas reglamentarias."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Tercera",
+    "texto": "Financiamiento. La aplicación de la presente ley no irroga gasto al Tesoro Público. La Superintendencia de Banca, Seguros y AFP la implementa con cargo a su presupuesto institucional."
+   }
+  ],
+  "costo_beneficio": "No genera gasto público ni garantías estatales: es una norma habilitante con salvaguardas prudenciales. El costo es regulatorio y lo absorbe la SBS. El riesgo para los afiliados (iliquidez, valorización incierta, comisiones altas) se acota con sublímites diferenciados, exclusión de los fondos conservadores y de afiliados próximos a jubilarse, coinversión obligatoria del gestor, valorización auditada y transparencia. El beneficio potencial es doble: diversificación y mayor rentabilidad esperada a largo plazo para fondos de horizonte largo, y una fuente de capital para empresas innovadoras que hoy dependen de fondos públicos pequeños o del extranjero. Al no modificar la Ley 26702, la parte de seguros se limita a un encargo de evaluación.",
+  "efecto_vigencia": "Complementa el artículo 25-B del TUO de la Ley del Sistema Privado de Pensiones (D.S. 054-97-EF), la Ley 32123 y el Título V del Decreto de Urgencia 013-2020. Concordante con el artículo 25-D del TUO del SPP, modificado por la Ley 32428: las inversiones en fondos extranjeros computan dentro del límite de inversión en el exterior. Se opta por una ley complementaria y no por un artículo incorporado al TUO porque los números 25-C y 25-D ya están ocupados. No modifica la Ley 26702 (ley orgánica de la SBS), por lo que no requiere votación de ley orgánica; si el Congreso optara por fijar en ella límites para las aseguradoras, sí la requeriría (art. 106 de la Constitución). Respeta la autonomía de la SBS (art. 87). No deroga normas.",
+  "normas_relacionadas": [
+   {
+    "norma": "TUO de la Ley del Sistema Privado de Administración de Fondos de Pensiones (D.S. 054-97-EF), arts. 25-B y 25-D (texto concordado publicado en gob.pe; verificar modificatorias posteriores)",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/248748/224153_file20181218-16260-qbct5v.pdf"
+   },
+   {
+    "norma": "Ley 32123, Ley de modernización del sistema previsional peruano (texto consolidado del Congreso)",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/2021_2026/ADLP/Texto_Consolidado/32123-TXM.pdf"
+   },
+   {
+    "norma": "Resolución SBS 00907-2025 (acciones por oferta privada elegibles para los fondos de pensiones)",
+    "url": "https://busquedas.elperuano.pe/dispositivo/NL/2378651-1"
+   },
+   {
+    "norma": "Ley 26702, Ley General del Sistema Financiero y del Sistema de Seguros y Orgánica de la SBS",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/26702.pdf"
+   },
+   {
+    "norma": "Ley 32428, que modifica el art. 25-D del TUO del SPP (límite de inversión en el exterior hasta 80 %)",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/2021_2026/ADLP/Texto_Consolidado/32428-TXM.pdf"
+   },
+   {
+    "norma": "Ley 32445, que autoriza el retiro extraordinario de hasta 4 UIT de los fondos del SPP",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/2021_2026/ADLP/Texto_Consolidado/32445-TXM.pdf"
+   }
+  ],
+  "antecedentes": "Por verificar en SPLEY.",
+  "referencias_internacionales": [
+   {
+    "pais": "Chile",
+    "norma": "Ley 20.956 (2016), que incorporó los activos alternativos al régimen de inversión de los fondos de pensiones (D.L. 3.500)",
+    "url": "https://www.bcn.cl/leychile/navegar?idLey=20956"
+   }
+  ],
+  "comision_sugerida": "Economía, Banca, Finanzas e Inteligencia Financiera",
+  "comision_secundaria": "Trabajo y Seguridad Social",
+  "plan2050": [
+   "pensiones-de-jubilacion",
+   "innovacion",
+   "banca"
+  ],
+  "ods": [
+   8,
+   9
+  ],
+  "prioridad": "media",
+  "costo_fiscal": "nulo",
+  "plazo": "mediano",
+  "indicador_exito": "Al 2031, normativa SBS adecuada, al menos tres fondos de capital de riesgo o deuda privada para la innovación con participación de fondos de pensiones y reporte trimestral público de montos invertidos.",
+  "tags": [
+   "pensiones",
+   "capital de riesgo",
+   "SBS",
+   "innovación",
+   "mercado de capitales"
+  ],
+  "fuentes": [
+   {
+    "titulo": "El Peruano — Resolución SBS 00907-2025",
+    "url": "https://busquedas.elperuano.pe/dispositivo/NL/2378651-1"
+   },
+   {
+    "titulo": "Andina — SBS propone ampliar alternativas de inversión a AFP",
+    "url": "https://andina.pe/ingles/noticia-sbs-propone-ampliar-alternativas-inversion-a-afp-existiran-riesgos-para-afiliados-1008573.aspx"
+   },
+   {
+    "titulo": "Funds Society — La evolución de la inversión en activos alternativos de los fondos de pensiones chilenos (fuente secundaria)",
+    "url": "https://www.fundssociety.com/es/portadas/latam/page/1749/?page=654"
+   },
+   {
+    "titulo": "Infobae — SBS: así funcionarán las EAF, nuevas gestoras de fondos de pensiones (Ley 32123)",
+    "url": "https://www.infobae.com/peru/2025/11/27/sbs-adios-al-imperio-afp-asi-funcionaran-las-eaf-nuevas-gestoras-privadas-de-fondos-de-pension-con-bancos-cajas-y-financieras-en-peru/"
+   },
+   {
+    "titulo": "Congreso — Ley 32428 (texto consolidado)",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/2021_2026/ADLP/Texto_Consolidado/32428-TXM.pdf"
+   }
+  ],
+  "implicados": {
+   "normas_modificadas": [
+    {
+     "norma": "TUO de la Ley del SPP (D.S. 054-97-EF)",
+     "articulo": "art. 25-B (inversiones elegibles y sublímites)",
+     "accion": "complementa",
+     "url": "https://cdn.www.gob.pe/uploads/document/file/248748/224153_file20181218-16260-qbct5v.pdf"
+    },
+    {
+     "norma": "Decreto de Urgencia 013-2020",
+     "articulo": "Título V (coinversión con el FCEI)",
+     "accion": "complementa",
+     "url": "https://www.mef.gob.pe/es/notas-de-prensa-y-comunicados/6266-gobierno-promueve-el-financiamiento-para-las-mipymes-emprendimientos-y-startups"
+    },
+    {
+     "norma": "Ley 32428 / TUO del SPP art. 25-D",
+     "articulo": "límite de inversión en el exterior (concordancia)",
+     "accion": "complementa",
+     "url": "https://www.leyes.congreso.gob.pe/Documentos/2021_2026/ADLP/Texto_Consolidado/32428-TXM.pdf"
+    }
+   ],
+   "entidades": [
+    {
+     "entidad": "Superintendencia de Banca, Seguros y AFP",
+     "sigla": "SBS",
+     "sector": "Autónomo",
+     "rol": "reglamentadora",
+     "responsabilidad": "Sublímites, adecuación normativa, evaluación para aseguradoras, transparencia y evaluación quinquenal (arts. 5, 7-9, DCF Primera)."
+    },
+    {
+     "entidad": "Ministerio de Economía y Finanzas",
+     "sigla": "MEF",
+     "sector": "Economía y Finanzas",
+     "rol": "consultiva",
+     "responsabilidad": "Opinión técnica no vinculante sobre los sublímites, a solicitud de la SBS (art. 5.1)."
+    },
+    {
+     "entidad": "Superintendencia del Mercado de Valores",
+     "sigla": "SMV",
+     "sector": "MEF",
+     "rol": "supervisora",
+     "responsabilidad": "Autoriza y supervisa a las sociedades administradoras de fondos nacionales (art. 4.a)."
+    },
+    {
+     "entidad": "Corporación Financiera de Desarrollo",
+     "sigla": "COFIDE",
+     "sector": "FONAFE",
+     "rol": "ejecutora",
+     "responsabilidad": "Administra el FCEI con el que puede haber coinversión sin garantías (art. 6)."
+    },
+    {
+     "entidad": "Administradoras de fondos de pensiones y demás entidades autorizadas por la Ley 32123",
+     "sigla": "AFP/EAF",
+     "sector": "Privado",
+     "rol": "regulada",
+     "responsabilidad": "Invierten voluntariamente bajo deber fiduciario e informan a afiliados (arts. 3, 8)."
+    },
+    {
+     "entidad": "Banco Central de Reserva del Perú",
+     "sigla": "BCRP",
+     "sector": "Autónomo",
+     "rol": "consultiva",
+     "responsabilidad": "Límite operativo de inversión en el exterior (art. 3.1) y opinión técnica no vinculante (art. 5.1)."
+    }
+   ],
+   "sujetos_obligados": "Administradoras de fondos de pensiones que decidan invertir en estos instrumentos y los fondos gestores que reciban sus recursos.",
+   "beneficiarios": "Afiliados de fondos de horizonte largo (diversificación) y empresas innovadoras que acceden a capital de largo plazo."
+  },
+  "impacto": {
+   "tipo": "neutro",
+   "costo_estado": {
+    "rango": "S/ 0",
+    "horizonte": "anual",
+    "supuestos": "Costo regulatorio absorbido por la SBS; no hay aportes, garantías ni beneficios fiscales.",
+    "financiamiento": "Presupuesto institucional de la SBS."
+   },
+   "beneficio_estado": "Profundización del mercado de capitales y complemento privado a los fondos públicos de capital emprendedor.",
+   "beneficio_sociedad": "Mayor financiamiento de empresas innovadoras y diversificación de los fondos de largo plazo; no cuantificable con información pública.",
+   "inversion_privada": "Fracción acotada de las carteras previsionales canalizada a capital de riesgo; monto dependiente de los sublímites y de la decisión de las administradoras.",
+   "costo_privado": "Mayor exigencia de diligencia y monitoreo para administradoras; costos de cumplimiento para los gestores de fondos.",
+   "riesgos": "Iliquidez y valorización incierta, comisiones altas, conflictos de interés y presión política para invertir (mitigados con voluntariedad, sublímites, exclusión de fondos conservadores y reglas del art. 4); nuevos retiros extraordinarios que fuercen ventas.",
+   "confianza": "media"
+  },
+  "revision_atendida": [
+   {
+    "especialidad": "constitucional",
+    "severidad": "media",
+    "hallazgo": "Opinión previa del MEF roza la autonomía de la SBS (art. 87)",
+    "accion": "corregido",
+    "nota": "Art. 5.1: la SBS fija sublímites en ejercicio de su autonomía y puede pedir opinión no vinculante del BCRP y del MEF. Prima el criterio constitucional sobre la observación jurídica que citaba el 25-B."
+   },
+   {
+    "especialidad": "constitucional",
+    "severidad": "baja",
+    "hallazgo": "Incorporar como art. 25-C del TUO del SPP",
+    "accion": "no_aplicado",
+    "nota": "El art. 25-C ya existe (política de diversificación, Ley 27988 y D.L. 1008) y el 25-D también; incorporar un número sin verificar el texto vigente consolidado arriesga colisión. Se mantiene ley complementaria con remisión expresa a los arts. 25-B y 25-D."
+   },
+   {
+    "especialidad": "jurista",
+    "severidad": "media",
+    "hallazgo": "Fondos excluidos indeterminados",
+    "accion": "corregido",
+    "nota": "Art. 5.2 excluye Fondos Tipo 0 y Tipo 1 (o los que hagan sus veces por la Ley 32123) y carteras de afiliados a menos de diez años de jubilación."
+   },
+   {
+    "especialidad": "jurista",
+    "severidad": "baja",
+    "hallazgo": "Fondos extranjeros y límite del BCRP (art. 25-D)",
+    "accion": "corregido",
+    "nota": "Art. 3.1."
+   },
+   {
+    "especialidad": "jurista",
+    "severidad": "baja",
+    "hallazgo": "Precisar que el encargo no amplía potestades de la SBS",
+    "accion": "corregido",
+    "nota": "Art. 7."
+   },
+   {
+    "especialidad": "normativo",
+    "severidad": "media",
+    "hallazgo": "URL del TUO del SPP dañada",
+    "accion": "corregido",
+    "nota": "Se reemplaza por el texto concordado publicado en gob.pe (D.S. 054-97-EF), con advertencia de verificar modificatorias."
+   },
+   {
+    "especialidad": "normativo",
+    "severidad": "baja",
+    "hallazgo": "Concordancia con la Ley 32428",
+    "accion": "corregido",
+    "nota": "Se agrega en problema, art. 3.1, efecto_vigencia y normas_relacionadas."
+   },
+   {
+    "especialidad": "normativo",
+    "severidad": "baja",
+    "hallazgo": "Octavo retiro sin ley; porcentaje chileno sin fuente directa",
+    "accion": "corregido",
+    "nota": "Se cita la Ley 32445 (verificada en el texto consolidado del Congreso) y se retira el porcentaje de 20 %."
+   },
+   {
+    "especialidad": "seguridad",
+    "severidad": "baja",
+    "hallazgo": "Fondos extranjeros y control de empresas sensibles",
+    "accion": "corregido",
+    "nota": "Art. 4.h."
+   }
+  ]
+ },
+ {
+  "id": "ECO-20",
+  "eje": "econ",
+  "titulo": "Ley de diplomacia económica digital que establece lineamientos y mecanismos de coordinación, transparencia e información al Congreso para la negociación de acuerdos de economía digital y fortalece la participación nacional en organismos de normalización tecnológica",
+  "titulo_corto": "Diplomacia económica digital y estándares",
+  "sumilla": "Respetando la competencia del Presidente de la República para dirigir la política exterior y celebrar tratados, fija lineamientos orientadores para negociar acuerdos y capítulos de economía digital (flujos de datos con las garantías de la legislación de protección de datos, localización solo por clasificación, reconocimiento mutuo de firma e identidad digital, espacio regulatorio, acceso a código fuente para auditoría de sistemas críticos y excepciones de seguridad esencial); ordena coordinación intersectorial, una consulta pública que no condiciona el inicio de las negociaciones, un informe anual al Congreso y un informe de impacto normativo con cada acuerdo; y encarga al INACAL evaluar y gestionar la participación peruana en el ISO/IEC JTC 1 y sus subcomités prioritarios.",
+  "problema": "El Acuerdo de Asociación de Economía Digital (DEPA), suscrito en 2020 por Chile, Nueva Zelanda y Singapur, al que se sumó Corea en 2024, regula flujos de datos, identidad digital, facturación electrónica, IA y pagos. Según El Peruano, el Perú manifestó formalmente su interés de adherirse en 2023, desarrolló reuniones técnicas de evaluación desde marzo de 2025 y en enero de 2026 el Comité Conjunto del DEPA adoptó una decisión favorable, tras lo cual se iniciaron los procedimientos internos. No existe, sin embargo, un marco legal que oriente la posición negociadora digital del país, articule a las entidades competentes ni que asegure que el Congreso reciba información sobre las leyes internas que estos acuerdos obligan a adecuar. La celebración de tratados corresponde al Presidente de la República (art. 118, inciso 11, de la Constitución) y su aprobación se rige por los artículos 56 y 57 y la Ley 26647. En paralelo, la participación peruana en comités técnicos internacionales de normas de IA, ciberseguridad o nube es limitada (en la IEC el Perú participaría como país afiliado y no como miembro pleno, por verificar), por lo que el país adopta estándares definidos sin su participación.",
+  "objeto": "Ordenar la diplomacia económica digital con lineamientos, coordinación, transparencia e información al Congreso, y fortalecer la presencia nacional en la normalización tecnológica internacional, sin interferir en la conducción de la política exterior.",
+  "articulado": [
+   {
+    "n": "Artículo 1",
+    "titulo": "Objeto",
+    "texto": "La presente ley tiene por objeto establecer lineamientos orientadores y mecanismos de coordinación, consulta, transparencia e información al Congreso de la República para la negociación de acuerdos y capítulos de economía digital, y fortalecer la participación nacional en los organismos internacionales de normalización tecnológica."
+   },
+   {
+    "n": "Artículo 2",
+    "titulo": "Competencias constitucionales",
+    "texto": "2.1 La dirección de la política exterior y la celebración de tratados corresponden al Presidente de la República conforme al inciso 11 del artículo 118 de la Constitución Política del Perú. Nada de lo dispuesto en la presente ley limita dicha competencia ni condiciona el contenido de las negociaciones.\n2.2 La aprobación y el perfeccionamiento interno de los acuerdos se rigen por los artículos 56 y 57 de la Constitución y por la Ley 26647."
+   },
+   {
+    "n": "Artículo 3",
+    "titulo": "Lineamientos orientadores",
+    "texto": "En la negociación de acuerdos y capítulos de economía digital, el Poder Ejecutivo considera, entre otros, los lineamientos siguientes: a) promover el flujo transfronterizo de datos personales con las garantías y mecanismos de transferencia que establezca la legislación de protección de datos personales vigente, y salvaguardas frente al acceso gubernamental extranjero no sujeto a garantías equivalentes, conforme al artículo 15 de la Ley 29733; b) evitar exigencias generales de localización de datos, sin perjuicio de las que, por ley, se establezcan para los datos públicos según su clasificación de seguridad; c) procurar el reconocimiento mutuo de firmas, certificados e identidad digitales conforme a la Ley 27269 y al Decreto Legislativo 1412; d) promover el comercio sin papel, la facturación electrónica interoperable y los pagos digitales; e) proteger al consumidor en línea y combatir las comunicaciones comerciales no solicitadas; f) cooperar en ciberseguridad y en inteligencia artificial confiable, de forma coherente con la Ley 31814 y su reglamento y con la participación del Perú en normas técnicas internacionales; g) preservar el espacio regulatorio del Estado en materia tributaria, de protección de datos, de competencia, de seguridad nacional y de políticas públicas legítimas; h) en las cadenas de minerales críticos, promover la cooperación tecnológica y el valor agregado nacional; i) preservar la facultad de las autoridades competentes de exigir acceso al código fuente o a algoritmos para fines de certificación, evaluación de seguridad, auditoría regulatoria o investigación, en particular respecto de sistemas que operen en activos críticos nacionales, sistemas electorales y redes de telecomunicaciones; y j) incluir excepciones de seguridad esencial autocalificables y de ciberseguridad, sin someter su invocación a mecanismos de solución de controversias que la desnaturalicen."
+   },
+   {
+    "n": "Artículo 4",
+    "titulo": "Coordinación intersectorial",
+    "texto": "4.1 El Ministerio de Comercio Exterior y Turismo, en el ámbito de su competencia para negociar acuerdos comerciales conforme a la Ley 27790, y el Ministerio de Relaciones Exteriores coordinan la preparación de las negociaciones de economía digital con la Presidencia del Consejo de Ministros a través de la Secretaría de Gobierno y Transformación Digital y del Centro Nacional de Seguridad Digital, el Ministerio de Transportes y Comunicaciones, el INDECOPI, también en su condición de Autoridad Administrativa Competente de la Infraestructura Oficial de Firma Electrónica, el Registro Nacional de Identificación y Estado Civil en materia de identidad digital, la Autoridad Nacional de Protección de Datos Personales, el Ministerio de Economía y Finanzas y, en materia de pagos, el Banco Central de Reserva del Perú en el marco de su autonomía.\n4.2 Encárgase al Poder Ejecutivo establecer el mecanismo de coordinación conforme a los artículos 35 y 36 de la Ley 29158, Ley Orgánica del Poder Ejecutivo, o asignar estas funciones a una comisión multisectorial existente."
+   },
+   {
+    "n": "Artículo 5",
+    "titulo": "Consulta y transparencia",
+    "texto": "5.1 El Ministerio de Comercio Exterior y Turismo procura publicar, al inicio o durante la negociación o adhesión, un resumen de los objetivos nacionales que no comprometa la posición negociadora, y abrir un periodo de comentarios no menor de treinta días calendario para gremios empresariales, academia, sociedad civil y gobiernos regionales. Cuando la naturaleza o el calendario de la negociación lo impidan, o por razones de política exterior debidamente motivadas, la consulta puede realizarse con posterioridad o de manera reservada con los actores pertinentes, lo que se informa a las comisiones del artículo 6. La consulta no condiciona el inicio ni la conducción de las negociaciones, y su omisión no afecta la validez del tratado.\n5.2 La reserva de los textos de negociación se rige por las excepciones del Texto Único Ordenado de la Ley 27806, Ley de Transparencia y Acceso a la Información Pública, aprobado por Decreto Supremo 021-2019-JUS."
+   },
+   {
+    "n": "Artículo 6",
+    "titulo": "Información al Congreso",
+    "texto": "6.1 El Ministerio de Comercio Exterior y Turismo y el Ministerio de Relaciones Exteriores informan anualmente a las comisiones competentes en comercio exterior y en relaciones exteriores de ambas cámaras sobre el estado de las negociaciones y adhesiones de economía digital, incluido el proceso relativo al Acuerdo de Asociación de Economía Digital (DEPA).\n6.2 Todo acuerdo de economía digital que se remita al Congreso para su aprobación conforme al artículo 56 de la Constitución, o del que se dé cuenta conforme al artículo 57, va acompañado de un informe de impacto normativo que identifique las leyes y reglamentos que deben adecuarse y el cronograma previsto. La falta del informe no afecta la validez ni la vigencia del tratado; las comisiones pueden requerirlo conforme a sus reglamentos."
+   },
+   {
+    "n": "Artículo 7",
+    "titulo": "Participación en normalización tecnológica",
+    "texto": "7.1 El Instituto Nacional de Calidad, como organismo nacional de normalización conforme a la Ley 30224 y miembro del Perú ante la Organización Internacional de Normalización (ISO), evalúa y, de ser viable, gestiona la condición de miembro participante en el comité técnico conjunto ISO/IEC JTC 1 y, de forma prioritaria, en sus subcomités de inteligencia artificial (SC 42), seguridad de la información, ciberseguridad y privacidad (SC 27), en coordinación con el Centro Nacional de Seguridad Digital, computación en la nube y plataformas distribuidas (SC 38), internet de las cosas (SC 41) y tarjetas y dispositivos de identificación (SC 17). Asimismo, evalúa la conveniencia de que el Perú adopte en la Comisión Electrotécnica Internacional (IEC) una categoría de miembro que permita participar en sus comités técnicos.\n7.2 Para ello promueve comités técnicos de normalización espejo con participación de universidades, empresas, colegios profesionales y entidades públicas, y prioriza la adopción como Normas Técnicas Peruanas de las normas internacionales pertinentes.\n7.3 El Ministerio de Transportes y Comunicaciones coordina la participación nacional en los grupos de estudio de la Unión Internacional de Telecomunicaciones."
+   },
+   {
+    "n": "Artículo 8",
+    "titulo": "Capacidades de negociación",
+    "texto": "El Ministerio de Relaciones Exteriores, a través de la Academia Diplomática del Perú, y el Ministerio de Comercio Exterior y Turismo incorporan contenidos de economía digital, gobernanza de datos y normalización tecnológica en la formación de su personal diplomático y negociador."
+   }
+  ],
+  "disposiciones": [
+   {
+    "tipo": "Complementaria Final",
+    "n": "Primera",
+    "texto": "Reglamentación. El Poder Ejecutivo, mediante decreto supremo refrendado por el Ministro de Comercio Exterior y Turismo y el Ministro de Relaciones Exteriores, reglamenta la presente ley en el plazo de ciento veinte días hábiles."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Segunda",
+    "texto": "Primer informe. El primer informe anual del artículo 6.1 se presenta dentro de los seis meses siguientes a la entrada en vigor de la presente ley."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Tercera",
+    "texto": "Financiamiento. La implementación de la presente ley se financia con cargo al presupuesto institucional de las entidades involucradas, sin demandar recursos adicionales al Tesoro Público. Las entidades pueden suscribir convenios con la cooperación internacional, la academia y el sector privado para financiar la participación técnica en organismos de normalización, con reglas públicas de conflicto de interés."
+   },
+   {
+    "tipo": "Complementaria Transitoria",
+    "n": "Única",
+    "texto": "Procesos en curso. Los procesos de negociación o adhesión en curso a la entrada en vigor de la presente ley, incluido el relativo al Acuerdo de Asociación de Economía Digital (DEPA), se adecúan a lo dispuesto en ella en la etapa en que se encuentren, sin retrotraer actuaciones."
+   }
+  ],
+  "costo_beneficio": "No genera gasto adicional relevante: ordena coordinación, consulta e información con las estructuras existentes de MINCETUR, Relaciones Exteriores, PCM e INACAL. La participación en comités internacionales de normalización tiene costos modestos (membresías ya existentes, participación remota, viajes puntuales) que pueden cubrirse con convenios de cooperación. Beneficios: posición negociadora coherente en economía digital, menor riesgo de compromisos que choquen con la legislación interna, mejor información para el Congreso al aprobar tratados y presencia peruana en la definición de estándares que luego se adoptan como Normas Técnicas Peruanas. La ley respeta la competencia exclusiva del Ejecutivo en la conducción de la política exterior.",
+  "efecto_vigencia": "Complementa la Ley 26647 (perfeccionamiento de tratados), la Ley 27790 (MINCETUR), la Ley 29357 (Relaciones Exteriores), la Ley 30224 (INACAL), la Ley 29733, la Ley 27269, el Decreto Legislativo 1412, la Ley 31814 y su reglamento (D.S. 115-2025-PCM) y el TUO de la Ley 27806 (D.S. 021-2019-JUS). No modifica los artículos 56, 57 ni 118 de la Constitución ni la Ley 29158; la consulta pública no condiciona la competencia del art. 118.11. No deroga normas.",
+  "normas_relacionadas": [
+   {
+    "norma": "Ley 26647, que establece normas que regulan actos relativos al perfeccionamiento nacional de los tratados",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/26647.pdf"
+   },
+   {
+    "norma": "Ley 27790, Ley de Organización y Funciones del Ministerio de Comercio Exterior y Turismo",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/27790.pdf"
+   },
+   {
+    "norma": "Ley 30224, que crea el Sistema Nacional para la Calidad y el INACAL",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/30224.pdf"
+   },
+   {
+    "norma": "Ley 27269, Ley de Firmas y Certificados Digitales",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/27269.pdf"
+   },
+   {
+    "norma": "Decreto Legislativo 1412, Ley de Gobierno Digital",
+    "url": "https://busquedas.elperuano.pe/dispositivo/NL/1691026-1"
+   },
+   {
+    "norma": "Ley 31814, Ley que promueve el uso de la inteligencia artificial",
+    "url": "https://leyes.congreso.gob.pe/Documentos/2021_2026/ADLP/Texto_Consolidado/31814-TXM.pdf"
+   }
+  ],
+  "antecedentes": "Por verificar en SPLEY. Proceso de adhesión al DEPA en curso a cargo del Poder Ejecutivo (decisión favorable del Comité Conjunto en enero de 2026, según El Peruano).",
+  "referencias_internacionales": [
+   {
+    "pais": "Chile, Nueva Zelanda, Singapur y Corea",
+    "norma": "Digital Economy Partnership Agreement (DEPA)",
+    "url": "https://www.mfat.govt.nz/en/trade/free-trade-agreements/free-trade-agreements-in-force/digital-economy-partnership-agreement-depa"
+   },
+   {
+    "pais": "Singapur",
+    "norma": "Digital Economy Agreements (Ministry of Trade and Industry)",
+    "url": "https://www.mti.gov.sg/Trade/Digital-Economy-Agreements"
+   }
+  ],
+  "comision_sugerida": "Producción, Comercio Exterior y Turismo",
+  "comision_secundaria": "Constitución, Reglamento y Relaciones Exteriores",
+  "plan2050": [
+   "comercio-exterior-e-insercion-en-el-merc",
+   "peru-en-la-era-digital",
+   "transformacion-digital"
+  ],
+  "ods": [
+   9,
+   17
+  ],
+  "prioridad": "media",
+  "costo_fiscal": "nulo",
+  "plazo": "corto",
+  "indicador_exito": "Al 2031, informes anuales al Congreso presentados, informe de impacto normativo acompañando el 100 % de los acuerdos digitales remitidos o comunicados, y participación peruana como miembro participante en al menos tres subcomités del ISO/IEC JTC 1.",
+  "tags": [
+   "economía digital",
+   "DEPA",
+   "tratados",
+   "estándares",
+   "INACAL"
+  ],
+  "fuentes": [
+   {
+    "titulo": "El Peruano — Perú se incorpora al Acuerdo de Economía Digital (DEPA)",
+    "url": "https://elperuano.pe/noticia/287117-peru-se-incorpora-al-acuerdo-de-economia-digital-del-pacifico-depa"
+   },
+   {
+    "titulo": "Andina — Peru submits request for adhesion to Digital Economy Partnership Agreement",
+    "url": "https://andina.pe/ingles/noticia.aspx?id=941575"
+   },
+   {
+    "titulo": "New Zealand MFAT — Digital Economy Partnership Agreement (DEPA)",
+    "url": "https://www.mfat.govt.nz/en/trade/free-trade-agreements/free-trade-agreements-in-force/digital-economy-partnership-agreement-depa"
+   }
+  ],
+  "implicados": {
+   "normas_modificadas": [
+    {
+     "norma": "Ley 26647",
+     "articulo": "informe de impacto normativo con los acuerdos digitales",
+     "accion": "complementa",
+     "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/26647.pdf"
+    },
+    {
+     "norma": "Ley 30224",
+     "articulo": "participación en normalización internacional",
+     "accion": "complementa",
+     "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/30224.pdf"
+    }
+   ],
+   "entidades": [
+    {
+     "entidad": "Ministerio de Comercio Exterior y Turismo",
+     "sigla": "MINCETUR",
+     "sector": "Comercio Exterior",
+     "rol": "rectora",
+     "responsabilidad": "Coordina negociaciones, consulta pública e informe anual (arts. 4-6)."
+    },
+    {
+     "entidad": "Ministerio de Relaciones Exteriores",
+     "sigla": "RREE",
+     "sector": "Relaciones Exteriores",
+     "rol": "rectora",
+     "responsabilidad": "Coordinación, informe anual y formación diplomática (arts. 4, 6, 8)."
+    },
+    {
+     "entidad": "Secretaría de Gobierno y Transformación Digital",
+     "sigla": "SGTD",
+     "sector": "PCM",
+     "rol": "consultiva",
+     "responsabilidad": "Participa en la preparación de negociaciones (art. 4.1)."
+    },
+    {
+     "entidad": "Autoridad Nacional de Protección de Datos Personales",
+     "sigla": "ANPD",
+     "sector": "MINJUSDH",
+     "rol": "consultiva",
+     "responsabilidad": "Opina sobre flujos transfronterizos de datos (arts. 3.a, 4.1)."
+    },
+    {
+     "entidad": "Instituto Nacional de Calidad",
+     "sigla": "INACAL",
+     "sector": "Producción",
+     "rol": "ejecutora",
+     "responsabilidad": "Evalúa y gestiona la condición de miembro participante en ISO/IEC JTC 1 y subcomités prioritarios; evalúa la categoría en la IEC (por verificar) y promueve comités espejo (art. 7)."
+    },
+    {
+     "entidad": "Ministerio de Transportes y Comunicaciones",
+     "sigla": "MTC",
+     "sector": "Transportes y Comunicaciones",
+     "rol": "ejecutora",
+     "responsabilidad": "Coordina la participación ante la UIT (art. 7.3)."
+    },
+    {
+     "entidad": "Centro Nacional de Seguridad Digital",
+     "sigla": "CNSD",
+     "sector": "PCM",
+     "rol": "consultiva",
+     "responsabilidad": "Participa en la preparación de negociaciones y coordina la posición en ISO/IEC JTC 1/SC 27 (arts. 4.1, 7.1)."
+    },
+    {
+     "entidad": "Instituto Nacional de Defensa de la Competencia y de la Protección de la Propiedad Intelectual",
+     "sigla": "INDECOPI",
+     "sector": "PCM",
+     "rol": "consultiva",
+     "responsabilidad": "Autoridad Administrativa Competente de la Infraestructura Oficial de Firma Electrónica: reconocimiento mutuo de certificados (arts. 3.c, 4.1)."
+    },
+    {
+     "entidad": "Registro Nacional de Identificación y Estado Civil",
+     "sigla": "RENIEC",
+     "sector": "Autónomo",
+     "rol": "consultiva",
+     "responsabilidad": "Identidad digital en los compromisos de reconocimiento mutuo (art. 4.1)."
+    }
+   ],
+   "sujetos_obligados": "Entidades del Poder Ejecutivo involucradas en negociaciones comerciales y normalización.",
+   "beneficiarios": "Exportadores de servicios digitales, empresas tecnológicas y ciudadanía, por reglas negociadas con mejor información y participación."
+  },
+  "impacto": {
+   "tipo": "neutro",
+   "costo_estado": {
+    "rango": "S/ 0,5–1,5 millones/año",
+    "horizonte": "anual",
+    "supuestos": "Estimación del redactor: participación técnica en tres a cinco subcomités internacionales (mayormente remota), secretaría de comités espejo y consultas públicas sobre estructuras existentes.",
+    "financiamiento": "Presupuesto institucional de MINCETUR, RREE, INACAL y MTC, sin recursos adicionales al Tesoro; convenios de cooperación."
+   },
+   "beneficio_estado": "Coherencia normativa y menor riesgo de controversias por incumplimiento de compromisos internacionales.",
+   "beneficio_sociedad": "Mejor acceso a mercados digitales y estándares con participación nacional; cualitativo.",
+   "inversion_privada": "No aplica directamente.",
+   "costo_privado": "Participación voluntaria de expertos privados en comités espejo.",
+   "riesgos": "Que los lineamientos se lean como restricción a la negociación (mitigado en art. 2.1); participación formal sin capacidad técnica real en los comités.",
+   "confianza": "media"
+  },
+  "revision_atendida": [
+   {
+    "especialidad": "constitucional",
+    "severidad": "media",
+    "hallazgo": "Consulta obligatoria previa condiciona el art. 118.11",
+    "accion": "corregido",
+    "nota": "Art. 5.1: publicación «procura», al inicio o durante la negociación, con excepción motivada (posterior o reservada); no condiciona el inicio y su omisión no afecta la validez."
+   },
+   {
+    "especialidad": "constitucional",
+    "severidad": "baja",
+    "hallazgo": "Omisión del informe de impacto no vicia el tratado",
+    "accion": "corregido",
+    "nota": "Art. 6.2."
+   },
+   {
+    "especialidad": "jurista",
+    "severidad": "media",
+    "hallazgo": "Consulta previa obligatoria y procesos en curso (DEPA)",
+    "accion": "corregido",
+    "nota": "Art. 5.1 y nueva DCT Única para procesos en curso, sin retrotraer actuaciones."
+   },
+   {
+    "especialidad": "jurista",
+    "severidad": "baja",
+    "hallazgo": "Precisar eficacia del informe para tratados del art. 57",
+    "accion": "parcial",
+    "nota": "Art. 6.2 aclara que su falta no afecta validez ni vigencia; no se incorpora un art. 2-A a la Ley 26647 para no alterar su estructura sin verificar su texto vigente."
+   },
+   {
+    "especialidad": "jurista",
+    "severidad": "baja",
+    "hallazgo": "Financiamiento en articulado",
+    "accion": "corregido",
+    "nota": "Pasa a DCF Tercera."
+   },
+   {
+    "especialidad": "normativo",
+    "severidad": "baja",
+    "hallazgo": "TUO Ley 27806 sin decreto",
+    "accion": "corregido",
+    "nota": "Art. 5.2 cita el D.S. 021-2019-JUS."
+   },
+   {
+    "especialidad": "normativo",
+    "severidad": "baja",
+    "hallazgo": "Citar también el art. 35 de la Ley 29158",
+    "accion": "corregido",
+    "nota": "Art. 4.2."
+   },
+   {
+    "especialidad": "seguridad",
+    "severidad": "media",
+    "hallazgo": "Falta preservar acceso a código fuente y seguridad esencial",
+    "accion": "corregido",
+    "nota": "Art. 3, literales i) y j)."
+   },
+   {
+    "especialidad": "seguridad",
+    "severidad": "media",
+    "hallazgo": "Acceso gubernamental extranjero a datos",
+    "accion": "corregido",
+    "nota": "Art. 3.a añade salvaguardas conforme al art. 15 de la Ley 29733."
+   },
+   {
+    "especialidad": "seguridad",
+    "severidad": "baja",
+    "hallazgo": "Priorizar SC 27 y coordinar con el CNSD",
+    "accion": "corregido",
+    "nota": "Art. 7.1."
+   },
+   {
+    "especialidad": "tecnologico",
+    "severidad": "media",
+    "hallazgo": "JTC 1 sin nombrar, subcomités y condición del Perú en la IEC",
+    "accion": "corregido",
+    "nota": "Art. 7.1 nombra el JTC 1 y los SC 42, 27, 38, 41 y 17; la condición en la IEC se marca «por verificar» y se formula como evaluación."
+   },
+   {
+    "especialidad": "tecnologico",
+    "severidad": "media",
+    "hallazgo": "Coordinación sin CNSD, INDECOPI (IOFE) ni RENIEC",
+    "accion": "corregido",
+    "nota": "Art. 4.1."
+   },
+   {
+    "especialidad": "tecnologico",
+    "severidad": "media",
+    "hallazgo": "Lineamientos a) y b) no neutrales frente a reformas",
+    "accion": "corregido",
+    "nota": "Art. 3.a remite a la legislación de protección de datos vigente y art. 3.b a la clasificación de seguridad de datos públicos establecida por ley, sin depender de otras propuestas."
+   },
+   {
+    "especialidad": "tecnologico",
+    "severidad": "baja",
+    "hallazgo": "Omite D.L. 1412 y Ley 31814",
+    "accion": "corregido",
+    "nota": "Art. 3.c y 3.f, efecto_vigencia y normas_relacionadas."
+   }
+  ]
+ },
+ {
+  "id": "ECO-21",
+  "eje": "econ",
+  "titulo": "Ley que encarga al Poder Ejecutivo evaluar y, de ser el caso, diseñar un programa presupuestal orientado a resultados para la transformación digital y actualizar los lineamientos de inversión pública en tecnologías digitales",
+  "titulo_corto": "Presupuesto por resultados digital",
+  "sumilla": "Respetando la iniciativa presupuestal exclusiva del Poder Ejecutivo, encarga al MEF y a la PCM evaluar y, de ser viable, diseñar un programa presupuestal orientado a resultados (PPoR) en transformación digital conforme al artículo 16 del Decreto Legislativo 1440; encarga a la DGPMI actualizar lineamientos y tipologías de inversión en tecnologías digitales en el marco de Invierte.pe; ordena un marcador presupuestal del gasto digital y un informe anual al Congreso; y precisa que las metas indicativas digitales fijadas por ley son referencias para la programación multianual, sujetas a disponibilidad presupuestal.",
+  "problema": "Las metas de transformación digital del Estado (conectividad de escuelas y postas, servicios digitales, interoperabilidad, historia clínica electrónica, talento digital) dependen de asignaciones anuales dispersas entre pliegos, sin un vehículo presupuestal multianual que vincule recursos con resultados. El Decreto Legislativo 1440 permite, en su artículo 16, programas presupuestales orientados a resultados (PPoR) de carácter multisectorial e intergubernamental, y en julio de 2026 el MEF aprobó una nueva directiva para el diseño e implementación de los programas presupuestales, según El Peruano. La Política Nacional de Transformación Digital al 2030 (D.S. 085-2023-PCM) y el Sistema Nacional de Transformación Digital (Decreto de Urgencia 006-2020) fijan objetivos, pero no existe un PPoR que los costee y mida. En inversión pública, la Dirección General de Programación Multianual de Inversiones aprobó en 2025 lineamientos para identificar inversiones de optimización y reposición con énfasis en tecnologías digitales (R.D. 0003-2025-EF/63.01), reconociendo una brecha de instrumentos, pero los proyectos de software, nube e interoperabilidad siguen formulándose con herramientas pensadas para obras físicas. El Congreso no puede crear ni aumentar gastos ni imponer programas presupuestales (artículos 78 y 79 de la Constitución): sí puede encargar su evaluación y exigir información.",
+  "objeto": "Promover un vehículo presupuestal y de inversión multianual para la transformación digital, por iniciativa y decisión del Poder Ejecutivo, con información pública sobre el gasto digital.",
+  "articulado": [
+   {
+    "n": "Artículo 1",
+    "titulo": "Objeto",
+    "texto": "La presente ley tiene por objeto encargar al Poder Ejecutivo la evaluación y, de ser el caso, el diseño de un programa presupuestal orientado a resultados para la transformación digital, la actualización de los lineamientos de inversión pública en tecnologías digitales y la identificación pública del gasto en transformación digital."
+   },
+   {
+    "n": "Artículo 2",
+    "titulo": "Evaluación y diseño del programa presupuestal",
+    "texto": "2.1 Encárgase al Ministerio de Economía y Finanzas, a través de la Dirección General de Presupuesto Público, y a la Presidencia del Consejo de Ministros, a través de la Secretaría de Gobierno y Transformación Digital, evaluar en el plazo de dieciocho meses la viabilidad de un programa presupuestal orientado a resultados en materia de transformación digital, conforme al artículo 16 del Decreto Legislativo 1440, Decreto Legislativo del Sistema Nacional de Presupuesto Público, y a las directivas vigentes.\n2.2 Si la evaluación es favorable, el diseño comprende como mínimo: el resultado específico y la población objetivo; un modelo lógico sustentado en evidencia; los productos, actividades y su costeo; indicadores de desempeño con línea de base; y las entidades responsables de los tres niveles de gobierno.\n2.3 Si la evaluación no es favorable, se publica un informe con sus razones y las alternativas de articulación presupuestal propuestas."
+   },
+   {
+    "n": "Artículo 3",
+    "titulo": "Lineamientos de inversión en tecnologías digitales",
+    "texto": "Encárgase al Ministerio de Economía y Finanzas, a través de la Dirección General de Programación Multianual de Inversiones, en coordinación con la Secretaría de Gobierno y Transformación Digital, aprobar o actualizar en el plazo de doce meses, en el marco del Decreto Legislativo 1252, los lineamientos y tipologías de inversión para proyectos de tecnologías digitales, que consideren al menos: el costo total de propiedad durante el ciclo de vida, la reutilización de soluciones y componentes existentes en el Estado, la seguridad digital desde el diseño, la interoperabilidad, la adquisición de servicios en la nube, el costeo de la operación segura durante el ciclo de vida, incluidas actualizaciones, monitoreo y pruebas de seguridad periódicas, y la gestión de riesgos de proveedores. Los lineamientos se sujetan a las normas de gobierno digital, interoperabilidad, software público y nube emitidas por la Secretaría de Gobierno y Transformación Digital conforme al Decreto Legislativo 1412, y admiten la formulación por fases o incrementos funcionales verificables."
+   },
+   {
+    "n": "Artículo 4",
+    "titulo": "Identificación del gasto en transformación digital",
+    "texto": "4.1 El Ministerio de Economía y Finanzas implementa un marcador o clasificador presupuestal que permita identificar el gasto corriente y la inversión en transformación digital de las entidades de los tres niveles de gobierno.\n4.2 La información se publica en formato abierto en los sistemas de consulta de la ejecución presupuestal del Ministerio de Economía y Finanzas.\n4.3 La publicación excluye el detalle de los gastos e inversiones calificados como secretos o reservados conforme a las excepciones del Texto Único Ordenado de la Ley 27806, Ley de Transparencia y Acceso a la Información Pública, aprobado por Decreto Supremo 021-2019-JUS, los cuales solo se informan en forma agregada por pliego.\n4.4 El marcador identifica por separado el gasto en seguridad digital y ciberseguridad."
+   },
+   {
+    "n": "Artículo 5",
+    "titulo": "Metas indicativas",
+    "texto": "Las metas en materia de transformación digital que las leyes califiquen expresamente como indicativas constituyen referencias para la programación multianual presupuestaria y de inversiones de las entidades competentes, y su atención se sujeta a la disponibilidad presupuestal y a las reglas fiscales del Marco Macroeconómico Multianual."
+   },
+   {
+    "n": "Artículo 6",
+    "titulo": "Iniciativa presupuestal del Poder Ejecutivo",
+    "texto": "Nada de lo dispuesto en la presente ley implica asignación de recursos ni modifica la iniciativa del Poder Ejecutivo en materia presupuestal establecida en los artículos 78 a 80 de la Constitución Política del Perú. La eventual creación del programa presupuestal y su financiamiento se aprueban conforme al Decreto Legislativo 1440 y a la ley anual de presupuesto."
+   },
+   {
+    "n": "Artículo 7",
+    "titulo": "Información al Congreso",
+    "texto": "El Ministerio de Economía y Finanzas y la Presidencia del Consejo de Ministros informan anualmente a las comisiones competentes en economía y en ciencia, innovación y sociedad digital de ambas cámaras del Congreso de la República sobre el gasto en transformación digital identificado conforme al artículo 4, el avance de la evaluación o del programa presupuestal y la aplicación de los lineamientos del artículo 3."
+   }
+  ],
+  "disposiciones": [
+   {
+    "tipo": "Complementaria Final",
+    "n": "Primera",
+    "texto": "Marcador presupuestal. El marcador o clasificador del artículo 4 se aplica desde la formulación presupuestal del año fiscal siguiente a aquel en que se cumplan seis meses de la entrada en vigor de la presente ley."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Segunda",
+    "texto": "Articulación con la planificación. La Presidencia del Consejo de Ministros, a través de la Secretaría de Gobierno y Transformación Digital, considera los resultados de la evaluación del artículo 2 en la actualización de la Política Nacional de Transformación Digital, con la opinión técnica del Centro Nacional de Planeamiento Estratégico conforme a sus competencias."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Tercera",
+    "texto": "Financiamiento. La implementación de la presente ley se financia con cargo al presupuesto institucional del Ministerio de Economía y Finanzas y de la Presidencia del Consejo de Ministros, sin demandar recursos adicionales al Tesoro Público."
+   }
+  ],
+  "costo_beneficio": "No genera gasto: encarga evaluaciones, lineamientos técnicos, un marcador presupuestal y reportes que el MEF y la PCM realizan con sus equipos existentes. No crea el programa presupuestal ni asigna recursos; su eventual creación queda en manos del Ejecutivo conforme al Decreto Legislativo 1440, respetando el artículo 79 de la Constitución. Beneficios: visibilidad del gasto digital hoy disperso, mejor formulación de proyectos de software y nube con criterio de costo total y reutilización, y una ruta para financiar en forma multianual y por resultados las metas digitales que hoy dependen de decisiones anuales. El Congreso gana información para su control presupuestal. La regla del artículo 5 solo alcanza a las metas que las leyes califiquen expresamente como indicativas; no modifica tácitamente metas de otras leyes.",
+  "efecto_vigencia": "Complementa el Decreto Legislativo 1440 (art. 16, programas presupuestales), el Decreto Legislativo 1252 (Invierte.pe), el Decreto Legislativo 1412, el Decreto de Urgencia 006-2020, el D.S. 085-2023-PCM y el D.S. 029-2018-PCM (políticas nacionales). No modifica la iniciativa presupuestal del Ejecutivo (arts. 78-80 de la Constitución) ni rebaja tácitamente metas obligatorias de otras leyes. Concordante con el TUO de la Ley 27806 (D.S. 021-2019-JUS) en la reserva de gastos de defensa e inteligencia. No deroga normas.",
+  "normas_relacionadas": [
+   {
+    "norma": "Decreto Legislativo 1440, del Sistema Nacional de Presupuesto Público (art. 16)",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/DecretosLegislativos/01440.pdf"
+   },
+   {
+    "norma": "Decreto Legislativo 1252, que crea el Sistema Nacional de Programación Multianual y Gestión de Inversiones (Invierte.pe)",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/DecretosLegislativos/01252.pdf"
+   },
+   {
+    "norma": "Resolución Directoral 0003-2025-EF/63.01, lineamientos para inversiones de optimización y reposición con tecnologías digitales (por verificar: el enlace del MEF no muestra título)",
+    "url": "https://mef.gob.pe/es/normatividad-inv-publica/instrumento/resolucion-directoral/34131-resolucion-directoral-n-003-2025-ef-63-01-1/file"
+   },
+   {
+    "norma": "Decreto Supremo 085-2023-PCM, Política Nacional de Transformación Digital al 2030",
+    "url": "https://busquedas.elperuano.pe/dispositivo/NL/2200457-5"
+   },
+   {
+    "norma": "Decreto de Urgencia 006-2020, que crea el Sistema Nacional de Transformación Digital",
+    "url": "https://www.gob.pe/institucion/pcm/normas-legales/395320-006-2020"
+   }
+  ],
+  "antecedentes": "Por verificar en SPLEY.",
+  "referencias_internacionales": [
+   {
+    "pais": "OCDE",
+    "norma": "Recommendation of the Council on Digital Government Strategies (2014)",
+    "url": "https://legalinstruments.oecd.org/en/instruments/OECD-LEGAL-0406"
+   },
+   {
+    "pais": "Reino Unido",
+    "norma": "Spending Review — financiamiento multianual de programas de transformación digital (Central Digital and Data Office)",
+    "url": "https://www.gov.uk/government/organisations/central-digital-and-data-office"
+   }
+  ],
+  "comision_sugerida": "Economía, Banca, Finanzas e Inteligencia Financiera",
+  "comision_secundaria": "Ciencia, Innovación Tecnológica y Sociedad Digital",
+  "plan2050": [
+   "transformacion-digital",
+   "reforma-del-estado",
+   "peru-en-la-era-digital"
+  ],
+  "ods": [
+   9,
+   16,
+   17
+  ],
+  "prioridad": "media",
+  "costo_fiscal": "nulo",
+  "plazo": "corto",
+  "indicador_exito": "Al 2028, evaluación del PPoR publicada, lineamientos de inversión digital aprobados y marcador presupuestal aplicado; al 2031, gasto digital identificado y reportado anualmente para el 100 % de los pliegos del gobierno nacional y regional.",
+  "tags": [
+   "presupuesto por resultados",
+   "Invierte.pe",
+   "transformación digital",
+   "MEF"
+  ],
+  "fuentes": [
+   {
+    "titulo": "El Peruano — Entidades públicas: revisa la nueva directiva del MEF para programas presupuestales (2026)",
+    "url": "https://www.elperuano.pe/noticia/297513-entidades-publicas-revisa-la-nueva-directiva-del-mef-para-programas-presupuestales"
+   },
+   {
+    "titulo": "Congreso — Decreto Legislativo 1440 (art. 16, PPoR multisectoriales e intergubernamentales)",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/DecretosLegislativos/01440.pdf"
+   },
+   {
+    "titulo": "MEF — R.D. 0003-2025-EF/63.01 (inversiones con tecnologías digitales)",
+    "url": "https://mef.gob.pe/es/normatividad-inv-publica/instrumento/resolucion-directoral/34131-resolucion-directoral-n-003-2025-ef-63-01-1/file"
+   }
+  ],
+  "implicados": {
+   "normas_modificadas": [
+    {
+     "norma": "Decreto Legislativo 1440",
+     "articulo": "art. 16 (programas presupuestales)",
+     "accion": "complementa",
+     "url": "https://www.leyes.congreso.gob.pe/Documentos/DecretosLegislativos/01440.pdf"
+    },
+    {
+     "norma": "Decreto Legislativo 1252 (Invierte.pe)",
+     "articulo": "lineamientos y tipologías",
+     "accion": "complementa",
+     "url": "https://www.leyes.congreso.gob.pe/Documentos/DecretosLegislativos/01252.pdf"
+    }
+   ],
+   "entidades": [
+    {
+     "entidad": "Ministerio de Economía y Finanzas — Dirección General de Presupuesto Público",
+     "sigla": "MEF-DGPP",
+     "sector": "Economía y Finanzas",
+     "rol": "rectora",
+     "responsabilidad": "Evalúa y, de ser el caso, diseña el PPoR; implementa el marcador; informa al Congreso (arts. 2, 4, 7)."
+    },
+    {
+     "entidad": "Ministerio de Economía y Finanzas — Dirección General de Programación Multianual de Inversiones",
+     "sigla": "MEF-DGPMI",
+     "sector": "Economía y Finanzas",
+     "rol": "reglamentadora",
+     "responsabilidad": "Aprueba lineamientos y tipologías de inversión digital (art. 3)."
+    },
+    {
+     "entidad": "Secretaría de Gobierno y Transformación Digital",
+     "sigla": "SGTD",
+     "sector": "PCM",
+     "rol": "rectora",
+     "responsabilidad": "Coevalúa el PPoR, coordina los lineamientos y actualiza la Política Nacional de Transformación Digital (arts. 2-3, 7; DCF Segunda)."
+    },
+    {
+     "entidad": "Centro Nacional de Planeamiento Estratégico",
+     "sigla": "CEPLAN",
+     "sector": "PCM",
+     "rol": "consultiva",
+     "responsabilidad": "Opinión técnica en la actualización de la política nacional (DCF Segunda)."
+    }
+   ],
+   "sujetos_obligados": "MEF, PCM y, para el marcador presupuestal, las entidades de los tres niveles de gobierno.",
+   "beneficiarios": "Ciudadanía usuaria de servicios digitales públicos y el Congreso, por información para el control presupuestal."
+  },
+  "impacto": {
+   "tipo": "neutro",
+   "costo_estado": {
+    "rango": "S/ 0",
+    "horizonte": "anual",
+    "supuestos": "Evaluaciones, lineamientos y marcador elaborados por equipos existentes del MEF y la SGTD.",
+    "financiamiento": "Presupuesto institucional del MEF y la PCM, sin recursos adicionales al Tesoro."
+   },
+   "beneficio_estado": "Mejor asignación y seguimiento del gasto digital; posibles ahorros por reutilización y costo total de propiedad; no cuantificado.",
+   "beneficio_sociedad": "Servicios digitales con financiamiento más estable y resultados medibles.",
+   "inversion_privada": "No aplica.",
+   "costo_privado": "Ninguno.",
+   "riesgos": "Evaluación desfavorable o diseño postergado por restricciones fiscales; marcador mal aplicado por las entidades.",
+   "confianza": "alta"
+  },
+  "revision_atendida": [
+   {
+    "especialidad": "constitucional",
+    "severidad": "baja",
+    "hallazgo": "Regla de metas indicativas con vocación transversal",
+    "accion": "parcial",
+    "nota": "Se mantiene en la ley con alcance acotado (art. 5) y se explica en costo_beneficio; no se incorpora al art. 16 del D.L. 1440 para no alterar la norma del sistema presupuestal por iniciativa parlamentaria."
+   },
+   {
+    "especialidad": "jurista",
+    "severidad": "media",
+    "hallazgo": "Art. 5 modifica tácitamente metas de otras leyes",
+    "accion": "corregido",
+    "nota": "Art. 5 solo alcanza a metas que las leyes califiquen expresamente como indicativas."
+   },
+   {
+    "especialidad": "jurista",
+    "severidad": "baja",
+    "hallazgo": "Rol de CEPLAN vs. PCM en la política nacional",
+    "accion": "corregido",
+    "nota": "DCF Segunda: PCM-SGTD actualiza con opinión técnica del CEPLAN (D.S. 029-2018-PCM)."
+   },
+   {
+    "especialidad": "jurista",
+    "severidad": "baja",
+    "hallazgo": "Financiamiento en articulado",
+    "accion": "corregido",
+    "nota": "Pasa a DCF Tercera."
+   },
+   {
+    "especialidad": "normativo",
+    "severidad": "media",
+    "hallazgo": "URL del D.S. 085-2023-PCM errónea",
+    "accion": "corregido",
+    "nota": "Se usa https://busquedas.elperuano.pe/dispositivo/NL/2200457-5"
+   },
+   {
+    "especialidad": "normativo",
+    "severidad": "media",
+    "hallazgo": "URL del D.U. 006-2020 abre el D.U. 007-2020",
+    "accion": "corregido",
+    "nota": "Se usa https://www.gob.pe/institucion/pcm/normas-legales/395320-006-2020"
+   },
+   {
+    "especialidad": "normativo",
+    "severidad": "baja",
+    "hallazgo": "D.L. 1440 enlazado a material de capacitación; R.D. sin título",
+    "accion": "corregido",
+    "nota": "D.L. 1440 y D.L. 1252 enlazados al archivo del Congreso; la R.D. 0003-2025-EF/63.01 se marca «por verificar»."
+   },
+   {
+    "especialidad": "seguridad",
+    "severidad": "media",
+    "hallazgo": "Marcador abierto puede revelar gastos de defensa e inteligencia",
+    "accion": "corregido",
+    "nota": "Art. 4.3 (reserva conforme al TUO 27806, solo agregado por pliego) y art. 4.4 (ciberseguridad identificada por separado)."
+   },
+   {
+    "especialidad": "seguridad",
+    "severidad": "baja",
+    "hallazgo": "Costeo de operación segura en el ciclo de vida",
+    "accion": "corregido",
+    "nota": "Art. 3."
+   },
+   {
+    "especialidad": "tecnologico",
+    "severidad": "baja",
+    "hallazgo": "Sujeción a normas de gobierno digital e incrementos funcionales",
+    "accion": "corregido",
+    "nota": "Art. 3, sin remitir a otras propuestas."
+   }
+  ]
+ },
+ {
+  "id": "ECO-22",
+  "eje": "econ",
+  "titulo": "Ley que promueve la economía digital rural mediante trazabilidad, comercio electrónico, pagos digitales y acceso al financiamiento para la agricultura familiar y las cooperativas agrarias",
+  "titulo_corto": "Economía digital rural",
+  "sumilla": "Ordena al MIDAGRI ofrecer, progresivamente y sujeto a disponibilidad presupuestal, un servicio gratuito de georreferenciación de parcelas (WGS84, exportable en GeoJSON) y constancias informativas de no pérdida de cobertura boscosa con base en la información del MINAM y del SERFOR, con firma electrónica y código verificable; protege los datos de agricultores y cooperativas como confidenciales, sin publicar polígonos individuales; promueve comercio electrónico y pagos digitales en las compras estatales sin eliminar alternativas; permite usar, con autorización expresa y revocable y por interfaces seguras, datos de producción para evaluar crédito; y habilita asambleas virtuales autenticadas en las cooperativas agrarias.",
+  "problema": "Según el IV Censo Nacional Agropecuario 2012 del INEI, conforme a la clasificación de la Estrategia Nacional de Agricultura Familiar, las familias agricultoras representan el 97 % de las más de 2,2 millones de unidades agropecuarias del país, concentradas en la sierra. La Ley 30355 (2015) ordena promover la agricultura familiar y la Ley 31335 (2021) fortalece las cooperativas agrarias, pero ninguna aborda su inserción en la economía digital. Los mercados de exportación exigen cada vez más trazabilidad: el Reglamento (UE) 2023/1115 sobre productos libres de deforestación, modificado en 2025, se aplicará desde el 30 de diciembre de 2026 a operadores medianos y grandes y desde el 30 de junio de 2027 a micro y pequeños, con exigencia de geolocalización de parcelas para café, cacao y otros productos; se han realizado talleres en Junín con cooperativas cafetaleras para prepararse, según la agencia Andina. Sin un servicio público de georreferenciación y de evidencia de no deforestación, los pequeños productores dependen de intermediarios o pueden quedar fuera de la cadena exportadora. A ello se suman baja inserción en canales de venta digitales, pagos predominantemente en efectivo y escasa información para acceder a crédito. Ninguna norma vigente conecta a la agricultura familiar con los mercados digitales, la trazabilidad y el financiamiento.",
+  "objeto": "Conectar a la agricultura familiar y a las cooperativas agrarias con la trazabilidad exigida por los mercados, el comercio electrónico, los pagos digitales y el crédito, mediante servicios públicos existentes y el consentimiento del productor sobre sus datos.",
+  "articulado": [
+   {
+    "n": "Artículo 1",
+    "titulo": "Objeto",
+    "texto": "La presente ley tiene por objeto promover la inserción de la agricultura familiar y de las cooperativas agrarias en la economía digital, mediante servicios de georreferenciación y trazabilidad, acceso al comercio electrónico y a los pagos digitales, y el uso consentido de sus datos para acceder al financiamiento."
+   },
+   {
+    "n": "Artículo 2",
+    "titulo": "Ámbito y definiciones",
+    "texto": "2.1 La presente ley comprende a los agricultores familiares conforme a la Ley 30355, Ley de Promoción y Desarrollo de la Agricultura Familiar, y a las cooperativas agrarias reguladas por la Ley 31335, Ley de perfeccionamiento de la asociatividad de los productores agrarios en cooperativas agrarias.\n2.2 Para efectos de la presente ley se entiende por: a) georreferenciación de parcela: registro de las coordenadas o del polígono de la unidad productiva; b) trazabilidad digital: registro verificable del origen, las prácticas y el recorrido de un producto agrario desde la parcela hasta su comercialización."
+   },
+   {
+    "n": "Artículo 3",
+    "titulo": "Servicio de georreferenciación y trazabilidad",
+    "texto": "3.1 El Ministerio de Desarrollo Agrario y Riego, progresivamente y sujeto a la disponibilidad presupuestal del pliego, como meta indicativa de la programación multianual, brinda en forma gratuita a los agricultores familiares y a las cooperativas agrarias un servicio de georreferenciación de parcelas y de emisión de constancias de no pérdida de cobertura boscosa para las fechas de corte que exijan los mercados de destino. Las constancias se emiten con base en la información oficial de monitoreo de bosques que proporcionan el Ministerio del Ambiente y el SERFOR en el ámbito de sus competencias, con participación del SENASA en lo sanitario.\n3.2 La constancia es un documento informativo basado en la información oficial de monitoreo disponible a la fecha de su emisión; indica la fuente, la resolución y la fecha de las imágenes; no constituye certificación de cumplimiento de normas extranjeras ni sustituye la diligencia debida que corresponda a los operadores conforme a la normativa del mercado de destino.\n3.3 Como mínimo, la georreferenciación se registra en el sistema de referencia WGS84, con punto o polígono según el tamaño de la parcela que exija el mercado de destino, y se exporta en formatos abiertos de intercambio geoespacial, como GeoJSON, conforme a las normas de la Infraestructura de Datos Espaciales del Perú. El servicio es interoperable con los sistemas de debida diligencia de exportadores y compradores y se presta también a través de las agencias agrarias y de los gobiernos regionales que suscriban convenios.\n3.4 Los datos de la parcela y de la producción que el productor proporcione al servicio tienen carácter confidencial. El agricultor familiar y la cooperativa agraria controlan su acceso, y estos datos solo se comparten con terceros con su autorización previa, expresa, informada, por escrito o por medio electrónico equivalente, y revocable. Respecto de las personas naturales, se aplican además la Ley 29733 y su reglamento aprobado por Decreto Supremo 016-2024-JUS. Respecto de las cooperativas agrarias, dicha información constituye secreto comercial para efectos de las excepciones del Texto Único Ordenado de la Ley 27806, Ley de Transparencia y Acceso a la Información Pública, aprobado por Decreto Supremo 021-2019-JUS.\n3.5 Solo se publican datos agregados a una escala territorial que impida identificar parcelas individuales, no inferior al nivel distrital o a la grilla que fije el reglamento, previa evaluación del riesgo de reidentificación y conforme al régimen general de datos abiertos. En ningún caso se publican polígonos o coordenadas individuales de parcelas ni de tierras de comunidades campesinas y nativas sin consentimiento expreso del titular y, en el caso de comunidades, de su asamblea. El acceso interno a los polígonos se restringe al personal autorizado, con registro de accesos.\n3.6 Las constancias se emiten con firma o sello electrónico de la entidad conforme a la Ley 27269, código único verificable en línea y registro de la consulta a la información de monitoreo utilizada. El sistema detecta superposición de polígonos y registra la trazabilidad de cada modificación. La emisión o el uso de constancias falsas se comunica al Ministerio Público."
+   },
+   {
+    "n": "Artículo 4",
+    "titulo": "Comercio electrónico",
+    "texto": "4.1 El Ministerio de Desarrollo Agrario y Riego, con el Ministerio de la Producción y el Ministerio de Comercio Exterior y Turismo, promueve dentro de sus programas existentes el acceso de los agricultores familiares y de las cooperativas agrarias a canales de comercio electrónico, mediante capacitación, apoyo en registro sanitario y de calidad, y un directorio público de productores que se inscriban voluntariamente, interoperable con plataformas privadas.\n4.2 El Estado no administra plataformas de venta en competencia con las privadas, salvo para las compras públicas."
+   },
+   {
+    "n": "Artículo 5",
+    "titulo": "Compras estatales y pagos digitales",
+    "texto": "5.1 Las entidades que realicen compras de alimentos a la agricultura familiar conforme a la Ley 31071, Ley de compras estatales de alimentos de origen en la agricultura familiar, implementan el registro y la presentación de ofertas por medios electrónicos, manteniendo canales asistidos.\n5.2 Las entidades públicas que paguen a agricultores familiares por compras, incentivos o programas ofrecen el abono en cuenta en el sistema financiero, en cuentas de dinero electrónico reguladas por la Ley 29985 o en el Banco de la Nación, sin eliminar la modalidad de pago disponible para quien no tenga acceso a ellos."
+   },
+   {
+    "n": "Artículo 6",
+    "titulo": "Datos para el acceso al financiamiento",
+    "texto": "6.1 Con su autorización previa, expresa e informada, revocable en cualquier momento, el agricultor familiar o la cooperativa agraria puede autorizar que sus datos de georreferenciación, producción, ventas y pagos registrados en los servicios públicos se compartan con las empresas del sistema financiero, las cooperativas de ahorro y crédito y el Banco Agropecuario para evaluar solicitudes de crédito. Tratándose de cooperativas agrarias, la autorización la otorga su representante legal con facultades suficientes conforme al estatuto.\n6.2 La negativa a autorizar no puede ser causa de exclusión de programas públicos. La información no puede usarse para fines distintos de la evaluación autorizada ni transferirse a terceros o usarse para comercialización, y las entidades receptoras no pueden condicionar el crédito a la cesión de más datos que los necesarios.\n6.3 El intercambio se realiza mediante interfaces de programación seguras o la Plataforma de Interoperabilidad del Estado, con autenticación de la entidad receptora, cifrado en tránsito, alcance limitado a los datos autorizados y bitácora de accesos consultable por el productor. La revocación impide nuevos accesos de inmediato; la entidad receptora conserva los datos ya recibidos solo por el plazo necesario para la evaluación o el que exija la regulación prudencial.\n6.4 En lo no previsto, se aplica a las personas naturales el régimen general de consentimiento y de derechos del titular de la Ley 29733 y su reglamento vigente, y, a las entidades supervisadas por la Superintendencia de Banca, Seguros y AFP, la regulación que esta emita en el marco de sus competencias."
+   },
+   {
+    "n": "Artículo 7",
+    "titulo": "Conectividad y extensión",
+    "texto": "El Ministerio de Desarrollo Agrario y Riego comunica al Ministerio de Transportes y Comunicaciones las zonas de producción de agricultura familiar con mayor demanda de servicios digitales, para su consideración en la programación de proyectos de conectividad, y articula los servicios de esta ley con el servicio de extensión agraria y los datos agroclimáticos abiertos que existan."
+   },
+   {
+    "n": "Artículo 8",
+    "titulo": "Gobiernos regionales y locales",
+    "texto": "Los gobiernos regionales y locales pueden prestar los servicios de los artículos 3 y 4, con las mismas reglas de confidencialidad y seguridad de datos en el ámbito de sus competencias en materia agraria, mediante convenios con el Ministerio de Desarrollo Agrario y Riego."
+   }
+  ],
+  "disposiciones": [
+   {
+    "tipo": "Complementaria Final",
+    "n": "Primera",
+    "texto": "Reglamentación. El Poder Ejecutivo, mediante decreto supremo refrendado por el Ministro de Desarrollo Agrario y Riego, reglamenta la presente ley en el plazo de ciento veinte días hábiles."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Segunda",
+    "texto": "Priorización. Durante los dieciocho meses siguientes a la entrada en vigor de la presente ley, el servicio del artículo 3 prioriza las cadenas de café, cacao y otros productos sujetos a exigencias de trazabilidad en los mercados de destino."
+   },
+   {
+    "tipo": "Complementaria Final",
+    "n": "Tercera",
+    "texto": "Financiamiento. La implementación de la presente ley se financia con cargo al presupuesto institucional del Ministerio de Desarrollo Agrario y Riego, de sus programas y organismos adscritos y de las entidades involucradas, sin demandar recursos adicionales al Tesoro Público, y puede complementarse con recursos de la cooperación internacional. La cobertura del servicio del artículo 3 se programa como meta indicativa, sujeta a disponibilidad presupuestal."
+   },
+   {
+    "tipo": "Complementaria Modificatoria",
+    "n": "Única",
+    "texto": "Asambleas virtuales en cooperativas agrarias. Se incorpora en la Ley 31335, Ley de perfeccionamiento de la asociatividad de los productores agrarios en cooperativas agrarias, un artículo con el texto siguiente, cuya numeración se asigna en el texto aprobado previa verificación del articulado vigente modificado por la Ley 32167:\n«Artículo [X]-A.- Asambleas y sesiones virtuales o mixtas\nLas cooperativas agrarias pueden celebrar asambleas generales y sesiones de sus consejos de forma virtual o mixta, salvo prohibición expresa del estatuto, siempre que se garanticen la convocatoria con la anticipación estatutaria, la deliberación, el voto verificable y la conservación del acta. La identificación de los socios se realiza mediante el DNI electrónico, la firma digital, credenciales de la Plataforma Nacional de Identificación Digital u otro mecanismo de autenticación de al menos dos factores que fije el reglamento, conforme al Decreto Legislativo 1412. El sistema de votación conserva un registro auditable de cada voto emitido, sin revelar su sentido cuando el estatuto disponga voto secreto. El reglamento establece garantías para los socios sin conectividad, incluida la participación presencial asistida.»"
+   }
+  ],
+  "costo_beneficio": "El costo principal es el servicio de georreferenciación y trazabilidad, que puede prestarse sobre la información oficial de monitoreo de bosques y las agencias agrarias existentes, con apoyo de cooperación internacional ya activa en la preparación frente al reglamento europeo; se financia con presupuestos institucionales, sujeto a disponibilidad. El beneficio es preservar el acceso de miles de pequeños productores de café y cacao a mercados que exigirán geolocalización y evidencia de no deforestación desde 2026-2027, reducir la dependencia de intermediarios, formalizar pagos y abrir el crédito con datos verificables bajo control del productor. No obliga a los productores ni crea plataformas estatales de venta en competencia con las privadas.",
+  "efecto_vigencia": "Complementa la Ley 30355, la Ley 31071, la Ley 29985, la Ley 29733 y su reglamento (D.S. 016-2024-JUS), la Ley 27269, el Decreto Legislativo 1412 y el TUO de la Ley 27806 (D.S. 021-2019-JUS). Incorpora en la Ley 31335 (modificada por la Ley 32167) un artículo sobre asambleas virtuales, cuya numeración se fija al aprobar el texto. No modifica la Ley Orgánica de Gobiernos Regionales ni la Ley Orgánica de Municipalidades (los convenios se celebran en el marco de competencias vigentes), por lo que no requiere votación de ley orgánica. No deroga normas.",
+  "normas_relacionadas": [
+   {
+    "norma": "Ley 30355, Ley de Promoción y Desarrollo de la Agricultura Familiar",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/30355.pdf"
+   },
+   {
+    "norma": "Ley 31335, Ley de perfeccionamiento de la asociatividad de los productores agrarios en cooperativas agrarias",
+    "url": "https://busquedas.elperuano.pe/normaslegales/ley-de-perfeccionamiento-de-la-asociatividad-de-los-producto-ley-n-31335-1980284-1/"
+   },
+   {
+    "norma": "Decreto Supremo 008-2023-MIDAGRI, Reglamento de la Ley 31335",
+    "url": "https://busquedas.elperuano.pe/dispositivo/NL/2198260-2"
+   },
+   {
+    "norma": "Ley 31071, Ley de compras estatales de alimentos de origen en la agricultura familiar",
+    "url": "https://www.leyes.congreso.gob.pe/Documentos/2016_2021/ADLP/Normas_Legales/31071-LEY.pdf"
+   }
+  ],
+  "antecedentes": "Por verificar en SPLEY.",
+  "referencias_internacionales": [
+   {
+    "pais": "Unión Europea",
+    "norma": "Reglamento (UE) 2023/1115 sobre productos libres de deforestación, modificado por el Reglamento (UE) 2025/2650",
+    "url": "https://eur-lex.europa.eu/eli/reg/2023/1115/oj"
+   },
+   {
+    "pais": "FAO",
+    "norma": "Decenio de las Naciones Unidas para la Agricultura Familiar 2019-2028",
+    "url": "https://www.fao.org/family-farming-decade/es/"
+   }
+  ],
+  "comision_sugerida": "Desarrollo Agrario",
+  "comision_secundaria": "Ciencia, Innovación Tecnológica y Sociedad Digital",
+  "plan2050": [
+   "agricultura",
+   "desarrollo-rural",
+   "peru-en-la-era-digital"
+  ],
+  "ods": [
+   1,
+   2,
+   8,
+   15
+  ],
+  "prioridad": "alta",
+  "costo_fiscal": "bajo",
+  "plazo": "corto",
+  "indicador_exito": "Al 2028, al menos el 80 % de las parcelas de café y cacao de cooperativas agrarias inscritas en el Registro Nacional de Cooperativas Agrarias georreferenciadas con constancia verificable; al 2031, pagos electrónicos en la mayoría de las compras estatales a la agricultura familiar.",
+  "tags": [
+   "agricultura familiar",
+   "trazabilidad",
+   "EUDR",
+   "cooperativas",
+   "pagos digitales"
+  ],
+  "fuentes": [
+   {
+    "titulo": "Gestión — Agricultura familiar y pobreza rural (cita el IV CENAGRO 2012: 97 % de 2,2 millones de unidades agropecuarias; fuente secundaria)",
+    "url": "https://gestion.pe/blog/innovacion-sinergias-y-crecimiento/2019/03/agricultura-familiar-y-pobreza-rural.html"
+   },
+   {
+    "titulo": "Agraria.pe — La reciente modificación del EUDR introduce medidas proporcionales (enero 2026)",
+    "url": "https://agraria.pe/noticias/la-reciente-modificacion-del-eudr-introduce-medidas-proporci-41508"
+   },
+   {
+    "titulo": "Andina — Peru advances EUDR implementation through regional capacity-building workshop in Junín",
+    "url": "https://andina.pe/ingles/noticia-peru-advances-eudr-implementation-through-regional-capacitybuilding-workshop-in-junin-1049550.aspx"
+   },
+   {
+    "titulo": "El Peruano — Ley 31335",
+    "url": "https://busquedas.elperuano.pe/normaslegales/ley-de-perfeccionamiento-de-la-asociatividad-de-los-producto-ley-n-31335-1980284-1/"
+   },
+   {
+    "titulo": "INEI — Resultados definitivos del IV Censo Nacional Agropecuario 2012",
+    "url": "https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1275/PDF/libro.pdf"
+   }
+  ],
+  "implicados": {
+   "normas_modificadas": [
+    {
+     "norma": "Ley 30355, Agricultura Familiar",
+     "articulo": "servicios digitales",
+     "accion": "complementa",
+     "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/30355.pdf"
+    },
+    {
+     "norma": "Ley 31335, Cooperativas agrarias",
+     "articulo": "artículo nuevo sobre asambleas virtuales (DCM Única)",
+     "accion": "incorpora",
+     "url": "https://busquedas.elperuano.pe/normaslegales/ley-de-perfeccionamiento-de-la-asociatividad-de-los-producto-ley-n-31335-1980284-1/"
+    },
+    {
+     "norma": "Ley 31071, compras estatales a la agricultura familiar",
+     "articulo": "registro y ofertas electrónicas, pagos",
+     "accion": "complementa",
+     "url": "https://www.leyes.congreso.gob.pe/Documentos/2016_2021/ADLP/Normas_Legales/31071-LEY.pdf"
+    }
+   ],
+   "entidades": [
+    {
+     "entidad": "Ministerio de Desarrollo Agrario y Riego",
+     "sigla": "MIDAGRI",
+     "sector": "Desarrollo Agrario",
+     "rol": "rectora",
+     "responsabilidad": "Servicio progresivo de georreferenciación y constancias informativas, protección y acceso restringido a polígonos, comercio electrónico, articulación con conectividad y extensión, reglamento (arts. 3-4, 7; DCF)."
+    },
+    {
+     "entidad": "Servicio Nacional de Sanidad Agraria",
+     "sigla": "SENASA",
+     "sector": "Desarrollo Agrario",
+     "rol": "ejecutora",
+     "responsabilidad": "Coordina la trazabilidad sanitaria (art. 3.1)."
+    },
+    {
+     "entidad": "Servicio Nacional Forestal y de Fauna Silvestre",
+     "sigla": "SERFOR",
+     "sector": "Desarrollo Agrario",
+     "rol": "ejecutora",
+     "responsabilidad": "Proporciona, en el ámbito de su competencia, la información forestal en que se basan las constancias (art. 3.1)."
+    },
+    {
+     "entidad": "Ministerio del Ambiente",
+     "sigla": "MINAM",
+     "sector": "Ambiente",
+     "rol": "ejecutora",
+     "responsabilidad": "Proporciona la información oficial de monitoreo de bosques en que se basan las constancias (art. 3.1)."
+    },
+    {
+     "entidad": "Entidades compradoras bajo la Ley 31071 y entidades pagadoras",
+     "sigla": "",
+     "sector": "Varios",
+     "rol": "regulada",
+     "responsabilidad": "Ofertas electrónicas y opción de pago digital (art. 5)."
+    },
+    {
+     "entidad": "Gobiernos regionales y locales",
+     "sigla": "",
+     "sector": "Descentralizado",
+     "rol": "ejecutora",
+     "responsabilidad": "Prestación por convenio (art. 9)."
+    },
+    {
+     "entidad": "Autoridad Nacional de Protección de Datos Personales",
+     "sigla": "ANPD",
+     "sector": "MINJUSDH",
+     "rol": "supervisora",
+     "responsabilidad": "Supervisa el tratamiento de datos georreferenciados y el consentimiento de productores personas naturales (arts. 3.4-3.5, 6)."
+    }
+   ],
+   "sujetos_obligados": "MIDAGRI y sus organismos, entidades compradoras y pagadoras a la agricultura familiar.",
+   "beneficiarios": "Agricultores familiares (97 % de más de 2,2 millones de unidades agropecuarias según el CENAGRO 2012) y cooperativas agrarias, en particular de café y cacao."
+  },
+  "impacto": {
+   "tipo": "inversion",
+   "costo_estado": {
+    "rango": "No cuantificable con información pública; de orden bajo a medio según cobertura",
+    "horizonte": "2027-2031",
+    "supuestos": "El servicio se apoya en la información oficial de monitoreo de bosques y en las agencias agrarias; el costo depende del número de parcelas a georreferenciar en campo, que no consta en fuentes públicas actualizadas. La georreferenciación con levantamiento en campo cuesta mucho más por parcela que la basada en imágenes satelitales y autodeclaración asistida.",
+    "financiamiento": "Presupuesto institucional del MIDAGRI y entidades, sujeto a disponibilidad presupuestal, y cooperación internacional; si se fija una meta de cobertura con costo relevante, requiere coordinación con el Poder Ejecutivo e informe del MEF antes del dictamen."
+   },
+   "beneficio_estado": "Mantenimiento de exportaciones agrarias y mejor información para políticas agrarias; no cuantificado.",
+   "beneficio_sociedad": "Acceso a mercados con exigencia de trazabilidad, mejores precios y crédito para pequeños productores.",
+   "inversion_privada": "Inversión de exportadores y plataformas en sistemas interoperables de trazabilidad; no estimable.",
+   "costo_privado": "Tiempo de los productores para registrar parcelas; costos de integración para exportadores.",
+   "riesgos": "Brecha de conectividad rural; constancias insuficientes para auditores extranjeros (mitigado con su carácter informativo y formato WGS84/GeoJSON); falsificación o lavado de producción con polígonos ajenos (firma electrónica, código verificable y detección de superposición); exposición de ubicaciones de familias y comunidades (prohibición de publicar polígonos individuales y acceso restringido).",
+   "confianza": "media"
+  },
+  "revision_atendida": [
+   {
+    "especialidad": "constitucional",
+    "severidad": "media",
+    "hallazgo": "Servicio gratuito universal como gasto obligatorio (art. 79)",
+    "accion": "corregido",
+    "nota": "Art. 3.1: progresivo, sujeto a disponibilidad presupuestal y como meta indicativa; DCF Tercera."
+   },
+   {
+    "especialidad": "constitucional",
+    "severidad": "baja",
+    "hallazgo": "«Pertenencia» de datos sin sustento",
+    "accion": "corregido",
+    "nota": "Art. 3.4: control de acceso y confidencialidad; Ley 29733 para personas naturales."
+   },
+   {
+    "especialidad": "jurista",
+    "severidad": "media",
+    "hallazgo": "Propiedad de datos y cooperativas sin régimen",
+    "accion": "corregido",
+    "nota": "Art. 3.4: confidencialidad, secreto comercial de cooperativas frente al TUO 27806 (D.S. 021-2019-JUS), sin citar numeral no verificado."
+   },
+   {
+    "especialidad": "jurista",
+    "severidad": "media",
+    "hallazgo": "Naturaleza y responsabilidad de la constancia; competencia MINAM/SERFOR",
+    "accion": "corregido",
+    "nota": "Arts. 3.1-3.2: documento informativo basado en información del MINAM y del SERFOR, que no certifica cumplimiento ni sustituye la diligencia debida."
+   },
+   {
+    "especialidad": "jurista",
+    "severidad": "media",
+    "hallazgo": "Asambleas virtuales fuera de la Ley 31335 y supeditadas al estatuto",
+    "accion": "parcial",
+    "nota": "Se traslada a una DCM que incorpora un artículo en la Ley 31335 «salvo prohibición expresa del estatuto»; la numeración queda para el texto aprobado porque no se pudo verificar el articulado vigente modificado por la Ley 32167."
+   },
+   {
+    "especialidad": "jurista",
+    "severidad": "baja",
+    "hallazgo": "Quién autoriza por la cooperativa",
+    "accion": "corregido",
+    "nota": "Art. 6.1: representante legal con facultades suficientes."
+   },
+   {
+    "especialidad": "normativo",
+    "severidad": "baja",
+    "hallazgo": "Ley 30355 en vlex y cifra CENAGRO de blog",
+    "accion": "corregido",
+    "nota": "Ley 30355 enlazada al archivo del Congreso; se agrega la publicación del INEI del IV CENAGRO y se rotula Gestión como secundaria."
+   },
+   {
+    "especialidad": "normativo",
+    "severidad": "baja",
+    "hallazgo": "Verificar si ya existen asambleas no presenciales",
+    "accion": "parcial",
+    "nota": "No se pudo verificar en SPIJ; la DCM opera «salvo prohibición expresa del estatuto» y sin perjuicio de normas que ya lo permitan."
+   },
+   {
+    "especialidad": "seguridad",
+    "severidad": "alta",
+    "hallazgo": "Polígonos de parcela reidentificables",
+    "accion": "corregido",
+    "nota": "Art. 3.5: solo agregados no inferiores al distrito o a la grilla del reglamento; nunca polígonos individuales ni tierras comunales sin consentimiento (asamblea en comunidades); acceso interno restringido con bitácora. Consentimiento expreso y por escrito o equivalente electrónico (art. 3.4)."
+   },
+   {
+    "especialidad": "seguridad",
+    "severidad": "media",
+    "hallazgo": "Falsificación de constancias",
+    "accion": "corregido",
+    "nota": "Art. 3.6: firma o sello electrónico, código verificable, detección de superposición, trazabilidad y comunicación al Ministerio Público."
+   },
+   {
+    "especialidad": "seguridad",
+    "severidad": "media",
+    "hallazgo": "Canal técnico y límites del intercambio con financieras",
+    "accion": "corregido",
+    "nota": "Arts. 6.2-6.3: API segura, cifrado, bitácora, revocación inmediata, prohibición de transferir o comercializar y de exigir más datos."
+   },
+   {
+    "especialidad": "seguridad",
+    "severidad": "baja",
+    "hallazgo": "Autenticación en asambleas virtuales",
+    "accion": "corregido",
+    "nota": "DCM Única: DNIe, firma digital o al menos dos factores; registro auditable del voto."
+   },
+   {
+    "especialidad": "tecnologico",
+    "severidad": "media",
+    "hallazgo": "Propiedad de datos y cooperativas fuera de la Ley 29733",
+    "accion": "corregido",
+    "nota": "Art. 3.4."
+   },
+   {
+    "especialidad": "tecnologico",
+    "severidad": "media",
+    "hallazgo": "Anonimizar polígonos no es posible",
+    "accion": "corregido",
+    "nota": "Art. 3.5."
+   },
+   {
+    "especialidad": "tecnologico",
+    "severidad": "media",
+    "hallazgo": "Constancia como certificación y estándar geoespacial",
+    "accion": "corregido",
+    "nota": "Arts. 3.2-3.3: carácter informativo con fuente, resolución y fecha; WGS84 y GeoJSON conforme a la IDEP."
+   },
+   {
+    "especialidad": "tecnologico",
+    "severidad": "media",
+    "hallazgo": "Datos para crédito como vía paralela de portabilidad",
+    "accion": "corregido",
+    "nota": "Arts. 6.3-6.4: API o PIDE con bitácora, reglas de revocación y remisión a la regla general vigente de consentimiento de la Ley 29733 y a la regulación de la SBS, sin depender de otras propuestas."
+   },
+   {
+    "especialidad": "tecnologico",
+    "severidad": "baja",
+    "hallazgo": "Medios de identificación en asambleas",
+    "accion": "corregido",
+    "nota": "DCM Única remite al D.L. 1412 y a la Plataforma Nacional de Identificación Digital."
+   }
+  ]
+ }
+]

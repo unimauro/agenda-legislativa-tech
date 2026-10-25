@@ -3812,5 +3812,1105 @@
 "transformacion-digital",
 "etica"
 ]
+},
+{
+"id": "CON-15",
+"eje": "conect",
+"borrador": false,
+"titulo": "Ley que incorpora el artículo 10-A en la Ley 28749, Ley General de Electrificación Rural, para priorizar el suministro eléctrico confiable de las instituciones educativas, los establecimientos de salud y los nodos de conectividad públicos en zonas rurales y articular la electrificación rural con la conectividad",
+"sumilla": "Incorpora en la Ley 28749 la priorización, dentro del Plan Nacional de Electrificación Rural, de los locales educativos, establecimientos de salud y nodos de telecomunicaciones públicos sin suministro o con suministro no confiable; incorpora en la misma ley un inventario georreferenciado abierto, con ubicación generalizada de nodos y baterías, elaborado por el MINEM con información de MINEDU, MINSA y MTC; articula las carteras de electrificación rural y de conectividad; y exige que toda solución, incluida la fotovoltaica autónoma, tenga operador, mantenimiento y reposición asegurados, sin crear fondos ni entidades.",
+"objeto": "Incorporar en la Ley 28749 la priorización del suministro eléctrico confiable de los locales educativos, establecimientos de salud y nodos de conectividad públicos en zonas rurales y su articulación con los proyectos de conectividad.",
+"articulos": [
+"Objeto",
+"Incorporación del artículo 10-A a la Ley 28749",
+"Articulación de las carteras de electrificación y conectividad",
+"Operación, mantenimiento y reposición",
+"Estándar técnico",
+"Monitoreo y supervisión",
+"Metas indicativas",
+"Relación con otras normas"
+],
+"entidades": [
+"MINEM-DGER (rectora)",
+"MTC (ejecutora)",
+"MINEDU (consultiva)",
+"MINSA (consultiva)",
+"Osinergmin (supervisora)",
+"— (ejecutora)"
+],
+"beneficiarios": "Estudiantes, docentes y pacientes de zonas rurales; según el Censo Educativo 2022, alrededor del 9 % de 65 659 locales de educación básica no tenía ningún tipo de conexión eléctrica.",
+"costo_fiscal": "medio",
+"costo_estado": "S/ 0,3–0,8 millones/año (coordinación); inversión no cuantificable con información pública",
+"beneficio_sociedad": "Continuidad de clases con recursos digitales, telesalud y conservación de vacunas en zonas rurales. No cuantificable con información pública.",
+"inversion_privada": "Posible participación de concesionarias y contratistas en esquemas con operación y mantenimiento; no se estima.",
+"plazo": "mediano",
+"prioridad_actual": "alta",
+"plan2050": [
+"energia-electrica",
+"telecomunicaciones",
+"desarrollo-rural"
+]
+},
+{
+"id": "ECO-15",
+"eje": "econ",
+"borrador": false,
+"titulo": "Ley que unifica el Régimen Especial del Impuesto a la Renta en el Régimen MYPE Tributario, establece su gestión digital con declaración precompletada y encarga la evaluación técnica del régimen laboral especial de la micro y pequeña empresa",
+"sumilla": "Modifica el Decreto Legislativo 1269 para integrar en el Régimen MYPE Tributario a los contribuyentes del Régimen Especial del Impuesto a la Renta, cuyo Capítulo XV se deroga con vigencia diferida y con adecuación expresa de las remisiones que otras normas le hacen; mantiene el Nuevo RUS; ordena a la SUNAT una declaración precompletada trazable por partida, con autenticación reforzada y sin sanción ni intereses por errores de información de terceros o de la Administración; y encarga al Poder Ejecutivo, con consulta tripartita, evaluar el régimen laboral especial MYPE, sin reducir derechos laborales vigentes.",
+"objeto": "Simplificar la estructura tributaria de la micro y pequeña empresa integrando el RER en el Régimen MYPE Tributario mediante la modificación expresa del Decreto Legislativo 1269, reducir costos de cumplimiento con gestión digital segura y encargar una evaluación técnica, tripartita y sin regresividad del régimen laboral especial.",
+"articulos": [
+"Objeto",
+"Modificación de los artículos 3, 7 y 8 del Decreto Legislativo 1269",
+"Ausencia de beneficios tributarios",
+"Declaración precompletada",
+"Registros simplificados",
+"Acompañamiento en la transición e indicadores",
+"Evaluación técnica del régimen laboral especial",
+"Evaluación de la reforma"
+],
+"entidades": [
+"SUNAT (ejecutora)",
+"MEF (reglamentadora)",
+"MTPE (rectora)",
+"CNTPE (consultiva)",
+"PRODUCE (consultiva)",
+"SGTD (consultiva)"
+],
+"beneficiarios": "Micro y pequeñas empresas formales (cerca de 1,2 millones de contribuyentes activos en regímenes especiales según el FMI con datos de 2019) y sus trabajadores.",
+"costo_fiscal": "bajo",
+"costo_estado": "No cuantificable con información pública (efecto recaudatorio a estimar por el MEF); desarrollos SUNAT de orden bajo",
+"beneficio_sociedad": "Menores costos de cumplimiento y eliminación de un escalón de régimen que desincentiva crecer; cualitativo.",
+"inversion_privada": "No aplica directamente.",
+"plazo": "mediano",
+"prioridad_actual": "alta",
+"plan2050": [
+"mipymes",
+"macroeconomia",
+"competitividad"
+]
+},
+{
+"id": "ECO-16",
+"eje": "econ",
+"borrador": false,
+"titulo": "Ley que otorga rango legal al Consejo Nacional de Competitividad y Formalización y encarga la conformación de un comité técnico independiente para la evaluación ex post de los programas e incentivos productivos",
+"sumilla": "Sin crear entidades, pliegos ni gasto, eleva a rango legal al Consejo Nacional de Competitividad y Formalización (CNCF) y encarga al Poder Ejecutivo conformar por decreto supremo, en su seno, un Comité de Evaluación de la Productividad de expertos ad honorem seleccionados por concurso, con garantías legales de idoneidad, independencia y causales cerradas de remoción, para evaluar ex post los incentivos y programas productivos; los datos bajo reserva tributaria los procesa la SUNAT y solo se entregan resultados estadísticos, y los microdatos se consultan en entornos seguros sin descarga; las entidades evaluadas deben responder públicamente.",
+"objeto": "Dotar al Estado de una evaluación ex post independiente, pública y periódica de los incentivos y programas productivos, aprovechando el CNCF existente.",
+"articulos": [
+"Objeto",
+"Naturaleza del Consejo",
+"Comité de Evaluación de la Productividad",
+"Funciones del Comité",
+"Agenda trienal de evaluación",
+"Acceso a información y seguridad de los datos",
+"Publicidad y deber de respuesta",
+"Rendición de cuentas al Congreso"
+],
+"entidades": [
+"CNCF (consultiva)",
+"Comité de Evaluación de la Productividad (supervisora)",
+"MEF (financiadora)",
+"SERVIR (ejecutora)",
+"Entidades administradoras de instrumentos productivos (PRODUCE, ProInnóvate, ITP, COFIDE, CONCYTEC, SUNAT) (regulada)",
+"SUNAT (ejecutora)",
+"INEI (ejecutora)"
+],
+"beneficiarios": "Contribuyentes y empresas, por una mejor asignación del gasto público y tributario productivo; el Congreso, por información técnica antes de legislar.",
+"costo_fiscal": "nulo",
+"costo_estado": "S/ 0–1,2 millones/año (solo si se contratan evaluaciones externas)",
+"beneficio_sociedad": "Mejores políticas productivas y transparencia sobre su desempeño.",
+"inversion_privada": "No aplica.",
+"plazo": "corto",
+"prioridad_actual": "alta",
+"plan2050": [
+"competitividad",
+"institucionalidad",
+"reforma-del-estado"
+]
+},
+{
+"id": "ECO-17",
+"eje": "econ",
+"borrador": false,
+"titulo": "Ley que promueve la adopción de tecnologías digitales y prácticas gerenciales en la micro, pequeña y mediana empresa mediante diagnósticos digitales y bonos de adopción cofinanciados",
+"sumilla": "Autoriza al Ministerio de la Producción a otorgar, dentro de sus programas existentes y sujeto a disponibilidad presupuestal, subvenciones cofinanciadas (bonos de adopción) para que las MIPYME incorporen tecnologías digitales y prácticas gerenciales, con autodiagnóstico gratuito confidencial, pago directo al proveedor contra entregable verificado, catálogo abierto de proveedores con controles de seguridad proporcionales, deberes de encargado del tratamiento y portabilidad definida, infracciones tipificadas para proveedores y beneficiarios, y evaluación de impacto obligatoria.",
+"objeto": "Elevar la adopción de tecnologías digitales y prácticas gerenciales en las MIPYME mediante diagnósticos gratuitos y bonos cofinanciados, sin crear programas ni gasto adicional.",
+"articulos": [
+"Objeto",
+"Definiciones",
+"Línea de adopción tecnológica y gerencial",
+"Diagnóstico digital gratuito",
+"Bonos de adopción cofinanciados",
+"Autorización para otorgar subvenciones",
+"Catálogo abierto de soluciones y proveedores",
+"Integridad y prevención del fraude",
+"Infracciones y sanciones",
+"Evaluación de impacto"
+],
+"entidades": [
+"PRODUCE (rectora)",
+"ProInnóvate (ejecutora)",
+"SUNAT (consultiva)",
+"SGTD (consultiva)",
+"Proveedores acreditados de soluciones digitales (regulada)"
+],
+"beneficiarios": "Micro, pequeñas y medianas empresas formales, con prioridad para microempresas, empresas lideradas por mujeres y empresas de regiones.",
+"costo_fiscal": "bajo",
+"costo_estado": "No cuantificable con información pública: depende del número de bonos que el Ejecutivo decida financiar",
+"beneficio_sociedad": "Mayor productividad y ventas de MIPYME; magnitud a establecer con la evaluación de impacto (el dato de 81,5 % de beneficiarios con más ventas no prueba causalidad y no se usa como beneficio esperado).",
+"inversion_privada": "Aporte de contrapartida de las empresas y desarrollo de proveedores tecnológicos nacionales.",
+"plazo": "mediano",
+"prioridad_actual": "alta",
+"plan2050": [
+"mipymes",
+"transformacion-digital",
+"innovacion"
+]
+},
+{
+"id": "ECO-18",
+"eje": "econ",
+"borrador": false,
+"titulo": "Ley que fortalece la promoción activa de la inversión extranjera directa de eficiencia en sectores de mayor complejidad, con servicios posinstalación y encadenamiento con proveedores nacionales",
+"sumilla": "Sin crear entidades ni beneficios tributarios, encarga a ProInversión, en coordinación con PRODUCE, MINCETUR y Relaciones Exteriores, una estrategia multianual de búsqueda activa de inversión extranjera directa orientada a exportar manufacturas y servicios de mayor complejidad, con gestor único y servicio posinstalación que se prestan en las mismas condiciones a los proyectos de inversión nacional que cumplan los mismos criterios (art. 63 de la Constitución), reporte de barreras burocráticas, encadenamiento voluntario con proveedores nacionales y metas e indicadores públicos.",
+"objeto": "Ordenar la promoción de la IED de eficiencia con metas públicas, servicio posinstalación y encadenamiento con proveedores nacionales, dentro de las entidades existentes y sin incentivos tributarios nuevos.",
+"articulos": [
+"Objeto",
+"Definiciones",
+"Estrategia multianual de promoción",
+"Búsqueda activa y gestor único",
+"Servicio posinstalación y barreras burocráticas",
+"Encadenamiento con proveedores nacionales",
+"Información sobre demanda de talento",
+"Régimen aplicable",
+"Transparencia y evaluación"
+],
+"entidades": [
+"ProInversión (ejecutora)",
+"PRODUCE (ejecutora)",
+"MINCETUR (ejecutora)",
+"RREE (ejecutora)",
+"INDECOPI (supervisora)",
+"INACAL (ejecutora)"
+],
+"beneficiarios": "Trabajadores y proveedores nacionales vinculados a nuevas inversiones exportadoras; regiones con capacidad manufacturera o de servicios.",
+"costo_fiscal": "bajo",
+"costo_estado": "S/ 2–5 millones/año",
+"beneficio_sociedad": "Empleo formal en sectores de mayor productividad y aprendizaje de proveedores nacionales.",
+"inversion_privada": "IED adicional en manufactura y servicios exportadores; monto no estimable ex ante.",
+"plazo": "mediano",
+"prioridad_actual": "media",
+"plan2050": [
+"promocion-de-la-inversion",
+"industria",
+"comercio-exterior-e-insercion-en-el-merc"
+]
+},
+{
+"id": "ECO-19",
+"eje": "econ",
+"borrador": false,
+"titulo": "Ley que habilita, con límites prudenciales, la inversión de los fondos de pensiones en fondos de capital de riesgo y de deuda privada de empresas innovadoras y encarga a la SBS evaluar su admisión para las empresas de seguros",
+"sumilla": "Reconoce expresamente como inversión elegible de los fondos del Sistema Privado de Pensiones las cuotas de fondos de capital de riesgo y de deuda privada de empresas innovadoras, sin obligar a invertir; fija en la ley condiciones prudenciales mínimas (gestor supervisado, coinversión del gestor, valorización independiente, conflictos de interés, comisiones transparentes) deja a la SBS, en ejercicio de su autonomía, el sublímite por tipo de fondo y excluye los Fondos Tipo 0 y Tipo 1; permite coinvertir con el fondo de fondos del Decreto de Urgencia 013-2020; y encarga a la SBS evaluar el tratamiento de estas inversiones para las aseguradoras sin modificar la Ley 26702.",
+"objeto": "Habilitar expresamente y con salvaguardas prudenciales que una fracción acotada del ahorro previsional financie capital de riesgo y deuda privada de empresas innovadoras, sin imponer inversiones ni garantías públicas.",
+"articulos": [
+"Objeto",
+"Definiciones",
+"Inversión elegible",
+"Condiciones prudenciales mínimas",
+"Sublímites",
+"Coinversión con el fondo de fondos público",
+"Empresas de seguros",
+"Transparencia",
+"Evaluación"
+],
+"entidades": [
+"SBS (reglamentadora)",
+"MEF (consultiva)",
+"SMV (supervisora)",
+"COFIDE (ejecutora)",
+"AFP/EAF (regulada)",
+"BCRP (consultiva)"
+],
+"beneficiarios": "Afiliados de fondos de horizonte largo (diversificación) y empresas innovadoras que acceden a capital de largo plazo.",
+"costo_fiscal": "nulo",
+"costo_estado": "S/ 0",
+"beneficio_sociedad": "Mayor financiamiento de empresas innovadoras y diversificación de los fondos de largo plazo; no cuantificable con información pública.",
+"inversion_privada": "Fracción acotada de las carteras previsionales canalizada a capital de riesgo; monto dependiente de los sublímites y de la decisión de las administradoras.",
+"plazo": "mediano",
+"prioridad_actual": "media",
+"plan2050": [
+"pensiones-de-jubilacion",
+"innovacion",
+"banca"
+]
+},
+{
+"id": "ECO-20",
+"eje": "econ",
+"borrador": false,
+"titulo": "Ley de diplomacia económica digital que establece lineamientos y mecanismos de coordinación, transparencia e información al Congreso para la negociación de acuerdos de economía digital y fortalece la participación nacional en organismos de normalización tecnológica",
+"sumilla": "Respetando la competencia del Presidente de la República para dirigir la política exterior y celebrar tratados, fija lineamientos orientadores para negociar acuerdos y capítulos de economía digital (flujos de datos con las garantías de la legislación de protección de datos, localización solo por clasificación, reconocimiento mutuo de firma e identidad digital, espacio regulatorio, acceso a código fuente para auditoría de sistemas críticos y excepciones de seguridad esencial); ordena coordinación intersectorial, una consulta pública que no condiciona el inicio de las negociaciones, un informe anual al Congreso y un informe de impacto normativo con cada acuerdo; y encarga al INACAL evaluar y gestionar la participación peruana en el ISO/IEC JTC 1 y sus subcomités prioritarios.",
+"objeto": "Ordenar la diplomacia económica digital con lineamientos, coordinación, transparencia e información al Congreso, y fortalecer la presencia nacional en la normalización tecnológica internacional, sin interferir en la conducción de la política exterior.",
+"articulos": [
+"Objeto",
+"Competencias constitucionales",
+"Lineamientos orientadores",
+"Coordinación intersectorial",
+"Consulta y transparencia",
+"Información al Congreso",
+"Participación en normalización tecnológica",
+"Capacidades de negociación"
+],
+"entidades": [
+"MINCETUR (rectora)",
+"RREE (rectora)",
+"SGTD (consultiva)",
+"ANPD (consultiva)",
+"INACAL (ejecutora)",
+"MTC (ejecutora)",
+"CNSD (consultiva)",
+"INDECOPI (consultiva)",
+"RENIEC (consultiva)"
+],
+"beneficiarios": "Exportadores de servicios digitales, empresas tecnológicas y ciudadanía, por reglas negociadas con mejor información y participación.",
+"costo_fiscal": "nulo",
+"costo_estado": "S/ 0,5–1,5 millones/año",
+"beneficio_sociedad": "Mejor acceso a mercados digitales y estándares con participación nacional; cualitativo.",
+"inversion_privada": "No aplica directamente.",
+"plazo": "corto",
+"prioridad_actual": "media",
+"plan2050": [
+"comercio-exterior-e-insercion-en-el-merc",
+"peru-en-la-era-digital",
+"transformacion-digital"
+]
+},
+{
+"id": "ECO-21",
+"eje": "econ",
+"borrador": false,
+"titulo": "Ley que encarga al Poder Ejecutivo evaluar y, de ser el caso, diseñar un programa presupuestal orientado a resultados para la transformación digital y actualizar los lineamientos de inversión pública en tecnologías digitales",
+"sumilla": "Respetando la iniciativa presupuestal exclusiva del Poder Ejecutivo, encarga al MEF y a la PCM evaluar y, de ser viable, diseñar un programa presupuestal orientado a resultados (PPoR) en transformación digital conforme al artículo 16 del Decreto Legislativo 1440; encarga a la DGPMI actualizar lineamientos y tipologías de inversión en tecnologías digitales en el marco de Invierte.pe; ordena un marcador presupuestal del gasto digital y un informe anual al Congreso; y precisa que las metas indicativas digitales fijadas por ley son referencias para la programación multianual, sujetas a disponibilidad presupuestal.",
+"objeto": "Promover un vehículo presupuestal y de inversión multianual para la transformación digital, por iniciativa y decisión del Poder Ejecutivo, con información pública sobre el gasto digital.",
+"articulos": [
+"Objeto",
+"Evaluación y diseño del programa presupuestal",
+"Lineamientos de inversión en tecnologías digitales",
+"Identificación del gasto en transformación digital",
+"Metas indicativas",
+"Iniciativa presupuestal del Poder Ejecutivo",
+"Información al Congreso"
+],
+"entidades": [
+"MEF-DGPP (rectora)",
+"MEF-DGPMI (reglamentadora)",
+"SGTD (rectora)",
+"CEPLAN (consultiva)"
+],
+"beneficiarios": "Ciudadanía usuaria de servicios digitales públicos y el Congreso, por información para el control presupuestal.",
+"costo_fiscal": "nulo",
+"costo_estado": "S/ 0",
+"beneficio_sociedad": "Servicios digitales con financiamiento más estable y resultados medibles.",
+"inversion_privada": "No aplica.",
+"plazo": "corto",
+"prioridad_actual": "media",
+"plan2050": [
+"transformacion-digital",
+"reforma-del-estado",
+"peru-en-la-era-digital"
+]
+},
+{
+"id": "ECO-22",
+"eje": "econ",
+"borrador": false,
+"titulo": "Ley que promueve la economía digital rural mediante trazabilidad, comercio electrónico, pagos digitales y acceso al financiamiento para la agricultura familiar y las cooperativas agrarias",
+"sumilla": "Ordena al MIDAGRI ofrecer, progresivamente y sujeto a disponibilidad presupuestal, un servicio gratuito de georreferenciación de parcelas (WGS84, exportable en GeoJSON) y constancias informativas de no pérdida de cobertura boscosa con base en la información del MINAM y del SERFOR, con firma electrónica y código verificable; protege los datos de agricultores y cooperativas como confidenciales, sin publicar polígonos individuales; promueve comercio electrónico y pagos digitales en las compras estatales sin eliminar alternativas; permite usar, con autorización expresa y revocable y por interfaces seguras, datos de producción para evaluar crédito; y habilita asambleas virtuales autenticadas en las cooperativas agrarias.",
+"objeto": "Conectar a la agricultura familiar y a las cooperativas agrarias con la trazabilidad exigida por los mercados, el comercio electrónico, los pagos digitales y el crédito, mediante servicios públicos existentes y el consentimiento del productor sobre sus datos.",
+"articulos": [
+"Objeto",
+"Ámbito y definiciones",
+"Servicio de georreferenciación y trazabilidad",
+"Comercio electrónico",
+"Compras estatales y pagos digitales",
+"Datos para el acceso al financiamiento",
+"Conectividad y extensión",
+"Gobiernos regionales y locales"
+],
+"entidades": [
+"MIDAGRI (rectora)",
+"SENASA (ejecutora)",
+"SERFOR (ejecutora)",
+"MINAM (ejecutora)",
+"Entidades compradoras bajo la Ley 31071 y entidades pagadoras (regulada)",
+"Gobiernos regionales y locales (ejecutora)",
+"ANPD (supervisora)"
+],
+"beneficiarios": "Agricultores familiares (97 % de más de 2,2 millones de unidades agropecuarias según el CENAGRO 2012) y cooperativas agrarias, en particular de café y cacao.",
+"costo_fiscal": "bajo",
+"costo_estado": "No cuantificable con información pública; de orden bajo a medio según cobertura",
+"beneficio_sociedad": "Acceso a mercados con exigencia de trazabilidad, mejores precios y crédito para pequeños productores.",
+"inversion_privada": "Inversión de exportadores y plataformas en sistemas interoperables de trazabilidad; no estimable.",
+"plazo": "corto",
+"prioridad_actual": "alta",
+"plan2050": [
+"agricultura",
+"desarrollo-rural",
+"peru-en-la-era-digital"
+]
+},
+{
+"id": "GOB-15",
+"eje": "gob",
+"borrador": false,
+"titulo": "Ley que complementa el Decreto Legislativo 1565, Ley General de Mejora de la Calidad Regulatoria, con la cláusula de revisión y la evaluación ex post obligatoria de las normas digitales, la revisión periódica de los procedimientos administrativos y el silencio positivo digital",
+"sumilla": "Parte del régimen vigente —el Decreto Legislativo 1565 y su reglamento (D.S. 023-2025-PCM) ya hacen obligatorio el análisis de impacto regulatorio (AIR) ex ante en el Poder Ejecutivo— y agrega solo lo que falta: cláusula de revisión y AIR ex post obligatorio a más tardar a los cinco años para las normas cuyo objeto principal es regular tecnologías digitales; una revisión quinquenal obligatoria de todos los procedimientos administrativos (análisis de calidad regulatoria de stock) con pérdida de exigibilidad de los no ratificados; con excepciones para los controles de salud, seguridad, ambiente y defensa; y la constancia electrónica automática de aprobación por silencio positivo, firmada por agente automatizado y calculada con un calendario oficial de días hábiles, en los procedimientos con expediente y notificación electrónicos. No regula el procedimiento legislativo, que corresponde al Reglamento del Congreso, ni impone obligaciones a los gobiernos regionales y locales.",
+"objeto": "Complementar el Decreto Legislativo 1565 para que las normas digitales del Poder Ejecutivo nazcan con cláusula de revisión y se evalúen ex post, los procedimientos administrativos se revisen al menos cada cinco años y el silencio positivo se acredite de forma automática en los trámites digitales.",
+"articulos": [
+"Objeto",
+"Ámbito de aplicación y definición",
+"Cláusula de revisión de las normas digitales",
+"Evaluación ex post obligatoria",
+"Revisión periódica de los procedimientos administrativos",
+"Constancia electrónica de aprobación por silencio positivo",
+"Responsabilidades",
+"Transparencia y reporte anual"
+],
+"entidades": [
+"PCM-SGP (rectora)",
+"CMCR (supervisora)",
+"PCM-SGTD (ejecutora)",
+"INDECOPI (sancionadora)",
+"Entidades del Poder Ejecutivo (regulada)",
+"CGR (supervisora)",
+"CNSD (supervisora)"
+],
+"beneficiarios": "Ciudadanos y empresas que tramitan ante el Poder Ejecutivo, en especial mipymes y sectores digitales sujetos a normas sectoriales; número no cuantificado con información pública.",
+"costo_fiscal": "bajo",
+"costo_estado": "S/ 1–3 millones (único) más carga recurrente absorbida por equipos existentes",
+"beneficio_sociedad": "Reducción de cargas administrativas y de incertidumbre para ciudadanos y empresas; certeza inmediata cuando la administración no responde a tiempo. Monto no cuantificable sin una medición de costos de cumplimiento.",
+"inversion_privada": "No aplica de forma directa; un entorno regulatorio más estable puede favorecer la inversión en servicios digitales.",
+"plazo": "mediano",
+"prioridad_actual": "alta",
+"plan2050": [
+"reforma-del-estado",
+"transformacion-digital",
+"competitividad"
+]
+},
+{
+"id": "GOB-16",
+"eje": "gob",
+"borrador": false,
+"titulo": "Resolución Legislativa del Congreso que modifica el Reglamento del Congreso de la República para incorporar la evaluación tecnológica y prospectiva en el servicio parlamentario y el seguimiento de las cláusulas de revisión, con resoluciones legislativas conexas que modifican los Reglamentos de la Cámara de Diputados y del Senado sobre el contenido de los dictámenes",
+"sumilla": "Tres resoluciones legislativas coordinadas —no una ley, pues la organización y el procedimiento del Congreso están reservados a sus reglamentos (art. 94 de la Constitución)—. En el Reglamento del Congreso: añade la evaluación tecnológica y prospectiva a los servicios especializados (art. 110), incorpora la Oficina de Evaluación Tecnológica y Prospectiva como unidad de la Dirección General de Servicios Especializados con un consejo consultivo ad honorem (arts. 110-A y 110-B) y regula como procedimiento común el seguimiento de las cláusulas de revisión (art. 82-A). En los reglamentos de cada cámara (art. 137 de Diputados y art. 140 del Senado): el dictamen de las leyes cuyo objeto principal es regular tecnologías digitales o emergentes evalúa una cláusula de revisión de tres a cinco años. No crea pliego ni organismo: se implementa con personal y presupuesto del pliego Congreso.",
+"objeto": "Dotar al Congreso de una capacidad técnica permanente de evaluación tecnológica y prospectiva dentro del servicio parlamentario y establecer la evaluación de cláusulas de revisión en las leyes sobre tecnologías, con su seguimiento público.",
+"articulos": [
+"Objeto",
+"Incorporación del artículo 82-A al Reglamento del Congreso de la República",
+"Modificación del artículo 110 del Reglamento del Congreso de la República",
+"Incorporación del artículo 110-A al Reglamento del Congreso de la República",
+"Incorporación del artículo 110-B al Reglamento del Congreso de la República",
+"Modificación del artículo 137 del Reglamento de la Cámara de Diputados (resolución legislativa conexa)",
+"Modificación del artículo 140 del Reglamento del Senado (resolución legislativa conexa)"
+],
+"entidades": [
+"Comisión Directiva del Congreso (reglamentadora)",
+"DGSE (ejecutora)",
+"Comisiones ordinarias del Senado y de la Cámara de Diputados (regulada)",
+"CONCYTEC (consultiva)"
+],
+"beneficiarios": "Senadores, diputados y sus comisiones; ciudadanía, academia y empresas que acceden a los productos públicos de la Oficina.",
+"costo_fiscal": "bajo",
+"costo_estado": "S/ 1,5–2,5 millones/año (si no se cubre íntegramente con reasignación)",
+"beneficio_sociedad": "Leyes tecnológicas más implementables y actualizadas; información técnica pública y gratuita sobre tecnologías emergentes.",
+"inversion_privada": "No aplica.",
+"plazo": "corto",
+"prioridad_actual": "media",
+"plan2050": [
+"parlamento-academico",
+"ciencia-y-tecnologia",
+"institucionalidad"
+]
+},
+{
+"id": "GOB-17",
+"eje": "gob",
+"borrador": false,
+"titulo": "Ley que encarga a la Presidencia del Consejo de Ministros la función de seguimiento del cumplimiento de la agenda digital y establece el Tablero Público de Metas Digitales",
+"sumilla": "Sin crear pliego, órgano ni plazas, asigna a la PCM, a través de la Secretaría de Gobierno y Transformación Digital y en coordinación con el CEPLAN, la función de unidad de cumplimiento de la agenda digital: hasta quince metas prioritarias aprobadas por decreto supremo con refrendo de los sectores, con responsable, línea de base y trayectoria; rutinas trimestrales de seguimiento con los titulares de los sectores; planes de recuperación para metas en riesgo; y un tablero público en datos abiertos que muestra también el estado de reglamentación de las leyes digitales.",
+"objeto": "Establecer, dentro de la estructura existente de la PCM, una función permanente de seguimiento del cumplimiento de la agenda digital con metas priorizadas, rutinas de seguimiento y un tablero público.",
+"articulos": [
+"Objeto",
+"Definiciones",
+"Función de seguimiento del cumplimiento",
+"Metas digitales prioritarias",
+"Rutinas de seguimiento",
+"Obligaciones de las entidades",
+"Tablero Público de Metas Digitales",
+"Informe anual",
+"Evaluación de la función"
+],
+"entidades": [
+"PCM-SGTD (rectora)",
+"CEPLAN (consultiva)",
+"Consejo de Ministros, presidente del Consejo de Ministros y ministros de los sectores responsables (rectora)",
+"Ministerios y organismos responsables de metas (MTC, MINEDU, MINSA, RENIEC, entre otros) (regulada)"
+],
+"beneficiarios": "Ciudadanía, Congreso, prensa y academia, que acceden a información verificable del avance de la agenda digital; sectores que obtienen coordinación multisectorial.",
+"costo_fiscal": "bajo",
+"costo_estado": "S/ 0,5–1,5 millones/año",
+"beneficio_sociedad": "Transparencia sobre compromisos digitales del Estado y su cumplimiento; servicios digitales que llegan antes.",
+"inversion_privada": "No aplica.",
+"plazo": "corto",
+"prioridad_actual": "alta",
+"plan2050": [
+"transformacion-digital",
+"reforma-del-estado",
+"peru-en-la-era-digital"
+]
+},
+{
+"id": "GOB-18",
+"eje": "gob",
+"borrador": false,
+"titulo": "Ley que modifica el artículo 13 de la Ley 29158, Ley Orgánica del Poder Ejecutivo, para establecer plazos de reglamentación de cumplimiento obligatorio y el reporte semestral al Congreso sobre la reglamentación e implementación de las leyes",
+"sumilla": "Con votación de ley orgánica, modifica el artículo 13 de la Ley Orgánica del Poder Ejecutivo: plazo supletorio de noventa días hábiles cuando la ley o la norma con rango de ley no fija uno, carácter obligatorio del plazo sin que su vencimiento extinga la potestad reglamentaria ni invalide el reglamento tardío (art. 118.8 de la Constitución), prórroga única y motivada de hasta cuarenta y cinco días hábiles comunicada al Congreso, aplicación inmediata de lo que no requiere reglamento e informe del ministro al Congreso cuando el plazo vence. Tipifica el incumplimiento injustificado como negligencia (literal d del art. 85 de la Ley 30057) y crea un registro público de reglamentación y un reporte semestral al Congreso, con un capítulo sobre las leyes digitales.",
+"objeto": "Establecer plazos supletorios y de cumplimiento obligatorio de reglamentación, consecuencias por su incumplimiento y mecanismos de transparencia y reporte al Congreso sobre la reglamentación e implementación de las leyes, con atención especial a las leyes digitales.",
+"articulos": [
+"Objeto",
+"Modificación del artículo 13 de la Ley 29158, Ley Orgánica del Poder Ejecutivo",
+"Registro Público de Reglamentación de Leyes",
+"Reporte semestral al Congreso de la República",
+"Capítulo de leyes digitales",
+"Responsabilidad",
+"Aplicación de los plazos"
+],
+"entidades": [
+"PCM (rectora)",
+"MINJUSDH (ejecutora)",
+"Ministerios responsables de reglamentar (reglamentadora)",
+"Congreso de la República — comisiones ordinarias (supervisora)",
+"Autoridades del procedimiento administrativo disciplinario de cada entidad (sancionadora)"
+],
+"beneficiarios": "Ciudadanos y empresas destinatarios de leyes que hoy no se aplican por falta de reglamento; Congreso y sociedad civil, que obtienen información para el control.",
+"costo_fiscal": "bajo",
+"costo_estado": "S/ 0,2–0,6 millones (único) y costo recurrente marginal",
+"beneficio_sociedad": "Derechos y obligaciones legales que se hacen efectivos a tiempo; previsibilidad para la inversión.",
+"inversion_privada": "No aplica de forma directa.",
+"plazo": "corto",
+"prioridad_actual": "alta",
+"plan2050": [
+"institucionalidad",
+"reforma-del-estado",
+"transformacion-digital"
+]
+},
+{
+"id": "GOB-19",
+"eje": "gob",
+"borrador": false,
+"titulo": "Ley que promueve las mancomunidades municipales para la transformación digital y establece la cooperación técnica del Gobierno Nacional con las municipalidades de baja capacidad digital",
+"sumilla": "En el marco de la Ley 29029, Ley de la Mancomunidad Municipal, reconoce la mancomunidad con objeto de transformación digital (unidad de tecnologías compartida, designación en común del Líder de Gobierno y Transformación Digital y del Oficial de Seguridad y Confianza Digital, adopción conjunta de servicios compartidos y compras conjuntas, con respaldos, continuidad y notificación de incidentes) y obliga al Gobierno Nacional —no a las municipalidades— a ofrecer un paquete de cooperación técnica a las municipalidades de baja capacidad que lo soliciten. La adhesión es voluntaria, con convenio tipo, posible articulación del gobierno regional y rendición de cuentas pública. No modifica la Ley Orgánica de Municipalidades, no transfiere competencias y usa los servicios digitales compartidos que provea la PCM.",
+"objeto": "Facilitar la transformación digital de las municipalidades de baja capacidad mediante mancomunidades municipales con objeto digital y un paquete de cooperación técnica del Gobierno Nacional de adhesión voluntaria, con rendición de cuentas pública.",
+"articulos": [
+"Objeto",
+"Municipalidades de baja capacidad digital",
+"Mancomunidades municipales para la transformación digital",
+"Titularidad y protección de los datos",
+"Paquete de cooperación técnica del Gobierno Nacional",
+"Adhesión voluntaria y autonomía municipal",
+"Articulación regional y académica",
+"Rendición de cuentas"
+],
+"entidades": [
+"PCM-SGTD (ejecutora)",
+"PCM-SD (ejecutora)",
+"INEI (consultiva)",
+"Municipalidades y mancomunidades municipales (beneficiaria)",
+"Gobiernos regionales (ejecutora)",
+"ENAP / CNSD (ejecutora)"
+],
+"beneficiarios": "Municipalidades de baja capacidad digital y sus vecinos; en 2022 el RENAMU registró 1 874 municipalidades que reportaron información (INEI), de las cuales la relación del art. 2 identificaría a las prioritarias.",
+"costo_fiscal": "medio",
+"costo_estado": "S/ 3–6 millones/año",
+"beneficio_sociedad": "Acceso a trámites y pagos municipales en línea en distritos rurales, menos traslados y mayor transparencia local.",
+"inversion_privada": "Demanda agregada de servicios de conectividad y soporte TI regional; monto no estimable.",
+"plazo": "mediano",
+"prioridad_actual": "media",
+"plan2050": [
+"transformacion-digital",
+"desarrollo-rural",
+"reforma-del-estado"
+]
+},
+{
+"id": "GOB-20",
+"eje": "gob",
+"borrador": false,
+"titulo": "Ley que establece la interoperabilidad logístico-digital obligatoria de los terminales portuarios de uso público y de los corredores logísticos priorizados, entre ellos el corredor Chancay–Lima, dispone la publicación de una matriz de competencias regulatorias y modifica el artículo 12 de la Ley 30860, Ley de Fortalecimiento de la Ventanilla Única de Comercio Exterior",
+"sumilla": "Obliga a todos los terminales portuarios de uso público, de titularidad pública o privada, a transmitir sus eventos logísticos por el componente portuario de la VUCE en plazos medibles y con estándares abiertos, con acceso de cada actor limitado a sus propias operaciones, autenticación multifactor y bitácora de cinco años; prioriza, con criterios objetivos, corredores logísticos como el de Chancay–Lima; somete los terminales y el propio componente portuario de la VUCE al régimen de Activos Críticos Nacionales con obligaciones mínimas tipificadas y criterios neutrales; y ordena publicar una matriz conjunta de competencias sin ampliar ni reducir las que fija la ley ni afectar procesos judiciales en trámite.",
+"objeto": "Establecer la interoperabilidad logístico-digital obligatoria de los terminales portuarios de uso público mediante la VUCE, priorizar el corredor Chancay–Lima, aplicar criterios neutrales de seguridad digital y dar certeza sobre la distribución legal de competencias regulatorias, sin modificarlas.",
+"articulos": [
+"Objeto",
+"Ámbito de aplicación y definiciones",
+"Alcance de la obligación de transmisión",
+"Modificación del artículo 12 de la Ley 30860",
+"Corredores logísticos priorizados",
+"Seguridad digital de los terminales portuarios",
+"Matriz conjunta de competencias",
+"Datos abiertos de desempeño portuario",
+"Incumplimiento"
+],
+"entidades": [
+"MINCETUR (rectora)",
+"APN (supervisora)",
+"SUNAT (ejecutora)",
+"OSITRAN (consultiva)",
+"INDECOPI (consultiva)",
+"MTC (reglamentadora)",
+"— (regulada)",
+"CNSD (consultiva)"
+],
+"beneficiarios": "Exportadores, importadores, agentes de carga, transportistas y navieras usuarios de los terminales; entidades de control; usuarios e inversionistas que obtienen certeza sobre la distribución de competencias.",
+"costo_fiscal": "bajo",
+"costo_estado": "No cuantificable con información pública",
+"beneficio_sociedad": "Menores tiempos y costos logísticos para usuarios del puerto; certeza regulatoria; indicadores públicos comparables por terminal. No cuantificado con base pública.",
+"inversion_privada": "Puede facilitar inversión logística en el corredor (almacenes, zonas económicas especiales) al reducir incertidumbre; no se estima monto.",
+"plazo": "mediano",
+"prioridad_actual": "alta",
+"plan2050": [
+"maritimo-fluvial-y-lacustre",
+"comercio-exterior-e-insercion-en-el-merc",
+"transformacion-digital"
+]
+},
+{
+"id": "GOB-21",
+"eje": "gob",
+"borrador": false,
+"titulo": "Ley que regula el uso complementario de herramientas digitales en la consulta previa y crea el Registro Público de Acuerdos y Compromisos de los procesos de consulta previa y de diálogo, y modifica el literal g) del artículo 19 de la Ley 29785, Ley del derecho a la consulta previa a los pueblos indígenas u originarios, reconocido en el Convenio 169 de la Organización Internacional del Trabajo",
+"sumilla": "Establece que las herramientas digitales solo complementan y nunca sustituyen las etapas presenciales, interculturales y de buena fe de la consulta previa; crea, dentro de la Plataforma GOB.PE y a cargo de las entidades que ya tienen la función, un registro público de los acuerdos de consulta previa y de los compromisos asumidos por el Estado en procesos de diálogo, con responsable, plazo, fuente de financiamiento y estado de cumplimiento verificable; y exige que los compromisos con gasto cuenten con previsión presupuestal o lo declaren.",
+"objeto": "Garantizar que la digitalización complemente sin sustituir la consulta previa presencial, intercultural y de buena fe, y establecer la publicidad y el seguimiento verificable de los acuerdos de consulta previa y de los compromisos estatales asumidos en procesos de diálogo.",
+"articulos": [
+"Objeto",
+"Ámbito de aplicación",
+"Principio de no sustitución",
+"Herramientas digitales asistidas",
+"Registro Público de Acuerdos y Compromisos",
+"Seguimiento verificable",
+"Compromisos con incidencia presupuestal",
+"Protección de las personas y de la información sensible",
+"Modificación del literal g) del artículo 19 de la Ley 29785",
+"Infracciones y rendición de cuentas"
+],
+"entidades": [
+"MINCUL-VMI (rectora)",
+"PCM (ejecutora)",
+"SGTD (ejecutora)",
+"— (regulada)",
+"DP (beneficiaria)",
+"ANTAIP (sancionadora)"
+],
+"beneficiarios": "Pueblos indígenas u originarios consultados y sus organizaciones; comunidades y poblaciones de zonas de conflicto socioambiental (94 conflictos activos socioambientales a julio de 2026 según la Defensoría); ciudadanía y periodismo que hacen seguimiento.",
+"costo_fiscal": "bajo",
+"costo_estado": "No cuantificable con información pública",
+"beneficio_sociedad": "Exigibilidad práctica de acuerdos, garantía de consulta presencial e intercultural, acceso a información en la propia lengua. No cuantificado.",
+"inversion_privada": "Puede reducir la paralización de proyectos asociada a conflictos por compromisos incumplidos; no se estima monto.",
+"plazo": "mediano",
+"prioridad_actual": "alta",
+"plan2050": [
+"cohesion-social",
+"institucionalidad",
+"transformacion-digital"
+]
+},
+{
+"id": "GOB-22",
+"eje": "gob",
+"borrador": false,
+"titulo": "Ley que establece la trazabilidad digital del canon, sobrecanon, regalías y fondos de desarrollo socioeconómico desde su transferencia hasta la inversión y sus resultados, y promueve el presupuesto participativo en línea, e incorpora el artículo 10-A a la Ley 28056, Ley Marco del Presupuesto Participativo",
+"sumilla": "Obliga a publicar en formato abierto, por gobierno regional, municipalidad y universidad pública receptora, el recorrido completo de los recursos del canon, sobrecanon, regalías y fondos de desarrollo socioeconómico: monto transferido, inversiones financiadas con código único, contratos, avance físico y brechas atendidas; habilita la participación digital complementaria en el presupuesto participativo sin reemplazar los talleres presenciales; y deja intactas la distribución, los porcentajes y los usos fijados por las leyes especiales del canon.",
+"objeto": "Establecer la trazabilidad digital y pública de los recursos del canon, sobrecanon, regalías y fondos de desarrollo socioeconómico desde su transferencia hasta las inversiones que financian y sus resultados, y promover la participación digital complementaria en el presupuesto participativo, sin modificar la distribución ni los usos de dichos recursos.",
+"articulos": [
+"Objeto",
+"Ámbito de aplicación",
+"Intangibilidad de la distribución y de los usos",
+"Trazabilidad de la transferencia a la inversión",
+"Tablero territorial de la renta extractiva",
+"Deberes de las entidades receptoras",
+"Incorporación del artículo 10-A a la Ley 28056",
+"Vigilancia ciudadana",
+"Formatos y datos abiertos",
+"Supervisión e infracciones"
+],
+"entidades": [
+"MEF (ejecutora)",
+"SGTD (ejecutora)",
+"CGR (consultiva)",
+"OECE (consultiva)",
+"— (regulada)",
+"ANTAIP (sancionadora)"
+],
+"beneficiarios": "Población de las zonas productoras y de todas las circunscripciones receptoras; comités de vigilancia; Contraloría y periodismo de datos. Volumen trazable: S/ 17 551 millones transferidos en 2025 (Congreso, con datos del MEF).",
+"costo_fiscal": "bajo",
+"costo_estado": "No cuantificable con información pública",
+"beneficio_sociedad": "Respuesta verificable a la pregunta de qué se hizo con la renta extractiva en cada distrito; participación digital complementaria en el presupuesto participativo. No cuantificado.",
+"inversion_privada": "No aplica directamente; puede mejorar la licencia social de proyectos extractivos al visibilizar beneficios locales.",
+"plazo": "corto",
+"prioridad_actual": "alta",
+"plan2050": [
+"mineria",
+"institucionalidad",
+"transformacion-digital"
+]
+},
+{
+"id": "GOB-23",
+"eje": "gob",
+"borrador": false,
+"titulo": "Ley de interculturalidad digital del Estado que garantiza servicios y contenidos públicos digitales en lenguas indígenas u originarias e interpretación remota en los canales digitales, e incorpora el artículo 15-A a la Ley 29735, Ley que regula el uso, preservación, desarrollo, recuperación, fomento y difusión de las lenguas originarias del Perú",
+"sumilla": "Ordena aprobar y actualizar cada año, según la demanda territorial, un catálogo de servicios y contenidos digitales que deben estar disponibles en lenguas indígenas u originarias (información de trámites, citas, avisos de notificación y alertas), en forma escrita y de audio; garantiza interpretación remota gratuita en los canales digitales mediante la Central de Interpretación y Traducción del Ministerio de Cultura o intérpretes registrados; exige validación humana de toda traducción automática que incida en derechos; y permite registrar voluntariamente la lengua preferida. Remite a IA-06 lo relativo a corpus y modelos de lenguaje.",
+"objeto": "Garantizar el ejercicio de los derechos lingüísticos en los canales digitales del Estado mediante un catálogo obligatorio de servicios y contenidos en lenguas indígenas u originarias según la demanda territorial, interpretación remota gratuita y estándares de calidad con validación humana.",
+"articulos": [
+"Objeto",
+"Definiciones",
+"Catálogo de servicios y contenidos digitales en lenguas originarias",
+"Interpretación remota en los canales digitales",
+"Calidad y validación humana",
+"Lengua preferida",
+"No exclusión",
+"Incorporación del artículo 15-A a la Ley 29735",
+"Seguimiento y publicación"
+],
+"entidades": [
+"MINCUL (rectora)",
+"SGTD (ejecutora)",
+"— (regulada)",
+"ANPD (supervisora)",
+"— (supervisora)"
+],
+"beneficiarios": "Más de 4,4 millones de personas con lengua materna indígena u originaria (Ministerio de Cultura sobre Censo 2017), en especial en zonas rurales con baja conectividad. El uso de internet entre quienes aprendieron una lengua nativa fue de 67,2 % en el II trimestre de 2026 (INEI).",
+"costo_fiscal": "bajo",
+"costo_estado": "No cuantificable con información pública",
+"beneficio_sociedad": "Acceso efectivo a servicios digitales en la propia lengua, con apoyo humano y protección frente a traducciones automáticas erróneas. No cuantificado.",
+"inversion_privada": "No aplica.",
+"plazo": "mediano",
+"prioridad_actual": "alta",
+"plan2050": [
+"cohesion-social",
+"transformacion-digital",
+"peru-en-la-era-digital"
+]
+},
+{
+"id": "GOB-24",
+"eje": "gob",
+"borrador": false,
+"titulo": "Ley que establece la evaluación de impacto territorial y de género de las políticas, programas e inversiones de transformación digital",
+"sumilla": "Obliga a que las políticas, planes, programas presupuestales e inversiones de transformación digital del Poder Ejecutivo, y progresivamente de los gobiernos regionales, definan sus metas e indicadores desagregados por área urbana o rural, departamento, sexo, edad, lengua aprendida en la niñez y discapacidad; incorpora un análisis de impacto territorial y de género en los instrumentos de evaluación ex ante y ex post ya existentes, sin crear procedimientos ni órganos nuevos; y ordena a la Secretaría de Gobierno y Transformación Digital publicar cada año un informe abierto de brechas digitales que indique si cada intervención las reduce o las amplía.",
+"objeto": "Establecer la obligación de medir, ex ante y ex post y con indicadores desagregados, el impacto territorial y de género de las políticas, programas e inversiones de transformación digital, utilizando los instrumentos de planeamiento, presupuesto, inversión y evaluación existentes.",
+"articulos": [
+"Objeto",
+"Ámbito de aplicación",
+"Indicadores desagregados",
+"Análisis ex ante de impacto territorial y de género",
+"Evaluación ex post",
+"Informe anual de brechas digitales",
+"Información estadística",
+"Participación",
+"Uso de los resultados"
+],
+"entidades": [
+"SGTD (rectora)",
+"CEPLAN (reglamentadora)",
+"MEF (reglamentadora)",
+"INEI (ejecutora)",
+"MIMP / CONADIS / MINCUL (consultiva)",
+"— (regulada)",
+"ANPD (supervisora)"
+],
+"beneficiarios": "Población en situación de brecha digital: hogares rurales (25,0 % con internet en el I trimestre de 2026, INEI), mujeres, personas adultas mayores, hablantes de lenguas originarias y personas con discapacidad.",
+"costo_fiscal": "bajo",
+"costo_estado": "No cuantificable con información pública",
+"beneficio_sociedad": "Servicios e inversiones digitales diseñados para llegar a quienes hoy quedan fuera; información pública para el control ciudadano. No cuantificado.",
+"inversion_privada": "No aplica.",
+"plazo": "corto",
+"prioridad_actual": "media",
+"plan2050": [
+"transformacion-digital",
+"cohesion-social",
+"desarrollo-rural"
+]
+},
+{
+"id": "IA-15",
+"eje": "ia",
+"borrador": false,
+"titulo": "Ley que establece reglas de responsabilidad civil, seguro y operación segura de sistemas autónomos y robóticos en la minería, el transporte y la logística",
+"sumilla": "Precisa que la operación de sistemas autónomos y robóticos en minería, transporte y logística es actividad riesgosa a efectos del artículo 1970 del Código Civil, atribuye la responsabilidad frente a terceros al operador, con derecho de repetición contra fabricantes e integradores, y excluye que la conducta del sistema sea tratada como caso fortuito o hecho de tercero; exige registro de eventos, seguro de responsabilidad civil, gestión de riesgos con referencia a normas técnicas internacionales neutrales y supervisión humana, y somete su circulación en vías públicas a autorización del MTC.",
+"objeto": "Dar seguridad jurídica a víctimas, operadores y fabricantes sobre la responsabilidad civil por daños causados por sistemas autónomos y robóticos en minería, transporte y logística, y fijar condiciones mínimas de operación segura, registro de eventos y aseguramiento, en coherencia con la Ley 31814 y su reglamento.",
+"articulos": [
+"Objeto",
+"Ámbito de aplicación",
+"Definiciones",
+"Responsabilidad civil del operador",
+"Registro de eventos y acceso a la información",
+"Seguro de responsabilidad civil",
+"Operación segura",
+"Circulación en vías públicas",
+"Supervisión, infracciones y sanciones"
+],
+"entidades": [
+"MTC (reglamentadora)",
+"MINEM (reglamentadora)",
+"OSINERGMIN (sancionadora)",
+"SUTRAN (sancionadora)",
+"SUNAFIL (sancionadora)",
+"SBS (reglamentadora)",
+"INACAL (consultiva)",
+"GORE (sancionadora)"
+],
+"beneficiarios": "Terceros potencialmente afectados (trabajadores de contratistas, peatones, usuarios de vías), operadores y aseguradoras que ganan certeza jurídica. Número no estimable con información pública.",
+"costo_fiscal": "bajo",
+"costo_estado": "S/ 0,5–1,5 millones/año (supervisión y autorizaciones)",
+"beneficio_sociedad": "Reparación más rápida y segura de las víctimas y operación más segura de sistemas autónomos; no cuantificable con información pública.",
+"inversion_privada": "Certeza jurídica para inversiones en automatización minera y logística y en pilotos de vehículos autónomos; monto no estimable.",
+"plazo": "mediano",
+"prioridad_actual": "media",
+"plan2050": [
+"inteligencia-artificial",
+"mineria",
+"transportes"
+]
+},
+{
+"id": "IA-16",
+"eje": "ia",
+"borrador": false,
+"titulo": "Ley que modifica el artículo 15 de la Ley 29733, Ley de Protección de Datos Personales, para modernizar el régimen de flujo transfronterizo de datos personales y establece una hoja de ruta hacia el reconocimiento de nivel adecuado de protección por la Unión Europea",
+"sumilla": "Sustituye el artículo 15 de la Ley 29733 para dar rango legal a las decisiones de nivel adecuado, a las cláusulas contractuales modelo, a las normas corporativas vinculantes y a las certificaciones reconocidas, acotar las excepciones con reserva de ley y precisar la responsabilidad del exportador; simplifica la comunicación de flujos a la autoridad; y encarga al Poder Ejecutivo una hoja de ruta con hitos públicos para solicitar a la Comisión Europea una decisión de adecuación y evaluar la participación en el Foro Global CBPR y la adhesión al Convenio 108 modernizado, sin crear organismos.",
+"objeto": "Modernizar el régimen de flujo transfronterizo de datos personales de la Ley 29733 con mecanismos de transferencia reconocidos internacionalmente y fijar una hoja de ruta verificable para obtener el reconocimiento de nivel adecuado de protección por la Unión Europea y otros esquemas de interoperabilidad.",
+"articulos": [
+"Objeto",
+"Modificación del artículo 15 de la Ley 29733",
+"Comunicación simplificada de flujos",
+"Incorporación del párrafo 3.2 al artículo 3 de la Ley 29733",
+"Hoja de ruta hacia la adecuación con la Unión Europea",
+"Interoperabilidad con otros mecanismos internacionales",
+"Infracciones"
+],
+"entidades": [
+"ANPD (rectora)",
+"MINJUSDH (ejecutora)",
+"RREE (consultiva)",
+"MINCETUR (consultiva)",
+"PCM-SGTD (consultiva)",
+"DINI (regulada)"
+],
+"beneficiarios": "Empresas exportadoras de servicios con datos personales (software, centros de contacto, analítica, nube) y titulares de datos, peruanos y extranjeros. Número no estimable con información pública.",
+"costo_fiscal": "bajo",
+"costo_estado": "S/ 0,4–1 millón/año",
+"beneficio_sociedad": "Menores costos de cumplimiento para exportar servicios con datos personales si se obtiene la adecuación; mejor protección de titulares por límites a excepciones y responsabilidad del exportador. No cuantificable con información pública.",
+"inversion_privada": "Potencial atracción de centros de servicios y operaciones de datos orientados a Europa; monto no estimable.",
+"plazo": "mediano",
+"prioridad_actual": "alta",
+"plan2050": [
+"peru-en-la-era-digital",
+"comercio-exterior-e-insercion-en-el-merc",
+"transformacion-digital"
+]
+},
+{
+"id": "SOB-09",
+"eje": "sober",
+"borrador": false,
+"titulo": "Ley que modifica la Ley 28832, Ley para asegurar el desarrollo eficiente de la generación eléctrica, para promover el suministro de energía firme de fuentes renovables a grandes cargas digitales e industriales mediante contratos por bloques horarios, almacenamiento de energía y planificación anticipada de la transmisión",
+"sumilla": "Incorpora en la Ley 28832 el reconocimiento del almacenamiento de energía como actividad que participa en el mercado, una metodología tecnológicamente neutral de potencia y energía firme para centrales renovables, híbridas y con almacenamiento, contratos bilaterales por bloques horarios con usuarios libres, un registro de garantías de origen a cargo del COES y criterios de planificación anticipada de la transmisión hacia zonas de recurso renovable y grandes cargas, sin subsidios ni traslado de costos a los usuarios regulados.",
+"objeto": "Modificar la Ley 28832 para habilitar el suministro de energía firme de fuentes renovables a grandes cargas mediante almacenamiento, metodologías neutrales de potencia y energía firme, contratos por bloques horarios, garantías de origen y planificación anticipada de la transmisión.",
+"articulos": [
+"Objeto",
+"Incorporación de numerales al artículo 1 de la Ley 28832",
+"Incorporación del numeral 3.3 al artículo 3 de la Ley 28832",
+"Incorporación del numeral 21.4 al artículo 21 de la Ley 28832",
+"Incorporación de los artículos 33-A y 33-B a la Ley 28832",
+"Cargas flexibles, servicios complementarios y seguridad digital",
+"Neutralidad y protección de los usuarios regulados",
+"Transparencia de la capacidad de conexión",
+"Relación con otras normas"
+],
+"entidades": [
+"MINEM (rectora)",
+"COES (ejecutora)",
+"Osinergmin (supervisora)",
+"INDECOPI (sancionadora)"
+],
+"beneficiarios": "Usuarios libres de gran demanda (centros de datos, minería, industria), inversionistas en generación renovable, almacenamiento y transmisión; indirectamente, usuarios regulados por mayor competencia en bloques horarios. No se cuantifica por falta de base.",
+"costo_fiscal": "nulo",
+"costo_estado": "S/ 0",
+"beneficio_sociedad": "Más competencia y oferta renovable; potencial reducción de precios en bloques solares. No cuantificable con información pública.",
+"inversion_privada": "Podría movilizar inversión en almacenamiento, centrales híbridas y transmisión; el monto depende del mercado y no se estima.",
+"plazo": "mediano",
+"prioridad_actual": "alta",
+"plan2050": [
+"energia-electrica",
+"energia",
+"promocion-de-la-inversion"
+]
+},
+{
+"id": "SOB-10",
+"eje": "sober",
+"borrador": false,
+"titulo": "Ley que modifica los artículos 18, 57, 120 y 121 de la Ley 29338, Ley de Recursos Hídricos, para establecer la medición telemétrica segura de los usos del agua, la publicidad de los derechos y volúmenes utilizados y el uso de modelos y gemelos digitales de cuencas en la planificación hídrica",
+"sumilla": "Precisa en la Ley 29338 la obligación de medir los volúmenes captados con transmisión telemétrica por pasarelas segregadas, de solo lectura y unidireccionales, de forma escalonada y según umbrales de volumen, empezando por los grandes usos no agrarios y las captaciones de las organizaciones de usuarios; ordena publicar en formato abierto los derechos de uso y los volúmenes efectivamente utilizados con reserva de datos personales de pequeños usuarios y publicación generalizada y desfasada para infraestructura sensible; tipifica la manipulación de la medición en el artículo 120; y dispone balances hídricos públicos y modelos o gemelos digitales en las cuencas con estrés hídrico como sustento de la asignación de nuevos derechos.",
+"objeto": "Modificar la Ley 29338 para establecer la medición telemétrica escalonada de los usos del agua, la publicidad abierta de derechos y volúmenes utilizados y el uso de balances hídricos y gemelos digitales de cuencas en la planificación y la asignación de derechos.",
+"articulos": [
+"Objeto",
+"Modificación del artículo 18 de la Ley 29338",
+"Modificación del artículo 57 de la Ley 29338",
+"Gradualidad de la medición telemétrica",
+"Balance hídrico público y asignación de derechos",
+"Modelos y gemelos digitales de cuencas",
+"Interoperabilidad",
+"Incorporación de los numerales 14 y 15 al artículo 120 y de un párrafo al artículo 121 de la Ley 29338",
+"Usuarios agrarios de pequeña escala"
+],
+"entidades": [
+"ANA (rectora)",
+"MIDAGRI (reglamentadora)",
+"SENAMHI (consultiva)",
+"SUNASS (consultiva)",
+"OEFA (consultiva)",
+"CRHC (beneficiaria)",
+"CNSD (consultiva)"
+],
+"beneficiarios": "Población de cuencas con estrés hídrico, pequeños agricultores (asignación más transparente), prestadores de saneamiento y la propia ANA. No se cuantifica por falta de base.",
+"costo_fiscal": "bajo",
+"costo_estado": "S/ 4–10 millones/año",
+"beneficio_sociedad": "Transparencia sobre quién usa cuánta agua, protección de acuíferos sobreexplotados y base para la adaptación al cambio climático. No cuantificable con información pública.",
+"inversion_privada": "Mercado de equipos y servicios de medición y telemetría; no se estima.",
+"plazo": "mediano",
+"prioridad_actual": "alta",
+"plan2050": [
+"aguas",
+"cuencas-hidrograficas",
+"transformacion-digital"
+]
+},
+{
+"id": "SOB-11",
+"eje": "sober",
+"borrador": false,
+"titulo": "Ley que promueve la bioeconomía basada en la biodiversidad y establece reglas para el acceso a los recursos genéticos, la información digital de secuencias y la participación justa y equitativa en los beneficios",
+"sumilla": "En el marco de la Decisión 391 de la CAN y del Protocolo de Nagoya, da rango de ley a reglas sobre la información digital de secuencias (DSI): obligaciones de depósito con origen y de reparto de beneficios cuando la DSI se genera bajo un contrato de acceso peruano, y libre uso para investigación de la DSI en bases de datos abiertas, en tanto sea compatible con la Decisión 391; integra el procedimiento de acceso para investigación no comercial con resolución expresa y silencio negativo; fortalece los puntos de verificación y la vigilancia contra la biopiratería; y ordena una hoja de ruta de bioeconomía, sin crear tributos ni entidades.",
+"objeto": "Promover la bioeconomía basada en la biodiversidad y establecer reglas de rango legal sobre la información digital de secuencias, el procedimiento de acceso para investigación y la participación en los beneficios, en el marco de la Decisión 391 y del Protocolo de Nagoya.",
+"articulos": [
+"Objeto",
+"Ámbito y prevalencia",
+"Definiciones",
+"Información digital de secuencias generada bajo autorización o contrato de acceso",
+"Información digital de secuencias en bases de datos de acceso abierto",
+"Procedimiento integrado para investigación sin fines comerciales",
+"Conocimientos colectivos y beneficios para los pueblos indígenas",
+"Hoja de ruta de bioeconomía",
+"Puntos de verificación y divulgación de origen",
+"Posición internacional"
+],
+"entidades": [
+"MINAM (rectora)",
+"SERFOR (ejecutora)",
+"INIA (ejecutora)",
+"PRODUCE (ejecutora)",
+"SERNANP (consultiva)",
+"INDECOPI (supervisora)",
+"CNB (supervisora)",
+"CONCYTEC (consultiva)",
+"RREE (ejecutora)",
+"INS (consultiva)",
+"MINCUL (consultiva)"
+],
+"beneficiarios": "Investigadores y universidades (procedimiento más corto y seguridad jurídica), pueblos indígenas y comunidades proveedoras (beneficios y consentimiento), emprendimientos de bioeconomía. No se cuantifica por falta de base.",
+"costo_fiscal": "bajo",
+"costo_estado": "S/ 0,5–1,5 millones (único) y S/ 0,3–0,8 millones/año",
+"beneficio_sociedad": "Más investigación sobre biodiversidad peruana, oportunidades de bioeconomía y beneficios para pueblos indígenas. No cuantificable con información pública.",
+"inversion_privada": "Podría facilitar proyectos de bioprospección y biocomercio con socios nacionales; no se estima.",
+"plazo": "mediano",
+"prioridad_actual": "media",
+"plan2050": [
+"biotecnologia",
+"medio-ambiente",
+"ciencia-y-tecnologia"
+]
+},
+{
+"id": "SOB-12",
+"eje": "sober",
+"borrador": false,
+"titulo": "Ley que establece el procedimiento de evaluación de seguridad de las adquisiciones de control sobre activos críticos nacionales y empresas de tecnologías sensibles",
+"sumilla": "Establece, por razón de seguridad nacional (art. 72 de la Constitución) y conforme a la Recomendación de la OCDE de 2009, un procedimiento temporal, reglado y de plazos cortos para evaluar las adquisiciones de control sobre titulares de Activos Críticos Nacionales y empresas de tecnologías sensibles, aplicable a todo adquirente sin discriminación por nacionalidad, con deber de notificar basado en la comunicación reservada de la calificación al titular, factores de riesgo tasados, medidas proporcionales de hasta cinco años renovables, prohibición solo como último recurso por resolución suprema motivada, resumen no clasificado para la defensa, reglas de desinversión, control judicial y vigencia de diez años con evaluación, sin crear organismos.",
+"objeto": "Establecer un procedimiento reglado, proporcional y no discriminatorio de evaluación de seguridad de las adquisiciones de control sobre titulares de Activos Críticos Nacionales y empresas de tecnologías sensibles.",
+"articulos": [
+"Objeto",
+"Principios",
+"Operaciones comprendidas",
+"Lista de tecnologías sensibles",
+"Autoridad de evaluación",
+"Procedimiento y plazos",
+"Factores de riesgo",
+"Decisión y medidas",
+"Temporalidad de las medidas",
+"Revisión de oficio de operaciones no notificadas",
+"Infracciones y sanciones",
+"Confidencialidad, tratados y transparencia"
+],
+"entidades": [
+"MEF (rectora)",
+"PCM (consultiva)",
+"DINI (consultiva)",
+"RREE (consultiva)",
+"MINDEF (consultiva)",
+"— (consultiva)",
+"INDECOPI (consultiva)",
+"CGR (supervisora)"
+],
+"beneficiarios": "Población usuaria de servicios esenciales; inversionistas, por la certeza de reglas y plazos. No se cuantifica por falta de base.",
+"costo_fiscal": "bajo",
+"costo_estado": "S/ 1–2,5 millones/año",
+"beneficio_sociedad": "Mayor continuidad y seguridad de servicios críticos y protección de datos a gran escala. No cuantificable con información pública.",
+"inversion_privada": "Neutral o positiva si los plazos se cumplen; podría facilitar inversiones de socios que exigen estándares de seguridad.",
+"plazo": "corto",
+"prioridad_actual": "media",
+"plan2050": [
+"promocion-de-la-inversion",
+"defensa",
+"comercio-exterior-e-insercion-en-el-merc"
+]
+},
+{
+"id": "SOB-13",
+"eje": "sober",
+"borrador": false,
+"titulo": "Ley que establece el régimen de control de las exportaciones, reexportaciones, tránsito, corretaje y transferencias de tecnología de bienes y tecnologías de doble uso",
+"sumilla": "Crea el régimen nacional de control de bienes, software y tecnologías de doble uso: lista nacional alineada con los regímenes multilaterales e incorporando sus notas de criptografía, de software y de tecnología, con exclusión del código abierto; licencias individuales, globales y generales en la VUCE con información de acceso restringido; cláusula de uso final para armas de destrucción masiva y embargos del Consejo de Seguridad; control del tránsito, el corretaje y las transferencias intangibles, con supuestos de transferencia a extranjeros en el país fijados en la propia ley; excepciones expresas para la investigación básica, la información de dominio público, la divulgación de vulnerabilidades y la respuesta a incidentes; e infracciones tipificadas con regla de non bis in idem, sin crear organismos.",
+"objeto": "Establecer el régimen nacional de control de exportaciones, reexportaciones, tránsito, corretaje, asistencia técnica y transferencias de tecnología de bienes y tecnologías de doble uso.",
+"articulos": [
+"Objeto",
+"Definiciones",
+"Ámbito y regímenes especiales",
+"Lista Nacional de Control",
+"Autoridad de control y licencias",
+"Cláusula de uso final",
+"Criterios de evaluación",
+"Tránsito, transbordo y depósito",
+"Investigación, educación, dominio público y seguridad digital",
+"Certificados de importación y de usuario final",
+"Obligaciones de los operadores",
+"Infracciones y sanciones"
+],
+"entidades": [
+"MINCETUR (rectora)",
+"SUNAT (supervisora)",
+"RREE (consultiva)",
+"MINDEF (consultiva)",
+"PRODUCE (consultiva)",
+"IPEN (consultiva)",
+"CONIDA (consultiva)",
+"DINI (consultiva)",
+"MP (beneficiaria)"
+],
+"beneficiarios": "Empresas que importan insumos controlados o se integran a cadenas tecnológicas, universidades (seguridad jurídica) y el Estado en sus compromisos de no proliferación. No se cuantifica por falta de base.",
+"costo_fiscal": "bajo",
+"costo_estado": "S/ 2–4 millones (primer año) y S/ 1,5–3 millones/año",
+"beneficio_sociedad": "Menor riesgo de que el país sea usado para desvío; acceso a insumos y tecnologías que requieren garantías de uso final. No cuantificable con información pública.",
+"inversion_privada": "Podría facilitar inversiones en electrónica, espacio y manufactura avanzada que exigen controles de exportación creíbles; no se estima.",
+"plazo": "mediano",
+"prioridad_actual": "media",
+"plan2050": [
+"comercio-exterior-e-insercion-en-el-merc",
+"defensa",
+"industria"
+]
+},
+{
+"id": "TAL-15",
+"eje": "talento",
+"borrador": false,
+"titulo": "Ley que facilita la atracción de talento tecnológico extranjero y agiliza el reconocimiento de grados, títulos y certificaciones en ciencia, tecnología, ingeniería y matemáticas",
+"sumilla": "Incorpora en el numeral 29.2 del artículo 29 del Decreto Legislativo 1350, Decreto Legislativo de Migraciones, la calidad migratoria de residente talento tecnológico que habilita a trabajar con uno o más empleadores o por cuenta propia en ocupaciones STEM con escasez acreditada; excluye a ese personal de los porcentajes limitativos y de la aprobación previa de contratos del Decreto Legislativo 689; y fija reglas de reconocimiento ágil por la SUNEDU de grados y títulos STEM verificables digitalmente, sin alterar la colegiación ni el ejercicio de profesiones reguladas.",
+"objeto": "Facilitar el ingreso, la residencia y la inserción laboral de profesionales y técnicos extranjeros en ocupaciones STEM con escasez acreditada, y agilizar el reconocimiento de grados, títulos y certificaciones STEM obtenidos en el extranjero, por peruanos y extranjeros, mediante modificaciones puntuales del Decreto Legislativo 1350 y del Decreto Legislativo 689.",
+"articulos": [
+"Objeto",
+"Lista de ocupaciones tecnológicas con escasez",
+"Incorporación de la residencia de talento tecnológico en el numeral 29.2 del artículo 29 del Decreto Legislativo 1350",
+"Condiciones de la residencia de talento tecnológico",
+"Incorporación de un literal al artículo 3 del Decreto Legislativo 689",
+"Reconocimiento ágil de grados y títulos STEM",
+"Profesiones reguladas y colegiación",
+"Igualdad de trato y prevención del abuso",
+"Información y evaluación"
+],
+"entidades": [
+"MIGRACIONES (ejecutora)",
+"MTPE (rectora)",
+"SUNEDU (ejecutora)",
+"MINEDU (ejecutora)",
+"SUNAFIL (sancionadora)",
+"PRODUCE / CONCYTEC (consultiva)"
+],
+"beneficiarios": "Empresas tecnológicas, de servicios exportables y centros de datos con vacantes STEM; profesionales extranjeros y peruanos con grados obtenidos en el exterior. Número no estimable con información pública.",
+"costo_fiscal": "bajo",
+"costo_estado": "S/ 0,3–1 millón (único) en ajustes de sistemas de MIGRACIONES, MTPE y SUNEDU",
+"beneficio_sociedad": "Cobertura más rápida de vacantes STEM críticas, transferencia de conocimiento y menor costo y tiempo de reconocimiento de títulos para peruanos retornados. No cuantificable con información pública.",
+"inversion_privada": "Facilita inversiones en servicios digitales exportables y centros de datos que dependen de talento especializado; monto no estimable.",
+"plazo": "corto",
+"prioridad_actual": "media",
+"plan2050": [
+"capital-del-conocimiento",
+"competitividad",
+"ciencia-y-tecnologia"
+]
+},
+{
+"id": "TAL-16",
+"eje": "talento",
+"borrador": false,
+"titulo": "Ley que crea la cuenta individual de aprendizaje a lo largo de la vida para la reconversión de trabajadores ante la automatización",
+"sumilla": "Crea la cuenta individual de aprendizaje como un derecho portable de cada persona, dependiente o independiente, formada por un registro digital de formación y credenciales y por una cuenta de depósito en una empresa del sistema financiero, que se alimenta con aportes voluntarios del trabajador, del empleador, de la negociación colectiva y de la cooperación, y que solo puede usarse para pagar formación acreditada; no impone gasto público: cualquier aporte estatal queda como meta indicativa sujeta a disponibilidad presupuestal.",
+"objeto": "Crear la cuenta individual de aprendizaje como instrumento portable, de titularidad del trabajador, para acumular aportes voluntarios y registrar formación y credenciales, destinado exclusivamente a financiar formación acreditada para la reconversión y el desarrollo de competencias, sin imponer gasto público.",
+"articulos": [
+"Objeto",
+"Definiciones",
+"Titularidad y portabilidad",
+"Fuentes de aportes",
+"Naturaleza de los aportes del empleador",
+"Uso de los fondos",
+"Priorización y orientación",
+"Información, datos personales y transparencia",
+"Aportes públicos sujetos a disponibilidad presupuestal",
+"Infracciones y sanciones"
+],
+"entidades": [
+"MTPE (rectora)",
+"SBS (reglamentadora)",
+"INDECOPI (sancionadora)",
+"SUNAFIL (sancionadora)",
+"MEF (consultiva)",
+"EsSalud (beneficiaria)",
+"PCM-SGTD (ejecutora)"
+],
+"beneficiarios": "Trabajadores dependientes e independientes, en especial los de ocupaciones expuestas a la automatización; la población ocupada asciende a unos 17,6 millones de personas (INEI, III trimestre 2025), aunque la cobertura efectiva dependerá de los aportes voluntarios.",
+"costo_fiscal": "bajo",
+"costo_estado": "S/ 0,5–1,5 millones (único) para el registro digital en plataformas del MTPE; aportes públicos: S/ 0 salvo decisión futura con informe del MEF",
+"beneficio_sociedad": "Instrumento portable de reconversión para trabajadores, incluidos independientes; mayor empleabilidad ante la automatización. No cuantificable con información pública.",
+"inversion_privada": "Aportes voluntarios de empleadores, sindicatos y cooperación canalizados a formación acreditada; monto no estimable.",
+"plazo": "mediano",
+"prioridad_actual": "media",
+"plan2050": [
+"capital-del-conocimiento",
+"educacion-tres-niveles",
+"transformacion-digital"
+]
 }
 ]

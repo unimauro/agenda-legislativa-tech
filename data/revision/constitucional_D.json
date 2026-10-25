@@ -1,0 +1,604 @@
+[
+ {
+  "id": "ECO-15",
+  "especialidad": "constitucional",
+  "veredicto": "observaciones",
+  "resumen": "Respeta la reserva de ley tributaria (art. 74): fija tasa y base en la ley, no crea beneficios y difiere la vigencia al ejercicio siguiente. La parte laboral se limita a un encargo de informe con cláusula de no regresividad, compatible con los arts. 23-27. Las observaciones son de técnica legislativa y de previsión fiscal.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículos 2 y 3",
+    "problema": "La ley 'unifica' y fija la escala del RMT en un texto paralelo, sin modificar expresamente el Decreto Legislativo 1269 (arts. 1, 3 y 5). Dos normas con rango de ley regulando los mismos elementos esenciales del tributo generan incertidumbre sobre cuál prevalece y debilitan la certeza que exige el principio de legalidad y reserva de ley tributaria (art. 74 de la Constitución: los elementos esenciales del tributo —sujetos, hecho imponible, base y alícuota— deben constar en norma con rango de ley).",
+    "correccion": "Reemplazar los arts. 2 y 3 por: 'Artículo 2. Se modifican los artículos 3 y 5 del Decreto Legislativo 1269' con el texto íntegro de cada artículo modificado (ámbito: ingresos netos hasta 1700 UIT; escala: hasta 15 UIT 10 %, exceso de 15 UIT tasa del primer párrafo del art. 55 del TUO de la LIR), y 'Artículo 3. Se incorpora el artículo 3-A al Decreto Legislativo 1269' para la incorporación de los ex contribuyentes del RER."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "costo_beneficio / Exposición de motivos",
+    "problema": "Se afirma que no se activa la Norma VII porque no hay beneficio, pero la migración RER→RMT cambia la carga de un universo de contribuyentes y su efecto recaudatorio es incierto. Aunque el art. 79 (2.º párrafo) exige informe previo del MEF solo para beneficios o exoneraciones, el criterio transversal 1 y la STC 00018-2023-PI/TC aconsejan que toda ley con efecto fiscal relevante cuente con informe del MEF antes del dictamen; la cita al art. 79 debe precisarse para no atribuirle un mandato que su texto no contiene.",
+    "correccion": "Sustituir en costo_beneficio y efecto_vigencia 'requiere informe previo del MEF (art. 79 de la Constitución)' por: 'Por su posible efecto recaudatorio, requiere coordinación con el Poder Ejecutivo, informe previo de la SUNAT y del MEF sobre impacto fiscal y sostenibilidad antes del dictamen (criterio de responsabilidad fiscal, D.L. 1276 y STC 00018-2023-PI/TC)'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 7",
+    "problema": "El encargo al MTPE/MEF es constitucional, pero la consulta al Consejo Nacional de Trabajo debe ser previa a la remisión al Congreso y el informe no puede servir de base a una modificación del régimen laboral por decreto: cualquier cambio en derechos del art. 24-27 requiere ley.",
+    "correccion": "Agregar al 7.2: 'Cualquier modificación del régimen laboral especial que derive del informe se tramita mediante ley, previa consulta tripartita.'"
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Decreto Legislativo 1269, arts. 3 y 5 (modifica) y art. 3-A (incorpora)",
+    "TUO de la Ley del Impuesto a la Renta (D.S. 179-2004-EF), Capítulo XV, arts. 117-124-A (deroga)"
+   ],
+   "entidades_implicadas": [
+    "SUNAT — administración del tributo",
+    "MEF — informe de impacto fiscal"
+   ],
+   "impacto_economico": "El ex RER paga hoy 1,5 % de ingresos netos mensuales; en el RMT paga a cuenta 1 % (hasta 300 UIT) y regulariza con 10 %/29,5 % sobre renta neta. Contribuyentes de margen bajo pagarían menos y de margen alto más; el MEF debe estimar el efecto neto antes del dictamen."
+  }
+ },
+ {
+  "id": "ECO-16",
+  "especialidad": "constitucional",
+  "veredicto": "observaciones_graves",
+  "resumen": "Dar rango legal a una instancia de coordinación existente sin personería ni pliego es admisible. Sin embargo, el Comité con miembros retribuidos, mandato fijo e inamovilidad genera gasto permanente de iniciativa parlamentaria (art. 79) y configura una estructura que el art. 36 de la LOPE reserva al Ejecutivo.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 3 y Disposición Complementaria Final Primera ('régimen de dietas o retribución')",
+    "problema": "Crear por ley un órgano colegiado de cinco expertos con dietas o retribución, mandato de cinco años y renovación escalonada impone un gasto corriente permanente al pliego MEF, materia vedada a la iniciativa congresal (art. 79; STC 00018-2023-PI/TC). La fórmula 'dentro del presupuesto del pliego' no lo salva: el gasto es nuevo y obligatorio.",
+    "correccion": "Opción a): 'Los miembros del Comité ejercen el cargo ad honorem; no perciben dietas ni retribución' y eliminar de la DCF Primera 'el régimen de dietas o retribución de los miembros'. Opción b): mantener la retribución y declarar en el art. 9 y en impacto.costo_estado.financiamiento: 'requiere coordinación con el Poder Ejecutivo, fuente de financiamiento identificada e informe previo de sostenibilidad fiscal del MEF antes del dictamen'."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3.1 ('Créase en el CNCF el Comité')",
+    "problema": "Las comisiones y órganos colegiados del Poder Ejecutivo se crean por decreto supremo o resolución (art. 35-36 de la Ley 29158). Un órgano con autonomía técnica y miembros inamovibles dentro de un ministerio, creado por ley de iniciativa parlamentaria, afecta la potestad de organización del Ejecutivo (art. 118 inc. 8 y criterio transversal 2).",
+    "correccion": "Reformular: 'Encárgase al Ministerio de Economía y Finanzas conformar, mediante decreto supremo, en el seno del CNCF, un comité técnico de evaluación de la productividad con las garantías de idoneidad, selección por concurso e independencia técnica siguientes: […]', conservando los numerales 3.2-3.4 como garantías mínimas."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "efecto_vigencia",
+    "problema": "Se cita el D.S. 024-2002-PCM como norma de creación del CNCF; la denominación y adscripción actuales derivan de normas posteriores que deben citarse con número verificado.",
+    "correccion": "Citar la norma vigente que establece la denominación 'Consejo Nacional de Competitividad y Formalización' y su adscripción al MEF, o indicar 'por verificar en SPIJ'."
+   }
+  ],
+  "aportes": {
+   "entidades_implicadas": [
+    "MEF — Secretaría Técnica del CNCF",
+    "SERVIR — concurso de selección"
+   ],
+   "impacto_economico": "Con miembros ad honorem el costo se reduce a contratación de evaluaciones externas, financiable con cooperación (p. ej. convenios con universidades) sin gasto nuevo."
+  }
+ },
+ {
+  "id": "ECO-17",
+  "especialidad": "constitucional",
+  "veredicto": "observaciones",
+  "resumen": "La línea de bonos se condiciona a disponibilidad presupuestal y el régimen sancionador está tipificado en la ley con autoridad competente (art. 2.24.d y TUO Ley 27444 art. 248). La priorización de empresas lideradas por mujeres es una acción afirmativa admisible. Observaciones menores sobre endeudamiento y proporcionalidad de sanciones.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 10",
+    "problema": "Destinar por ley 'recursos de operaciones de endeudamiento ya concertadas' a un fin no previsto puede contravenir los contratos de préstamo y la competencia del Ejecutivo en la gestión de la deuda (art. 75 y art. 118 inc. 17; D.L. 1437). La ley no puede reasignar el destino de endeudamiento aprobado.",
+    "correccion": "Sustituir por: 'y, cuando los contratos de préstamo vigentes lo permitan, con recursos de endeudamiento concertado conforme al Decreto Legislativo 1437'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 8.4",
+    "problema": "La pérdida de acceso por cinco años de la empresa beneficiaria es una sanción administrativa y debe estar tipificada con su procedimiento y autoridad; hoy se impone sin remisión al procedimiento sancionador ni graduación.",
+    "correccion": "Redactar: '8.4 Constituye infracción muy grave de la empresa beneficiaria participar en las conductas del numeral 8.2; se sanciona, previo procedimiento sancionador, con inhabilitación para acceder a la línea por hasta cinco años y reintegro del cofinanciamiento'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 3.2",
+    "problema": "La priorización por género es compatible con el art. 2.2 como acción afirmativa siempre que sea temporal y basada en una brecha acreditada (art. 2.2 y art. 103: la diferenciación es válida si responde a la naturaleza de las cosas y a una brecha objetiva, no a la diferencia de las personas).",
+    "correccion": "Agregar: 'La priorización se revisa con la evaluación del artículo 9 y se mantiene mientras subsista la brecha que la justifica.'"
+   }
+  ]
+ },
+ {
+  "id": "ECO-18",
+  "especialidad": "constitucional",
+  "veredicto": "observaciones",
+  "resumen": "No crea incentivos tributarios ni entidades y respeta los convenios de estabilidad (art. 62). El punto sensible es el art. 63: un servicio estatal de gestor único y posinstalación reservado a la inversión extranjera puede configurar trato más favorable que a la nacional.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículos 4.2 y 5.1",
+    "problema": "El art. 63 de la Constitución dispone que la inversión nacional y la extranjera se sujetan a las mismas condiciones. Un gestor único y un servicio posinstalación prestados solo a empresas con inversión extranjera, con recursos públicos, otorga una ventaja administrativa por el origen del capital sin justificación objetiva expresa.",
+    "correccion": "Agregar al art. 2.a o como art. 4.3: 'Los servicios de los artículos 4.2 y 5 se prestan, en las mismas condiciones, a los proyectos de inversión nacional que cumplan los criterios de eficiencia, complejidad y orientación exportadora de la estrategia.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "efecto_vigencia",
+    "problema": "Se cita el D.L. 1362 como norma de funciones de ProInversión; dicha norma regula APP y Proyectos en Activos. La promoción general de inversión privada de ProInversión se sustenta en su ley de creación y su ROF.",
+    "correccion": "Citar la norma que asigna a ProInversión la promoción de la inversión privada no vinculada a APP (ROF vigente) o indicar 'por verificar'."
+   }
+  ]
+ },
+ {
+  "id": "ECO-19",
+  "especialidad": "constitucional",
+  "veredicto": "observaciones",
+  "resumen": "Norma habilitante, voluntaria y sin garantía estatal, coherente con el art. 11 (supervisión estatal de las pensiones) y con el carácter previsional de los fondos. No toca la Ley 26702 y por eso no exige votación orgánica. La exigencia de opinión previa del MEF sobre la regulación prudencial roza la autonomía de la SBS (art. 87).",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 5.1 ('con opinión previa del Ministerio de Economía y Finanzas')",
+    "problema": "La SBS goza de autonomía funcional (art. 87 de la Constitución; Ley 26702). Someter la fijación de sublímites prudenciales a opinión previa del MEF introduce una intervención del Ejecutivo en una potestad técnica autónoma; además, los límites de inversión del SPP ya involucran al BCRP en lo que corresponde (TUO D.S. 054-97-EF).",
+    "correccion": "Sustituir por: 'La Superintendencia de Banca, Seguros y AFP, en ejercicio de su autonomía, establece […], pudiendo solicitar opinión técnica no vinculante del Banco Central de Reserva del Perú y del Ministerio de Economía y Finanzas.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 3.1",
+    "problema": "La ley 'complementa' el art. 25-B del TUO del SPP sin modificarlo; por técnica legislativa y certeza conviene incorporar la habilitación en el propio TUO.",
+    "correccion": "Redactar como 'Se incorpora el artículo 25-C al Texto Único Ordenado de la Ley del Sistema Privado de Administración de Fondos de Pensiones…' con el texto de los arts. 3-5."
+   }
+  ]
+ },
+ {
+  "id": "ECO-20",
+  "especialidad": "constitucional",
+  "veredicto": "observaciones",
+  "resumen": "Reconoce expresamente la competencia presidencial del art. 118.11 y los arts. 56-57. No obstante, la consulta pública obligatoria previa al inicio de toda negociación condiciona en el tiempo el ejercicio de esa competencia exclusiva, contra lo que el propio art. 2.1 declara.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 5.1",
+    "problema": "Imponer por ley una consulta obligatoria de 30 días 'antes del inicio' de cualquier negociación o adhesión es un requisito procedimental previo al ejercicio de la dirección de la política exterior y la celebración de tratados (art. 118.11), que corresponde al Presidente. Puede impedir iniciar negociaciones con plazos fijados por las contrapartes.",
+    "correccion": "Reformular: '5.1 El Ministerio de Comercio Exterior y Turismo procura publicar, al inicio o durante la negociación, un resumen de los objetivos nacionales y abre un periodo de comentarios no menor de treinta días calendario, salvo que la naturaleza o el calendario de la negociación lo impidan, lo que se informa a las comisiones del artículo 6.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 6.2",
+    "problema": "El informe de impacto normativo es un deber de información admisible (art. 96 y función de control). Conviene precisar que su ausencia no vicia el procedimiento de aprobación ni el perfeccionamiento del tratado.",
+    "correccion": "Agregar: 'La omisión del informe no afecta la validez del procedimiento de aprobación o ratificación.'"
+   }
+  ]
+ },
+ {
+  "id": "ECO-21",
+  "especialidad": "constitucional",
+  "veredicto": "conforme",
+  "resumen": "Modelo correcto de respeto al art. 79 y a la iniciativa presupuestal del Ejecutivo (arts. 77-80): solo encarga evaluar, crea un marcador e informa al Congreso. El art. 5 sobre metas indicativas es una regla interpretativa útil para el resto de la agenda.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 5",
+    "problema": "La regla general sobre metas indicativas 'establecidas por ley' tiene vocación transversal; ubicada en esta ley específica puede pasar inadvertida para leyes posteriores.",
+    "correccion": "Mantener y añadir en la exposición de motivos que la regla se aplica a las metas de las demás leyes de la agenda; o incorporarla como numeral en el art. 16 del D.L. 1440 mediante 'Se incorpora…'."
+   }
+  ]
+ },
+ {
+  "id": "ECO-22",
+  "especialidad": "constitucional",
+  "veredicto": "observaciones",
+  "resumen": "Respeta la libre iniciativa privada (art. 58-60: el Estado no compite con plataformas privadas), el consentimiento en datos (art. 2.6) y la autonomía regional vía convenios. El servicio gratuito de georreferenciación está redactado como obligación de prestación no condicionada a disponibilidad presupuestal.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3.1 ('brinda en forma gratuita')",
+    "problema": "La obligación de prestar un servicio gratuito universal a todos los agricultores familiares y cooperativas genera gasto obligatorio de iniciativa parlamentaria (art. 79; STC 00018-2023-PI/TC). La condición 'sujeto a disponibilidad' figura en costo_beneficio pero no en el articulado.",
+    "correccion": "Añadir al 3.1: 'progresivamente y sujeto a la disponibilidad presupuestal del pliego, como meta indicativa de la programación multianual'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 3.3 ('Los datos … pertenecen al productor')",
+    "problema": "La Ley 29733 no configura un derecho de propiedad sobre datos personales sino un derecho fundamental de autodeterminación informativa (art. 2.6); y los datos de cooperativas (personas jurídicas) no son datos personales. Atribuir 'pertenencia' crea una categoría sin sustento y conflictos con el registro público.",
+    "correccion": "Reemplazar por: 'El productor controla el uso de los datos de su parcela y producción registrados en el servicio. Su comunicación a terceros requiere su consentimiento previo, expreso e informado; tratándose de personas naturales, conforme a la Ley 29733.'"
+   }
+  ]
+ },
+ {
+  "id": "GOB-15",
+  "especialidad": "constitucional",
+  "veredicto": "observaciones",
+  "resumen": "Compatible con la potestad reglamentaria (art. 118.8) y con la autonomía de gobiernos subnacionales y organismos autónomos (aplicación voluntaria, art. 2.2). La pérdida automática de exigibilidad de procedimientos no ratificados es admisible por ley, pero debe salvaguardar bienes constitucionales (salud, ambiente, seguridad) para no generar desprotección por mera inacción administrativa.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 5.3",
+    "problema": "La caducidad automática de requisitos no ratificados, sin excepción, puede dejar sin control previo actividades que protegen derechos y bienes constitucionales (arts. 2.22, 7, 44, 65 y 67). El deber estatal de protección no puede depender del cumplimiento de un cronograma administrativo.",
+    "correccion": "Agregar al 5.3: 'Se exceptúan los procedimientos y requisitos vinculados a la protección de la vida y la salud, la seguridad, el ambiente, la defensa nacional y el orden interno, respecto de los cuales el vencimiento del plazo genera la obligación de la entidad de ratificarlos en un plazo máximo de noventa días hábiles, bajo responsabilidad de su titular, y su comunicación a la Secretaría de Gestión Pública.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 6.1",
+    "problema": "La constancia electrónica automática es constitucionalmente correcta; debe precisarse que no opera en procedimientos que por ley especial están sujetos a silencio negativo por afectar el interés público (el 6.4 lo dice) ni cuando la solicitud no cumplió requisitos observados a tiempo.",
+    "correccion": "Añadir al 6.1: 'siempre que la solicitud no haya sido observada por incumplimiento de requisitos dentro del plazo previsto en el TUO de la Ley 27444'."
+   }
+  ]
+ },
+ {
+  "id": "GOB-16",
+  "especialidad": "constitucional",
+  "veredicto": "observaciones",
+  "resumen": "Vía correcta: resolución legislativa que modifica el Reglamento del Congreso, con naturaleza de ley orgánica y votación de más de la mitad del número legal de cada cámara (art. 94 reformado por Ley 31988; arts. 78-80 del Reglamento del Congreso, verificados en la edición oficial de mayo de 2026). El gasto se carga al pliego Congreso, materia exceptuada de la prohibición del art. 79. La observación principal es de reparto entre reglamentos.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 2 (art. 3-A.1) y Disposición Complementaria Final Tercera",
+    "problema": "El art. 94 reformado reconoce reglamentos propios del Congreso, del Senado y de la Cámara de Diputados; el Reglamento del Congreso regula los 'procedimientos parlamentarios comunes' (art. I), mientras que el contenido de los dictámenes de cada cámara está en sus reglamentos (p. ej. art. 137 del Reglamento de la Cámara de Diputados). Imponer desde el Reglamento del Congreso un contenido obligatorio del dictamen de cada cámara, con una cláusula de 'concordancia', puede generar conflicto de competencias entre reglamentos de igual rango.",
+    "correccion": "Opción preferente: tramitar en paralelo resoluciones legislativas que incorporen el 3-A.1 en el art. 137 del Reglamento de la Cámara de Diputados y en el artículo equivalente del Reglamento del Senado, dejando en el Reglamento del Congreso solo la Oficina (110-A, 110-B) y el seguimiento (3-B). Alternativa: redactar el 3-A.1 como regla común expresa: 'Constituye procedimiento parlamentario común a ambas cámaras…'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "efecto_vigencia",
+    "problema": "La iniciativa de reforma del Reglamento del Congreso corresponde a senadores y diputados (art. 78 del Reglamento del Congreso); los ciudadanos solo tienen iniciativa en materia de ley (art. 107 de la Constitución), no de resolución legislativa reglamentaria.",
+    "correccion": "Precisar: 'Al no proceder la iniciativa ciudadana en resoluciones legislativas que modifican el Reglamento, la propuesta debe ser asumida y presentada por senadores o diputados (art. 78 del Reglamento del Congreso; art. 107 de la Constitución).'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 2 (ubicación del 3-A y 3-B)",
+    "problema": "Ubicar reglas de procedimiento de dictamen como arts. 3-A y 3-B, tras el art. 3 (definición de función legislativa), rompe la sistemática; el procedimiento legislativo común está en títulos posteriores.",
+    "correccion": "Reubicar como artículos incorporados al capítulo del procedimiento legislativo del Reglamento del Congreso, con la numeración libre que se verifique en la edición oficial."
+   }
+  ]
+ },
+ {
+  "id": "GOB-17",
+  "especialidad": "constitucional",
+  "veredicto": "conforme",
+  "resumen": "Asigna una función a un órgano existente de la PCM sin crear órganos, plazas ni gasto; las metas se sujetan a disponibilidad presupuestal (art. 79 respetado). La incorporación de organismos autónomos y gobiernos subnacionales es por convenio, conforme a los arts. 191 y 194.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 3.1",
+    "problema": "Determinar por ley el órgano interno de la PCM ('a través de la Secretaría de Gobierno y Transformación Digital') toca la potestad de organización del Ejecutivo; es práctica legislativa aceptada, pero conviene la cláusula de flexibilidad.",
+    "correccion": "Agregar: 'o del órgano que haga sus veces conforme al Reglamento de Organización y Funciones de la Presidencia del Consejo de Ministros'."
+   }
+  ]
+ },
+ {
+  "id": "GOB-18",
+  "especialidad": "constitucional",
+  "veredicto": "observaciones",
+  "resumen": "Modifica correctamente la LOPE con votación de ley orgánica (art. 106) y no sustituye la potestad reglamentaria presidencial (art. 118.8): fija plazos y deberes de información útiles para el control político (art. 97, art. 4 del Reglamento del Congreso). Debe aclararse que el vencimiento del plazo no extingue ni invalida la potestad reglamentaria y precisar la responsabilidad disciplinaria.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 2 (art. 13, numerales 4 y 7)",
+    "problema": "Calificar el plazo como 'perentorio' puede interpretarse como caducidad de la potestad reglamentaria o como causal de nulidad del reglamento aprobado tarde. La potestad del art. 118.8 es una atribución constitucional que no caduca por ley; un reglamento extemporáneo es válido.",
+    "correccion": "Añadir al numeral 7: 'El vencimiento del plazo no extingue la potestad reglamentaria ni afecta la validez del reglamento aprobado con posterioridad.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 6.1",
+    "problema": "'Puede dar lugar a responsabilidad administrativa conforme al régimen disciplinario aplicable' no tipifica la falta; por el principio de tipicidad (art. 2.24.d; TUO Ley 27444, art. 248.4) debe remitirse a una falta existente.",
+    "correccion": "Redactar: 'constituye negligencia en el desempeño de las funciones a efectos del literal d) del artículo 85 de la Ley 30057, Ley del Servicio Civil, o de la falta equivalente del régimen aplicable'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Disposición Complementaria Final Segunda",
+    "problema": "El plazo supletorio de 90 días hábiles debe armonizarse con cualquier plazo general previsto en la Ley 26889 o en su reglamento (D.S. 007-2022-JUS) para evitar dos reglas supletorias.",
+    "correccion": "Agregar: 'y deroga o adecúa toda disposición reglamentaria que fije un plazo supletorio distinto'; verificar en SPIJ si la Ley 26889 contiene un plazo supletorio y, de ser así, derogarlo expresamente en una Disposición Complementaria Derogatoria."
+   }
+  ]
+ },
+ {
+  "id": "GOB-19",
+  "especialidad": "constitucional",
+  "veredicto": "conforme",
+  "resumen": "Respeta la autonomía municipal (arts. 194-195): adhesión voluntaria por acuerdo de concejo, sin transferencia de competencias ni obligaciones para las no adheridas, por lo que no requiere modificar la Ley 27972. La cooperación se sujeta a disponibilidad presupuestal y la ampliación a meta indicativa con informe MEF (art. 79 y criterio 1).",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 2.1",
+    "problema": "La publicación de una relación de 'municipalidades de baja capacidad digital' es legítima para priorizar, pero conviene evitar efectos estigmatizantes o su uso para condicionar transferencias, que afectaría la autonomía económica (art. 196).",
+    "correccion": "Agregar al 2.2: 'ni puede utilizarse como criterio para condicionar transferencias, recursos o competencias'."
+   }
+  ]
+ },
+ {
+  "id": "GOB-20",
+  "especialidad": "constitucional",
+  "veredicto": "observaciones",
+  "resumen": "Medida de interoperabilidad razonable y proporcional respecto de la libertad de empresa (arts. 58-59), con régimen sancionador tipificado y autoridad definida. Respeta la independencia jurisdiccional (art. 139.2) al dejar a salvo los procesos en trámite sobre la supervisión de terminales privados. La priorización nominal de un corredor exige justificación objetiva para no configurar ley por la diferencia de las personas (art. 103).",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 5 y Disposición Complementaria Transitoria Única (corredor Chancay–Lima)",
+    "problema": "El art. 103 admite leyes especiales por la naturaleza de las cosas, no por la diferencia de las personas. Una ley que individualiza un terminal concesionado a un solo operador privado, en un contexto de controversia judicial sobre su supervisión, puede leerse como ley singular. La justificación técnica (volumen, nueva infraestructura, ZEE) está en la exposición de motivos pero no en la norma.",
+    "correccion": "Redactar el art. 5 en términos generales: 'corredores logísticos priorizados por el Ministerio de Comercio Exterior y Turismo con criterios objetivos de volumen de carga, crecimiento proyectado y vinculación con zonas económicas especiales, entre los cuales se incluye, en una primera etapa, el corredor Chancay–Lima', y aplicar el mismo criterio en la DCT Única."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 7.1",
+    "problema": "Ordenar a OSITRAN, INDECOPI, SUNAT, APN y MTC aprobar una matriz conjunta sobre competencias cuya delimitación está en controversia judicial puede generar actos que el juez considere interferencia, aun con el art. 7.3.",
+    "correccion": "Agregar al 7.2: 'En los aspectos que sean materia de un proceso judicial o constitucional en trámite, la matriz se limita a transcribir las disposiciones legales y a dejar constancia de la existencia del proceso, sin adoptar posición.'"
+   }
+  ]
+ },
+ {
+  "id": "GOB-21",
+  "especialidad": "constitucional",
+  "veredicto": "observaciones_graves",
+  "resumen": "Protege adecuadamente el contenido del derecho a la consulta previa (Convenio 169, art. 6; Ley 29785): lo digital es complementario, a pedido de los pueblos y sin presumir conformidad; el registro de compromisos respeta el art. 79 al exigir previsión presupuestal. Sin embargo, la propia ley modifica el procedimiento de consulta y afecta directamente derechos colectivos, por lo que su consulta previa debe ser un requisito, no una recomendación.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "efecto_vigencia / Exposición de motivos ('se recomienda someter la medida a consulta previa')",
+    "problema": "El Convenio 169 (art. 6.1.a), con rango constitucional según la jurisprudencia del TC (STC 00022-2009-PI/TC), obliga a consultar las medidas legislativas susceptibles de afectar directamente a los pueblos indígenas. Una ley que regula cómo se realizan las etapas de la consulta y cómo se registran sus acuerdos afecta directamente esos derechos; aprobarla sin consulta expone a la ley a una demanda de inconstitucionalidad por vicio de procedimiento.",
+    "correccion": "Sustituir por: 'Por afectar directamente derechos colectivos de los pueblos indígenas u originarios, la proposición debe ser sometida a consulta previa antes de su aprobación en el Pleno, conforme al artículo 6 del Convenio 169 de la OIT y a la Ley 29785, mediante el procedimiento que establezca el Congreso de la República.' Mantener además la DCF Primera (consulta del reglamento)."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 2.2.b",
+    "problema": "Imponer a gobiernos regionales y locales la inscripción de sus compromisos en un registro nacional es un deber de transparencia compatible con los arts. 191, 194 y 199 (no afecta competencias), pero conviene explicitarlo para descartar una lectura de afectación de su autonomía.",
+    "correccion": "Agregar: 'La inscripción constituye una obligación de transparencia y no afecta las competencias ni la autonomía de los gobiernos regionales y locales.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 10.1",
+    "problema": "'Incumplimiento de funciones … sancionable conforme al régimen disciplinario' no tipifica la falta (art. 2.24.d; TUO Ley 27444, art. 248.4).",
+    "correccion": "Remitir a la falta del literal d) del artículo 85 de la Ley 30057 (negligencia en el desempeño de las funciones) o a la equivalente del régimen aplicable."
+   }
+  ]
+ },
+ {
+  "id": "GOB-22",
+  "especialidad": "constitucional",
+  "veredicto": "conforme",
+  "resumen": "Medida exclusivamente de transparencia que no altera distribución ni usos del canon (art. 77, último párrafo: derecho de las circunscripciones a una participación adecuada). La publicación en el presupuesto participativo desarrolla el art. 199 ('conforme a ley'), sin necesidad de modificar las leyes orgánicas de gobiernos regionales y municipalidades. Respeta la reserva tributaria (art. 2.5) y la autonomía universitaria (art. 18), pues solo impone deberes de registro y publicidad.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 4.3",
+    "problema": "La regla 'la información por empresa solo se difunde cuando ya es pública o la empresa lo autoriza' es correcta frente al art. 2.5; conviene precisar que los montos por empresa de regalías y derecho de vigencia que ya publican MINEM/PERUPETRO/EITI no quedan restringidos por la ley.",
+    "correccion": "Agregar: 'Lo dispuesto no limita la publicación de la información que ya es pública conforme a las normas sectoriales o a los informes de la iniciativa EITI.'"
+   }
+  ]
+ },
+ {
+  "id": "GOB-23",
+  "especialidad": "constitucional",
+  "veredicto": "observaciones",
+  "resumen": "Desarrolla el art. 48 (oficialidad de lenguas originarias donde predominen) y el art. 2.19 (derecho a usar el propio idioma ante cualquier autoridad mediante intérprete). Dos ajustes: el artículo 15-A incorporado en la Ley 29735 contiene obligaciones de gasto sin la cláusula de progresividad presupuestal, que solo figura en una DCF de esta ley, y el dato de lengua preferida puede revelar origen étnico (dato sensible).",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 8 (art. 15-A incorporado) y Artículo 4.1",
+    "problema": "Las obligaciones de 'garantizar' contenidos e interpretación remota gratuita quedan en una ley permanente (Ley 29735) sin condición presupuestal; la DCF Segunda de esta ley no acompaña al texto incorporado. Así redactado, impone gasto obligatorio a todas las entidades, incluidos gobiernos subnacionales (art. 79; STC 00018-2023-PI/TC).",
+    "correccion": "Añadir como 15-A.4: 'Las obligaciones de este artículo se implementan de manera progresiva, conforme al catálogo y a las metas que apruebe el Ministerio de Cultura, con cargo al presupuesto institucional de las entidades y sujetas a su disponibilidad presupuestal.' Agregar en el 4.1: 'de manera progresiva y conforme a la disponibilidad presupuestal'."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 6 (lengua preferida)",
+    "problema": "La lengua materna o preferida es un dato que puede revelar el origen étnico, categoría de dato sensible (Ley 29733, art. 2.5); su tratamiento requiere consentimiento expreso y por escrito (art. 13.6), lo que en entornos digitales exige un mecanismo de firma o autenticación equivalente.",
+    "correccion": "Redactar el 6.2: 'El dato se considera sensible y se trata con consentimiento previo, expreso y por escrito, otorgado mediante firma electrónica o mecanismo de autenticación de la plataforma, solo para adecuar la lengua de las comunicaciones…'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "efecto_vigencia (consulta previa)",
+    "problema": "Siendo una medida que incide directamente en los derechos lingüísticos colectivos, debe evaluarse su consulta (Convenio 169, art. 6); la DCF Primera ya prevé consulta del reglamento.",
+    "correccion": "Indicar que la comisión dictaminadora evalúa la afectación directa y, de existir, somete la proposición a consulta previa antes del Pleno."
+   }
+  ]
+ },
+ {
+  "id": "GOB-24",
+  "especialidad": "constitucional",
+  "veredicto": "conforme",
+  "resumen": "Concreta el principio de igualdad material (arts. 2.2 y 59 in fine) sin crear procedimientos ni requisitos nuevos ni gasto; los datos de etnia, lengua y discapacidad son voluntarios y anonimizados. La extensión a gobiernos regionales opera a través de sistemas administrativos nacionales (planeamiento, presupuesto, inversión), compatibles con su autonomía.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 2.1 (gobiernos regionales)",
+    "problema": "La obligación de incorporar análisis en instrumentos regionales es constitucional porque se canaliza a través de sistemas administrativos de alcance nacional, pero conviene explicitarlo para evitar una lectura de afectación de la autonomía (art. 191).",
+    "correccion": "Agregar: 'Para los gobiernos regionales, la obligación se cumple a través de los instrumentos de los sistemas nacionales de planeamiento, presupuesto e inversión, sin afectar su autonomía.'"
+   }
+  ]
+ },
+ {
+  "id": "TAL-15",
+  "especialidad": "constitucional",
+  "veredicto": "conforme",
+  "resumen": "Compatible con los arts. 2.2, 22-23 y 26.1 (igualdad de trato del trabajador extranjero, art. 7.1) y con el art. 74 (los derechos de tramitación son tasas reguladas por decreto supremo y conforme al costo del procedimiento). No afecta colegiación ni profesiones reguladas (art. 20). Observaciones menores de técnica y de tipicidad.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 3 (art. 29-A del D.L. 1350)",
+    "problema": "Las clases de residencia del D.L. 1350 se enumeran como literales del numeral 29.2 del art. 29; crear un artículo 29-A paralelo puede romper la sistemática y la remisión a 'las reglas generales' de cambio de calidad migratoria.",
+    "correccion": "Incorporar la residencia de talento tecnológico como un nuevo literal del numeral 29.2 del artículo 29 del D.L. 1350 (verificando en SPIJ el último literal tras el D.L. 1582) y, si se requiere detalle, un artículo 29-A con las condiciones."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 7.2",
+    "problema": "La tipificación por ley de la infracción muy grave es correcta (art. 2.24.d); conviene incorporarla expresamente en la Ley 28806 o remitir a su reglamento para su cuantificación por la escala vigente, evitando una infracción fuera del sistema de inspección.",
+    "correccion": "Agregar: 'La infracción se incorpora al Reglamento de la Ley General de Inspección del Trabajo, aprobado por D.S. 019-2006-TR, y se sanciona conforme a la escala del artículo 39 de la Ley 28806.'"
+   }
+  ]
+ },
+ {
+  "id": "TAL-16",
+  "especialidad": "constitucional",
+  "veredicto": "observaciones_graves",
+  "resumen": "El diseño voluntario y la meta indicativa respetan el art. 79. Pero calificar por ley como 'condición de trabajo no remunerativa' aportes del empleador que pasan a ser propiedad del trabajador y se liberan en dinero a la jubilación o a los herederos crea, de hecho, una inafectación del Impuesto a la Renta de quinta categoría y de las aportaciones a la seguridad social sin cumplir el art. 74, la Norma VII ni el informe previo del MEF (art. 79, segundo párrafo), y erosiona la base de financiamiento de la seguridad social (arts. 10-11).",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 5.1 en relación con los artículos 3.3 y 6.2",
+    "problema": "Una condición de trabajo es lo que se entrega para el desempeño de la labor y no constituye ventaja patrimonial de libre disposición. Aquí los aportes son propiedad del trabajador, portables y liberables en dinero al jubilarse o al fallecer. Declararlos no remunerativos por ley los excluye de la base de EsSalud y del sistema previsional, que son tributos (contribuciones), y de la renta de quinta categoría: es un beneficio tributario encubierto. Debe constar en la ley con plazo (Norma VII del Código Tributario: máximo 3 años), contar con informe previo del MEF (art. 79) y ser evaluado frente al principio de solidaridad de la seguridad social.",
+    "correccion": "Opción a) Mantener la calificación no remunerativa solo mientras los fondos se usen en formación elegible y disponer: 'Los aportes del empleador que se liberen al titular o a sus herederos conforme al numeral 6.2 constituyen renta de quinta categoría del ejercicio de su liberación y base de las aportaciones que correspondan, conforme a la ley.' Opción b) Si se quiere una inafectación, declararla expresamente con plazo máximo de tres años, tope anual en UIT, informe previo del MEF y dictamen conjunto con la Comisión de Economía, conforme a la Norma VII del TUO del Código Tributario."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 6.2 ('inembargables, salvo por deudas alimentarias')",
+    "problema": "La inembargabilidad limita el derecho a la tutela de los acreedores (art. 139.3) y el derecho de propiedad. Es admisible por ley si es proporcional, pero sin tope permite proteger patrimonio ilimitado frente a acreedores.",
+    "correccion": "Agregar: 'hasta un saldo máximo equivalente a veinte UIT; el exceso es embargable conforme al artículo 648 del Código Procesal Civil'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 4.1.a (CTS de libre disposición)",
+    "problema": "Correcto, siempre que no habilite disponer de la parte intangible de la CTS (art. 27: protección contra el despido; la CTS cumple función de previsión).",
+    "correccion": "Precisar: 'sin afectar el monto intangible previsto en el TUO del D.L. 650 (artículo por verificar en SPIJ) ni las disposiciones temporales de libre disposición vigentes'."
+   }
+  ]
+ },
+ {
+  "id": "IA-15",
+  "especialidad": "constitucional",
+  "veredicto": "conforme",
+  "resumen": "Precisa sin modificar el régimen de responsabilidad objetiva del Código Civil (arts. 1970, 1972, 1983), aplica solo a hechos posteriores (art. 103, irretroactividad), protege a las víctimas y a los trabajadores (arts. 7, 22-23) y tipifica infracciones con autoridad competente y non bis in idem. Observaciones menores sobre determinación de autoridad y remisión de sanciones.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 9.1 ('la autoridad competente en seguridad minera conforme a su ley')",
+    "problema": "La fórmula indeterminada genera inseguridad sobre la autoridad sancionadora (SUNAFIL, OSINERGMIN o gobiernos regionales en pequeña minería y minería artesanal), y la potestad sancionadora debe estar atribuida por ley (TUO Ley 27444, art. 248.1).",
+    "correccion": "Precisar: 'en actividades mineras, la SUNAFIL en seguridad y salud en el trabajo y el OSINERGMIN o la entidad que haga sus veces en seguridad de la infraestructura minera, y los gobiernos regionales respecto de la pequeña minería y minería artesanal, conforme a sus leyes'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 9.3",
+    "problema": "Remitir las multas a 'las escalas de la autoridad competente' es admisible solo si esas escalas tienen base legal; algunas están en decretos supremos. El principio de legalidad sancionadora exige que la ley fije al menos el rango.",
+    "correccion": "Agregar topes: 'graves: hasta 50 UIT; muy graves: hasta 200 UIT, sin superar el 10 % de los ingresos brutos anuales del infractor'."
+   }
+  ]
+ },
+ {
+  "id": "IA-16",
+  "especialidad": "constitucional",
+  "veredicto": "observaciones",
+  "resumen": "Refuerza el derecho a la autodeterminación informativa (art. 2.6) e incorpora salvaguardas sobre acceso estatal y tutela; respeta el art. 118.11 al solo encargar evaluar la adhesión a tratados. Mantiene, sin embargo, una habilitación abierta al reglamento para crear nuevas excepciones a garantías de un derecho fundamental, contraria a la reserva de ley.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 2 (art. 15.3, numeral 8: 'Otros que establezca el reglamento')",
+    "problema": "Las excepciones a las garantías del flujo transfronterizo son limitaciones del derecho a la autodeterminación informativa (art. 2.6), sujetas a reserva de ley y a proporcionalidad. Una cláusula abierta que permite al reglamento crear nuevas excepciones contradice además el 15.4, que exige interpretación restrictiva.",
+    "correccion": "Suprimir el numeral 8 del 15.3, o sustituirlo por: '8. Otros supuestos establecidos por ley, que respeten el principio de proporcionalidad.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 2 (art. 15.3, numeral 3)",
+    "problema": "La excepción para cooperación entre organismos de inteligencia carece de garantías mínimas (base en tratado o acuerdo, finalidad, control). El 15.6 exige control independiente del acceso estatal para reconocer adecuación a terceros; el estándar interno debe ser coherente, y es un punto que la Comisión Europea evaluará.",
+    "correccion": "Agregar al numeral 3: 'conforme a tratados o acuerdos interinstitucionales, con registro de las transferencias y control posterior de la autoridad competente conforme al Decreto Legislativo 1141 o la norma que haga sus veces'."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 5.1",
+    "problema": "Ordenar al Ejecutivo elaborar una hoja de ruta 'para solicitar' una decisión a un órgano extranjero toca la conducción de las relaciones exteriores (art. 118.11).",
+    "correccion": "Redactar: 'una hoja de ruta orientada a una eventual solicitud de decisión de adecuación, cuya presentación decide el Poder Ejecutivo conforme al inciso 11 del artículo 118 de la Constitución'."
+   }
+  ]
+ },
+ {
+  "id": "SOB-09",
+  "especialidad": "constitucional",
+  "veredicto": "conforme",
+  "resumen": "Regulación de mercado eléctrico compatible con los arts. 58-61 (economía social de mercado, libre competencia, neutralidad tecnológica) y con el art. 65 (protección del usuario regulado frente al traslado de costos). No crea tributos ni gasto público: el cobro del Registro de Garantías de Origen es una contraprestación de una entidad privada, no un tributo (art. 74).",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 5 (art. 33-B.4)",
+    "problema": "El cobro a usuarios del Registro por el COES debe quedar claramente como contraprestación privada por servicio para evitar su calificación como tasa (art. 74), que exigiría otro régimen.",
+    "correccion": "Precisar: 'El monto que cobra el COES a los usuarios del Registro es una contraprestación por servicio, no tiene naturaleza tributaria y se limita a recuperar su costo, conforme a la metodología que apruebe el Osinergmin.'"
+   }
+  ]
+ },
+ {
+  "id": "SOB-10",
+  "especialidad": "constitucional",
+  "veredicto": "conforme",
+  "resumen": "Desarrolla el art. 66 (el agua es patrimonio de la Nación y el Estado es soberano en su aprovechamiento) y el art. 2.5 (acceso a información pública sobre derechos administrativos de uso), equilibrado con la protección de datos de pequeños usuarios personas naturales. Excluye la telemetría en predios de pequeños usuarios y comunidades (arts. 88-89), sin gasto público obligatorio.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 9 y Artículo 3 (art. 57.5)",
+    "problema": "La exclusión protege a comunidades campesinas y nativas en sus predios, pero las obligaciones de medición en puntos de captación a cargo de organizaciones de usuarios pueden alcanzar sistemas de riego comunales regidos por usos y costumbres (arts. 89 y 149; Convenio 169). Debe evaluarse si existe afectación directa a pueblos indígenas.",
+    "correccion": "Agregar al art. 9: 'La aplicación del numeral 5 del artículo 57 a sistemas de riego de comunidades campesinas y nativas se realiza previa coordinación con ellas y, cuando exista afectación directa de derechos colectivos, previa consulta conforme a la Ley 29785.'"
+   }
+  ]
+ },
+ {
+  "id": "SOB-11",
+  "especialidad": "constitucional",
+  "veredicto": "observaciones",
+  "resumen": "Desarrolla los arts. 66 y 68 y reconoce la prevalencia de la Decisión 391. Pero una ley nacional que fija cómo 'se interpreta' el concepto de acceso de una norma comunitaria y que habilita silencio positivo para el acceso a recursos genéticos tensiona la primacía del derecho andino y el deber estatal de conservación; y las reglas sobre beneficios vinculados a conocimientos colectivos afectan directamente a pueblos indígenas.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 5.1 y Disposición Complementaria Final Primera ('se interpreta conforme al artículo 5')",
+    "problema": "La interpretación de la Decisión 391 corresponde al Tribunal de Justicia de la Comunidad Andina, y el derecho comunitario prevalece sobre la ley nacional. Si la exención de autorización para usar secuencias de bases abiertas se opone al concepto de acceso a recursos genéticos y 'productos derivados' de la Decisión 391, la norma nacional sería inaplicable y expondría al Perú a una acción de incumplimiento.",
+    "correccion": "En el art. 5.1 añadir 'en tanto no se oponga a la Decisión 391 ni a su interpretación por el Tribunal de Justicia de la Comunidad Andina'; suprimir de la DCF Primera la frase 'que se interpreta conforme al artículo 5'; y mantener el art. 10 para promover la armonización andina."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 6.2 (silencio administrativo positivo)",
+    "problema": "El acceso a recursos genéticos involucra patrimonio de la Nación y diversidad biológica (arts. 66 y 68). El TUO de la Ley 27444 reserva el silencio negativo para procedimientos que afectan significativamente el interés público y los recursos naturales; la Decisión 391 exige además una resolución expresa y su publicación. Una autorización ficta no ofrece la trazabilidad que la propia ley persigue.",
+    "correccion": "Sustituir el 6.2 por: 'El procedimiento es de evaluación previa con silencio administrativo negativo. Vencido el plazo sin pronunciamiento, el administrado puede solicitar la intervención del superior jerárquico, que resuelve en diez días hábiles bajo responsabilidad.'"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 7 y efecto_vigencia (consulta previa)",
+    "problema": "El art. 7.2 asigna beneficios monetarios vinculados a conocimientos colectivos y la ley incide en la protección de esos conocimientos (Ley 27811): son medidas susceptibles de afectar directamente a pueblos indígenas (Convenio 169, art. 6; STC 00022-2009-PI/TC). No se prevé consulta.",
+    "correccion": "Agregar en efecto_vigencia: 'Los artículos 4.2, 5 y 7 afectan directamente derechos colectivos; la proposición debe someterse a consulta previa antes de su aprobación en el Pleno.' y añadir DCF: 'El reglamento en lo relativo a conocimientos colectivos se aprueba previa consulta conforme a la Ley 29785.'"
+   }
+  ]
+ },
+ {
+  "id": "SOB-12",
+  "especialidad": "constitucional",
+  "veredicto": "observaciones_graves",
+  "resumen": "Procedimiento reglado, proporcional y con control judicial, en línea con las directrices de la OCDE. Omite, sin embargo, el fundamento constitucional específico: el art. 72 solo permite restricciones a la adquisición y transferencia de bienes por razón de seguridad nacional mediante ley, en forma temporal y específica. Un régimen permanente de prohibición de adquisiciones, sin cláusula de temporalidad, es vulnerable; además el factor 'control por un Estado extranjero' debe compatibilizarse con el art. 63.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 1 y Artículo 8 (prohibición y reversión de operaciones)",
+    "problema": "El art. 72 de la Constitución dispone que la ley puede, solo por razón de seguridad nacional, establecer temporalmente restricciones y prohibiciones específicas para la adquisición, posesión, explotación y transferencia de determinados bienes. La propuesta no invoca el art. 72 (cita los arts. 44, 58, 61, 63 y 163) ni prevé temporalidad del régimen ni de las medidas, lo que expone la ley y cada prohibición a cuestionamiento por afectar la propiedad (arts. 2.16 y 70), la libertad de empresa (art. 59) y la libre contratación (art. 62).",
+    "correccion": "1) Agregar el art. 72 al art. 1. 2) Incorporar: 'Artículo 8-A. Temporalidad. Las prohibiciones y condiciones se imponen por un plazo determinado, no mayor de cinco años, renovable mediante resolución motivada previa reevaluación del riesgo.' 3) Agregar una DCF: 'La presente ley rige por diez años desde su entrada en vigencia; el Poder Ejecutivo remite al Congreso una evaluación al octavo año para su eventual prórroga por ley.' 4) Precisar en el art. 3 que solo se aplica a bienes y activos específicos definidos en la ley (ACN, concesiones listadas y tecnologías de la lista)."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 7.a y Artículo 2.a",
+    "problema": "El art. 63 garantiza igualdad de condiciones a la inversión nacional y extranjera y solo admite medidas análogas frente a medidas discriminatorias de otros Estados. Tomar el control estatal extranjero como factor de riesgo es razonable por seguridad nacional, pero debe vincularse a un riesgo concreto y no a la nacionalidad, como el propio art. 2.a anuncia.",
+    "correccion": "Redactar el 7.a: 'si el adquirente o su controlante final es controlado, financiado o dirigido por un Estado extranjero, sus fuerzas armadas o servicios de inteligencia, en la medida en que ello genere un riesgo concreto y acreditado para la continuidad, integridad o confidencialidad del activo'."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 9 (suspensión de derechos políticos)",
+    "problema": "La suspensión automática de los derechos políticos de la participación adquirida al iniciarse una revisión de oficio afecta la propiedad y la libertad de empresa sin decisión motivada ni audiencia previa (debido proceso, art. 139.3, aplicable en sede administrativa).",
+    "correccion": "Sustituir por: 'La autoridad puede, mediante resolución motivada y como medida provisional proporcional, suspender el ejercicio de los derechos políticos de la participación adquirida mientras dure el procedimiento, previa audiencia del adquirente salvo urgencia acreditada; la medida es impugnable.'"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 10.2",
+    "problema": "'Graduadas conforme al reglamento' omite los criterios legales de graduación (TUO Ley 27444, art. 248.3) y multas de hasta 10 000 UIT requieren parámetros legales para respetar la razonabilidad.",
+    "correccion": "Sustituir por 'graduadas conforme a los criterios del numeral 3 del artículo 248 del Texto Único Ordenado de la Ley 27444'."
+   }
+  ]
+ },
+ {
+  "id": "SOB-13",
+  "especialidad": "constitucional",
+  "veredicto": "observaciones",
+  "resumen": "Régimen compatible con la libertad de comercio exterior (art. 63) por razones de seguridad y con obligaciones internacionales (Res. 1540 del Consejo de Seguridad), con silencio negativo, criterios cerrados y control judicial. La 'exportación presunta' a extranjeros en el país queda librada al reglamento, lo que afecta libertades de investigación, enseñanza e información y la igualdad sin reserva de ley.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 2.b ('o a una persona extranjera en el territorio nacional cuando el reglamento así lo determine')",
+    "problema": "Someter a licencia la comunicación de tecnología a extranjeros en el Perú restringe la libertad de información y de creación científica (arts. 2.4 y 2.8), la libertad de cátedra (art. 18) e introduce una diferencia por nacionalidad (art. 2.2). Las restricciones a derechos fundamentales requieren ley con criterios precisos; la habilitación abierta al reglamento vulnera la reserva de ley.",
+    "correccion": "Reemplazar por: 'o a una persona extranjera en el territorio nacional cuando se trate de tecnología de la Lista vinculada a armas de destrucción masiva o sus vectores, y la persona sea nacional de un Estado sujeto a embargo del Consejo de Seguridad de las Naciones Unidas o figure en sus listas de sanciones', manteniendo las exclusiones del art. 9."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 12.2",
+    "problema": "'Graduadas conforme al reglamento' debe remitir a los criterios legales del art. 248.3 del TUO de la Ley 27444.",
+    "correccion": "Sustituir por 'graduadas conforme a los criterios del numeral 3 del artículo 248 del Texto Único Ordenado de la Ley 27444'."
+   }
+  ]
+ },
+ {
+  "id": "CON-15",
+  "especialidad": "constitucional",
+  "veredicto": "conforme",
+  "resumen": "Prioriza dentro de instrumentos existentes y con metas indicativas sujetas a disponibilidad (art. 79 respetado), en favor de los derechos a la educación y la salud (arts. 7, 9, 13-17) y del acceso a internet (art. 14-A). No altera fondos ni aportes.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 4.2",
+    "problema": "Dimensionar la solución energética del nodo para abastecer otros sitios eleva el costo de proyectos de conectividad financiados con recursos públicos; como obligación, implica gasto adicional.",
+    "correccion": "Agregar: 'cuando sea técnicamente viable y exista disponibilidad presupuestal de la entidad que financia el proyecto o del Plan Nacional de Electrificación Rural'."
+   }
+  ]
+ }
+]

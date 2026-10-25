@@ -1702,6 +1702,471 @@
       "requiere": [
         "CIB-08"
       ]
+    },
+    {
+      "id": "SOB-09",
+      "criterios": {
+        "productividad": 4,
+        "inversion_privada": 5,
+        "mipyme_formalizacion": 1,
+        "complejidad_exportadora": 4,
+        "retorno_fiscal": 5,
+        "velocidad": 3
+      },
+      "score": 72,
+      "justificacion": "Destraba inversión privada en almacenamiento, renovables híbridas y transmisión sin subsidio, condición para centros de datos y refinación. Efecto en MIPYME nulo y maduración de 3–5 años.",
+      "habilita": [
+        "CON-10",
+        "IA-05",
+        "SOB-01"
+      ],
+      "requiere": []
+    },
+    {
+      "id": "SOB-10",
+      "criterios": {
+        "productividad": 3,
+        "inversion_privada": 2,
+        "mipyme_formalizacion": 1,
+        "complejidad_exportadora": 2,
+        "retorno_fiscal": 4,
+        "velocidad": 3
+      },
+      "score": 48,
+      "justificacion": "Mejor asignación del agua entre usos eleva la productividad agroexportadora y minera en cuencas estresadas; el mercado de telemetría es acotado y el costo fiscal moderado.",
+      "habilita": [],
+      "requiere": [
+        "IA-04"
+      ]
+    },
+    {
+      "id": "SOB-11",
+      "criterios": {
+        "productividad": 2,
+        "inversion_privada": 2,
+        "mipyme_formalizacion": 2,
+        "complejidad_exportadora": 4,
+        "retorno_fiscal": 4,
+        "velocidad": 2
+      },
+      "score": 48,
+      "justificacion": "Reglas claras sobre DSI y acceso para investigación abren diversificación adyacente en bioeconomía y biocomercio; efecto económico pequeño y lento.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "SOB-12",
+      "criterios": {
+        "productividad": 1,
+        "inversion_privada": 2,
+        "mipyme_formalizacion": 1,
+        "complejidad_exportadora": 1,
+        "retorno_fiscal": 4,
+        "velocidad": 3
+      },
+      "score": 34,
+      "justificacion": "Instrumento de seguridad, no de crecimiento; con plazos cortos y factores tasados el efecto sobre la inversión es neutro, y un uso discrecional la desalentaría.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "SOB-13",
+      "criterios": {
+        "productividad": 1,
+        "inversion_privada": 3,
+        "mipyme_formalizacion": 1,
+        "complejidad_exportadora": 4,
+        "retorno_fiscal": 3,
+        "velocidad": 2
+      },
+      "score": 40,
+      "justificacion": "Controles creíbles de doble uso son requisito para acceder a insumos y para inversiones en electrónica y espacio; efecto en productividad bajo y costo administrativo recurrente.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "CON-15",
+      "criterios": {
+        "productividad": 3,
+        "inversion_privada": 2,
+        "mipyme_formalizacion": 2,
+        "complejidad_exportadora": 1,
+        "retorno_fiscal": 3,
+        "velocidad": 3
+      },
+      "score": 48,
+      "justificacion": "Electricidad confiable en escuelas, postas y nodos multiplica el retorno de la inversión en conectividad rural ya hecha; requiere inversión pública sin efecto exportador.",
+      "habilita": [
+        "CON-13",
+        "TAL-07"
+      ],
+      "requiere": [
+        "CON-02"
+      ]
+    },
+    {
+      "id": "ECO-15",
+      "criterios": {
+        "productividad": 4,
+        "inversion_privada": 2,
+        "mipyme_formalizacion": 5,
+        "complejidad_exportadora": 1,
+        "retorno_fiscal": 4,
+        "velocidad": 4
+      },
+      "score": 70,
+      "justificacion": "Eliminar el escalón RER reduce la fragmentación empresarial y los costos de cumplimiento de la MYPE; la declaración precompletada acelera el efecto. Recaudación a validar por el MEF.",
+      "habilita": [],
+      "requiere": [
+        "ECO-14"
+      ]
+    },
+    {
+      "id": "ECO-16",
+      "criterios": {
+        "productividad": 4,
+        "inversion_privada": 2,
+        "mipyme_formalizacion": 2,
+        "complejidad_exportadora": 2,
+        "retorno_fiscal": 5,
+        "velocidad": 2
+      },
+      "score": 58,
+      "justificacion": "Una comisión de productividad independiente (modelo Australia, Chile) mejora la asignación de miles de millones en incentivos; costo casi nulo y retorno alto, con efecto de mediano plazo.",
+      "habilita": [
+        "ECO-03"
+      ],
+      "requiere": []
+    },
+    {
+      "id": "ECO-17",
+      "criterios": {
+        "productividad": 4,
+        "inversion_privada": 3,
+        "mipyme_formalizacion": 5,
+        "complejidad_exportadora": 2,
+        "retorno_fiscal": 3,
+        "velocidad": 4
+      },
+      "score": 74,
+      "justificacion": "Ataca la brecha de adopción tecnológica y gerencial de la MIPYME, principal fuente de dispersión de productividad; cofinanciamiento con pago contra entregable y evaluación de impacto.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "ECO-18",
+      "criterios": {
+        "productividad": 4,
+        "inversion_privada": 5,
+        "mipyme_formalizacion": 3,
+        "complejidad_exportadora": 5,
+        "retorno_fiscal": 4,
+        "velocidad": 3
+      },
+      "score": 80,
+      "justificacion": "IED de eficiencia exportadora con encadenamiento a proveedores es el canal de Irlanda, Vietnam y Costa Rica; sin incentivos tributarios y con servicio posinstalación.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "ECO-19",
+      "criterios": {
+        "productividad": 3,
+        "inversion_privada": 5,
+        "mipyme_formalizacion": 2,
+        "complejidad_exportadora": 3,
+        "retorno_fiscal": 5,
+        "velocidad": 3
+      },
+      "score": 68,
+      "justificacion": "Canaliza ahorro previsional de largo plazo al capital de riesgo, la restricción de financiamiento más severa de las startups; costo fiscal nulo y salvaguardas prudenciales.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "ECO-20",
+      "criterios": {
+        "productividad": 2,
+        "inversion_privada": 3,
+        "mipyme_formalizacion": 1,
+        "complejidad_exportadora": 4,
+        "retorno_fiscal": 4,
+        "velocidad": 2
+      },
+      "score": 48,
+      "justificacion": "Mejores capítulos digitales en los TLC reducen barreras a la exportación de servicios; efecto indirecto y lento.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "ECO-21",
+      "criterios": {
+        "productividad": 3,
+        "inversion_privada": 1,
+        "mipyme_formalizacion": 1,
+        "complejidad_exportadora": 1,
+        "retorno_fiscal": 4,
+        "velocidad": 2
+      },
+      "score": 40,
+      "justificacion": "Financiamiento estable por resultados mejora la calidad del gasto digital del Estado; efecto en PTF indirecto vía servicios públicos.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "ECO-22",
+      "criterios": {
+        "productividad": 3,
+        "inversion_privada": 3,
+        "mipyme_formalizacion": 5,
+        "complejidad_exportadora": 4,
+        "retorno_fiscal": 4,
+        "velocidad": 4
+      },
+      "score": 74,
+      "justificacion": "Georreferenciación gratuita y constancias de no deforestación mantienen el acceso del café y el cacao de la agricultura familiar a la UE; datos con consentimiento para crédito.",
+      "habilita": [
+        "TAL-08"
+      ],
+      "requiere": [
+        "CON-09"
+      ]
+    },
+    {
+      "id": "GOB-15",
+      "criterios": {
+        "productividad": 4,
+        "inversion_privada": 4,
+        "mipyme_formalizacion": 4,
+        "complejidad_exportadora": 1,
+        "retorno_fiscal": 5,
+        "velocidad": 3
+      },
+      "score": 74,
+      "justificacion": "Revisión quinquenal del stock de trámites y silencio positivo automático reducen costos de transacción para empresas y MIPYME a costo casi nulo.",
+      "habilita": [],
+      "requiere": [
+        "GOB-02"
+      ]
+    },
+    {
+      "id": "GOB-16",
+      "criterios": {
+        "productividad": 2,
+        "inversion_privada": 1,
+        "mipyme_formalizacion": 1,
+        "complejidad_exportadora": 1,
+        "retorno_fiscal": 3,
+        "velocidad": 2
+      },
+      "score": 32,
+      "justificacion": "Mejora la calidad de la legislación tecnológica, con efecto económico indirecto y diferido.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "GOB-17",
+      "criterios": {
+        "productividad": 3,
+        "inversion_privada": 1,
+        "mipyme_formalizacion": 1,
+        "complejidad_exportadora": 1,
+        "retorno_fiscal": 4,
+        "velocidad": 3
+      },
+      "score": 42,
+      "justificacion": "Una unidad de cumplimiento acelera la entrega de servicios digitales con costo bajo; efecto económico indirecto.",
+      "habilita": [
+        "GOB-18"
+      ],
+      "requiere": []
+    },
+    {
+      "id": "GOB-18",
+      "criterios": {
+        "productividad": 3,
+        "inversion_privada": 3,
+        "mipyme_formalizacion": 2,
+        "complejidad_exportadora": 1,
+        "retorno_fiscal": 5,
+        "velocidad": 4
+      },
+      "score": 58,
+      "justificacion": "Reglamentos a tiempo reducen la incertidumbre jurídica que paraliza inversiones; costo nulo y efecto rápido.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "GOB-19",
+      "criterios": {
+        "productividad": 3,
+        "inversion_privada": 1,
+        "mipyme_formalizacion": 2,
+        "complejidad_exportadora": 1,
+        "retorno_fiscal": 3,
+        "velocidad": 2
+      },
+      "score": 42,
+      "justificacion": "Servicios compartidos reducen costos de digitalización en municipalidades pequeñas; efecto económico local y lento.",
+      "habilita": [],
+      "requiere": [
+        "GOB-08",
+        "GOB-14"
+      ]
+    },
+    {
+      "id": "GOB-20",
+      "criterios": {
+        "productividad": 4,
+        "inversion_privada": 4,
+        "mipyme_formalizacion": 2,
+        "complejidad_exportadora": 4,
+        "retorno_fiscal": 4,
+        "velocidad": 3
+      },
+      "score": 70,
+      "justificacion": "Interoperabilidad logística obligatoria reduce tiempos y costos de comercio exterior en el corredor Chancay–Lima; destraba inversión en almacenes y ZEE.",
+      "habilita": [
+        "SOB-02"
+      ],
+      "requiere": [
+        "CIB-01"
+      ]
+    },
+    {
+      "id": "GOB-21",
+      "criterios": {
+        "productividad": 2,
+        "inversion_privada": 4,
+        "mipyme_formalizacion": 1,
+        "complejidad_exportadora": 2,
+        "retorno_fiscal": 4,
+        "velocidad": 2
+      },
+      "score": 48,
+      "justificacion": "Compromisos verificables reducen la paralización de proyectos por conflictos; efecto en la inversión relevante pero difícil de cuantificar.",
+      "habilita": [
+        "SOB-01"
+      ],
+      "requiere": []
+    },
+    {
+      "id": "GOB-22",
+      "criterios": {
+        "productividad": 3,
+        "inversion_privada": 3,
+        "mipyme_formalizacion": 1,
+        "complejidad_exportadora": 1,
+        "retorno_fiscal": 5,
+        "velocidad": 3
+      },
+      "score": 52,
+      "justificacion": "Trazabilidad del canon mejora la calidad del gasto subnacional y la licencia social para la minería; costo bajo.",
+      "habilita": [],
+      "requiere": [
+        "GOB-05",
+        "IA-04"
+      ]
+    },
+    {
+      "id": "GOB-23",
+      "criterios": {
+        "productividad": 1,
+        "inversion_privada": 1,
+        "mipyme_formalizacion": 1,
+        "complejidad_exportadora": 1,
+        "retorno_fiscal": 3,
+        "velocidad": 2
+      },
+      "score": 26,
+      "justificacion": "Derecho lingüístico con efecto económico marginal en el horizonte del lente.",
+      "habilita": [],
+      "requiere": [
+        "TAL-13"
+      ]
+    },
+    {
+      "id": "GOB-24",
+      "criterios": {
+        "productividad": 1,
+        "inversion_privada": 1,
+        "mipyme_formalizacion": 1,
+        "complejidad_exportadora": 1,
+        "retorno_fiscal": 4,
+        "velocidad": 2
+      },
+      "score": 28,
+      "justificacion": "Mejora la focalización de la inversión digital; efecto en crecimiento indirecto.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "TAL-15",
+      "criterios": {
+        "productividad": 4,
+        "inversion_privada": 4,
+        "mipyme_formalizacion": 1,
+        "complejidad_exportadora": 4,
+        "retorno_fiscal": 5,
+        "velocidad": 4
+      },
+      "score": 70,
+      "justificacion": "Cubre rápido vacantes STEM críticas y transfiere conocimiento sin costo fiscal; condición para escalar servicios digitales exportables.",
+      "habilita": [
+        "CON-10"
+      ],
+      "requiere": []
+    },
+    {
+      "id": "TAL-16",
+      "criterios": {
+        "productividad": 4,
+        "inversion_privada": 2,
+        "mipyme_formalizacion": 2,
+        "complejidad_exportadora": 1,
+        "retorno_fiscal": 4,
+        "velocidad": 2
+      },
+      "score": 54,
+      "justificacion": "Instrumento portable de reconversión mejora el capital humano de dependientes e independientes; efecto lento y adopción incierta sin aportes públicos.",
+      "habilita": [],
+      "requiere": [
+        "IA-13"
+      ]
+    },
+    {
+      "id": "IA-15",
+      "criterios": {
+        "productividad": 3,
+        "inversion_privada": 4,
+        "mipyme_formalizacion": 1,
+        "complejidad_exportadora": 3,
+        "retorno_fiscal": 4,
+        "velocidad": 3
+      },
+      "score": 58,
+      "justificacion": "Certeza sobre responsabilidad civil destraba inversión en automatización minera y logística; poco alcance MIPYME.",
+      "habilita": [],
+      "requiere": []
+    },
+    {
+      "id": "IA-16",
+      "criterios": {
+        "productividad": 3,
+        "inversion_privada": 4,
+        "mipyme_formalizacion": 2,
+        "complejidad_exportadora": 4,
+        "retorno_fiscal": 5,
+        "velocidad": 2
+      },
+      "score": 64,
+      "justificacion": "La adecuación UE reduce costos de exportar servicios con datos personales; costo bajo pero dependiente de una decisión europea de varios años.",
+      "habilita": [
+        "ECO-12"
+      ],
+      "requiere": [
+        "IA-11"
+      ]
     }
   ],
   "vacios": [

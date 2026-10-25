@@ -1,0 +1,1031 @@
+[
+ {
+  "id": "ECO-15",
+  "especialidad": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Respeta el artículo 74 de la Constitución: la escala queda en la ley y no se crean beneficios tributarios. Las observaciones son de técnica legislativa. La propuesta reproduce en una ley paralela reglas del Decreto Legislativo 1269 en vez de modificarlo, deroga el RER sin ajustar las remisiones que otras normas le hacen y deja a la gradualidad discrecional de la SUNAT el error que proviene de la propia declaración precompletada.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículos 2.1 y 3.2",
+    "problema": "Reproducen el ámbito (artículo 2) y la escala de tasas (artículo 5) del Decreto Legislativo 1269 en una ley distinta, sin modificar ese decreto. Quedarían dos normas con el mismo contenido: si una se modifica y la otra no, surge una antinomia, y la presentación como «ley que fija los elementos esenciales» induce a error, porque esos elementos ya tienen rango de ley en el D.L. 1269 (norma con rango de ley por delegación, art. 104 de la Constitución). La Guía de técnica legislativa de la Cámara de Diputados exige usar la fórmula «Se modifica…» con el texto íntegro.",
+    "correccion": "Reemplazar los artículos 2.1 y 3 por: «Artículo 2. Modificación del Decreto Legislativo 1269. Se modifican los artículos 2 y 5 del Decreto Legislativo 1269, que quedan redactados en los términos siguientes: [texto íntegro, que incorpore la mención a los ex contribuyentes del RER].» Conservar el actual 3.3 (no hay beneficios tributarios) como artículo propio."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Disposición Complementaria Derogatoria Única",
+    "problema": "Deroga el Capítulo XV del TUO de la Ley del Impuesto a la Renta pero cierra con una cláusula genérica («las demás normas que se opongan»). El Decreto Legislativo 1269 y su reglamento, el TUO de la Ley del IGV y otras normas remiten al RER, por ejemplo en las reglas de cambio de régimen y de acogimiento, y quedarían remisiones vacías. La Guía exige derogación expresa.",
+    "correccion": "Agregar una Disposición Complementaria Modificatoria que adecúe las remisiones al RER del Decreto Legislativo 1269 (reglas de acogimiento y cambio de régimen) y del Decreto Legislativo 937. Sustituir «así como las demás normas que se opongan a ella» por una lista cerrada de las disposiciones derogadas, identificadas por el MEF en su informe previo."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 4.3",
+    "problema": "Si el contribuyente confirma de buena fe una propuesta con datos erróneos de terceros que la propia SUNAT incorporó, la consecuencia queda al «régimen de gradualidad que apruebe» la SUNAT, que es discrecional (art. 166 del TUO del Código Tributario). La regla de que no hay sanción sin culpa no se aplica en materia tributaria (art. 165 CT), por lo que, sin un texto legal expreso, el contribuyente de buena fe queda expuesto a multa e intereses por un error ajeno.",
+    "correccion": "Redactar: «4.3 Cuando la omisión o el error provengan exclusivamente de información de terceros o de la propia Administración incorporada en la propuesta y el contribuyente la haya confirmado sin modificarla, no se aplican sanciones ni intereses moratorios por dicha diferencia, siempre que el contribuyente regularice el tributo dentro del plazo que la SUNAT le otorgue al comunicársela. Lo dispuesto no constituye beneficio tributario.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 6.1",
+    "problema": "Prevé el acompañamiento para contribuyentes «provenientes del Nuevo Régimen Único Simplificado», pero la ley no los migra (el art. 2.2 mantiene el NRUS sin cambios). La regla resulta incoherente o, en el mejor caso, indeterminada.",
+    "correccion": "Precisar: «…los contribuyentes provenientes del Régimen Especial del Impuesto a la Renta y quienes, durante el primer año de vigencia, se acojan voluntariamente desde el Nuevo Régimen Único Simplificado…»."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 2.3 y Disposición Complementaria Transitoria",
+    "problema": "Remite a la «Primera Disposición Complementaria Transitoria», pero solo existe una. Además, el artículo 9 (Financiamiento) está en el articulado sustantivo, cuando la Guía lo ubica en las disposiciones complementarias finales.",
+    "correccion": "Denominarla «Única Disposición Complementaria Transitoria» y ajustar la remisión. Trasladar el artículo 9 como Disposición Complementaria Final Tercera."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "D.L. 1269, arts. 2 y 5 (modifica) y reglas de acogimiento y cambio de régimen (adecua remisiones al RER)",
+    "TUO LIR, D.S. 179-2004-EF, Capítulo XV (deroga)",
+    "D.L. 937 (adecua remisiones al RER, sin tocar categorías)"
+   ],
+   "impacto_economico": "Sin cifra oficial. Supuesto explícito: el efecto recaudatorio depende del margen de los ex RER; para márgenes de renta neta sobre ingresos por debajo de alrededor del 15 %, el 10 % sobre la renta neta resulta menor que el 1,5 % mensual sobre ingresos del RER. Lo debe cuantificar el MEF (confianza baja)."
+  }
+ },
+ {
+  "id": "ECO-16",
+  "especialidad": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "La fórmula de un comité sin personería ni pliego dentro del CNCF es viable. La remuneración de los miembros, sin embargo, es gasto de iniciativa parlamentaria y el texto no la condiciona con la fórmula de COORDINACION. El acceso a microdatos «anonimizados» cubiertos por la reserva tributaria también excede lo que hoy permite el artículo 85 del Código Tributario.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Disposición Complementaria Final Primera y artículo 9",
+    "problema": "Ordena reglamentar «el régimen de dietas o retribución de los miembros», lo que genera gasto corriente nuevo y permanente por iniciativa parlamentaria. Eso está prohibido por el artículo 79 de la Constitución y la STC 00018-2023-PI/TC (fund. 113-118). Decir «sin demandar recursos adicionales» no salva el problema, y el impacto declara S/ 1-3 millones/año.",
+    "correccion": "Opción a): «Los miembros del Comité ejercen el cargo ad honorem; el Ministerio de Economía y Finanzas puede contratar las evaluaciones con cargo a su presupuesto institucional, sujeto a disponibilidad presupuestal.» Opción b): mantener la retribución y agregar en «financiamiento» y en la exposición de motivos: «requiere coordinación con el Poder Ejecutivo, fuente de financiamiento identificada e informe previo de sostenibilidad fiscal del MEF antes del dictamen». En ese caso, cambiar costo_fiscal a «medio» o explicar el «bajo»."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 6.2",
+    "problema": "Permite entregar información bajo reserva tributaria «en forma agregada o anonimizada». El artículo 85 del TUO del Código Tributario solo exceptúa la publicación de estadísticas que, por su carácter global, no permitan individualizar. Los microdatos anonimizados por contribuyente no están cubiertos y se pueden reidentificar cruzándolos con bases de beneficiarios (art. 6.1). El artículo 2.5 de la Constitución solo permite levantar la reserva a pedido del juez, el Fiscal de la Nación o una comisión investigadora del Congreso.",
+    "correccion": "Redactar: «6.2 La información protegida por la reserva tributaria se procesa por la propia SUNAT, a solicitud del Comité, mediante modelos o consultas que este proporcione, y solo se entregan resultados estadísticos que no permitan individualizar a contribuyente alguno, conforme al artículo 85 del TUO del Código Tributario. La información amparada por el secreto bancario solo se proporciona agregada. Los datos personales se tratan conforme a la Ley 29733.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 3.2",
+    "problema": "Unos miembros designados por resolución ministerial, en un órgano adscrito al MEF y sin personería, reciben protección contra la remoción por cinco años. Eso es válido, pero conviene que la ley tipifique las causales para evitar que el reglamento las amplíe. Hoy la DCF Primera remite las causales al reglamento, lo que vacía la garantía.",
+    "correccion": "En el art. 3.2, enumerar de forma cerrada: «a) condena por delito doloso consentida; b) incapacidad física o mental permanente declarada; c) incompatibilidad sobrevenida conforme al numeral 3.3; d) inasistencia injustificada a tres sesiones consecutivas o cinco alternas en un año; e) falta grave en el ejercicio del cargo, acreditada en procedimiento con derecho de defensa.» Eliminar «las causales de remoción» de la DCF Primera."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 9",
+    "problema": "El artículo de financiamiento está en el articulado sustantivo.",
+    "correccion": "Trasladarlo como Disposición Complementaria Final Tercera."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "D.S. 024-2002-PCM y normas del CNCF (eleva a rango legal)",
+    "TUO del Código Tributario, art. 85 (concordancia, sin modificar)"
+   ],
+   "entidades_implicadas": [
+    "SUNAT: procesa microdatos bajo reserva y entrega solo resultados estadísticos (ejecutora)",
+    "SERVIR: concurso de selección"
+   ],
+   "impacto_economico": "El rango de S/ 1-3 millones/año es una estimación del redactor, no una cifra oficial. Si los miembros son ad honorem, el costo se reduce a 2-3 evaluaciones contratadas (supuesto: S/ 150-400 mil cada una; confianza baja)."
+  }
+ },
+ {
+  "id": "ECO-17",
+  "especialidad": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "El diseño antifraude y el régimen sancionador están por encima del promedio: hay tipificación, autoridad y graduación. Faltan tres cosas: la habilitación legal para otorgar subvenciones a privados, la coherencia entre la prohibición de vinculación (art. 7.1) y su tipificación (art. 8.2.c), y la tipificación de la conducta de la empresa beneficiaria, a la que hoy se sanciona sin infracción tipificada.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículos 5 y 10",
+    "problema": "El bono es una transferencia de fondos públicos a privados. Bajo el Decreto Legislativo 1440 y las leyes anuales de presupuesto, las subvenciones a personas jurídicas privadas requieren autorización legal expresa y aprobación por resolución del titular, con un tope. Sin esa habilitación, ProInnóvate no puede pagar el bono aunque tenga presupuesto, y la norma resulta inaplicable.",
+    "correccion": "Agregar un artículo: «Autorízase al Ministerio de la Producción, a través de ProInnóvate o el programa que haga sus veces, a otorgar los cofinanciamientos del artículo 5 como subvenciones a favor de personas naturales y jurídicas privadas, con cargo a su presupuesto institucional y sin demandar recursos adicionales al Tesoro Público. Su otorgamiento se aprueba por resolución del titular del pliego, previo informe favorable de la oficina de presupuesto, y se publica en el portal institucional.» Precisar que el pago al proveedor no constituye contratación regida por la Ley 32069."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículos 7.1 y 8.2 c)",
+    "problema": "El artículo 7.1 prohíbe toda vinculación económica entre proveedor y beneficiaria, pero el 8.2 c) solo sanciona la vinculación «no declarada». Queda la duda de si la vinculación declarada está permitida. Por el principio de tipicidad (art. 248.4 del TUO de la Ley 27444, D.S. 006-2026-JUS, numeración por verificar en el nuevo TUO), la conducta debe describirse sin ambigüedad.",
+    "correccion": "Sustituir el literal c) por: «c) canjear un bono a favor de una empresa con la que tenga vinculación económica conforme al artículo 7.1»."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 8.4",
+    "problema": "Impone a la empresa beneficiaria la pérdida de acceso por cinco años, que es una sanción administrativa, sin tipificar su infracción, sin calificar la gravedad y sin remitir al procedimiento sancionador. Eso vulnera los principios de legalidad y tipicidad (art. 248.1 y 248.4 del TUO de la Ley 27444).",
+    "correccion": "Redactar: «8.4 Constituye infracción muy grave de la empresa beneficiaria participar a sabiendas en las conductas de los literales a), b) o c) del numeral 8.2. Se sanciona, previo procedimiento sancionador, con inhabilitación para acceder a la línea por cinco años. El reintegro del cofinanciamiento se dispone como medida correctiva conforme al artículo 251 del TUO de la Ley 27444.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 8.3",
+    "problema": "Califica el reintegro dentro de las sanciones. Es una medida correctiva (art. 251), no una sanción, y la distinción importa para la prescripción y para el non bis in idem.",
+    "correccion": "Redactar: «…En todos los casos se dispone, como medida correctiva, el reintegro del cofinanciamiento indebidamente percibido, con los intereses legales.» Citar «TUO de la Ley 27444, aprobado por D.S. 006-2026-JUS» en el art. 8.1."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 2",
+    "problema": "Usa «MIPYME» sin definirla. Los umbrales están en el art. 5 del TUO aprobado por D.S. 013-2013-PRODUCE.",
+    "correccion": "Agregar: «e) MIPYME: micro, pequeña y mediana empresa según los niveles de ventas anuales del artículo 5 del TUO aprobado por Decreto Supremo 013-2013-PRODUCE.» Trasladar el art. 10 a una DCF."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "D.L. 1440 / ley anual de presupuesto (habilitación de subvenciones, concordancia)",
+    "TUO Ley 27444, D.S. 006-2026-JUS, arts. 248 y 251 (concordancia)"
+   ],
+   "impacto_economico": "Costo no estimable: depende del cupo de bonos que fije el Ejecutivo. El dato de que el 81,5 % de beneficiarios aumentó sus ventas no prueba causalidad, como la propia propuesta advierte, y no debe usarse como beneficio esperado."
+  }
+ },
+ {
+  "id": "ECO-18",
+  "especialidad": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Es una ley de organización de funciones sin gasto obligatorio, beneficios tributarios ni requisitos de contenido nacional, coherente con los D.L. 662 y 757. Las observaciones son menores: la definición de IED usa una categoría tributaria impropia (no domiciliados) y faltan refrendos de los sectores que coelaboran la estrategia.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 2 a)",
+    "problema": "Define la IED de eficiencia como «inversión de no domiciliados». «No domiciliado» es una categoría tributaria de la Ley del Impuesto a la Renta (arts. 7 y 8). La IED suele canalizarse mediante sociedades constituidas en el Perú, que son domiciliadas. Con esa definición, quedarían fuera casi todos los proyectos que la ley quiere atraer.",
+    "correccion": "Redactar: «a) inversión extranjera directa de eficiencia: inversión extranjera en los términos del Decreto Legislativo 662, efectuada directamente o a través de empresas constituidas en el país, en actividades de manufactura o servicios orientadas principalmente a la exportación…»."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 3.1",
+    "problema": "La estrategia la elaboran ProInversión, PRODUCE y MINCETUR, pero el decreto supremo solo lo refrenda el Ministro de Economía y Finanzas. Si un decreto supremo comprende varios sectores, debe refrendarse por los ministros competentes (art. 11 de la Ley 29158).",
+    "correccion": "Redactar: «…que se aprueba por decreto supremo refrendado por los Ministros de Economía y Finanzas, de la Producción y de Comercio Exterior y Turismo.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 10",
+    "problema": "El artículo de financiamiento está en el articulado y falta una disposición de reglamentación (la DCF Segunda solo adecúa documentos de gestión).",
+    "correccion": "Trasladar el artículo 10 como DCF Tercera. Agregar: «El Poder Ejecutivo, mediante decreto supremo refrendado por el Ministro de Economía y Finanzas, establece los criterios de calificación de proyectos del artículo 4.2 en el plazo de noventa días hábiles.»"
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "D.L. 662 (concordancia: definición de inversión extranjera)",
+    "Ley 29158, art. 11 (refrendo)"
+   ],
+   "impacto_economico": "El rango de S/ 2-5 millones/año es una estimación del redactor (supuesto: 10-15 especialistas). Esta reasignación de personal no es gasto nuevo obligatorio, porque el texto no ordena contratar."
+  }
+ },
+ {
+  "id": "ECO-19",
+  "especialidad": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Es una norma habilitante, prudente y sin gasto. Se verificó que el artículo 25-B del TUO del SPP faculta a la SBS, con opinión del MEF, a fijar sublímites. No modifica la Ley 26702 y respeta el deber fiduciario. Las observaciones son de precisión: los tipos de fondo excluidos y la relación con los límites que fija el BCRP (art. 25-D).",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 5.2",
+    "problema": "Excluye a «los fondos de pensiones de menor riesgo y los destinados a afiliados próximos a la jubilación» sin identificarlos. El TUO del SPP y la Ley 32123 tipifican los fondos por número (Fondo 0, 1, 2, 3). Una exclusión indeterminada se presta a disputas sobre qué tipos alcanza.",
+    "correccion": "Redactar: «5.2 No pueden invertir en los instrumentos del artículo 3 el Fondo de Pensiones Tipo 0, el Fondo de Pensiones Tipo 1, ni los fondos o carteras que la SBS determine para afiliados a menos de diez años de la edad legal de jubilación.» Verificar la denominación vigente de los tipos tras la Ley 32123."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 3.1",
+    "problema": "Permite invertir en fondos «extranjeros». El límite de inversión en el exterior lo fija el BCRP conforme al artículo 25-D del TUO del SPP, que el último párrafo del 25-B excluye de la potestad de la SBS. El texto no lo menciona y podría leerse como una habilitación autónoma.",
+    "correccion": "Agregar al final del 3.1: «Las inversiones en fondos extranjeros computan dentro del límite de inversión en el exterior que establece el Banco Central de Reserva del Perú conforme al artículo 25-D del citado Texto Único Ordenado.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 7",
+    "problema": "Encarga una función nueva (evaluar e informar) a la SBS sin modificar su ley orgánica. Como es un encargo de estudio dentro de sus atribuciones, no altera su estructura ni sus competencias, y el redactor ya advirtió el límite. Basta precisar que no se amplían potestades.",
+    "correccion": "Agregar: «El presente encargo no modifica las atribuciones de la Superintendencia previstas en la Ley 26702.»"
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "TUO SPP, D.S. 054-97-EF, arts. 25-B y 25-D (complementa / concordancia)",
+    "Ley 32123 (concordancia)"
+   ],
+   "entidades_implicadas": [
+    "BCRP: límite de inversión en el exterior (art. 25-D)"
+   ],
+   "impacto_economico": "Costo fiscal nulo, bien declarado. El monto canalizado dependerá del sublímite; no existe base oficial para estimarlo."
+  }
+ },
+ {
+  "id": "ECO-20",
+  "especialidad": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Resguarda bien la competencia presidencial del artículo 118.11 y formula los lineamientos como orientadores. Hay un punto de fricción: la consulta pública previa obligatoria a toda negociación o adhesión es un deber procedimental impuesto al Ejecutivo en una materia de su competencia exclusiva. Debe admitir excepción motivada y aclarar cómo se aplica a la adhesión al DEPA en curso.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 5.1",
+    "problema": "Obliga a publicar objetivos y abrir 30 días de comentarios «antes del inicio de una negociación o adhesión». Esto condiciona el momento y la reserva de la conducción de la política exterior (art. 118.11), en contradicción con el propio art. 2.1. También genera dudas sobre la validez de las adhesiones ya iniciadas, como el DEPA, cuyo procedimiento interno ya empezó.",
+    "correccion": "Redactar: «5.1 Antes del inicio o, cuando ello no sea posible, durante la negociación o adhesión, el MINCETUR publica un resumen de los objetivos nacionales que no comprometa la posición negociadora y abre un periodo de comentarios no menor de treinta días calendario. Por razones de política exterior debidamente motivadas, el Ministerio de Relaciones Exteriores puede disponer que la consulta se realice de manera reservada con los actores pertinentes. El incumplimiento de este numeral no afecta la validez del tratado.» Agregar una DCT: «Los procesos de negociación o adhesión en curso a la entrada en vigor se adecúan a lo dispuesto en la presente ley en la etapa en que se encuentren.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 6.2",
+    "problema": "El informe de impacto normativo para los tratados del artículo 57 (de los que se «da cuenta») llega después de la ratificación. Exigirlo no condiciona la validez del tratado, pero conviene precisarlo para no abrir debates sobre su eficacia.",
+    "correccion": "Agregar: «La falta del informe no afecta la validez ni la vigencia del tratado; el Congreso puede requerirlo conforme a su Reglamento.» Incluir la Ley 26647 en las modificatorias si se opta por incorporar la regla en su texto (preferible: incorporar un artículo 2-A en la Ley 26647)."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 9",
+    "problema": "El artículo de financiamiento está en el articulado.",
+    "correccion": "Trasladarlo como Disposición Complementaria Final Tercera."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 26647 (opcional: incorporar art. 2-A sobre informe de impacto normativo)"
+   ],
+   "impacto_economico": "El rango de S/ 0,5-1,5 millones/año es una estimación del redactor; no es una cifra oficial. Es razonable si la participación es mayormente remota (confianza media)."
+  }
+ },
+ {
+  "id": "ECO-21",
+  "especialidad": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Es un buen modelo de cómo el Congreso puede promover un programa presupuestal sin invadir la iniciativa del Ejecutivo (arts. 78-80). El único punto delicado es el artículo 5: una regla general que convierte en «indicativas» las metas de cualquier ley modifica tácitamente otras leyes, lo que contraviene la técnica de derogación y modificación expresa.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 5",
+    "problema": "Dispone que «las metas indicativas en materia de transformación digital establecidas por ley» se sujetan a la disponibilidad presupuestal. Si alude a metas obligatorias de leyes vigentes, las rebaja tácitamente, y una ley ordinaria posterior no queda vinculada por esta regla (lex posterior). Si solo alude a metas ya indicativas, es superflua. En ambos casos genera inseguridad jurídica, porque la Guía exige identificar la norma que se modifica.",
+    "correccion": "Redactar: «Artículo 5. Metas indicativas. Las metas en materia de transformación digital que las leyes califiquen expresamente como indicativas constituyen referencias para la programación multianual presupuestaria y de inversiones…». Si se quiere alcanzar metas obligatorias concretas de leyes vigentes, enumerarlas en una Disposición Complementaria Modificatoria."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Disposición Complementaria Final Segunda",
+    "problema": "Atribuye al CEPLAN «considerar» los resultados en la actualización de la Política Nacional de Transformación Digital. La actualización corresponde a la PCM como rectora; el CEPLAN emite opinión técnica conforme al Reglamento que regula las Políticas Nacionales (D.S. 029-2018-PCM).",
+    "correccion": "Redactar: «La Presidencia del Consejo de Ministros, a través de la Secretaría de Gobierno y Transformación Digital, considera los resultados de la evaluación del artículo 2 en la actualización de la Política Nacional de Transformación Digital, con la opinión técnica del CEPLAN conforme a sus competencias.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 8",
+    "problema": "El artículo de financiamiento está en el articulado.",
+    "correccion": "Trasladarlo como DCF Tercera."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "D.L. 1440, art. 16 (concordancia)",
+    "D.S. 029-2018-PCM (concordancia)"
+   ],
+   "impacto_economico": "Costo nulo, verosímil: usa equipos existentes del MEF y de la SGTD. La confianza «alta» está justificada."
+  }
+ },
+ {
+  "id": "ECO-22",
+  "especialidad": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Es una propuesta útil frente al Reglamento (UE) 2023/1115 y respeta el principio de subsidiariedad (art. 60), pero tiene tres problemas jurídicos. Afirma que los datos «pertenecen» al productor, una figura que el ordenamiento no reconoce y que no protege a las cooperativas (personas jurídicas, fuera de la Ley 29733). No define la naturaleza ni la responsabilidad de la «constancia» de no pérdida de bosque. Y regula las asambleas virtuales fuera de la ley de cooperativas.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3.3",
+    "problema": "«Los datos de la parcela y de la producción pertenecen al productor» usa una noción de propiedad sobre datos que el derecho peruano no recoge. La Ley 29733 protege solo a personas naturales, de modo que los datos de las cooperativas quedan sin régimen. Además, la información en poder del Estado se rige por el TUO de la Ley 27806: sin una excepción legal expresa, los datos productivos de una cooperativa podrían pedirse por acceso a la información pública.",
+    "correccion": "Redactar: «3.3 Los datos de la parcela y de la producción que el productor proporcione al servicio tienen carácter confidencial y solo se comparten con terceros con su autorización previa, expresa e informada. Respecto de las personas naturales, se aplica la Ley 29733. Respecto de las cooperativas agrarias, dicha información constituye secreto comercial para efectos del artículo 17, numeral 2, del TUO de la Ley 27806. Se exceptúan los datos agregados o anonimizados que se publiquen conforme al régimen general de datos abiertos.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3.1",
+    "problema": "No define la naturaleza jurídica de la «constancia verificable de no pérdida de cobertura boscosa» (¿acto administrativo?, ¿servicio informativo?) ni sus efectos. Un error, como un falso negativo de deforestación, podría generar reclamos de responsabilidad patrimonial del Estado (art. 238 del TUO de la Ley 27444) de parte de exportadores sancionados en la UE. Además, la competencia sobre el monitoreo de bosques corresponde al MINAM y al SERFOR, no al MIDAGRI.",
+    "correccion": "Agregar: «La constancia es un documento informativo basado en la información oficial de monitoreo de bosques del MINAM y del SERFOR a la fecha de su emisión; no constituye certificación de cumplimiento de normas extranjeras ni sustituye la debida diligencia del operador.» Precisar: «El MIDAGRI emite la constancia con base en la información que proporcionan el MINAM y el SERFOR en el ámbito de sus competencias.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 7",
+    "problema": "Regula las asambleas virtuales de las cooperativas en una ley especial sin modificar la Ley 31335 ni el TUO de la Ley General de Cooperativas (D.S. 074-90-TR). Además, al condicionarlas a «cuando su estatuto lo permita», obliga a reformar casi todos los estatutos, lo que neutraliza la medida.",
+    "correccion": "Convertirlo en una Disposición Complementaria Modificatoria: «Se incorpora el artículo [X]-A en la Ley 31335, con el texto siguiente: “Las cooperativas agrarias pueden celebrar asambleas generales y sesiones de consejo de forma virtual o mixta, salvo prohibición expresa del estatuto, siempre que se garanticen…”». Verificar previamente el número libre en la Ley 31335 modificada por la Ley 32167."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 6.1",
+    "problema": "No precisa quién presta el consentimiento por la cooperativa ni su forma (acuerdo de consejo de administración o del gerente con poder).",
+    "correccion": "Agregar: «Tratándose de cooperativas agrarias, la autorización la otorga su representante legal con facultades suficientes, conforme al estatuto.» Trasladar el art. 10 a una DCF."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 31335 (incorpora artículo sobre asambleas virtuales)",
+    "TUO Ley 27806, art. 17.2 (concordancia: secreto comercial)"
+   ],
+   "entidades_implicadas": [
+    "MINAM (Programa Nacional de Conservación de Bosques) y SERFOR: fuentes de la constancia (competencia propia)"
+   ],
+   "impacto_economico": "Costo no cuantificado y bien declarado como tal. Supuesto útil para el dictamen: la georreferenciación con levantamiento en campo cuesta muchísimo más por parcela que la que usa imágenes satelitales y autodeclaración asistida. El MIDAGRI debe estimar el número de parcelas de café y cacao (no hay cifra oficial actualizada)."
+  }
+ },
+ {
+  "id": "GOB-15",
+  "especialidad": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Está bien anclada en el D.L. 1565 y su reglamento, no invade el procedimiento legislativo ni a los gobiernos subnacionales, y la constancia automática de silencio positivo es una mejora real. Hay dos ajustes jurídicos necesarios. El cómputo del plazo para la aprobación ficta no incluye el plazo de notificación que exige el TUO de la Ley 27444, y la pérdida de exigibilidad de los procedimientos no ratificados deja un vacío cuando una ley exige el título habilitante.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 6.1",
+    "problema": "La constancia se emite «vencido el plazo legal sin que se haya notificado el pronunciamiento». Según el TUO de la Ley 27444 (en el D.S. 004-2019-JUS era el art. 199.1; verificar la numeración en el D.S. 006-2026-JUS), la aprobación ficta se produce al vencer el plazo del procedimiento más el plazo máximo de notificación del art. 24.1 (cinco días hábiles). Emitir la constancia al día siguiente del plazo del procedimiento contradice esa regla y generaría constancias de una aprobación que aún no se ha producido, expuestas a nulidad.",
+    "correccion": "Redactar: «6.1 …vencido el plazo para resolver, más el plazo máximo para notificar previsto en el numeral 24.1 del artículo 24 del TUO de la Ley 27444, aprobado por Decreto Supremo 006-2026-JUS, sin que se haya notificado el pronunciamiento, el sistema emite de forma automática, dentro del día hábil siguiente…». Verificar la numeración en el nuevo TUO."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículos 5.3 y 5.4",
+    "problema": "Cuando una ley exige un título habilitante (licencia, autorización) y el procedimiento para obtenerlo está en un reglamento, la falta de ratificación vuelve «inexigible» el procedimiento, pero la ley sigue exigiendo el título. El administrado no tendría vía para obtenerlo ni podría operar sin él, en contra del objetivo de simplificación y del principio de seguridad jurídica.",
+    "correccion": "Agregar el numeral 5.4-A: «Cuando una norma con rango de ley exija un título habilitante cuyo procedimiento no haya sido ratificado, dejan de ser exigibles los requisitos no ratificados y el procedimiento se tramita, hasta su ratificación, como de aprobación automática con presentación de la declaración jurada del administrado, salvo que la ley establezca silencio negativo por afectar significativamente el interés público, en cuyo caso se mantiene vigente por un plazo improrrogable de doce meses adicionales.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 5.5",
+    "problema": "Califica como barrera burocrática ilegal la exigencia de un procedimiento inexigible. Eso es correcto, pero conviene precisar que el INDECOPI actúa conforme al D.L. 1256 y que la consecuencia alcanza también la responsabilidad del funcionario prevista en esa norma.",
+    "correccion": "Redactar: «…constituye barrera burocrática ilegal, cuya eliminación e inaplicación corresponde al INDECOPI conforme al Decreto Legislativo 1256, Ley de Prevención y Eliminación de Barreras Burocráticas, incluidas las sanciones previstas en dicha norma.»"
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "D.L. 1565 y D.S. 023-2025-PCM (complementa / adecúa)",
+    "TUO Ley 27444, D.S. 006-2026-JUS, silencio positivo y art. 24.1 (concordancia; verificar numeración)",
+    "D.L. 1256 (concordancia)"
+   ],
+   "impacto_economico": "El rango de S/ 1-3 millones (costo único) es una estimación del redactor; es verosímil porque GOB.PE ya registra las fechas de presentación y notificación (confianza media)."
+  }
+ },
+ {
+  "id": "GOB-16",
+  "especialidad": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "El instrumento es correcto: una resolución legislativa que modifica el Reglamento (art. 94), sin pliego nuevo. El gasto tampoco es objetable, porque el artículo 79 exceptúa el presupuesto del propio Congreso. Las observaciones son de ubicación sistemática: la regla sobre el contenido de los dictámenes encaja mal junto al artículo 3 del Reglamento común y debería replicarse en los reglamentos de cada cámara. Además, las citas de artículos sobre votación e iniciativa en efecto_vigencia no indican a qué cuerpo normativo pertenecen.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículos 2 y 3 (artículos 3-A y 3-B) y DCF Tercera",
+    "problema": "El contenido de los dictámenes y su trámite se regulan, en el esquema bicameral, en los reglamentos de cada cámara (RL 005-2025-2026-CR y RL 006-2025-2026-CR). Ubicar la regla como artículos 3-A y 3-B del Reglamento del Congreso, junto a disposiciones generales, y confiar en una «concordancia» genera dudas sobre si obliga a las comisiones de cada cámara. Si los reglamentos camerales regulan el dictamen de forma exhaustiva, primaría la norma especial.",
+    "correccion": "Ubicar las reglas en el capítulo del Reglamento del Congreso sobre procedimiento legislativo común, con el número libre que se verifique, e incorporar en los artículos sobre el contenido del dictamen de cada reglamento cameral un literal que diga: «la evaluación de la cláusula de revisión en los casos previstos en el artículo [X] del Reglamento del Congreso». Si los reglamentos camerales se aprueban por cada cámara, añadir dos artículos de modificación o presentar la propuesta como tres resoluciones coordinadas."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "efecto_vigencia",
+    "problema": "Cita «art. 80» para la votación y «art. 78» para la iniciativa sin decir de qué norma son. En la Constitución, los artículos 78 y 80 regulan el presupuesto, no la votación del Reglamento ni la iniciativa legislativa (art. 107). La cita es equívoca.",
+    "correccion": "Precisar: «…conforme a los artículos [número verificado] del Reglamento del Congreso de la República (RL 004-2025-2026-CR)…» y, para la iniciativa, «artículo 107 de la Constitución y artículo [x] del Reglamento». Agregar: «El gasto se enmarca en la excepción del artículo 79 de la Constitución (presupuesto del propio Congreso).»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 3 (artículo 3-B.1)",
+    "problema": "El informe de evaluación debe integrar información «remitida por las entidades obligadas», pero el Reglamento del Congreso no puede imponer deberes de remisión al Poder Ejecutivo; ese deber solo puede venir de la ley que contenga la cláusula de revisión. Sin esa precisión, la Oficina dependería de pedidos de información.",
+    "correccion": "Agregar: «La obligación de reporte de las entidades del Poder Ejecutivo se establece en la ley que contiene la cláusula de revisión; en su defecto, la comisión solicita la información conforme al artículo 96 de la Constitución.»"
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Reglamento del Congreso, RL 004-2025-2026-CR (modifica art. 110; incorpora artículos con numeración por verificar)",
+    "Reglamentos de la Cámara de Diputados (RL 005) y del Senado (RL 006), artículos sobre contenido del dictamen (modifica)"
+   ],
+   "impacto_economico": "El rango de S/ 1,5-2,5 millones/año es una estimación del redactor, a cargo del pliego Congreso. Está permitido por la excepción del artículo 79 y baja si se reasigna personal."
+  }
+ },
+ {
+  "id": "GOB-17",
+  "especialidad": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Asigna una función a un órgano existente sin crear plazas y protege la información clasificada. El problema jurídico principal es de jerarquía: una resolución ministerial de la PCM no puede imponer metas y deberes a otros ministerios, porque las normas que comprenden varios sectores se aprueban por decreto supremo con refrendo de los ministros competentes (Ley 29158, art. 11).",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 4.1",
+    "problema": "Las metas, con un responsable en cada sector, obligan a otros ministerios a reportar y a presentar planes de recuperación (arts. 5-6). Una resolución ministerial solo rige en el sector de quien la emite (art. 11.3 de la Ley 29158). La aprobación por RM de la PCM resultaría ineficaz frente a los demás sectores.",
+    "correccion": "Redactar: «4.1 Las metas digitales prioritarias, en número no mayor de quince, se aprueban mediante decreto supremo con el voto aprobatorio del Consejo de Ministros, refrendado por el presidente del Consejo de Ministros y por los ministros de los sectores responsables, dentro de los noventa días calendario siguientes al inicio de cada gobierno, y se actualizan anualmente por el mismo medio.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 8",
+    "problema": "Habla de «la comisión ordinaria competente» en singular, sin considerar la bicameralidad (Ley 31988).",
+    "correccion": "Redactar: «…ante las comisiones competentes de la Cámara de Diputados y del Senado cuando sea citado.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 2 a)",
+    "problema": "Incluye en la agenda digital las metas «de las leyes» de varias materias. Si una de esas leyes no existe o se deroga, la definición queda abierta, aunque eso no compromete la aplicación autónoma de la ley.",
+    "correccion": "Agregar: «…vigentes, sin perjuicio de que la presente ley se aplique aun cuando dichas leyes no existan.»"
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 29158, art. 11 (concordancia: refrendo multisectorial)"
+   ],
+   "impacto_economico": "El rango de S/ 0,5-1,5 millones/año es una estimación del redactor; usa personal existente de la SGTD (confianza media)."
+  }
+ },
+ {
+  "id": "GOB-18",
+  "especialidad": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Identifica bien la votación orgánica y reproduce los numerales 1-3 vigentes del artículo 13 de la LOPE. El riesgo jurídico es que el calificativo «perentorio», sin más precisión, puede leerse como caducidad de la potestad reglamentaria. Con esa lectura, los reglamentos aprobados tarde serían nulos, el efecto contrario al buscado. La responsabilidad disciplinaria tampoco remite a una falta tipificada.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 2 (numeral 4 del artículo 13)",
+    "problema": "«El plazo… es perentorio» no define su efecto. En la práctica legislativa peruana la fórmula es frecuente y no se ha entendido como caducidad, pero en derecho administrativo un plazo perentorio también puede entenderse como de caducidad: vencido, se extingue la facultad. Aplicado a la potestad reglamentaria del Presidente (art. 118.8 de la Constitución), cualquier reglamento aprobado fuera de plazo podría impugnarse por acción popular. Eso dejaría leyes sin reglamento válido y contradice el propio numeral 7, que presupone una aprobación posterior.",
+    "correccion": "Añadir al numeral 4: «El vencimiento del plazo no extingue la potestad reglamentaria ni afecta la validez del reglamento aprobado con posterioridad; genera las obligaciones de información y las responsabilidades previstas en los numerales 7 y en la ley.» Reemplazar «es perentorio» por «es de cumplimiento obligatorio»."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 6.1",
+    "problema": "Dice que el incumplimiento «puede dar lugar a responsabilidad administrativa conforme al régimen disciplinario aplicable» sin identificar la falta. Por el principio de tipicidad (art. 248.4 del TUO de la Ley 27444, D.S. 006-2026-JUS), la falta debe estar prevista con rango de ley, por ejemplo en el art. 85 de la Ley 30057.",
+    "correccion": "Redactar: «6.1 El incumplimiento injustificado del plazo de reglamentación sin prórroga aprobada, imputable al servidor o directivo responsable de elaborar el proyecto, constituye negligencia en el desempeño de las funciones para efectos del literal d) del artículo 85 de la Ley 30057, Ley del Servicio Civil, y se considera en su evaluación de desempeño.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 2 (numeral 4) y artículo 3.2",
+    "problema": "El numeral 4 regula solo la «ley», mientras el Registro abarca decretos legislativos y decretos de urgencia. No queda claro si el plazo supletorio de 90 días se aplica a las normas con rango de ley del Ejecutivo.",
+    "correccion": "En el numeral 4, decir «Cuando la ley o la norma con rango de ley no establece plazo…»."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 29158, art. 13 (modifica; ley orgánica)",
+    "Ley 30057, art. 85 (concordancia)",
+    "D.S. 007-2022-JUS (adecua)"
+   ],
+   "impacto_economico": "El rango de S/ 0,2-0,6 millones (costo único) es una estimación del redactor; es verosímil."
+  }
+ },
+ {
+  "id": "GOB-19",
+  "especialidad": "jurista",
+  "veredicto": "conforme",
+  "resumen": "Es jurídicamente sólida. Usa la Ley 29029 sin modificar la LOM, la adhesión es voluntaria, el gasto queda sujeto a disponibilidad con la fórmula de COORDINACION, y define bien la titularidad de los datos y el rol de la mancomunidad como encargada del tratamiento (Ley 29733). Solo cabe precisar el efecto de las designaciones compartidas.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 3.1 b)",
+    "problema": "El marco de confianza digital (D.U. 007-2020 y su reglamento) obliga a cada entidad a contar con su propio oficial de seguridad y confianza digital. Sin una regla expresa, la designación compartida no le permite a cada municipalidad acreditar que cumple esa obligación.",
+    "correccion": "Agregar: «La designación compartida mediante mancomunidad satisface, para cada municipalidad integrante, la obligación de designar al Líder de Gobierno y Transformación Digital y al Oficial de Seguridad y Confianza Digital, sin perjuicio de que cada titular mantenga su responsabilidad.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 3.1 a)",
+    "problema": "No precisa el régimen del personal de la unidad compartida, que puede ser contratado por la mancomunidad o destacado por las municipalidades.",
+    "correccion": "Agregar: «El personal de la unidad compartida se rige por el régimen laboral de la entidad que lo contrata, conforme a la Ley 29029 y su reglamento.»"
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 29029 y su reglamento (complementa / adecúa)",
+    "D.U. 007-2020 (concordancia: oficial de seguridad y confianza digital)"
+   ],
+   "impacto_economico": "El rango de S/ 3-6 millones/año es una estimación del redactor (supuesto: S/ 15-20 mil por municipalidad, 150-300 municipalidades al año). La confianza «baja» es honesta y la fórmula de financiamiento del art. 79 está bien aplicada."
+  }
+ },
+ {
+  "id": "GOB-20",
+  "especialidad": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Tiene buena técnica: modifica el artículo 12 de la Ley 30860 con su texto íntegro, tipifica infracciones con autoridad (APN) y graduación según el art. 248 del TUO (D.S. 006-2026-JUS), y blinda la matriz de competencias frente al proceso judicial en curso. Las fallas son que las obligaciones de seguridad del art. 6.2 no tienen autoridad supervisora ni consecuencia por incumplimiento, y que el deber de transmisión aparece duplicado en una norma autónoma y en la Ley 30860.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 6.2",
+    "problema": "Impone obligaciones concretas (segregar las redes de tecnología operativa, inventariar componentes, conservar registros) y remite a «la autoridad competente» sin identificarla. El art. 9 no tipifica su incumplimiento. Una obligación legal sin autoridad supervisora ni sanción es inexigible y choca con el criterio 7 de COORDINACION (régimen sancionador tipificado con autoridad competente). Además, si CIB-02 ya contempla estas obligaciones, puede haber doble régimen.",
+    "correccion": "Opción a) Remitir: «6.2 Los operadores calificados como Activos Críticos Nacionales cumplen las obligaciones de seguridad digital que establezca el régimen vigente para dichos activos, que comprende, como mínimo, … La supervisión y sanción corresponde a la autoridad que dicho régimen determine.» Opción b) Agregar al art. 9.1 un literal: «c) infracción grave: incumplir las obligaciones del numeral 6.2», precisando que la APN fiscaliza con el apoyo técnico del CNSD y aplicando el non bis in idem si existe otro régimen sectorial."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículos 3.1 y 4 (numeral 12.3)",
+    "problema": "El deber de integrarse y transmitir los eventos logísticos está a la vez en el art. 3.1 de la ley autónoma y en el nuevo numeral 12.3 de la Ley 30860, con redacciones distintas («tiempo real o plazo que fije el reglamento» frente a «plazos que establezca el decreto supremo» del 12.2). La doble fuente genera dudas sobre cuál reglamento rige y sobre la base legal de la sanción del art. 9.1 a).",
+    "correccion": "Suprimir el art. 3.1 o reducirlo a una remisión: «Los administradores y operadores… cumplen la obligación prevista en el numeral 12.3 del artículo 12 de la Ley 30860.» Trasladar el contenido de los numerales 3.2 y 3.3 (no duplicidad y bitácora) como numerales 12.5 y 12.6 de la Ley 30860."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 2.1 y Disposición Complementaria Transitoria Única",
+    "problema": "Aplica las mismas obligaciones y multas de hasta 50 UIT a terminales fluviales y lacustres pequeños que a Chancay o el Callao. Ampliar el plazo no basta para cumplir el principio de razonabilidad (art. IV.1.4 del Título Preliminar del TUO de la Ley 27444).",
+    "correccion": "Agregar: «El reglamento puede establecer obligaciones de transmisión simplificadas para terminales fluviales y lacustres o de bajo movimiento, según umbrales de carga o de naves atendidas.»"
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 30860, art. 12 (modifica; agregar 12.5-12.6)",
+    "D.S. 106-2017-PCM (concordancia)"
+   ],
+   "entidades_implicadas": [
+    "CNSD/PCM: apoyo técnico en la supervisión de seguridad digital (art. 6.2)"
+   ],
+   "impacto_economico": "No cuantificado y bien declarado como tal. No se publica el ahorro logístico de una VUCE portuaria; no presentar cifras de otros países como si fueran estimaciones peruanas."
+  }
+ },
+ {
+  "id": "GOB-21",
+  "especialidad": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "El principio de no sustitución, la reserva de datos de dirigentes y sitios sagrados y la regla de compromisos con previsión presupuestal están bien diseñados. Faltan dos cosas. Hay que aclarar que inscribir un compromiso de diálogo no le da la exigibilidad que el art. 15 de la Ley 29785 reserva a los acuerdos de consulta. Y la responsabilidad disciplinaria debe anclarse en una falta tipificada. La consulta previa de la propia ley debería figurar como condición, no como recomendación.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículos 2.2 b) y 6.3",
+    "problema": "El Registro reúne en un mismo sistema los acuerdos de consulta previa (obligatorios y exigibles, art. 15 de la Ley 29785) y los compromisos de mesas de diálogo, cuya naturaleza jurídica es variable (declaraciones políticas, convenios, actos administrativos). La constancia del 6.3 «para exigir el cumplimiento… conforme al artículo 15» puede leerse como si extendiera esa exigibilidad a los compromisos de diálogo. Eso generaría litigios y desincentivaría su suscripción.",
+    "correccion": "Agregar el numeral 6.4: «La inscripción en el Registro no modifica la naturaleza jurídica ni la exigibilidad de los compromisos de diálogo, que se rigen por el título del que derivan; la constancia acredita el contenido inscrito y su estado.» En el 6.3, limitar la remisión al art. 15 a los acuerdos de consulta previa."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 10.1",
+    "problema": "Califica la omisión de inscribir como «incumplimiento de funciones sancionable conforme al régimen disciplinario aplicable» sin tipificar la falta (principio de tipicidad, art. 248.4 del TUO de la Ley 27444, D.S. 006-2026-JUS). Además, el Registro es un mecanismo de transparencia, y la Ley 27806 y el D.L. 1353 ya tienen un régimen sancionador con autoridad (ANTAIP).",
+    "correccion": "Redactar: «10.1 La omisión de inscribir o actualizar los acuerdos y compromisos en los plazos previstos constituye incumplimiento de las obligaciones de transparencia activa para efectos del régimen sancionador del Decreto Legislativo 1353, cuya supervisión corresponde a la Autoridad Nacional de Transparencia y Acceso a la Información Pública, sin perjuicio de la responsabilidad prevista en el literal d) del artículo 85 de la Ley 30057.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "efecto_vigencia y Disposición Complementaria Final Primera",
+    "problema": "La ley regula cómo se lleva a cabo la consulta previa (etapas presenciales, uso de medios digitales), de modo que afecta directamente derechos colectivos. Según el Convenio 169 (art. 6) y la jurisprudencia del TC (STC 00022-2009-PI/TC), las medidas legislativas de ese tipo deben consultarse. Consultar solo el reglamento no cubre las reglas sustantivas fijadas en la ley.",
+    "correccion": "En la exposición de motivos y en efecto_vigencia, sustituir «se recomienda» por «debe someterse a consulta previa antes del dictamen, conforme al procedimiento que apruebe el Congreso, en lo relativo a los artículos 3 y 4»."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 10.2",
+    "problema": "Remite a «la comisión ordinaria competente» en singular, sin considerar la bicameralidad.",
+    "correccion": "Redactar: «…a las comisiones competentes en pueblos andinos, amazónicos y afroperuanos de la Cámara de Diputados y del Senado.»"
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 29785, art. 19 g) (modifica)",
+    "D.L. 1353 / TUO Ley 27806 (concordancia sancionadora)",
+    "Ley 30057, art. 85 (concordancia)"
+   ],
+   "entidades_implicadas": [
+    "ANTAIP: supervisión del cumplimiento de inscripción"
+   ],
+   "impacto_economico": "La cifra de S/ 22 000 millones en compromisos procede de declaraciones de la PCM en 2024 recogidas por la prensa; debe citarse así y no como dato oficial consolidado. El costo del Registro no se cuantifica; supuesto: desarrollo sobre GOB.PE más la carga de actas desde 2012, de volumen desconocido (confianza baja)."
+  }
+ },
+ {
+  "id": "GOB-22",
+  "especialidad": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Es una ley de transparencia bien delimitada: el art. 3 asegura que no toca la distribución ni los usos del canon y la autoridad supervisora (ANTAIP) está identificada. Hay que precisar que las nuevas obligaciones se tipifican como infracciones del régimen del D.L. 1353, porque sin esa asimilación no se cumple el principio de tipicidad. También conviene dar plazo a los deberes de registro de las entidades receptoras.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 10.2",
+    "problema": "Remite al régimen sancionador del D.L. 1353 para «el incumplimiento de dichas obligaciones». Las infracciones de ese régimen se refieren a las obligaciones del TUO de la Ley 27806 (portal, acceso). Las nuevas obligaciones (publicación mensual del MEF, registro del CUI por los receptores, enlace al tablero) no están expresamente comprendidas, y por el principio de tipicidad (art. 248.4 del TUO de la Ley 27444) no puede sancionarse por analogía.",
+    "correccion": "Redactar: «10.2 Las obligaciones de publicación y registro previstas en los artículos 4, 6 y 7 de la presente ley constituyen obligaciones de transparencia activa para efectos del régimen sancionador previsto en el Decreto Legislativo 1353 y su reglamento, que tipifica las infracciones correspondientes en el plazo de la Primera Disposición Complementaria Final.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 6.1",
+    "problema": "Exige registrar «oportunamente», un estándar indeterminado que no permite imputar incumplimiento.",
+    "correccion": "Sustituir «oportunamente» por «dentro de los cinco días hábiles siguientes a cada operación de certificación, devengado o registro de avance físico»."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 4.3",
+    "problema": "Aplica la reserva tributaria a información por empresa sobre regalías. El TC ha calificado la regalía minera como contraprestación patrimonial y no como tributo (STC 0048-2004-PI/TC), de modo que la reserva tributaria del art. 85 del Código Tributario no la alcanza automáticamente. La redacción no es incorrecta, porque es más protectora, pero puede impedir publicar información que es pública.",
+    "correccion": "Redactar: «…No se publica información protegida por la reserva tributaria. La información sobre regalías y contraprestaciones por empresa se publica conforme a su régimen legal y a los estándares de la Iniciativa para la Transparencia de las Industrias Extractivas.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 7 (artículo 10-A de la Ley 28056)",
+    "problema": "Hay que verificar que el número 10-A esté libre en la Ley 28056, modificada por la Ley 29298. El redactor ya lo advirtió.",
+    "correccion": "Antes del dictamen, verificar en el SPIJ la numeración libre en la Ley 28056 y ajustar el número del artículo incorporado."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 28056 (incorpora art. 10-A, numeración por verificar)",
+    "D.L. 1353 (concordancia sancionadora)"
+   ],
+   "impacto_economico": "La cifra de S/ 17 551 millones transferidos en 2025 está atribuida al DIDP con datos del MEF; es correcto citarla con su fuente. El costo es de integración de datos existentes; no hay cifra oficial."
+  }
+ },
+ {
+  "id": "GOB-23",
+  "especialidad": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Desarrolla bien el artículo 48 de la Constitución y la Ley 29735, con progresividad y no exclusión. Tiene tres vacíos jurídicos. Extiende obligaciones a empresas privadas que prestan servicios públicos sin autoridad que las supervise. La validación humana previa de toda alerta puede retrasar avisos de emergencia. Y el dato de lengua preferida puede revelar el origen étnico, que es dato sensible según la Ley 29733.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 8 (artículo 15-A.1 de la Ley 29735)",
+    "problema": "Obliga a las «privadas que prestan servicios públicos» sin indicar quién supervisa ni qué consecuencia tiene el incumplimiento. Sin régimen sancionador ni autoridad competente (criterio 7 de COORDINACION), la obligación es inexigible frente a concesionarios.",
+    "correccion": "Agregar el numeral 15-A.4: «El cumplimiento por las empresas privadas que prestan servicios públicos es supervisado por el organismo regulador del sector correspondiente, conforme a su régimen de infracciones y sanciones, que se adecúa en el plazo de ciento ochenta días hábiles.» Si no se acepta, limitar el 15-A.1 a las entidades públicas."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 5.2",
+    "problema": "Exige que toda alerta sea revisada por un traductor registrado «antes de su difusión». Para alertas de peligro inminente (sismo, tsunami, huaico), la validación previa caso por caso puede retrasar el aviso y poner en riesgo vidas. Eso iría contra el propio objeto de la ley y contra el régimen de alertas (Ley 30472, cuyo dueño es TAL-10).",
+    "correccion": "Agregar: «Tratándose de alertas ante peligros inminentes, la validación se realiza sobre plantillas aprobadas previamente; los mensajes se difunden de inmediato y el contenido variable no validado se identifica como traducción automática.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 6.2",
+    "problema": "La lengua preferida puede revelar el origen étnico, que es dato sensible según el art. 2.5 de la Ley 29733. Para datos sensibles, el consentimiento debe constar por escrito (art. 13.6). La redacción solo dice «consentimiento expreso».",
+    "correccion": "Redactar: «6.2 El dato se trata como dato sensible, con consentimiento expreso y por escrito, que puede otorgarse por medios electrónicos conforme a la Ley 29733, solo para…»."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 29735 (incorpora art. 15-A; verificar numeración libre)",
+    "Ley 29733, arts. 2.5 y 13.6 (concordancia)"
+   ],
+   "entidades_implicadas": [
+    "Organismos reguladores sectoriales (OSIPTEL, OSINERGMIN, SUNASS, OSITRAN): supervisión de privados que prestan servicios públicos"
+   ],
+   "impacto_economico": "No cuantificado. Supuesto útil: el costo de traducir y grabar el catálogo es fijo y reutilizable por lengua, mientras que la interpretación remota es un costo variable según la demanda. Conviene separarlos en el dictamen (confianza baja)."
+  }
+ },
+ {
+  "id": "GOB-24",
+  "especialidad": "jurista",
+  "veredicto": "conforme",
+  "resumen": "Es una ley de método que no crea procedimientos, órganos ni requisitos de aprobación (art. 4.3), usa los sistemas administrativos nacionales y protege los datos sensibles. Se aplica sola, sin depender de otras propuestas. Solo caben ajustes menores.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 3.3",
+    "problema": "La autoidentificación étnica y la discapacidad son datos sensibles (art. 2.5 de la Ley 29733). Su recojo voluntario requiere consentimiento escrito cuando se hace en registros administrativos; las encuestas se rigen por el secreto estadístico.",
+    "correccion": "Agregar: «Cuando se recojan en registros administrativos, se requiere consentimiento expreso y por escrito conforme al numeral 13.6 del artículo 13 de la Ley 29733.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 6.3",
+    "problema": "Remite a las comisiones «del Congreso» sin considerar la bicameralidad.",
+    "correccion": "Redactar: «…de la Cámara de Diputados y del Senado.»"
+   }
+  ],
+  "aportes": {
+   "impacto_economico": "Costo no cuantificado y bien declarado como tal; usa instrumentos existentes."
+  }
+ },
+ {
+  "id": "TAL-15",
+  "especialidad": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Usa una técnica correcta: incorpora artículos en el D.L. 1350 y el D.L. 689, tipifica una infracción con autoridad (SUNAFIL) y deja a salvo la colegiación. Las observaciones son de inserción sistemática y precisión: dónde ubicar la nueva residencia dentro del catálogo del D.L. 1350, verificar el literal libre del art. 3 del D.L. 689 y que la regla sobre la tasa de la SUNEDU no reitere el TUO.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3 (artículo 29-A del D.L. 1350)",
+    "problema": "El D.L. 1350 organiza las calidades migratorias de residente como literales del art. 29.2. Crear la residencia de talento tecnológico en un artículo separado (29-A), «dentro de la calidad de residente», la saca del catálogo y puede generar dudas sobre las reglas generales aplicables (plazos, renovación, cambio de calidad, tasas del TUPA de MIGRACIONES), que el reglamento (D.S. 007-2017-IN) estructura por literal.",
+    "correccion": "Incorporar la nueva calidad como literal del art. 29.2 (por ejemplo «29.2.x Talento tecnológico») y conservar el 29-A solo para sus reglas especiales, con una remisión expresa: «Se aplican a esta calidad las disposiciones generales de la calidad de residente en lo no previsto.» Verificar en el SPIJ la numeración vigente tras el D.L. 1582."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 4 (literal i del artículo 3 del D.L. 689)",
+    "problema": "Incorpora un «literal i)» sin verificar que sea el siguiente libre ni que el art. 3 tenga la estructura de excepciones a los porcentajes que se presume. Por otra parte, la «aprobación previa» de contratos ya es automática en el sistema virtual del MTPE desde 2018 (por verificar), de modo que la exención aporta poco y podría leerse como si eliminara también el registro.",
+    "correccion": "Antes del dictamen, verificar en el SPIJ el texto consolidado del art. 3 del D.L. 689 y el último literal vigente. Redactar: «…Su contrato se registra en el sistema virtual de contratación de extranjeros del MTPE, con aprobación automática, y no computa para los porcentajes limitativos del artículo 4.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 5.2",
+    "problema": "Que la tasa de la SUNEDU se determine según el costo del procedimiento ya lo exige el TUO de la Ley 27444 para todo derecho de tramitación. La norma es redundante y no corrige el problema planteado (la tasa de S/ 1188,50, por verificar).",
+    "correccion": "Suprimir el 5.2 o sustituirlo por un mandato verificable: «La SUNEDU sustenta ante la PCM, en el plazo de la Disposición Complementaria Final Tercera, el costo del procedimiento abreviado del numeral 5.1, conforme al TUO de la Ley 27444, y publica su estructura de costos.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículos 8 y 9",
+    "problema": "Remite a «la comisión competente del Congreso» sin considerar la bicameralidad, y el artículo de financiamiento está en el articulado.",
+    "correccion": "Redactar: «…a las comisiones competentes de la Cámara de Diputados y del Senado». Trasladar el art. 9 como DCF Quinta."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "D.L. 1350, art. 29.2 (incorpora literal) y art. 29-A (incorpora)",
+    "D.L. 689, art. 3 (incorpora literal; verificar)"
+   ],
+   "impacto_economico": "El rango de S/ 0,3-1 millón (costo único) es una estimación del redactor. El dato de escasez (70 %, ManpowerGroup) es privado; debe citarse como encuesta empresarial, no como estadística oficial."
+  }
+ },
+ {
+  "id": "TAL-16",
+  "especialidad": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Es una propuesta sin gasto obligatorio ni beneficios tributarios, con infracciones tipificadas y autoridades identificadas. Tiene dos problemas jurídicos de fondo. Califica los aportes del empleador como «no remunerativos» aunque se convierten en propiedad del trabajador y se liberan a su jubilación, lo que choca con la definición de remuneración (art. 6 de la LPCL) si no se modifica el art. 19 del TUO de la CTS. Y declara inembargables sin límite los saldos que se alimentan de aportes voluntarios ilimitados, lo que abre la puerta a fraude contra acreedores.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 5.1 y artículo 6.2",
+    "problema": "Se considera remuneración todo lo que el trabajador percibe por sus servicios y es de su libre disposición (art. 6 del TUO del D.L. 728, D.S. 003-97-TR). Los conceptos no remunerativos están en el art. 19 del TUO del D.L. 650, al que también remite la Ley 26790 para EsSalud. Una «condición de trabajo» debe ser indispensable para la prestación y no de libre disposición. Aquí el aporte pasa a ser propiedad del trabajador (art. 3.3) y se le entrega en efectivo al jubilarse (art. 6.2). Sin modificar el art. 19, SUNAFIL, SUNAT o EsSalud podrían recalificarlo como remuneración.",
+    "correccion": "Agregar una Disposición Complementaria Modificatoria: «Se incorpora el literal [x] al artículo 19 del TUO del Decreto Legislativo 650: “[x]) Los aportes del empleador a la cuenta individual de aprendizaje regulada por la Ley [n.º], mientras se destinen a formación elegible.”» En el 6.2, precisar que el saldo proveniente de aportes del empleador que se libere al titular al jubilarse se considera renta de quinta categoría en el ejercicio de su liberación, o bien que esos aportes no se liberan y revierten a un uso formativo de los herederos o se extinguen."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 6.2",
+    "problema": "Declara los fondos «intangibles e inembargables» sin tope, cuando la cuenta admite aportes voluntarios ilimitados del propio titular (art. 4.1 a). La inembargabilidad es una excepción a la garantía patrimonial de los acreedores (art. 648 del Código Procesal Civil). Sin límite, el deudor podría proteger su patrimonio depositándolo en la cuenta, en perjuicio de terceros (arts. 195 y siguientes del Código Civil, acción pauliana).",
+    "correccion": "Redactar: «6.2 Los fondos son intangibles. Son inembargables hasta un saldo equivalente a [x] UIT, salvo por deudas alimentarias hasta el límite que fija la ley. Los aportes del titular efectuados en fraude de acreedores pueden ser declarados ineficaces conforme al artículo 195 del Código Civil.» Agregar un literal en el art. 648 del CPC mediante una Disposición Complementaria Modificatoria, o remitir a él."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 5.2",
+    "problema": "Remite al inciso ll) del art. 37 de la LIR pero no dice cuándo es deducible el aporte. El aporte depositado no es todavía un «gasto de capacitación» y la SUNAT podría exigir que se aplique a formación para aceptar la deducción. Precisarlo no crea un beneficio, pero evita controversias.",
+    "correccion": "Agregar: «Para efectos de dicho inciso, el aporte se considera gasto de capacitación en el ejercicio en que se deposita, siempre que el fondo sea intangible y solo pueda destinarse a formación elegible; en caso contrario, se deduce en el ejercicio en que se aplica a formación.» Recabar la opinión del MEF sobre la opción, porque determina el efecto fiscal."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 10.1",
+    "problema": "Califica como infracción al Código del Consumidor la difusión de información falsa sobre resultados de empleabilidad. Esa conducta también es publicidad engañosa (D.L. 1044, actos de engaño), con otro órgano resolutivo dentro del INDECOPI. La doble vía puede vulnerar el non bis in idem.",
+    "correccion": "Precisar: «…sin perjuicio de que, si la conducta constituye acto de engaño conforme al Decreto Legislativo 1044, la autoridad la tramite por una sola vía.»"
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "TUO D.L. 650, D.S. 001-97-TR, art. 19 (incorpora literal)",
+    "Código Procesal Civil, art. 648 (concordancia o modificación)",
+    "TUO LIR, art. 37 ll) (remisión, sin modificar)"
+   ],
+   "entidades_implicadas": [
+    "EsSalud: base de aportaciones (Ley 26790, art. 6)"
+   ],
+   "impacto_economico": "El costo del registro (S/ 0,5-1,5 millones, único) es una estimación del redactor. Hay un efecto fiscal indirecto no declarado: menor base de aportes a EsSalud y ONP/AFP y mayor deducción en el impuesto a la renta si los empleadores reemplazan remuneración por aportes. El MEF debe estimarlo (confianza baja)."
+  }
+ },
+ {
+  "id": "IA-15",
+  "especialidad": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Es una buena pieza de responsabilidad civil. Sin modificar el Código Civil, precisa que la operación es una actividad riesgosa (art. 1970), excluye que el error del sistema se alegue como caso fortuito y establece la solidaridad con el fabricante (art. 1983), el acceso a los registros (art. 282 del CPC), el seguro obligatorio y la irretroactividad. Quedan cuatro vacíos: el ataque informático de un tercero como eximente, la carga de probar el defecto frente al fabricante, la identificación de la autoridad sancionadora en minería y una escala de multas que solo existe por remisión.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 4.2",
+    "problema": "Excluye como eximente el error del sistema, pero no el acceso no autorizado de un tercero (ciberataque). Ese acceso encaja en el «hecho determinante de tercero» del art. 1972 del Código Civil y liberaría al operador aunque no haya adoptado las medidas de seguridad exigidas por el art. 7.1 e). La víctima quedaría sin reparación efectiva frente a un atacante desconocido.",
+    "correccion": "Agregar: «El acceso o la manipulación no autorizados del sistema por un tercero solo eximen de responsabilidad al operador si este acredita haber cumplido las medidas de seguridad digital del literal e) del numeral 7.1; en caso contrario, responde sin perjuicio de su derecho de repetición contra el autor.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 4.3",
+    "problema": "Hace responder solidariamente al fabricante «cuando el daño sea consecuencia de un defecto», pero no dice quién prueba el defecto. Por la asimetría de información (código, datos de entrenamiento, actualizaciones), la víctima o el operador que repite difícilmente podrán probarlo. La Directiva (UE) 2024/2853 sobre productos defectuosos, que la exposición de motivos invoca, presume el defecto cuando el demandado no exhibe la información pertinente o la complejidad técnica dificulta excesivamente la prueba.",
+    "correccion": "Agregar el numeral 4.3-A: «Se presume, salvo prueba en contrario, el defecto del sistema y su relación causal con el daño cuando el fabricante o integrador no exhiba, a requerimiento judicial, la información técnica pertinente que obre en su poder, o cuando el registro de eventos acredite un funcionamiento anómalo no atribuible a la operación.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 9.1 y 9.3",
+    "problema": "En minería asigna la potestad sancionadora a «la autoridad competente en seguridad minera conforme a su ley» sin nombrarla. Esa competencia está repartida (OSINERGMIN en infraestructura de la gran y mediana minería, SUNAFIL en SST, gobiernos regionales en pequeña minería y minería artesanal). Además, el 9.3 fija las multas por remisión a «la escala de la autoridad competente», en parte reglamentaria. El principio de legalidad (art. 248.1 del TUO de la Ley 27444, D.S. 006-2026-JUS) exige que la sanción esté prevista en una norma con rango de ley.",
+    "correccion": "En el 9.1, redactar: «…en actividades mineras, el OSINERGMIN respecto de la gran y mediana minería y los gobiernos regionales respecto de la pequeña minería y la minería artesanal, en el marco de sus competencias legales». En el 9.3, fijar los rangos en la ley: «Las infracciones graves se sancionan con multa de hasta 50 UIT y las muy graves con multa de más de 50 hasta 500 UIT, sin exceder el 10 % de los ingresos brutos anuales del infractor…»."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 6",
+    "problema": "No prevé la acción directa de la víctima contra el asegurador ni la inoponibilidad de las excepciones derivadas del contrato. Sin esas reglas, la finalidad tuitiva del seguro obligatorio se debilita.",
+    "correccion": "Agregar el numeral 6.4: «La víctima tiene acción directa contra el asegurador hasta el límite de la suma asegurada, conforme a la Ley 29946, Ley del Contrato de Seguro. El asegurador no puede oponerle las excepciones derivadas de la conducta del asegurado posterior al siniestro.» Verificar el artículo pertinente de la Ley 29946."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 4.2",
+    "problema": "Menciona los eximentes del art. 1972 pero no la reducción de la indemnización por imprudencia concurrente de la víctima (art. 1973 del Código Civil), aplicable a la responsabilidad objetiva.",
+    "correccion": "Agregar: «Se aplica el artículo 1973 del Código Civil cuando la imprudencia de la víctima solo hubiera concurrido en la producción del daño.»"
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Código Civil, arts. 1970, 1972, 1973 y 1983 (precisión de aplicación, sin modificar)",
+    "Ley 29946, Ley del Contrato de Seguro (concordancia: acción directa)",
+    "Ley 27699 (OSINERGMIN) / Ley 28806 (concordancia sancionadora)"
+   ],
+   "entidades_implicadas": [
+    "OSINERGMIN: seguridad de infraestructura en gran y mediana minería",
+    "Gobiernos regionales: pequeña minería y minería artesanal"
+   ],
+   "impacto_economico": "El costo de S/ 0,5-1,5 millones/año lo declara el redactor como supuesto propio, de forma transparente. Si exige plazas adicionales, la frase «sin recursos adicionales» resulta incoherente: conviene indicar que la supervisión se asume con el personal existente o aplicar la fórmula de coordinación con el MEF. La prima del seguro obligatorio, a cargo del privado, no está estimada y depende de los montos mínimos que fije el reglamento."
+  }
+ },
+ {
+  "id": "IA-16",
+  "especialidad": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Tiene una técnica impecable: reproduce el art. 15 de la Ley 29733 con su texto íntegro y conserva las excepciones vigentes. También agrega bien las cláusulas modelo, las normas corporativas, las certificaciones y la responsabilidad del exportador, y respeta las competencias de política exterior. La observación principal es que mantiene una habilitación al reglamento para crear nuevas excepciones (numeral 8), lo que contradice la interpretación restrictiva del 15.4 y la reserva de ley en la limitación de derechos fundamentales.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 2 (párrafo 15.3, numeral 8)",
+    "problema": "«Otros que establezca el reglamento» permite que un decreto supremo cree excepciones a la protección de los datos transferidos. Las limitaciones al derecho del art. 2.6 de la Constitución deben establecerse por ley. Además, contradice el 15.4 y es precisamente lo que la Comisión Europea revisa al evaluar la adecuación (transferencias ulteriores).",
+    "correccion": "Suprimir el numeral 8 o sustituirlo por: «8. Cuando el flujo sea necesario para proteger intereses vitales del titular o de un tercero, si el titular está física o jurídicamente incapacitado para dar su consentimiento.» Ajustar el 15.4 para que se refiera a los «numerales 4 a 8»."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 7.1",
+    "problema": "Tipifica infracciones en la ley mientras el reglamento (D.S. 016-2024-JUS) ya tipifica conductas sobre el flujo transfronterizo con su propia calificación. Puede haber doble tipificación con distinta gravedad, lo que genera dudas sobre la norma aplicable.",
+    "correccion": "Agregar a la DCF Primera: «…y deroga o adecúa las infracciones reglamentarias que se superpongan con las del artículo 7.» Verificar los artículos del reglamento que tipifican infracciones sobre el flujo transfronterizo."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 5.3",
+    "problema": "Remite a «la comisión competente del Congreso» sin considerar la bicameralidad, y el artículo de financiamiento está en el articulado.",
+    "correccion": "Redactar: «…a las comisiones competentes de la Cámara de Diputados y del Senado». Trasladar el art. 8 como DCF Cuarta."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 29733, art. 15 (modifica)",
+    "D.S. 016-2024-JUS, arts. 18-21 e infracciones (adecúa)"
+   ],
+   "impacto_economico": "El costo de S/ 0,4-1 millón/año es una estimación del redactor, que lo declara como supuesto propio. El beneficio, la decisión de adecuación de la UE, es incierto y depende de reformas fuera de esta ley; la confianza «media» es razonable."
+  }
+ },
+ {
+  "id": "SOB-09",
+  "especialidad": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Tiene una técnica de incorporación correcta en la Ley 28832 (numerales y artículos «-A/-B»), sin subsidios ni traslado de costos a usuarios regulados, y con salvaguarda del beneficio-costo para la transmisión anticipada. Las observaciones son tres: la remisión a una «ley especial» de centros de datos que puede no existir, la falta de consecuencias por el doble conteo o el uso indebido de Garantías de Origen, y la indeterminación de los «cargos» que no paga el almacenamiento.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 9",
+    "problema": "Remite la conexión, el registro, el uso del agua y la evaluación ambiental de los centros de datos a «su ley especial», que hoy no existe (sería CON-10, una propuesta). Si CON-10 no se aprueba, la remisión queda vacía y la propuesta deja de poder aplicarse por sí sola, en contra de COORDINACION.",
+    "correccion": "Redactar: «La conexión, el uso del agua y la evaluación ambiental de los centros de datos se rigen por la normativa sectorial vigente o por la ley especial que se apruebe. La seguridad de las instalaciones se rige por el régimen de Activos Críticos Nacionales…»."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 5 (artículo 33-B)",
+    "problema": "El Osinergmin supervisa el Registro, pero no se tipifican conductas como emitir garantías sobre energía no renovable, el doble conteo o declarar consumos renovables con garantías no canceladas. Los usuarios libres que declaran su origen renovable no son agentes supervisados por el Osinergmin en esa condición. Sin tipificación (art. 248.4 del TUO de la Ley 27444, D.S. 006-2026-JUS), las prohibiciones del 33-B.2 no tienen consecuencia.",
+    "correccion": "Agregar el numeral 33-B.5: «Constituyen infracciones graves, sancionables por el Osinergmin conforme a su ley, solicitar la emisión de Garantías de Origen sobre energía que no cumple los requisitos o transferir garantías ya canceladas. La difusión de declaraciones de consumo renovable no sustentadas en garantías canceladas, contratos o autogeneración constituye acto de engaño conforme al Decreto Legislativo 1044.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 5 (artículo 33-A.2)",
+    "problema": "«No se considera retiro para el pago de cargos que remuneran la misma energía dos veces» no identifica qué cargos (peajes, cargos adicionales, cargo por compensación RER). El art. 7.1 declara intangibles los cargos del D.L. 1002, lo que genera duda sobre si se exonera o no el cargo RER.",
+    "correccion": "Precisar: «…no se considera retiro para efectos del pago de los peajes de transmisión y de los cargos que remuneran la energía, en los términos que fije el reglamento con opinión del Osinergmin, sin afectar los cargos del mecanismo de compensación del Decreto Legislativo 1002.»"
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 28832, arts. 1, 3, 21, 33-A y 33-B (incorpora; verificar numeración tras la Ley 32249)",
+    "D.L. 1044 (concordancia: actos de engaño)"
+   ],
+   "impacto_economico": "Costo fiscal nulo, verosímil. Las cifras de producción eléctrica (MINEM 2024) y de consumo global de centros de datos (AIE) tienen fuente; no extrapolar la demanda peruana sin un supuesto explícito."
+  }
+ },
+ {
+  "id": "SOB-10",
+  "especialidad": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Modifica correctamente los arts. 18 y 57 de la Ley 29338 con su texto íntegro, aplica la telemetría de forma escalonada sin cargar a los pequeños usuarios y protege los datos personales. El problema jurídico es sancionador: castiga la falta de telemetría y la manipulación de registros por remisión genérica al «régimen de infracciones» de la Ley 29338, que no tipifica esas conductas. También remite a una «ley de la materia sobre datos agroclimáticos» que es solo una propuesta.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 8",
+    "problema": "Sanciona el incumplimiento de la telemetría y la manipulación de registros «como incumplimiento de las obligaciones del artículo 57… conforme al régimen de infracciones» de la Ley 29338. El art. 120 de esa ley enumera infracciones específicas y la tipificación de detalle está en el reglamento (D.S. 001-2010-AG). La manipulación de registros telemétricos no está tipificada, y sancionarla por una remisión genérica vulnera el principio de tipicidad (art. 248.4 del TUO de la Ley 27444, D.S. 006-2026-JUS).",
+    "correccion": "Agregar un artículo de modificación del art. 120 de la Ley 29338 que incorpore los numerales: «[x]. No instalar, no mantener operativos o no transmitir los datos de los dispositivos de medición telemétrica exigibles conforme al numeral 5 del artículo 57; [y]. Alterar, manipular o falsear los registros de medición», calificando la primera como grave y la segunda como muy grave. Verificar previamente el texto vigente del art. 120."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 7",
+    "problema": "Remite la apertura de datos hidrometeorológicos a «la ley de la materia sobre datos agroclimáticos», que corresponde a TAL-08, una propuesta y no una ley vigente. Eso afecta la aplicación autónoma.",
+    "correccion": "Redactar: «…se rige por el régimen general de datos abiertos y sus excepciones y, en su caso, por la ley especial que regule los datos agroclimáticos.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 4.1",
+    "problema": "Las nuevas obligaciones de telemetría se aplican a licencias otorgadas antes de la ley. Eso es válido para los efectos futuros (art. 103 de la Constitución, teoría de los hechos cumplidos), pero conviene decirlo para evitar alegaciones de derechos adquiridos frente a la ANA.",
+    "correccion": "Agregar: «4.3 Las obligaciones de medición telemétrica se aplican a los titulares de derechos de uso de agua vigentes a la entrada en vigor de la presente ley, conforme a la gradualidad del numeral 4.1, sin afectar el volumen ni las condiciones de los derechos otorgados.»"
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 29338, arts. 18 y 57 (modifica) y art. 120 (incorporar infracciones)",
+    "D.S. 001-2010-AG (adecua)"
+   ],
+   "impacto_economico": "El rango de S/ 4-10 millones/año es una estimación del redactor con supuestos desagregados y confianza baja. Está bien declarado y lleva la fórmula del art. 79. Falta estimar el costo privado por punto de medición (no hay cifra oficial)."
+  }
+ },
+ {
+  "id": "SOB-11",
+  "especialidad": "jurista",
+  "veredicto": "observaciones_graves",
+  "resumen": "Los objetivos son razonables: seguridad jurídica para la DSI, cláusulas en los contratos de acceso y puntos de verificación. Pero dos reglas chocan con la Decisión 391 de la CAN, que tiene primacía y efecto directo. El silencio administrativo positivo en el procedimiento de acceso es incompatible con un régimen en el que el acceso se perfecciona por contrato y resolución expresa. Y la exención general de la DSI de bases abiertas puede contradecir la definición andina de recurso genético. La propia propuesta declara que la Decisión 391 «prevalece», con lo que ambas reglas quedarían inaplicadas.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "ubicacion": "Artículo 6.2",
+    "problema": "Somete a silencio administrativo positivo la autorización de acceso sin fines comerciales. Bajo la Decisión 391, el acceso a recursos genéticos se perfecciona con la suscripción de un contrato y la emisión de una resolución por la Autoridad Nacional Competente (Título V, procedimiento de acceso; verificar numeración exacta). La aprobación ficta no puede generar un contrato ni sus cláusulas de participación en beneficios, ni las del art. 4 de la propia propuesta. Además, los recursos genéticos son patrimonio de la Nación (art. 66 de la Constitución), supuesto en el que el TUO de la Ley 27444 prevé el silencio negativo por afectar significativamente el interés público en materia de recursos naturales.",
+    "correccion": "Redactar: «6.2 El componente de acceso a recursos genéticos se resuelve expresamente; vencido el plazo sin pronunciamiento, se aplica el silencio administrativo negativo. Las autorizaciones de colecta o investigación que se tramitan en el procedimiento integrado y que no impliquen acceso a recursos genéticos se sujetan a silencio administrativo positivo, salvo cuando involucren territorios o conocimientos colectivos de pueblos indígenas u originarios, áreas naturales protegidas de uso indirecto o especies amenazadas.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 5.1",
+    "problema": "Exime de autorización y contrato el uso de DSI de bases abiertas con fines de investigación. La Decisión 391 define el recurso genético como material biológico que contiene información genética de valor real o potencial. Si la autoridad andina o el Tribunal de Justicia de la Comunidad Andina interpretan que la DSI está comprendida, una exención nacional sería inaplicable por primacía del derecho comunitario. El art. 2.3 de la propuesta (prevalencia de la 391) lo confirma. La regla funciona solo como interpretación del concepto nacional de «obtención».",
+    "correccion": "Redactar: «5.1 Para efectos del Reglamento de Acceso a los Recursos Genéticos, no constituye obtención de recursos genéticos la consulta, descarga y utilización de información digital de secuencias disponible en bases de datos de acceso abierto con fines de investigación científica, educación, conservación, salud pública o vigilancia sanitaria, sin perjuicio de lo que disponga la normativa andina.» Mantener el art. 10 sobre la armonización andina."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 5.2",
+    "problema": "Sujeta al usuario comercial de DSI abierta a los «deberes de divulgación de origen previstos en el artículo 9», pero el art. 9 no impone deberes a los usuarios: regula la verificación del INDECOPI en patentes, la vigilancia de la CNB y las condiciones de financiamiento. La remisión está vacía y el deber no es exigible.",
+    "correccion": "Precisar: «…está sujeto, cuando solicite una patente en el Perú, al deber de indicar el origen previsto en el literal h) del artículo 26 de la Decisión 486…». O bien tipificar un deber autónomo de divulgación con autoridad y consecuencia."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 7.2",
+    "problema": "Destina beneficios monetarios que corresponden al Estado al Fondo para el Desarrollo de los Pueblos Indígenas de la Ley 27811. Es una afectación de ingresos públicos válida por ley, pero el porcentaje no puede quedar íntegramente al reglamento sin un rango.",
+    "correccion": "Fijar el rango en la ley: «…en una proporción no menor del [x] % que establece el reglamento…», con opinión previa del MEF."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "D.S. 019-2021-MINAM (adecua)",
+    "Decisión 391 CAN y Decisión 486, art. 26 (concordancia; prevalecen)",
+    "Ley 27811 (concordancia: Fondo)"
+   ],
+   "entidades_implicadas": [
+    "Tribunal de Justicia de la Comunidad Andina / Secretaría General CAN: interpretación prejudicial sobre DSI"
+   ],
+   "impacto_economico": "Las cifras de costo (S/ 0,5-1,5 millones únicos y S/ 0,3-0,8 millones/año) son estimaciones del redactor, con confianza baja. Los 424 casos de biopiratería y las 35 investigaciones de 2025 están atribuidos a la CNB y al MINAM; deben citarse así. La contribución al Fondo Cali es voluntaria e indicativa y no debe presentarse como un ingreso esperado para el Perú."
+  }
+ },
+ {
+  "id": "SOB-12",
+  "especialidad": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Tiene un diseño procedimental sólido: factores de riesgo tasados, plazos cortos, silencio positivo, resolución suprema motivada, control judicial y multas con tope en la ley. Hay tres problemas jurídicos. La obligación de notificar depende de la calificación como Activo Crítico Nacional, que no es pública, lo que afecta la previsibilidad y la culpabilidad. La suspensión automática de los derechos de voto en la revisión de oficio carece de garantías. Y la «orden de revertir» no regula sus efectos sobre la propiedad ni sobre terceros.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 3.1 a) y artículo 10.1 a)",
+    "problema": "El deber de notificar (y la infracción muy grave por omitirlo) depende de que el objetivo sea titular de un Activo Crítico Nacional. La relación de ACN gestionada conforme al D.S. 106-2017-PCM no es de acceso público (por verificar su clasificación), de modo que el adquirente puede ignorar sin culpa que está obligado. Sancionarlo vulnera los principios de tipicidad y culpabilidad (art. 248.4 y 248.10 del TUO de la Ley 27444, D.S. 006-2026-JUS) y la previsibilidad que la propia ley invoca.",
+    "correccion": "Agregar: «3.4 La autoridad competente comunica al titular del Activo Crítico Nacional su calificación para efectos de la presente ley. El titular informa dicha condición a quien negocie la adquisición de su control, bajo responsabilidad. Solo se sanciona la omisión de notificar cuando el adquirente conocía o debía conocer la calificación, o cuando el activo esté comprendido en el literal b) o c) del numeral 3.1.» Precisar en el art. 10 que la infracción requiere dolo o culpa."
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 9",
+    "problema": "La sola apertura del procedimiento de oficio suspende «los derechos políticos» de la participación adquirida, durante el plazo que dure, sin resolución motivada, audiencia ni posibilidad de impugnar. Es una medida provisional que restringe el derecho de propiedad (art. 70 de la Constitución) y debe cumplir el art. 157 del TUO de la Ley 27444: decisión motivada, proporcionalidad y revisabilidad.",
+    "correccion": "Redactar: «…Iniciado el procedimiento, la autoridad puede disponer, mediante resolución motivada y como medida provisional conforme al TUO de la Ley 27444, la suspensión total o parcial del ejercicio de los derechos políticos derivados de la participación adquirida, cuando sea indispensable para evitar un riesgo grave e inminente. La medida es impugnable sin efecto suspensivo y caduca con la resolución que pone fin al procedimiento.»"
+   },
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 8.2",
+    "problema": "La «orden de revertir una operación cerrada» no dice cómo se ejecuta (¿nulidad del contrato?, ¿desinversión?), en qué plazo, ni qué pasa con los terceros de buena fe, las inscripciones registrales y los derechos patrimoniales del adquirente. Una reversión forzosa sin reglas puede asimilarse a una privación de la propiedad fuera del supuesto del art. 70 de la Constitución y generar controversias inversionista-Estado.",
+    "correccion": "Redactar: «La orden de revertir dispone la desinversión de la participación adquirida en un plazo razonable no menor de seis meses, mediante su transferencia a terceros no vinculados en condiciones de mercado, sin afectar la validez de los actos celebrados con terceros de buena fe. Hasta la desinversión, quedan suspendidos los derechos políticos del adquirente. El incumplimiento constituye infracción muy grave.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 10.2",
+    "problema": "Remite la graduación al reglamento sin citar los criterios legales.",
+    "correccion": "Redactar: «…graduadas conforme a los criterios del numeral 3 del artículo 248 del TUO de la Ley 27444, aprobado por el Decreto Supremo 006-2026-JUS.»"
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "D.S. 106-2017-PCM (concordancia: comunicación de la calificación al titular)",
+    "Ley 31112, control previo de concentraciones (concordancia de plazos, sin modificar)"
+   ],
+   "entidades_implicadas": [
+    "SUNARP / CAVALI: inscripción y efectos de la desinversión"
+   ],
+   "impacto_economico": "El rango de S/ 1-2,5 millones/año es una estimación del redactor con confianza baja. No hay base pública del número de operaciones; declararlo como supuesto es correcto."
+  }
+ },
+ {
+  "id": "SOB-13",
+  "especialidad": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Es un régimen completo y técnicamente bien construido: autoridad (MINCETUR), lista por decreto supremo, licencias, silencio negativo justificado, exclusiones para investigación básica e información de dominio público, e infracciones tipificadas con multas fijadas en la ley. Las observaciones son la concurrencia con la vía penal aduanera (non bis in idem), el alcance territorial del corretaje y los criterios para controlar transferencias a extranjeros en el país.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 12.1",
+    "problema": "Prevé la sanción administrativa «sin perjuicio de la responsabilidad penal» de la Ley 28008. Exportar sin licencia una mercancía restringida puede configurar a la vez un delito aduanero y la infracción muy grave del art. 12.1 a), con identidad de sujeto, hecho y fundamento (protección del control aduanero). El non bis in idem (art. 248.11 del TUO de la Ley 27444) exige una regla de prelación.",
+    "correccion": "Agregar: «12.3 Cuando los hechos puedan constituir delito, la autoridad de control comunica al Ministerio Público y suspende el procedimiento sancionador respecto de la misma conducta hasta que exista pronunciamiento firme en la vía penal, sin perjuicio de las medidas provisionales y de la revocación de licencias, que tienen naturaleza distinta.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 2 c) y artículo 5.2",
+    "problema": "Somete a licencia el corretaje «entre terceros países» sin decir qué conexión con el Perú justifica la potestad: domicilio del corredor, actuación desde el territorio. La potestad sancionadora es territorial salvo una regla expresa.",
+    "correccion": "Agregar a la definición: «…realizada por personas naturales o jurídicas domiciliadas en el Perú o desde el territorio nacional.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 2 b)",
+    "problema": "La transferencia intangible a «una persona extranjera en el territorio nacional» queda enteramente al reglamento. Es una restricción basada en la nacionalidad que debe tener criterios en la ley por igualdad (art. 2.2 de la Constitución) y por reserva de ley.",
+    "correccion": "Agregar: «…cuando el reglamento así lo determine, solo respecto de tecnologías de las categorías de mayor sensibilidad de la Lista y de nacionales de Estados sujetos a embargo del Consejo de Seguridad de las Naciones Unidas o con riesgo acreditado de desvío conforme al artículo 7.»"
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "D.L. 1053, Ley General de Aduanas (concordancia: mercancías restringidas)",
+    "Ley 28008 (concordancia penal)"
+   ],
+   "impacto_economico": "Las cifras de costo (S/ 2-4 millones el primer año y S/ 1,5-3 millones/año) son estimaciones del redactor con confianza baja; el volumen de solicitudes es desconocido. La fórmula del art. 79 está aplicada."
+  }
+ },
+ {
+  "id": "CON-15",
+  "especialidad": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Incorpora bien el artículo 10-A en la Ley 28749, con metas indicativas y la regla de no recibir instalaciones sin un responsable de operación. La falla de coherencia interna es que el nuevo art. 10-A remite al inventario de «la ley que regula la energía para la conectividad rural», que es la propia ley modificatoria. Una vez incorporado el artículo a la Ley 28749, esa remisión queda equívoca. La entrega de activos a concesionarias tampoco prevé su conformidad ni el reconocimiento tarifario.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "ubicacion": "Artículo 2 (artículo 10-A.2) y artículo 3",
+    "problema": "El nuevo 10-A.2 de la Ley 28749 remite al «inventario a que se refiere la ley que regula la energía para la conectividad rural». Esa ley es la propia norma modificatoria, cuyo artículo 3 tiene contenido autónomo fuera de la Ley 28749. En el texto consolidado la referencia resultará oscura y, si se deroga la ley modificatoria, desaparecería la base del inventario.",
+    "correccion": "Incorporar el contenido del artículo 3 como numeral 10-A.4 de la Ley 28749 («El Ministerio de Energía y Minas elabora y actualiza anualmente un inventario georreferenciado… y lo publica en formato abierto…») y redactar el 10-A.2 como «…elaborado con la información del inventario previsto en el numeral 10-A.4…». Suprimir el artículo 3 autónomo."
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 5.1",
+    "problema": "Prevé que los sistemas se entreguen «preferentemente» a la concesionaria de distribución para que los opere con cargo a la tarifa rural, pero no exige su conformidad técnica ni que el Osinergmin reconozca esos costos en la tarifa. Sin eso, la concesionaria puede rechazar los activos o recibirlos sin remuneración.",
+    "correccion": "Agregar: «…previa conformidad técnica de la concesionaria y con el reconocimiento de los costos de operación, mantenimiento y reposición en la tarifa eléctrica rural que fije el Osinergmin conforme al artículo 14 de la Ley 28749.»"
+   },
+   {
+    "severidad": "baja",
+    "ubicacion": "Artículo 4.3 y artículo 9",
+    "problema": "Remiten a «la ley de la materia» (metas de conectividad, resiliencia de redes), que corresponde a propuestas (CON-13, CON-14) y no a leyes vigentes. Eso no impide aplicar la norma, pero es ambiguo.",
+    "correccion": "Redactar «…se rigen por la normativa vigente en la materia»."
+   }
+  ],
+  "aportes": {
+   "normas_a_modificar": [
+    "Ley 28749 (incorpora art. 10-A, incluido el inventario como 10-A.4)",
+    "D.S. 018-2020-EM (adecua)"
+   ],
+   "impacto_economico": "El costo de coordinación (S/ 0,3-0,8 millones/año) es una estimación del redactor; la inversión no está cuantificada, con confianza baja. El dato de S/ 183 millones en 14 proyectos (MINEM 2024) sirve como referencia de escala, no como costo de la medida."
+  }
+ }
+]

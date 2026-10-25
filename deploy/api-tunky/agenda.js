@@ -219,7 +219,7 @@ module.exports = function makeAgenda({ DATA_DIR, json: jsonBase, clean }) {
       const hist = (Array.isArray(b.hist) ? b.hist : []).slice(-4).map((m) => (m && m.r === "a" ? "Asistente: " : "Ciudadano: ") + txt(m && m.t, 500)).join("\n");
       const L = await indice();
       const ctx = recuperar(L, q + " " + hist.slice(-300)).slice(0, 5);
-      const contenido = `NOTAS INTERNAS para responder (no las menciones como "fichas", "fuentes" ni "contexto"; si la respuesta no está en ellas, dilo con honestidad):\n\n` +
+      const contenido = `NOTAS INTERNAS para responder (nunca digas "notas", "fichas", "ficha técnica", "fuentes" ni "contexto": habla como si lo supieras tú; si la respuesta no está en ellas, dilo con honestidad):\n\n` +
         `${ctx.length ? ctx.map(ficha).join("\n\n") : "(no hay una propuesta de la agenda sobre esto)"}\n\n` +
         (hist ? `LO QUE YA HABLARON:\n${hist}\n\n` : "") +
         `CÓMO RESPONDER: como una persona cercana que conversa, en español peruano sencillo, tuteando. Empieza conectando con lo que la persona siente o necesita. ` +

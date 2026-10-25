@@ -62,14 +62,11 @@ propuestas no tienen `revision_atendida` NO se publican salvo `--borradores`.
    están registrados en `EJES` de scripts/build.py (colores #b45309 y #4f46e5). Actualizar textos "84" → total real
    donde esté fijo (index.html usa el total dinámico; README/portafolio dicen 84).
 2. [x] ~~Instalar la app giscus~~ (descartado: foro propio en Tunky) (lo hace Carlos en github.com/apps/giscus → solo este repo). Sin eso no cargan los hilos.
-3. [ ] **Asistente con IA** (desde otra sesión; el clasificador de esta sesión bloqueó escribir el .env del gateway y
-   meter token en el front): dar de alta el proyecto `agenda-tech` en ai.tunky.net (token cliente en CLIENT_TOKENS +
-   persona en /opt/ai-tunky-gateway/data/prompts.json + `docker compose up -d --force-recreate`; ver memoria
-   project_ai_tunky_gateway) y conectar `preguntar()` en assets/app.js: POST https://ai.tunky.net/v1/chat con header
-   X-Client-Token, body {project:"agenda-tech", messages}; contexto = top-5 de `buscar()` con id, título, sumilla,
-   entidades, costo, beneficio. Mantener `responder()` actual como respaldo si el gateway falla. Persona: máx. 4
-   frases, solo propuestas del contexto, citar códigos (IA-07), aclarar que son propuestas ciudadanas, sin opinar de
-   partidos/políticos, remitir a #tramite.
+3. [x] **Asistente con IA** LIVE (25-oct-2026): POST api.tunky.net/agenda/chat → ai.tunky.net (proyecto `agenda-tech`,
+   token solo en servidor AGENDA_AI_TOKEN, modelo openai/gpt-oss-20b:free, 15 s + reintento 12 s). Recuperación top-5 desde
+   indice.json con sinónimos cotidianos; guía de estilo cercana. Probado: tono humano 5–12 s, rechaza opinión partidaria y
+   prompt injection, no inventa montos. Respaldo offline `responder()` en app.js. Pendiente menor: redeploy del ajuste
+   que prohíbe decir "notas/ficha".
 4. [ ] **Diseño:** Carlos dice que la página "está un poquito fea". Mejorar la portada (hero con ilustración/mapa,
    tarjetas más visuales por eje, iconos por eje, menos texto denso), versión móvil del listado, y miniaturas del
    "mapa de la ley" en las tarjetas. Mantener mobile-first y modo claro/oscuro.

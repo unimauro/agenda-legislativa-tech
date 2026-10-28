@@ -144,7 +144,7 @@
   }
   // Respuesta con IA (api.tunky.net/agenda/chat: el servidor busca las propuestas y llama al modelo); si falla, modo sin IA.
   const HIST = [];
-  const enlazar = (t) => esc(String(t).replace(/^\s*#{1,6}\s*/gm, "").replace(/^\s*>\s?/gm, "").replace(/^\s*[*-]\s+/gm, "• ")).replace(/\*\*([^*]+)\*\*/g, "<b>$1</b>")
+  const enlazar = (t) => esc(String(t).replace(/\b([A-Z]{2,3})[\u2010-\u2015\u2212](\d{2})\b/g, "$1-$2").replace(/^\s*#{1,6}\s*/gm, "").replace(/^\s*>\s?/gm, "").replace(/^\s*[*-]\s+/gm, "• ")).replace(/\*\*([^*]+)\*\*/g, "<b>$1</b>")
     .replace(/\b((?:IA|CIB|GOB|CON|ECO|TAL|SOB|DER)-\d{2})\b/g, (m) => `<a href="p/${m}.html"><b>${m}</b></a>`)
     .replace(/(^|\s)#(tramite|ciudadania|foro|vision)\b/g, (_, a, k) => `${a}<a href="${k}.html">${k}</a>`).replace(/\n/g, "<br>");
   async function preguntaIA(q) {

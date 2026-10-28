@@ -84,8 +84,7 @@ propuestas no tienen `revision_atendida` NO se publican salvo `--borradores`.
 3. [x] **Asistente con IA** LIVE (25-oct-2026): POST api.tunky.net/agenda/chat → ai.tunky.net (proyecto `agenda-tech`,
    token solo en servidor AGENDA_AI_TOKEN, modelo openai/gpt-oss-20b:free, 15 s + reintento 12 s). Recuperación top-5 desde
    indice.json con sinónimos cotidianos; guía de estilo cercana. Probado: tono humano 5–12 s, rechaza opinión partidaria y
-   prompt injection, no inventa montos. Respaldo offline `responder()` en app.js. Pendiente menor: redeploy del ajuste
-   que prohíbe decir "notas/ficha".
+   prompt injection, no inventa montos. Respaldo offline `responder()` en app.js. Ajuste que prohíbe decir "notas/ficha" redesplegado (28-oct).
 4. [ ] **Diseño:** Carlos dice que la página "está un poquito fea". Mejorar la portada (hero con ilustración/mapa,
    tarjetas más visuales por eje, iconos por eje, menos texto denso), versión móvil del listado, y miniaturas del
    "mapa de la ley" en las tarjetas. Mantener mobile-first y modo claro/oscuro.

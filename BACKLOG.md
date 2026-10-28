@@ -53,8 +53,11 @@ propuestas no tienen `revision_atendida` NO se publican salvo `--borradores`.
 - GOB-21, GOB-23 y SOB-11 REQUIEREN consulta previa (Convenio 169) antes del Pleno.
 
 ### Pendientes que dejó esta tanda
-- [ ] **Ley 32353 (27-05-2025)** CONFIRMADO (revisión SPIJ de Agenda País, 28-oct-2026): derogó la Ley 28015, el DL 1086 y los arts. 10-19 y 23 de la Ley 30056, y dejó sin efecto el TUO D.S. 013-2013-PRODUCE —
-      revisar ECO-14 y toda propuesta antigua que cite ese TUO (ECO-15/17 ya remiten "al régimen vigente").
+- [x] **Ley 32353 (27-05-2025)** (28-oct-2026): según su ficha técnica entra en vigencia al día siguiente de publicado su
+      reglamento (no ubicado a oct-2026); recién entonces deroga la Ley 28015, el DL 1086 y la parte MYPE de la Ley 30056 y deja
+      sin efecto el TUO D.S. 013-2013-PRODUCE. ECO-15/17, SOB-07 y TAL-02 remiten "al TUO o, desde su entrada en vigor, a la Ley
+      32353". ECO-14 no cita esas normas. ECO-15 es el instrumento que integra el RER al RMT; ECP-23 de Agenda País depende de él.
+- [ ] Vigilar la publicación del reglamento de la Ley 32353 y, cuando salga, retirar las remisiones al TUO.
 - [ ] Verificar en SPIJ numeraciones marcadas "por verificar": literal nuevo art. 29.2 DL 1350 (TAL-15), literal art. 19 TUO CTS
       (TAL-16), art. 13 LOPE (GOB-18), art. 4 Ley 29029 (GOB-19), arts. 18/57/120/121 Ley 29338 (SOB-10), Leyes 28832 y 28749,
       arts. 15/20 Ley 29735 (GOB-23), nuevo artículo Ley 31335 (ECO-22), numeración del TUO 27444 (D.S. 006-2026-JUS).

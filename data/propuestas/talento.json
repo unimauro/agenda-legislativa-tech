@@ -436,7 +436,7 @@
       {
         "n": "Artículo 6",
         "titulo": "Componente MYPE",
-        "texto": "El componente dirigido a la micro y pequeña empresa incluye, como mínimo, formación en comercio electrónico, medios de pago digitales, facturación electrónica, seguridad digital básica y atención al cliente en canales digitales, y se articula con los servicios de desarrollo empresarial del Ministerio de la Producción previstos en el Texto Único Ordenado de la Ley de Impulso al Desarrollo Productivo y al Crecimiento Empresarial, aprobado por Decreto Supremo 013-2013-PRODUCE."
+        "texto": "El componente dirigido a la micro y pequeña empresa incluye, como mínimo, formación en comercio electrónico, medios de pago digitales, facturación electrónica, seguridad digital básica y atención al cliente en canales digitales, y se articula con los servicios de desarrollo empresarial del Ministerio de la Producción previstos en el Texto Único Ordenado de la Ley de Impulso al Desarrollo Productivo y al Crecimiento Empresarial, aprobado por Decreto Supremo 013-2013-PRODUCE, o, desde su entrada en vigor, en la Ley 32353, Ley para la Formalización, Desarrollo y Competitividad de la Micro y Pequeña Empresa."
       },
       {
         "n": "Artículo 7",
@@ -472,7 +472,7 @@
       }
     ],
     "costo_beneficio": "No impone gasto nuevo: se formula como líneas de intervención en programas y servicios existentes del MIMP y PRODUCE, con metas indicativas sujetas a disponibilidad presupuestal (art. 79 de la Constitución; STC 00018-2023-PI/TC), apoyándose en infraestructura existente (CIAM, bibliotecas, colegios) y en voluntariado. Se estima, como orden de magnitud, entre S/ 2 y 6 millones anuales si se atiende a 50 mil participantes al año. El canal asistido ya existe en la mayoría de entidades; el costo marginal es su señalización y protocolos. Los beneficios incluyen menores costos de transacción para acceder a servicios digitales, menor exposición a fraudes, mayor productividad de las MYPE y menor carga de atención presencial en el mediano plazo. Si se amplía la cobertura, requiere coordinación con el Poder Ejecutivo e informe previo del MEF.",
-    "efecto_vigencia": "Desarrolla el artículo 23 de la Ley 29904 y complementa la Ley 30490, Ley de la Persona Adulta Mayor; el Decreto Legislativo 1412 y su reglamento (Decreto Supremo 029-2021-PCM); y el TUO aprobado por Decreto Supremo 013-2013-PRODUCE. Se aplica de conformidad con la Ley 28238. No modifica ni deroga normas con rango de ley.",
+    "efecto_vigencia": "Desarrolla el artículo 23 de la Ley 29904 y complementa la Ley 30490, Ley de la Persona Adulta Mayor; el Decreto Legislativo 1412 y su reglamento (Decreto Supremo 029-2021-PCM); y el TUO aprobado por Decreto Supremo 013-2013-PRODUCE (o la Ley 32353 desde su entrada en vigor). Se aplica de conformidad con la Ley 28238. No modifica ni deroga normas con rango de ley.",
     "normas_relacionadas": [
       {
         "norma": "Ley 30490, Ley de la Persona Adulta Mayor",
@@ -758,6 +758,13 @@
         "hallazgo": "Sin antecedentes.",
         "accion": "corregido",
         "nota": "Códigos 00595/2021-CR y 01349/2021-CR."
+      },
+      {
+        "especialidad": "normativo",
+        "severidad": "media",
+        "hallazgo": "(Revisión SPIJ, 28-oct-2026) La Ley 32353 deja sin efecto el TUO D.S. 013-2013-PRODUCE cuando entre en vigencia (día siguiente de publicado su reglamento)",
+        "accion": "corregido",
+        "nota": "Remisión al TUO vigente o, desde su entrada en vigor, a la Ley 32353."
       }
     ]
   },
